@@ -1,0 +1,28 @@
+var semantics = function(params) {
+  return function(state) {
+    return {
+    red: ["smallred","bigred"].includes(state) ? params.colorNoiseVal : 1 - params.colorNoiseVal ,
+    blue:  ["smallblue","bigblue"].includes(state) ? params.colorNoiseVal : 1 - params.colorNoiseVal ,
+    pin: ["bigblue", "smallblue", "bigred", "smallred"].includes(state) ? 1 : 0,
+    big: ["bigred","bigblue"].includes(state) ? params.sizeNoiseVal : 1 - params.sizeNoiseVal,
+    small: ["smallred","smallblue"].includes(state) ? params.sizeNoiseVal : 1 - params.sizeNoiseVal,
+    STOP : 1, 
+    START : 1
+  }
+  }
+}
+
+var model = function(params) {
+  return {
+    words : ['red', 'blue', 'big', 'small', 'pin', 'STOP', 'START'],
+    wordCost: {
+      "blue" : params.colorCost,
+      "red" : params.colorCost,
+      "big" : params.sizeCost,
+      "small" : params.sizeCost,
+      "pin" : params.nounCost,
+      'STOP'  : 0,
+      'START'  : 0
+    },
+  }
+}

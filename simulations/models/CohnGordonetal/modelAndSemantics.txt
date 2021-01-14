@@ -1,0 +1,24 @@
+var semantics = function(params) {
+return function(state) {
+ return {
+    red: ["R1","R3"].includes(state) ? 1 : 0,
+    dress: ["R1", "R2"].includes(state) ? 1 : 0,
+    object: 1,
+    STOP : 1, 
+    START : 1
+    }
+  }
+};
+
+var model = function(params) {
+  return {
+    words : ['red', 'dress', 'object','STOP', 'START'],
+    wordCost: {
+      "red" : 0,
+      "dress" : 0,
+      "object" : 0,
+      'STOP'  : 0,
+      'START'  : 0
+    },
+  }
+}
