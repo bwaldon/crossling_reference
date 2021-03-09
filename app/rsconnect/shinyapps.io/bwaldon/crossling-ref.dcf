@@ -1,0 +1,12 @@
+name: crossling-ref
+title: crossling-ref
+username:
+account: bwaldon
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 3612360
+bundleId: 4230924
+url: https://bwaldon.shinyapps.io/crossling-ref/
+when: 1613496200.77315
+asMultiple: FALSE
+asStatic: FALSE

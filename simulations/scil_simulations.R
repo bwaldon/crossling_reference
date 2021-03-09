@@ -113,10 +113,18 @@ modelout <- function(cmd, alpha, sizeNoiseVal, colorNoiseVal, sizeCost, colorCos
 
 # write_file(m_test, "test_model.txt")
 
+# VALDF FOR SCIL PAPER
+
 valDF <- data.frame("colorNoise" = c(0.5,0.6,0.7,0.8,0.9,1), "sizeNoise" = c(0.5,0.6,0.7,0.8,0.9,1), "alpha" = c(1,2.5,15,10,20,30))
 valDF <- valDF %>%
   expand(colorNoise, sizeNoise, alpha) %>%
   filter(alpha %in% c(5,10,15,20))
+
+# VALDF FOR SCIL APP
+
+valDF <- data.frame("colorNoise" = c(0.5,0.6,0.7,0.8,0.9,1), "sizeNoise" = c(0.5,0.6,0.7,0.8,0.9,1), "alpha" = c(1,2.5,5,10,15,20))
+valDF <- valDF %>%
+  expand(colorNoise, sizeNoise, alpha)
 
 # COLOR-SUFFICIENT SCENARIO 
 
@@ -257,8 +265,11 @@ graph <- function(probArray) {
   toGraph <- data.frame(matrix(NA, nrow = 4, ncol = 3))
   colnames(toGraph) <- c("language", "behavior", "probability")
   toGraph$language <- c("English", "English", "Spanish-postnom.", "Spanish-postnom.")
-  toGraph$behavior <- c("Redundant color adjective (SS)", "Redundant size adjective (CS)", 
-                        "Redundant color adjective (SS)", "Redundant size adjective (CS)")
+  # toGraph$behavior <- c("Redundant color adjective (SS)", "Redundant size adjective (CS)", 
+                        # "Redundant color adjective (SS)", "Redundant size adjective (CS)")
+  # LABELS FOR POSTER
+  toGraph$behavior <- c("Redundant color adjective", "Redundant size adjective", 
+                        "Redundant color adjective", "Redundant size adjective") 
   toGraph$probability <- probArray
   
   p <- ggplot(toGraph, aes(x=language, y=probability, fill = behavior)) +
@@ -267,7 +278,9 @@ graph <- function(probArray) {
     ylab(element_blank()) +
     xlab(element_blank()) +
     geom_bar(stat="identity",position = "dodge") +
-    scale_fill_viridis(discrete = TRUE) +
+    # scale_fill_viridis(discrete = TRUE) +
+    # color for the poster
+    scale_fill_manual(values=c("#4287f5","#fff200")) +
     # for hypothetical graphs
     theme(legend.title = element_blank(), legend.position="none", # axis.text.x = element_blank(),
           axis.text.x = element_text(angle = 20, hjust=1),
@@ -366,14 +379,14 @@ v4 <- as.numeric(modelout(cmd_sp_postnom_inc, incalpha, sizeNoise = 0.8, colorNo
                           colorCost = colorCost, sizeCost = sizeCost, nounCost = 0,
                           states_cs, utterances_sp_postnom_cs))
 
-cincrsaGraph <- graph(c(v1,v2,v3,v4)) + ggtitle("Continuous\n-incremental RSA")
+cincrsaGraph <- graph(c(v1,v2,v3,v4)) + ggtitle("Continuous\n-incremental RSA") 
 
 graphs <- arrangeGrob(grobs = list(standardGraph,crsaGraph,incGraph,cincrsaGraph), ncol = 2, left = 'Probability of utterance')
 legend <- plot_grid(get_legend(standardGraph + theme(legend.position = "bottom")))
 
 g <- arrangeGrob(graphs, legend, ncol = 1, heights=c(0.9, 0.1))
 
-ggsave(g, file = "modelcomparison.pdf", height = 4, width = 4, units = "in", dpi = 1000)
+ggsave(g, file = "modelcomparison_poster.pdf", height = 4, width = 4, units = "in", dpi = 1000)
 
 cincrsaGraph + theme(legend.position = "bottom")
 
