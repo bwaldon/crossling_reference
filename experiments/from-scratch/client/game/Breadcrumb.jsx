@@ -1,20 +1,32 @@
 import React from "react";
-// from Robert Hawkins
 
-export default class customBreadcrumb extends React.Component {
+import { Breadcrumb as Crumb, Classes } from "@blueprintjs/core";
+
+export default class Breadcrumb extends React.Component {
   render() {
-    const { game, round, stage } = this.props;
+    const { round, stage, game } = this.props;
+
     return (
-      <ul className="breadcrumb">
-      <li>Round {round.index + 1} / {game.get('length')}</li>
-      {round.stages.map(s => (
-        <li key={s.name} className={s.name === stage.name ? "current" : ""}>
-        {s.displayName}
-        </li>
-        ))}
-      </ul>
+      <nav className="round-nav">
+        <ul className={Classes.BREADCRUMBS}>
+          <li>
+            <Crumb text={`Round ${round.index + 1} / ${game.get('length')}`} />
+          </li>
+          {round.stages.map(s => {
+            const disabled = s.name !== stage.name;
+            const current = disabled ? "" : Classes.BREADCRUMB_CURRENT;
+            return (
+              <li key={s.name}>
+                <Crumb
+                  text={s.displayName}
+                  disabled={disabled}
+                  className={current}
+                />
+              </li>
+            );
+          })}
+        </ul>
+      </nav>
     );
   }
 }
-
-

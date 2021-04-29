@@ -7,6 +7,7 @@ import Round from "./game/Round";
 import Consent from "./intro/Consent";
 import InstructionStepOne from "./intro/InstructionStepOne";
 import InstructionStepTwo from "./intro/InstructionStepTwo";
+import customBreadCrumb from './game/Breadcrumb.jsx'
 import Quiz from "./intro/Quiz";
 import customBreadCrumb from './game/Breadcrumb.jsx'
 
@@ -45,7 +46,7 @@ Empirica.exitSteps((game, player) => {
   return [ExitSurvey, Thanks];
 });
 
-// Empirica.breadcrumb(customBreadCrumb);
+Empirica.breadcrumb(customBreadCrumb);
 
 // Start the app render tree.
 // NB: This must be called after any other Empirica calls (Empirica.round(),
