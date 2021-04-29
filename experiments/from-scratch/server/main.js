@@ -14,7 +14,9 @@ import { scenes } from "./scenes.js"
 // the game.
 
 import { colorSizeIDsToName } from './itemIDsToName.js';
-import { subSuperIDsToName } from './itemIDsToName.js';
+import { subToBasicAndSup } from './supSupTrialsItems.js';
+import { supToBasicsToSubs } from './supSupTrialsItems.js';
+import { subSupTrialsTargets } from './supSupTrialsItems.js';
 
 function generateScenes() {
     const colorSizeDistractorConditions = [
@@ -72,107 +74,82 @@ function generateScenes() {
         }
     }
 
-    var basicStimuliTypes = new Set();
-    var subStimuliTypes = new Set();
-    var supStimuliTypes = new Set();
-    var supTypeToBasicTypes = {};
-    
-    let subSuperStimuli = Object.keys(subSuperIDsToName);
-    for (i in subSuperStimuli)
+    for (i in subSupTrialsTargets)
     {
-        basicSubSuper = getBasicSubSuperFromID(subSuperStimuli[i]);
-        basic = basicSubSuper[0];
-        sub = basicSubSuper[1];
-        sup = basicSubSuper[2];
-    
-        basicStimuliTypes.add(basic);
-        subStimuliTypes.add(sub);
-        supStimuliTypes.add(sup);
-        
-        if (!(sup in supTypeToBasicTypes))
-        {
-            supTypeToBasicTypes[sup] = new Set();
-        }
-        supTypeToBasicTypes[sup].add(basic);
-    }
-    
-    for (i in subSuperStimuli)
-    {
-        basicSubSuper = getBasicSubSuperFromID(subSuperStimuli[i]);
-        basic = basicSubSuper[0];
-        sub = basicSubSuper[1];
-        sup = basicSubSuper[2];
-    
+        let targetSub = subSupTrialsTargets[i];
+        let basicAndSup = subToBasicAndSup[targetSub];
+        let targetBasic = basicAndSup[0];
+        let targetSup = basicAndSup[1];
+
+        let contextMode = _.sample(['subNec', 'basicSuff', 'supSuff']);
+
         let distractor1;
         let distractor2;
-    
-        if (supTypeToBasicTypes[sup].size == 1)
+
+        if (contextMode == 'subNec')
         {
-            // can only do Superordinate Sufficient context
-            distractor1 = 'blackStimulus';
-            distractor2 = 'blackStimulus';
+            // one distractor of the same basic category and one distractor of the same superordinate category (e.g., target: dalmatian, distractors: greyhound [also a dog] and squirrel [also an animal])
+            distractor1 = sampleElementExceptOne(targetSub,
+                                                supToBasicsToSubs[targetSup][targetBasic],
+                                                false);
+            
+            let otherBasic = _.sample(Array.from(Object.keys(supToBasicsToSubs[targetSup])));
+            distractor2 = sampleElementExceptOne(targetSub,
+                                                supToBasicsToSubs[targetSup][otherBasic],
+                                                false);
+
+            /*
+            // alternative implementation, ensures distractor #2 has different basic category
+            let otherBasic = sampleElementExceptOne(targetBasic,
+                                                    Array.from(Object.keys(supToBasicsToSubs[targetSup])),
+                                                    false);
+            distractor2 = _.sample(supToBasicsToSubs[targetSup][otherBasic]);
+            */
+        }
+        else if (contextMode == 'basicSuff')
+        {
+            if ((_.sample(['type1', 'type2']) == 'type1') && false)
+            {
+                // two distractors of the same superordinate category but different basic category as the target (e.g., target: husky, distractors: hamster and elephant)
+                let twoOtherBasics = sampleElementExceptOne(targetBasic,
+                                                            Array.from(Object.keys(supToBasicsToSubs[targetSup])),
+                                                            true);
+                distractor1 = _.sample(supToBasicsToSubs[targetSup][twoOtherBasics[0]]);
+                distractor2 = _.sample(supToBasicsToSubs[targetSup][twoOtherBasics[1]]);
+            }
+            else
+            {
+                // one distractor of the same superordinate category and one unrelated item
+                let otherBasic = sampleElementExceptOne(targetBasic,
+                                                        Array.from(Object.keys(supToBasicsToSubs[targetSup])),
+                                                        false);
+                distractor1 = _.sample(supToBasicsToSubs[targetSup][otherBasic]);
+
+                let otherSup = sampleElementExceptOne(targetSup,
+                                                    Array.from(Object.keys(supToBasicsToSubs)),
+                                                    false);
+                let someBasic = _.sample(Array.from(Object.keys(supToBasicsToSubs[otherSup])));
+                distractor2 = _.sample(supToBasicsToSubs[otherSup][someBasic]);
+            }
         }
         else
         {
-            let context = _.sample(['subNec', 'basicSuff', 'supSuff']);
-            if (context == 'subNec')
-            {
-                supTypeToBasicTypes[sup].delete(basic);
-                let distractorBasic = _.sample(Array.from(supTypeToBasicTypes[sup]));
-                supTypeToBasicTypes[sup].add(basic);
-    
-                distractor1 = subSuperIDsToName[getBasicSubSuperID(distractorBasic,
-                                                                   _.sample(Array.from(subStimuliTypes)),
-                                                                   sup)];
-                
-                subStimuliTypes.delete(sub);
-                let distractorSub = _.sample(Array.from(subStimuliTypes));
-                subStimuliTypes.add(sub);
-    
-                distractor2 = subSuperIDsToName[getBasicSubSuperID(basic,
-                                                                   distractorSub,
-                                                                   sup)];
-            }
-            if (context == 'basicSuff')
-            {
-                let subcontext = _.sample(['basicSuffType1', 'basicSuffType2']);
-                if (subcontext == 'basicSuffType1')
-                {
-                    supTypeToBasicTypes[sup].delete(basic);
-                    let distractorBasic1 = _.sample(Array.from(supTypeToBasicTypes[sup]));
-                    supTypeToBasicTypes[sup].delete(distractorBasic1);
-                    let distractorBasic2 = _.sample(Array.from(supTypeToBasicTypes[sup]));
-                    supTypeToBasicTypes[sup].add(basic);
-                    supTypeToBasicTypes[sup].add(distractorBasic1);
-    
-                    distractor1 = subSuperIDsToName[getBasicSubSuperID(distractorBasic1,
-                                                                       _.sample(Array.from(subStimuliTypes)),
-                                                                       sup)];
-                    distractor2 = subSuperIDsToName[getBasicSubSuperID(distractorBasic2,
-                                                                       _.sample(Array.from(subStimuliTypes)),
-                                                                       sup)];
-                }
-                else
-                {
-                    supTypeToBasicTypes[sup].delete(basic);
-                    let distractorBasic = _.sample(Array.from(supTypeToBasicTypes[sup]));
-                    supTypeToBasicTypes[sup].add(basic);
-    
-                    distractor1 = subSuperIDsToName[getBasicSubSuperID(distractorBasic,
-                                                                       _.sample(Array.from(subStimuliTypes)),
-                                                                       sup)];
-                    
-                    distractor2 = 'blackStimulus';
-                }
-            }
-            if (context == 'supSuff')
-            {
-                distractor1 = 'blackStimulus';
-                distractor2 = 'blackStimulus';
-            }
+            // two unrelated items
+            let twoOtherSups = sampleElementExceptOne(targetSup,
+                                                    Array.from(Object.keys(supToBasicsToSubs)),
+                                                    true);
+            let someBasic = _.sample(Array.from(Object.keys(supToBasicsToSubs[twoOtherSups[0]])));
+            distractor1 = _.sample(supToBasicsToSubs[twoOtherSups[0]][someBasic]);
+            let anotherBasic = _.sample(Array.from(Object.keys(supToBasicsToSubs[twoOtherSups[1]])));
+            distractor2 = _.sample(supToBasicsToSubs[twoOtherSups[1]][anotherBasic]);
         }
+        // console.log(`${targetSub} ${targetBasic} ${targetSup}`);
+        // console.log(`${distractor1} ${subToBasicAndSup[distractor1][0]} ${subToBasicAndSup[distractor1][1]}`);
+        // console.log(`${distractor2} ${subToBasicAndSup[distractor2][0]} ${subToBasicAndSup[distractor2][1]}`)
+        // console.log()
+
         scenes.push({
-            'TargetItem': subSuperIDsToName[getBasicSubSuperID(basic, sub, sup)],
+            'TargetItem': targetSub,
             'alt1Name': distractor1,
             'alt2Name': distractor2,
             'alt3Name': 'IGNORE',
@@ -181,6 +158,27 @@ function generateScenes() {
         });
     }
     return scenes;
+}
+
+function sampleElementExceptOne(needle, haystack, sampleTwo)
+{
+    let array = haystack.slice(0);
+    let index = array.indexOf(needle);
+
+    if (index > -1)
+        array.splice(index, 1);
+    
+    let firstSampledItem = _.sample(array);
+
+    if (!(sampleTwo))
+        return firstSampledItem;
+    
+    index = array.indexOf(firstSampledItem);
+    array.splice(index, 1)
+
+    let secondSampledItem = _.sample(array);
+
+    return [firstSampledItem, secondSampledItem];
 }
 
 function getSceneFromStimuli(nTotalDistractors, nRedundantDistractors, targetStimulus, redundantStimulus, otherStimulus)
@@ -210,42 +208,6 @@ function getColorSizeIDString(itemID, sizeID, colorID)
             itemID.toString() + '_' +
             sizeID.toString() + '_' +
             colorID.toString())
-}
-
-function getBasicSubSuperFromID(string)
-{
-    let basicSubSuper = string.slice(17).split('_');
-    let basic = parseInt(basicSubSuper[0]);
-    let sub = parseInt(basicSubSuper[1]);
-    let sup = parseInt(basicSubSuper[2]);
-
-    return [basic, sub, sup];
-}
-
-function getBasicSubSuperID(basic, sub, sup)
-{
-    return ('subSuperStimulus_' +
-            basic.toString() + '_' +
-            sub.toString() + '_' +
-            sup.toString())
-}
-
-function getBasicSubSuperFromID(string)
-{
-    let basicSubSuper = string.slice(17).split('_');
-    let basic = parseInt(basicSubSuper[0]);
-    let sub = parseInt(basicSubSuper[1]);
-    let sup = parseInt(basicSubSuper[2]);
-
-    return [basic, sub, sup];
-}
-
-function getBasicSubSuperID(basic, sub, sup)
-{
-    return ('subSuperStimulus_' +
-            basic.toString() + '_' +
-            sub.toString() + '_' +
-            sup.toString())
 }
 
 Empirica.gameInit(game => {
