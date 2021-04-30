@@ -1,0 +1,32 @@
+Line 40: Instructions 操作说明
+
+Line 46: A Fun Guessing Game 一个有趣的游戏
+
+Line 50: In this experiment, you will play a guessing game with another person! On each round, both of you will see some pictures, like this:
+在这个实验中，你将会和另一个人做一个有趣的互动游戏！在每一轮，你们两个人都将看见类似于以下展示的图片：
+
+Line 55: You’ll see the same 4 pictures. But the orders they are in will be different.
+你们将看见一样的四张图片，但你们看见的顺序是不同的。
+
+Line 58-62: One of you will be assigned the Director and the other will be the Guesser. For each round, one of the four objects is the target, which can be identified by a green box around it. Only the director can see which object is the target. The task of the director is to tell the guesser which one of the objects is the target and the guesser in turn needs to select the right object based on this information provided by the speaker. Remember that it doesn’t make sense to describe the location of the target object, since the order of the images is different for the director and the guesser.
+你们其中一人负责描述，另外一人负责指认。在每一轮中，四个物体中有一个目标物体在绿色方框内。只有描述者能看见目标物体，而描述者的任务是对另一个人描述目标物体，负责指认的一方则需要根据对方的描述选择正确的物体。描述者请记住形容目标物体的位置并不会有帮助，因为游戏双方看到的图片位置是不一样的。
+
+Line69: Only the director can see which object is the target for this round.
+本轮游戏中 只有描述者才能知道哪一个是目标物体。
+
+Line73-74: To communicate, you’ll have a chat box where you can send messages back and forth to each other. Here’s where the director can say which object is the target and the guesser can ask for clarifications if what the speaker said is not clear.
+你们将使用一个聊天窗口来进行沟通。在聊天窗口中，描述者可以形容什么是正确的物体，当描述不清晰时，负责指认正确图片的人也可以通过聊天窗口提问。
+
+Line82-83: Once the speaker sends a message and the listener clicks on the object they believe is the target, the speaker is briefly shown which object the listener clicked on (the clicked object has a red square around it) and you will both be automatically forwarded to the next round of objects. There are a total of 32 rounds. After the 32nd round, you will fill out a quick 15-second survey and be on your way.
+当描述者发出消息且指认者点击认为正确的选项后，指认者的选择结果将会被短暂地展示给说话者。接着双方都会自动进入下一轮。游戏一共有32轮。当第32轮结束之后，你将填写一个短暂的15秒调查。
+
+Line 86: Two final notes: Since you are playing with another person, you may see this screen before the game begins:
+温馨提示：因为这是双人游戏，所有你可能在游戏开始之前看到以下界面：
+请耐心等待。另一个人将在几分钟内加入游戏。
+
+Line 95-97: Finally, please DO NOT refresh the page at any point once you start the game (including the waiting page). If you refresh, you will not be able to rejoin the game you were in and you and your partner may not be able to submit the task. Thank you!
+最后，一旦开始游戏后请不要在游戏的任何环节刷新页面（包括等待页面）。如果你刷新了页面，你将不能再次加入之前的游戏，并且你和你的搭档将不能提交任务。感谢您的配合！
+
+Line 101-102: Please fill out this short quiz below before getting started.
+Good luck and have fun!
+请在开始游戏之前填写这个短暂的测试。祝您好运！
