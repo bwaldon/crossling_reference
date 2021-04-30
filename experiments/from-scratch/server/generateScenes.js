@@ -95,7 +95,7 @@ exports.generateScenes = function generateScenes() {
         }
         else if (contextMode == 'basicSuff')
         {
-            if ((_.sample(['type1', 'type2']) == 'type1') && false)
+            if ((_.sample(['type1', 'type2']) == 'type1'))
             {
                 // two distractors of the same superordinate category but different basic category as the target (e.g., target: husky, distractors: hamster and elephant)
                 let twoOtherBasics = sampleElementExceptOne(targetBasic,
@@ -194,5 +194,5 @@ function getColorSizeIDString(itemID, sizeID, colorID)
     return ('colorSizeStimulus_' +
             itemID.toString() + '_' +
             sizeID.toString() + '_' +
-            colorID.toString())
+            colorID.toString());
 }
