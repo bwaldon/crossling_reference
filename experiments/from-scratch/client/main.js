@@ -9,7 +9,6 @@ import InstructionStepOne from "./intro/InstructionStepOne";
 import InstructionStepTwo from "./intro/InstructionStepTwo";
 import customBreadCrumb from './game/Breadcrumb.jsx'
 import Quiz from "./intro/Quiz";
-import customBreadCrumb from './game/Breadcrumb.jsx'
 
 // Set the About Component you want to use for the About dialog (optional).
 Empirica.about(About);

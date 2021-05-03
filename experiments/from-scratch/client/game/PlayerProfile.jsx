@@ -25,6 +25,8 @@ export default class PlayerProfile extends React.Component {
   render() {
     const { stage, round, player } = this.props;
 
+    const timer = stage.name === "feedback" ? <Timer stage={stage} /> : null
+
     return (
       <aside className="player-profile">
         <div style = {{align: 'center'}}> <h4> You are the <u>{player.get('role')}</u>. </h4></div>
@@ -32,7 +34,7 @@ export default class PlayerProfile extends React.Component {
         <Chat player={player} scope={round} 
         customKey="gameChat" onNewMessage={this.updateChat} />
         </div>
-        <Timer stage={stage} />
+        {timer}
 
       </aside>
     );

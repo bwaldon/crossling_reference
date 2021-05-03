@@ -41,7 +41,7 @@ Empirica.gameInit(game => {
     round.addStage({
       name: "response",
       displayName: "Task",
-      durationInSeconds: 180,
+      durationInSeconds: 360,
     });
     round.addStage({
       name: "feedback",
