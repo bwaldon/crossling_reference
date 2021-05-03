@@ -1,0 +1,207 @@
+var semantics = function(params) {
+  return function(state) {
+    var features = state.split('-')
+    return {
+      "1" : features[0] == "1" ? params.numberNoiseVal : 1 - params.numberNoiseVal, 
+      "2" : features[0] == "2" ? params.numberNoiseVal : 1 - params.numberNoiseVal, 
+      "3" : features[0] == "3" ? params.numberNoiseVal : 1 - params.numberNoiseVal, 
+      "4" : features[0] == "4" ? params.numberNoiseVal : 1 - params.numberNoiseVal, 
+      "black" : features[1] == "black" ? params.colorNoiseVal : 1 - params.colorNoiseVal, 
+      "blue" : features[1] == "blue" ? params.colorNoiseVal : 1 - params.colorNoiseVal, 
+      "brown" : features[1] == "brown" ? params.colorNoiseVal : 1 - params.colorNoiseVal, 
+      "green" : features[1] == "green" ? params.colorNoiseVal : 1 - params.colorNoiseVal, 
+      "grey" : features[1] == "grey" ? params.colorNoiseVal : 1 - params.colorNoiseVal, 
+      "orange" : features[1] == "orange" ? params.colorNoiseVal : 1 - params.colorNoiseVal, 
+      "pink" : features[1] == "pink" ? params.colorNoiseVal : 1 - params.colorNoiseVal, 
+      "purple" : features[1] == "purple" ? params.colorNoiseVal : 1 - params.colorNoiseVal, 
+      "red" : features[1] == "red" ? params.colorNoiseVal : 1 - params.colorNoiseVal, 
+      "yellow" : features[1] == "yellow" ? params.colorNoiseVal : 1 - params.colorNoiseVal, 
+      "circle" : features[2] == "circle" ? 1 : 0, 
+      "cross" : features[2] == "cross" ? 1 : 0, 
+      "diamond" : features[2] == "diamond" ? 1 : 0, 
+      "heart" : features[2] == "heart" ? 1 : 0, 
+      "oval" : features[2] == "oval" ? 1 : 0, 
+      "rectangle" : features[2] == "rectangle" ? 1 : 0, 
+      "square" : features[2] == "square" ? 1 : 0, 
+      "star" : features[2] == "star" ? 1 : 0, 
+      "sun" : features[2] == "sun" ? 1 : 0, 
+      "triangle" : features[2] == "triangle" ? 1 : 0, 
+      'STOP'  : 1,
+      'START'  : 1
+    }
+  }
+}
+
+var model = function(params) {
+  return {
+    words : ["STOP", "START", "1", "2", "3", "4", "black", "blue", "brown", "green", "grey", "orange", "pink", "purple", "red", "yellow",  "circle", "cross", "diamond", "heart", "oval", "rectangle", "square", "star", "sun", "triangle"],
+    wordCost: {
+      "1" : params.numberCost,
+      "2" : params.numberCost,
+      "3" : params.numberCost,
+      "4" : params.numberCost,
+      "black" : params.colorCost,
+      "blue" : params.colorCost,
+      "brown" : params.colorCost,
+      "green" : params.colorCost,
+      "grey" : params.colorCost,
+      "orange" : params.colorCost,
+      "pink" : params.colorCost,
+      "purple" : params.colorCost,
+      "red" : params.colorCost,
+      "yellow" : params.colorCost,
+      "circle" : params.nounCost,
+      "cross" : params.nounCost,
+      "diamond" : params.nounCost,
+      "heart" : params.nounCost,
+      "oval" : params.nounCost,
+      "rectangle" : params.nounCost, 
+      "square" : params.nounCost,
+      "star" : params.nounCost,
+      "sun" : params.nounCost,
+      "triangle" : params.nounCost,
+      'STOP'  : 0,
+      'START'  : 0
+    },
+
+  }
+}
+var safeDivide = function(x , y){
+  if(y == 0) {
+  return(0)
+  } else {
+  return(x / y)
+  }
+}
+
+var getTransitions = function(str) {
+  var result = []
+  var splitStr = str.split(" ")
+  var indices = _.range(splitStr.length)
+  map(function(i) {
+    var transition = (splitStr.slice(0,i + 1)).join(" ")
+    result.push(transition)
+    },indices)
+  return result
+}
+
+var licitTransitions = function(model) {
+  return _.uniq(_.flatten(map(function(x) { 
+  return getTransitions(x) }, model.utterances)))
+}
+
+var wordPrior = function(model) {
+  return uniformDraw(model.words)
+}
+
+var stringCost = function(string,model) {
+  var wordcosts = map(function(x) {return model.wordCost[x]}, string)
+  return sum(wordcosts)
+}
+
+var stringMeanings = cache(function (context, state, model, semantics) {
+  var cSplit = context.split(" ")
+     var meaning = semantics(state)
+    return reduce(function(x, acc) { return meaning[x] * acc; }, 1, cSplit) })
+
+// outputs values on the interval [0,1]: a string s's semantic value at a world w 
+// is the sum of semantic values of complete continuations of s true at w, 
+// divided by the total number of complete continuations of s:
+var stringSemantics = cache(function(context, state, model, semantics) {
+  var allContinuations = filter(function(x) {
+    return x.startsWith(context)
+  } , model.utterances)
+  var trueContinuations = reduce(function(x, acc) { return stringMeanings(x, state, model, semantics) + acc; }, 
+                                 0, allContinuations)
+  return safeDivide(trueContinuations,allContinuations.length)
+})
+
+var globalLiteralListener =  function(utterance, model, params, semantics) {
+  return Infer(function() {
+    var state = uniformDraw(model.states)
+    var meaning = stringMeanings(utterance,state,model,semantics)
+    if(params.sizeNoiseVal == 1 & params.colorNoiseVal == 1) {
+      condition(meaning)
+    } else {
+      factor(meaning)
+    } 
+    return state
+  }
+              )}
+
+var globalUtteranceSpeaker = function (state, model, params, semantics) {
+  return Infer({model: function() {
+  var utterance = uniformDraw(model.utterances)
+  var listener = globalLiteralListener(utterance, model, params, semantics)
+  factor(params.alpha * (listener.score(state) - stringCost(utterance.split(" "),model)))
+    return utterance } })
+}
+
+// literal listener
+var incrementalLiteralListener = function(string,model,semantics) {
+  return Infer({model: function(){
+    var state = uniformDraw(model.states)
+    var meaning = Math.log(stringSemantics(string, state, model, semantics))
+    factor(meaning)
+    return state
+  }}
+)}
+
+var wordSpeaker = function(context, state, model, params, semantics) {
+  return Infer({model: function(){
+    var word = wordPrior(model)
+    var newContext = context.concat([word])
+    // grammar constraint: linear order must be allowed in language
+    condition(licitTransitions(model).includes(newContext.join(" "))) 
+    // note: condition basically goes away
+    var result = (stringMeanings(context.join(" "),state,model,semantics) == 0) ? 1 : params.alpha * (incrementalLiteralListener(newContext.join(" "),model,semantics).score(state) - stringCost(newContext,model))
+    factor(result)
+    return word
+  }})
+}
+
+var pragmaticWordListener = function(word, context, model, params, semantics) {
+  return Infer({model: function(){
+    var state = uniformDraw(model.states)
+    factor(wordSpeaker(state, context, model, params, semantics).score(word))
+    return state
+  }})
+}
+
+// S1^{UTT-IP} from the paper: defined according to equation 7
+var incrementalUtteranceSpeaker = cache(function(utt, state, model, params, semantics) {
+  var string = utt.split(" ")
+    var indices = _.range(string.length)
+    var probs = map(function(i) {
+        var context = string.slice(0,i) 
+        //print(context)       
+        return Math.exp(wordSpeaker(context,state,model,params,semantics).score(string[i]))  
+    },indices)
+    return reduce(function(x, acc) { return x * acc; }, 1, probs)
+}, 100000)
+var posteriors = Infer({model: function(){
+  var p = {
+    alpha: uniformDrift({a: 0, b: 40, w: 0.01}),
+    colorNoiseVal: 1,
+    numberNoiseVal: 1,
+    numberCost: uniformDrift({a: 0, b: 0.8, w: 0.01}),
+    nounCost: 0,
+    colorCost: uniformDrift({a: 0, b: 0.8, w: 0.01})
+  }
+
+  mapData({data: df}, function(d){
+    var m = extend(model(p), {states : d.states, utterances : d.utterances})
+    var overMod1_score = Math.exp(globalUtteranceSpeaker(d.target,m,p,semantics(p)).score(d.overmod_1))
+    var overMod2_score = Math.exp(globalUtteranceSpeaker(d.target,m,p,semantics(p)).score(d.overmod_2))
+
+    observe(Gaussian({mu: overMod1_score + overMod2_score, sigma: 0.01}), d.observedMention)
+    
+  })
+
+  return p
+}, method: "MCMC",
+samples: 50,
+lag: 1, burn: 50,
+verbose: true})
+
+posteriors
