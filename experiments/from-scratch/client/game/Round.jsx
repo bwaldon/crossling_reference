@@ -8,7 +8,7 @@ export default class Round extends React.Component {
 
   componentDidMount() {
     const { player } = this.props;
-    player.get('role') === "listener" ? player.set('name', "Listener") : player.set('name', "Speaker") 
+    player.get('role') === "listener" ? player.set('name', "Guesser") : player.set('name', "Director") 
   }
 
   render() {

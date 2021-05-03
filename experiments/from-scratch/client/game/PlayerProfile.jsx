@@ -27,9 +27,11 @@ export default class PlayerProfile extends React.Component {
 
     const timer = stage.name === "feedback" ? <Timer stage={stage} /> : null
 
+    const roleName = player.get('role') === "listener" ? "guesser" : "director"
+    
     return (
       <aside className="player-profile">
-        <div style = {{align: 'center'}}> <h4> You are the <u>{player.get('role')}</u>. </h4></div>
+        <div style = {{align: 'center'}}> <h4> You are the <u>{roleName}</u>. </h4></div>
         <div style = {{overflow: "scroll", height: '200px', border: '1px solid #333333'}}>
         <Chat player={player} scope={round} 
         customKey="gameChat" onNewMessage={this.updateChat} />
