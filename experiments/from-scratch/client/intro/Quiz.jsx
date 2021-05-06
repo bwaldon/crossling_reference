@@ -180,7 +180,7 @@ export default class GroupQuiz extends React.Component {
             <div className="bp3-form-group">
               <div className="bp3-form-content">
                 <RadioGroup
-                  label="The locations of the objects are the same for the speaker and the listener."
+                  label="The locations of the objects are the same for the director and the guesser."
                   onChange={this.handleRadioChange}
                   selectedValue={this.state.sameLocations}
                   name="sameLocations"

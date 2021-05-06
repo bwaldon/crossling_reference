@@ -12,6 +12,7 @@ import customBreadCrumb from './game/Breadcrumb.jsx'
 import customGameLobby from './game/GameLobby.jsx'
 import customWaitingForServer from "./game/WaitingForServer.jsx"
 import Quiz from "./intro/Quiz";
+import newPlayer from "./intro/newPlayer.jsx"
 
 // Set the About Component you want to use for the About dialog (optional).
 Empirica.about(About);
@@ -35,6 +36,8 @@ Empirica.introSteps((game, treatment) => {
 // This is where you will be doing the most development.
 // See client/game/Round.jsx to learn more.
 Empirica.round(Round);
+
+Empirica.newPlayer(newPlayer);
 
 // End of Game pages. These may vary depending on player or game information.
 // For example we can show the score of the user, or we can show them a
