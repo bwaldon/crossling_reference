@@ -19,8 +19,7 @@ Empirica.gameInit(game => {
     player.set("score", 0);
   });
 
-  const gameLength = 72;
-  //const gameLength = 1; //for testing
+  const gameLength = game.treatment.length;
 
   let scenes = _.shuffle(generateScenesObject.generateScenes());
   _.times(gameLength, i => {
