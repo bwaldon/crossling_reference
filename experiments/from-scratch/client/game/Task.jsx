@@ -46,7 +46,7 @@ class ListenerTask extends React.Component {
 
 		const chatLog = round.get('chatLog') || new Array();
 		// Filter on only speaker messages
-		const filteredLog = chatLog.filter((msg) => msg.player.name === "Speaker");
+		const filteredLog = chatLog.filter((msg) => msg.player.name === "Director");
 		if (filteredLog.length === 0) {
 			round.set('error',"Your partner has to say something before you can select an image!")
 			return

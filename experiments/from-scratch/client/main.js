@@ -7,6 +7,7 @@ import Round from "./game/Round";
 import Consent from "./intro/Consent";
 import InstructionStepOne from "./intro/InstructionStepOne";
 import InstructionStepTwo from "./intro/InstructionStepTwo";
+import InstructionStepThree from "./intro/InstructionStepThree";
 import customBreadCrumb from './game/Breadcrumb.jsx'
 import Quiz from "./intro/Quiz";
 
@@ -22,7 +23,7 @@ Empirica.consent(Consent);
 Empirica.introSteps((game, treatment) => {
   const steps = [InstructionStepOne];
   if (treatment.playerCount > 1) {
-    steps.push(InstructionStepTwo);
+    steps.push(InstructionStepTwo,InstructionStepThree);
   }
   steps.push(Quiz);
   return steps;
