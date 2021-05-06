@@ -40,11 +40,11 @@ export default class Feedback extends React.Component {
 			<div className = "task">
 			<div className="task-stimulus">
 				<table>
-				<tr>
+				<tr align ="center">
 				{images}
 				</tr>
 				<tr>
-				<td align ="center">
+				<td align ="center" colspan="5">
 				<h4> { feedbackMessage } </h4>
 				</td>
 				</tr>

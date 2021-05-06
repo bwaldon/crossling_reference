@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "./Image.jsx";
+import { AlertToaster } from "meteor/empirica:core";
 
 export default class Task extends React.Component {
 
@@ -32,7 +33,10 @@ class ListenerTask extends React.Component {
 		const { round } = this.props;
 
 		if(this.state.selected === "NONE"){
-			round.set('error',"Please make a selection before proceeding!")
+			AlertToaster.show({
+       		 message:
+          	"Please make a selection before proceeding!"
+      		});
 			return
 		} else {
 			round.set("listenerSelection", this.state.selected)
@@ -48,7 +52,10 @@ class ListenerTask extends React.Component {
 		// Filter on only speaker messages
 		const filteredLog = chatLog.filter((msg) => msg.player.name === "Director");
 		if (filteredLog.length === 0) {
-			round.set('error',"Your partner has to say something before you can select an image!")
+			AlertToaster.show({
+       		 message:
+          	"Your partner has to say something before you can select an image!"
+      		});
 			return
 		} else {
 			this.setState({ selected: e.target.id });
@@ -66,19 +73,19 @@ class ListenerTask extends React.Component {
 		return (
 			<div className="task-stimulus">
 				<table>
-				<tr>
+				<tr align ="center">
 				{images}
 				</tr>
-				<tr>
-				<td align="center">
+				<tr align="center">
+				<td colspan="5">
 				<button onClick={this.handleSubmit}>Submit</button>
 				</td>
 				</tr>
-				<tr>
-				<td align ="center">
+{/*				<tr>
+				<td align ="center" colspan="5">
 				<h4> {round.get('error')} </h4>
 				</td>
-				</tr>
+				</tr>*/}
 				</table>	
 			</div>
 			);
@@ -109,7 +116,7 @@ class SpeakerTask extends React.Component {
 		return (
 			<div className="task-stimulus">		
 				<table>
-				<tr>
+				<tr align ="center">
 				{images}
 				</tr>
 				</table>
