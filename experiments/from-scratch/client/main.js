@@ -9,6 +9,8 @@ import InstructionStepOne from "./intro/InstructionStepOne";
 import InstructionStepTwo from "./intro/InstructionStepTwo";
 import InstructionStepThree from "./intro/InstructionStepThree";
 import customBreadCrumb from './game/Breadcrumb.jsx'
+import customGameLobby from './game/GameLobby.jsx'
+import customWaitingForServer from "./game/WaitingForServer.jsx"
 import Quiz from "./intro/Quiz";
 
 // Set the About Component you want to use for the About dialog (optional).
@@ -47,6 +49,10 @@ Empirica.exitSteps((game, player) => {
 });
 
 Empirica.breadcrumb(customBreadCrumb);
+
+Empirica.lobby(customGameLobby);
+
+Empirica.waiting(customWaitingForServer);
 
 // Start the app render tree.
 // NB: This must be called after any other Empirica calls (Empirica.round(),
