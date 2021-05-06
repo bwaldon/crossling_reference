@@ -34,6 +34,7 @@ export default class ExitSurvey extends React.Component {
         chatUseful: "",
         feedback: "",
         // time: "",
+        colorblind: ""
     };
 
     handleChange = (event) => {
@@ -70,6 +71,7 @@ export default class ExitSurvey extends React.Component {
             fair,
             chatUseful,
             feedback,
+            colorblind
             // time,
         } = this.state;
 
@@ -363,7 +365,25 @@ export default class ExitSurvey extends React.Component {
     />
 </FormGroup>
 </div>*/}
+                    <div className="form-line thirds">
+                    <FormGroup
+                      className={"form-group"}
+                      inline={false}
+                      label={<b>Are you colorblind, and if so what kind of colorblindness do you have?</b>}
+                      labelFor={"colorblind"}
+                    >
+                    <TextArea
+                      id="colorblind"
+                      name="colorblind"
+                      large={true}
+                      intent={Intent.PRIMARY}
+                      onChange={this.handleChange}
+                      value={colorblind}
+                      fill={true}
+                    />
 
+                    </FormGroup>
+                    </div>
 
                   <div className="form-line thirds">
                     <FormGroup
@@ -382,7 +402,7 @@ export default class ExitSurvey extends React.Component {
                       value={feedback}
                       fill={true}
                     />
-                                      
+                        
                     </FormGroup>
                     </div>
                     
