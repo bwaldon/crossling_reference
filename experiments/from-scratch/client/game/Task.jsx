@@ -5,7 +5,7 @@ import { AlertToaster } from "meteor/empirica:core";
 export default class Task extends React.Component {
 
 	render() {
-		const { round, stage, player } = this.props;
+		const { round, player } = this.props;
 		const TaskView = player.get('role') == 'listener' ? <ListenerTask {...this.props} /> : <SpeakerTask {...this.props} />;
 		return (
 			<div className="task">
@@ -17,6 +17,7 @@ export default class Task extends React.Component {
 }
 
 class ListenerTask extends React.Component {
+
 
 	constructor(props) {
 
@@ -30,22 +31,40 @@ class ListenerTask extends React.Component {
 	
 	}
 
+	// handle the click anywhere to proceed after selection
+
+	handleClick = event => {
+
+		const { round } = this.props;
+
+		if (round.get('stage') === "feedback") {
+			this.props.player.stage.submit();
+			document.removeEventListener('click', this.handleClick, true);
+		}
+    
+    } 
+
+    // handle the submit button
+
 	handleSubmit(e) {
 		e.preventDefault();
 		const { round, stage } = this.props;
 
-		if(stage.name !== "feedback" & this.state.selected === "NONE"){
+		if(round.get('stage') !== "feedback" & this.state.selected === "NONE"){
 			AlertToaster.show({
        		 message:
           	"Please make a selection before proceeding!"
       		});
 			return
-		} else if (stage.name === "response") {
+		} else if (round.get('stage') === "selection") {
 			round.set("listenerSelection", this.state.selected)
-			this.props.player.stage.submit();
+			round.set('stage', 'feedback')
+			document.addEventListener('click', this.handleClick, true);
 		}
 
 	};
+
+	// handle a click on an image during selection
 
 	handleChange(e) {
 		const { round, stage } = this.props;
@@ -53,27 +72,29 @@ class ListenerTask extends React.Component {
 		const chatLog = round.get('chatLog') || new Array();
 		// Filter on only speaker messages
 		const filteredLog = chatLog.filter((msg) => msg.player.name === "Director");
-		if (stage.name === "response" & filteredLog.length === 0) {
+		if (round.get('stage') === "selection" & filteredLog.length === 0) {
 			AlertToaster.show({
        		 message:
           	"Your partner has to say something before you can select an image!"
       		});
 			return
-		} else if (stage.name === "response") {
+		} else if (round.get('stage') === "selection") {
 			this.setState({ selected: e.target.id });
 		} else {
 
 		}	
+
 	};
 
 	render() {
 
 		const { round, stage, player } = this.props;
+		let button;
 		let feedbackMessage;
 		const listenerSelection = round.get("listenerSelection")
 		const target = round.get("target")
 		const correct = listenerSelection == target.id ? true : false	
-		if (stage.name === "feedback") {	
+		if (round.get('stage') === "feedback") {	
 			if (listenerSelection == "NONE") {
 			feedbackMessage = "You didn't select an image!"
 		} else if(!(correct)){
@@ -81,15 +102,18 @@ class ListenerTask extends React.Component {
 		} else {
 			feedbackMessage = "You selected the correct image!"
 			}
+		} else {
+			button = <button onClick={this.handleSubmit}>Submit</button>
 		}
 		
 		const images = this.images.map((image,) => { 
 			let path = "images/" + image.name + ".jpg";
 			let highlighted;
 			let borderColor;
-			if (stage.name === "feedback") {
+			
+			if (round.get('stage') === "feedback") {
 				highlighted = listenerSelection == image.id || target.id == image.id ? true : false
-				borderColor = !(correct) & image.id == listenerSelection ? 'red' : 'green'
+				borderColor = !(correct) & image.id == listenerSelection ? 'red' : 'green';
 			} else {
 				highlighted = this.state.selected == image.id ? true : false
 				borderColor = "black"
@@ -104,12 +128,13 @@ class ListenerTask extends React.Component {
 				</tr>
 				<tr align="center">
 				<td colspan="5">
-				<button onClick={this.handleSubmit}>Submit</button>
+				{button}
 				</td>
 				</tr>
 				<tr>
 				<td align ="center" colspan="5">
 				<h4> {feedbackMessage} </h4>
+				<i> {round.get('stage') == 'feedback' ? "Click anywhere to advance to the next round." : ""} </i>
 				</td>
 				</tr>
 				</table>	
@@ -120,13 +145,8 @@ class ListenerTask extends React.Component {
 
 class SpeakerTask extends React.Component {
 
-	// We 'submit' for the speaker upon loading the component, as there's no response to wait for.
 	componentDidMount() {
-		const { stage } = this.props;
-		if(stage.name === "response") {
-			this.props.player.stage.submit()
-		}
-		
+		this.props.player.stage.submit();
 	}
 
 	constructor(props) {
@@ -142,7 +162,7 @@ class SpeakerTask extends React.Component {
 		const listenerSelection = round.get("listenerSelection")
 		const target = round.get("target")
 		const correct = listenerSelection == target.id ? true : false
-		if (stage.name === "feedback") {	
+		if (round.get('stage') === "feedback") {
 		if (listenerSelection == "NONE") {
 			feedbackMessage = "Your partner didn't select an image!"
 		} else if(!(correct)){
@@ -156,11 +176,12 @@ class SpeakerTask extends React.Component {
 			let path = "images/" + image.name + ".jpg";
 			let highlighted;
 			let borderColor;
-			if (stage.name === "feedback") {
+			if (round.get('stage') === "feedback") {
 				highlighted = listenerSelection == image.id || target.id == image.id ? true : false
 				borderColor = !(correct) & image.id == listenerSelection ? 'red' : 'green'
-			} else {
-				highlighted = round.get("target").id === image.id ? true : false
+			} else if (round.get('stage') === "selection") {
+				highlighted = target.id === image.id ? true : false
+				borderColor = 'black'
 			}
 			return(<Image image={image} path= {path} borderColor = {borderColor} highlighted = {highlighted} /> )})
 		
@@ -170,12 +191,12 @@ class SpeakerTask extends React.Component {
 				<tr align ="center">
 				{images}
 				</tr>
-				</table>
 				<tr>
-				<td align ="center" colspan="5">
-				<h4> {feedbackMessage} </h4>
+				<td colspan="5" align = "center">
+				<h4>{feedbackMessage}</h4>
 				</td>
 				</tr>
+				</table>
 			</div>
 			);
 

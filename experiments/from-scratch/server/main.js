@@ -36,18 +36,19 @@ Empirica.gameInit(game => {
         images: images,
         speakerImages: _.shuffle(images),
         listenerImages: _.shuffle(images),
+        stage: 'selection'
       }
     });
     round.addStage({
       name: "response",
       displayName: "Task",
-      durationInSeconds: 360,
+      durationInSeconds: 240,
     });
-    round.addStage({
-      name: "feedback",
-      displayName: "Feedback",
-      durationInSeconds: 3,
-    });
+    // round.addStage({
+    //   name: "feedback",
+    //   displayName: "Feedback",
+    //   durationInSeconds: 3,
+    // });
   });
 
   game.set('length', gameLength)
