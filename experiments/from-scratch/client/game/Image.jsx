@@ -11,8 +11,5 @@ export default class Image extends React.Component {
 				onClick = {this.props.onClick}
 				style = {{width: '150px', height: 'auto', border: borderWidth + " solid " + this.props.borderColor, padding: '10px'}} />
 			)
-
 	}
-
-
 }
