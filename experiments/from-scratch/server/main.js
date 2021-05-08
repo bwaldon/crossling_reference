@@ -19,7 +19,7 @@ Empirica.gameInit(game => {
     player.set("score", 0);
   });
 
-  const gameLength = 72;
+  const gameLength = game.treatment.length;
 
   let scenes = _.shuffle(generateScenesObject.generateScenes());
   _.times(gameLength, i => {
@@ -36,18 +36,19 @@ Empirica.gameInit(game => {
         images: images,
         speakerImages: _.shuffle(images),
         listenerImages: _.shuffle(images),
+        stage: 'selection'
       }
     });
     round.addStage({
       name: "response",
       displayName: "Task",
-      durationInSeconds: 180,
+      durationInSeconds: 240,
     });
-    round.addStage({
-      name: "feedback",
-      displayName: "Feedback",
-      durationInSeconds: 3,
-    });
+    // round.addStage({
+    //   name: "feedback",
+    //   displayName: "Feedback",
+    //   durationInSeconds: 3,
+    // });
   });
 
   game.set('length', gameLength)

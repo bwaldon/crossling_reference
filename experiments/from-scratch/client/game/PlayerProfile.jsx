@@ -15,6 +15,7 @@ export default class PlayerProfile extends React.Component {
 
     const { stage, round, player } = this.props;
     let chatLog = round.get('chatLog') || new Array();
+    msg['stage'] = round.get('stage');
     chatLog.push(msg)
     console.log(chatLog)
     round.set('chatLog', chatLog)
@@ -25,14 +26,18 @@ export default class PlayerProfile extends React.Component {
   render() {
     const { stage, round, player } = this.props;
 
+    // const timer = round.get('stage') === "feedback" ? <Timer stage={stage} round={round} /> : null
+
+    const roleName = player.get('role') === "listener" ? "guesser" : "director"
+    
     return (
       <aside className="player-profile">
-        <div style = {{align: 'center'}}> <h4> You are the <u>{player.get('role')}</u>. </h4></div>
+        <div style = {{align: 'center'}}> <h4> You are the <u>{roleName}</u>. </h4></div>
         <div style = {{overflow: "scroll", height: '200px', border: '1px solid #333333'}}>
         <Chat player={player} scope={round} 
         customKey="gameChat" onNewMessage={this.updateChat} />
         </div>
-        <Timer stage={stage} />
+        {/*{timer}*/}
 
       </aside>
     );

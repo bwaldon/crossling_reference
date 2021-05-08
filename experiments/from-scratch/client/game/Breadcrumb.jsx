@@ -12,7 +12,7 @@ export default class Breadcrumb extends React.Component {
           <li>
             <Crumb text={`Round ${round.index + 1} / ${game.get('length')}`} />
           </li>
-          {round.stages.map(s => {
+          {/*{round.stages.map(s => {
             const disabled = s.name !== stage.name;
             const current = disabled ? "" : Classes.BREADCRUMB_CURRENT;
             return (
@@ -24,7 +24,7 @@ export default class Breadcrumb extends React.Component {
                 />
               </li>
             );
-          })}
+          })}*/}
         </ul>
       </nav>
     );

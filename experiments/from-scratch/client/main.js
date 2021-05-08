@@ -7,9 +7,12 @@ import Round from "./game/Round";
 import Consent from "./intro/Consent";
 import InstructionStepOne from "./intro/InstructionStepOne";
 import InstructionStepTwo from "./intro/InstructionStepTwo";
+import InstructionStepThree from "./intro/InstructionStepThree";
 import customBreadCrumb from './game/Breadcrumb.jsx'
+import customGameLobby from './game/GameLobby.jsx'
+import customWaitingForServer from "./game/WaitingForServer.jsx"
 import Quiz from "./intro/Quiz";
-import customBreadCrumb from './game/Breadcrumb.jsx'
+import newPlayer from "./intro/newPlayer.jsx"
 
 // Set the About Component you want to use for the About dialog (optional).
 Empirica.about(About);
@@ -23,7 +26,7 @@ Empirica.consent(Consent);
 Empirica.introSteps((game, treatment) => {
   const steps = [InstructionStepOne];
   if (treatment.playerCount > 1) {
-    steps.push(InstructionStepTwo);
+    steps.push(InstructionStepTwo,InstructionStepThree);
   }
   steps.push(Quiz);
   return steps;
@@ -33,6 +36,8 @@ Empirica.introSteps((game, treatment) => {
 // This is where you will be doing the most development.
 // See client/game/Round.jsx to learn more.
 Empirica.round(Round);
+
+Empirica.newPlayer(newPlayer);
 
 // End of Game pages. These may vary depending on player or game information.
 // For example we can show the score of the user, or we can show them a
@@ -47,6 +52,10 @@ Empirica.exitSteps((game, player) => {
 });
 
 Empirica.breadcrumb(customBreadCrumb);
+
+Empirica.lobby(customGameLobby);
+
+Empirica.waiting(customWaitingForServer);
 
 // Start the app render tree.
 // NB: This must be called after any other Empirica calls (Empirica.round(),
