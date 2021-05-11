@@ -33,6 +33,7 @@ exports.generateScenes = function generateScenes() {
             let color = (Math.random() > 0.5)? 1 : 0;
             let size = (Math.random() > 0.5)? 1 : 0;
             let targetStimulus = getColorSizeIDString(targetType, color, size);
+            let sufficientDimension = "size";
             let redundantStimulus = getColorSizeIDString(targetType, 1 - color, size);
             let otherStimulus = getColorSizeIDString(targetType, 1 - color, 1 - size);
 
@@ -41,13 +42,15 @@ exports.generateScenes = function generateScenes() {
                 nRedundantDistractors,
                 targetStimulus,
                 redundantStimulus,
-                otherStimulus
+                otherStimulus,
+                sufficientDimension
             ));
 
             targetType = colorSizeItemTypes.pop();
             color = (Math.random() > 0.5)? 1 : 0;
             size = (Math.random() > 0.5)? 1 : 0;
             targetStimulus = getColorSizeIDString(targetType, color, size);
+            sufficientDimension = "color";
             redundantStimulus = getColorSizeIDString(targetType, color, 1 - size);
             otherStimulus = getColorSizeIDString(targetType, 1 - color, 1 - size);
 
@@ -56,7 +59,8 @@ exports.generateScenes = function generateScenes() {
                 nRedundantDistractors,
                 targetStimulus,
                 redundantStimulus,
-                otherStimulus
+                otherStimulus,
+                sufficientDimension
             ));
         }
     }
@@ -141,7 +145,8 @@ exports.generateScenes = function generateScenes() {
             'alt2Name': distractor2,
             'alt3Name': 'IGNORE',
             'alt4Name': 'IGNORE',
-            'NumDistractors': 2
+            'NumDistractors': 2,
+            'condition' : contextMode
         });
     }
     return scenes;
@@ -168,11 +173,13 @@ function sampleElementExceptOne(needle, haystack, sampleTwo)
     return [firstSampledItem, secondSampledItem];
 }
 
-function getSceneFromStimuli(nTotalDistractors, nRedundantDistractors, targetStimulus, redundantStimulus, otherStimulus)
+function getSceneFromStimuli(nTotalDistractors, nRedundantDistractors, targetStimulus, redundantStimulus, otherStimulus, 
+    sufficientDimension)
 {
     let scene = {
         'TargetItem': colorSizeIDsToName[targetStimulus],
-        'NumDistractors': nTotalDistractors
+        'NumDistractors': nTotalDistractors,
+        'condition' : sufficientDimension + nTotalDistractors + nRedundantDistractors
     }
     for (i = 1; i <= nRedundantDistractors; i++)
     {

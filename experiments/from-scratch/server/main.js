@@ -36,7 +36,8 @@ Empirica.gameInit(game => {
         images: images,
         speakerImages: _.shuffle(images),
         listenerImages: _.shuffle(images),
-        stage: 'selection'
+        stage: 'selection',
+        condition: scene.condition
       }
     });
     round.addStage({
