@@ -7,16 +7,16 @@ makeModel <- function(header) {
 wrapInference <- function(model, overmodifyingUtterance, targetReferent, inferenceType) {
   
   if(inferenceType == "incrementalContinuous") {
-    inferenceCommand <- read_file("inferenceCommands/incrementalContinuous.txt")
+    inferenceCommand <- read_file("inferenceCommands/Degenetal/incrementalContinuous.txt")
     
   } else if(inferenceType == "incremental") {
-    inferenceCommand <- read_file("inferenceCommands/incremental.txt")
+    inferenceCommand <- read_file("inferenceCommands/Degenetal/incremental.txt")
     
   } else if(inferenceType == "continuous") {
-    inferenceCommand <- read_file("inferenceCommands/continuous.txt")
+    inferenceCommand <- read_file("inferenceCommands/Degenetal/continuous.txt")
     
   } else if(inferenceType == "vanilla") {
-    inferenceCommand <- read_file("inferenceCommands/vanilla.txt")
+    inferenceCommand <- read_file("inferenceCommands/Degenetal/vanilla.txt")
     
   }
   

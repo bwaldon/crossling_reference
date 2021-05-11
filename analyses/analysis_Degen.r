@@ -3,9 +3,9 @@ library(tidyverse)
 library(jsonlite)
 library(rwebppl)
 
-source("helpers/dataPrep.R")
-source("helpers/wpplHelpers.R")
-source("helpers/vizhelpers.R")
+source("helpers/dataPrep_degen.R")
+source("helpers/wpplHelpers_degen.R")
+source("helpers/vizhelpers_degen.R")
 
 # PUT IN AN "UNCOLLAPSED" DATAFILE WITH DEGEN ET AL.'S FORMAT
 
