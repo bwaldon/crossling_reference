@@ -99,8 +99,8 @@ exports.generateScenes = function generateScenes() {
         }
         else if (contextMode == 'basicSuff')
         {
-            let basicSuffType = _.sample(['type1', 'type2']);
-            if (basicSuffType == 'type1')
+            let basicSuffType = _.sample(['Type1', 'Type2']);
+            if (basicSuffType == 'Type1')
             {
                 // two distractors of the same superordinate category but different basic category as the target (e.g., target: husky, distractors: hamster and elephant)
                 let twoOtherBasics = sampleElementExceptOne(targetBasic,
@@ -141,12 +141,25 @@ exports.generateScenes = function generateScenes() {
         // console.log(`${distractor2} ${subToBasicAndSup[distractor2][0]} ${subToBasicAndSup[distractor2][1]}`)
         // console.log()
 
+        let alt1BasicSup = subToBasicAndSup[distractor1];
+        let alt1Basic = alt1BasicSup[0];
+        let alt1Super = alt1BasicSup[1];
+        let alt2BasicSup = subToBasicAndSup[distractor2];
+        let alt2Basic = alt2BasicSup[0];
+        let alt2Super = alt2BasicSup[1];
+
         scenes.push({
             'TargetItem': targetSub,
+            'TargetItemBasicLevel': targetBasic,
+            'TargetItemSuperLevel': targetSup,
             'alt1Name': distractor1,
             'alt2Name': distractor2,
             'alt3Name': 'IGNORE',
             'alt4Name': 'IGNORE',
+            'alt1BasicLevel': alt1Basic,
+            'alt1SuperLevel': alt1Super,
+            'alt2BasicLevel': alt2Basic,
+            'alt2SuperLevel': alt2Super,
             'NumDistractors': 2,
             'condition' : contextMode
         });
@@ -181,7 +194,11 @@ function getSceneFromStimuli(nTotalDistractors, nRedundantDistractors, targetSti
     let scene = {
         'TargetItem': colorSizeIDsToName[targetStimulus],
         'NumDistractors': nTotalDistractors,
-        'condition' : sufficientDimension + nTotalDistractors + nRedundantDistractors
+        'condition' : sufficientDimension + nTotalDistractors + nRedundantDistractors,
+        'alt1BasicLevel': 'NA',
+        'alt1SuperLevel': 'NA',
+        'alt2BasicLevel': 'NA',
+        'alt2SuperLevel': 'NA'
     }
     for (i = 1; i <= nRedundantDistractors; i++)
     {
