@@ -99,7 +99,8 @@ exports.generateScenes = function generateScenes() {
         }
         else if (contextMode == 'basicSuff')
         {
-            if ((_.sample(['type1', 'type2']) == 'type1'))
+            let basicSuffType = _.sample(['type1', 'type2']);
+            if (basicSuffType == 'type1')
             {
                 // two distractors of the same superordinate category but different basic category as the target (e.g., target: husky, distractors: hamster and elephant)
                 let twoOtherBasics = sampleElementExceptOne(targetBasic,
@@ -122,6 +123,7 @@ exports.generateScenes = function generateScenes() {
                 let someBasic = _.sample(Array.from(Object.keys(supToBasicsToSubs[otherSup])));
                 distractor2 = _.sample(supToBasicsToSubs[otherSup][someBasic]);
             }
+            contextMode += basicSuffType;
         }
         else
         {
