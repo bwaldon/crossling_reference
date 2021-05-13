@@ -164,11 +164,11 @@ class SpeakerTask extends React.Component {
 		const correct = listenerSelection == target.id ? true : false
 		if (round.get('stage') === "feedback") {
 		if (listenerSelection == "NONE") {
-			feedbackMessage = "Your partner didn't select an image!"
+			feedbackMessage = "Your partner didn't select an image! Please wait for your partner to click their screen to begin going to the next round."
 		} else if(!(correct)){
-			feedbackMessage = "Your partner selected the wrong image!"
+			feedbackMessage = "Your partner selected the wrong image! Please wait for your partner to click their screen to begin going to the next round."
 		} else {
-			feedbackMessage = "Your partner selected the correct image!"
+			feedbackMessage = "Your partner selected the correct image! Please wait for your partner to click their screen to begin going to the next round."
 			}
 		}
 
