@@ -34,7 +34,8 @@ export default class ExitSurvey extends React.Component {
         chatUseful: "",
         feedback: "",
         // time: "",
-        colorblind: ""
+        colorblind: "",
+        robot: ""
     };
 
     handleChange = (event) => {
@@ -71,8 +72,9 @@ export default class ExitSurvey extends React.Component {
             fair,
             chatUseful,
             feedback,
-            colorblind
+            colorblind,
             // time,
+            robot
         } = this.state;
 
         return (
@@ -407,6 +409,26 @@ export default class ExitSurvey extends React.Component {
                     </div>
                     
                     </div>
+
+                <div className="pt-form-group">
+                        <div className="pt-form-content">
+                            <RadioGroup
+                                name="robot"
+                                label=<b>Do you belive that your partner was a human being?</b>
+                                onChange={this.handleChange}
+                                selectedValue={robot}
+                            >
+              <Radio
+                  value="yes"
+                  label="Yes"
+                />
+                <Radio
+                  value="no"
+                  label="No"
+                />
+                </RadioGroup>
+            </div> </div>
+
                     <button type="submit" className="pt-button pt-intent-primary">
                         Submit
                         <span className="pt-icon-standard pt-icon-key-enter pt-align-right" />

@@ -164,11 +164,11 @@ class SpeakerTask extends React.Component {
 		const correct = listenerSelection == target.id ? true : false
 		if (round.get('stage') === "feedback") {
 		if (listenerSelection == "NONE") {
-			feedbackMessage = "Your partner didn't select an image! Please wait for your partner to click their screen to begin going to the next round."
+			feedbackMessage = "Your partner didn't select an image!"
 		} else if(!(correct)){
-			feedbackMessage = "Your partner selected the wrong image! Please wait for your partner to click their screen to begin going to the next round."
+			feedbackMessage = "Your partner selected the wrong image!"
 		} else {
-			feedbackMessage = "Your partner selected the correct image! Please wait for your partner to click their screen to begin going to the next round."
+			feedbackMessage = "Your partner selected the correct image!"
 			}
 		}
 
@@ -194,6 +194,7 @@ class SpeakerTask extends React.Component {
 				<tr>
 				<td colspan="5" align = "center">
 				<h4>{feedbackMessage}</h4>
+				<i> {round.get('stage') == 'feedback' ? "Please wait for your partner to click their screen to begin the next round." : ""} </i>
 				</td>
 				</tr>
 				</table>
