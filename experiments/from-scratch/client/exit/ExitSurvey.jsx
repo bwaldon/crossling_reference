@@ -2,6 +2,7 @@ import React from "react";
 
 import { Centered } from "meteor/empirica:core";
 
+import { exitTexts, exitTextsLanguage } from './exitTexts.js';
 
 import {
     Button,
@@ -81,19 +82,19 @@ export default class ExitSurvey extends React.Component {
             <div>
               {" "}
               <h1>
-                Finally, please answer the following short survey. 
+                {exitTexts[exitTextsLanguage].SURVEY_line1}
               </h1>
               <h3>
-                You do not have to provide any information you feel uncomfortable with sharing. 
+              {exitTexts[exitTextsLanguage].SURVEY_line2}
               </h3>
               <h3>
-                  Your compensation does NOT depend on these answers.
+              {exitTexts[exitTextsLanguage].SURVEY_line3}
                 </h3>
               <form onSubmit={this.handleSubmit}>
                     <span> </span>
                     <div className="form-line">
               <div>
-                <label htmlFor="age"><b>Age:</b></label>
+                <label htmlFor="age"><b>{exitTexts[exitTextsLanguage].SURVEY_age}</b></label>
                 <div>
                   <input
                     id="age"
@@ -111,7 +112,7 @@ export default class ExitSurvey extends React.Component {
                 </div>
                 <div className="form-line">
               <div>
-                <label htmlFor="gender"><b>Gender:</b></label>
+                <label htmlFor="gender"><b>{exitTexts[exitTextsLanguage].SURVEY_gender}</b></label>
                 <div>
                   <input
                     id="gender"
@@ -127,7 +128,7 @@ export default class ExitSurvey extends React.Component {
             </div>
             <div className="form-line">
             <div>
-                <label htmlFor="language"><b>Native Language(s):</b></label>
+                <label htmlFor="language"><b>{exitTexts[exitTextsLanguage].SURVEY_nativeLanguages}</b></label>
                 <div>
                   <input
                     id="language"
@@ -144,48 +145,48 @@ export default class ExitSurvey extends React.Component {
           <br></br>
             <div className="bp3-form-group">
               <label className="bp3-label" htmlFor="race">
-                <b>Which races/ethnicities do you identify with? Select all that apply.</b>
+                <b>{exitTexts[exitTextsLanguage].SURVEY_raceEthnicityIdentify}</b>
               </label>
               <div className="bp3-form-content ">
                 <div className="bp3-control bp3-checkbox ">
                   <Checkbox
                     name={"raceWhite"}
-                    label="White"
+                    label={exitTexts[exitTextsLanguage].SURVEY_raceWhite}
                     onChange={this.handleEnabledChange}
                   />
                 </div>
                 <div className="bp3-control bp3-checkbox ">
                   <Checkbox
                     name={"raceBlack"}
-                    label="Black or African American"
+                    label={exitTexts[exitTextsLanguage].SURVEY_raceBlack}
                     onChange={this.handleEnabledChange}
                   />
                 </div>
                 <div className="bp3-control bp3-checkbox">
                   <Checkbox
                     name={"raceNative"}
-                    label="Native American or Alaska Native"
+                    label={exitTexts[exitTextsLanguage].SURVEY_raceNative}
                     onChange={this.handleEnabledChange}
                   />
                 </div>
                 <div className="bp3-control bp3-checkbox">
                   <Checkbox
                     name={"raceAsian"}
-                    label="Asian"
+                    label={exitTexts[exitTextsLanguage].SURVEY_raceAsian}
                     onChange={this.handleEnabledChange}
                   />
                 </div>
                 <div className="bp3-control bp3-checkbox">
                   <Checkbox
                     name={"raceIslander"}
-                    label="Native Hawaiian or other Pacific Islander"
+                    label={exitTexts[exitTextsLanguage].SURVEY_raceIslander}
                     onChange={this.handleEnabledChange}
                   />
                 </div>
                 <div className="bp3-control bp3-checkbox">
                   <Checkbox
                     name={"raceHispanic"}
-                    label="Hispanic or Latino"
+                    label={exitTexts[exitTextsLanguage].SURVEY_raceHispanic}
                     onChange={this.handleEnabledChange}
                   />
                 </div>
@@ -198,30 +199,30 @@ export default class ExitSurvey extends React.Component {
                         <div className="pt-form-content">
                             <RadioGroup
                                 name="education"
-                                label=<b>What's your highest level of education?</b>
+                                label={<b>{exitTexts[exitTextsLanguage].SURVEY_highestLevelOfEducation}</b>}
                                 onChange={this.handleChange}
                                 selectedValue={education}
                                 onChange={this.handleChange}
                             >
               <Radio
                   value="lessHighSchool"
-                  label="Less than high school"
+                  label={exitTexts[exitTextsLanguage].SURVEY_lessHighSchool}
                 />
                 <Radio
                   value="highSchool"
-                  label="High school"
+                  label={exitTexts[exitTextsLanguage].SURVEY_highSchool}
                 />
                 <Radio
                   value="someCollege"
-                  label="Some college (<2 years of study)"
+                  label={exitTexts[exitTextsLanguage].SURVEY_someCollege}
                 />
                 <Radio
                   value="undergrad"
-                  label="Undergraduate (bachelor's or associate's) degree "
+                  label={exitTexts[exitTextsLanguage].SURVEY_undergrad}
                 />
                 <Radio
                   value="graduate"
-                  label="Graduate degree"
+                  label={exitTexts[exitTextsLanguage].SURVEY_graduate}
                 />
                 </RadioGroup>
             </div>
@@ -230,17 +231,17 @@ export default class ExitSurvey extends React.Component {
                         <div className="pt-form-content">
                             <RadioGroup
                                 name="correctness"
-                                label=<b>Did you read the instructions and think you did the tasks correctly?</b>
+                                label=<b>{exitTexts[exitTextsLanguage].SURVEY_followedInstructions}</b>
                                 onChange={this.handleChange}
                                 selectedValue={correctness}
                             >
                                 <Radio
-                                    label="Yes"
+                                    label={exitTexts[exitTextsLanguage].SURVEY_yesFollowedInstructions}
                                     value="yes"
                                     className={"pt-inline"}
                                 />
                                 <Radio
-                                    label="No, I was confused"
+                                    label={exitTexts[exitTextsLanguage].SURVEY_noFollowedInstructions}
                                     value="no"
                                     className={"pt-inline"}
                                 />
@@ -275,30 +276,30 @@ export default class ExitSurvey extends React.Component {
                         <div className="pt-form-content">
                             <RadioGroup
                                 name="workedWell"
-                                label=<b>Do you think you and your partner worked well together?</b>
+                                label=<b>{exitTexts[exitTextsLanguage].SURVEY_workedWellWithPartner}</b>
                                 onChange={this.handleChange}
                                 selectedValue={workedWell}
                             >
                                 <Radio
-                                    label="Strongly agree"
+                                    label={exitTexts[exitTextsLanguage].SURVEY_stronglyAgree}
                                     value="stronglyAgree"
                                     className={"pt-inline"}
                                 />
-                                <Radio label="Agree" value="agree" className={"pt-inline"} />
+                                <Radio label={exitTexts[exitTextsLanguage].SURVEY_agree} value="agree" className={"pt-inline"} />
                                 <Radio
-                                    label="Neutral"
+                                    label={exitTexts[exitTextsLanguage].SURVEY_neutral}
                                     value="neutral"
                                     className={"pt-inline"}
                                 />
 
                                 <Radio
-                                    label="Disagree"
+                                    label={exitTexts[exitTextsLanguage].SURVEY_disagree}
                                     value="disagree"
                                     className={"pt-inline"}
                                 />
 
                                 <Radio
-                                    label="Strongly disagree"
+                                    label={exitTexts[exitTextsLanguage].SURVEY_stronglyDisagree}
                                     value="stronglyDisagree"
                                     className={"pt-inline"}
                                 />
@@ -311,7 +312,7 @@ export default class ExitSurvey extends React.Component {
                         <FormGroup
                             className={"form-group"}
                             inline={false}
-                            label={<b>Do you feel the pay was fair?</b>}
+                            label={<b>{exitTexts[exitTextsLanguage].SURVEY_payWasFair}</b>}
                             labelFor={"fair"}
                             //className={"form-group"}
                         >
@@ -331,7 +332,7 @@ export default class ExitSurvey extends React.Component {
 <FormGroup
     className={"form-group"}
     inline={false}
-    label={<b>Was the in-game chat feature easy to use?</b>}
+    label={<b>{exitTexts[exitTextsLanguage].SURVEY_inGameChatEasyToUse}</b>}
     labelFor={"chatUseful"}
     //className={"form-group"}
 >
@@ -371,7 +372,7 @@ export default class ExitSurvey extends React.Component {
                     <FormGroup
                       className={"form-group"}
                       inline={false}
-                      label={<b>Are you colorblind, and if so what kind of colorblindness do you have?</b>}
+                      label={<b>{exitTexts[exitTextsLanguage].SURVEY_colorblind}</b>}
                       labelFor={"colorblind"}
                     >
                     <TextArea
@@ -391,7 +392,7 @@ export default class ExitSurvey extends React.Component {
                     <FormGroup
                       className={"form-group"}
                       inline={false}
-                      label={<b>Did you notice any problems or have any other comments about the study?</b>}
+                      label={<b>{exitTexts[exitTextsLanguage].SURVEY_problemsOrComments}</b>}
                       labelFor={"feedback"}
                       //className={"form-group"}
                     >
@@ -414,7 +415,7 @@ export default class ExitSurvey extends React.Component {
                         <div className="pt-form-content">
                             <RadioGroup
                                 name="robot"
-                                label=<b>Do you belive that your partner was a human being?</b>
+                                label=<b>{exitTexts[exitTextsLanguage].SURVEY_believePartnerWasHuman}</b>
                                 onChange={this.handleChange}
                                 selectedValue={robot}
                             >
@@ -430,7 +431,7 @@ export default class ExitSurvey extends React.Component {
             </div> </div>
 
                     <button type="submit" className="pt-button pt-intent-primary">
-                        Submit
+                        {exitTexts[exitTextsLanguage].SURVEY_submitButtonText}
                         <span className="pt-icon-standard pt-icon-key-enter pt-align-right" />
                     </button>
                 </form>{" "}

@@ -3,14 +3,16 @@ import { IconNames } from "@blueprintjs/icons";
 import PropTypes from "prop-types";
 import React from "react";
 
+import {gameTexts, gameTextsLanguage} from './gameTexts.js'
+
 export default class GameLobby extends React.PureComponent {
   renderPlayersReady = () => {
     return (
       <div className="game-lobby">
         <NonIdealState
           icon={IconNames.PLAY}
-          title="Game loading..."
-          description="Your game will be starting shortly, get ready!"
+          title={gameTexts[gameTextsLanguage].GAMELOBBY_loading}
+          description={gameTexts[gameTextsLanguage].GAMELOBBY_loadingDescription}
         />
       </div>
     );
@@ -33,9 +35,9 @@ export default class GameLobby extends React.PureComponent {
           title="Lobby"
           description={
             <>
-              <p>Please wait for other players to be ready...</p>
+              <p>{gameTexts[gameTextsLanguage].GAMELOBBY_waitForPlayers}</p>
               <p>
-                {existing} / {total} players ready.
+                {existing} / {total} {gameTexts[gameTextsLanguage].GAMELOBBY_numPlayersReady}
               </p>
             </>
           }

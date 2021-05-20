@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "./Image.jsx";
 import { AlertToaster } from "meteor/empirica:core";
+import {gameTexts, gameTextsLanguage} from './gameTexts.js'
 
 export default class Task extends React.Component {
 
@@ -53,7 +54,7 @@ class ListenerTask extends React.Component {
 		if(round.get('stage') !== "feedback" & this.state.selected === "NONE"){
 			AlertToaster.show({
        		 message:
-          	"Please make a selection before proceeding!"
+				gameTexts[gameTextsLanguage].TASK_pleaseMakeSelection
       		});
 			return
 		} else if (round.get('stage') === "selection") {
@@ -71,11 +72,11 @@ class ListenerTask extends React.Component {
 
 		const chatLog = round.get('chatLog') || new Array();
 		// Filter on only speaker messages
-		const filteredLog = chatLog.filter((msg) => msg.player.name === "Director");
+		const filteredLog = chatLog.filter((msg) => msg.player.name === gameTexts[gameTextsLanguage].PLAYERPROFILE_director);
 		if (round.get('stage') === "selection" & filteredLog.length === 0) {
 			AlertToaster.show({
        		 message:
-          	"Your partner has to say something before you can select an image!"
+				gameTexts[gameTextsLanguage].TASK_partnerHasToSaySomething
       		});
 			return
 		} else if (round.get('stage') === "selection") {
@@ -96,14 +97,14 @@ class ListenerTask extends React.Component {
 		const correct = listenerSelection == target.id ? true : false	
 		if (round.get('stage') === "feedback") {	
 			if (listenerSelection == "NONE") {
-			feedbackMessage = "You didn't select an image!"
+			feedbackMessage = gameTexts[gameTextsLanguage].TASK_youDidntSelectImage
 		} else if(!(correct)){
-			feedbackMessage = "You selected the wrong image!"
+			feedbackMessage = gameTexts[gameTextsLanguage].TASK_youSelectedWrongImage
 		} else {
-			feedbackMessage = "You selected the correct image!"
+			feedbackMessage = gameTexts[gameTextsLanguage].TASK_youSelectedCorrectImage
 			}
 		} else {
-			button = <button onClick={this.handleSubmit}>Submit</button>
+			button = <button onClick={this.handleSubmit}>{gameTexts[gameTextsLanguage].TASK_submitButtonText}</button>
 		}
 		
 		const images = this.images.map((image,) => { 
@@ -134,7 +135,7 @@ class ListenerTask extends React.Component {
 				<tr>
 				<td align ="center" colspan="5">
 				<h4> {feedbackMessage} </h4>
-				<i> {round.get('stage') == 'feedback' ? "Click anywhere to advance to the next round." : ""} </i>
+				<i> {round.get('stage') == 'feedback' ? gameTexts[gameTextsLanguage].TASK_clickAnywhereToAdvance : ""} </i>
 				</td>
 				</tr>
 				</table>	
@@ -164,11 +165,11 @@ class SpeakerTask extends React.Component {
 		const correct = listenerSelection == target.id ? true : false
 		if (round.get('stage') === "feedback") {
 		if (listenerSelection == "NONE") {
-			feedbackMessage = "Your partner didn't select an image!"
+			feedbackMessage = gameTexts[gameTextsLanguage].TASK_partnerDidntSelectImage
 		} else if(!(correct)){
-			feedbackMessage = "Your partner selected the wrong image!"
+			feedbackMessage = gameTexts[gameTextsLanguage].TASK_partnerSelectedWrongImage
 		} else {
-			feedbackMessage = "Your partner selected the correct image!"
+			feedbackMessage = gameTexts[gameTextsLanguage].TASK_partnerSelectedCorrectImage
 			}
 		}
 
@@ -194,7 +195,7 @@ class SpeakerTask extends React.Component {
 				<tr>
 				<td colspan="5" align = "center">
 				<h4>{feedbackMessage}</h4>
-				<i> {round.get('stage') == 'feedback' ? "Please wait for your partner to click their screen to begin the next round." : ""} </i>
+				<i> {round.get('stage') == 'feedback' ? gameTexts[gameTextsLanguage].TASK_waitForPartnerToClickAnywhere : ""} </i>
 				</td>
 				</tr>
 				</table>
