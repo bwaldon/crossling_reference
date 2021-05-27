@@ -7,8 +7,8 @@ export const newPlayerTexts = {
         'SubmitButtonText': "Submit"
     },
     'ChineseSimplified': {
-        'IdentificationHeaderText': "Identification",
-        'EnterProlificIDPrompt': 'Please enter your Prolific ID:',
-        'SubmitButtonText': "Submit"
+        'IdentificationHeaderText': "身份认证",
+        'EnterProlificIDPrompt': '请输入你的Prolific账号',
+        'SubmitButtonText': "提交"
     }
 }

@@ -35,6 +35,33 @@ export const gameTexts = {
     },
 
     'ChineseSimplified': {
+        'GAMELOBBY_loading': "游戏加载中...",
+        'GAMELOBBY_loadingDescription': "游戏马上开始，请做好准备!",
+        'GAMELOBBY_waitForPlayers': "请等待另一位玩家准备完毕...",
+        'GAMELOBBY_numPlayersReady': "玩家准备完毕。",
 
+        'PLAYERPROFILE_youAreGuesser': "你是" + "猜图者".bold() + ".",
+        'PLAYERPROFILE_youAreDirector': "你是" + "描述者".bold() + ".",
+        'PLAYERPROFILE_guesser': "猜图者",
+        'PLAYERPROFILE_director': "描述者",
+
+        'SOCIALEXPOSURE_numOtherPlayers': '其他玩家数量: ',
+
+        'TASK_pleaseMakeSelection': "请做出一个选择后再继续!",
+        'TASK_partnerHasToSaySomething': "你的搭档需要说些话后你才能选择图片！",
+        'TASK_youDidntSelectImage': "你没有选择一个图片！",
+        'TASK_youSelectedWrongImage': "你的图片选择错误！",
+        'TASK_youSelectedCorrectImage': "你的图片选择正确！",
+        'TASK_clickAnywhereToAdvance': "请任意点击某处来继续下一轮游戏。",
+        'TASK_partnerDidntSelectImage': "你的搭档没有选择一个图片！",
+        'TASK_partnerSelectedWrongImage': "你的搭档选择了错误的图片！",
+        'TASK_partnerSelectedCorrectImage': "你的搭档选择了正确的图片！",
+        'TASK_waitForPartnerToClickAnywhere': "请等待你的搭档点击屏幕来进入下一轮。",
+        'TASK_submitButtonText': "提交",
+
+        'TIMER_timeUntilNextRound': "距离下一局还剩的时间: ",
+
+        'WAITINGFORSERVER_waitingForServerResponse': "等待服务器响应...",
+        'WAITINGFORSERVER_waitingForPlayers': "请等待至所有玩家准备就绪。如果用时超过5秒，请刷新页面。"
     }
 }

@@ -17,17 +17,17 @@ export const quizTexts = {
     },
 
     "ChineseSimplified": {
-        "MistakesMessage": "日",
-        "Question1": "月",
-        "Question2": "金",
-        "Question3": "木",
-        "Question4": "水",
-        "Question5": "火",
-        "Question6": "土",
+        "MistakesMessage": "抱歉，你犯了一个或多个错误，请保证你的回答完全正确，或者回到游戏说明界面。",
+        "Question1": "描述者可以点击一个物体。",
+        "Question2": "猜测者想要点击说话者所描述的物体。",
+        "Question3": "红色圆圈所标出的是目标物体。",
+        "Question4": "只有描述者才能发消息。",
+        "Question5": "本轮游戏一共有60轮。",
+        "Question6": "描述者和猜测者所看的物体的位置是一样的。",
         "TrueButtonText": "是",
         "FalseButtonText": "否",
-        "BackToInstructionsText": "Back to instructions",
-        "SubmitButtonText": "Submit"
+        "BackToInstructionsText": "回到游戏说明页面",
+        "SubmitButtonText": "提交"
     }
 
 }
