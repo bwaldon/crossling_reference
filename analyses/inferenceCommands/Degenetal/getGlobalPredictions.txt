@@ -1,0 +1,16 @@
+// console.log(estimates)
+// console.log(JSON.parse(estimates))
+// console.log(Object.keys(estimates))
+
+var predictives = map(function(d) {
+
+  var m = extend(model(estimates), {states : d.states, utterances : d.utterances}); 
+  return {condition: d.condition, 
+  size_color: Math.exp(globalUtteranceSpeaker("TARGET_REFERENT",m,estimates,semantics(estimates)).score("OVERMODIFYING_UTTERANCE")),
+  color: Math.exp(globalUtteranceSpeaker("TARGET_REFERENT",m,estimates,semantics(estimates)).score("START color STOP")),
+  size: Math.exp(globalUtteranceSpeaker("TARGET_REFERENT",m,estimates,semantics(estimates)).score("START size STOP"))}; 
+  
+}, df)
+
+predictives
+

@@ -1,73 +1,223 @@
 import React from "react";
 
-import { Centered } from "meteor/empirica:core";
+import { Centered, AlertToaster } from "meteor/empirica:core";
 
-export default class Quiz extends React.Component {
-  state = { sum: "", horse: "" };
+import { Radio, RadioGroup } from "@blueprintjs/core";
 
-  handleChange = event => {
+import { Checkbox } from "@blueprintjs/core";
+
+import { quizTexts, quizLanguage } from "./quizTexts.js";
+
+export default class GroupQuiz extends React.Component {
+
+  state = {
+    directorCanClick: "",
+    guesserWantsToClick: "",
+    targetRedCircle: "",
+    onlyDirector: "",
+    total72rounds: "",
+    sameLocations: "",
+    // selectionControl: "",
+    // aftertask: "",
+   // chat: ""
+  };
+
+  componentDidMount() {
+    const { game } = this.props;
+    document.querySelector("main").scrollTo(0,0)
+    this.state.num_players = game.treatment.playerCount;
+  }
+
+  handleChange = (event) => {
     const el = event.currentTarget;
     this.setState({ [el.name]: el.value.trim().toLowerCase() });
   };
 
-  handleSubmit = event => {
+  handleRadioChange = (event) => {
+    const el = event.currentTarget;
+    console.log("el", el);
+    console.log("ev", event);
+    this.setState({ [el.name]: el.value });
+  };
+
+  handleEnabledChange = (event) => {
+    const el = event.currentTarget;
+    this.setState({ [el.name]: !this.state[el.name] });
+  };
+
+  handleSubmit = (event) => {
     event.preventDefault();
 
-    if (this.state.sum !== "4" || this.state.horse !== "white") {
-      alert("Incorrect! Read the instructions, and please try again.");
+    //it should be this.state.nParticipants !== "3" but we don't have "treatment" in QUIZ
+    if(this.state.directorCanClick !== "false" ||
+      this.state.guesserWantsToClick !== "true" ||
+      this.state.targetRedCircle !== "false" ||
+      this.state.onlyDirector !== "false" ||
+      this.state.total72rounds !== "true" ||
+      this.state.sameLocations !== "false"
+
+      ) {
+      AlertToaster.show({
+        message:
+          quizTexts[quizLanguage].MistakesMessage
+      });
     } else {
       this.props.onNext();
     }
   };
 
   render() {
-    const { hasPrev, hasNext, onNext, onPrev } = this.props;
-    const { sum, horse } = this.state;
+    const { hasPrev, onPrev, game, treatment } = this.props;
     return (
       <Centered>
         <div className="quiz">
-          <h1> Quiz </h1>
+          <h1 className={"bp3-heading"}> Quiz </h1>
           <form onSubmit={this.handleSubmit}>
-            <p>
-              <label htmlFor="sum">What is 2+2?</label>
-              <input
-                type="text"
-                dir="auto"
-                id="sum"
-                name="sum"
-                placeholder="e.g. 3"
-                value={sum}
-                onChange={this.handleChange}
-                autoComplete="off"
-                required
-              />
-            </p>
-            <p>
-              <label htmlFor="horse">
-                What color was Napoleon's white horse?
-              </label>
-              <input
-                type="text"
-                dir="auto"
-                id="horse"
-                name="horse"
-                placeholder="e.g. brown"
-                value={horse}
-                onChange={this.handleChange}
-                autoComplete="off"
-                required
-              />
-            </p>
+      
 
-            <p>
-              <button type="button" onClick={onPrev} disabled={!hasPrev}>
-                Back to instructions
-              </button>
-              <button type="submit">Submit</button>
-            </p>
+            <div className="bp3-form-group">
+              <div className="bp3-form-content">
+                <RadioGroup
+                  label={quizTexts[quizLanguage].Question1}
+                  onChange={this.handleRadioChange}
+                  selectedValue={this.state.directorCanClick}
+                  name="directorCanClick"
+                  required
+                >
+                  <Radio
+                    label={quizTexts[quizLanguage].TrueButtonText}
+                    value= "true"
+                  />
+                  <Radio
+                    label={quizTexts[quizLanguage].FalseButtonText}
+                    value= "false"
+                  />
+                </RadioGroup>
+              </div>
+            </div>
+
+             <div className="bp3-form-group">
+              <div className="bp3-form-content">
+                <RadioGroup
+                  label={quizTexts[quizLanguage].Question2}
+                  onChange={this.handleRadioChange}
+                  selectedValue={this.state.guesserWantsToClick}
+                  name="guesserWantsToClick"
+                  required
+                >
+                  <Radio
+                    label={quizTexts[quizLanguage].TrueButtonText}
+                    value= "true"
+                  />
+                  <Radio
+                    label={quizTexts[quizLanguage].FalseButtonText}
+                    value= "false"
+                  />
+                </RadioGroup>
+              </div>
+            </div>
+
+            <div className="bp3-form-group">
+              <div className="bp3-form-content">
+                <RadioGroup
+                  label={quizTexts[quizLanguage].Question3}
+                  onChange={this.handleRadioChange}
+                  selectedValue={this.state.targetRedCircle}
+                  name="targetRedCircle"
+                  required
+                >
+                  <Radio
+                    label={quizTexts[quizLanguage].TrueButtonText}
+                    value= "true"
+                  />
+                  <Radio
+                    label={quizTexts[quizLanguage].FalseButtonText}
+                    value= "false"
+                  />
+                </RadioGroup>
+              </div>
+            </div>
+
+              <div className="bp3-form-group">
+              <div className="bp3-form-content">
+                <RadioGroup
+                  label={quizTexts[quizLanguage].Question4}
+                  onChange={this.handleRadioChange}
+                  selectedValue={this.state.onlyDirector}
+                  name="onlyDirector"
+                  required
+                >
+                  <Radio
+                    label={quizTexts[quizLanguage].TrueButtonText}
+                    value= "true"
+                  />
+                  <Radio
+                    label={quizTexts[quizLanguage].FalseButtonText}
+                    value= "false"
+                  />
+                </RadioGroup>
+              </div>
+            </div>
+
+            <div className="bp3-form-group">
+              <div className="bp3-form-content">
+                <RadioGroup
+                  label={quizTexts[quizLanguage].Question5}
+                  onChange={this.handleRadioChange}
+                  selectedValue={this.state.total72rounds}
+                  name="total72rounds"
+                  required
+                >
+                  <Radio
+                    label={quizTexts[quizLanguage].TrueButtonText}
+                    value= "true"
+                  />
+                  <Radio
+                    label={quizTexts[quizLanguage].FalseButtonText}
+                    value= "false"
+                  />
+                </RadioGroup>
+              </div>
+            </div>
+
+            <div className="bp3-form-group">
+              <div className="bp3-form-content">
+                <RadioGroup
+                  label={quizTexts[quizLanguage].Question6}
+                  onChange={this.handleRadioChange}
+                  selectedValue={this.state.sameLocations}
+                  name="sameLocations"
+                  required
+                >
+                  <Radio
+                    label={quizTexts[quizLanguage].TrueButtonText}
+                    value= "true"
+                  />
+                  <Radio
+                    label={quizTexts[quizLanguage].FalseButtonText}
+                    value= "false"
+                  />
+                </RadioGroup>
+              </div>
+            </div>
+          
+          
+            <button
+              type="button"
+              className="bp3-button bp3-intent-nope bp3-icon-double-chevron-left"
+              onClick={onPrev}
+              disabled={!hasPrev}
+            >
+              {quizTexts[quizLanguage].BackToInstructionsText}
+            </button>
+            <button type="submit" className="bp3-button bp3-intent-primary">
+              {quizTexts[quizLanguage].SubmitButtonText}
+              <span className="bp3-icon-standard bp3-icon-key-enter bp3-align-right" />
+            </button>
           </form>
         </div>
       </Centered>
     );
   }
 }
+

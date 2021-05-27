@@ -1,10 +1,12 @@
 import React from "react";
 import Image from "./Image.jsx";
+import { AlertToaster } from "meteor/empirica:core";
+import {gameTexts, gameTextsLanguage} from './gameTexts.js'
 
 export default class Task extends React.Component {
 
 	render() {
-		const { round, stage, player } = this.props;
+		const { round, player } = this.props;
 		const TaskView = player.get('role') == 'listener' ? <ListenerTask {...this.props} /> : <SpeakerTask {...this.props} />;
 		return (
 			<div className="task">
@@ -17,7 +19,9 @@ export default class Task extends React.Component {
 
 class ListenerTask extends React.Component {
 
+
 	constructor(props) {
+
 		super(props);
 		const { round } = this.props;
 		this.state = { selected: "NONE" };
@@ -25,58 +29,113 @@ class ListenerTask extends React.Component {
 		this.handleChange = this.handleChange.bind(this);
 		this.handleSubmit = this.handleSubmit.bind(this);
 		this.images = round.get("listenerImages")	
+	
 	}
+
+	// handle the click anywhere to proceed after selection
+
+	handleClick = event => {
+
+		const { round } = this.props;
+
+		if (round.get('stage') === "feedback") {
+			this.props.player.stage.submit();
+			document.removeEventListener('click', this.handleClick, true);
+		}
+    
+    } 
+
+    // handle the submit button
 
 	handleSubmit(e) {
 		e.preventDefault();
-		const { round } = this.props;
+		const { round, stage } = this.props;
 
-		if(this.state.selected === "NONE"){
-			round.set('error',"Please make a selection before proceeding!")
+		if(round.get('stage') !== "feedback" & this.state.selected === "NONE"){
+			AlertToaster.show({
+       		 message:
+				gameTexts[gameTextsLanguage].TASK_pleaseMakeSelection
+      		});
 			return
-		} else {
+		} else if (round.get('stage') === "selection") {
 			round.set("listenerSelection", this.state.selected)
-			this.props.player.stage.submit();
+			round.set('stage', 'feedback')
+			document.addEventListener('click', this.handleClick, true);
 		}
 
 	};
 
+	// handle a click on an image during selection
+
 	handleChange(e) {
-		const { round } = this.props;
+		const { round, stage } = this.props;
 
 		const chatLog = round.get('chatLog') || new Array();
 		// Filter on only speaker messages
-		const filteredLog = chatLog.filter((msg) => msg.player.name === "Speaker");
-		if (filteredLog.length === 0) {
-			round.set('error',"Your partner has to say something before you can select an image!")
+		const filteredLog = chatLog.filter((msg) => msg.player.name === gameTexts[gameTextsLanguage].PLAYERPROFILE_director);
+		if (round.get('stage') === "selection" & filteredLog.length === 0) {
+			AlertToaster.show({
+       		 message:
+				gameTexts[gameTextsLanguage].TASK_partnerHasToSaySomething
+      		});
 			return
-		} else {
+		} else if (round.get('stage') === "selection") {
 			this.setState({ selected: e.target.id });
+		} else {
+
 		}	
+
 	};
 
 	render() {
 
 		const { round, stage, player } = this.props;
+		let button;
+		let feedbackMessage;
+		const listenerSelection = round.get("listenerSelection")
+		const target = round.get("target")
+		const correct = listenerSelection == target.id ? true : false	
+		if (round.get('stage') === "feedback") {	
+			if (listenerSelection == "NONE") {
+			feedbackMessage = gameTexts[gameTextsLanguage].TASK_youDidntSelectImage
+		} else if(!(correct)){
+			feedbackMessage = gameTexts[gameTextsLanguage].TASK_youSelectedWrongImage
+		} else {
+			feedbackMessage = gameTexts[gameTextsLanguage].TASK_youSelectedCorrectImage
+			}
+		} else {
+			button = <button onClick={this.handleSubmit}>{gameTexts[gameTextsLanguage].TASK_submitButtonText}</button>
+		}
+		
 		const images = this.images.map((image,) => { 
 			let path = "images/" + image.name + ".jpg";
-			const highlighted = this.state.selected == image.id ? true : false
-			return(<Image image={image} path= {path} onClick = {this.handleChange} borderColor = 'green' highlighted = {highlighted} /> )})
+			let highlighted;
+			let borderColor;
+			
+			if (round.get('stage') === "feedback") {
+				highlighted = listenerSelection == image.id || target.id == image.id ? true : false
+				borderColor = !(correct) & image.id == listenerSelection ? 'red' : 'green';
+			} else {
+				highlighted = this.state.selected == image.id ? true : false
+				borderColor = "black"
+			}
+			return(<Image image={image} path= {path} onClick = {this.handleChange} borderColor = {borderColor} highlighted = {highlighted} /> )})
 		
 		return (
 			<div className="task-stimulus">
 				<table>
-				<tr>
+				<tr align ="center">
 				{images}
 				</tr>
-				<tr>
-				<td align="center">
-				<button onClick={this.handleSubmit}>Submit</button>
+				<tr align="center">
+				<td colspan="5">
+				{button}
 				</td>
 				</tr>
 				<tr>
-				<td align ="center">
-				<h4> {round.get('error')} </h4>
+				<td align ="center" colspan="5">
+				<h4> {feedbackMessage} </h4>
+				<i> {round.get('stage') == 'feedback' ? gameTexts[gameTextsLanguage].TASK_clickAnywhereToAdvance : ""} </i>
 				</td>
 				</tr>
 				</table>	
@@ -87,9 +146,8 @@ class ListenerTask extends React.Component {
 
 class SpeakerTask extends React.Component {
 
-	// We 'submit' for the speaker upon loading the component, as there's no response to wait for.
 	componentDidMount() {
-		this.props.player.stage.submit()
+		this.props.player.stage.submit();
 	}
 
 	constructor(props) {
@@ -101,16 +159,44 @@ class SpeakerTask extends React.Component {
 	render() {
 
 		const { round, stage, player } = this.props;
+		let feedbackMessage;
+		const listenerSelection = round.get("listenerSelection")
+		const target = round.get("target")
+		const correct = listenerSelection == target.id ? true : false
+		if (round.get('stage') === "feedback") {
+		if (listenerSelection == "NONE") {
+			feedbackMessage = gameTexts[gameTextsLanguage].TASK_partnerDidntSelectImage
+		} else if(!(correct)){
+			feedbackMessage = gameTexts[gameTextsLanguage].TASK_partnerSelectedWrongImage
+		} else {
+			feedbackMessage = gameTexts[gameTextsLanguage].TASK_partnerSelectedCorrectImage
+			}
+		}
+
 		const images = this.images.map((image,) => { 
 			let path = "images/" + image.name + ".jpg";
-			const highlighted = round.get("target").id === image.id ? true : false
-			return(<Image image={image} path= {path} borderColor = 'black' highlighted = {highlighted} /> )})
+			let highlighted;
+			let borderColor;
+			if (round.get('stage') === "feedback") {
+				highlighted = listenerSelection == image.id || target.id == image.id ? true : false
+				borderColor = !(correct) & image.id == listenerSelection ? 'red' : 'green'
+			} else if (round.get('stage') === "selection") {
+				highlighted = target.id === image.id ? true : false
+				borderColor = 'black'
+			}
+			return(<Image image={image} path= {path} borderColor = {borderColor} highlighted = {highlighted} /> )})
 		
 		return (
 			<div className="task-stimulus">		
 				<table>
-				<tr>
+				<tr align ="center">
 				{images}
+				</tr>
+				<tr>
+				<td colspan="5" align = "center">
+				<h4>{feedbackMessage}</h4>
+				<i> {round.get('stage') == 'feedback' ? gameTexts[gameTextsLanguage].TASK_waitForPartnerToClickAnywhere : ""} </i>
+				</td>
 				</tr>
 				</table>
 			</div>

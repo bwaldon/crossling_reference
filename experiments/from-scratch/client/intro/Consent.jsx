@@ -1,4 +1,5 @@
 import React from "react";
+import { introTexts, introLanguage } from "./introTexts.js";
 
 import { Centered, ConsentButton } from "meteor/empirica:core";
 
@@ -7,20 +8,28 @@ export default class Consent extends React.Component {
     return (
       <Centered>
         <div className="consent">
-          <h1> Consent Form </h1>
-          <p>
-            This experiment is part of a MIT scientific project. Your decision
-            to participate in this experiment is entirely voluntary. There are
-            no known or anticipated risks to participating in this experiment.
-            There is no way for us to identify you. The only information we will
-            have, in addition to your responses, is the timestamps of your
-            interactions with our site. The results of our research may be
-            presented at scientific meetings or published in scientific
-            journals. Clicking on the "AGREE" button indicates that you are at
-            least 18 years of age, and agree to participate voluntary.
+          <img src = "stanfordlogo.png" width = "300px" />  <img src = "alpslogo.png" width = "300px" />
+          <h1> { introTexts[introLanguage].ConsentFormTitle } </h1>
+          <p> { introTexts[introLanguage].ConsentFormLine1 }
           </p>
+
+          <p> { introTexts[introLanguage].ConsentFormLine2 }
+          </p>
+
+          <p> { introTexts[introLanguage].ConsentFormLine3 }
+          </p>
+
+          <p> { introTexts[introLanguage].ConsentFormLine4 }
+          </p>
+
+          <p> { introTexts[introLanguage].ConsentFormLine5 }
+          </p>
+
+          <p> { introTexts[introLanguage].ConsentFormLine6 }
+          </p>
+
           <br />
-          <ConsentButton text="I AGREE" />
+          <ConsentButton text={ introTexts[introLanguage].AgreeButtonText } />
         </div>
       </Centered>
     );
