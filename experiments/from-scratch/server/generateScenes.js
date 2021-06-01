@@ -18,7 +18,8 @@ exports.generateScenes = function generateScenes() {
         [4, 4]
     ];
 
-    let colorSizeItemTypes = Array.from(Array(36).keys()); // TODO shuffle this list
+    // let colorSizeItemTypes = Array.from(Array(36).keys()); // TODO shuffle this list
+    let colorSizeItemTypes = _.shuffle(Array.from(Array(36).keys())); // after shuffling
 
     let scenes = [];
 

@@ -13,6 +13,13 @@ const glob = require('glob');
 
 const generateScenesObject = require('./generateScenes');
 
+// Test the generateScenes module by calling it 100 times.
+console.log(process.cwd())
+const fs = require('fs');
+let testObject = [];
+_.times(100, i => { testObject.push(generateScenesObject.generateScenes()) })
+fs.writeFileSync('../../../../../server/testOut.json', JSON.stringify(testObject) )
+
 Empirica.gameInit(game => {
   game.players.forEach((player, i) => {
     player.set("avatar", `/avatars/jdenticon/${player._id}`);
