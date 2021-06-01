@@ -2,12 +2,13 @@ import React from "react";
 import PlayerProfile from "./PlayerProfile.jsx";
 import SocialExposure from "./SocialExposure.jsx";
 import Task from "./Task.jsx";
+import {gameTexts, gameTextsLanguage} from './gameTexts.js'
 
 export default class Round extends React.Component {
 
   componentDidMount() {
     const { player } = this.props;
-    player.get('role') === "listener" ? player.set('name', "Guesser") : player.set('name', "Director") 
+    player.get('role') === "listener" ? player.set('name', gameTexts[gameTextsLanguage].PLAYERPROFILE_guesser) : player.set('name', gameTexts[gameTextsLanguage].PLAYERPROFILE_director) 
   }
 
   render() {

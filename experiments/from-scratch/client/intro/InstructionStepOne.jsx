@@ -2,6 +2,7 @@ import React from "react";
 import Image from "../game/Image.jsx";
 
 import { Centered } from "meteor/empirica:core";
+import { instructionsStepOneTexts, instructionLanguage } from './instructionTexts.js';
 
 export default class InstructionStepOne extends React.Component {
 
@@ -17,14 +18,14 @@ export default class InstructionStepOne extends React.Component {
     return (
       <Centered>
         <div className="instructions">
-          <h1> Game instructions (part 1 of 3) </h1>
+          <h1> {instructionsStepOneTexts[instructionLanguage].instructionTitle} </h1>
 
           <p>
-            <b> Please read these instructions carefully! You will have to pass a quiz on how the game works before you can play!</b>
+            <b> {instructionsStepOneTexts[instructionLanguage].instructionLine1} </b>
           </p>
 
           <p>
-            In this experiment, you will play a guessing game with another person! On each round, both of you will see a set of pictures, like this: 
+          {instructionsStepOneTexts[instructionLanguage].instructionLine2}
           </p>
 
          
@@ -37,16 +38,16 @@ export default class InstructionStepOne extends React.Component {
           </center>
 
            <p>
-          You and your partner will each see the same pictures, <u>but in different orders</u>.
+           {instructionsStepOneTexts[instructionLanguage].instructionLine3}
           </p>
 
           <center>
           <p>
             <button type="button" onClick={onPrev} disabled={!hasPrev}>
-              Previous
+            {instructionsStepOneTexts[instructionLanguage].previousButtonText}
             </button>
             <button type="button" onClick={onNext} disabled={!hasNext}>
-              Next
+            {instructionsStepOneTexts[instructionLanguage].nextButtonText}
             </button>
           </p>
 

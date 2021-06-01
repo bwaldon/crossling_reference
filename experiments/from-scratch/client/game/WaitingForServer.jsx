@@ -1,4 +1,5 @@
 import React from "react";
+import {gameTexts, gameTextsLanguage} from './gameTexts.js'
 
 export default class WaitingForServer extends React.Component {
   render() {
@@ -10,11 +11,10 @@ export default class WaitingForServer extends React.Component {
           </div>
           <h4 className="pt-non-ideal-state-title">
             {/* A more neutral message in case it was a single player */}
-            Waiting for response from server...
+            {gameTexts[gameTextsLanguage].WAITINGFORSERVER_waitingForServerResponse}
           </h4>
           <div className="pt-non-ideal-state-description">
-            Please wait until all players are ready. If this takes more than 5
-            seconds, please <em>Refresh the page</em>.
+          {gameTexts[gameTextsLanguage].WAITINGFORSERVER_waitingForPlayers}
           </div>
         </div>
       </div>

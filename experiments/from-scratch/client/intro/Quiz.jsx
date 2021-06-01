@@ -6,7 +6,10 @@ import { Radio, RadioGroup } from "@blueprintjs/core";
 
 import { Checkbox } from "@blueprintjs/core";
 
+import { quizTexts, quizLanguage } from "./quizTexts.js";
+
 export default class GroupQuiz extends React.Component {
+
   state = {
     directorCanClick: "",
     guesserWantsToClick: "",
@@ -56,7 +59,7 @@ export default class GroupQuiz extends React.Component {
       ) {
       AlertToaster.show({
         message:
-          "Sorry, you have one or more mistakes. Please ensure that you answer the questions correctly, or go back to the instructions.",
+          quizTexts[quizLanguage].MistakesMessage
       });
     } else {
       this.props.onNext();
@@ -75,18 +78,18 @@ export default class GroupQuiz extends React.Component {
             <div className="bp3-form-group">
               <div className="bp3-form-content">
                 <RadioGroup
-                  label="The director can click on an object."
+                  label={quizTexts[quizLanguage].Question1}
                   onChange={this.handleRadioChange}
                   selectedValue={this.state.directorCanClick}
                   name="directorCanClick"
                   required
                 >
                   <Radio
-                    label="True"
+                    label={quizTexts[quizLanguage].TrueButtonText}
                     value= "true"
                   />
                   <Radio
-                    label="False"
+                    label={quizTexts[quizLanguage].FalseButtonText}
                     value= "false"
                   />
                 </RadioGroup>
@@ -96,18 +99,18 @@ export default class GroupQuiz extends React.Component {
              <div className="bp3-form-group">
               <div className="bp3-form-content">
                 <RadioGroup
-                  label="The guesser clicks on the object that the director is telling them about."
+                  label={quizTexts[quizLanguage].Question2}
                   onChange={this.handleRadioChange}
                   selectedValue={this.state.guesserWantsToClick}
                   name="guesserWantsToClick"
                   required
                 >
                   <Radio
-                    label="True"
+                    label={quizTexts[quizLanguage].TrueButtonText}
                     value= "true"
                   />
                   <Radio
-                    label="False"
+                    label={quizTexts[quizLanguage].FalseButtonText}
                     value= "false"
                   />
                 </RadioGroup>
@@ -117,18 +120,18 @@ export default class GroupQuiz extends React.Component {
             <div className="bp3-form-group">
               <div className="bp3-form-content">
                 <RadioGroup
-                  label="The target is the object that has the red circle around it."
+                  label={quizTexts[quizLanguage].Question3}
                   onChange={this.handleRadioChange}
                   selectedValue={this.state.targetRedCircle}
                   name="targetRedCircle"
                   required
                 >
                   <Radio
-                    label="True"
+                    label={quizTexts[quizLanguage].TrueButtonText}
                     value= "true"
                   />
                   <Radio
-                    label="False"
+                    label={quizTexts[quizLanguage].FalseButtonText}
                     value= "false"
                   />
                 </RadioGroup>
@@ -138,18 +141,18 @@ export default class GroupQuiz extends React.Component {
               <div className="bp3-form-group">
               <div className="bp3-form-content">
                 <RadioGroup
-                  label="Only the director can send messages in the chat."
+                  label={quizTexts[quizLanguage].Question4}
                   onChange={this.handleRadioChange}
                   selectedValue={this.state.onlyDirector}
                   name="onlyDirector"
                   required
                 >
                   <Radio
-                    label="True"
+                    label={quizTexts[quizLanguage].TrueButtonText}
                     value= "true"
                   />
                   <Radio
-                    label="False"
+                    label={quizTexts[quizLanguage].FalseButtonText}
                     value= "false"
                   />
                 </RadioGroup>
@@ -159,18 +162,18 @@ export default class GroupQuiz extends React.Component {
             <div className="bp3-form-group">
               <div className="bp3-form-content">
                 <RadioGroup
-                  label="There are a total of 72 rounds."
+                  label={quizTexts[quizLanguage].Question5}
                   onChange={this.handleRadioChange}
                   selectedValue={this.state.total72rounds}
                   name="total72rounds"
                   required
                 >
                   <Radio
-                    label="True"
+                    label={quizTexts[quizLanguage].TrueButtonText}
                     value= "true"
                   />
                   <Radio
-                    label="False"
+                    label={quizTexts[quizLanguage].FalseButtonText}
                     value= "false"
                   />
                 </RadioGroup>
@@ -180,18 +183,18 @@ export default class GroupQuiz extends React.Component {
             <div className="bp3-form-group">
               <div className="bp3-form-content">
                 <RadioGroup
-                  label="The locations of the objects are the same for the director and the guesser."
+                  label={quizTexts[quizLanguage].Question6}
                   onChange={this.handleRadioChange}
                   selectedValue={this.state.sameLocations}
                   name="sameLocations"
                   required
                 >
                   <Radio
-                    label="True"
+                    label={quizTexts[quizLanguage].TrueButtonText}
                     value= "true"
                   />
                   <Radio
-                    label="False"
+                    label={quizTexts[quizLanguage].FalseButtonText}
                     value= "false"
                   />
                 </RadioGroup>
@@ -205,10 +208,10 @@ export default class GroupQuiz extends React.Component {
               onClick={onPrev}
               disabled={!hasPrev}
             >
-              Back to instructions
+              {quizTexts[quizLanguage].BackToInstructionsText}
             </button>
             <button type="submit" className="bp3-button bp3-intent-primary">
-              Submit
+              {quizTexts[quizLanguage].SubmitButtonText}
               <span className="bp3-icon-standard bp3-icon-key-enter bp3-align-right" />
             </button>
           </form>

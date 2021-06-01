@@ -1,5 +1,6 @@
 import { StageTimeWrapper } from "meteor/empirica:core";
 import React from "react";
+import {gameTexts, gameTextsLanguage} from './gameTexts.js'
 
 class timer extends React.Component {
   render() {
@@ -12,7 +13,7 @@ class timer extends React.Component {
       classes.push("lessThan10");
     }
 
-    const label = round.get('stage') === "feedback" ? "Time until next round:" : ""
+    const label = round.get('stage') === "feedback" ? gameTexts[gameTextsLanguage].TIMER_timeUntilNextRound : ""
 
     return (
       <div className={classes.join(" ")}>
