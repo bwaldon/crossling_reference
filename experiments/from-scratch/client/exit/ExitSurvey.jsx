@@ -2,7 +2,7 @@ import React from "react";
 
 import { Centered } from "meteor/empirica:core";
 
-import { exitTexts, exitTextsLanguage } from './exitTexts.js';
+import { exitTexts } from './exitTexts.js';
 
 import {
     Button,
@@ -17,6 +17,7 @@ import {
 
 export default class ExitSurvey extends React.Component {
     static stepName = "ExitSurvey";
+
     state = {
         age: "",
         gender: "",
@@ -75,8 +76,13 @@ export default class ExitSurvey extends React.Component {
             feedback,
             colorblind,
             // time,
-            robot
+            robot,
+            gameLanguage
         } = this.state;
+
+        const { game } = this.props;
+
+        const exitTextsLanguage = game.treatment.gameLanguage
 
         return (
             <div>

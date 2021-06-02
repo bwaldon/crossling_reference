@@ -1,13 +1,14 @@
 import React from "react";
 import { introTexts, introLanguage } from "./introTexts.js";
 
-import { Centered, ConsentButton } from "meteor/empirica:core";
+// import { Centered, ConsentButton } from "meteor/empirica:core";
+import { Centered } from "meteor/empirica:core";
 
 export default class Consent extends React.Component {
   render() {
-    // // const { game } = this.props;
+    const { game, onNext, hasNext } = this.props;
     // console.log(this.props)
-    // // var introLanguage = game.treatment.gameLanguage;
+    var introLanguage = game.treatment.gameLanguage;
 
     return (
       <Centered>
@@ -33,7 +34,9 @@ export default class Consent extends React.Component {
           </p>
 
           <br />
-          <ConsentButton text={ introTexts[introLanguage].AgreeButtonText } />
+          <button type="button" onClick={onNext}> 
+          {introTexts[introLanguage].AgreeButtonText}
+          </button>
         </div>
       </Centered>
     );

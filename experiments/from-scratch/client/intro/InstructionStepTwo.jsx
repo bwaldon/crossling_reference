@@ -1,5 +1,5 @@
 import React from "react";
-
+import ReactHtmlParser from 'react-html-parser';
 import { Centered } from "meteor/empirica:core";
 import { instructionsStepTwoTexts } from "./instructionTexts.js"
 
@@ -15,7 +15,7 @@ export default class InstructionStepTwo extends React.Component {
           <h1> {instructionsStepTwoTexts[instructionLanguage].instructionTitle} </h1>
 
           <p>
-          {instructionsStepTwoTexts[instructionLanguage].instructionLine1}
+          {ReactHtmlParser(instructionsStepTwoTexts[instructionLanguage].instructionLine1)}
           </p>
 
           <p>
