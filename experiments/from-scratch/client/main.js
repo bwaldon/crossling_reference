@@ -15,7 +15,7 @@ import Quiz from "./intro/Quiz";
 import newPlayer from "./intro/newPlayer.jsx"
 
 // Set the About Component you want to use for the About dialog (optional).
-Empirica.about(About);
+// Empirica.about(About);
 
 // Set the Consent Component you want to present players (optional).
 // Empirica.consent(Consent);
