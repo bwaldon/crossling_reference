@@ -1,11 +1,14 @@
 import React from "react";
 
 import { Centered } from "meteor/empirica:core";
-import { instructionsStepTwoTexts, instructionLanguage } from "./instructionTexts.js"
+import { instructionsStepTwoTexts } from "./instructionTexts.js"
 
 export default class InstructionStepTwo extends React.Component {
   render() {
-    const { hasPrev, hasNext, onNext, onPrev } = this.props;
+    const { hasPrev, hasNext, onNext, onPrev, game } = this.props;
+
+    var instructionLanguage = game.treatment.gameLanguage;
+
     return (
       <Centered>
         <div className="instructions">

@@ -19,6 +19,7 @@ Empirica.about(About);
 
 // Set the Consent Component you want to present players (optional).
 Empirica.consent(Consent);
+// Empirica.consent((game) => { return Consent});
 
 // Introduction pages to show before they play the game (optional).
 // At this point they have been assigned a treatment. You can return

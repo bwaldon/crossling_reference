@@ -5,6 +5,10 @@ import { Centered, ConsentButton } from "meteor/empirica:core";
 
 export default class Consent extends React.Component {
   render() {
+    // // const { game } = this.props;
+    // console.log(this.props)
+    // // var introLanguage = game.treatment.gameLanguage;
+
     return (
       <Centered>
         <div className="consent">

@@ -73,7 +73,8 @@ exports.generateScenes = function generateScenes() {
         let targetBasic = basicAndSup[0];
         let targetSup = basicAndSup[1];
 
-        let contextMode = _.sample(['subNec', 'basicSuff', 'supSuff']);
+        // let contextMode = _.sample(['subNec', 'basicSuff', 'supSuff']);             // OLD
+        let contextMode = _.sample(['subNec', 'basicSuff', 'basicSuff', 'supSuff']);   // NEW
 
         let distractor1;
         let distractor2;

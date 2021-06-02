@@ -22,6 +22,7 @@ export default class PlayerId extends Component {
     render() {
         const { id } = this.state;
 
+
         return (
             <Centered>
                 <div className="new-player">

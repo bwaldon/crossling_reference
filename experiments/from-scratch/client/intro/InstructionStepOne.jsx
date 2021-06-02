@@ -2,12 +2,14 @@ import React from "react";
 import Image from "../game/Image.jsx";
 
 import { Centered } from "meteor/empirica:core";
-import { instructionsStepOneTexts, instructionLanguage } from './instructionTexts.js';
+import { instructionsStepOneTexts } from './instructionTexts.js';
 
 export default class InstructionStepOne extends React.Component {
 
   render() {
     const { hasPrev, hasNext, onPrev, onNext, game } = this.props;
+    
+    var instructionLanguage = game.treatment.gameLanguage;
 
     const objects = ["ambulance", "big_green_rock", "lily", "pretzels"];
 
