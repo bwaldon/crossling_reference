@@ -3,13 +3,13 @@ library(tidyverse)
 library(jsonlite)
 library(rwebppl)
 
-source("helpers/dataPrep_degen.R")
-source("helpers/wpplHelpers_degen.R")
-source("helpers/vizhelpers_degen.R")
+source("../_shared/BDA_dataprep.R")
+source("../_shared/wpplHelpers.R")
+source("../_shared/BDA_vizhelpers.R")
 
 # PUT IN AN "UNCOLLAPSED" DATAFILE WITH DEGEN ET AL.'S FORMAT
 
-d_uncollapsed <- read_csv("studies/Degenetal/data.csv")
+d_uncollapsed <- read_csv("../../data/Degen2020/data.csv")
 
 # MAKE A TIBBLE: COLUMNS CONDITION, REFERENTS IN THAT CONDITION (STATES), ALTERNATIVES IN THAT CONDITION (UTTERANCES)
 
@@ -25,7 +25,7 @@ df <- merge(d, statesUtterances, by = "condition")
 
 # MAKE THE MODEL 
 
-model <- makeModel("studies/Degenetal/modelAndSemantics.txt")
+model <- makeModel("modelAndSemantics.txt")
 
 # MODEL 1: VANILLA RSA
 
@@ -39,7 +39,7 @@ vanillaPosteriors <- webppl(vanillaInferenceScript, data = df, data_var = "df")
 
 graphPosteriors(vanillaPosteriors) + ggtitle("Vanilla posteriors")
 
-ggsave("results/Degenetal/vanillaPosteriors.png")
+ggsave("results/vanillaPosteriors.png")
 
 # PREDICTIVES
 
@@ -54,7 +54,7 @@ vanillaPredictives <- webppl(vanillaPredictionScript, data = df, data_var = "df"
 
 graphPredictives(vanillaPredictives, df)
 
-ggsave("results/Degenetal/vanillaPredictives.png", width = 4, height = 3, units = "in")
+ggsave("results/vanillaPredictives.png", width = 4, height = 3, units = "in")
 
 # MODEL 2: CONTINUOUS RSA
 
@@ -68,7 +68,7 @@ continuousPosteriors <- webppl(continuousInferenceScript, data = df, data_var = 
 
 graphPosteriors(continuousPosteriors) + ggtitle("Continuous posteriors")
 
-ggsave("results/Degenetal/continuousPosteriors.png")
+ggsave("results/continuousPosteriors.png")
 
 # PREDICTIVES
 
@@ -83,7 +83,7 @@ continuousPredictives <- webppl(continuousPredictionScript, data = df, data_var 
 
 graphPredictives(continuousPredictives, df) + ggtitle("Continuous predictives")
 
-ggsave("results/Degenetal/continuousPredictives.png", width = 4, height = 3, units = "in")
+ggsave("results/continuousPredictives.png", width = 4, height = 3, units = "in")
 
 # MODEL 3: INCREMENTAL RSA 
 
@@ -96,7 +96,7 @@ incrementalPosteriors <- webppl(incrementalInferenceScript, data = df, data_var 
 
 graphPosteriors(incrementalPosteriors) + ggtitle("Incremental posteriors")
 
-ggsave("results/Degenetal/incrementalPosteriors.png")
+ggsave("results/incrementalPosteriors.png")
 
 # PREDICTIVES
 
@@ -111,7 +111,7 @@ incrementalPredictives <- webppl(incrementalPredictionScript, data = df, data_va
 
 graphPredictives(incrementalPredictives, df) + ggtitle("Incremental predictives")
 
-ggsave("results/Degenetal/incrementalPredictives.png", width = 4, height = 3, units = "in")
+ggsave("results/incrementalPredictives.png", width = 4, height = 3, units = "in")
 
 # MODEL 4: INCREMENTAL-CONTINUOUS RSA
 
@@ -126,7 +126,7 @@ incrementalContinuousPosteriors <- webppl(incrementalContinuousInferenceScript, 
 
 graphPosteriors(incrementalContinuousPosteriors) + ggtitle("Incremental-continuous posteriors")
 
-ggsave("results/Degenetal/incrementalContinuousPosteriors.png")
+ggsave("results/incrementalContinuousPosteriors.png")
 
 # PREDICTIVES
 
@@ -142,6 +142,6 @@ incrementalContinuousPredictives <- webppl(incrementalContinuousPredictionScript
 
 graphPredictives(incrementalContinuousPredictives, df)
 
-ggsave("results/Degenetal/incrementalContinuousPredictives.png", width = 4, height = 3, units = "in")
+ggsave("results/incrementalContinuousPredictives.png", width = 4, height = 3, units = "in")
 
-save.image("results/Degenetal/results.RData")
+save.image("results/results.RData")

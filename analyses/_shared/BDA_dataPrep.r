@@ -83,7 +83,7 @@ makeStatesUtterances = function(d_uncollapsed, language) {
 collapse_dataset <- function(d_uncollapsed) {
   d_uncollapsed %>% 
     group_by(condition, response) %>%
-    summarize(n = n()) %>%
+    summarise(n = n()) %>%
     spread(response, n) %>%
     replace(is.na(.), 0) %>%
     mutate(total = color + size + size_color) %>%

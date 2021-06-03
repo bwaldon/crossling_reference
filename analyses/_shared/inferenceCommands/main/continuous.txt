@@ -24,7 +24,7 @@ var posteriors = Infer({model: function(){
   return p
 }, method: "MCMC",
 samples: 2000,
-lag: 5, burn: 1000,
+lag: 10, burn: 2000,
 verbose: true})
 
 posteriors

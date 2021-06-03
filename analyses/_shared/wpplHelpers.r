@@ -1,22 +1,22 @@
 makeModel <- function(header) {
   
-  return(paste(read_file(header), read_file("../_shared/engine.txt"), sep = "\n"))
+  return(paste(read_file(header), read_file("../../_shared/engine.txt"), sep = "\n"))
   
 }
 
 wrapInference <- function(model, overmodifyingUtterance, targetReferent, inferenceType) {
   
   if(inferenceType == "incrementalContinuous") {
-    inferenceCommand <- read_file("inferenceCommands/Degenetal/incrementalContinuous.txt")
+    inferenceCommand <- read_file("../_shared/inferenceCommands/main/incrementalContinuous.txt")
     
   } else if(inferenceType == "incremental") {
-    inferenceCommand <- read_file("inferenceCommands/Degenetal/incremental.txt")
+    inferenceCommand <- read_file("../_shared/inferenceCommands/main/incremental.txt")
     
   } else if(inferenceType == "continuous") {
-    inferenceCommand <- read_file("inferenceCommands/Degenetal/continuous.txt")
+    inferenceCommand <- read_file("../_shared/inferenceCommands/main/continuous.txt")
     
   } else if(inferenceType == "vanilla") {
-    inferenceCommand <- read_file("inferenceCommands/Degenetal/vanilla.txt")
+    inferenceCommand <- read_file("../_shared/inferenceCommands/main/vanilla.txt")
     
   }
   
@@ -48,11 +48,11 @@ wrapPrediction = function(model, estimates, overmodifyingUtterance, targetRefere
   
   if(inferenceType == "incrementalContinuous" | inferenceType == "incremental" ) {
     
-    predictionCommand <- read_file("inferenceCommands/getIncrementalPredictions.txt")
+    predictionCommand <- read_file("inferenceCommands/main/getIncrementalPredictions.txt")
     
   } else if (inferenceType == "continuous" | inferenceType == "vanilla" ) {
     
-    predictionCommand <- read_file("inferenceCommands/getGlobalPredictions.txt")
+    predictionCommand <- read_file("../_shared/inferenceCommands/main/getGlobalPredictions.txt")
     
   }
   
