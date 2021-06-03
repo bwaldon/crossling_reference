@@ -1,0 +1,978 @@
+,anon_id,figure,answer,lang,adj,use
+1,0,1,triangle,eng,color,0
+2,1,1,Pink Triangle,eng,color,1
+3,2,1,pink triangle,eng,color,1
+4,3,1,Pink Triangle,eng,color,1
+5,4,1,Pink,eng,color,1
+6,5,1,pink triangle,eng,color,1
+7,6,1,Pink Triangle,eng,color,1
+8,7,1,triangle,eng,color,0
+9,8,1,Pink Triangle,eng,color,1
+10,9,1,Triangle,eng,color,0
+11,10,1,a pink triangle,eng,color,1
+12,11,1,pink triangle,eng,color,1
+13,12,1,pink triangle,eng,color,1
+14,13,1,One pink triangle,eng,color,1
+15,14,1,pink triangle,eng,color,1
+16,15,1,triangle,eng,color,0
+17,16,1,pink triangle,eng,color,1
+18,17,1,One pink triangle,eng,color,1
+19,18,1,Pink Triangle,eng,color,1
+20,19,1,triangle,eng,color,0
+21,20,1,pink triangle,eng,color,1
+22,21,1,purple triangle,eng,color,1
+23,22,1,Triangle,eng,color,0
+24,23,1,magenta triangle,eng,color,1
+25,24,1,Pink triangle,eng,color,1
+26,25,1,pink triangle,eng,color,1
+27,26,1,pink triangle,eng,color,1
+28,27,1,pink triangle,eng,color,1
+29,28,1,pink triangle,eng,color,1
+30,29,1,triangle,eng,color,0
+31,30,1,pink triangle,eng,color,1
+32,31,1,pink triangle,eng,color,1
+33,32,1,Purple triangle,eng,color,1
+34,33,1,pink triangle,eng,color,1
+35,34,1,pink triangle,eng,color,1
+36,35,1,Triangle,eng,color,0
+37,36,1,pink triangle,eng,color,1
+38,37,1,Triangle,eng,color,0
+39,38,1,Its triangle shape its a looks like pyramid,eng,color,0
+40,39,1,pink triangle,eng,color,1
+41,40,1,pink triangle,eng,color,1
+42,41,1,pink triangle,eng,color,1
+43,42,1,Pink triangle,eng,color,1
+44,43,1,pink triangle,eng,color,1
+45,44,1,Pink triangle,eng,color,1
+46,45,1,pink triangle,eng,color,1
+47,46,1,Heart,eng,color,0
+48,47,1,pink triangle,eng,color,1
+49,48,1,pink triangle,eng,color,1
+50,49,1,Pink triangle,eng,color,1
+51,50,1,heart,eng,color,0
+52,51,2,yellow circle,eng,color,1
+53,52,2,Yellow circle,eng,color,1
+54,53,2,Yellow Circle,eng,color,1
+55,54,2,white circle,eng,color,1
+56,55,2,Yellow Circle,eng,color,1
+57,2,2,yellow circle,eng,color,1
+58,56,2,Yellow circle,eng,color,1
+59,57,2,a yellow circle,eng,color,1
+60,58,2,yellow circle,eng,color,1
+61,59,2,yellow circle,eng,color,1
+62,12,2,yellow circle,eng,color,1
+63,60,2,Yellow circle,eng,color,1
+64,61,2,circle,eng,color,0
+65,62,2,"round, yellow",eng,color,1
+66,63,2,yellow circle,eng,color,1
+67,64,2,yellow circle,eng,color,1
+68,24,2,yellow circle,eng,color,1
+69,65,2,Round yellow,eng,color,1
+70,66,2,Yellow circle,eng,color,1
+71,67,2,yellow circle,eng,color,1
+72,68,2,yellow circle,eng,color,1
+73,69,2,yellow circle,eng,color,1
+74,70,2,Yellow circle,eng,color,1
+75,71,2,yellow circle,eng,color,1
+76,72,2,round shape,eng,color,0
+77,73,2,yellow circle,eng,color,1
+78,74,2,yellow circle,eng,color,1
+79,75,2,circle,eng,color,0
+80,76,2,A yellow circle with a thin black outline.,eng,color,1
+81,77,2,Yellow circle,eng,color,1
+82,78,2,yellow circle,eng,color,1
+83,34,2,yellow circle,eng,color,1
+84,79,2,yellow circle,eng,color,1
+85,80,2,The object is shaped like a circle and has a yellow color.,eng,color,1
+86,81,2,Yellow Circle,eng,color,1
+87,82,2,Yellow circle under the red heart,eng,color,1
+88,83,2,yellow circle,eng,color,1
+89,84,2,yellow circle,eng,color,0
+90,85,2,Yellow circle,eng,color,1
+91,86,2,circle,eng,color,0
+92,87,2,yellow circle,eng,color,1
+93,43,2,yellow circle,eng,color,1
+94,88,2,yellow circle,eng,color,1
+95,89,2,Yellow circle,eng,color,1
+96,90,2,Yellow circle,eng,color,1
+97,91,3,Heart,eng,color,0
+98,92,3,blue heart,eng,color,1
+99,52,3,purple heart,eng,color,1
+100,53,3,Purple Heart,eng,color,1
+101,93,3,Heart,eng,color,0
+102,94,3,Purple heart,eng,color,1
+103,95,3,Purple heart,eng,color,1
+104,96,3,heart,eng,color,0
+105,97,3,heart,eng,color,0
+106,4,3,Purple,eng,color,0
+107,5,3,purple heart,eng,color,1
+108,98,3,purple heart,eng,color,1
+109,7,3,heart,eng,color,0
+110,8,3,Purple Heart,eng,color,1
+111,9,3,Heart,eng,color,0
+112,59,3,purple heart,eng,color,1
+113,10,3,a purple heart,eng,color,1
+114,99,3,One purple heart,eng,color,1
+115,13,3,Purple heart,eng,color,1
+116,100,3,heart,eng,color,0
+117,18,3,Purple Heart,eng,color,1
+118,101,3,purple heart,eng,color,1
+119,102,3,Purple color Heart,eng,color,1
+120,22,3,Heart,eng,color,0
+121,25,3,purple heart,eng,color,1
+122,103,3,heart,eng,color,0
+123,104,3,heart,eng,color,0
+124,105,3,heart,eng,color,0
+125,106,3,Heart,eng,color,0
+126,29,3,heart,eng,color,0
+127,74,3,purple heart,eng,color,1
+128,107,3,purple heart,eng,color,1
+129,75,3,heart,eng,color,0
+130,30,3,purple heart,eng,color,1
+131,108,3,purple heart,eng,color,1
+132,32,3,Purple heart,eng,color,1
+133,109,3,Purple heart,eng,color,1
+134,110,3,a purple heart symbol,eng,color,1
+135,111,3,purple heart,eng,color,1
+136,112,3,purple heart,eng,color,1
+137,81,3,Purple Heart,eng,color,1
+138,37,3,Purple Heart,eng,color,1
+139,40,3,purple heart,eng,color,1
+140,41,3,purple heart,eng,color,1
+141,113,3,heart,eng,color,0
+142,114,3,purple heart,eng,color,1
+143,115,3,one purple heart,eng,color,1
+144,48,3,purple heart,eng,color,1
+145,90,3,Purple Heart,eng,color,1
+146,116,3,purple heart,eng,color,1
+147,117,3,purple heart,eng,color,1
+148,91,4,Yellow Triangle,eng,color,1
+149,118,4,Yellow triangle,eng,color,1
+150,1,4,Yellow Triangle with Black Border,eng,color,1
+151,119,4,yellow triangle,eng,color,1
+152,93,4,Triangle,eng,color,0
+153,94,4,yellow triangle,eng,color,1
+154,120,4,Triangle,eng,color,0
+155,121,4,yellow triangle,eng,color,1
+156,6,4,Yellow Triangle,eng,color,1
+157,122,4,triangle,eng,color,0
+158,11,4,yellow triangle,eng,color,1
+159,12,4,yellow triangle,eng,color,1
+160,12,4,yellow triangle,eng,color,1
+161,99,4,One yellow triangle,eng,color,1
+162,14,4,yellow triangle,eng,color,1
+163,17,4,One yellow triangle,eng,color,1
+164,123,4,YELLOW,eng,color,0
+165,124,4,Yellow Triangle,eng,color,1
+166,125,4,yellow triangle,eng,color,1
+167,126,4,yellow triangle,eng,color,1
+168,127,4,yellow triangle,eng,color,1
+169,128,4,yellow triangle,eng,color,1
+170,24,4,yellow triangle,eng,color,1
+171,67,4,yellow triangle,eng,color,1
+172,68,4,yellow triangle,eng,color,1
+173,71,4,yellow triangle,eng,color,1
+174,129,4,yellow triangle,eng,color,1
+175,106,4,Triangle,eng,color,0
+176,75,4,triangle,eng,color,0
+177,108,4,yellow triangle,eng,color,1
+178,130,4,yellow triangle,eng,color,1
+179,131,4,Triangle,eng,color,0
+180,132,4,Yellow Triangle,eng,color,1
+181,83,4,yellow triangle,eng,color,1
+182,85,4,Yellow triangle,eng,color,1
+183,133,4,Yellow triangle,eng,color,1
+184,134,4,yellow triangle,eng,color,1
+185,43,4,yellow triangle,eng,color,1
+186,46,4,Triangle,eng,color,0
+187,135,4,yellow triangle,eng,color,1
+188,49,4,yellow triangle,eng,color,1
+189,136,5,pink square,eng,color,1
+190,3,5,Pink Square,eng,color,1
+191,137,5,Purple square,eng,color,1
+192,138,5,Pink Square,eng,color,1
+193,7,5,square,eng,color,0
+194,59,5,pink square,eng,color,1
+195,122,5,square,eng,color,0
+196,139,5,square,eng,color,0
+197,140,5,pink square,eng,color,1
+198,60,5,Pink square,eng,color,1
+199,100,5,square,eng,color,0
+200,18,5,Pink Square,eng,color,1
+201,141,5,pink square,eng,color,1
+202,142,5,Pink Square,eng,color,1
+203,101,5,pink square,eng,color,1
+204,143,5,pink square,eng,color,1
+205,144,5,pink square,eng,color,1
+206,20,5,pink square,eng,color,1
+207,145,5,Pink/purple square,eng,color,1
+208,146,5,purple square,eng,color,1
+209,147,5,a pink square,eng,color,1
+210,23,5,magenta square,eng,color,1
+211,25,5,pink square,eng,color,1
+212,148,5,a purple square,eng,color,1
+213,70,5,purple square,eng,color,1
+214,72,5,box shape that is 4 equal length sides,eng,color,0
+215,149,5,pink square,eng,color,1
+216,31,5,pink square,eng,color,1
+217,150,5,square,eng,color,0
+218,151,5,pink square,eng,color,1
+219,152,5,magenta square,eng,color,1
+220,153,5,purple square,eng,color,1
+221,34,5,pink square,eng,color,1
+222,35,5,Square,eng,color,0
+223,36,5,pink square,eng,color,1
+224,86,5,square,eng,color,0
+225,113,5,square,eng,color,0
+226,87,5,pink square,eng,color,1
+227,42,5,Pink square,eng,color,1
+228,154,5,square,eng,color,0
+229,155,5,1 pink square,eng,color,1
+230,89,5,Pink square,eng,color,1
+231,156,5,Pink square,eng,color,1
+232,157,5,solid pink square in the center,eng,color,1
+233,158,5,a blue square,eng,color,1
+234,159,5,pink square,eng,color,1
+235,118,6,blue square,eng,color,1
+236,0,6,blue square,eng,color,1
+237,52,6,blue square,eng,color,1
+238,54,6,green square,eng,color,1
+239,55,6,Square,eng,color,0
+240,96,6,square,eng,color,0
+241,138,6,Blue Square,eng,color,1
+242,120,6,Square,eng,color,0
+243,4,6,Blue,eng,color,1
+244,7,6,square,eng,color,0
+245,58,6,blue square,eng,color,1
+246,160,6,blue square,eng,color,1
+247,59,6,blue square,eng,color,1
+248,12,6,blue square,eng,color,1
+249,16,6,blue square,eng,color,1
+250,17,6,One blue square,eng,color,1
+251,18,6,Blue Square,eng,color,1
+252,125,6,blue square,eng,color,1
+253,142,6,Blue square,eng,color,1
+254,101,6,blue square,eng,color,1
+255,161,6,red circle,eng,color,1
+256,162,6,blue square,eng,color,1
+257,163,6,blue square,eng,color,1
+258,164,6,Blue square centered on the page. Black outline,eng,color,1
+259,126,6,blue square,eng,color,1
+260,165,6,Light blue square,eng,color,1
+261,127,6,blue square,eng,color,1
+262,24,6,blue square,eng,color,1
+263,25,6,blue square,eng,color,1
+264,26,6,blue square,eng,color,1
+265,166,6,BLUE SQUARE,eng,color,1
+266,103,6,square,eng,color,0
+267,69,6,blue square,eng,color,1
+268,71,6,blue square,eng,color,1
+269,167,6,A sky blue square,eng,color,1
+270,29,6,square,eng,color,0
+271,74,6,blue box,eng,color,1
+272,108,6,blue square,eng,color,1
+273,31,6,blue square,eng,color,1
+274,77,6,Blue square,eng,color,1
+275,109,6,Blue square,eng,color,1
+276,152,6,blue square,eng,color,1
+277,33,6,blue box,eng,color,1
+278,78,6,blue square,eng,color,1
+279,168,6,Blue Square,eng,color,1
+280,37,6,Blue Square,eng,color,1
+281,84,6,blue square,eng,color,1
+282,114,6,blue square,eng,color,1
+283,88,6,blue square,eng,color,1
+284,169,6,Four sides with blue interior.,eng,color,1
+285,158,6,a blue square,eng,color,1
+286,159,6,blue square,eng,color,1
+287,170,6,blue square,eng,color,1
+288,51,7,Brown sun,eng,color,1
+289,54,7,purple star,eng,color,1
+290,96,7,sun,eng,color,0
+291,137,7,Sun,eng,color,0
+292,56,7,Brown sun,eng,color,1
+293,171,7,the sun,eng,color,0
+294,4,7,Brown,eng,color,1
+295,98,7,brown sun,eng,color,1
+296,9,7,Sun,eng,color,0
+297,139,7,sun,eng,color,0
+298,172,7,Sun,eng,color,0
+299,173,7,sun,eng,color,0
+300,61,7,sun,eng,color,0
+301,142,7,Brown sun,eng,color,1
+302,63,7,brown sun,eng,color,1
+303,144,7,brown sun,eng,color,1
+304,174,7,Sun,eng,color,0
+305,145,7,Brown sun,eng,color,1
+306,102,7,Brown color Sun,eng,color,1
+307,175,7,Sun,eng,color,0
+308,126,7,brown sun,eng,color,1
+309,176,7,Brown colored sun with triangle beams around it.,eng,color,1
+310,22,7,Sun,eng,color,0
+311,147,7,a brown sarburst,eng,color,1
+312,177,7,Brown sun,eng,color,1
+313,148,7,a brown sun,eng,color,1
+314,70,7,Brown sun,eng,color,1
+315,73,7,brown sun,eng,color,1
+316,178,7,one brown sun,eng,color,1
+317,179,7,brown sun,eng,color,1
+318,30,7,brown sun,eng,color,1
+319,130,7,brown sun,eng,color,1
+320,76,7,"A brown circle(with a thin black outline), with eight brown triangles(with thin black outlines) surrounding it.",eng,color,1
+321,180,7,Brown Sun,eng,color,1
+322,153,7,golden sun,eng,color,1
+323,35,7,Sun,eng,color,0
+324,111,7,brown sun,eng,color,1
+325,38,7,Its looks like circle shape,eng,color,0
+326,40,7,gold sun symbol,eng,color,1
+327,43,7,sun,eng,color,0
+328,45,7,brown sun,eng,color,1
+329,115,7,brown sunshine symbol,eng,color,1
+330,169,7,Tan sun,eng,color,1
+331,116,7,Golden sun,eng,color,1
+332,181,7,golden brown sun,eng,color,1
+333,118,8,grey circle,eng,color,1
+334,92,8,grey circle,eng,color,1
+335,52,8,lavender circle,eng,color,1
+336,55,8,Gray Circle,eng,color,1
+337,95,8,Gray circle,eng,color,1
+338,136,8,gray circle,eng,color,1
+339,97,8,circle,eng,color,0
+340,121,8,teal circle,eng,color,1
+341,58,8,grey circle,eng,color,1
+342,160,8,gray circle,eng,color,1
+343,8,8,Grey Circle,eng,color,1
+344,59,8,grey circle,eng,color,1
+345,122,8,circle,eng,color,0
+346,172,8,Grey circle,eng,color,1
+347,15,8,gray circle,eng,color,1
+348,182,8,grey circle,eng,color,1
+349,100,8,circle,eng,color,0
+350,64,8,grey circle,eng,color,1
+351,143,8,gray circle,eng,color,1
+352,144,8,gray circle,eng,color,1
+353,21,8,a grey circle,eng,color,1
+354,163,8,gray circle,eng,color,1
+355,183,8,one purple circle,eng,color,1
+356,102,8,Ash color Circle,eng,color,1
+357,165,8,Grey circle,eng,color,1
+358,127,8,gray circle,eng,color,1
+359,166,8,GREY CIRCLE,eng,color,1
+360,71,8,grey circle,eng,color,1
+361,72,8,round shape,eng,color,0
+362,29,8,grey circle,eng,color,1
+363,184,8,grey circle,eng,color,1
+364,74,8,grey circle,eng,color,1
+365,107,8,gray circle,eng,color,1
+366,75,8,circle,eng,color,0
+367,150,8,circle,eng,color,0
+368,180,8,Grey Circle,eng,color,1
+369,34,8,gray circle,eng,color,1
+370,80,8,The object is shaped like a circle and has a grayish tint to it.,eng,color,1
+371,39,8,gray circle,eng,color,1
+372,86,8,circle,eng,color,0
+373,113,8,circle,eng,color,0
+374,114,8,gray Circle,eng,color,1
+375,133,8,grey circle,eng,color,1
+376,89,8,Gray circle,eng,color,1
+377,90,8,Grey circle,eng,color,1
+378,116,8,grey circle,eng,color,1
+379,49,8,gray circle,eng,color,1
+380,170,8,grey circle,eng,color,1
+381,51,9,red heart,eng,color,1
+382,94,9,red heart,eng,color,1
+383,138,9,Red Heart,eng,color,1
+384,185,9,heart,eng,color,0
+385,122,9,heart,eng,color,0
+386,10,9,a red heart,eng,color,1
+387,12,9,red heart,eng,color,1
+388,139,9,heart,eng,color,0
+389,173,9,heart,eng,color,0
+390,140,9,red heart,eng,color,1
+391,16,9,red heart,eng,color,1
+392,186,9,Red Heart,eng,color,1
+393,61,9,heart,eng,color,0
+394,124,9,Red Heart,eng,color,1
+395,141,9,red heart,eng,color,1
+396,62,9,"red, one point",eng,color,1
+397,187,9,single red heart,eng,color,1
+398,144,9,red heart,eng,color,1
+399,174,9,Heart,eng,color,0
+400,162,9,red heart,eng,color,1
+401,163,9,red heart,eng,color,1
+402,145,9,Red heart,eng,color,1
+403,183,9,one red heart,eng,color,1
+404,146,9,red heart,eng,color,1
+405,176,9,Red shaped heart filled in completely red.,eng,color,1
+406,147,9,a red heart,eng,color,1
+407,67,9,red heart,eng,color,1
+408,28,9,red heart,eng,color,1
+409,103,9,heart,eng,color,0
+410,104,9,red heart,eng,color,1
+411,129,9,red heart,eng,color,1
+412,188,9,Heart shape,eng,color,0
+413,178,9,one red heart,eng,color,1
+414,105,9,red heart,eng,color,1
+415,106,9,Heart,eng,color,0
+416,107,9,red heart,eng,color,1
+417,108,9,red heart,eng,color,1
+418,189,9,heart,eng,color,0
+419,109,9,Red heart,eng,color,1
+420,151,9,red heart,eng,color,1
+421,110,9,a red heart symbol,eng,color,1
+422,131,9,Heart,eng,color,0
+423,111,9,red heart,eng,color,1
+424,132,9,Red Heart,eng,color,1
+425,112,9,red heart,eng,color,1
+426,37,9,Red Heart,eng,color,1
+427,84,9,red heart,eng,color,1
+428,40,9,red heart,eng,color,1
+429,87,9,red heart,eng,color,1
+430,44,9,Red heart,eng,color,1
+431,115,9,red heart,eng,color,1
+432,169,9,Red heart shape,eng,color,1
+433,156,9,Red heart,eng,color,1
+434,157,9,solid red heart shape,eng,color,1
+435,135,9,red heart,eng,color,1
+436,181,9,red heart,eng,color,1
+437,159,9,red heart,eng,color,1
+438,190,9,heart,eng,color,0
+439,91,10,Purple Cross,eng,color,1
+440,55,10,Purple Cross,eng,color,1
+441,56,10,Blue plus sign,eng,color,1
+442,120,10,Cross,eng,color,0
+443,57,10,a purple plus sign,eng,color,1
+444,121,10,purple cross,eng,color,1
+445,6,10,Purple Plus Sign,eng,color,1
+446,10,10,a purple cross or plus sign,eng,color,1
+447,11,10,purple cross,eng,color,1
+448,12,10,purple cross,eng,color,1
+449,172,10,Purple plus sign,eng,color,1
+450,13,10,Purple cross,eng,color,1
+451,15,10,plus symbol,eng,color,0
+452,142,10,Purple cross,eng,color,1
+453,101,10,purple cross,eng,color,1
+454,163,10,purple cross,eng,color,1
+455,164,10,1 purple plus sign centered on the page,eng,color,1
+456,146,10,purple cross,eng,color,1
+457,175,10,Plus sign,eng,color,0
+458,127,10,purple cross,eng,color,1
+459,177,10,Purple cross,eng,color,1
+460,65,10,Purple cross,eng,color,1
+461,148,10,a purple plus sign,eng,color,1
+462,166,10,PURPLE PLUS SIGN,eng,color,1
+463,66,10,Purple plus sign,eng,color,1
+464,70,10,Purple plus sign,eng,color,1
+465,72,10,a shape similar to letter T,eng,color,0
+466,167,10,A lavender plus sign,eng,color,1
+467,191,10,plus sign,eng,color,0
+468,178,10,one purple cross,eng,color,1
+469,192,10,A single purple cross,eng,color,1
+470,76,10,A purple cross with a thin black outline.,eng,color,1
+471,150,10,plus sign,eng,color,0
+472,77,10,Purple plus sign,eng,color,1
+473,180,10,Purple Plus Sign,eng,color,1
+474,153,10,purple plus sign,eng,color,1
+475,168,10,purple plus sign,eng,color,1
+476,80,10,The object is shaped like a plus symbol and is the color purple.,eng,color,1
+477,132,10,Purple Addition Sign,eng,color,1
+478,82,10,Purple cross under the green square,eng,color,1
+479,39,10,purple cross,eng,color,1
+480,42,10,Purple cross,eng,color,1
+481,134,10,purple plus,eng,color,1
+482,46,10,Plus,eng,color,0
+483,47,10,purple cross,eng,color,1
+484,135,10,purple plus,eng,color,1
+485,159,10,purple plus sign,eng,color,1
+486,50,10,cross,eng,color,0
+487,170,10,pruple cross,eng,color,1
+488,190,10,cross,eng,color,0
+489,1,11,Pink Rectangle with Black Border,eng,color,1
+490,92,11,pink square,eng,color,1
+491,97,11,rectangle,eng,color,0
+492,3,11,Pink rectangle,eng,color,1
+493,137,11,Rectangle,eng,color,0
+494,4,11,Pink,eng,color,0
+495,121,11,pink rectangle,eng,color,1
+496,17,11,One pink rectangle,eng,color,1
+497,123,11,PINK,eng,color,1
+498,61,11,rectangle,eng,color,0
+499,124,11,Purple rectangle,eng,color,1
+500,62,11,"four points, pink",eng,color,1
+501,64,11,pink rectangle,eng,color,1
+502,161,11,pink square,eng,color,1
+503,20,11,pink rectangle,eng,color,1
+504,21,11,A purple rectangle,eng,color,1
+505,126,11,violet rectangle,eng,color,1
+506,23,11,magenta rectangle,eng,color,1
+507,128,11,pink rectangles,eng,color,1
+508,24,11,pink rectangle,eng,color,1
+509,65,11,Rectangular Magenta Box,eng,color,1
+510,25,11,pink rectangle,eng,color,1
+511,26,11,pink rectangle,eng,color,1
+512,27,11,pink rectangle,eng,color,1
+513,69,11,pink rectangle,eng,color,1
+514,191,11,light violet rectangle,eng,color,1
+515,73,11,fuchsia/purple rectangle,eng,color,1
+516,105,11,pink rectangle upper left corner,eng,color,1
+517,106,11,rectangle,eng,color,0
+518,29,11,purple rectangle,eng,color,1
+519,184,11,pink rectangle,eng,color,1
+520,192,11,A single horizontal pink rectangle,eng,color,1
+521,189,11,rectangle,eng,color,0
+522,131,11,Rectangle,eng,color,0
+523,168,11,pink rectangle,eng,color,1
+524,79,11,lavender rectangle,eng,color,1
+525,111,11,pink rectangle,eng,color,1
+526,81,11,Pink Rectangle,eng,color,1
+527,82,11,Pink rectangle above the green oval,eng,color,1
+528,85,11,pink rectangle,eng,color,1
+529,40,11,pink rectangular box,eng,color,1
+530,86,11,rectangle,eng,color,0
+531,113,11,rectangle,eng,color,0
+532,133,11,pink rectangle,eng,color,1
+533,88,11,pink rectangle,eng,color,1
+534,157,11,solid pink rectangle,eng,color,1
+535,190,11,rectangle,eng,color,0
+536,51,12,green cross,eng,color,1
+537,119,12,cross,eng,color,0
+538,52,12,green plus symbol,eng,color,1
+539,53,12,Green Cross,eng,color,1
+540,95,12,Green plus sign,eng,color,1
+541,136,12,green cross,eng,color,1
+542,171,12,green cross,eng,color,1
+543,5,12,green plus sign,eng,color,1
+544,57,12,a green plus sign,eng,color,1
+545,98,12,green plus sign,eng,color,1
+546,185,12,plus,eng,color,0
+547,12,12,green cross,eng,color,1
+548,14,12,green plus sign,eng,color,1
+549,140,12,green plus sign,eng,color,1
+550,16,12,green plus sign,eng,color,1
+551,100,12,plus,eng,color,0
+552,18,12,Green Plus Sign,eng,color,1
+553,19,12,cross sign,eng,color,0
+554,125,12,green plus sign,eng,color,1
+555,141,12,green plus sign,eng,color,1
+556,63,12,green cross,eng,color,1
+557,187,12,single green cross,eng,color,1
+558,101,12,teal cross,eng,color,1
+559,143,12,green plus sign,eng,color,1
+560,193,12,green plus,eng,color,1
+561,145,12,Green cross,eng,color,1
+562,165,12,Green plus sign,eng,color,1
+563,147,12,a green plus sign,eng,color,1
+564,66,12,green plus sign,eng,color,1
+565,191,12,lime-colored plus sign with black outline,eng,color,1
+566,129,12,green cross,eng,color,1
+567,105,12,green cross lower left corner,eng,color,1
+568,149,12,green cross,eng,color,1
+569,189,12,plus sign,eng,color,0
+570,151,12,green plus,eng,color,1
+571,78,12,green plus sign,eng,color,1
+572,80,12,The object is shaped like a plus sign and has the color green.,eng,color,1
+573,83,12,green plus sign,eng,color,1
+574,38,12,Its plus shape this used in addition mathematics,eng,color,0
+575,84,12,green plus sign,eng,color,1
+576,41,12,green cross,eng,color,1
+577,87,12,green cross,eng,color,1
+578,154,12,cross,eng,color,0
+579,47,12,green cross,eng,color,1
+580,169,12,Green plus symbol,eng,color,1
+581,156,12,Green plus symbol,eng,color,1
+582,157,12,solid lime green addition sign,eng,color,1
+583,117,12,green plus,eng,color,1
+584,181,12,green cross,eng,color,1
+585,49,12,green plus or cross sign,eng,color,1
+586,159,12,green plus sign,eng,color,1
+587,50,12,cross,eng,color,0
+588,0,13,green heart,eng,color,1
+589,1,13,Lime Green Heart with Black Border,eng,color,1
+590,93,13,Green Heart,eng,color,1
+591,54,13,teal heart,eng,color,1
+592,2,13,green heart,eng,color,1
+593,171,13,green heart,eng,color,1
+594,160,13,green heart,eng,color,1
+595,8,13,Green Heart,eng,color,1
+596,9,13,Heart,eng,color,0
+597,11,13,green heart,eng,color,1
+598,139,13,heart,eng,color,0
+599,13,13,Green heart,eng,color,1
+600,173,13,heart,eng,color,0
+601,140,13,green heart,eng,color,1
+602,186,13,Green Heart,eng,color,1
+603,123,13,GREEN,eng,color,1
+604,60,13,Green heart,eng,color,1
+605,19,13,heart,eng,color,0
+606,62,13,"one point, green",eng,color,1
+607,193,13,green heart,eng,color,1
+608,183,13,one yellow green heart,eng,color,1
+609,146,13,green heart,eng,color,1
+610,126,13,green heart,eng,color,1
+611,176,13,Green color heart completely filled in.,eng,color,1
+612,127,13,green heart,eng,color,1
+613,148,13,a green heart,eng,color,1
+614,166,13,BRIGHT GREEN HEART,eng,color,1
+615,27,13,green heart,eng,color,1
+616,68,13,green heart,eng,color,1
+617,28,13,green heart,eng,color,1
+618,69,13,green heart,eng,color,1
+619,104,13,green heart,eng,color,1
+620,167,13,A light green heart shape,eng,color,1
+621,178,13,one green heart,eng,color,1
+622,105,13,green heart lower left corner,eng,color,1
+623,184,13,lime green heart,eng,color,1
+624,179,13,green heart,eng,color,1
+625,130,13,green heart,eng,color,1
+626,32,13,Lime green heart,eng,color,1
+627,109,13,Green heart,eng,color,1
+628,110,13,a green heart symbol,eng,color,1
+629,152,13,green heart,eng,color,1
+630,78,13,green heart,eng,color,1
+631,79,13,mustard heart,eng,color,1
+632,83,13,green heart,eng,color,1
+633,39,13,lime green heart,eng,color,1
+634,87,13,green heart,eng,color,1
+635,134,13,lime heart,eng,color,1
+636,88,13,green heart,eng,color,1
+637,155,13,1 green heart,eng,color,1
+638,158,13,a green heart,eng,color,1
+639,49,13,green heart,eng,color,1
+640,118,14,blue oval,eng,color,1
+641,0,14,blue oval,eng,color,1
+642,95,14,Blue oval,eng,color,1
+643,136,14,blue oval,eng,color,1
+644,138,14,Blue Oval,eng,color,1
+645,185,14,oblong,eng,color,0
+646,8,14,Blue Oval,eng,color,1
+647,12,14,blue oval,eng,color,1
+648,173,14,oval,eng,color,0
+649,16,14,blue oval,eng,color,1
+650,186,14,Blue Oval,eng,color,1
+651,182,14,blue oval,eng,color,1
+652,141,14,blue oval,eng,color,1
+653,142,14,Blue Oval,eng,color,1
+654,63,14,blue oval,eng,color,1
+655,20,14,blue oval,eng,color,1
+656,21,14,a blue oval,eng,color,1
+657,163,14,blue oval,eng,color,1
+658,164,14,1 blue oval centered on the page. It is stretched left to right,eng,color,1
+659,176,14,Blue oval stretched horizontally filled in completely.,eng,color,1
+660,128,14,blue circle,eng,color,1
+661,65,14,Blue Egg,eng,color,1
+662,26,14,blue oval,eng,color,1
+663,188,14,Oval shape,eng,color,0
+664,106,14,oval,eng,color,0
+665,192,14,A single horizontal blue oval,eng,color,1
+666,149,14,blue oval,eng,color,1
+667,31,14,blue oval,eng,color,1
+668,189,14,oval,eng,color,0
+669,132,14,Turquoise Oval,eng,color,1
+670,41,14,blue oval,eng,color,1
+671,154,14,oval,eng,color,0
+672,48,14,blue oval,eng,color,1
+673,135,14,blue oval,eng,color,1
+674,116,14,blue oval,eng,color,1
+675,117,14,blue oval,eng,color,1
+676,170,14,blue oval,eng,color,1
+677,96,15,oval,eng,color,0
+678,2,15,purple oval,eng,color,1
+679,3,15,Purple ellipse,eng,color,1
+680,137,15,Oval,eng,color,0
+681,98,15,purple sideways oval,eng,color,1
+682,6,15,Purple Oval,eng,color,1
+683,99,15,One purple oval,eng,color,1
+684,172,15,Purple oval,eng,color,1
+685,182,15,purple oval,eng,color,1
+686,124,15,Purple Oval,eng,color,1
+687,19,15,oval,eng,color,0
+688,62,15,"long, purple, rounded",eng,color,1
+689,193,15,purple oval,eng,color,1
+690,161,15,oval violet,eng,color,1
+691,174,15,Oval,eng,color,0
+692,162,15,purple oval,eng,color,1
+693,164,15,1 purple oval in the center of page. It is stretched left to right,eng,color,1
+694,146,15,purple oval,eng,color,1
+695,175,15,purple oval,eng,color,1
+696,22,15,Oval,eng,color,0
+697,128,15,purple circle,eng,color,1
+698,65,15,Purple Egg,eng,color,1
+699,27,15,purple oval,eng,color,1
+700,28,15,purple oval,eng,color,1
+701,103,15,oval,eng,color,0
+702,167,15,A lavender oval shape,eng,color,1
+703,73,15,purple horizontal oval,eng,color,1
+704,188,15,Purple Oval shape,eng,color,1
+705,184,15,purple oval,eng,color,1
+706,192,15,A single horizontal purple oval,eng,color,1
+707,130,15,purple oval,eng,color,1
+708,79,15,blue oval,eng,color,1
+709,81,15,Purple Oval,eng,color,1
+710,82,15,Purple diamond under the green rectangle,eng,color,1
+711,86,15,oval,eng,color,0
+712,42,15,Purple oval,eng,color,1
+713,134,15,purple oval,eng,color,1
+714,43,15,oval,eng,color,0
+715,88,15,purple oval,eng,color,1
+716,44,15,Purple oval,eng,color,1
+717,155,15,1 purple oval,eng,color,1
+718,157,15,solid purple oval,eng,color,1
+719,158,15,a blue oval,eng,color,1
+720,90,15,Purple elipse,eng,color,1
+721,181,15,purple oval,eng,color,1
+722,190,15,oval,eng,color,0
+723,91,16,Yellow REctangle,eng,color,1
+724,0,16,yellow square,eng,color,1
+725,1,16,Yellow Rectangle With Black Border,eng,color,1
+726,119,16,rectangle,eng,color,0
+727,53,16,Yellow Rectangle,eng,color,1
+728,93,16,Yellow Rectangle,eng,color,1
+729,94,16,yellow rectangle,eng,color,1
+730,136,16,yellow rectangle,eng,color,1
+731,97,16,rectangle,eng,color,0
+732,137,16,Rectangle,eng,color,0
+733,56,16,Yellow rectangle,eng,color,1
+734,120,16,Rectangle,eng,color,0
+735,5,16,yellow rectangle,eng,color,1
+736,57,16,a yellow horizontal rectangle,eng,color,1
+737,121,16,yellow rectangle,eng,color,1
+738,7,16,rectangle,eng,color,0
+739,58,16,yellow rectangle,eng,color,1
+740,99,16,One yellow rectangle,eng,color,1
+741,172,16,Yellow rectangle,eng,color,1
+742,140,16,yellow rectangle,eng,color,1
+743,186,16,Yellow Horizontal Rectangle,eng,color,1
+744,17,16,One yellow rectangle,eng,color,1
+745,20,16,yellow rectangle,eng,color,1
+746,183,16,one yellow rectangle,eng,color,1
+747,175,16,yellow rectangle,eng,color,1
+748,165,16,Yellow rectangle,eng,color,1
+749,23,16,yellow rectangle,eng,color,1
+750,177,16,Yellow rectangle,eng,color,1
+751,26,16,yellow rectangle,eng,color,1
+752,167,16,A yellow rectangle,eng,color,1
+753,73,16,yellow rectangle,eng,color,1
+754,129,16,yellow rectangle,eng,color,1
+755,74,16,yellow rectangle,eng,color,1
+756,107,16,yellow rectangle,eng,color,1
+757,179,16,yellow rectangle,eng,color,1
+758,149,16,yellow rectangle,eng,color,1
+759,76,16,A yellow rectangle with a thin black outline.,eng,color,1
+760,110,16,a yellow rectangle,eng,color,1
+761,33,16,yellow rectangle,eng,color,1
+762,180,16,Yellow Rectangle,eng,color,1
+763,35,16,Rectangle,eng,color,0
+764,80,16,The object is yellow and shaped like a rectangle.,eng,color,1
+765,112,16,yellow rectangle,eng,color,1
+766,36,16,yellow rectangle,eng,color,1
+767,37,16,Yellow Rectangle,eng,color,1
+768,38,16,its looking like rectangular,eng,color,0
+769,85,16,yellow rectangle,eng,color,1
+770,113,16,rectangle,eng,color,0
+771,114,16,yellow rectangle,eng,color,1
+772,133,16,yellow rectangle,eng,color,1
+773,134,16,yellow rectangle,eng,color,1
+774,47,16,yellow rectangle,eng,color,1
+775,115,16,yellow rectangle on its side,eng,color,1
+776,169,16,Yellow rectangle,eng,color,1
+777,181,16,yellow rectangle,eng,color,1
+778,92,17,blue sun,eng,color,1
+779,53,17,Blue Sun,eng,color,1
+780,96,17,sun,eng,color,0
+781,97,17,sun,eng,color,0
+782,2,17,blue sun,eng,color,1
+783,160,17,blue sun,eng,color,1
+784,185,17,sun,eng,color,0
+785,122,17,star,eng,color,0
+786,10,17,a blue sun,eng,color,1
+787,12,17,blue sun,eng,color,1
+788,12,17,blue sun,eng,color,1
+789,12,17,blue sun,eng,color,1
+790,13,17,Blue sun,eng,color,1
+791,123,17,BLUE,eng,color,1
+792,60,17,Blue sun,eng,color,1
+793,19,17,sun,eng,color,0
+794,125,17,blue sun,eng,color,1
+795,63,17,blue star,eng,color,1
+796,187,17,single blue sunburst (circle surrounded by triangle points),eng,color,1
+797,64,17,blue sun,eng,color,1
+798,143,17,blue sun,eng,color,1
+799,144,17,blue sun,eng,color,1
+800,174,17,Sun,eng,color,0
+801,162,17,blue sun,eng,color,1
+802,145,17,Blue sun,eng,color,1
+803,177,17,Blue sun,eng,color,1
+804,148,17,a blue sun,eng,color,1
+805,166,17,BLUE SUNSHINE SYMBOL,eng,color,1
+806,28,17,blue sun,eng,color,1
+807,69,17,blue sun,eng,color,1
+808,104,17,blue sun,eng,color,1
+809,129,17,blue sun,eng,color,1
+810,188,17,Sun shape,eng,color,0
+811,178,17,one blue sun,eng,color,1
+812,184,17,blue sun,eng,color,1
+813,192,17,A single blue circle with 8 triangles around it like a sun,eng,color,1
+814,75,17,sun,eng,color,0
+815,30,17,blue sun,eng,color,1
+816,31,17,blue sun,eng,color,1
+817,32,17,Blue sun,eng,color,1
+818,77,17,Blue sun,eng,color,1
+819,109,17,Blue sun,eng,color,1
+820,152,17,blue sun,eng,color,1
+821,33,17,blue sun,eng,color,1
+822,153,17,blue sun,eng,color,1
+823,168,17,Blue sun,eng,color,1
+824,79,17,eight-point circle,eng,color,0
+825,39,17,blue sun,eng,color,1
+826,42,17,Blue sun,eng,color,1
+827,133,17,blue sun,eng,color,1
+828,44,17,Blue sun,eng,color,1
+829,45,17,blue sun,eng,color,1
+830,154,17,sun,eng,color,0
+831,155,17,1 blue sun,eng,color,1
+832,46,17,Sun,eng,color,0
+833,47,17,blue sun,eng,color,1
+834,156,17,Blue sun,eng,color,1
+835,90,17,Blue sun,eng,color,1
+836,116,17,blue sun,eng,color,1
+837,170,17,blue sun,eng,color,1
+838,118,18,purple diamond,eng,color,1
+839,92,18,blue diamond,eng,color,1
+840,119,18,diamond,eng,color,0
+841,54,18,purple diamond,eng,color,1
+842,55,18,Purple Diamond,eng,color,1
+843,95,18,Purple diamond,eng,color,1
+844,138,18,Purple Diamond,eng,color,1
+845,171,18,blue diamond,eng,color,1
+846,98,18,purple diamond,eng,color,1
+847,6,18,Purple Diamond,eng,color,1
+848,160,18,purple diamond,eng,color,1
+849,185,18,diamond,eng,color,0
+850,14,18,purple diamond,eng,color,1
+851,15,18,diamond,eng,color,0
+852,123,18,PURPLE,eng,color,1
+853,182,18,purple diamond,eng,color,1
+854,141,18,purple diamond,eng,color,1
+855,64,18,purple diamond,eng,color,1
+856,193,18,purple diamond,eng,color,1
+857,21,18,a purple diamond,eng,color,1
+858,164,18,1 purple rhombus (4 sided figure) in the center of page. It is being stretched up and down,eng,color,1
+859,102,18,Purple color Rhombus,eng,color,1
+860,175,18,purple kite,eng,color,1
+861,22,18,Diamond,eng,color,0
+862,165,18,Purple diamond,eng,color,1
+863,147,18,a blue diamond,eng,color,1
+864,67,18,blue diamond,eng,color,1
+865,27,18,purple diamond,eng,color,1
+866,68,18,purple diamond,eng,color,1
+867,71,18,purple diamond,eng,color,1
+868,191,18,purple diamond with black outline,eng,color,1
+869,188,18,Diamond shape,eng,color,0
+870,179,18,purple diamond,eng,color,1
+871,130,18,purple diamond,eng,color,1
+872,149,18,purple diamond,eng,color,1
+873,189,18,diamond,eng,color,0
+874,150,18,diamond,eng,color,0
+875,151,18,purple diamond,eng,color,1
+876,110,18,a purple rhombus,eng,color,1
+877,131,18,Diamond,eng,color,0
+878,180,18,Purple Diamond,eng,color,1
+879,35,18,Diamond,eng,color,0
+880,132,18,Purple Diamond,eng,color,1
+881,112,18,purple diamond,eng,color,1
+882,38,18,its looks like Diamond shape,eng,color,0
+883,84,18,purple diamond,eng,color,1
+884,85,18,purple diamond,eng,color,1
+885,45,18,purple diamond,eng,color,1
+886,89,18,Purple diamond,eng,color,1
+887,48,18,purple diamond,eng,color,1
+888,158,18,a blue diamond,eng,color,1
+889,117,18,purple diamond,eng,color,1
+890,50,18,diamond,eng,color,0
+891,190,18,diamond,eng,color,0
+892,93,19,Blue Plus Sign,eng,color,1
+893,171,19,gray cross,eng,color,1
+894,99,19,One light gray plus sign,eng,color,1
+895,173,19,plus sign,eng,color,0
+896,15,19,plus,eng,color,0
+897,124,19,Silver Plus SIgn,eng,color,1
+898,100,19,plus,eng,color,0
+899,125,19,lilac plus sign,eng,color,1
+900,187,19,single grey cross,eng,color,1
+901,161,19,white plus,eng,color,1
+902,174,19,Cross,eng,color,0
+903,162,19,grey plus sign,eng,color,1
+904,102,19,Grey  color Plus,eng,color,1
+905,176,19,Light grey plus sign completely filled in.,eng,color,1
+906,177,19,Grey cross,eng,color,1
+907,66,19,grey plus sign,eng,color,1
+908,67,19,plus sign,eng,color,0
+909,103,19,plus,eng,color,0
+910,70,19,Gray plus sun,eng,color,1
+911,72,19,shape that is similar to letter x,eng,color,0
+912,104,19,grey cross,eng,color,1
+913,107,19,gray cross,eng,color,1
+914,30,19,lavender plus,eng,color,1
+915,32,19,Grey cross,eng,color,1
+916,76,19,A colored cross with a thin black outline.,eng,color,1
+917,150,19,plus sign,eng,color,0
+918,151,19,gray plus,eng,color,1
+919,33,19,grey plus sign,eng,color,1
+920,78,19,gray plus sign,eng,color,1
+921,153,19,gray plus sign,eng,color,1
+922,36,19,gray plus,eng,color,1
+923,81,19,Gray Cross,eng,color,1
+924,82,19,Grey cross under the black rectangle,eng,color,1
+925,41,19,grey cross,eng,color,1
+926,44,19,Gray cross,eng,color,1
+927,154,19,cross,eng,color,0
+928,48,19,gray cross,eng,color,1
+929,50,19,cross,eng,color,0
+930,91,20,Green Square,eng,color,1
+931,51,20,green square,eng,color,1
+932,119,20,square,eng,color,0
+933,94,20,green square,eng,color,1
+934,3,20,Green square,eng,color,1
+935,56,20,Green square,eng,color,1
+936,120,20,Square,eng,color,0
+937,5,20,green square,eng,color,1
+938,57,20,a green square,eng,color,1
+939,58,20,green square,eng,color,1
+940,9,20,Square,eng,color,0
+941,11,20,green square,eng,color,1
+942,12,20,green square,eng,color,1
+943,139,20,square,eng,color,0
+944,14,20,green square,eng,color,1
+945,186,20,Green Square,eng,color,1
+946,182,20,green square,eng,color,1
+947,61,20,square,eng,color,0
+948,187,20,single green square,eng,color,1
+949,143,20,green square,eng,color,1
+950,193,20,green square,eng,color,1
+951,161,20,lime square,eng,color,1
+952,183,20,one yellow green square,eng,color,1
+953,23,20,green square,eng,color,1
+954,128,20,green square,eng,color,1
+955,66,20,green square,eng,color,1
+956,68,20,green square,eng,color,1
+957,191,20,lime-colored square with black outline,eng,color,1
+958,179,20,green square,eng,color,1
+959,108,20,light green square,eng,color,1
+960,77,20,Lime green square,eng,color,1
+961,131,20,Square,eng,color,0
+962,152,20,green square,eng,color,1
+963,34,20,green square,eng,color,1
+964,168,20,green Square,eng,color,1
+965,111,20,green square,eng,color,1
+966,112,20,green square,eng,color,1
+967,36,20,green square,eng,color,1
+968,83,20,green square,eng,color,1
+969,114,20,green square,eng,color,1
+970,45,20,green square,eng,color,1
+971,155,20,1 green square,eng,color,1
+972,46,20,Square,eng,color,0
+973,115,20,green box,eng,color,1
+974,89,20,Green square,eng,color,1
+975,156,20,Green square,eng,color,1
+976,135,20,green square,eng,color,1
+977,117,20,green square,eng,color,1

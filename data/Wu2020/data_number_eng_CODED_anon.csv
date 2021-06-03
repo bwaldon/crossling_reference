@@ -1,0 +1,949 @@
+,anon_id,figure,answer,lang,adj,use
+1,99,1,Four identical black hearts,eng,number,1
+2,116,1,Quad hearts,eng,number,1
+3,355,1,heart,eng,number,0
+4,22,1,4 Hearts,eng,number,1
+5,183,1,4 black hearts,eng,number,1
+6,356,1,Four black hearts,eng,number,1
+7,357,1,four hearts arranged in a square,eng,number,1
+8,358,1,Four black hearts,eng,number,1
+9,54,1,4 black hearts,eng,number,1
+10,77,1,Four black hearts,eng,number,1
+11,359,1,BLACK,eng,number,0
+12,140,1,4 hearts,eng,number,1
+13,57,1,four black hearts,eng,number,1
+14,128,1,four hearts,eng,number,1
+15,155,1,4 hearts,eng,number,1
+16,360,1,four hearts,eng,number,1
+17,192,1,four hearts that are two by two,eng,number,1
+18,361,1,4 hearts,eng,number,1
+19,362,1,4 black hearts,eng,number,1
+20,363,1,Four hearts,eng,number,1
+21,24,1,four black hearts aligned in a square,eng,number,1
+22,364,1,Quadruple hearts,eng,number,1
+23,114,1,hearts,eng,number,0
+24,170,1,4 black hearts,eng,number,1
+25,191,1,four black hearts,eng,number,1
+26,365,1,Four of hearts,eng,number,1
+27,127,1,4 hearts,eng,number,1
+28,366,1,heatin,eng,number,0
+29,119,1,four hearts,eng,number,1
+30,151,1,four black hearts,eng,number,1
+31,367,1,Four hearts,eng,number,1
+32,368,1,Four hearts,eng,number,1
+33,369,1,4 hearts,eng,number,1
+34,370,1,4 hearts,eng,number,1
+35,371,1,4 black hearts,eng,number,1
+36,188,1,Four black shaped hearts,eng,number,1
+37,61,1,heart,eng,number,0
+38,102,1,Black color Heart,eng,number,0
+39,75,1,hearts,eng,number,0
+40,126,1,4 hearts,eng,number,1
+41,372,1,hearts,eng,number,0
+42,173,1,hearts,eng,number,0
+43,373,1,four hearts arranged in the shape of a square,eng,number,1
+44,374,1,four black hearts in two rows,eng,number,1
+45,4,1,Hearts,eng,number,0
+46,153,1,four black hearts,eng,number,1
+47,375,1,four hearts,eng,number,1
+48,376,1,Four Hearts,eng,number,1
+49,97,1,hearts,eng,number,0
+50,377,1,Hearts,eng,number,0
+51,129,1,four hearts,eng,number,1
+52,152,1,four black hearts,eng,number,1
+53,378,1,hearts,eng,number,0
+54,86,1,heart,eng,number,0
+55,379,1,four black hearts,eng,number,1
+56,98,1,four black hearts in a square,eng,number,1
+57,380,1,Four Hearts,eng,number,1
+58,0,1,4 black hearts,eng,number,1
+59,39,1,four black hearts,eng,number,1
+60,180,1,Four Hearts,eng,number,1
+61,381,1,4 hearts,eng,number,1
+62,382,1,4 hearts,eng,number,1
+63,383,1,4 hearts,eng,number,1
+64,68,2,equal signs,eng,number,0
+65,384,2,4 rectangles,eng,number,1
+66,10,2,"there are 4 rectangles, 2 on each side, 2 on top 2 on bottom, spaced equally apart",eng,number,1
+67,385,2,four rectangles,eng,number,1
+68,386,2,These 4 things have 4 corners,eng,number,1
+69,145,2,Four rectangles in a 2X2 formaton.,eng,number,1
+70,100,2,rectangles,eng,number,0
+71,142,2,Four rectangles,eng,number,1
+72,44,2,Four black rectangles,eng,number,1
+73,48,2,four black rectangular,eng,number,1
+74,6,2,4 rectangles,eng,number,1
+75,41,2,4 black rectangles,eng,number,1
+76,18,2,Four black rectangles,eng,number,1
+77,90,2,Red rectangles,eng,number,0
+78,76,2,Four black rectangles arranged in a rectangle.,eng,number,1
+79,387,2,4 rectangles,eng,number,1
+80,84,2,four rectangles,eng,number,1
+81,156,2,Four rectangles,eng,number,1
+82,388,2,Four rectangles stacked by twos,eng,number,1
+83,11,2,four black rectangles,eng,number,1
+84,89,2,Four rectangles,eng,number,1
+85,78,2,4 rectangles,eng,number,1
+86,111,2,4 rectangles,eng,number,1
+87,389,2,rectangles,eng,number,0
+88,390,2,four rectangles,eng,number,1
+89,391,2,Four Rectangles,eng,number,1
+90,125,2,four black rectangles,eng,number,1
+91,164,2,4 rectangles. 2 in each row,eng,number,1
+92,51,2,four black rectangles,eng,number,1
+93,392,2,rectangle,eng,number,0
+94,393,2,Rectangle,eng,number,0
+95,394,2,Rectangles,eng,number,0
+96,108,2,four black rectangles arranged in grid,eng,number,1
+97,178,2,4 rectangles,eng,number,1
+98,395,2,Cross,eng,number,0
+99,13,2,4 rectangles,eng,number,1
+100,196,2,four black rectangles,eng,number,1
+101,149,2,four black rectangles,eng,number,1
+102,77,2,4 black rectangles,eng,number,1
+103,363,2,Four rectangles arranged in a square,eng,number,1
+104,364,2,Four rectangles,eng,number,1
+105,102,2,Black color Rectangle,eng,number,0
+106,375,2,four rectangles,eng,number,1
+107,86,2,rectangle,eng,number,0
+108,2,3,4 circles in a square formation,eng,number,1
+109,396,3,circle,eng,number,0
+110,397,3,TWO PARALLEL CIRCLE,eng,number,1
+111,398,3,Four circles in the shape of a square,eng,number,1
+112,58,3,four black circles,eng,number,1
+113,399,3,Four circles in a square,eng,number,1
+114,400,3,Four Circles,eng,number,1
+115,168,3,4 dots,eng,number,1
+116,88,3,4 circles,eng,number,1
+117,124,3,four black circles,eng,number,1
+118,401,3,4 Circles,eng,number,1
+119,52,3,four black circles,eng,number,1
+120,402,3,"four circles all equal size, all black, forming a square out of the circles",eng,number,1
+121,82,3,Four circles above the single diamond,eng,number,1
+122,403,3,4 CIRCLES,eng,number,1
+123,404,3,Dies 4,eng,number,1
+124,19,3,four circles,eng,number,1
+125,405,3,There are four black circles,eng,number,1
+126,105,3,block of black filled in circles upper right,eng,number,0
+127,171,3,four dots,eng,number,1
+128,115,3,four solid black dots,eng,number,1
+129,67,3,four black circles,eng,number,1
+130,406,3,Four black circles arranged in a square shape in the top right corner,eng,number,1
+131,167,3,Four black circles,eng,number,1
+132,357,3,four circles arranged in a square,eng,number,1
+133,54,3,4 black circles,eng,number,1
+134,359,3,BLACK,eng,number,0
+135,360,3,four circles,eng,number,1
+136,6,3,4 circles,eng,number,1
+137,170,3,four circles,eng,number,1
+138,11,3,four black circles,eng,number,1
+139,372,3,circles,eng,number,0
+140,376,3,4 Circles,eng,number,1
+141,125,3,four black circles,eng,number,1
+142,377,3,Circles,eng,number,0
+143,129,3,four circles,eng,number,1
+144,152,3,four black circles,eng,number,1
+145,379,3,four black circles,eng,number,1
+146,108,3,four black circles arranged in a square,eng,number,1
+147,383,3,4 circles,eng,number,1
+148,15,4,two plusses,eng,number,1
+149,40,4,2 plus signs,eng,number,1
+150,407,4,2 plus signs,eng,number,1
+151,157,4,two black addition signs,eng,number,1
+152,187,4,two crosses,eng,number,1
+153,408,4,Two Plus Symbols,eng,number,1
+154,409,4,2 plus signs,eng,number,1
+155,410,4,double plus signs,eng,number,1
+156,411,4,2 Plus signs,eng,number,1
+157,141,4,two black crosses,eng,number,1
+158,59,4,double cross,eng,number,1
+159,412,4,2 objects,eng,number,1
+160,50,4,2 plus signs,eng,number,1
+161,413,4,two addition symbols,eng,number,1
+162,117,4,2 plus signs,eng,number,1
+163,414,4,two plus signs,eng,number,1
+164,415,4,Plus Signs,eng,number,0
+165,53,4,TWO CROSSES,eng,number,1
+166,193,4,two plus signs,eng,number,1
+167,69,4,2 plus signs,eng,number,1
+168,384,4,2 addition signs,eng,number,1
+169,116,4,dual plus,eng,number,1
+170,22,4,2 Plus Signs,eng,number,1
+171,356,4,Two black crosses,eng,number,1
+172,100,4,pluses,eng,number,0
+173,396,4,plus,eng,number,0
+174,140,4,2 plus signs,eng,number,1
+175,88,4,2 plus signs,eng,number,1
+176,362,4,Double plus,eng,number,1
+177,24,4,two black triangles aligned on a diagonal,eng,number,1
+178,366,4,++,eng,number,1
+179,368,4,two plus signs,eng,number,1
+180,369,4,2 pluses,eng,number,1
+181,370,4,two plus signs,eng,number,1
+182,188,4,paired cross,eng,number,1
+183,89,4,Two crosses,eng,number,1
+184,75,4,plus signs,eng,number,0
+185,390,4,2 crosses,eng,number,1
+186,391,4,Two plus signs,eng,number,1
+187,378,4,plus sign,eng,number,0
+188,0,4,2 black plus signs,eng,number,1
+189,115,4,two plus signs diagonal from each other,eng,number,1
+190,395,4,Two crosses,eng,number,1
+191,416,4,++,eng,number,1
+192,167,4,Two black plus signs,eng,number,1
+193,381,4,2 plus signs,eng,number,1
+194,196,4,two plus signs,eng,number,1
+195,357,4,two plus signs,eng,number,1
+196,375,4,2 addition signs,eng,number,1
+197,417,5,three stars,eng,number,1
+198,23,5,Three stars,eng,number,1
+199,179,5,3 stars,eng,number,1
+200,185,5,stars,eng,number,0
+201,418,5,Stars,eng,number,0
+202,419,5,Star,eng,number,0
+203,420,5,three stars,eng,number,1
+204,92,5,3 stars,eng,number,1
+205,68,5,three stars,eng,number,0
+206,385,5,three stars,eng,number,1
+207,358,5,Three black stars,eng,number,1
+208,398,5,Three black stars,eng,number,1
+209,44,5,Three black stars,eng,number,1
+210,168,5,3 stars,eng,number,1
+211,361,5,triple stars,eng,number,1
+212,52,5,three black stars,eng,number,1
+213,367,5,Three black stars,eng,number,1
+214,84,5,three stars,eng,number,1
+215,388,5,Three stars,eng,number,1
+216,153,5,three black stars,eng,number,1
+217,413,5,3 stars,eng,number,1
+218,404,5,stars,eng,number,0
+219,405,5,There are three stars.,eng,number,1
+220,105,5,group of filled in five pointed stars lower right,eng,number,0
+221,406,5,3 black five-point stars arranged with one star at the bottom and two stars over it a differing heights in the bottom right corner,eng,number,1
+222,13,5,Three stars,eng,number,1
+223,102,5,Black color Star,eng,number,0
+224,372,5,stars,eng,number,0
+225,86,5,stars,eng,number,0
+226,108,5,three black triangles,eng,number,1
+227,416,5,***,eng,number,1
+228,375,5,three stars,eng,number,1
+229,421,6,four plus signs,eng,number,1
+230,36,6,four plus signs,eng,number,1
+231,422,6,4 plus signs inside of a square,eng,number,1
+232,73,6,four plus signs (two rows of two),eng,number,1
+233,34,6,four black crosses,eng,number,1
+234,144,6,4 plus signs,eng,number,1
+235,25,6,four black crosses,eng,number,1
+236,423,6,Crosses,eng,number,0
+237,158,6,four crosses,eng,number,1
+238,386,6,These can be found at churches,eng,number,0
+239,397,6,ADDITION SYMBOL,eng,number,0
+240,399,6,Four pluses in a square,eng,number,1
+241,400,6,Four Plus Signs,eng,number,1
+242,157,6,four black addition signs,eng,number,1
+243,402,6,"four plus signs, all black, two by two, forming a square out of the plus signs",eng,number,1
+244,365,6,Four pluses,eng,number,1
+245,127,6,4 crosses,eng,number,1
+246,409,6,4 plus signs,eng,number,1
+247,185,6,4 pluses,eng,number,1
+248,156,6,Four plus symbols,eng,number,1
+249,412,6,4 crosses,eng,number,1
+250,373,6,"four 'plus' symbols arranged pairs, symmetric top to bottom and left to right",eng,number,1
+251,418,6,Plus signs,eng,number,0
+252,51,6,four black cross,eng,number,1
+253,394,6,Plus signs,eng,number,0
+254,414,6,four plus signs,eng,number,1
+255,415,6,Four Plus Signs,eng,number,1
+256,420,6,four crosses,eng,number,1
+257,178,6,4 crosses,eng,number,1
+258,380,6,Four Crosses,eng,number,1
+259,67,6,four black plus signs,eng,number,1
+260,149,6,four crosses,eng,number,1
+261,116,6,quad plus,eng,number,1
+262,396,6,plus,eng,number,0
+263,398,6,Four black plus symbols that form a square,eng,number,1
+264,362,6,Quad plus,eng,number,1
+265,363,6,Four crosses arranged in a square,eng,number,1
+266,364,6,Four plus signs,eng,number,1
+267,370,6,four plus signs,eng,number,1
+268,11,6,four black plus signs,eng,number,1
+269,376,6,Four Plus Signs,eng,number,1
+270,377,6,Plus signs,eng,number,0
+271,379,6,four black plus signs,eng,number,1
+272,13,6,4 crosses,eng,number,1
+273,375,6,four addition signs,eng,number,1
+274,143,7,two plus signs,eng,number,1
+275,109,7,Plus signs,eng,number,0
+276,26,7,two crosses,eng,number,1
+277,175,7,+ +,eng,number,1
+278,95,7,2 plus signs,eng,number,1
+279,130,7,2 black crosses,eng,number,1
+280,17,7,Two plus signs,eng,number,1
+281,163,7,crosses,eng,number,0
+282,424,7,two crosses diagonal from each other,eng,number,1
+283,110,7,two offset plus symbols,eng,number,1
+284,425,7,2 plus signals,eng,number,1
+285,99,7,Two plus signs,eng,number,1
+286,183,7,two black cross signs,eng,number,1
+287,73,7,two plus signs,eng,number,1
+288,57,7,two black plus signs,eng,number,1
+289,155,7,2 plus signs,eng,number,1
+290,192,7,two plus signs going diagonally top left to bottom right,eng,number,1
+291,124,7,two black plus signs,eng,number,1
+292,18,7,Two black plus signs,eng,number,1
+293,179,7,2 plus signs,eng,number,1
+294,411,7,2 Plus Signs,eng,number,1
+295,78,7,2 plus signs,eng,number,1
+296,111,7,2 crosses,eng,number,1
+297,50,7,2 plus signs,eng,number,1
+298,173,7,plus signs,eng,number,0
+299,374,7,two plus signs in opposite corners of a square,eng,number,1
+300,97,7,plus,eng,number,0
+301,403,7,2 PLUS SIGNS,eng,number,1
+302,164,7,2 plus/addition signs. Going down diagonally the top left corner,eng,number,1
+303,419,7,Cross,eng,number,0
+304,53,7,TWO CROSSES,eng,number,1
+305,193,7,two crosses,eng,number,1
+306,39,7,two black crosses,eng,number,1
+307,180,7,2 Addition Signs,eng,number,1
+308,423,7,Double cross,eng,number,1
+309,92,7,2 plus signs,eng,number,1
+310,68,7,two plus signs,eng,number,0
+311,54,7,two black plus signs,eng,number,1
+312,44,7,Two black crosses,eng,number,1
+313,409,7,2 plus signs,eng,number,1
+314,368,7,two plus signs,eng,number,1
+315,185,7,2 pluses,eng,number,1
+316,89,7,Two crosses,eng,number,1
+317,153,7,two black plus signs,eng,number,1
+318,390,7,2 addition signs,eng,number,1
+319,413,7,2 addition symbols,eng,number,1
+320,418,7,Plus signs,eng,number,0
+321,125,7,two black plus signs,eng,number,1
+322,129,7,two crosses,eng,number,1
+323,115,7,2 plus signs diagonal from each other,eng,number,1
+324,395,7,Two crosses,eng,number,1
+325,383,7,2 plus signs,eng,number,1
+326,149,7,two crosses,eng,number,1
+327,11,7,two black plus signs,eng,number,1
+328,379,7,two diagonal plus signs,eng,number,1
+329,426,8,Two Hearts,eng,number,1
+330,94,8,Two hearts,eng,number,1
+331,427,8,two hearts,eng,number,1
+332,36,8,two hearts,eng,number,1
+333,40,8,2 hearts,eng,number,1
+334,145,8,"Two hearts, the left one a bit higher than the right.",eng,number,1
+335,142,8,Two Hearts,eng,number,1
+336,401,8,2 Hearts,eng,number,1
+337,41,8,2 black hearts,eng,number,1
+338,114,8,two hearts,eng,number,1
+339,191,8,two black hearts,eng,number,1
+340,408,8,Two Heart Symbols,eng,number,1
+341,387,8,2 hearts,eng,number,1
+342,410,8,two hearts,eng,number,1
+343,163,8,hearts,eng,number,0
+344,61,8,heart,eng,number,0
+345,144,8,2 hearts,eng,number,1
+346,25,8,two black hearts,eng,number,1
+347,356,8,Two black hearts,eng,number,1
+348,397,8,BOTH HEARTS,eng,number,1
+349,360,8,two hearts,eng,number,1
+350,192,8,two hearts going diagonally top left to bottom right,eng,number,1
+351,168,8,2 hearts,eng,number,1
+352,88,8,2 hearts,eng,number,1
+353,157,8,2 solid black heart shapes,eng,number,1
+354,18,8,Two black hearts,eng,number,1
+355,365,8,Diagonal Hearts,eng,number,0
+356,366,8,2 heartin,eng,number,1
+357,388,8,Two hearts,eng,number,1
+358,412,8,2 hearts,eng,number,1
+359,75,8,hearts,eng,number,0
+360,378,8,hearts,eng,number,0
+361,420,8,two hearts,eng,number,1
+362,0,8,2 black hearts,eng,number,1
+363,39,8,two black hearts,eng,number,1
+364,406,8,Two black hearts slightly off of a direct horizontal line with the one on the left slightly higher in the top left corner.,eng,number,1
+365,381,8,2 hearts,eng,number,1
+366,196,8,two black heart shapes,eng,number,1
+367,68,8,two hearts,eng,number,1
+368,44,8,Two black hearts,eng,number,1
+369,102,8,Black color Heart,eng,number,0
+370,428,9,two black diamonds,eng,number,1
+371,64,9,two black diamonds,eng,number,1
+372,429,9,two diamonds sitting diagonally of eachother,eng,number,1
+373,166,9,TWO DIAMONDS SIDE BY SIDE LEFT SLIGHTLY ABOVE RIGHT,eng,number,1
+374,430,9,Two black diamonds,eng,number,1
+375,33,9,two diamonds,eng,number,1
+376,154,9,diamonds,eng,number,0
+377,421,9,two diamonds,eng,number,1
+378,10,9,2 diamonds 1 higher than the other,eng,number,1
+379,143,9,2 diamonds,eng,number,1
+380,128,9,two diamonds,eng,number,1
+381,58,9,two black rhombuses,eng,number,1
+382,417,9,two diamonds,eng,number,1
+383,187,9,two diamond shapes,eng,number,1
+384,76,9,Two black diamonds. Two four sided shapes.,eng,number,1
+385,141,9,two black diamonds,eng,number,1
+386,82,9,Two diamonds under the single sun,eng,number,1
+387,393,9,Rhompus,eng,number,0
+388,427,9,two diamonds,eng,number,1
+389,171,9,two diamonds,eng,number,1
+390,382,9,2 diamonds,eng,number,1
+391,425,9,2 diamonds,eng,number,1
+392,99,9,Two diamonds,eng,number,1
+393,385,9,two diamonds,eng,number,1
+394,183,9,two black diamonds,eng,number,1
+395,100,9,diamonds,eng,number,0
+396,358,9,Two black diamonds,eng,number,1
+397,140,9,2 diamonds,eng,number,1
+398,57,9,two black diamonds,eng,number,1
+399,41,9,2 black diamonds,eng,number,1
+400,24,9,two black diamonds aligned on a triangle,eng,number,1
+401,114,9,2 diamonds,eng,number,1
+402,52,9,Two black diamonds,eng,number,1
+403,127,9,2 diamonds,eng,number,1
+404,367,9,Two black diamonds.,eng,number,1
+405,394,9,Diamonds,eng,number,0
+406,414,9,two diamonds,eng,number,1
+407,105,9,pair of filled in diamonds lower right,eng,number,1
+408,193,9,two diamonds,eng,number,1
+409,180,9,2 Diamonds,eng,number,1
+410,396,9,diamond,eng,number,0
+411,362,9,Double diamond,eng,number,1
+412,370,9,two diamonds,eng,number,1
+413,89,9,Two diamonds,eng,number,1
+414,376,9,Two Diamonds,eng,number,1
+415,377,9,Diamonds,eng,number,0
+416,378,9,diamonds,eng,number,0
+417,416,9,"2 diamonds, one on right is slightly lower",eng,number,1
+418,149,9,two diamonds,eng,number,1
+419,11,9,two black diamonds,eng,number,1
+420,431,10,triangles,eng,number,0
+421,432,10,triangles,eng,number,0
+422,355,10,triangle,eng,number,0
+423,2,10,two triangles in opposite corners,eng,number,1
+424,64,10,two black triangles,eng,number,1
+425,407,10,2 triangles,eng,number,1
+426,422,10,2 triangles inside of a square,eng,number,1
+427,26,10,two triangles,eng,number,1
+428,48,10,two black triangles,eng,number,1
+429,95,10,2 triangles,eng,number,1
+430,90,10,Black triangles,eng,number,0
+431,119,10,two triangles,eng,number,1
+432,371,10,2 triangles,eng,number,1
+433,17,10,Two triangles,eng,number,1
+434,430,10,Two black triangles,eng,number,1
+435,389,10,2 triangles,eng,number,1
+436,126,10,two triangles,eng,number,1
+437,33,10,two triangles,eng,number,1
+438,392,10,triangle,eng,number,0
+439,98,10,"two black triangles , aranged diagonally",eng,number,1
+440,154,10,triangls,eng,number,0
+441,424,10,two triangles diagonal from each other,eng,number,1
+442,110,10,two offset solid black triangles,eng,number,1
+443,384,10,2 triangles,eng,number,1
+444,10,10,2 triangles 1 higher than the other,eng,number,1
+445,400,10,Two Triangles,eng,number,1
+446,6,10,2 triangles,eng,number,1
+447,408,10,Two Triangles,eng,number,1
+448,387,10,2 triangles,eng,number,1
+449,84,10,two triangles,eng,number,1
+450,411,10,2 Triangles,eng,number,1
+451,156,10,Two triangles,eng,number,1
+452,373,10,"two triangle, one set back from the other, or, set up & to the left, if you see it that way",eng,number,1
+453,403,10,2 TRIANGLES,eng,number,1
+454,25,10,two black triangles,eng,number,1
+455,419,10,Triangle,eng,number,0
+456,415,10,Two Triangles,eng,number,1
+457,380,10,Two Triangles,eng,number,1
+458,92,10,2 triangle,eng,number,1
+459,157,10,two solid black triangles,eng,number,1
+460,127,10,2 triangles,eng,number,1
+461,409,10,2 triangles,eng,number,1
+462,368,10,two triangles,eng,number,1
+463,153,10,two black triangles,eng,number,1
+464,394,10,Triangles,eng,number,0
+465,172,11,4 plus signs,eng,number,1
+466,431,11,Plus signs,eng,number,0
+467,429,11,4 plus signs one in each corner,eng,number,1
+468,130,11,4 black crosses,eng,number,0
+469,59,11,quad cross,eng,number,1
+470,4,11,crosses,eng,number,0
+471,117,11,4 plus signs,eng,number,1
+472,19,11,four cross,eng,number,1
+473,69,11,4 plus signs,eng,number,1
+474,36,11,four plus signs,eng,number,1
+475,143,11,4 plus signs,eng,number,1
+476,2,11,four plus signs in a square formation,eng,number,1
+477,77,11,4 black plus signs,eng,number,1
+478,142,11,Four Plus Signs,eng,number,1
+479,58,11,four black crosses,eng,number,1
+480,95,11,4 plus signs,eng,number,1
+481,417,11,four crosses,eng,number,1
+482,76,11,Four black crosses.,eng,number,1
+483,119,11,four crosses,eng,number,1
+484,410,11,four plus signs,eng,number,1
+485,188,11,square shape,eng,number,0
+486,78,11,4 plus signs,eng,number,1
+487,374,11,four plus signs in two rows,eng,number,1
+488,144,11,4 plus signs,eng,number,1
+489,97,11,plus,eng,number,0
+490,33,11,Plus signs,eng,number,0
+491,164,11,4 plus signs. 2 on each row. 2 columns,eng,number,1
+492,152,11,four black crosses,eng,number,1
+493,427,11,4 crosses,eng,number,1
+494,171,11,four crosses,eng,number,1
+495,67,11,four black plus signs,eng,number,1
+496,116,11,quad plus,eng,number,1
+497,385,11,four plus signs,eng,number,1
+498,183,11,four black cross sign,eng,number,1
+499,100,11,pluses,eng,number,0
+500,360,11,four pluses,eng,number,1
+501,192,11,four plus signs that are two on top and two on the bottom,eng,number,1
+502,88,11,4 plus signs,eng,number,1
+503,6,11,4 plus signs,eng,number,1
+504,363,11,Four crosses arranged in a square,eng,number,1
+505,18,11,Four black plus signs,eng,number,1
+506,366,11,4plus,eng,number,1
+507,412,11,4 exes,eng,number,1
+508,75,11,plus signs,eng,number,1
+509,373,11,"four 'plus' signs arranged in symmetric pairs, top to bottom & left to right",eng,number,1
+510,390,11,4 crosses,eng,number,1
+511,418,11,Plus signs,eng,number,0
+512,395,11,4 crosses,eng,number,1
+513,39,11,four black crosses,eng,number,1
+514,381,11,4 plus signs,eng,number,1
+515,383,11,4 plus signs,eng,number,1
+516,396,11,plus,eng,number,0
+517,44,11,Four black crosses,eng,number,1
+518,416,11,two rows of ++,eng,number,1
+519,149,11,four crosses,eng,number,1
+520,49,12,four black circles,eng,number,1
+521,146,12,four ovals,eng,number,1
+522,8,12,Four Black Ovals,eng,number,1
+523,428,12,four black ovals,eng,number,1
+524,166,12,FOUR OVALS IN SQUARE PATTERN,eng,number,1
+525,426,12,Four Elipses,eng,number,1
+526,23,12,4 oblong circles,eng,number,0
+527,151,12,four black ovals,eng,number,1
+528,158,12,four ovals,eng,number,1
+529,40,12,4 ovals,eng,number,1
+530,22,12,4 Ovals,eng,number,1
+531,431,12,ovals,eng,number,0
+532,64,12,four black ovals,eng,number,1
+533,407,12,4 ovals,eng,number,1
+534,422,12,4 ovals inside of a square,eng,number,1
+535,399,12,Four horizontal ovals in a square,eng,number,1
+536,155,12,4 ovals,eng,number,1
+537,48,12,four black ovals,eng,number,1
+538,401,12,4 Ovals,eng,number,1
+539,170,12,4 ovals,eng,number,1
+540,90,12,Four elipses,eng,number,1
+541,179,12,4 ovals,eng,number,1
+542,141,12,four black ovals,eng,number,1
+543,369,12,4 ovals,eng,number,1
+544,371,12,4 horizontal ovals,eng,number,1
+545,17,12,Four circles,eng,number,1
+546,163,12,ovals,eng,number,0
+547,430,12,Four black ovals,eng,number,1
+548,61,12,oval,eng,number,0
+549,111,12,4 ovals,eng,number,1
+550,389,12,4 ovals,eng,number,1
+551,126,12,four circles,eng,number,1
+552,4,12,ovals,eng,number,0
+553,391,12,4 wide ovals,eng,number,1
+554,51,12,four black ovals,eng,number,1
+555,393,12,circle,eng,number,0
+556,382,12,4 ovals,eng,number,1
+557,425,12,4 spheroids,eng,number,1
+558,99,12,Four horizontal ovals,eng,number,1
+559,357,12,four ovals,eng,number,1
+560,397,12,FOR ELLIPSE,eng,number,1
+561,140,12,3 ovals,eng,number,1
+562,58,12,four black ovals,eng,number,1
+563,400,12,Four Ovals,eng,number,1
+564,185,12,4 ovals,eng,number,1
+565,156,12,4 Ovals,eng,number,1
+566,388,12,Four ovals stacked in twos,eng,number,1
+567,86,12,oval,eng,number,0
+568,420,12,four ovals,eng,number,1
+569,0,12,4 black ovals,eng,number,1
+570,180,12,4 Ovals,eng,number,1
+571,183,12,four black oblong,eng,number,1
+572,383,12,4 ovals,eng,number,1
+573,15,13,diamonds,eng,number,0
+574,175,13,3 diamonds,eng,number,1
+575,172,13,3 black diamonds,eng,number,1
+576,146,13,3 diamonds,eng,number,1
+577,94,13,triple diamonds,eng,number,1
+578,8,13,Three Black Rhombus,eng,number,1
+579,355,13,diamond,eng,number,0
+580,359,13,DIAMOND,eng,number,0
+581,128,13,three diamonds,eng,number,1
+582,124,13,3 black diamonds,eng,number,1
+583,26,13,three diamonds,eng,number,1
+584,187,13,three diamond shapes,eng,number,1
+585,130,13,3 black diamonds,eng,number,1
+586,166,13,THREE DIAMONDS SHAPES STAGGERED,eng,number,1
+587,426,13,Three Diamonds,eng,number,1
+588,402,13,"three rhombuses, all black, arranged in a two by one, with the top one of the two offset to the left a bit",eng,number,1
+589,151,13,3 black diamonds,eng,number,1
+590,59,13,triple diamond,eng,number,1
+591,173,13,diamonds,eng,number,0
+592,117,13,3 diamonds,eng,number,1
+593,19,13,three diamonds,eng,number,1
+594,405,13,There are three diamonds,eng,number,1
+595,98,13,three black diamonds,eng,number,1
+596,154,13,diamonds,eng,number,0
+597,384,13,3 diamonds,eng,number,1
+598,10,13,3 diamonds,eng,number,1
+599,356,13,3 black triangles,eng,number,1
+600,77,13,3 black diamond shapes,eng,number,1
+601,422,13,3 diamonds inside of a square,eng,number,1
+602,142,13,Three Diamonds,eng,number,1
+603,95,13,3 diamonds,eng,number,1
+604,364,13,Triple diamonds,eng,number,1
+605,365,13,Three diamonds,eng,number,1
+606,411,13,3 Rhombus,eng,number,1
+607,430,13,Three black diamonds,eng,number,1
+608,389,13,3 rhombus,eng,number,1
+609,391,13,3 diamond symbols,eng,number,1
+610,413,13,3 diamonds,eng,number,1
+611,419,13,A four sided polygon,eng,number,0
+612,171,13,three diamonds,eng,number,1
+613,380,13,Three Diamonds,eng,number,1
+614,395,13,Three diamonds,eng,number,1
+615,381,13,3 diamonds,eng,number,1
+616,109,14,3 plus signs,eng,number,1
+617,34,14,three black crosses,eng,number,1
+618,432,14,crosses,eng,number,0
+619,421,14,three plus signs,eng,number,1
+620,15,14,plusses,eng,number,0
+621,386,14,Can be found at church,eng,number,0
+622,429,14,3 plus signs one top stagegered two diagonal from each other,eng,number,1
+623,361,14,triple plus,eng,number,1
+624,191,14,three black plus signs,eng,number,1
+625,23,14,Three plus signs,eng,number,1
+626,172,14,3 black plus symbols,eng,number,1
+627,178,14,3 crosses,eng,number,1
+628,424,14,three crosses grouped together,eng,number,1
+629,423,14,Triple cross,eng,number,1
+630,399,14,3 pluses grouped in the middle,eng,number,1
+631,168,14,3 plus signs,eng,number,1
+632,26,14,three crosses,eng,number,1
+633,41,14,4 black crosses,eng,number,1
+634,417,14,three crosses,eng,number,1
+635,130,14,3 black crosses,eng,number,1
+636,170,14,3 crosses,eng,number,1
+637,141,14,three black crosses,eng,number,1
+638,369,14,3 pluses,eng,number,1
+639,371,14,3 plus signs,eng,number,1
+640,188,14,Diagonal cross tri-scale,eng,number,0
+641,61,14,cross,eng,number,0
+642,403,14,3 PLUS SIGNS,eng,number,1
+643,117,14,3 plus signs,eng,number,1
+644,33,14,Plus signs,eng,number,0
+645,152,14,three black crosses,eng,number,1
+646,19,14,three cross,eng,number,1
+647,414,14,three plus signs,eng,number,1
+648,427,14,3 crosses,eng,number,1
+649,115,14,three plus signs bunched together,eng,number,1
+650,193,14,three plusses,eng,number,1
+651,406,14,Three black crosses arranged in no particular shape in the bottom right corner,eng,number,1
+652,382,14,3 plus signs,eng,number,1
+653,425,14,3 plus signals,eng,number,1
+654,77,14,3 black plus signs,eng,number,1
+655,142,14,Three plus signs,eng,number,1
+656,157,14,3 solid black addition signs,eng,number,1
+657,390,14,3 crosses,eng,number,1
+658,376,14,Three Plus Signs,eng,number,1
+659,171,14,three crosses,eng,number,1
+660,379,14,three black plus signs,eng,number,1
+661,49,15,2 black diamonds,eng,number,1
+662,428,15,two black diamonds,eng,number,1
+663,73,15,two black diamonds,eng,number,1
+664,34,15,two black diamonds,eng,number,1
+665,146,15,2 diamonds,eng,number,1
+666,94,15,double diamonds,eng,number,1
+667,82,15,Two diamonds above the four stars,eng,number,1
+668,432,15,diamonds,eng,number,0
+669,8,15,Two Black Rhombus,eng,number,1
+670,53,15,TWO HEARTS,eng,number,1
+671,110,15,two offset solid black rhombus shapes,eng,number,1
+672,158,15,two diamonds,eng,number,1
+673,69,15,2 diamonds,eng,number,1
+674,36,15,two diamonds,eng,number,1
+675,15,15,diamonds,eng,number,0
+676,355,15,diamond,eng,number,0
+677,143,15,2 diamonds,eng,number,1
+678,22,15,2 Diamonds,eng,number,1
+679,431,15,diamonds,eng,number,0
+680,2,15,two diamonds lined up diagonally,eng,number,1
+681,64,15,two black diamonds,eng,number,1
+682,128,15,two diamonds,eng,number,1
+683,361,15,dual diamond,eng,number,1
+684,124,15,2 black diamonds,eng,number,1
+685,114,15,2 diamonds,eng,number,1
+686,191,15,two black diamonds,eng,number,1
+687,52,15,two solid black diamonds,eng,number,1
+688,387,15,2 diamonds,eng,number,1
+689,179,15,2 diamonds,eng,number,1
+690,17,15,Two diamonds,eng,number,1
+691,144,15,2 diamonds,eng,number,1
+692,129,15,two diamonds,eng,number,1
+693,393,15,Rhombus,eng,number,0
+694,405,15,There are two diamonds.,eng,number,1
+695,67,15,two black diamonds,eng,number,1
+696,92,15,2 diamonds,eng,number,1
+697,384,15,2 diamonds,eng,number,1
+698,10,15,2 diamonds 1 higher than the other,eng,number,1
+699,399,15,2 diamonds grouped in the middle,eng,number,1
+700,18,15,Two black diamonds,eng,number,1
+701,365,15,Diamond pair,eng,number,1
+702,368,15,two diamonds,eng,number,1
+703,388,15,Two diamonds,eng,number,1
+704,391,15,Two diamond symbols,eng,number,1
+705,418,15,Diamonds,eng,number,0
+706,378,15,diamonds,eng,number,0
+707,0,15,2 black diamonds,eng,number,1
+708,39,15,two black diamonds,eng,number,1
+709,425,15,2 diamonds,eng,number,1
+710,145,16,Three squares arranged into a triangle.,eng,number,1
+711,109,16,Three squares,eng,number,1
+712,49,16,3 black squares,eng,number,1
+713,175,16,3 squares,eng,number,1
+714,50,16,3 squares,eng,number,1
+715,167,16,Three black squares,eng,number,1
+716,428,16,three black squares,eng,number,1
+717,54,16,three black squares,eng,number,1
+718,73,16,three black squares. One on top two side by side under the top one.,eng,number,1
+719,401,16,3 Squares,eng,number,1
+720,166,16,THREE SQUARES TWO BOTTOM ONE TOP,eng,number,1
+721,34,16,three black squares,eng,number,1
+722,408,16,Three Squares,eng,number,1
+723,76,16,Three black squares.,eng,number,1
+724,367,16,Three black squares,eng,number,1
+725,111,16,3 squares,eng,number,1
+726,97,16,squares,eng,number,0
+727,8,16,Three Black Squares,eng,number,1
+728,51,16,three black squares,eng,number,1
+729,105,16,trio of filled in boxes upper right,eng,number,1
+730,53,16,THREE SQUARES,eng,number,1
+731,196,16,three black squares,eng,number,1
+732,99,16,Three black squares,eng,number,1
+733,36,16,three squares,eng,number,1
+734,355,16,square,eng,number,0
+735,385,16,three squares,eng,number,1
+736,431,16,squares,eng,number,0
+737,397,16,THREE SQUARE,eng,number,1
+738,168,16,3 Square,eng,number,1
+739,88,16,3 squares,eng,number,1
+740,364,16,Three squares,eng,number,1
+741,130,16,3 black squares,eng,number,1
+742,127,16,3 squares,eng,number,1
+743,369,16,3 squares,eng,number,1
+744,370,16,three squares,eng,number,1
+745,188,16,Series of three boxes,eng,number,1
+746,419,16,Square,eng,number,0
+747,19,16,three square,eng,number,1
+748,394,16,Squares,eng,number,0
+749,115,16,three black boxes twoboj bottom one on top,eng,number,1
+750,193,16,three squares,eng,number,1
+751,180,16,3 Squares,eng,number,1
+752,406,16,Three black squares arranged in a pyramid shape located in the top right corner.,eng,number,1
+753,92,16,3 squares,eng,number,1
+754,404,17,eliptical,eng,number,0
+755,392,17,oval,eng,number,0
+756,421,17,three ovals,eng,number,1
+757,407,17,3 ovals,eng,number,1
+758,429,17,3 ovals if you connect them they make a triangle,eng,number,1
+759,398,17,Three black ovals one on top and two on the bottom,eng,number,1
+760,155,17,3 ovals,eng,number,1
+761,48,17,three black ovals,eng,number,1
+762,175,17,3 circles,eng,number,1
+763,187,17,three horizontal ovals,eng,number,1
+764,90,17,three elipses,eng,number,1
+765,23,17,three oblong circles,eng,number,1
+766,410,17,three black ovals,eng,number,1
+767,59,17,triple Ellipse,eng,number,1
+768,172,17,3 black ovals,eng,number,1
+769,78,17,3 ovals,eng,number,1
+770,82,17,Three ovals above the four triangles,eng,number,1
+771,50,17,3 ovals,eng,number,1
+772,126,17,three circles,eng,number,1
+773,372,17,ovals,eng,number,0
+774,173,17,ovals,eng,number,0
+775,374,17,a black oval above two other black ovals,eng,number,1
+776,4,17,aliens,eng,number,0
+777,432,17,Ovals,eng,number,0
+778,25,17,three black ovals,eng,number,1
+779,125,17,three black ovals,eng,number,1
+780,164,17,3 ovals creating a rough triangle outline,eng,number,1
+781,415,17,Three Ovals,eng,number,1
+782,178,17,3 ovals,eng,number,1
+783,424,17,three circles grouped together,eng,number,1
+784,423,17,Triple oval,eng,number,1
+785,167,17,Three black oval shapes,eng,number,1
+786,69,17,3 circles in the pattern of a triangle,eng,number,1
+787,15,17,ellipses,eng,number,0
+788,143,17,3 ovals,eng,number,1
+789,2,17,three circles in triangle formation,eng,number,1
+790,422,17,3 ovals inside of a square,eng,number,1
+791,400,17,Three Ovals,eng,number,1
+792,26,17,three ovals,eng,number,1
+793,6,17,3 ovals,eng,number,1
+794,41,17,3 black ovals,eng,number,1
+795,95,17,3 ovals,eng,number,1
+796,408,17,Three Ovals,eng,number,1
+797,366,17,triangle,eng,number,0
+798,387,17,3 ovals,eng,number,1
+799,411,17,3 Ovals,eng,number,1
+800,185,17,3 footballs,eng,number,1
+801,75,17,ovals,eng,number,0
+802,144,17,3 ovals,eng,number,1
+803,117,17,3 ovals,eng,number,1
+804,8,17,Three Black Ovals,eng,number,1
+805,377,17,Oblong,eng,number,0
+806,152,17,three black ovals,eng,number,1
+807,86,17,oval,eng,number,0
+808,67,17,three black ovals,eng,number,1
+809,40,18,3 rectangular boxes,eng,number,1
+810,386,18,These have 4 side and are larger than a square,eng,number,0
+811,145,18,Three rectangles arranged into a triangle.,eng,number,1
+812,109,18,Three rectangles,eng,number,1
+813,358,18,Three solid black rectangles,eng,number,1
+814,49,18,3 black rectangles,eng,number,1
+815,359,18,TRIANGLE,eng,number,0
+816,24,18,three black rectangles aligned in a triangular pattern,eng,number,1
+817,426,18,Thee Rectangles,eng,number,1
+818,402,18,"three rectangles, all black, two on the bottom and one on top.",eng,number,1
+819,151,18,three black rectangles,eng,number,1
+820,84,18,three rectangles,eng,number,1
+821,146,18,three rectangles,eng,number,1
+822,163,18,rectangles,eng,number,0
+823,94,18,3 squarees,eng,number,1
+824,404,18,rectangular,eng,number,0
+825,392,18,rectangle,eng,number,0
+826,108,18,three black rectangles arranged in triangle shape,eng,number,1
+827,154,18,rectangles,eng,number,0
+828,110,18,three solid black rectangles,eng,number,1
+829,13,18,3 black rectangles,eng,number,1
+830,158,18,3 rectangles,eng,number,1
+831,428,18,three black rectangles,eng,number,1
+832,356,18,3 black rectangles,eng,number,1
+833,64,18,three black rectangles,eng,number,1
+834,407,18,3 rectangles,eng,number,1
+835,73,18,three horizontal black rectangles,eng,number,1
+836,128,18,three rectangles,eng,number,1
+837,58,18,three black rectangles,eng,number,1
+838,124,18,3 black rectangles,eng,number,1
+839,362,18,3 horizontal rectangle,eng,number,1
+840,175,18,3 rectangles,eng,number,1
+841,34,18,three black rectangles,eng,number,1
+842,114,18,3 rectangles,eng,number,1
+843,170,18,3 rectangles,eng,number,1
+844,52,18,three solid black rectangles,eng,number,1
+845,409,18,3 rectangles,eng,number,1
+846,367,18,Three black rectangles,eng,number,1
+847,156,18,three rectangles,eng,number,1
+848,412,18,3 rectangles,eng,number,1
+849,126,18,three rectangles,eng,number,1
+850,373,18,"three rectangles forming a shape of pyramid, but using rectangles on their long sides",eng,number,1
+851,374,18,a black rectangle above two black rectangles,eng,number,1
+852,97,18,rectangles,eng,number,0
+853,33,18,rectangles,eng,number,0
+854,125,18,three black rectangles,eng,number,1
+855,427,18,3 rectangles,eng,number,1
+856,105,18,trio of filled in rectangles lower left,eng,number,1
+857,420,18,three rectangles,eng,number,1
+858,380,18,Three Rectangles,eng,number,1
+859,382,18,3 rectangles,eng,number,1
+860,69,18,3 rectangles in the pattern of a triangle,eng,number,1
+861,57,19,4 black suns,eng,number,1
+862,119,19,four suns,eng,number,1
+863,98,19,"four black suns, arranged ina  square",eng,number,1
+864,68,19,4 suns,eng,number,1
+865,40,19,4 sunshine symbols,eng,number,1
+866,100,19,suns,eng,number,0
+867,49,19,four black suns,eng,number,1
+868,140,19,4 suns,eng,number,1
+869,398,19,Four black suns forming a square,eng,number,1
+870,155,19,4 suns,eng,number,1
+871,363,19,Four sun symbols arranged in a square,eng,number,1
+872,166,19,FOUR SUNSHINE SYMBOLS IN SQUARE PATTERN,eng,number,1
+873,76,19,"Four matching patterns, each consisting of a black circle with eight black triangles surrounding it.",eng,number,1
+874,151,19,four black suns,eng,number,1
+875,179,19,4 suns,eng,number,1
+876,141,19,four black suns,eng,number,1
+877,59,19,quad sun,eng,number,1
+878,371,19,4 sun signs,eng,number,1
+879,17,19,Four suns,eng,number,1
+880,146,19,four suns,eng,number,1
+881,163,19,suns,eng,number,0
+882,89,19,Four suns,eng,number,1
+883,78,19,4 suns,eng,number,1
+884,430,19,Four black suns,eng,number,0
+885,82,19,Four suns under the single cross,eng,number,1
+886,50,19,4 suns,eng,number,1
+887,389,19,4 circules with 8 triangle horns,eng,number,1
+888,173,19,suns,eng,number,0
+889,432,19,Suns,eng,number,0
+890,403,19,4 SUN SIGNS,eng,number,1
+891,129,19,four suns,eng,number,1
+892,164,19,"4 suns. 2 rows, 2 columns",eng,number,1
+893,392,19,sun,eng,number,0
+894,393,19,circle,eng,number,0
+895,414,19,four sun symbols(big circles with triangles all around),eng,number,1
+896,405,19,There are four black suns,eng,number,1
+897,178,19,4 suns,eng,number,1
+898,424,19,four suns grouped together,eng,number,1
+899,167,19,Four black images of the sun,eng,number,1
+900,110,19,four sun symbols arranged in a square,eng,number,1
+901,158,19,for sun-symbols,eng,number,1
+902,421,20,two squares,eng,number,1
+903,116,20,dual squares,eng,number,1
+904,22,20,2 Squares,eng,number,1
+905,386,20,These 2 items have 4 sides,eng,number,1
+906,145,20,"Two squares, left one a bit higher than the right one.",eng,number,1
+907,109,20,Two squares,eng,number,1
+908,357,20,two squares,eng,number,1
+909,358,20,Two solid black squares,eng,number,1
+910,54,20,two black squares,eng,number,1
+911,359,20,BLACK,eng,number,0
+912,429,20,two squares parallel and slightly offset,eng,number,1
+913,57,20,two black squares,eng,number,1
+914,360,20,two squares,eng,number,1
+915,192,20,two squares going diagonally from top left to bottom right,eng,number,1
+916,361,20,2 squares,eng,number,1
+917,48,20,two black square,eng,number,1
+918,401,20,2 Squares,eng,number,1
+919,417,20,two squares,eng,number,1
+920,24,20,two black squares aligned on a diagonal,eng,number,1
+921,187,20,two squares,eng,number,1
+922,191,20,two black squares,eng,number,1
+923,426,20,Two Squares,eng,number,1
+924,402,20,"two squares, all black, offset from each other, one across from the other, leftmost is higher than rightmost.",eng,number,1
+925,119,20,two squares,eng,number,1
+926,23,20,two squares,eng,number,1
+927,84,20,two squares,eng,number,1
+928,410,20,two black squares,eng,number,1
+929,172,20,2 black squares,eng,number,1
+930,94,20,double squares,eng,number,1
+931,61,20,square,eng,number,0
+932,111,20,2 squares,eng,number,1
+933,102,20,Black color square,eng,number,0
+934,372,20,squares,eng,number,0
+935,4,20,twos,eng,number,1
+936,153,20,two black squares,eng,number,1
+937,413,20,2 squares,eng,number,1
+938,25,20,two black squres,eng,number,1
+939,404,20,square,eng,number,0
+940,51,20,two black squares,eng,number,1
+941,415,20,Two Squares,eng,number,1
+942,108,20,"two black squares, not level with each other",eng,number,1
+943,98,20,"two black squares, arranged diagonally",eng,number,1
+944,154,20,squares,eng,number,0
+945,53,20,TWO SQUARES,eng,number,1
+946,423,20,Double  square,eng,number,1
+947,13,20,2 black squares,eng,number,1
+948,196,20,two black squares,eng,number,1
