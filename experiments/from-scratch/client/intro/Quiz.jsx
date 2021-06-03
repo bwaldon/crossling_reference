@@ -68,6 +68,8 @@ export default class GroupQuiz extends React.Component {
 
   render() {
     const { hasPrev, onPrev, game, treatment } = this.props;
+    const quizLanguage = game.treatment.gameLanguage;
+
     return (
       <Centered>
         <div className="quiz">

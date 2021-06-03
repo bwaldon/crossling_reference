@@ -1,6 +1,6 @@
 // import {gameTexts, gameTextsLanguage} from './gameTexts.js'
 
-export const gameTextsLanguage = 'English';
+// export const gameTextsLanguage = 'English';
 
 export const gameTexts = {
     'English': {

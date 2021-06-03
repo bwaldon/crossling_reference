@@ -5,6 +5,7 @@ import { Breadcrumb as Crumb, Classes } from "@blueprintjs/core";
 export default class Breadcrumb extends React.Component {
   render() {
     const { round, stage, game } = this.props;
+    const gameTextsLanguage = game.treatment.gameLanguage
 
     return (
       <nav className="round-nav">
