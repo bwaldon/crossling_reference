@@ -11,7 +11,7 @@ export default class InstructionStepOne extends React.Component {
     
     var instructionLanguage = game.treatment.gameLanguage;
 
-    const objects = ["ambulance", "big_green_rock", "lily", "pretzels"];
+    const objects = ["ambulance", "big_grey_rock", "lily", "pretzels"];
 
     const images = objects.map((object,) => { 
       let path = "/images/" + object + ".jpg";
