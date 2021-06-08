@@ -3,10 +3,13 @@ import { IconNames } from "@blueprintjs/icons";
 import PropTypes from "prop-types";
 import React from "react";
 
-import {gameTexts, gameTextsLanguage} from './gameTexts.js'
+import {gameTexts} from './gameTexts.js'
 
 export default class GameLobby extends React.PureComponent {
   renderPlayersReady = () => {
+    const { game, treatment } = this.props;
+    const gameTextsLanguage = game.treatment.gameLanguage
+    
     return (
       <div className="game-lobby">
         <NonIdealState
@@ -20,6 +23,7 @@ export default class GameLobby extends React.PureComponent {
 
   render() {
     const { game, treatment } = this.props;
+    const gameTextsLanguage = game.treatment.gameLanguage
 
     const total = treatment.factor("playerCount").value;
     const existing = game.playerIds.length;

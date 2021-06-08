@@ -1,4 +1,4 @@
-export const quizLanguage = 'English';
+// export const quizLanguage = 'English';
 
 export const quizTexts = {
 

@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "./Image.jsx";
 import { AlertToaster } from "meteor/empirica:core";
-import {gameTexts, gameTextsLanguage} from './gameTexts.js'
+import {gameTexts} from './gameTexts.js'
 
 export default class Task extends React.Component {
 
@@ -49,7 +49,8 @@ class ListenerTask extends React.Component {
 
 	handleSubmit(e) {
 		e.preventDefault();
-		const { round, stage } = this.props;
+		const { round, stage, game } = this.props;
+		const gameTextsLanguage = game.treatment.gameLanguage
 
 		if(round.get('stage') !== "feedback" & this.state.selected === "NONE"){
 			AlertToaster.show({
@@ -68,7 +69,8 @@ class ListenerTask extends React.Component {
 	// handle a click on an image during selection
 
 	handleChange(e) {
-		const { round, stage } = this.props;
+		const { round, stage, game } = this.props;
+		const gameTextsLanguage = game.treatment.gameLanguage
 
 		const chatLog = round.get('chatLog') || new Array();
 		// Filter on only speaker messages
@@ -89,7 +91,9 @@ class ListenerTask extends React.Component {
 
 	render() {
 
-		const { round, stage, player } = this.props;
+		const { round, stage, player, game } = this.props;
+		const gameTextsLanguage = game.treatment.gameLanguage;
+		
 		let button;
 		let feedbackMessage;
 		const listenerSelection = round.get("listenerSelection")
@@ -158,7 +162,9 @@ class SpeakerTask extends React.Component {
 
 	render() {
 
-		const { round, stage, player } = this.props;
+		const { round, stage, player, game } = this.props;
+		const gameTextsLanguage = game.treatment.gameLanguage
+		
 		let feedbackMessage;
 		const listenerSelection = round.get("listenerSelection")
 		const target = round.get("target")

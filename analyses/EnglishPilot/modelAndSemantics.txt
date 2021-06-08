@@ -1,0 +1,29 @@
+var semantics = function(params) {
+  return function(state) {
+    return {
+      color: ["color_size","color_otherSize"].includes(state) ? params.colorNoiseVal : 1 - params.colorNoiseVal, 
+      otherColor: ["otherColor_size","otherColor_otherSize"].includes(state) ? params.colorNoiseVal : 1 - params.colorNoiseVal,
+      size: ["color_size","otherColor_size"].includes(state) ? params.sizeNoiseVal : 1 - params.sizeNoiseVal,
+      otherSize: ["color_otherSize","otherColor_otherSize"].includes(state) ? params.sizeNoiseVal : 1 - params.sizeNoiseVal,
+      STOP : 1,
+      START : 1
+    }
+  }
+}
+
+
+var model = function(params) {
+  return {
+    words : ['color', 'size', 'otherColor', 'otherSize', 'STOP', 'START'],
+    wordCost: {
+      "color" : params.colorCost,
+      "otherColor" : params.colorCost,
+      "size" : params.sizeCost,
+      "otherSize" : params.sizeCost,
+      "pin" : params.nounCost,
+      'STOP'  : 0,
+      'START'  : 0
+    },
+
+  }
+}

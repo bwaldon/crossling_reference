@@ -1,7 +1,8 @@
 import React from "react";
+import ReactHtmlParser from 'react-html-parser';
 import { Chat } from "@empirica/chat";
 import Timer from "./Timer.jsx";
-import {gameTexts, gameTextsLanguage} from './gameTexts.js';
+import {gameTexts} from './gameTexts.js';
 
 export default class PlayerProfile extends React.Component {
 
@@ -25,7 +26,8 @@ export default class PlayerProfile extends React.Component {
   }
 
   render() {
-    const { stage, round, player } = this.props;
+    const { stage, round, player, game } = this.props;
+    const gameTextsLanguage = game.treatment.gameLanguage
 
     // const timer = round.get('stage') === "feedback" ? <Timer stage={stage} round={round} /> : null
 
@@ -33,7 +35,7 @@ export default class PlayerProfile extends React.Component {
 
     return (
       <aside className="player-profile">
-        <div style = {{align: 'center'}}> <h4> {roleNameText} </h4></div>
+        <div style = {{align: 'center'}}> <h4> {ReactHtmlParser(roleNameText)} </h4></div>
         <div style = {{overflow: "scroll", height: '200px', border: '1px solid #333333'}}>
         <Chat player={player} scope={round} 
         customKey="gameChat" onNewMessage={this.updateChat} />

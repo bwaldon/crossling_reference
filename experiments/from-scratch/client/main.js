@@ -15,17 +15,18 @@ import Quiz from "./intro/Quiz";
 import newPlayer from "./intro/newPlayer.jsx"
 
 // Set the About Component you want to use for the About dialog (optional).
-Empirica.about(About);
+// Empirica.about(About);
 
 // Set the Consent Component you want to present players (optional).
-Empirica.consent(Consent);
+// Empirica.consent(Consent);
 // Empirica.consent((game) => { return Consent});
+// Empirica.consent(Consent);
 
 // Introduction pages to show before they play the game (optional).
 // At this point they have been assigned a treatment. You can return
 // different instruction steps depending on the assigned treatment.
 Empirica.introSteps((game, treatment) => {
-  const steps = [InstructionStepOne];
+  const steps = [Consent, InstructionStepOne];
   if (treatment.playerCount > 1) {
     steps.push(InstructionStepTwo,InstructionStepThree);
   }

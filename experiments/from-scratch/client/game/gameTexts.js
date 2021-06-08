@@ -1,6 +1,6 @@
 // import {gameTexts, gameTextsLanguage} from './gameTexts.js'
 
-export const gameTextsLanguage = 'English';
+// export const gameTextsLanguage = 'English';
 
 export const gameTexts = {
     'English': {
@@ -9,8 +9,8 @@ export const gameTexts = {
         'GAMELOBBY_waitForPlayers': "Please wait for other players to be ready...",
         'GAMELOBBY_numPlayersReady': "players ready.",
 
-        'PLAYERPROFILE_youAreGuesser': "You are the " + "guesser".bold() + ".",
-        'PLAYERPROFILE_youAreDirector': "You are the " + "director".bold() + ".",
+        'PLAYERPROFILE_youAreGuesser': "You are the " + "<u>guesser</u>" + ".",
+        'PLAYERPROFILE_youAreDirector': "You are the " + "<u>director</u>" + ".",
         'PLAYERPROFILE_guesser': "Guesser",
         'PLAYERPROFILE_director': "Director",
 
