@@ -6,7 +6,7 @@ import { Radio, RadioGroup } from "@blueprintjs/core";
 
 import { Checkbox } from "@blueprintjs/core";
 
-import { quizTexts, quizLanguage } from "./quizTexts.js";
+import { quizTexts } from "./quizTexts.js";
 
 export default class GroupQuiz extends React.Component {
 
@@ -68,10 +68,11 @@ export default class GroupQuiz extends React.Component {
 
   render() {
     const { hasPrev, onPrev, game, treatment } = this.props;
+    let quizLanguage = game.treatment.gameLanguage;
     return (
       <Centered>
         <div className="quiz">
-          <h1 className={"bp3-heading"}> Quiz </h1>
+          <h1 className={"bp3-heading"}> { quizTexts[quizLanguage].QuizHeaderText } </h1>
           <form onSubmit={this.handleSubmit}>
       
 

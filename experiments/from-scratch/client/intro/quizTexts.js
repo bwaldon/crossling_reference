@@ -3,6 +3,7 @@ export const quizLanguage = 'English';
 export const quizTexts = {
 
     "English": {
+        "QuizHeaderText": "Quiz",
         "MistakesMessage": "Sorry, you have one or more mistakes. Please ensure that you answer the questions correctly, or go back to the instructions.",
         "Question1": "The director can click on an object.",
         "Question2": "The guesser clicks on the object that the director is telling them about.",
@@ -17,6 +18,7 @@ export const quizTexts = {
     },
 
     "ChineseSimplified": {
+        "QuizHeaderText": "小测验",
         "MistakesMessage": "抱歉，你犯了一个或多个错误，请保证你的回答完全正确，或者回到游戏说明界面。",
         "Question1": "描述者可以点击一个物体。",
         "Question2": "猜测者想要点击说话者所描述的物体。",
