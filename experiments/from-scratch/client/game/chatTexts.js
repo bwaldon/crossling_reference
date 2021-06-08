@@ -12,7 +12,7 @@ export const chatTexts = {
         "EnterChatMessagePlaceholder": "输入聊天信息",
         "SendButtonText": "发送",
         "DirectorName": "描述者",
-        "GuesserName": "猜测者",
+        "GuesserName": "猜图者",
         "You": "您"
     }
 }
