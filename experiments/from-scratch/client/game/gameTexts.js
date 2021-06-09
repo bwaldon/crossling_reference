@@ -4,6 +4,7 @@
 
 export const gameTexts = {
     'English': {
+        'GAMELOBBY_lobbyHeader': "Lobby",
         'GAMELOBBY_loading': "Game loading...",
         'GAMELOBBY_loadingDescription': "Your game will be starting shortly, get ready!",
         'GAMELOBBY_waitForPlayers': "Please wait for other players to be ready...",
@@ -13,6 +14,8 @@ export const gameTexts = {
         'PLAYERPROFILE_youAreDirector': "You are the " + "<u>director</u>" + ".",
         'PLAYERPROFILE_guesser': "Guesser",
         'PLAYERPROFILE_director': "Director",
+
+        'ROUND_roundText': "Round",
 
         'SOCIALEXPOSURE_numOtherPlayers': 'Number of other players: ',
 
@@ -35,6 +38,7 @@ export const gameTexts = {
     },
 
     'ChineseSimplified': {
+        'GAMELOBBY_lobbyHeader': "游戏厅",
         'GAMELOBBY_loading': "游戏加载中...",
         'GAMELOBBY_loadingDescription': "游戏马上开始，请做好准备!",
         'GAMELOBBY_waitForPlayers': "请等待另一位玩家准备完毕...",
@@ -44,6 +48,8 @@ export const gameTexts = {
         'PLAYERPROFILE_youAreDirector': "你是" + "描述者".bold() + ".",
         'PLAYERPROFILE_guesser': "猜图者",
         'PLAYERPROFILE_director': "描述者",
+
+        'ROUND_roundText': "轮数",
 
         'SOCIALEXPOSURE_numOtherPlayers': '其他玩家数量: ',
 
@@ -59,7 +65,7 @@ export const gameTexts = {
         'TASK_waitForPartnerToClickAnywhere': "请等待你的搭档点击屏幕来进入下一轮。",
         'TASK_submitButtonText': "提交",
 
-        'TIMER_timeUntilNextRound': "距离下一局还剩的时间: ",
+        'TIMER_timeUntilNextRound': "距离下一局时间: ",
 
         'WAITINGFORSERVER_waitingForServerResponse': "等待服务器响应...",
         'WAITINGFORSERVER_waitingForPlayers': "请等待至所有玩家准备就绪。如果用时超过5秒，请刷新页面。"

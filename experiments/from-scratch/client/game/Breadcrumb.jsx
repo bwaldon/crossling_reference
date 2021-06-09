@@ -1,5 +1,5 @@
 import React from "react";
-
+import {gameTexts} from './gameTexts.js'
 import { Breadcrumb as Crumb, Classes } from "@blueprintjs/core";
 
 export default class Breadcrumb extends React.Component {
@@ -11,7 +11,7 @@ export default class Breadcrumb extends React.Component {
       <nav className="round-nav">
         <ul className={Classes.BREADCRUMBS}>
           <li>
-            <Crumb text={`Round ${round.index + 1} / ${game.get('length')}`} />
+            <Crumb text={`${gameTexts[gameTextsLanguage].ROUND_roundText} ${round.index + 1} / ${game.get('length')}`} />
           </li>
           {/*{round.stages.map(s => {
             const disabled = s.name !== stage.name;

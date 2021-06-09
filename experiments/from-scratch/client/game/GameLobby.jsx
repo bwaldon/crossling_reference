@@ -36,7 +36,7 @@ export default class GameLobby extends React.PureComponent {
       <div className="game-lobby">
         <NonIdealState
           icon={IconNames.TIME}
-          title="Lobby"
+          title={gameTexts[gameTextsLanguage].GAMELOBBY_lobbyHeader}
           description={
             <>
               <p>{gameTexts[gameTextsLanguage].GAMELOBBY_waitForPlayers}</p>
