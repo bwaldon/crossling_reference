@@ -19,9 +19,7 @@ export default class Task extends React.Component {
 
 class ListenerTask extends React.Component {
 
-
 	constructor(props) {
-
 		super(props);
 		const { round } = this.props;
 		this.state = { selected: "NONE" };
@@ -29,20 +27,16 @@ class ListenerTask extends React.Component {
 		this.handleChange = this.handleChange.bind(this);
 		this.handleSubmit = this.handleSubmit.bind(this);
 		this.images = round.get("listenerImages")	
-	
 	}
 
 	// handle the click anywhere to proceed after selection
 
 	handleClick = event => {
-
 		const { round } = this.props;
-
 		if (round.get('stage') === "feedback") {
 			this.props.player.stage.submit();
 			document.removeEventListener('click', this.handleClick, true);
 		}
-    
     } 
 
     // handle the submit button
@@ -74,6 +68,7 @@ class ListenerTask extends React.Component {
 
 		const chatLog = round.get('chatLog') || new Array();
 		// Filter on only speaker messages
+
 		const filteredLog = chatLog.filter((msg) => msg.player.name === gameTexts[gameTextsLanguage].PLAYERPROFILE_director);
 		if (round.get('stage') === "selection" & filteredLog.length === 0) {
 			AlertToaster.show({
