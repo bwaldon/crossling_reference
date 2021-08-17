@@ -1,6 +1,5 @@
 import React from "react";
-import PlayerProfile from "./PlayerProfile.jsx";
-import SocialExposure from "./SocialExposure.jsx";
+import SocialInteractions from "./SocialInteractions.jsx";
 import Task from "./Task.jsx";
 import {gameTexts} from './gameTexts.js'
 
@@ -18,14 +17,13 @@ export default class Round extends React.Component {
     const gameTextsLanguage = game.treatment.gameLanguage;
 
     const view = <Task game={game} round={round} stage={stage} player={player} />
+
     return (
       <div className="round">
     
-        <div className="content" style = {{alignItems: 'center'}} >
+        <div className="content" >
 
-          <PlayerProfile player={player} stage={stage} game={game} round = {round} />
-
-          <div className = "view" style = {{display: 'inline-block'}}> {view} </div>
+          <SocialInteractions player={player} stage={stage} game={game} round = {round} /> <div className = "view"> {view} </div>
 
         </div>
       </div>

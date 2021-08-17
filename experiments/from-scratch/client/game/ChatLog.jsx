@@ -16,14 +16,15 @@ export default class ChatLog extends React.Component {
     const text = this.state.comment.trim();
     if (text !== "") {
       const { round, player } = this.props;
+      const room = player.get('roomId')
       round.append("chat", {
         text,
         playerId: player._id,
         target: round.get('target'),
         role: player.get('role'),
-        type: "message"
+        type: "message",
+        time: Date.now()
       });
-    
       this.setState({ comment: "" });
     }
   };
@@ -34,14 +35,11 @@ export default class ChatLog extends React.Component {
 
     const gameLanguage = game.treatment.gameLanguage;
 
-    // const inputDisplay = game.treatment.chatEnabled ? "" : "none";
-    const inputDisplay = "";
-
     return (
       <div className="chat bp3-card">
         <Messages game={game} messages={messages} player={player} />
         <form onSubmit={this.handleSubmit}>
-          <div className="bp3-control-group" style={{display:inputDisplay}} >
+          <div className="bp3-control-group">
             <input
               name="comment"
               type="text"
@@ -52,7 +50,7 @@ export default class ChatLog extends React.Component {
               autoComplete="off"
             />
             <button type="submit" className="bp3-button bp3-intent-primary">
-            {chatTexts[gameLanguage].SendButtonText}
+              {chatTexts[gameLanguage].SendButtonText}
             </button>
           </div>
         </form>
@@ -77,9 +75,9 @@ class Messages extends React.Component {
 
     return (
       <div className="messages" ref={el => (this.messagesEl = el)}>
-        {messages.length === 0 ? (
+        {messages.length === 0 && game.treatment.chatEnabled ? (
           <div className="empty">{chatTexts[gameLanguage].NoMessagesYet}</div>
-        ) : messages.length === 0 ? (
+        ) : messages.length === 0 && !(game.treatment.chatEnabled) ? (
           <div className="empty">No actions taken yet...</div>
         ) : null}
         {messages.map((message, i) => (
@@ -94,12 +92,12 @@ class Message extends React.Component {
   render() {
     const { text, subject, type } = this.props.message;
     const { self } = this.props;
-
     return (
       <div className="message">
-        <Author gameLanguage={this.props.gameLanguage} player={subject} self={self} type = {type} />
-        {text}
+        <Author gameLanguage={this.props.gameLanguage} player={subject} self={self} type = {type} /> {text}
       </div>
     );
   }
 }
+
+

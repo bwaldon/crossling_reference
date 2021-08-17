@@ -1,7 +1,7 @@
 .round {
   display: flex;
-  flex-direction: column;
   height: 100%;
+  align-items: stretch;
 
   .content {
     flex-grow: 1;
@@ -10,177 +10,232 @@
     align-items: flex-start;
   }
 
-  .player-profile {
-    display: flex;
-    flex-direction: column;
-    width: 24rem;
+  .social-interactions {
+    // display: flex;
+    // flex-direction: column;
+    // width: 100%;
     min-height: 100%;
-    align-items: center;
-    padding: 3rem 4rem;
-
-    .profile-avatar {
-      width: 8rem;
-      height: 8rem;
-      margin: 3rem 0;
-    }
-
-    .profile-score {
-      text-align: center;
-      span {
-        font-size: 3rem;
-        font-weight: bold;
-      }
-    }
-
-    .timer {
-      margin-top: 2rem;
-      text-align: center;
-
-      .seconds {
-        font-size: 3rem;
-        // Helvetica has tabular numbers (fixed width), which looks better
-        // for a timer, doesn't jump all over the place.
-        font-family: Helvetica, Arial, sans-serif;
-        color: green;
-      }
-      &.lessThan10 {
-        .seconds {
-          color: orange;
+    align-items: left;
+  
+    .eventlog {
+      height: calc(~"35% - 3.5rem");
+      padding: 0 2rem;
+      margin-bottom: 1rem;
+  
+      .events {
+        padding: 2rem 0 0;
+        overflow: auto;
+        height: 100%;
+        width: 100%;
+  
+        padding-top: 2rem;
+  
+        .event {
+          margin: 0 0 1rem;
+  
+          .timestamp {
+            display: inline-block;
+            margin-right: 0.4em;
+            font-weight: 100;
+            font-size: 1.7rem;
+            color: grey;
+          }
+  
+          .content {
+            display: inline-block;
+  
+            & > div {
+              display: inline-block;
+              font-weight: 800;
+            }
+  
+            .author {
+              font-weight: 700;
+              margin: 0 0.3em 0.4em 0;
+  
+              img {
+                position: relative;
+                top: 0.2em;
+                width: 1.2em;
+                height: 1.2em;
+                margin-right: 0.3em;
+              }
+            }
+          }
         }
       }
-      &.lessThan5 {
-        .seconds {
-          color: red;
+    }
+  
+    .chat {
+      // height: calc(~"65% - 6.5rem");
+      height: 200px;
+      width: 250px;
+      position: relative;
+      padding-top: 0rem;
+      padding-bottom: 4rem;
+  
+      .messages {
+        overflow: auto;
+        height: 100%;
+        width: 100%;
+  
+        padding-top: 2rem;
+  
+        .empty {
+          color: grey;
+          text-align: center;
+          // margin: 3rem 0;
+        }
+  
+        .message {
+          font-size: 1.7rem;
+          margin: 0 0 1rem;
+  
+          .author {
+            font-weight: 700;
+            margin: 0 0.3em 0 0;
+            display: inline-block;
+          }
         }
       }
-    }
-  }
-
-  .task {
-    align-content: right;
-    padding: 4rem 4rem 0 4rem;
-
-    .task-response {
-      margin: 3rem 0 0;
-
+  
       form {
-        width: 40rem;
-
-        button[type="submit"] {
-          margin-top: 2rem;
-        }
-      }
-
-      .response-submitted {
-        background-color: #e8e8e8;
-        padding: 2rem;
-        border-radius: 0.4rem;
-
-        h5 {
-          margin: 0 0 0.5rem;
-          font-size: inherit;
-        }
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 5rem;
+        flex-shrink: 0;
+        flex-grow: 0;
+        padding: 1rem 1rem 0;
       }
     }
   }
+}
 
-  .social-exposure {
-    margin: 4rem;
+// ==================
 
-    .alter {
+.consent {
+  button {
+    width: 16rem;
+  }
+}
+
+.interface-instructions {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  .instruction-example {
+    .instruction-image{
+      max-width:100%;
+      img{
+        border: 15px;
+        width:600px;
+        max-width:100%;
+        margin: 25px 0px;
+      }
+    }
+  }
+}
+
+.instructions {
+  p {
+    font-size: 1.8rem;
+    line-height: 1.5;
+    margin-bottom: 1em;
+  }
+
+  .image{
+    max-width:80%;
+    img{
+      width:100%;
+    }
+  }
+
+  .smallimage{
+    max-width:80%;
+    img{
+
+    }
+  }
+  .players {
+    padding: 0;
+    display: flex;
+    margin: 0 auto;
+    width: 35%;
+    // overflow allows for the user to scroll through
+    //overflow: scroll;
+
+    .player {
       display: flex;
-      padding-right: 3rem;
+      flex-direction: column;
+      align-items: center;
+      padding: 1rem;
+
+      .image {
+        position: relative;
+        .satisfied {
+          // font-size: 0.1rem;
+          position: absolute;
+          top: -0.6rem;
+          right: -0.8rem;
+          .bp3-icon-standard {
+            font-size: 1.2rem;
+          }
+        }
+      }
+
+      &:first-child {
+        .name {
+          padding-right: 2rem;
+          white-space: nowrap;
+        }
+        .image {
+          padding-right: 2rem;
+          border-right: 1px solid lightgrey;
+
+          .satisfied {
+            right: 1.2rem;
+          }
+        }
+      }
 
       img {
-        width: 6rem;
-        height: 6rem;
-        margin-right: 3rem;
-      }
-
-      .range {
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        width: 5rem;
+        height: 5rem;
       }
     }
   }
-}
 
-button {
-  padding: 0.8rem 1.2rem;
-  border-radius: 0.3rem;
-  border: 1px solid lightgray;
-  background-color: #eee;
-
-  &:hover {
-    background-color: #ddd;
-  }
-}
-
-.instructions,
-.quiz,
-.exit-survey {
-  button {
-    margin: 2rem 1rem 0 0;
-  }
-
-  label {
-    display: block;
-    margin: 2rem 0 1rem;
-  }
-
-  input[type="text"],
-  input[type="number"] {
-    padding: 0.3rem 0.5rem;
-    border-radius: 0.3rem;
-    border: 1px solid lightgray;
-  }
-
-  input[type="radio"] {
-    margin-right: 0.5rem;
-  }
-
-  textarea {
-    padding: 0.3rem 0.5rem;
-    border-radius: 0.3rem;
-    border: 1px solid lightgray;
-  }
 }
 
 .exit-survey {
+  em {
+    color: blue;
+  }
+  .bold {
+    font-weight: bold;
+  }
   .form-line {
     display: flex;
 
-    & > div {
+    .bp3-form-group {
       margin-right: 30px;
-
       textarea {
         min-height: 90px;
-        width: 100%;
       }
     }
 
     &.thirds {
-      & > div {
+      .bp3-form-group {
         flex-grow: 0;
         flex-shrink: 0;
-        flex-basis: 30%;
+        flex-basis: 50%;
 
-        label {
+        .bp3-label {
           min-height: 36px;
         }
       }
     }
   }
-}
-
-.finished {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }

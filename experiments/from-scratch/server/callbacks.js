@@ -15,7 +15,10 @@ Empirica.onGameStart(game => {
 
 // onRoundStart is triggered before each round starts, and before onStageStart.
 // It receives the same options as onGameStart, and the round that is starting.
-Empirica.onRoundStart((game, round) => {});
+Empirica.onRoundStart((game, round) => {
+	round.set("chat", []); 
+
+});
 
 // onStageStart is triggered before each stage starts.
 // It receives the same options as onRoundStart, and the stage that is starting.
