@@ -66,10 +66,10 @@ class ListenerTask extends React.Component {
 		const { round, stage, game } = this.props;
 		const gameTextsLanguage = game.treatment.gameLanguage
 
-		const chatLog = round.get('chatLog') || new Array();
+		const chatLog = round.get('chat'); // || new Array();
 		// Filter on only speaker messages
 
-		const filteredLog = chatLog.filter((msg) => msg.player.name === gameTexts[gameTextsLanguage].PLAYERPROFILE_director);
+		const filteredLog = chatLog.filter((msg) => msg.name === gameTexts[gameTextsLanguage].PLAYERPROFILE_director);
 		if (round.get('stage') === "selection" & filteredLog.length === 0) {
 			AlertToaster.show({
        		 message:

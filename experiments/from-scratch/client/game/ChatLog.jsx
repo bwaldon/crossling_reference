@@ -22,9 +22,11 @@ export default class ChatLog extends React.Component {
         playerId: player._id,
         target: round.get('target'),
         role: player.get('role'),
+        name: player.get('name'),
         type: "message",
         time: Date.now()
       });
+      console.log(round.get("chat"));
       this.setState({ comment: "" });
     }
   };
