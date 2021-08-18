@@ -1,15 +1,14 @@
 import React from "react";
 import Image from "../game/Image.jsx";
-
+import { gameText } from "../gameText.js";
 import { Centered } from "meteor/empirica:core";
-import { instructionsStepOneTexts } from './instructionTexts.js';
 
 export default class InstructionStepOne extends React.Component {
 
   render() {
     const { hasPrev, hasNext, onPrev, onNext, game } = this.props;
     
-    var instructionLanguage = game.treatment.gameLanguage;
+    const gameTextInLanguage = gameText.filter(row => row.language == game.treatment.gameLanguage)[0]
 
     const objects = ["ambulance", "big_grey_rock", "lily", "pretzels"];
 
@@ -20,14 +19,14 @@ export default class InstructionStepOne extends React.Component {
     return (
       <Centered>
         <div className="instructions">
-          <h1> {instructionsStepOneTexts[instructionLanguage].instructionTitle} </h1>
+          <h1> {gameTextInLanguage.instruction1Title} </h1>
 
           <p>
-            <b> {instructionsStepOneTexts[instructionLanguage].instructionLine1} </b>
+            <b> {gameTextInLanguage.instruction1Line1} </b>
           </p>
 
           <p>
-          {instructionsStepOneTexts[instructionLanguage].instructionLine2}
+          {gameTextInLanguage.instruction1Line2}
           </p>
 
          
@@ -40,16 +39,16 @@ export default class InstructionStepOne extends React.Component {
           </center>
 
            <p>
-           {instructionsStepOneTexts[instructionLanguage].instructionLine3}
+           {gameTextInLanguage.instruction1Line3}
           </p>
 
           <center>
           <p>
             <button type="button" onClick={onPrev} disabled={!hasPrev}>
-            {instructionsStepOneTexts[instructionLanguage].previousButtonText}
+            {gameTextInLanguage.previousButtonText}
             </button>
             <button type="button" onClick={onNext} disabled={!hasNext}>
-            {instructionsStepOneTexts[instructionLanguage].nextButtonText}
+            {gameTextInLanguage.nextButtonText}
             </button>
           </p>
 

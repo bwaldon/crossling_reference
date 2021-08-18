@@ -12,7 +12,7 @@ import customBreadCrumb from './game/Breadcrumb.jsx'
 import customGameLobby from './game/GameLobby.jsx'
 import customWaitingForServer from "./game/WaitingForServer.jsx"
 import Quiz from "./intro/Quiz";
-import newPlayer from "./intro/newPlayer.jsx"
+import newPlayer_hardcode from "./intro/newPlayer_hardcode.jsx"
 
 // Set the About Component you want to use for the About dialog (optional).
 // Empirica.about(About);
@@ -25,13 +25,14 @@ import newPlayer from "./intro/newPlayer.jsx"
 // Introduction pages to show before they play the game (optional).
 // At this point they have been assigned a treatment. You can return
 // different instruction steps depending on the assigned treatment.
+
 Empirica.introSteps((game, treatment) => {
-  const steps = [Consent, InstructionStepOne];
-  if (treatment.playerCount > 1) {
-    steps.push(InstructionStepTwo,InstructionStepThree);
-  }
-  steps.push(Quiz);
-  return steps;
+	const steps = [Consent, InstructionStepOne];
+	if (treatment.playerCount > 1) {
+		steps.push(InstructionStepTwo,InstructionStepThree);
+	}
+	steps.push(Quiz);
+	return steps;
 });
 
 // The Round component containing the game UI logic.
@@ -39,7 +40,7 @@ Empirica.introSteps((game, treatment) => {
 // See client/game/Round.jsx to learn more.
 Empirica.round(Round);
 
-Empirica.newPlayer(newPlayer);
+Empirica.newPlayer(newPlayer_hardcode);
 
 // End of Game pages. These may vary depending on player or game information.
 // For example we can show the score of the user, or we can show them a

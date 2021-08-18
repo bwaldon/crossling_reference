@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Centered } from "meteor/empirica:core";
-import {newPlayerTexts, newPlayerLanguage} from './newPlayerTexts.js'
 export default class PlayerId extends Component {
     state = { id: "" };
     
@@ -22,15 +21,18 @@ export default class PlayerId extends Component {
     render() {
         const { id } = this.state;
 
-
         return (
             <Centered>
                 <div className="new-player">
                     <form onSubmit={this.handleSubmit}>
-                        <h1>{newPlayerTexts[newPlayerLanguage].IdentificationHeaderText}</h1>
+                       {/* <h1>{newPlayerTexts[newPlayerLanguage].IdentificationHeaderText}</h1>*/}
 
                         <p>
-                        {newPlayerTexts[newPlayerLanguage].EnterProlificIDPrompt}
+                        Please enter your Prolific ID:
+                        </p>
+
+                        <p>
+                        请输入你的Prolific账号:
                         </p>
 
                         <input
@@ -47,7 +49,7 @@ export default class PlayerId extends Component {
 
 
                         <p style={{marginTop:"1cm"}} className="button-holder">
-                            <button type="submit">{newPlayerTexts[newPlayerLanguage].SubmitButtonText}</button>
+                            <button type="submit">Submit</button>
                         </p>
 
                     </form>

@@ -1,29 +1,29 @@
 import React from "react";
 import ReactHtmlParser from 'react-html-parser';
+import { gameText } from "../gameText.js";
 import { Centered } from "meteor/empirica:core";
-import { instructionsStepTwoTexts } from "./instructionTexts.js"
 
 export default class InstructionStepTwo extends React.Component {
   render() {
     const { hasPrev, hasNext, onNext, onPrev, game } = this.props;
 
-    var instructionLanguage = game.treatment.gameLanguage;
+    const gameTextInLanguage = gameText.filter(row => row.language == game.treatment.gameLanguage)[0]
 
     return (
       <Centered>
         <div className="instructions">
-          <h1> {instructionsStepTwoTexts[instructionLanguage].instructionTitle} </h1>
+          <h1> {gameTextInLanguage.instructionTitle} </h1>
 
           <p>
-          {ReactHtmlParser(instructionsStepTwoTexts[instructionLanguage].instructionLine1)}
+          {ReactHtmlParser(gameTextInLanguage.instruction2Line1)}
           </p>
 
           <p>
-          {instructionsStepTwoTexts[instructionLanguage].instructionLine2}
+          {gameTextInLanguage.instruction2Line2}
           </p>
 
           <p>
-          {instructionsStepTwoTexts[instructionLanguage].instructionLine3}
+          {gameTextInLanguage.instruction2Line3}
           </p>
 
           <center>
@@ -31,18 +31,18 @@ export default class InstructionStepTwo extends React.Component {
           </center>
 
           <p>
-          {instructionsStepTwoTexts[instructionLanguage].instructionLine4}
+          {gameTextInLanguage.instruction2Line4}
           </p>
           <p>
-          {instructionsStepTwoTexts[instructionLanguage].instructionLine5}
+          {gameTextInLanguage.instruction2Line5}
           </p>
 
           <p>
             <button type="button" onClick={onPrev} disabled={!hasPrev}>
-            {instructionsStepTwoTexts[instructionLanguage].previousButtonText}
+            {gameTextInLanguage.previousButtonText}
             </button>
             <button type="button" onClick={onNext} disabled={!hasNext}>
-            {instructionsStepTwoTexts[instructionLanguage].nextButtonText}
+            {gameTextInLanguage.nextButtonText}
             </button>
           </p>
         </div>

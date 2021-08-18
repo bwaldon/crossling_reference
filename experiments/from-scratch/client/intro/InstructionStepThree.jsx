@@ -1,23 +1,24 @@
 import React from "react";
 import ReactHtmlParser from 'react-html-parser';
+import { gameText } from "../gameText.js";
 import { Centered } from "meteor/empirica:core";
-import { instructionsStepThreeTexts } from './instructionTexts.js'
 
 export default class InstructionStepTwo extends React.Component {
   render() {
     const { hasPrev, hasNext, onNext, onPrev, game } = this.props;
-    var instructionLanguage = game.treatment.gameLanguage;
+    const gameTextInLanguage = gameText.filter(row => row.language == game.treatment.gameLanguage)[0]
+
     return (
       <Centered>
         <div className="instructions">
-          <h1> {instructionsStepThreeTexts[instructionLanguage].instructionTitle} </h1>
+          <h1> {gameTextInLanguage.instruction3Title} </h1>
 
            <p> 
-           {ReactHtmlParser(instructionsStepThreeTexts[instructionLanguage].instructionLine1)}
+           {ReactHtmlParser(gameTextInLanguage.instruction3Line1)}
           </p>
 
           <p>
-          {instructionsStepThreeTexts[instructionLanguage].instructionLine2}
+          {gameTextInLanguage.instruction3Line2}
           </p>
 
           <center>
@@ -25,15 +26,15 @@ export default class InstructionStepTwo extends React.Component {
           </center>
 
           <p>
-          {instructionsStepThreeTexts[instructionLanguage].instructionLine3}
+          {gameTextInLanguage.instruction3Line3}
          </p>
 
           <p>
             <button type="button" onClick={onPrev} disabled={!hasPrev}>
-            {instructionsStepThreeTexts[instructionLanguage].previousButtonText}
+            {gameTextInLanguage.previousButtonText}
             </button>
             <button type="button" onClick={onNext} disabled={!hasNext}>
-            {instructionsStepThreeTexts[instructionLanguage].nextButtonText}
+            {gameTextInLanguage.nextButtonText}
             </button>
           </p>
         </div>

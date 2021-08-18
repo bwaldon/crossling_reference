@@ -1,41 +1,38 @@
 import React from "react";
-import { introTexts, introLanguage } from "./introTexts.js";
-
-// import { Centered, ConsentButton } from "meteor/empirica:core";
+import { gameText } from "../gameText.js";
 import { Centered } from "meteor/empirica:core";
 
 export default class Consent extends React.Component {
   render() {
     const { game, onNext, hasNext } = this.props;
-    // console.log(this.props)
-    var introLanguage = game.treatment.gameLanguage;
+    const gameTextInLanguage = gameText.filter(row => row.language == game.treatment.gameLanguage)[0]
 
     return (
       <Centered>
         <div className="consent">
           <img src = "stanfordlogo.png" width = "300px" />  <img src = "alpslogo.png" width = "300px" />
-          <h1> { introTexts[introLanguage].ConsentFormTitle } </h1>
-          <p> { introTexts[introLanguage].ConsentFormLine1 }
+          <h1> { gameTextInLanguage.ConsentFormTitle } </h1>
+          <p> { gameTextInLanguage.ConsentFormLine1 }
           </p>
 
-          <p> { introTexts[introLanguage].ConsentFormLine2 }
+          <p> { gameTextInLanguage.ConsentFormLine2 }
           </p>
 
-          <p> { introTexts[introLanguage].ConsentFormLine3 }
+          <p> { gameTextInLanguage.ConsentFormLine3 }
           </p>
 
-          <p> { introTexts[introLanguage].ConsentFormLine4 }
+          <p> { gameTextInLanguage.ConsentFormLine4 }
           </p>
 
-          <p> { introTexts[introLanguage].ConsentFormLine5 }
+          <p> { gameTextInLanguage.ConsentFormLine5 }
           </p>
 
-          <p> { introTexts[introLanguage].ConsentFormLine6 }
+          <p> { gameTextInLanguage.ConsentFormLine6 }
           </p>
 
           <br />
           <button type="button" onClick={onNext}> 
-          {introTexts[introLanguage].AgreeButtonText}
+          {gameTextInLanguage.AgreeButtonText}
           </button>
         </div>
       </Centered>
