@@ -1,21 +1,20 @@
 import { NonIdealState } from "@blueprintjs/core";
 import { IconNames } from "@blueprintjs/icons";
+import { gameText } from "../gameText.js";
 import PropTypes from "prop-types";
 import React from "react";
-
-import {gameTexts} from './gameTexts.js'
 
 export default class GameLobby extends React.PureComponent {
   renderPlayersReady = () => {
     const { game, treatment } = this.props;
-    const gameTextsLanguage = game.treatment.gameLanguage
+    const gameTextInLanguage = gameText.filter(row => row.language == game.treatment.gameLanguage)[0]
     
     return (
       <div className="game-lobby">
         <NonIdealState
           icon={IconNames.PLAY}
-          title={gameTexts[gameTextsLanguage].GAMELOBBY_loading}
-          description={gameTexts[gameTextsLanguage].GAMELOBBY_loadingDescription}
+          title={gameTextInLanguage.GAMELOBBY_loading}
+          description={gameTextInLanguage.GAMELOBBY_loadingDescription}
         />
       </div>
     );
@@ -23,7 +22,7 @@ export default class GameLobby extends React.PureComponent {
 
   render() {
     const { game, treatment } = this.props;
-    const gameTextsLanguage = game.treatment.gameLanguage
+    const gameTextInLanguage = gameText.filter(row => row.language == game.treatment.gameLanguage)[0]
 
     const total = treatment.factor("playerCount").value;
     const existing = game.playerIds.length;
@@ -36,12 +35,12 @@ export default class GameLobby extends React.PureComponent {
       <div className="game-lobby">
         <NonIdealState
           icon={IconNames.TIME}
-          title={gameTexts[gameTextsLanguage].GAMELOBBY_lobbyHeader}
+          title={gameTextInLanguage.GAMELOBBY_lobbyHeader}
           description={
             <>
-              <p>{gameTexts[gameTextsLanguage].GAMELOBBY_waitForPlayers}</p>
+              <p>{gameTextInLanguage.GAMELOBBY_waitForPlayers}</p>
               <p>
-                {existing} / {total} {gameTexts[gameTextsLanguage].GAMELOBBY_numPlayersReady}
+                {existing} / {total} {gameTextInLanguage.GAMELOBBY_numPlayersReady}
               </p>
             </>
           }

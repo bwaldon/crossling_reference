@@ -1,10 +1,10 @@
 import React from "react";
-import {chatTexts} from './chatTexts.js';
+import { gameText } from "../gameText.js";
 
 export default class Author extends React.Component {
   render() {
     const { gameLanguage, player, self, type } = this.props;
-    const you = chatTexts[gameLanguage].You;
+    const you = gameText.filter(row => row.language == gameLanguage)[0].You
 
     if(type == "message") {
       return (

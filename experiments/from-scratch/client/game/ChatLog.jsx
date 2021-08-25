@@ -1,6 +1,6 @@
 import React from "react";
 import Author from "./Author";
-import {chatTexts} from "./chatTexts.js";
+import { gameText } from "../gameText.js";
 
 export default class ChatLog extends React.Component {
   state = { comment: "" };
@@ -35,7 +35,7 @@ export default class ChatLog extends React.Component {
     const { comment } = this.state;
     const { messages, player, game } = this.props;
 
-    const gameLanguage = game.treatment.gameLanguage;
+    const gameTextInLanguage = gameText.filter(row => row.language == game.treatment.gameLanguage)[0]
 
     return (
       <div className="chat bp3-card">
@@ -46,13 +46,13 @@ export default class ChatLog extends React.Component {
               name="comment"
               type="text"
               className="bp3-input bp3-fill"
-              placeholder={chatTexts[gameLanguage].EnterChatMessagePlaceholder}
+              placeholder={gameTextInLanguage.EnterChatMessagePlaceholder}
               value={comment}
               onChange={this.handleChange}
               autoComplete="off"
             />
             <button type="submit" className="bp3-button bp3-intent-primary">
-              {chatTexts[gameLanguage].SendButtonText}
+              {gameTextInLanguage.SendButtonText}
             </button>
           </div>
         </form>
@@ -75,12 +75,12 @@ class Messages extends React.Component {
   render() {
     const { messages, player, game } = this.props;
 
+    const gameTextInLanguage = gameText.filter(row => row.language == game.treatment.gameLanguage)[0]
+
     return (
       <div className="messages" ref={el => (this.messagesEl = el)}>
-        {messages.length === 0 && game.treatment.chatEnabled ? (
-          <div className="empty">{chatTexts[gameLanguage].NoMessagesYet}</div>
-        ) : messages.length === 0 && !(game.treatment.chatEnabled) ? (
-          <div className="empty">No actions taken yet...</div>
+        {messages.length === 0 ? (
+          <div className="empty">{gameTextInLanguage.NoMessagesYet}</div>
         ) : null}
         {messages.map((message, i) => (
            <Message gameLanguage={game.treatment.gameLanguage} key={i} message={message} self={message.subject ? player._id === message.subject._id : null} />   

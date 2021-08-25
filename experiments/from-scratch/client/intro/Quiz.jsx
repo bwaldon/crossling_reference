@@ -218,7 +218,7 @@ export default class GroupQuiz extends React.Component {
               {gameTextInLanguage.BackToInstructionsText}
             </button>
             <button type="submit" className="bp3-button bp3-intent-primary">
-              {gameTextInLanguage.SubmitButtonText}
+              {gameTextInLanguage.StartGameText}
               <span className="bp3-icon-standard bp3-icon-key-enter bp3-align-right" />
             </button>
           </form>
