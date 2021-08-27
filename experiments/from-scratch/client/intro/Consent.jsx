@@ -11,23 +11,23 @@ export default class Consent extends React.Component {
       <Centered>
         <div className="consent">
           <img src = "stanfordlogo.png" width = "300px" />  <img src = "alpslogo.png" width = "300px" />
-          <h1> { gameTextInLanguage.ConsentFormTitle } </h1>
-          <p> { gameTextInLanguage.ConsentFormLine1 }
+          <h1> { gameTextInLanguage.CONSENT_Title } </h1>
+          <p> { gameTextInLanguage.CONSENT_Line1 }
           </p>
 
-          <p> { gameTextInLanguage.ConsentFormLine2 }
+          <p> { gameTextInLanguage.CONSENT_Line2 }
           </p>
 
-          <p> { gameTextInLanguage.ConsentFormLine3 }
+          <p> { gameTextInLanguage.CONSENT_Line3 }
           </p>
 
-          <p> { gameTextInLanguage.ConsentFormLine4 }
+          <p> { gameTextInLanguage.CONSENT_Line4 }
           </p>
 
-          <p> { gameTextInLanguage.ConsentFormLine5 }
+          <p> { gameTextInLanguage.CONSENT_Line5 }
           </p>
 
-          <p> { gameTextInLanguage.ConsentFormLine6 }
+          <p> { gameTextInLanguage.CONSENT_Line6 }
           </p>
 
           <br />
@@ -35,7 +35,7 @@ export default class Consent extends React.Component {
           <center>
           <p>
           <button type="button" onClick={onNext}> 
-          {gameTextInLanguage.AgreeButtonText}
+          {gameTextInLanguage.CONSENT_AgreeButtonText}
           </button>
           </p>
           </center>

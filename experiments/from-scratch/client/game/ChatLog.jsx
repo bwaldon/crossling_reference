@@ -46,13 +46,13 @@ export default class ChatLog extends React.Component {
               name="comment"
               type="text"
               className="bp3-input bp3-fill"
-              placeholder={gameTextInLanguage.EnterChatMessagePlaceholder}
+              placeholder={gameTextInLanguage.CHAT_EnterChatMessagePlaceholder}
               value={comment}
               onChange={this.handleChange}
               autoComplete="off"
             />
             <button type="submit" className="bp3-button bp3-intent-primary">
-              {gameTextInLanguage.SendButtonText}
+              {gameTextInLanguage.CHAT_SendButtonText}
             </button>
           </div>
         </form>
@@ -80,7 +80,7 @@ class Messages extends React.Component {
     return (
       <div className="messages" ref={el => (this.messagesEl = el)}>
         {messages.length === 0 ? (
-          <div className="empty">{gameTextInLanguage.NoMessagesYet}</div>
+          <div className="empty">{gameTextInLanguage.CHAT_NoMessagesYet}</div>
         ) : null}
         {messages.map((message, i) => (
            <Message gameLanguage={game.treatment.gameLanguage} key={i} message={message} self={message.subject ? player._id === message.subject._id : null} />   

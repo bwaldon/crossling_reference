@@ -4,7 +4,7 @@ import { gameText } from "../gameText.js";
 export default class Author extends React.Component {
   render() {
     const { gameLanguage, player, self, type } = this.props;
-    const you = gameText.filter(row => row.language == gameLanguage)[0].You
+    const you = gameText.filter(row => row.language == gameLanguage)[0].CHAT_You
 
     if(type == "message") {
       return (

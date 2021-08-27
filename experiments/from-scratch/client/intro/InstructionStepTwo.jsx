@@ -15,15 +15,15 @@ export default class InstructionStepTwo extends React.Component {
           <h1> {gameTextInLanguage.instructionTitle} </h1>
 
           <p>
-          {ReactHtmlParser(gameTextInLanguage.instruction2Line1)}
+          {ReactHtmlParser(gameTextInLanguage.INSTRUCTION2_Line1)}
           </p>
 
           <p>
-          {gameTextInLanguage.instruction2Line2}
+          {gameTextInLanguage.INSTRUCTION2_Line2}
           </p>
 
           <p>
-          {gameTextInLanguage.instruction2Line3}
+          {gameTextInLanguage.INSTRUCTION2_Line3}
           </p>
 
           <center>
@@ -31,19 +31,19 @@ export default class InstructionStepTwo extends React.Component {
           </center>
 
           <p>
-          {gameTextInLanguage.instruction2Line4}
+          {gameTextInLanguage.INSTRUCTION2_Line4}
           </p>
           <p>
-          {gameTextInLanguage.instruction2Line5}
+          {gameTextInLanguage.INSTRUCTION2_Line5}
           </p>
 
           <center>
             <p>
             <button type="button" onClick={onPrev} disabled={!hasPrev}>
-            {gameTextInLanguage.previousButtonText}
+            {gameTextInLanguage.INSTRUCTION_previousButtonText}
             </button>
             <button type="button" onClick={onNext} disabled={!hasNext}>
-            {gameTextInLanguage.nextButtonText}
+            {gameTextInLanguage.INSTRUCTION_nextButtonText}
             </button>
             </p>
           </center>
