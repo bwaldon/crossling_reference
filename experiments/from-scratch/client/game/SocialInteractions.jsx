@@ -1,6 +1,8 @@
 import React from "react";
 import EventLog from "./EventLog";
 import ChatLog from "./ChatLog";
+import ReactHtmlParser from 'react-html-parser';
+import { gameText } from "../gameText.js";
 
 export default class SocialInteractions extends React.Component {
   renderPlayer(player, self = false) {
@@ -21,6 +23,7 @@ export default class SocialInteractions extends React.Component {
 
   render() {
     const { game, round, stage, player } = this.props;
+    const gameTextInLanguage = gameText.filter(row => row.language == game.treatment.gameLanguage)[0]
 
     const otherPlayers = _.reject(game.players, p => p._id === player._id);
     const messages = round.get("chat")
@@ -32,7 +35,9 @@ export default class SocialInteractions extends React.Component {
 
     return (
       <div className="social-interactions">    
-        
+        <center>
+        {player.get('role') === "listener" ? ReactHtmlParser("<b>" + gameTextInLanguage.PLAYERPROFILE_youAreGuesser + "</b>") : ReactHtmlParser("<b>" + gameTextInLanguage.PLAYERPROFILE_youAreDirector + "</b>")}
+        </center>
         <ChatLog messages={messages} game={game} round={round} stage={stage} player={player} />
 
       </div>
