@@ -29,6 +29,7 @@ export default class InstructionStepTwo extends React.Component {
           {gameTextInLanguage.instruction3Line3}
          </p>
 
+         <center>
           <p>
             <button type="button" onClick={onPrev} disabled={!hasPrev}>
             {gameTextInLanguage.previousButtonText}
@@ -37,6 +38,7 @@ export default class InstructionStepTwo extends React.Component {
             {gameTextInLanguage.nextButtonText}
             </button>
           </p>
+          </center>
         </div>
       </Centered>
     );

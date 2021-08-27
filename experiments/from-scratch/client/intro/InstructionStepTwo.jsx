@@ -37,14 +37,16 @@ export default class InstructionStepTwo extends React.Component {
           {gameTextInLanguage.instruction2Line5}
           </p>
 
-          <p>
+          <center>
+            <p>
             <button type="button" onClick={onPrev} disabled={!hasPrev}>
             {gameTextInLanguage.previousButtonText}
             </button>
             <button type="button" onClick={onNext} disabled={!hasNext}>
             {gameTextInLanguage.nextButtonText}
             </button>
-          </p>
+            </p>
+          </center>
         </div>
       </Centered>
     );

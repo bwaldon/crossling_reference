@@ -31,9 +31,14 @@ export default class Consent extends React.Component {
           </p>
 
           <br />
+
+          <center>
+          <p>
           <button type="button" onClick={onNext}> 
           {gameTextInLanguage.AgreeButtonText}
           </button>
+          </p>
+          </center>
         </div>
       </Centered>
     );
