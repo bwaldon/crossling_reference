@@ -22,7 +22,7 @@ export default class InstructionStepTwo extends React.Component {
           </p>
 
           <center>
-          <img src = "guessersample.png" width = "650px" />
+          <img src = {"sampleScreens/" + game.treatment.gameLanguage + "/guessersample.png"} width = "650px" />
           </center>
 
           <p>
