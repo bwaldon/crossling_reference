@@ -87,10 +87,10 @@ utterances_sp_postnom_cs <- c("START pin red STOP", "START pin blue STOP",
 
 # COMMANDS
 
-cmd_eng = 'incrementalUtteranceSpeaker("START small blue pin STOP", "smallblue", model, params, semantics(params))'
-cmd_sp_split = 'incrementalUtteranceSpeaker("START small pin blue STOP", "smallblue", model, params, semantics(params))'
-cmd_sp_conj = 'incrementalUtteranceSpeaker("START pin blue small STOP", "smallblue", model, params, semantics(params)) + incrementalUtteranceSpeaker("START pin small blue STOP", "smallblue", model, params, semantics(params))'
-cmd_sp_postnom = 'incrementalUtteranceSpeaker("START pin blue small STOP", "smallblue", model, params, semantics(params))'
+cmd_eng = 'incrementalUtteranceSpeaker("START small blue pin STOP", "smallblue", model, params, semantics)'
+cmd_sp_split = 'incrementalUtteranceSpeaker("START small pin blue STOP", "smallblue", model, params, semantics)'
+cmd_sp_conj = 'incrementalUtteranceSpeaker("START pin blue small STOP", "smallblue", model, params, semantics) + incrementalUtteranceSpeaker("START pin small blue STOP", "smallblue", model, params, semantics)'
+cmd_sp_postnom = 'incrementalUtteranceSpeaker("START pin blue small STOP", "smallblue", model, params, semantics)'
 
 # VALDF FOR SCIL PAPER
 
@@ -266,8 +266,8 @@ incalpha <- 7
 sizeCost <- 0.1
 colorCost <- 0.1
 
-cmd_eng_global <- 'Math.exp(globalUtteranceSpeaker("smallblue", model, params, semantics(params)).score("START small blue pin STOP"))'
-cmd_sp_postnom_global <- 'Math.exp(globalUtteranceSpeaker("smallblue", model, params, semantics(params)).score("START pin blue small STOP"))'
+cmd_eng_global <- 'Math.exp(globalUtteranceSpeaker("smallblue", model, params, semantics).score("START small blue pin STOP"))'
+cmd_sp_postnom_global <- 'Math.exp(globalUtteranceSpeaker("smallblue", model, params, semantics).score("START pin blue small STOP"))'
 
 cmd_eng_inc <- cmd_eng
 cmd_sp_postnom_inc <- cmd_sp_postnom
@@ -350,55 +350,55 @@ cincrsaGraph + theme(legend.position = "bottom")
 # CI-RSA ENGLISH (SS SCENE)
 
 runModel('V8', engine, modelAndSemantics, 
-         'wordSpeaker(["START"], "smallblue", model, params, semantics(params))', states_ss, utterances_eng_ss, incalpha, sizeNoiseVal = 0.8, colorNoiseVal = 0.95, 
+         'wordSpeaker(["START"], "smallblue", model, params, semantics)', states_ss, utterances_eng_ss, incalpha, sizeNoiseVal = 0.8, colorNoiseVal = 0.95, 
                     colorCost = colorCost, sizeCost = sizeCost, nounCost = 0)
 
 runModel('V8', engine, modelAndSemantics, 
-         'wordSpeaker(["START","small"], "smallblue", model, params, semantics(params))', states_ss, utterances_eng_ss, incalpha, sizeNoiseVal = 0.8, colorNoiseVal = 0.95, 
+         'wordSpeaker(["START","small"], "smallblue", model, params, semantics)', states_ss, utterances_eng_ss, incalpha, sizeNoiseVal = 0.8, colorNoiseVal = 0.95, 
          colorCost = colorCost, sizeCost = sizeCost, nounCost = 0)
 
 runModel('V8', engine, modelAndSemantics, 
-         'wordSpeaker(["START","big"], "smallblue", model, params, semantics(params))', states_ss, utterances_eng_ss, incalpha, sizeNoiseVal = 0.8, colorNoiseVal = 0.95, 
+         'wordSpeaker(["START","big"], "smallblue", model, params, semantics)', states_ss, utterances_eng_ss, incalpha, sizeNoiseVal = 0.8, colorNoiseVal = 0.95, 
          colorCost = colorCost, sizeCost = sizeCost, nounCost = 0)
 
 # CI-RSA SPANISH (CS SCENE)
 
 runModel('V8', engine, modelAndSemantics, 
-         'wordSpeaker(["START","pin"], "smallblue", model, params, semantics(params))', states_cs, utterances_sp_postnom_cs, incalpha, sizeNoiseVal = 0.8, colorNoiseVal = 0.95, 
+         'wordSpeaker(["START","pin"], "smallblue", model, params, semantics)', states_cs, utterances_sp_postnom_cs, incalpha, sizeNoiseVal = 0.8, colorNoiseVal = 0.95, 
          colorCost = colorCost, sizeCost = sizeCost, nounCost = 0)
 
 runModel('V8', engine, modelAndSemantics, 
-         'wordSpeaker(["START","pin","blue"], "smallblue", model, params, semantics(params))', states_cs, utterances_sp_postnom_cs, incalpha, sizeNoiseVal = 0.8, colorNoiseVal = 0.95, 
+         'wordSpeaker(["START","pin","blue"], "smallblue", model, params, semantics)', states_cs, utterances_sp_postnom_cs, incalpha, sizeNoiseVal = 0.8, colorNoiseVal = 0.95, 
          colorCost = colorCost, sizeCost = sizeCost, nounCost = 0)
 
 runModel('V8', engine, modelAndSemantics, 
-         'wordSpeaker(["START","pin","red"], "smallblue", model, params, semantics(params))', states_cs, utterances_sp_postnom_cs, incalpha, sizeNoiseVal = 0.8, colorNoiseVal = 0.95, 
+         'wordSpeaker(["START","pin","red"], "smallblue", model, params, semantics)', states_cs, utterances_sp_postnom_cs, incalpha, sizeNoiseVal = 0.8, colorNoiseVal = 0.95, 
          colorCost = colorCost, sizeCost = sizeCost, nounCost = 0)
 
 # I-RSA ENGLISH (SS SCENE)
 
 runModel('V8', engine, modelAndSemantics, 
-         'wordSpeaker(["START"], "smallblue", model, params, semantics(params))', states_ss, utterances_eng_ss, incalpha, sizeNoiseVal = 1, colorNoiseVal = 1, 
+         'wordSpeaker(["START"], "smallblue", model, params, semantics)', states_ss, utterances_eng_ss, incalpha, sizeNoiseVal = 1, colorNoiseVal = 1, 
          colorCost = colorCost, sizeCost = sizeCost, nounCost = 0)
 
 runModel('V8', engine, modelAndSemantics, 
-         'wordSpeaker(["START","small"], "smallblue", model, params, semantics(params))', states_ss, utterances_eng_ss, incalpha, sizeNoiseVal = 1, colorNoiseVal = 1, 
+         'wordSpeaker(["START","small"], "smallblue", model, params, semantics)', states_ss, utterances_eng_ss, incalpha, sizeNoiseVal = 1, colorNoiseVal = 1, 
          colorCost = colorCost, sizeCost = sizeCost, nounCost = 0)
 
 runModel('V8', engine, modelAndSemantics, 
-         'wordSpeaker(["START","big"], "smallblue", model, params, semantics(params))', states_ss, utterances_eng_ss, incalpha, sizeNoiseVal = 1, colorNoiseVal = 1, 
+         'wordSpeaker(["START","big"], "smallblue", model, params, semantics)', states_ss, utterances_eng_ss, incalpha, sizeNoiseVal = 1, colorNoiseVal = 1, 
          colorCost = colorCost, sizeCost = sizeCost, nounCost = 0)
 
 # I-RSA SPANISH (CS SCENE)
 
 runModel('V8', engine, modelAndSemantics, 
-         'wordSpeaker(["START","pin"], "smallblue", model, params, semantics(params))', states_cs, utterances_sp_postnom_cs, incalpha, sizeNoiseVal = 1, colorNoiseVal = 1, 
+         'wordSpeaker(["START","pin"], "smallblue", model, params, semantics)', states_cs, utterances_sp_postnom_cs, incalpha, sizeNoiseVal = 1, colorNoiseVal = 1, 
          colorCost = colorCost, sizeCost = sizeCost, nounCost = 0)
 
 runModel('V8', engine, modelAndSemantics, 
-         'wordSpeaker(["START","pin","blue"], "smallblue", model, params, semantics(params))', states_cs, utterances_sp_postnom_cs, incalpha, sizeNoiseVal = 1, colorNoiseVal = 1, 
+         'wordSpeaker(["START","pin","blue"], "smallblue", model, params, semantics)', states_cs, utterances_sp_postnom_cs, incalpha, sizeNoiseVal = 1, colorNoiseVal = 1, 
          colorCost = colorCost, sizeCost = sizeCost, nounCost = 0)
 
 runModel('V8', engine, modelAndSemantics, 
-         'wordSpeaker(["START","pin","red"], "smallblue", model, params, semantics(params))', states_cs, utterances_sp_postnom_cs, incalpha, sizeNoiseVal = 1, colorNoiseVal = 1, 
+         'wordSpeaker(["START","pin","red"], "smallblue", model, params, semantics)', states_cs, utterances_sp_postnom_cs, incalpha, sizeNoiseVal = 1, colorNoiseVal = 1, 
          colorCost = colorCost, sizeCost = sizeCost, nounCost = 0)

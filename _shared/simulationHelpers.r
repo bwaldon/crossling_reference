@@ -9,6 +9,8 @@ runModel <- function(backend, engine, modelAndSemantics, cmd, states, utterances
     colorCost : %f,
     nounCost : %f
   }
+  
+var semantics = semantics(params)
     
 var model = extend(model(params), \n {states : %s, utterances : %s}) 
                  ", alpha, sizeNoiseVal, colorNoiseVal, sizeCost, colorCost, nounCost, toJSON(states), toJSON(utterances))

@@ -35,7 +35,7 @@ cg_alpha = 1 # (ALREADY A PARAMETER DEFAULT FOR 'runModel' command)
 ### STRING MEANINGS
 
 cg_stringMeanings <- expand.grid(state = cg_states, utterance = cg_utterances) %>%
-  mutate(command = sprintf('stringMeanings("%s", "%s", model, semantics(params))',
+  mutate(command = sprintf('stringMeanings("%s", "%s", model, semantics)',
                            utterance, state))
 
 cg_stringMeanings$value <- 0
@@ -48,7 +48,7 @@ for(i in 1:nrow(cg_stringMeanings)) {
 ### GLOBAL LITERAL LISTENER
 
 L0_UTT_probs <- expand.grid(state = cg_states, utterance = cg_utterances) %>%
-  mutate(command = sprintf('Math.exp(globalLiteralListener("%s", model, params, semantics(params)).score("%s"))',
+  mutate(command = sprintf('Math.exp(globalLiteralListener("%s", model, params, semantics).score("%s"))',
                            utterance, state))
 
 L0_UTT_probs$probability <- 0
@@ -61,7 +61,7 @@ for(i in 1:nrow(L0_UTT_probs)) {
 ### GLOBAL UTTERANCE-LEVEL PREDICTIONS
 
 S1_UTT_GP_probs <- expand.grid(state = cg_states, utterance = cg_utterances) %>%
-  mutate(command = sprintf('Math.exp(globalUtteranceSpeaker("%s", model, params, semantics(params)).score("%s"))',
+  mutate(command = sprintf('Math.exp(globalUtteranceSpeaker("%s", model, params, semantics).score("%s"))',
                            state, utterance))
 
 S1_UTT_GP_probs$probability <- 0
@@ -74,7 +74,7 @@ for(i in 1:nrow(S1_UTT_GP_probs)) {
 ### INCREMENTAL UTTERANCE-LEVEL PREDICTIONS
 
 S1_UTT_IP_probs <- expand.grid(state = cg_states, utterance = cg_utterances) %>%
-  mutate(command = sprintf('incrementalUtteranceSpeaker("%s", "%s",  model, params, semantics(params))',
+  mutate(command = sprintf('incrementalUtteranceSpeaker("%s", "%s",  model, params, semantics)',
                            utterance, state))
 
 S1_UTT_IP_probs$probability <- 0
@@ -86,31 +86,31 @@ for(i in 1:nrow(S1_UTT_IP_probs)) {
 
 ### INCREMENTAL RSA SPEAKER PREDICTIONS
 
-S1_WORD_START_R1_cmd <- 'wordSpeaker(["START"], "R1", model, params, semantics(params))'
+S1_WORD_START_R1_cmd <- 'wordSpeaker(["START"], "R1", model, params, semantics)'
 S1_WORD_START_R1 <- runModel('V8', engine, cg_modelAndSemantics, S1_WORD_START_R1_cmd, cg_states, cg_utterances, cg_alpha, cg_sizeNoise, cg_colorNoise)
 
-S1_WORD_RED_R1_cmd <- 'wordSpeaker(["START", "red"], "R1", model, params, semantics(params))'
+S1_WORD_RED_R1_cmd <- 'wordSpeaker(["START", "red"], "R1", model, params, semantics)'
 S1_WORD_RED_R1 <- runModel('V8', engine, cg_modelAndSemantics, S1_WORD_RED_R1_cmd, cg_states, cg_utterances, cg_alpha, cg_sizeNoise, cg_colorNoise)
 
-S1_WORD_DRESS_R1_cmd <- 'wordSpeaker(["START", "dress"], "R1", model, params, semantics(params))'
+S1_WORD_DRESS_R1_cmd <- 'wordSpeaker(["START", "dress"], "R1", model, params, semantics)'
 S1_WORD_DRESS_R1 <- runModel('V8', engine, cg_modelAndSemantics, S1_WORD_DRESS_R1_cmd, cg_states, cg_utterances, cg_alpha, cg_sizeNoise, cg_colorNoise)
 
-S1_WORD_START_R2_cmd <- 'wordSpeaker(["START"], "R2", model, params, semantics(params))'
+S1_WORD_START_R2_cmd <- 'wordSpeaker(["START"], "R2", model, params, semantics)'
 S1_WORD_START_R2 <- runModel('V8', engine, cg_modelAndSemantics, S1_WORD_START_R2_cmd, cg_states, cg_utterances, cg_alpha, cg_sizeNoise, cg_colorNoise)
 
-S1_WORD_RED_R2_cmd <- 'wordSpeaker(["START", "red"], "R2", model, params, semantics(params))'
+S1_WORD_RED_R2_cmd <- 'wordSpeaker(["START", "red"], "R2", model, params, semantics)'
 S1_WORD_RED_R2 <- runModel('V8', engine, cg_modelAndSemantics, S1_WORD_RED_R2_cmd, cg_states, cg_utterances, cg_alpha, cg_sizeNoise, cg_colorNoise)
 
-S1_WORD_DRESS_R2_cmd <- 'wordSpeaker(["START", "dress"], "R2", model, params, semantics(params))'
+S1_WORD_DRESS_R2_cmd <- 'wordSpeaker(["START", "dress"], "R2", model, params, semantics)'
 S1_WORD_DRESS_R2 <- runModel('V8', engine, cg_modelAndSemantics, S1_WORD_DRESS_R2_cmd, cg_states, cg_utterances, cg_alpha, cg_sizeNoise, cg_colorNoise)
 
-S1_WORD_START_R3_cmd <- 'wordSpeaker(["START"], "R3", model, params, semantics(params))'
+S1_WORD_START_R3_cmd <- 'wordSpeaker(["START"], "R3", model, params, semantics)'
 S1_WORD_START_R3 <- runModel('V8', engine, cg_modelAndSemantics, S1_WORD_START_R3_cmd, cg_states, cg_utterances, cg_alpha, cg_sizeNoise, cg_colorNoise)
 
-S1_WORD_RED_R3_cmd <- 'wordSpeaker(["START", "red"], "R3", model, params, semantics(params))'
+S1_WORD_RED_R3_cmd <- 'wordSpeaker(["START", "red"], "R3", model, params, semantics)'
 S1_WORD_RED_R3 <- runModel('V8', engine, cg_modelAndSemantics, S1_WORD_RED_R3_cmd, cg_states, cg_utterances, cg_alpha, cg_sizeNoise, cg_colorNoise)
 
-S1_WORD_DRESS_R3_cmd <- 'wordSpeaker(["START", "dress"], "R3", model, params, semantics(params))'
+S1_WORD_DRESS_R3_cmd <- 'wordSpeaker(["START", "dress"], "R3", model, params, semantics)'
 S1_WORD_DRESS_R3 <- runModel('V8', engine, cg_modelAndSemantics, S1_WORD_DRESS_R3_cmd, cg_states, cg_utterances, cg_alpha, cg_sizeNoise, cg_colorNoise)
 
 ## DEGEN ET AL. FORESTDB
@@ -125,7 +125,7 @@ d_alpha = 30
 ### CONTINUOUS-SEMANTICS SPEAKER UTTERANCE PREDICTIONS
 
 S1_C_probs <- expand.grid(state = d_states, utterance = d_utterances) %>%
-  mutate(command = sprintf('Math.exp(globalUtteranceSpeaker("%s", model, params, semantics(params)).score("%s"))',
+  mutate(command = sprintf('Math.exp(globalUtteranceSpeaker("%s", model, params, semantics).score("%s"))',
                            state, utterance))
 
 S1_C_probs$probability <- 0
