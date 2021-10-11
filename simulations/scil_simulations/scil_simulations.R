@@ -7,15 +7,19 @@ library(jsonlite)
 
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 
-# faster than RWebPPL for this particular task, only because you get a persistent js 
-# environment in the background (rather than re-initializing js over and over agin)
-source("../_shared/runwppl_fromweb.R")
+# RUN WEBPPL FROM A V8 JS ENGINE (FASTER WHEN YOU NEED TO RUN MANY, MANY CALLS TO WEBPPL)
 
-engine <- read_file("../_shared/engine.txt")
+source("../../_shared/V8wppl.R")
 
-# MODEL SEMANTICS (SHARED ACROSS SIMULATIONS)
+# SOURCE SOME HELPER SCRIPTS
 
-modelAndSemantics <- read_file("models/pins/modelAndSemantics.txt")
+source("../../_shared/simulationHelpers.R")
+
+# SOURCE THE ENGINE
+
+engine <- read_file("../../_shared/engine.txt")
+
+modelAndSemantics <- read_file("../models/pins/modelAndSemantics.txt")
 
 # STATES
 
@@ -88,31 +92,6 @@ cmd_sp_split = 'incrementalUtteranceSpeaker("START small pin blue STOP", "smallb
 cmd_sp_conj = 'incrementalUtteranceSpeaker("START pin blue small STOP", "smallblue", model, params, semantics(params)) + incrementalUtteranceSpeaker("START pin small blue STOP", "smallblue", model, params, semantics(params))'
 cmd_sp_postnom = 'incrementalUtteranceSpeaker("START pin blue small STOP", "smallblue", model, params, semantics(params))'
 
-# GET WEBPPL OUTPUT
-
-modelout <- function(cmd, alpha, sizeNoiseVal, colorNoiseVal, sizeCost, colorCost, nounCost, states, utterances) {
-  
-  preamble <- sprintf("var params = {
-    alpha : %f,
-    sizeNoiseVal : %f,
-    colorNoiseVal : %f,
-    sizeCost : %f,
-    colorCost : %f,
-    nounCost : %f
-    } \n
-    var model = extend(model(params), \n {states : %s, utterances : %s}) 
-                 ", alpha, sizeNoiseVal, colorNoiseVal, sizeCost, colorCost, nounCost, toJSON(states), toJSON(utterances))
-  
-  code <- paste(modelAndSemantics, preamble, engine, cmd, sep = "\n")
-  
-  return(evalWebPPL_V8(code))
-  
-}
-
-# modelout(cmd_eng, 1, 1, 1, 0, 0, 0, states_ss, utterances_eng_ss)
-
-# write_file(m_test, "test_model.txt")
-
 # VALDF FOR SCIL PAPER
 
 valDF <- data.frame("colorNoise" = c(0.5,0.6,0.7,0.8,0.9,1), "sizeNoise" = c(0.5,0.6,0.7,0.8,0.9,1), "alpha" = c(1,2.5,15,10,20,30))
@@ -132,9 +111,8 @@ valDF <- valDF %>%
 
 english_sizeOvermodification <- valDF %>%
   group_by(colorNoise, sizeNoise, alpha) %>%
-  mutate(speakerProb = modelout(cmd_eng, alpha, sizeNoise = sizeNoise, colorNoise = colorNoise, 
-                                colorCost = 0.1, sizeCost = 0.1, nounCost = 0,
-                                states_cs, utterances_eng_cs))
+  mutate(speakerProb = runModel('V8', engine, modelAndSemantics, cmd_eng, states_cs, utterances_eng_cs, alpha, sizeNoiseVal = sizeNoise, colorNoiseVal = colorNoise, 
+                                colorCost = 0.1, sizeCost = 0.1, nounCost = 0))
 
 english_sizeOvermodification$language <- "English"
 
@@ -142,9 +120,8 @@ english_sizeOvermodification$language <- "English"
 
 sp_split_sizeOvermodification <- valDF %>%
   group_by(colorNoise, sizeNoise, alpha) %>%
-  mutate(speakerProb = modelout(cmd_sp_split, alpha, sizeNoise = sizeNoise, colorNoise = colorNoise, 
-                                colorCost = 0.1, sizeCost = 0.1, nounCost = 0,
-                                states_cs, utterances_sp_split_cs))
+  mutate(speakerProb = runModel('V8', engine, modelAndSemantics, cmd_sp_split, states_cs, utterances_sp_split_cs, alpha, sizeNoiseVal = sizeNoise, colorNoiseVal = colorNoise, 
+                                colorCost = 0.1, sizeCost = 0.1, nounCost = 0))
 
 sp_split_sizeOvermodification$language <- "Spanish\n-split"
 
@@ -152,9 +129,8 @@ sp_split_sizeOvermodification$language <- "Spanish\n-split"
 
 sp_conj_sizeOvermodification <- valDF %>%
   group_by(colorNoise, sizeNoise, alpha) %>%
-  mutate(speakerProb = modelout(cmd_sp_conj, alpha, sizeNoise = sizeNoise, colorNoise = colorNoise, 
-                                colorCost = 0.1, sizeCost = 0.1, nounCost = 0,
-                                states_cs, utterances_sp_conj_cs))
+  mutate(speakerProb = runModel('V8', engine, modelAndSemantics, cmd_sp_conj, states_cs, utterances_sp_conj_cs, alpha, sizeNoiseVal = sizeNoise, colorNoiseVal = colorNoise, 
+                                colorCost = 0.1, sizeCost = 0.1, nounCost = 0))
 
 sp_conj_sizeOvermodification$language <- "Spanish\n-postnom.\n-conj."
 
@@ -162,9 +138,8 @@ sp_conj_sizeOvermodification$language <- "Spanish\n-postnom.\n-conj."
 
 sp_postnom_sizeOvermodification <- valDF %>%
   group_by(colorNoise, sizeNoise, alpha) %>%
-  mutate(speakerProb = modelout(cmd_sp_postnom, alpha, sizeNoise = sizeNoise, colorNoise = colorNoise, 
-                                colorCost = 0.1, sizeCost = 0.1, nounCost = 0,
-                                states_cs, utterances_sp_postnom_cs))
+  mutate(speakerProb = runModel('V8', engine, modelAndSemantics, cmd_sp_postnom, states_cs, utterances_sp_postnom_cs, alpha, sizeNoiseVal = sizeNoise, colorNoiseVal = colorNoise, 
+                                colorCost = 0.1, sizeCost = 0.1, nounCost = 0))
 
 sp_postnom_sizeOvermodification$language <- "Spanish\n-postnom."
 
@@ -176,9 +151,8 @@ sizeOvermodification <- rbind(english_sizeOvermodification, rbind(sp_split_sizeO
 
 english_colorOvermodification <- valDF %>%
   group_by(colorNoise, sizeNoise, alpha) %>%
-  mutate(speakerProb = modelout(cmd_eng, alpha, sizeNoise = sizeNoise, colorNoise = colorNoise, 
-                                colorCost = 0.1, sizeCost = 0.1, nounCost = 0,
-                                states_ss, utterances_eng_ss))
+  mutate(speakerProb = runModel('V8', engine, modelAndSemantics, cmd_eng, states_ss, utterances_eng_ss, alpha, sizeNoiseVal = sizeNoise, colorNoiseVal = colorNoise, 
+                                colorCost = 0.1, sizeCost = 0.1, nounCost = 0))
 
 english_colorOvermodification$language <- "English"
 
@@ -186,9 +160,8 @@ english_colorOvermodification$language <- "English"
 
 sp_split_colorOvermodification <- valDF %>%
   group_by(colorNoise, sizeNoise, alpha) %>%
-  mutate(speakerProb = modelout(cmd_sp_split, alpha, sizeNoise = sizeNoise, colorNoise = colorNoise, 
-                                colorCost = 0.1, sizeCost = 0.1, nounCost = 0,
-                                states_ss, utterances_sp_split_ss))
+  mutate(speakerProb = runModel('V8', engine, modelAndSemantics, cmd_sp_split, states_ss, utterances_sp_split_ss, alpha, sizeNoiseVal = sizeNoise, colorNoiseVal = colorNoise, 
+                                colorCost = 0.1, sizeCost = 0.1, nounCost = 0))
 
 sp_split_colorOvermodification$language <- "Spanish\n-split"
 
@@ -196,9 +169,8 @@ sp_split_colorOvermodification$language <- "Spanish\n-split"
 
 sp_conj_colorOvermodification <- valDF %>%
   group_by(colorNoise, sizeNoise, alpha) %>%
-  mutate(speakerProb = modelout(cmd_sp_conj, alpha, sizeNoise = sizeNoise, colorNoise = colorNoise, 
-                                colorCost = 0.1, sizeCost = 0.1, nounCost = 0,
-                                states_ss, utterances_sp_conj_ss))
+  mutate(speakerProb = runModel('V8', engine, modelAndSemantics, cmd_sp_conj, states_ss, utterances_sp_conj_ss, alpha, sizeNoiseVal = sizeNoise, colorNoiseVal = colorNoise, 
+                                colorCost = 0.1, sizeCost = 0.1, nounCost = 0))
 
 sp_conj_colorOvermodification$language <- "Spanish\n-postnom.\n-conj."
 
@@ -206,9 +178,8 @@ sp_conj_colorOvermodification$language <- "Spanish\n-postnom.\n-conj."
 
 sp_postnom_colorOvermodification <- valDF %>%
   group_by(colorNoise, sizeNoise, alpha) %>%
-  mutate(speakerProb = modelout(cmd_sp_postnom, alpha, sizeNoise = sizeNoise, colorNoise = colorNoise, 
-                                colorCost = 0.1, sizeCost = 0.1, nounCost = 0,
-                                states_ss, utterances_sp_postnom_ss))
+  mutate(speakerProb = runModel('V8', engine, modelAndSemantics, cmd_sp_postnom, states_ss, utterances_sp_postnom_ss, alpha, sizeNoiseVal = sizeNoise, colorNoiseVal = colorNoise, 
+                                colorCost = 0.1, sizeCost = 0.1, nounCost = 0))
 
 sp_postnom_colorOvermodification$language <- "Spanish\n-postnom."
 
@@ -303,81 +274,65 @@ cmd_sp_postnom_inc <- cmd_sp_postnom
 
 ## standard RSA
 
-v1 <- as.numeric(modelout(cmd_eng_global, globalalpha, sizeNoise = 1, colorNoise = 1, 
-                          colorCost = 0, sizeCost = 0, nounCost = 0,
-                          states_ss, utterances_eng_ss))
+v1 <- as.numeric(runModel('V8', engine, modelAndSemantics, cmd_eng_global, states_ss, utterances_eng_ss, globalalpha, sizeNoiseVal = 1, colorNoiseVal = 1, 
+                          colorCost = 0, sizeCost = 0, nounCost = 0))
   
-v2 <- as.numeric(modelout(cmd_eng_global, globalalpha, sizeNoise = 1, colorNoise = 1, 
-                          colorCost = 0, sizeCost = 0, nounCost = 0,
-                          states_cs, utterances_eng_cs))
+v2 <- as.numeric(runModel('V8', engine, modelAndSemantics, cmd_eng_global, states_cs, utterances_eng_cs, globalalpha, sizeNoiseVal = 1, colorNoiseVal = 1, 
+                          colorCost = 0, sizeCost = 0, nounCost = 0))
 
-v3 <- as.numeric(modelout(cmd_sp_postnom_global, globalalpha, sizeNoise = 1, colorNoise = 1, 
-                          colorCost = 0, sizeCost = 0, nounCost = 0,
-                          states_ss, utterances_sp_postnom_ss))
+v3 <- as.numeric(runModel('V8', engine, modelAndSemantics, cmd_sp_postnom_global, states_ss, utterances_sp_postnom_ss, globalalpha, sizeNoiseVal = 1, colorNoiseVal = 1, 
+                          colorCost = 0, sizeCost = 0, nounCost = 0))
 
-v4 <- as.numeric(modelout(cmd_sp_postnom_global, globalalpha, sizeNoise = 1, colorNoise = 1, 
-                          colorCost = 0, sizeCost = 0, nounCost = 0,
-                          states_cs, utterances_sp_postnom_cs))
+v4 <- as.numeric(runModel('V8', engine, modelAndSemantics, cmd_sp_postnom_global,states_cs, utterances_sp_postnom_cs, globalalpha, sizeNoiseVal = 1, colorNoiseVal = 1, 
+                          colorCost = 0, sizeCost = 0, nounCost = 0))
 
 standardGraph <- graph(c(v1,v2,v3,v4)) + ggtitle("Standard RSA")
 
 ## continuous RSA
 
-v1 <- as.numeric(modelout(cmd_eng_global, globalalpha, sizeNoise = 0.8, colorNoise = 0.95, 
-                          colorCost = 0, sizeCost = 0, nounCost = 0,
-                          states_ss, utterances_eng_ss))
+v1 <- as.numeric(runModel('V8', engine, modelAndSemantics, cmd_eng_global, states_ss, utterances_eng_ss, globalalpha, sizeNoiseVal = 0.8, colorNoiseVal = 0.95, 
+                          colorCost = 0, sizeCost = 0, nounCost = 0))
 
-v2 <- as.numeric(modelout(cmd_eng_global, globalalpha, sizeNoise = 0.8, colorNoise = 0.95, 
-                          colorCost = 0, sizeCost = 0, nounCost = 0,
-                          states_cs, utterances_eng_cs))
+v2 <- as.numeric(runModel('V8', engine, modelAndSemantics, cmd_eng_global, states_cs, utterances_eng_cs, globalalpha, sizeNoiseVal = 0.8, colorNoiseVal = 0.95, 
+                          colorCost = 0, sizeCost = 0, nounCost = 0))
 
-v3 <- as.numeric(modelout(cmd_sp_postnom_global, globalalpha, sizeNoise = 0.8, colorNoise = 0.95, 
-                          colorCost = 0, sizeCost = 0, nounCost = 0,
-                          states_ss, utterances_sp_postnom_ss))
+v3 <- as.numeric(runModel('V8', engine, modelAndSemantics, cmd_sp_postnom_global, states_ss, utterances_sp_postnom_ss, globalalpha, sizeNoiseVal = 0.8, colorNoiseVal = 0.95, 
+                          colorCost = 0, sizeCost = 0, nounCost = 0))
 
-v4 <- as.numeric(modelout(cmd_sp_postnom_global, globalalpha, sizeNoise = 0.8, colorNoise = 0.95, 
-                          colorCost = 0, sizeCost = 0, nounCost = 0,
-                          states_cs, utterances_sp_postnom_cs))
+v4 <- as.numeric(runModel('V8', engine, modelAndSemantics, cmd_sp_postnom_global, states_cs, utterances_sp_postnom_cs, globalalpha, sizeNoiseVal = 0.8, colorNoiseVal = 0.95, 
+                          colorCost = 0, sizeCost = 0, nounCost = 0))
 
 crsaGraph <- graph(c(v1,v2,v3,v4)) + ggtitle("Continuous RSA")
 
 ## inc RSA
 
-v1 <- as.numeric(modelout(cmd_eng_inc, incalpha, sizeNoise = 1, colorNoise = 1, 
-                          colorCost = colorCost, sizeCost = sizeCost, nounCost = 0,
-                          states_ss, utterances_eng_ss))
+v1 <- as.numeric(runModel('V8', engine, modelAndSemantics, cmd_eng_inc, states_ss, utterances_eng_ss, incalpha, sizeNoiseVal = 1, colorNoiseVal = 1, 
+                          colorCost = colorCost, sizeCost = sizeCost, nounCost = 0))
 
-v2 <- as.numeric(modelout(cmd_eng_inc, incalpha, sizeNoise = 1, colorNoise = 1, 
-                          colorCost = colorCost, sizeCost = sizeCost, nounCost = 0,
-                          states_cs, utterances_eng_cs))
+v2 <- as.numeric(runModel('V8', engine, modelAndSemantics, cmd_eng_inc, states_cs, utterances_eng_cs, incalpha, sizeNoiseVal = 1, colorNoiseVal = 1, 
+                          colorCost = colorCost, sizeCost = sizeCost, nounCost = 0))
 
-v3 <- as.numeric(modelout(cmd_sp_postnom_inc, incalpha, sizeNoise = 1, colorNoise = 1, 
-                          colorCost = colorCost, sizeCost = sizeCost, nounCost = 0,
-                          states_ss, utterances_sp_postnom_ss))
+v3 <- as.numeric(runModel('V8', engine, modelAndSemantics, cmd_sp_postnom_inc, states_ss, utterances_sp_postnom_ss, incalpha, sizeNoiseVal = 1, colorNoiseVal = 1, 
+                          colorCost = colorCost, sizeCost = sizeCost, nounCost = 0))
 
-v4 <- as.numeric(modelout(cmd_sp_postnom_inc, incalpha, sizeNoise = 1, colorNoise = 1, 
-                          colorCost = colorCost, sizeCost = sizeCost, nounCost = 0,
-                          states_cs, utterances_sp_postnom_cs))
+v4 <- as.numeric(runModel('V8', engine, modelAndSemantics, cmd_sp_postnom_inc, states_cs, utterances_sp_postnom_cs, incalpha, sizeNoiseVal = 1, colorNoiseVal = 1, 
+                          colorCost = colorCost, sizeCost = sizeCost, nounCost = 0))
 
 incGraph <- graph(c(v1,v2,v3,v4)) + ggtitle("Incremental RSA")
 
 ## continuous inc RSA
 
-v1 <- as.numeric(modelout(cmd_eng_inc, incalpha, sizeNoise = 0.8, colorNoise = 0.95, 
-                          colorCost = colorCost, sizeCost = sizeCost, nounCost = 0,
-                          states_ss, utterances_eng_ss))
+v1 <- as.numeric(runModel('V8', engine, modelAndSemantics, cmd_eng_inc, states_ss, utterances_eng_ss, incalpha, sizeNoiseVal = 0.8, colorNoiseVal = 0.95, 
+                          colorCost = colorCost, sizeCost = sizeCost, nounCost = 0))
 
-v2 <- as.numeric(modelout(cmd_eng_inc, incalpha, sizeNoise = 0.8, colorNoise = 0.95,  
-                          colorCost = colorCost, sizeCost = sizeCost, nounCost = 0,
-                          states_cs, utterances_eng_cs))
+v2 <- as.numeric(runModel('V8', engine, modelAndSemantics, cmd_eng_inc, states_cs, utterances_eng_cs, incalpha, sizeNoiseVal = 0.8, colorNoiseVal = 0.95,  
+                          colorCost = colorCost, sizeCost = sizeCost, nounCost = 0))
 
-v3 <- as.numeric(modelout(cmd_sp_postnom_inc, incalpha, sizeNoise = 0.8, colorNoise = 0.95,  
-                          colorCost = colorCost, sizeCost = sizeCost, nounCost = 0,
-                          states_ss, utterances_sp_postnom_ss))
+v3 <- as.numeric(runModel('V8', engine, modelAndSemantics, cmd_sp_postnom_inc, states_ss, utterances_sp_postnom_ss, incalpha, sizeNoiseVal = 0.8, colorNoiseVal = 0.95,  
+                          colorCost = colorCost, sizeCost = sizeCost, nounCost = 0))
 
-v4 <- as.numeric(modelout(cmd_sp_postnom_inc, incalpha, sizeNoise = 0.8, colorNoise = 0.95, 
-                          colorCost = colorCost, sizeCost = sizeCost, nounCost = 0,
-                          states_cs, utterances_sp_postnom_cs))
+v4 <- as.numeric(runModel('V8', engine, modelAndSemantics, cmd_sp_postnom_inc, states_cs, utterances_sp_postnom_cs, incalpha, sizeNoiseVal = 0.8, colorNoiseVal = 0.95, 
+                          colorCost = colorCost, sizeCost = sizeCost, nounCost = 0))
 
 cincrsaGraph <- graph(c(v1,v2,v3,v4)) + ggtitle("Continuous\n-incremental RSA") 
 
@@ -390,60 +345,60 @@ ggsave(g, file = "modelcomparison_poster.pdf", height = 4, width = 4, units = "i
 
 cincrsaGraph + theme(legend.position = "bottom")
 
-# TRANSITIONAL PROBABILITIES (FIGURE 3)
+# TRANSITIONAL PROBABILITIES (FIGURE 3 OF PAPER)
 
 # CI-RSA ENGLISH (SS SCENE)
 
-modelout('wordSpeaker(["START"], "smallblue", model, params, semantics(params))', incalpha, sizeNoise = 0.8, colorNoise = 0.95, 
-                    colorCost = colorCost, sizeCost = sizeCost, nounCost = 0,
-                    states_ss, utterances_eng_ss)
+runModel('V8', engine, modelAndSemantics, 
+         'wordSpeaker(["START"], "smallblue", model, params, semantics(params))', states_ss, utterances_eng_ss, incalpha, sizeNoiseVal = 0.8, colorNoiseVal = 0.95, 
+                    colorCost = colorCost, sizeCost = sizeCost, nounCost = 0)
 
-modelout('wordSpeaker(["START","small"], "smallblue", model, params, semantics(params))', incalpha, sizeNoise = 0.8, colorNoise = 0.95, 
-         colorCost = colorCost, sizeCost = sizeCost, nounCost = 0,
-         states_ss, utterances_eng_ss)
+runModel('V8', engine, modelAndSemantics, 
+         'wordSpeaker(["START","small"], "smallblue", model, params, semantics(params))', states_ss, utterances_eng_ss, incalpha, sizeNoiseVal = 0.8, colorNoiseVal = 0.95, 
+         colorCost = colorCost, sizeCost = sizeCost, nounCost = 0)
 
-modelout('wordSpeaker(["START","big"], "smallblue", model, params, semantics(params))', incalpha, sizeNoise = 0.8, colorNoise = 0.95, 
-         colorCost = colorCost, sizeCost = sizeCost, nounCost = 0,
-         states_ss, utterances_eng_ss)
+runModel('V8', engine, modelAndSemantics, 
+         'wordSpeaker(["START","big"], "smallblue", model, params, semantics(params))', states_ss, utterances_eng_ss, incalpha, sizeNoiseVal = 0.8, colorNoiseVal = 0.95, 
+         colorCost = colorCost, sizeCost = sizeCost, nounCost = 0)
 
 # CI-RSA SPANISH (CS SCENE)
 
-modelout('wordSpeaker(["START","pin"], "smallblue", model, params, semantics(params))', incalpha, sizeNoise = 0.8, colorNoise = 0.95, 
-         colorCost = colorCost, sizeCost = sizeCost, nounCost = 0,
-         states_cs, utterances_sp_postnom_cs)
+runModel('V8', engine, modelAndSemantics, 
+         'wordSpeaker(["START","pin"], "smallblue", model, params, semantics(params))', states_cs, utterances_sp_postnom_cs, incalpha, sizeNoiseVal = 0.8, colorNoiseVal = 0.95, 
+         colorCost = colorCost, sizeCost = sizeCost, nounCost = 0)
 
-modelout('wordSpeaker(["START","pin","blue"], "smallblue", model, params, semantics(params))', incalpha, sizeNoise = 0.8, colorNoise = 0.95, 
-         colorCost = colorCost, sizeCost = sizeCost, nounCost = 0,
-         states_cs, utterances_sp_postnom_cs)
+runModel('V8', engine, modelAndSemantics, 
+         'wordSpeaker(["START","pin","blue"], "smallblue", model, params, semantics(params))', states_cs, utterances_sp_postnom_cs, incalpha, sizeNoiseVal = 0.8, colorNoiseVal = 0.95, 
+         colorCost = colorCost, sizeCost = sizeCost, nounCost = 0)
 
-modelout('wordSpeaker(["START","pin","red"], "smallblue", model, params, semantics(params))', incalpha, sizeNoise = 0.8, colorNoise = 0.95, 
-         colorCost = colorCost, sizeCost = sizeCost, nounCost = 0,
-         states_cs, utterances_sp_postnom_cs)
+runModel('V8', engine, modelAndSemantics, 
+         'wordSpeaker(["START","pin","red"], "smallblue", model, params, semantics(params))', states_cs, utterances_sp_postnom_cs, incalpha, sizeNoiseVal = 0.8, colorNoiseVal = 0.95, 
+         colorCost = colorCost, sizeCost = sizeCost, nounCost = 0)
 
 # I-RSA ENGLISH (SS SCENE)
 
-modelout('wordSpeaker(["START"], "smallblue", model, params, semantics(params))', incalpha, sizeNoise = 1, colorNoise = 1, 
-         colorCost = colorCost, sizeCost = sizeCost, nounCost = 0,
-         states_ss, utterances_eng_ss)
+runModel('V8', engine, modelAndSemantics, 
+         'wordSpeaker(["START"], "smallblue", model, params, semantics(params))', states_ss, utterances_eng_ss, incalpha, sizeNoiseVal = 1, colorNoiseVal = 1, 
+         colorCost = colorCost, sizeCost = sizeCost, nounCost = 0)
 
-modelout('wordSpeaker(["START","small"], "smallblue", model, params, semantics(params))', incalpha, sizeNoise = 1, colorNoise = 1, 
-         colorCost = colorCost, sizeCost = sizeCost, nounCost = 0,
-         states_ss, utterances_eng_ss)
+runModel('V8', engine, modelAndSemantics, 
+         'wordSpeaker(["START","small"], "smallblue", model, params, semantics(params))', states_ss, utterances_eng_ss, incalpha, sizeNoiseVal = 1, colorNoiseVal = 1, 
+         colorCost = colorCost, sizeCost = sizeCost, nounCost = 0)
 
-modelout('wordSpeaker(["START","big"], "smallblue", model, params, semantics(params))', incalpha, sizeNoise = 1, colorNoise = 1, 
-         colorCost = colorCost, sizeCost = sizeCost, nounCost = 0,
-         states_ss, utterances_eng_ss)
+runModel('V8', engine, modelAndSemantics, 
+         'wordSpeaker(["START","big"], "smallblue", model, params, semantics(params))', states_ss, utterances_eng_ss, incalpha, sizeNoiseVal = 1, colorNoiseVal = 1, 
+         colorCost = colorCost, sizeCost = sizeCost, nounCost = 0)
 
 # I-RSA SPANISH (CS SCENE)
 
-modelout('wordSpeaker(["START","pin"], "smallblue", model, params, semantics(params))', incalpha, sizeNoise = 1, colorNoise = 1, 
-         colorCost = colorCost, sizeCost = sizeCost, nounCost = 0,
-         states_cs, utterances_sp_postnom_cs)
+runModel('V8', engine, modelAndSemantics, 
+         'wordSpeaker(["START","pin"], "smallblue", model, params, semantics(params))', states_cs, utterances_sp_postnom_cs, incalpha, sizeNoiseVal = 1, colorNoiseVal = 1, 
+         colorCost = colorCost, sizeCost = sizeCost, nounCost = 0)
 
-modelout('wordSpeaker(["START","pin","blue"], "smallblue", model, params, semantics(params))', incalpha, sizeNoise = 1, colorNoise = 1, 
-         colorCost = colorCost, sizeCost = sizeCost, nounCost = 0,
-         states_cs, utterances_sp_postnom_cs)
+runModel('V8', engine, modelAndSemantics, 
+         'wordSpeaker(["START","pin","blue"], "smallblue", model, params, semantics(params))', states_cs, utterances_sp_postnom_cs, incalpha, sizeNoiseVal = 1, colorNoiseVal = 1, 
+         colorCost = colorCost, sizeCost = sizeCost, nounCost = 0)
 
-modelout('wordSpeaker(["START","pin","red"], "smallblue", model, params, semantics(params))', incalpha, sizeNoise = 1, colorNoise = 1, 
-         colorCost = colorCost, sizeCost = sizeCost, nounCost = 0,
-         states_cs, utterances_sp_postnom_cs)
+runModel('V8', engine, modelAndSemantics, 
+         'wordSpeaker(["START","pin","red"], "smallblue", model, params, semantics(params))', states_cs, utterances_sp_postnom_cs, incalpha, sizeNoiseVal = 1, colorNoiseVal = 1, 
+         colorCost = colorCost, sizeCost = sizeCost, nounCost = 0)
