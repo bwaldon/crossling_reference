@@ -4,12 +4,12 @@ library(jsonlite)
 library(rwebppl)
 
 source("../_shared/BDA_dataprep.R")
-source("../_shared/wpplHelpers.R")
+source("../../_shared/inferenceHelpers.R")
 source("../_shared/BDA_vizhelpers.R")
 
 # PUT IN AN "UNCOLLAPSED" DATAFILE WITH DEGEN ET AL.'S FORMAT
 
-d_uncollapsed <- read_csv("../../data/Degen2020/data.csv")
+d_uncollapsed <- read_csv("../../data/Degen2020/bda_data.csv")
 
 # MAKE A TIBBLE: COLUMNS CONDITION, REFERENTS IN THAT CONDITION (STATES), ALTERNATIVES IN THAT CONDITION (UTTERANCES)
 
