@@ -1,7 +1,7 @@
 # runModel: a function for running speaker/listener models with fixed parameter values. 
 # backend: either 'V8' or 'rwebppl'. The former is typically faster for running numerous sequential calls to WebPPL.
 # engine: a string, typically the kernel of webppl code found under "_shared/engine.txt"
-# modelAndSemantics: a string-type chunk of webppl code, where a model and a word-level semantics are defined, each as functions of free parameter values. (See the repo for examples).
+# modelAndSemantics: a string-type chunk of webppl code, where a model of context and a word-level semantics are defined, each as functions of free parameter values. (See the repo for examples).
 # states: a vector of strings, each corresponding to a state.
 # utterances: a vector of strings, each corresponding to a complete utterance.
 
