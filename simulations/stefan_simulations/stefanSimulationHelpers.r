@@ -5,7 +5,9 @@
 # states: a vector of strings, each corresponding to a state.
 # utterances: a vector of strings, each corresponding to a complete utterance.
 
-runModel <- function(backend, engine, modelAndSemantics, cmd, states, utterances, alpha = 1, sizeNoiseVal = 1, colorNoiseVal = 1, genderNoiseVal = 1, nounNoiseVal = 1,
+runModel <- function(backend, engine, model, semantics, semanticHelperFunctions, cmd, states, allUtterances,
+                    alpha = 1, sizeNoiseVal = 1, colorNoiseVal = 1, 
+                     genderNoiseVal = 1, nounNoiseVal = 1,
                      sizeCost = 0, colorCost = 0, nounCost = 0) {
 
   preamble <- sprintf("var params = {
@@ -22,8 +24,8 @@ runModel <- function(backend, engine, modelAndSemantics, cmd, states, utterances
 var semantics = semantics(params)
     
 var model = extend(model(params), \n {states : %s, utterances : %s}) 
-                 ", alpha, sizeNoiseVal, colorNoiseVal, genderNoiseVal, nounNoiseVal, sizeCost, colorCost, nounCost, toJSON(states), toJSON(utterances))
-  code <- paste(modelAndSemantics, preamble, engine, cmd, sep = "\n")
+                 ", alpha, sizeNoiseVal, colorNoiseVal, genderNoiseVal, nounNoiseVal, sizeCost, colorCost, nounCost, states, allUtterances)
+  code <- paste(semantics, semanticHelperFunctions, model, preamble, engine, cmd, sep = "\n")
   
   write_file(code, "temp.js")
   

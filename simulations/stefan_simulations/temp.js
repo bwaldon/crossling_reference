@@ -1,28 +1,4 @@
-
-var semantics = function(params) {
-  return function(state) {
-    return {
-    red_masc: ["big_red_plate_masc"].includes(state)
-      ? params.colorNoiseVal : falseSemantics(params.colorNoiseVal, params.genderNoiseVal, ["big_red_plate_masc"], state),
-
-    blue_masc: ["big_blue_plate_masc", "small_blue_plate_masc"].includes(state)
-      ? params.colorNoiseVal : falseSemantics(params.colorNoiseVal, params.genderNoiseVal, ["big_blue_plate_masc", "small_blue_plate_masc"], state),
-
-    big_masc: ["big_red_plate_masc", "big_blue_plate_masc"].includes(state)
-      ? params.sizeNoiseVal : falseSemantics(params.sizeNoiseVal, params.genderNoiseVal, ["big_red_plate_masc", "big_blue_plate_masc"], state),
-
-    small_masc: ["small_blue_plate_masc"].includes(state)
-      ? params.sizeNoiseVal : falseSemantics(params.sizeNoiseVal, params.genderNoiseVal, ["small_blue_plate_masc"], state),
-
-    plate_masc: ["big_blue_plate_masc","big_red_plate_masc", "small_blue_plate_masc"].includes(state)
-      ? params.nounNoiseVal : falseSemantics(params.nounNoiseVal, params.genderNoiseVal, ["big_blue_plate_masc","big_red_plate_masc", "small_blue_plate_masc"], state),
-
-    STOP : 1,
-    START : 1
-  }
-  }
-}
-
+var semantics = function(params) { return function(state) { return { big_masc: ['big_blue_plate_masc','big_red_plate_masc'].includes(state) ? params.sizeNoiseVal : falseSemantics(params.sizeNoiseVal, params.genderNoiseVal, ['big_blue_plate_masc','big_red_plate_masc'], state),blue_masc: ['big_blue_plate_masc'].includes(state) ? params.colorNoiseVal : falseSemantics(params.colorNoiseVal, params.genderNoiseVal, ['big_blue_plate_masc'], state),plate_masc: ['big_blue_plate_masc','big_red_plate_masc'].includes(state) ? params.nounNoiseVal : falseSemantics(params.nounNoiseVal, params.genderNoiseVal, ['big_blue_plate_masc','big_red_plate_masc'], state),red_masc: ['big_red_plate_masc'].includes(state) ? params.colorNoiseVal : falseSemantics(params.colorNoiseVal, params.genderNoiseVal, ['big_red_plate_masc'], state),big_fem: ['big_red_cup_fem'].includes(state) ? params.sizeNoiseVal : falseSemantics(params.sizeNoiseVal, params.genderNoiseVal, ['big_red_cup_fem'], state),red_fem: ['big_red_cup_fem'].includes(state) ? params.colorNoiseVal : falseSemantics(params.colorNoiseVal, params.genderNoiseVal, ['big_red_cup_fem'], state),cup_fem: ['big_red_cup_fem'].includes(state) ? params.nounNoiseVal : falseSemantics(params.nounNoiseVal, params.genderNoiseVal, ['big_red_cup_fem'], state),STOP : 1, START : 1 } } }
 var recursivelySplitGenderAndWord = function(dictDefinition) {
   // split up first item into individual words
   var individualWords = dictDefinition[0].split("_");
@@ -75,34 +51,13 @@ var falseSemantics = function(adjNoise, genderNoise, dictDefinition, state) {
     }
   }
 }
-
-var model = function(params) {
-  return {
-    words : ['red_masc',
-    'blue_masc',
-    'big_masc',
-    'small_masc',
-    'plate_masc',
-    'STOP', 'START'],
-
-    wordCost: {
-      'red_masc' : params.colorCost,
-      'blue_masc' : params.colorCost,
-      'big_masc' : params.sizeCost,
-      'small_masc' : params.sizeCost,
-      'plate_masc' : params.nounCost,
-      'STOP'  : 0,
-      'START'  : 0
-    },
-  }
-}
-
+var model = function(params) {  return { words : ['big_masc','blue_masc','plate_masc','red_masc','big_fem','red_fem','cup_fem','STOP', 'START'], wordCost: {'big_masc' : params.sizeCost,'big_fem' : params.sizeCost,'blue_masc' : params.colorCost,'red_masc' : params.colorCost,'red_fem' : params.colorCost,'plate_masc' : params.nounCost,'cup_fem' : params.nounCost,'STOP'  : 0, 'START'  : 0 },}}
 var params = {
-    alpha : 30.000000,
-    sizeNoiseVal : 0.800000,
-    colorNoiseVal : 0.990000,
+    alpha : 1.000000,
+    sizeNoiseVal : 1.000000,
+    colorNoiseVal : 1.000000,
     genderNoiseVal : 1.000000,
-    nounNoiseVal : 0.900000,
+    nounNoiseVal : 1.000000,
     sizeCost : 0.000000,
     colorCost : 0.000000,
     nounCost : 0.000000
@@ -111,9 +66,9 @@ var params = {
 var semantics = semantics(params)
     
 var model = extend(model(params), 
- {states : ["big_blue_plate_masc","big_red_plate_masc","small_blue_plate_masc"], utterances : ["START big_masc STOP","START blue_masc STOP","START red_masc STOP","START small_masc STOP","START big_masc blue_masc STOP","START small_masc blue_masc STOP","START big_masc red_masc STOP"]}) 
+ {states : ['big_blue_plate_masc', 'big_red_plate_masc', 'big_red_cup_fem'], utterances : ['START big_masc STOP', 'START blue_masc STOP', 'START plate_masc STOP', 'START blue_masc plate_masc STOP', 'START big_masc plate_masc STOP', 'START big_masc blue_masc STOP', 'START big_masc blue_masc plate_masc STOP', 'START red_masc STOP', 'START red_masc plate_masc STOP', 'START big_masc red_masc STOP', 'START big_masc red_masc plate_masc STOP', 'START big_fem STOP', 'START red_fem STOP', 'START cup_fem STOP', 'START red_fem cup_fem STOP', 'START big_fem cup_fem STOP', 'START big_fem red_fem STOP', 'START big_fem red_fem cup_fem STOP']}) 
                  
-// safeDivide, getTransitions, licitTransitions: helper functions for incremental models
+// safeDivide, getTransitions, licitTransitions: helper functions for incremental models 
 
 var safeDivide = function(x , y){
   if(y == 0) {
@@ -135,7 +90,7 @@ var getTransitions = function(str) {
 }
 
 var licitTransitions = function(model) {
-  return _.uniq(_.flatten(map(function(x) {
+  return _.uniq(_.flatten(map(function(x) { 
   return getTransitions(x) }, model.utterances)))
 }
 
@@ -155,14 +110,14 @@ var stringMeanings = function (context, state, model, semantics) {
     return reduce(function(x, acc) { return meaning[x] * acc; }, 1, cSplit) }
 
 // stringSemantics: defined according to Cohn-Gordon et al. (2019), in prose on the bottom of page 83
-// outputs values on the interval [0,1]: a string s's semantic value at a world w
-// is the sum of semantic values of complete continuations of s true at w,
+// outputs values on the interval [0,1]: a string s's semantic value at a world w 
+// is the sum of semantic values of complete continuations of s true at w, 
 // divided by the total number of complete continuations of s:
 var stringSemantics = function(context, state, model, semantics) {
   var allContinuations = filter(function(x) {
     return x.startsWith(context)
   } , model.utterances)
-  var trueContinuations = reduce(function(x, acc) { return stringMeanings(x, state, model, semantics) + acc; },
+  var trueContinuations = reduce(function(x, acc) { return stringMeanings(x, state, model, semantics) + acc; }, 
                                  0, allContinuations)
   return safeDivide(trueContinuations,allContinuations.length)
 }
@@ -176,7 +131,7 @@ var globalLiteralListener =  function(utterance, model, params, semantics) {
       condition(meaning)
     } else {
       factor(meaning)
-    }
+    } 
     return state
   }
               )}
@@ -206,7 +161,7 @@ var wordSpeaker = function(context, state, model, params, semantics) {
     var word = wordPrior(model)
     var newContext = context.concat([word])
     // grammar constraint: linear order must be allowed in language
-    condition(licitTransitions(model).includes(newContext.join(" ")))
+    condition(licitTransitions(model).includes(newContext.join(" "))) 
     // note: condition basically goes away
     var result = (stringMeanings(context.join(" "),state,model,semantics) == 0) ? 1 : params.alpha * (incrementalLiteralListener(newContext.join(" "),model,semantics).score(state) - stringCost(newContext,model))
     factor(result)
@@ -228,11 +183,10 @@ var incrementalUtteranceSpeaker = cache(function(utt, state, model, params, sema
   var string = utt.split(" ")
     var indices = _.range(string.length)
     var probs = map(function(i) {
-        var context = string.slice(0,i)
-        //print(context)
-        return Math.exp(wordSpeaker(context,state,model,params,semantics).score(string[i]))
+        var context = string.slice(0,i) 
+        //print(context)       
+        return Math.exp(wordSpeaker(context,state,model,params,semantics).score(string[i]))  
     },indices)
     return reduce(function(x, acc) { return x * acc; }, 1, probs)
 }, 100000)
-
-globalUtteranceSpeaker("small_blue_plate_masc", model, params, semantics);
+incrementalUtteranceSpeaker('START big_fem red_fem cup_fem STOP', 'big_red_cup_fem', model, params, semantics)

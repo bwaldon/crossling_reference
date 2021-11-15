@@ -1,3 +1,4 @@
+install.packages('varhandle')
 library(tidyverse)
 library(grid)
 library(gridExtra)
@@ -5,50 +6,234 @@ library(cowplot)
 library(viridis)
 library(jsonlite)
 
+library('varhandle')
+
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 
 # RUN WEBPPL FROM A V8 JS ENGINE (FASTER WHEN YOU NEED TO RUN MANY, MANY CALLS TO WEBPPL)
-
 source("../../_shared/V8wppl.R")
 
 # SOURCE SOME HELPER SCRIPTS
 
+# contains runModel function that interacts with V8 engine and runs the code
 source("stefanSimulationHelpers.R")
 
-# SOURCE THE ENGINE
-
+# Source the engine
+# Engine = basic RSA model in webppl code (all the speaker and listener functions)
 engine <- read_file("../../_shared/engine.txt")
 
-modelAndSemantics <- read_file("stefanModels/stefanModelAndSemantics.txt")
+# load the functions that are required for the Serbo-Croatian semantics function to run
+semanticHelperFunctions <- read_file("stefanModels/stefanSemanticHelperFunctions.txt")
 
-# STATES
-states_main = c("big_blue_plate_masc", "big_red_plate_masc", "small_blue_plate_masc")
+# load in csv file with conditions to run
+scenariosToRun <- read.csv("stefanModels/stefanScenarios.csv", as.is = TRUE)
 
+# scenariosToRun <- lapply(scenariosToRun, as.character)
 
-# UTTERANCES: SIZE SUFFICIENT
-utterances_main <- c("START big_masc STOP",
-                     "START blue_masc STOP",
-                     "START red_masc STOP",
-                     "START small_masc STOP",
-                     "START big_masc blue_masc STOP",
-                     "START small_masc blue_masc STOP",
-                     "START big_masc red_masc STOP")
+params_test <- c(7, .8, 0.99, 1, 0.99, 0.1, 0.1, 0)
 
 
-# COMMANDS
-cmd_main = 'globalUtteranceSpeaker("small_blue_plate_masc", model, params, semantics);'
+# Function that takes in values from each row of the scneariosToRun csv file
+#   run the model on those values, and return the speaker probability
+# Input:
+#   States: list of states
+#   command: The type of model which should be run. Command is a string of one of the following types:
+#     globalbool = global utterance/vanilla model with boolean semantics
+#     globalcont = global utterance/vanilla model with continuous/noisy semantics
+#     incBool = incremental model with boolean semantics
+#     incCont = incremental model with continuous semantics
+#   target: target state
+#   utterance: a single utterance which applies to at least one state in the list of states
+#   model: string of JS code, model function which is needed in the RSA input with values pertaining to
+#     this scenario
+#   semantics: string of JS code, semantics function for Serbo-Croatian with values pertaining to this scenario
+#   parameters: 
+# Output: A single number representing speaker probability of producing the given utterance and target
+runModelWrapper <- function(states, commandType, command, target, utterance, allUtterances, model, semantics) {
+  ####### ADD THE BOOLEAN SEMANTICS TO THIS ONCE YOU IMPLEMENT PARAMETERS CORRECTLY
+  
+  runModel('V8', engine, model, semantics, semanticHelperFunctions, command, states, allUtterances,
+          alpha = 1, sizeNoiseVal =1, colorNoiseVal = 1, 
+           genderNoiseVal = 1, nounNoiseVal = 1,
+           colorCost = 0, sizeCost = 0, nounCost = 0)
+}
 
+scenarios <- data.frame(scenariosToRun)
+scenarios <- unfactor(test)
+
+#runModelWrapper(test[1,1], test[1,2], test[1,3], test[1,4], test[1,5], test[1,6], test[1,7], test[1,8])
+
+# Run the function on all the scenarios
+scenarios <- scenarios %>%
+  mutate(output = sapply(
+  split(scenarios, 1:nrow(scenarios)),
+  function(x) do.call(runModelWrapper, x)
+))
+
+#Get globalCont and globalBool scenarios
+globalScenarios <- scenarios %>%
+  filter(scenarios$commandType == "globalBool" | scenarios$commandType == "globalCont")
+
+#Expand the output of the global variables
+expandOutput <- function(output) {
+  
+  #tester <- globalScenarios[1,9]
+  
+  #split up the input
+  outputformatted <- unlist(str_split(output, "\n"))
+  
+  # get rid of the string "Marginal:"
+  outputformatted <- outputformatted[-1]
+
+  # extract the numbers from the output
+  outputNumbers <- as.numeric(unlist(regmatches(outputformatted,gregexpr("[[:digit:]]+\\.*[[:digit:]]*",outputformatted))))
+  
+  #extract the utterances
+  extractUtterances <- function(oneUtterance) {
+    oneUtterance <- gsub('[[:digit:]]+', '', oneUtterance)
+    oneUtterance <- gsub('\" : .', '', oneUtterance)
+    oneUtterance <- gsub('    \"', '', oneUtterance)
+    return(oneUtterance)
+  }
+  
+  ############
+  # THIS ISN"T WORKING SO I"M JUST GOING TO LOOP
+  #outputformatted <- lapply(outputformatted, extractUtterances())
+  
+  utteranceList <- c()
+  for (i in 1:length(outputformatted)) {
+    utteranceList <- append(utteranceList, extractUtterances(outputformatted[i]))
+  }
+  
+  
+  # combine them into a data frame
+  # return data structure
+  print("______")
+  print(length(utteranceList))
+  # print(utteranceList)
+  print(length(outputNumbers))
+  # print(outputNumbers)
+  
+  return(data.frame(utteranceList, outputNumbers))
+}
+
+#lapply expandOutput function to every row 
+allGlobalUtterances <- apply(globalScenarios$output, 1, expandOutput())
+  
+bran_test <- globalScenarios[1:9]
+
+bran_new <- bran_test %>%
+  rowwise() %>%
+  expandOutput()
+
+#add new columns based on utterances and outputs
+#merge that back in with the main dataframe
+
+
+
+
+# run the model
+runModelWrapper <- function(targetState, states, utterances, command, params) {
+  #create command using the targetState input
+  cmd <- paste(cmd_test[1], targetState, cmd_test[2], sep="\"")
+  #run model
+  runModel('V8', engine, modelAndSemantics, cmd, states, utterances, params[1], sizeNoiseVal = params[2], colorNoiseVal = params[3], genderNoiseVal = params[4], nounNoiseVal = params[5],
+           colorCost = params[6], sizeCost = params[7], nounCost = params[8])
+}
+
+#1 = apply function to columns
+apply(matrix1, 1, function1)
+# I think 2 = apply function to rows?
 
 #Run the model
 
 #genderNoiseVal = 1, nounNoiseVal = 0.99,
-runModel('V8', engine, modelAndSemantics, cmd_main, states_main, utterances_main, 7, sizeNoiseVal = .8, colorNoiseVal = 0.99, genderNoiseVal = 1, nounNoiseVal = 0.99,
+model1 <- runModel('V8', engine, modelAndSemantics, cmd_main, states_main, utterances_main, 7, sizeNoiseVal = .8, colorNoiseVal = 0.99, genderNoiseVal = 1, nounNoiseVal = 0.99,
          colorCost = 0.1, sizeCost = 0.1, nounCost = 0)
 
-# Added console.log() lines to globalUtteranceSpeaker and IncrementalUtteranceSpeaker
-# for some reason the code enteres falseSemantics before entering either of the above functions
-# and state is not defined, so it crashes
 
+
+#############
+# Old stefan code to be deleted once everything works
+
+
+
+# #method where I add things in by columns
+# stefanDF <- data.frame(c("model1", "model1", "model1", "model1","model1","model1", "model1"))
+# stefanDF <- stefanDF %>% mutate(c("big_blue_plate_masc", "big_blue_plate_masc","big_blue_plate_masc","big_blue_plate_masc","big_blue_plate_masc","big_blue_plate_masc", "big_blue_plate_masc"))
+# stefanDF <- stefanDF %>% mutate(c(toJSON(states_test), toJSON(states_test),toJSON(states_test),toJSON(states_test),toJSON(states_test),toJSON(states_test),toJSON(states_test)))
+# stefanDF <- stefanDF %>% mutate(c(toJSON(params_test), toJSON(params_test),toJSON(params_test),toJSON(params_test),toJSON(params_test),toJSON(params_test),toJSON(params_test)))
+# stefanDF <- stefanDF %>% mutate(utterances_test)
+# 
+# # 
+# 
+# stefanDF <- data.frame(c("model1", "big_blue_plate_masc", toJSON(states_test), toJSON(params_test)))
+
+# Tibble Method to data frame
+#Create first row model
+stefanDF <- tibble(Name="model1", Target="big_blue_plate_masc", StateList=toJSON(states_test), Parameters=toJSON(params_test), Utterances=NA)
+# stefanDF <- stefanDF %>% add_row(Name="model1", Target="big_blue_plate_masc", StateList=toJSON(states_test), Parameters=toJSON(params_test))
+utterancesModel1 <- makeUtterances(states_test)
+#Add utterances to Utterances column and otherwise just copy the row exactly as it is
+
+
+#Janky way of doing this
+stefanDF <- stefanDF %>% slice(rep(1:n(), length.out = length(utterancesModel1))) 
+stefanDF <- stefanDF %>% add_column(utterancesModel1)
+
+#add second scenario
+stefanDF <- add_row(stefanDF, Name = "model2", Target = "blue_plate_masc", StateList=toJSON(states_two), Parameters=toJSON(params_test))
+utterancesModel2 <- makeUtterances(states_two)
+# Figure out way to duplicate the second model now
+
+stefanDF <- rep(stefanDF[16,], length.out=length(utterancesModel1) + length(utterancesModel2))
+stefanDF <- stefanDF %>% replace_na(utterancesModel2)
+
+# # Try a method where I add rows
+# stefanDF <- data.frame(matrix(ncol = 5, nrow = 0))
+# colnames(stefanDF) <- c("Name", "Target", "StateList", "Utterances", "Parameters")
+# stefanDF <- as_tibble(stefanDF)
+# 
+# 
+# stefanDF <- add_row(stefanDF, list("model1", "big_blue_plate_masc", toJSON(states_test), toJSON(params_test)))
+# stefanDF <- rbind(stefanDF, list("model2", "blue_plate_masc", toJSON(states_two), toJSON(params_test)), stringsAsFactors = FALSE)
+# 
+
+# 
+# 
+# stefanDF <- rbind(stefanDF, c("model1", "big_blue_plate_masc", toJSON(states_test), toJSON(params_test)))
+# stefanDF <- rbind(stefanDF, c("model1", "big_blue_plate_masc", toJSON(states_test), toJSON(params_test)))
+# stefanDF <- rbind(stefanDF, c("model1", "big_blue_plate_masc", toJSON(states_test), toJSON(params_test)))
+# stefanDF <- rbind(stefanDF, c("model1", "big_blue_plate_masc", toJSON(states_test), toJSON(params_test)))
+# stefanDF <- rbind(stefanDF, c("model1", "big_blue_plate_masc", toJSON(states_test), toJSON(params_test)))
+# stefanDF <- rbind(stefanDF, c("model1", "big_blue_plate_masc", toJSON(states_test), toJSON(params_test)))
+# stefanDF <- mutate(stefanDF, utterances_test)
+# stefanDF <- rbind(stefanDF, c("model2", "blue_plate_masc", toJSON(states_two), toJSON(utterances_two), toJSON(params_test)), stringsAsFactors = FALSE)
+# 
+# 
+# stefanDF <- stefanDF %>%
+#   expand(utterances_test)
+# 
+
+
+# toJSON --> converts vector to a string
+# fromJSON --> converts vector from a string
+
+#Can't get this to work
+#Should print one line at a time
+#I literally got it to work before idk why it's being weird.
+modelPrint <- function(modelForPrint) {
+  modelForPrint <- modelForPrint %>% strsplit("\n")
+  print(modelForPrint)
+  foo <- function(x) {
+    str_remove(x, "   \"")
+  }
+  foo2 <- function(x) {
+    str_remove(x, "\"")
+  }
+  modelForPrint <- lapply(modelForPrint, foo) %>% lapply(foo2)
+  return(modelForPrint)
+}
 
 ###########
 # VALDF FOR SCIL PAPER
