@@ -1,16 +1,16 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 import { Centered } from "meteor/empirica:core";
 export default class PlayerId extends Component {
     state = { id: "" };
-    
+
     // Update the stored state of the id
-    handleUpdate = event => {
+    handleUpdate = (event) => {
         const { value, name } = event.currentTarget;
         this.setState({ [name]: value });
-    }; 
-    
+    };
+
     // Submit the id when submit button is clicked
-    handleSubmit = event => {
+    handleSubmit = (event) => {
         event.preventDefault();
 
         const { handleNewPlayer } = this.props;
@@ -20,19 +20,21 @@ export default class PlayerId extends Component {
 
     render() {
         const { id } = this.state;
+        const urlParams = new window.URL(document.location).searchParams;
+        const batchGroupName = urlParams.get("batchGroupName");
 
         return (
             <Centered>
                 <div className="new-player">
                     <form onSubmit={this.handleSubmit}>
-                       {/* <h1>{newPlayerTexts[newPlayerLanguage].IdentificationHeaderText}</h1>*/}
+                        {/* <h1>{newPlayerTexts[newPlayerLanguage].IdentificationHeaderText}</h1>*/}
 
                         <p>
-                        Please enter your Prolific ID:
-                        </p>
-
-                        <p>
-                        请输入你的Prolific账号:
+                            {batchGroupName === null
+                                ? "Please enter your Prolific ID:"
+                                : batchGroupName.includes("chinese")
+                                ? "请输入你的Prolific账号:"
+                                : "Please enter your Prolific ID:"}
                         </p>
 
                         <input
@@ -45,16 +47,17 @@ export default class PlayerId extends Component {
                             //placeholder="e.g. 1111111111"
                             required
                             autoComplete="off"
-                        /> 
+                        />
 
-
-                        <p style={{marginTop:"1cm"}} className="button-holder">
+                        <p
+                            style={{ marginTop: "1cm" }}
+                            className="button-holder"
+                        >
                             <button type="submit">Submit</button>
                         </p>
-
                     </form>
                 </div>
             </Centered>
-        )
+        );
     }
 }
