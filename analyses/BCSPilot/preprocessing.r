@@ -6,225 +6,89 @@ library(jsonlite)
 theme_set(theme_bw())
 
 source("../_shared/regressionHelpers.R")
+source("../_shared/preprocessingHelpers.R")
 
-# Step 1: read in the rounds and player info info from the Mongo database
-# imported from a .gitignored .txt file
+# Step 1: read in raw game data
 
-uname_pwd <- readLines("../../api_keys/mongo")
+## Option (a): read in the rounds and player info info from the Mongo database
 
-# 'Players' tells you which players played which games
+### mongoCreds contains the API key to the Mongo database (ask Brandon for credentials)
+mongoCreds <- readLines("../../api_keys/mongo")
 
-con <- mongo("players", url = sprintf("mongodb+srv://%s@cluster0.xizoq.mongodb.net/crossling-ref", uname_pwd))
-players <- data.frame(con$find(sprintf('{ "id": { "$in": %s } } ', toJSON(c("Lana","Vlada"))))) %>% 
-  select(id, gameId)
-con$disconnect()
-rm(con)
+### 'Players' tells you which players played which games
 
-# 'Rounds' contains the by-trial info
+players <- getPlayerGamePairs(c("Lana","Vlada"),mongoCreds)
 
-con <- mongo("rounds", url = sprintf("mongodb+srv://%s@cluster0.xizoq.mongodb.net/crossling-ref", uname_pwd))
-d <- data.frame(con$find(sprintf('{ "gameId": { "$in": %s } } ', toJSON(players$gameId)))) %>%
-  mutate(index = row_number())
-con$disconnect()
-rm(con)
+### 'Rounds' contains the by-trial info for the games played by the players
 
-rawD <- d
+d <- getRoundData(players$gameId,mongoCreds)
 
-# Read in the raw data from .rds
+## Option (b): Read in the raw data from .rds (rather than querying database)
 
 d <- readRDS("../../data/BCSPilot/rawData.rds")
 
-# Step 2: get player demographic data and do exclusions 
+## Cache the raw data before transforming (optional)
 
-con <- mongo("player_inputs", url = sprintf("mongodb+srv://%s@cluster0.xizoq.mongodb.net/crossling-ref", uname_pwd))
-player_info <- data.frame(con$find(sprintf('{ "gameId": { "$in": %s } } ', toJSON(players$gameId)))) %>% 
-  filter(gameId %in% d$gameId) 
-con$disconnect()
-rm(con)
+rawD <- d
 
-# Step 3: massage the data into something that looks like Degen et al.'s format
+# Step 2: get player demographic data 
 
-d <- cbind(d$gameId, d$data)
+## Option (a): query the database 
 
-colnames(d)[1] <- "gameId"
+player_info <- getPlayerDemographicData(unique(d$gameId),mongoCreds)
 
-# (Manually) list games that featured a player who reported a native lang. other than BCS
+## Option (b): read in the raw data from .rds (rather than querying the database)
 
-excludeBCS <- c()
+player_info <- readRDS("../../data/BCSPilot/rawPlayerInfo.rds")
 
-d <- d %>%
-  filter(!(gameId %in% excludeBCS))
+# Step 3: do (demographic) exclusions
 
-# Get the within-game round number
+## Option (a): (Manually) list games that include players who are excluded by virtue of debrief survey responses
+
+excludeGames_demographic <- c()
 
 d <- d %>%
-  group_by(group = cumsum(gameId != lag(gameId, default = first(gameId)))) %>%
-  mutate(roundNumber = row_number()) %>%
-  ungroup() %>%
-  select(-group)
+  filter(!(gameId %in% excludeGames_demographic))
 
-# Transform the speaker and listener chat into something more manageable, and return the item that the listener selected
+## Option (b): If list of excluded games is saved locally, read in the list (TODO)
 
-directorFirstMessage <- c()
-directorAllMessages <- c()
-guesserAllMessages <- c()
-nameClickedObj <- c()
+# Step 4: massage the data into something that looks like Degen et al.'s raw format
 
-d <- d %>%
-  filter(!(chat == "NULL"))
+d <- transformDataDegen2020Raw(d)
 
-for(i in seq(nrow(d))) {
-  chat_temp <- d[i,]$chat[[1]] %>% select(text,role)
+# Step 5: exclude games where accuracy is less than < 0.7 (and, optionally, plot by-game accuracy)
 
-  chat_temp$text <- as.character(chat_temp$text)
-  
-  guesserChat <- chat_temp %>% filter(role == "listener")
-  guesserAllMessages[i] <- paste(guesserChat$text, collapse = "__")
-  
-  directorChat <- chat_temp %>% filter(role == "speaker")
-  directorAllMessages[i] <- paste(directorChat$text, collapse = "__")
-  
-  if(nrow(directorChat) == 1) {
-    directorFirstMessage[i] <- directorAllMessages[i]
-  } else {
-    directorFirstMessage[i] <- strsplit(directorAllMessages[i], split = "__", fixed = TRUE)[[1]][1]
-  }
-  
-  # Return the item that the listener selected
-  
-  sel <- d[i,]$listenerSelection
-  images<- data.frame(d[i,]$images)
-  
-  if(is.na(sel) || sel == "NONE") {
-    nameClickedObj[i] <- sel 
-  } else {
-    nameClickedObj[i] <- (images %>% filter(id == sel))$name
-  }
-  
-}
+d <- accuracyExclusions(d, makeGraph = TRUE, xlab = "BCS Speakers")
 
-rm(chat_temp, guesserChat, directorChat, i, sel, images)
+# Step 6 (optional): plot accuracy by trial type 
 
-d <- cbind(d, directorAllMessages, directorFirstMessage, guesserAllMessages, nameClickedObj)
+plotAccuracyByTrialType(d)
 
-rm(directorAllMessages, directorFirstMessage, guesserAllMessages, nameClickedObj)
+# Step 7: automatically annotate dataset 
 
-d <- d %>%
-  mutate(correct = ifelse(d$target$id == listenerSelection, 1, 0))
+# TODO: finish these lists
+colorTerms <- ""
+sizeTerms <- ""
+nouns <- ""
+bleachedNouns <- ""
+articles <- ""
 
+d_preManualTypoCorrection <- automaticAnnotate(d, colorTerms, sizeTerms, nouns, bleachedNouns, articles)
 
-###Exclusions: 
-sprintf('Number of games excluded due to native lang: %d', length(excludeBCS))
-sprintf('Number of games after exclusions: %d', length(unique(d$gameId)) - length(excludeBCS))
-roundsPerGame <- d %>% group_by(gameId) %>% summarise(n = n())
-sprintf('Avg. of rounds per game (should be exactly 72): %f', mean(roundsPerGame$n))
-print("Rounds per game:")
-roundsPerGame
-
-excludeIncomplete <- (roundsPerGame %>% filter(n < 72))$gameId
-
-# we can exclude incomplete games if we want... but Degen et al. 2020 do not.
-d <- d %>%
-  # filter(!(gameId %in% excludeIncomplete))
-  filter()
-
-sprintf('Incomplete games: %d', length(excludeIncomplete))
-```
-
-###Data transformation:
-head(d %>% mutate(targetName = d$target$name) %>% 
-       select(condition, targetName, directorFirstMessage, nameClickedObj))
-
-**Overall accuracy:**
-  ```{r ovv_accuracy, echo=FALSE}
-toplot =  d %>%
-  group_by(gameId) %>%
-  summarise(Mean=mean(correct),CILow=ci.low(correct),CIHigh=ci.high(correct)) %>%
-  ungroup() %>%
-  mutate(YMin=Mean-CILow,YMax=Mean+CIHigh) %>%
-  mutate(lowacc=ifelse(Mean<0.70,"1","0"))
-
-h=0.70
-ggplot(toplot, aes(x=reorder(gameId,Mean), y=Mean)) +
-  geom_bar(stat="identity", fill="lightblue") +
-  geom_hline(yintercept=h) +
-  geom_text(aes(0, h, label=h, vjust=-1, hjust=-0.3)) +
-  geom_errorbar(aes(ymin = YMin, ymax = YMax),width=.25) +
-  theme(axis.text.x=element_blank()) +
-  ylab("Accuracy") +
-  xlab("English speakers")
-
-ggsave(file="viz/accuracy.pdf",width=5,height=3)
-```
-
-**Exclusion: Remove games with accuracy <70%: **
-  ```{r exc_accuracy, echo=FALSE}
-excludeAccuracy = toplot %>%
-  filter(lowacc==1)
-excludeAccuracy 
-
-d = d[!(d$gameId %in% excludeAccuracy$gameId),]
-
-sprintf("Games remaining after exclusion: %d", length(unique(d$gameId))) #46 games left
-```
-
-**Accuracy by trial type:**
-  ```{r accuracy_tt, echo=FALSE}
-toplot =  d %>%
-  group_by(condition) %>%
-  summarise(Mean=mean(correct),CILow=ci.low(correct),CIHigh=ci.high(correct)) %>%
-  ungroup() %>%
-  mutate(YMin=Mean-CILow,YMax=Mean+CIHigh) %>%
-  mutate(lowacc=ifelse(Mean<0.70,"1","0"))
-
-ggplot(toplot, aes(x=reorder(condition,Mean), y=Mean, fill = condition)) +
-  geom_bar(position="dodge", stat="identity") +
-  geom_errorbar(aes(ymin = YMin, ymax = YMax),width=.25, position=position_dodge(width = 0.9)) +
-  theme(axis.text.x = element_text(angle=90),
-        legend.position = "none") +
-  ylab("Accuracy") +
-  xlab("Trial type")
-
-
-ggsave(file="viz/accuracy_trialType.pdf",width=6,height=4.5)
-```
-
-```{r}
-# Was a color mentioned?
-d$colorMentioned = ifelse(grepl("gray|grey|green|purple|white|black|brown|violet|yellow|gold|orange|silver|blue|pink|red", d$directorFirstMessage, ignore.case = TRUE), T, F)
-table(d$colorMentioned)
-
-# Was a size mentioned?
-d$sizeMentioned = ifelse(grepl("big|small|bigger|smaller|tiny|huge|large|larger|little|biggest|smallest|largest", d$directorFirstMessage, ignore.case = TRUE), T, F)
-table(d$sizeMentioned)
-
-# Was the object's type (noun) mentioned?
-d$typeMentioned = ifelse(grepl("avocado|balloon|cap|belt|bike|billiardball|binder|book|bracelet|bucket|butterfly|candle|chair|coat hanger|comb|cushion|guitar|flower|frame|golf ball|hair dryer|jacket|napkin|ornament|pepper|phone|rock|rug|shoe|stapler|tack|teacup|toothbrush|turtle|wedding cake|yarn", d$directorFirstMessage, ignore.case = TRUE), T, F)
-table(d$typeMentioned)
-
-# Was a bleached noun used?
-d$oneMentioned = ifelse(grepl(" one|thing|item|object", d$directorFirstMessage, ignore.case = TRUE), T, F)
-table(d$oneMentioned)
-
-# Was an article used?
-d$theMentioned = ifelse(grepl("the |a |an ", d$directorFirstMessage, ignore.case = TRUE), T, F)
-table(d$theMentioned)
-
-# Write this dataset for manual correction of typos like "pruple"
-write_delim(data.frame(d %>%
+# Step 8: Write this dataset for manual correction of typos
+write_delim(data.frame(d_preManualTypoCorrection %>%
                          select(-target, -images, -listenerImages, -speakerImages,
-                                -chatLog, -gameChat)), 
-            "../../data/englishPilot/preManualTypoCorrection.tsv", delim="\t")
+                                -chat)), 
+            "../../data/BCSPilot/preManualTypoCorrection.tsv", delim="\t")
 
-# Read manually corrected dataset for further preprocessing
-d = read_delim("../../data/englishPilot/preManualTypoCorrection.tsv", delim = "\t") %>%
+# Step 9: Read manually corrected dataset for further preprocessing
+# Make sure file being read in is *post* manual correction ('pre' just for testing)
+d <- read_delim("../../data/BCSPilot/preManualTypoCorrection.tsv", delim = "\t") %>%
   filter(grepl("color|size", condition)) %>%
   mutate(clickedFeatures = strsplit(nameClickedObj, "_"),
          clickedColor = map(clickedFeatures, pluck, 2),
          clickedSize = map(clickedFeatures, pluck, 1),
          clickedType = map(clickedFeatures, pluck, 3))
-
-colsizerows = nrow(d)
 
 # How many trials were automatically labelled as mentioning a pre-coded level of reference?
 auto_trials = sum(d$automaticallyLabelledTrial)
@@ -244,114 +108,12 @@ no_noun_trials = colsizerows - sum(d$article_mentioned)
 print(paste("percentage of trials where nouns were omitted: ", no_noun_trials*100/colsizerows)) # 88.6 in Degen 2020
 
 # In how many cases did the listener choose the wrong object?
-print(paste(100*(1-(sum(d$correct)/colsizerows)),"% of cases of non-target choices")) # 1.5 in Degen 202
+print(paste(100*(1-(sum(d$correct)/colsizerows)),"% of cases of non-target choices")) # 1.5 in Degen 2020
 
 # How many unique pairs?
 length(unique(d$gameId)) # 64
 
-# Code for each trial: sufficient property, number of total distractors, number of distractors that differ on and that share insufficient dimension value with target
-d$SufficientProperty = as.factor(ifelse(d$condition %in% c("size21", "size22", "size31", "size32", "size33", "size41", "size42", "size43", "size44"), "size", "color"))
-d$RedundantProperty = ifelse(d$SufficientProperty == 'color',"size redundant","color redundant")
-d$NumDistractors = ifelse(d$condition %in% c("size21","size22","color21","color22"), 2, ifelse(d$condition %in% c("size31","size32","size33","color31","color32","color33"),3,4))
-d$NumDiffDistractors = ifelse(d$condition %in% c("size22","color22","size33","color33","size44","color44"), 0, ifelse(d$condition %in% c("size21","color21","size32","color32","size43","color43"), 1, ifelse(d$condition %in% c("size31","color31","size42","color42"),2,ifelse(d$condition %in% c("size41","color41"),3, 4))))
-d$NumSameDistractors = ifelse(d$condition %in% c("size21","size31","size41","color21","color31","color41"), 1, ifelse(d$condition %in% c("size22","size32","size42","color22","color32","color42"), 2, ifelse(d$condition %in% c("size33","color33","size43","color43"),3,ifelse(d$condition %in% c("size44","color44"),4,NA))))
-d$SceneVariation = d$NumDiffDistractors/d$NumDistractors
-d$TypeMentioned = d$typeMentioned
+# Step 10: final transformations on data for regression analyses and BDA 
 
-# Add empirical typicality ratings
-# Add color typicality ratings ("how typical is this color for a stapler?" wording)
-typicalities = read.table("../../data/Degen2020_Typicality/typicality_exp1_colortypicality.csv",header=T)
-head(typicalities)
-typicalities = typicalities %>%
-  group_by(Item) %>%
-  mutate(OtherTypicality = c(Typicality[2],Typicality[1]),OtherColor = c(as.character(Color[2]),as.character(Color[1])))
-typicalities = as.data.frame(typicalities)
-row.names(typicalities) = paste(typicalities$Item,typicalities$Color)
-d$ColorTypicality = typicalities[paste(d$clickedType,d$clickedColor),]$Typicality
-d$OtherColorTypicality = typicalities[paste(d$clickedType,d$clickedColor),]$OtherTypicality
-d$OtherColor = typicalities[paste(d$clickedType,d$clickedColor),]$OtherColor
-d$TypicalityDiff = d$ColorTypicality-d$OtherColorTypicality  
-d$normTypicality = d$ColorTypicality/(d$ColorTypicality+d$OtherColorTypicality)
-
-# Add typicality norms for objects with modified and unmodified utterances ("how typical is this for a stapler?" vs "how typical is this for a red stapler?" wording)
-typs = read.table("../../data/Degen2020_Typicality/typicality_exp1_objecttypicality.csv",header=T)
-head(typs)
-typs = typs %>%
-  group_by(Item) %>%
-  mutate(OtherTypicality = c(Typicality[3],Typicality[4],Typicality[1],Typicality[2])) 
-typs = as.data.frame(typs)
-row.names(typs) = paste(typs$Item,typs$Color,typs$Modification)
-d$ColorTypicalityModified = typs[paste(d$clickedType,d$clickedColor,"modified"),]$Typicality
-d$OtherColorTypicalityModified = typs[paste(d$clickedType,d$clickedColor,"modified"),]$OtherTypicality
-d$TypicalityDiffModified = d$ColorTypicalityModified-d$OtherColorTypicalityModified  
-d$normTypicalityModified = d$ColorTypicalityModified/(d$ColorTypicalityModified+d$OtherColorTypicalityModified)
-d$ColorTypicalityUnModified = typs[paste(d$clickedType,d$clickedColor,"unmodified"),]$Typicality
-d$OtherColorTypicalityUnModified = typs[paste(d$clickedType,d$clickedColor,"unmodified"),]$OtherTypicality
-d$TypicalityDiffUnModified = d$ColorTypicalityUnModified-d$OtherColorTypicalityUnModified  
-d$normTypicalityUnModified = d$ColorTypicalityUnModified/(d$ColorTypicalityUnModified+d$OtherColorTypicalityUnModified)
-
-# Reduce dataset to target trials for visualization and analysis
-
-# Exclude trials on which target wasn't selected
-targets = d %>% filter(correct == 1)
-nrow(targets) # 2138 cases in Degen 2020
-
-# Categorize everything that isn't a size, color, or size-and-color mention as OTHER
-targets$UtteranceType = as.factor(ifelse(targets$sizeMentioned & targets$colorMentioned, "size and color", ifelse(targets$sizeMentioned, "size", ifelse(targets$colorMentioned, "color","OTHER"))))
-
-# examples of what people say when utterance is not clearly categorizable:
-targets[targets$UtteranceType == "OTHER",]$directorFirstMessage
-
-targets = droplevels(targets)
-table(targets$UtteranceType)
-table(targets[targets$UtteranceType == "OTHER",]$gameId) 
-targets$Color = ifelse(targets$UtteranceType == "color",1,0)
-targets$Size = ifelse(targets$UtteranceType == "size",1,0)
-targets$SizeAndColor = ifelse(targets$UtteranceType == "size and color",1,0)
-targets$Other = ifelse(targets$UtteranceType == "OTHER",1,0)
-targets$Item = sapply(strsplit(as.character(targets$nameClickedObj),"_"), "[", 3)
-targets$redUtterance = as.factor(ifelse(targets$UtteranceType == "size and color","redundant",ifelse(targets$UtteranceType == "size" & targets$SufficientProperty == "size", "minimal", ifelse(targets$UtteranceType == "color" & targets$SufficientProperty == "color", "minimal", "other"))))
-targets$RatioOfDiffToSame = targets$NumDiffDistractors/targets$NumSameDistractors
-targets$DiffMinusSame = targets$NumDiffDistractors-targets$NumSameDistractors
-
-# Prepare data for Bayesian Data Analysis by collapsing across specific size and color terms
-targets$redUtterance = as.factor(as.character(targets$redUtterance))
-targets$CorrectProperty = ifelse(targets$SufficientProperty == "color" & (targets$Color == 1 | targets$SizeAndColor == 1), 1, ifelse(targets$SufficientProperty == "size" & (targets$Size == 1 | targets$SizeAndColor == 1), 1, 0)) # 20 cases of incorrect property mention
-targets$minimal = ifelse(targets$SizeAndColor == 0 & targets$UtteranceType != "OTHER", 1, 0)
-targets$redundant = ifelse(targets$SizeAndColor == 1, 1, 0)
-targets$BDAUtterance = "size"#as.character(targets$clickedSize)
-targets[targets$Color == 1,]$BDAUtterance = as.character(targets[targets$Color == 1,]$clickedColor)
-targets[targets$SizeAndColor == 1,]$BDAUtterance = paste("size",targets[targets$SizeAndColor == 1,]$clickedColor,sep="_")
-targets$redBDAUtterance = "size_color"
-targets[targets$Color == 1,]$redBDAUtterance = "color"
-targets[targets$Size == 1,]$redBDAUtterance = "size"
-targets[targets$Other == 1,]$redBDAUtterance = "other"
-targets$BDASize = "size"
-targets$BDAColor = "color"
-targets$BDAFullColor = targets$clickedColor
-targets$BDAOtherColor = "othercolor"
-targets$BDAItem = "item"
-
-# Code non-sensical and "closest"/"Farthest" cases (BW: not sure what this is supposed to do)
-targets[targets$redBDAUtterance != "other" & targets$CorrectProperty == 0,c("gameId","condition","nameClickedObj","directorFirstMessage")]
-targets$WeirdCases = FALSE
-targets[targets$redBDAUtterance != "other" & targets$CorrectProperty == 0  & !targets$gameId %in% c(),]$WeirdCases = TRUE
-
-# Write Bayesian data analysis files (data and unique conditions)
-write.csv(targets[targets$redBDAUtterance != "other" & targets$WeirdCases == FALSE,c("gameId","roundNumber","condition","BDASize","BDAColor","BDAOtherColor","BDAItem","redBDAUtterance")],file="../../data/englishPilot/bda_data.csv",quote=F,row.names=F)
-write.csv(unique(targets[targets$redBDAUtterance != "other" & targets$WeirdCases == FALSE,c("BDAColor","BDASize","condition","BDAOtherColor","BDAItem")]),file="../../data/englishPilot/unique_conditions.csv",quote=F,row.names=F)
-
-# Write file for regression analysis and visualization
-
-dd = targets %>%
-  filter(redUtterance != "other" & WeirdCases == FALSE) %>%
-  rename(Trial=roundNumber, TargetItem=nameClickedObj, gameid = gameId,
-         refExp = directorFirstMessage, speakerMessages = directorAllMessages,
-         listenerMessages = guesserAllMessages) %>%
-  mutate(clickedColor = as.character(clickedColor),
-         clickedSize = as.character(clickedSize),
-         clickedType = as.character(clickedType)) %>%
-  select(gameid,Trial,TargetItem,UtteranceType,redUtterance,SufficientProperty,RedundantProperty,NumDistractors,NumSameDistractors,SceneVariation,speakerMessages,listenerMessages,refExp,minimal,redundant,clickedType,clickedSize,clickedColor,colorMentioned,sizeMentioned,typeMentioned,oneMentioned,theMentioned,ColorTypicality,OtherColorTypicality,OtherColor,TypicalityDiff,normTypicality,ColorTypicalityModified,ColorTypicalityUnModified,OtherColorTypicalityModified,OtherColorTypicalityUnModified,TypicalityDiffModified,normTypicalityModified,TypicalityDiffUnModified,normTypicalityUnModified) #alt1Name,alt1SpLocs,alt1LisLocs,alt2Name,alt2SpLocs,alt2LisLocs,alt3Name,alt3SpLocs,alt3LisLocs,alt4Name,alt4SpLocs,alt4LisLocs)
-nrow(dd)
-
-write_delim(dd, "../../data/BCSPilot/data_exp1.tsv",delim="\t")
+destinationFolder <- "../../data/BCSPilot"
+produceBDAandRegressionData(d, destinationFolder = destinationFolder)
