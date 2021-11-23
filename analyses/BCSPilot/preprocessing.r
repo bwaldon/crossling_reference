@@ -10,12 +10,12 @@ source("../_shared/regressionHelpers.R")
 # Step 1: read in the rounds and player info info from the Mongo database
 # imported from a .gitignored .txt file
 
-uname_pwd <- readLines("../../data/BCSPilot/identifyingInfo/upwd")
+uname_pwd <- readLines("../../api_keys/mongo")
 
 # 'Players' tells you which players played which games
 
 con <- mongo("players", url = sprintf("mongodb+srv://%s@cluster0.xizoq.mongodb.net/crossling-ref", uname_pwd))
-players <- data.frame(con$find(sprintf('{ "id": { "$in": %s } } ', toJSON(c("testName1","testName2"))))) %>% 
+players <- data.frame(con$find(sprintf('{ "id": { "$in": %s } } ', toJSON(c("Lana","Vlada"))))) %>% 
   select(id, gameId)
 con$disconnect()
 rm(con)
@@ -29,6 +29,10 @@ con$disconnect()
 rm(con)
 
 rawD <- d
+
+# Read in the raw data from .rds
+
+d <- readRDS("../../data/BCSPilot/rawData.rds")
 
 # Step 2: get player demographic data and do exclusions 
 
@@ -350,4 +354,4 @@ dd = targets %>%
   select(gameid,Trial,TargetItem,UtteranceType,redUtterance,SufficientProperty,RedundantProperty,NumDistractors,NumSameDistractors,SceneVariation,speakerMessages,listenerMessages,refExp,minimal,redundant,clickedType,clickedSize,clickedColor,colorMentioned,sizeMentioned,typeMentioned,oneMentioned,theMentioned,ColorTypicality,OtherColorTypicality,OtherColor,TypicalityDiff,normTypicality,ColorTypicalityModified,ColorTypicalityUnModified,OtherColorTypicalityModified,OtherColorTypicalityUnModified,TypicalityDiffModified,normTypicalityModified,TypicalityDiffUnModified,normTypicalityUnModified) #alt1Name,alt1SpLocs,alt1LisLocs,alt2Name,alt2SpLocs,alt2LisLocs,alt3Name,alt3SpLocs,alt3LisLocs,alt4Name,alt4SpLocs,alt4LisLocs)
 nrow(dd)
 
-write_delim(dd, "../../data/englishPilot/data_exp1.tsv",delim="\t")
+write_delim(dd, "../../data/BCSPilot/data_exp1.tsv",delim="\t")
