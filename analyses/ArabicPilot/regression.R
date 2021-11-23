@@ -13,7 +13,7 @@ source("../_shared/regressionHelpers.r")
 source("../_shared/createLaTeXTable.R")
 
 # Read data
-d = read_delim("../../data/EnglishPilot/data_exp1.tsv", delim = "\t")
+d = read_delim("../../data/ArabicPilot/data_exp1.tsv", delim = "\t")
 nrow(d)
 
 # Get color-blind friendly palette that also looks good in black and white
