@@ -61,7 +61,7 @@ transformDataDegen2020Raw <- function(d) {
   for(i in seq(nrow(d))) {
     chat_temp <- d[i,]$chat[[1]] %>% select(text,role)
     
-    chat_temp$text <- as.character(chat_temp$text)
+    chat_temp$text <- tolower(as.character(chat_temp$text))
     
     guesserChat <- chat_temp %>% filter(role == "listener")
     guesserAllMessages[i] <- paste(guesserChat$text, collapse = "__")
