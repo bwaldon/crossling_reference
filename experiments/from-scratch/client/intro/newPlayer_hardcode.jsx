@@ -25,20 +25,21 @@ export default class PlayerId extends Component {
 
         return (
             <Centered>
-                <div className="new-player">
+                <div className="new-player" dir="auto">
                     <form onSubmit={this.handleSubmit}>
-                        {/* <h1>{newPlayerTexts[newPlayerLanguage].IdentificationHeaderText}</h1>*/}
-
                         <p>
                             {batchGroupName === null
                                 ? "Please enter your Prolific ID:"
-                                : batchGroupName.includes("chinese")
+                                : batchGroupName.includes("chinese") ||
+                                  batchGroupName.includes("Chinese")
                                 ? "请输入你的Prolific账号:"
+                                : batchGroupName.includes("arabic") ||
+                                  batchGroupName.includes("Arabic")
+                                ? "الرجاء إدخال عنوان بريدك الإلكتروني حتى نتمكن من تعويضك في نهاية الدراسة. (سيتم استخدام عنوان بريدك الإلكتروني فقط للحصول على التعويض، وستكون أجوبتك جميعها مجهولة المصدر)."
                                 : "Please enter your Prolific ID:"}
                         </p>
 
                         <input
-                            dir="auto"
                             type="text"
                             name="id"
                             id="id"
@@ -53,7 +54,17 @@ export default class PlayerId extends Component {
                             style={{ marginTop: "1cm" }}
                             className="button-holder"
                         >
-                            <button type="submit">Submit</button>
+                            <button type="submit">
+                                {batchGroupName === null
+                                    ? "Next"
+                                    : batchGroupName.includes("chinese") ||
+                                      batchGroupName.includes("Chinese")
+                                    ? "下一页"
+                                    : batchGroupName.includes("arabic") ||
+                                      batchGroupName.includes("Arabic")
+                                    ? "التالي"
+                                    : "Next"}
+                            </button>
                         </p>
                     </form>
                 </div>
