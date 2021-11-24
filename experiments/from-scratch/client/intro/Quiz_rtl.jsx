@@ -78,7 +78,7 @@ export default class GroupQuiz extends React.Component {
     )[0];
 
     return (
-      <Centered>
+      <div style={{ textAlign: "center" }}>
         <div className="quiz">
           <h1 className={"bp3-heading"}>
             {" "}
@@ -87,8 +87,8 @@ export default class GroupQuiz extends React.Component {
           <form onSubmit={this.handleSubmit}>
             <div className="bp3-form-group">
               <div className="bp3-form-content">
+                <div dir="rtl">{gameTextInLanguage.QUIZ_Question1}</div>
                 <RadioGroup
-                  label={gameTextInLanguage.QUIZ_Question1}
                   onChange={this.handleRadioChange}
                   selectedValue={this.state.directorCanClick}
                   name="directorCanClick"
@@ -108,8 +108,8 @@ export default class GroupQuiz extends React.Component {
 
             <div className="bp3-form-group">
               <div className="bp3-form-content">
+                <div dir="rtl">{gameTextInLanguage.QUIZ_Question2}</div>
                 <RadioGroup
-                  label={gameTextInLanguage.QUIZ_Question2}
                   onChange={this.handleRadioChange}
                   selectedValue={this.state.guesserWantsToClick}
                   name="guesserWantsToClick"
@@ -129,8 +129,8 @@ export default class GroupQuiz extends React.Component {
 
             <div className="bp3-form-group">
               <div className="bp3-form-content">
+                <div dir="rtl">{gameTextInLanguage.QUIZ_Question3}</div>
                 <RadioGroup
-                  label={gameTextInLanguage.QUIZ_Question3}
                   onChange={this.handleRadioChange}
                   selectedValue={this.state.targetRedCircle}
                   name="targetRedCircle"
@@ -150,8 +150,8 @@ export default class GroupQuiz extends React.Component {
 
             <div className="bp3-form-group">
               <div className="bp3-form-content">
+                <div dir="rtl">{gameTextInLanguage.QUIZ_Question4}</div>
                 <RadioGroup
-                  label={gameTextInLanguage.QUIZ_Question4}
                   onChange={this.handleRadioChange}
                   selectedValue={this.state.onlyDirector}
                   name="onlyDirector"
@@ -171,8 +171,8 @@ export default class GroupQuiz extends React.Component {
 
             <div className="bp3-form-group">
               <div className="bp3-form-content">
+                <div dir="rtl">{gameTextInLanguage.QUIZ_Question5}</div>
                 <RadioGroup
-                  label={gameTextInLanguage.QUIZ_Question5}
                   onChange={this.handleRadioChange}
                   selectedValue={this.state.total72rounds}
                   name="total72rounds"
@@ -192,8 +192,8 @@ export default class GroupQuiz extends React.Component {
 
             <div className="bp3-form-group">
               <div className="bp3-form-content">
+                <div dir="rtl">{gameTextInLanguage.QUIZ_Question6}</div>
                 <RadioGroup
-                  label={gameTextInLanguage.QUIZ_Question6}
                   onChange={this.handleRadioChange}
                   selectedValue={this.state.sameLocations}
                   name="sameLocations"
@@ -210,22 +210,23 @@ export default class GroupQuiz extends React.Component {
                 </RadioGroup>
               </div>
             </div>
-
-            <button
-              type="button"
-              className="bp3-button bp3-intent-nope bp3-icon-double-chevron-left"
-              onClick={onPrev}
-              disabled={!hasPrev}
-            >
-              {gameTextInLanguage.QUIZ_BackToInstructionsText}
-            </button>
-            <button type="submit" className="bp3-button bp3-intent-primary">
-              {gameTextInLanguage.QUIZ_StartGameText}
-              <span className="bp3-icon-standard bp3-icon-key-enter bp3-align-right" />
-            </button>
+            <div dir="rtl">
+              <button
+                type="button"
+                className="bp3-button bp3-intent-nope bp3-icon-double-chevron-left"
+                onClick={onPrev}
+                disabled={!hasPrev}
+              >
+                {gameTextInLanguage.QUIZ_BackToInstructionsText}
+              </button>
+              <button type="submit" className="bp3-button bp3-intent-primary">
+                {gameTextInLanguage.QUIZ_StartGameText}
+                <span className="bp3-icon-standard bp3-icon-key-enter bp3-align-right" />
+              </button>
+            </div>
           </form>
         </div>
-      </Centered>
+      </div>
     );
   }
 }
