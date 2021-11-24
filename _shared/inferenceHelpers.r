@@ -48,7 +48,7 @@ wrapPrediction = function(model, estimates, overmodifyingUtterance, targetRefere
   
   if(inferenceType == "incrementalContinuous" | inferenceType == "incremental" ) {
     
-    predictionCommand <- read_file("inferenceCommands/main/getIncrementalPredictions.txt")
+    predictionCommand <- read_file("../_shared/inferenceCommands/main/getIncrementalPredictions.txt")
     
   } else if (inferenceType == "continuous" | inferenceType == "vanilla" ) {
     
