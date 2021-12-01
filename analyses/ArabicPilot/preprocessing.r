@@ -69,18 +69,11 @@ plotAccuracyByTrialType(d)
 # TODO: finish these lists and add the Arabizi transliterations
 colorTerms <- "rmede|rmedy|rmedeye|rmediyi|rmedeye|a5dar|akhdar|khadra|5adra|banafsaji|banafsajeye|mov|abyad|2abyad|2byad|2byd|bayda|byda|baydaa|aswad|2aswad|2swad|2swd|sawdaa|sawda|benne|binni|benny|bennie|binniyi|asfar|2asfar|asfr|2sfr|2sfar|safra|safraa|sfra|dahabi|dahabe|dahaby|dahabiyi|dahabeye|orange|fodde|foddeye|azra2|2azra2|2zra2|2zr2|azraa|zar2a|zaraa|zhr|zahriyi|zahreye|zahr|zaher|wardeye|ahmar|2ahmar|2hmar|ahmr|2ahmr|2hmr|hamraa|hamra|hamra2|
 رمادي|رمادية|أخضر|خضراء|خضرا|بنفسجي|بنفسجية|موف|أبيض|بيضاء|بيضا|أسود|سوداء|سودا|بني|بنية| زهرية|حمراء|حمرا|أصفر|صفراء|صفرا|ذهبي|ذهبية|دهبي|دهبية|برتقالي|برتقالية|فضي|فضية|أزرق|زرقاء|زرقا|وردي|وردية|زهري|أحمر"
-sizeTerms <- "kbeer|kbir|lkbir|alkabeer|kbiri|kbeere|lkbiri|s8ir|s8eer|z8ir|z8eer|zghir|sghir|zgheer|zgheer|s8iri|s8eeri|s8eere|z8iri|z8eeri|zghiri|sghiri|zgheeri|zgheeri|as8ar|asghar|az8ar|azghar|2asghar|2sghar|2s8ar|2s8r|akbar|2akbar|2kbar|2kbr|dakhm|dhakhem|da5m|da5em|dakhme|dhakhme|da5me|da5mi|كبير |صغير|كبيرة |صغيرة |أكبر |أصغر |ضخم|ضخمة"
-nouns <- "soof|souf|suf|5yout|5yoot|5yut|5itan|5eetan|5eetaan|5itaan|cake|katu|sili7fe|sol7afat|sola7fat|
-fersheye|forshaya|forsheye|forshat|fersheyet snen|forshayat asnan|forsheyet snen|fersheyet snan|forshayat asnan|forshat snen|forshat snan|
-kebeye|kobeye|kobaya|kebeyet shay|kobeyet shay|kobayat shay|fenjen|fonjen|fonjan|makbas|dabbase|dabase|dabese|sobat|7itha2|da3ase|d3se|da3se|
-sajede|sajjede|sjede|7ajra|7ajara|sa5ra|sakhra|telefon|talefon|talifon|telifon|jawwal|jawal|jawel|jawwel|hatef|haatef|
-filfol|folfol|filfil|filfol|flayfle|flaifle|flaifli|flayfli|zeene|zini|zeeni|zine|ma7rame|ma7rme|mandeel|mendeel|mendil|mandil|kanze|
-2amees|amees|2mees|2amis|amis|2mis|sotra|stra|seshwar|sishwar|sechwar|kora|tabe|taabe|tabi|birwez|berwez|berwaz|itaar|itar|etar|
-warde|wardi|warda|zahra|guitar|takaya|takeye|wesede|wesada|mosht|moshot|jacket|m3taf|mi3taf|me3taf|m3tf|me3tf|mi3tf|ta3li2a|ta3lee2a|te3li2a|te3lee2a|
-kirsi|kirse|kirsy|korse|korsy|sham3a|cham3a|farashe|farasha|satl|satel|dalw|iswara|eswara|oswara|siwar|sewar|iswaara|eswaara|oswaara|siwaar|sewaar|
-kitaab|kitab|kteb|malaf|milaf|darraje|darraja|7zem|7izem|7izam|ta2eye|ta2iyi|ballon|baloon|avocado|
-أفوكادو|بالون|قبعة|طقية|حزام|دراجة|كرة بلياردو|طابة|ملف|كتاب|سوار|اسوارة| دلو|سطل|فراشة|شمعة|كرسي|تعليقة|معطف|جاكيت|مشط|وسادة|تكاية|جيتار|زهرة|وردة|إطار|برواز|كرة جولف|كرة|مجفف شعر|سشوار|سترة|قميص|كنزة|محرمة|منديل|زينة|فلفل|فليفلة|هاتف|جوال|تلفون|تيلفون|حجرة|سجادة|دعسة|دعاسة|حذاء|صباط|دباسة| مكبس|فنجان شاي |فنجان|كباية|فرشاة أسنان|فرشاة|فرشاية|سلحفاة|سلحفة|سلحفا|كعكة زفاف|كعكة|كيكة|كيك|خيوط|خيطان|صوف
-"
+sizeTerms <- "
+كلب|وردة|زهرة|دب|باندا|سيارة|رانج|حلوى|بونبون|بون بون|كنزة|قميص|نسر|عصفور|ببغاء|حمامة|يمامة|سمكة|سمك|طاولة|خزانة|جوارير|
+kalb|keleb|warde|wardei|wrde|wrdi|zahra|dob|dobb|deb|debb|dib|dibb|sayyara|sayara|range|7alwa|7ilo|7elo|bonbon|bon bon|kanze|
+kanzi|knzi|knze|2amees|2amis|2mis|2mees|nisir|nsr|3osfour|3sfour|asfoor|asfour|osfour|osfoor|babaghaa2|baba8a2|babagha2|baba8aa2|
+7amama|7ameme|yamama|yameme|samake|samaka|smke|samke|samak|tawle|tawla|tawela|5zene|5izana|5azne|jawareer"
 bleachedNouns <- "وحدة|واحد|شي|شيء"
 articles <- "ال"
 
