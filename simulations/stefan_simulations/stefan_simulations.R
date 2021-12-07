@@ -1,13 +1,12 @@
-install.packages('varhandle')
 library(tidyverse)
 library(grid)
 library(gridExtra)
 library(cowplot)
 library(viridis)
 library(jsonlite)
-
 library('varhandle')
 
+# Set working directory = R code knows where to get relevant documents
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 
 # RUN WEBPPL FROM A V8 JS ENGINE (FASTER WHEN YOU NEED TO RUN MANY, MANY CALLS TO WEBPPL)
@@ -15,23 +14,42 @@ source("../../_shared/V8wppl.R")
 
 # SOURCE SOME HELPER SCRIPTS
 
-# contains runModel function that interacts with V8 engine and runs the code
+# Load all the functions found in stefanSimulationHelpers.R
+#   This contains the runModel function that interacts with the V8 engine
+#   and runs the code in Webppl online
 source("stefanSimulationHelpers.R")
 
 # Source the engine
 # Engine = basic RSA model in webppl code (all the speaker and listener functions)
 engine <- read_file("../../_shared/engine.txt")
 
-# load the functions that are required for the Serbo-Croatian semantics function to run
+# Load all the extra semantic functions that are required for the main Serbo-Croatian
+#   semantics function to run, but that are not found in the csv file created by stefanAllScenarios.py
 semanticHelperFunctions <- read_file("stefanModels/stefanSemanticHelperFunctions.txt")
 
 # load in csv file with conditions to run
-scenariosToRun <- read.csv("stefanModels/stefanScenarios.csv", as.is = TRUE)
+# Load the csv file with all the conditions to run. This csv file is created by 
+#   stefanAllScenarios.py. It contains the following columns:
+# states: a set states that defines the particular scenario we are running
+# command: command/model type, aka is semantics boolean or continuous and
+#       are we using the incremental or vanilla/global model
+# target: the target object
+# utterance: one of the utterances that could apply to that scenario. This field is NA
+#       for global utterance commands because only the incremental utterance commands
+#       require us to specify a single utterance
+# model: RSA model function with all words and their noise/cost, this is a string
+#       of javaScript code
+# Semantics: RSA semantics function with all dictionary entries and their noise
+#       this is a string of javaScript code
+scenariosToRun <- read.csv("stefanModels/stefanScenario1.csv", as.is = TRUE)
 
-# scenariosToRun <- lapply(scenariosToRun, as.character)
+# Do to a bug in the python script, we have duplicates of boolean semantic rows
+# therefore we only want to get the unique rows
+scenariosToRun <- unique(scenariosToRun)
 
-params_test <- c(7, .8, 0.99, 1, 0.99, 0.1, 0.1, 0)
-
+#For testing cost function
+# scenariosToRun <- scenariosToRun %>%
+#   filter(scenariosToRun$commandType == 'globalCont' & scenariosToRun$target == 'blue_cup_fem')
 
 # Function that takes in values from each row of the scneariosToRun csv file
 #   run the model on those values, and return the speaker probability
@@ -49,501 +67,721 @@ params_test <- c(7, .8, 0.99, 1, 0.99, 0.1, 0.1, 0)
 #   semantics: string of JS code, semantics function for Serbo-Croatian with values pertaining to this scenario
 #   parameters: 
 # Output: A single number representing speaker probability of producing the given utterance and target
-runModelWrapper <- function(states, commandType, command, target, utterance, allUtterances, model, semantics) {
-  ####### ADD THE BOOLEAN SEMANTICS TO THIS ONCE YOU IMPLEMENT PARAMETERS CORRECTLY
-  
+runModelWrapper <- function(states, commandType, command, target, utterance, allUtterances, model, semantics, 
+                            alpha, sizeNoise, colorNoise, genderNoise, nounNoise, colorCost, sizeCost, nounCost) {
+
   runModel('V8', engine, model, semantics, semanticHelperFunctions, command, states, allUtterances,
-          alpha = 1, sizeNoiseVal =1, colorNoiseVal = 1, 
-           genderNoiseVal = 1, nounNoiseVal = 1,
-           colorCost = 0, sizeCost = 0, nounCost = 0)
+          alpha, sizeNoise, colorNoise, genderNoise, nounNoise,
+           colorCost, sizeCost, nounCost)
 }
 
+# Turn the contents of the csv file into a data frame
 scenarios <- data.frame(scenariosToRun)
-scenarios <- unfactor(test)
 
-#runModelWrapper(test[1,1], test[1,2], test[1,3], test[1,4], test[1,5], test[1,6], test[1,7], test[1,8])
 
-# Run the function on all the scenarios
+# Run the model on all rows, each representing a single scenario with a specific set
+# of parameters to be ran.
 scenarios <- scenarios %>%
   mutate(output = sapply(
   split(scenarios, 1:nrow(scenarios)),
   function(x) do.call(runModelWrapper, x)
 ))
 
-#Get globalCont and globalBool scenarios
+# Incremental versus global models return different outputs. Therefore we must split them up and
+#   manipulate them to have them be of the same format
+# For the incremental models there is a single row per utterance, and the output column contains 
+#   a single value corresponding to the probability of the speaker producing that utterance given
+#   the condition. This is the format that we want all the data to be in
+# For the global/vanilla models, each row represents a scenario including all possible utterances.
+#   the output is a string of all the utterances the speaker could produce, along with the probabilities
+#   that they produce that utterance.
+
 globalScenarios <- scenarios %>%
   filter(scenarios$commandType == "globalBool" | scenarios$commandType == "globalCont")
 
-#Expand the output of the global variables
+incrementalScenarios <- scenarios %>%
+  filter(scenarios$commandType == "incBool" | scenarios$commandType == "incCont")
+incrementalScenarios$output <- as.numeric(incrementalScenarios$output)
+
+# The RSA for incremental utteracnes outputs a single number
+# but for global utterances it produces a whole string, so we want to split that string up
+
+###
+# FORMAT THE GLOBAL SCENARIOS
+#
+# This section of the code takes the string model output of the global scenarios
+# which looks like "Margin: 'START big_masc STOP' : 0.503, 'START big_masc blue_masc STOP' : 0.345, ..."
+# and converts it to a data frame, whereby each row represents a single utterance that
+# can apply to a specific scenario. Thus a single scenario will have n rows, such that
+# there are n utterances that apply to the scenario. 
+
+
+# Function that expands the of the RSA models and turns them into a dataframe
+# Input: String representing output of RSA model (for a single scenario)
+# Output: a data frame with two columns: utterances and probabilities
 expandOutput <- function(output) {
   
-  #tester <- globalScenarios[1,9]
+  #output is a vector containing all unformatted outputs from the global contexts
+  # tester <- globalScenarios[19,17]
   
   #split up the input
-  outputformatted <- unlist(str_split(output, "\n"))
+  wordsAndNumbers <- unlist(str_split(output, "\n"))
   
   # get rid of the string "Marginal:"
-  outputformatted <- outputformatted[-1]
-
+  #wordsAndNumbers <- wordsAndNumbers[!grepl(paste0("Marginal:", collapse = "|"), wordsAndNumbers)]
+  wordsAndNumbers <- wordsAndNumbers[-1]
+  
   # extract the numbers from the output
-  outputNumbers <- as.numeric(unlist(regmatches(outputformatted,gregexpr("[[:digit:]]+\\.*[[:digit:]]*",outputformatted))))
+  # Treats "e-" in strings as something to separate the string by rather than part of the number
+  getNumbers <- function(fullString) {
+    
+    #strings are of the following format:
+    #"    \"START plate_masc STOP\" : 1.5679677389425024e-7"
+    
+    # split the string 
+    splitString <- unlist(str_split(fullString, " : "))
+    
+    #return the second element (i.e. just the number)
+    return(as.numeric(splitString[2]))
+  }
+  
+  outputNumbers <- wordsAndNumbers %>% map_dbl(getNumbers)
   
   #extract the utterances
   extractUtterances <- function(oneUtterance) {
     oneUtterance <- gsub('[[:digit:]]+', '', oneUtterance)
     oneUtterance <- gsub('\" : .', '', oneUtterance)
     oneUtterance <- gsub('    \"', '', oneUtterance)
+    oneUtterance <- gsub('e-', '', oneUtterance)
     return(oneUtterance)
   }
   
-  ############
-  # THIS ISN"T WORKING SO I"M JUST GOING TO LOOP
-  #outputformatted <- lapply(outputformatted, extractUtterances())
-  
-  utteranceList <- c()
-  for (i in 1:length(outputformatted)) {
-    utteranceList <- append(utteranceList, extractUtterances(outputformatted[i]))
-  }
-  
-  
-  # combine them into a data frame
-  # return data structure
-  print("______")
-  print(length(utteranceList))
-  # print(utteranceList)
-  print(length(outputNumbers))
-  # print(outputNumbers)
-  
-  return(data.frame(utteranceList, outputNumbers))
+  outputUtterances <- map_chr(wordsAndNumbers, extractUtterances)
+  return(data.frame(outputUtterances, outputNumbers))
 }
 
-#lapply expandOutput function to every row 
-allGlobalUtterances <- apply(globalScenarios$output, 1, expandOutput())
-  
-bran_test <- globalScenarios[1:9]
-
-bran_new <- bran_test %>%
-  rowwise() %>%
-  expandOutput()
-
-#add new columns based on utterances and outputs
-#merge that back in with the main dataframe
-
-
-
-
-# run the model
-runModelWrapper <- function(targetState, states, utterances, command, params) {
-  #create command using the targetState input
-  cmd <- paste(cmd_test[1], targetState, cmd_test[2], sep="\"")
-  #run model
-  runModel('V8', engine, modelAndSemantics, cmd, states, utterances, params[1], sizeNoiseVal = params[2], colorNoiseVal = params[3], genderNoiseVal = params[4], nounNoiseVal = params[5],
-           colorCost = params[6], sizeCost = params[7], nounCost = params[8])
-}
-
-#1 = apply function to columns
-apply(matrix1, 1, function1)
-# I think 2 = apply function to rows?
-
-#Run the model
-
-#genderNoiseVal = 1, nounNoiseVal = 0.99,
-model1 <- runModel('V8', engine, modelAndSemantics, cmd_main, states_main, utterances_main, 7, sizeNoiseVal = .8, colorNoiseVal = 0.99, genderNoiseVal = 1, nounNoiseVal = 0.99,
-         colorCost = 0.1, sizeCost = 0.1, nounCost = 0)
-
-
-
-#############
-# Old stefan code to be deleted once everything works
-
-
-
-# #method where I add things in by columns
-# stefanDF <- data.frame(c("model1", "model1", "model1", "model1","model1","model1", "model1"))
-# stefanDF <- stefanDF %>% mutate(c("big_blue_plate_masc", "big_blue_plate_masc","big_blue_plate_masc","big_blue_plate_masc","big_blue_plate_masc","big_blue_plate_masc", "big_blue_plate_masc"))
-# stefanDF <- stefanDF %>% mutate(c(toJSON(states_test), toJSON(states_test),toJSON(states_test),toJSON(states_test),toJSON(states_test),toJSON(states_test),toJSON(states_test)))
-# stefanDF <- stefanDF %>% mutate(c(toJSON(params_test), toJSON(params_test),toJSON(params_test),toJSON(params_test),toJSON(params_test),toJSON(params_test),toJSON(params_test)))
-# stefanDF <- stefanDF %>% mutate(utterances_test)
-# 
-# # 
-# 
-# stefanDF <- data.frame(c("model1", "big_blue_plate_masc", toJSON(states_test), toJSON(params_test)))
-
-# Tibble Method to data frame
-#Create first row model
-stefanDF <- tibble(Name="model1", Target="big_blue_plate_masc", StateList=toJSON(states_test), Parameters=toJSON(params_test), Utterances=NA)
-# stefanDF <- stefanDF %>% add_row(Name="model1", Target="big_blue_plate_masc", StateList=toJSON(states_test), Parameters=toJSON(params_test))
-utterancesModel1 <- makeUtterances(states_test)
-#Add utterances to Utterances column and otherwise just copy the row exactly as it is
-
-
-#Janky way of doing this
-stefanDF <- stefanDF %>% slice(rep(1:n(), length.out = length(utterancesModel1))) 
-stefanDF <- stefanDF %>% add_column(utterancesModel1)
-
-#add second scenario
-stefanDF <- add_row(stefanDF, Name = "model2", Target = "blue_plate_masc", StateList=toJSON(states_two), Parameters=toJSON(params_test))
-utterancesModel2 <- makeUtterances(states_two)
-# Figure out way to duplicate the second model now
-
-stefanDF <- rep(stefanDF[16,], length.out=length(utterancesModel1) + length(utterancesModel2))
-stefanDF <- stefanDF %>% replace_na(utterancesModel2)
-
-# # Try a method where I add rows
-# stefanDF <- data.frame(matrix(ncol = 5, nrow = 0))
-# colnames(stefanDF) <- c("Name", "Target", "StateList", "Utterances", "Parameters")
-# stefanDF <- as_tibble(stefanDF)
-# 
-# 
-# stefanDF <- add_row(stefanDF, list("model1", "big_blue_plate_masc", toJSON(states_test), toJSON(params_test)))
-# stefanDF <- rbind(stefanDF, list("model2", "blue_plate_masc", toJSON(states_two), toJSON(params_test)), stringsAsFactors = FALSE)
-# 
-
-# 
-# 
-# stefanDF <- rbind(stefanDF, c("model1", "big_blue_plate_masc", toJSON(states_test), toJSON(params_test)))
-# stefanDF <- rbind(stefanDF, c("model1", "big_blue_plate_masc", toJSON(states_test), toJSON(params_test)))
-# stefanDF <- rbind(stefanDF, c("model1", "big_blue_plate_masc", toJSON(states_test), toJSON(params_test)))
-# stefanDF <- rbind(stefanDF, c("model1", "big_blue_plate_masc", toJSON(states_test), toJSON(params_test)))
-# stefanDF <- rbind(stefanDF, c("model1", "big_blue_plate_masc", toJSON(states_test), toJSON(params_test)))
-# stefanDF <- rbind(stefanDF, c("model1", "big_blue_plate_masc", toJSON(states_test), toJSON(params_test)))
-# stefanDF <- mutate(stefanDF, utterances_test)
-# stefanDF <- rbind(stefanDF, c("model2", "blue_plate_masc", toJSON(states_two), toJSON(utterances_two), toJSON(params_test)), stringsAsFactors = FALSE)
-# 
-# 
-# stefanDF <- stefanDF %>%
-#   expand(utterances_test)
-# 
-
-
-# toJSON --> converts vector to a string
-# fromJSON --> converts vector from a string
-
-#Can't get this to work
-#Should print one line at a time
-#I literally got it to work before idk why it's being weird.
-modelPrint <- function(modelForPrint) {
-  modelForPrint <- modelForPrint %>% strsplit("\n")
-  print(modelForPrint)
-  foo <- function(x) {
-    str_remove(x, "   \"")
-  }
-  foo2 <- function(x) {
-    str_remove(x, "\"")
-  }
-  modelForPrint <- lapply(modelForPrint, foo) %>% lapply(foo2)
-  return(modelForPrint)
-}
-
-###########
-# VALDF FOR SCIL PAPER
-
-valDF <- data.frame("colorNoise" = c(0.5,0.6,0.7,0.8,0.9,1), "sizeNoise" = c(0.5,0.6,0.7,0.8,0.9,1), "alpha" = c(1,2.5,15,10,20,30))
-valDF <- valDF %>%
-  expand(colorNoise, sizeNoise, alpha) %>%
-  filter(alpha %in% c(5,10,15,20))
-
-# VALDF FOR SCIL APP
-
-valDF <- data.frame("colorNoise" = c(0.5,0.6,0.7,0.8,0.9,1), "sizeNoise" = c(0.5,0.6,0.7,0.8,0.9,1), "alpha" = c(1,2.5,5,10,15,20))
-valDF <- valDF %>%
-  expand(colorNoise, sizeNoise, alpha)
-
-# COLOR-SUFFICIENT SCENARIO 
-
-## English
-
-
-english_sizeOvermodification <- valDF %>%
-  group_by(colorNoise, sizeNoise, alpha) %>%
-  mutate(speakerProb = runModel('V8', engine, modelAndSemantics, cmd_eng, states_cs, utterances_eng_cs, alpha, sizeNoiseVal = sizeNoise, colorNoiseVal = colorNoise, 
-                                colorCost = 0.1, sizeCost = 0.1, nounCost = 0))
-
-english_sizeOvermodification$language <- "English"
-
-## Spanish-split
-
-sp_split_sizeOvermodification <- valDF %>%
-  group_by(colorNoise, sizeNoise, alpha) %>%
-  mutate(speakerProb = runModel('V8', engine, modelAndSemantics, cmd_sp_split, states_cs, utterances_sp_split_cs, alpha, sizeNoiseVal = sizeNoise, colorNoiseVal = colorNoise, 
-                                colorCost = 0.1, sizeCost = 0.1, nounCost = 0))
-
-sp_split_sizeOvermodification$language <- "Spanish\n-split"
-
-## Spanish-conj
-
-sp_conj_sizeOvermodification <- valDF %>%
-  group_by(colorNoise, sizeNoise, alpha) %>%
-  mutate(speakerProb = runModel('V8', engine, modelAndSemantics, cmd_sp_conj, states_cs, utterances_sp_conj_cs, alpha, sizeNoiseVal = sizeNoise, colorNoiseVal = colorNoise, 
-                                colorCost = 0.1, sizeCost = 0.1, nounCost = 0))
-
-sp_conj_sizeOvermodification$language <- "Spanish\n-postnom.\n-conj."
-
-## Spanish-postnom.
-
-sp_postnom_sizeOvermodification <- valDF %>%
-  group_by(colorNoise, sizeNoise, alpha) %>%
-  mutate(speakerProb = runModel('V8', engine, modelAndSemantics, cmd_sp_postnom, states_cs, utterances_sp_postnom_cs, alpha, sizeNoiseVal = sizeNoise, colorNoiseVal = colorNoise, 
-                                colorCost = 0.1, sizeCost = 0.1, nounCost = 0))
-
-sp_postnom_sizeOvermodification$language <- "Spanish\n-postnom."
-
-sizeOvermodification <- rbind(english_sizeOvermodification, rbind(sp_split_sizeOvermodification,rbind(sp_conj_sizeOvermodification,sp_postnom_sizeOvermodification)))
-
-# SIZE-SUFFICIENT SCENARIO 
-
-## English
-
-english_colorOvermodification <- valDF %>%
-  group_by(colorNoise, sizeNoise, alpha) %>%
-  mutate(speakerProb = runModel('V8', engine, modelAndSemantics, cmd_eng, states_ss, utterances_eng_ss, alpha, sizeNoiseVal = sizeNoise, colorNoiseVal = colorNoise, 
-                                colorCost = 0.1, sizeCost = 0.1, nounCost = 0))
-
-english_colorOvermodification$language <- "English"
-
-## Spanish-split
-
-sp_split_colorOvermodification <- valDF %>%
-  group_by(colorNoise, sizeNoise, alpha) %>%
-  mutate(speakerProb = runModel('V8', engine, modelAndSemantics, cmd_sp_split, states_ss, utterances_sp_split_ss, alpha, sizeNoiseVal = sizeNoise, colorNoiseVal = colorNoise, 
-                                colorCost = 0.1, sizeCost = 0.1, nounCost = 0))
-
-sp_split_colorOvermodification$language <- "Spanish\n-split"
-
-## Spanish-conj
-
-sp_conj_colorOvermodification <- valDF %>%
-  group_by(colorNoise, sizeNoise, alpha) %>%
-  mutate(speakerProb = runModel('V8', engine, modelAndSemantics, cmd_sp_conj, states_ss, utterances_sp_conj_ss, alpha, sizeNoiseVal = sizeNoise, colorNoiseVal = colorNoise, 
-                                colorCost = 0.1, sizeCost = 0.1, nounCost = 0))
-
-sp_conj_colorOvermodification$language <- "Spanish\n-postnom.\n-conj."
-
-## Spanish-postnom.
-
-sp_postnom_colorOvermodification <- valDF %>%
-  group_by(colorNoise, sizeNoise, alpha) %>%
-  mutate(speakerProb = runModel('V8', engine, modelAndSemantics, cmd_sp_postnom, states_ss, utterances_sp_postnom_ss, alpha, sizeNoiseVal = sizeNoise, colorNoiseVal = colorNoise, 
-                                colorCost = 0.1, sizeCost = 0.1, nounCost = 0))
-
-sp_postnom_colorOvermodification$language <- "Spanish\n-postnom."
-
-colorOvermodification <- rbind(english_colorOvermodification, rbind(sp_split_colorOvermodification,rbind(sp_conj_colorOvermodification,sp_postnom_colorOvermodification)))
-
-# PREDICTIONS PLOTS
-
-plot <- function(probDF) {
-  probDF$speakerProb <- as.numeric(probDF$speakerProb)
-  p <- ggplot(probDF, aes(x=sizeNoise,y=colorNoise,color=speakerProb)) +
-    geom_point(size=5,shape=15) +
-    scale_x_continuous(limits=c(.45,1.0),breaks=seq(.475,1.0,.525),labels=c(0.5,1)) +
-    scale_y_continuous(limits=c(.45,1.0),breaks=seq(.475,1.0,.525),labels=c(0.5,1)) +
-    scale_colour_viridis(limits=c(0,1), name="Probability of\nutterance") +
-    facet_grid(alpha~language) +
-    xlab("Semantic value of size") +
-    ylab("Semantic value of color") +
-    theme(panel.spacing=unit(.25, "lines"),
-          panel.border = element_rect(color = "black", fill = NA, size = 1),
-          # axis.text.x = element_text(angle = 20, hjust=1),
-          axis.text.y = element_text(hjust=0.5)) +
-    xlab(element_blank()) +
-    ylab(element_blank())
-  return(p)
-}
-
-color_plot <- plot(colorOvermodification) + 
-  theme(strip.text.y = element_blank(),
-        legend.position = "none") +
-  ggtitle("Redundant color modification")
-
-size_plot <- plot(sizeOvermodification) +
-  theme(axis.text.y = element_blank(), 
-        axis.ticks.y = element_blank(),
-        legend.position = "none") +
-  ylab(element_blank()) +
-  ggtitle("Redundant size modification")
-
-legend <- plot_grid(get_legend(color_plot + theme(legend.position = "right")))
-
-graphs <- arrangeGrob(grobs = list(color_plot, size_plot), ncol = 2, bottom = 'Semantic value of size', left = 'Semantic value of color', right = 'Alpha')
-
-g <- arrangeGrob(graphs, legend, ncol = 2, widths = c(0.85, 0.15))
-
-ggsave(g, filename = "scilpreds.pdf", height = 4, width = 8, units = "in", dpi = 1000)
-
-### SCIL MODEL COMPARISON
-
-base = 6
-expand = 3
-
-graph <- function(probArray) {
-  
-  toGraph <- data.frame(matrix(NA, nrow = 4, ncol = 3))
-  colnames(toGraph) <- c("language", "behavior", "probability")
-  toGraph$language <- c("English", "English", "Spanish-postnom.", "Spanish-postnom.")
-  # toGraph$behavior <- c("Redundant color adjective (SS)", "Redundant size adjective (CS)", 
-                        # "Redundant color adjective (SS)", "Redundant size adjective (CS)")
-  # LABELS FOR POSTER
-  toGraph$behavior <- c("Redundant color adjective", "Redundant size adjective", 
-                        "Redundant color adjective", "Redundant size adjective") 
-  toGraph$probability <- probArray
-  
-  p <- ggplot(toGraph, aes(x=language, y=probability, fill = behavior)) +
-    theme_bw() +
-    theme(text = element_text(size = base * expand / 2, face = "bold")) +
-    ylab(element_blank()) +
-    xlab(element_blank()) +
-    geom_bar(stat="identity",position = "dodge") +
-    # scale_fill_viridis(discrete = TRUE) +
-    # color for the poster
-    scale_fill_manual(values=c("#4287f5","#fff200")) +
-    # for hypothetical graphs
-    theme(legend.title = element_blank(), legend.position="none", # axis.text.x = element_blank(),
-          axis.text.x = element_text(angle = 20, hjust=1),
-    )
-  
-  return(p)
-  
-}
-
-globalalpha <- 30 #30
-incalpha <- 7
-sizeCost <- 0.1
-colorCost <- 0.1
-
-cmd_eng_global <- 'Math.exp(globalUtteranceSpeaker("smallblue", model, params, semantics).score("START small blue pin STOP"))'
-cmd_sp_postnom_global <- 'Math.exp(globalUtteranceSpeaker("smallblue", model, params, semantics).score("START pin blue small STOP"))'
-
-cmd_eng_inc <- cmd_eng
-cmd_sp_postnom_inc <- cmd_sp_postnom
-
-## standard RSA
-
-v1 <- as.numeric(runModel('V8', engine, modelAndSemantics, cmd_eng_global, states_ss, utterances_eng_ss, globalalpha, sizeNoiseVal = 1, colorNoiseVal = 1, 
-                          colorCost = 0, sizeCost = 0, nounCost = 0))
-  
-v2 <- as.numeric(runModel('V8', engine, modelAndSemantics, cmd_eng_global, states_cs, utterances_eng_cs, globalalpha, sizeNoiseVal = 1, colorNoiseVal = 1, 
-                          colorCost = 0, sizeCost = 0, nounCost = 0))
-
-v3 <- as.numeric(runModel('V8', engine, modelAndSemantics, cmd_sp_postnom_global, states_ss, utterances_sp_postnom_ss, globalalpha, sizeNoiseVal = 1, colorNoiseVal = 1, 
-                          colorCost = 0, sizeCost = 0, nounCost = 0))
-
-v4 <- as.numeric(runModel('V8', engine, modelAndSemantics, cmd_sp_postnom_global,states_cs, utterances_sp_postnom_cs, globalalpha, sizeNoiseVal = 1, colorNoiseVal = 1, 
-                          colorCost = 0, sizeCost = 0, nounCost = 0))
-
-standardGraph <- graph(c(v1,v2,v3,v4)) + ggtitle("Standard RSA")
-
-## continuous RSA
-
-v1 <- as.numeric(runModel('V8', engine, modelAndSemantics, cmd_eng_global, states_ss, utterances_eng_ss, globalalpha, sizeNoiseVal = 0.8, colorNoiseVal = 0.95, 
-                          colorCost = 0, sizeCost = 0, nounCost = 0))
-
-v2 <- as.numeric(runModel('V8', engine, modelAndSemantics, cmd_eng_global, states_cs, utterances_eng_cs, globalalpha, sizeNoiseVal = 0.8, colorNoiseVal = 0.95, 
-                          colorCost = 0, sizeCost = 0, nounCost = 0))
-
-v3 <- as.numeric(runModel('V8', engine, modelAndSemantics, cmd_sp_postnom_global, states_ss, utterances_sp_postnom_ss, globalalpha, sizeNoiseVal = 0.8, colorNoiseVal = 0.95, 
-                          colorCost = 0, sizeCost = 0, nounCost = 0))
-
-v4 <- as.numeric(runModel('V8', engine, modelAndSemantics, cmd_sp_postnom_global, states_cs, utterances_sp_postnom_cs, globalalpha, sizeNoiseVal = 0.8, colorNoiseVal = 0.95, 
-                          colorCost = 0, sizeCost = 0, nounCost = 0))
-
-crsaGraph <- graph(c(v1,v2,v3,v4)) + ggtitle("Continuous RSA")
-
-## inc RSA
-
-v1 <- as.numeric(runModel('V8', engine, modelAndSemantics, cmd_eng_inc, states_ss, utterances_eng_ss, incalpha, sizeNoiseVal = 1, colorNoiseVal = 1, 
-                          colorCost = colorCost, sizeCost = sizeCost, nounCost = 0))
-
-v2 <- as.numeric(runModel('V8', engine, modelAndSemantics, cmd_eng_inc, states_cs, utterances_eng_cs, incalpha, sizeNoiseVal = 1, colorNoiseVal = 1, 
-                          colorCost = colorCost, sizeCost = sizeCost, nounCost = 0))
-
-v3 <- as.numeric(runModel('V8', engine, modelAndSemantics, cmd_sp_postnom_inc, states_ss, utterances_sp_postnom_ss, incalpha, sizeNoiseVal = 1, colorNoiseVal = 1, 
-                          colorCost = colorCost, sizeCost = sizeCost, nounCost = 0))
-
-v4 <- as.numeric(runModel('V8', engine, modelAndSemantics, cmd_sp_postnom_inc, states_cs, utterances_sp_postnom_cs, incalpha, sizeNoiseVal = 1, colorNoiseVal = 1, 
-                          colorCost = colorCost, sizeCost = sizeCost, nounCost = 0))
-
-incGraph <- graph(c(v1,v2,v3,v4)) + ggtitle("Incremental RSA")
-
-## continuous inc RSA
-
-v1 <- as.numeric(runModel('V8', engine, modelAndSemantics, cmd_eng_inc, states_ss, utterances_eng_ss, incalpha, sizeNoiseVal = 0.8, colorNoiseVal = 0.95, 
-                          colorCost = colorCost, sizeCost = sizeCost, nounCost = 0))
-
-v2 <- as.numeric(runModel('V8', engine, modelAndSemantics, cmd_eng_inc, states_cs, utterances_eng_cs, incalpha, sizeNoiseVal = 0.8, colorNoiseVal = 0.95,  
-                          colorCost = colorCost, sizeCost = sizeCost, nounCost = 0))
-
-v3 <- as.numeric(runModel('V8', engine, modelAndSemantics, cmd_sp_postnom_inc, states_ss, utterances_sp_postnom_ss, incalpha, sizeNoiseVal = 0.8, colorNoiseVal = 0.95,  
-                          colorCost = colorCost, sizeCost = sizeCost, nounCost = 0))
-
-v4 <- as.numeric(runModel('V8', engine, modelAndSemantics, cmd_sp_postnom_inc, states_cs, utterances_sp_postnom_cs, incalpha, sizeNoiseVal = 0.8, colorNoiseVal = 0.95, 
-                          colorCost = colorCost, sizeCost = sizeCost, nounCost = 0))
-
-cincrsaGraph <- graph(c(v1,v2,v3,v4)) + ggtitle("Continuous\n-incremental RSA") 
-
-graphs <- arrangeGrob(grobs = list(standardGraph,crsaGraph,incGraph,cincrsaGraph), ncol = 2, left = 'Probability of utterance')
-legend <- plot_grid(get_legend(standardGraph + theme(legend.position = "bottom")))
-
-g <- arrangeGrob(graphs, legend, ncol = 1, heights=c(0.9, 0.1))
-
-ggsave(g, file = "modelcomparison_poster.pdf", height = 4, width = 4, units = "in", dpi = 1000)
-
-cincrsaGraph + theme(legend.position = "bottom")
-
-# TRANSITIONAL PROBABILITIES (FIGURE 3 OF PAPER)
-
-# CI-RSA ENGLISH (SS SCENE)
-
-runModel('V8', engine, modelAndSemantics, 
-         'wordSpeaker(["START"], "smallblue", model, params, semantics)', states_ss, utterances_eng_ss, incalpha, sizeNoiseVal = 0.8, colorNoiseVal = 0.95, 
-                    colorCost = colorCost, sizeCost = sizeCost, nounCost = 0)
-
-runModel('V8', engine, modelAndSemantics, 
-         'wordSpeaker(["START","small"], "smallblue", model, params, semantics)', states_ss, utterances_eng_ss, incalpha, sizeNoiseVal = 0.8, colorNoiseVal = 0.95, 
-         colorCost = colorCost, sizeCost = sizeCost, nounCost = 0)
-
-runModel('V8', engine, modelAndSemantics, 
-         'wordSpeaker(["START","big"], "smallblue", model, params, semantics)', states_ss, utterances_eng_ss, incalpha, sizeNoiseVal = 0.8, colorNoiseVal = 0.95, 
-         colorCost = colorCost, sizeCost = sizeCost, nounCost = 0)
-
-# CI-RSA SPANISH (CS SCENE)
-
-runModel('V8', engine, modelAndSemantics, 
-         'wordSpeaker(["START","pin"], "smallblue", model, params, semantics)', states_cs, utterances_sp_postnom_cs, incalpha, sizeNoiseVal = 0.8, colorNoiseVal = 0.95, 
-         colorCost = colorCost, sizeCost = sizeCost, nounCost = 0)
-
-runModel('V8', engine, modelAndSemantics, 
-         'wordSpeaker(["START","pin","blue"], "smallblue", model, params, semantics)', states_cs, utterances_sp_postnom_cs, incalpha, sizeNoiseVal = 0.8, colorNoiseVal = 0.95, 
-         colorCost = colorCost, sizeCost = sizeCost, nounCost = 0)
-
-runModel('V8', engine, modelAndSemantics, 
-         'wordSpeaker(["START","pin","red"], "smallblue", model, params, semantics)', states_cs, utterances_sp_postnom_cs, incalpha, sizeNoiseVal = 0.8, colorNoiseVal = 0.95, 
-         colorCost = colorCost, sizeCost = sizeCost, nounCost = 0)
-
-# I-RSA ENGLISH (SS SCENE)
-
-runModel('V8', engine, modelAndSemantics, 
-         'wordSpeaker(["START"], "smallblue", model, params, semantics)', states_ss, utterances_eng_ss, incalpha, sizeNoiseVal = 1, colorNoiseVal = 1, 
-         colorCost = colorCost, sizeCost = sizeCost, nounCost = 0)
-
-runModel('V8', engine, modelAndSemantics, 
-         'wordSpeaker(["START","small"], "smallblue", model, params, semantics)', states_ss, utterances_eng_ss, incalpha, sizeNoiseVal = 1, colorNoiseVal = 1, 
-         colorCost = colorCost, sizeCost = sizeCost, nounCost = 0)
-
-runModel('V8', engine, modelAndSemantics, 
-         'wordSpeaker(["START","big"], "smallblue", model, params, semantics)', states_ss, utterances_eng_ss, incalpha, sizeNoiseVal = 1, colorNoiseVal = 1, 
-         colorCost = colorCost, sizeCost = sizeCost, nounCost = 0)
-
-# I-RSA SPANISH (CS SCENE)
-
-runModel('V8', engine, modelAndSemantics, 
-         'wordSpeaker(["START","pin"], "smallblue", model, params, semantics)', states_cs, utterances_sp_postnom_cs, incalpha, sizeNoiseVal = 1, colorNoiseVal = 1, 
-         colorCost = colorCost, sizeCost = sizeCost, nounCost = 0)
-
-runModel('V8', engine, modelAndSemantics, 
-         'wordSpeaker(["START","pin","blue"], "smallblue", model, params, semantics)', states_cs, utterances_sp_postnom_cs, incalpha, sizeNoiseVal = 1, colorNoiseVal = 1, 
-         colorCost = colorCost, sizeCost = sizeCost, nounCost = 0)
-
-runModel('V8', engine, modelAndSemantics, 
-         'wordSpeaker(["START","pin","red"], "smallblue", model, params, semantics)', states_cs, utterances_sp_postnom_cs, incalpha, sizeNoiseVal = 1, colorNoiseVal = 1, 
-         colorCost = colorCost, sizeCost = sizeCost, nounCost = 0)
+# Expand the output of each scenario into the proper format and add it to the global scenarios data frame
+globalScenarios$newDataFrames <- globalScenarios %>%
+  select(output) %>%
+  pmap(expandOutput)
+
+#Expand the column with the newly formatted output
+unnestedGlobal <- globalScenarios %>%
+  unnest_longer(newDataFrames)
+
+# Copy over those values into non-nested columns and delete the nested data
+unnestedGlobal$utterance <- unnestedGlobal$newDataFrames$outputUtterances
+unnestedGlobal$output <- unnestedGlobal$newDataFrames$outputNumbers
+unnestedGlobal <- unnestedGlobal %>%
+  select(-c(newDataFrames))
+
+#########
+# We now have a properly formatted global scenario data frame
+
+
+#Merge global back in with main
+scenariosFinal <- bind_rows(incrementalScenarios, unnestedGlobal)
+
+# Output this as a csv file so that we don't have to rerun this code again and again because it takes a long time
+write.csv(scenariosFinal,"stefanTestScenarios/scenarios1Formatted.csv", row.names = FALSE)
+
+
+#######
+# In case you've already run the above code, and just want to analyze the data, without rerunning
+# the code, import the csv file that was written above with the following two lines of code
+setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
+scenariosFinal <- read.csv("stefanTestScenarios/scenarios1Formatted.csv", as.is = TRUE)
+
+
+
+###############
+# SCENARIO 1
+# objects: ['blue_plate_masc', 'red_plate_masc', 'blue_cup_fem']
+# target: 'blue_cup_fem'
+# alpha: 19, same for all models
+# cost: {0, 0.1}, same for all words
+# sizeNoise: 0.8
+# colorNoise: 0.95
+# nounNoise: 0.9
+# genderNoise: {0.7, 0.8, 0.9, 1.0}
+###############
+
+# Get the correct Scenario
+scenario1 <- scenariosFinal %>%
+  filter(scenariosFinal$target == "blue_cup_fem" & scenariosFinal$states == "['blue_plate_masc', 'red_plate_masc', 'blue_cup_fem']")
+
+# Scenario 1; all continous graphs; cost = 0
+graphScenario1Cost0Cont <-  scenario1 %>%
+  filter(scenario1$sizeCost == 0 & (
+    scenario1$commandType == "globalCont" | 
+    scenario1$commandType == "incCont")) %>%
+  group_by(commandType, genderNoise) %>%
+  mutate(identifier = paste("commandType: ", commandType, ", genderNoise: ", genderNoise, ", cost: ", sizeCost, sep = "")) %>%
+  ggplot(aes(x=utterance,y=output)) + 
+  geom_bar(stat="identity") + 
+  facet_wrap(~identifier, ncol = 4) +
+  theme_bw() + 
+  theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
+
+
+# Scenario 1; all continous graphs; cost = 0.1
+graphScenario1Cost01Cont <-  scenario1 %>%
+  filter(scenario1$sizeCost == 0.1 & (
+      scenario1$commandType == "globalCont" | 
+      scenario1$commandType == "incCont")) %>%
+  group_by(commandType, genderNoise) %>%
+  mutate(identifier = paste("commandType: ", commandType, ", genderNoise: ", genderNoise, ", cost: ", sizeCost, sep = "")) %>%
+  ggplot(aes(x=utterance,y=output)) + 
+  geom_bar(stat="identity") + 
+  facet_wrap(~identifier, ncol = 4) +
+  theme_bw() + 
+  theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
+
+
+# Scenario 1; Graphs by genderNoise and sizeCost
+graphScenario1Cost0GenderNoise07 <- scenario1 %>%
+  filter(scenario1$genderNoise == 0.7 | 
+           scenario1$commandType == "globalBool" | 
+           scenario1$commandType == "incBool") %>%
+  mutate(identifier = paste("cost: ", sizeCost, ", commandType: ", commandType, ", genderNoise: ", genderNoise, sep = "")) %>%
+  ggplot(aes(x=utterance,y=output)) + 
+  geom_bar(stat="identity") + 
+  facet_wrap(~identifier, ncol = 4) +
+  theme_bw() + 
+  theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
+
+graphScenario1Cost0GenderNoise08 <- scenario1 %>%
+  filter(scenario1$genderNoise == 0.8 | 
+           scenario1$commandType == "globalBool" | 
+           scenario1$commandType == "incBool") %>%
+  mutate(identifier = paste("cost: ", sizeCost, ", commandType: ", commandType, ", genderNoise: ", genderNoise, sep = "")) %>%
+  ggplot(aes(x=utterance,y=output)) + 
+  geom_bar(stat="identity") + 
+  facet_wrap(~identifier, ncol = 4) +
+  theme_bw() + 
+  theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
+
+graphScenario1Cost0GenderNoise09 <- scenario1 %>%
+  filter(scenario1$genderNoise == 0.9 | 
+           scenario1$commandType == "globalBool" | 
+           scenario1$commandType == "incBool") %>%
+  mutate(identifier = paste("cost: ", sizeCost, ", commandType: ", commandType, ", genderNoise: ", genderNoise, sep = "")) %>%
+  ggplot(aes(x=utterance,y=output)) + 
+  geom_bar(stat="identity") + 
+  facet_wrap(~identifier, ncol = 4) +
+  theme_bw() + 
+  theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
+
+graphScenario1Cost0GenderNoise1 <- scenario1 %>%
+  filter(scenario1$genderNoise == 1.0 | 
+           scenario1$commandType == "globalBool" | 
+           scenario1$commandType == "incBool") %>%
+  mutate(identifier = paste("cost: ", sizeCost, ", commandType: ", commandType, ", genderNoise: ", genderNoise, sep = "")) %>%
+  ggplot(aes(x=utterance,y=output)) + 
+  geom_bar(stat="identity") + 
+  facet_wrap(~identifier, ncol = 4) +
+  theme_bw() + 
+  theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
+
+
+# EXPORT THE SCENARIO 1 PLOTS
+
+#Export the plots
+jpeg(file="stefanTestScenarios/scenario1_ContModels_Cost0.jpeg", width = 1500, height = 1000)
+plot(graphScenario1Cost0Cont)
+dev.off()
+
+jpeg(file="stefanTestScenarios/scenario1_ContModels_Cost01.jpeg", width = 1500, height = 1000)
+plot(graphScenario1Cost01Cont)
+dev.off()
+
+jpeg(file="stefanTestScenarios/scenario1_ModelComparison_GenderNoise07.jpeg", width = 1500, height = 1000)
+plot(graphScenario1Cost0GenderNoise07)
+dev.off()
+
+jpeg(file="stefanTestScenarios/scenario1_ModelComparison_GenderNoise08.jpeg", width = 1500, height = 1000)
+plot(graphScenario1Cost0GenderNoise08)
+dev.off()
+
+jpeg(file="stefanTestScenarios/scenario1_ModelComparison_GenderNoise09.jpeg", width = 1500, height = 1000)
+plot(graphScenario1Cost0GenderNoise09)
+dev.off()
+
+jpeg(file="stefanTestScenarios/scenario1_ModelComparison_GenderNoise1.jpeg", width = 1500, height = 1000)
+plot(graphScenario1Cost0GenderNoise1)
+dev.off()
+
+
+
+###############
+# SCENARIO 2
+# objects: ['big_blue_plate_masc', 'big_red_plate_masc', 'small_blue_plate_masc']
+# target: 'small_blue_plate_masc'
+# alpha: 19, same for all models
+# cost: {0, 0.1}, same for all words
+# sizeNoise: 0.8
+# colorNoise: 0.95
+# nounNoise: 0.9
+# genderNoise: {0.7, 0.8, 0.9, 1.0}
+###############
+
+# Get the correct Scenario
+scenario2 <- scenariosFinal %>%
+  filter(scenariosFinal$target == "small_blue_plate_masc" & scenariosFinal$states == "['big_blue_plate_masc', 'big_red_plate_masc', 'small_blue_plate_masc']")
+
+# Scenario 2; all continous graphs; cost = 0
+graphScenario2Cost0Cont <-  scenario2 %>%
+  filter(scenario2$sizeCost == 0 & (
+    scenario2$commandType == "globalCont" | 
+      scenario2$commandType == "incCont")) %>%
+  group_by(commandType, genderNoise) %>%
+  mutate(identifier = paste("commandType: ", commandType, ", genderNoise: ", genderNoise, ", cost: ", sizeCost, sep = "")) %>%
+  ggplot(aes(x=utterance,y=output)) + 
+  geom_bar(stat="identity") + 
+  facet_wrap(~identifier, ncol = 4) +
+  theme_bw() + 
+  theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
+
+
+# Scenario 2; all continous graphs; cost = 0.1
+graphScenario2Cost01Cont <-  scenario2 %>%
+  filter(scenario2$sizeCost == 0.1 & (
+    scenario2$commandType == "globalCont" | 
+      scenario2$commandType == "incCont")) %>%
+  group_by(commandType, genderNoise) %>%
+  mutate(identifier = paste("commandType: ", commandType, ", genderNoise: ", genderNoise, ", cost: ", sizeCost, sep = "")) %>%
+  ggplot(aes(x=utterance,y=output)) + 
+  geom_bar(stat="identity") + 
+  facet_wrap(~identifier, ncol = 4) +
+  theme_bw() + 
+  theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
+
+
+# Scenario 2; Graphs by genderNoise and sizeCost
+graphScenario2Cost0GenderNoise07 <- scenario2 %>%
+  filter(scenario2$genderNoise == 0.7 | 
+           scenario2$commandType == "globalBool" | 
+           scenario2$commandType == "incBool") %>%
+  mutate(identifier = paste("cost: ", sizeCost, ", commandType: ", commandType, ", genderNoise: ", genderNoise, sep = "")) %>%
+  ggplot(aes(x=utterance,y=output)) + 
+  geom_bar(stat="identity") + 
+  facet_wrap(~identifier, ncol = 4) +
+  theme_bw() + 
+  theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
+
+graphScenario2Cost0GenderNoise08 <- scenario2 %>%
+  filter(scenario2$genderNoise == 0.8 | 
+           scenario2$commandType == "globalBool" | 
+           scenario2$commandType == "incBool") %>%
+  mutate(identifier = paste("cost: ", sizeCost, ", commandType: ", commandType, ", genderNoise: ", genderNoise, sep = "")) %>%
+  ggplot(aes(x=utterance,y=output)) + 
+  geom_bar(stat="identity") + 
+  facet_wrap(~identifier, ncol = 4) +
+  theme_bw() + 
+  theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
+
+graphScenario2Cost0GenderNoise09 <- scenario2 %>%
+  filter(scenario2$genderNoise == 0.9 | 
+           scenario2$commandType == "globalBool" | 
+           scenario2$commandType == "incBool") %>%
+  mutate(identifier = paste("cost: ", sizeCost, ", commandType: ", commandType, ", genderNoise: ", genderNoise, sep = "")) %>%
+  ggplot(aes(x=utterance,y=output)) + 
+  geom_bar(stat="identity") + 
+  facet_wrap(~identifier, ncol = 4) +
+  theme_bw() + 
+  theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
+
+graphScenario2Cost0GenderNoise1 <- scenario2 %>%
+  filter(scenario2$genderNoise == 1.0 | 
+           scenario2$commandType == "globalBool" | 
+           scenario2$commandType == "incBool") %>%
+  mutate(identifier = paste("cost: ", sizeCost, ", commandType: ", commandType, ", genderNoise: ", genderNoise, sep = "")) %>%
+  ggplot(aes(x=utterance,y=output)) + 
+  geom_bar(stat="identity") + 
+  facet_wrap(~identifier, ncol = 4) +
+  theme_bw() + 
+  theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
+
+
+# EXPORT THE SCENARIO 2 PLOTS
+
+#Export the plots
+jpeg(file="stefanTestScenarios/scenario2_ContModels_Cost0.jpeg", width = 1500, height = 1000)
+plot(graphScenario2Cost0Cont)
+dev.off()
+
+jpeg(file="stefanTestScenarios/scenario2_ContModels_Cost01.jpeg", width = 1500, height = 1000)
+plot(graphScenario2Cost01Cont)
+dev.off()
+
+jpeg(file="stefanTestScenarios/scenario2_ModelComparison_GenderNoise07.jpeg", width = 1500, height = 1000)
+plot(graphScenario2Cost0GenderNoise07)
+dev.off()
+
+jpeg(file="stefanTestScenarios/scenario2_ModelComparison_GenderNoise08.jpeg", width = 1500, height = 1000)
+plot(graphScenario2Cost0GenderNoise08)
+dev.off()
+
+jpeg(file="stefanTestScenarios/scenario2_ModelComparison_GenderNoise09.jpeg", width = 1500, height = 1000)
+plot(graphScenario2Cost0GenderNoise09)
+dev.off()
+
+jpeg(file="stefanTestScenarios/scenario2_ModelComparison_GenderNoise1.jpeg", width = 1500, height = 1000)
+plot(graphScenario2Cost0GenderNoise1)
+dev.off()
+
+
+
+###############
+# SCENARIO 3
+# objects: ["small_red_plate_masc", "big_red_plate_masc", "small_blue_plate_masc"]
+# target: 'small_blue_plate_masc'
+# alpha: 19, same for all models
+# cost: {0, 0.1}, same for all words
+# sizeNoise: 0.8
+# colorNoise: 0.95
+# nounNoise: 0.9
+# genderNoise: {0.7, 0.8, 0.9, 1.0}
+###############
+
+# Get the correct Scenario
+scenario3 <- scenariosFinal %>%
+  filter(scenariosFinal$target == "small_blue_plate_masc" & scenariosFinal$states == "['small_red_plate_masc', 'big_red_plate_masc', 'small_blue_plate_masc']")
+
+# Scenario 3; all continous graphs; cost = 0
+graphScenario3Cost0Cont <-  scenario3 %>%
+  filter(scenario3$sizeCost == 0 & (
+    scenario3$commandType == "globalCont" | 
+      scenario3$commandType == "incCont")) %>%
+  group_by(commandType, genderNoise) %>%
+  mutate(identifier = paste("commandType: ", commandType, ", genderNoise: ", genderNoise, ", cost: ", sizeCost, sep = "")) %>%
+  ggplot(aes(x=utterance,y=output)) + 
+  geom_bar(stat="identity") + 
+  facet_wrap(~identifier, ncol = 4) +
+  theme_bw() + 
+  theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
+
+
+# Scenario 3; all continous graphs; cost = 0.1
+graphScenario3Cost01Cont <-  scenario3 %>%
+  filter(scenario3$sizeCost == 0.1 & (
+    scenario3$commandType == "globalCont" | 
+      scenario3$commandType == "incCont")) %>%
+  group_by(commandType, genderNoise) %>%
+  mutate(identifier = paste("commandType: ", commandType, ", genderNoise: ", genderNoise, ", cost: ", sizeCost, sep = "")) %>%
+  ggplot(aes(x=utterance,y=output)) + 
+  geom_bar(stat="identity") + 
+  facet_wrap(~identifier, ncol = 4) +
+  theme_bw() + 
+  theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
+
+
+# Scenario 3; Graphs by genderNoise and sizeCost
+graphScenario3Cost0GenderNoise07 <- scenario3 %>%
+  filter(scenario3$genderNoise == 0.7 | 
+           scenario3$commandType == "globalBool" | 
+           scenario3$commandType == "incBool") %>%
+  mutate(identifier = paste("cost: ", sizeCost, ", commandType: ", commandType, ", genderNoise: ", genderNoise, sep = "")) %>%
+  ggplot(aes(x=utterance,y=output)) + 
+  geom_bar(stat="identity") + 
+  facet_wrap(~identifier, ncol = 4) +
+  theme_bw() + 
+  theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
+
+graphScenario3Cost0GenderNoise08 <- scenario3 %>%
+  filter(scenario3$genderNoise == 0.8 | 
+           scenario3$commandType == "globalBool" | 
+           scenario3$commandType == "incBool") %>%
+  mutate(identifier = paste("cost: ", sizeCost, ", commandType: ", commandType, ", genderNoise: ", genderNoise, sep = "")) %>%
+  ggplot(aes(x=utterance,y=output)) + 
+  geom_bar(stat="identity") + 
+  facet_wrap(~identifier, ncol = 4) +
+  theme_bw() + 
+  theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
+
+graphScenario3Cost0GenderNoise09 <- scenario3 %>%
+  filter(scenario3$genderNoise == 0.9 | 
+           scenario3$commandType == "globalBool" | 
+           scenario3$commandType == "incBool") %>%
+  mutate(identifier = paste("cost: ", sizeCost, ", commandType: ", commandType, ", genderNoise: ", genderNoise, sep = "")) %>%
+  ggplot(aes(x=utterance,y=output)) + 
+  geom_bar(stat="identity") + 
+  facet_wrap(~identifier, ncol = 4) +
+  theme_bw() + 
+  theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
+
+graphScenario3Cost0GenderNoise1 <- scenario3 %>%
+  filter(scenario3$genderNoise == 1.0 | 
+           scenario3$commandType == "globalBool" | 
+           scenario3$commandType == "incBool") %>%
+  mutate(identifier = paste("cost: ", sizeCost, ", commandType: ", commandType, ", genderNoise: ", genderNoise, sep = "")) %>%
+  ggplot(aes(x=utterance,y=output)) + 
+  geom_bar(stat="identity") + 
+  facet_wrap(~identifier, ncol = 4) +
+  theme_bw() + 
+  theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
+
+
+# EXPORT THE SCENARIO 3 PLOTS
+
+#Export the plots
+jpeg(file="stefanTestScenarios/scenario3_ContModels_Cost0.jpeg", width = 1500, height = 1000)
+plot(graphScenario3Cost0Cont)
+dev.off()
+
+jpeg(file="stefanTestScenarios/scenario3_ContModels_Cost01.jpeg", width = 1500, height = 1000)
+plot(graphScenario3Cost01Cont)
+dev.off()
+
+jpeg(file="stefanTestScenarios/scenario3_ModelComparison_GenderNoise07.jpeg", width = 1500, height = 1000)
+plot(graphScenario3Cost0GenderNoise07)
+dev.off()
+
+jpeg(file="stefanTestScenarios/scenario3_ModelComparison_GenderNoise08.jpeg", width = 1500, height = 1000)
+plot(graphScenario3Cost0GenderNoise08)
+dev.off()
+
+jpeg(file="stefanTestScenarios/scenario3_ModelComparison_GenderNoise09.jpeg", width = 1500, height = 1000)
+plot(graphScenario3Cost0GenderNoise09)
+dev.off()
+
+jpeg(file="stefanTestScenarios/scenario3_ModelComparison_GenderNoise1.jpeg", width = 1500, height = 1000)
+plot(graphScenario3Cost0GenderNoise1)
+dev.off()
+
+
+###############
+# SCENARIO 4
+# objects: ['blue_plate_masc', 'red_plate_masc', 'blue_cup_fem', 'red_cup_fem']
+# target: 'blue_cup_fem'
+# alpha: 19, same for all models
+# cost: {0, 0.1}, same for all words
+# sizeNoise: 0.8
+# colorNoise: 0.95
+# nounNoise: 0.9
+# genderNoise: {0.7, 0.8, 0.9, 1.0}
+###############
+
+# Get the correct Scenario
+scenario4 <- scenariosFinal %>%
+  filter(scenariosFinal$target == "blue_cup_fem" & scenariosFinal$states == "['blue_plate_masc', 'red_plate_masc', 'blue_cup_fem', 'red_cup_fem']")
+
+# Scenario 4; all continous graphs; cost = 0
+graphScenario4Cost0Cont <-  scenario4 %>%
+  filter(scenario4$sizeCost == 0 & (
+    scenario4$commandType == "globalCont" | 
+      scenario4$commandType == "incCont")) %>%
+  group_by(commandType, genderNoise) %>%
+  mutate(identifier = paste("commandType: ", commandType, ", genderNoise: ", genderNoise, ", cost: ", sizeCost, sep = "")) %>%
+  ggplot(aes(x=utterance,y=output)) + 
+  geom_bar(stat="identity") + 
+  facet_wrap(~identifier, ncol = 4) +
+  theme_bw() + 
+  theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
+
+
+# Scenario 4; all continous graphs; cost = 0.1
+graphScenario4Cost01Cont <-  scenario4 %>%
+  filter(scenario4$sizeCost == 0.1 & (
+    scenario4$commandType == "globalCont" | 
+      scenario4$commandType == "incCont")) %>%
+  group_by(commandType, genderNoise) %>%
+  mutate(identifier = paste("commandType: ", commandType, ", genderNoise: ", genderNoise, ", cost: ", sizeCost, sep = "")) %>%
+  ggplot(aes(x=utterance,y=output)) + 
+  geom_bar(stat="identity") + 
+  facet_wrap(~identifier, ncol = 4) +
+  theme_bw() + 
+  theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
+
+
+# Scenario 4; Graphs by genderNoise and sizeCost
+graphScenario4Cost0GenderNoise07 <- scenario4 %>%
+  filter(scenario4$genderNoise == 0.7 | 
+           scenario4$commandType == "globalBool" | 
+           scenario4$commandType == "incBool") %>%
+  mutate(identifier = paste("cost: ", sizeCost, ", commandType: ", commandType, ", genderNoise: ", genderNoise, sep = "")) %>%
+  ggplot(aes(x=utterance,y=output)) + 
+  geom_bar(stat="identity") + 
+  facet_wrap(~identifier, ncol = 4) +
+  theme_bw() + 
+  theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
+
+graphScenario4Cost0GenderNoise08 <- scenario4 %>%
+  filter(scenario4$genderNoise == 0.8 | 
+           scenario4$commandType == "globalBool" | 
+           scenario4$commandType == "incBool") %>%
+  mutate(identifier = paste("cost: ", sizeCost, ", commandType: ", commandType, ", genderNoise: ", genderNoise, sep = "")) %>%
+  ggplot(aes(x=utterance,y=output)) + 
+  geom_bar(stat="identity") + 
+  facet_wrap(~identifier, ncol = 4) +
+  theme_bw() + 
+  theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
+
+graphScenario4Cost0GenderNoise09 <- scenario4 %>%
+  filter(scenario4$genderNoise == 0.9 | 
+           scenario4$commandType == "globalBool" | 
+           scenario4$commandType == "incBool") %>%
+  mutate(identifier = paste("cost: ", sizeCost, ", commandType: ", commandType, ", genderNoise: ", genderNoise, sep = "")) %>%
+  ggplot(aes(x=utterance,y=output)) + 
+  geom_bar(stat="identity") + 
+  facet_wrap(~identifier, ncol = 4) +
+  theme_bw() + 
+  theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
+
+graphScenario4Cost0GenderNoise1 <- scenario4 %>%
+  filter(scenario4$genderNoise == 1.0 | 
+           scenario4$commandType == "globalBool" | 
+           scenario4$commandType == "incBool") %>%
+  mutate(identifier = paste("cost: ", sizeCost, ", commandType: ", commandType, ", genderNoise: ", genderNoise, sep = "")) %>%
+  ggplot(aes(x=utterance,y=output)) + 
+  geom_bar(stat="identity") + 
+  facet_wrap(~identifier, ncol = 4) +
+  theme_bw() + 
+  theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
+
+
+# EXPORT THE SCENARIO 4 PLOTS
+
+#Export the plots
+jpeg(file="stefanTestScenarios/scenario4_ContModels_Cost0.jpeg", width = 1500, height = 1000)
+plot(graphScenario4Cost0Cont)
+dev.off()
+
+jpeg(file="stefanTestScenarios/scenario4_ContModels_Cost01.jpeg", width = 1500, height = 1000)
+plot(graphScenario4Cost01Cont)
+dev.off()
+
+jpeg(file="stefanTestScenarios/scenario4_ModelComparison_GenderNoise07.jpeg", width = 1500, height = 1000)
+plot(graphScenario4Cost0GenderNoise07)
+dev.off()
+
+jpeg(file="stefanTestScenarios/scenario4_ModelComparison_GenderNoise08.jpeg", width = 1500, height = 1000)
+plot(graphScenario4Cost0GenderNoise08)
+dev.off()
+
+jpeg(file="stefanTestScenarios/scenario4_ModelComparison_GenderNoise09.jpeg", width = 1500, height = 1000)
+plot(graphScenario4Cost0GenderNoise09)
+dev.off()
+
+jpeg(file="stefanTestScenarios/scenario4_ModelComparison_GenderNoise1.jpeg", width = 1500, height = 1000)
+plot(graphScenario4Cost0GenderNoise1)
+dev.off()
+
+
+
+###############
+# SCENARIO 5
+# objects: ['big_plate_masc', 'small_plate_masc', 'big_cup_fem', 'small_cup_fem']
+# target: 'big_cup_fem'
+# alpha: 19, same for all models
+# cost: {0, 0.1}, same for all words
+# sizeNoise: 0.8
+# colorNoise: 0.95
+# nounNoise: 0.9
+# genderNoise: {0.7, 0.8, 0.9, 1.0}
+###############
+
+# Get the correct Scenario
+scenario5 <- scenariosFinal %>%
+  filter(scenariosFinal$target == "big_cup_fem" & scenariosFinal$states == "['big_plate_masc', 'small_plate_masc', 'big_cup_fem', 'small_cup_fem']")
+
+# Scenario 5; all continous graphs; cost = 0
+graphScenario5Cost0Cont <-  scenario5 %>%
+  filter(scenario5$sizeCost == 0 & (
+    scenario5$commandType == "globalCont" | 
+      scenario5$commandType == "incCont")) %>%
+  group_by(commandType, genderNoise) %>%
+  mutate(identifier = paste("commandType: ", commandType, ", genderNoise: ", genderNoise, ", cost: ", sizeCost, sep = "")) %>%
+  ggplot(aes(x=utterance,y=output)) + 
+  geom_bar(stat="identity") + 
+  facet_wrap(~identifier, ncol = 4) +
+  theme_bw() + 
+  theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
+
+
+# Scenario 5; all continous graphs; cost = 0.1
+graphScenario5Cost01Cont <-  scenario5 %>%
+  filter(scenario5$sizeCost == 0.1 & (
+    scenario5$commandType == "globalCont" | 
+      scenario5$commandType == "incCont")) %>%
+  group_by(commandType, genderNoise) %>%
+  mutate(identifier = paste("commandType: ", commandType, ", genderNoise: ", genderNoise, ", cost: ", sizeCost, sep = "")) %>%
+  ggplot(aes(x=utterance,y=output)) + 
+  geom_bar(stat="identity") + 
+  facet_wrap(~identifier, ncol = 4) +
+  theme_bw() + 
+  theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
+
+
+# Scenario 5; Graphs by genderNoise and sizeCost
+graphScenario5Cost0GenderNoise07 <- scenario5 %>%
+  filter(scenario5$genderNoise == 0.7 | 
+           scenario5$commandType == "globalBool" | 
+           scenario5$commandType == "incBool") %>%
+  mutate(identifier = paste("cost: ", sizeCost, ", commandType: ", commandType, ", genderNoise: ", genderNoise, sep = "")) %>%
+  ggplot(aes(x=utterance,y=output)) + 
+  geom_bar(stat="identity") + 
+  facet_wrap(~identifier, ncol = 4) +
+  theme_bw() + 
+  theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
+
+graphScenario5Cost0GenderNoise08 <- scenario5 %>%
+  filter(scenario5$genderNoise == 0.8 | 
+           scenario5$commandType == "globalBool" | 
+           scenario5$commandType == "incBool") %>%
+  mutate(identifier = paste("cost: ", sizeCost, ", commandType: ", commandType, ", genderNoise: ", genderNoise, sep = "")) %>%
+  ggplot(aes(x=utterance,y=output)) + 
+  geom_bar(stat="identity") + 
+  facet_wrap(~identifier, ncol = 4) +
+  theme_bw() + 
+  theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
+
+graphScenario5Cost0GenderNoise09 <- scenario5 %>%
+  filter(scenario5$genderNoise == 0.9 | 
+           scenario5$commandType == "globalBool" | 
+           scenario5$commandType == "incBool") %>%
+  mutate(identifier = paste("cost: ", sizeCost, ", commandType: ", commandType, ", genderNoise: ", genderNoise, sep = "")) %>%
+  ggplot(aes(x=utterance,y=output)) + 
+  geom_bar(stat="identity") + 
+  facet_wrap(~identifier, ncol = 4) +
+  theme_bw() + 
+  theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
+
+graphScenario5Cost0GenderNoise1 <- scenario5 %>%
+  filter(scenario5$genderNoise == 1.0 | 
+           scenario5$commandType == "globalBool" | 
+           scenario5$commandType == "incBool") %>%
+  mutate(identifier = paste("cost: ", sizeCost, ", commandType: ", commandType, ", genderNoise: ", genderNoise, sep = "")) %>%
+  ggplot(aes(x=utterance,y=output)) + 
+  geom_bar(stat="identity") + 
+  facet_wrap(~identifier, ncol = 4) +
+  theme_bw() + 
+  theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
+
+
+# EXPORT THE SCENARIO 5 PLOTS
+
+#Export the plots
+jpeg(file="stefanTestScenarios/scenario5_ContModels_Cost0.jpeg", width = 1500, height = 1000)
+plot(graphScenario5Cost0Cont)
+dev.off()
+
+jpeg(file="stefanTestScenarios/scenario5_ContModels_Cost01.jpeg", width = 1500, height = 1000)
+plot(graphScenario5Cost01Cont)
+dev.off()
+
+jpeg(file="stefanTestScenarios/scenario5_ModelComparison_GenderNoise07.jpeg", width = 1500, height = 1000)
+plot(graphScenario5Cost0GenderNoise07)
+dev.off()
+
+jpeg(file="stefanTestScenarios/scenario5_ModelComparison_GenderNoise08.jpeg", width = 1500, height = 1000)
+plot(graphScenario5Cost0GenderNoise08)
+dev.off()
+
+jpeg(file="stefanTestScenarios/scenario5_ModelComparison_GenderNoise09.jpeg", width = 1500, height = 1000)
+plot(graphScenario5Cost0GenderNoise09)
+dev.off()
+
+jpeg(file="stefanTestScenarios/scenario5_ModelComparison_GenderNoise1.jpeg", width = 1500, height = 1000)
+plot(graphScenario5Cost0GenderNoise1)
+dev.off()

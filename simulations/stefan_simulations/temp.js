@@ -1,4 +1,4 @@
-var semantics = function(params) { return function(state) { return { big_masc: ['big_blue_plate_masc','big_red_plate_masc'].includes(state) ? params.sizeNoiseVal : falseSemantics(params.sizeNoiseVal, params.genderNoiseVal, ['big_blue_plate_masc','big_red_plate_masc'], state),blue_masc: ['big_blue_plate_masc'].includes(state) ? params.colorNoiseVal : falseSemantics(params.colorNoiseVal, params.genderNoiseVal, ['big_blue_plate_masc'], state),plate_masc: ['big_blue_plate_masc','big_red_plate_masc'].includes(state) ? params.nounNoiseVal : falseSemantics(params.nounNoiseVal, params.genderNoiseVal, ['big_blue_plate_masc','big_red_plate_masc'], state),red_masc: ['big_red_plate_masc'].includes(state) ? params.colorNoiseVal : falseSemantics(params.colorNoiseVal, params.genderNoiseVal, ['big_red_plate_masc'], state),big_fem: ['big_red_cup_fem'].includes(state) ? params.sizeNoiseVal : falseSemantics(params.sizeNoiseVal, params.genderNoiseVal, ['big_red_cup_fem'], state),red_fem: ['big_red_cup_fem'].includes(state) ? params.colorNoiseVal : falseSemantics(params.colorNoiseVal, params.genderNoiseVal, ['big_red_cup_fem'], state),cup_fem: ['big_red_cup_fem'].includes(state) ? params.nounNoiseVal : falseSemantics(params.nounNoiseVal, params.genderNoiseVal, ['big_red_cup_fem'], state),STOP : 1, START : 1 } } }
+var semantics = function(params) { return function(state) { return { big_masc: ['big_plate_masc'].includes(state) ? params.sizeNoiseVal : falseSemantics(params.sizeNoiseVal, params.genderNoiseVal, ['big_plate_masc'], state),plate_masc: ['big_plate_masc','small_plate_masc'].includes(state) ? params.nounNoiseVal : falseSemantics(params.nounNoiseVal, params.genderNoiseVal, ['big_plate_masc','small_plate_masc'], state),small_masc: ['small_plate_masc'].includes(state) ? params.sizeNoiseVal : falseSemantics(params.sizeNoiseVal, params.genderNoiseVal, ['small_plate_masc'], state),big_fem: ['big_cup_fem'].includes(state) ? params.sizeNoiseVal : falseSemantics(params.sizeNoiseVal, params.genderNoiseVal, ['big_cup_fem'], state),cup_fem: ['big_cup_fem','small_cup_fem'].includes(state) ? params.nounNoiseVal : falseSemantics(params.nounNoiseVal, params.genderNoiseVal, ['big_cup_fem','small_cup_fem'], state),small_fem: ['small_cup_fem'].includes(state) ? params.sizeNoiseVal : falseSemantics(params.sizeNoiseVal, params.genderNoiseVal, ['small_cup_fem'], state),STOP : 1, START : 1 } } }
 var recursivelySplitGenderAndWord = function(dictDefinition) {
   // split up first item into individual words
   var individualWords = dictDefinition[0].split("_");
@@ -51,22 +51,22 @@ var falseSemantics = function(adjNoise, genderNoise, dictDefinition, state) {
     }
   }
 }
-var model = function(params) {  return { words : ['big_masc','blue_masc','plate_masc','red_masc','big_fem','red_fem','cup_fem','STOP', 'START'], wordCost: {'big_masc' : params.sizeCost,'big_fem' : params.sizeCost,'blue_masc' : params.colorCost,'red_masc' : params.colorCost,'red_fem' : params.colorCost,'plate_masc' : params.nounCost,'cup_fem' : params.nounCost,'STOP'  : 0, 'START'  : 0 },}}
+var model = function(params) {  return { words : ['big_masc','plate_masc','small_masc','big_fem','cup_fem','small_fem','STOP', 'START'], wordCost: {'big_masc' : params.sizeCost,'small_masc' : params.sizeCost,'big_fem' : params.sizeCost,'small_fem' : params.sizeCost,'plate_masc' : params.nounCost,'cup_fem' : params.nounCost,'STOP'  : 0, 'START'  : 0 },}}
 var params = {
-    alpha : 1.000000,
-    sizeNoiseVal : 1.000000,
-    colorNoiseVal : 1.000000,
+    alpha : 19.000000,
+    sizeNoiseVal : 0.800000,
+    colorNoiseVal : 0.950000,
     genderNoiseVal : 1.000000,
-    nounNoiseVal : 1.000000,
-    sizeCost : 0.000000,
-    colorCost : 0.000000,
-    nounCost : 0.000000
+    nounNoiseVal : 0.900000,
+    sizeCost : 0.100000,
+    colorCost : 0.100000,
+    nounCost : 0.100000
   }
   
 var semantics = semantics(params)
     
 var model = extend(model(params), 
- {states : ['big_blue_plate_masc', 'big_red_plate_masc', 'big_red_cup_fem'], utterances : ['START big_masc STOP', 'START blue_masc STOP', 'START plate_masc STOP', 'START blue_masc plate_masc STOP', 'START big_masc plate_masc STOP', 'START big_masc blue_masc STOP', 'START big_masc blue_masc plate_masc STOP', 'START red_masc STOP', 'START red_masc plate_masc STOP', 'START big_masc red_masc STOP', 'START big_masc red_masc plate_masc STOP', 'START big_fem STOP', 'START red_fem STOP', 'START cup_fem STOP', 'START red_fem cup_fem STOP', 'START big_fem cup_fem STOP', 'START big_fem red_fem STOP', 'START big_fem red_fem cup_fem STOP']}) 
+ {states : ['big_plate_masc', 'small_plate_masc', 'big_cup_fem', 'small_cup_fem'], utterances : ['START big_masc STOP', 'START plate_masc STOP', 'START big_masc plate_masc STOP', 'START small_masc STOP', 'START small_masc plate_masc STOP', 'START big_fem STOP', 'START cup_fem STOP', 'START big_fem cup_fem STOP', 'START small_fem STOP', 'START small_fem cup_fem STOP']}) 
                  
 // safeDivide, getTransitions, licitTransitions: helper functions for incremental models 
 
@@ -189,4 +189,4 @@ var incrementalUtteranceSpeaker = cache(function(utt, state, model, params, sema
     },indices)
     return reduce(function(x, acc) { return x * acc; }, 1, probs)
 }, 100000)
-incrementalUtteranceSpeaker('START big_fem red_fem cup_fem STOP', 'big_red_cup_fem', model, params, semantics)
+incrementalUtteranceSpeaker('START small_fem cup_fem STOP', 'small_cup_fem', model, params, semantics)

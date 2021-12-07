@@ -31,6 +31,9 @@
 #       but we love consistency)
 # d) all words used to define states are split up with "_", not spaces or dashes
 #
+
+# ADD SECTION ON PARAMETERS
+
 # INPUT:
 # this code does not need any outside input to run
 #
@@ -45,6 +48,14 @@
 #       of javaScript code
 # Semantics: RSA semantics function with all dictionary entries and their noise
 #       this is a string of javaScript code
+#
+#
+# Bug in the program: We iterate through the cost loop in the boolean semantic scenarios
+# Causing a bunch of repeated rows in the output file
+# I need to fix that in this code, but for now just get only the unique rows in the R file
+
+
+### I HARD CODED ALPHA --> get rid of that for next scenario run
 
 
 # master list that will be wrapper for whole data structure
@@ -54,12 +65,19 @@ masterList = []
 scenarios = []
 
 #create individual scenarios
-scenario1 = ["big_blue_plate_masc", "big_red_plate_masc", "small_blue_plate_masc"]
-scenario2 = ["big_blue_plate_masc", "big_red_plate_masc", "big_red_cup_fem"]
+scenario1 = ["blue_plate_masc", "red_plate_masc", "blue_cup_fem"]
+scenario2 = ["big_blue_plate_masc", "big_red_plate_masc", "small_blue_plate_masc"]
+scenario3 = ["small_red_plate_masc", "big_red_plate_masc", "small_blue_plate_masc"]
+scenario4 = ["blue_plate_masc", "red_plate_masc", "blue_cup_fem", "red_cup_fem"]
+scenario5 = ["big_plate_masc", "small_plate_masc", "big_cup_fem", "small_cup_fem"]
+#scenario2 = ["big_blue_plate_masc", "big_red_plate_masc", "big_red_cup_fem"]
 
 #add all scenarios
 scenarios.append(scenario1)
 scenarios.append(scenario2)
+scenarios.append(scenario3)
+scenarios.append(scenario4)
+scenarios.append(scenario5)
 
 #list of all types of commands
 #   global = global utterances, i.e. not incremental
@@ -75,7 +93,7 @@ commandTypes = ["globalBool", "globalCont", "incBool", "incCont"]
 #       model must be added here
 # This program assumes there are only color and size adjectives along with nouns
 #       i.e. there are no other types of words
-nounDict = ["plate_masc", "cup_fem"]
+nounDict = ["plate_masc", "cup_fem", "knife_masc"]
 colorDict = ["blue_masc", "blue_fem", "blue_neut", "red_masc", "red_fem", "red_neut"]
 sizeDict = ["big_masc", "big_fem", "big_neut", "small_masc", "small_fem", "small_neut"]
 
@@ -341,34 +359,59 @@ counter = -1
 # Iterate through all the scenarios
 for currentScenario in scenarios:
     counter = counter + 1
+    # Iterate through alpha values
+    for alpha in range(1, 21, 5):
+        # Iterate through size noise values
+        # These values will be divided by 100 later in the code
+        for genderNoise in range(70, 101, 10):
+            # Iterate through noun noise values
+            for cost in range(0, 2, 1):
+                # Iterate through commands (i.e. do we want continuous or boolean semantics
+                #   or incremental versus global utterances)
+                for currentCommand in commandTypes:
 
-    # Iterate through commands (i.e. do we want continuous or boolean semantics
-    #   or incremental versus global utterances)
-    for currentCommand in commandTypes:
+                    # Iterate through states, each state that is chosen is the new target
+                    #   for the speaker in the RSA model
+                    for currentState in currentScenario:
 
-        # Iterate through states, each state that is chosen is the new target
-        #   for the speaker in the RSA model
-        for currentState in currentScenario:
+                        #for global models we have no need to itterate through utterances
+                        if currentCommand == "globalBool" or currentCommand == "globalCont":
 
-            #for global models we have no need to itterate through utterances
-            if currentCommand == "globalBool" or currentCommand == "globalCont":
+                            outputCommand = "globalUtteranceSpeaker('" + currentState + "', model, params, semantics)"
 
-                outputCommand = "globalUtteranceSpeaker('" + currentState + "', model, params, semantics)"
+                            #For boolean models we don't need noise terms other than 1
+                            if currentCommand == "globalBool":
+                                #Due to the nature of the for loop in python, we can't itterate through decimal numbers
+                                # so we itterate through whole numbers and divide cost and noise values by 10
+                                masterList.append([currentScenario, currentCommand, outputCommand, currentState, "", utterancesPerScenario[counter], modelsPerScenario[counter], semanticsPerScenario[counter], 19, 1, 1, 1, 1, cost/10, cost/10, cost/10])
+                            #for noisy semantic models we need the noise parameters
+                            else:
+                                #parameters are in the following order: alpha, sizeNoise/10, colorNoise/10, genderNoise/10, nounNoise/10, sizeCost/10, colorCost/10, nounCost/10
+                                # 19, 0.8, 0.95, genderNoise/100, 0.8, cost/10, cost/10, cost/10
+                                masterList.append([currentScenario, currentCommand, outputCommand, currentState, "", utterancesPerScenario[counter], modelsPerScenario[counter], semanticsPerScenario[counter], 19, 0.8, 0.95, genderNoise/100, 0.9, cost/10, cost/10, cost/10])
 
-                masterList.append([currentScenario, currentCommand, outputCommand, currentState, "", utterancesPerScenario[counter], modelsPerScenario[counter], semanticsPerScenario[counter]])
+                        else:
+                            #loop through utterances, each utterance is what will be fed to the
+                            #   speaker in the RSA model
+                            for currentUtterance in utterancesPerScenario[counter]:
+                                outputCommand = "incrementalUtteranceSpeaker('" + currentUtterance + "', '" + currentState + "', model, params, semantics)"
 
-            else:
-                #loop through utterances, each utterance is what will be fed to the
-                #   speaker in the RSA model
-                for currentUtterance in utterancesPerScenario[counter]:
-                    outputCommand = "incrementalUtteranceSpeaker('" + currentUtterance + "', '" + currentState + "', model, params, semantics)"
+                                #For boolean models we don't need noise terms other than 1
+                                if currentCommand == "incBool":
+                                    #Due to the nature of the for loop in python, we can't itterate through decimal numbers
+                                    # so we iterate through whole numbers and divide cost and noise values by 10
+                                    masterList.append([currentScenario, currentCommand, outputCommand, currentState, currentUtterance, utterancesPerScenario[counter], modelsPerScenario[counter], semanticsPerScenario[counter], 19, 1, 1, 1, 1, cost/10, cost/10, cost/10])
 
-                    #add all of this information as a new row to the master data frame
-                    masterList.append([currentScenario, currentCommand, outputCommand, currentState, currentUtterance, utterancesPerScenario[counter], modelsPerScenario[counter], semanticsPerScenario[counter]])
+                                #for noisy semantic models we need the noise parameters
+                                else:
+                                    #parameters are in the following order: alpha, sizeNoise/10, colorNoise/10, genderNoise/10, nounNoise/10, sizeCost/10, colorCost/10, nounCost/10
+                                    masterList.append([currentScenario, currentCommand, outputCommand, currentState, currentUtterance, utterancesPerScenario[counter], modelsPerScenario[counter], semanticsPerScenario[counter], 19, 0.8, 0.95, genderNoise/100, 0.9, cost/10, cost/10, cost/10])
+
 
 # Export as a csv file
 import csv
-with open('stefanScenarios.csv', 'w') as f:
+with open('stefanScenario1.csv', 'w') as f:
     writer = csv.writer(f)
-    writer.writerow(["states", "commandType", "command", "target", "utterance", "allUtterances", "model", "semantics"]) #add columns
+    #add columns with proper names
+    writer.writerow(["states", "commandType", "command", "target", "utterance", "allUtterances", "model", "semantics", "alpha", "sizeNoise", "colorNoise", "genderNoise", "nounNoise", "sizeCost", "colorCost", "nounCost"])
     writer.writerows(masterList)
