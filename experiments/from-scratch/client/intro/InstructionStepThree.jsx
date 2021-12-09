@@ -26,8 +26,14 @@ export default class InstructionStepTwo extends React.Component {
                 game.treatment.gameLanguage +
                 "/guessersample.png"
               }
-              width="650px"
+              width="50%"
             />
+            {game.treatment.gameLanguage == "Arabic" ? (
+              <img
+                src={"sampleScreens/Arabic/guessersample_arabizi.png"}
+                width="50%"
+              />
+            ) : null}
           </center>
 
           <p>{gameTextInLanguage.INSTRUCTION3_Line3}</p>

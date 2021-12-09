@@ -14,7 +14,7 @@ export default class InstructionStepTwo extends React.Component {
     return (
       <Centered>
         <div className="instructions" dir="auto">
-          <h1> {gameTextInLanguage.instructionTitle} </h1>
+          <h1> {gameTextInLanguage.INSTRUCTION2_Title} </h1>
 
           <p>{ReactHtmlParser(gameTextInLanguage.INSTRUCTION2_Line1)}</p>
 
@@ -29,8 +29,14 @@ export default class InstructionStepTwo extends React.Component {
                 game.treatment.gameLanguage +
                 "/directorsample.png"
               }
-              width="600px"
+              width="50%"
             />
+            {game.treatment.gameLanguage == "Arabic" ? (
+              <img
+                src={"sampleScreens/Arabic/directorsample_arabizi.png"}
+                width="50%"
+              />
+            ) : null}
           </center>
 
           <p>{gameTextInLanguage.INSTRUCTION2_Line4}</p>

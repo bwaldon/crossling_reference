@@ -223,7 +223,7 @@ export default class ExitSurvey extends React.Component {
 								<label htmlFor="dialectArabicSpecify">
 									<b>
 										{" " +
-											"[If other, please specify]" +
+											"إذا كنت تتحدث لهجة مختلفة الرجاء التحديد:" +
 											" "}
 									</b>
 								</label>
