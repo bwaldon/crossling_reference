@@ -5,8 +5,14 @@ import { Centered } from "meteor/empirica:core";
 export default class Consent extends React.Component {
   render() {
     const { game, onNext, hasNext } = this.props;
+    let gameLang;
+    if (game.treatment.showConsentInNativeLanguage) {
+      gameLang = game.treatment.gameLanguage;
+    } else {
+      gameLang = "English";
+    }
     const gameTextInLanguage = gameText.filter(
-      (row) => row.language == game.treatment.gameLanguage
+      (row) => row.language == gameLang
     )[0];
 
     return (
