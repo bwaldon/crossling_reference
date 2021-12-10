@@ -42,7 +42,7 @@ d$Language <- "Arabic"
 d <- d %>%
   full_join(d_english)
 
-# CENTER PREDICTORS (NOTE: REFERENCE LEVEL OF FACTORS MAY CHANGE)
+# # CENTER PREDICTORS (NOTE: REFERENCE LEVEL OF FACTORS MAY CHANGE)
 d <- d %>% 
   mutate(SufficientProperty = factor(SufficientProperty),
          redUtterance = factor(redUtterance),
@@ -56,11 +56,15 @@ contrasts(centered$Language)
 pairscor.fnc(centered[,c("redUtterance","SufficientProperty","SceneVariation","Language")])
 
 options(mc.cores = parallel::detectCores())
+
+# # MODEL SPECIFICATION
+
 m.b.full = brm(redUtterance ~ cSufficientProperty*cSceneVariation*cLanguage + (1+cSufficientProperty*cSceneVariation|gameid) + (1+cSufficientProperty*cSceneVariation*cLanguage|clickedType), data=centered, family="bernoulli")
+
 summary(m.b.full)
 
 # ONE-SIDED HYPOTHESIS TESTING (EXAMPLE)
-hypothesis(m.b.full, "cLanguage > 0") # hypothesis(m.b.full, "cLanguage > 0"), depending on coding
+hypothesis(m.b.full, "cLanguage > 0") # hypothesis(m.b.full, "cLanguage < 0"), depending on reference level coding
 
 # PLOTTING POSTERIORS (EXAMPLE)
 plot(m.b.full, variable = c("cSufficientProperty"))
