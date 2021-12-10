@@ -7,10 +7,12 @@ import React from "react";
 export default class GameLobby extends React.PureComponent {
   renderPlayersReady = () => {
     const { game, treatment } = this.props;
-    const gameTextInLanguage = gameText.filter(row => row.language == game.treatment.gameLanguage)[0]
-    
+    const gameTextInLanguage = gameText.filter(
+      (row) => row.language == game.treatment.gameLanguage
+    )[0];
+
     return (
-      <div className="game-lobby">
+      <div className="game-lobby" dir="auto">
         <NonIdealState
           icon={IconNames.PLAY}
           title={gameTextInLanguage.GAMELOBBY_loading}
@@ -22,7 +24,9 @@ export default class GameLobby extends React.PureComponent {
 
   render() {
     const { game, treatment } = this.props;
-    const gameTextInLanguage = gameText.filter(row => row.language == game.treatment.gameLanguage)[0]
+    const gameTextInLanguage = gameText.filter(
+      (row) => row.language == game.treatment.gameLanguage
+    )[0];
 
     const total = treatment.factor("playerCount").value;
     const existing = game.playerIds.length;
@@ -32,7 +36,7 @@ export default class GameLobby extends React.PureComponent {
     }
 
     return (
-      <div className="game-lobby">
+      <div className="game-lobby" dir="auto">
         <NonIdealState
           icon={IconNames.TIME}
           title={gameTextInLanguage.GAMELOBBY_lobbyHeader}
@@ -40,7 +44,8 @@ export default class GameLobby extends React.PureComponent {
             <>
               <p>{gameTextInLanguage.GAMELOBBY_waitForPlayers}</p>
               <p>
-                {existing} / {total} {gameTextInLanguage.GAMELOBBY_numPlayersReady}
+                {existing} / {total}{" "}
+                {gameTextInLanguage.GAMELOBBY_numPlayersReady}
               </p>
             </>
           }
@@ -53,5 +58,5 @@ export default class GameLobby extends React.PureComponent {
 GameLobby.propTypes = {
   player: PropTypes.object.isRequired,
   game: PropTypes.object.isRequired,
-  treatment: PropTypes.object.isRequired
+  treatment: PropTypes.object.isRequired,
 };

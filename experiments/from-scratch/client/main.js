@@ -56,6 +56,13 @@ Empirica.newPlayer(newPlayer_hardcode);
 // If you don't return anything, or do not define this function, a default
 // exit screen will be shown.
 Empirica.exitSteps((game, player) => {
+	// const steps = [];
+	// if (game.treatment.gameLanguage == "Arabic") {
+	// 	steps.push(ExitSurvey_rtl);
+	// } else {
+	// 	steps.push(ExitSurvey);
+	// }
+	// steps.push(Thanks);
 	return [ExitSurvey, Thanks];
 });
 
