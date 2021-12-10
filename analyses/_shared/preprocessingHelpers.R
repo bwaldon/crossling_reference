@@ -1,14 +1,29 @@
 # getPlayerGamePairs: gets the Empirica game IDs for a list of players by querying a Mongo database.
+# (Convenient if you have a list of player IDs that match what was input to Empirica, e.g. from Prolific)
 # Inputs: a vector of Empirica player IDs (playerIds); a string of MongoDB credentials (mongoCreds)
 # Outputs: a dataframe with two columns: id [player id] and gameId
 
 getPlayerGamePairs <- function(playerIds, mongoCreds) {
   con <- mongo("players", url = sprintf("mongodb+srv://%s@cluster0.xizoq.mongodb.net/crossling-ref", mongoCreds))
   playerGamePairs <- data.frame(con$find(sprintf('{ "id": { "$in": %s } } ', toJSON(playerIds)))) %>% 
-    select(id, gameId)
+  select(id, gameId)
   con$disconnect()
   rm(con)
   return(playerGamePairs)
+}
+
+# getRoundData_byLanguage: gets the by-round data for all games played in a particular language
+# (Convenient if you know the language you want to collect data from but not necessarily the )
+# Inputs: a vector of Empirica game IDs (gameIds); a string of MongoDB credentials (mongoCreds)
+# Outputs: a dataframe with raw, anonymized by-round game data.
+
+getRoundData_byLanguage <- function(language,mongoCreds) {
+  con <- mongo("rounds", url = sprintf("mongodb+srv://%s@cluster0.xizoq.mongodb.net/crossling-ref", mongoCreds))
+  d <- data.frame(con$find(sprintf('{ "data.language" : "%s" }   ', language))) %>%
+    mutate(index = row_number())
+  con$disconnect()
+  rm(con)
+  return(d)
 }
 
 # getRoundData: gets the by-round data for a list of games.
@@ -23,6 +38,7 @@ getRoundData <- function(gameIds,mongoCreds) {
   rm(con)
   return(d)
 }
+
 
 # getPlayerDemographicData: gets the player responses to the debrief survey.
 # Inputs: a vector of Empirica game IDs (gameIds); a string of MongoDB credentials (mongoCreds)
@@ -181,9 +197,7 @@ automaticAnnotate <- function(d, colorTerms, sizeTerms, nouns, bleachedNouns, ar
 # (note: we read in typicality data as part of these transformations, but typicality data orthogonal for our purposes)
 # (future step could be to elicit typicality data from same population to reproduce Degen 2020 typicality analyses)
 
-produceBDAandRegressionData <- function(d, colorTypicalityFile = "../../data/Degen2020_Typicality/typicality_exp1_colortypicality.csv",
-                                        objectTypicalityFile = "../../data/Degen2020_Typicality/typicality_exp1_objecttypicality.csv",
-                                        destinationFolder) {
+produceBDAandRegressionData <- function(d, destinationFolder) {
   
   # Code for each trial: sufficient property, number of total distractors, number of distractors that differ on and that share insufficient dimension value with target
   d$SufficientProperty = as.factor(ifelse(d$condition %in% c("size21", "size22", "size31", "size32", "size33", "size41", "size42", "size43", "size44"), "size", "color"))
@@ -193,39 +207,6 @@ produceBDAandRegressionData <- function(d, colorTypicalityFile = "../../data/Deg
   d$NumSameDistractors = ifelse(d$condition %in% c("size21","size31","size41","color21","color31","color41"), 1, ifelse(d$condition %in% c("size22","size32","size42","color22","color32","color42"), 2, ifelse(d$condition %in% c("size33","color33","size43","color43"),3,ifelse(d$condition %in% c("size44","color44"),4,NA))))
   d$SceneVariation = d$NumDiffDistractors/d$NumDistractors
   d$TypeMentioned = d$typeMentioned
-  
-  # Add empirical typicality ratings
-  # Add color typicality ratings ("how typical is this color for a stapler?" wording)
-  typicalities = read.table(colorTypicalityFile,header=T)
-  head(typicalities)
-  typicalities = typicalities %>%
-    group_by(Item) %>%
-    mutate(OtherTypicality = c(Typicality[2],Typicality[1]),OtherColor = c(as.character(Color[2]),as.character(Color[1])))
-  typicalities = as.data.frame(typicalities)
-  row.names(typicalities) = paste(typicalities$Item,typicalities$Color)
-  d$ColorTypicality = typicalities[paste(d$clickedType,d$clickedColor),]$Typicality
-  d$OtherColorTypicality = typicalities[paste(d$clickedType,d$clickedColor),]$OtherTypicality
-  d$OtherColor = typicalities[paste(d$clickedType,d$clickedColor),]$OtherColor
-  d$TypicalityDiff = d$ColorTypicality-d$OtherColorTypicality  
-  d$normTypicality = d$ColorTypicality/(d$ColorTypicality+d$OtherColorTypicality)
-  
-  # Add typicality norms for objects with modified and unmodified utterances ("how typical is this for a stapler?" vs "how typical is this for a red stapler?" wording)
-  typs = read.table(objectTypicalityFile,header=T)
-  head(typs)
-  typs = typs %>%
-    group_by(Item) %>%
-    mutate(OtherTypicality = c(Typicality[3],Typicality[4],Typicality[1],Typicality[2])) 
-  typs = as.data.frame(typs)
-  row.names(typs) = paste(typs$Item,typs$Color,typs$Modification)
-  d$ColorTypicalityModified = typs[paste(d$clickedType,d$clickedColor,"modified"),]$Typicality
-  d$OtherColorTypicalityModified = typs[paste(d$clickedType,d$clickedColor,"modified"),]$OtherTypicality
-  d$TypicalityDiffModified = d$ColorTypicalityModified-d$OtherColorTypicalityModified  
-  d$normTypicalityModified = d$ColorTypicalityModified/(d$ColorTypicalityModified+d$OtherColorTypicalityModified)
-  d$ColorTypicalityUnModified = typs[paste(d$clickedType,d$clickedColor,"unmodified"),]$Typicality
-  d$OtherColorTypicalityUnModified = typs[paste(d$clickedType,d$clickedColor,"unmodified"),]$OtherTypicality
-  d$TypicalityDiffUnModified = d$ColorTypicalityUnModified-d$OtherColorTypicalityUnModified  
-  d$normTypicalityUnModified = d$ColorTypicalityUnModified/(d$ColorTypicalityUnModified+d$OtherColorTypicalityUnModified)
-  
   # Reduce dataset to target trials for visualization and analysis
   
   # Exclude trials on which target wasn't selected
@@ -288,7 +269,7 @@ produceBDAandRegressionData <- function(d, colorTypicalityFile = "../../data/Deg
     mutate(clickedColor = as.character(clickedColor),
            clickedSize = as.character(clickedSize),
            clickedType = as.character(clickedType)) %>%
-    select(gameid,Trial,TargetItem,UtteranceType,redUtterance,SufficientProperty,RedundantProperty,NumDistractors,NumSameDistractors,SceneVariation,speakerMessages,listenerMessages,refExp,minimal,redundant,clickedType,clickedSize,clickedColor,colorMentioned,sizeMentioned,typeMentioned,oneMentioned,theMentioned,ColorTypicality,OtherColorTypicality,OtherColor,TypicalityDiff,normTypicality,ColorTypicalityModified,ColorTypicalityUnModified,OtherColorTypicalityModified,OtherColorTypicalityUnModified,TypicalityDiffModified,normTypicalityModified,TypicalityDiffUnModified,normTypicalityUnModified) #alt1Name,alt1SpLocs,alt1LisLocs,alt2Name,alt2SpLocs,alt2LisLocs,alt3Name,alt3SpLocs,alt3LisLocs,alt4Name,alt4SpLocs,alt4LisLocs)
+    select(gameid,Trial,TargetItem,UtteranceType,redUtterance,SufficientProperty,RedundantProperty,NumDistractors,NumSameDistractors,SceneVariation,speakerMessages,listenerMessages,refExp,minimal,redundant,clickedType,clickedSize,clickedColor,colorMentioned,sizeMentioned,typeMentioned,oneMentioned,theMentioned) #
   nrow(dd)
   
   write_delim(dd, sprintf("%s/data_exp1.tsv", destinationFolder),delim="\t")
