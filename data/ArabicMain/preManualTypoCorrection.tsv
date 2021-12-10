@@ -1,0 +1,73 @@
+gameId	stage	condition	alt1BasicLevel	alt1SuperLevel	alt2BasicLevel	alt2SuperLevel	listenerSelection	roundNumber	directorAllMessages	directorFirstMessage	guesserAllMessages	nameClickedObj	correct	colorMentioned	sizeMentioned	typeMentioned	oneMentioned	theMentioned
+5vGcBWWyN43R66SLD	feedback	color44	"NA"	"NA"	"NA"	"NA"	1	1	الكنزة الخضراء	الكنزة الخضراء		small_green_jacket	1	TRUE	FALSE	TRUE	FALSE	TRUE
+5vGcBWWyN43R66SLD	feedback	basicSuffType2	bed	furniture	bison	animal	1	2	المقعد	المقعد		picnicTable	1	FALSE	FALSE	FALSE	FALSE	TRUE
+5vGcBWWyN43R66SLD	feedback	size44	"NA"	"NA"	"NA"	"NA"	1	3	الوردة الكبيرة	الوردة الكبيرة		big_purple_flower	1	FALSE	TRUE	TRUE	FALSE	TRUE
+5vGcBWWyN43R66SLD	feedback	basicSuffType2	rhino	animal	chips	snack	1	4	الكلب	الكلب		dalmatian	1	FALSE	FALSE	TRUE	FALSE	TRUE
+5vGcBWWyN43R66SLD	feedback	size42	"NA"	"NA"	"NA"	"NA"	1	5	اكبر سطل	اكبر سطل	shou sar mi3ik	big_pink_bucket	1	FALSE	TRUE	FALSE	FALSE	FALSE
+5vGcBWWyN43R66SLD	feedback	basicSuffType2	gloves	clothing	firetruck	vehicle	1	6	الكنزة	الكنزة		tShirt	1	FALSE	FALSE	TRUE	FALSE	TRUE
+5vGcBWWyN43R66SLD	feedback	size44	"NA"	"NA"	"NA"	"NA"	1	7	اكبر وحدة	اكبر وحدة	lkbiri?	big_brown_turtle	1	FALSE	TRUE	FALSE	TRUE	FALSE
+5vGcBWWyN43R66SLD	feedback	subNec	bird	animal	rabbit	animal	1	8	الببغاء	الببغاء		parrot	1	FALSE	FALSE	TRUE	FALSE	TRUE
+5vGcBWWyN43R66SLD	feedback	subNec	flower	plant	ivy	plant	1	9	الوردة الحمرا	الوردة الحمرا	yalla	rose	1	TRUE	FALSE	TRUE	FALSE	TRUE
+5vGcBWWyN43R66SLD	feedback	size32	"NA"	"NA"	"NA"	"NA"	1	10	اصغر وحدة	اصغر وحدة		small_purple_bike	1	FALSE	TRUE	FALSE	TRUE	FALSE
+5vGcBWWyN43R66SLD	feedback	basicSuffType1	bear	animal	dog	animal	1	11	العصفور	العصفور		hummingBird	1	FALSE	FALSE	TRUE	FALSE	TRUE
+5vGcBWWyN43R66SLD	feedback	basicSuffType2	firetruck	vehicle	ivy	plant	1	12	السيارة	السيارة		convertible	1	FALSE	FALSE	TRUE	FALSE	TRUE
+5vGcBWWyN43R66SLD	feedback	basicSuffType1	snake	animal	pig	animal	1	13	الكلب	الكلب		husky	1	FALSE	FALSE	TRUE	FALSE	TRUE
+5vGcBWWyN43R66SLD	feedback	basicSuffType1	firetruck	vehicle	motorcycle	vehicle	1	14	السيارة	السيارة		suv	1	FALSE	FALSE	TRUE	FALSE	TRUE
+5vGcBWWyN43R66SLD	feedback	color21	"NA"	"NA"	"NA"	"NA"	1	15	الزهر	الزهر		big_pink_phone	1	FALSE	FALSE	FALSE	FALSE	TRUE
+5vGcBWWyN43R66SLD	feedback	color32	"NA"	"NA"	"NA"	"NA"	1	16	الاحمر	الاحمر		big_red_yarn	1	FALSE	FALSE	FALSE	FALSE	TRUE
+5vGcBWWyN43R66SLD	feedback	subNec	fish	animal	squirrel	animal	1	17	السمكة	السمكة	2aya wi7di>	clownFish	1	FALSE	FALSE	TRUE	FALSE	TRUE
+5vGcBWWyN43R66SLD	feedback	basicSuffType1	dress	clothing	bathrobe	clothing	1	18	الكنزة	الكنزة		poloShirt	1	FALSE	FALSE	TRUE	FALSE	TRUE
+5vGcBWWyN43R66SLD	feedback	subNec	shirt	clothing	bathrobe	clothing	1	19	القميص	القميص		dressShirt	1	FALSE	FALSE	TRUE	FALSE	TRUE
+5vGcBWWyN43R66SLD	feedback	size32	"NA"	"NA"	"NA"	"NA"	1	20	اصغر واحد	اصغر واحد		small_pink_hairdryer	1	FALSE	TRUE	FALSE	TRUE	FALSE
+5vGcBWWyN43R66SLD	feedback	size41	"NA"	"NA"	"NA"	"NA"	1	21	اصغر واحد	اصغر واحد		small_white_weddingcake	1	FALSE	TRUE	FALSE	TRUE	FALSE
+5vGcBWWyN43R66SLD	feedback	size33	"NA"	"NA"	"NA"	"NA"	1	22	اكبر وحدة	اكبر وحدة		big_green_pepper	1	FALSE	TRUE	FALSE	TRUE	FALSE
+5vGcBWWyN43R66SLD	feedback	color31	"NA"	"NA"	"NA"	"NA"	1	23	الزهر	الزهر		small_pink_framee	1	FALSE	FALSE	FALSE	FALSE	TRUE
+5vGcBWWyN43R66SLD	feedback	supSuff	rosemary	plant	table	furniture	1	24	النسر	النسر		eagle	1	FALSE	FALSE	TRUE	FALSE	TRUE
+5vGcBWWyN43R66SLD	feedback	color22	"NA"	"NA"	"NA"	"NA"	1	25	المشط الاسود	المشط الاسود		big_black_comb	1	FALSE	FALSE	FALSE	FALSE	TRUE
+5vGcBWWyN43R66SLD	feedback	color21	"NA"	"NA"	"NA"	"NA"	1	26	الاخضر	الاخضر		small_green_guitar	1	FALSE	FALSE	FALSE	FALSE	TRUE
+5vGcBWWyN43R66SLD	feedback	supSuff	rosemary	plant	dress	clothing	1	27	الجوارير	الجوارير		bedsideTable	1	FALSE	FALSE	TRUE	FALSE	TRUE
+5vGcBWWyN43R66SLD	feedback	basicSuffType1	snake	animal	crocodile	animal	1	28	الدب	الدب		grizzlyBear	1	FALSE	FALSE	TRUE	FALSE	TRUE
+5vGcBWWyN43R66SLD	feedback	supSuff	iguana	animal	lamp	furniture	1	29	السيارة	السيارة		minivan	1	FALSE	FALSE	TRUE	FALSE	TRUE
+5vGcBWWyN43R66SLD	feedback	basicSuffType2	popcorn	snack	grasses	plant	1	30	البون يون	البون يون		skittles	1	FALSE	FALSE	FALSE	FALSE	TRUE
+5vGcBWWyN43R66SLD	feedback	color42	"NA"	"NA"	"NA"	"NA"	1	31	الزهر	الزهر		big_pink_teacup	1	FALSE	FALSE	FALSE	FALSE	TRUE
+5vGcBWWyN43R66SLD	feedback	subNec	fish	animal	squirrel	animal	1	32	السمك القط	السمك القط		catfish	1	FALSE	FALSE	TRUE	FALSE	TRUE
+5vGcBWWyN43R66SLD	feedback	size22	"NA"	"NA"	"NA"	"NA"	1	33	الكبير	الكبير		big_blue_cap	1	FALSE	TRUE	FALSE	FALSE	TRUE
+5vGcBWWyN43R66SLD	feedback	supSuff	dog	animal	bed	furniture	1	34	الحلوى	الحلوى		mnMs	1	FALSE	FALSE	TRUE	FALSE	TRUE
+5vGcBWWyN43R66SLD	feedback	basicSuffType2	rhino	animal	gloves	clothing	1	35	الدب	الدب		blackBear	1	FALSE	FALSE	TRUE	FALSE	TRUE
+5vGcBWWyN43R66SLD	feedback	size21	"NA"	"NA"	"NA"	"NA"	1	36	الكتاب الكبير	الكتاب الكبير		big_blue_book	1	FALSE	TRUE	FALSE	FALSE	TRUE
+5vGcBWWyN43R66SLD	feedback	basicSuffType2	pottedPlant	plant	bathrobe	clothing	1	37	الوردة	الوردة		daisy	1	FALSE	FALSE	TRUE	FALSE	TRUE
+5vGcBWWyN43R66SLD	feedback	size43	"NA"	"NA"	"NA"	"NA"	1	38	الكنبة الصغيرة	الكنبة الصغيرة		small_green_chair	1	FALSE	TRUE	FALSE	FALSE	TRUE
+5vGcBWWyN43R66SLD	feedback	color33	"NA"	"NA"	"NA"	"NA"	1	39	الملف الازرق	الملف الازرق		big_blue_binder	1	FALSE	FALSE	FALSE	FALSE	TRUE
+5vGcBWWyN43R66SLD	feedback	color43	"NA"	"NA"	"NA"	"NA"	1	40	الزرقاء	الزرقاء		big_blue_rug	1	TRUE	FALSE	FALSE	FALSE	TRUE
+5vGcBWWyN43R66SLD	feedback	basicSuffType1	elephant	animal	dog	animal	1	41	السمكة	السمكة		swordFish	1	FALSE	FALSE	TRUE	FALSE	TRUE
+5vGcBWWyN43R66SLD	feedback	basicSuffType2	wardrobe	furniture	ivy	plant	1	42	الطاولة	الطاولة		diningTable	1	FALSE	FALSE	TRUE	FALSE	TRUE
+5vGcBWWyN43R66SLD	feedback	color22	"NA"	"NA"	"NA"	"NA"	1	43	البرتقالية	البرتقالية		big_orange_cushion	1	TRUE	FALSE	FALSE	FALSE	TRUE
+5vGcBWWyN43R66SLD	feedback	supSuff	rosemary	plant	bed	furniture	1	44	الباندة	الباندة		pandaBear	1	FALSE	FALSE	FALSE	FALSE	TRUE
+5vGcBWWyN43R66SLD	feedback	basicSuffType2	crocodile	animal	firetruck	vehicle	1	45	الكلب	الكلب		pug	1	FALSE	FALSE	TRUE	FALSE	TRUE
+5vGcBWWyN43R66SLD	feedback	color31	"NA"	"NA"	"NA"	"NA"	1	46	الفراشة الزرقاء	الفراشة الزرقاء		big_blue_butterfly	1	TRUE	FALSE	FALSE	FALSE	TRUE
+5vGcBWWyN43R66SLD	feedback	supSuff	bathrobe	clothing	hamster	animal	1	47	الحلوى	الحلوى		jellyBeans	1	FALSE	FALSE	TRUE	FALSE	TRUE
+5vGcBWWyN43R66SLD	feedback	size41	"NA"	"NA"	"NA"	"NA"	1	48	التعليقة الكبيرة	التعليقة الكبيرة		big_orange_coathanger	1	FALSE	TRUE	FALSE	FALSE	TRUE
+5vGcBWWyN43R66SLD	feedback	color41	"NA"	"NA"	"NA"	"NA"	1	49	الطابة البرتقالية	الطابة البرتقالية		big_orange_billiardball	1	TRUE	FALSE	FALSE	FALSE	TRUE
+5vGcBWWyN43R66SLD	feedback	supSuff	wardrobe	furniture	lobster	animal	1	50	القميص	القميص		hawaiiShirt	1	FALSE	FALSE	TRUE	FALSE	TRUE
+5vGcBWWyN43R66SLD	feedback	size21	"NA"	"NA"	"NA"	"NA"	1	51	الشال الصغير	الشال الصغير		small_blue_scarf	1	FALSE	TRUE	FALSE	FALSE	TRUE
+5vGcBWWyN43R66SLD	feedback	color32	"NA"	"NA"	"NA"	"NA"	1	52	الحجرة الغامقة	الحجرة الغامقة		small_grey_rock	1	FALSE	FALSE	FALSE	FALSE	TRUE
+5vGcBWWyN43R66SLD	feedback	basicSuffType2	bison	animal	grasses	plant	1	53	الكلب	الكلب		germanShepherd	1	FALSE	FALSE	TRUE	FALSE	TRUE
+5vGcBWWyN43R66SLD	feedback	supSuff	shirt	clothing	wardrobe	furniture	1	54	الوردة	الوردة		sunflower	1	FALSE	FALSE	TRUE	FALSE	TRUE
+5vGcBWWyN43R66SLD	feedback	size43	"NA"	"NA"	"NA"	"NA"	1	55	المكبس الكبير	المكبس الكبير		big_purple_stapler	1	FALSE	TRUE	FALSE	FALSE	TRUE
+5vGcBWWyN43R66SLD	feedback	color42	"NA"	"NA"	"NA"	"NA"	1	56	البيضاء	البيضاء		small_white_pingpongball	1	TRUE	FALSE	FALSE	FALSE	TRUE
+5vGcBWWyN43R66SLD	feedback	size31	"NA"	"NA"	"NA"	"NA"	1	57	الفليفلة الكبيرة	الفليفلة الكبيرة		big_red_bellpepper	1	FALSE	TRUE	FALSE	FALSE	TRUE
+5vGcBWWyN43R66SLD	feedback	color43	"NA"	"NA"	"NA"	"NA"	1	58	الخضرا	الخضرا		small_green_bracelet	1	TRUE	FALSE	FALSE	FALSE	TRUE
+5vGcBWWyN43R66SLD	feedback	basicSuffType1	bison	animal	lion	animal	1	59	الدب	الدب		polarBear	1	FALSE	FALSE	TRUE	FALSE	TRUE
+5vGcBWWyN43R66SLD	feedback	color33	"NA"	"NA"	"NA"	"NA"	1	60	الشمعة الزرقاء	الشمعة الزرقاء		small_blue_candle	1	TRUE	FALSE	FALSE	FALSE	TRUE
+5vGcBWWyN43R66SLD	feedback	color44	"NA"	"NA"	"NA"	"NA"	1	61	المحرمة البرتقالية	المحرمة البرتقالية		big_orange_napkin	1	TRUE	FALSE	FALSE	FALSE	TRUE
+5vGcBWWyN43R66SLD	feedback	size33	"NA"	"NA"	"NA"	"NA"	1	62	البالون الصغير	البالون الصغير		small_pink_balloon	1	FALSE	TRUE	FALSE	FALSE	TRUE
+5vGcBWWyN43R66SLD	feedback	basicSuffType1	popcorn	snack	cookies	snack	1	63	البون بون	البون بون		gummyBears	1	FALSE	FALSE	TRUE	FALSE	TRUE
+5vGcBWWyN43R66SLD	feedback	supSuff	bed	furniture	cow	animal	1	64	السيارة	السيارة		sportsCar	1	FALSE	FALSE	TRUE	FALSE	TRUE
+5vGcBWWyN43R66SLD	feedback	size22	"NA"	"NA"	"NA"	"NA"	1	65	السكربينة الصغيرة	السكربينة الصغيرة		small_white_shoe	1	FALSE	TRUE	FALSE	FALSE	TRUE
+5vGcBWWyN43R66SLD	feedback	basicSuffType2	ivy	plant	shirt	clothing	1	66	الوردة	الوردة		tulip	1	FALSE	FALSE	TRUE	FALSE	TRUE
+5vGcBWWyN43R66SLD	feedback	basicSuffType1	hamster	animal	pig	animal	1	67	السمكة	السمكة		goldFish	1	FALSE	FALSE	TRUE	FALSE	TRUE
+5vGcBWWyN43R66SLD	feedback	basicSuffType2	dog	animal	motorcycle	vehicle	1	68	الحمامة	الحمامة		pigeon	1	FALSE	FALSE	TRUE	FALSE	TRUE
+5vGcBWWyN43R66SLD	feedback	color41	"NA"	"NA"	"NA"	"NA"	1	69	القشاط البني	القشاط البني		small_brown_belt	1	TRUE	FALSE	FALSE	FALSE	TRUE
+5vGcBWWyN43R66SLD	feedback	size42	"NA"	"NA"	"NA"	"NA"	1	70	الدبوس الكبير	الدبوس الكبير		big_red_tack	1	FALSE	TRUE	TRUE	FALSE	TRUE
+5vGcBWWyN43R66SLD	feedback	basicSuffType1	bed	furniture	wardrobe	furniture	1	71	الطاولة	الطاولة		coffeeTable	1	FALSE	FALSE	TRUE	FALSE	TRUE
+5vGcBWWyN43R66SLD	feedback	size31	"NA"	"NA"	"NA"	"NA"	1	72	الفرشاية الصغيرة	الفرشاية الصغيرة		small_red_toothbrush	1	FALSE	TRUE	FALSE	FALSE	TRUE

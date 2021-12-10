@@ -1,0 +1,174 @@
+gameid	Trial	TargetItem	UtteranceType	redUtterance	SufficientProperty	RedundantProperty	NumDistractors	NumSameDistractors	SceneVariation	speakerMessages	listenerMessages	refExp	minimal	redundant	clickedType	clickedSize	clickedColor	colorMentioned	sizeMentioned	typeMentioned	oneMentioned	theMentioned
+Dummy1	1	small_green_jacket	size and color	redundant	color	size redundant	4	4	0	الكنزة الخضراء	NA	الكنزة الخضراء	0	1	jacket	small	green	TRUE	TRUE	TRUE	FALSE	TRUE
+Dummy1	10	small_purple_bike	size and color	redundant	size	color redundant	3	2	0.3333333333333333	اصغر وحدة	NA	اصغر وحدة	0	1	bike	small	purple	TRUE	TRUE	FALSE	TRUE	FALSE
+Dummy1	21	small_white_weddingcake	size	minimal	size	color redundant	4	1	0.75	اصغر واحد	NA	اصغر واحد	1	0	weddingcake	small	white	FALSE	TRUE	FALSE	TRUE	FALSE
+Dummy1	22	big_green_pepper	size and color	redundant	size	color redundant	3	3	0	اكبر وحدة	NA	اكبر وحدة	0	1	pepper	big	green	TRUE	TRUE	FALSE	TRUE	FALSE
+Dummy1	23	small_pink_framee	size and color	redundant	color	size redundant	3	1	0.6666666666666666	الزهر	NA	الزهر	0	1	framee	small	pink	TRUE	TRUE	FALSE	FALSE	TRUE
+Dummy1	25	big_black_comb	size and color	redundant	color	size redundant	2	2	0	المشط الاسود	NA	المشط الاسود	0	1	comb	big	black	TRUE	TRUE	FALSE	FALSE	TRUE
+Dummy1	26	small_green_guitar	size and color	redundant	color	size redundant	2	1	0.5	الاخضر	NA	الاخضر	0	1	guitar	small	green	TRUE	TRUE	FALSE	FALSE	TRUE
+Dummy1	31	big_pink_teacup	color	minimal	color	size redundant	4	2	0.5	الزهر	NA	الزهر	1	0	teacup	big	pink	TRUE	FALSE	FALSE	FALSE	TRUE
+Dummy1	33	big_blue_cap	size	minimal	size	color redundant	2	2	0	الكبير	NA	الكبير	1	0	cap	big	blue	FALSE	TRUE	FALSE	FALSE	TRUE
+Dummy1	38	small_green_chair	size	minimal	size	color redundant	4	3	0.25	الكنبة الصغيرة	NA	الكنبة الصغيرة	1	0	chair	small	green	FALSE	TRUE	FALSE	FALSE	TRUE
+Dummy1	39	big_blue_binder	size and color	redundant	color	size redundant	3	3	0	الملف الازرق	NA	الملف الازرق	0	1	binder	big	blue	TRUE	TRUE	FALSE	FALSE	TRUE
+Dummy1	40	big_blue_rug	size and color	redundant	color	size redundant	4	3	0.25	الزرقاء	NA	الزرقاء	0	1	rug	big	blue	TRUE	TRUE	FALSE	FALSE	TRUE
+Dummy1	43	big_orange_cushion	color	minimal	color	size redundant	2	2	0	البرتقالية	NA	البرتقالية	1	0	cushion	big	orange	TRUE	FALSE	FALSE	FALSE	TRUE
+Dummy1	46	big_blue_butterfly	size and color	redundant	color	size redundant	3	1	0.6666666666666666	الفراشة الزرقاء	NA	الفراشة الزرقاء	0	1	butterfly	big	blue	TRUE	TRUE	FALSE	FALSE	TRUE
+Dummy1	48	big_orange_coathanger	size	minimal	size	color redundant	4	1	0.75	التعليقة الكبيرة	NA	التعليقة الكبيرة	1	0	coathanger	big	orange	FALSE	TRUE	FALSE	FALSE	TRUE
+Dummy1	49	big_orange_billiardball	color	minimal	color	size redundant	4	1	0.75	الطابة البرتقالية	NA	الطابة البرتقالية	1	0	billiardball	big	orange	TRUE	FALSE	FALSE	FALSE	TRUE
+Dummy1	51	small_blue_scarf	size	minimal	size	color redundant	2	1	0.5	الشال الصغير	NA	الشال الصغير	1	0	scarf	small	blue	FALSE	TRUE	FALSE	FALSE	TRUE
+Dummy1	55	big_purple_stapler	size	minimal	size	color redundant	4	3	0.25	المكبس الكبير	NA	المكبس الكبير	1	0	stapler	big	purple	FALSE	TRUE	FALSE	FALSE	TRUE
+Dummy1	56	small_white_pingpongball	size and color	redundant	color	size redundant	4	2	0.5	البيضاء	NA	البيضاء	0	1	pingpongball	small	white	TRUE	TRUE	FALSE	FALSE	TRUE
+Dummy1	57	big_red_bellpepper	size and color	redundant	size	color redundant	3	1	0.6666666666666666	الفليفلة الكبيرة	NA	الفليفلة الكبيرة	0	1	bellpepper	big	red	TRUE	TRUE	FALSE	FALSE	TRUE
+Dummy1	61	big_orange_napkin	color	minimal	color	size redundant	4	4	0	المحرمة البرتقالية	NA	المحرمة البرتقالية	1	0	napkin	big	orange	TRUE	FALSE	FALSE	FALSE	TRUE
+Dummy2	5	big_pink_bucket	size and color	redundant	size	color redundant	4	2	0.5	اكبر سطل	shou sar mi3ik	اكبر سطل	0	1	bucket	big	pink	TRUE	TRUE	FALSE	FALSE	FALSE
+Dummy2	7	big_brown_turtle	size and color	redundant	size	color redundant	4	4	0	اكبر وحدة	lkbiri?	اكبر وحدة	0	1	turtle	big	brown	TRUE	TRUE	FALSE	TRUE	FALSE
+Dummy2	10	small_purple_bike	size	minimal	size	color redundant	3	2	0.3333333333333333	اصغر وحدة	NA	اصغر وحدة	1	0	bike	small	purple	FALSE	TRUE	FALSE	TRUE	FALSE
+Dummy2	20	small_pink_hairdryer	size and color	redundant	size	color redundant	3	2	0.3333333333333333	اصغر واحد	NA	اصغر واحد	0	1	hairdryer	small	pink	TRUE	TRUE	FALSE	TRUE	FALSE
+Dummy2	21	small_white_weddingcake	size and color	redundant	size	color redundant	4	1	0.75	اصغر واحد	NA	اصغر واحد	0	1	weddingcake	small	white	TRUE	TRUE	FALSE	TRUE	FALSE
+Dummy2	22	big_green_pepper	size	minimal	size	color redundant	3	3	0	اكبر وحدة	NA	اكبر وحدة	1	0	pepper	big	green	FALSE	TRUE	FALSE	TRUE	FALSE
+Dummy2	23	small_pink_framee	size and color	redundant	color	size redundant	3	1	0.6666666666666666	الزهر	NA	الزهر	0	1	framee	small	pink	TRUE	TRUE	FALSE	FALSE	TRUE
+Dummy2	26	small_green_guitar	size and color	redundant	color	size redundant	2	1	0.5	الاخضر	NA	الاخضر	0	1	guitar	small	green	TRUE	TRUE	FALSE	FALSE	TRUE
+Dummy2	36	big_blue_book	size	minimal	size	color redundant	2	1	0.5	الكتاب الكبير	NA	الكتاب الكبير	1	0	book	big	blue	FALSE	TRUE	FALSE	FALSE	TRUE
+Dummy2	38	small_green_chair	size and color	redundant	size	color redundant	4	3	0.25	الكنبة الصغيرة	NA	الكنبة الصغيرة	0	1	chair	small	green	TRUE	TRUE	FALSE	FALSE	TRUE
+Dummy2	39	big_blue_binder	size and color	redundant	color	size redundant	3	3	0	الملف الازرق	NA	الملف الازرق	0	1	binder	big	blue	TRUE	TRUE	FALSE	FALSE	TRUE
+Dummy2	40	big_blue_rug	size and color	redundant	color	size redundant	4	3	0.25	الزرقاء	NA	الزرقاء	0	1	rug	big	blue	TRUE	TRUE	FALSE	FALSE	TRUE
+Dummy2	48	big_orange_coathanger	size	minimal	size	color redundant	4	1	0.75	التعليقة الكبيرة	NA	التعليقة الكبيرة	1	0	coathanger	big	orange	FALSE	TRUE	FALSE	FALSE	TRUE
+Dummy2	56	small_white_pingpongball	size and color	redundant	color	size redundant	4	2	0.5	البيضاء	NA	البيضاء	0	1	pingpongball	small	white	TRUE	TRUE	FALSE	FALSE	TRUE
+Dummy2	58	small_green_bracelet	size and color	redundant	color	size redundant	4	3	0.25	الخضرا	NA	الخضرا	0	1	bracelet	small	green	TRUE	TRUE	FALSE	FALSE	TRUE
+Dummy2	61	big_orange_napkin	size and color	redundant	color	size redundant	4	4	0	المحرمة البرتقالية	NA	المحرمة البرتقالية	0	1	napkin	big	orange	TRUE	TRUE	FALSE	FALSE	TRUE
+Dummy2	65	small_white_shoe	size	minimal	size	color redundant	2	2	0	السكربينة الصغيرة	NA	السكربينة الصغيرة	1	0	shoe	small	white	FALSE	TRUE	FALSE	FALSE	TRUE
+Dummy2	70	big_red_tack	size and color	redundant	size	color redundant	4	2	0.5	الدبوس الكبير	NA	الدبوس الكبير	0	1	tack	big	red	TRUE	TRUE	TRUE	FALSE	TRUE
+Dummy2	72	small_red_toothbrush	size	minimal	size	color redundant	3	1	0.6666666666666666	الفرشاية الصغيرة	NA	الفرشاية الصغيرة	1	0	toothbrush	small	red	FALSE	TRUE	FALSE	FALSE	TRUE
+Dummy3	5	big_pink_bucket	size and color	redundant	size	color redundant	4	2	0.5	اكبر سطل	shou sar mi3ik	اكبر سطل	0	1	bucket	big	pink	TRUE	TRUE	FALSE	FALSE	FALSE
+Dummy3	15	big_pink_phone	size and color	redundant	color	size redundant	2	1	0.5	الزهر	NA	الزهر	0	1	phone	big	pink	TRUE	TRUE	FALSE	FALSE	TRUE
+Dummy3	20	small_pink_hairdryer	size and color	redundant	size	color redundant	3	2	0.3333333333333333	اصغر واحد	NA	اصغر واحد	0	1	hairdryer	small	pink	TRUE	TRUE	FALSE	TRUE	FALSE
+Dummy3	22	big_green_pepper	size and color	redundant	size	color redundant	3	3	0	اكبر وحدة	NA	اكبر وحدة	0	1	pepper	big	green	TRUE	TRUE	FALSE	TRUE	FALSE
+Dummy3	23	small_pink_framee	size and color	redundant	color	size redundant	3	1	0.6666666666666666	الزهر	NA	الزهر	0	1	framee	small	pink	TRUE	TRUE	FALSE	FALSE	TRUE
+Dummy3	25	big_black_comb	size and color	redundant	color	size redundant	2	2	0	المشط الاسود	NA	المشط الاسود	0	1	comb	big	black	TRUE	TRUE	FALSE	FALSE	TRUE
+Dummy3	36	big_blue_book	size	minimal	size	color redundant	2	1	0.5	الكتاب الكبير	NA	الكتاب الكبير	1	0	book	big	blue	FALSE	TRUE	FALSE	FALSE	TRUE
+Dummy3	38	small_green_chair	size and color	redundant	size	color redundant	4	3	0.25	الكنبة الصغيرة	NA	الكنبة الصغيرة	0	1	chair	small	green	TRUE	TRUE	FALSE	FALSE	TRUE
+Dummy3	40	big_blue_rug	color	minimal	color	size redundant	4	3	0.25	الزرقاء	NA	الزرقاء	1	0	rug	big	blue	TRUE	FALSE	FALSE	FALSE	TRUE
+Dummy3	43	big_orange_cushion	color	minimal	color	size redundant	2	2	0	البرتقالية	NA	البرتقالية	1	0	cushion	big	orange	TRUE	FALSE	FALSE	FALSE	TRUE
+Dummy3	46	big_blue_butterfly	color	minimal	color	size redundant	3	1	0.6666666666666666	الفراشة الزرقاء	NA	الفراشة الزرقاء	1	0	butterfly	big	blue	TRUE	FALSE	FALSE	FALSE	TRUE
+Dummy3	49	big_orange_billiardball	color	minimal	color	size redundant	4	1	0.75	الطابة البرتقالية	NA	الطابة البرتقالية	1	0	billiardball	big	orange	TRUE	FALSE	FALSE	FALSE	TRUE
+Dummy3	51	small_blue_scarf	size and color	redundant	size	color redundant	2	1	0.5	الشال الصغير	NA	الشال الصغير	0	1	scarf	small	blue	TRUE	TRUE	FALSE	FALSE	TRUE
+Dummy3	52	small_grey_rock	size and color	redundant	color	size redundant	3	2	0.3333333333333333	الحجرة الغامقة	NA	الحجرة الغامقة	0	1	rock	small	grey	TRUE	TRUE	FALSE	FALSE	TRUE
+Dummy3	58	small_green_bracelet	size and color	redundant	color	size redundant	4	3	0.25	الخضرا	NA	الخضرا	0	1	bracelet	small	green	TRUE	TRUE	FALSE	FALSE	TRUE
+Dummy3	60	small_blue_candle	size and color	redundant	color	size redundant	3	3	0	الشمعة الزرقاء	NA	الشمعة الزرقاء	0	1	candle	small	blue	TRUE	TRUE	FALSE	FALSE	TRUE
+Dummy3	61	big_orange_napkin	size and color	redundant	color	size redundant	4	4	0	المحرمة البرتقالية	NA	المحرمة البرتقالية	0	1	napkin	big	orange	TRUE	TRUE	FALSE	FALSE	TRUE
+Dummy3	62	small_pink_balloon	size and color	redundant	size	color redundant	3	3	0	البالون الصغير	NA	البالون الصغير	0	1	balloon	small	pink	TRUE	TRUE	FALSE	FALSE	TRUE
+Dummy3	70	big_red_tack	size and color	redundant	size	color redundant	4	2	0.5	الدبوس الكبير	NA	الدبوس الكبير	0	1	tack	big	red	TRUE	TRUE	TRUE	FALSE	TRUE
+Dummy3	72	small_red_toothbrush	size and color	redundant	size	color redundant	3	1	0.6666666666666666	الفرشاية الصغيرة	NA	الفرشاية الصغيرة	0	1	toothbrush	small	red	TRUE	TRUE	FALSE	FALSE	TRUE
+Dummy4	1	small_green_jacket	color	minimal	color	size redundant	4	4	0	الكنزة الخضراء	NA	الكنزة الخضراء	1	0	jacket	small	green	TRUE	FALSE	TRUE	FALSE	TRUE
+Dummy4	5	big_pink_bucket	size	minimal	size	color redundant	4	2	0.5	اكبر سطل	shou sar mi3ik	اكبر سطل	1	0	bucket	big	pink	FALSE	TRUE	FALSE	FALSE	FALSE
+Dummy4	7	big_brown_turtle	size	minimal	size	color redundant	4	4	0	اكبر وحدة	lkbiri?	اكبر وحدة	1	0	turtle	big	brown	FALSE	TRUE	FALSE	TRUE	FALSE
+Dummy4	21	small_white_weddingcake	size	minimal	size	color redundant	4	1	0.75	اصغر واحد	NA	اصغر واحد	1	0	weddingcake	small	white	FALSE	TRUE	FALSE	TRUE	FALSE
+Dummy4	22	big_green_pepper	size and color	redundant	size	color redundant	3	3	0	اكبر وحدة	NA	اكبر وحدة	0	1	pepper	big	green	TRUE	TRUE	FALSE	TRUE	FALSE
+Dummy4	23	small_pink_framee	color	minimal	color	size redundant	3	1	0.6666666666666666	الزهر	NA	الزهر	1	0	framee	small	pink	TRUE	FALSE	FALSE	FALSE	TRUE
+Dummy4	33	big_blue_cap	size and color	redundant	size	color redundant	2	2	0	الكبير	NA	الكبير	0	1	cap	big	blue	TRUE	TRUE	FALSE	FALSE	TRUE
+Dummy4	36	big_blue_book	size and color	redundant	size	color redundant	2	1	0.5	الكتاب الكبير	NA	الكتاب الكبير	0	1	book	big	blue	TRUE	TRUE	FALSE	FALSE	TRUE
+Dummy4	38	small_green_chair	size and color	redundant	size	color redundant	4	3	0.25	الكنبة الصغيرة	NA	الكنبة الصغيرة	0	1	chair	small	green	TRUE	TRUE	FALSE	FALSE	TRUE
+Dummy4	39	big_blue_binder	size and color	redundant	color	size redundant	3	3	0	الملف الازرق	NA	الملف الازرق	0	1	binder	big	blue	TRUE	TRUE	FALSE	FALSE	TRUE
+Dummy4	46	big_blue_butterfly	color	minimal	color	size redundant	3	1	0.6666666666666666	الفراشة الزرقاء	NA	الفراشة الزرقاء	1	0	butterfly	big	blue	TRUE	FALSE	FALSE	FALSE	TRUE
+Dummy4	49	big_orange_billiardball	color	minimal	color	size redundant	4	1	0.75	الطابة البرتقالية	NA	الطابة البرتقالية	1	0	billiardball	big	orange	TRUE	FALSE	FALSE	FALSE	TRUE
+Dummy4	52	small_grey_rock	size and color	redundant	color	size redundant	3	2	0.3333333333333333	الحجرة الغامقة	NA	الحجرة الغامقة	0	1	rock	small	grey	TRUE	TRUE	FALSE	FALSE	TRUE
+Dummy4	56	small_white_pingpongball	color	minimal	color	size redundant	4	2	0.5	البيضاء	NA	البيضاء	1	0	pingpongball	small	white	TRUE	FALSE	FALSE	FALSE	TRUE
+Dummy4	58	small_green_bracelet	color	minimal	color	size redundant	4	3	0.25	الخضرا	NA	الخضرا	1	0	bracelet	small	green	TRUE	FALSE	FALSE	FALSE	TRUE
+Dummy4	61	big_orange_napkin	color	minimal	color	size redundant	4	4	0	المحرمة البرتقالية	NA	المحرمة البرتقالية	1	0	napkin	big	orange	TRUE	FALSE	FALSE	FALSE	TRUE
+Dummy4	62	small_pink_balloon	size	minimal	size	color redundant	3	3	0	البالون الصغير	NA	البالون الصغير	1	0	balloon	small	pink	FALSE	TRUE	FALSE	FALSE	TRUE
+Dummy4	65	small_white_shoe	size and color	redundant	size	color redundant	2	2	0	السكربينة الصغيرة	NA	السكربينة الصغيرة	0	1	shoe	small	white	TRUE	TRUE	FALSE	FALSE	TRUE
+Dummy5	3	big_purple_flower	size	minimal	size	color redundant	4	4	0	الوردة الكبيرة	NA	الوردة الكبيرة	1	0	flower	big	purple	FALSE	TRUE	TRUE	FALSE	TRUE
+Dummy5	7	big_brown_turtle	size and color	redundant	size	color redundant	4	4	0	اكبر وحدة	lkbiri?	اكبر وحدة	0	1	turtle	big	brown	TRUE	TRUE	FALSE	TRUE	FALSE
+Dummy5	16	big_red_yarn	color	minimal	color	size redundant	3	2	0.3333333333333333	الاحمر	NA	الاحمر	1	0	yarn	big	red	TRUE	FALSE	FALSE	FALSE	TRUE
+Dummy5	21	small_white_weddingcake	size and color	redundant	size	color redundant	4	1	0.75	اصغر واحد	NA	اصغر واحد	0	1	weddingcake	small	white	TRUE	TRUE	FALSE	TRUE	FALSE
+Dummy5	36	big_blue_book	size and color	redundant	size	color redundant	2	1	0.5	الكتاب الكبير	NA	الكتاب الكبير	0	1	book	big	blue	TRUE	TRUE	FALSE	FALSE	TRUE
+Dummy5	39	big_blue_binder	size and color	redundant	color	size redundant	3	3	0	الملف الازرق	NA	الملف الازرق	0	1	binder	big	blue	TRUE	TRUE	FALSE	FALSE	TRUE
+Dummy5	43	big_orange_cushion	color	minimal	color	size redundant	2	2	0	البرتقالية	NA	البرتقالية	1	0	cushion	big	orange	TRUE	FALSE	FALSE	FALSE	TRUE
+Dummy5	46	big_blue_butterfly	size and color	redundant	color	size redundant	3	1	0.6666666666666666	الفراشة الزرقاء	NA	الفراشة الزرقاء	0	1	butterfly	big	blue	TRUE	TRUE	FALSE	FALSE	TRUE
+Dummy5	49	big_orange_billiardball	color	minimal	color	size redundant	4	1	0.75	الطابة البرتقالية	NA	الطابة البرتقالية	1	0	billiardball	big	orange	TRUE	FALSE	FALSE	FALSE	TRUE
+Dummy5	52	small_grey_rock	color	minimal	color	size redundant	3	2	0.3333333333333333	الحجرة الغامقة	NA	الحجرة الغامقة	1	0	rock	small	grey	TRUE	FALSE	FALSE	FALSE	TRUE
+Dummy5	55	big_purple_stapler	size and color	redundant	size	color redundant	4	3	0.25	المكبس الكبير	NA	المكبس الكبير	0	1	stapler	big	purple	TRUE	TRUE	FALSE	FALSE	TRUE
+Dummy5	56	small_white_pingpongball	color	minimal	color	size redundant	4	2	0.5	البيضاء	NA	البيضاء	1	0	pingpongball	small	white	TRUE	FALSE	FALSE	FALSE	TRUE
+Dummy5	60	small_blue_candle	size and color	redundant	color	size redundant	3	3	0	الشمعة الزرقاء	NA	الشمعة الزرقاء	0	1	candle	small	blue	TRUE	TRUE	FALSE	FALSE	TRUE
+Dummy5	70	big_red_tack	size and color	redundant	size	color redundant	4	2	0.5	الدبوس الكبير	NA	الدبوس الكبير	0	1	tack	big	red	TRUE	TRUE	TRUE	FALSE	TRUE
+Dummy6	3	big_purple_flower	size and color	redundant	size	color redundant	4	4	0	الوردة الكبيرة	NA	الوردة الكبيرة	0	1	flower	big	purple	TRUE	TRUE	TRUE	FALSE	TRUE
+Dummy6	5	big_pink_bucket	size and color	redundant	size	color redundant	4	2	0.5	اكبر سطل	shou sar mi3ik	اكبر سطل	0	1	bucket	big	pink	TRUE	TRUE	FALSE	FALSE	FALSE
+Dummy6	10	small_purple_bike	size	minimal	size	color redundant	3	2	0.3333333333333333	اصغر وحدة	NA	اصغر وحدة	1	0	bike	small	purple	FALSE	TRUE	FALSE	TRUE	FALSE
+Dummy6	16	big_red_yarn	size and color	redundant	color	size redundant	3	2	0.3333333333333333	الاحمر	NA	الاحمر	0	1	yarn	big	red	TRUE	TRUE	FALSE	FALSE	TRUE
+Dummy6	20	small_pink_hairdryer	size and color	redundant	size	color redundant	3	2	0.3333333333333333	اصغر واحد	NA	اصغر واحد	0	1	hairdryer	small	pink	TRUE	TRUE	FALSE	TRUE	FALSE
+Dummy6	23	small_pink_framee	size and color	redundant	color	size redundant	3	1	0.6666666666666666	الزهر	NA	الزهر	0	1	framee	small	pink	TRUE	TRUE	FALSE	FALSE	TRUE
+Dummy6	25	big_black_comb	color	minimal	color	size redundant	2	2	0	المشط الاسود	NA	المشط الاسود	1	0	comb	big	black	TRUE	FALSE	FALSE	FALSE	TRUE
+Dummy6	33	big_blue_cap	size	minimal	size	color redundant	2	2	0	الكبير	NA	الكبير	1	0	cap	big	blue	FALSE	TRUE	FALSE	FALSE	TRUE
+Dummy6	36	big_blue_book	size and color	redundant	size	color redundant	2	1	0.5	الكتاب الكبير	NA	الكتاب الكبير	0	1	book	big	blue	TRUE	TRUE	FALSE	FALSE	TRUE
+Dummy6	38	small_green_chair	size and color	redundant	size	color redundant	4	3	0.25	الكنبة الصغيرة	NA	الكنبة الصغيرة	0	1	chair	small	green	TRUE	TRUE	FALSE	FALSE	TRUE
+Dummy6	39	big_blue_binder	color	minimal	color	size redundant	3	3	0	الملف الازرق	NA	الملف الازرق	1	0	binder	big	blue	TRUE	FALSE	FALSE	FALSE	TRUE
+Dummy6	43	big_orange_cushion	size and color	redundant	color	size redundant	2	2	0	البرتقالية	NA	البرتقالية	0	1	cushion	big	orange	TRUE	TRUE	FALSE	FALSE	TRUE
+Dummy6	46	big_blue_butterfly	size and color	redundant	color	size redundant	3	1	0.6666666666666666	الفراشة الزرقاء	NA	الفراشة الزرقاء	0	1	butterfly	big	blue	TRUE	TRUE	FALSE	FALSE	TRUE
+Dummy6	49	big_orange_billiardball	size and color	redundant	color	size redundant	4	1	0.75	الطابة البرتقالية	NA	الطابة البرتقالية	0	1	billiardball	big	orange	TRUE	TRUE	FALSE	FALSE	TRUE
+Dummy6	55	big_purple_stapler	size	minimal	size	color redundant	4	3	0.25	المكبس الكبير	NA	المكبس الكبير	1	0	stapler	big	purple	FALSE	TRUE	FALSE	FALSE	TRUE
+Dummy6	58	small_green_bracelet	color	minimal	color	size redundant	4	3	0.25	الخضرا	NA	الخضرا	1	0	bracelet	small	green	TRUE	FALSE	FALSE	FALSE	TRUE
+Dummy6	62	small_pink_balloon	size	minimal	size	color redundant	3	3	0	البالون الصغير	NA	البالون الصغير	1	0	balloon	small	pink	FALSE	TRUE	FALSE	FALSE	TRUE
+Dummy6	69	small_brown_belt	size and color	redundant	color	size redundant	4	1	0.75	القشاط البني	NA	القشاط البني	0	1	belt	small	brown	TRUE	TRUE	FALSE	FALSE	TRUE
+Dummy6	70	big_red_tack	size and color	redundant	size	color redundant	4	2	0.5	الدبوس الكبير	NA	الدبوس الكبير	0	1	tack	big	red	TRUE	TRUE	TRUE	FALSE	TRUE
+Dummy6	72	small_red_toothbrush	size and color	redundant	size	color redundant	3	1	0.6666666666666666	الفرشاية الصغيرة	NA	الفرشاية الصغيرة	0	1	toothbrush	small	red	TRUE	TRUE	FALSE	FALSE	TRUE
+Dummy7	1	small_green_jacket	size and color	redundant	color	size redundant	4	4	0	الكنزة الخضراء	NA	الكنزة الخضراء	0	1	jacket	small	green	TRUE	TRUE	TRUE	FALSE	TRUE
+Dummy7	7	big_brown_turtle	size and color	redundant	size	color redundant	4	4	0	اكبر وحدة	lkbiri?	اكبر وحدة	0	1	turtle	big	brown	TRUE	TRUE	FALSE	TRUE	FALSE
+Dummy7	10	small_purple_bike	size and color	redundant	size	color redundant	3	2	0.3333333333333333	اصغر وحدة	NA	اصغر وحدة	0	1	bike	small	purple	TRUE	TRUE	FALSE	TRUE	FALSE
+Dummy7	21	small_white_weddingcake	size	minimal	size	color redundant	4	1	0.75	اصغر واحد	NA	اصغر واحد	1	0	weddingcake	small	white	FALSE	TRUE	FALSE	TRUE	FALSE
+Dummy7	22	big_green_pepper	size	minimal	size	color redundant	3	3	0	اكبر وحدة	NA	اكبر وحدة	1	0	pepper	big	green	FALSE	TRUE	FALSE	TRUE	FALSE
+Dummy7	23	small_pink_framee	color	minimal	color	size redundant	3	1	0.6666666666666666	الزهر	NA	الزهر	1	0	framee	small	pink	TRUE	FALSE	FALSE	FALSE	TRUE
+Dummy7	26	small_green_guitar	color	minimal	color	size redundant	2	1	0.5	الاخضر	NA	الاخضر	1	0	guitar	small	green	TRUE	FALSE	FALSE	FALSE	TRUE
+Dummy7	33	big_blue_cap	size and color	redundant	size	color redundant	2	2	0	الكبير	NA	الكبير	0	1	cap	big	blue	TRUE	TRUE	FALSE	FALSE	TRUE
+Dummy7	36	big_blue_book	size and color	redundant	size	color redundant	2	1	0.5	الكتاب الكبير	NA	الكتاب الكبير	0	1	book	big	blue	TRUE	TRUE	FALSE	FALSE	TRUE
+Dummy7	38	small_green_chair	size and color	redundant	size	color redundant	4	3	0.25	الكنبة الصغيرة	NA	الكنبة الصغيرة	0	1	chair	small	green	TRUE	TRUE	FALSE	FALSE	TRUE
+Dummy7	43	big_orange_cushion	color	minimal	color	size redundant	2	2	0	البرتقالية	NA	البرتقالية	1	0	cushion	big	orange	TRUE	FALSE	FALSE	FALSE	TRUE
+Dummy7	58	small_green_bracelet	size and color	redundant	color	size redundant	4	3	0.25	الخضرا	NA	الخضرا	0	1	bracelet	small	green	TRUE	TRUE	FALSE	FALSE	TRUE
+Dummy7	60	small_blue_candle	color	minimal	color	size redundant	3	3	0	الشمعة الزرقاء	NA	الشمعة الزرقاء	1	0	candle	small	blue	TRUE	FALSE	FALSE	FALSE	TRUE
+Dummy7	61	big_orange_napkin	size and color	redundant	color	size redundant	4	4	0	المحرمة البرتقالية	NA	المحرمة البرتقالية	0	1	napkin	big	orange	TRUE	TRUE	FALSE	FALSE	TRUE
+Dummy7	65	small_white_shoe	size	minimal	size	color redundant	2	2	0	السكربينة الصغيرة	NA	السكربينة الصغيرة	1	0	shoe	small	white	FALSE	TRUE	FALSE	FALSE	TRUE
+Dummy7	70	big_red_tack	size and color	redundant	size	color redundant	4	2	0.5	الدبوس الكبير	NA	الدبوس الكبير	0	1	tack	big	red	TRUE	TRUE	TRUE	FALSE	TRUE
+Dummy7	72	small_red_toothbrush	size	minimal	size	color redundant	3	1	0.6666666666666666	الفرشاية الصغيرة	NA	الفرشاية الصغيرة	1	0	toothbrush	small	red	FALSE	TRUE	FALSE	FALSE	TRUE
+Dummy8	1	small_green_jacket	size and color	redundant	color	size redundant	4	4	0	الكنزة الخضراء	NA	الكنزة الخضراء	0	1	jacket	small	green	TRUE	TRUE	TRUE	FALSE	TRUE
+Dummy8	3	big_purple_flower	size and color	redundant	size	color redundant	4	4	0	الوردة الكبيرة	NA	الوردة الكبيرة	0	1	flower	big	purple	TRUE	TRUE	TRUE	FALSE	TRUE
+Dummy8	10	small_purple_bike	size	minimal	size	color redundant	3	2	0.3333333333333333	اصغر وحدة	NA	اصغر وحدة	1	0	bike	small	purple	FALSE	TRUE	FALSE	TRUE	FALSE
+Dummy8	15	big_pink_phone	size and color	redundant	color	size redundant	2	1	0.5	الزهر	NA	الزهر	0	1	phone	big	pink	TRUE	TRUE	FALSE	FALSE	TRUE
+Dummy8	20	small_pink_hairdryer	size and color	redundant	size	color redundant	3	2	0.3333333333333333	اصغر واحد	NA	اصغر واحد	0	1	hairdryer	small	pink	TRUE	TRUE	FALSE	TRUE	FALSE
+Dummy8	21	small_white_weddingcake	size	minimal	size	color redundant	4	1	0.75	اصغر واحد	NA	اصغر واحد	1	0	weddingcake	small	white	FALSE	TRUE	FALSE	TRUE	FALSE
+Dummy8	22	big_green_pepper	size	minimal	size	color redundant	3	3	0	اكبر وحدة	NA	اكبر وحدة	1	0	pepper	big	green	FALSE	TRUE	FALSE	TRUE	FALSE
+Dummy8	23	small_pink_framee	color	minimal	color	size redundant	3	1	0.6666666666666666	الزهر	NA	الزهر	1	0	framee	small	pink	TRUE	FALSE	FALSE	FALSE	TRUE
+Dummy8	31	big_pink_teacup	color	minimal	color	size redundant	4	2	0.5	الزهر	NA	الزهر	1	0	teacup	big	pink	TRUE	FALSE	FALSE	FALSE	TRUE
+Dummy8	40	big_blue_rug	color	minimal	color	size redundant	4	3	0.25	الزرقاء	NA	الزرقاء	1	0	rug	big	blue	TRUE	FALSE	FALSE	FALSE	TRUE
+Dummy8	43	big_orange_cushion	color	minimal	color	size redundant	2	2	0	البرتقالية	NA	البرتقالية	1	0	cushion	big	orange	TRUE	FALSE	FALSE	FALSE	TRUE
+Dummy8	51	small_blue_scarf	size and color	redundant	size	color redundant	2	1	0.5	الشال الصغير	NA	الشال الصغير	0	1	scarf	small	blue	TRUE	TRUE	FALSE	FALSE	TRUE
+Dummy8	58	small_green_bracelet	size and color	redundant	color	size redundant	4	3	0.25	الخضرا	NA	الخضرا	0	1	bracelet	small	green	TRUE	TRUE	FALSE	FALSE	TRUE
+Dummy8	60	small_blue_candle	color	minimal	color	size redundant	3	3	0	الشمعة الزرقاء	NA	الشمعة الزرقاء	1	0	candle	small	blue	TRUE	FALSE	FALSE	FALSE	TRUE
+Dummy8	69	small_brown_belt	size and color	redundant	color	size redundant	4	1	0.75	القشاط البني	NA	القشاط البني	0	1	belt	small	brown	TRUE	TRUE	FALSE	FALSE	TRUE
+Dummy9	1	small_green_jacket	size and color	redundant	color	size redundant	4	4	0	الكنزة الخضراء	NA	الكنزة الخضراء	0	1	jacket	small	green	TRUE	TRUE	TRUE	FALSE	TRUE
+Dummy9	3	big_purple_flower	size and color	redundant	size	color redundant	4	4	0	الوردة الكبيرة	NA	الوردة الكبيرة	0	1	flower	big	purple	TRUE	TRUE	TRUE	FALSE	TRUE
+Dummy9	7	big_brown_turtle	size	minimal	size	color redundant	4	4	0	اكبر وحدة	lkbiri?	اكبر وحدة	1	0	turtle	big	brown	FALSE	TRUE	FALSE	TRUE	FALSE
+Dummy9	16	big_red_yarn	size and color	redundant	color	size redundant	3	2	0.3333333333333333	الاحمر	NA	الاحمر	0	1	yarn	big	red	TRUE	TRUE	FALSE	FALSE	TRUE
+Dummy9	25	big_black_comb	size and color	redundant	color	size redundant	2	2	0	المشط الاسود	NA	المشط الاسود	0	1	comb	big	black	TRUE	TRUE	FALSE	FALSE	TRUE
+Dummy9	36	big_blue_book	size and color	redundant	size	color redundant	2	1	0.5	الكتاب الكبير	NA	الكتاب الكبير	0	1	book	big	blue	TRUE	TRUE	FALSE	FALSE	TRUE
+Dummy9	43	big_orange_cushion	color	minimal	color	size redundant	2	2	0	البرتقالية	NA	البرتقالية	1	0	cushion	big	orange	TRUE	FALSE	FALSE	FALSE	TRUE
+Dummy9	48	big_orange_coathanger	size and color	redundant	size	color redundant	4	1	0.75	التعليقة الكبيرة	NA	التعليقة الكبيرة	0	1	coathanger	big	orange	TRUE	TRUE	FALSE	FALSE	TRUE
+Dummy9	49	big_orange_billiardball	size and color	redundant	color	size redundant	4	1	0.75	الطابة البرتقالية	NA	الطابة البرتقالية	0	1	billiardball	big	orange	TRUE	TRUE	FALSE	FALSE	TRUE
+Dummy9	55	big_purple_stapler	size and color	redundant	size	color redundant	4	3	0.25	المكبس الكبير	NA	المكبس الكبير	0	1	stapler	big	purple	TRUE	TRUE	FALSE	FALSE	TRUE
+Dummy9	69	small_brown_belt	size and color	redundant	color	size redundant	4	1	0.75	القشاط البني	NA	القشاط البني	0	1	belt	small	brown	TRUE	TRUE	FALSE	FALSE	TRUE
+Dummy9	72	small_red_toothbrush	size	minimal	size	color redundant	3	1	0.6666666666666666	الفرشاية الصغيرة	NA	الفرشاية الصغيرة	1	0	toothbrush	small	red	FALSE	TRUE	FALSE	FALSE	TRUE
+Dummy10	3	big_purple_flower	size	minimal	size	color redundant	4	4	0	الوردة الكبيرة	NA	الوردة الكبيرة	1	0	flower	big	purple	FALSE	TRUE	TRUE	FALSE	TRUE
+Dummy10	7	big_brown_turtle	size and color	redundant	size	color redundant	4	4	0	اكبر وحدة	lkbiri?	اكبر وحدة	0	1	turtle	big	brown	TRUE	TRUE	FALSE	TRUE	FALSE
+Dummy10	10	small_purple_bike	size	minimal	size	color redundant	3	2	0.3333333333333333	اصغر وحدة	NA	اصغر وحدة	1	0	bike	small	purple	FALSE	TRUE	FALSE	TRUE	FALSE
+Dummy10	15	big_pink_phone	color	minimal	color	size redundant	2	1	0.5	الزهر	NA	الزهر	1	0	phone	big	pink	TRUE	FALSE	FALSE	FALSE	TRUE
+Dummy10	16	big_red_yarn	color	minimal	color	size redundant	3	2	0.3333333333333333	الاحمر	NA	الاحمر	1	0	yarn	big	red	TRUE	FALSE	FALSE	FALSE	TRUE
+Dummy10	26	small_green_guitar	size and color	redundant	color	size redundant	2	1	0.5	الاخضر	NA	الاخضر	0	1	guitar	small	green	TRUE	TRUE	FALSE	FALSE	TRUE
+Dummy10	31	big_pink_teacup	color	minimal	color	size redundant	4	2	0.5	الزهر	NA	الزهر	1	0	teacup	big	pink	TRUE	FALSE	FALSE	FALSE	TRUE
+Dummy10	33	big_blue_cap	size and color	redundant	size	color redundant	2	2	0	الكبير	NA	الكبير	0	1	cap	big	blue	TRUE	TRUE	FALSE	FALSE	TRUE
+Dummy10	38	small_green_chair	size	minimal	size	color redundant	4	3	0.25	الكنبة الصغيرة	NA	الكنبة الصغيرة	1	0	chair	small	green	FALSE	TRUE	FALSE	FALSE	TRUE
+Dummy10	39	big_blue_binder	color	minimal	color	size redundant	3	3	0	الملف الازرق	NA	الملف الازرق	1	0	binder	big	blue	TRUE	FALSE	FALSE	FALSE	TRUE
+Dummy10	46	big_blue_butterfly	size and color	redundant	color	size redundant	3	1	0.6666666666666666	الفراشة الزرقاء	NA	الفراشة الزرقاء	0	1	butterfly	big	blue	TRUE	TRUE	FALSE	FALSE	TRUE
+Dummy10	48	big_orange_coathanger	size and color	redundant	size	color redundant	4	1	0.75	التعليقة الكبيرة	NA	التعليقة الكبيرة	0	1	coathanger	big	orange	TRUE	TRUE	FALSE	FALSE	TRUE
+Dummy10	51	small_blue_scarf	size and color	redundant	size	color redundant	2	1	0.5	الشال الصغير	NA	الشال الصغير	0	1	scarf	small	blue	TRUE	TRUE	FALSE	FALSE	TRUE
+Dummy10	56	small_white_pingpongball	size and color	redundant	color	size redundant	4	2	0.5	البيضاء	NA	البيضاء	0	1	pingpongball	small	white	TRUE	TRUE	FALSE	FALSE	TRUE
+Dummy10	57	big_red_bellpepper	size and color	redundant	size	color redundant	3	1	0.6666666666666666	الفليفلة الكبيرة	NA	الفليفلة الكبيرة	0	1	bellpepper	big	red	TRUE	TRUE	FALSE	FALSE	TRUE
+Dummy10	58	small_green_bracelet	size and color	redundant	color	size redundant	4	3	0.25	الخضرا	NA	الخضرا	0	1	bracelet	small	green	TRUE	TRUE	FALSE	FALSE	TRUE
+Dummy10	62	small_pink_balloon	size	minimal	size	color redundant	3	3	0	البالون الصغير	NA	البالون الصغير	1	0	balloon	small	pink	FALSE	TRUE	FALSE	FALSE	TRUE

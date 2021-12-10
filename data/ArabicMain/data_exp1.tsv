@@ -1,0 +1,4 @@
+gameid	Trial	TargetItem	UtteranceType	redUtterance	SufficientProperty	RedundantProperty	NumDistractors	NumSameDistractors	SceneVariation	speakerMessages	listenerMessages	refExp	minimal	redundant	clickedType	clickedSize	clickedColor	colorMentioned	sizeMentioned	typeMentioned	oneMentioned	theMentioned
+PTuoxKAk2CjZcWGsi	2	small_white_pingpongball	size and color	redundant	color	size redundant	3	2	0.3333333333333333	صغير و أبيض	NA	صغير و أبيض	0	1	pingpongball	small	white	TRUE	TRUE	FALSE	FALSE	FALSE
+PTuoxKAk2CjZcWGsi	4	small_purple_coathanger	size and color	redundant	size	color redundant	4	1	0.75	صغير و بنفسجي	NA	صغير و بنفسجي	0	1	coathanger	small	purple	TRUE	TRUE	FALSE	FALSE	FALSE
+PTuoxKAk2CjZcWGsi	5	small_yellow_balloon	size	minimal	size	color redundant	2	2	0	صغير	NA	صغير	1	0	balloon	small	yellow	FALSE	TRUE	FALSE	FALSE	FALSE
