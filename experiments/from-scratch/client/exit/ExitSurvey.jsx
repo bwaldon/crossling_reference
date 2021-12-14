@@ -48,6 +48,10 @@ export default class ExitSurvey extends React.Component {
 		keyboardComfort: "",
 		dialectArabic: "",
 		dialectArabicSpecify: "",
+		spanishVariety: "",
+		whereLive: "",
+		whereGrowUp: "",
+		spanishCommunitySpecify: "",
 	};
 
 	handleChange = (event) => {
@@ -96,6 +100,10 @@ export default class ExitSurvey extends React.Component {
 			keyboardComfort,
 			dialectArabic,
 			dialectArabicSpecify,
+			spanishVariety,
+			whereLive,
+			whereGrowUp,
+			spanishCommunitySpecify,
 		} = this.state;
 
 		const { game } = this.props;
@@ -195,6 +203,70 @@ export default class ExitSurvey extends React.Component {
 				<h3>{gameTextInLanguage.SURVEY_line3}</h3>
 				<form onSubmit={this.handleSubmit}>
 					<span> </span>
+
+					{game.treatment.gameLanguage == "Spanish" ? (
+						<div className="pt-form-group">
+							<div className="form-line thirds">
+								{" "}
+								<FormGroup
+									className={"pt-form-content"}
+									inline={false}
+									label={
+										<b>
+											Por favor, describa la variedad de
+											español que usted habla:
+										</b>
+									}
+									labelFor={"spanishVariety"}
+								>
+									<TextArea
+										id="spanishVariety"
+										name="spanishVariety"
+										large={true}
+										intent={Intent.PRIMARY}
+										onChange={this.handleChange}
+										value={spanishVariety}
+										fill={true}
+									/>
+								</FormGroup>{" "}
+							</div>
+							<br></br>
+							<div className="pt-form-content">
+								<div>
+									<label htmlFor="whereLive">
+										<b>¿En dónde vive usted?</b>
+									</label>{" "}
+									<input
+										id="whereLive"
+										type="text"
+										dir="auto"
+										name="whereLive"
+										value={whereLive}
+										onChange={this.handleChange}
+										autoComplete="off"
+									/>
+								</div>{" "}
+							</div>
+							<br></br>
+							<div className="pt-form-content">
+								<div>
+									<label htmlFor="whereLive">
+										<b>¿En dónde creció?</b>
+									</label>{" "}
+									<input
+										id="whereGrowUp"
+										type="text"
+										dir="auto"
+										name="whereGrowUp"
+										value={whereGrowUp}
+										onChange={this.handleChange}
+										autoComplete="off"
+									/>
+								</div>
+								<br></br>
+							</div>
+						</div>
+					) : null}
 
 					{game.treatment.gameLanguage == "Arabic" ? (
 						<div className="pt-form-group">
@@ -674,7 +746,25 @@ export default class ExitSurvey extends React.Component {
 									</option>
 								))}
 							</HTMLSelect>
-						</div>{" "}
+							{game.treatment.gameLanguage == "Spanish" ? (
+								<div>
+									<label htmlFor="spanishCommunitySpecify">
+										<b>
+											{" " + "Si es así, ¿dónde?" + " "}
+										</b>
+									</label>
+									<input
+										id="spanishCommunitySpecify"
+										type="text"
+										dir="auto"
+										name="spanishCommunitySpecify"
+										value={spanishCommunitySpecify}
+										onChange={this.handleChange}
+										autoComplete="off"
+									/>{" "}
+								</div>
+							) : null}
+						</div>
 					</div>
 					<br></br>
 					<div className="pt-form-group">

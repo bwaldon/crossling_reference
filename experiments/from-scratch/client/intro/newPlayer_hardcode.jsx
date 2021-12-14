@@ -36,6 +36,9 @@ export default class PlayerId extends Component {
                                 : batchGroupName.includes("arabic") ||
                                   batchGroupName.includes("Arabic")
                                 ? "الرجاء إدخال عنوان بريدك الإلكتروني حتى نتمكن من تعويضك في نهاية الدراسة. (سيتم استخدام عنوان بريدك الإلكتروني فقط للحصول على التعويض، وستكون أجوبتك جميعها مجهولة المصدر)."
+                                : batchGroupName.includes("Spanish") ||
+                                  batchGroupName.includes("spanish")
+                                ? "Por favor, ingrese su ID de Prolific."
                                 : "Please enter your Prolific ID:"}
                         </p>
 
@@ -63,6 +66,9 @@ export default class PlayerId extends Component {
                                     : batchGroupName.includes("arabic") ||
                                       batchGroupName.includes("Arabic")
                                     ? "التالي"
+                                    : batchGroupName.includes("Spanish") ||
+                                      batchGroupName.includes("spanish")
+                                    ? "Siguiente"
                                     : "Next"}
                             </button>
                         </p>
