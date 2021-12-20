@@ -41,7 +41,7 @@ semanticHelperFunctions <- read_file("stefanModels/stefanSemanticHelperFunctions
 #       of javaScript code
 # Semantics: RSA semantics function with all dictionary entries and their noise
 #       this is a string of javaScript code
-scenariosToRun <- read.csv("stefanModels/stefanScenario1.csv", as.is = TRUE)
+scenariosToRun <- read.csv("stefanModels/stefanScenarioSeries1.csv", as.is = TRUE)
 
 # Do to a bug in the python script, we have duplicates of boolean semantic rows
 # therefore we only want to get the unique rows
@@ -183,605 +183,795 @@ unnestedGlobal <- unnestedGlobal %>%
 scenariosFinal <- bind_rows(incrementalScenarios, unnestedGlobal)
 
 # Output this as a csv file so that we don't have to rerun this code again and again because it takes a long time
-write.csv(scenariosFinal,"stefanTestScenarios/scenarios1Formatted.csv", row.names = FALSE)
+write.csv(scenariosFinal,"stefanTestSeries1/series1Formatted.csv", row.names = FALSE)
 
 
 #######
 # In case you've already run the above code, and just want to analyze the data, without rerunning
 # the code, import the csv file that was written above with the following two lines of code
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
-scenariosFinal <- read.csv("stefanTestScenarios/scenarios1Formatted.csv", as.is = TRUE)
-
-
+scenariosFinal <- read.csv("stefanTestSeries1/series1Formatted.csv", as.is = TRUE)
 
 ###############
 # SCENARIO 1
-# objects: ['blue_plate_masc', 'red_plate_masc', 'blue_cup_fem']
-# target: 'blue_cup_fem'
+# objects: ['blue_plate_masc', 'red_plate_masc', 'red_plate_masc']
+# target: 'blue_plate_masc'
 # alpha: 19, same for all models
 # cost: {0, 0.1}, same for all words
 # sizeNoise: 0.8
 # colorNoise: 0.95
 # nounNoise: 0.9
-# genderNoise: {0.7, 0.8, 0.9, 1.0}
+# genderNoise: {0.8, 1.0}
+###############
+
+###############
+# SCENARIO 2
+# objects: ["blue_plate_masc","red_knife_masc", "red_knife_masc"]
+# target: 'blue_plate_masc'
+# alpha: 19, same for all models
+# cost: {0, 0.1}, same for all words
+# sizeNoise: 0.8
+# colorNoise: 0.95
+# nounNoise: 0.9
+# genderNoise: {0.8, 1.0}
+###############
+
+
+graphScenario <- function(targetInput, statesInput, scenarioNum) {
+  
+  # Get the correct Scenario
+  scenario <- scenariosFinal %>%
+    filter(target == targetInput & states == statesInput)
+  
+  # Scenario 1; all continous graphs; cost = 0
+  graphScenarioCont <-  scenario %>%
+    filter(scenario$commandType == "globalCont" |
+             scenario$commandType == "incCont")%>%
+    group_by(commandType, genderNoise) %>%
+    mutate(identifier = paste(commandType, ", cost: ", sizeCost, ", genderNoise: ", genderNoise, sep = "")) %>%
+    ggplot(aes(x=utterance,y=output)) +
+    geom_bar(stat="identity") +
+    facet_wrap(~identifier, ncol = 4) +
+    theme_bw() +
+    theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
+  
+
+  # Scenario 1; Graphs by genderNoise and sizeCost
+  graphScenarioNoise08 <- scenario %>%
+    filter(scenario$genderNoise == 0.8 |
+             scenario$commandType == "globalBool" |
+             scenario$commandType == "incBool") %>%
+    mutate(identifier = paste("cost: ", sizeCost, ", ", commandType, ", genderNoise: ", genderNoise, sep = "")) %>%
+    ggplot(aes(x=utterance,y=output)) +
+    geom_bar(stat="identity") +
+    facet_wrap(~identifier, ncol = 4) +
+    theme_bw() +
+    theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
+  
+  graphScenarioNoise1 <- scenario %>%
+    filter(scenario$genderNoise == 1.0 |
+             scenario$commandType == "globalBool" |
+             scenario$commandType == "incBool") %>%
+    mutate(identifier = paste("cost: ", sizeCost, ", ", commandType, ", genderNoise: ", genderNoise, sep = "")) %>%
+    ggplot(aes(x=utterance,y=output)) +
+    geom_bar(stat="identity") +
+    facet_wrap(~identifier, ncol = 4) +
+    theme_bw() +
+    theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
+  
+  
+  # EXPORT THE SCENARIO 1 PLOTS
+  
+  contModelName <- paste("stefanTestSeries1/scenario", scenarioNum, "_ContModels.jpeg", sep = "")
+  graph2Name <- paste("stefanTestSeries1/scenario", scenarioNum, "_Noise08.jpeg", sep = "")
+  graph3Name <-paste("stefanTestSeries1/scenario", scenarioNum, "_Noise1.jpeg", sep = "")
+  
+  #Export the plots
+  jpeg(file=contModelName, width = 1500, height = 1000)
+  plot(graphScenarioCont)
+  dev.off()
+  
+  jpeg(file=graph2Name, width = 1500, height = 1000)
+  plot(graphScenarioNoise08)
+  dev.off()
+  
+  jpeg(file=graph3Name, width = 1500, height = 1000)
+  plot(graphScenarioNoise1)
+  dev.off()
+}
+
+
+graphScenario("blue_plate_masc", "['blue_plate_masc', 'red_plate_masc', 'red_plate_masc']", 1)
+graphScenario("blue_plate_masc", "['blue_plate_masc', 'red_knife_masc', 'red_knife_masc']", 2)
+graphScenario("blue_plate_masc", "['blue_plate_masc', 'red_knife_masc', 'blue_knife_masc']", 3)
+graphScenario("blue_plate_masc", "['blue_plate_masc', 'red_plate_masc', 'blue_cup_fem']", 4)
+graphScenario("blue_plate_masc", "['blue_plate_masc', 'red_plate_masc', 'red_cup_fem']", 5)
+graphScenario("blue_plate_masc", "['blue_plate_masc', 'blue_knife_masc', 'red_cup_fem']", 6)
+graphScenario("blue_plate_masc", "['blue_plate_masc', 'red_knife_masc', 'blue_cup_fem']", 7)
+graphScenario("blue_plate_masc", "['blue_plate_masc', 'red_knife_masc', 'red_cup_fem']", 8)
+graphScenario("blue_plate_masc", "['blue_plate_masc', 'blue_cup_fem', 'blue_cup_fem']", 9)
+graphScenario("blue_plate_masc", "['blue_plate_masc', 'red_cup_fem', 'red_cup_fem']", 10)
+graphScenario("blue_plate_masc", "['blue_plate_masc', 'red_cup_fem', 'blue_cup_fem']", 11)
+
+graphScenario("blue_plate_masc", "['blue_plate_masc', 'red_knife_masc', 'red_knife_masc', 'red_knife_masc', 'red_knife_masc', 'red_knife_masc']", 12)
+graphScenario("blue_plate_masc", "['blue_plate_masc', 'red_knife_masc', 'red_knife_masc', 'red_knife_masc', 'blue_knife_masc', 'blue_knife_masc']", 13)
+graphScenario("blue_plate_masc", "['blue_plate_masc', 'red_knife_masc', 'red_knife_masc', 'blue_knife_masc', 'blue_knife_masc', 'blue_knife_masc']", 14)
+graphScenario("blue_plate_masc", "['blue_plate_masc', 'red_plate_masc', 'red_plate_masc', 'red_knife_masc', 'red_knife_masc', 'red_knife_masc']", 15)
+graphScenario("blue_plate_masc", "['blue_plate_masc', 'red_plate_masc', 'red_plate_masc', 'blue_knife_masc', 'blue_knife_masc', 'blue_knife_masc']", 16)
+graphScenario("blue_plate_masc", "['blue_plate_masc', 'red_plate_masc', 'red_plate_masc', 'red_knife_masc', 'red_knife_masc', 'blue_knife_masc']", 17)
+graphScenario("blue_plate_masc", "['blue_plate_masc', 'red_cup_fem', 'red_cup_fem', 'red_cup_fem', 'red_cup_fem', 'red_cup_fem']", 18)
+graphScenario("blue_plate_masc", "['blue_plate_masc', 'blue_cup_fem', 'blue_cup_fem', 'red_cup_fem', 'red_cup_fem', 'red_cup_fem']", 19)
+graphScenario("blue_plate_masc", "['blue_plate_masc', 'blue_cup_fem', 'blue_cup_fem', 'blue_cup_fem', 'red_cup_fem', 'red_cup_fem']", 20)
+graphScenario("blue_plate_masc", "['blue_plate_masc', 'red_plate_masc', 'red_plate_masc', 'red_cup_fem', 'red_cup_fem', 'red_cup_fem']", 21)
+graphScenario("blue_plate_masc", "['blue_plate_masc', 'red_plate_masc', 'red_plate_masc', 'blue_cup_fem', 'blue_cup_fem', 'red_cup_fem']", 22)
+graphScenario("blue_plate_masc", "['blue_plate_masc', 'red_plate_masc', 'red_plate_masc', 'red_cup_fem', 'blue_cup_fem', 'red_cup_fem']", 23)
+
+
+
+
+
+###############
+# SCENARIO 3
+# objects: ["blue_plate_masc","red_knife_masc", "blue_knife_masc"]
+# target: 'blue_plate_masc'
+# alpha: 19, same for all models
+# cost: {0, 0.1}, same for all words
+# sizeNoise: 0.8
+# colorNoise: 0.95
+# nounNoise: 0.9
+# genderNoise: {0.8, 1.0}
 ###############
 
 # Get the correct Scenario
-scenario1 <- scenariosFinal %>%
-  filter(scenariosFinal$target == "blue_cup_fem" & scenariosFinal$states == "['blue_plate_masc', 'red_plate_masc', 'blue_cup_fem']")
+scenario2 <- scenariosFinal %>%
+  filter(scenariosFinal$target == "blue_plate_masc" & scenariosFinal$states == "")
 
 # Scenario 1; all continous graphs; cost = 0
-graphScenario1Cost0Cont <-  scenario1 %>%
-  filter(scenario1$sizeCost == 0 & (
-    scenario1$commandType == "globalCont" | 
-    scenario1$commandType == "incCont")) %>%
+graphScenario2Cont <-  scenario2 %>%
+  filter(scenario2$commandType == "globalCont" |
+           scenario2$commandType == "incCont")%>%
   group_by(commandType, genderNoise) %>%
-  mutate(identifier = paste("commandType: ", commandType, ", genderNoise: ", genderNoise, ", cost: ", sizeCost, sep = "")) %>%
-  ggplot(aes(x=utterance,y=output)) + 
-  geom_bar(stat="identity") + 
+  mutate(identifier = paste(commandType, ", cost: ", sizeCost, ", genderNoise: ", genderNoise, sep = "")) %>%
+  ggplot(aes(x=utterance,y=output)) +
+  geom_bar(stat="identity") +
   facet_wrap(~identifier, ncol = 4) +
-  theme_bw() + 
+  theme_bw() +
   theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
-
-
-# Scenario 1; all continous graphs; cost = 0.1
-graphScenario1Cost01Cont <-  scenario1 %>%
-  filter(scenario1$sizeCost == 0.1 & (
-      scenario1$commandType == "globalCont" | 
-      scenario1$commandType == "incCont")) %>%
-  group_by(commandType, genderNoise) %>%
-  mutate(identifier = paste("commandType: ", commandType, ", genderNoise: ", genderNoise, ", cost: ", sizeCost, sep = "")) %>%
-  ggplot(aes(x=utterance,y=output)) + 
-  geom_bar(stat="identity") + 
-  facet_wrap(~identifier, ncol = 4) +
-  theme_bw() + 
-  theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
-
 
 # Scenario 1; Graphs by genderNoise and sizeCost
-graphScenario1Cost0GenderNoise07 <- scenario1 %>%
-  filter(scenario1$genderNoise == 0.7 | 
-           scenario1$commandType == "globalBool" | 
-           scenario1$commandType == "incBool") %>%
-  mutate(identifier = paste("cost: ", sizeCost, ", commandType: ", commandType, ", genderNoise: ", genderNoise, sep = "")) %>%
-  ggplot(aes(x=utterance,y=output)) + 
-  geom_bar(stat="identity") + 
+graphScenario2Noise08 <- scenario2 %>%
+  filter(scenario2$genderNoise == 0.8 |
+           scenario2$commandType == "globalBool" |
+           scenario2$commandType == "incBool") %>%
+  mutate(identifier = paste("cost: ", sizeCost, ", ", commandType, ", genderNoise: ", genderNoise, sep = "")) %>%
+  ggplot(aes(x=utterance,y=output)) +
+  geom_bar(stat="identity") +
   facet_wrap(~identifier, ncol = 4) +
-  theme_bw() + 
+  theme_bw() +
   theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
 
-graphScenario1Cost0GenderNoise08 <- scenario1 %>%
-  filter(scenario1$genderNoise == 0.8 | 
-           scenario1$commandType == "globalBool" | 
-           scenario1$commandType == "incBool") %>%
-  mutate(identifier = paste("cost: ", sizeCost, ", commandType: ", commandType, ", genderNoise: ", genderNoise, sep = "")) %>%
-  ggplot(aes(x=utterance,y=output)) + 
-  geom_bar(stat="identity") + 
+graphScenario2Noise1 <- scenario2 %>%
+  filter(scenario2$genderNoise == 1.0 |
+           scenario2$commandType == "globalBool" |
+           scenario2$commandType == "incBool") %>%
+  mutate(identifier = paste("cost: ", sizeCost, ", ", commandType, ", genderNoise: ", genderNoise, sep = "")) %>%
+  ggplot(aes(x=utterance,y=output)) +
+  geom_bar(stat="identity") +
   facet_wrap(~identifier, ncol = 4) +
-  theme_bw() + 
-  theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
-
-graphScenario1Cost0GenderNoise09 <- scenario1 %>%
-  filter(scenario1$genderNoise == 0.9 | 
-           scenario1$commandType == "globalBool" | 
-           scenario1$commandType == "incBool") %>%
-  mutate(identifier = paste("cost: ", sizeCost, ", commandType: ", commandType, ", genderNoise: ", genderNoise, sep = "")) %>%
-  ggplot(aes(x=utterance,y=output)) + 
-  geom_bar(stat="identity") + 
-  facet_wrap(~identifier, ncol = 4) +
-  theme_bw() + 
-  theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
-
-graphScenario1Cost0GenderNoise1 <- scenario1 %>%
-  filter(scenario1$genderNoise == 1.0 | 
-           scenario1$commandType == "globalBool" | 
-           scenario1$commandType == "incBool") %>%
-  mutate(identifier = paste("cost: ", sizeCost, ", commandType: ", commandType, ", genderNoise: ", genderNoise, sep = "")) %>%
-  ggplot(aes(x=utterance,y=output)) + 
-  geom_bar(stat="identity") + 
-  facet_wrap(~identifier, ncol = 4) +
-  theme_bw() + 
+  theme_bw() +
   theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
 
 
 # EXPORT THE SCENARIO 1 PLOTS
 
 #Export the plots
-jpeg(file="stefanTestScenarios/scenario1_ContModels_Cost0.jpeg", width = 1500, height = 1000)
-plot(graphScenario1Cost0Cont)
+jpeg(file="stefanTestSeries1/scenario2_ContModels.jpeg", width = 1500, height = 1000)
+plot(graphScenario2Cont)
 dev.off()
 
-jpeg(file="stefanTestScenarios/scenario1_ContModels_Cost01.jpeg", width = 1500, height = 1000)
-plot(graphScenario1Cost01Cont)
+jpeg(file="stefanTestSeries1/scenario2_Noise08.jpeg", width = 1500, height = 1000)
+plot(graphScenario2Noise)
 dev.off()
 
-jpeg(file="stefanTestScenarios/scenario1_ModelComparison_GenderNoise07.jpeg", width = 1500, height = 1000)
-plot(graphScenario1Cost0GenderNoise07)
-dev.off()
-
-jpeg(file="stefanTestScenarios/scenario1_ModelComparison_GenderNoise08.jpeg", width = 1500, height = 1000)
-plot(graphScenario1Cost0GenderNoise08)
-dev.off()
-
-jpeg(file="stefanTestScenarios/scenario1_ModelComparison_GenderNoise09.jpeg", width = 1500, height = 1000)
-plot(graphScenario1Cost0GenderNoise09)
-dev.off()
-
-jpeg(file="stefanTestScenarios/scenario1_ModelComparison_GenderNoise1.jpeg", width = 1500, height = 1000)
-plot(graphScenario1Cost0GenderNoise1)
+jpeg(file="stefanTestSeries1/scenario2_Noise1.jpeg", width = 1500, height = 1000)
+plot(graphScenario2Noise1)
 dev.off()
 
 
 
-###############
-# SCENARIO 2
-# objects: ['big_blue_plate_masc', 'big_red_plate_masc', 'small_blue_plate_masc']
-# target: 'small_blue_plate_masc'
-# alpha: 19, same for all models
-# cost: {0, 0.1}, same for all words
-# sizeNoise: 0.8
-# colorNoise: 0.95
-# nounNoise: 0.9
-# genderNoise: {0.7, 0.8, 0.9, 1.0}
-###############
 
-# Get the correct Scenario
-scenario2 <- scenariosFinal %>%
-  filter(scenariosFinal$target == "small_blue_plate_masc" & scenariosFinal$states == "['big_blue_plate_masc', 'big_red_plate_masc', 'small_blue_plate_masc']")
 
-# Scenario 2; all continous graphs; cost = 0
-graphScenario2Cost0Cont <-  scenario2 %>%
-  filter(scenario2$sizeCost == 0 & (
-    scenario2$commandType == "globalCont" | 
-      scenario2$commandType == "incCont")) %>%
-  group_by(commandType, genderNoise) %>%
-  mutate(identifier = paste("commandType: ", commandType, ", genderNoise: ", genderNoise, ", cost: ", sizeCost, sep = "")) %>%
-  ggplot(aes(x=utterance,y=output)) + 
-  geom_bar(stat="identity") + 
-  facet_wrap(~identifier, ncol = 4) +
-  theme_bw() + 
-  theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
 
 
-# Scenario 2; all continous graphs; cost = 0.1
-graphScenario2Cost01Cont <-  scenario2 %>%
-  filter(scenario2$sizeCost == 0.1 & (
-    scenario2$commandType == "globalCont" | 
-      scenario2$commandType == "incCont")) %>%
-  group_by(commandType, genderNoise) %>%
-  mutate(identifier = paste("commandType: ", commandType, ", genderNoise: ", genderNoise, ", cost: ", sizeCost, sep = "")) %>%
-  ggplot(aes(x=utterance,y=output)) + 
-  geom_bar(stat="identity") + 
-  facet_wrap(~identifier, ncol = 4) +
-  theme_bw() + 
-  theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
-
-
-# Scenario 2; Graphs by genderNoise and sizeCost
-graphScenario2Cost0GenderNoise07 <- scenario2 %>%
-  filter(scenario2$genderNoise == 0.7 | 
-           scenario2$commandType == "globalBool" | 
-           scenario2$commandType == "incBool") %>%
-  mutate(identifier = paste("cost: ", sizeCost, ", commandType: ", commandType, ", genderNoise: ", genderNoise, sep = "")) %>%
-  ggplot(aes(x=utterance,y=output)) + 
-  geom_bar(stat="identity") + 
-  facet_wrap(~identifier, ncol = 4) +
-  theme_bw() + 
-  theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
-
-graphScenario2Cost0GenderNoise08 <- scenario2 %>%
-  filter(scenario2$genderNoise == 0.8 | 
-           scenario2$commandType == "globalBool" | 
-           scenario2$commandType == "incBool") %>%
-  mutate(identifier = paste("cost: ", sizeCost, ", commandType: ", commandType, ", genderNoise: ", genderNoise, sep = "")) %>%
-  ggplot(aes(x=utterance,y=output)) + 
-  geom_bar(stat="identity") + 
-  facet_wrap(~identifier, ncol = 4) +
-  theme_bw() + 
-  theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
-
-graphScenario2Cost0GenderNoise09 <- scenario2 %>%
-  filter(scenario2$genderNoise == 0.9 | 
-           scenario2$commandType == "globalBool" | 
-           scenario2$commandType == "incBool") %>%
-  mutate(identifier = paste("cost: ", sizeCost, ", commandType: ", commandType, ", genderNoise: ", genderNoise, sep = "")) %>%
-  ggplot(aes(x=utterance,y=output)) + 
-  geom_bar(stat="identity") + 
-  facet_wrap(~identifier, ncol = 4) +
-  theme_bw() + 
-  theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
-
-graphScenario2Cost0GenderNoise1 <- scenario2 %>%
-  filter(scenario2$genderNoise == 1.0 | 
-           scenario2$commandType == "globalBool" | 
-           scenario2$commandType == "incBool") %>%
-  mutate(identifier = paste("cost: ", sizeCost, ", commandType: ", commandType, ", genderNoise: ", genderNoise, sep = "")) %>%
-  ggplot(aes(x=utterance,y=output)) + 
-  geom_bar(stat="identity") + 
-  facet_wrap(~identifier, ncol = 4) +
-  theme_bw() + 
-  theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
-
-
-# EXPORT THE SCENARIO 2 PLOTS
-
-#Export the plots
-jpeg(file="stefanTestScenarios/scenario2_ContModels_Cost0.jpeg", width = 1500, height = 1000)
-plot(graphScenario2Cost0Cont)
-dev.off()
-
-jpeg(file="stefanTestScenarios/scenario2_ContModels_Cost01.jpeg", width = 1500, height = 1000)
-plot(graphScenario2Cost01Cont)
-dev.off()
-
-jpeg(file="stefanTestScenarios/scenario2_ModelComparison_GenderNoise07.jpeg", width = 1500, height = 1000)
-plot(graphScenario2Cost0GenderNoise07)
-dev.off()
-
-jpeg(file="stefanTestScenarios/scenario2_ModelComparison_GenderNoise08.jpeg", width = 1500, height = 1000)
-plot(graphScenario2Cost0GenderNoise08)
-dev.off()
-
-jpeg(file="stefanTestScenarios/scenario2_ModelComparison_GenderNoise09.jpeg", width = 1500, height = 1000)
-plot(graphScenario2Cost0GenderNoise09)
-dev.off()
-
-jpeg(file="stefanTestScenarios/scenario2_ModelComparison_GenderNoise1.jpeg", width = 1500, height = 1000)
-plot(graphScenario2Cost0GenderNoise1)
-dev.off()
-
-
-
-###############
-# SCENARIO 3
-# objects: ["small_red_plate_masc", "big_red_plate_masc", "small_blue_plate_masc"]
-# target: 'small_blue_plate_masc'
-# alpha: 19, same for all models
-# cost: {0, 0.1}, same for all words
-# sizeNoise: 0.8
-# colorNoise: 0.95
-# nounNoise: 0.9
-# genderNoise: {0.7, 0.8, 0.9, 1.0}
-###############
-
-# Get the correct Scenario
-scenario3 <- scenariosFinal %>%
-  filter(scenariosFinal$target == "small_blue_plate_masc" & scenariosFinal$states == "['small_red_plate_masc', 'big_red_plate_masc', 'small_blue_plate_masc']")
-
-# Scenario 3; all continous graphs; cost = 0
-graphScenario3Cost0Cont <-  scenario3 %>%
-  filter(scenario3$sizeCost == 0 & (
-    scenario3$commandType == "globalCont" | 
-      scenario3$commandType == "incCont")) %>%
-  group_by(commandType, genderNoise) %>%
-  mutate(identifier = paste("commandType: ", commandType, ", genderNoise: ", genderNoise, ", cost: ", sizeCost, sep = "")) %>%
-  ggplot(aes(x=utterance,y=output)) + 
-  geom_bar(stat="identity") + 
-  facet_wrap(~identifier, ncol = 4) +
-  theme_bw() + 
-  theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
-
-
-# Scenario 3; all continous graphs; cost = 0.1
-graphScenario3Cost01Cont <-  scenario3 %>%
-  filter(scenario3$sizeCost == 0.1 & (
-    scenario3$commandType == "globalCont" | 
-      scenario3$commandType == "incCont")) %>%
-  group_by(commandType, genderNoise) %>%
-  mutate(identifier = paste("commandType: ", commandType, ", genderNoise: ", genderNoise, ", cost: ", sizeCost, sep = "")) %>%
-  ggplot(aes(x=utterance,y=output)) + 
-  geom_bar(stat="identity") + 
-  facet_wrap(~identifier, ncol = 4) +
-  theme_bw() + 
-  theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
-
-
-# Scenario 3; Graphs by genderNoise and sizeCost
-graphScenario3Cost0GenderNoise07 <- scenario3 %>%
-  filter(scenario3$genderNoise == 0.7 | 
-           scenario3$commandType == "globalBool" | 
-           scenario3$commandType == "incBool") %>%
-  mutate(identifier = paste("cost: ", sizeCost, ", commandType: ", commandType, ", genderNoise: ", genderNoise, sep = "")) %>%
-  ggplot(aes(x=utterance,y=output)) + 
-  geom_bar(stat="identity") + 
-  facet_wrap(~identifier, ncol = 4) +
-  theme_bw() + 
-  theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
-
-graphScenario3Cost0GenderNoise08 <- scenario3 %>%
-  filter(scenario3$genderNoise == 0.8 | 
-           scenario3$commandType == "globalBool" | 
-           scenario3$commandType == "incBool") %>%
-  mutate(identifier = paste("cost: ", sizeCost, ", commandType: ", commandType, ", genderNoise: ", genderNoise, sep = "")) %>%
-  ggplot(aes(x=utterance,y=output)) + 
-  geom_bar(stat="identity") + 
-  facet_wrap(~identifier, ncol = 4) +
-  theme_bw() + 
-  theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
-
-graphScenario3Cost0GenderNoise09 <- scenario3 %>%
-  filter(scenario3$genderNoise == 0.9 | 
-           scenario3$commandType == "globalBool" | 
-           scenario3$commandType == "incBool") %>%
-  mutate(identifier = paste("cost: ", sizeCost, ", commandType: ", commandType, ", genderNoise: ", genderNoise, sep = "")) %>%
-  ggplot(aes(x=utterance,y=output)) + 
-  geom_bar(stat="identity") + 
-  facet_wrap(~identifier, ncol = 4) +
-  theme_bw() + 
-  theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
-
-graphScenario3Cost0GenderNoise1 <- scenario3 %>%
-  filter(scenario3$genderNoise == 1.0 | 
-           scenario3$commandType == "globalBool" | 
-           scenario3$commandType == "incBool") %>%
-  mutate(identifier = paste("cost: ", sizeCost, ", commandType: ", commandType, ", genderNoise: ", genderNoise, sep = "")) %>%
-  ggplot(aes(x=utterance,y=output)) + 
-  geom_bar(stat="identity") + 
-  facet_wrap(~identifier, ncol = 4) +
-  theme_bw() + 
-  theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
-
-
-# EXPORT THE SCENARIO 3 PLOTS
-
-#Export the plots
-jpeg(file="stefanTestScenarios/scenario3_ContModels_Cost0.jpeg", width = 1500, height = 1000)
-plot(graphScenario3Cost0Cont)
-dev.off()
-
-jpeg(file="stefanTestScenarios/scenario3_ContModels_Cost01.jpeg", width = 1500, height = 1000)
-plot(graphScenario3Cost01Cont)
-dev.off()
-
-jpeg(file="stefanTestScenarios/scenario3_ModelComparison_GenderNoise07.jpeg", width = 1500, height = 1000)
-plot(graphScenario3Cost0GenderNoise07)
-dev.off()
-
-jpeg(file="stefanTestScenarios/scenario3_ModelComparison_GenderNoise08.jpeg", width = 1500, height = 1000)
-plot(graphScenario3Cost0GenderNoise08)
-dev.off()
-
-jpeg(file="stefanTestScenarios/scenario3_ModelComparison_GenderNoise09.jpeg", width = 1500, height = 1000)
-plot(graphScenario3Cost0GenderNoise09)
-dev.off()
-
-jpeg(file="stefanTestScenarios/scenario3_ModelComparison_GenderNoise1.jpeg", width = 1500, height = 1000)
-plot(graphScenario3Cost0GenderNoise1)
-dev.off()
-
-
-###############
-# SCENARIO 4
-# objects: ['blue_plate_masc', 'red_plate_masc', 'blue_cup_fem', 'red_cup_fem']
-# target: 'blue_cup_fem'
-# alpha: 19, same for all models
-# cost: {0, 0.1}, same for all words
-# sizeNoise: 0.8
-# colorNoise: 0.95
-# nounNoise: 0.9
-# genderNoise: {0.7, 0.8, 0.9, 1.0}
-###############
-
-# Get the correct Scenario
-scenario4 <- scenariosFinal %>%
-  filter(scenariosFinal$target == "blue_cup_fem" & scenariosFinal$states == "['blue_plate_masc', 'red_plate_masc', 'blue_cup_fem', 'red_cup_fem']")
-
-# Scenario 4; all continous graphs; cost = 0
-graphScenario4Cost0Cont <-  scenario4 %>%
-  filter(scenario4$sizeCost == 0 & (
-    scenario4$commandType == "globalCont" | 
-      scenario4$commandType == "incCont")) %>%
-  group_by(commandType, genderNoise) %>%
-  mutate(identifier = paste("commandType: ", commandType, ", genderNoise: ", genderNoise, ", cost: ", sizeCost, sep = "")) %>%
-  ggplot(aes(x=utterance,y=output)) + 
-  geom_bar(stat="identity") + 
-  facet_wrap(~identifier, ncol = 4) +
-  theme_bw() + 
-  theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
-
-
-# Scenario 4; all continous graphs; cost = 0.1
-graphScenario4Cost01Cont <-  scenario4 %>%
-  filter(scenario4$sizeCost == 0.1 & (
-    scenario4$commandType == "globalCont" | 
-      scenario4$commandType == "incCont")) %>%
-  group_by(commandType, genderNoise) %>%
-  mutate(identifier = paste("commandType: ", commandType, ", genderNoise: ", genderNoise, ", cost: ", sizeCost, sep = "")) %>%
-  ggplot(aes(x=utterance,y=output)) + 
-  geom_bar(stat="identity") + 
-  facet_wrap(~identifier, ncol = 4) +
-  theme_bw() + 
-  theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
-
-
-# Scenario 4; Graphs by genderNoise and sizeCost
-graphScenario4Cost0GenderNoise07 <- scenario4 %>%
-  filter(scenario4$genderNoise == 0.7 | 
-           scenario4$commandType == "globalBool" | 
-           scenario4$commandType == "incBool") %>%
-  mutate(identifier = paste("cost: ", sizeCost, ", commandType: ", commandType, ", genderNoise: ", genderNoise, sep = "")) %>%
-  ggplot(aes(x=utterance,y=output)) + 
-  geom_bar(stat="identity") + 
-  facet_wrap(~identifier, ncol = 4) +
-  theme_bw() + 
-  theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
-
-graphScenario4Cost0GenderNoise08 <- scenario4 %>%
-  filter(scenario4$genderNoise == 0.8 | 
-           scenario4$commandType == "globalBool" | 
-           scenario4$commandType == "incBool") %>%
-  mutate(identifier = paste("cost: ", sizeCost, ", commandType: ", commandType, ", genderNoise: ", genderNoise, sep = "")) %>%
-  ggplot(aes(x=utterance,y=output)) + 
-  geom_bar(stat="identity") + 
-  facet_wrap(~identifier, ncol = 4) +
-  theme_bw() + 
-  theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
-
-graphScenario4Cost0GenderNoise09 <- scenario4 %>%
-  filter(scenario4$genderNoise == 0.9 | 
-           scenario4$commandType == "globalBool" | 
-           scenario4$commandType == "incBool") %>%
-  mutate(identifier = paste("cost: ", sizeCost, ", commandType: ", commandType, ", genderNoise: ", genderNoise, sep = "")) %>%
-  ggplot(aes(x=utterance,y=output)) + 
-  geom_bar(stat="identity") + 
-  facet_wrap(~identifier, ncol = 4) +
-  theme_bw() + 
-  theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
-
-graphScenario4Cost0GenderNoise1 <- scenario4 %>%
-  filter(scenario4$genderNoise == 1.0 | 
-           scenario4$commandType == "globalBool" | 
-           scenario4$commandType == "incBool") %>%
-  mutate(identifier = paste("cost: ", sizeCost, ", commandType: ", commandType, ", genderNoise: ", genderNoise, sep = "")) %>%
-  ggplot(aes(x=utterance,y=output)) + 
-  geom_bar(stat="identity") + 
-  facet_wrap(~identifier, ncol = 4) +
-  theme_bw() + 
-  theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
-
-
-# EXPORT THE SCENARIO 4 PLOTS
-
-#Export the plots
-jpeg(file="stefanTestScenarios/scenario4_ContModels_Cost0.jpeg", width = 1500, height = 1000)
-plot(graphScenario4Cost0Cont)
-dev.off()
-
-jpeg(file="stefanTestScenarios/scenario4_ContModels_Cost01.jpeg", width = 1500, height = 1000)
-plot(graphScenario4Cost01Cont)
-dev.off()
-
-jpeg(file="stefanTestScenarios/scenario4_ModelComparison_GenderNoise07.jpeg", width = 1500, height = 1000)
-plot(graphScenario4Cost0GenderNoise07)
-dev.off()
-
-jpeg(file="stefanTestScenarios/scenario4_ModelComparison_GenderNoise08.jpeg", width = 1500, height = 1000)
-plot(graphScenario4Cost0GenderNoise08)
-dev.off()
-
-jpeg(file="stefanTestScenarios/scenario4_ModelComparison_GenderNoise09.jpeg", width = 1500, height = 1000)
-plot(graphScenario4Cost0GenderNoise09)
-dev.off()
-
-jpeg(file="stefanTestScenarios/scenario4_ModelComparison_GenderNoise1.jpeg", width = 1500, height = 1000)
-plot(graphScenario4Cost0GenderNoise1)
-dev.off()
-
-
-
-###############
-# SCENARIO 5
-# objects: ['big_plate_masc', 'small_plate_masc', 'big_cup_fem', 'small_cup_fem']
-# target: 'big_cup_fem'
-# alpha: 19, same for all models
-# cost: {0, 0.1}, same for all words
-# sizeNoise: 0.8
-# colorNoise: 0.95
-# nounNoise: 0.9
-# genderNoise: {0.7, 0.8, 0.9, 1.0}
-###############
-
-# Get the correct Scenario
-scenario5 <- scenariosFinal %>%
-  filter(scenariosFinal$target == "big_cup_fem" & scenariosFinal$states == "['big_plate_masc', 'small_plate_masc', 'big_cup_fem', 'small_cup_fem']")
-
-# Scenario 5; all continous graphs; cost = 0
-graphScenario5Cost0Cont <-  scenario5 %>%
-  filter(scenario5$sizeCost == 0 & (
-    scenario5$commandType == "globalCont" | 
-      scenario5$commandType == "incCont")) %>%
-  group_by(commandType, genderNoise) %>%
-  mutate(identifier = paste("commandType: ", commandType, ", genderNoise: ", genderNoise, ", cost: ", sizeCost, sep = "")) %>%
-  ggplot(aes(x=utterance,y=output)) + 
-  geom_bar(stat="identity") + 
-  facet_wrap(~identifier, ncol = 4) +
-  theme_bw() + 
-  theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
-
-
-# Scenario 5; all continous graphs; cost = 0.1
-graphScenario5Cost01Cont <-  scenario5 %>%
-  filter(scenario5$sizeCost == 0.1 & (
-    scenario5$commandType == "globalCont" | 
-      scenario5$commandType == "incCont")) %>%
-  group_by(commandType, genderNoise) %>%
-  mutate(identifier = paste("commandType: ", commandType, ", genderNoise: ", genderNoise, ", cost: ", sizeCost, sep = "")) %>%
-  ggplot(aes(x=utterance,y=output)) + 
-  geom_bar(stat="identity") + 
-  facet_wrap(~identifier, ncol = 4) +
-  theme_bw() + 
-  theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
-
-
-# Scenario 5; Graphs by genderNoise and sizeCost
-graphScenario5Cost0GenderNoise07 <- scenario5 %>%
-  filter(scenario5$genderNoise == 0.7 | 
-           scenario5$commandType == "globalBool" | 
-           scenario5$commandType == "incBool") %>%
-  mutate(identifier = paste("cost: ", sizeCost, ", commandType: ", commandType, ", genderNoise: ", genderNoise, sep = "")) %>%
-  ggplot(aes(x=utterance,y=output)) + 
-  geom_bar(stat="identity") + 
-  facet_wrap(~identifier, ncol = 4) +
-  theme_bw() + 
-  theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
-
-graphScenario5Cost0GenderNoise08 <- scenario5 %>%
-  filter(scenario5$genderNoise == 0.8 | 
-           scenario5$commandType == "globalBool" | 
-           scenario5$commandType == "incBool") %>%
-  mutate(identifier = paste("cost: ", sizeCost, ", commandType: ", commandType, ", genderNoise: ", genderNoise, sep = "")) %>%
-  ggplot(aes(x=utterance,y=output)) + 
-  geom_bar(stat="identity") + 
-  facet_wrap(~identifier, ncol = 4) +
-  theme_bw() + 
-  theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
-
-graphScenario5Cost0GenderNoise09 <- scenario5 %>%
-  filter(scenario5$genderNoise == 0.9 | 
-           scenario5$commandType == "globalBool" | 
-           scenario5$commandType == "incBool") %>%
-  mutate(identifier = paste("cost: ", sizeCost, ", commandType: ", commandType, ", genderNoise: ", genderNoise, sep = "")) %>%
-  ggplot(aes(x=utterance,y=output)) + 
-  geom_bar(stat="identity") + 
-  facet_wrap(~identifier, ncol = 4) +
-  theme_bw() + 
-  theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
-
-graphScenario5Cost0GenderNoise1 <- scenario5 %>%
-  filter(scenario5$genderNoise == 1.0 | 
-           scenario5$commandType == "globalBool" | 
-           scenario5$commandType == "incBool") %>%
-  mutate(identifier = paste("cost: ", sizeCost, ", commandType: ", commandType, ", genderNoise: ", genderNoise, sep = "")) %>%
-  ggplot(aes(x=utterance,y=output)) + 
-  geom_bar(stat="identity") + 
-  facet_wrap(~identifier, ncol = 4) +
-  theme_bw() + 
-  theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
-
-
-# EXPORT THE SCENARIO 5 PLOTS
-
-#Export the plots
-jpeg(file="stefanTestScenarios/scenario5_ContModels_Cost0.jpeg", width = 1500, height = 1000)
-plot(graphScenario5Cost0Cont)
-dev.off()
-
-jpeg(file="stefanTestScenarios/scenario5_ContModels_Cost01.jpeg", width = 1500, height = 1000)
-plot(graphScenario5Cost01Cont)
-dev.off()
-
-jpeg(file="stefanTestScenarios/scenario5_ModelComparison_GenderNoise07.jpeg", width = 1500, height = 1000)
-plot(graphScenario5Cost0GenderNoise07)
-dev.off()
-
-jpeg(file="stefanTestScenarios/scenario5_ModelComparison_GenderNoise08.jpeg", width = 1500, height = 1000)
-plot(graphScenario5Cost0GenderNoise08)
-dev.off()
-
-jpeg(file="stefanTestScenarios/scenario5_ModelComparison_GenderNoise09.jpeg", width = 1500, height = 1000)
-plot(graphScenario5Cost0GenderNoise09)
-dev.off()
-
-jpeg(file="stefanTestScenarios/scenario5_ModelComparison_GenderNoise1.jpeg", width = 1500, height = 1000)
-plot(graphScenario5Cost0GenderNoise1)
-dev.off()
+# SENARIOS for Test Scenarios
+# ###############
+# # SCENARIO 1
+# # objects: ['blue_plate_masc', 'red_plate_masc', 'blue_cup_fem']
+# # target: 'blue_cup_fem'
+# # alpha: 19, same for all models
+# # cost: {0, 0.1}, same for all words
+# # sizeNoise: 0.8
+# # colorNoise: 0.95
+# # nounNoise: 0.9
+# # genderNoise: {0.7, 0.8, 0.9, 1.0}
+# ###############
+# 
+# # Get the correct Scenario
+# scenario1 <- scenariosFinal %>%
+#   filter(scenariosFinal$target == "blue_cup_fem" & scenariosFinal$states == "['blue_plate_masc', 'red_plate_masc', 'blue_cup_fem']")
+# 
+# # Scenario 1; all continous graphs; cost = 0
+# graphScenario1Cost0Cont <-  scenario1 %>%
+#   filter(scenario1$sizeCost == 0 & (
+#     scenario1$commandType == "globalCont" | 
+#     scenario1$commandType == "incCont")) %>%
+#   group_by(commandType, genderNoise) %>%
+#   mutate(identifier = paste("commandType: ", commandType, ", genderNoise: ", genderNoise, ", cost: ", sizeCost, sep = "")) %>%
+#   ggplot(aes(x=utterance,y=output)) + 
+#   geom_bar(stat="identity") + 
+#   facet_wrap(~identifier, ncol = 4) +
+#   theme_bw() + 
+#   theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
+# 
+# 
+# # Scenario 1; all continous graphs; cost = 0.1
+# graphScenario1Cost01Cont <-  scenario1 %>%
+#   filter(scenario1$sizeCost == 0.1 & (
+#       scenario1$commandType == "globalCont" | 
+#       scenario1$commandType == "incCont")) %>%
+#   group_by(commandType, genderNoise) %>%
+#   mutate(identifier = paste("commandType: ", commandType, ", genderNoise: ", genderNoise, ", cost: ", sizeCost, sep = "")) %>%
+#   ggplot(aes(x=utterance,y=output)) + 
+#   geom_bar(stat="identity") + 
+#   facet_wrap(~identifier, ncol = 4) +
+#   theme_bw() + 
+#   theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
+# 
+# 
+# # Scenario 1; Graphs by genderNoise and sizeCost
+# graphScenario1Cost0GenderNoise07 <- scenario1 %>%
+#   filter(scenario1$genderNoise == 0.7 | 
+#            scenario1$commandType == "globalBool" | 
+#            scenario1$commandType == "incBool") %>%
+#   mutate(identifier = paste("cost: ", sizeCost, ", commandType: ", commandType, ", genderNoise: ", genderNoise, sep = "")) %>%
+#   ggplot(aes(x=utterance,y=output)) + 
+#   geom_bar(stat="identity") + 
+#   facet_wrap(~identifier, ncol = 4) +
+#   theme_bw() + 
+#   theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
+# 
+# graphScenario1Cost0GenderNoise08 <- scenario1 %>%
+#   filter(scenario1$genderNoise == 0.8 | 
+#            scenario1$commandType == "globalBool" | 
+#            scenario1$commandType == "incBool") %>%
+#   mutate(identifier = paste("cost: ", sizeCost, ", commandType: ", commandType, ", genderNoise: ", genderNoise, sep = "")) %>%
+#   ggplot(aes(x=utterance,y=output)) + 
+#   geom_bar(stat="identity") + 
+#   facet_wrap(~identifier, ncol = 4) +
+#   theme_bw() + 
+#   theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
+# 
+# graphScenario1Cost0GenderNoise09 <- scenario1 %>%
+#   filter(scenario1$genderNoise == 0.9 | 
+#            scenario1$commandType == "globalBool" | 
+#            scenario1$commandType == "incBool") %>%
+#   mutate(identifier = paste("cost: ", sizeCost, ", commandType: ", commandType, ", genderNoise: ", genderNoise, sep = "")) %>%
+#   ggplot(aes(x=utterance,y=output)) + 
+#   geom_bar(stat="identity") + 
+#   facet_wrap(~identifier, ncol = 4) +
+#   theme_bw() + 
+#   theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
+# 
+# graphScenario1Cost0GenderNoise1 <- scenario1 %>%
+#   filter(scenario1$genderNoise == 1.0 | 
+#            scenario1$commandType == "globalBool" | 
+#            scenario1$commandType == "incBool") %>%
+#   mutate(identifier = paste("cost: ", sizeCost, ", commandType: ", commandType, ", genderNoise: ", genderNoise, sep = "")) %>%
+#   ggplot(aes(x=utterance,y=output)) + 
+#   geom_bar(stat="identity") + 
+#   facet_wrap(~identifier, ncol = 4) +
+#   theme_bw() + 
+#   theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
+# 
+# 
+# # EXPORT THE SCENARIO 1 PLOTS
+# 
+# #Export the plots
+# jpeg(file="stefanTestScenarios/scenario1_ContModels_Cost0.jpeg", width = 1500, height = 1000)
+# plot(graphScenario1Cost0Cont)
+# dev.off()
+# 
+# jpeg(file="stefanTestScenarios/scenario1_ContModels_Cost01.jpeg", width = 1500, height = 1000)
+# plot(graphScenario1Cost01Cont)
+# dev.off()
+# 
+# jpeg(file="stefanTestScenarios/scenario1_ModelComparison_GenderNoise07.jpeg", width = 1500, height = 1000)
+# plot(graphScenario1Cost0GenderNoise07)
+# dev.off()
+# 
+# jpeg(file="stefanTestScenarios/scenario1_ModelComparison_GenderNoise08.jpeg", width = 1500, height = 1000)
+# plot(graphScenario1Cost0GenderNoise08)
+# dev.off()
+# 
+# jpeg(file="stefanTestScenarios/scenario1_ModelComparison_GenderNoise09.jpeg", width = 1500, height = 1000)
+# plot(graphScenario1Cost0GenderNoise09)
+# dev.off()
+# 
+# jpeg(file="stefanTestScenarios/scenario1_ModelComparison_GenderNoise1.jpeg", width = 1500, height = 1000)
+# plot(graphScenario1Cost0GenderNoise1)
+# dev.off()
+# 
+# 
+# 
+# ###############
+# # SCENARIO 2
+# # objects: ['big_blue_plate_masc', 'big_red_plate_masc', 'small_blue_plate_masc']
+# # target: 'small_blue_plate_masc'
+# # alpha: 19, same for all models
+# # cost: {0, 0.1}, same for all words
+# # sizeNoise: 0.8
+# # colorNoise: 0.95
+# # nounNoise: 0.9
+# # genderNoise: {0.7, 0.8, 0.9, 1.0}
+# ###############
+# 
+# # Get the correct Scenario
+# scenario2 <- scenariosFinal %>%
+#   filter(scenariosFinal$target == "small_blue_plate_masc" & scenariosFinal$states == "['big_blue_plate_masc', 'big_red_plate_masc', 'small_blue_plate_masc']")
+# 
+# # Scenario 2; all continous graphs; cost = 0
+# graphScenario2Cost0Cont <-  scenario2 %>%
+#   filter(scenario2$sizeCost == 0 & (
+#     scenario2$commandType == "globalCont" | 
+#       scenario2$commandType == "incCont")) %>%
+#   group_by(commandType, genderNoise) %>%
+#   mutate(identifier = paste("commandType: ", commandType, ", genderNoise: ", genderNoise, ", cost: ", sizeCost, sep = "")) %>%
+#   ggplot(aes(x=utterance,y=output)) + 
+#   geom_bar(stat="identity") + 
+#   facet_wrap(~identifier, ncol = 4) +
+#   theme_bw() + 
+#   theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
+# 
+# 
+# # Scenario 2; all continous graphs; cost = 0.1
+# graphScenario2Cost01Cont <-  scenario2 %>%
+#   filter(scenario2$sizeCost == 0.1 & (
+#     scenario2$commandType == "globalCont" | 
+#       scenario2$commandType == "incCont")) %>%
+#   group_by(commandType, genderNoise) %>%
+#   mutate(identifier = paste("commandType: ", commandType, ", genderNoise: ", genderNoise, ", cost: ", sizeCost, sep = "")) %>%
+#   ggplot(aes(x=utterance,y=output)) + 
+#   geom_bar(stat="identity") + 
+#   facet_wrap(~identifier, ncol = 4) +
+#   theme_bw() + 
+#   theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
+# 
+# 
+# # Scenario 2; Graphs by genderNoise and sizeCost
+# graphScenario2Cost0GenderNoise07 <- scenario2 %>%
+#   filter(scenario2$genderNoise == 0.7 | 
+#            scenario2$commandType == "globalBool" | 
+#            scenario2$commandType == "incBool") %>%
+#   mutate(identifier = paste("cost: ", sizeCost, ", commandType: ", commandType, ", genderNoise: ", genderNoise, sep = "")) %>%
+#   ggplot(aes(x=utterance,y=output)) + 
+#   geom_bar(stat="identity") + 
+#   facet_wrap(~identifier, ncol = 4) +
+#   theme_bw() + 
+#   theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
+# 
+# graphScenario2Cost0GenderNoise08 <- scenario2 %>%
+#   filter(scenario2$genderNoise == 0.8 | 
+#            scenario2$commandType == "globalBool" | 
+#            scenario2$commandType == "incBool") %>%
+#   mutate(identifier = paste("cost: ", sizeCost, ", commandType: ", commandType, ", genderNoise: ", genderNoise, sep = "")) %>%
+#   ggplot(aes(x=utterance,y=output)) + 
+#   geom_bar(stat="identity") + 
+#   facet_wrap(~identifier, ncol = 4) +
+#   theme_bw() + 
+#   theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
+# 
+# graphScenario2Cost0GenderNoise09 <- scenario2 %>%
+#   filter(scenario2$genderNoise == 0.9 | 
+#            scenario2$commandType == "globalBool" | 
+#            scenario2$commandType == "incBool") %>%
+#   mutate(identifier = paste("cost: ", sizeCost, ", commandType: ", commandType, ", genderNoise: ", genderNoise, sep = "")) %>%
+#   ggplot(aes(x=utterance,y=output)) + 
+#   geom_bar(stat="identity") + 
+#   facet_wrap(~identifier, ncol = 4) +
+#   theme_bw() + 
+#   theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
+# 
+# graphScenario2Cost0GenderNoise1 <- scenario2 %>%
+#   filter(scenario2$genderNoise == 1.0 | 
+#            scenario2$commandType == "globalBool" | 
+#            scenario2$commandType == "incBool") %>%
+#   mutate(identifier = paste("cost: ", sizeCost, ", commandType: ", commandType, ", genderNoise: ", genderNoise, sep = "")) %>%
+#   ggplot(aes(x=utterance,y=output)) + 
+#   geom_bar(stat="identity") + 
+#   facet_wrap(~identifier, ncol = 4) +
+#   theme_bw() + 
+#   theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
+# 
+# 
+# # EXPORT THE SCENARIO 2 PLOTS
+# 
+# #Export the plots
+# jpeg(file="stefanTestScenarios/scenario2_ContModels_Cost0.jpeg", width = 1500, height = 1000)
+# plot(graphScenario2Cost0Cont)
+# dev.off()
+# 
+# jpeg(file="stefanTestScenarios/scenario2_ContModels_Cost01.jpeg", width = 1500, height = 1000)
+# plot(graphScenario2Cost01Cont)
+# dev.off()
+# 
+# jpeg(file="stefanTestScenarios/scenario2_ModelComparison_GenderNoise07.jpeg", width = 1500, height = 1000)
+# plot(graphScenario2Cost0GenderNoise07)
+# dev.off()
+# 
+# jpeg(file="stefanTestScenarios/scenario2_ModelComparison_GenderNoise08.jpeg", width = 1500, height = 1000)
+# plot(graphScenario2Cost0GenderNoise08)
+# dev.off()
+# 
+# jpeg(file="stefanTestScenarios/scenario2_ModelComparison_GenderNoise09.jpeg", width = 1500, height = 1000)
+# plot(graphScenario2Cost0GenderNoise09)
+# dev.off()
+# 
+# jpeg(file="stefanTestScenarios/scenario2_ModelComparison_GenderNoise1.jpeg", width = 1500, height = 1000)
+# plot(graphScenario2Cost0GenderNoise1)
+# dev.off()
+# 
+# 
+# 
+# ###############
+# # SCENARIO 3
+# # objects: ["small_red_plate_masc", "big_red_plate_masc", "small_blue_plate_masc"]
+# # target: 'small_blue_plate_masc'
+# # alpha: 19, same for all models
+# # cost: {0, 0.1}, same for all words
+# # sizeNoise: 0.8
+# # colorNoise: 0.95
+# # nounNoise: 0.9
+# # genderNoise: {0.7, 0.8, 0.9, 1.0}
+# ###############
+# 
+# # Get the correct Scenario
+# scenario3 <- scenariosFinal %>%
+#   filter(scenariosFinal$target == "small_blue_plate_masc" & scenariosFinal$states == "['small_red_plate_masc', 'big_red_plate_masc', 'small_blue_plate_masc']")
+# 
+# # Scenario 3; all continous graphs; cost = 0
+# graphScenario3Cost0Cont <-  scenario3 %>%
+#   filter(scenario3$sizeCost == 0 & (
+#     scenario3$commandType == "globalCont" | 
+#       scenario3$commandType == "incCont")) %>%
+#   group_by(commandType, genderNoise) %>%
+#   mutate(identifier = paste("commandType: ", commandType, ", genderNoise: ", genderNoise, ", cost: ", sizeCost, sep = "")) %>%
+#   ggplot(aes(x=utterance,y=output)) + 
+#   geom_bar(stat="identity") + 
+#   facet_wrap(~identifier, ncol = 4) +
+#   theme_bw() + 
+#   theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
+# 
+# 
+# # Scenario 3; all continous graphs; cost = 0.1
+# graphScenario3Cost01Cont <-  scenario3 %>%
+#   filter(scenario3$sizeCost == 0.1 & (
+#     scenario3$commandType == "globalCont" | 
+#       scenario3$commandType == "incCont")) %>%
+#   group_by(commandType, genderNoise) %>%
+#   mutate(identifier = paste("commandType: ", commandType, ", genderNoise: ", genderNoise, ", cost: ", sizeCost, sep = "")) %>%
+#   ggplot(aes(x=utterance,y=output)) + 
+#   geom_bar(stat="identity") + 
+#   facet_wrap(~identifier, ncol = 4) +
+#   theme_bw() + 
+#   theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
+# 
+# 
+# # Scenario 3; Graphs by genderNoise and sizeCost
+# graphScenario3Cost0GenderNoise07 <- scenario3 %>%
+#   filter(scenario3$genderNoise == 0.7 | 
+#            scenario3$commandType == "globalBool" | 
+#            scenario3$commandType == "incBool") %>%
+#   mutate(identifier = paste("cost: ", sizeCost, ", commandType: ", commandType, ", genderNoise: ", genderNoise, sep = "")) %>%
+#   ggplot(aes(x=utterance,y=output)) + 
+#   geom_bar(stat="identity") + 
+#   facet_wrap(~identifier, ncol = 4) +
+#   theme_bw() + 
+#   theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
+# 
+# graphScenario3Cost0GenderNoise08 <- scenario3 %>%
+#   filter(scenario3$genderNoise == 0.8 | 
+#            scenario3$commandType == "globalBool" | 
+#            scenario3$commandType == "incBool") %>%
+#   mutate(identifier = paste("cost: ", sizeCost, ", commandType: ", commandType, ", genderNoise: ", genderNoise, sep = "")) %>%
+#   ggplot(aes(x=utterance,y=output)) + 
+#   geom_bar(stat="identity") + 
+#   facet_wrap(~identifier, ncol = 4) +
+#   theme_bw() + 
+#   theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
+# 
+# graphScenario3Cost0GenderNoise09 <- scenario3 %>%
+#   filter(scenario3$genderNoise == 0.9 | 
+#            scenario3$commandType == "globalBool" | 
+#            scenario3$commandType == "incBool") %>%
+#   mutate(identifier = paste("cost: ", sizeCost, ", commandType: ", commandType, ", genderNoise: ", genderNoise, sep = "")) %>%
+#   ggplot(aes(x=utterance,y=output)) + 
+#   geom_bar(stat="identity") + 
+#   facet_wrap(~identifier, ncol = 4) +
+#   theme_bw() + 
+#   theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
+# 
+# graphScenario3Cost0GenderNoise1 <- scenario3 %>%
+#   filter(scenario3$genderNoise == 1.0 | 
+#            scenario3$commandType == "globalBool" | 
+#            scenario3$commandType == "incBool") %>%
+#   mutate(identifier = paste("cost: ", sizeCost, ", commandType: ", commandType, ", genderNoise: ", genderNoise, sep = "")) %>%
+#   ggplot(aes(x=utterance,y=output)) + 
+#   geom_bar(stat="identity") + 
+#   facet_wrap(~identifier, ncol = 4) +
+#   theme_bw() + 
+#   theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
+# 
+# 
+# # EXPORT THE SCENARIO 3 PLOTS
+# 
+# #Export the plots
+# jpeg(file="stefanTestScenarios/scenario3_ContModels_Cost0.jpeg", width = 1500, height = 1000)
+# plot(graphScenario3Cost0Cont)
+# dev.off()
+# 
+# jpeg(file="stefanTestScenarios/scenario3_ContModels_Cost01.jpeg", width = 1500, height = 1000)
+# plot(graphScenario3Cost01Cont)
+# dev.off()
+# 
+# jpeg(file="stefanTestScenarios/scenario3_ModelComparison_GenderNoise07.jpeg", width = 1500, height = 1000)
+# plot(graphScenario3Cost0GenderNoise07)
+# dev.off()
+# 
+# jpeg(file="stefanTestScenarios/scenario3_ModelComparison_GenderNoise08.jpeg", width = 1500, height = 1000)
+# plot(graphScenario3Cost0GenderNoise08)
+# dev.off()
+# 
+# jpeg(file="stefanTestScenarios/scenario3_ModelComparison_GenderNoise09.jpeg", width = 1500, height = 1000)
+# plot(graphScenario3Cost0GenderNoise09)
+# dev.off()
+# 
+# jpeg(file="stefanTestScenarios/scenario3_ModelComparison_GenderNoise1.jpeg", width = 1500, height = 1000)
+# plot(graphScenario3Cost0GenderNoise1)
+# dev.off()
+# 
+# 
+# ###############
+# # SCENARIO 4
+# # objects: ['blue_plate_masc', 'red_plate_masc', 'blue_cup_fem', 'red_cup_fem']
+# # target: 'blue_cup_fem'
+# # alpha: 19, same for all models
+# # cost: {0, 0.1}, same for all words
+# # sizeNoise: 0.8
+# # colorNoise: 0.95
+# # nounNoise: 0.9
+# # genderNoise: {0.7, 0.8, 0.9, 1.0}
+# ###############
+# 
+# # Get the correct Scenario
+# scenario4 <- scenariosFinal %>%
+#   filter(scenariosFinal$target == "blue_cup_fem" & scenariosFinal$states == "['blue_plate_masc', 'red_plate_masc', 'blue_cup_fem', 'red_cup_fem']")
+# 
+# # Scenario 4; all continous graphs; cost = 0
+# graphScenario4Cost0Cont <-  scenario4 %>%
+#   filter(scenario4$sizeCost == 0 & (
+#     scenario4$commandType == "globalCont" | 
+#       scenario4$commandType == "incCont")) %>%
+#   group_by(commandType, genderNoise) %>%
+#   mutate(identifier = paste("commandType: ", commandType, ", genderNoise: ", genderNoise, ", cost: ", sizeCost, sep = "")) %>%
+#   ggplot(aes(x=utterance,y=output)) + 
+#   geom_bar(stat="identity") + 
+#   facet_wrap(~identifier, ncol = 4) +
+#   theme_bw() + 
+#   theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
+# 
+# 
+# # Scenario 4; all continous graphs; cost = 0.1
+# graphScenario4Cost01Cont <-  scenario4 %>%
+#   filter(scenario4$sizeCost == 0.1 & (
+#     scenario4$commandType == "globalCont" | 
+#       scenario4$commandType == "incCont")) %>%
+#   group_by(commandType, genderNoise) %>%
+#   mutate(identifier = paste("commandType: ", commandType, ", genderNoise: ", genderNoise, ", cost: ", sizeCost, sep = "")) %>%
+#   ggplot(aes(x=utterance,y=output)) + 
+#   geom_bar(stat="identity") + 
+#   facet_wrap(~identifier, ncol = 4) +
+#   theme_bw() + 
+#   theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
+# 
+# 
+# # Scenario 4; Graphs by genderNoise and sizeCost
+# graphScenario4Cost0GenderNoise07 <- scenario4 %>%
+#   filter(scenario4$genderNoise == 0.7 | 
+#            scenario4$commandType == "globalBool" | 
+#            scenario4$commandType == "incBool") %>%
+#   mutate(identifier = paste("cost: ", sizeCost, ", commandType: ", commandType, ", genderNoise: ", genderNoise, sep = "")) %>%
+#   ggplot(aes(x=utterance,y=output)) + 
+#   geom_bar(stat="identity") + 
+#   facet_wrap(~identifier, ncol = 4) +
+#   theme_bw() + 
+#   theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
+# 
+# graphScenario4Cost0GenderNoise08 <- scenario4 %>%
+#   filter(scenario4$genderNoise == 0.8 | 
+#            scenario4$commandType == "globalBool" | 
+#            scenario4$commandType == "incBool") %>%
+#   mutate(identifier = paste("cost: ", sizeCost, ", commandType: ", commandType, ", genderNoise: ", genderNoise, sep = "")) %>%
+#   ggplot(aes(x=utterance,y=output)) + 
+#   geom_bar(stat="identity") + 
+#   facet_wrap(~identifier, ncol = 4) +
+#   theme_bw() + 
+#   theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
+# 
+# graphScenario4Cost0GenderNoise09 <- scenario4 %>%
+#   filter(scenario4$genderNoise == 0.9 | 
+#            scenario4$commandType == "globalBool" | 
+#            scenario4$commandType == "incBool") %>%
+#   mutate(identifier = paste("cost: ", sizeCost, ", commandType: ", commandType, ", genderNoise: ", genderNoise, sep = "")) %>%
+#   ggplot(aes(x=utterance,y=output)) + 
+#   geom_bar(stat="identity") + 
+#   facet_wrap(~identifier, ncol = 4) +
+#   theme_bw() + 
+#   theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
+# 
+# graphScenario4Cost0GenderNoise1 <- scenario4 %>%
+#   filter(scenario4$genderNoise == 1.0 | 
+#            scenario4$commandType == "globalBool" | 
+#            scenario4$commandType == "incBool") %>%
+#   mutate(identifier = paste("cost: ", sizeCost, ", commandType: ", commandType, ", genderNoise: ", genderNoise, sep = "")) %>%
+#   ggplot(aes(x=utterance,y=output)) + 
+#   geom_bar(stat="identity") + 
+#   facet_wrap(~identifier, ncol = 4) +
+#   theme_bw() + 
+#   theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
+# 
+# 
+# # EXPORT THE SCENARIO 4 PLOTS
+# 
+# #Export the plots
+# jpeg(file="stefanTestScenarios/scenario4_ContModels_Cost0.jpeg", width = 1500, height = 1000)
+# plot(graphScenario4Cost0Cont)
+# dev.off()
+# 
+# jpeg(file="stefanTestScenarios/scenario4_ContModels_Cost01.jpeg", width = 1500, height = 1000)
+# plot(graphScenario4Cost01Cont)
+# dev.off()
+# 
+# jpeg(file="stefanTestScenarios/scenario4_ModelComparison_GenderNoise07.jpeg", width = 1500, height = 1000)
+# plot(graphScenario4Cost0GenderNoise07)
+# dev.off()
+# 
+# jpeg(file="stefanTestScenarios/scenario4_ModelComparison_GenderNoise08.jpeg", width = 1500, height = 1000)
+# plot(graphScenario4Cost0GenderNoise08)
+# dev.off()
+# 
+# jpeg(file="stefanTestScenarios/scenario4_ModelComparison_GenderNoise09.jpeg", width = 1500, height = 1000)
+# plot(graphScenario4Cost0GenderNoise09)
+# dev.off()
+# 
+# jpeg(file="stefanTestScenarios/scenario4_ModelComparison_GenderNoise1.jpeg", width = 1500, height = 1000)
+# plot(graphScenario4Cost0GenderNoise1)
+# dev.off()
+# 
+# 
+# 
+# ###############
+# # SCENARIO 5
+# # objects: ['big_plate_masc', 'small_plate_masc', 'big_cup_fem', 'small_cup_fem']
+# # target: 'big_cup_fem'
+# # alpha: 19, same for all models
+# # cost: {0, 0.1}, same for all words
+# # sizeNoise: 0.8
+# # colorNoise: 0.95
+# # nounNoise: 0.9
+# # genderNoise: {0.7, 0.8, 0.9, 1.0}
+# ###############
+# 
+# # Get the correct Scenario
+# scenario5 <- scenariosFinal %>%
+#   filter(scenariosFinal$target == "big_cup_fem" & scenariosFinal$states == "['big_plate_masc', 'small_plate_masc', 'big_cup_fem', 'small_cup_fem']")
+# 
+# # Scenario 5; all continous graphs; cost = 0
+# graphScenario5Cost0Cont <-  scenario5 %>%
+#   filter(scenario5$sizeCost == 0 & (
+#     scenario5$commandType == "globalCont" | 
+#       scenario5$commandType == "incCont")) %>%
+#   group_by(commandType, genderNoise) %>%
+#   mutate(identifier = paste("commandType: ", commandType, ", genderNoise: ", genderNoise, ", cost: ", sizeCost, sep = "")) %>%
+#   ggplot(aes(x=utterance,y=output)) + 
+#   geom_bar(stat="identity") + 
+#   facet_wrap(~identifier, ncol = 4) +
+#   theme_bw() + 
+#   theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
+# 
+# 
+# # Scenario 5; all continous graphs; cost = 0.1
+# graphScenario5Cost01Cont <-  scenario5 %>%
+#   filter(scenario5$sizeCost == 0.1 & (
+#     scenario5$commandType == "globalCont" | 
+#       scenario5$commandType == "incCont")) %>%
+#   group_by(commandType, genderNoise) %>%
+#   mutate(identifier = paste("commandType: ", commandType, ", genderNoise: ", genderNoise, ", cost: ", sizeCost, sep = "")) %>%
+#   ggplot(aes(x=utterance,y=output)) + 
+#   geom_bar(stat="identity") + 
+#   facet_wrap(~identifier, ncol = 4) +
+#   theme_bw() + 
+#   theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
+# 
+# 
+# # Scenario 5; Graphs by genderNoise and sizeCost
+# graphScenario5Cost0GenderNoise07 <- scenario5 %>%
+#   filter(scenario5$genderNoise == 0.7 | 
+#            scenario5$commandType == "globalBool" | 
+#            scenario5$commandType == "incBool") %>%
+#   mutate(identifier = paste("cost: ", sizeCost, ", commandType: ", commandType, ", genderNoise: ", genderNoise, sep = "")) %>%
+#   ggplot(aes(x=utterance,y=output)) + 
+#   geom_bar(stat="identity") + 
+#   facet_wrap(~identifier, ncol = 4) +
+#   theme_bw() + 
+#   theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
+# 
+# graphScenario5Cost0GenderNoise08 <- scenario5 %>%
+#   filter(scenario5$genderNoise == 0.8 | 
+#            scenario5$commandType == "globalBool" | 
+#            scenario5$commandType == "incBool") %>%
+#   mutate(identifier = paste("cost: ", sizeCost, ", commandType: ", commandType, ", genderNoise: ", genderNoise, sep = "")) %>%
+#   ggplot(aes(x=utterance,y=output)) + 
+#   geom_bar(stat="identity") + 
+#   facet_wrap(~identifier, ncol = 4) +
+#   theme_bw() + 
+#   theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
+# 
+# graphScenario5Cost0GenderNoise09 <- scenario5 %>%
+#   filter(scenario5$genderNoise == 0.9 | 
+#            scenario5$commandType == "globalBool" | 
+#            scenario5$commandType == "incBool") %>%
+#   mutate(identifier = paste("cost: ", sizeCost, ", commandType: ", commandType, ", genderNoise: ", genderNoise, sep = "")) %>%
+#   ggplot(aes(x=utterance,y=output)) + 
+#   geom_bar(stat="identity") + 
+#   facet_wrap(~identifier, ncol = 4) +
+#   theme_bw() + 
+#   theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
+# 
+# graphScenario5Cost0GenderNoise1 <- scenario5 %>%
+#   filter(scenario5$genderNoise == 1.0 | 
+#            scenario5$commandType == "globalBool" | 
+#            scenario5$commandType == "incBool") %>%
+#   mutate(identifier = paste("cost: ", sizeCost, ", commandType: ", commandType, ", genderNoise: ", genderNoise, sep = "")) %>%
+#   ggplot(aes(x=utterance,y=output)) + 
+#   geom_bar(stat="identity") + 
+#   facet_wrap(~identifier, ncol = 4) +
+#   theme_bw() + 
+#   theme(axis.text.x = element_text(angle = 90), text = element_text(size = 16))
+# 
+# 
+# # EXPORT THE SCENARIO 5 PLOTS
+# 
+# #Export the plots
+# jpeg(file="stefanTestScenarios/scenario5_ContModels_Cost0.jpeg", width = 1500, height = 1000)
+# plot(graphScenario5Cost0Cont)
+# dev.off()
+# 
+# jpeg(file="stefanTestScenarios/scenario5_ContModels_Cost01.jpeg", width = 1500, height = 1000)
+# plot(graphScenario5Cost01Cont)
+# dev.off()
+# 
+# jpeg(file="stefanTestScenarios/scenario5_ModelComparison_GenderNoise07.jpeg", width = 1500, height = 1000)
+# plot(graphScenario5Cost0GenderNoise07)
+# dev.off()
+# 
+# jpeg(file="stefanTestScenarios/scenario5_ModelComparison_GenderNoise08.jpeg", width = 1500, height = 1000)
+# plot(graphScenario5Cost0GenderNoise08)
+# dev.off()
+# 
+# jpeg(file="stefanTestScenarios/scenario5_ModelComparison_GenderNoise09.jpeg", width = 1500, height = 1000)
+# plot(graphScenario5Cost0GenderNoise09)
+# dev.off()
+# 
+# jpeg(file="stefanTestScenarios/scenario5_ModelComparison_GenderNoise1.jpeg", width = 1500, height = 1000)
+# plot(graphScenario5Cost0GenderNoise1)
+# dev.off()
