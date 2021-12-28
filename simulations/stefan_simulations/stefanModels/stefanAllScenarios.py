@@ -69,30 +69,39 @@ scenarios = []
 
 #create individual scenarios
 scenario1 = ["blue_plate_masc", "red_plate_masc", "red_plate_masc"]
-scenario2 = ["blue_plate_masc","red_knife_masc", "red_knife_masc"]
-scenario3 = ["blue_plate_masc","red_knife_masc", "blue_knife_masc"]
-scenario4 = ["blue_plate_masc", "red_plate_masc", "blue_cup_fem"]
-scenario5 = ["blue_plate_masc", "red_plate_masc", "red_cup_fem"]
-scenario6 = ["blue_plate_masc", "blue_knife_masc", "red_cup_fem"]
-scenario7 = ["blue_plate_masc", "red_knife_masc", "blue_cup_fem"]
-scenario8 = ["blue_plate_masc", "red_knife_masc", "red_cup_fem"]
-scenario9 = ["blue_plate_masc", "blue_cup_fem", "blue_cup_fem"]
-scenario10 = ["blue_plate_masc", "red_cup_fem", "red_cup_fem"]
-scenario11 = ["blue_plate_masc", "red_cup_fem", "blue_cup_fem"]
+scenario2 = ["blue_plate_masc", "red_plate_masc", "blue_knife_masc"]
+scenario3 = ["blue_plate_masc", "red_plate_masc", "red_knife_masc"]
+scenario4 = ["blue_plate_masc", "blue_knife_masc", "blue_knife_masc"]
+scenario5 = ["blue_plate_masc","red_knife_masc", "red_knife_masc"]
+scenario6 = ["blue_plate_masc","red_knife_masc", "blue_knife_masc"]
+scenario7 = ["blue_plate_masc", "red_plate_masc", "blue_cup_fem"]
+scenario8 = ["blue_plate_masc", "blue_knife_masc", "blue_cup_fem"]
+scenario9 = ["blue_plate_masc", "red_plate_masc", "red_cup_fem"]
+scenario10 = ["blue_plate_masc", "blue_knife_masc", "red_cup_fem"]
+scenario11 = ["blue_plate_masc", "red_knife_masc", "blue_cup_fem"]
+scenario12 = ["blue_plate_masc", "red_knife_masc", "red_cup_fem"]
+scenario13 = ["blue_plate_masc", "blue_cup_fem", "blue_cup_fem"]
+scenario14 = ["blue_plate_masc", "red_cup_fem", "red_cup_fem"]
+scenario15 = ["blue_plate_masc", "red_cup_fem", "blue_cup_fem"]
 
 
-scenario12 = ["blue_plate_masc", "red_knife_masc", "red_knife_masc", "red_knife_masc", "red_knife_masc", "red_knife_masc"]
-scenario13 = ["blue_plate_masc", "red_knife_masc", "red_knife_masc", "red_knife_masc", "blue_knife_masc", "blue_knife_masc"]
-scenario14 = ["blue_plate_masc", "red_knife_masc", "red_knife_masc", "blue_knife_masc", "blue_knife_masc", "blue_knife_masc"]
-scenario15 = ["blue_plate_masc", "red_plate_masc", "red_plate_masc", "red_knife_masc", "red_knife_masc", "red_knife_masc"]
-scenario16 = ["blue_plate_masc", "red_plate_masc", "red_plate_masc", "blue_knife_masc", "blue_knife_masc", "blue_knife_masc"]
-scenario17 = ["blue_plate_masc", "red_plate_masc", "red_plate_masc", "red_knife_masc", "red_knife_masc", "blue_knife_masc"]
-scenario18 = ["blue_plate_masc", "red_cup_fem", "red_cup_fem", "red_cup_fem", "red_cup_fem", "red_cup_fem"]
-scenario19 = ["blue_plate_masc", "blue_cup_fem", "blue_cup_fem", "red_cup_fem", "red_cup_fem", "red_cup_fem"]
-scenario20 = ["blue_plate_masc", "blue_cup_fem", "blue_cup_fem", "blue_cup_fem", "red_cup_fem", "red_cup_fem"]
-scenario21 = ["blue_plate_masc", "red_plate_masc", "red_plate_masc", "red_cup_fem", "red_cup_fem", "red_cup_fem"]
-scenario22 = ["blue_plate_masc", "red_plate_masc", "red_plate_masc", "blue_cup_fem", "blue_cup_fem", "red_cup_fem"]
-scenario23 = ["blue_plate_masc", "red_plate_masc", "red_plate_masc", "red_cup_fem", "blue_cup_fem", "red_cup_fem"]
+scenario16 = ["blue_plate_masc", "red_plate_masc", "red_plate_masc", "red_plate_masc", "red_plate_masc", "red_plate_masc"]
+scenario17 = ["blue_plate_masc", "red_knife_masc", "red_knife_masc", "red_knife_masc", "red_knife_masc", "red_knife_masc"]
+scenario18 = ["blue_plate_masc", "blue_knife_masc", "blue_knife_masc", "blue_knife_masc", "blue_knife_masc", "blue_knife_masc"]
+scenario19 = ["blue_plate_masc", "red_knife_masc", "red_knife_masc", "red_knife_masc", "blue_knife_masc", "blue_knife_masc"]
+scenario20 = ["blue_plate_masc", "red_knife_masc", "red_knife_masc", "blue_knife_masc", "blue_knife_masc", "blue_knife_masc"]
+scenario21 = ["blue_plate_masc", "red_plate_masc", "red_plate_masc", "red_knife_masc", "red_knife_masc", "red_knife_masc"]
+scenario22 = ["blue_plate_masc", "red_plate_masc", "red_plate_masc", "blue_knife_masc", "blue_knife_masc", "blue_knife_masc"]
+scenario23 = ["blue_plate_masc", "red_plate_masc", "red_plate_masc", "red_knife_masc", "blue_knife_masc", "blue_knife_masc"]
+scenario24 = ["blue_plate_masc", "red_plate_masc", "red_plate_masc", "red_knife_masc", "red_knife_masc", "blue_knife_masc"]
+scenario25 = ["blue_plate_masc", "red_cup_fem", "red_cup_fem", "red_cup_fem", "red_cup_fem", "red_cup_fem"]
+scenario26 = ["blue_plate_masc", "blue_cup_fem", "blue_cup_fem", "blue_cup_fem", "blue_cup_fem", "blue_cup_fem"]
+scenario27 = ["blue_plate_masc", "blue_cup_fem", "blue_cup_fem", "red_cup_fem", "red_cup_fem", "red_cup_fem"]
+scenario28 = ["blue_plate_masc", "blue_cup_fem", "blue_cup_fem", "blue_cup_fem", "red_cup_fem", "red_cup_fem"]
+scenario29 = ["blue_plate_masc", "red_plate_masc", "red_plate_masc", "red_cup_fem", "red_cup_fem", "red_cup_fem"]
+scenario30 = ["blue_plate_masc", "red_plate_masc", "red_plate_masc", "blue_cup_fem", "blue_cup_fem", "blue_cup_fem"]
+scenario31 = ["blue_plate_masc", "red_plate_masc", "red_plate_masc", "blue_cup_fem", "blue_cup_fem", "red_cup_fem"]
+scenario32 = ["blue_plate_masc", "red_plate_masc", "red_plate_masc", "red_cup_fem", "blue_cup_fem", "red_cup_fem"]
 
 #scenario2 = ["big_blue_plate_masc", "big_red_plate_masc", "big_red_cup_fem"]
 
@@ -120,7 +129,15 @@ scenarios.append(scenario20)
 scenarios.append(scenario21)
 scenarios.append(scenario22)
 scenarios.append(scenario23)
-
+scenarios.append(scenario24)
+scenarios.append(scenario25)
+scenarios.append(scenario26)
+scenarios.append(scenario27)
+scenarios.append(scenario28)
+scenarios.append(scenario29)
+scenarios.append(scenario30)
+scenarios.append(scenario31)
+scenarios.append(scenario32)
 
 #list of all types of commands
 #   global = global utterances, i.e. not incremental
