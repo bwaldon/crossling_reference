@@ -1,73 +1,3 @@
-var semantics = function(params) { return function(state) { return { blue_masc: ['blue_plate_masc'].includes(state) ? params.colorNoiseVal*params.genderNoiseVal : falseSemantics(params.colorNoiseVal, params.genderNoiseVal, ['blue_plate_masc'], state),plate_masc: ['blue_plate_masc','red_plate_masc','red_plate_masc'].includes(state) ? params.nounNoiseVal*params.genderNoiseVal : falseSemantics(params.nounNoiseVal, params.genderNoiseVal, ['blue_plate_masc','red_plate_masc','red_plate_masc'], state),red_masc: ['red_plate_masc','red_plate_masc'].includes(state) ? params.colorNoiseVal*params.genderNoiseVal : falseSemantics(params.colorNoiseVal, params.genderNoiseVal, ['red_plate_masc','red_plate_masc'], state),red_fem: ['red_cup_fem','red_cup_fem'].includes(state) ? params.colorNoiseVal*params.genderNoiseVal : falseSemantics(params.colorNoiseVal, params.genderNoiseVal, ['red_cup_fem','red_cup_fem'], state),cup_fem: ['red_cup_fem','blue_cup_fem','red_cup_fem'].includes(state) ? params.nounNoiseVal*params.genderNoiseVal : falseSemantics(params.nounNoiseVal, params.genderNoiseVal, ['red_cup_fem','blue_cup_fem','red_cup_fem'], state),blue_fem: ['blue_cup_fem'].includes(state) ? params.colorNoiseVal*params.genderNoiseVal : falseSemantics(params.colorNoiseVal, params.genderNoiseVal, ['blue_cup_fem'], state),STOP : 1, START : 1 } } }
-var recursivelySplitGenderAndWord = function(dictDefinition) {
-  // split up first item into individual words
-  var individualWords = dictDefinition[0].split("_");
-  // get rid of gender
-  individualWords.pop();
-  // rejoin the items with an underscore and add to an array
-  var entryWithoutGender = [individualWords.join("_")];
-  // base case of recursion
-  if (dictDefinition.length == 1) {
-    // return first item
-    return entryWithoutGender;
-  } else {
-    // get rid of the first element of the recurssion array
-    dictDefinition.shift();
-    var arrayElement2 = recursivelySplitGenderAndWord(dictDefinition);
-    // return first item and then call the function recursively on the rest, adding
-    // it to the array
-    return entryWithoutGender.concat(arrayElement2);
-  }
-}
-
-var returnGenderAndDictionary = function(dictDefinition) {
-  var firstWord = dictDefinition[0].split("_");
-  var recursiveArrayofDict = recursivelySplitGenderAndWord(dictDefinition);
-  return [firstWord[firstWord.length - 1], recursiveArrayofDict];
-}
-
-var falseSemantics = function(adjNoise, genderNoise, dictDefinition, state) {
-  //split all the gender endings from the dictDefinition
-  var recursiveSplit = returnGenderAndDictionary(dictDefinition);
-  var dictionaryGender = recursiveSplit[0];
-  var dictionaryEntries = recursiveSplit[1];
-  // split up gender and state
-  var stateArray = state.split("_");
-  var wordGender = stateArray.pop();
-  var word = stateArray.join("_");
-
-  // if the word (adj) is true
-  if (dictionaryEntries.indexOf(word) > -1) {
-    // then gender must be false
-    return adjNoise*(1-genderNoise);
-  } else {
-    //else the word is false
-    // in which case if gender is true
-    if (wordGender == dictionaryGender) {
-      return (1-adjNoise)*genderNoise;
-    } else {
-      // else gender is false
-      return (1-adjNoise)*(1-genderNoise);
-    }
-  }
-}
-var model = function(params) {  return { words : ['blue_masc','plate_masc','red_masc','red_fem','cup_fem','blue_fem','STOP', 'START'], wordCost: {'blue_masc' : params.colorCost,'red_masc' : params.colorCost,'red_fem' : params.colorCost,'blue_fem' : params.colorCost,'plate_masc' : params.nounCost,'cup_fem' : params.nounCost,'STOP'  : 0, 'START'  : 0 },}}
-var params = {
-    alpha : 19.000000,
-    sizeNoiseVal : 0.800000,
-    colorNoiseVal : 0.950000,
-    genderNoiseVal : 1.000000,
-    nounNoiseVal : 0.900000,
-    sizeCost : 0.100000,
-    colorCost : 0.100000,
-    nounCost : 0.100000
-  }
-  
-var semantics = semantics(params)
-    
-var model = extend(model(params), 
- {states : ['blue_plate_masc', 'red_plate_masc', 'red_plate_masc', 'red_cup_fem', 'blue_cup_fem', 'red_cup_fem'], utterances : ['START blue_masc STOP', 'START plate_masc STOP', 'START blue_masc plate_masc STOP', 'START red_masc STOP', 'START red_masc plate_masc STOP', 'START red_fem STOP', 'START cup_fem STOP', 'START red_fem cup_fem STOP', 'START blue_fem STOP', 'START blue_fem cup_fem STOP']}) 
-                 
 // safeDivide, getTransitions, licitTransitions: helper functions for incremental models 
 
 var safeDivide = function(x , y){
@@ -189,4 +119,3 @@ var incrementalUtteranceSpeaker = cache(function(utt, state, model, params, sema
     },indices)
     return reduce(function(x, acc) { return x * acc; }, 1, probs)
 }, 100000)
-incrementalUtteranceSpeaker('START blue_fem cup_fem STOP', 'blue_plate_masc', model, params, semantics)
