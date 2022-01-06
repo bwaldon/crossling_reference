@@ -46,6 +46,8 @@ scenariosToRun <- read.csv("stefanModels/stefanScenarioSeries1.csv", as.is = TRU
 # therefore we only want to get the unique rows
 scenariosToRun <- unique(scenariosToRun)
 
+
+
 # Function that takes in values from each row of the scneariosToRun csv file
 #   run the model on those values, and return the speaker probability
 # Input:

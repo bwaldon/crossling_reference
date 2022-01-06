@@ -363,18 +363,21 @@ def makeSemantics(states) :
 
         #get word type
         if word in colorDict:
-            noiseValue = "colorNoiseVal"
+            noiseValue = "colorNoiseVal*params.genderNoiseVal"
+            noiseValueWithoutGender = "colorNoiseVal"
         if word in sizeDict:
-            noiseValue = "sizeNoiseVal"
+            noiseValue = "sizeNoiseVal*params.genderNoiseVal"
+            noiseValueWithoutGender = "sizeNoiseVal"
         if word in nounDict:
             noiseValue = "nounNoiseVal"
+            noiseValueWithoutGender = "nounNoiseVal"
 
         #paste it all together
         masterString += word + ": ["
         masterString +=  ','.join(map("'{0}'".format, theStatesThatApply))
         masterString += "].includes(state)"
-        masterString += " ? params." + noiseValue + "*params.genderNoiseVal : falseSemantics(params."
-        masterString += noiseValue + ", params.genderNoiseVal, ["
+        masterString += " ? params." + noiseValue + " : falseSemantics(params."
+        masterString += noiseValueWithoutGender + ", params.genderNoiseVal, ["
         masterString += ','.join(map("'{0}'".format, theStatesThatApply))
         masterString += "], state),"
 
