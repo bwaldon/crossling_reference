@@ -83,6 +83,7 @@ scenarios <- scenarios %>%
   function(x) do.call(runModelWrapper, x)
 ))
 
+
 # Incremental versus global models return different outputs. Therefore we must split them up and
 #   manipulate them to have them be of the same format
 # For the incremental models there is a single row per utterance, and the output column contains 

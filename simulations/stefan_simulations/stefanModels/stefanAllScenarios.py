@@ -373,13 +373,23 @@ def makeSemantics(states) :
             noiseValueWithoutGender = "nounNoiseVal"
 
         #paste it all together
-        masterString += word + ": ["
-        masterString +=  ','.join(map("'{0}'".format, theStatesThatApply))
-        masterString += "].includes(state)"
-        masterString += " ? params." + noiseValue + " : falseSemantics(params."
-        masterString += noiseValueWithoutGender + ", params.genderNoiseVal, ["
-        masterString += ','.join(map("'{0}'".format, theStatesThatApply))
-        masterString += "], state),"
+        #Split up the cases of nouns versus other words, because other words
+        # should return falsesemantics() function when false, whereas nouns
+        # should only returen (1 - params.nounNoiseVal) because we aren't taking
+        # gender into account for nouns
+        if word in nounDict:
+            masterString += word + ": ["
+            masterString +=  ','.join(map("'{0}'".format, theStatesThatApply))
+            masterString += "].includes(state)"
+            masterString += " ? params." + noiseValue + " : (1 - params.nounNoiseVal),"
+        else:
+            masterString += word + ": ["
+            masterString +=  ','.join(map("'{0}'".format, theStatesThatApply))
+            masterString += "].includes(state)"
+            masterString += " ? params." + noiseValue + " : falseSemantics(params."
+            masterString += noiseValueWithoutGender + ", params.genderNoiseVal, ["
+            masterString += ','.join(map("'{0}'".format, theStatesThatApply))
+            masterString += "], state),"
 
     masterString += "STOP : 1, START : 1 } } }"
     return masterString
