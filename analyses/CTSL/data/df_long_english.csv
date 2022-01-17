@@ -1,0 +1,1066 @@
+"","gameid","roundNum","clickedObjCondition","clickedObjName","speakerMessages","attempt","gloss","replacedGloss","remove"
+"1","4762-9",6,"size_sufficient","cat_small_white","small cat","attempt1","small cat","size noun",0
+"2","4762-9",7,"color_sufficient","shoe_big_yellow","yellow shoes","attempt1","yellow shoes","color noun",0
+"3","4762-9",8,"color_sufficient","toothbrush_small_green","green toothbrush","attempt1","green toothbrush","color noun",0
+"4","4762-9",9,"size_sufficient","dress_big_blue","large blue dress","attempt1","large blue dress","size color noun",0
+"5","4762-9",11,"size_sufficient","key_small_silver","small key","attempt1","small key","size noun",0
+"6","4762-9",12,"color_sufficient","pepper_big_green","green pepper","attempt1","green pepper","color noun",0
+"7","4762-9",13,"color_sufficient","pants_small_green","green pants","attempt1","green pants","color noun",0
+"8","4762-9",16,"color_sufficient","lock_big_silver","silver lock","attempt1","silver lock","color noun",0
+"9","4762-9",18,"color_sufficient","lipstick_big_red","red lipstick","attempt1","red lipstick","color noun",0
+"10","4762-9",20,"size_sufficient","chair_small_yellow","small yellow chair","attempt1","small yellow chair","size color noun",0
+"11","4762-9",21,"size_sufficient","brush_big_blue","large blue brush","attempt1","large blue brush","size color noun",0
+"12","4762-9",23,"color_sufficient","umbrella_small_green","green umbrella ","attempt1","green umbrella ","color noun ",0
+"13","4762-9",24,"size_sufficient","car_small_green","small green car","attempt1","small green car","size color noun",0
+"14","4762-9",29,"size_sufficient","button_big_blue","large blue button","attempt1","large blue button","size color noun",0
+"15","4762-9",30,"size_sufficient","apple_small_red","small red apple","attempt1","small red apple","size color noun",0
+"16","4762-9",31,"color_sufficient","socks_small_green","green socks","attempt1","green socks","color noun",0
+"17","4762-9",33,"size_sufficient","clock_big_yellow","large yellow clock","attempt1","large yellow clock","size color noun",0
+"18","4762-9",36,"color_sufficient","tie_big_red","red tie","attempt1","red tie","color noun",0
+"19","4762-9",40,"color_sufficient","pot_big_blue","blue pot","attempt1","blue pot","color noun",0
+"20","4762-9",41,"color_sufficient","skirt_big_blue","blue dress","attempt1","blue dress","color noun",0
+"21","4762-9",42,"size_sufficient","bag_small_blue","small blue bag","attempt1","small blue bag","size color noun",0
+"22","4762-9",43,"color_sufficient","tshirt_big_yellow","yellow shirt","attempt1","yellow shirt","color noun",0
+"23","4762-9",46,"color_sufficient","lighter_big_black","black lighter","attempt1","black lighter","color noun",0
+"24","4762-9",47,"size_sufficient","ball_small_yellow","small yellow ball","attempt1","small yellow ball","size color noun",0
+"25","4762-9",48,"size_sufficient","glasses_small_red","small red glasses","attempt1","small red glasses","size color noun",0
+"26","4762-9",49,"color_sufficient","scissors_big_green","green scissor ","attempt1","green scissor ","color noun ",0
+"27","4762-9",50,"size_sufficient","flower_big_yellow","large yellow flower","attempt1","large yellow flower","size color noun",0
+"28","4762-9",57,"size_sufficient","knife_big_blue","large blue knife","attempt1","large blue knife","size color noun",0
+"29","4762-9",60,"size_sufficient","glove_big_green","large green gloves","attempt1","large green gloves","size color nouns",0
+"30","2429-5",7,"color_sufficient","socks_small_green","green socks","attempt1","green socks","color noun",0
+"31","2429-5",8,"color_sufficient","scissors_big_blue","blue scissors","attempt1","blue scissors","color noun",0
+"32","2429-5",9,"size_sufficient","ball_small_yellow","smallest yellow egg","attempt1","smallest yellow egg","size color egg",0
+"33","2429-5",11,"size_sufficient","car_big_blue","largest blue auto","attempt1","largest blue auto","size color noun",0
+"34","2429-5",12,"size_sufficient","cat_big_white","large white cat","attempt1","large white cat","size color noun",0
+"35","2429-5",13,"size_sufficient","brush_small_blue","smallest blue brush","attempt1","smallest blue brush","size color noun",0
+"36","2429-5",17,"color_sufficient","toothbrush_small_green","green brush","attempt1","green brush","color noun",0
+"37","2429-5",18,"size_sufficient","clock_small_purple","small purple clock","attempt1","small purple clock","size color noun",0
+"38","2429-5",19,"size_sufficient","glove_big_orange","large orange glove","attempt1","large orange glove","size color noun",0
+"39","2429-5",20,"color_sufficient","skirt_small_green","green skirt","attempt1","green skirt","color noun",0
+"40","2429-5",21,"size_sufficient","chair_big_yellow","large yellow chair","attempt1","large yellow chair","size color noun",0
+"41","2429-5",23,"color_sufficient","lipstick_small_red","red lipstick","attempt1","red lipstick","color noun",0
+"42","2429-5",25,"color_sufficient","tie_small_red","red tie","attempt1","red tie","color noun",0
+"43","2429-5",32,"color_sufficient","umbrella_big_blue","blue umbrella","attempt1","blue umbrella","color noun",0
+"44","2429-5",33,"color_sufficient","show_small_yellow","yellow shoe","attempt1","yellow shoe","color noun",0
+"45","2429-5",36,"size_sufficient","dress_big_green","Large green dress","attempt1","Large green dress","size color noun",0
+"46","2429-5",40,"color_sufficient","lighter_small_white","white lighter","attempt1","white lighter","color noun",0
+"47","2429-5",42,"size_sufficient","apple_small_red","small red apple","attempt1","small red apple","size color noun",0
+"48","2429-5",44,"size_sufficient","key_small_silver","small silver key","attempt1","small silver key","size color noun",0
+"49","2429-5",45,"color_sufficient","pepper_big_red","red pepper","attempt1","red pepper","color noun",0
+"50","2429-5",47,"color_sufficient","tshirt_big_orange","orange shirt","attempt1","orange shirt","color noun",0
+"51","2429-5",49,"size_sufficient","bag_big_blue","large blue bag","attempt1","large blue bag","size color noun",0
+"52","2429-5",50,"size_sufficient","flower_small_yellow","small yellow flower","attempt1","small yellow flower","size color noun",0
+"53","2429-5",54,"color_sufficient","pot_small_green","green pan","attempt1","green pan","color noun",0
+"54","2429-5",55,"color_sufficient","lock_small_gold","gold lock","attempt1","gold lock","color noun",0
+"55","2429-5",58,"size_sufficient","knife_small_blue","small blue knife","attempt1","small blue knife","size color noun",0
+"56","2429-5",59,"color_sufficient","pants_big_pink","pink pants","attempt1","pink pants","color noun",0
+"57","2429-5",60,"size_sufficient","button_big_green","large green button","attempt1","large green button","size color noun",0
+"58","0460-4",6,"size_sufficient","key_big_gold","biggest one among all","attempt1","biggest one among all","size noun among all",0
+"59","0460-4",7,"size_sufficient","apple_small_green","smallest","attempt1","smallest","size",0
+"60","0460-4",9,"size_sufficient","glasses_big_blue","biggest","attempt1","biggest","size",0
+"61","0460-4",11,"color_sufficient","pants_small_pink","pink","attempt1","pink","color",0
+"62","0460-4",15,"color_sufficient","toothbrush_big_green","green","attempt1","green","color",0
+"63","0460-4",17,"color_sufficient","tie_big_red","red","attempt1","red","color",0
+"64","0460-4",18,"color_sufficient","socks_small_green","green","attempt1","green","color",0
+"65","0460-4",19,"size_sufficient","bag_small_blue","smallest","attempt1","smallest","size",0
+"66","0460-4",21,"size_sufficient","brush_big_blue","biggest","attempt1","biggest","size",0
+"67","0460-4",24,"color_sufficient","tshirt_big_orange","orange","attempt1","orange","color",0
+"68","0460-4",25,"color_sufficient","pot_big_blue","blue","attempt1","blue","color",0
+"69","0460-4",26,"color_sufficient","lipstick_small_red","red","attempt1","red","color",0
+"70","0460-4",28,"color_sufficient","lighter_small_black","black","attempt1","black","color",0
+"71","0460-4",31,"size_sufficient","ball_big_purple","big","attempt1","big","size",0
+"72","0460-4",33,"size_sufficient","flower_big_pink","big","attempt1","big","size",0
+"73","0460-4",34,"color_sufficient","pepper_small_red","red","attempt1","red","color",0
+"74","0460-4",39,"size_sufficient","glove_big_green","green big","attempt1","green big","color size",0
+"75","0460-4",40,"color_sufficient","lock_big_gold","yellow","attempt1","yellow","color",0
+"76","0460-4",41,"color_sufficient","skirt_big_green","green","attempt1","green","color",0
+"77","0460-4",42,"size_sufficient","button_big_blue","big","attempt1","big","size",0
+"78","0460-4",44,"size_sufficient","dress_big_blue","big","attempt1","big","size",0
+"79","0460-4",47,"size_sufficient","clock_big_purple","big","attempt1","big","size",0
+"80","0460-4",51,"color_sufficient","shoe_big_yellow","yellow","attempt1","yellow","color",0
+"81","0460-4",53,"color_sufficient","scissors_small_green","green","attempt1","green","color",0
+"82","0460-4",56,"color_sufficient","umbrella_big_green","green","attempt1","green","color",0
+"83","0460-4",57,"size_sufficient","chair_big_blue","big","attempt1","big","size",0
+"84","0460-4",59,"size_sufficient","knife_small_red","small","attempt1","small","size",0
+"85","0460-4",60,"size_sufficient","car_big_green","big","attempt1","big","size",0
+"86","6611-1",6,"size_sufficient","clock_big_purple","purple.~~~~~~ umm___big!!","attempt1","purple.~~~~~~ umm","color.~~~~~~ umm",0
+"87","6611-1",8,"size_sufficient","brush_big_blue","Big blue","attempt1","Big blue","size color",0
+"88","6611-1",10,"size_sufficient","apple_small_red","small red","attempt1","small red","size color",0
+"89","6611-1",11,"size_sufficient","ball_big_purple","big purple","attempt1","big purple","size color",0
+"90","6611-1",12,"size_sufficient","knife_small_red","tiny","attempt1","tiny","size",0
+"91","2180-1",6,"color_sufficient","pepper_small_red","red bell pepper","attempt1","red bell pepper","color noun",0
+"92","2180-1",7,"size_sufficient","button_big_green","large green button","attempt1","large green button","size color noun",0
+"93","2180-1",8,"color_sufficient","tie_small_blue","blue necktie","attempt1","blue necktie","color noun",0
+"94","2180-1",9,"size_sufficient","bag_small_blue","small blue backpack","attempt1","small blue backpack","size color noun",0
+"95","2180-1",12,"size_sufficient","cat_small_white","small white cat","attempt1","small white cat","size color noun",0
+"96","2180-1",13,"color_sufficient","lock_small_gold","gold lock","attempt1","gold lock","color noun",0
+"97","2180-1",14,"size_sufficient","brush_big_red","large red paintbrush","attempt1","large red paintbrush","size color noun",0
+"98","2180-1",15,"color_sufficient","lipstick_small_pink","pink lipstick","attempt1","pink lipstick","color noun",0
+"99","2180-1",16,"color_sufficient","lighter_small_white","white lighter","attempt1","white lighter","color noun",0
+"100","2180-1",18,"size_sufficient","balloon_big_pink","there's no image selected so I don't know","attempt1","there's no image selected so I don't know","re's no image selected so i don't know",0
+"101","2180-1",19,"size_sufficient","key_small_gold","small golden key","attempt1","small golden key","size coloren noun",0
+"102","2180-1",21,"color_sufficient","socks_small_blue","blue socks","attempt1","blue socks","color noun",0
+"103","2180-1",23,"color_sufficient","scissors_big_green","green scissors","attempt1","green scissors","color noun",0
+"104","2180-1",29,"color_sufficient","tshirt_small_orange","orange tshirt","attempt1","orange tshirt","color noun",0
+"105","2180-1",30,"size_sufficient","car_small_blue","small blue car","attempt1","small blue car","size color noun",0
+"106","2180-1",31,"size_sufficient","flower_big_yellow","large yellow flower","attempt1","large yellow flower","size color noun",0
+"107","2180-1",32,"size_sufficient","ball_big_purple","large purple ball","attempt1","large purple ball","size color noun",0
+"108","2180-1",33,"size_sufficient","chair_big_blue","large blue chair","attempt1","large blue chair","size color noun",0
+"109","2180-1",35,"color_sufficient","toothbrush_big_purple","purple toothbrush","attempt1","purple toothbrush","color noun",0
+"110","2180-1",36,"color_sufficient","show_small_yellow","yellow sneaker","attempt1","yellow sneaker","color noun",0
+"111","2180-1",41,"size_sufficient","apple_big_green","large green apple","attempt1","large green apple","size color noun",0
+"112","2180-1",42,"color_sufficient","umbrella_small_blue","blue umbrella","attempt1","blue umbrella","color noun",0
+"113","2180-1",44,"size_sufficient","dress_big_blue","large blue dress","attempt1","large blue dress","size color noun",0
+"114","2180-1",47,"size_sufficient","clock_big_purple","large purple alarm clock","attempt1","large purple alarm clock","size color noun",0
+"115","2180-1",48,"color_sufficient","skirt_small_blue","blue skirt","attempt1","blue skirt","color noun",0
+"116","2180-1",51,"color_sufficient","pants_small_green","green pants","attempt1","green pants","color noun",0
+"117","2180-1",52,"color_sufficient","pot_big_green","green pot","attempt1","green pot","color noun",0
+"118","2180-1",53,"size_sufficient","glasses_big_red","large red glasses","attempt1","large red glasses","size color noun",0
+"119","2180-1",54,"size_sufficient","knife_small_blue","small blue knife","attempt1","small blue knife","size color noun",0
+"120","2180-1",60,"size_sufficient","glove_big_green","large green glove","attempt1","large green glove","size color noun",0
+"121","7175-2",6,"size_sufficient","knife_small_blue","smallest blue knife","attempt1","smallest blue knife","size color noun",0
+"122","7175-2",7,"size_sufficient","apple_big_green","largest green apple","attempt1","largest green apple","size color noun",0
+"123","7175-2",11,"color_sufficient","socks_big_blue","blue socks","attempt1","blue socks","color noun",0
+"124","7175-2",12,"size_sufficient","ball_small_yellow","smallest yellow ball","attempt1","smallest yellow ball","size color noun",0
+"125","7175-2",13,"color_sufficient","umbrella_small_green","blue umbrella","attempt1","blue umbrella","color noun",0
+"126","7175-2",14,"size_sufficient","key_small_silver","smallest silver key","attempt1","smallest silver key","size color noun",0
+"127","7175-2",16,"size_sufficient","glove_big_green","largest green glove","attempt1","largest green glove","size color noun",0
+"128","7175-2",17,"color_sufficient","pants_big_pink","pink pants","attempt1","pink pants","color noun",0
+"129","7175-2",18,"color_sufficient","shoe_big_pink","pink shoe","attempt1","pink shoe","color noun",0
+"130","7175-2",21,"size_sufficient","cat_small_white","smallest white cat","attempt1","smallest white cat","size color noun",0
+"131","7175-2",22,"size_sufficient","car_small_blue","smallest blue car","attempt1","smallest blue car","size color noun",0
+"132","7175-2",24,"color_sufficient","lighter_small_black","small black lighter___the black lighter","attempt1","small black lighter","size color noun",0
+"133","7175-2",25,"color_sufficient","pepper_small_red","red peper","attempt1","red peper","color noun",0
+"134","7175-2",26,"color_sufficient","tie_small_blue","blue tie","attempt1","blue tie","color noun",0
+"135","7175-2",27,"color_sufficient","skirt_small_blue","blue dress___skirt","attempt1","blue dress","color noun",0
+"136","7175-2",29,"color_sufficient","lock_small_gold","gold lock","attempt1","gold lock","color noun",0
+"137","7175-2",32,"size_sufficient","balloon_big_yellow","yellow balloon","attempt1","yellow balloon","color noun",0
+"138","7175-2",35,"size_sufficient","button_big_green","largest green button","attempt1","largest green button","size color noun",0
+"139","7175-2",36,"size_sufficient","clock_small_purple","smallest purple clock","attempt1","smallest purple clock","size color noun",0
+"140","7175-2",38,"color_sufficient","tshirt_small_orange","orange shirt","attempt1","orange shirt","color noun",0
+"141","7175-2",39,"color_sufficient","scissors_big_green","green scissors","attempt1","green scissors","color noun",0
+"142","7175-2",41,"color_sufficient","lipstick_small_red","red lipstick, not the pink","attempt1","red lipstick, not the pink","color noun, not color",0
+"143","7175-2",43,"color_sufficient","pot_small_blue","blue pot","attempt1","blue pot","color noun",0
+"144","7175-2",44,"size_sufficient","glasses_small_red","smallest red glasses","attempt1","smallest red glasses","size color noun",0
+"145","7175-2",46,"size_sufficient","flower_big_pink","biggest pink flower","attempt1","biggest pink flower","size color noun",0
+"146","7175-2",47,"size_sufficient","dress_big_green","biggest green dress","attempt1","biggest green dress","size color noun",0
+"147","7175-2",50,"size_sufficient","brush_big_red","biggest red brush","attempt1","biggest red brush","size color noun",0
+"148","7175-2",51,"color_sufficient","toothbrush_small_purple","purple toothbrush","attempt1","purple toothbrush","color noun",0
+"149","7175-2",54,"size_sufficient","chair_small_yellow","smallest yellow chair","attempt1","smallest yellow chair","size color noun",0
+"150","7175-2",57,"size_sufficient","bag_small_red","smallest red bookbag","attempt1","smallest red bookbag","size color booknoun",0
+"151","7276-a",6,"size_sufficient","key_big_silver","The biggest key","attempt1","The biggest key"," size noun",0
+"152","7276-a",7,"size_sufficient","glove_small_green","The smallest green glove","attempt1","The smallest green glove"," size color noun",0
+"153","7276-a",8,"color_sufficient","pants_big_green","The green shorts ","attempt1","The green shorts "," color noun ",0
+"154","7276-a",9,"size_sufficient","brush_small_red","The smallest red paint brush ","attempt1","The smallest red paint brush "," size color noun ",0
+"155","3421-d",7,"color_sufficient","pants_small_pink","only one ","attempt1","only one ","only noun ",0
+"156","3421-d",8,"size_sufficient","glasses_big_red","biggest","attempt1","biggest","size",0
+"157","3421-d",9,"size_sufficient","bag_small_blue","smallest","attempt1","smallest","size",0
+"158","6191-a",6,"color_sufficient","lighter_small_black","it is not white","attempt1","it is not white"," not color",0
+"159","0834-b",10,"size_sufficient","dress_big_green","largest green item","attempt1","largest green item","size color noun",0
+"160","0834-b",11,"size_sufficient","bag_big_red","largest red","attempt1","largest red","size color",0
+"161","0834-b",12,"size_sufficient","brush_small_blue","smallest blue","attempt1","smallest blue","size color",0
+"162","0834-b",15,"color_sufficient","lipstick_small_red","red","attempt1","red","color",0
+"163","0834-b",16,"size_sufficient","button_small_blue","smallest button","attempt1","smallest button","size noun",0
+"164","0834-b",19,"color_sufficient","pot_big_blue","blue","attempt1","blue","color",0
+"165","0834-b",21,"size_sufficient","knife_big_blue","large blue","attempt1","large blue","size color",0
+"166","0834-b",23,"size_sufficient","cat_big_white","largest white","attempt1","largest white","size color",0
+"167","0834-b",24,"color_sufficient","umbrella_small_green","green","attempt1","green","color",0
+"168","0834-b",25,"color_sufficient","show_small_yellow","yellow","attempt1","yellow","color",0
+"169","0834-b",27,"size_sufficient","ball_small_purple","smallest purple","attempt1","smallest purple","size color",0
+"170","0834-b",31,"color_sufficient","lock_small_silver","pink","attempt1","pink","color",0
+"171","0834-b",32,"size_sufficient","car_small_green","smallest green","attempt1","smallest green","size color",0
+"172","0834-b",34,"size_sufficient","balloon_big_yellow","yellow (i only have one image)","attempt1","yellow (i only have one image)","color (i only have noun image)",0
+"173","0834-b",35,"color_sufficient","skirt_small_blue","blue","attempt1","blue","color",0
+"174","0834-b",37,"color_sufficient","pants_big_green","green","attempt1","green","color",0
+"175","0834-b",41,"color_sufficient","socks_small_blue","blue","attempt1","blue","color",0
+"176","0834-b",46,"color_sufficient","toothbrush_big_purple","purple","attempt1","purple","color",0
+"177","0834-b",48,"color_sufficient","tie_small_red","red","attempt1","red","color",0
+"178","0834-b",49,"size_sufficient","key_small_gold","smallest brass key","attempt1","smallest brass key","size brass noun",0
+"179","0834-b",52,"color_sufficient","lighter_small_black","small black","attempt1","small black","size color",0
+"180","0834-b",55,"color_sufficient","pepper_big_green","green","attempt1","green","color",0
+"181","0834-b",56,"size_sufficient","clock_big_purple","largest purple","attempt1","largest purple","size color",0
+"182","0834-b",57,"size_sufficient","glove_big_green","largest green","attempt1","largest green","size color",0
+"183","0834-b",58,"color_sufficient","scissors_big_green","green","attempt1","green","color",0
+"184","0834-b",59,"color_sufficient","tshirt_small_orange","the only red/orange","attempt1","the only red/orange"," only color/color",0
+"185","0834-b",60,"size_sufficient","flower_small_yellow","smallest","attempt1","smallest","size",0
+"186","6362-d",6,"size_sufficient","cat_small_black","smaller black cat","attempt1","smaller black cat","size color noun",0
+"187","6362-d",7,"size_sufficient","chair_small_blue","smaller blue chair","attempt1","smaller blue chair","size color noun",0
+"188","6362-d",8,"color_sufficient","lock_small_silver","silver lock","attempt1","silver lock","color noun",0
+"189","6362-d",10,"size_sufficient","button_big_blue","big blue button","attempt1","big blue button","size color noun",0
+"190","6362-d",11,"size_sufficient","balloon_big_pink","pink balloon (all I can see)","attempt1","pink balloon (all I can see)","color noun (all i can see)",0
+"191","6362-d",12,"size_sufficient","knife_small_blue","smaller blue knife","attempt1","smaller blue knife","size color noun",0
+"192","6362-d",15,"color_sufficient","skirt_big_blue","blue skirt","attempt1","blue skirt","color noun",0
+"193","6362-d",16,"size_sufficient","glove_small_orange","smaller orange","attempt1","smaller orange","size color",0
+"194","6362-d",17,"color_sufficient","lighter_small_black","black","attempt1","black","color",0
+"195","6362-d",19,"color_sufficient","shoe_big_pink","pink","attempt1","pink","color",0
+"196","6362-d",20,"color_sufficient","pot_small_green","green","attempt1","green","color",0
+"197","6362-d",27,"color_sufficient","tshirt_small_orange","orange","attempt1","orange","color",0
+"198","6362-d",29,"size_sufficient","glasses_small_red","smaller red","attempt1","smaller red","size color",0
+"199","6362-d",31,"color_sufficient","umbrella_big_green","green","attempt1","green","color",0
+"200","6362-d",32,"size_sufficient","key_small_gold","smaller gold","attempt1","smaller gold","size color",0
+"201","6362-d",34,"size_sufficient","brush_small_red","small red","attempt1","small red","size color",0
+"202","6362-d",38,"size_sufficient","dress_big_blue","large blue","attempt1","large blue","size color",0
+"203","6362-d",39,"size_sufficient","bag_big_red","large red","attempt1","large red","size color",0
+"204","6362-d",40,"color_sufficient","scissors_small_green","green","attempt1","green","color",0
+"205","6362-d",44,"size_sufficient","ball_small_yellow","small yellow","attempt1","small yellow","size color",0
+"206","6362-d",45,"size_sufficient","apple_small_green","small green","attempt1","small green","size color",0
+"207","6362-d",47,"color_sufficient","pants_small_green","green","attempt1","green","color",0
+"208","6362-d",49,"color_sufficient","socks_small_blue","blue","attempt1","blue","color",0
+"209","6362-d",50,"color_sufficient","lipstick_big_pink","pink","attempt1","pink","color",0
+"210","6362-d",52,"color_sufficient","toothbrush_small_green","green","attempt1","green","color",0
+"211","6362-d",53,"size_sufficient","clock_small_purple","smaller purple","attempt1","smaller purple","size color",0
+"212","6362-d",55,"size_sufficient","flower_small_pink","smaller red","attempt1","smaller red","size color",0
+"213","6362-d",57,"color_sufficient","pepper_big_green","green","attempt1","green","color",0
+"214","6362-d",58,"color_sufficient","tie_big_red","red","attempt1","red","color",0
+"215","6362-d",60,"size_sufficient","car_big_green","larger greebn","attempt1","larger greebn","sizer color",0
+"216","1884-8",6,"size_sufficient","flower_big_yellow","the zoomed in item___the biggest one","attempt1","the zoomed in item"," zoomed in noun",0
+"217","1884-8",11,"size_sufficient","bag_big_red","The giant looking one","attempt1","The giant looking one"," size looking noun",0
+"218","1884-8",14,"size_sufficient","button_big_blue","The biggest one","attempt1","The biggest one"," size noun",0
+"219","1884-8",15,"color_sufficient","pepper_big_green","Not the same as the others___yes","attempt1","Not the same as the others","not same as ors",0
+"220","1884-8",18,"size_sufficient","knife_big_red","It's big!","attempt1","It's big!"," size",0
+"221","1884-8",19,"size_sufficient","chair_small_yellow","Smallest item","attempt1","Smallest item","size noun",0
+"222","7658-1",7,"size_sufficient","apple_big_green","biggest apple","attempt1","biggest apple","size noun",0
+"223","7658-1",9,"size_sufficient","bag_small_blue","smallest","attempt1","smallest","size",0
+"224","7658-1",10,"size_sufficient","chair_big_yellow","biggest","attempt1","biggest","size",0
+"225","7658-1",12,"color_sufficient","skirt_big_green","green","attempt1","green","color",0
+"226","7658-1",13,"size_sufficient","clock_big_yellow","biggest","attempt1","biggest","size",0
+"227","7658-1",16,"size_sufficient","key_small_gold","smallest","attempt1","smallest","size",0
+"228","7658-1",17,"size_sufficient","balloon_big_pink","balloon","attempt1","balloon","noun",0
+"229","7658-1",18,"color_sufficient","scissors_big_green","green","attempt1","green","color",0
+"230","7658-1",19,"color_sufficient","lighter_big_white","white","attempt1","white","color",0
+"231","7658-1",21,"size_sufficient","knife_small_red","smallest","attempt1","smallest","size",0
+"232","7658-1",23,"color_sufficient","umbrella_small_blue","blue","attempt1","blue","color",0
+"233","7658-1",25,"color_sufficient","tshirt_big_orange","red","attempt1","red","color",0
+"234","7658-1",26,"size_sufficient","brush_big_red","biggest","attempt1","biggest","size",0
+"235","7658-1",31,"size_sufficient","car_big_green","big","attempt1","big","size",0
+"236","7658-1",32,"size_sufficient","glasses_big_blue","big","attempt1","big","size",0
+"237","7658-1",33,"color_sufficient","tie_small_red","small red","attempt1","small red","size color",0
+"238","7658-1",37,"color_sufficient","shoe_small_pink","red","attempt1","red","color",0
+"239","7658-1",38,"color_sufficient","pot_small_green","small green","attempt1","small green","size color",0
+"240","7658-1",40,"color_sufficient","lipstick_big_red","red","attempt1","red","color",0
+"241","7658-1",42,"size_sufficient","button_small_green","small","attempt1","small","size",0
+"242","7658-1",43,"color_sufficient","pants_big_green","green","attempt1","green","color",0
+"243","7658-1",44,"color_sufficient","socks_big_green","green","attempt1","green","color",0
+"244","7658-1",46,"color_sufficient","pepper_big_red","red","attempt1","red","color",0
+"245","7658-1",47,"size_sufficient","flower_big_yellow","big","attempt1","big","size",0
+"246","7658-1",48,"size_sufficient","cat_small_white","small","attempt1","small","size",0
+"247","7658-1",52,"size_sufficient","dress_big_green","big","attempt1","big","size",0
+"248","7658-1",58,"color_sufficient","toothbrush_small_purple","purple","attempt1","purple","color",0
+"249","7658-1",60,"size_sufficient","ball_small_purple","small","attempt1","small","size",0
+"250","3187-1",8,"size_sufficient","clock_big_purple",";) ___extra large","attempt1",";) ",";) ",0
+"251","3187-1",13,"size_sufficient","glove_big_orange","largest orange","attempt1","largest orange","size color",0
+"252","3187-1",14,"color_sufficient","toothbrush_big_green","green","attempt1","green","color",0
+"253","3187-1",17,"size_sufficient","brush_small_red","smallest","attempt1","smallest","size",0
+"254","3187-1",18,"size_sufficient","ball_big_yellow","largest","attempt1","largest","size",0
+"255","3187-1",19,"color_sufficient","lock_small_gold","yellow","attempt1","yellow","color",0
+"256","3187-1",20,"size_sufficient","chair_big_blue","largest","attempt1","largest","size",0
+"257","3187-1",21,"color_sufficient","tshirt_big_yellow","yellow","attempt1","yellow","color",0
+"258","3187-1",23,"size_sufficient","key_small_silver","smallest","attempt1","smallest","size",0
+"259","3187-1",24,"color_sufficient","pot_small_blue","blue","attempt1","blue","color",0
+"260","3187-1",26,"color_sufficient","skirt_small_green","green","attempt1","green","color",0
+"261","3187-1",29,"color_sufficient","pepper_big_green","green","attempt1","green","color",0
+"262","3187-1",35,"size_sufficient","baloon_small_pink","no object ","attempt1","no object ","no noun ",0
+"263","3187-1",36,"color_sufficient","shoe_big_yellow","yellow","attempt1","yellow","color",0
+"264","3187-1",37,"size_sufficient","glasses_big_red","largest","attempt1","largest","size",0
+"265","3187-1",38,"size_sufficient","button_big_blue","largest","attempt1","largest","size",0
+"266","3187-1",39,"color_sufficient","lipstick_big_pink","pink, not red","attempt1","pink, not red","color, not color",0
+"267","3187-1",40,"size_sufficient","cat_big_white","biggest","attempt1","biggest","size",0
+"268","3187-1",42,"color_sufficient","scissors_big_blue","blue","attempt1","blue","color",0
+"269","3187-1",43,"size_sufficient","dress_big_green","largest","attempt1","largest","size",0
+"270","3187-1",45,"size_sufficient","bag_big_red","biggest","attempt1","biggest","size",0
+"271","3187-1",46,"color_sufficient","lighter_big_black","black","attempt1","black","color",0
+"272","3187-1",47,"color_sufficient","pants_big_green","green","attempt1","green","color",0
+"273","3187-1",49,"size_sufficient","flower_big_yellow","largest","attempt1","largest","size",0
+"274","3187-1",50,"color_sufficient","tie_small_red","red","attempt1","red","color",0
+"275","3187-1",52,"size_sufficient","apple_small_green","smallest","attempt1","smallest","size",0
+"276","3187-1",54,"size_sufficient","car_small_blue","smallest","attempt1","smallest","size",0
+"277","3187-1",58,"color_sufficient","umbrella_big_blue","blue","attempt1","blue","color",0
+"278","3187-1",60,"color_sufficient","socks_small_green","green","attempt1","green","color",0
+"279","6326-d",6,"color_sufficient","scissors_small_blue","blue","attempt1","blue","color",0
+"280","6326-d",9,"size_sufficient","dress_small_green","smallest","attempt1","smallest","size",0
+"281","6326-d",10,"color_sufficient","socks_big_blue","blue","attempt1","blue","color",0
+"282","6326-d",11,"size_sufficient","apple_big_red","largest","attempt1","largest","size",0
+"283","6326-d",12,"color_sufficient","lighter_big_white","white","attempt1","white","color",0
+"284","6326-d",13,"color_sufficient","pot_big_blue","blue","attempt1","blue","color",0
+"285","6326-d",14,"size_sufficient","key_big_silver","largest","attempt1","largest","size",0
+"286","6326-d",16,"size_sufficient","car_small_blue","smallest","attempt1","smallest","size",0
+"287","6326-d",17,"size_sufficient","glove_small_orange","smallest","attempt1","smallest","size",0
+"288","6326-d",21,"size_sufficient","brush_big_blue","largest","attempt1","largest","size",0
+"289","6326-d",22,"size_sufficient","ball_small_purple","small purple","attempt1","small purple","size color",0
+"290","6326-d",23,"color_sufficient","pepper_small_green","green","attempt1","green","color",0
+"291","6326-d",25,"size_sufficient","glasses_big_red","largest","attempt1","largest","size",0
+"292","6326-d",27,"color_sufficient","lock_small_silver","silver","attempt1","silver","color",0
+"293","6326-d",28,"size_sufficient","bag_big_red","i mean it worked so whatever. largest","attempt1","i mean it worked so whatever. largest","i mean worked so whatever. size",0
+"294","6326-d",32,"size_sufficient","clock_small_yellow","ah ok i hadn't read that___smallest","attempt1","ah ok i hadn't read that","ah ok i hadn't read that",0
+"295","6326-d",35,"size_sufficient","button_small_green","smallest","attempt1","smallest","size",0
+"296","6326-d",38,"color_sufficient","tshirt_small_orange","orange","attempt1","orange","color",0
+"297","6326-d",42,"color_sufficient","toothbrush_small_green","green","attempt1","green","color",0
+"298","6326-d",44,"size_sufficient","knife_small_blue","smallest","attempt1","smallest","size",0
+"299","6326-d",47,"color_sufficient","lipstick_big_pink","pink","attempt1","pink","color",0
+"300","6326-d",48,"size_sufficient","chair_small_yellow","smallest","attempt1","smallest","size",0
+"301","6326-d",53,"size_sufficient","flower_big_pink","largest","attempt1","largest","size",0
+"302","6326-d",59,"color_sufficient","skirt_big_green","green","attempt1","green","color",0
+"303","6326-d",60,"color_sufficient","shoe_big_yellow","yellow","attempt1","yellow","color",0
+"304","7368-d",23,"color_sufficient","pepper_small_green","green","attempt1","green","color",0
+"305","7368-d",24,"color_sufficient","umbrella_small_blue","blue","attempt1","blue","color",0
+"306","7368-d",25,"color_sufficient","scissors_big_blue","greeb___green","attempt1","greeb","color",0
+"307","7368-d",29,"color_sufficient","shoe_small_pink","pink","attempt1","pink","color",0
+"308","7368-d",31,"color_sufficient","lipstick_big_red","red","attempt1","red","color",0
+"309","7368-d",35,"color_sufficient","tshirt_big_yellow","yellow","attempt1","yellow","color",0
+"310","7368-d",37,"color_sufficient","pants_big_green","green","attempt1","green","color",0
+"311","7368-d",40,"color_sufficient","socks_small_blue","blue","attempt1","blue","color",0
+"312","7368-d",42,"color_sufficient","tie_small_red","red","attempt1","red","color",0
+"313","7368-d",48,"color_sufficient","pot_big_blue","blue","attempt1","blue","color",0
+"314","7368-d",50,"color_sufficient","lock_small_gold","gold","attempt1","gold","color",0
+"315","7368-d",53,"color_sufficient","toothbrush_big_green","green","attempt1","green","color",0
+"316","7368-d",59,"color_sufficient","skirt_small_green","green","attempt1","green","color",0
+"317","3571-e",6,"color_sufficient","toothbrush_big_green","green","attempt1","green","color",0
+"318","3571-e",8,"color_sufficient","pot_big_green","green","attempt1","green","color",0
+"319","3571-e",13,"size_sufficient","chair_big_yellow","dot green","attempt1","dot green","dot color",0
+"320","3571-e",14,"color_sufficient","tshirt_big_orange","orange","attempt1","orange","color",0
+"321","3571-e",15,"color_sufficient","shoe_big_pink","pink","attempt1","pink","color",0
+"322","3571-e",16,"size_sufficient","clock_small_yellow","small yellow","attempt1","small yellow","size color",0
+"323","3571-e",18,"size_sufficient","flower_big_pink","biggest","attempt1","biggest","size",0
+"324","3571-e",24,"color_sufficient","lipstick_small_pink","pink","attempt1","pink","color",0
+"325","3571-e",25,"size_sufficient","ball_small_yellow","smallest","attempt1","smallest","size",0
+"326","3571-e",26,"size_sufficient","glasses_big_blue","biggest","attempt1","biggest","size",0
+"327","3571-e",27,"size_sufficient","button_small_blue","smallest","attempt1","smallest","size",0
+"328","3571-e",28,"size_sufficient","car_small_blue","small","attempt1","small","size",0
+"329","3571-e",43,"size_sufficient","bag_big_blue","large","attempt1","large","size",0
+"330","3571-e",46,"size_sufficient","cat_small_black","tiny","attempt1","tiny","size",0
+"331","3571-e",47,"size_sufficient","brush_big_blue","big","attempt1","big","size",0
+"332","3571-e",48,"size_sufficient","apple_big_red","big","attempt1","big","size",0
+"333","3571-e",49,"size_sufficient","key_small_silver","small","attempt1","small","size",0
+"334","3571-e",50,"size_sufficient","knife_small_blue","small","attempt1","small","size",0
+"335","3571-e",60,"size_sufficient","glove_big_green","big","attempt1","big","size",0
+"336","0049-5",6,"size_sufficient","glasses_big_blue","It is the biggest blue object.","attempt1","It is the biggest blue object."," size color noun.",0
+"337","0049-5",7,"color_sufficient","shoe_small_pink","It is the pink one","attempt1","It is the pink one"," color noun",0
+"338","0049-5",9,"color_sufficient","lighter_small_black","it is the black one","attempt1","it is the black one"," color noun",0
+"339","0049-5",10,"size_sufficient","apple_small_red","it is the small red one","attempt1","it is the small red one"," size color noun",0
+"340","0049-5",11,"size_sufficient","ball_small_purple","it is the small purple one","attempt1","it is the small purple one"," size color noun",0
+"341","0049-5",12,"color_sufficient","tshirt_small_yellow","it is the yellow one","attempt1","it is the yellow one"," color noun",0
+"342","0049-5",14,"size_sufficient","flower_big_pink","it is the biggest pink one","attempt1","it is the biggest pink one"," size color noun",0
+"343","0049-5",16,"size_sufficient","car_small_blue","it is the small blue one","attempt1","it is the small blue one"," size color noun",0
+"344","0049-5",17,"size_sufficient","bag_big_blue","it is the biggest blue one","attempt1","it is the biggest blue one"," size color noun",0
+"345","0049-5",19,"color_sufficient","lipstick_big_red","it is the red one","attempt1","it is the red one"," color noun",0
+"346","0049-5",28,"size_sufficient","chair_big_yellow","the biggest yellow one","attempt1","the biggest yellow one"," size color noun",0
+"347","0049-5",29,"color_sufficient","lock_small_gold","the gold one","attempt1","the gold one"," color noun",0
+"348","0049-5",30,"color_sufficient","toothbrush_small_purple","the purple one","attempt1","the purple one"," color noun",0
+"349","0049-5",34,"color_sufficient","tie_small_blue","the blue one","attempt1","the blue one"," color noun",0
+"350","0049-5",35,"size_sufficient","cat_small_white","the small white one","attempt1","the small white one"," size color noun",0
+"351","0049-5",36,"size_sufficient","brush_small_red","the small red one","attempt1","the small red one"," size color noun",0
+"352","0049-5",38,"size_sufficient","key_big_silver","the biggest silve rone","attempt1","the biggest silve rone"," size color rnoun",0
+"353","0049-5",39,"color_sufficient","skirt_big_blue","the blue one","attempt1","the blue one"," color noun",0
+"354","0049-5",40,"color_sufficient","scissors_big_green","the green one","attempt1","the green one"," color noun",0
+"355","0049-5",43,"size_sufficient","clock_big_purple","biggest purple","attempt1","biggest purple","size color",0
+"356","0049-5",44,"size_sufficient","button_small_blue","small blue","attempt1","small blue","size color",0
+"357","0049-5",46,"size_sufficient","glove_big_green","biggest green","attempt1","biggest green","size color",0
+"358","0049-5",47,"size_sufficient","dress_small_green","small green","attempt1","small green","size color",0
+"359","0049-5",49,"color_sufficient","pepper_big_red","red","attempt1","red","color",0
+"360","0049-5",50,"color_sufficient","socks_small_blue","blue","attempt1","blue","color",0
+"361","0049-5",51,"color_sufficient","pot_big_green","green","attempt1","green","color",0
+"362","0049-5",53,"color_sufficient","pants_small_green","green","attempt1","green","color",0
+"363","0049-5",54,"color_sufficient","umbrella_small_blue","blue","attempt1","blue","color",0
+"364","0049-5",57,"size_sufficient","balloon_big_pink","pink big","attempt1","pink big","color size",0
+"365","0049-5",58,"size_sufficient","knife_small_red","red small","attempt1","red small","color size",0
+"366","2334-6",8,"color_sufficient","pepper_small_green","green","attempt1","green","color",0
+"367","2334-6",9,"size_sufficient","glove_big_orange","big","attempt1","big","size",0
+"368","2334-6",11,"size_sufficient","button_big_green","big green","attempt1","big green","size color",0
+"369","2334-6",15,"size_sufficient","ball_big_yellow","big___yellow","attempt1","big","size",0
+"370","9368-4",6,"size_sufficient","glasses_small_red","red eye___small one","attempt1","red eye","color eye",0
+"371","9368-4",7,"color_sufficient","pants_small_pink","pink","attempt1","pink","color",0
+"372","9368-4",10,"color_sufficient","skirt_big_blue","sky blu","attempt1","sky blu","color",0
+"373","9368-4",12,"size_sufficient","bag_big_red","big red","attempt1","big red","size color",0
+"374","9368-4",14,"color_sufficient","pepper_small_red","red","attempt1","red","color",0
+"375","9368-4",16,"size_sufficient","ball_small_yellow","small yellow","attempt1","small yellow","size color",0
+"376","9368-4",17,"size_sufficient","button_small_blue","small blu","attempt1","small blu","size color",0
+"377","9368-4",18,"color_sufficient","scissors_big_blue","blu","attempt1","blu","color",0
+"378","9368-4",21,"size_sufficient","knife_small_blue","smal blu","attempt1","smal blu","size color",0
+"379","9368-4",23,"color_sufficient","show_small_yellow","yellow","attempt1","yellow","color",0
+"380","9368-4",24,"size_sufficient","apple_small_green","small green","attempt1","small green","size color",0
+"381","9368-4",26,"color_sufficient","lipstick_small_red","red","attempt1","red","color",0
+"382","9368-4",28,"color_sufficient","lock_small_gold","yellow","attempt1","yellow","color",0
+"383","9368-4",29,"size_sufficient","key_big_gold","big one","attempt1","big one","size noun",0
+"384","9368-4",31,"color_sufficient","pot_big_blue","blu","attempt1","blu","color",0
+"385","9368-4",32,"size_sufficient","flower_big_pink","big","attempt1","big","size",0
+"386","9368-4",33,"size_sufficient","dress_small_blue","small blu","attempt1","small blu","size color",0
+"387","9368-4",34,"color_sufficient","tshirt_big_orange","red","attempt1","red","color",0
+"388","9368-4",35,"size_sufficient","clock_big_yellow","big yellow","attempt1","big yellow","size color",0
+"389","9368-4",36,"color_sufficient","lighter_small_white","white","attempt1","white","color",0
+"390","9368-4",38,"size_sufficient","chair_small_yellow","small yellow","attempt1","small yellow","size color",0
+"391","9368-4",40,"size_sufficient","glove_small_orange","small red","attempt1","small red","size color",0
+"392","9368-4",41,"color_sufficient","toothbrush_big_green","green","attempt1","green","color",0
+"393","9368-4",42,"color_sufficient","umbrella_small_blue","blu","attempt1","blu","color",0
+"394","9368-4",43,"color_sufficient","tie_big_red","red","attempt1","red","color",0
+"395","9368-4",50,"size_sufficient","car_big_blue","big","attempt1","big","size",0
+"396","9368-4",53,"size_sufficient","balloon_big_pink","rose color","attempt1","rose color","color color",0
+"397","9368-4",54,"size_sufficient","brush_big_blue","big blu","attempt1","big blu","size color",0
+"398","9368-4",59,"color_sufficient","socks_big_blue","blu","attempt1","blu","color",0
+"399","9368-4",60,"size_sufficient","cat_small_white","white small","attempt1","white small","color size",0
+"400","9549-9",7,"color_sufficient","socks_small_blue","blue","attempt1","blue","color",0
+"401","9549-9",8,"color_sufficient","skirt_big_green","green","attempt1","green","color",0
+"402","9549-9",11,"size_sufficient","car_small_blue","tiny","attempt1","tiny","size",0
+"403","9549-9",12,"color_sufficient","pepper_big_green","green","attempt1","green","color",0
+"404","9549-9",13,"size_sufficient","flower_big_pink","large","attempt1","large","size",0
+"405","9549-9",16,"color_sufficient","pants_small_green","green","attempt1","green","color",0
+"406","9549-9",18,"color_sufficient","umbrella_small_green","green","attempt1","green","color",0
+"407","9549-9",19,"size_sufficient","bag_big_blue","large","attempt1","large","size",0
+"408","9549-9",23,"size_sufficient","chair_small_blue","small","attempt1","small","size",0
+"409","9549-9",24,"size_sufficient","balloon_big_yellow","yellow","attempt1","yellow","color",0
+"410","9549-9",26,"size_sufficient","cat_small_white","small","attempt1","small","size",0
+"411","9549-9",29,"color_sufficient","toothbrush_big_purple","purple","attempt1","purple","color",0
+"412","9549-9",34,"color_sufficient","scissors_big_green","green","attempt1","green","color",0
+"413","9549-9",38,"size_sufficient","apple_small_red","small","attempt1","small","size",0
+"414","9549-9",39,"color_sufficient","lock_big_silver","silver","attempt1","silver","color",0
+"415","9549-9",40,"size_sufficient","key_small_gold","small","attempt1","small","size",0
+"416","9549-9",42,"color_sufficient","shoe_small_pink","pink","attempt1","pink","color",0
+"417","9549-9",43,"size_sufficient","glove_small_orange","small","attempt1","small","size",0
+"418","9549-9",44,"size_sufficient","button_small_green","small","attempt1","small","size",0
+"419","9549-9",45,"color_sufficient","lighter_big_black","large","attempt1","large","size",0
+"420","9549-9",46,"size_sufficient","knife_small_blue","small","attempt1","small","size",0
+"421","9549-9",49,"color_sufficient","tshirt_small_yellow","thanks you too!___yellow","attempt1","thanks you too!","thanks you too",0
+"422","9549-9",50,"color_sufficient","pot_small_green","green","attempt1","green","color",0
+"423","9549-9",51,"color_sufficient","tie_small_blue","blue","attempt1","blue","color",0
+"424","9549-9",52,"size_sufficient","clock_small_yellow","small","attempt1","small","size",0
+"425","9549-9",53,"size_sufficient","dress_small_blue","small","attempt1","small","size",0
+"426","9549-9",54,"size_sufficient","ball_big_yellow","large","attempt1","large","size",0
+"427","9549-9",58,"size_sufficient","glasses_big_red","large","attempt1","large","size",0
+"428","9549-9",59,"color_sufficient","lipstick_small_red","pink","attempt1","pink","color",0
+"429","9549-9",60,"size_sufficient","brush_big_red","large","attempt1","large","size",0
+"430","5235-8",6,"size_sufficient","bag_big_red","large red backpack","attempt1","large red backpack","size color noun",0
+"431","5235-8",7,"size_sufficient","glasses_big_blue","blue sunglasses large","attempt1","blue sunglasses large","color noun size",0
+"432","5235-8",9,"size_sufficient","cat_big_black","large black cat","attempt1","large black cat","size color noun",0
+"433","5235-8",11,"size_sufficient","balloon_big_pink","pink balloon","attempt1","pink balloon","color noun",0
+"434","5235-8",12,"size_sufficient","ball_big_yellow","large yellow ball","attempt1","large yellow ball","size color noun",0
+"435","5235-8",15,"color_sufficient","socks_small_blue","blue socks","attempt1","blue socks","color noun",0
+"436","5235-8",17,"size_sufficient","brush_small_blue","small blue brush","attempt1","small blue brush","size color noun",0
+"437","5235-8",18,"size_sufficient","clock_big_yellow","large yellow clock","attempt1","large yellow clock","size color noun",0
+"438","5235-8",19,"color_sufficient","lock_big_silver","silver lock","attempt1","silver lock","color noun",0
+"439","5235-8",20,"size_sufficient","button_small_blue","small blue button","attempt1","small blue button","size color noun",0
+"440","5235-8",21,"color_sufficient","skirt_big_green","green skirt","attempt1","green skirt","color noun",0
+"441","5235-8",30,"size_sufficient","glove_small_orange","small orange glove","attempt1","small orange glove","size color noun",0
+"442","5235-8",31,"color_sufficient","lipstick_big_red","red lipstick","attempt1","red lipstick","color noun",0
+"443","5235-8",32,"color_sufficient","tie_big_blue","blue tie","attempt1","blue tie","color noun",0
+"444","5235-8",34,"color_sufficient","pants_small_pink","pink pants","attempt1","pink pants","color noun",0
+"445","5235-8",36,"size_sufficient","knife_big_blue","Large blue knife","attempt1","Large blue knife","size color noun",0
+"446","5235-8",37,"size_sufficient","car_small_blue","small blue car","attempt1","small blue car","size color noun",0
+"447","5235-8",42,"color_sufficient","scissors_big_green","green scissors","attempt1","green scissors","color noun",0
+"448","5235-8",43,"size_sufficient","dress_small_blue","small blue dress","attempt1","small blue dress","size color noun",0
+"449","5235-8",44,"color_sufficient","toothbrush_small_purple","purple toothbrush","attempt1","purple toothbrush","color noun",0
+"450","5235-8",47,"size_sufficient","chair_small_blue","small blue chair","attempt1","small blue chair","size color noun",0
+"451","5235-8",49,"size_sufficient","key_big_gold","large gold key","attempt1","large gold key","size color noun",0
+"452","5235-8",50,"color_sufficient","pot_small_blue","blue pot","attempt1","blue pot","color noun",0
+"453","5235-8",51,"color_sufficient","umbrella_big_blue","blue umbrella","attempt1","blue umbrella","color noun",0
+"454","5235-8",52,"color_sufficient","lighter_big_white","white lighter","attempt1","white lighter","color noun",0
+"455","5235-8",54,"color_sufficient","tshirt_big_orange","orange shirt","attempt1","orange shirt","color noun",0
+"456","5235-8",55,"size_sufficient","apple_small_green","small green apple","attempt1","small green apple","size color noun",0
+"457","5235-8",56,"color_sufficient","pepper_small_green","green pepper","attempt1","green pepper","color noun",0
+"458","5235-8",58,"color_sufficient","show_small_yellow","yellow shoe","attempt1","yellow shoe","color noun",0
+"459","5235-8",60,"size_sufficient","flower_big_yellow","big yellow flower","attempt1","big yellow flower","size color noun",0
+"460","7353-8",9,"color_sufficient","pepper_small_green","green","attempt1","green","color",0
+"461","7353-8",11,"size_sufficient","brush_small_red","smallest","attempt1","smallest","size",0
+"462","7353-8",13,"color_sufficient","lock_small_silver","silver","attempt1","silver","color",0
+"463","7353-8",14,"size_sufficient","cat_small_white","tiniest","attempt1","tiniest","size",0
+"464","7353-8",16,"size_sufficient","flower_big_yellow","largest","attempt1","largest","size",0
+"465","7353-8",19,"size_sufficient","button_big_blue","largest","attempt1","largest","size",0
+"466","7353-8",21,"size_sufficient","glove_small_orange","smallest","attempt1","smallest","size",0
+"467","7353-8",23,"color_sufficient","lighter_big_black","black","attempt1","black","color",0
+"468","7353-8",24,"size_sufficient","chair_big_blue","largest","attempt1","largest","size",0
+"469","7353-8",27,"color_sufficient","pants_big_green","green","attempt1","green","color",0
+"470","7353-8",28,"color_sufficient","scissors_big_blue","blue","attempt1","blue","color",0
+"471","7353-8",29,"size_sufficient","knife_small_blue","smallest","attempt1","smallest","size",0
+"472","7353-8",30,"size_sufficient","ball_big_purple","largest","attempt1","largest","size",0
+"473","7353-8",31,"size_sufficient","car_big_green","largest","attempt1","largest","size",0
+"474","7353-8",32,"color_sufficient","tshirt_big_orange","reddish orange","attempt1","reddish orange","colordh color",0
+"475","7353-8",33,"color_sufficient","show_small_yellow","yellow","attempt1","yellow","color",0
+"476","7353-8",38,"color_sufficient","pot_big_blue","blue","attempt1","blue","color",0
+"477","7353-8",40,"size_sufficient","dress_small_blue","small blue","attempt1","small blue","size color",0
+"478","7353-8",42,"size_sufficient","bag_small_blue","smallest","attempt1","smallest","size",0
+"479","7353-8",43,"size_sufficient","apple_small_red","smallest","attempt1","smallest","size",0
+"480","7353-8",45,"color_sufficient","tie_small_blue","blue","attempt1","blue","color",0
+"481","7353-8",47,"size_sufficient","key_big_gold","largest","attempt1","largest","size",0
+"482","7353-8",48,"size_sufficient","baloon_small_pink","nada","attempt1","nada","nada",0
+"483","7353-8",49,"size_sufficient","clock_small_yellow","smallest","attempt1","smallest","size",0
+"484","7353-8",52,"size_sufficient","glasses_small_red","smallest","attempt1","smallest","size",0
+"485","7353-8",55,"color_sufficient","lipstick_small_pink","pinkish purple","attempt1","pinkish purple","colorh color",0
+"486","7353-8",56,"color_sufficient","socks_big_blue","blue","attempt1","blue","color",0
+"487","7353-8",57,"color_sufficient","skirt_big_green","green","attempt1","green","color",0
+"488","7353-8",59,"color_sufficient","umbrella_big_blue","blue","attempt1","blue","color",0
+"489","7353-8",60,"color_sufficient","toothbrush_big_green","green","attempt1","green","color",0
+"490","0837-8",7,"size_sufficient","apple_big_red","largest red","attempt1","largest red","size color",0
+"491","0837-8",10,"size_sufficient","ball_big_yellow","largest yellow","attempt1","largest yellow","size color",0
+"492","0837-8",14,"color_sufficient","tie_small_red","red","attempt1","red","color",0
+"493","0837-8",16,"size_sufficient","button_big_blue","largest","attempt1","largest","size",0
+"494","0837-8",18,"color_sufficient","show_small_yellow","yellow","attempt1","yellow","color",0
+"495","0837-8",19,"color_sufficient","tshirt_small_orange","orange","attempt1","orange","color",0
+"496","0837-8",20,"color_sufficient","umbrella_small_green","green","attempt1","green","color",0
+"497","0837-8",21,"size_sufficient","glasses_small_blue","smallest blue","attempt1","smallest blue","size color",0
+"498","0837-8",23,"color_sufficient","pepper_small_red","red","attempt1","red","color",0
+"499","0837-8",26,"size_sufficient","cat_small_black","smallest","attempt1","smallest","size",0
+"500","0837-8",29,"size_sufficient","key_small_gold","smallest","attempt1","smallest","size",0
+"501","0837-8",31,"size_sufficient","car_small_green","tiny","attempt1","tiny","size",0
+"502","0837-8",33,"color_sufficient","lipstick_small_red","red one","attempt1","red one","color noun",0
+"503","0837-8",35,"color_sufficient","pot_small_blue","blue one","attempt1","blue one","color noun",0
+"504","0837-8",38,"color_sufficient","scissors_small_blue","blue","attempt1","blue","color",0
+"505","0837-8",39,"size_sufficient","chair_big_yellow","large yellow","attempt1","large yellow","size color",0
+"506","0837-8",40,"size_sufficient","flower_small_yellow","smallest","attempt1","smallest","size",0
+"507","0837-8",42,"color_sufficient","toothbrush_big_purple","purple","attempt1","purple","color",0
+"508","0837-8",43,"size_sufficient","glove_small_green","smallest green","attempt1","smallest green","size color",0
+"509","0837-8",44,"color_sufficient","skirt_big_blue","blue","attempt1","blue","color",0
+"510","0837-8",45,"size_sufficient","knife_big_blue","large blue","attempt1","large blue","size color",0
+"511","0837-8",50,"color_sufficient","lock_small_gold","gold","attempt1","gold","color",0
+"512","5003-b",6,"color_sufficient","pepper_small_red","red","attempt1","red","color",0
+"513","5003-b",9,"size_sufficient","knife_small_blue","small blue","attempt1","small blue","size color",0
+"514","5003-b",13,"size_sufficient","glove_big_orange","big orange","attempt1","big orange","size color",0
+"515","5003-b",14,"size_sufficient","clock_small_yellow","smallest yellow","attempt1","smallest yellow","size color",0
+"516","5003-b",18,"color_sufficient","lighter_small_white","white bic","attempt1","white bic","color bic",0
+"517","5003-b",19,"size_sufficient","brush_big_blue","big blue","attempt1","big blue","size color",0
+"518","5003-b",20,"size_sufficient","apple_small_red","small red","attempt1","small red","size color",0
+"519","5003-b",21,"size_sufficient","glasses_big_blue","big blue","attempt1","big blue","size color",0
+"520","5003-b",23,"size_sufficient","button_big_green","big green","attempt1","big green","size color",0
+"521","5003-b",24,"size_sufficient","dress_big_blue","big blue","attempt1","big blue","size color",0
+"522","5003-b",25,"size_sufficient","bag_small_red","small red","attempt1","small red","size color",0
+"523","5003-b",28,"size_sufficient","car_small_green","small green","attempt1","small green","size color",0
+"524","5003-b",29,"size_sufficient","ball_big_yellow","big yellow","attempt1","big yellow","size color",0
+"525","5003-b",31,"color_sufficient","toothbrush_small_purple","purple","attempt1","purple","color",0
+"526","5003-b",32,"color_sufficient","socks_small_green","green","attempt1","green","color",0
+"527","5003-b",37,"color_sufficient","skirt_big_blue","blue","attempt1","blue","color",0
+"528","5003-b",38,"color_sufficient","tie_big_red","red","attempt1","red","color",0
+"529","5003-b",39,"color_sufficient","pot_small_blue","blue","attempt1","blue","color",0
+"530","5003-b",40,"size_sufficient","balloon_big_pink","pink","attempt1","pink","color",0
+"531","5003-b",41,"size_sufficient","cat_big_white","big cat","attempt1","big cat","size noun",0
+"532","5003-b",43,"color_sufficient","tshirt_small_yellow","yellow","attempt1","yellow","color",0
+"533","5003-b",45,"color_sufficient","lipstick_small_red","red","attempt1","red","color",0
+"534","5003-b",46,"size_sufficient","key_small_silver","small","attempt1","small","size",0
+"535","5003-b",47,"color_sufficient","umbrella_small_green","green","attempt1","green","color",0
+"536","5003-b",48,"size_sufficient","flower_big_pink","big","attempt1","big","size",0
+"537","5003-b",50,"color_sufficient","pants_big_pink","pink","attempt1","pink","color",0
+"538","5003-b",52,"color_sufficient","scissors_small_blue","blue","attempt1","blue","color",0
+"539","5003-b",54,"color_sufficient","shoe_small_pink","pink","attempt1","pink","color",0
+"540","5003-b",55,"size_sufficient","chair_small_blue","small ","attempt1","small ","size ",0
+"541","5003-b",60,"color_sufficient","lock_big_gold","gold","attempt1","gold","color",0
+"542","9279-7",12,"size_sufficient","cat_big_white","the target is the biggest","attempt1","the target is the biggest"," size",0
+"543","9279-7",13,"color_sufficient","scissors_small_green","the target is green","attempt1","the target is green"," color",0
+"544","9279-7",14,"color_sufficient","lock_small_silver","the target is silver","attempt1","the target is silver"," color",0
+"545","9279-7",15,"color_sufficient","pepper_small_red","the target is red","attempt1","the target is red"," color",0
+"546","9279-7",16,"color_sufficient","tshirt_big_yellow","orange","attempt1","orange","color",0
+"547","9279-7",18,"color_sufficient","toothbrush_big_green","green","attempt1","green","color",0
+"548","9279-7",19,"color_sufficient","show_small_yellow","orange","attempt1","orange","color",0
+"549","9279-7",20,"color_sufficient","pants_big_pink","pink","attempt1","pink","color",0
+"550","9279-7",21,"size_sufficient","car_small_green","smallest","attempt1","smallest","size",0
+"551","9279-7",24,"color_sufficient","tie_small_red","red","attempt1","red","color",0
+"552","9279-7",26,"size_sufficient","bag_big_blue","biggest","attempt1","biggest","size",0
+"553","9279-7",28,"size_sufficient","chair_big_blue","biggest chair","attempt1","biggest chair","size noun",0
+"554","9279-7",29,"size_sufficient","key_big_gold","biggest key","attempt1","biggest key","size noun",0
+"555","9279-7",34,"color_sufficient","umbrella_big_blue","blue","attempt1","blue","color",0
+"556","9279-7",35,"color_sufficient","lighter_big_black","black","attempt1","black","color",0
+"557","9279-7",36,"color_sufficient","lipstick_big_red","pink","attempt1","pink","color",0
+"559","9279-7",41,"size_sufficient","button_small_green","smallest","attempt1","smallest","size",0
+"560","9279-7",43,"color_sufficient","socks_small_green","green","attempt1","green","color",0
+"561","9279-7",44,"size_sufficient","ball_big_yellow","biggest","attempt1","biggest","size",0
+"562","9279-7",47,"size_sufficient","clock_big_purple","biggest","attempt1","biggest","size",0
+"563","9279-7",48,"size_sufficient","glasses_big_blue","biggest","attempt1","biggest","size",0
+"564","9279-7",49,"size_sufficient","flower_small_pink","smallest","attempt1","smallest","size",0
+"565","9279-7",51,"size_sufficient","brush_big_blue","biggest","attempt1","biggest","size",0
+"566","9279-7",54,"size_sufficient","apple_big_green","biggest","attempt1","biggest","size",0
+"567","9279-7",55,"color_sufficient","pot_big_blue","blue","attempt1","blue","color",0
+"568","9279-7",56,"size_sufficient","dress_small_blue","smallest","attempt1","smallest","size",0
+"569","9279-7",60,"size_sufficient","glove_small_green","smallest green","attempt1","smallest green","size color",0
+"570","4372-a",7,"color_sufficient","lighter_small_black","black lighter","attempt1","black lighter","color noun",0
+"571","4372-a",9,"size_sufficient","car_big_green","biggest green car","attempt1","biggest green car","size color noun",0
+"572","4372-a",10,"size_sufficient","chair_small_blue","smallest blue chair","attempt1","smallest blue chair","size color noun",0
+"573","4372-a",13,"color_sufficient","socks_big_green","green socks","attempt1","green socks","color noun",0
+"574","4372-a",17,"color_sufficient","toothbrush_small_purple","purple toothbrush","attempt1","purple toothbrush","color noun",0
+"575","4372-a",18,"color_sufficient","lock_big_silver","silver lock","attempt1","silver lock","color noun",0
+"576","4372-a",20,"size_sufficient","knife_small_red","smallest knife","attempt1","smallest knife","size noun",0
+"577","4372-a",21,"size_sufficient","cat_big_white","biggest white cat","attempt1","biggest white cat","size color noun",0
+"578","4372-a",23,"size_sufficient","key_big_silver","biggest key","attempt1","biggest key","size noun",0
+"579","4372-a",25,"color_sufficient","pants_small_green","green pants","attempt1","green pants","color noun",0
+"580","4372-a",28,"size_sufficient","clock_big_purple","biggest clock","attempt1","biggest clock","size noun",0
+"581","4372-a",30,"color_sufficient","pot_big_green","green pan","attempt1","green pan","color noun",0
+"582","4372-a",31,"color_sufficient","tshirt_small_orange","orange shirt","attempt1","orange shirt","color noun",0
+"583","4372-a",32,"color_sufficient","lipstick_big_red","red lipstick","attempt1","red lipstick","color noun",0
+"584","4372-a",34,"size_sufficient","flower_big_yellow","biggest yellow flower","attempt1","biggest yellow flower","size color noun",0
+"585","4372-a",35,"color_sufficient","umbrella_small_blue","blue umbrella","attempt1","blue umbrella","color noun",0
+"586","4372-a",37,"size_sufficient","ball_small_purple","smallest purple ball","attempt1","smallest purple ball","size color noun",0
+"587","4372-a",38,"color_sufficient","skirt_small_green","green skirt","attempt1","green skirt","color noun",0
+"588","4372-a",42,"size_sufficient","button_big_green","biggest green button","attempt1","biggest green button","size color noun",0
+"589","4372-a",43,"size_sufficient","glove_small_orange","smallets orange glove","attempt1","smallets orange glove","sizeets color noun",0
+"590","4372-a",45,"size_sufficient","bag_big_red","biggest red backpack","attempt1","biggest red backpack","size color noun",0
+"591","4372-a",46,"size_sufficient","apple_small_red","smallest","attempt1","smallest","size",0
+"592","4372-a",49,"size_sufficient","glasses_small_red","smallest red glasses","attempt1","smallest red glasses","size color noun",0
+"593","4372-a",50,"size_sufficient","brush_big_blue","biggest blue","attempt1","biggest blue","size color",0
+"594","4372-a",54,"color_sufficient","show_small_yellow","yellow","attempt1","yellow","color",0
+"595","4372-a",57,"color_sufficient","pepper_big_green","green","attempt1","green","color",0
+"596","4372-a",58,"size_sufficient","dress_small_blue","smallest blue","attempt1","smallest blue","size color",0
+"597","4372-a",59,"color_sufficient","tie_small_red","red","attempt1","red","color",0
+"598","4372-a",60,"color_sufficient","scissors_big_blue","blue","attempt1","blue","color",0
+"599","9994-6",6,"size_sufficient","bag_small_red","small bag___red color small bag","attempt1","small bag","size noun",0
+"600","9994-6",7,"size_sufficient","knife_small_red","red small knife","attempt1","red small knife","color size noun",0
+"602","9994-6",10,"size_sufficient","chair_small_blue","blue small chair","attempt1","blue small chair","color size noun",0
+"603","9994-6",11,"color_sufficient","lipstick_small_pink","pink ","attempt1","pink ","color ",0
+"604","9994-6",13,"color_sufficient","tshirt_big_yellow","yellow","attempt1","yellow","color",0
+"605","9994-6",15,"color_sufficient","tie_big_red","red","attempt1","red","color",0
+"606","9994-6",16,"size_sufficient","flower_small_pink","small","attempt1","small","size",0
+"607","9994-6",18,"size_sufficient","clock_big_yellow","yello big","attempt1","yello big","color size",0
+"608","9994-6",19,"color_sufficient","umbrella_big_green","green","attempt1","green","color",0
+"609","9994-6",20,"size_sufficient","glasses_big_red","red bigger","attempt1","red bigger","color size",0
+"610","9994-6",22,"size_sufficient","ball_big_yellow","bigger yellow","attempt1","bigger yellow","size color",0
+"611","9994-6",28,"color_sufficient","pot_big_green","green","attempt1","green","color",0
+"612","9994-6",29,"size_sufficient","cat_small_black","smallest black","attempt1","smallest black","size color",0
+"613","9994-6",30,"size_sufficient","key_big_silver","biggest silver___color","attempt1","biggest silver","size color",0
+"614","8313-7",7,"size_sufficient","ball_big_yellow","The object is very large","attempt1","The object is very large"," noun size",0
+"615","8313-7",13,"size_sufficient","bag_big_blue","The object is very large","attempt1","The object is very large"," noun size",0
+"616","8313-7",17,"size_sufficient","dress_small_blue","The object is very small","attempt1","The object is very small"," noun size",0
+"617","8313-7",26,"size_sufficient","chair_small_blue","The obect is very small","attempt1","The obect is very small"," obect size",0
+"618","8313-7",28,"size_sufficient","key_small_silver","The object is very small","attempt1","The object is very small"," noun size",0
+"619","8313-7",33,"size_sufficient","car_big_green","The object is large","attempt1","The object is large"," noun size",0
+"620","8313-7",35,"size_sufficient","flower_big_yellow","The object is large","attempt1","The object is large"," noun size",0
+"621","8313-7",39,"size_sufficient","button_small_blue","The object is small","attempt1","The object is small"," noun size",0
+"622","8313-7",40,"size_sufficient","glove_small_green","The object is small","attempt1","The object is small"," noun size",0
+"623","8313-7",42,"size_sufficient","apple_small_green","The object is small","attempt1","The object is small"," noun size",0
+"624","8313-7",49,"size_sufficient","knife_big_blue","The object is large","attempt1","The object is large"," noun size",0
+"625","8313-7",51,"size_sufficient","brush_big_blue","The object is large","attempt1","The object is large"," noun size",0
+"626","8313-7",53,"size_sufficient","glasses_big_blue","The object is large","attempt1","The object is large"," noun size",0
+"627","8313-7",54,"size_sufficient","cat_small_black","The object is small","attempt1","The object is small"," noun size",0
+"628","8313-7",56,"size_sufficient","clock_big_purple","The object is large","attempt1","The object is large"," noun size",0
+"629","8450-3",6,"size_sufficient","key_small_gold","small key","attempt1","small key","size noun",0
+"630","8450-3",7,"size_sufficient","balloon_big_yellow","ballon yellow","attempt1","ballon yellow","nounon color",0
+"631","8450-3",8,"size_sufficient","bag_small_blue","small blue bag","attempt1","small blue bag","size color noun",0
+"632","8450-3",9,"color_sufficient","tie_small_blue","small blue tie","attempt1","small blue tie","size color noun",0
+"633","8450-3",13,"color_sufficient","pepper_big_red","red","attempt1","red","color",0
+"634","8450-3",15,"color_sufficient","lipstick_big_red","red","attempt1","red","color",0
+"635","8450-3",16,"size_sufficient","knife_big_blue","big blue knife","attempt1","big blue knife","size color noun",0
+"636","8450-3",18,"color_sufficient","toothbrush_small_green","green","attempt1","green","color",0
+"637","8450-3",19,"size_sufficient","cat_small_white","small white","attempt1","small white","size color",0
+"638","8450-3",24,"color_sufficient","pants_big_green","gerrn","attempt1","gerrn","gerrn",0
+"639","8450-3",31,"size_sufficient","brush_small_blue","small blue","attempt1","small blue","size color",0
+"640","8450-3",32,"size_sufficient","flower_small_pink","small pink","attempt1","small pink","size color",0
+"641","8450-3",33,"size_sufficient","glove_small_green","small green","attempt1","small green","size color",0
+"642","8450-3",34,"size_sufficient","glasses_small_red","small red","attempt1","small red","size color",0
+"643","8450-3",37,"color_sufficient","skirt_big_blue","blue","attempt1","blue","color",0
+"644","8450-3",39,"size_sufficient","ball_big_purple","big blue","attempt1","big blue","size color",0
+"645","8450-3",42,"color_sufficient","shoe_big_pink","pink","attempt1","pink","color",0
+"646","8450-3",43,"size_sufficient","car_small_green","small green","attempt1","small green","size color",0
+"647","8450-3",44,"color_sufficient","socks_small_green","green","attempt1","green","color",0
+"648","8450-3",45,"size_sufficient","chair_small_yellow","small yellow","attempt1","small yellow","size color",0
+"649","8450-3",46,"color_sufficient","tshirt_small_orange","orange'","attempt1","orange'","color'",0
+"650","8450-3",47,"color_sufficient","umbrella_small_green","green","attempt1","green","color",0
+"651","8450-3",48,"color_sufficient","pot_big_blue","blue","attempt1","blue","color",0
+"652","8450-3",49,"color_sufficient","scissors_big_blue","blue","attempt1","blue","color",0
+"653","8450-3",52,"size_sufficient","apple_small_green","small ","attempt1","small ","size ",0
+"654","8450-3",53,"size_sufficient","clock_small_purple","small","attempt1","small","size",0
+"655","8450-3",54,"size_sufficient","dress_big_green","big ","attempt1","big ","size ",0
+"656","8450-3",55,"color_sufficient","lock_big_silver","sliver","attempt1","sliver","sliver",0
+"657","8450-3",56,"size_sufficient","button_small_green","small ","attempt1","small ","size ",0
+"658","8450-3",57,"color_sufficient","lighter_small_white","white","attempt1","white","color",0
+"659","8085-9",8,"size_sufficient","ball_small_purple","The smallest one","attempt1","The smallest one"," size noun",0
+"660","8085-9",14,"size_sufficient","baloon_small_yellow","The space between my ears","attempt1","The space between my ears"," space between my ears",0
+"661","8085-9",15,"size_sufficient","cat_big_black","The big one","attempt1","The big one"," size noun",0
+"662","8085-9",19,"size_sufficient","knife_small_red","The smallest one","attempt1","The smallest one"," size noun",0
+"663","8085-9",20,"size_sufficient","clock_small_yellow","The smallest one","attempt1","The smallest one"," size noun",0
+"664","8085-9",21,"size_sufficient","flower_big_pink","The largest one","attempt1","The largest one"," size noun",0
+"665","8085-9",27,"size_sufficient","button_small_blue","Smallest one","attempt1","Smallest one","size noun",0
+"666","8085-9",29,"size_sufficient","chair_small_yellow","Smallest one","attempt1","Smallest one","size noun",0
+"667","8085-9",34,"size_sufficient","bag_big_blue","Largest","attempt1","Largest","size",0
+"668","8085-9",35,"size_sufficient","apple_small_green","Smallest","attempt1","Smallest","size",0
+"670","8085-9",37,"size_sufficient","key_small_silver","Smallest","attempt1","Smallest","size",0
+"671","8085-9",39,"size_sufficient","car_small_green","Smallest","attempt1","Smallest","size",0
+"672","8085-9",41,"size_sufficient","brush_big_blue","Largest","attempt1","Largest","size",0
+"673","8085-9",55,"size_sufficient","glasses_small_red","Smallest","attempt1","Smallest","size",0
+"674","8085-9",56,"color_sufficient","shoe_small_pink","Pinkest","attempt1","Pinkest","colorest",0
+"675","2220-4",6,"color_sufficient","pot_small_blue","BLUE ONE","attempt1","BLUE ONE","color noun",0
+"676","2220-4",8,"color_sufficient","lipstick_small_pink","PINK LIPSTICK","attempt1","PINK LIPSTICK","color noun",0
+"677","2220-4",12,"size_sufficient","glasses_small_red","SMALL ONE","attempt1","SMALL ONE","size noun",0
+"678","2220-4",14,"color_sufficient","shoe_big_yellow","YELLOW","attempt1","YELLOW","color",0
+"679","2220-4",15,"color_sufficient","umbrella_big_blue","BLUE","attempt1","BLUE","color",0
+"680","2220-4",16,"size_sufficient","bag_small_blue","SMALL BLUE BAG","attempt1","SMALL BLUE BAG","size color noun",0
+"681","2220-4",18,"size_sufficient","brush_big_blue","BIG BLUE BRUSH","attempt1","BIG BLUE BRUSH","size color noun",0
+"682","2220-4",20,"size_sufficient","knife_small_blue","SMALL KNIF","attempt1","SMALL KNIF","size noun",0
+"683","2220-4",23,"color_sufficient","lock_big_silver","SILVER LOCK","attempt1","SILVER LOCK","color noun",0
+"684","2220-4",25,"color_sufficient","pants_small_pink","PINK","attempt1","PINK","color",0
+"685","2220-4",26,"color_sufficient","skirt_big_blue","BLUE","attempt1","BLUE","color",0
+"686","2220-4",28,"color_sufficient","lighter_small_white","WHITE","attempt1","WHITE","color",0
+"687","2220-4",31,"size_sufficient","dress_big_blue","BIG BLUE","attempt1","BIG BLUE","size color",0
+"688","2220-4",32,"size_sufficient","flower_big_pink","LARGE FLOWER","attempt1","LARGE FLOWER","size noun",0
+"689","2220-4",33,"size_sufficient","key_big_gold","LARGE KEY","attempt1","LARGE KEY","size noun",0
+"690","2220-4",36,"color_sufficient","tie_big_blue","BLUE","attempt1","BLUE","color",0
+"691","2220-4",38,"color_sufficient","toothbrush_small_green","GREN___GREN___GREEN","attempt1","GREN","color",0
+"692","2220-4",39,"color_sufficient","tshirt_big_yellow","YELLOW","attempt1","YELLOW","color",0
+"693","2220-4",40,"size_sufficient","chair_small_yellow","SMALL","attempt1","SMALL","size",0
+"694","2220-4",41,"size_sufficient","cat_big_black","BIG CAT","attempt1","BIG CAT","size noun",0
+"695","2220-4",45,"color_sufficient","scissors_small_green","GREEN","attempt1","GREEN","color",0
+"696","2220-4",47,"color_sufficient","socks_big_green","GREEN","attempt1","GREEN","color",0
+"697","2220-4",49,"size_sufficient","ball_big_yellow","BIG","attempt1","BIG","size",0
+"698","2220-4",51,"size_sufficient","apple_big_red","BIG","attempt1","BIG","size",0
+"699","2220-4",52,"size_sufficient","clock_small_yellow","SMALL YEELOW___YELLOW","attempt1","SMALL YEELOW","size color",0
+"700","2220-4",55,"color_sufficient","pepper_big_green","GREEN","attempt1","GREEN","color",0
+"701","2220-4",56,"size_sufficient","button_big_green","BIG","attempt1","BIG","size",0
+"702","2220-4",58,"size_sufficient","car_big_blue","BIG BLUE","attempt1","BIG BLUE","size color",0
+"703","0108-5",7,"size_sufficient","cat_big_white","big white cat","attempt1","big white cat","size color noun",0
+"704","0108-5",10,"size_sufficient","flower_big_yellow","big yellow","attempt1","big yellow","size color",0
+"705","0108-5",14,"size_sufficient","chair_big_blue","big blue","attempt1","big blue","size color",0
+"706","0108-5",18,"size_sufficient","ball_big_yellow","biggest","attempt1","biggest","size",0
+"707","0108-5",23,"size_sufficient","glasses_big_blue","biggest","attempt1","biggest","size",0
+"708","0108-5",24,"color_sufficient","pepper_big_red","red","attempt1","red","color",0
+"709","0108-5",25,"size_sufficient","brush_big_blue","biggest","attempt1","biggest","size",0
+"710","0108-5",26,"size_sufficient","key_small_gold","smallest","attempt1","smallest","size",0
+"711","0108-5",27,"size_sufficient","dress_big_green","biggest","attempt1","biggest","size",0
+"712","0108-5",30,"color_sufficient","umbrella_big_blue","blue","attempt1","blue","color",0
+"713","0108-5",31,"color_sufficient","tshirt_small_orange","orange","attempt1","orange","color",0
+"714","0108-5",32,"color_sufficient","scissors_small_green","green","attempt1","green","color",0
+"715","0108-5",33,"color_sufficient","pot_small_blue","blue","attempt1","blue","color",0
+"716","0108-5",34,"color_sufficient","lighter_big_white","white","attempt1","white","color",0
+"717","0108-5",36,"size_sufficient","apple_small_red","smallest","attempt1","smallest","size",0
+"718","0108-5",37,"size_sufficient","button_big_green","biggest","attempt1","biggest","size",0
+"719","0108-5",39,"color_sufficient","toothbrush_small_purple","purple","attempt1","purple","color",0
+"720","0108-5",41,"color_sufficient","lipstick_small_red","red","attempt1","red","color",0
+"721","0108-5",42,"color_sufficient","shoe_big_yellow","yellow","attempt1","yellow","color",0
+"722","0108-5",43,"color_sufficient","skirt_big_blue","blue","attempt1","blue","color",0
+"723","0108-5",44,"size_sufficient","glove_big_green","big green","attempt1","big green","size color",0
+"724","0108-5",45,"color_sufficient","lock_big_gold","gold","attempt1","gold","color",0
+"725","0108-5",48,"size_sufficient","knife_small_blue","smallest","attempt1","smallest","size",0
+"726","0108-5",51,"size_sufficient","car_small_green","smallest","attempt1","smallest","size",0
+"727","0108-5",53,"color_sufficient","socks_small_green","green","attempt1","green","color",0
+"728","0108-5",55,"size_sufficient","bag_big_red","biggest","attempt1","biggest","size",0
+"729","0108-5",57,"color_sufficient","pants_small_pink","purple","attempt1","purple","color",0
+"730","0108-5",58,"color_sufficient","tie_big_red","red","attempt1","red","color",0
+"731","0108-5",59,"size_sufficient","clock_big_yellow","biggest","attempt1","biggest","size",0
+"732","2113-1",8,"size_sufficient","clock_small_yellow","small yellow","attempt1","small yellow","size color",0
+"733","2113-1",9,"color_sufficient","pepper_big_red","red","attempt1","red","color",0
+"734","2113-1",10,"size_sufficient","glasses_big_blue","large blue","attempt1","large blue","size color",0
+"735","2113-1",15,"color_sufficient","tie_small_red","red","attempt1","red","color",0
+"736","2113-1",16,"color_sufficient","umbrella_big_green","green","attempt1","green","color",0
+"737","2113-1",17,"size_sufficient","glove_big_orange","big orange___largest","attempt1","big orange","size color",0
+"738","2113-1",19,"color_sufficient","lipstick_small_pink","pink","attempt1","pink","color",0
+"739","2113-1",23,"size_sufficient","knife_big_blue","large blue","attempt1","large blue","size color",0
+"740","2113-1",26,"color_sufficient","pot_small_green","green","attempt1","green","color",0
+"741","2113-1",28,"size_sufficient","ball_big_yellow","large ___yellow","attempt1","large ","size ",0
+"742","2113-1",29,"size_sufficient","car_big_green","large green","attempt1","large green","size color",0
+"743","2113-1",30,"size_sufficient","dress_big_blue","large blue","attempt1","large blue","size color",0
+"744","2113-1",31,"color_sufficient","skirt_small_blue","blue","attempt1","blue","color",0
+"745","2113-1",32,"size_sufficient","flower_small_pink","smallest","attempt1","smallest","size",0
+"746","2113-1",34,"color_sufficient","tshirt_small_yellow","yellow","attempt1","yellow","color",0
+"747","2113-1",35,"size_sufficient","apple_big_red","large red","attempt1","large red","size color",0
+"748","2113-1",36,"size_sufficient","button_small_blue","small blue","attempt1","small blue","size color",0
+"749","2113-1",40,"color_sufficient","shoe_small_pink","pink","attempt1","pink","color",0
+"750","2113-1",43,"color_sufficient","lighter_small_white","white","attempt1","white","color",0
+"751","2113-1",45,"color_sufficient","toothbrush_small_green","green","attempt1","green","color",0
+"752","2113-1",46,"size_sufficient","cat_small_white","small white","attempt1","small white","size color",0
+"753","2113-1",47,"color_sufficient","socks_small_green","green","attempt1","green","color",0
+"754","2113-1",48,"size_sufficient","chair_small_yellow","small yellow","attempt1","small yellow","size color",0
+"755","2113-1",52,"color_sufficient","scissors_big_blue","blue","attempt1","blue","color",0
+"756","2113-1",53,"color_sufficient","pants_small_green","green","attempt1","green","color",0
+"757","2113-1",56,"size_sufficient","bag_small_blue","small blue","attempt1","small blue","size color",0
+"758","2113-1",58,"color_sufficient","lock_big_silver","silver","attempt1","silver","color",0
+"759","2113-1",59,"size_sufficient","brush_big_red","big red","attempt1","big red","size color",0
+"760","2113-1",60,"size_sufficient","key_small_gold","small gold","attempt1","small gold","size color",0
+"761","2436-e",9,"size_sufficient","apple_small_red","small apple","attempt1","small apple","size noun",0
+"762","2436-e",10,"size_sufficient","clock_small_yellow","small yellow clock","attempt1","small yellow clock","size color noun",0
+"763","2436-e",11,"color_sufficient","socks_big_blue","blue soclks","attempt1","blue soclks","color soclks",0
+"764","2436-e",12,"color_sufficient","lipstick_big_red","red lipstick","attempt1","red lipstick","color noun",0
+"765","5231-f",6,"color_sufficient","pot_big_blue","The blue pot","attempt1","The blue pot"," color noun",0
+"766","5231-f",9,"color_sufficient","toothbrush_small_green","The green brush","attempt1","The green brush"," color noun",0
+"767","5231-f",10,"color_sufficient","socks_small_blue","the blue socks","attempt1","the blue socks"," color noun",0
+"768","5231-f",15,"color_sufficient","lock_big_gold","The golden lock","attempt1","The golden lock"," coloren noun",0
+"769","5231-f",17,"color_sufficient","lipstick_small_pink","The pink one","attempt1","The pink one"," color noun",0
+"770","5231-f",22,"color_sufficient","tie_big_red","The red Tie","attempt1","The red Tie"," color noun",0
+"771","5231-f",23,"size_sufficient","cat_small_white","The smallest cat","attempt1","The smallest cat"," size noun",0
+"772","5231-f",27,"size_sufficient","ball_big_yellow","The largest ball","attempt1","The largest ball"," size noun",0
+"773","5231-f",29,"size_sufficient","knife_small_blue","The smallest knife","attempt1","The smallest knife"," size noun",0
+"774","5231-f",30,"size_sufficient","key_big_gold","The biggest key","attempt1","The biggest key"," size noun",0
+"775","5231-f",31,"color_sufficient","shoe_small_pink","The pink shoe","attempt1","The pink shoe"," color noun",0
+"776","5231-f",32,"size_sufficient","dress_big_green","The biggest dress","attempt1","The biggest dress"," size noun",0
+"777","5231-f",33,"size_sufficient","bag_big_blue","The largest bag","attempt1","The largest bag"," size noun",0
+"778","5231-f",34,"size_sufficient","flower_small_yellow","The smallest flower","attempt1","The smallest flower"," size noun",0
+"779","5231-f",36,"size_sufficient","clock_small_yellow","smallest clock","attempt1","smallest clock","size noun",0
+"780","5231-f",37,"color_sufficient","pepper_big_green","The green one","attempt1","The green one"," color noun",0
+"781","5231-f",40,"color_sufficient","skirt_big_green","the green one","attempt1","the green one"," color noun",0
+"782","5231-f",41,"size_sufficient","balloon_big_pink","the pink balloon","attempt1","the pink balloon"," color noun",0
+"783","5231-f",42,"size_sufficient","brush_small_blue","The smallest brush","attempt1","The smallest brush"," size noun",0
+"784","5231-f",43,"color_sufficient","pants_small_green","The green one","attempt1","The green one"," color noun",0
+"785","5231-f",46,"size_sufficient","car_big_green","The largest toy","attempt1","The largest toy"," size toy",0
+"786","5231-f",48,"size_sufficient","glasses_small_red","the smallest","attempt1","the smallest"," size",0
+"787","5231-f",50,"size_sufficient","chair_big_blue","The largest chair","attempt1","The largest chair"," size noun",0
+"788","5231-f",51,"size_sufficient","glove_small_green","The smallest glove","attempt1","The smallest glove"," size noun",0
+"789","5231-f",52,"size_sufficient","button_small_green","The smallest button","attempt1","The smallest button"," size noun",0
+"790","5231-f",55,"color_sufficient","lighter_small_black","The black lighter","attempt1","The black lighter"," color noun",0
+"791","5231-f",56,"color_sufficient","scissors_big_blue","The blue one","attempt1","The blue one"," color noun",0
+"792","5231-f",57,"color_sufficient","umbrella_big_blue","The blue one","attempt1","The blue one"," color noun",0
+"793","5231-f",59,"color_sufficient","tshirt_small_orange","The orange one","attempt1","The orange one"," color noun",0
+"794","5231-f",60,"size_sufficient","apple_small_red","The smallest apple","attempt1","The smallest apple"," size noun",0
+"795","3281-6",7,"color_sufficient","tshirt_big_yellow","yellow tshirt","attempt1","yellow tshirt","color noun",0
+"796","3281-6",8,"color_sufficient","pepper_big_red","red","attempt1","red","color",0
+"797","3281-6",10,"size_sufficient","cat_small_black","small cat","attempt1","small cat","size noun",0
+"798","3281-6",11,"size_sufficient","brush_big_red","black___largest","attempt1","black","color",0
+"799","3281-6",13,"size_sufficient","bag_big_red","red largest","attempt1","red largest","color size",0
+"800","3281-6",16,"size_sufficient","clock_big_purple","big purple","attempt1","big purple","size color",0
+"801","3281-6",19,"color_sufficient","scissors_small_green","green","attempt1","green","color",0
+"802","3281-6",20,"size_sufficient","dress_big_green","big green","attempt1","big green","size color",0
+"803","3281-6",22,"color_sufficient","socks_small_blue","blue","attempt1","blue","color",0
+"804","3281-6",25,"size_sufficient","chair_small_yellow","yellow___small","attempt1","yellow","color",0
+"805","3281-6",26,"size_sufficient","flower_big_pink","big pink","attempt1","big pink","size color",0
+"806","3281-6",27,"color_sufficient","show_small_yellow","yellow","attempt1","yellow","color",0
+"807","3281-6",28,"color_sufficient","umbrella_small_green","green","attempt1","green","color",0
+"808","3281-6",30,"size_sufficient","ball_big_yellow","yellow big","attempt1","yellow big","color size",0
+"809","3281-6",34,"size_sufficient","apple_small_green","green small","attempt1","green small","color size",0
+"810","3281-6",37,"size_sufficient","glasses_small_blue","blue small","attempt1","blue small","color size",0
+"811","3281-6",38,"size_sufficient","key_small_silver","silver small","attempt1","silver small","color size",0
+"812","3281-6",39,"color_sufficient","tie_big_blue","blue","attempt1","blue","color",0
+"813","3281-6",40,"color_sufficient","toothbrush_big_purple","purple","attempt1","purple","color",0
+"814","3281-6",41,"color_sufficient","skirt_small_blue","blue","attempt1","blue","color",0
+"815","3281-6",43,"color_sufficient","pants_small_pink","pink","attempt1","pink","color",0
+"816","3281-6",44,"size_sufficient","balloon_big_yellow","yellow","attempt1","yellow","color",0
+"817","3281-6",47,"color_sufficient","lighter_big_white","white","attempt1","white","color",0
+"818","3281-6",48,"size_sufficient","knife_small_red","red small","attempt1","red small","color size",0
+"819","3281-6",49,"size_sufficient","car_small_green","green small","attempt1","green small","color size",0
+"820","3281-6",50,"color_sufficient","lock_big_silver","silver big","attempt1","silver big","color size",0
+"821","3281-6",51,"color_sufficient","pot_big_green","green","attempt1","green","color",0
+"822","3281-6",53,"size_sufficient","button_small_blue","small blue","attempt1","small blue","size color",0
+"823","3281-6",55,"color_sufficient","lipstick_big_pink","pink","attempt1","pink","color",0
+"824","3281-6",60,"size_sufficient","glove_small_orange","long___small red","attempt1","long","long",0
+"825","7030-e",9,"color_sufficient","pepper_small_red","red","attempt1","red","color",0
+"826","7030-e",10,"size_sufficient","balloon_big_pink","pink","attempt1","pink","color",0
+"827","7030-e",11,"color_sufficient","lighter_small_black","black","attempt1","black","color",0
+"828","7030-e",12,"size_sufficient","bag_big_red","biggest red","attempt1","biggest red","size color",0
+"829","7030-e",14,"color_sufficient","skirt_small_blue","blue","attempt1","blue","color",0
+"830","7030-e",17,"color_sufficient","tshirt_small_yellow","yellow","attempt1","yellow","color",0
+"831","7030-e",18,"color_sufficient","umbrella_small_blue","blue","attempt1","blue","color",0
+"832","7030-e",21,"size_sufficient","dress_small_blue","small blue","attempt1","small blue","size color",0
+"833","7030-e",22,"color_sufficient","tie_small_red","red","attempt1","red","color",0
+"834","7030-e",23,"size_sufficient","chair_big_blue","biggest blue","attempt1","biggest blue","size color",0
+"835","7030-e",26,"size_sufficient","glasses_big_red","biggest red","attempt1","biggest red","size color",0
+"836","7030-e",28,"size_sufficient","car_big_green","biggest green","attempt1","biggest green","size color",0
+"837","7030-e",30,"color_sufficient","lock_big_silver","grey","attempt1","grey","color",0
+"838","7030-e",32,"size_sufficient","knife_big_red","biggest red","attempt1","biggest red","size color",0
+"839","7030-e",35,"color_sufficient","socks_small_green","green","attempt1","green","color",0
+"840","7030-e",36,"size_sufficient","button_small_green","small green","attempt1","small green","size color",0
+"841","7030-e",37,"size_sufficient","glove_small_green","small green","attempt1","small green","size color",0
+"842","7030-e",38,"size_sufficient","apple_small_red","largest red","attempt1","largest red","size color",0
+"844","7030-e",43,"size_sufficient","clock_small_purple","small purple","attempt1","small purple","size color",0
+"845","7030-e",45,"size_sufficient","key_small_gold","smallest yellow","attempt1","smallest yellow","size color",0
+"846","7030-e",46,"color_sufficient","toothbrush_small_purple","purple","attempt1","purple","color",0
+"847","7030-e",50,"size_sufficient","cat_big_white","big white","attempt1","big white","size color",0
+"848","7030-e",51,"color_sufficient","scissors_small_green","green scissors","attempt1","green scissors","color noun",0
+"849","7030-e",52,"color_sufficient","show_small_yellow","yellow","attempt1","yellow","color",0
+"851","7030-e",54,"color_sufficient","pants_big_pink","pink","attempt1","pink","color",0
+"852","7030-e",55,"color_sufficient","pot_big_blue","blu","attempt1","blu","color",0
+"853","7030-e",57,"size_sufficient","flower_small_yellow","small yellow","attempt1","small yellow","size color",0
+"854","7030-e",60,"color_sufficient","lipstick_small_pink","pink","attempt1","pink","color",0
+"855","2341-8",6,"size_sufficient","ball_small_yellow","small yellow","attempt1","small yellow","size color",0
+"856","2341-8",10,"color_sufficient","shoe_big_yellow","yellow","attempt1","yellow","color",0
+"857","2341-8",11,"size_sufficient","key_small_silver","smallest","attempt1","smallest","size",0
+"858","2341-8",12,"color_sufficient","tie_small_red","red","attempt1","red","color",0
+"859","2341-8",15,"size_sufficient","flower_small_pink","small red","attempt1","small red","size color",0
+"860","2341-8",18,"size_sufficient","button_small_blue","small blue","attempt1","small blue","size color",0
+"861","2341-8",19,"color_sufficient","pepper_big_green","green","attempt1","green","color",0
+"862","2341-8",20,"color_sufficient","pants_big_pink","pink","attempt1","pink","color",0
+"863","2341-8",22,"size_sufficient","apple_big_red","largest","attempt1","largest","size",0
+"864","2341-8",23,"size_sufficient","glasses_small_blue","small blue","attempt1","small blue","size color",0
+"865","2341-8",24,"color_sufficient","pot_small_green","green","attempt1","green","color",0
+"866","2341-8",27,"color_sufficient","toothbrush_big_green","green","attempt1","green","color",0
+"867","2341-8",28,"size_sufficient","car_small_blue","small blue","attempt1","small blue","size color",0
+"868","2341-8",29,"color_sufficient","tshirt_small_yellow","yellow","attempt1","yellow","color",0
+"869","2341-8",31,"size_sufficient","bag_small_blue","small blue","attempt1","small blue","size color",0
+"870","2341-8",32,"size_sufficient","cat_big_white","large","attempt1","large","size",0
+"871","2341-8",35,"size_sufficient","dress_small_green","small green","attempt1","small green","size color",0
+"872","2341-8",36,"color_sufficient","lock_big_silver","large","attempt1","large","size",0
+"875","2341-8",41,"size_sufficient","brush_small_red","small red","attempt1","small red","size color",0
+"876","2341-8",44,"color_sufficient","umbrella_big_green","green","attempt1","green","color",0
+"877","2341-8",45,"size_sufficient","chair_small_blue","small blue","attempt1","small blue","size color",0
+"878","2341-8",49,"color_sufficient","lighter_big_black","dark","attempt1","dark","dark",0
+"879","2341-8",50,"size_sufficient","clock_small_purple","small purple","attempt1","small purple","size color",0
+"880","2341-8",51,"color_sufficient","skirt_big_blue","blue","attempt1","blue","color",0
+"881","2341-8",53,"color_sufficient","lipstick_big_pink","pink","attempt1","pink","color",0
+"882","2341-8",57,"color_sufficient","socks_small_green","green","attempt1","green","color",0
+"883","2341-8",58,"size_sufficient","glove_small_green","small green","attempt1","small green","size color",0
+"884","6460-8",6,"size_sufficient","key_small_gold","small key","attempt1","small key","size noun",0
+"885","6460-8",7,"color_sufficient","umbrella_small_green","green","attempt1","green","color",0
+"886","6460-8",10,"size_sufficient","cat_small_black","small cat","attempt1","small cat","size noun",0
+"887","6460-8",11,"color_sufficient","lighter_big_black","black","attempt1","black","color",0
+"888","6460-8",14,"color_sufficient","pot_small_green","green","attempt1","green","color",0
+"889","6460-8",15,"size_sufficient","button_small_green","small","attempt1","small","size",0
+"890","6460-8",18,"color_sufficient","toothbrush_big_purple","purple","attempt1","purple","color",0
+"891","6460-8",20,"size_sufficient","car_big_green","big green","attempt1","big green","size color",0
+"892","6460-8",21,"color_sufficient","pants_big_green","green","attempt1","green","color",0
+"893","6460-8",22,"size_sufficient","ball_big_purple","big","attempt1","big","size",0
+"894","6460-8",23,"color_sufficient","tshirt_small_orange","orange","attempt1","orange","color",0
+"895","6460-8",26,"size_sufficient","bag_small_red","small","attempt1","small","size",0
+"896","6460-8",28,"color_sufficient","lipstick_big_pink","pink","attempt1","pink","color",0
+"897","6460-8",31,"size_sufficient","dress_small_green","small","attempt1","small","size",0
+"898","6460-8",35,"size_sufficient","glasses_small_blue","small","attempt1","small","size",0
+"899","6460-8",37,"size_sufficient","chair_small_blue","small","attempt1","small","size",0
+"900","6460-8",39,"size_sufficient","balloon_big_yellow","yellow","attempt1","yellow","color",0
+"901","6460-8",40,"color_sufficient","pepper_big_green","green","attempt1","green","color",0
+"902","6460-8",41,"size_sufficient","brush_small_blue","small","attempt1","small","size",0
+"903","6460-8",43,"color_sufficient","scissors_big_green","green","attempt1","green","color",0
+"904","6460-8",44,"color_sufficient","socks_small_blue","blue","attempt1","blue","color",0
+"905","6460-8",45,"size_sufficient","clock_big_purple","large","attempt1","large","size",0
+"906","6460-8",48,"size_sufficient","apple_small_red","small red","attempt1","small red","size color",0
+"907","6460-8",49,"color_sufficient","tie_big_blue","blue","attempt1","blue","color",0
+"908","6460-8",50,"size_sufficient","knife_big_blue","large","attempt1","large","size",0
+"909","6460-8",52,"size_sufficient","flower_small_yellow","small","attempt1","small","size",0
+"910","6460-8",54,"size_sufficient","glove_small_orange","small","attempt1","small","size",0
+"911","6460-8",56,"color_sufficient","shoe_big_pink","pink","attempt1","pink","color",0
+"912","6460-8",58,"color_sufficient","skirt_big_green","green","attempt1","green","color",0
+"913","6460-8",59,"color_sufficient","lock_small_silver","silver","attempt1","silver","color",0
+"914","9834-2",7,"color_sufficient","lipstick_small_pink","it's pink","attempt1","it's pink"," color",0
+"915","9834-2",9,"color_sufficient","pepper_big_red","It's red","attempt1","It's red"," color",0
+"916","9834-2",17,"color_sufficient","show_small_yellow","It's yellow","attempt1","It's yellow"," color",0
+"917","9834-2",19,"color_sufficient","tie_small_blue","It's blue","attempt1","It's blue"," color",0
+"918","9834-2",23,"color_sufficient","skirt_big_blue","it's blue","attempt1","it's blue"," color",0
+"919","9834-2",27,"color_sufficient","socks_small_green","it's green","attempt1","it's green"," color",0
+"920","9834-2",28,"color_sufficient","scissors_big_green","it's green","attempt1","it's green"," color",0
+"921","9834-2",31,"color_sufficient","pot_small_green","it's green","attempt1","it's green"," color",0
+"922","9834-2",35,"color_sufficient","toothbrush_big_green","it's green","attempt1","it's green"," color",0
+"923","9834-2",37,"color_sufficient","lighter_small_black","it's black","attempt1","it's black"," color",0
+"924","9834-2",48,"color_sufficient","umbrella_big_green","it is green","attempt1","it is green"," color",0
+"925","9834-2",51,"color_sufficient","tshirt_big_yellow","yellow","attempt1","yellow","color",0
+"926","9834-2",53,"size_sufficient","dress_big_green","large green","attempt1","large green","size color",0
+"927","9834-2",55,"size_sufficient","button_big_green","large green","attempt1","large green","size color",0
+"928","9834-2",56,"size_sufficient","knife_small_red","small red","attempt1","small red","size color",0
+"929","9834-2",57,"color_sufficient","pants_big_green","green","attempt1","green","color",0
+"930","9834-2",58,"color_sufficient","lock_small_silver","silver","attempt1","silver","color",0
+"931","9834-2",59,"size_sufficient","bag_small_red","small red","attempt1","small red","size color",0
+"932","9834-2",60,"size_sufficient","ball_big_purple","large purple","attempt1","large purple","size color",0
+"933","3157-3",6,"size_sufficient","car_small_green","small green","attempt1","small green","size color",0
+"934","3157-3",13,"size_sufficient","bag_small_blue","small blue","attempt1","small blue","size color",0
+"935","3157-3",14,"size_sufficient","brush_big_red","big red","attempt1","big red","size color",0
+"936","3157-3",17,"color_sufficient","pot_small_blue","blue","attempt1","blue","color",0
+"937","3157-3",18,"size_sufficient","button_big_green","big green","attempt1","big green","size color",0
+"938","3157-3",19,"size_sufficient","ball_big_purple","big purp","attempt1","big purp","size color",0
+"939","3157-3",21,"color_sufficient","lighter_big_black","black","attempt1","black","color",0
+"940","3157-3",22,"size_sufficient","glove_big_green","big green","attempt1","big green","size color",0
+"941","3157-3",24,"size_sufficient","dress_small_blue","small blue","attempt1","small blue","size color",0
+"942","3157-3",25,"color_sufficient","socks_big_green","green","attempt1","green","color",0
+"943","3157-3",26,"size_sufficient","clock_small_yellow","smallo yellwo","attempt1","smallo yellwo","sizeo color",0
+"944","3157-3",27,"color_sufficient","tie_small_red","red","attempt1","red","color",0
+"945","3157-3",28,"color_sufficient","pants_big_pink","pinik","attempt1","pinik","pinik",0
+"946","3157-3",30,"size_sufficient","glasses_small_blue","small blue","attempt1","small blue","size color",0
+"947","3157-3",31,"color_sufficient","tshirt_small_orange","orange","attempt1","orange","color",0
+"948","3157-3",32,"size_sufficient","key_small_silver","small key","attempt1","small key","size noun",0
+"949","3157-3",33,"size_sufficient","apple_small_red","small red","attempt1","small red","size color",0
+"950","3157-3",36,"color_sufficient","pepper_small_red","red","attempt1","red","color",0
+"951","3157-3",40,"color_sufficient","toothbrush_small_green","green","attempt1","green","color",0
+"952","3157-3",41,"size_sufficient","chair_big_yellow","big yellow","attempt1","big yellow","size color",0
+"953","3157-3",42,"color_sufficient","shoe_big_pink","pink","attempt1","pink","color",0
+"954","3157-3",43,"color_sufficient","skirt_small_green","green","attempt1","green","color",0
+"955","3157-3",44,"size_sufficient","baloon_small_yellow","not a balloon","attempt1","not a balloon","not a noun",0
+"956","3157-3",46,"color_sufficient","scissors_small_green","green","attempt1","green","color",0
+"957","3157-3",48,"color_sufficient","lock_small_silver","silver","attempt1","silver","color",0
+"958","3157-3",50,"size_sufficient","cat_small_white","small white","attempt1","small white","size color",0
+"959","3157-3",57,"color_sufficient","umbrella_big_blue","blue","attempt1","blue","color",0
+"960","3157-3",58,"color_sufficient","lipstick_small_red","red","attempt1","red","color",0
+"961","3157-3",59,"size_sufficient","flower_small_yellow","small yellow","attempt1","small yellow","size color",0
+"962","3157-3",60,"size_sufficient","knife_big_red","large red","attempt1","large red","size color",0
+"963","9706-e",8,"color_sufficient","lighter_small_white","white","attempt1","white","color",0
+"964","9706-e",9,"size_sufficient","chair_big_yellow","large one","attempt1","large one","size noun",0
+"965","9706-e",11,"color_sufficient","umbrella_big_green","green","attempt1","green","color",0
+"966","9706-e",13,"color_sufficient","scissors_small_green","green","attempt1","green","color",0
+"967","9706-e",14,"color_sufficient","show_small_yellow","yello","attempt1","yello","color",0
+"968","9706-e",16,"color_sufficient","lipstick_big_red","red","attempt1","red","color",0
+"969","9706-e",18,"color_sufficient","pot_big_blue","blue","attempt1","blue","color",0
+"970","9706-e",20,"color_sufficient","pepper_small_green","green","attempt1","green","color",0
+"971","9706-e",23,"color_sufficient","pants_big_green","green","attempt1","green","color",0
+"972","9706-e",25,"size_sufficient","ball_big_yellow","big","attempt1","big","size",0
+"973","9706-e",28,"size_sufficient","clock_big_purple","big","attempt1","big","size",0
+"974","9706-e",30,"size_sufficient","button_small_blue","small","attempt1","small","size",0
+"975","9706-e",32,"size_sufficient","cat_big_white","big","attempt1","big","size",0
+"976","9706-e",35,"size_sufficient","knife_big_red","big","attempt1","big","size",0
+"977","9706-e",36,"color_sufficient","tshirt_big_orange","orange","attempt1","orange","color",0
+"978","9706-e",39,"size_sufficient","flower_big_pink","big","attempt1","big","size",0
+"979","9706-e",41,"size_sufficient","key_small_gold","small","attempt1","small","size",0
+"980","9706-e",42,"size_sufficient","car_big_blue","big","attempt1","big","size",0
+"981","9706-e",44,"size_sufficient","glove_small_green","small","attempt1","small","size",0
+"982","9706-e",45,"color_sufficient","toothbrush_small_green","small","attempt1","small","size",0
+"983","9706-e",46,"color_sufficient","lock_small_silver","silver","attempt1","silver","color",0
+"984","9706-e",50,"size_sufficient","glasses_big_blue","big","attempt1","big","size",0
+"985","9706-e",52,"size_sufficient","apple_big_green","big","attempt1","big","size",0
+"986","9706-e",53,"color_sufficient","skirt_small_green","green","attempt1","green","color",0
+"987","9706-e",55,"color_sufficient","tie_big_red","red","attempt1","red","color",0
+"988","9706-e",57,"size_sufficient","brush_small_blue","small","attempt1","small","size",0
+"989","9706-e",58,"color_sufficient","socks_small_green","green","attempt1","green","color",0
+"991","0363-a",6,"color_sufficient","scissors_small_blue","blue","attempt1","blue","color",0
+"992","0363-a",7,"color_sufficient","pepper_big_green","green","attempt1","green","color",0
+"993","0363-a",8,"size_sufficient","glasses_small_red","small red","attempt1","small red","size color",0
+"994","0363-a",9,"color_sufficient","tie_big_blue","blue","attempt1","blue","color",0
+"995","0363-a",10,"color_sufficient","shoe_big_pink","pink","attempt1","pink","color",0
+"996","0363-a",12,"size_sufficient","chair_small_yellow","small","attempt1","small","size",0
+"997","0363-a",13,"size_sufficient","flower_big_yellow","big","attempt1","big","size",0
+"998","0363-a",15,"color_sufficient","pants_big_green","green","attempt1","green","color",0
+"999","0363-a",17,"size_sufficient","bag_big_blue","big","attempt1","big","size",0
+"1000","0363-a",19,"color_sufficient","lock_small_gold","yellow","attempt1","yellow","color",0
+"1001","0363-a",20,"size_sufficient","clock_small_purple","smallest","attempt1","smallest","size",0
+"1002","0363-a",21,"size_sufficient","brush_big_blue","biggest","attempt1","biggest","size",0
+"1003","0363-a",22,"size_sufficient","apple_small_green","smallest","attempt1","smallest","size",0
+"1004","0363-a",23,"color_sufficient","lighter_small_white","white","attempt1","white","color",0
+"1005","0363-a",27,"color_sufficient","pot_big_green","green","attempt1","green","color",0
+"1006","0363-a",28,"size_sufficient","ball_big_yellow","big","attempt1","big","size",0
+"1007","0363-a",29,"color_sufficient","umbrella_big_green","green","attempt1","green","color",0
+"1008","0363-a",33,"size_sufficient","glove_big_green","biggest","attempt1","biggest","size",0
+"1009","0363-a",35,"size_sufficient","knife_big_blue","biggesst","attempt1","biggesst","size",0
+"1010","0363-a",36,"color_sufficient","skirt_small_green","green","attempt1","green","color",0
+"1011","0363-a",42,"color_sufficient","tshirt_small_orange","red","attempt1","red","color",0
+"1012","0363-a",45,"color_sufficient","lipstick_small_pink","pink","attempt1","pink","color",0
+"1013","0363-a",46,"size_sufficient","key_small_gold","small","attempt1","small","size",0
+"1014","0363-a",47,"color_sufficient","toothbrush_big_green","green","attempt1","green","color",0
+"1015","0363-a",52,"color_sufficient","socks_small_blue","blue","attempt1","blue","color",0
+"1016","0363-a",53,"size_sufficient","button_big_green","big","attempt1","big","size",0
+"1017","0363-a",57,"size_sufficient","car_big_blue","big","attempt1","big","size",0
+"1018","0363-a",59,"size_sufficient","cat_small_black","small","attempt1","small","size",0
+"1019","0363-a",60,"size_sufficient","dress_big_blue","big","attempt1","big","size",0
+"1020","4382-d",6,"size_sufficient","brush_big_blue","the largest object","attempt1","the largest object"," size noun",0
+"1021","4382-d",7,"color_sufficient","lock_big_silver","the silver object","attempt1","the silver object"," color noun",0
+"1022","4382-d",9,"color_sufficient","pepper_big_red","the only red object","attempt1","the only red object"," only color noun",0
+"1023","4382-d",10,"size_sufficient","button_big_green","the largest","attempt1","the largest"," size",0
+"1024","4382-d",11,"color_sufficient","scissors_big_blue","blue","attempt1","blue","color",0
+"1025","4382-d",13,"color_sufficient","skirt_small_green","green","attempt1","green","color",0
+"1026","4382-d",19,"size_sufficient","car_big_blue","largest","attempt1","largest","size",0
+"1027","4382-d",20,"size_sufficient","cat_small_black","smallest","attempt1","smallest","size",0
+"1028","4382-d",21,"color_sufficient","pot_big_blue","blue","attempt1","blue","color",0
+"1029","4382-d",22,"size_sufficient","clock_big_yellow","largest","attempt1","largest","size",0
+"1030","4382-d",23,"size_sufficient","dress_small_blue","smallest","attempt1","smallest","size",0
+"1031","4382-d",24,"size_sufficient","bag_big_red","biggest","attempt1","biggest","size",0
+"1032","4382-d",25,"color_sufficient","lipstick_big_red","red not pink","attempt1","red not pink","color not color",0
+"1033","4382-d",27,"color_sufficient","tie_small_blue","blue","attempt1","blue","color",0
+"1034","4382-d",28,"size_sufficient","key_big_gold","biggest","attempt1","biggest","size",0
+"1035","4382-d",29,"color_sufficient","umbrella_small_blue","blue","attempt1","blue","color",0
+"1036","4382-d",31,"color_sufficient","tshirt_big_yellow","yellow","attempt1","yellow","color",0
+"1037","4382-d",32,"color_sufficient","pants_big_green","green","attempt1","green","color",0
+"1038","4382-d",33,"size_sufficient","balloon_big_yellow","yellow","attempt1","yellow","color",0
+"1039","4382-d",36,"size_sufficient","glove_big_green","largest","attempt1","largest","size",0
+"1040","4382-d",39,"color_sufficient","toothbrush_big_purple","purple","attempt1","purple","color",0
+"1041","4382-d",41,"size_sufficient","ball_big_purple","biggest","attempt1","biggest","size",0
+"1042","4382-d",46,"size_sufficient","knife_big_red","biggest","attempt1","biggest","size",0
+"1043","4382-d",49,"size_sufficient","glasses_big_blue","biggest","attempt1","biggest","size",0
+"1044","4382-d",50,"size_sufficient","flower_small_pink","smallest","attempt1","smallest","size",0
+"1045","4382-d",53,"color_sufficient","socks_big_blue","blue","attempt1","blue","color",0
+"1046","4382-d",54,"size_sufficient","apple_small_red","smallest","attempt1","smallest","size",0
+"1047","4382-d",56,"color_sufficient","show_small_yellow","yellow","attempt1","yellow","color",0
+"1048","4382-d",57,"size_sufficient","chair_big_blue","biggest","attempt1","biggest","size",0
+"1049","4382-d",60,"color_sufficient","lighter_big_white","white","attempt1","white","color",0
+"1050","6611-1",6,"size_sufficient","clock_big_purple","purple.~~~~~~ umm___big!!","attempt2","big!!","size",0
+"1051","7175-2",24,"color_sufficient","lighter_small_black","small black lighter___the black lighter","attempt2","the black lighter"," color noun",0
+"1052","7175-2",27,"color_sufficient","skirt_small_blue","blue dress___skirt","attempt2","skirt","noun",0
+"1053","1884-8",6,"size_sufficient","flower_big_yellow","the zoomed in item___the biggest one","attempt2","the biggest one"," size noun",0
+"1054","1884-8",15,"color_sufficient","pepper_big_green","Not the same as the others___yes","attempt2","yes","yes",0
+"1055","3187-1",8,"size_sufficient","clock_big_purple",";) ___extra large","attempt2","extra large","extra size",0
+"1056","6326-d",26,"size_sufficient","balloon_big_pink","sorry they are loading one sec___ok glad it isn't just me. yeah i see one pink one___still nothing else here, i would just pick it at this point","attempt2","ok glad it isn't just me. yeah i see one pink one","ok glad n't just me. yeah i see noun color noun",0
+"1057","6326-d",30,"color_sufficient","tie_big_blue","impossible to tell if it is not loaded or intentional so we can't do anything else___blue","attempt2","blue","color",0
+"1058","6326-d",32,"size_sufficient","clock_small_yellow","ah ok i hadn't read that___smallest","attempt2","smallest","size",0
+"1059","6326-d",58,"size_sufficient","cat_big_white","ugh the one highlighted is not loaded___there it is, the big one","attempt2","there it is, the big one","re , size noun",0
+"1060","7368-d",25,"color_sufficient","scissors_big_blue","greeb___green","attempt2","green","color",0
+"1061","2334-6",15,"size_sufficient","ball_big_yellow","big___yellow","attempt2","yellow","color",0
+"1062","9368-4",6,"size_sufficient","glasses_small_red","red eye___small one","attempt2","small one","size noun",0
+"1063","9549-9",49,"color_sufficient","tshirt_small_yellow","thanks you too!___yellow","attempt2","yellow","color",0
+"1064","9994-6",6,"size_sufficient","bag_small_red","small bag___red color small bag","attempt2","red color small bag","color color size noun",0
+"1065","9994-6",30,"size_sufficient","key_big_silver","biggest silver___color","attempt2","color","color",0
+"1066","2220-4",38,"color_sufficient","toothbrush_small_green","GREN___GREN___GREEN","attempt2","GREN","color",0
+"1067","2220-4",52,"size_sufficient","clock_small_yellow","SMALL YEELOW___YELLOW","attempt2","YELLOW","color",0
+"1068","2113-1",17,"size_sufficient","glove_big_orange","big orange___largest","attempt2","largest","size",0
+"1069","2113-1",28,"size_sufficient","ball_big_yellow","large ___yellow","attempt2","yellow","color",0
+"1070","3281-6",11,"size_sufficient","brush_big_red","black___largest","attempt2","largest","size",0
+"1071","3281-6",25,"size_sufficient","chair_small_yellow","yellow___small","attempt2","small","size",0
+"1072","3281-6",60,"size_sufficient","glove_small_orange","long___small red","attempt2","small red","size color",0
+"1073","2220-4",38,"color_sufficient","toothbrush_small_green","GREN___GREN___GREEN","attempt3","GREEN","color",0
