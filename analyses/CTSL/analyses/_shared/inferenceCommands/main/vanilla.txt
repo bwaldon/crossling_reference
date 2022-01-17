@@ -1,0 +1,30 @@
+var posteriors = Infer({model: function(){
+  var p = {
+    alpha: uniformDrift({a: 0, b: 40, w: 0.01}),
+    colorNoiseVal: 1,
+    sizeNoiseVal: 1,
+    sizeCost: uniformDrift({a: 0, b: 0.8, w: 0.01}),
+    nounCost: 0,
+    colorCost: uniformDrift({a: 0, b: 0.8, w: 0.01})
+  }
+
+  // condition(Math.abs(p.sizeCost - p.colorCost) < 0.05)
+
+  mapData({data: df}, function(d){
+    var m = extend(model(p), {states : d.states, utterances : d.utterances})
+    var overMod = Math.exp(globalUtteranceSpeaker("TARGET_REFERENT",m,p,semantics(p)).score("OVERMODIFYING_UTTERANCE"))
+    var sizeOnly = Math.exp(globalUtteranceSpeaker("TARGET_REFERENT",m,p,semantics(p)).score("START size STOP"))
+    var colorOnly = Math.exp(globalUtteranceSpeaker("TARGET_REFERENT",m,p,semantics(p)).score("START color STOP"))
+    observe(Gaussian({mu: overMod, sigma: 0.01}), d.size_color)
+    observe(Gaussian({mu: sizeOnly, sigma: 0.01}), d.size)
+    observe(Gaussian({mu: colorOnly, sigma: 0.01}), d.color)
+
+  })
+
+  return p
+}, method: "MCMC",
+samples: 20000,
+lag: 10, burn: 2000,
+verbose: true})
+
+posteriors

@@ -1,0 +1,17 @@
+
+// console.log(estimates)
+// console.log(JSON.parse(estimates))
+// console.log(Object.keys(estimates))
+
+var predictives = map(function(d) {
+
+  var m = extend(model(estimates), {states : d.states, utterances : d.utterances}); 
+  return {condition: d.condition, 
+  size_color: incrementalUtteranceSpeaker("OVERMODIFYING_UTTERANCE","TARGET_REFERENT",m,estimates,semantics(estimates)),
+  color: incrementalUtteranceSpeaker("START color STOP","TARGET_REFERENT",m,estimates,semantics(estimates)),
+  size: incrementalUtteranceSpeaker("START size STOP","TARGET_REFERENT",m,estimates,semantics(estimates))}; 
+  
+}, df)
+
+predictives
+
