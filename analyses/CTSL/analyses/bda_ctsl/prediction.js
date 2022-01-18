@@ -1,3 +1,32 @@
+var semantics = function(params) {
+  return function(state) {
+    return {
+      color: ["color_size","color_otherSize"].includes(state) ? params.colorNoiseVal : 1 - params.colorNoiseVal, 
+      otherColor: ["otherColor_size","otherColor_otherSize"].includes(state) ? params.colorNoiseVal : 1 - params.colorNoiseVal,
+      size: ["color_size","otherColor_size"].includes(state) ? params.sizeNoiseVal : 1 - params.sizeNoiseVal,
+      otherSize: ["color_otherSize","otherColor_otherSize"].includes(state) ? params.sizeNoiseVal : 1 - params.sizeNoiseVal,
+      STOP : 1,
+      START : 1
+    }
+  }
+}
+
+
+var model = function(params) {
+  return {
+    words : ['color', 'size', 'otherColor', 'otherSize', 'STOP', 'START'],
+    wordCost: {
+      "color" : params.colorCost,
+      "otherColor" : params.colorCost,
+      "size" : params.sizeCost,
+      "otherSize" : params.sizeCost,
+      "pin" : params.nounCost,
+      'STOP'  : 0,
+      'START'  : 0
+    },
+
+  }
+}
 // safeDivide, getTransitions, licitTransitions: helper functions for incremental models 
 
 var safeDivide = function(x , y){
@@ -60,7 +89,7 @@ var globalLiteralListener =  function(utterance, model, params, semantics) {
     if(params.sizeNoiseVal == 1 & params.colorNoiseVal == 1) {
       condition(meaning)
     } else {
-      factor(meaning)   #condition on Math.log of meaning!!!!
+      factor(Math.log(meaning))
     } 
     return state
   }
@@ -119,3 +148,20 @@ var incrementalUtteranceSpeaker = cache(function(utt, state, model, params, sema
     },indices)
     return reduce(function(x, acc) { return x * acc; }, 1, probs)
 }, 100000)
+var estimates = [{"alpha":12.8137409123332,"colorNoiseVal":0.997896498316058,"sizeNoiseVal":0.997896498316058,"sizeCost":0.272668958679408,"nounCost":0,"colorCost":0.00294787787693059}][0]
+// console.log(estimates)
+// console.log(JSON.parse(estimates))
+// console.log(Object.keys(estimates))
+
+var predictives = map(function(d) {
+
+  var m = extend(model(estimates), {states : d.states, utterances : d.utterances}); 
+  return {condition: d.condition, 
+  size_color: Math.exp(globalUtteranceSpeaker("color_size",m,estimates,semantics(estimates)).score("START color size STOP")),
+  color: Math.exp(globalUtteranceSpeaker("color_size",m,estimates,semantics(estimates)).score("START color STOP")),
+  size: Math.exp(globalUtteranceSpeaker("color_size",m,estimates,semantics(estimates)).score("START size STOP"))}; 
+  
+}, df)
+
+predictives
+

@@ -11,22 +11,22 @@ source("../_shared/BDA_vizhelpers.R")
 
 d_uncollapsed <- read_csv("../../data/bda_data.csv")
 
+# COLLAPSE DATA (STILL NECESSARY FOR VISUALIZATIONS)
+
+d_collapsed <- collapse_dataset(d_uncollapsed)
+
 # MAKE A TIBBLE: COLUMNS CONDITION, REFERENTS IN THAT CONDITION (STATES), ALTERNATIVES IN THAT CONDITION (UTTERANCES)
 
 statesUtterances <- makeStatesUtterances(d_uncollapsed, "spanish")
-#english_statesUtterances <- makeStatesUtterances(d_uncollapsed, "english")
 
-# 'COLLAPSE' THE DATASET (GET PROPORTIONS OF COLOR, SIZE, COLORSIZE MENTION BY CONDITION)
+# MAKE INPUT DATA TO BDA: EACH DATUM INCLUDES RESPONSE, STATES, UTTERANCES
 
-d <- collapse_dataset(d_uncollapsed)
-
-# 'df' IS INPUT TO THE BDA:
-
-df <- merge(d, statesUtterances, by = "condition")
-#english_df <- merge(d, english_statesUtterances, by = "condition")
-
-#df$utterances
-#english_df$utterances
+df <- d_uncollapsed %>%
+  merge(statesUtterances) %>%
+  mutate(response = case_when(response == "color" ~ "START color STOP",
+                              response == "size" ~ "START size STOP",
+                              response == "size_color" ~ "START color size STOP")) %>%
+  select(response, states, utterances, condition)
 
 # MAKE THE MODEL 
 
@@ -36,9 +36,7 @@ model <- makeModel("modelAndSemantics.txt")
 
 # POSTERIORS
 
-vanillaInferenceScript <- wrapInference(model, "START size color STOP", 
-                                           "color_size",
-                                           "vanilla")
+vanillaInferenceScript <- wrapInference(model, "color_size", "vanilla", 20000, 10, 1000)
 
 vanillaPosteriors <- webppl(vanillaInferenceScript, data = df, data_var = "df")
 
@@ -51,13 +49,13 @@ ggsave("results/ctsl_vanillaPosteriors.png")
 vanillaEstimates <- getEstimates(vanillaPosteriors) 
 
 vanillaPredictionScript <- wrapPrediction(model, vanillaEstimates,
-                                             "START size color STOP", 
+                                             "START color size STOP", 
                                              "color_size",
                                              "vanilla")
 
-vanillaPredictives <- webppl(vanillaPredictionScript, data = df, data_var = "df")
+vanillaPredictives <- webppl(vanillaPredictionScript, data = unique(df %>%  select(condition,states,utterances)), data_var = "df")
 
-graphPredictives(vanillaPredictives, df)
+graphPredictives(vanillaPredictives, d_collapsed)
 
 ggsave("results/ctsl_vanillaPredictives.png", width = 4, height = 3, units = "in")
 
@@ -65,9 +63,7 @@ ggsave("results/ctsl_vanillaPredictives.png", width = 4, height = 3, units = "in
 
 # POSTERIORS
 
-continuousInferenceScript <- wrapInference(model, "START size color STOP", 
-                                            "color_size",
-                                            "continuous")
+continuousInferenceScript <- wrapInference(model, "color_size", "continuous", 20000, 10, 1000)
 
 continuousPosteriors <- webppl(continuousInferenceScript, data = df, data_var = "df")
 
@@ -80,28 +76,21 @@ ggsave("results/ctsl_continuousPosteriors.png")
 continuousEstimates <- getEstimates(continuousPosteriors) 
 
 continuousPredictionScript <- wrapPrediction(model, continuousEstimates,
-                                              "START size color STOP", 
+                                              "START color size STOP", 
                                               "color_size",
                                               "continuous")
 
-continuousPredictives <- webppl(continuousPredictionScript, data = df, data_var = "df")
+continuousPredictives <- webppl(continuousPredictionScript, data = unique(df %>%  select(condition,states,utterances)), data_var = "df")
 
-graphPredictives(continuousPredictives, df) + ggtitle("Continuous predictives")
+graphPredictives(continuousPredictives, d_collapsed) + ggtitle("Continuous predictives")
 
 ggsave("results/ctsl_continuousPredictives.png", width = 4, height = 3, units = "in")
 
 # MODEL 3: INCREMENTAL RSA 
 
-#incrementalInferenceScript <- wrapInference(model, "START size color STOP", 
-                                                      #"color_size",
-                                                      #"incremental")
-
-incrementalInferenceScript <- wrapInference(model, "START color size STOP", 
-                                            "color_size",
-                                            "incremental")
+incrementalInferenceScript <- wrapInference(model, "color_size", "incremental", 20000, 10, 1000)
 
 incrementalPosteriors <- webppl(incrementalInferenceScript, data = df, data_var = "df")
-
 
 graphPosteriors(incrementalPosteriors) + ggtitle("Incremental posteriors")
 
@@ -113,21 +102,14 @@ ggsave("results/ctsl_incrementalPosteriors.png")
 
 incrementalEstimates <- getEstimates(incrementalPosteriors)
 
-#incrementalPredictionScript <- wrapPrediction(model, incrementalEstimates,
-                                                        #"START size color STOP", 
-                                                        #"color_size",
-                                                        #"incremental")
-
 incrementalPredictionScript <- wrapPrediction(model, incrementalEstimates,
                                               "START color size STOP", 
                                               "color_size",
                                               "incremental")
 
-incrementalPredictives <- webppl(incrementalPredictionScript, data = df, data_var = "df")
+incrementalPredictives <- webppl(incrementalPredictionScript, data = unique(df %>%  select(condition,states,utterances)), data_var = "df")
 
-#View(incrementalPredictives)
-
-graphPredictives(incrementalPredictives, df) + ggtitle("Incremental predictives")
+graphPredictives(incrementalPredictives, d_collapsed) + ggtitle("Incremental predictives")
 
 ggsave("results/ctsl_incrementalPredictives.png", width = 4, height = 3, units = "in")
 
@@ -135,22 +117,11 @@ ggsave("results/ctsl_incrementalPredictives.png", width = 4, height = 3, units =
 
 # POSTERIORS
 
-#incrementalContinuousInferenceScript <- wrapInference(model, 
-                                                      #"START size color STOP", 
-                                                      #"color_size",
-                                                      #"incrementalContinuous")
-
-incrementalContinuousInferenceScript <- wrapInference(model, 
-                                                      "START color size STOP", 
-                                                      "color_size",
-                                                      "incrementalContinuous")
-
+incrementalContinuousInferenceScript <- wrapInference(model, "color_size", "incrementalContinuous", 20000, 10, 1000)
 
 incrementalContinuousPosteriors <- webppl(incrementalContinuousInferenceScript, data = df, data_var = "df")
 
 graphPosteriors(incrementalContinuousPosteriors) + ggtitle("Incremental-continuous posteriors")
-
-#View(incrementalContinuousPosteriors)
 
 ggsave("results/ctsl_incrementalContinuousPosteriors.png")
 
@@ -158,24 +129,17 @@ ggsave("results/ctsl_incrementalContinuousPosteriors.png")
 
 incrementalContinuousEstimates <- getEstimates(incrementalContinuousPosteriors) 
 
-#incrementalContinuousPredictionScript <- wrapPrediction(model, 
-                                                        #incrementalContinuousEstimates,
-                                                        #"START size color STOP", 
-                                                        #"color_size",
-                                                        #"incrementalContinuous")
-
 incrementalContinuousPredictionScript <- wrapPrediction(model, 
                                                         incrementalContinuousEstimates,
                                                         "START color size STOP", 
                                                         "color_size",
                                                         "incrementalContinuous")
 
-incrementalContinuousPredictives <- webppl(incrementalContinuousPredictionScript, data = df, data_var = "df")
+incrementalContinuousPredictives <- webppl(incrementalContinuousPredictionScript, data = unique(df %>%  select(condition,states,utterances)), data_var = "df")
 
-#View(incrementalContinuousPredictives)
-
-graphPredictives(incrementalContinuousPredictives, df)
+graphPredictives(incrementalContinuousPredictives, d_collapsed)
 
 ggsave("results/ctsl_incrementalContinuousPredictives.png", width = 4, height = 3, units = "in")
 
 save.image("results/ctsl_results.RData")
+
