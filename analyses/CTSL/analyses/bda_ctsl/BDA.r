@@ -143,3 +143,32 @@ ggsave("results/ctsl_incrementalContinuousPredictives.png", width = 4, height = 
 
 save.image("results/ctsl_results.RData")
 
+# BAYESIAN MODEL COMPARISON: INCREMENTAL VS. GLOBAL 
+
+# # STEP 1: WRAP INFERENCE COMMAND AROUND CORE MODEL
+
+incrementalVGlobalInferenceCommand <- read_file("incrementalVGlobalComparison/inferenceCommand.txt")
+
+# # # (TODO [LEYLA]: UP THE SAMPLE/LAG/BURN/RATE)
+
+incrementalVGlobalInferenceCommand <- gsub("TARGET_REFERENT", "color_size", incrementalVGlobalInferenceCommand, fixed = TRUE)
+incrementalVGlobalInferenceCommand <- gsub("NUM_SAMPLES", 100, incrementalVGlobalInferenceCommand, fixed = TRUE)
+incrementalVGlobalInferenceCommand <- gsub("LAG", 10, incrementalVGlobalInferenceCommand, fixed = TRUE)
+incrementalVGlobalInferenceCommand <- gsub("BURN_IN", 100, incrementalVGlobalInferenceCommand, fixed = TRUE)
+  
+incrementalVGlobalInferenceScript <- paste(read_file(model), incrementalVGlobalInferenceCommand, sep = "\n")
+
+# # STEP 2: RUN SCRIPT AND GRAPH POSTERIORS 
+
+incrementalVGlobalPosteriors <- webppl(incrementalVGlobalInferenceScript, data = df, data_var = "df")
+
+graphPosteriors(incrementalVGlobalPosteriors %>% filter(!(Parameter == "incrementalOrGlobal"))) + ggtitle("Model parameter posteriors")
+
+ggsave("incrementalVGlobalComparison/modelPosteriors.png")
+
+# # STEP 3: CALCULATE POSTERIOR PROBABILITY OF INCREMENTAL VS. GLOBAL
+
+modelPosterior <- incrementalVGlobalPosteriors %>% filter(Parameter == "incrementalOrGlobal") %>%
+  count(value) %>%
+  group_by(value) %>%
+  summarize(posteriorProb = n / sum(n))
