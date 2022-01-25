@@ -51,7 +51,7 @@ ggsave("results/ctsl_vanillaPosteriors.png")
 vanillaEstimates <- getEstimates(vanillaPosteriors) 
 
 vanillaPredictionScript <- wrapPrediction(model, vanillaEstimates,
-                                             "START color size STOP", 
+                                             "START size color STOP", 
                                              "color_size",
                                              "vanilla")
 
@@ -78,7 +78,7 @@ ggsave("results/ctsl_continuousPosteriors.png")
 continuousEstimates <- getEstimates(continuousPosteriors) 
 
 continuousPredictionScript <- wrapPrediction(model, continuousEstimates,
-                                              "START color size STOP", 
+                                              "START size color STOP", 
                                               "color_size",
                                               "continuous")
 
@@ -105,7 +105,7 @@ ggsave("results/ctsl_incrementalPosteriors.png")
 incrementalEstimates <- getEstimates(incrementalPosteriors)
 
 incrementalPredictionScript <- wrapPrediction(model, incrementalEstimates,
-                                              "START color size STOP", 
+                                              "START size color STOP", 
                                               "color_size",
                                               "incremental")
 
@@ -133,7 +133,7 @@ incrementalContinuousEstimates <- getEstimates(incrementalContinuousPosteriors)
 
 incrementalContinuousPredictionScript <- wrapPrediction(model, 
                                                         incrementalContinuousEstimates,
-                                                        "START color size STOP", 
+                                                        "START size color STOP", 
                                                         "color_size",
                                                         "incrementalContinuous")
 
@@ -164,7 +164,7 @@ incrementalVGlobalInferenceScript <- paste(read_file(model), incrementalVGlobalI
 
 incrementalVGlobalPosteriors <- webppl(incrementalVGlobalInferenceScript, data = df, data_var = "df")
 
-graphPosteriors(incrementalVGlobalPosteriors %>% filter(!(Parameter == "incrementalOrGlobal"))) + ggtitle("Model parameter posteriors")
+graphPosteriors(incrementalVGlobalPosteriors %>% filter(!(Parameter == "incrementalOrGlobal")) %>% mutate(value = as.numeric(value))) + ggtitle("Model parameter posteriors")
 
 ggsave("incrementalVGlobalComparison/modelPosteriors_2.png")
 

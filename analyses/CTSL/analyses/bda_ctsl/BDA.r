@@ -152,7 +152,7 @@ incrementalVGlobalInferenceCommand <- read_file("incrementalVGlobalComparison/in
 # # # (TODO [LEYLA]: UP THE SAMPLE/LAG/BURN/RATE)
 
 incrementalVGlobalInferenceCommand <- gsub("TARGET_REFERENT", "color_size", incrementalVGlobalInferenceCommand, fixed = TRUE)
-incrementalVGlobalInferenceCommand <- gsub("NUM_SAMPLES", 1000, incrementalVGlobalInferenceCommand, fixed = TRUE)
+incrementalVGlobalInferenceCommand <- gsub("NUM_SAMPLES", 200, incrementalVGlobalInferenceCommand, fixed = TRUE)
 incrementalVGlobalInferenceCommand <- gsub("LAG", 10, incrementalVGlobalInferenceCommand, fixed = TRUE)
 incrementalVGlobalInferenceCommand <- gsub("BURN_IN", 100, incrementalVGlobalInferenceCommand, fixed = TRUE)
   
@@ -162,7 +162,7 @@ incrementalVGlobalInferenceScript <- paste(read_file(model), incrementalVGlobalI
 
 incrementalVGlobalPosteriors <- webppl(incrementalVGlobalInferenceScript, data = df, data_var = "df")
 
-graphPosteriors(incrementalVGlobalPosteriors %>% filter(!(Parameter == "incrementalOrGlobal"))) + ggtitle("Model parameter posteriors")
+graphPosteriors(incrementalVGlobalPosteriors %>% filter(!(Parameter == "incrementalOrGlobal")) %>% mutate(value = as.numeric(value))) + ggtitle("Model parameter posteriors")
 
 ggsave("incrementalVGlobalComparison/modelPosteriors_4.png")
 
