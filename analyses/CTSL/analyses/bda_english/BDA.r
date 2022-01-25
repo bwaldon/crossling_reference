@@ -25,7 +25,7 @@ df <- d_uncollapsed %>%
   merge(statesUtterances) %>%
   mutate(response = case_when(response == "color" ~ "START color STOP",
                               response == "size" ~ "START size STOP",
-                              response == "size_color" ~ "START color size STOP")) %>%
+                              response == "size_color" ~ "START size color STOP")) %>%
   select(response, states, utterances, condition)
 
 # MAKE THE MODEL 
@@ -36,7 +36,9 @@ model <- makeModel("modelAndSemantics.txt")
 
 # POSTERIORS
 
-vanillaInferenceScript <- wrapInference(model, "color_size", "vanilla", 20000, 10, 1000)
+# # lower number of samples (for testing)
+
+vanillaInferenceScript <- wrapInference(model, "color_size", "vanilla", 200, 10, 10)
 
 vanillaPosteriors <- webppl(vanillaInferenceScript, data = df, data_var = "df")
 
