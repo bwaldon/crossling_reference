@@ -1,0 +1,34 @@
+var posteriors = Infer({model: function(){
+  var p = {
+    alpha: uniformDrift({a: 0, b: 40, w: 0.01}),
+    colorNoiseVal: uniformDrift({a: 0.5, b: 1, w: .5/20}),
+    sizeNoiseVal: uniformDrift({a: 0.5, b: 1, w: .5/20}),
+    sizeCost: uniformDrift({a: 0, b: 0.5, w: .5/20}),
+    nounCost: 0,
+    colorCost: uniformDrift({a: 0, b: 0.5, w: .5/20}),
+    incrementalOrGlobal: flip() ? "incremental" : "global",
+  }
+
+  mapData({data: df}, function(d){
+    var m = extend(model(p), {states : d.states, utterances : d.utterances})
+    if(p.incrementalOrGlobal == "incremental") {
+      var altUtilities = _.sum(_.map(function(u) { Math.log(incrementalUtteranceSpeaker(u,"TARGET_REFERENT",m,p,semantics(p))) }, d.utterances))
+      var responseUtility = Math.log(incrementalUtteranceSpeaker(d.response,"TARGET_REFERENT",m,p,semantics(p)))
+      var score = responseUtility - altUtilities
+      factor(score)
+    } else {
+      var speakerDist = globalUtteranceSpeaker("TARGET_REFERENT",m,p,semantics(p))
+      var altUtilities = _.sum(_.map(function(u) { speakerDist.score(u) }, d.utterances))
+      var responseUtility = speakerDist.score(d.response)
+      var score = responseUtility - altUtilities
+      factor(score)
+    }
+  })
+
+  return p
+}, method: "MCMC",
+samples: NUM_SAMPLES,
+lag: LAG, burn: BURN_IN,
+verbose: true})
+
+posteriors

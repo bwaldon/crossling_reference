@@ -3,9 +3,9 @@ var posteriors = Infer({model: function(){
     alpha: uniformDrift({a: 0, b: 40, w: 0.01}),
     colorNoiseVal: 1,
     sizeNoiseVal: 1,
-    sizeCost: uniformDrift({a: 0, b: 0.5, w: .5/20}),
+    sizeCost: uniformDrift({a: 0, b: 2, w: .5/20}),
     nounCost: 0,
-    colorCost: uniformDrift({a: 0, b: 0.5, w: .5/20})
+    colorCost: uniformDrift({a: 0, b: 2, w: .5/20})
   }
 
   mapData({data: df}, function(d){
