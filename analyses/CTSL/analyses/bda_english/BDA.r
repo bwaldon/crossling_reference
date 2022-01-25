@@ -38,7 +38,7 @@ model <- makeModel("modelAndSemantics.txt")
 
 # # lower number of samples (for testing)
 
-vanillaInferenceScript <- wrapInference(model, "color_size", "vanilla", 200, 10, 10)
+vanillaInferenceScript <- wrapInference(model, "color_size", "vanilla", 200, 10, 10, random_seed = 1234)
 
 vanillaPosteriors <- webppl(vanillaInferenceScript, data = df, data_var = "df")
 
