@@ -9,7 +9,7 @@ source("../_shared/BDA_vizhelpers.R")
 
 # PUT IN AN "UNCOLLAPSED" DATAFILE WITH DEGEN ET AL.'S FORMAT
 
-d_uncollapsed <- read_csv("../../data/bda_data_english.csv")
+d_uncollapsed <- read_csv("../../data/english_perTrial.csv")
 
 # COLLAPSE DATA (STILL NECESSARY FOR VISUALIZATIONS)
 
@@ -65,13 +65,13 @@ ggsave("results/eng_vanillaPredictives.png", width = 4, height = 3, units = "in"
 
 # POSTERIORS
 
-continuousInferenceScript <- wrapInference(model, "color_size", "continuous", 20000, 10, 1000)
+continuousInferenceScript <- wrapInference(model, "color_size", "continuous", 10000, 10, 1000)
 
 continuousPosteriors <- webppl(continuousInferenceScript, data = df, data_var = "df", random_seed = 1234)
 
 graphPosteriors(continuousPosteriors) + ggtitle("Continuous posteriors")
 
-ggsave("results/eng_continuousPosteriors.png")
+ggsave("results/eng_continuousPosteriors_perTrial.png")
 
 # PREDICTIVES
 
@@ -86,7 +86,7 @@ continuousPredictives <- webppl(continuousPredictionScript, data = unique(df %>%
 
 graphPredictives(continuousPredictives, d_collapsed) + ggtitle("Continuous predictives")
 
-ggsave("results/eng_continuousPredictives.png", width = 4, height = 3, units = "in")
+ggsave("results/eng_continuousPredictives_perTrial.png", width = 4, height = 3, units = "in")
 
 # MODEL 3: INCREMENTAL RSA 
 
