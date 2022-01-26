@@ -36,13 +36,13 @@ model <- makeModel("modelAndSemantics.txt")
 
 # POSTERIORS
 
-vanillaInferenceScript <- wrapInference(model, "color_size", "vanilla", 20000, 10, 1000)
+vanillaInferenceScript <- wrapInference(model, "color_size", "vanilla", 20000, 10, 1000, random_seed = 1234)
 
 vanillaPosteriors <- webppl(vanillaInferenceScript, data = df, data_var = "df")
 
 graphPosteriors(vanillaPosteriors) + ggtitle("Vanilla posteriors")
 
-ggsave("results/ctsl_vanillaPosteriors_4.png")
+ggsave("results/ctsl_vanillaPosteriors.png")
 
 # PREDICTIVES
 
@@ -65,11 +65,12 @@ ggsave("results/ctsl_vanillaPredictives_4.png", width = 4, height = 3, units = "
 
 continuousInferenceScript <- wrapInference(model, "color_size", "continuous", 20000, 10, 1000)
 
-continuousPosteriors <- webppl(continuousInferenceScript, data = df, data_var = "df")
+continuousPosteriors <- webppl(continuousInferenceScript, data = df, data_var = "df", random_seed=2222)
 
 graphPosteriors(continuousPosteriors) + ggtitle("Continuous posteriors")
 
-ggsave("results/ctsl_continuousPosteriors_4.png")
+ggsave("results/ctsl_continuousPosteriors_2.png")
+
 
 # PREDICTIVES
 
@@ -84,7 +85,10 @@ continuousPredictives <- webppl(continuousPredictionScript, data = unique(df %>%
 
 graphPredictives(continuousPredictives, d_collapsed) + ggtitle("Continuous predictives")
 
-ggsave("results/ctsl_continuousPredictives_4.png", width = 4, height = 3, units = "in")
+ggsave("results/ctsl_continuousPredictives_2.png", width = 4, height = 3, units = "in")
+
+save.image("results/ctsl_continuous_2.RData")
+
 
 # MODEL 3: INCREMENTAL RSA 
 
@@ -152,15 +156,15 @@ incrementalVGlobalInferenceCommand <- read_file("incrementalVGlobalComparison/in
 # # # (TODO [LEYLA]: UP THE SAMPLE/LAG/BURN/RATE)
 
 incrementalVGlobalInferenceCommand <- gsub("TARGET_REFERENT", "color_size", incrementalVGlobalInferenceCommand, fixed = TRUE)
-incrementalVGlobalInferenceCommand <- gsub("NUM_SAMPLES", 200, incrementalVGlobalInferenceCommand, fixed = TRUE)
+incrementalVGlobalInferenceCommand <- gsub("NUM_SAMPLES", 20000, incrementalVGlobalInferenceCommand, fixed = TRUE)
 incrementalVGlobalInferenceCommand <- gsub("LAG", 10, incrementalVGlobalInferenceCommand, fixed = TRUE)
-incrementalVGlobalInferenceCommand <- gsub("BURN_IN", 100, incrementalVGlobalInferenceCommand, fixed = TRUE)
+incrementalVGlobalInferenceCommand <- gsub("BURN_IN", 1000, incrementalVGlobalInferenceCommand, fixed = TRUE)
   
 incrementalVGlobalInferenceScript <- paste(read_file(model), incrementalVGlobalInferenceCommand, sep = "\n")
 
 # # STEP 2: RUN SCRIPT AND GRAPH POSTERIORS 
 
-incrementalVGlobalPosteriors <- webppl(incrementalVGlobalInferenceScript, data = df, data_var = "df")
+incrementalVGlobalPosteriors <- webppl(incrementalVGlobalInferenceScript, data = df, data_var = "df", random_seed = 1234)
 
 graphPosteriors(incrementalVGlobalPosteriors %>% filter(!(Parameter == "incrementalOrGlobal")) %>% mutate(value = as.numeric(value))) + ggtitle("Model parameter posteriors")
 
@@ -172,3 +176,7 @@ modelPosterior <- incrementalVGlobalPosteriors %>% filter(Parameter == "incremen
   count(value) %>%
   group_by(value) %>%
   summarize(posteriorProb = n / sum(n))
+
+View(modelPosterior)
+
+save.image("results/ctsl_comparison.RData")
