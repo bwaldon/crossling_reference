@@ -9,7 +9,7 @@ source("../_shared/BDA_vizhelpers.R")
 
 # PUT IN AN "UNCOLLAPSED" DATAFILE WITH DEGEN ET AL.'S FORMAT
 
-d_uncollapsed <- read_csv("../../data/bda_data.csv")
+d_uncollapsed <- read_csv("../../data/ctsl_perTrial.csv")
 
 # COLLAPSE DATA (STILL NECESSARY FOR VISUALIZATIONS)
 
@@ -63,13 +63,17 @@ ggsave("results/ctsl_vanillaPredictives_4.png", width = 4, height = 3, units = "
 
 # POSTERIORS
 
-continuousInferenceScript <- wrapInference(model, "color_size", "continuous", 20000, 10, 1000)
+continuousInferenceScript <- wrapInference(model, "color_size", "continuous", 10000, 10, 1000)
 
 continuousPosteriors <- webppl(continuousInferenceScript, data = df, data_var = "df", random_seed=2222)
 
 graphPosteriors(continuousPosteriors) + ggtitle("Continuous posteriors")
 
+<<<<<<< HEAD
+ggsave("results/ctsl_continuousPosteriors_perTrial.png")
+=======
 ggsave("results/ctsl_continuousPosteriors_2.png")
+>>>>>>> master
 
 
 # PREDICTIVES
@@ -85,9 +89,15 @@ continuousPredictives <- webppl(continuousPredictionScript, data = unique(df %>%
 
 graphPredictives(continuousPredictives, d_collapsed) + ggtitle("Continuous predictives")
 
+<<<<<<< HEAD
+ggsave("results/ctsl_continuousPredictives_perTrial.png", width = 4, height = 3, units = "in")
+
+save.image("results/ctsl_continuous_perTrial.RData")
+=======
 ggsave("results/ctsl_continuousPredictives_2.png", width = 4, height = 3, units = "in")
 
 save.image("results/ctsl_continuous_2.RData")
+>>>>>>> master
 
 
 # MODEL 3: INCREMENTAL RSA 
