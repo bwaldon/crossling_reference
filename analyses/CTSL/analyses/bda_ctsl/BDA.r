@@ -69,7 +69,11 @@ continuousPosteriors <- webppl(continuousInferenceScript, data = df, data_var = 
 
 graphPosteriors(continuousPosteriors) + ggtitle("Continuous posteriors")
 
+<<<<<<< HEAD
 ggsave("results/ctsl_continuousPosteriors_perTrial.png")
+=======
+ggsave("results/ctsl_continuousPosteriors_2.png")
+>>>>>>> master
 
 
 # PREDICTIVES
@@ -85,9 +89,15 @@ continuousPredictives <- webppl(continuousPredictionScript, data = unique(df %>%
 
 graphPredictives(continuousPredictives, d_collapsed) + ggtitle("Continuous predictives")
 
+<<<<<<< HEAD
 ggsave("results/ctsl_continuousPredictives_perTrial.png", width = 4, height = 3, units = "in")
 
 save.image("results/ctsl_continuous_perTrial.RData")
+=======
+ggsave("results/ctsl_continuousPredictives_2.png", width = 4, height = 3, units = "in")
+
+save.image("results/ctsl_continuous_2.RData")
+>>>>>>> master
 
 
 # MODEL 3: INCREMENTAL RSA 
