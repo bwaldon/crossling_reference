@@ -36,7 +36,7 @@ model <- makeModel("modelAndSemantics.txt")
 
 # POSTERIORS
 
-vanillaInferenceScript <- wrapInference(model, "color_size", "vanilla", 20000, 10, 1000, random_seed = 1234)
+vanillaInferenceScript <- wrapInference(model, "color_size", "vanilla", 1000, 10, 100)
 
 vanillaPosteriors <- webppl(vanillaInferenceScript, data = df, data_var = "df")
 
@@ -63,17 +63,13 @@ ggsave("results/ctsl_vanillaPredictives_4.png", width = 4, height = 3, units = "
 
 # POSTERIORS
 
-continuousInferenceScript <- wrapInference(model, "color_size", "continuous", 10000, 10, 1000)
+continuousInferenceScript <- wrapInference(model, "color_size", "continuous_equalcost", 1000, 10, 100)
 
-continuousPosteriors <- webppl(continuousInferenceScript, data = df, data_var = "df", random_seed=2222)
+continuousPosteriors <- webppl(continuousInferenceScript, data = df, data_var = "df", random_seed=2223)
 
 graphPosteriors(continuousPosteriors) + ggtitle("Continuous posteriors")
 
-<<<<<<< HEAD
-ggsave("results/ctsl_continuousPosteriors_perTrial.png")
-=======
-ggsave("results/ctsl_continuousPosteriors_2.png")
->>>>>>> master
+ggsave("results/ctsl_continuousPosteriors_perTrial_singlecost.png")
 
 
 # PREDICTIVES
@@ -89,15 +85,10 @@ continuousPredictives <- webppl(continuousPredictionScript, data = unique(df %>%
 
 graphPredictives(continuousPredictives, d_collapsed) + ggtitle("Continuous predictives")
 
-<<<<<<< HEAD
-ggsave("results/ctsl_continuousPredictives_perTrial.png", width = 4, height = 3, units = "in")
+ggsave("results/ctsl_continuousPredictives_perTrial_singlecost.png", width = 4, height = 3, units = "in")
 
-save.image("results/ctsl_continuous_perTrial.RData")
-=======
-ggsave("results/ctsl_continuousPredictives_2.png", width = 4, height = 3, units = "in")
+save.image("results/ctsl_continuous_perTrial_singlecost.RData")
 
-save.image("results/ctsl_continuous_2.RData")
->>>>>>> master
 
 
 # MODEL 3: INCREMENTAL RSA 

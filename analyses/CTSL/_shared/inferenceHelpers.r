@@ -17,7 +17,9 @@ wrapInference <- function(model, target, inferenceType, samples, lag, burn) {
     
   } else if(inferenceType == "vanilla") {
     inferenceCommand <- read_file("../_shared/inferenceCommands/main/v2/vanilla.txt")
-  }
+  } else if(inferenceType == "continuous_equalcost") {
+    inferenceCommand <- read_file("../_shared/inferenceCommands/main/v2/continuous_equalcost.txt")
+  } 
   
   inferenceCommand <- gsub("TARGET_REFERENT", target, inferenceCommand, fixed = TRUE)
   inferenceCommand <- gsub("NUM_SAMPLES", samples, inferenceCommand, fixed = TRUE)
