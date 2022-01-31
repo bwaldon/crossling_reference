@@ -36,9 +36,9 @@ model <- makeModel("modelAndSemantics.txt")
 
 # POSTERIORS
 
-vanillaInferenceScript <- wrapInference(model, "color_size", "vanilla", 1000, 10, 100)
+vanillaInferenceScript <- wrapInference(model, "color_size", "vanilla", 5000, 10, 10000)
 
-vanillaPosteriors <- webppl(vanillaInferenceScript, data = df, data_var = "df")
+vanillaPosteriors <- webppl(vanillaInferenceScript, data = df, data_var = "df", random_seed=3333)
 
 graphPosteriors(vanillaPosteriors) + ggtitle("Vanilla posteriors")
 
@@ -57,19 +57,19 @@ vanillaPredictives <- webppl(vanillaPredictionScript, data = unique(df %>%  sele
 
 graphPredictives(vanillaPredictives, d_collapsed)
 
-ggsave("results/ctsl_vanillaPredictives_4.png", width = 4, height = 3, units = "in")
+ggsave("results/ctsl_vanillaPredictives.png", width = 4, height = 3, units = "in")
 
 # MODEL 2: CONTINUOUS RSA
 
 # POSTERIORS
 
-continuousInferenceScript <- wrapInference(model, "color_size", "continuous_equalcost", 1000, 10, 100)
+continuousInferenceScript <- wrapInference(model, "color_size", "continuous", 5000, 10, 10000)
 
-continuousPosteriors <- webppl(continuousInferenceScript, data = df, data_var = "df", random_seed=2223)
+continuousPosteriors <- webppl(continuousInferenceScript, data = df, data_var = "df", random_seed=3333)
 
 graphPosteriors(continuousPosteriors) + ggtitle("Continuous posteriors")
 
-ggsave("results/ctsl_continuousPosteriors_perTrial_singlecost.png")
+ggsave("results/ctsl_continuousPosteriors.png")
 
 
 # PREDICTIVES
@@ -85,23 +85,18 @@ continuousPredictives <- webppl(continuousPredictionScript, data = unique(df %>%
 
 graphPredictives(continuousPredictives, d_collapsed) + ggtitle("Continuous predictives")
 
-ggsave("results/ctsl_continuousPredictives_perTrial_singlecost.png", width = 4, height = 3, units = "in")
-
-save.image("results/ctsl_continuous_perTrial_singlecost.RData")
-
+ggsave("results/ctsl_continuousPredictives.png", width = 4, height = 3, units = "in")
 
 
 # MODEL 3: INCREMENTAL RSA 
 
-incrementalInferenceScript <- wrapInference(model, "color_size", "incremental", 20000, 10, 1000)
+incrementalInferenceScript <- wrapInference(model, "color_size", "incremental", 5000, 10, 10000)
 
-incrementalPosteriors <- webppl(incrementalInferenceScript, data = df, data_var = "df")
+incrementalPosteriors <- webppl(incrementalInferenceScript, data = df, data_var = "df", random_seed=3333)
 
 graphPosteriors(incrementalPosteriors) + ggtitle("Incremental posteriors")
 
-#View(incrementalPosteriors)
-
-ggsave("results/ctsl_incrementalPosteriors_4.png")
+ggsave("results/ctsl_incrementalPosteriors.png")
 
 # PREDICTIVES
 
@@ -116,19 +111,19 @@ incrementalPredictives <- webppl(incrementalPredictionScript, data = unique(df %
 
 graphPredictives(incrementalPredictives, d_collapsed) + ggtitle("Incremental predictives")
 
-ggsave("results/ctsl_incrementalPredictives_4.png", width = 4, height = 3, units = "in")
+ggsave("results/ctsl_incrementalPredictives.png", width = 4, height = 3, units = "in")
 
 # MODEL 4: INCREMENTAL-CONTINUOUS RSA
 
 # POSTERIORS
 
-incrementalContinuousInferenceScript <- wrapInference(model, "color_size", "incrementalContinuous", 20000, 10, 1000)
+incrementalContinuousInferenceScript <- wrapInference(model, "color_size", "incrementalContinuous", 5000, 10, 10000)
 
-incrementalContinuousPosteriors <- webppl(incrementalContinuousInferenceScript, data = df, data_var = "df")
+incrementalContinuousPosteriors <- webppl(incrementalContinuousInferenceScript, data = df, data_var = "df", random_seed=3333)
 
 graphPosteriors(incrementalContinuousPosteriors) + ggtitle("Incremental-continuous posteriors")
 
-ggsave("results/ctsl_incrementalContinuousPosteriors_4.png")
+ggsave("results/ctsl_incrementalContinuousPosteriors.png")
 
 # PREDICTIVES
 
@@ -144,9 +139,9 @@ incrementalContinuousPredictives <- webppl(incrementalContinuousPredictionScript
 
 graphPredictives(incrementalContinuousPredictives, d_collapsed)
 
-ggsave("results/ctsl_incrementalContinuousPredictives_4.png", width = 4, height = 3, units = "in")
+ggsave("results/ctsl_incrementalContinuousPredictives.png", width = 4, height = 3, units = "in")
 
-save.image("results/ctsl_results_4.RData")
+save.image("results/ctsl_results.RData")
 
 # BAYESIAN MODEL COMPARISON: INCREMENTAL VS. GLOBAL 
 
@@ -157,19 +152,19 @@ incrementalVGlobalInferenceCommand <- read_file("incrementalVGlobalComparison/in
 # # # (TODO [LEYLA]: UP THE SAMPLE/LAG/BURN/RATE)
 
 incrementalVGlobalInferenceCommand <- gsub("TARGET_REFERENT", "color_size", incrementalVGlobalInferenceCommand, fixed = TRUE)
-incrementalVGlobalInferenceCommand <- gsub("NUM_SAMPLES", 20000, incrementalVGlobalInferenceCommand, fixed = TRUE)
+incrementalVGlobalInferenceCommand <- gsub("NUM_SAMPLES", 5000, incrementalVGlobalInferenceCommand, fixed = TRUE)
 incrementalVGlobalInferenceCommand <- gsub("LAG", 10, incrementalVGlobalInferenceCommand, fixed = TRUE)
-incrementalVGlobalInferenceCommand <- gsub("BURN_IN", 1000, incrementalVGlobalInferenceCommand, fixed = TRUE)
+incrementalVGlobalInferenceCommand <- gsub("BURN_IN", 10000, incrementalVGlobalInferenceCommand, fixed = TRUE)
   
 incrementalVGlobalInferenceScript <- paste(read_file(model), incrementalVGlobalInferenceCommand, sep = "\n")
 
 # # STEP 2: RUN SCRIPT AND GRAPH POSTERIORS 
 
-incrementalVGlobalPosteriors <- webppl(incrementalVGlobalInferenceScript, data = df, data_var = "df", random_seed = 1234)
+incrementalVGlobalPosteriors <- webppl(incrementalVGlobalInferenceScript, data = df, data_var = "df", random_seed = 3333)
 
 graphPosteriors(incrementalVGlobalPosteriors %>% filter(!(Parameter == "incrementalOrGlobal")) %>% mutate(value = as.numeric(value))) + ggtitle("Model parameter posteriors")
 
-ggsave("incrementalVGlobalComparison/modelPosteriors_4.png")
+ggsave("incrementalVGlobalComparison/modelPosteriors.png")
 
 # # STEP 3: CALCULATE POSTERIOR PROBABILITY OF INCREMENTAL VS. GLOBAL
 
