@@ -17,8 +17,18 @@ wrapInference <- function(model, target, inferenceType, samples, lag, burn) {
     
   } else if(inferenceType == "vanilla") {
     inferenceCommand <- read_file("../_shared/inferenceCommands/main/v2/vanilla.txt")
+    
   } else if(inferenceType == "continuous_equalcost") {
     inferenceCommand <- read_file("../_shared/inferenceCommands/main/v2/continuous_equalcost.txt")
+    
+  } else if(inferenceType == "vanilla_equalcost") {
+    inferenceCommand <- read_file("../_shared/inferenceCommands/main/v2/vanilla_equalcost.txt")
+    
+  } else if(inferenceType == "incremental_equalcost") {
+    inferenceCommand <- read_file("../_shared/inferenceCommands/main/v2/incremental_equalcost.txt")
+    
+  } else if(inferenceType == "incrementalContinuous_equalcost") {
+    inferenceCommand <- read_file("../_shared/inferenceCommands/main/v2/incrementalContinuous_equalcost.txt")
   } 
   
   inferenceCommand <- gsub("TARGET_REFERENT", target, inferenceCommand, fixed = TRUE)
