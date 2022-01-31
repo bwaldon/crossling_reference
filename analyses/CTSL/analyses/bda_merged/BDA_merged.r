@@ -9,24 +9,45 @@ source("../_shared/BDA_vizhelpers.R")
 
 # PUT IN AN "UNCOLLAPSED" DATAFILE WITH DEGEN ET AL.'S FORMAT
 
-d_uncollapsed <- read_csv("../../data/ctsl_perTrial.csv")
+d_uncollapsed_ctsl <- read_csv("../../data/ctsl_perTrial.csv")
+d_uncollapsed_english <- read_csv("../../data/english_perTrial.csv")
+
+d_uncollapsed_merged = rbind(d_uncollapsed_ctsl,d_uncollapsed_english)
 
 # COLLAPSE DATA (STILL NECESSARY FOR VISUALIZATIONS)
 
-d_collapsed <- collapse_dataset(d_uncollapsed)
+d_collapsed_ctsl <- collapse_dataset(d_uncollapsed_ctsl)
+d_collapsed_english <- collapse_dataset(d_uncollapsed_english)
+
+d_collapsed_merged = collapse_dataset(d_uncollapsed_merged)
 
 # MAKE A TIBBLE: COLUMNS CONDITION, REFERENTS IN THAT CONDITION (STATES), ALTERNATIVES IN THAT CONDITION (UTTERANCES)
 
-statesUtterances <- makeStatesUtterances(d_uncollapsed, "spanish")
+statesUtterances_ctsl <- makeStatesUtterances(d_uncollapsed_ctsl, "spanish")
+statesUtterances_english <- makeStatesUtterances(d_uncollapsed_english, "english")
 
 # MAKE INPUT DATA TO BDA: EACH DATUM INCLUDES RESPONSE, STATES, UTTERANCES
 
-df <- d_uncollapsed %>%
-  merge(statesUtterances) %>%
+df_ctsl <- d_uncollapsed_ctsl %>%
+  merge(statesUtterances_ctsl) %>%
   mutate(response = case_when(response == "color" ~ "START color STOP",
                               response == "size" ~ "START size STOP",
                               response == "size_color" ~ "START color size STOP")) %>%
-  select(response, states, utterances, condition)
+  mutate(language="CTSL") %>%
+  select(response, states, utterances, condition, language)
+
+
+df_english <- d_uncollapsed_english %>%
+  merge(statesUtterances_english) %>%
+  mutate(response = case_when(response == "color" ~ "START color STOP",
+                              response == "size" ~ "START size STOP",
+                              response == "size_color" ~ "START size color STOP")) %>%
+  mutate(language = "English") %>%
+  select(response, states, utterances, condition, language)
+
+df_merged = rbind(df_ctsl,df_english)
+
+df = df_merged
 
 # MAKE THE MODEL 
 
@@ -36,67 +57,98 @@ model <- makeModel("modelAndSemantics.txt")
 
 # POSTERIORS
 
-vanillaInferenceScript <- wrapInference(model, "color_size", "vanilla", 5000, 10, 50000)
+vanillaInferenceScript <- wrapInference(model, "color_size", "vanilla", 5000, 10, 10000)
 
 vanillaPosteriors <- webppl(vanillaInferenceScript, data = df, data_var = "df", random_seed=3333)
 
 graphPosteriors(vanillaPosteriors) + ggtitle("Vanilla posteriors")
 
-ggsave("results/ctsl_vanillaPosteriors.png")
+ggsave("results/merged_vanillaPosteriors.png")
 
 # PREDICTIVES
 
 vanillaEstimates <- getEstimates(vanillaPosteriors) 
 
-vanillaPredictionScript <- wrapPrediction(model, vanillaEstimates,
+vanillaPredictionScript_ctsl <- wrapPrediction(model, vanillaEstimates,
                                              "START color size STOP", 
                                              "color_size",
                                              "vanilla")
+df = df_ctsl
 
-vanillaPredictives <- webppl(vanillaPredictionScript, data = unique(df %>%  select(condition,states,utterances)), data_var = "df")
+vanillaPredictives_ctsl <- webppl(vanillaPredictionScript_ctsl, data = unique(df %>%  select(condition,states,utterances)), data_var = "df")
 
-graphPredictives(vanillaPredictives, d_collapsed)
+graphPredictives(vanillaPredictives_ctsl, d_collapsed_ctsl)
 
-ggsave("results/ctsl_vanillaPredictives.png", width = 4, height = 3, units = "in")
+ggsave("results/merged_ctsl_vanillaPredictives.png", width = 4, height = 3, units = "in")
+
+vanillaPredictionScript_english <- wrapPrediction(model, vanillaEstimates,
+                                               "START size color STOP", 
+                                               "color_size",
+                                               "vanilla")
+df = df_english
+
+vanillaPredictives_english <- webppl(vanillaPredictionScript_english, data = unique(df %>%  select(condition,states,utterances)), data_var = "df")
+
+graphPredictives(vanillaPredictives_english, d_collapsed_english)
+
+ggsave("results/merged_english_vanillaPredictives.png", width = 4, height = 3, units = "in")
+
 
 # MODEL 2: CONTINUOUS RSA
 
 # POSTERIORS
 
-continuousInferenceScript <- wrapInference(model, "color_size", "continuous", 5000, 10, 50000)
+df = df_merged
+
+continuousInferenceScript <- wrapInference(model, "color_size", "continuous", 5000, 10, 10000)
 
 continuousPosteriors <- webppl(continuousInferenceScript, data = df, data_var = "df", random_seed=3333)
 
 graphPosteriors(continuousPosteriors) + ggtitle("Continuous posteriors")
 
-ggsave("results/ctsl_continuousPosteriors.png")
+ggsave("results/merged_continuousPosteriors.png")
 
 
 # PREDICTIVES
 
 continuousEstimates <- getEstimates(continuousPosteriors) 
 
-continuousPredictionScript <- wrapPrediction(model, continuousEstimates,
+continuousPredictionScript_ctsl <- wrapPrediction(model, continuousEstimates,
                                               "START color size STOP", 
                                               "color_size",
                                               "continuous")
+df = df_ctsl
 
-continuousPredictives <- webppl(continuousPredictionScript, data = unique(df %>%  select(condition,states,utterances)), data_var = "df")
+continuousPredictives_ctsl <- webppl(continuousPredictionScript_ctsl, data = unique(df %>%  select(condition,states,utterances)), data_var = "df")
 
-graphPredictives(continuousPredictives, d_collapsed) + ggtitle("Continuous predictives")
+graphPredictives(continuousPredictives_ctsl, d_collapsed_ctsl) + ggtitle("Continuous predictives")
 
-ggsave("results/ctsl_continuousPredictives.png", width = 4, height = 3, units = "in")
+ggsave("results/merged_ctsl_continuousPredictives.png", width = 4, height = 3, units = "in")
+
+continuousPredictionScript_english <- wrapPrediction(model, continuousEstimates,
+                                                  "START size color STOP", 
+                                                  "color_size",
+                                                  "continuous")
+df = df_english
+
+continuousPredictives_english <- webppl(continuousPredictionScript_english, data = unique(df %>%  select(condition,states,utterances)), data_var = "df")
+
+graphPredictives(continuousPredictives_english, d_collapsed_english) + ggtitle("Continuous predictives")
+
+ggsave("results/merged_english_continuousPredictives.png", width = 4, height = 3, units = "in")
 
 
 # MODEL 3: INCREMENTAL RSA 
 
-incrementalInferenceScript <- wrapInference(model, "color_size", "incremental", 5000, 10, 50000)
+df = df_merged
+
+incrementalInferenceScript <- wrapInference(model, "color_size", "incremental", 5000, 10, 10000)
 
 incrementalPosteriors <- webppl(incrementalInferenceScript, data = df, data_var = "df", random_seed=3333)
 
 graphPosteriors(incrementalPosteriors) + ggtitle("Incremental posteriors")
 
-ggsave("results/ctsl_incrementalPosteriors.png")
+ggsave("results/merged_incrementalPosteriors.png")
 
 # PREDICTIVES
 
@@ -111,7 +163,7 @@ incrementalPredictives <- webppl(incrementalPredictionScript, data = unique(df %
 
 graphPredictives(incrementalPredictives, d_collapsed) + ggtitle("Incremental predictives")
 
-ggsave("results/ctsl_incrementalPredictives.png", width = 4, height = 3, units = "in")
+ggsave("results/merged_incrementalPredictives.png", width = 4, height = 3, units = "in")
 
 # MODEL 4: INCREMENTAL-CONTINUOUS RSA
 
@@ -123,7 +175,7 @@ incrementalContinuousPosteriors <- webppl(incrementalContinuousInferenceScript, 
 
 graphPosteriors(incrementalContinuousPosteriors) + ggtitle("Incremental-continuous posteriors")
 
-ggsave("results/ctsl_incrementalContinuousPosteriors.png")
+ggsave("results/merged_incrementalContinuousPosteriors.png")
 
 # PREDICTIVES
 
@@ -139,9 +191,9 @@ incrementalContinuousPredictives <- webppl(incrementalContinuousPredictionScript
 
 graphPredictives(incrementalContinuousPredictives, d_collapsed)
 
-ggsave("results/ctsl_incrementalContinuousPredictives.png", width = 4, height = 3, units = "in")
+ggsave("results/merged_incrementalContinuousPredictives.png", width = 4, height = 3, units = "in")
 
-save.image("results/ctsl_results.RData")
+save.image("results/merged_results.RData")
 
 # BAYESIAN MODEL COMPARISON: INCREMENTAL VS. GLOBAL 
 
@@ -175,55 +227,4 @@ modelPosterior <- incrementalVGlobalPosteriors %>% filter(Parameter == "incremen
 
 View(modelPosterior)
 
-save.image("results/ctsl_comparison.RData")
-
-######################################################
-# PLOTS FOR THE COGSCI PAPER
-######################################################
-# modification type
-empirical_toplot = d_uncollapsed %>%
-  mutate(size = ifelse(response=="size",1,0)) %>%
-  mutate(color = ifelse(response=="color",1,0)) %>%
-  mutate(size_color = ifelse(response=="size_color",1,0)) %>%
-  select(gameId,roundNumber,condition,response,size,color,size_color) %>%
-  gather(utterance,value,size:size_color) %>%
-  group_by(utterance,condition) %>%
-  summarize(Mean=mean(value)) %>%
-  #summarise(Mean=mean(value),CILow=ci.low(value),CIHigh=ci.high(value)) %>%
-  #ungroup() %>%
-  #mutate(YMin=Mean-CILow,YMax=Mean+CIHigh) %>%
-  mutate(model="empirical")
-
-vanilla_toplot = vanillaPredictives %>%
-  gather(utterance,Mean,size_color:size) %>%
-  mutate(model="vanilla")
-
-continuous_toplot = continuousPredictives %>%
-  gather(utterance,Mean,size_color:size) %>%
-  mutate(model="continuous")
-
-incremental_toplot = incrementalPredictives %>%
-  gather(utterance,Mean,size_color:size) %>%
-  mutate(model="incremental")
-
-incrementalContinuous_toplot = incrementalContinuousPredictives %>%
-  gather(utterance,Mean,size_color:size) %>%
-  mutate(model="incrementalContinuous")
-
-#merge ctsl datasets
-ctsl_merged = rbind(empirical_toplot,vanilla_toplot,continuous_toplot,incremental_toplot,incrementalContinuous_toplot) %>%
-  mutate(condition=ifelse(condition=="color31","color sufficient",ifelse(condition=="size31","size sufficient",NA))) %>%
-  mutate(language="CTSL")
-
-#merge ctsl and english datasets 
-english_merged = read_csv("english_modelComp.csv")
-
-merged = rbind(ctsl_merged,english_merged)
-
-merged$model = factor(merged$model, levels = c("empirical", "vanilla","continuous","incremental","incrementalContinuous"))
-
-ggplot(merged, aes(x=utterance,y=Mean, fill=model)) +
-  geom_bar(position="dodge", stat = "identity") +
-  facet_grid(language~condition)
-
-ggsave("results/merged_modelComparison.png")
+save.image("results/merged_comparison.RData")

@@ -224,9 +224,20 @@ merged = rbind(ctsl_merged,english_merged)
 
 merged$model = factor(merged$model, levels = c("empirical", "vanilla","continuous","incremental","incrementalContinuous"))
 
+merged = merged %>%
+  mutate(utterance=ifelse(utterance=="size_color", "color and size", utterance))%>%
+  mutate(grp = ifelse(model=="empirical",1,0))
+
+merged$utterance = factor(merged$utterance, levels = c("color", "size","color and size"))
+
+library(RColorBrewer)
+theme_set(theme_bw())
+
 ggplot(merged, aes(x=utterance,y=Mean, fill=model)) +
-  geom_bar(position="dodge", stat = "identity") +
-  facet_grid(language~condition)
+  geom_bar(position="dodge",width=0.7, stat = "identity",) +
+  facet_grid(language~condition) +
+  scale_fill_brewer(palette = "Set1") +
+  #scale_alpha(range = c(0.5, 1)) +
+  theme(legend.position="bottom")
 
-ggsave("results/merged_modelComparison.png")
-
+ggsave("results/merged_modelComparison.png", width =6 , height = 4, units = "in")
