@@ -2,6 +2,7 @@ setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 library(tidyverse)
 library(jsonlite)
 library(rwebppl)
+source("helpers.R")
 
 source("../_shared/BDA_dataprep.R")
 source("../../_shared/inferenceHelpers.R")
@@ -113,11 +114,13 @@ graphPredictives(incrementalPredictives, d_collapsed) + ggtitle("Incremental pre
 
 ggsave("results/ctsl_incrementalPredictives.png", width = 4, height = 3, units = "in")
 
+#save.image("results/ctsl_results_50000burnin.RData")
+
 # MODEL 4: INCREMENTAL-CONTINUOUS RSA
 
 # POSTERIORS
 
-incrementalContinuousInferenceScript <- wrapInference(model, "color_size", "incrementalContinuous", 5000, 10, 10000)
+incrementalContinuousInferenceScript <- wrapInference(model, "color_size", "incrementalContinuous", 5000, 10, 50000)
 
 incrementalContinuousPosteriors <- webppl(incrementalContinuousInferenceScript, data = df, data_var = "df", random_seed=3333)
 
@@ -141,7 +144,7 @@ graphPredictives(incrementalContinuousPredictives, d_collapsed)
 
 ggsave("results/ctsl_incrementalContinuousPredictives.png", width = 4, height = 3, units = "in")
 
-save.image("results/ctsl_results.RData")
+#save.image("results/ctsl_results_50000burnin.RData")
 
 # BAYESIAN MODEL COMPARISON: INCREMENTAL VS. GLOBAL 
 
@@ -154,7 +157,7 @@ incrementalVGlobalInferenceCommand <- read_file("incrementalVGlobalComparison/in
 incrementalVGlobalInferenceCommand <- gsub("TARGET_REFERENT", "color_size", incrementalVGlobalInferenceCommand, fixed = TRUE)
 incrementalVGlobalInferenceCommand <- gsub("NUM_SAMPLES", 5000, incrementalVGlobalInferenceCommand, fixed = TRUE)
 incrementalVGlobalInferenceCommand <- gsub("LAG", 10, incrementalVGlobalInferenceCommand, fixed = TRUE)
-incrementalVGlobalInferenceCommand <- gsub("BURN_IN", 10000, incrementalVGlobalInferenceCommand, fixed = TRUE)
+incrementalVGlobalInferenceCommand <- gsub("BURN_IN", 50000, incrementalVGlobalInferenceCommand, fixed = TRUE)
   
 incrementalVGlobalInferenceScript <- paste(read_file(model), incrementalVGlobalInferenceCommand, sep = "\n")
 

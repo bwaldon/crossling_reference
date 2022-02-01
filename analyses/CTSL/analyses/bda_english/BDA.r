@@ -2,6 +2,7 @@ setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 library(tidyverse)
 library(jsonlite)
 library(rwebppl)
+source("helpers.R")
 
 source("../_shared/BDA_dataprep.R")
 source("../../_shared/inferenceHelpers.R")
@@ -39,7 +40,7 @@ model <- makeModel("modelAndSemantics.txt")
 
 # # lower number of samples (for testing)
 
-vanillaInferenceScript <- wrapInference(model, "color_size", "vanilla", 5000, 10, 10000)
+vanillaInferenceScript <- wrapInference(model, "color_size", "vanilla", 5000, 10, 50000)
 
 vanillaPosteriors <- webppl(vanillaInferenceScript, data = df, data_var = "df", random_seed = 3333)
 
@@ -66,7 +67,11 @@ ggsave("results/eng_vanillaPredictives.png", width = 4, height = 3, units = "in"
 
 # POSTERIORS
 
+<<<<<<< HEAD
+continuousInferenceScript <- wrapInference(model, "color_size", "continuous", 5000, 10, 50000)
+=======
 continuousInferenceScript <- wrapInference(model, "color_size", "continuous", 8000, 10, 15000)
+>>>>>>> master
 
 continuousPosteriors <- webppl(continuousInferenceScript, data = df, data_var = "df", random_seed = 3333)
 
@@ -87,12 +92,16 @@ continuousPredictives <- webppl(continuousPredictionScript, data = unique(df %>%
 
 graphPredictives(continuousPredictives, d_collapsed) + ggtitle("Continuous predictives")
 
+<<<<<<< HEAD
+ggsave("results/eng_continuousPredictives.png", width = 4, height = 3, units = "in")
+=======
 ggsave("results/eng_continuousPredictives_8000samples_15000burn.png", width = 4, height = 3, units = "in")
+>>>>>>> master
 
 
 # MODEL 3: INCREMENTAL RSA 
 
-incrementalInferenceScript <- wrapInference(model, "color_size", "incremental", 5000, 10, 10000)
+incrementalInferenceScript <- wrapInference(model, "color_size", "incremental", 5000, 10, 50000)
 
 incrementalPosteriors <- webppl(incrementalInferenceScript, data = df, data_var = "df",  random_seed = 3333)
 
@@ -119,13 +128,19 @@ ggsave("results/eng_incrementalPredictives_8000samples_15000burn.png", width = 4
 
 # POSTERIORS
 
+<<<<<<< HEAD
+incrementalContinuousInferenceScript <- wrapInference(model, "color_size", "incrementalContinuous", 5000, 10, 50000)
+=======
 incrementalContinuousInferenceScript <- wrapInference(model, "color_size", "incrementalContinuous", 8000, 10, 15000)
+>>>>>>> master
 
 incrementalContinuousPosteriors <- webppl(incrementalContinuousInferenceScript, data = df, data_var = "df",random_seed = 3333)
 
 graphPosteriors(incrementalContinuousPosteriors) + ggtitle("Incremental-continuous posteriors")
 
 ggsave("results/eng_incrementalContinuousPosteriors_8000samples_15000burn.png")
+
+save.image("results/eng_results_50000burn.RData")
 
 # PREDICTIVES
 
@@ -143,7 +158,10 @@ graphPredictives(incrementalContinuousPredictives, d_collapsed)
 
 ggsave("results/eng_incrementalContinuousPredictives_8000samples_15000burn.png", width = 4, height = 3, units = "in")
 
-save.image("results/eng_results8000samples_15000burn.RData")
+save.image("results/eng_results50000burn.RData")
+
+#save.image("results/eng_results.RData")
+
 
 # BAYESIAN MODEL COMPARISON: INCREMENTAL VS. GLOBAL 
 
@@ -156,7 +174,7 @@ incrementalVGlobalInferenceCommand <- read_file("incrementalVGlobalComparison/in
 incrementalVGlobalInferenceCommand <- gsub("TARGET_REFERENT", "color_size", incrementalVGlobalInferenceCommand, fixed = TRUE)
 incrementalVGlobalInferenceCommand <- gsub("NUM_SAMPLES", 5000, incrementalVGlobalInferenceCommand, fixed = TRUE)
 incrementalVGlobalInferenceCommand <- gsub("LAG", 10, incrementalVGlobalInferenceCommand, fixed = TRUE)
-incrementalVGlobalInferenceCommand <- gsub("BURN_IN", 10000, incrementalVGlobalInferenceCommand, fixed = TRUE)
+incrementalVGlobalInferenceCommand <- gsub("BURN_IN", 50000, incrementalVGlobalInferenceCommand, fixed = TRUE)
   
 incrementalVGlobalInferenceScript <- paste(read_file(model), incrementalVGlobalInferenceCommand, sep = "\n")
 
