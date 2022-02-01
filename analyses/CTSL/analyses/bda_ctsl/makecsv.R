@@ -1,7 +1,10 @@
+setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
+
 ######################################################
 # PLOTS FOR THE COGSCI PAPER
 ######################################################
 
+source("helpers.R")
 load("Results/5000sample50000burnin/ctsl_results_50000burnin.RData")
 
 # modification type
@@ -47,12 +50,33 @@ english_merged = read_csv("english_modelComp.csv") %>% select(utterance,conditio
 
 merged = rbind(ctsl_merged,english_merged)
 
-merged$model = factor(merged$model, levels = c("empirical", "vanilla","continuous","incremental","incrementalContinuous"))
+merged$model = factor(merged$model, levels = c("empirical", "continuous", "incrementalContinuous", "vanilla", "incremental" ))
+
+levels(merged$model) <- c("Empirical", "Continuous", "Continuous\nIncremental", "Standard", "Incremental")
+
+
+library(viridisLite)
+theme_set(theme_bw())
+
+merged$condition <- relevel(factor(merged$condition), ref = "size sufficient")
+levels(merged$condition) = c("Size-sufficient scene", "Color-sufficient scene")
+merged$utterance <- factor(merged$utterance)
+levels(merged$utterance) = c("Color\nonly", "Size\nonly", "Color\n+size")
 
 ggplot(merged, aes(x=utterance,y=Mean, fill=model)) +
-  geom_bar(position="dodge", stat = "identity") +
-  facet_grid(language~condition)
+  geom_bar(position=position_dodge(), stat = "identity",) +
+  geom_errorbar(position=position_dodge(width=0.9), width = 0, stat = "identity", aes(ymin = YMin, ymax = YMax)) +
+  facet_grid(language~condition) +
+  scale_fill_manual(values = rev(viridis(5))) +
+  #scale_alpha(range = c(0.5, 1)) +
+  theme(legend.position="bottom",
+        legend.title = element_blank(),
+        axis.title.x = element_blank(),
+        text = element_text(size = 18)) +
+  ylab("Proportion of utterance") +
+  guides(fill=guide_legend(nrow=2,byrow=TRUE))
+  
 
 write.csv(merged, "utteranceProbabilities.csv", row.names=TRUE)
 
-ggsave("results/merged_modelComparison.png")
+ggsave("results/merged_modelComparison.pdf", width = 6, height = 6, units = "in")

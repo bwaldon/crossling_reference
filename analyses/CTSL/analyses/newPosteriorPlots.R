@@ -7,7 +7,7 @@ source("_shared/BDA_vizHelpers.R")
 # CTSL 
 
 #load("bda_ctsl/Results/ctsl_results.RData")
-load("bda_ctsl/Results/ctsl_results_50000burnin.RData")
+load("bda_ctsl/Results/5000sample50000burnin/ctsl_results_50000burnin.RData")
 
 
 # # VANILLA

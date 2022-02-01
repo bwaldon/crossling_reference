@@ -1,61 +1,113 @@
 "","utterance","condition","Mean","CILow","CIHigh","YMin","YMax","model","language"
-"1","color","color sufficient",0.8,0.076923076923077,0.0615384615384615,0.723076923076923,0.861538461538462,"empirical","CTSL"
-"2","color","size sufficient",0.0328947368421053,0.0263157894736842,0.0328947368421053,0.00657894736842105,0.0657894736842105,"empirical","CTSL"
-"3","size","color sufficient",0.0230769230769231,0.0230769230769231,0.0307692307692308,0,0.0538461538461538,"empirical","CTSL"
-"4","size","size sufficient",0.282894736842105,0.0723684210526316,0.0657894736842105,0.210526315789474,0.348684210526316,"empirical","CTSL"
-"5","size_color","color sufficient",0.176923076923077,0.0615384615384615,0.0692307692307692,0.115384615384615,0.246153846153846,"empirical","CTSL"
-"6","size_color","size sufficient",0.684210526315789,0.0725328947368421,0.0789473684210527,0.611677631578947,0.763157894736842,"empirical","CTSL"
-"7","size_color","color sufficient",0.222523003543287,0,0,0,0,"vanilla","CTSL"
-"8","size_color","size sufficient",0.478637859317796,0,0,0,0,"vanilla","CTSL"
-"9","color","color sufficient",0.771461738013684,0,0,0,0,"vanilla","CTSL"
-"10","color","size sufficient",0.045078251223587,0,0,0,0,"vanilla","CTSL"
-"11","size","color sufficient",0.00601525844302933,0,0,0,0,"vanilla","CTSL"
-"12","size","size sufficient",0.476283889458618,0,0,0,0,"vanilla","CTSL"
-"13","size_color","color sufficient",0.194264448578419,0,0,0,0,"continuous","CTSL"
-"14","size_color","size sufficient",0.681552133437702,0,0,0,0,"continuous","CTSL"
-"15","color","color sufficient",0.785280431250041,0,0,0,0,"continuous","CTSL"
-"16","color","size sufficient",0.015773082443593,0,0,0,0,"continuous","CTSL"
-"17","size","color sufficient",0.0203903511156094,0,0,0,0,"continuous","CTSL"
-"18","size","size sufficient",0.302668839644103,0,0,0,0,"continuous","CTSL"
-"19","size_color","color sufficient",0.168627292685995,0,0,0,0,"incremental","CTSL"
-"20","size_color","size sufficient",0.246288502602168,0,0,0,0,"incremental","CTSL"
-"21","color","color sufficient",0.79771710910482,0,0,0,0,"incremental","CTSL"
-"22","color","size sufficient",0.192502899235375,0,0,0,0,"incremental","CTSL"
-"23","size","color sufficient",0.0336555969701656,0,0,0,0,"incremental","CTSL"
-"24","size","size sufficient",0.561208593300132,0,0,0,0,"incremental","CTSL"
-"25","size_color","color sufficient",0.222510351473546,0,0,0,0,"incrementalContinuous","CTSL"
-"26","size_color","size sufficient",0.618768701261693,0,0,0,0,"incrementalContinuous","CTSL"
-"27","color","color sufficient",0.777136277731151,0,0,0,0,"incrementalContinuous","CTSL"
-"28","color","size sufficient",0.0976894057267845,0,0,0,0,"incrementalContinuous","CTSL"
-"29","size","color sufficient",0.000353144247979244,0,0,0,0,"incrementalContinuous","CTSL"
-"30","size","size sufficient",0.283539249205942,0,0,0,0,"incrementalContinuous","CTSL"
-"31","color","color sufficient",0.983122362869198,0.0126582278481012,0.010548523206751,0.970464135021097,0.993670886075949,"empirical","English"
-"32","color","size sufficient",0.0287648054145516,0.011844331641286,0.0152284263959391,0.0169204737732657,0.0439932318104907,"empirical","English"
-"33","size","color sufficient",0.00210970464135021,0.00210970464135021,0.00421940928270042,0,0.00632911392405063,"empirical","English"
-"34","size","size sufficient",0.465313028764805,0.0406091370558376,0.0406514382402707,0.424703891708968,0.505964467005076,"empirical","English"
-"35","size_color","color sufficient",0.0147679324894515,0.0105485232067511,0.0105485232067511,0.00421940928270042,0.0253164556962025,"empirical","English"
-"36","size_color","size sufficient",0.505922165820643,0.038917089678511,0.038917089678511,0.467005076142132,0.544839255499154,"empirical","English"
-"37","size_color","color sufficient",0.0179431242917715,0,0,0,0,"vanilla","English"
-"38","size_color","size sufficient",0.486768022451395,0,0,0,0,"vanilla","English"
-"39","color","color sufficient",0.982036423530192,0,0,0,0,"vanilla","English"
-"40","color","size sufficient",0.0306284197744661,0,0,0,0,"vanilla","English"
-"41","size","color sufficient",2.04521780371133e-05,0,0,0,0,"vanilla","English"
-"42","size","size sufficient",0.482603557774139,0,0,0,0,"vanilla","English"
-"43","size_color","color sufficient",0.0139059864969395,0,0,0,0,"continuous","English"
-"44","size_color","size sufficient",0.528490665947098,0,0,0,0,"continuous","English"
-"45","color","color sufficient",0.985343066188952,0,0,0,0,"continuous","English"
-"46","color","size sufficient",0.0266165139549274,0,0,0,0,"continuous","English"
-"47","size","color sufficient",0.00075017045989853,0,0,0,0,"continuous","English"
-"48","size","size sufficient",0.444892268757996,0,0,0,0,"continuous","English"
-"49","size_color","color sufficient",0.0168502807709585,0,0,0,0,"incremental","English"
-"50","size_color","size sufficient",0.48428870799269,0,0,0,0,"incremental","English"
-"51","color","color sufficient",0.98275292994769,0,0,0,0,"incremental","English"
-"52","color","size sufficient",0.0303429710412159,0,0,0,0,"incremental","English"
-"53","size","color sufficient",0.00039678928135128,0,0,0,0,"incremental","English"
-"54","size","size sufficient",0.485368320966094,0,0,0,0,"incremental","English"
-"55","size_color","color sufficient",0.0103122412530053,0,0,0,0,"incrementalContinuous","English"
-"56","size_color","size sufficient",0.541942188942247,0,0,0,0,"incrementalContinuous","English"
-"57","color","color sufficient",0.989548592464846,0,0,0,0,"incrementalContinuous","English"
-"58","color","size sufficient",0.0361218172556612,0,0,0,0,"incrementalContinuous","English"
-"59","size","color sufficient",0.00013889813589884,0,0,0,0,"incrementalContinuous","English"
-"60","size","size sufficient",0.4219264473897,0,0,0,0,"incrementalContinuous","English"
+"1","Color
+only","Color-sufficient scene",0.8,0.076923076923077,0.0615384615384615,0.723076923076923,0.861538461538462,"Empirical","CTSL"
+"2","Color
+only","Size-sufficient scene",0.0328947368421053,0.0263157894736842,0.0328947368421053,0.00657894736842105,0.0657894736842105,"Empirical","CTSL"
+"3","Size
+only","Color-sufficient scene",0.0230769230769231,0.0230769230769231,0.0307692307692308,0,0.0538461538461538,"Empirical","CTSL"
+"4","Size
+only","Size-sufficient scene",0.282894736842105,0.0723684210526316,0.0657894736842105,0.210526315789474,0.348684210526316,"Empirical","CTSL"
+"5","Color + size","Color-sufficient scene",0.176923076923077,0.0615384615384615,0.0692307692307692,0.115384615384615,0.246153846153846,"Empirical","CTSL"
+"6","Color + size","Size-sufficient scene",0.684210526315789,0.0725328947368421,0.0789473684210527,0.611677631578947,0.763157894736842,"Empirical","CTSL"
+"7","Color + size","Color-sufficient scene",0.222523003543287,0,0,0,0,"Standard","CTSL"
+"8","Color + size","Size-sufficient scene",0.478637859317796,0,0,0,0,"Standard","CTSL"
+"9","Color
+only","Color-sufficient scene",0.771461738013684,0,0,0,0,"Standard","CTSL"
+"10","Color
+only","Size-sufficient scene",0.045078251223587,0,0,0,0,"Standard","CTSL"
+"11","Size
+only","Color-sufficient scene",0.00601525844302933,0,0,0,0,"Standard","CTSL"
+"12","Size
+only","Size-sufficient scene",0.476283889458618,0,0,0,0,"Standard","CTSL"
+"13","Color + size","Color-sufficient scene",0.194264448578419,0,0,0,0,"Continuous","CTSL"
+"14","Color + size","Size-sufficient scene",0.681552133437702,0,0,0,0,"Continuous","CTSL"
+"15","Color
+only","Color-sufficient scene",0.785280431250041,0,0,0,0,"Continuous","CTSL"
+"16","Color
+only","Size-sufficient scene",0.015773082443593,0,0,0,0,"Continuous","CTSL"
+"17","Size
+only","Color-sufficient scene",0.0203903511156094,0,0,0,0,"Continuous","CTSL"
+"18","Size
+only","Size-sufficient scene",0.302668839644103,0,0,0,0,"Continuous","CTSL"
+"19","Color + size","Color-sufficient scene",0.168627292685995,0,0,0,0,"Incremental","CTSL"
+"20","Color + size","Size-sufficient scene",0.246288502602168,0,0,0,0,"Incremental","CTSL"
+"21","Color
+only","Color-sufficient scene",0.79771710910482,0,0,0,0,"Incremental","CTSL"
+"22","Color
+only","Size-sufficient scene",0.192502899235375,0,0,0,0,"Incremental","CTSL"
+"23","Size
+only","Color-sufficient scene",0.0336555969701656,0,0,0,0,"Incremental","CTSL"
+"24","Size
+only","Size-sufficient scene",0.561208593300132,0,0,0,0,"Incremental","CTSL"
+"25","Color + size","Color-sufficient scene",0.222510351473546,0,0,0,0,"Continuous
+Incremental","CTSL"
+"26","Color + size","Size-sufficient scene",0.618768701261693,0,0,0,0,"Continuous
+Incremental","CTSL"
+"27","Color
+only","Color-sufficient scene",0.777136277731151,0,0,0,0,"Continuous
+Incremental","CTSL"
+"28","Color
+only","Size-sufficient scene",0.0976894057267845,0,0,0,0,"Continuous
+Incremental","CTSL"
+"29","Size
+only","Color-sufficient scene",0.000353144247979244,0,0,0,0,"Continuous
+Incremental","CTSL"
+"30","Size
+only","Size-sufficient scene",0.283539249205942,0,0,0,0,"Continuous
+Incremental","CTSL"
+"31","Color
+only","Color-sufficient scene",0.983122362869198,0.0126582278481012,0.010548523206751,0.970464135021097,0.993670886075949,"Empirical","English"
+"32","Color
+only","Size-sufficient scene",0.0287648054145516,0.011844331641286,0.0152284263959391,0.0169204737732657,0.0439932318104907,"Empirical","English"
+"33","Size
+only","Color-sufficient scene",0.00210970464135021,0.00210970464135021,0.00421940928270042,0,0.00632911392405063,"Empirical","English"
+"34","Size
+only","Size-sufficient scene",0.465313028764805,0.0406091370558376,0.0406514382402707,0.424703891708968,0.505964467005076,"Empirical","English"
+"35","Color + size","Color-sufficient scene",0.0147679324894515,0.0105485232067511,0.0105485232067511,0.00421940928270042,0.0253164556962025,"Empirical","English"
+"36","Color + size","Size-sufficient scene",0.505922165820643,0.038917089678511,0.038917089678511,0.467005076142132,0.544839255499154,"Empirical","English"
+"37","Color + size","Color-sufficient scene",0.0179431242917715,0,0,0,0,"Standard","English"
+"38","Color + size","Size-sufficient scene",0.486768022451395,0,0,0,0,"Standard","English"
+"39","Color
+only","Color-sufficient scene",0.982036423530192,0,0,0,0,"Standard","English"
+"40","Color
+only","Size-sufficient scene",0.0306284197744661,0,0,0,0,"Standard","English"
+"41","Size
+only","Color-sufficient scene",2.04521780371133e-05,0,0,0,0,"Standard","English"
+"42","Size
+only","Size-sufficient scene",0.482603557774139,0,0,0,0,"Standard","English"
+"43","Color + size","Color-sufficient scene",0.0139059864969395,0,0,0,0,"Continuous","English"
+"44","Color + size","Size-sufficient scene",0.528490665947098,0,0,0,0,"Continuous","English"
+"45","Color
+only","Color-sufficient scene",0.985343066188952,0,0,0,0,"Continuous","English"
+"46","Color
+only","Size-sufficient scene",0.0266165139549274,0,0,0,0,"Continuous","English"
+"47","Size
+only","Color-sufficient scene",0.00075017045989853,0,0,0,0,"Continuous","English"
+"48","Size
+only","Size-sufficient scene",0.444892268757996,0,0,0,0,"Continuous","English"
+"49","Color + size","Color-sufficient scene",0.0168502807709585,0,0,0,0,"Incremental","English"
+"50","Color + size","Size-sufficient scene",0.48428870799269,0,0,0,0,"Incremental","English"
+"51","Color
+only","Color-sufficient scene",0.98275292994769,0,0,0,0,"Incremental","English"
+"52","Color
+only","Size-sufficient scene",0.0303429710412159,0,0,0,0,"Incremental","English"
+"53","Size
+only","Color-sufficient scene",0.00039678928135128,0,0,0,0,"Incremental","English"
+"54","Size
+only","Size-sufficient scene",0.485368320966094,0,0,0,0,"Incremental","English"
+"55","Color + size","Color-sufficient scene",0.0103122412530053,0,0,0,0,"Continuous
+Incremental","English"
+"56","Color + size","Size-sufficient scene",0.541942188942247,0,0,0,0,"Continuous
+Incremental","English"
+"57","Color
+only","Color-sufficient scene",0.989548592464846,0,0,0,0,"Continuous
+Incremental","English"
+"58","Color
+only","Size-sufficient scene",0.0361218172556612,0,0,0,0,"Continuous
+Incremental","English"
+"59","Size
+only","Color-sufficient scene",0.00013889813589884,0,0,0,0,"Continuous
+Incremental","English"
+"60","Size
+only","Size-sufficient scene",0.4219264473897,0,0,0,0,"Continuous
+Incremental","English"

@@ -1,4 +1,5 @@
 graphCostPosteriors <- function(posteriors) {
+  posteriors$Parameter <- relevel(posteriors$Parameter, ref = "colorCost")
   labels = c(colorCost = "color", sizeCost = "size")
   scale_value=1
   return(ggplot(posteriors, aes(x = value)) +
@@ -33,6 +34,7 @@ graphCostPosteriors <- function(posteriors) {
 }
 
 graphNoisePosteriors <- function(posteriors) {
+  posteriors$Parameter <- relevel(posteriors$Parameter, ref = "colorNoiseVal")
   labels <- c(colorNoiseVal = "color", sizeNoiseVal = "size")
   scale_value=1
   return(ggplot(posteriors, aes(x = value)) +
