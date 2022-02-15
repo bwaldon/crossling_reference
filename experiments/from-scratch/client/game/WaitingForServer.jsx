@@ -7,7 +7,7 @@ export default class WaitingForServer extends React.Component {
     // const gameTextsLanguage = game.treatment.gameLanguage
 
     return (
-      <div className="game waiting">
+      <div className="game waiting" dir="auto">
         <div className="pt-non-ideal-state">
           <div className="pt-non-ideal-state-visual pt-non-ideal-state-icon">
             <span className="pt-icon pt-icon-automatic-updates" />
@@ -17,9 +17,9 @@ export default class WaitingForServer extends React.Component {
             {/*{gameTexts[gameTextsLanguage].WAITINGFORSERVER_waitingForServerResponse}*/}
           </h4>
           <div className="pt-non-ideal-state-description">
-          {/*{gameTexts[gameTextsLanguage].WAITINGFORSERVER_waitingForPlayers}*/}
+            {/*{gameTexts[gameTextsLanguage].WAITINGFORSERVER_waitingForPlayers}*/}
             <center>
-           <img src = "loading.png" width = "300px" />
+              <img src="loading.png" width="300px" />
             </center>
           </div>
         </div>

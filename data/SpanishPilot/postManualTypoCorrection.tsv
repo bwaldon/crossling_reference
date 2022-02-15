@@ -1,0 +1,649 @@
+gameId	language	stage	condition	alt1BasicLevel	alt1SuperLevel	alt2BasicLevel	alt2SuperLevel	listenerSelection	roundNumber	directorAllMessages	directorFirstMessage	guesserAllMessages	nameClickedObj	correct	colorMentioned	sizeMentioned	typeMentioned	oneMentioned	theMentioned	automaticLabel	
+v2J2BjboP65oSJMoy	Spanish	feedback	basicSuffType1	grasses	plant	ivy	plant	1	16	girasol or sunflower	girasol or sunflower		sunflower	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+v2J2BjboP65oSJMoy	Spanish	feedback	basicSuffType1	squirrel	animal	bear	animal	1	18	bald eagle	bald eagle		eagle	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+v2J2BjboP65oSJMoy	Spanish	feedback	basicSuffType1	wardrobe	furniture	bed	furniture	1	19	table	table		diningTable	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+v2J2BjboP65oSJMoy	Spanish	feedback	basicSuffType1	chips	snack	cookies	snack	1	31	skittles	skittles		skittles	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+v2J2BjboP65oSJMoy	Spanish	feedback	basicSuffType1	train	vehicle	ambulance	vehicle	1	35	car	car		convertible	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+v2J2BjboP65oSJMoy	Spanish	feedback	basicSuffType1	kitten	animal	rabbit	animal	1	39	dog	dog		germanShepherd	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+v2J2BjboP65oSJMoy	Spanish	feedback	basicSuffType1	grasses	plant	ivy	plant	1	42	tulip	tulip		tulip	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+v2J2BjboP65oSJMoy	Spanish	feedback	basicSuffType1	popcorn	snack	chips	snack	1	45	candies	candies		jellyBeans	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+v2J2BjboP65oSJMoy	Spanish	feedback	basicSuffType1	elephant	animal	hamster	animal	1	69	pigeon	pigeon		pigeon	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+v2J2BjboP65oSJMoy	Spanish	feedback	basicSuffType1	iguana	animal	cow	animal	1	72	catfish	catfish		catfish	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+8NHcSDdWKk5ax3mAb	Spanish	feedback	basicSuffType1	bear	animal	kitten	animal	1	5	bird__dove	bird		pigeon	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+8NHcSDdWKk5ax3mAb	Spanish	feedback	basicSuffType1	cow	animal	horse	animal	1	9	eagle	eagle		eagle	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+8NHcSDdWKk5ax3mAb	Spanish	feedback	basicSuffType1	motorcycle	vehicle	train	vehicle	1	20	car	car		suv	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+8NHcSDdWKk5ax3mAb	Spanish	feedback	basicSuffType1	motorcycle	vehicle	firetruck	vehicle	1	39	family car	family car		minivan	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+8NHcSDdWKk5ax3mAb	Spanish	feedback	basicSuffType1	bookcase	furniture	bed	furniture	1	54	camping table	camping table		picnicTable	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+8NHcSDdWKk5ax3mAb	Spanish	feedback	basicSuffType1	chips	snack	cookies	snack	1	55	clorful sweets__colorful	clorful sweets		jellyBeans	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+8NHcSDdWKk5ax3mAb	Spanish	feedback	basicSuffType1	train	vehicle	firetruck	vehicle	1	59	grey car	grey car		convertible	1	TRUE	FALSE	TRUE	FALSE	FALSE	0	
+TXdqz7vwbJSeKpJHS	Spanish	feedback	basicSuffType1	wardrobe	furniture	lamp	furniture	1	3	tiene cuatro patas	tiene cuatro patas		diningTable	1	FALSE	FALSE	FALSE	FALSE	FALSE	0	
+TXdqz7vwbJSeKpJHS	Spanish	feedback	basicSuffType1	train	vehicle	ambulance	vehicle	2	14	no es transporte publico ni se usa en hospitales	no es transporte publico ni se usa en hospitales		train	0	FALSE	FALSE	FALSE	FALSE	FALSE	0	
+TXdqz7vwbJSeKpJHS	Spanish	feedback	basicSuffType1	popcorn	snack	pretzels	snack	1	16	muchos colores diferentes	muchos colores diferentes		jellyBeans	1	FALSE	FALSE	FALSE	FALSE	FALSE	0	
+TXdqz7vwbJSeKpJHS	Spanish	feedback	basicSuffType1	lion	animal	bird	animal	1	30	vive en el mar	vive en el mar		catfish	1	FALSE	FALSE	FALSE	FALSE	FALSE	0	
+TXdqz7vwbJSeKpJHS	Spanish	feedback	basicSuffType1	cow	animal	rabbit	animal	1	39	vuela	vuela		parrot	1	FALSE	FALSE	FALSE	FALSE	FALSE	0	
+TXdqz7vwbJSeKpJHS	Spanish	feedback	basicSuffType1	rabbit	animal	kitten	animal	1	51	vuela	vuela		pigeon	1	FALSE	FALSE	FALSE	FALSE	FALSE	0	
+D5sTSEMaXM7y3Q7AW	Spanish	feedback	basicSuffType1	squirrel	animal	lion	animal	1	3	estas con los bomberos	estas con los bomberos		dalmatian	1	FALSE	FALSE	FALSE	FALSE	FALSE	0	
+D5sTSEMaXM7y3Q7AW	Spanish	feedback	basicSuffType1	pottedPlant	plant	ivy	plant	1	6	una flor	una flor		tulip	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+D5sTSEMaXM7y3Q7AW	Spanish	feedback	basicSuffType1	bed	furniture	lamp	furniture	1	9	va en el centro de la sala	va en el centro de la sala		coffeeTable	1	FALSE	FALSE	FALSE	FALSE	FALSE	0	
+D5sTSEMaXM7y3Q7AW	Spanish	feedback	basicSuffType1	firetruck	vehicle	train	vehicle	1	22	la ocupan las mamás	la ocupan las mamás		minivan	1	FALSE	FALSE	FALSE	FALSE	FALSE	0	
+D5sTSEMaXM7y3Q7AW	Spanish	feedback	basicSuffType1	rosemary	plant	grasses	plant	1	30	blanco	blanco		daisy	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+D5sTSEMaXM7y3Q7AW	Spanish	feedback	basicSuffType1	motorcycle	vehicle	train	vehicle	1	34	4 ruedas	4 ruedas		sportsCar	1	FALSE	FALSE	FALSE	FALSE	FALSE	0	
+D5sTSEMaXM7y3Q7AW	Spanish	feedback	basicSuffType1	iguana	animal	fish	animal	1	36	mejor amigo del hombre	mejor amigo del hombre		pug	1	FALSE	FALSE	FALSE	FALSE	FALSE	0	
+D5sTSEMaXM7y3Q7AW	Spanish	feedback	basicSuffType1	lobster	animal	kitten	animal	1	37	vuela	vuela		hummingBird	1	FALSE	FALSE	FALSE	FALSE	FALSE	0	
+D5sTSEMaXM7y3Q7AW	Spanish	feedback	basicSuffType1	gloves	clothing	bathrobe	clothing	1	44	azul rey	azul rey		tShirt	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+D5sTSEMaXM7y3Q7AW	Spanish	feedback	basicSuffType1	motorcycle	vehicle	ambulance	vehicle	1	49	4 ruedas deportiva	4 ruedas deportiva		suv	1	FALSE	FALSE	FALSE	FALSE	FALSE	0	
+D5sTSEMaXM7y3Q7AW	Spanish	feedback	basicSuffType1	popcorn	snack	pretzels	snack	1	51	colores	colores		mnMs	1	FALSE	FALSE	FALSE	FALSE	FALSE	0	
+D5sTSEMaXM7y3Q7AW	Spanish	feedback	basicSuffType1	pretzels	snack	chips	snack	1	58	osos	osos		gummyBears	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+D5sTSEMaXM7y3Q7AW	Spanish	feedback	basicSuffType1	cookies	snack	popcorn	snack	1	62	colores	colores		jellyBeans	1	FALSE	FALSE	FALSE	FALSE	FALSE	0	
+D5sTSEMaXM7y3Q7AW	Spanish	feedback	basicSuffType1	bear	animal	horse	animal	1	70	agua	agua		goldFish	1	FALSE	FALSE	FALSE	FALSE	FALSE	0	
+g8tXfbQJ5w3Yo5kXq	Spanish	feedback	basicSuffType1	bed	furniture	wardrobe	furniture	1	9	mesa	mesa	cama?	diningTable	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+g8tXfbQJ5w3Yo5kXq	Spanish	feedback	basicSuffType1	rosemary	plant	grasses	plant	1	10	flor	flor	flor?	daisy	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+g8tXfbQJ5w3Yo5kXq	Spanish	feedback	basicSuffType1	lobster	animal	iguana	animal	1	13	perro	perro	perro?	germanShepherd	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+g8tXfbQJ5w3Yo5kXq	Spanish	feedback	basicSuffType1	kitten	animal	rhino	animal	1	23	oro negro__oso	oro negro	gato?	grizzlyBear	1	TRUE	FALSE	TRUE	FALSE	FALSE	0	
+g8tXfbQJ5w3Yo5kXq	Spanish	feedback	basicSuffType1	dress	clothing	socks	clothing	1	42	camiseta azul	camiseta azul	vestido?	tShirt	1	TRUE	FALSE	TRUE	FALSE	FALSE	0	
+g8tXfbQJ5w3Yo5kXq	Spanish	feedback	basicSuffType1	bed	furniture	lamp	furniture	1	45	mesita	mesita		bedsideTable	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+g8tXfbQJ5w3Yo5kXq	Spanish	feedback	basicSuffType1	lion	animal	bear	animal	1	59	pajaro	pajaro	leon?	parrot	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+Drac2QY2EJGirNSty	Spanish	feedback	basicSuffType1	horse	animal	cow	animal	1	8	pug__o carlino__perro	pug		pug	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+Drac2QY2EJGirNSty	Spanish	feedback	basicSuffType1	bookcase	furniture	lamp	furniture	1	14	cajonera marron	cajonera marron		bedsideTable	1	TRUE	FALSE	TRUE	FALSE	FALSE	0	
+Drac2QY2EJGirNSty	Spanish	feedback	basicSuffType1	rhino	animal	dog	animal	1	17	paloma	paloma		pigeon	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+Drac2QY2EJGirNSty	Spanish	feedback	basicSuffType1	cookies	snack	chips	snack	1	28	pildoras de colores	pildoras de colores		jellyBeans	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+Drac2QY2EJGirNSty	Spanish	feedback	basicSuffType1	bathrobe	clothing	socks	clothing	1	29	camisa azul	camisa azul		dressShirt	1	TRUE	FALSE	TRUE	FALSE	FALSE	0	
+Drac2QY2EJGirNSty	Spanish	feedback	basicSuffType1	lobster	animal	cow	animal	1	39	perro	perro		dalmatian	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+Drac2QY2EJGirNSty	Spanish	feedback	basicSuffType1	iguana	animal	snake	animal	1	44	oso pardo	oso pardo		grizzlyBear	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+Drac2QY2EJGirNSty	Spanish	feedback	basicSuffType1	crocodile	animal	dog	animal	1	49	aguila__aguila calva	aguila		eagle	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+Drac2QY2EJGirNSty	Spanish	feedback	basicSuffType1	rosemary	plant	grasses	plant	1	50	tilipan rojo__tulipan	tilipan rojo		tulip	1	TRUE	FALSE	TRUE	FALSE	FALSE	0	
+Drac2QY2EJGirNSty	Spanish	feedback	basicSuffType1	rosemary	plant	pottedPlant	plant	1	51	margarita	margarita		daisy	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+Drac2QY2EJGirNSty	Spanish	feedback	basicSuffType1	ambulance	vehicle	train	vehicle	1	56	coche__suv	coche		suv	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+Drac2QY2EJGirNSty	Spanish	feedback	basicSuffType1	firetruck	vehicle	motorcycle	vehicle	1	59	coche deportivo	coche deportivo		convertible	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+Drac2QY2EJGirNSty	Spanish	feedback	basicSuffType1	iguana	animal	lion	animal	1	64	pez__o lo que sea	pez		catfish	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+Drac2QY2EJGirNSty	Spanish	feedback	basicSuffType1	ivy	plant	grasses	plant	1	68	girasol	girasol		sunflower	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+ncA5wQm2wMWx6Qw4m	Spanish	feedback	basicSuffType1	firetruck	vehicle	train	vehicle	1	2	es deportivo	es deportivo		sportsCar	1	FALSE	FALSE	FALSE	FALSE	FALSE	0	
+ncA5wQm2wMWx6Qw4m	Spanish	feedback	basicSuffType1	bathrobe	clothing	dress	clothing	1	5	camisa a botones	camisa a botones		hawaiiShirt	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+ncA5wQm2wMWx6Qw4m	Spanish	feedback	basicSuffType1	grasses	plant	pottedPlant	plant	1	18	la rosa	la rosa		rose	1	FALSE	FALSE	TRUE	FALSE	TRUE	0	
+ncA5wQm2wMWx6Qw4m	Spanish	feedback	basicSuffType1	lion	animal	horse	animal	1	31	pastor alemán	pastor alemán		germanShepherd	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+ncA5wQm2wMWx6Qw4m	Spanish	feedback	basicSuffType1	crocodile	animal	bison	animal	1	34	husky siberiano	husky siberiano		husky	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+ncA5wQm2wMWx6Qw4m	Spanish	feedback	basicSuffType1	chips	snack	popcorn	snack	1	50	skittles	skittles		skittles	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+ncA5wQm2wMWx6Qw4m	Spanish	feedback	basicSuffType1	motorcycle	vehicle	train	vehicle	1	57	camioneta	camioneta		minivan	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+ncA5wQm2wMWx6Qw4m	Spanish	feedback	basicSuffType1	bookcase	furniture	lamp	furniture	2	63	banca	banca		bookcase	0	FALSE	FALSE	FALSE	FALSE	FALSE	0	
+RdyH6CPjXhDjFiBn6	Spanish	feedback	basicSuffType1	iguana	animal	crocodile	animal	1	9	perro	perro		husky	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+RdyH6CPjXhDjFiBn6	Spanish	feedback	basicSuffType1	dress	clothing	socks	clothing	1	23	playera	playera		poloShirt	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+RdyH6CPjXhDjFiBn6	Spanish	feedback	basicSuffType1	rhino	animal	bison	animal	1	24	pez	pez		catfish	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+RdyH6CPjXhDjFiBn6	Spanish	feedback	basicSuffType1	dog	animal	horse	animal	1	30	colibrí	colibrí		hummingBird	1	FALSE	FALSE	FALSE	TRUE	FALSE		
+RdyH6CPjXhDjFiBn6	Spanish	feedback	basicSuffType1	gloves	clothing	bathrobe	clothing	1	37	playera	playera		tShirt	1	FALSE	FALSE	FALSE	TRUE	TRUE		
+RdyH6CPjXhDjFiBn6	Spanish	feedback	basicSuffType1	cow	animal	horse	animal	1	40	oso	oso		blackBear	1	FALSE	FALSE	FALSE	TRUE	FALSE		
+RdyH6CPjXhDjFiBn6	Spanish	feedback	basicSuffType1	hamster	animal	pig	animal	1	45	ave	ave		pigeon	1	FALSE	FALSE	FALSE	TRUE	FALSE		
+RdyH6CPjXhDjFiBn6	Spanish	feedback	basicSuffType1	bookcase	furniture	lamp	furniture	1	51	mesa	mesa		diningTable	1	FALSE	FALSE	FALSE	TRUE	FALSE		
+RdyH6CPjXhDjFiBn6	Spanish	feedback	basicSuffType1	chips	snack	cookies	snack	1	57	chocolates	chocolates		mnMs	1	FALSE	FALSE	FALSE	TRUE	TRUE		
+ri9WkdRrTvaRgjAbd	Spanish	feedback	basicSuffType1	train	vehicle	ambulance	vehicle	1	3	van familiar	van familiar		minivan	1	FALSE	FALSE	FALSE	TRUE	FALSE		
+ri9WkdRrTvaRgjAbd	Spanish	feedback	basicSuffType1	cookies	snack	popcorn	snack	1	6	mms	mms		mnMs	1	FALSE	FALSE	FALSE	TRUE	FALSE		
+ri9WkdRrTvaRgjAbd	Spanish	feedback	basicSuffType1	train	vehicle	motorcycle	vehicle	1	13	carro plateado	carro plateado		suv	1	FALSE	FALSE	FALSE	TRUE	TRUE		
+ri9WkdRrTvaRgjAbd	Spanish	feedback	basicSuffType1	socks	clothing	bathrobe	clothing	1	14	camiseta	camiseta		tShirt	1	FALSE	FALSE	FALSE	TRUE	FALSE		
+ri9WkdRrTvaRgjAbd	Spanish	feedback	basicSuffType1	crocodile	animal	bear	animal	1	15	nemo	nemo		clownFish	1	FALSE	FALSE	FALSE	TRUE	FALSE		
+ri9WkdRrTvaRgjAbd	Spanish	feedback	basicSuffType1	horse	animal	bison	animal	1	16	pajaro	pajaro		hummingBird	1	FALSE	FALSE	FALSE	TRUE	FALSE		
+ri9WkdRrTvaRgjAbd	Spanish	feedback	basicSuffType1	kitten	animal	rabbit	animal	1	33	aguila	aguila		eagle	1	FALSE	FALSE	FALSE	TRUE	TRUE		
+ri9WkdRrTvaRgjAbd	Spanish	feedback	basicSuffType1	bathrobe	clothing	gloves	clothing	1	34	camisa de hombre	camisa de hombre		dressShirt	1	FALSE	FALSE	FALSE	TRUE	FALSE		
+ri9WkdRrTvaRgjAbd	Spanish	feedback	basicSuffType1	pottedPlant	plant	ivy	plant	1	37	rosa	rosa		rose	1	TRUE	FALSE	FALSE	TRUE	FALSE		
+ri9WkdRrTvaRgjAbd	Spanish	feedback	basicSuffType1	hamster	animal	fish	animal	1	41	dalmata	dalmata		dalmatian	1	FALSE	FALSE	FALSE	TRUE	FALSE		
+ri9WkdRrTvaRgjAbd	Spanish	feedback	basicSuffType1	cow	animal	sheep	animal	1	47	panda	panda		pandaBear	1	FALSE	FALSE	FALSE	TRUE	FALSE		
+ri9WkdRrTvaRgjAbd	Spanish	feedback	basicSuffType1	ivy	plant	rosemary	plant	1	58	girasol	girasol		sunflower	1	FALSE	FALSE	FALSE	TRUE	FALSE		
+ri9WkdRrTvaRgjAbd	Spanish	feedback	basicSuffType1	sheep	animal	fish	animal	1	65	oso	oso		polarBear	1	FALSE	FALSE	FALSE	TRUE	FALSE		
+v2J2BjboP65oSJMoy	Spanish	feedback	basicSuffType2	horse	animal	bathrobe	clothing	1	1	white o blanco	white o blanco		polarBear	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+v2J2BjboP65oSJMoy	Spanish	feedback	basicSuffType2	snake	animal	bed	furniture	1	21	hummingbird	hummingbird		hummingBird	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+v2J2BjboP65oSJMoy	Spanish	feedback	basicSuffType2	elephant	animal	dress	clothing	1	22	clown fish	clown fish		clownFish	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+v2J2BjboP65oSJMoy	Spanish	feedback	basicSuffType2	bison	animal	pretzels	snack	1	25	bear	bear		blackBear	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+v2J2BjboP65oSJMoy	Spanish	feedback	basicSuffType2	ambulance	vehicle	ivy	plant	1	29	car	car		sportsCar	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+v2J2BjboP65oSJMoy	Spanish	feedback	basicSuffType2	hamster	animal	shirt	clothing	1	46	parrot	parrot		parrot	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+v2J2BjboP65oSJMoy	Spanish	feedback	basicSuffType2	squirrel	animal	shirt	clothing	1	47	bear	bear		grizzlyBear	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+v2J2BjboP65oSJMoy	Spanish	feedback	basicSuffType2	cow	animal	candy	snack	1	67	swordfish	swordfish		swordFish	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+v2J2BjboP65oSJMoy	Spanish	feedback	basicSuffType2	popcorn	snack	horse	animal	1	70	mand ms	mand ms		mnMs	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+8NHcSDdWKk5ax3mAb	Spanish	feedback	basicSuffType2	socks	clothing	pottedPlant	plant	1	8	shirt	shirt		tShirt	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+8NHcSDdWKk5ax3mAb	Spanish	feedback	basicSuffType2	pottedPlant	plant	gloves	clothing	1	12	sunflower	sunflower		sunflower	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+8NHcSDdWKk5ax3mAb	Spanish	feedback	basicSuffType2	squirrel	animal	chips	snack	1	13	bird	bird		hummingBird	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+8NHcSDdWKk5ax3mAb	Spanish	feedback	basicSuffType2	pig	animal	bookcase	furniture	1	14	bird	bird		parrot	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+8NHcSDdWKk5ax3mAb	Spanish	feedback	basicSuffType2	lion	animal	grasses	plant	1	21	fish	fish		swordFish	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+8NHcSDdWKk5ax3mAb	Spanish	feedback	basicSuffType2	bison	animal	lamp	furniture	1	31	bear	bear		grizzlyBear	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+8NHcSDdWKk5ax3mAb	Spanish	feedback	basicSuffType2	fish	animal	lamp	furniture	1	51	dog	dog		dalmatian	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+8NHcSDdWKk5ax3mAb	Spanish	feedback	basicSuffType2	sheep	animal	dress	clothing	1	65	bear	bear		blackBear	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+8NHcSDdWKk5ax3mAb	Spanish	feedback	basicSuffType2	pottedPlant	plant	candy	snack	1	66	red flower	red flower		rose	1	TRUE	FALSE	TRUE	FALSE	FALSE	0	
+8NHcSDdWKk5ax3mAb	Spanish	feedback	basicSuffType2	rosemary	plant	train	vehicle	1	68	white flower	white flower		daisy	1	TRUE	FALSE	TRUE	FALSE	FALSE	0	
+TXdqz7vwbJSeKpJHS	Spanish	feedback	basicSuffType2	lobster	animal	car	vehicle	1	17	animal grande de cuatro patas	animal grande de cuatro patas		pandaBear	1	FALSE	TRUE	FALSE	FALSE	FALSE	0	type?
+TXdqz7vwbJSeKpJHS	Spanish	feedback	basicSuffType2	bathrobe	clothing	grasses	plant	1	19	manga corta, color azul	manga corta, color azul		poloShirt	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	type?
+TXdqz7vwbJSeKpJHS	Spanish	feedback	basicSuffType2	bathrobe	clothing	ivy	plant	1	29	manga corta	manga corta		hawaiiShirt	1	FALSE	FALSE	FALSE	FALSE	FALSE	0	type?
+TXdqz7vwbJSeKpJHS	Spanish	feedback	basicSuffType2	ivy	plant	snake	animal	1	33	flor blanca y amarilla	flor blanca y amarilla		daisy	1	TRUE	FALSE	TRUE	FALSE	FALSE	0	
+TXdqz7vwbJSeKpJHS	Spanish	feedback	basicSuffType2	lobster	animal	ivy	plant	1	34	naranja	naranja		goldFish	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+TXdqz7vwbJSeKpJHS	Spanish	feedback	basicSuffType2	pottedPlant	plant	candy	snack	1	40	planta, amarilla	planta, amarilla		sunflower	1	TRUE	FALSE	TRUE	FALSE	FALSE	0	type?
+TXdqz7vwbJSeKpJHS	Spanish	feedback	basicSuffType2	iguana	animal	ivy	plant	1	49	vuela	vuela		eagle	1	FALSE	FALSE	FALSE	FALSE	FALSE	0	
+TXdqz7vwbJSeKpJHS	Spanish	feedback	basicSuffType2	fish	animal	chips	snack	1	50	cuatro patas	cuatro patas		germanShepherd	1	FALSE	FALSE	FALSE	FALSE	FALSE	0	
+D5sTSEMaXM7y3Q7AW	Spanish	feedback	basicSuffType2	hamster	animal	rosemary	plant	1	1	es grande	es grande		polarBear	1	FALSE	TRUE	FALSE	FALSE	FALSE	0	
+D5sTSEMaXM7y3Q7AW	Spanish	feedback	basicSuffType2	horse	animal	ivy	plant	1	7	mejor amigo del hombre	mejor amigo del hombre		germanShepherd	1	FALSE	FALSE	FALSE	FALSE	FALSE	0	
+D5sTSEMaXM7y3Q7AW	Spanish	feedback	basicSuffType2	gloves	clothing	firetruck	vehicle	1	8	para lucir elegante	para lucir elegante		dressShirt	1	FALSE	FALSE	FALSE	FALSE	FALSE	0	
+D5sTSEMaXM7y3Q7AW	Spanish	feedback	basicSuffType2	dog	animal	bathrobe	clothing	1	14	en los lagos	en los lagos		catfish	1	FALSE	FALSE	FALSE	FALSE	FALSE	0	
+D5sTSEMaXM7y3Q7AW	Spanish	feedback	basicSuffType2	sheep	animal	dress	clothing	1	15	puedes volar	puedes volar		parrot	1	FALSE	FALSE	FALSE	FALSE	FALSE	0	
+D5sTSEMaXM7y3Q7AW	Spanish	feedback	basicSuffType2	snake	animal	candy	snack	1	20	le gusta la nieve	le gusta la nieve		husky	1	FALSE	FALSE	FALSE	FALSE	FALSE	0	
+D5sTSEMaXM7y3Q7AW	Spanish	feedback	basicSuffType2	rosemary	plant	car	vehicle	1	27	flor	flor		sunflower	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+D5sTSEMaXM7y3Q7AW	Spanish	feedback	basicSuffType2	train	vehicle	lion	animal	1	42	4 ruedas	4 ruedas		convertible	1	FALSE	FALSE	FALSE	FALSE	FALSE	0	
+D5sTSEMaXM7y3Q7AW	Spanish	feedback	basicSuffType2	bear	animal	gloves	clothing	1	63	vuela	vuela		pigeon	1	FALSE	FALSE	FALSE	FALSE	FALSE	0	
+D5sTSEMaXM7y3Q7AW	Spanish	feedback	basicSuffType2	ivy	plant	table	furniture	1	66	roja	roja		rose	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+D5sTSEMaXM7y3Q7AW	Spanish	feedback	basicSuffType2	popcorn	snack	table	furniture	1	67	colores	colores		skittles	1	FALSE	FALSE	FALSE	FALSE	FALSE	0	
+g8tXfbQJ5w3Yo5kXq	Spanish	feedback	basicSuffType2	chips	snack	bed	furniture	1	1	son los caramelos de colores	son los caramelos de colores	soy amarillo?	jellyBeans	1	FALSE	FALSE	TRUE	FALSE	TRUE	0	
+g8tXfbQJ5w3Yo5kXq	Spanish	feedback	basicSuffType2	elephant	animal	chips	snack	1	5	es el pez	es el pez	pez?	goldFish	1	FALSE	FALSE	TRUE	FALSE	TRUE	0	
+g8tXfbQJ5w3Yo5kXq	Spanish	feedback	basicSuffType2	wardrobe	furniture	firetruck	vehicle	1	12	mesa	mesa	bombero?	coffeeTable	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+g8tXfbQJ5w3Yo5kXq	Spanish	feedback	basicSuffType2	chips	snack	train	vehicle	1	22	caramelos de colores	caramelos de colores	tren?	skittles	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+g8tXfbQJ5w3Yo5kXq	Spanish	feedback	basicSuffType2	pig	animal	rosemary	plant	1	24	paloma	paloma	cerdo?	pigeon	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+g8tXfbQJ5w3Yo5kXq	Spanish	feedback	basicSuffType2	pottedPlant	plant	rabbit	animal	1	25	flor	flor	flor?	tulip	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+g8tXfbQJ5w3Yo5kXq	Spanish	feedback	basicSuffType2	gloves	clothing	car	vehicle	1	33	camisa azul	camisa azul	camisa?	poloShirt	1	TRUE	FALSE	TRUE	FALSE	FALSE	0	got to here
+g8tXfbQJ5w3Yo5kXq	Spanish	feedback	basicSuffType2	rhino	animal	chips	snack	1	40	pez payaso__yes	pez payaso	nemo?	clownFish	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+g8tXfbQJ5w3Yo5kXq	Spanish	feedback	basicSuffType2	sheep	animal	ambulance	vehicle	1	47	oso panda	oso panda	oso?	pandaBear	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+g8tXfbQJ5w3Yo5kXq	Spanish	feedback	basicSuffType2	train	vehicle	table	furniture	1	50	coche	coche	mesa?	sportsCar	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+g8tXfbQJ5w3Yo5kXq	Spanish	feedback	basicSuffType2	rhino	animal	bed	furniture	1	60	perro	perro	perro?	husky	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+g8tXfbQJ5w3Yo5kXq	Spanish	feedback	basicSuffType2	snake	animal	firetruck	vehicle	1	70	oso polar	oso polar	oso,	polarBear	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+Drac2QY2EJGirNSty	Spanish	feedback	basicSuffType2	pig	animal	candy	snack	1	4	oso negro	oso negro		blackBear	1	TRUE	FALSE	TRUE	FALSE	FALSE	0	
+Drac2QY2EJGirNSty	Spanish	feedback	basicSuffType2	rabbit	animal	gloves	clothing	1	6	lobo	lobo		husky	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+Drac2QY2EJGirNSty	Spanish	feedback	basicSuffType2	gloves	clothing	bed	furniture	1	19	camisa	camisa		hawaiiShirt	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+Drac2QY2EJGirNSty	Spanish	feedback	basicSuffType2	crocodile	animal	chips	snack	1	26	oso panda	oso panda		pandaBear	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+Drac2QY2EJGirNSty	Spanish	feedback	basicSuffType2	cow	animal	pretzels	snack	1	30	perro	perro		germanShepherd	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+Drac2QY2EJGirNSty	Spanish	feedback	basicSuffType2	cookies	snack	pig	animal	1	33	m&m	m&m		mnMs	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+Drac2QY2EJGirNSty	Spanish	feedback	basicSuffType2	rosemary	plant	chips	snack	1	40	rosa	rosa		rose	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+Drac2QY2EJGirNSty	Spanish	feedback	basicSuffType2	cookies	snack	cow	animal	1	62	gominolas	gominolas		gummyBears	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+Drac2QY2EJGirNSty	Spanish	feedback	basicSuffType2	crocodile	animal	flower	plant	1	67	loro__guacamayo__pajaro	loro	como?	parrot	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+ncA5wQm2wMWx6Qw4m	Spanish	feedback	basicSuffType2	cow	animal	grasses	plant	1	7	el oso polar	el oso polar		polarBear	1	FALSE	FALSE	TRUE	FALSE	TRUE	0	
+ncA5wQm2wMWx6Qw4m	Spanish	feedback	basicSuffType2	bear	animal	rosemary	plant	1	24	pez payaso	pez payaso		clownFish	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+ncA5wQm2wMWx6Qw4m	Spanish	feedback	basicSuffType2	lamp	furniture	bird	animal	1	33	buró con cajones	buró con cajones		bedsideTable	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+ncA5wQm2wMWx6Qw4m	Spanish	feedback	basicSuffType2	dress	clothing	cookies	snack	1	44	camisa botones	camisa botones		dressShirt	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+ncA5wQm2wMWx6Qw4m	Spanish	feedback	basicSuffType2	kitten	animal	car	vehicle	1	67	oso negro	oso negro		blackBear	1	TRUE	FALSE	TRUE	FALSE	FALSE	0	
+RdyH6CPjXhDjFiBn6	Spanish	feedback	basicSuffType2	grasses	plant	chips	snack	1	6	flor blanca	flor blanca		daisy	1	TRUE	FALSE	TRUE	FALSE	FALSE	0	
+RdyH6CPjXhDjFiBn6	Spanish	feedback	basicSuffType2	train	vehicle	lamp	furniture	1	29	coche	coche		sportsCar	1	FALSE	FALSE	FALSE	TRUE	FALSE		
+RdyH6CPjXhDjFiBn6	Spanish	feedback	basicSuffType2	train	vehicle	pretzels	snack	1	44	coche	coche		convertible	1	FALSE	FALSE	FALSE	TRUE	FALSE		
+RdyH6CPjXhDjFiBn6	Spanish	feedback	basicSuffType2	bookcase	furniture	cookies	snack	1	53	buró	buró		bedsideTable	1	FALSE	FALSE	FALSE	TRUE	FALSE		
+RdyH6CPjXhDjFiBn6	Spanish	feedback	basicSuffType2	train	vehicle	snake	animal	1	59	camioneta	camioneta		suv	1	FALSE	FALSE	FALSE	TRUE	FALSE		
+ri9WkdRrTvaRgjAbd	Spanish	feedback	basicSuffType2	iguana	animal	chips	snack	1	8	bagre	bagre		catfish	1	FALSE	FALSE	FALSE	TRUE	FALSE		
+ri9WkdRrTvaRgjAbd	Spanish	feedback	basicSuffType2	bookcase	furniture	gloves	clothing	1	12	mesa	mesa		picnicTable	1	FALSE	FALSE	FALSE	TRUE	FALSE		
+ri9WkdRrTvaRgjAbd	Spanish	feedback	basicSuffType2	lamp	furniture	fish	animal	1	17	mesa	mesa		coffeeTable	1	FALSE	FALSE	FALSE	TRUE	FALSE		
+ri9WkdRrTvaRgjAbd	Spanish	feedback	basicSuffType2	crocodile	animal	pottedPlant	plant	1	30	oso	oso		grizzlyBear	1	FALSE	FALSE	FALSE	TRUE	FALSE		
+ri9WkdRrTvaRgjAbd	Spanish	feedback	basicSuffType2	wardrobe	furniture	ambulance	vehicle	1	43	cajonera	cajonera		bedsideTable	1	FALSE	FALSE	FALSE	TRUE	FALSE		
+ri9WkdRrTvaRgjAbd	Spanish	feedback	basicSuffType2	grasses	plant	elephant	animal	1	45	flor	flor		tulip	1	FALSE	FALSE	TRUE	TRUE	FALSE		
+ri9WkdRrTvaRgjAbd	Spanish	feedback	basicSuffType2	dress	clothing	motorcycle	vehicle	1	55	floreada	floreada		hawaiiShirt	1	FALSE	FALSE	TRUE	TRUE	FALSE		
+ri9WkdRrTvaRgjAbd	Spanish	feedback	basicSuffType2	cow	animal	gloves	clothing	1	59	pez	pez		goldFish	1	FALSE	FALSE	FALSE	TRUE	FALSE		
+ri9WkdRrTvaRgjAbd	Spanish	feedback	basicSuffType2	dress	clothing	pottedPlant	plant	1	63	polo azul	polo azul		poloShirt	1	TRUE	FALSE	FALSE	TRUE	FALSE		
+v2J2BjboP65oSJMoy	Spanish	feedback	color21	NA	NA	NA	NA	1	5	light brown o cafe claro	light brown o cafe claro		small_brown_belt	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+v2J2BjboP65oSJMoy	Spanish	feedback	color21	NA	NA	NA	NA	1	10	white o blanco	white o blanco		small_white_phone	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+8NHcSDdWKk5ax3mAb	Spanish	feedback	color21	NA	NA	NA	NA	1	34	brown belt	brown belt		big_brown_belt	1	TRUE	FALSE	TRUE	FALSE	FALSE	0	
+8NHcSDdWKk5ax3mAb	Spanish	feedback	color21	NA	NA	NA	NA	1	61	pink	pink		big_pink_hairdryer	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+TXdqz7vwbJSeKpJHS	Spanish	feedback	color21	NA	NA	NA	NA	1	46	marron claro	marron claro		small_brown_belt	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+TXdqz7vwbJSeKpJHS	Spanish	feedback	color21	NA	NA	NA	NA	1	59	azul	azul		big_blue_tack	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+D5sTSEMaXM7y3Q7AW	Spanish	feedback	color21	NA	NA	NA	NA	1	23	diferente color	diferente color		big_blue_butterfly	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	color?
+D5sTSEMaXM7y3Q7AW	Spanish	feedback	color21	NA	NA	NA	NA	1	48	color diferente	color diferente		small_white_pingpongball	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	color?
+g8tXfbQJ5w3Yo5kXq	Spanish	feedback	color21	NA	NA	NA	NA	1	18	lana morada	lana morada	violeta?	small_purple_yarn	1	TRUE	FALSE	TRUE	FALSE	FALSE	0	
+g8tXfbQJ5w3Yo5kXq	Spanish	feedback	color21	NA	NA	NA	NA	1	64	rosa	rosa	ok	big_pink_balloon	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+Drac2QY2EJGirNSty	Spanish	feedback	color21	NA	NA	NA	NA	1	15	pimiento amarillo	pimiento amarillo		small_yellow_bellpepper	1	TRUE	FALSE	TRUE	FALSE	FALSE	0	
+Drac2QY2EJGirNSty	Spanish	feedback	color21	NA	NA	NA	NA	1	24	secador morado	secador morado		small_purple_hairdryer	1	TRUE	FALSE	TRUE	FALSE	FALSE	0	
+ncA5wQm2wMWx6Qw4m	Spanish	feedback	color21	NA	NA	NA	NA	1	41	azul	azul		big_blue_cap	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+ncA5wQm2wMWx6Qw4m	Spanish	feedback	color21	NA	NA	NA	NA	1	42	rosa	rosa		small_pink_teacup	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+RdyH6CPjXhDjFiBn6	Spanish	feedback	color21	NA	NA	NA	NA	1	33	flor roja	flor roja		big_red_flower	1	TRUE	FALSE	TRUE	FALSE	FALSE	0	
+RdyH6CPjXhDjFiBn6	Spanish	feedback	color21	NA	NA	NA	NA	1	39	chamarra verde	chamarra verde		small_green_jacket	1	TRUE	FALSE	TRUE	FALSE	FALSE	0	
+ri9WkdRrTvaRgjAbd	Spanish	feedback	color21	NA	NA	NA	NA	1	32	amarillenta	amarillenta		big_tan_rock	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+ri9WkdRrTvaRgjAbd	Spanish	feedback	color21	NA	NA	NA	NA	1	71	morada	morada		big_purple_flower	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+v2J2BjboP65oSJMoy	Spanish	feedback	color22	NA	NA	NA	NA	1	58	black	black		big_black_comb	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+v2J2BjboP65oSJMoy	Spanish	feedback	color22	NA	NA	NA	NA	1	71	blue	blue		big_blue_cap	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+8NHcSDdWKk5ax3mAb	Spanish	feedback	color22	NA	NA	NA	NA	1	44	orange	orange		big_orange_cushion	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+8NHcSDdWKk5ax3mAb	Spanish	feedback	color22	NA	NA	NA	NA	1	72	red	red	:)	big_red_candle	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+TXdqz7vwbJSeKpJHS	Spanish	feedback	color22	NA	NA	NA	NA	1	31	rojo	rojo		small_red_bellpepper	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+TXdqz7vwbJSeKpJHS	Spanish	feedback	color22	NA	NA	NA	NA	1	32	amarillo	amarillo		small_yellow_balloon	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+D5sTSEMaXM7y3Q7AW	Spanish	feedback	color22	NA	NA	NA	NA	1	24	diferente color	diferente color		small_blue_cap	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	color?
+D5sTSEMaXM7y3Q7AW	Spanish	feedback	color22	NA	NA	NA	NA	1	52	color	color		small_white_shoe	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	color?
+g8tXfbQJ5w3Yo5kXq	Spanish	feedback	color22	NA	NA	NA	NA	1	31	rojo	rojo	rojo?	small_red_toothbrush	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+g8tXfbQJ5w3Yo5kXq	Spanish	feedback	color22	NA	NA	NA	NA	1	54	verde	verde	verde?	small_green_framee	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+Drac2QY2EJGirNSty	Spanish	feedback	color22	NA	NA	NA	NA	1	10	bola blanca	bola blanca		small_white_pingpongball	1	TRUE	FALSE	TRUE	FALSE	FALSE	0	
+Drac2QY2EJGirNSty	Spanish	feedback	color22	NA	NA	NA	NA	1	23	el blanco	el blanco		small_white_phone	1	TRUE	FALSE	FALSE	FALSE	TRUE	0	
+ncA5wQm2wMWx6Qw4m	Spanish	feedback	color22	NA	NA	NA	NA	1	13	azul	azul		small_blue_cushion	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+ncA5wQm2wMWx6Qw4m	Spanish	feedback	color22	NA	NA	NA	NA	1	19	rojo	rojo		small_red_scarf	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+RdyH6CPjXhDjFiBn6	Spanish	feedback	color22	NA	NA	NA	NA	1	7	globo rosa	globo rosa		big_pink_balloon	1	TRUE	FALSE	TRUE	FALSE	FALSE	0	
+RdyH6CPjXhDjFiBn6	Spanish	feedback	color22	NA	NA	NA	NA	1	19	zapato gris	zapato gris		big_white_shoe	1	TRUE	FALSE	TRUE	FALSE	FALSE	0	
+ri9WkdRrTvaRgjAbd	Spanish	feedback	color22	NA	NA	NA	NA	1	5	roja	roja		big_red_candle	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+ri9WkdRrTvaRgjAbd	Spanish	feedback	color22	NA	NA	NA	NA	1	38	roja	roja		small_red_scarf	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+v2J2BjboP65oSJMoy	Spanish	feedback	color31	NA	NA	NA	NA	1	57	purple	purple		small_purple_flower	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+v2J2BjboP65oSJMoy	Spanish	feedback	color31	NA	NA	NA	NA	1	64	blue	blue		small_blue_binder	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+8NHcSDdWKk5ax3mAb	Spanish	feedback	color31	NA	NA	NA	NA	1	57	small red	small red		small_red_bucket	1	TRUE	TRUE	FALSE	FALSE	FALSE	0	
+8NHcSDdWKk5ax3mAb	Spanish	feedback	color31	NA	NA	NA	NA	1	64	pink	pink		small_purple_bike	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+TXdqz7vwbJSeKpJHS	Spanish	feedback	color31	NA	NA	NA	NA	1	13	el de color distinto	el de color distinto		big_pink_bucket	1	TRUE	FALSE	FALSE	FALSE	TRUE	0	color?
+TXdqz7vwbJSeKpJHS	Spanish	feedback	color31	NA	NA	NA	NA	1	57	morado, la mas grande	morado, la mas grande		big_purple_rug	1	TRUE	TRUE	FALSE	FALSE	TRUE	0	
+D5sTSEMaXM7y3Q7AW	Spanish	feedback	color31	NA	NA	NA	NA	1	18	diferente color	diferente color		big_purple_stapler	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	color?
+D5sTSEMaXM7y3Q7AW	Spanish	feedback	color31	NA	NA	NA	NA	1	19	diferente color	diferente color		big_red_pepper	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	color?
+g8tXfbQJ5w3Yo5kXq	Spanish	feedback	color31	NA	NA	NA	NA	1	11	zapato amarillo	zapato amarillo	amarillo?	big_yellow_shoe	1	TRUE	FALSE	TRUE	FALSE	FALSE	0	
+g8tXfbQJ5w3Yo5kXq	Spanish	feedback	color31	NA	NA	NA	NA	1	56	naranja	naranja	naranja?	big_orange_coathanger	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+Drac2QY2EJGirNSty	Spanish	feedback	color31	NA	NA	NA	NA	1	9	cepillo rohjo__rojo	cepillo rohjo	vale	big_red_toothbrush	1	TRUE	FALSE	TRUE	FALSE	FALSE	0	
+Drac2QY2EJGirNSty	Spanish	feedback	color31	NA	NA	NA	NA	1	55	el azul	el azul		big_blue_tack	1	TRUE	FALSE	FALSE	FALSE	TRUE	0	
+ncA5wQm2wMWx6Qw4m	Spanish	feedback	color31	NA	NA	NA	NA	1	4	naranja	naranja		big_orange_napkin	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+ncA5wQm2wMWx6Qw4m	Spanish	feedback	color31	NA	NA	NA	NA	1	16	morado	morado		big_purple_bracelet	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+RdyH6CPjXhDjFiBn6	Spanish	feedback	color31	NA	NA	NA	NA	1	41	pimiento rojo	pimiento rojo		big_red_bellpepper	1	TRUE	FALSE	TRUE	FALSE	FALSE	0	
+RdyH6CPjXhDjFiBn6	Spanish	feedback	color31	NA	NA	NA	NA	1	49	teléfono rosa	teléfono rosa		big_pink_phone	1	TRUE	FALSE	TRUE	FALSE	FALSE	0	
+ri9WkdRrTvaRgjAbd	Spanish	feedback	color31	NA	NA	NA	NA	1	7	morada	morada		small_pink_bucket	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+ri9WkdRrTvaRgjAbd	Spanish	feedback	color31	NA	NA	NA	NA	1	26	naranja	naranja		small_orange_cap	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+v2J2BjboP65oSJMoy	Spanish	feedback	color32	NA	NA	NA	NA	1	14	purple o morado	purple o morado		small_purple_hairdryer	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+v2J2BjboP65oSJMoy	Spanish	feedback	color32	NA	NA	NA	NA	1	51	yellow	yellow		small_yellow_bellpepper	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+8NHcSDdWKk5ax3mAb	Spanish	feedback	color32	NA	NA	NA	NA	1	38	orange	orange		small_orange_coathanger	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+8NHcSDdWKk5ax3mAb	Spanish	feedback	color32	NA	NA	NA	NA	1	69	orange	orange		small_orange_cap	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+TXdqz7vwbJSeKpJHS	Spanish	feedback	color32	NA	NA	NA	NA	1	45	naranja	naranja		big_orange_coathanger	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+TXdqz7vwbJSeKpJHS	Spanish	feedback	color32	NA	NA	NA	NA	1	62	verde	verde		big_green_framee	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+D5sTSEMaXM7y3Q7AW	Spanish	feedback	color32	NA	NA	NA	NA	1	4	eres diferente	eres diferente		big_pink_bucket	1	FALSE	FALSE	FALSE	FALSE	FALSE	0	
+D5sTSEMaXM7y3Q7AW	Spanish	feedback	color32	NA	NA	NA	NA	1	32	color	color		big_red_scarf	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	color?
+g8tXfbQJ5w3Yo5kXq	Spanish	feedback	color32	NA	NA	NA	NA	1	8	collar morado	collar morado	violeta?	big_purple_bracelet	1	TRUE	FALSE	TRUE	FALSE	FALSE	0	
+g8tXfbQJ5w3Yo5kXq	Spanish	feedback	color32	NA	NA	NA	NA	1	68	azul	azul	azul?	big_blue_binder	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+Drac2QY2EJGirNSty	Spanish	feedback	color32	NA	NA	NA	NA	1	2	cuadro rosa	cuadro rosa		small_pink_framee	1	TRUE	FALSE	TRUE	FALSE	FALSE	0	
+Drac2QY2EJGirNSty	Spanish	feedback	color32	NA	NA	NA	NA	1	3	guitarra azul	guitarra azul		small_blue_guitar	1	TRUE	FALSE	TRUE	FALSE	FALSE	0	
+ncA5wQm2wMWx6Qw4m	Spanish	feedback	color32	NA	NA	NA	NA	1	30	verde	verde		small_green_pepper	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+ncA5wQm2wMWx6Qw4m	Spanish	feedback	color32	NA	NA	NA	NA	1	64	íbamos bien jaja tortuga café	íbamos bien jaja tortuga café		small_brown_turtle	1	TRUE	FALSE	TRUE	FALSE	FALSE	0	
+RdyH6CPjXhDjFiBn6	Spanish	feedback	color32	NA	NA	NA	NA	1	15	tortuga verde claro	tortuga verde claro		big_brown_turtle	1	TRUE	FALSE	TRUE	FALSE	FALSE	0	color mentioned was green
+RdyH6CPjXhDjFiBn6	Spanish	feedback	color32	NA	NA	NA	NA	1	71	piedra gris	piedra gris		small_grey_rock	1	TRUE	FALSE	TRUE	FALSE	FALSE	0	
+ri9WkdRrTvaRgjAbd	Spanish	feedback	color32	NA	NA	NA	NA	1	9	blanco	blanco		big_white_phone	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+ri9WkdRrTvaRgjAbd	Spanish	feedback	color32	NA	NA	NA	NA	1	28	naranja	naranja		big_orange_pingpongball	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+v2J2BjboP65oSJMoy	Spanish	feedback	color33	NA	NA	NA	NA	1	20	brown	brown		small_brown_jacket	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+v2J2BjboP65oSJMoy	Spanish	feedback	color33	NA	NA	NA	NA	1	68	yellow	yellow		small_orange_pingpongball	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+8NHcSDdWKk5ax3mAb	Spanish	feedback	color33	NA	NA	NA	NA	1	17	white	white		big_white_shoe	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+8NHcSDdWKk5ax3mAb	Spanish	feedback	color33	NA	NA	NA	NA	1	45	pink	pink		small_pink_balloon	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+TXdqz7vwbJSeKpJHS	Spanish	feedback	color33	NA	NA	NA	NA	1	2	para lavarse los dientes__color azul__se usa con pasta de dientes__se usa todos los dias	para lavarse los dientes		small_blue_toothbrush	1	FALSE	FALSE	FALSE	FALSE	FALSE	0	
+TXdqz7vwbJSeKpJHS	Spanish	feedback	color33	NA	NA	NA	NA	1	15	el de color distinto	el de color distinto		big_orange_napkin	1	TRUE	FALSE	FALSE	FALSE	TRUE	0	color?
+D5sTSEMaXM7y3Q7AW	Spanish	feedback	color33	NA	NA	NA	NA	1	41	negro	negro		big_black_turtle	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+D5sTSEMaXM7y3Q7AW	Spanish	feedback	color33	NA	NA	NA	NA	1	59	color	color		big_green_framee	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	color?
+g8tXfbQJ5w3Yo5kXq	Spanish	feedback	color33	NA	NA	NA	NA	1	6	roca amarilla	roca amarilla	amarilla?	big_tan_rock	1	TRUE	FALSE	TRUE	FALSE	FALSE	0	
+g8tXfbQJ5w3Yo5kXq	Spanish	feedback	color33	NA	NA	NA	NA	1	57	rosa	rosa	rosa?	small_pink_weddingcake	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+Drac2QY2EJGirNSty	Spanish	feedback	color33	NA	NA	NA	NA	1	1	cojin naranja	cojin naranja		big_orange_cushion	1	TRUE	FALSE	TRUE	FALSE	FALSE	0	
+Drac2QY2EJGirNSty	Spanish	feedback	color33	NA	NA	NA	NA	1	37	servilleta naranja	servilleta naranja		small_orange_napkin	1	TRUE	FALSE	TRUE	FALSE	FALSE	0	
+ncA5wQm2wMWx6Qw4m	Spanish	feedback	color33	NA	NA	NA	NA	1	22	azul	azul		big_blue_toothbrush	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+ncA5wQm2wMWx6Qw4m	Spanish	feedback	color33	NA	NA	NA	NA	1	69	verde	verde		big_green_chair	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+RdyH6CPjXhDjFiBn6	Spanish	feedback	color33	NA	NA	NA	NA	1	16	color morado	color morado		big_purple_yarn	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+RdyH6CPjXhDjFiBn6	Spanish	feedback	color33	NA	NA	NA	NA	1	65	chile rojo	chile rojo		small_red_pepper	1	TRUE	FALSE	TRUE	FALSE	FALSE	0	
+ri9WkdRrTvaRgjAbd	Spanish	feedback	color33	NA	NA	NA	NA	1	57	roja	roja		small_red_yarn	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+ri9WkdRrTvaRgjAbd	Spanish	feedback	color33	NA	NA	NA	NA	1	66	rojo	rojo		big_red_tack	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+v2J2BjboP65oSJMoy	Spanish	feedback	color41	NA	NA	NA	NA	1	50	smaller__yellow	smaller		small_yellow_napkin	1	FALSE	TRUE	FALSE	FALSE	FALSE	0	
+v2J2BjboP65oSJMoy	Spanish	feedback	color41	NA	NA	NA	NA	1	63	pink	pink		big_pink_balloon	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+8NHcSDdWKk5ax3mAb	Spanish	feedback	color41	NA	NA	NA	NA	1	19	blue	blue		big_blue_comb	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+8NHcSDdWKk5ax3mAb	Spanish	feedback	color41	NA	NA	NA	NA	1	30	grey rock	grey rock		big_grey_rock	1	TRUE	FALSE	TRUE	FALSE	FALSE	0	
+TXdqz7vwbJSeKpJHS	Spanish	feedback	color41	NA	NA	NA	NA	5	1	para abrigarte el cuello cuando hace frio__es decolor azul__tamaño pequeño	para abrigarte el cuello cuando hace frio		big_red_scarf	0	FALSE	FALSE	FALSE	FALSE	FALSE	0	
+TXdqz7vwbJSeKpJHS	Spanish	feedback	color41	NA	NA	NA	NA	1	35	el mas grande, marron	el mas grande, marron		big_black_comb	1	TRUE	TRUE	FALSE	FALSE	TRUE	0	
+D5sTSEMaXM7y3Q7AW	Spanish	feedback	color41	NA	NA	NA	NA	1	5	no eres peculiar	no eres peculiar		big_purple_bike	1	FALSE	FALSE	FALSE	FALSE	FALSE	0	
+D5sTSEMaXM7y3Q7AW	Spanish	feedback	color41	NA	NA	NA	NA	1	50	color	color		small_tan_rock	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	color?
+g8tXfbQJ5w3Yo5kXq	Spanish	feedback	color41	NA	NA	NA	NA	1	48	pimiento verde	pimiento verde	verde?	big_green_pepper	1	TRUE	FALSE	TRUE	FALSE	FALSE	0	
+g8tXfbQJ5w3Yo5kXq	Spanish	feedback	color41	NA	NA	NA	NA	1	66	roja pequeña	roja pequeña	rojo?	small_red_bike	1	TRUE	TRUE	FALSE	FALSE	FALSE	0	
+Drac2QY2EJGirNSty	Spanish	feedback	color41	NA	NA	NA	NA	1	22	pulsera verde	pulsera verde		small_green_bracelet	1	TRUE	FALSE	TRUE	FALSE	FALSE	0	
+Drac2QY2EJGirNSty	Spanish	feedback	color41	NA	NA	NA	NA	1	54	la tarta rosa	la tarta rosa		small_pink_weddingcake	1	TRUE	FALSE	TRUE	FALSE	TRUE	0	
+ncA5wQm2wMWx6Qw4m	Spanish	feedback	color41	NA	NA	NA	NA	1	55	rosa	rosa		small_pink_framee	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+ncA5wQm2wMWx6Qw4m	Spanish	feedback	color41	NA	NA	NA	NA	1	65	naranja	naranja		big_orange_pingpongball	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+RdyH6CPjXhDjFiBn6	Spanish	feedback	color41	NA	NA	NA	NA	1	14	secador rosa	secador rosa		big_pink_hairdryer	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+RdyH6CPjXhDjFiBn6	Spanish	feedback	color41	NA	NA	NA	NA	1	70	cubeta roja	cubeta roja		small_red_bucket	1	TRUE	FALSE	TRUE	FALSE	FALSE	0	
+ri9WkdRrTvaRgjAbd	Spanish	feedback	color41	NA	NA	NA	NA	1	49	rosa	rosa		big_pink_weddingcake	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+ri9WkdRrTvaRgjAbd	Spanish	feedback	color41	NA	NA	NA	NA	1	69	roja	roja		small_orange_billiardball	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+v2J2BjboP65oSJMoy	Spanish	feedback	color42	NA	NA	NA	NA	1	7	blue o azul	blue o azul		big_blue_scarf	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+v2J2BjboP65oSJMoy	Spanish	feedback	color42	NA	NA	NA	NA	1	9	red o rojo	red o rojo		big_red_toothbrush	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+8NHcSDdWKk5ax3mAb	Spanish	feedback	color42	NA	NA	NA	NA	1	4	red	red		big_red_bellpepper	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+8NHcSDdWKk5ax3mAb	Spanish	feedback	color42	NA	NA	NA	NA	1	10	black turtle	black turtle		big_black_turtle	1	TRUE	FALSE	TRUE	FALSE	FALSE	0	
+TXdqz7vwbJSeKpJHS	Spanish	feedback	color42	NA	NA	NA	NA	1	37	blanco	blanco		small_white_weddingcake	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+TXdqz7vwbJSeKpJHS	Spanish	feedback	color42	NA	NA	NA	NA	1	65	blanco	blanco		big_white_pingpongball	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+D5sTSEMaXM7y3Q7AW	Spanish	feedback	color42	NA	NA	NA	NA	1	28	verde	verde		big_green_bracelet	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+D5sTSEMaXM7y3Q7AW	Spanish	feedback	color42	NA	NA	NA	NA	1	40	color	color		big_red_bellpepper	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	color?
+g8tXfbQJ5w3Yo5kXq	Spanish	feedback	color42	NA	NA	NA	NA	1	7	almohada naranja	almohada naranja	grande?	small_orange_cushion	1	TRUE	FALSE	TRUE	FALSE	FALSE	0	
+g8tXfbQJ5w3Yo5kXq	Spanish	feedback	color42	NA	NA	NA	NA	1	20	bufanda roja	bufanda roja	rojo?	big_red_scarf	1	TRUE	FALSE	TRUE	FALSE	FALSE	0	
+Drac2QY2EJGirNSty	Spanish	feedback	color42	NA	NA	NA	NA	1	20	alfombra morada	alfombra morada		small_purple_rug	1	TRUE	FALSE	TRUE	FALSE	FALSE	0	
+Drac2QY2EJGirNSty	Spanish	feedback	color42	NA	NA	NA	NA	1	35	libro negro	libro negro		big_black_book	1	TRUE	FALSE	TRUE	FALSE	FALSE	0	
+ncA5wQm2wMWx6Qw4m	Spanish	feedback	color42	NA	NA	NA	NA	1	23	la morada	la morada		big_purple_flower	1	TRUE	FALSE	FALSE	FALSE	TRUE	0	
+ncA5wQm2wMWx6Qw4m	Spanish	feedback	color42	NA	NA	NA	NA	1	48	café	café		big_brown_jacket	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+RdyH6CPjXhDjFiBn6	Spanish	feedback	color42	NA	NA	NA	NA	1	2	color naranja	color naranja		small_orange_coathanger	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+RdyH6CPjXhDjFiBn6	Spanish	feedback	color42	NA	NA	NA	NA	1	67	guitarra azul	guitarra azul		big_blue_guitar	1	TRUE	FALSE	TRUE	FALSE	FALSE	0	
+ri9WkdRrTvaRgjAbd	Spanish	feedback	color42	NA	NA	NA	NA	1	35	verde	verde		small_green_binder	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+ri9WkdRrTvaRgjAbd	Spanish	feedback	color42	NA	NA	NA	NA	1	56	blanca	blanca		small_white_teacup	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+v2J2BjboP65oSJMoy	Spanish	feedback	color43	NA	NA	NA	NA	1	27	green	green		big_green_guitar	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+v2J2BjboP65oSJMoy	Spanish	feedback	color43	NA	NA	NA	NA	1	54	purple	purple		small_purple_coathanger	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+8NHcSDdWKk5ax3mAb	Spanish	feedback	color43	NA	NA	NA	NA	1	26	pink	pink		small_pink_teacup	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+8NHcSDdWKk5ax3mAb	Spanish	feedback	color43	NA	NA	NA	NA	1	36	green	green		small_green_guitar	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+TXdqz7vwbJSeKpJHS	Spanish	feedback	color43	NA	NA	NA	NA	1	10	color distinto del resto	color distinto del resto		big_purple_hairdryer	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	color?
+TXdqz7vwbJSeKpJHS	Spanish	feedback	color43	NA	NA	NA	NA	1	47	morada	morada		small_purple_bike	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+D5sTSEMaXM7y3Q7AW	Spanish	feedback	color43	NA	NA	NA	NA	1	2	como las hojas en otoño	como las hojas en otoño		big_brown_jacket	1	FALSE	FALSE	FALSE	FALSE	FALSE	0	
+D5sTSEMaXM7y3Q7AW	Spanish	feedback	color43	NA	NA	NA	NA	1	71	color	color		small_pink_teacup	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	color?
+g8tXfbQJ5w3Yo5kXq	Spanish	feedback	color43	NA	NA	NA	NA	1	55	azul	azul	azul?	big_blue_cap	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+g8tXfbQJ5w3Yo5kXq	Spanish	feedback	color43	NA	NA	NA	NA	1	58	rosa	rosa	ok	big_pink_hairdryer	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+Drac2QY2EJGirNSty	Spanish	feedback	color43	NA	NA	NA	NA	1	34	gorra naranja	gorra naranja		big_orange_cap	1	TRUE	FALSE	TRUE	FALSE	FALSE	0	
+Drac2QY2EJGirNSty	Spanish	feedback	color43	NA	NA	NA	NA	1	47	peine azul	peine azul		small_blue_comb	1	TRUE	FALSE	TRUE	FALSE	FALSE	0	
+ncA5wQm2wMWx6Qw4m	Spanish	feedback	color43	NA	NA	NA	NA	1	59	piedra gris	piedra gris		big_grey_rock	1	TRUE	FALSE	TRUE	FALSE	FALSE	0	
+ncA5wQm2wMWx6Qw4m	Spanish	feedback	color43	NA	NA	NA	NA	1	71	negro	negro		big_black_book	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+RdyH6CPjXhDjFiBn6	Spanish	feedback	color43	NA	NA	NA	NA	1	5	cuadro verde	cuadro verde		big_green_framee	1	TRUE	FALSE	TRUE	FALSE	FALSE	0	
+RdyH6CPjXhDjFiBn6	Spanish	feedback	color43	NA	NA	NA	NA	1	35	gorra azul	gorra azul		small_blue_cap	1	TRUE	FALSE	TRUE	FALSE	FALSE	0	
+ri9WkdRrTvaRgjAbd	Spanish	feedback	color43	NA	NA	NA	NA	1	40	negro	negro		big_black_belt	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+ri9WkdRrTvaRgjAbd	Spanish	feedback	color43	NA	NA	NA	NA	1	46	amarillo	amarillo		big_yellow_balloon	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+v2J2BjboP65oSJMoy	Spanish	feedback	color44	NA	NA	NA	NA	1	41	pink	pink		small_pink_framee	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+v2J2BjboP65oSJMoy	Spanish	feedback	color44	NA	NA	NA	NA	1	62	purple	purple		big_purple_rug	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+8NHcSDdWKk5ax3mAb	Spanish	feedback	color44	NA	NA	NA	NA	1	6	white	white		big_white_weddingcake	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+8NHcSDdWKk5ax3mAb	Spanish	feedback	color44	NA	NA	NA	NA	1	29	red	red		small_pink_phone	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+TXdqz7vwbJSeKpJHS	Spanish	feedback	color44	NA	NA	NA	NA	1	6	color morado	color morado		small_purple_billiardball	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+TXdqz7vwbJSeKpJHS	Spanish	feedback	color44	NA	NA	NA	NA	1	61	roja	roja		big_red_flower	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+D5sTSEMaXM7y3Q7AW	Spanish	feedback	color44	NA	NA	NA	NA	1	55	color	color		big_pink_weddingcake	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	color?
+D5sTSEMaXM7y3Q7AW	Spanish	feedback	color44	NA	NA	NA	NA	1	72	color	color		big_pink_balloon	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	color?
+g8tXfbQJ5w3Yo5kXq	Spanish	feedback	color44	NA	NA	NA	NA	1	43	tortuga negra	tortuga negra	negro?	big_black_turtle	1	TRUE	FALSE	TRUE	FALSE	FALSE	0	
+g8tXfbQJ5w3Yo5kXq	Spanish	feedback	color44	NA	NA	NA	NA	1	71	morado	morado	morado?	big_purple_stapler	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+Drac2QY2EJGirNSty	Spanish	feedback	color44	NA	NA	NA	NA	1	57	el rosa	el rosa		big_pink_balloon	1	TRUE	FALSE	FALSE	FALSE	TRUE	0	
+Drac2QY2EJGirNSty	Spanish	feedback	color44	NA	NA	NA	NA	1	66	el negro__si, poco	el negro		small_black_belt	1	TRUE	FALSE	FALSE	FALSE	TRUE	0	
+ncA5wQm2wMWx6Qw4m	Spanish	feedback	color44	NA	NA	NA	NA	1	35	peine azul	peine azul		small_blue_comb	1	TRUE	FALSE	TRUE	FALSE	FALSE	0	
+ncA5wQm2wMWx6Qw4m	Spanish	feedback	color44	NA	NA	NA	NA	1	58	café	café		small_brown_belt	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+RdyH6CPjXhDjFiBn6	Spanish	feedback	color44	NA	NA	NA	NA	1	22	mariposa azul	mariposa azul		small_blue_butterfly	1	TRUE	FALSE	TRUE	FALSE	FALSE	0	
+RdyH6CPjXhDjFiBn6	Spanish	feedback	color44	NA	NA	NA	NA	1	60	folder verde	folder verde		big_green_binder	1	TRUE	FALSE	TRUE	FALSE	FALSE	0	
+ri9WkdRrTvaRgjAbd	Spanish	feedback	color44	NA	NA	NA	NA	1	19	azul	azul		big_blue_rug	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+ri9WkdRrTvaRgjAbd	Spanish	feedback	color44	NA	NA	NA	NA	1	29	negro	negro		small_black_book	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+v2J2BjboP65oSJMoy	Spanish	feedback	size21	NA	NA	NA	NA	1	34	bigger	bigger		big_purple_butterfly	1	FALSE	TRUE	FALSE	FALSE	FALSE	0	
+v2J2BjboP65oSJMoy	Spanish	feedback	size21	NA	NA	NA	NA	1	55	bigger	bigger		big_purple_bracelet	1	FALSE	TRUE	FALSE	FALSE	FALSE	0	
+8NHcSDdWKk5ax3mAb	Spanish	feedback	size21	NA	NA	NA	NA	1	41	smaal__small	smaal		small_green_framee	1	FALSE	TRUE	FALSE	FALSE	FALSE	0	
+8NHcSDdWKk5ax3mAb	Spanish	feedback	size21	NA	NA	NA	NA	1	46	big orange ball	big orange ball		big_orange_pingpongball	1	TRUE	TRUE	TRUE	FALSE	FALSE	0	
+TXdqz7vwbJSeKpJHS	Spanish	feedback	size21	NA	NA	NA	NA	1	43	el mas grande	el mas grande		big_red_chair	1	FALSE	TRUE	FALSE	FALSE	TRUE	0	
+TXdqz7vwbJSeKpJHS	Spanish	feedback	size21	NA	NA	NA	NA	1	68	la mas pequeña	la mas pequeña		small_brown_turtle	1	FALSE	TRUE	FALSE	FALSE	TRUE	0	
+D5sTSEMaXM7y3Q7AW	Spanish	feedback	size21	NA	NA	NA	NA	1	21	grande	grande		big_blue_comb	1	FALSE	TRUE	FALSE	FALSE	FALSE	0	
+D5sTSEMaXM7y3Q7AW	Spanish	feedback	size21	NA	NA	NA	NA	1	46	pequeño	pequeño		small_pink_phone	1	FALSE	TRUE	FALSE	FALSE	FALSE	0	
+g8tXfbQJ5w3Yo5kXq	Spanish	feedback	size21	NA	NA	NA	NA	1	38	pimiento rojo pequeño	pimiento rojo pequeño	amarillo?	small_red_bellpepper	1	TRUE	TRUE	TRUE	FALSE	FALSE	0	
+g8tXfbQJ5w3Yo5kXq	Spanish	feedback	size21	NA	NA	NA	NA	1	65	azul pequeño	azul pequeño	morada?	small_blue_rug	1	TRUE	TRUE	FALSE	FALSE	FALSE	0	
+Drac2QY2EJGirNSty	Spanish	feedback	size21	NA	NA	NA	NA	1	21	pañuelo azul pequeño	pañuelo azul pequeño		small_blue_scarf	1	TRUE	TRUE	TRUE	FALSE	FALSE	0	
+Drac2QY2EJGirNSty	Spanish	feedback	size21	NA	NA	NA	NA	1	41	tortuga verde pequeña	tortuga verde pequeña		small_brown_turtle	1	TRUE	TRUE	TRUE	FALSE	FALSE	0	
+ncA5wQm2wMWx6Qw4m	Spanish	feedback	size21	NA	NA	NA	NA	1	52	rosa grande	rosa grande		big_purple_butterfly	1	TRUE	TRUE	FALSE	FALSE	FALSE	0	
+ncA5wQm2wMWx6Qw4m	Spanish	feedback	size21	NA	NA	NA	NA	1	62	rosa grande	rosa grande		big_pink_balloon	1	TRUE	TRUE	FALSE	FALSE	FALSE	0	
+RdyH6CPjXhDjFiBn6	Spanish	feedback	size21	NA	NA	NA	NA	1	28	vela grande	vela grande		big_blue_candle	1	FALSE	TRUE	TRUE	FALSE	FALSE	0	
+RdyH6CPjXhDjFiBn6	Spanish	feedback	size21	NA	NA	NA	NA	1	52	cepillo pequeño	cepillo pequeño		small_black_comb	1	FALSE	TRUE	TRUE	FALSE	FALSE	0	
+ri9WkdRrTvaRgjAbd	Spanish	feedback	size21	NA	NA	NA	NA	1	22	naranja chica	naranja chica		small_orange_cushion	1	TRUE	TRUE	FALSE	FALSE	FALSE	0	
+ri9WkdRrTvaRgjAbd	Spanish	feedback	size21	NA	NA	NA	NA	1	64	rojo grande	rojo grande		big_red_pepper	1	TRUE	TRUE	FALSE	FALSE	FALSE	0	
+v2J2BjboP65oSJMoy	Spanish	feedback	size22	NA	NA	NA	NA	1	2	mas pequeño or smaller	mas pequeño or smaller		small_orange_billiardball	1	FALSE	TRUE	FALSE	FALSE	FALSE	0	
+v2J2BjboP65oSJMoy	Spanish	feedback	size22	NA	NA	NA	NA	1	12	smaller	smaller		small_blue_tack	1	FALSE	TRUE	FALSE	FALSE	FALSE	0	
+8NHcSDdWKk5ax3mAb	Spanish	feedback	size22	NA	NA	NA	NA	1	52	small	small		small_blue_binder	1	FALSE	TRUE	FALSE	FALSE	FALSE	0	
+8NHcSDdWKk5ax3mAb	Spanish	feedback	size22	NA	NA	NA	NA	1	60	small	small		small_purple_billiardball	1	FALSE	TRUE	FALSE	FALSE	FALSE	0	
+TXdqz7vwbJSeKpJHS	Spanish	feedback	size22	NA	NA	NA	NA	1	52	la mas pequeña	la mas pequeña		small_blue_guitar	1	FALSE	TRUE	FALSE	FALSE	TRUE	0	
+TXdqz7vwbJSeKpJHS	Spanish	feedback	size22	NA	NA	NA	NA	1	54	el mas pequeño	el mas pequeño		small_white_shoe	1	FALSE	TRUE	FALSE	FALSE	TRUE	0	
+D5sTSEMaXM7y3Q7AW	Spanish	feedback	size22	NA	NA	NA	NA	1	33	pequeño	pequeño		small_green_chair	1	FALSE	TRUE	FALSE	FALSE	FALSE	0	
+D5sTSEMaXM7y3Q7AW	Spanish	feedback	size22	NA	NA	NA	NA	1	64	pequeño	pequeño		small_pink_hairdryer	1	FALSE	TRUE	FALSE	FALSE	FALSE	0	
+g8tXfbQJ5w3Yo5kXq	Spanish	feedback	size22	NA	NA	NA	NA	1	2	es la sudadera más pequeña de todas	es la sudadera más pequeña de todas	pequeno?	small_brown_jacket	1	FALSE	TRUE	TRUE	FALSE	TRUE	0	
+g8tXfbQJ5w3Yo5kXq	Spanish	feedback	size22	NA	NA	NA	NA	1	15	telefono grande	telefono grande	pequeno?	big_pink_phone	1	FALSE	TRUE	TRUE	FALSE	FALSE	0	
+Drac2QY2EJGirNSty	Spanish	feedback	size22	NA	NA	NA	NA	1	48	la pequeña	la pequeña		small_brown_jacket	1	FALSE	TRUE	FALSE	FALSE	TRUE	0	
+Drac2QY2EJGirNSty	Spanish	feedback	size22	NA	NA	NA	NA	1	52	bola 5 grande	bola 5 grande		big_orange_billiardball	1	FALSE	TRUE	TRUE	FALSE	FALSE	0	
+ncA5wQm2wMWx6Qw4m	Spanish	feedback	size22	NA	NA	NA	NA	1	36	la más grande	la más grande		big_red_stapler	1	FALSE	TRUE	FALSE	FALSE	TRUE	0	
+ncA5wQm2wMWx6Qw4m	Spanish	feedback	size22	NA	NA	NA	NA	1	53	azul grande	azul grande		big_blue_rug	1	TRUE	TRUE	FALSE	FALSE	FALSE	0	
+RdyH6CPjXhDjFiBn6	Spanish	feedback	size22	NA	NA	NA	NA	1	26	pin pequeño	pin pequeño		small_blue_tack	1	FALSE	TRUE	TRUE	FALSE	FALSE	0	
+RdyH6CPjXhDjFiBn6	Spanish	feedback	size22	NA	NA	NA	NA	1	27	tapete azul (grande)	tapete azul (grande)		big_blue_rug	1	TRUE	TRUE	TRUE	FALSE	FALSE	0	
+ri9WkdRrTvaRgjAbd	Spanish	feedback	size22	NA	NA	NA	NA	1	1	el mas chico__el peine mas chiquito	el mas chico	ese?	small_blue_comb	1	FALSE	TRUE	FALSE	FALSE	TRUE	0	
+ri9WkdRrTvaRgjAbd	Spanish	feedback	size22	NA	NA	NA	NA	1	36	mas grande	mas grande		big_red_bellpepper	1	FALSE	TRUE	FALSE	FALSE	FALSE	0	
+v2J2BjboP65oSJMoy	Spanish	feedback	size31	NA	NA	NA	NA	1	37	bigger	bigger		big_red_chair	1	FALSE	TRUE	FALSE	FALSE	FALSE	0	
+v2J2BjboP65oSJMoy	Spanish	feedback	size31	NA	NA	NA	NA	1	38	bigger	bigger		big_orange_cushion	1	FALSE	TRUE	FALSE	FALSE	FALSE	0	
+8NHcSDdWKk5ax3mAb	Spanish	feedback	size31	NA	NA	NA	NA	1	24	big orange	big orange		big_orange_napkin	1	TRUE	TRUE	FALSE	FALSE	FALSE	0	
+8NHcSDdWKk5ax3mAb	Spanish	feedback	size31	NA	NA	NA	NA	1	58	small blue	small blue		small_blue_scarf	1	TRUE	TRUE	FALSE	FALSE	FALSE	0	
+TXdqz7vwbJSeKpJHS	Spanish	feedback	size31	NA	NA	NA	NA	1	18	el mas grande	el mas grande		big_grey_rock	1	FALSE	TRUE	FALSE	FALSE	TRUE	0	
+TXdqz7vwbJSeKpJHS	Spanish	feedback	size31	NA	NA	NA	NA	1	63	pequeño, azul	pequeño, azul		small_blue_cap	1	TRUE	TRUE	FALSE	FALSE	FALSE	0	
+D5sTSEMaXM7y3Q7AW	Spanish	feedback	size31	NA	NA	NA	NA	1	29	pequeño	pequeño		small_red_toothbrush	1	FALSE	TRUE	FALSE	FALSE	FALSE	0	
+D5sTSEMaXM7y3Q7AW	Spanish	feedback	size31	NA	NA	NA	NA	1	56	grande	grande		big_purple_coathanger	1	FALSE	TRUE	FALSE	FALSE	FALSE	0	
+g8tXfbQJ5w3Yo5kXq	Spanish	feedback	size31	NA	NA	NA	NA	1	32	verde grande	verde grande	verde grande?	big_green_chair	1	TRUE	TRUE	FALSE	FALSE	FALSE	0	
+g8tXfbQJ5w3Yo5kXq	Spanish	feedback	size31	NA	NA	NA	NA	1	53	negro pequeño	negro pequeño	negro peaueno?	small_black_comb	1	TRUE	TRUE	FALSE	FALSE	FALSE	0	
+Drac2QY2EJGirNSty	Spanish	feedback	size31	NA	NA	NA	NA	1	63	piedra marrón pequeña	piedra marrón pequeña		small_tan_rock	1	TRUE	TRUE	TRUE	FALSE	FALSE	0	
+Drac2QY2EJGirNSty	Spanish	feedback	size31	NA	NA	NA	NA	1	69	rosa pequelña__ña	rosa pequelña		small_pink_bucket	1	TRUE	TRUE	FALSE	FALSE	FALSE	0	
+ncA5wQm2wMWx6Qw4m	Spanish	feedback	size31	NA	NA	NA	NA	1	43	amarillo pequeño	amarillo pequeño		small_yellow_bellpepper	1	TRUE	TRUE	FALSE	FALSE	FALSE	0	
+ncA5wQm2wMWx6Qw4m	Spanish	feedback	size31	NA	NA	NA	NA	1	66	morado pequeño	morado pequeño		small_purple_billiardball	1	TRUE	TRUE	FALSE	FALSE	FALSE	0	
+RdyH6CPjXhDjFiBn6	Spanish	feedback	size31	NA	NA	NA	NA	1	42	pulsera morada (pequeña)	pulsera morada (pequeña)		small_purple_bracelet	1	TRUE	TRUE	TRUE	FALSE	FALSE	0	
+RdyH6CPjXhDjFiBn6	Spanish	feedback	size31	NA	NA	NA	NA	1	63	bici roja (grande)	bici roja (grande)		big_red_bike	1	TRUE	TRUE	TRUE	FALSE	FALSE	0	
+ri9WkdRrTvaRgjAbd	Spanish	feedback	size31	NA	NA	NA	NA	1	20	morado chico	morado chico		small_purple_coathanger	1	TRUE	TRUE	FALSE	FALSE	FALSE	0	
+ri9WkdRrTvaRgjAbd	Spanish	feedback	size31	NA	NA	NA	NA	1	68	cafe grande	cafe grande		big_brown_jacket	1	TRUE	TRUE	FALSE	FALSE	FALSE	0	
+v2J2BjboP65oSJMoy	Spanish	feedback	size32	NA	NA	NA	NA	1	28	bigger pink bicycle	bigger pink bicycle		big_purple_bike	1	TRUE	TRUE	TRUE	FALSE	FALSE	0	
+v2J2BjboP65oSJMoy	Spanish	feedback	size32	NA	NA	NA	NA	1	36	smaller	smaller		small_red_stapler	1	FALSE	TRUE	FALSE	FALSE	FALSE	0	
+8NHcSDdWKk5ax3mAb	Spanish	feedback	size32	NA	NA	NA	NA	1	11	smallest one	smallest one		small_purple_stapler	1	FALSE	TRUE	FALSE	TRUE	FALSE	0	
+8NHcSDdWKk5ax3mAb	Spanish	feedback	size32	NA	NA	NA	NA	1	50	small green chair	small green chair		small_green_chair	1	TRUE	TRUE	TRUE	FALSE	FALSE	0	
+TXdqz7vwbJSeKpJHS	Spanish	feedback	size32	NA	NA	NA	NA	1	20	el mas pequeño	el mas pequeño		small_white_phone	1	FALSE	TRUE	FALSE	FALSE	TRUE	0	
+TXdqz7vwbJSeKpJHS	Spanish	feedback	size32	NA	NA	NA	NA	1	28	el mas pequeño, verde	el mas pequeño, verde		small_green_jacket	1	TRUE	TRUE	FALSE	FALSE	TRUE	0	
+D5sTSEMaXM7y3Q7AW	Spanish	feedback	size32	NA	NA	NA	NA	1	39	grande	grande		big_purple_rug	1	FALSE	TRUE	FALSE	FALSE	FALSE	0	
+D5sTSEMaXM7y3Q7AW	Spanish	feedback	size32	NA	NA	NA	NA	1	57	pequeño	pequeño		small_black_belt	1	FALSE	TRUE	FALSE	FALSE	FALSE	0	
+g8tXfbQJ5w3Yo5kXq	Spanish	feedback	size32	NA	NA	NA	NA	1	28	flor roja grande	flor roja grande	morada?	big_red_flower	1	TRUE	TRUE	TRUE	FALSE	FALSE	0	
+g8tXfbQJ5w3Yo5kXq	Spanish	feedback	size32	NA	NA	NA	NA	1	69	rosa pequeño	rosa pequeño	blanco?	small_pink_teacup	1	TRUE	TRUE	FALSE	FALSE	FALSE	0	
+Drac2QY2EJGirNSty	Spanish	feedback	size32	NA	NA	NA	NA	1	31	taza rosa grande	taza rosa grande		big_pink_teacup	1	TRUE	TRUE	TRUE	FALSE	FALSE	0	
+Drac2QY2EJGirNSty	Spanish	feedback	size32	NA	NA	NA	NA	1	32	mariposa pequeña rosa	mariposa pequeña rosa		small_purple_butterfly	1	TRUE	TRUE	TRUE	FALSE	FALSE	0	
+ncA5wQm2wMWx6Qw4m	Spanish	feedback	size32	NA	NA	NA	NA	1	39	blanco chico	blanco chico		small_white_weddingcake	1	TRUE	TRUE	FALSE	FALSE	FALSE	0	
+ncA5wQm2wMWx6Qw4m	Spanish	feedback	size32	NA	NA	NA	NA	1	70	rojo grande	rojo grande		big_red_tack	1	TRUE	TRUE	FALSE	FALSE	FALSE	0	
+RdyH6CPjXhDjFiBn6	Spanish	feedback	size32	NA	NA	NA	NA	1	18	engrapadora morada grande	engrapadora morada grande		big_purple_stapler	1	TRUE	TRUE	TRUE	FALSE	FALSE	0	
+RdyH6CPjXhDjFiBn6	Spanish	feedback	size32	NA	NA	NA	NA	1	72	papel paqueño	papel paqueño		small_orange_napkin	1	FALSE	TRUE	TRUE	FALSE	FALSE	0	
+ri9WkdRrTvaRgjAbd	Spanish	feedback	size32	NA	NA	NA	NA	1	2	el amarillo mas grande	el amarillo mas grande		big_yellow_shoe	1	TRUE	TRUE	FALSE	FALSE	FALSE	0	
+ri9WkdRrTvaRgjAbd	Spanish	feedback	size32	NA	NA	NA	NA	1	31	morada mas grande	morada mas grande		big_purple_hairdryer	1	TRUE	TRUE	FALSE	FALSE	FALSE	0	
+v2J2BjboP65oSJMoy	Spanish	feedback	size33	NA	NA	NA	NA	1	40	smaller	smaller		small_yellow_shoe	1	FALSE	TRUE	FALSE	FALSE	FALSE	0	
+v2J2BjboP65oSJMoy	Spanish	feedback	size33	NA	NA	NA	NA	1	60	smaller	smaller		small_white_weddingcake	1	FALSE	TRUE	FALSE	TRUE	FALSE	0	
+8NHcSDdWKk5ax3mAb	Spanish	feedback	size33	NA	NA	NA	NA	1	1	smallest one	smallest one		small_red_yarn	1	FALSE	TRUE	FALSE	TRUE	FALSE	0	
+8NHcSDdWKk5ax3mAb	Spanish	feedback	size33	NA	NA	NA	NA	1	70	small	small		small_blue_tack	1	FALSE	TRUE	FALSE	FALSE	FALSE	0	
+TXdqz7vwbJSeKpJHS	Spanish	feedback	size33	NA	NA	NA	NA	1	9	el mas grande	el mas grande		big_red_yarn	1	FALSE	TRUE	FALSE	FALSE	FALSE	0	
+TXdqz7vwbJSeKpJHS	Spanish	feedback	size33	NA	NA	NA	NA	1	55	el mas grande	el mas grande		big_blue_cushion	1	FALSE	TRUE	FALSE	FALSE	TRUE	0	
+D5sTSEMaXM7y3Q7AW	Spanish	feedback	size33	NA	NA	NA	NA	1	13	eres diferente	eres diferente		small_blue_guitar	1	FALSE	FALSE	FALSE	FALSE	FALSE	0	
+D5sTSEMaXM7y3Q7AW	Spanish	feedback	size33	NA	NA	NA	NA	1	38	grande	grande		big_orange_billiardball	1	FALSE	TRUE	FALSE	FALSE	FALSE	0	
+g8tXfbQJ5w3Yo5kXq	Spanish	feedback	size33	NA	NA	NA	NA	1	35	mas grande	mas grande	5 grande?	big_purple_billiardball	1	FALSE	TRUE	FALSE	FALSE	FALSE	0	
+g8tXfbQJ5w3Yo5kXq	Spanish	feedback	size33	NA	NA	NA	NA	1	52	grande	grande	grande?	big_red_tack	1	FALSE	TRUE	FALSE	FALSE	FALSE	0	
+Drac2QY2EJGirNSty	Spanish	feedback	size33	NA	NA	NA	NA	1	5	sillón verde pero no veo diferencias__a mi me sale el segundo__pero no sé qué poner que sea diferente__quizá el grande__tiene mayor tamaño	sillón verde pero no veo diferencias	hay uno de los 4 que es mucho más grande__puees__vale	big_green_chair	1	TRUE	FALSE	TRUE	FALSE	FALSE	0	
+Drac2QY2EJGirNSty	Spanish	feedback	size33	NA	NA	NA	NA	1	61	la pequeña	la pequeña		small_red_stapler	1	FALSE	TRUE	FALSE	FALSE	TRUE	0	
+ncA5wQm2wMWx6Qw4m	Spanish	feedback	size33	NA	NA	NA	NA	1	27	la cubeta más grande	la cubeta más grande		big_red_bucket	1	FALSE	TRUE	TRUE	FALSE	TRUE	0	
+ncA5wQm2wMWx6Qw4m	Spanish	feedback	size33	NA	NA	NA	NA	1	38	la más grande	la más grande		big_purple_bike	1	FALSE	TRUE	FALSE	FALSE	TRUE	0	
+RdyH6CPjXhDjFiBn6	Spanish	feedback	size33	NA	NA	NA	NA	1	3	el cinturón más grande	el cinturón más grande		big_black_belt	1	FALSE	TRUE	TRUE	FALSE	TRUE	0	
+RdyH6CPjXhDjFiBn6	Spanish	feedback	size33	NA	NA	NA	NA	1	20	pelota pequeña	pelota pequeña		small_orange_billiardball	1	FALSE	TRUE	TRUE	FALSE	FALSE	0	
+ri9WkdRrTvaRgjAbd	Spanish	feedback	size33	NA	NA	NA	NA	1	48	mas chica	mas chica		small_brown_turtle	1	FALSE	TRUE	FALSE	FALSE	FALSE	0	
+ri9WkdRrTvaRgjAbd	Spanish	feedback	size33	NA	NA	NA	NA	1	67	mas chico	mas chico		small_blue_toothbrush	1	FALSE	TRUE	FALSE	FALSE	FALSE	0	
+v2J2BjboP65oSJMoy	Spanish	feedback	size41	NA	NA	NA	NA	1	61	bigger	bigger		big_blue_book	1	FALSE	TRUE	FALSE	FALSE	FALSE	0	
+v2J2BjboP65oSJMoy	Spanish	feedback	size41	NA	NA	NA	NA	1	66	bigger	bigger		big_pink_bucket	1	FALSE	TRUE	FALSE	FALSE	FALSE	0	
+8NHcSDdWKk5ax3mAb	Spanish	feedback	size41	NA	NA	NA	NA	1	23	small green pepper	small green pepper		small_green_pepper	1	TRUE	TRUE	TRUE	FALSE	FALSE	0	
+8NHcSDdWKk5ax3mAb	Spanish	feedback	size41	NA	NA	NA	NA	1	62	small green	small green		small_green_bracelet	1	TRUE	TRUE	FALSE	FALSE	FALSE	0	
+TXdqz7vwbJSeKpJHS	Spanish	feedback	size41	NA	NA	NA	NA	1	53	la mas grande, azul	la mas grande, azul		big_blue_butterfly	1	TRUE	TRUE	FALSE	FALSE	TRUE	0	
+TXdqz7vwbJSeKpJHS	Spanish	feedback	size41	NA	NA	NA	NA	1	70	la mas grande, rosa	la mas grande, rosa		big_pink_teacup	1	TRUE	TRUE	FALSE	FALSE	TRUE	0	
+D5sTSEMaXM7y3Q7AW	Spanish	feedback	size41	NA	NA	NA	NA	1	35	pequeño	pequeño		small_blue_cushion	1	FALSE	TRUE	FALSE	FALSE	FALSE	0	
+D5sTSEMaXM7y3Q7AW	Spanish	feedback	size41	NA	NA	NA	NA	1	53	pequeña	pequeña		small_purple_flower	1	FALSE	TRUE	FALSE	FALSE	FALSE	0	
+g8tXfbQJ5w3Yo5kXq	Spanish	feedback	size41	NA	NA	NA	NA	1	16	pelota blanca grande	pelota blanca grande	blanco peaueno?	big_white_pingpongball	1	TRUE	TRUE	TRUE	FALSE	FALSE	0	
+g8tXfbQJ5w3Yo5kXq	Spanish	feedback	size41	NA	NA	NA	NA	1	44	mariposa azul pequeña	mariposa azul pequeña	azul chica?	small_blue_butterfly	1	TRUE	TRUE	TRUE	FALSE	FALSE	0	
+Drac2QY2EJGirNSty	Spanish	feedback	size41	NA	NA	NA	NA	1	43	pimiento rojo grande	pimiento rojo grande		big_red_pepper	1	TRUE	TRUE	TRUE	FALSE	FALSE	0	
+Drac2QY2EJGirNSty	Spanish	feedback	size41	NA	NA	NA	NA	1	60	carpeta verde pequeña	carpeta verde pequeña		small_green_binder	1	TRUE	TRUE	TRUE	FALSE	FALSE	0	
+ncA5wQm2wMWx6Qw4m	Spanish	feedback	size41	NA	NA	NA	NA	1	3	es uno de los folders verdes. es el que se ve más grande.	es uno de los folders verdes. es el que se ve más grande.		big_green_binder	1	TRUE	TRUE	TRUE	TRUE	TRUE	0	one?
+ncA5wQm2wMWx6Qw4m	Spanish	feedback	size41	NA	NA	NA	NA	1	14	teléfono blanco pequeño	teléfono blanco pequeño		small_white_phone	1	TRUE	TRUE	TRUE	FALSE	FALSE	0	
+RdyH6CPjXhDjFiBn6	Spanish	feedback	size41	NA	NA	NA	NA	1	25	pelota blanca (grande)	pelota blanca (grande)		big_white_pingpongball	1	TRUE	TRUE	TRUE	FALSE	FALSE	0	
+RdyH6CPjXhDjFiBn6	Spanish	feedback	size41	NA	NA	NA	NA	1	31	libro azul (pequeño)	libro azul (pequeño)		small_blue_book	1	TRUE	TRUE	TRUE	FALSE	FALSE	0	
+ri9WkdRrTvaRgjAbd	Spanish	feedback	size41	NA	NA	NA	NA	1	39	naranja chica	naranja chica		small_red_chair	1	TRUE	TRUE	FALSE	FALSE	FALSE	0	
+ri9WkdRrTvaRgjAbd	Spanish	feedback	size41	NA	NA	NA	NA	1	50	verde chica	verde chica		small_green_guitar	1	TRUE	TRUE	FALSE	FALSE	FALSE	0	
+v2J2BjboP65oSJMoy	Spanish	feedback	size42	NA	NA	NA	NA	1	17	bigger green pepper	bigger green pepper		big_green_pepper	1	TRUE	TRUE	TRUE	FALSE	FALSE	0	
+v2J2BjboP65oSJMoy	Spanish	feedback	size42	NA	NA	NA	NA	1	59	bigger	bigger		big_black_turtle	1	FALSE	TRUE	FALSE	FALSE	FALSE	0	
+8NHcSDdWKk5ax3mAb	Spanish	feedback	size42	NA	NA	NA	NA	1	49	small blue book	small blue book		small_blue_book	1	TRUE	TRUE	TRUE	FALSE	FALSE	0	
+8NHcSDdWKk5ax3mAb	Spanish	feedback	size42	NA	NA	NA	NA	1	67	small purple	small purple		small_purple_flower	1	TRUE	TRUE	FALSE	FALSE	FALSE	0	
+TXdqz7vwbJSeKpJHS	Spanish	feedback	size42	NA	NA	NA	NA	1	11	el verde mas grande	el verde mas grande		big_green_binder	1	TRUE	TRUE	FALSE	FALSE	TRUE	0	
+TXdqz7vwbJSeKpJHS	Spanish	feedback	size42	NA	NA	NA	NA	1	12	el negro mas pequeño	el negro mas pequeño		small_black_book	1	TRUE	TRUE	FALSE	FALSE	TRUE	0	
+D5sTSEMaXM7y3Q7AW	Spanish	feedback	size42	NA	NA	NA	NA	1	26	pequeña	pequeña		small_blue_candle	1	FALSE	TRUE	FALSE	FALSE	FALSE	0	
+D5sTSEMaXM7y3Q7AW	Spanish	feedback	size42	NA	NA	NA	NA	1	60	grande	grande		big_purple_yarn	1	FALSE	TRUE	FALSE	FALSE	FALSE	0	
+g8tXfbQJ5w3Yo5kXq	Spanish	feedback	size42	NA	NA	NA	NA	1	34	amarillo grande	amarillo grande	amarillo grande?	big_yellow_napkin	1	TRUE	TRUE	FALSE	FALSE	FALSE	0	
+g8tXfbQJ5w3Yo5kXq	Spanish	feedback	size42	NA	NA	NA	NA	1	37	rosa grande	rosa grande	ok	big_pink_bucket	1	TRUE	TRUE	FALSE	FALSE	FALSE	0	
+Drac2QY2EJGirNSty	Spanish	feedback	size42	NA	NA	NA	NA	1	11	bicicleta roja pequeña	bicicleta roja pequeña	vale	small_red_bike	1	TRUE	TRUE	TRUE	FALSE	FALSE	0	
+Drac2QY2EJGirNSty	Spanish	feedback	size42	NA	NA	NA	NA	1	72	morada pequeña	morada pequeña		small_purple_flower	1	TRUE	TRUE	FALSE	FALSE	FALSE	0	
+ncA5wQm2wMWx6Qw4m	Spanish	feedback	size42	NA	NA	NA	NA	1	8	vela morada (o azul?) pequeña	vela morada (o azul?) pequeña		small_blue_candle	1	TRUE	TRUE	TRUE	FALSE	FALSE	0	
+ncA5wQm2wMWx6Qw4m	Spanish	feedback	size42	NA	NA	NA	NA	1	20	morado pequeño	morado pequeño		small_purple_yarn	1	TRUE	TRUE	FALSE	FALSE	FALSE	0	
+RdyH6CPjXhDjFiBn6	Spanish	feedback	size42	NA	NA	NA	NA	1	13	bufanda roja (imagen más grande)	bufanda roja (imagen más grande)		big_red_scarf	1	TRUE	TRUE	TRUE	FALSE	FALSE	0	interesting datapoint
+RdyH6CPjXhDjFiBn6	Spanish	feedback	size42	NA	NA	NA	NA	1	21	cepillo azul (el más pequeño)	cepillo azul (el más pequeño)		small_blue_toothbrush	1	TRUE	TRUE	TRUE	FALSE	TRUE	0	
+ri9WkdRrTvaRgjAbd	Spanish	feedback	size42	NA	NA	NA	NA	1	4	la grapadora mas chica	la grapadora mas chica		small_red_stapler	1	FALSE	TRUE	TRUE	FALSE	TRUE	0	
+ri9WkdRrTvaRgjAbd	Spanish	feedback	size42	NA	NA	NA	NA	1	23	morado mas grande	morado mas grande		big_purple_bracelet	1	TRUE	TRUE	FALSE	FALSE	FALSE	0	
+v2J2BjboP65oSJMoy	Spanish	feedback	size43	NA	NA	NA	NA	1	15	bigger or mas grande	bigger or mas grande		big_pink_teacup	1	FALSE	TRUE	FALSE	FALSE	FALSE	0	
+v2J2BjboP65oSJMoy	Spanish	feedback	size43	NA	NA	NA	NA	1	33	smaller	smaller		small_red_yarn	1	FALSE	TRUE	FALSE	FALSE	FALSE	0	
+8NHcSDdWKk5ax3mAb	Spanish	feedback	size43	NA	NA	NA	NA	1	33	big green sweatere	big green sweatere		big_green_jacket	1	TRUE	TRUE	TRUE	FALSE	FALSE	0	
+8NHcSDdWKk5ax3mAb	Spanish	feedback	size43	NA	NA	NA	NA	1	35	big red toothbrush	big red toothbrush		big_red_toothbrush	1	TRUE	TRUE	TRUE	FALSE	FALSE	0	
+TXdqz7vwbJSeKpJHS	Spanish	feedback	size43	NA	NA	NA	NA	1	48	azul, la mas grande	azul, la mas grande		big_blue_candle	1	TRUE	TRUE	FALSE	FALSE	TRUE	0	
+TXdqz7vwbJSeKpJHS	Spanish	feedback	size43	NA	NA	NA	NA	1	69	rojo, el mas grande	rojo, el mas grande		big_red_pepper	1	TRUE	TRUE	FALSE	FALSE	TRUE	0	
+D5sTSEMaXM7y3Q7AW	Spanish	feedback	size43	NA	NA	NA	NA	1	16	pequeña	pequeña		small_blue_binder	1	FALSE	TRUE	FALSE	FALSE	FALSE	0	
+D5sTSEMaXM7y3Q7AW	Spanish	feedback	size43	NA	NA	NA	NA	1	54	grande	grande		big_red_tack	1	FALSE	TRUE	FALSE	FALSE	FALSE	0	
+g8tXfbQJ5w3Yo5kXq	Spanish	feedback	size43	NA	NA	NA	NA	1	26	cinturon negro grande	cinturon negro grande	marron?	big_black_belt	1	TRUE	TRUE	TRUE	FALSE	FALSE	0	
+g8tXfbQJ5w3Yo5kXq	Spanish	feedback	size43	NA	NA	NA	NA	1	51	libreta negra grande	libreta negra grande	azul?	big_black_book	1	TRUE	TRUE	TRUE	FALSE	FALSE	0	
+Drac2QY2EJGirNSty	Spanish	feedback	size43	NA	NA	NA	NA	1	16	zapato blanco grande	zapato blanco grande		big_white_shoe	1	TRUE	TRUE	TRUE	FALSE	TRUE	0	
+Drac2QY2EJGirNSty	Spanish	feedback	size43	NA	NA	NA	NA	1	53	vela rosa pequeña	vela rosa pequeña		small_red_candle	1	TRUE	TRUE	TRUE	FALSE	FALSE	0	
+ncA5wQm2wMWx6Qw4m	Spanish	feedback	size43	NA	NA	NA	NA	1	49	naranja grande	naranja grande		big_orange_coathanger	1	TRUE	TRUE	FALSE	FALSE	FALSE	0	
+ncA5wQm2wMWx6Qw4m	Spanish	feedback	size43	NA	NA	NA	NA	1	54	rosa pequeño	rosa pequeño		small_pink_hairdryer	1	TRUE	TRUE	FALSE	FALSE	FALSE	0	
+RdyH6CPjXhDjFiBn6	Spanish	feedback	size43	NA	NA	NA	NA	1	34	sillón verde (grande)	sillón verde (grande)		big_green_chair	1	TRUE	TRUE	TRUE	FALSE	FALSE	0	
+RdyH6CPjXhDjFiBn6	Spanish	feedback	size43	NA	NA	NA	NA	1	47	pastel blanco (pequeño)	pastel blanco (pequeño)		small_white_weddingcake	1	TRUE	TRUE	TRUE	FALSE	FALSE	0	
+ri9WkdRrTvaRgjAbd	Spanish	feedback	size43	NA	NA	NA	NA	1	24	amarilla mas grande	amarilla mas grande		big_yellow_napkin	1	TRUE	TRUE	FALSE	FALSE	FALSE	0	
+ri9WkdRrTvaRgjAbd	Spanish	feedback	size43	NA	NA	NA	NA	1	61	roja grande	roja grande		big_red_bike	1	TRUE	TRUE	FALSE	FALSE	FALSE	0	
+v2J2BjboP65oSJMoy	Spanish	feedback	size44	NA	NA	NA	NA	1	3	bigger or mas grande	bigger or mas grande		big_grey_rock	1	FALSE	TRUE	FALSE	FALSE	FALSE	0	
+v2J2BjboP65oSJMoy	Spanish	feedback	size44	NA	NA	NA	NA	1	52	bigger	bigger		big_blue_candle	1	FALSE	TRUE	FALSE	FALSE	FALSE	0	
+8NHcSDdWKk5ax3mAb	Spanish	feedback	size44	NA	NA	NA	NA	1	47	big one	big one		big_blue_butterfly	1	TRUE	FALSE	FALSE	TRUE	FALSE	0	
+8NHcSDdWKk5ax3mAb	Spanish	feedback	size44	NA	NA	NA	NA	1	48	big one	big one		big_blue_rug	1	TRUE	FALSE	FALSE	TRUE	FALSE	0	
+TXdqz7vwbJSeKpJHS	Spanish	feedback	size44	NA	NA	NA	NA	1	23	el mas grande	el mas grande		big_green_bracelet	1	FALSE	TRUE	FALSE	FALSE	TRUE	0	
+TXdqz7vwbJSeKpJHS	Spanish	feedback	size44	NA	NA	NA	NA	1	26	el mas grande	el mas grande		big_red_stapler	1	FALSE	TRUE	FALSE	FALSE	TRUE	0	
+D5sTSEMaXM7y3Q7AW	Spanish	feedback	size44	NA	NA	NA	NA	1	17	grande	grande		big_yellow_napkin	1	FALSE	TRUE	FALSE	FALSE	FALSE	0	
+D5sTSEMaXM7y3Q7AW	Spanish	feedback	size44	NA	NA	NA	NA	1	43	grande	grande		big_black_book	1	FALSE	TRUE	FALSE	FALSE	FALSE	0	
+g8tXfbQJ5w3Yo5kXq	Spanish	feedback	size44	NA	NA	NA	NA	1	21	guitarra pequeña	guitarra pequeña	pequena?	small_green_guitar	1	FALSE	TRUE	TRUE	FALSE	FALSE	0	
+g8tXfbQJ5w3Yo5kXq	Spanish	feedback	size44	NA	NA	NA	NA	1	72	azul más pequeño__un placer	azul más pequeño	pequeno?	small_blue_candle	1	TRUE	TRUE	FALSE	FALSE	FALSE	0	
+Drac2QY2EJGirNSty	Spanish	feedback	size44	NA	NA	NA	NA	1	46	lana pequela__ña	lana pequela		small_purple_yarn	1	FALSE	TRUE	FALSE	FALSE	TRUE	0	
+Drac2QY2EJGirNSty	Spanish	feedback	size44	NA	NA	NA	NA	1	65	percha grande	percha grande	queda poco	big_orange_coathanger	1	FALSE	TRUE	TRUE	FALSE	FALSE	0	
+ncA5wQm2wMWx6Qw4m	Spanish	feedback	size44	NA	NA	NA	NA	1	15	ah caray... el zapato más grande	ah caray... el zapato más grande		big_white_shoe	1	FALSE	TRUE	TRUE	FALSE	TRUE	0	
+ncA5wQm2wMWx6Qw4m	Spanish	feedback	size44	NA	NA	NA	NA	1	37	de nuevo, la más grande	de nuevo, la más grande		big_blue_guitar	1	FALSE	TRUE	FALSE	FALSE	TRUE	0	
+RdyH6CPjXhDjFiBn6	Spanish	feedback	size44	NA	NA	NA	NA	1	4	la taza más grande	la taza más grande		big_pink_teacup	1	FALSE	TRUE	TRUE	FALSE	TRUE	0	
+RdyH6CPjXhDjFiBn6	Spanish	feedback	size44	NA	NA	NA	NA	1	56	cojín pequeño	cojín pequeño		small_orange_cushion	1	FALSE	TRUE	TRUE	FALSE	FALSE	0	
+ri9WkdRrTvaRgjAbd	Spanish	feedback	size44	NA	NA	NA	NA	1	10	el mas chiquito	el mas chiquito		small_pink_framee	1	FALSE	TRUE	FALSE	FALSE	TRUE	0	
+ri9WkdRrTvaRgjAbd	Spanish	feedback	size44	NA	NA	NA	NA	1	70	mas grande	mas grande		big_purple_butterfly	1	FALSE	TRUE	FALSE	FALSE	FALSE	0	
+v2J2BjboP65oSJMoy	Spanish	feedback	subNec	dog	animal	hamster	animal	1	8	husky dog	husky dog		husky	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+v2J2BjboP65oSJMoy	Spanish	feedback	subNec	dog	animal	hamster	animal	1	11	pug	pug		pug	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+v2J2BjboP65oSJMoy	Spanish	feedback	subNec	dog	animal	kitten	animal	1	13	dalmatian or dalmata	dalmatian or dalmata		dalmatian	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+v2J2BjboP65oSJMoy	Spanish	feedback	subNec	table	furniture	table	furniture	1	23	table	table		coffeeTable	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+v2J2BjboP65oSJMoy	Spanish	feedback	subNec	flower	plant	grasses	plant	1	24	rose	rose		rose	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+v2J2BjboP65oSJMoy	Spanish	feedback	subNec	shirt	clothing	gloves	clothing	1	26	t shirt	t shirt		tShirt	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+v2J2BjboP65oSJMoy	Spanish	feedback	subNec	shirt	clothing	bathrobe	clothing	1	32	polo shirt	polo shirt		poloShirt	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+v2J2BjboP65oSJMoy	Spanish	feedback	subNec	table	furniture	table	furniture	1	43	bench	bench		picnicTable	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+v2J2BjboP65oSJMoy	Spanish	feedback	subNec	candy	snack	chips	snack	1	44	gummy bears	gummy bears		gummyBears	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+v2J2BjboP65oSJMoy	Spanish	feedback	subNec	table	furniture	bookcase	furniture	1	49	drawer	drawer		bedsideTable	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+v2J2BjboP65oSJMoy	Spanish	feedback	subNec	flower	plant	pottedPlant	plant	1	56	white with yellow	white with yellow		daisy	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+v2J2BjboP65oSJMoy	Spanish	feedback	subNec	car	vehicle	train	vehicle	1	65	van	van		minivan	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+8NHcSDdWKk5ax3mAb	Spanish	feedback	subNec	dog	animal	sheep	animal	1	2	pug	pug		pug	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+8NHcSDdWKk5ax3mAb	Spanish	feedback	subNec	fish	animal	hamster	animal	1	3	eel like fish	eel like fish		catfish	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+8NHcSDdWKk5ax3mAb	Spanish	feedback	subNec	shirt	clothing	dress	clothing	1	15	long sleeve shirt	long sleeve shirt		dressShirt	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	size?
+8NHcSDdWKk5ax3mAb	Spanish	feedback	subNec	car	vehicle	firetruck	vehicle	1	16	audi	audi		sportsCar	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+8NHcSDdWKk5ax3mAb	Spanish	feedback	subNec	table	furniture	lamp	furniture	1	18	coffee tabe	coffee tabe		coffeeTable	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+8NHcSDdWKk5ax3mAb	Spanish	feedback	subNec	shirt	clothing	socks	clothing	1	37	blue flat shirt	blue flat shirt		poloShirt	1	TRUE	FALSE	TRUE	FALSE	FALSE	0	
+8NHcSDdWKk5ax3mAb	Spanish	feedback	subNec	bear	animal	dog	animal	1	42	polar bear	polar bear		polarBear	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+8NHcSDdWKk5ax3mAb	Spanish	feedback	subNec	fish	animal	bear	animal	1	71	orange fish	orange fish		goldFish	1	TRUE	FALSE	TRUE	FALSE	FALSE	0	
+TXdqz7vwbJSeKpJHS	Spanish	feedback	subNec	shirt	clothing	shirt	clothing	1	4	es de manga larga	es de manga larga		dressShirt	1	FALSE	FALSE	FALSE	FALSE	FALSE	0	type?
+TXdqz7vwbJSeKpJHS	Spanish	feedback	subNec	dog	animal	rhino	animal	1	8	animal domestico__orejas negras__hozico negro__nariz achatada	animal domestico	pequeño?	pug	1	FALSE	FALSE	FALSE	FALSE	FALSE	0	type?
+TXdqz7vwbJSeKpJHS	Spanish	feedback	subNec	fish	animal	snake	animal	1	25	vive en el mar, color gris	vive en el mar, color gris		swordFish	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+TXdqz7vwbJSeKpJHS	Spanish	feedback	subNec	candy	snack	pretzels	snack	1	36	letra m	letra m		mnMs	1	FALSE	FALSE	FALSE	FALSE	FALSE	0	
+TXdqz7vwbJSeKpJHS	Spanish	feedback	subNec	table	furniture	table	furniture	1	38	color anaranjado	color anaranjado		bedsideTable	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+TXdqz7vwbJSeKpJHS	Spanish	feedback	subNec	flower	plant	ivy	plant	1	42	rojo, se suele regalar en el dia de los enamorados__flor ya abierta	rojo, se suele regalar en el dia de los enamorados		rose	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+TXdqz7vwbJSeKpJHS	Spanish	feedback	subNec	table	furniture	wardrobe	furniture	1	58	cuatro patas con sitios para sentarse	cuatro patas con sitios para sentarse		picnicTable	1	FALSE	FALSE	FALSE	FALSE	FALSE	0	
+TXdqz7vwbJSeKpJHS	Spanish	feedback	subNec	fish	animal	pig	animal	1	66	vive en el mar, naranja y blanco	vive en el mar, naranja y blanco		clownFish	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+TXdqz7vwbJSeKpJHS	Spanish	feedback	subNec	bird	animal	snake	animal	1	71	vuela, el mas pequeño	vuela, el mas pequeño		hummingBird	1	FALSE	TRUE	FALSE	FALSE	TRUE	0	
+D5sTSEMaXM7y3Q7AW	Spanish	feedback	subNec	table	furniture	lamp	furniture	1	11	junto a la cama	junto a la cama		bedsideTable	1	FALSE	FALSE	FALSE	FALSE	FALSE	0	
+D5sTSEMaXM7y3Q7AW	Spanish	feedback	subNec	bear	animal	lion	animal	1	25	come bambú	come bambú		pandaBear	1	FALSE	FALSE	FALSE	FALSE	FALSE	0	
+D5sTSEMaXM7y3Q7AW	Spanish	feedback	subNec	table	furniture	bed	furniture	1	31	soportes delgados y triangulares	soportes delgados y triangulares		diningTable	1	FALSE	FALSE	FALSE	FALSE	FALSE	0	
+D5sTSEMaXM7y3Q7AW	Spanish	feedback	subNec	shirt	clothing	socks	clothing	1	47	polo	polo		poloShirt	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+D5sTSEMaXM7y3Q7AW	Spanish	feedback	subNec	bird	animal	lion	animal	1	61	grande y vuela	grande y vuela		eagle	1	FALSE	TRUE	FALSE	FALSE	FALSE	0	
+D5sTSEMaXM7y3Q7AW	Spanish	feedback	subNec	bear	animal	horse	animal	1	65	negro	negro		blackBear	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+D5sTSEMaXM7y3Q7AW	Spanish	feedback	subNec	table	furniture	bookcase	furniture	1	68	parque	parque		picnicTable	1	FALSE	FALSE	FALSE	FALSE	FALSE	0	
+g8tXfbQJ5w3Yo5kXq	Spanish	feedback	subNec	bear	animal	sheep	animal	1	14	oso negro	oso negro	oso negro?	blackBear	1	TRUE	FALSE	TRUE	FALSE	FALSE	0	
+g8tXfbQJ5w3Yo5kXq	Spanish	feedback	subNec	candy	snack	popcorn	snack	1	17	ositos de gominola	ositos de gominola	ositos?	gummyBears	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+g8tXfbQJ5w3Yo5kXq	Spanish	feedback	subNec	car	vehicle	firetruck	vehicle	1	27	coche monovolumen__familiar__no 4x4	coche monovolumen	rojo?	minivan	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+g8tXfbQJ5w3Yo5kXq	Spanish	feedback	subNec	car	vehicle	car	vehicle	1	30	coche descapotable__sin techo	coche descapotable	ok	convertible	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+g8tXfbQJ5w3Yo5kXq	Spanish	feedback	subNec	dog	animal	bison	animal	1	36	perro frances__puh__pug	perro frances	dalmate?	pug	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+g8tXfbQJ5w3Yo5kXq	Spanish	feedback	subNec	shirt	clothing	shirt	clothing	1	39	camisa de flores azul	camisa de flores azul	ok	hawaiiShirt	1	TRUE	FALSE	TRUE	TRUE	FALSE	0	
+g8tXfbQJ5w3Yo5kXq	Spanish	feedback	subNec	flower	plant	ivy	plant	1	61	rosa	rosa	rosa?	rose	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	could be both color and object?
+g8tXfbQJ5w3Yo5kXq	Spanish	feedback	subNec	bird	animal	pig	animal	1	62	aguila	aguila	ok	eagle	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+Drac2QY2EJGirNSty	Spanish	feedback	subNec	candy	snack	candy	snack	1	7	pildoras separadas de colores, no las que están como en montaña__ni las naranjas__las planas__no__sin azules	pildoras separadas de colores, no las que están como en montaña	hay una azul en el centro?__vale, ya sé	skittles	1	FALSE	FALSE	TRUE	FALSE	TRUE	0	interesting, calling skittles pildoras
+Drac2QY2EJGirNSty	Spanish	feedback	subNec	car	vehicle	motorcycle	vehicle	1	36	coche familiar gris	coche familiar gris		minivan	1	TRUE	FALSE	TRUE	FALSE	FALSE	0	
+Drac2QY2EJGirNSty	Spanish	feedback	subNec	fish	animal	elephant	animal	1	71	tiburón__o lo que sea	tiburón		swordFish	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+ncA5wQm2wMWx6Qw4m	Spanish	feedback	subNec	bear	animal	cow	animal	1	1	es café	es café		grizzlyBear	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+ncA5wQm2wMWx6Qw4m	Spanish	feedback	subNec	candy	snack	candy	snack	1	11	los m&m's	los m&m's		mnMs	1	FALSE	FALSE	TRUE	FALSE	TRUE	0	
+ncA5wQm2wMWx6Qw4m	Spanish	feedback	subNec	fish	animal	lobster	animal	1	17	pez espada	pez espada		swordFish	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+ncA5wQm2wMWx6Qw4m	Spanish	feedback	subNec	flower	plant	flower	plant	1	21	girasol	girasol		sunflower	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+ncA5wQm2wMWx6Qw4m	Spanish	feedback	subNec	candy	snack	chips	snack	1	25	los huevecillos de colores	los huevecillos de colores		jellyBeans	1	FALSE	FALSE	TRUE	FALSE	TRUE	0	
+ncA5wQm2wMWx6Qw4m	Spanish	feedback	subNec	shirt	clothing	shirt	clothing	1	26	playera azul lisa sin botones	playera azul lisa sin botones		tShirt	1	TRUE	FALSE	TRUE	FALSE	TRUE	0	
+ncA5wQm2wMWx6Qw4m	Spanish	feedback	subNec	table	furniture	lamp	furniture	1	28	la mesa de centro	la mesa de centro		coffeeTable	1	FALSE	FALSE	TRUE	FALSE	TRUE	0	
+ncA5wQm2wMWx6Qw4m	Spanish	feedback	subNec	dog	animal	horse	animal	1	32	pug	pug		pug	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+ncA5wQm2wMWx6Qw4m	Spanish	feedback	subNec	flower	plant	rosemary	plant	1	46	blanco	blanco		daisy	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+ncA5wQm2wMWx6Qw4m	Spanish	feedback	subNec	bird	animal	fish	animal	1	47	águila	águila		eagle	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+ncA5wQm2wMWx6Qw4m	Spanish	feedback	subNec	car	vehicle	ambulance	vehicle	1	51	el mercedes	el mercedes		convertible	1	FALSE	FALSE	TRUE	FALSE	TRUE	0	
+ncA5wQm2wMWx6Qw4m	Spanish	feedback	subNec	car	vehicle	car	vehicle	1	61	camioneta blanca	camioneta blanca		suv	1	TRUE	FALSE	TRUE	FALSE	FALSE	0	
+ncA5wQm2wMWx6Qw4m	Spanish	feedback	subNec	bird	animal	elephant	animal	1	72	colibrí	colibrí		hummingBird	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+RdyH6CPjXhDjFiBn6	Spanish	selection	subNec	bird	animal	bison	animal	NONE	1	tiene muchos colores__y es un ave	tiene muchos colores		NONE	0	FALSE	FALSE	FALSE	FALSE	FALSE	0	
+RdyH6CPjXhDjFiBn6	Spanish	feedback	subNec	bear	animal	cow	animal	1	10	oso panda	oso panda		pandaBear	1	FALSE	FALSE	FALSE	FALSE	FALSE	0	
+RdyH6CPjXhDjFiBn6	Spanish	feedback	subNec	fish	animal	bear	animal	1	11	pez gris	pez gris		swordFish	1	TRUE	FALSE	TRUE	FALSE	FALSE	0	
+RdyH6CPjXhDjFiBn6	Spanish	feedback	subNec	fish	animal	dog	animal	1	32	pez payaso	pez payaso		clownFish	1	FALSE	FALSE	FALSE	TRUE	FALSE		
+RdyH6CPjXhDjFiBn6	Spanish	feedback	subNec	table	furniture	bed	furniture	1	36	mesa con asientos incluídos	mesa con asientos incluídos		picnicTable	1	FALSE	FALSE	FALSE	TRUE	FALSE		
+RdyH6CPjXhDjFiBn6	Spanish	feedback	subNec	candy	snack	cookies	snack	1	38	chocolates de colores	chocolates de colores		skittles	1	FALSE	FALSE	FALSE	TRUE	TRUE		
+RdyH6CPjXhDjFiBn6	Spanish	feedback	subNec	flower	plant	grasses	plant	1	50	girasol	girasol		sunflower	1	FALSE	FALSE	FALSE	TRUE	FALSE		
+RdyH6CPjXhDjFiBn6	Spanish	feedback	subNec	shirt	clothing	dress	clothing	1	54	camisa	camisa		dressShirt	1	FALSE	FALSE	FALSE	TRUE	FALSE		
+RdyH6CPjXhDjFiBn6	Spanish	feedback	subNec	table	furniture	lamp	furniture	1	58	mesa con patas gruesas	mesa con patas gruesas		coffeeTable	1	FALSE	FALSE	FALSE	TRUE	FALSE		
+RdyH6CPjXhDjFiBn6	Spanish	feedback	subNec	shirt	clothing	dress	clothing	1	61	camisa con flores	camisa con flores		hawaiiShirt	1	FALSE	FALSE	TRUE	TRUE	FALSE		
+ri9WkdRrTvaRgjAbd	Spanish	feedback	subNec	candy	snack	popcorn	snack	1	18	frijolitos	frijolitos		jellyBeans	1	FALSE	FALSE	FALSE	TRUE	FALSE		
+ri9WkdRrTvaRgjAbd	Spanish	feedback	subNec	bird	animal	squirrel	animal	1	21	paloma	paloma		pigeon	1	FALSE	FALSE	FALSE	TRUE	FALSE		
+ri9WkdRrTvaRgjAbd	Spanish	feedback	subNec	car	vehicle	firetruck	vehicle	1	53	convertible	convertible		convertible	1	FALSE	FALSE	FALSE	TRUE	FALSE		
+ri9WkdRrTvaRgjAbd	Spanish	feedback	subNec	flower	plant	pottedPlant	plant	1	62	flor blanca	flor blanca		daisy	1	TRUE	FALSE	TRUE	TRUE	TRUE		
+v2J2BjboP65oSJMoy	Spanish	feedback	supSuff	bed	furniture	pottedPlant	plant	1	4	wheels o ruedas	wheels o ruedas		suv	1	FALSE	FALSE	FALSE	FALSE	FALSE	0	
+v2J2BjboP65oSJMoy	Spanish	feedback	supSuff	grasses	plant	pretzels	snack	1	6	blue o azul	blue o azul		hawaiiShirt	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+v2J2BjboP65oSJMoy	Spanish	feedback	supSuff	candy	snack	bathrobe	clothing	1	30	fish	fish		goldFish	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+v2J2BjboP65oSJMoy	Spanish	feedback	supSuff	pretzels	snack	pottedPlant	plant	1	48	panda	panda		pandaBear	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+v2J2BjboP65oSJMoy	Spanish	feedback	supSuff	popcorn	snack	rosemary	plant	1	53	shirt	shirt		dressShirt	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+8NHcSDdWKk5ax3mAb	Spanish	feedback	supSuff	cookies	snack	shirt	clothing	1	7	dog	dog		germanShepherd	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+8NHcSDdWKk5ax3mAb	Spanish	feedback	supSuff	squirrel	animal	train	vehicle	1	22	table	table		diningTable	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+8NHcSDdWKk5ax3mAb	Spanish	feedback	supSuff	dress	clothing	ivy	plant	1	25	gummy bears	gummy bears		gummyBears	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+8NHcSDdWKk5ax3mAb	Spanish	feedback	supSuff	gloves	clothing	motorcycle	vehicle	1	27	fish	fish		clownFish	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+8NHcSDdWKk5ax3mAb	Spanish	feedback	supSuff	socks	clothing	firetruck	vehicle	1	28	husky	husky		husky	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+8NHcSDdWKk5ax3mAb	Spanish	feedback	supSuff	bird	animal	firetruck	vehicle	1	32	m&m's	m&m's		skittles	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+8NHcSDdWKk5ax3mAb	Spanish	feedback	supSuff	chips	snack	pottedPlant	plant	1	40	bear	bear		pandaBear	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+8NHcSDdWKk5ax3mAb	Spanish	feedback	supSuff	bookcase	furniture	firetruck	vehicle	1	43	t-shirt	t-shirt		hawaiiShirt	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+8NHcSDdWKk5ax3mAb	Spanish	feedback	supSuff	table	furniture	car	vehicle	1	53	flower	flower		tulip	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+8NHcSDdWKk5ax3mAb	Spanish	feedback	supSuff	pottedPlant	plant	bathrobe	clothing	1	56	drawer	drawer		bedsideTable	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+8NHcSDdWKk5ax3mAb	Spanish	feedback	supSuff	rhino	animal	grasses	plant	1	63	m&m's	m&m's		mnMs	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+TXdqz7vwbJSeKpJHS	Spanish	feedback	supSuff	motorcycle	vehicle	dress	clothing	1	5	es un animal__color blanco__habita en los polos	es un animal		polarBear	1	FALSE	FALSE	FALSE	FALSE	FALSE	0	type?
+TXdqz7vwbJSeKpJHS	Spanish	feedback	supSuff	bathrobe	clothing	rosemary	plant	1	7	es un animal	es un animal		dalmatian	1	FALSE	FALSE	FALSE	FALSE	FALSE	0	type?
+TXdqz7vwbJSeKpJHS	Spanish	feedback	supSuff	flower	plant	bed	furniture	1	21	varios coloroes, para comer	varios coloroes, para comer		gummyBears	1	FALSE	FALSE	FALSE	FALSE	FALSE	0	
+TXdqz7vwbJSeKpJHS	Spanish	feedback	supSuff	bookcase	furniture	firetruck	vehicle	1	22	animal de cuatro patas	animal de cuatro patas		husky	1	FALSE	FALSE	FALSE	FALSE	FALSE	0	type?
+TXdqz7vwbJSeKpJHS	Spanish	feedback	supSuff	train	vehicle	shirt	clothing	1	24	planta	planta		tulip	1	FALSE	FALSE	FALSE	FALSE	FALSE	0	type?
+TXdqz7vwbJSeKpJHS	Spanish	feedback	supSuff	wardrobe	furniture	motorcycle	vehicle	1	27	azul__manga corta	azul		tShirt	1	TRUE	FALSE	FALSE	FALSE	FALSE	0	
+TXdqz7vwbJSeKpJHS	Spanish	feedback	supSuff	pottedPlant	plant	popcorn	snack	1	41	cuatro ruedas	cuatro ruedas		convertible	1	FALSE	FALSE	FALSE	FALSE	FALSE	0	
+TXdqz7vwbJSeKpJHS	Spanish	feedback	supSuff	ivy	plant	crocodile	animal	1	44	cuatro ruedas	cuatro ruedas		sportsCar	1	FALSE	FALSE	FALSE	FALSE	FALSE	0	
+TXdqz7vwbJSeKpJHS	Spanish	feedback	supSuff	candy	snack	shirt	clothing	1	56	cuatro patas	cuatro patas		grizzlyBear	1	FALSE	FALSE	FALSE	FALSE	FALSE	0	
+TXdqz7vwbJSeKpJHS	Spanish	feedback	supSuff	cookies	snack	ivy	plant	1	60	cuatro patas	cuatro patas		coffeeTable	1	FALSE	FALSE	FALSE	FALSE	FALSE	0	
+TXdqz7vwbJSeKpJHS	Spanish	feedback	supSuff	motorcycle	vehicle	grasses	plant	1	64	animal	animal		blackBear	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	type?
+TXdqz7vwbJSeKpJHS	Spanish	feedback	supSuff	dress	clothing	kitten	animal	1	67	s, para comer	s, para comer		skittles	1	FALSE	FALSE	FALSE	FALSE	FALSE	0	
+TXdqz7vwbJSeKpJHS	Spanish	feedback	supSuff	pretzels	snack	rosemary	plant	1	72	cuatro ruedas	cuatro ruedas		minivan	1	FALSE	FALSE	FALSE	FALSE	FALSE	0	
+D5sTSEMaXM7y3Q7AW	Spanish	feedback	supSuff	socks	clothing	chips	snack	1	10	vive en el bosque	vive en el bosque		grizzlyBear	1	FALSE	FALSE	FALSE	FALSE	FALSE	0	
+D5sTSEMaXM7y3Q7AW	Spanish	feedback	supSuff	car	vehicle	candy	snack	1	12	en el mar	en el mar		swordFish	1	FALSE	FALSE	FALSE	FALSE	FALSE	0	
+D5sTSEMaXM7y3Q7AW	Spanish	feedback	supSuff	popcorn	snack	gloves	clothing	1	45	nemo	nemo		clownFish	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	type?
+D5sTSEMaXM7y3Q7AW	Spanish	feedback	supSuff	chips	snack	car	vehicle	1	69	flores	flores		hawaiiShirt	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+g8tXfbQJ5w3Yo5kXq	Spanish	feedback	supSuff	popcorn	snack	bed	furniture	1	3	es el pez espada	es el pez espada	pez?	swordFish	1	FALSE	FALSE	TRUE	FALSE	TRUE	0	
+g8tXfbQJ5w3Yo5kXq	Spanish	feedback	supSuff	car	vehicle	candy	snack	1	4	es el colibrí . el pajaro	es el colibrí . el pajaro	ave?	hummingBird	1	FALSE	FALSE	TRUE	FALSE	TRUE	0	
+g8tXfbQJ5w3Yo5kXq	Spanish	feedback	supSuff	candy	snack	train	vehicle	1	19	pez	pez	pez?	catfish	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+g8tXfbQJ5w3Yo5kXq	Spanish	feedback	supSuff	chips	snack	table	furniture	1	29	coche	coche	mesa?	suv	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+g8tXfbQJ5w3Yo5kXq	Spanish	feedback	supSuff	firetruck	vehicle	gloves	clothing	1	41	caramelos	caramelos	caramelos?	mnMs	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+g8tXfbQJ5w3Yo5kXq	Spanish	feedback	supSuff	bed	furniture	popcorn	snack	1	46	camisa azul	camisa azul	camisa?	dressShirt	1	TRUE	FALSE	TRUE	FALSE	FALSE	0	
+g8tXfbQJ5w3Yo5kXq	Spanish	feedback	supSuff	snake	animal	gloves	clothing	1	49	flor	flor	flor?	sunflower	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+g8tXfbQJ5w3Yo5kXq	Spanish	feedback	supSuff	popcorn	snack	ivy	plant	1	63	mesa	mesa	mesa?	picnicTable	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+g8tXfbQJ5w3Yo5kXq	Spanish	feedback	supSuff	lamp	furniture	cookies	snack	1	67	dalmata	dalmata	lampara?	dalmatian	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+Drac2QY2EJGirNSty	Spanish	feedback	supSuff	bookcase	furniture	firetruck	vehicle	1	12	camiseta	camiseta		poloShirt	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+Drac2QY2EJGirNSty	Spanish	feedback	supSuff	bookcase	furniture	firetruck	vehicle	1	13	pez	pez		clownFish	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+Drac2QY2EJGirNSty	Spanish	feedback	supSuff	pretzels	snack	wardrobe	furniture	1	18	pez	pez		goldFish	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+Drac2QY2EJGirNSty	Spanish	feedback	supSuff	ivy	plant	shirt	clothing	1	25	pajaro	pajaro		hummingBird	1	TRUE	FALSE	TRUE	FALSE	FALSE	0	
+Drac2QY2EJGirNSty	Spanish	feedback	supSuff	cookies	snack	elephant	animal	1	27	coche	coche		sportsCar	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+Drac2QY2EJGirNSty	Spanish	feedback	supSuff	motorcycle	vehicle	fish	animal	1	38	mesa	mesa		coffeeTable	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+Drac2QY2EJGirNSty	Spanish	feedback	supSuff	pig	animal	pretzels	snack	1	42	mesa camping	mesa camping		picnicTable	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+Drac2QY2EJGirNSty	Spanish	feedback	supSuff	bed	furniture	chips	snack	1	45	camiseta azul	camiseta azul		tShirt	1	TRUE	FALSE	TRUE	FALSE	FALSE	0	
+Drac2QY2EJGirNSty	Spanish	feedback	supSuff	cookies	snack	grasses	plant	1	58	mesa	mesa		diningTable	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+Drac2QY2EJGirNSty	Spanish	feedback	supSuff	firetruck	vehicle	bathrobe	clothing	1	70	oso polar	oso polar		polarBear	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+ncA5wQm2wMWx6Qw4m	Spanish	feedback	supSuff	ambulance	vehicle	pottedPlant	plant	1	6	ropa	ropa		poloShirt	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+ncA5wQm2wMWx6Qw4m	Spanish	feedback	supSuff	cookies	snack	pottedPlant	plant	1	9	el pescado bigotón	el pescado bigotón		catfish	1	FALSE	FALSE	TRUE	FALSE	TRUE	0	
+ncA5wQm2wMWx6Qw4m	Spanish	feedback	supSuff	table	furniture	pretzels	snack	1	10	pescado de nuevo	pescado de nuevo		goldFish	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+ncA5wQm2wMWx6Qw4m	Spanish	feedback	supSuff	car	vehicle	cookies	snack	1	12	la guacamaya	la guacamaya		parrot	1	FALSE	FALSE	TRUE	FALSE	TRUE	0	
+ncA5wQm2wMWx6Qw4m	Spanish	feedback	supSuff	table	furniture	gloves	clothing	1	29	panda	panda		pandaBear	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+ncA5wQm2wMWx6Qw4m	Spanish	feedback	supSuff	horse	animal	train	vehicle	1	40	panditas	panditas		gummyBears	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+ncA5wQm2wMWx6Qw4m	Spanish	feedback	supSuff	chips	snack	shirt	clothing	1	45	mesa	mesa		diningTable	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+ncA5wQm2wMWx6Qw4m	Spanish	feedback	supSuff	flower	plant	gloves	clothing	1	56	dalmata	dalmata		dalmatian	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+ncA5wQm2wMWx6Qw4m	Spanish	feedback	supSuff	bookcase	furniture	socks	clothing	1	60	paloma	paloma		pigeon	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+ncA5wQm2wMWx6Qw4m	Spanish	feedback	supSuff	ambulance	vehicle	pretzels	snack	1	68	tulipán	tulipán		tulip	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+RdyH6CPjXhDjFiBn6	Spanish	feedback	supSuff	rosemary	plant	shirt	clothing	1	8	águila	águila		eagle	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+RdyH6CPjXhDjFiBn6	Spanish	feedback	supSuff	flower	plant	cookies	snack	1	12	camioneta	camioneta		minivan	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+RdyH6CPjXhDjFiBn6	Spanish	feedback	supSuff	shirt	clothing	firetruck	vehicle	1	17	gomitas	gomitas		gummyBears	1	FALSE	FALSE	TRUE	FALSE	FALSE	0	
+RdyH6CPjXhDjFiBn6	Spanish	feedback	supSuff	car	vehicle	wardrobe	furniture	1	43	perro	perro		dalmatian	1	FALSE	FALSE	FALSE	TRUE	FALSE		
+RdyH6CPjXhDjFiBn6	Spanish	feedback	supSuff	lamp	furniture	bathrobe	clothing	1	46	dulces	dulces		jellyBeans	1	FALSE	FALSE	FALSE	TRUE	FALSE		
+RdyH6CPjXhDjFiBn6	Spanish	feedback	supSuff	pottedPlant	plant	bed	furniture	1	48	pez	pez		goldFish	1	FALSE	FALSE	FALSE	TRUE	FALSE		
+RdyH6CPjXhDjFiBn6	Spanish	feedback	supSuff	wardrobe	furniture	shirt	clothing	1	55	oso polar	oso polar		polarBear	1	FALSE	FALSE	FALSE	TRUE	TRUE		
+RdyH6CPjXhDjFiBn6	Spanish	feedback	supSuff	shirt	clothing	candy	snack	1	62	rosa	rosa		rose	1	TRUE	FALSE	FALSE	TRUE	FALSE		
+RdyH6CPjXhDjFiBn6	Spanish	feedback	supSuff	lion	animal	bed	furniture	1	64	tulipán	tulipán		tulip	1	FALSE	FALSE	FALSE	TRUE	FALSE		
+RdyH6CPjXhDjFiBn6	Spanish	feedback	supSuff	cookies	snack	wardrobe	furniture	1	66	perro	perro		germanShepherd	1	FALSE	FALSE	FALSE	TRUE	FALSE		
+RdyH6CPjXhDjFiBn6	Spanish	feedback	supSuff	rosemary	plant	shirt	clothing	1	68	oso	oso		grizzlyBear	1	FALSE	FALSE	FALSE	TRUE	FALSE		
+RdyH6CPjXhDjFiBn6	Spanish	feedback	supSuff	rosemary	plant	firetruck	vehicle	1	69	perro	perro		pug	1	FALSE	FALSE	FALSE	TRUE	FALSE		
+ri9WkdRrTvaRgjAbd	Spanish	feedback	supSuff	pretzels	snack	socks	clothing	1	11	perro	perro		germanShepherd	1	FALSE	FALSE	FALSE	TRUE	FALSE		
+ri9WkdRrTvaRgjAbd	Spanish	feedback	supSuff	ambulance	vehicle	grasses	plant	1	25	gomitas	gomitas		gummyBears	1	FALSE	FALSE	FALSE	TRUE	FALSE		
+ri9WkdRrTvaRgjAbd	Spanish	feedback	supSuff	rabbit	animal	wardrobe	furniture	1	27	audi	audi		sportsCar	1	FALSE	FALSE	FALSE	TRUE	FALSE		
+ri9WkdRrTvaRgjAbd	Spanish	feedback	supSuff	gloves	clothing	chips	snack	1	42	perro	perro		husky	1	FALSE	FALSE	FALSE	TRUE	FALSE		
+ri9WkdRrTvaRgjAbd	Spanish	feedback	supSuff	car	vehicle	wardrobe	furniture	1	44	mms	mms		skittles	1	FALSE	FALSE	FALSE	TRUE	FALSE		
+ri9WkdRrTvaRgjAbd	Spanish	feedback	supSuff	pottedPlant	plant	table	furniture	1	51	espada	espada		swordFish	1	FALSE	FALSE	FALSE	TRUE	FALSE		
+ri9WkdRrTvaRgjAbd	Spanish	feedback	supSuff	ambulance	vehicle	bookcase	furniture	1	52	loro	loro		parrot	1	FALSE	FALSE	FALSE	TRUE	FALSE		
+ri9WkdRrTvaRgjAbd	Spanish	feedback	supSuff	popcorn	snack	bookcase	furniture	1	54	oso	oso		blackBear	1	FALSE	FALSE	FALSE	TRUE	FALSE		
+ri9WkdRrTvaRgjAbd	Spanish	feedback	supSuff	motorcycle	vehicle	candy	snack	1	60	pug	pug		pug	1	FALSE	FALSE	FALSE	TRUE	FALSE		
+ri9WkdRrTvaRgjAbd	Spanish	feedback	supSuff	grasses	plant	popcorn	snack	1	72	mesa	mesa		diningTable	1	FALSE	FALSE	FALSE	TRUE	FALSE		

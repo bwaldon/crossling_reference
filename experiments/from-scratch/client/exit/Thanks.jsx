@@ -7,14 +7,22 @@ export default class Thanks extends React.Component {
   static stepName = "Thanks";
   render() {
     const { game } = this.props;
-    const gameTextInLanguage = gameText.filter(row => row.language == game.treatment.gameLanguage)[0]
+    const gameTextInLanguage = gameText.filter(
+      (row) => row.language == game.treatment.gameLanguage
+    )[0];
 
     return (
-        <div>
-          <h4>{gameTextInLanguage.THANKS_finished}</h4>
-          <p>{gameTextInLanguage.THANKS_thanksForParticipating}</p>
-          <p>{gameTextInLanguage.THANKS_prolificCodePart1} <b>{game.treatment.prolificCode}</b>{gameTextInLanguage.THANKS_prolificCodePart2}</p>
-        </div>
+      <div dir="auto">
+        <h4>{gameTextInLanguage.THANKS_finished}</h4>
+        <p>{gameTextInLanguage.THANKS_thanksForParticipating}</p>
+        {game.treatment.showProlificCode ? (
+          <p>
+            {gameTextInLanguage.THANKS_prolificCodePart1}{" "}
+            <b>{game.treatment.prolificCode}</b>
+            {gameTextInLanguage.THANKS_prolificCodePart2}
+          </p>
+        ) : null}
+      </div>
     );
   }
 }

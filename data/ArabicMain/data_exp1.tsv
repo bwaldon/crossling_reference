@@ -1,0 +1,136 @@
+gameid	Trial	TargetItem	UtteranceType	redUtterance	SufficientProperty	RedundantProperty	NumDistractors	NumSameDistractors	SceneVariation	speakerMessages	listenerMessages	refExp	minimal	redundant	clickedType	clickedSize	clickedColor	colorMentioned	sizeMentioned	typeMentioned	oneMentioned	theMentioned
+35NAyGqMuuhEiwwsu	8	small_yellow_shoe	color	minimal	color	size redundant	2	2	0	asfar	NA	asfar	1	0	shoe	small	yellow	TRUE	FALSE	FALSE	FALSE	FALSE
+35NAyGqMuuhEiwwsu	13	big_purple_flower	color	minimal	color	size redundant	4	2	0.5	banafsaji	NA	banafsaji	1	0	flower	big	purple	TRUE	FALSE	FALSE	FALSE	FALSE
+35NAyGqMuuhEiwwsu	24	big_white_teacup	color	minimal	color	size redundant	3	3	0	abyad	NA	abyad	1	0	teacup	big	white	TRUE	FALSE	FALSE	FALSE	FALSE
+35NAyGqMuuhEiwwsu	25	small_pink_framee	color	minimal	color	size redundant	4	1	0.75	saghir zahr	NA	saghir zahr	1	0	framee	small	pink	TRUE	FALSE	FALSE	FALSE	FALSE
+35NAyGqMuuhEiwwsu	44	big_red_tack	color	minimal	color	size redundant	2	1	0.5	ahmar	NA	ahmar	1	0	tack	big	red	TRUE	FALSE	FALSE	FALSE	FALSE
+35NAyGqMuuhEiwwsu	49	small_green_jacket	color	minimal	color	size redundant	4	3	0.25	akhdar saghir	NA	akhdar saghir	1	0	jacket	small	green	TRUE	FALSE	FALSE	FALSE	FALSE
+35NAyGqMuuhEiwwsu	56	big_purple_coathanger	color	minimal	color	size redundant	4	2	0.5	banafsaji	NA	banafsaji	1	0	coathanger	big	purple	TRUE	FALSE	FALSE	FALSE	FALSE
+35NAyGqMuuhEiwwsu	60	big_red_stapler	color	minimal	color	size redundant	4	3	0.25	ahmar	NA	ahmar	1	0	stapler	big	red	TRUE	FALSE	FALSE	FALSE	FALSE
+3uRGDDr9F4h9CYxfY	6	big_red_bucket	size and color	redundant	size	color redundant	3	2	0.3333333333333333	الدلو الأحمر الكبير	?	الدلو الأحمر الكبير	0	1	bucket	big	red	TRUE	TRUE	FALSE	FALSE	TRUE
+3uRGDDr9F4h9CYxfY	8	small_red_stapler	color	minimal	color	size redundant	4	2	0.5	المكبس الأحمر	?	المكبس الأحمر	1	0	stapler	small	red	TRUE	FALSE	FALSE	FALSE	TRUE
+3uRGDDr9F4h9CYxfY	9	big_pink_teacup	color	minimal	color	size redundant	3	3	0	الفنجان الزهري	?	الفنجان الزهري	1	0	teacup	big	pink	TRUE	FALSE	FALSE	FALSE	TRUE
+3uRGDDr9F4h9CYxfY	15	big_pink_phone	size and color	redundant	size	color redundant	2	1	0.5	الهاتف الزهري الكبير	NA	الهاتف الزهري الكبير	0	1	phone	big	pink	TRUE	TRUE	FALSE	FALSE	TRUE
+3uRGDDr9F4h9CYxfY	18	big_purple_bracelet	color	minimal	color	size redundant	4	1	0.75	العقد البنفسجي	NA	العقد البنفسجي	1	0	bracelet	big	purple	TRUE	FALSE	FALSE	FALSE	TRUE
+3uRGDDr9F4h9CYxfY	20	big_white_pingpongball	color	minimal	color	size redundant	4	3	0.25	الكرة البيضاء	NA	الكرة البيضاء	1	0	pingpongball	big	white	TRUE	FALSE	FALSE	FALSE	TRUE
+3uRGDDr9F4h9CYxfY	21	big_pink_weddingcake	color	minimal	color	size redundant	4	2	0.5	الكعكة الزهرية	???	الكعكة الزهرية	1	0	weddingcake	big	pink	TRUE	FALSE	FALSE	FALSE	TRUE
+3uRGDDr9F4h9CYxfY	22	small_purple_rug	color	minimal	color	size redundant	3	2	0.3333333333333333	القماش البنفسجي	?	القماش البنفسجي	1	0	rug	small	purple	TRUE	FALSE	FALSE	FALSE	TRUE
+3uRGDDr9F4h9CYxfY	23	big_green_guitar	color	minimal	color	size redundant	2	1	0.5	الآلة الموسيقية الخضراء	?	الآلة الموسيقية الخضراء	1	0	guitar	big	green	TRUE	FALSE	FALSE	FALSE	TRUE
+3uRGDDr9F4h9CYxfY	29	big_grey_rock	size	minimal	size	color redundant	3	3	0	الحجرة الكبيرة	?	الحجرة الكبيرة	1	0	rock	big	grey	FALSE	TRUE	FALSE	FALSE	TRUE
+3uRGDDr9F4h9CYxfY	32	small_purple_hairdryer	color	minimal	color	size redundant	2	2	0	السشوار البنفسجي	NA	السشوار البنفسجي	1	0	hairdryer	small	purple	TRUE	FALSE	FALSE	FALSE	TRUE
+3uRGDDr9F4h9CYxfY	34	small_yellow_balloon	color	minimal	color	size redundant	3	1	0.6666666666666666	البالون الأصفر	?	البالون الأصفر	1	0	balloon	small	yellow	TRUE	FALSE	FALSE	FALSE	TRUE
+3uRGDDr9F4h9CYxfY	35	big_purple_bike	color	minimal	color	size redundant	2	1	0.5	الدراجة البنفسجية	?	الدراجة البنفسجية	1	0	bike	big	purple	TRUE	FALSE	FALSE	FALSE	TRUE
+3uRGDDr9F4h9CYxfY	37	big_blue_comb	color	minimal	color	size redundant	4	4	0	المشط الأزرق	NA	المشط الأزرق	1	0	comb	big	blue	TRUE	FALSE	FALSE	FALSE	TRUE
+3uRGDDr9F4h9CYxfY	38	big_red_toothbrush	color	minimal	color	size redundant	4	1	0.75	الفرشاة الحمراء	NA	الفرشاة الحمراء	1	0	toothbrush	big	red	TRUE	FALSE	FALSE	FALSE	TRUE
+3uRGDDr9F4h9CYxfY	39	small_red_tack	size	minimal	size	color redundant	4	4	0	الدبوس الصغير	NA	الدبوس الصغير	1	0	tack	small	red	FALSE	TRUE	TRUE	FALSE	TRUE
+3uRGDDr9F4h9CYxfY	40	small_white_shoe	size	minimal	size	color redundant	3	1	0.6666666666666666	الحذاء الصغير	NA	الحذاء الصغير	1	0	shoe	small	white	FALSE	TRUE	FALSE	FALSE	TRUE
+3uRGDDr9F4h9CYxfY	42	big_purple_coathanger	size	minimal	size	color redundant	3	1	0.6666666666666666	التعليقة الكبيرة	?	التعليقة الكبيرة	1	0	coathanger	big	purple	FALSE	TRUE	FALSE	FALSE	TRUE
+3uRGDDr9F4h9CYxfY	43	small_orange_napkin	size	minimal	size	color redundant	4	2	0.5	الصغيرة	NA	الصغيرة	1	0	napkin	small	orange	FALSE	TRUE	FALSE	FALSE	TRUE
+3uRGDDr9F4h9CYxfY	44	small_pink_framee	color	minimal	color	size redundant	3	3	0	الزهرية	NA	الزهرية	1	0	framee	small	pink	TRUE	FALSE	FALSE	FALSE	TRUE
+3uRGDDr9F4h9CYxfY	45	small_blue_book	color	minimal	color	size redundant	3	2	0.3333333333333333	الكتاب الأزرق	NA	الكتاب الأزرق	1	0	book	small	blue	TRUE	FALSE	FALSE	FALSE	TRUE
+3uRGDDr9F4h9CYxfY	47	big_green_pepper	color	minimal	color	size redundant	4	4	0	الفلفل الأخضر	NA	الفلفل الأخضر	1	0	pepper	big	green	TRUE	FALSE	FALSE	FALSE	TRUE
+3uRGDDr9F4h9CYxfY	48	small_red_yarn	size and color	redundant	size	color redundant	4	1	0.75	الخيط الأحمر الصغير	?	الخيط الأحمر الصغير	0	1	yarn	small	red	TRUE	TRUE	FALSE	FALSE	TRUE
+3uRGDDr9F4h9CYxfY	49	big_brown_jacket	color	minimal	color	size redundant	2	2	0	المعطف البني	?	المعطف البني	1	0	jacket	big	brown	TRUE	FALSE	FALSE	FALSE	TRUE
+3uRGDDr9F4h9CYxfY	52	big_blue_scarf	size and color	redundant	size	color redundant	4	1	0.75	الوشاح الأزرق الكبير	NA	الوشاح الأزرق الكبير	0	1	scarf	big	blue	TRUE	TRUE	FALSE	FALSE	TRUE
+3uRGDDr9F4h9CYxfY	53	small_blue_binder	size	minimal	size	color redundant	2	2	0	الملف الصغير	NA	الملف الصغير	1	0	binder	small	blue	FALSE	TRUE	FALSE	FALSE	TRUE
+3uRGDDr9F4h9CYxfY	54	small_blue_cushion	size	minimal	size	color redundant	3	3	0	المخدة الصغيرة	NA	المخدة الصغيرة	1	0	cushion	small	blue	FALSE	TRUE	FALSE	FALSE	TRUE
+3uRGDDr9F4h9CYxfY	55	big_red_flower	color	minimal	color	size redundant	4	3	0.25	الزهرة الحمراء	NA	الزهرة الحمراء	1	0	flower	big	red	TRUE	FALSE	TRUE	FALSE	TRUE
+3uRGDDr9F4h9CYxfY	58	small_orange_billiardball	size	minimal	size	color redundant	2	1	0.5	الكرة الصغيرة	NA	الكرة الصغيرة	1	0	billiardball	small	orange	FALSE	TRUE	FALSE	FALSE	TRUE
+3uRGDDr9F4h9CYxfY	62	small_blue_candle	size and color	redundant	size	color redundant	3	2	0.3333333333333333	الشمعة الزرقاء الصغيرة	?	الشمعة الزرقاء الصغيرة	0	1	candle	small	blue	TRUE	TRUE	FALSE	FALSE	TRUE
+3uRGDDr9F4h9CYxfY	65	small_black_turtle	color	minimal	color	size redundant	3	1	0.6666666666666666	السلحفاة السوداء	??	السلحفاة السوداء	1	0	turtle	small	black	TRUE	FALSE	FALSE	FALSE	TRUE
+3uRGDDr9F4h9CYxfY	66	big_green_chair	size and color	redundant	size	color redundant	4	3	0.25	المقعد الأخضر الكبير	NA	المقعد الأخضر الكبير	0	1	chair	big	green	TRUE	TRUE	FALSE	FALSE	TRUE
+3uRGDDr9F4h9CYxfY	68	big_red_bellpepper	size and color	redundant	size	color redundant	4	4	0	الفليفلة الحمراء الكبيرة	NA	الفليفلة الحمراء الكبيرة	0	1	bellpepper	big	red	TRUE	TRUE	FALSE	FALSE	TRUE
+3uRGDDr9F4h9CYxfY	69	small_purple_butterfly	size	minimal	size	color redundant	2	2	0	الفراشة الصغيرة	NA	الفراشة الصغيرة	1	0	butterfly	small	purple	FALSE	TRUE	FALSE	FALSE	TRUE
+3uRGDDr9F4h9CYxfY	71	big_orange_cap	size	minimal	size	color redundant	4	2	0.5	القبعة الكبيرة	NA	القبعة الكبيرة	1	0	cap	big	orange	FALSE	TRUE	FALSE	FALSE	TRUE
+3uRGDDr9F4h9CYxfY	72	small_brown_belt	size	minimal	size	color redundant	4	3	0.25	الصغيرة	NA	الصغيرة	1	0	belt	small	brown	FALSE	TRUE	FALSE	FALSE	TRUE
+743QreGaJE7p3im4s	5	small_white_pingpongball	color	minimal	color	size redundant	4	3	0.25	tabe bayda	NA	tabe bayda	1	0	pingpongball	small	white	TRUE	FALSE	FALSE	FALSE	FALSE
+743QreGaJE7p3im4s	12	small_green_chair	color	minimal	color	size redundant	2	1	0.5	kerse khadra	NA	kerse khadra	1	0	chair	small	green	TRUE	FALSE	FALSE	FALSE	FALSE
+743QreGaJE7p3im4s	18	big_blue_book	color	minimal	color	size redundant	2	1	0.5	kteb azra2	NA	kteb azra2	1	0	book	big	blue	TRUE	FALSE	FALSE	FALSE	FALSE
+743QreGaJE7p3im4s	19	big_blue_tack	color	minimal	color	size redundant	4	4	0	dabs 2azra2	NA	dabs 2azra2	1	0	tack	big	blue	TRUE	FALSE	FALSE	FALSE	FALSE
+743QreGaJE7p3im4s	25	big_green_binder	color	minimal	color	size redundant	3	2	0.3333333333333333	kteb 2akhdar	NA	kteb 2akhdar	1	0	binder	big	green	TRUE	FALSE	FALSE	FALSE	FALSE
+743QreGaJE7p3im4s	27	big_black_turtle	color	minimal	color	size redundant	4	3	0.25	sol7afet 2aswad	NA	sol7afet 2aswad	1	0	turtle	big	black	TRUE	FALSE	FALSE	FALSE	FALSE
+743QreGaJE7p3im4s	31	small_pink_bucket	color	minimal	color	size redundant	3	3	0	satol zaher	NA	satol zaher	1	0	bucket	small	pink	TRUE	FALSE	FALSE	FALSE	FALSE
+743QreGaJE7p3im4s	35	small_white_shoe	color	minimal	color	size redundant	2	2	0	skarbeeni bayda	NA	skarbeeni bayda	1	0	shoe	small	white	TRUE	FALSE	FALSE	FALSE	FALSE
+743QreGaJE7p3im4s	38	big_green_framee	color	minimal	color	size redundant	3	3	0	sa7on akhdar	NA	sa7on akhdar	1	0	framee	big	green	TRUE	FALSE	FALSE	FALSE	FALSE
+743QreGaJE7p3im4s	68	big_green_bracelet	color	minimal	color	size redundant	2	2	0	2oswara khadra	NA	2oswara khadra	1	0	bracelet	big	green	TRUE	FALSE	FALSE	FALSE	FALSE
+7KNu9oiEMipd2MtkM	5	big_purple_hairdryer	color	minimal	color	size redundant	2	2	0	il sushwar il mov	NA	il sushwar il mov	1	0	hairdryer	big	purple	TRUE	FALSE	FALSE	FALSE	FALSE
+7KNu9oiEMipd2MtkM	8	small_purple_coathanger	color	minimal	color	size redundant	2	1	0.5	il t3li2a il mov	NA	il t3li2a il mov	1	0	coathanger	small	purple	TRUE	FALSE	FALSE	FALSE	FALSE
+7KNu9oiEMipd2MtkM	13	big_orange_pingpongball	color	minimal	color	size redundant	3	2	0.3333333333333333	orange	NA	orange	1	0	pingpongball	big	orange	TRUE	FALSE	TRUE	FALSE	FALSE
+7KNu9oiEMipd2MtkM	18	small_black_turtle	color	minimal	color	size redundant	4	3	0.25	il sawda	NA	il sawda	1	0	turtle	small	black	TRUE	FALSE	FALSE	FALSE	FALSE
+7KNu9oiEMipd2MtkM	26	small_white_weddingcake	color	minimal	color	size redundant	4	4	0	abyadh	NA	abyadh	1	0	weddingcake	small	white	TRUE	FALSE	FALSE	FALSE	FALSE
+7KNu9oiEMipd2MtkM	33	big_blue_candle	color	minimal	color	size redundant	3	3	0	mov	NA	mov	1	0	candle	big	blue	TRUE	FALSE	FALSE	FALSE	FALSE
+7KNu9oiEMipd2MtkM	34	small_blue_butterfly	color	minimal	color	size redundant	4	2	0.5	azra2	NA	azra2	1	0	butterfly	small	blue	TRUE	FALSE	FALSE	FALSE	FALSE
+7KNu9oiEMipd2MtkM	37	small_black_book	color	minimal	color	size redundant	2	2	0	aswad	NA	aswad	1	0	book	small	black	TRUE	FALSE	FALSE	FALSE	FALSE
+7KNu9oiEMipd2MtkM	51	big_blue_cap	color	minimal	color	size redundant	2	1	0.5	azra2	NA	azra2	1	0	cap	big	blue	TRUE	FALSE	FALSE	FALSE	FALSE
+7KNu9oiEMipd2MtkM	52	big_pink_bucket	color	minimal	color	size redundant	4	1	0.75	zahr	NA	zahr	1	0	bucket	big	pink	TRUE	FALSE	FALSE	FALSE	FALSE
+7KNu9oiEMipd2MtkM	70	small_pink_balloon	color	minimal	color	size redundant	3	3	0	ballon zahr	NA	ballon zahr	1	0	balloon	small	pink	TRUE	FALSE	FALSE	FALSE	FALSE
+7KNu9oiEMipd2MtkM	72	big_pink_teacup	color	minimal	color	size redundant	4	4	0	ta2iyi zahra	NA	ta2iyi zahra	1	0	teacup	big	pink	TRUE	FALSE	TRUE	FALSE	FALSE
+CTQ7DPToATf6cMCQG	1	big_red_stapler	size	minimal	size	color redundant	4	4	0	كبير	NA	كبير	1	0	stapler	big	red	FALSE	TRUE	FALSE	FALSE	FALSE
+CTQ7DPToATf6cMCQG	3	big_red_toothbrush	size	minimal	size	color redundant	3	3	0	كبير	NA	كبير	1	0	toothbrush	big	red	FALSE	TRUE	FALSE	FALSE	FALSE
+CTQ7DPToATf6cMCQG	4	small_green_framee	size	minimal	size	color redundant	3	3	0	صغير	NA	صغير	1	0	framee	small	green	FALSE	TRUE	FALSE	FALSE	FALSE
+CTQ7DPToATf6cMCQG	10	small_yellow_shoe	size	minimal	size	color redundant	4	1	0.75	صغير	NA	صغير	1	0	shoe	small	yellow	FALSE	TRUE	FALSE	FALSE	FALSE
+CTQ7DPToATf6cMCQG	11	small_grey_rock	size	minimal	size	color redundant	3	1	0.6666666666666666	صغير	NA	صغير	1	0	rock	small	grey	FALSE	TRUE	FALSE	FALSE	FALSE
+CTQ7DPToATf6cMCQG	12	small_green_jacket	size	minimal	size	color redundant	4	2	0.5	صغير	NA	صغير	1	0	jacket	small	green	FALSE	TRUE	FALSE	FALSE	FALSE
+CTQ7DPToATf6cMCQG	15	small_blue_cap	size	minimal	size	color redundant	4	1	0.75	صغير	NA	صغير	1	0	cap	small	blue	FALSE	TRUE	FALSE	FALSE	FALSE
+CTQ7DPToATf6cMCQG	24	big_orange_pingpongball	size	minimal	size	color redundant	2	1	0.5	كبير	NA	كبير	1	0	pingpongball	big	orange	FALSE	TRUE	FALSE	FALSE	FALSE
+CTQ7DPToATf6cMCQG	28	small_purple_bike	size	minimal	size	color redundant	3	2	0.3333333333333333	صغير	NA	صغير	1	0	bike	small	purple	FALSE	TRUE	FALSE	FALSE	FALSE
+CTQ7DPToATf6cMCQG	33	big_purple_bracelet	size	minimal	size	color redundant	4	4	0	كبير	NA	كبير	1	0	bracelet	big	purple	FALSE	TRUE	FALSE	FALSE	FALSE
+CTQ7DPToATf6cMCQG	40	small_red_bucket	size	minimal	size	color redundant	2	2	0	صغير	NA	صغير	1	0	bucket	small	red	FALSE	TRUE	FALSE	FALSE	FALSE
+CTQ7DPToATf6cMCQG	41	big_red_flower	size	minimal	size	color redundant	2	1	0.5	كبير	NA	كبير	1	0	flower	big	red	FALSE	TRUE	FALSE	FALSE	FALSE
+CTQ7DPToATf6cMCQG	42	big_black_belt	size	minimal	size	color redundant	4	3	0.25	كبير	NA	كبير	1	0	belt	big	black	FALSE	TRUE	FALSE	FALSE	FALSE
+CTQ7DPToATf6cMCQG	49	small_pink_balloon	size	minimal	size	color redundant	3	1	0.6666666666666666	صغير	NA	صغير	1	0	balloon	small	pink	FALSE	TRUE	FALSE	FALSE	FALSE
+CTQ7DPToATf6cMCQG	56	small_black_book	size	minimal	size	color redundant	2	2	0	صغير	NA	صغير	1	0	book	small	black	FALSE	TRUE	FALSE	FALSE	FALSE
+CTQ7DPToATf6cMCQG	62	big_red_tack	size	minimal	size	color redundant	3	2	0.3333333333333333	كبير	NA	كبير	1	0	tack	big	red	FALSE	TRUE	FALSE	FALSE	FALSE
+CTQ7DPToATf6cMCQG	64	small_blue_rug	size	minimal	size	color redundant	4	2	0.5	صغير	NA	صغير	1	0	rug	small	blue	FALSE	TRUE	FALSE	FALSE	FALSE
+CTQ7DPToATf6cMCQG	69	big_black_turtle	size	minimal	size	color redundant	4	3	0.25	كبير	NA	كبير	1	0	turtle	big	black	FALSE	TRUE	FALSE	FALSE	FALSE
+J2gnT5ynexArsiA5J	1	small_blue_cap	size	minimal	size	color redundant	2	1	0.5	صغيرة	NA	صغيرة	1	0	cap	small	blue	FALSE	TRUE	FALSE	FALSE	FALSE
+J2gnT5ynexArsiA5J	6	big_purple_coathanger	color	minimal	color	size redundant	3	1	0.6666666666666666	بنفسجي	NA	بنفسجي	1	0	coathanger	big	purple	TRUE	FALSE	FALSE	FALSE	FALSE
+J2gnT5ynexArsiA5J	21	small_white_weddingcake	color	minimal	color	size redundant	3	3	0	2abyad	NA	2abyad	1	0	weddingcake	small	white	TRUE	FALSE	FALSE	FALSE	FALSE
+J2gnT5ynexArsiA5J	24	big_blue_cushion	color	minimal	color	size redundant	2	2	0	zar2a	NA	zar2a	1	0	cushion	big	blue	TRUE	FALSE	FALSE	FALSE	FALSE
+J2gnT5ynexArsiA5J	25	small_blue_guitar	color	minimal	color	size redundant	2	1	0.5	2azra2	NA	2azra2	1	0	guitar	small	blue	TRUE	FALSE	FALSE	FALSE	FALSE
+J2gnT5ynexArsiA5J	28	big_blue_scarf	color	minimal	color	size redundant	3	3	0	2azra2	NA	2azra2	1	0	scarf	big	blue	TRUE	FALSE	FALSE	FALSE	FALSE
+J2gnT5ynexArsiA5J	47	big_purple_hairdryer	color	minimal	color	size redundant	2	1	0.5	banafsaji	NA	banafsaji	1	0	hairdryer	big	purple	TRUE	FALSE	FALSE	FALSE	FALSE
+J2gnT5ynexArsiA5J	54	small_green_pepper	color	minimal	color	size redundant	4	2	0.5	2a5dar	NA	2a5dar	1	0	pepper	small	green	TRUE	FALSE	FALSE	FALSE	FALSE
+J2gnT5ynexArsiA5J	57	small_yellow_bellpepper	color	minimal	color	size redundant	4	4	0	2asfar	NA	2asfar	1	0	bellpepper	small	yellow	TRUE	FALSE	FALSE	FALSE	FALSE
+J2gnT5ynexArsiA5J	61	big_purple_rug	color	minimal	color	size redundant	4	3	0.25	banafsaji	NA	banafsaji	1	0	rug	big	purple	TRUE	FALSE	FALSE	FALSE	FALSE
+LxWvw7LzjpRjtLCmR	16	big_red_scarf	color	minimal	color	size redundant	4	3	0.25	shal hamra2	NA	shal hamra2	1	0	scarf	big	red	TRUE	FALSE	FALSE	FALSE	FALSE
+LxWvw7LzjpRjtLCmR	24	small_red_stapler	color	minimal	color	size redundant	4	4	0	kabasa hamra2	NA	kabasa hamra2	1	0	stapler	small	red	TRUE	FALSE	FALSE	FALSE	FALSE
+LxWvw7LzjpRjtLCmR	31	big_pink_weddingcake	color	minimal	color	size redundant	3	3	0	ka3katon lilzawaj zahr al lawni	NA	ka3katon lilzawaj zahr al lawni	1	0	weddingcake	big	pink	TRUE	FALSE	FALSE	FALSE	FALSE
+LxWvw7LzjpRjtLCmR	32	small_black_comb	color	minimal	color	size redundant	4	4	0	moshit sawda2	NA	moshit sawda2	1	0	comb	small	black	TRUE	FALSE	FALSE	FALSE	FALSE
+LxWvw7LzjpRjtLCmR	58	small_white_pingpongball	color	minimal	color	size redundant	2	2	0	kora bayda2	NA	kora bayda2	1	0	pingpongball	small	white	TRUE	FALSE	FALSE	FALSE	FALSE
+LxWvw7LzjpRjtLCmR	68	big_white_teacup	color	minimal	color	size redundant	4	2	0.5	finjan bayda2	NA	finjan bayda2	1	0	teacup	big	white	TRUE	FALSE	FALSE	FALSE	FALSE
+LxWvw7LzjpRjtLCmR	70	big_black_belt	color	minimal	color	size redundant	3	3	0	2ashaat sawda2	NA	2ashaat sawda2	1	0	belt	big	black	TRUE	FALSE	FALSE	FALSE	FALSE
+XH3CJvT9vQpKNR7j2	16	big_purple_butterfly	color	minimal	color	size redundant	4	4	0	farshe zaher	NA	farshe zaher	1	0	butterfly	big	purple	TRUE	FALSE	FALSE	FALSE	FALSE
+XH3CJvT9vQpKNR7j2	33	big_purple_hairdryer	color	minimal	color	size redundant	3	2	0.3333333333333333	banafsaji	NA	banafsaji	1	0	hairdryer	big	purple	TRUE	FALSE	FALSE	FALSE	FALSE
+XH3CJvT9vQpKNR7j2	38	small_orange_billiardball	color	minimal	color	size redundant	4	3	0.25	orange	NA	orange	1	0	billiardball	small	orange	TRUE	FALSE	TRUE	FALSE	FALSE
+XH3CJvT9vQpKNR7j2	50	big_red_pepper	color	minimal	color	size redundant	4	3	0.25	ahmar	NA	ahmar	1	0	pepper	big	red	TRUE	FALSE	FALSE	FALSE	FALSE
+XH3CJvT9vQpKNR7j2	68	small_green_framee	color	minimal	color	size redundant	2	1	0.5	akhdar	NA	akhdar	1	0	framee	small	green	TRUE	FALSE	FALSE	FALSE	FALSE
+XH3CJvT9vQpKNR7j2	72	small_orange_cushion	color	minimal	color	size redundant	2	2	0	orange	NA	orange	1	0	cushion	small	orange	TRUE	FALSE	TRUE	FALSE	FALSE
+bKq6RbCG2DgMzNmgc	11	big_pink_balloon	color	minimal	color	size redundant	3	1	0.6666666666666666	baloon zahr	NA	baloon zahr	1	0	balloon	big	pink	TRUE	FALSE	FALSE	FALSE	FALSE
+bKq6RbCG2DgMzNmgc	15	big_blue_comb	color	minimal	color	size redundant	4	1	0.75	musht azra2	NA	musht azra2	1	0	comb	big	blue	TRUE	FALSE	FALSE	FALSE	FALSE
+bKq6RbCG2DgMzNmgc	20	big_pink_framee	color	minimal	color	size redundant	4	4	0	zahr	NA	zahr	1	0	framee	big	pink	TRUE	FALSE	FALSE	FALSE	FALSE
+bKq6RbCG2DgMzNmgc	23	small_pink_teacup	color	minimal	color	size redundant	4	2	0.5	cubai zar2a__eh 3afwan	zahr?	cubai zar2a	1	0	teacup	small	pink	TRUE	FALSE	FALSE	FALSE	FALSE
+bKq6RbCG2DgMzNmgc	33	small_green_guitar	color	minimal	color	size redundant	4	3	0.25	khadra	NA	khadra	1	0	guitar	small	green	TRUE	FALSE	FALSE	FALSE	FALSE
+bKq6RbCG2DgMzNmgc	45	small_blue_book	color	minimal	color	size redundant	4	1	0.75	ktab azra2	NA	ktab azra2	1	0	book	small	blue	TRUE	FALSE	FALSE	FALSE	FALSE
+bKq6RbCG2DgMzNmgc	50	small_yellow_shoe	color	minimal	color	size redundant	4	3	0.25	asfar	NA	asfar	1	0	shoe	small	yellow	TRUE	FALSE	FALSE	FALSE	FALSE
+bKq6RbCG2DgMzNmgc	51	small_yellow_bellpepper	color	minimal	color	size redundant	3	2	0.3333333333333333	asfar	NA	asfar	1	0	bellpepper	small	yellow	TRUE	FALSE	FALSE	FALSE	FALSE
+bKq6RbCG2DgMzNmgc	54	big_purple_flower	color	minimal	color	size redundant	2	2	0	zahr	NA	zahr	1	0	flower	big	purple	TRUE	FALSE	FALSE	FALSE	FALSE
+bKq6RbCG2DgMzNmgc	60	big_blue_candle	color	minimal	color	size redundant	3	1	0.6666666666666666	azra2	NA	azra2	1	0	candle	big	blue	TRUE	FALSE	FALSE	FALSE	FALSE
+bKq6RbCG2DgMzNmgc	61	small_pink_weddingcake	color	minimal	color	size redundant	4	4	0	zahr	NA	zahr	1	0	weddingcake	small	pink	TRUE	FALSE	FALSE	FALSE	FALSE
+bKq6RbCG2DgMzNmgc	64	big_purple_rug	color	minimal	color	size redundant	3	3	0	zahr	NA	zahr	1	0	rug	big	purple	TRUE	FALSE	FALSE	FALSE	FALSE
+bKq6RbCG2DgMzNmgc	71	big_blue_butterfly	color	minimal	color	size redundant	2	1	0.5	azra2	NA	azra2	1	0	butterfly	big	blue	TRUE	FALSE	FALSE	FALSE	FALSE
+c7jZYAwp46LQyzHMR	1	small_orange_napkin	color	minimal	color	size redundant	4	3	0.25	orange	size?	orange	1	0	napkin	small	orange	TRUE	FALSE	TRUE	FALSE	FALSE
+c7jZYAwp46LQyzHMR	6	small_blue_tack	size	minimal	size	color redundant	3	1	0.6666666666666666	دبوس ازرق صغير	NA	دبوس ازرق صغير	1	0	tack	small	blue	FALSE	TRUE	TRUE	FALSE	FALSE
+c7jZYAwp46LQyzHMR	25	small_blue_candle	color	minimal	color	size redundant	4	4	0	شمعة لونها بنفسجي	NA	شمعة لونها بنفسجي	1	0	candle	small	blue	TRUE	FALSE	FALSE	FALSE	FALSE
+c7jZYAwp46LQyzHMR	45	big_yellow_bellpepper	size and color	redundant	size	color redundant	4	3	0.25	فليفلة صفرا كبيرة لا الطبخ 😂	NA	فليفلة صفرا كبيرة لا الطبخ 😂	0	1	bellpepper	big	yellow	TRUE	TRUE	FALSE	FALSE	TRUE
+caCn6B6YxirR9trd7	8	small_green_bracelet	color	minimal	color	size redundant	2	1	0.5	5adraa	NA	5adraa	1	0	bracelet	small	green	TRUE	FALSE	FALSE	FALSE	FALSE
+caCn6B6YxirR9trd7	13	big_blue_rug	color	minimal	color	size redundant	2	1	0.5	5adraa__laysat kl baaqi	NA	5adraa	1	0	rug	big	blue	TRUE	FALSE	FALSE	FALSE	FALSE
+caCn6B6YxirR9trd7	35	big_yellow_bellpepper	color	minimal	color	size redundant	4	3	0.25	safraa	NA	safraa	1	0	bellpepper	big	yellow	TRUE	FALSE	FALSE	FALSE	FALSE
+caCn6B6YxirR9trd7	50	big_green_binder	color	minimal	color	size redundant	4	1	0.75	a5dar	NA	a5dar	1	0	binder	big	green	TRUE	FALSE	FALSE	FALSE	FALSE
+caCn6B6YxirR9trd7	62	small_blue_guitar	color	minimal	color	size redundant	3	2	0.3333333333333333	aswad	NA	aswad	1	0	guitar	small	blue	TRUE	FALSE	FALSE	FALSE	FALSE
+caCn6B6YxirR9trd7	71	small_white_shoe	color	minimal	color	size redundant	4	1	0.75	abyad	NA	abyad	1	0	shoe	small	white	TRUE	FALSE	FALSE	FALSE	FALSE
+sJ8RoLS8MGCGRucmN	34	small_blue_toothbrush	color	minimal	color	size redundant	4	2	0.5	azraa	NA	azraa	1	0	toothbrush	small	blue	TRUE	FALSE	FALSE	FALSE	FALSE
+sJ8RoLS8MGCGRucmN	40	big_white_phone	color	minimal	color	size redundant	2	2	0	2abyad	NA	2abyad	1	0	phone	big	white	TRUE	FALSE	FALSE	FALSE	FALSE
+sJ8RoLS8MGCGRucmN	42	big_blue_candle	color	minimal	color	size redundant	4	2	0.5	2azra2	NA	2azra2	1	0	candle	big	blue	TRUE	FALSE	FALSE	FALSE	FALSE
+sJ8RoLS8MGCGRucmN	66	big_green_guitar	color	minimal	color	size redundant	2	2	0	akhdar	NA	akhdar	1	0	guitar	big	green	TRUE	FALSE	FALSE	FALSE	FALSE
+sJ8RoLS8MGCGRucmN	72	small_yellow_shoe	color	minimal	color	size redundant	4	3	0.25	asfar	NA	asfar	1	0	shoe	small	yellow	TRUE	FALSE	FALSE	FALSE	FALSE

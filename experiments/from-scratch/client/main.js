@@ -8,11 +8,12 @@ import Consent from "./intro/Consent";
 import InstructionStepOne from "./intro/InstructionStepOne";
 import InstructionStepTwo from "./intro/InstructionStepTwo";
 import InstructionStepThree from "./intro/InstructionStepThree";
-import customBreadCrumb from './game/Breadcrumb.jsx'
-import customGameLobby from './game/GameLobby.jsx'
-import customWaitingForServer from "./game/WaitingForServer.jsx"
+import customBreadCrumb from "./game/Breadcrumb.jsx";
+import customGameLobby from "./game/GameLobby.jsx";
+import customWaitingForServer from "./game/WaitingForServer.jsx";
 import Quiz from "./intro/Quiz";
-import newPlayer_hardcode from "./intro/newPlayer_hardcode.jsx"
+import Quiz_rtl from "./intro/Quiz_rtl";
+import newPlayer_hardcode from "./intro/newPlayer_hardcode.jsx";
 
 // Set the About Component you want to use for the About dialog (optional).
 // Empirica.about(About);
@@ -29,9 +30,13 @@ import newPlayer_hardcode from "./intro/newPlayer_hardcode.jsx"
 Empirica.introSteps((game, treatment) => {
 	const steps = [Consent, InstructionStepOne];
 	if (treatment.playerCount > 1) {
-		steps.push(InstructionStepTwo,InstructionStepThree);
+		steps.push(InstructionStepTwo, InstructionStepThree);
 	}
-	steps.push(Quiz);
+	if (game.treatment.gameLanguage == "Arabic") {
+		steps.push(Quiz_rtl);
+	} else {
+		steps.push(Quiz);
+	}
 	return steps;
 });
 
@@ -51,7 +56,14 @@ Empirica.newPlayer(newPlayer_hardcode);
 // If you don't return anything, or do not define this function, a default
 // exit screen will be shown.
 Empirica.exitSteps((game, player) => {
-  return [ExitSurvey, Thanks];
+	// const steps = [];
+	// if (game.treatment.gameLanguage == "Arabic") {
+	// 	steps.push(ExitSurvey_rtl);
+	// } else {
+	// 	steps.push(ExitSurvey);
+	// }
+	// steps.push(Thanks);
+	return [ExitSurvey, Thanks];
 });
 
 Empirica.breadcrumb(customBreadCrumb);
@@ -65,5 +77,5 @@ Empirica.waiting(customWaitingForServer);
 // Empirica.introSteps(), ...).
 // It is required and usually does not need changing.
 Meteor.startup(() => {
-  render(Empirica.routes(), document.getElementById("app"));
+	render(Empirica.routes(), document.getElementById("app"));
 });
