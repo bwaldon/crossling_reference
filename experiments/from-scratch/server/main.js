@@ -11,7 +11,6 @@ const glob = require("glob");
 // rounds and stages (with get/set methods), that will be able to use later in
 // the game.
 
-const generateScenesObject = require("./generateScenes");
 
 // Test the generateScenes module by calling it 100 times.
 // console.log(process.cwd())
@@ -21,6 +20,19 @@ const generateScenesObject = require("./generateScenes");
 // fs.writeFileSync('../../../../../server/testOut.json', JSON.stringify(testObject) )
 
 Empirica.gameInit((game) => {
+
+  // the values in the if/if else statments must match the sceneGenerator factor
+  // for each game created
+  // this factor determines which generateScenes file will be used, and thus
+  // which stimuli will be shown.
+  const generateScenesObject = function() {
+    if (game.treatment.sceneGenerator == "BCS") {
+      return(require("./BCS/generateScenesBCS"));
+    } else {
+      return(require("./degenEtal2020/generateScenes"));
+    }
+  }();
+
   game.players.forEach((player, i) => {
     player.set("avatar", `/avatars/jdenticon/${player._id}`);
     player.set("score", 0);
@@ -31,7 +43,6 @@ Empirica.gameInit((game) => {
   let scenes = _.shuffle(generateScenesObject.generateScenes());
   _.times(gameLength, (i) => {
     let scene = scenes.pop();
-    console.log(scene);
     let images = [
       { name: scene.TargetItem, id: 1 },
       { name: scene.alt1Name, id: 2 },
