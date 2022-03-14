@@ -19,10 +19,10 @@ Questions for Brandon:
 
 import Empirica from "meteor/empirica:core";
 
-import { colorSizeIDsToName } from './itemIDsToName.js';
-import { subToBasicAndSup } from './supSupTrialsItems.js';
-import { supToBasicsToSubs } from './supSupTrialsItems.js';
-import { subSupTrialsTargets } from './supSupTrialsItems.js';
+import { colorSizeIDsToName } from '../degenEtal2020/itemIDsToName.js';
+import { subToBasicAndSup } from '../degenEtal2020/supSupTrialsItems.js';
+import { supToBasicsToSubs } from '../degenEtal2020/supSupTrialsItems.js';
+import { subSupTrialsTargets } from '../degenEtal2020/supSupTrialsItems.js';
 
 import { allDef } from './BCSitemIDsToName.js';
 import { allRotations } from './BCSrotations.js';
