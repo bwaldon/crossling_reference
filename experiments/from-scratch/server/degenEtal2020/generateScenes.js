@@ -6,6 +6,7 @@ import { supToBasicsToSubs } from './supSupTrialsItems.js';
 import { subSupTrialsTargets } from './supSupTrialsItems.js';
 
 exports.generateScenes = function generateScenes() {
+  // [nTotalDistractors, nRedundantDistractors]
     const colorSizeDistractorConditions = [
         [2, 1],
         [2, 2],
@@ -85,7 +86,7 @@ exports.generateScenes = function generateScenes() {
             distractor1 = sampleElementExceptOne(targetSub,
                                                 supToBasicsToSubs[targetSup][targetBasic],
                                                 false);
-            
+
             let otherBasic = _.sample(Array.from(Object.keys(supToBasicsToSubs[targetSup])));
             distractor2 = sampleElementExceptOne(targetSub,
                                                 supToBasicsToSubs[targetSup][otherBasic],
@@ -176,12 +177,12 @@ function sampleElementExceptOne(needle, haystack, sampleTwo)
 
     if (index > -1)
         array.splice(index, 1);
-    
+
     let firstSampledItem = _.sample(array);
 
     if (!(sampleTwo))
         return firstSampledItem;
-    
+
     index = array.indexOf(firstSampledItem);
     array.splice(index, 1)
 
@@ -190,7 +191,7 @@ function sampleElementExceptOne(needle, haystack, sampleTwo)
     return [firstSampledItem, secondSampledItem];
 }
 
-function getSceneFromStimuli(nTotalDistractors, nRedundantDistractors, targetStimulus, redundantStimulus, otherStimulus, 
+function getSceneFromStimuli(nTotalDistractors, nRedundantDistractors, targetStimulus, redundantStimulus, otherStimulus,
     sufficientDimension)
 {
     let scene = {

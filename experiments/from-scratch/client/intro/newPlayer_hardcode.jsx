@@ -33,6 +33,10 @@ export default class PlayerId extends Component {
                                 : batchGroupName.includes("chinese") ||
                                   batchGroupName.includes("Chinese")
                                 ? "请输入你的Prolific账号:"
+                                : batchGroupName.includes("bcs") ||
+                                  batchGroupName.includes("BCS") ||
+                                  batchGroupName.includes("Bcs")
+                                ? "Unesite email adresu:"
                                 : batchGroupName.includes("arabic") ||
                                   batchGroupName.includes("Arabic")
                                 ? "الرجاء إدخال عنوان بريدك الإلكتروني حتى نتمكن من تعويضك في نهاية الدراسة. (سيتم استخدام عنوان بريدك الإلكتروني فقط للحصول على التعويض، وستكون أجوبتك جميعها مجهولة المصدر)."
