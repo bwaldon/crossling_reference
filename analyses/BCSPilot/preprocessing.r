@@ -17,8 +17,8 @@ mongoCreds <- readLines("../../api_keys/mongo")
 
 ### 'Rounds' contains the by-trial info for the games played by the players
 
-d <- getRoundData_byLanguage("BCS",mongoCreds)
-
+#d <- getRoundData_byLanguage("BCS",mongoCreds)
+d <- readRDS("../../data/BCSPilot/rawData.rds")
 # # To save this data locally (so you don't need to connect to the database):
 # saveRDS(d, file = "../../data/BCSPilot/rawData.rds")
 
@@ -75,36 +75,63 @@ plotAccuracyByTrialType(d)
 
 # Step 7: automatically annotate dataset 
 
-colorTerms_arabizi <- "ramadeya|ramadiya|rmede|rmedy|rmedeye|rmediyi|rmedeye|a5dar|akhdar|khadra|5adra|5adraa|banafsaji|banafsajeye|banafsajeya|mov|abyad|2abyad|2byad|2byd|bayda|byda|baydaa|aswad|2aswad|2swad|2swd|sawdaa|sawda|benne|binni|benny|bennie|binniyi|asfar|2asfar|asfr|2sfr|2sfar|safra|safraa|sfra|dahabi|dahabe|dahaby|dahabiyi|dahabeye|orange|fodde|foddeye|azra2|2azra2|2zra2|2zr2|azraa|zar2a|zaraa|zhr|zahriyi|zahreye|zahr|zaher|wardeye|ahmar|2ahmar|2hmar|ahmr|2ahmr|2hmr|27mr|27mar|2a7mar|2a7mr|a7mr|a7mar|hamraa|hamra|hamra2|7amraa|7amra|7amra2"
-colorTerms_arabic_indef <- "رمادي|رمادية|أخضر|خضراء|خضرا|بنفسجي|بنفسجية|موف|أبيض|بيضاء|بيضا|أسود|سوداء|سودا|بني|بنية| زهرية|حمراء|حمرا|أصفر|صفراء|صفرا|ذهبي|ذهبية|دهبي|دهبية|برتقالي|برتقالية|فضي|فضية|أزرق|زرقاء|زرقا|وردي|وردية|زهري|أحمر"
-colorTerms_arabic_indef <- gsub(" ", "", colorTerms_arabic_indef, fixed = TRUE)
-colorTerms_arabic_def <- strsplit(colorTerms_arabic_indef, "|",fixed = TRUE)[[1]]
-colorTerms_arabic_def <- paste("ال", colorTerms_arabic_def, sep = "")
-colorTerms_arabic_def <- paste(colorTerms_arabic_def, collapse = "|")
-colorTerms <- paste(colorTerms_arabizi,colorTerms_arabic_indef, colorTerms_arabic_def, sep="|")
-colorTerms <- gsub(" ", "", colorTerms, fixed = TRUE)
+# Annotate Color Terms
+redLatin <- "crvena|crvene|crven|crveni|crveno|crvenu"
+redCyrillic <- "црвена|црвене|црвен|црвени|црвено|црвену"
+red <- paste(redLatin, redCyrillic)
 
-nouns_arabizi <- "soof|souf|suf|5yout|5yoot|5yut|5itan|5eetan|5eetaan|5itaan|cake|katu|sili7fe|sol7afat|sola7fat|fersheye|forshaya|forsheye|forshat|fersheyet snen|forshayat asnan|forsheyet snen|fersheyet snan|forshayat asnan|forshat snen|forshat snan|
-kebeye|kobeye|kobaya|kebeyet shay|kobeyet shay|kobayat shay|fenjen|fonjen|fonjan|makbas|dabbase|dabase|dabese|sobat|7itha2|da3ase|d3se|da3se|
-sajede|sajjede|sjede|7ajra|7ajara|sa5ra|sakhra|telefon|talefon|talifon|telifon|jawwal|jawal|jawel|jawwel|hatef|haatef|filfol|folfol|filfil|filfol|flayfle|flaifle|flaifli|flayfli|zeene|zini|zeeni|zine|ma7rame|ma7rme|mandeel|mendeel|mendil|mandil|kanze|2amees|amees|2mees|2amis|amis|2mis|sotra|stra|seshwar|sishwar|sechwar|kora|tabe|taabe|tabi|birwez|berwez|berwaz|itaar|itar|etar|warde|wardi|warda|zahra|guitar|takaya|takeye|wesede|wesada|mosht|moshot|jacket|m3taf|mi3taf|me3taf|m3tf|me3tf|mi3tf|ta3li2a|ta3lee2a|te3li2a|te3lee2a|kirsi|kirse|kirsy|korse|korsy|sham3a|cham3a|farashe|farasha|satl|satel|dalw|iswara|eswara|oswara|siwar|sewar|iswaara|eswaara|oswaara|siwaar|sewaar|kitaab|kitab|kteb|malaf|milaf|darraje|darraja|7zem|7izem|7izam|ta2eye|ta2iyi|ballon|baloon|avocado|kalb|keleb|warde|wardei|wrde|wrdi|zahra|dob|dobb|deb|debb|dib|dibb|sayyara|sayara|range|7alwa|7ilo|7elo|bonbon|bonbon|kanze|kanzi|knzi|knze|2amees|2amis|2mis|2mees|nisir|nsr|3osfour|3sfour|asfoor|asfour|osfour|osfoor|babaghaa2|baba8a2|babagha2|baba8aa2|7amama|7ameme|yamama|yameme|samake|samaka|smke|samke|samak|tawle|tawla|tawela|5zene|5izana|5azne|jawareer"
-nouns_arabic_indef <- "أفوكادو|بالون|قبعة|طقية|حزام|دراجة|كرة بلياردو|طابة|ملف|كتاب|سوار|اسوارة| دلو|سطل|فراشة|شمعة|كرسي|تعليقة|معطف|جاكيت|مشط|وسادة|تكاية|جيتار|زهرة|وردة|إطار|برواز|كرة جولف|كرة|مجفف شعر|سشوار|سترة|قميص|كنزة|محرمة|منديل|زينة|فلفل|فليفلة|هاتف|جوال|تلفون|تيلفون|حجرة|سجادة|دعسة|دعاسة|حذاء|صباط|دباسة| مكبس|فنجان شاي |فنجان|كباية|فرشاة أسنان|فرشاة|فرشاية|سلحفاة|سلحفة|سلحفا|كعكة زفاف|كعكة|كيكة|كيك|خيوط|خيطان|صوف|كلب|وردة|زهرة|دب|باندا|سيارة|رانج|حلوى|بونبون|بون بون|كنزة|قميص|نسر|عصفور|ببغاء|حمامة|يمامة|سمكة|سمك|طاولة|خزانة|جوارير|"
-nouns_arabic_def <- strsplit(nouns_arabic_indef, "|",fixed = TRUE)[[1]]
-nouns_arabic_def <- paste("ال", nouns_arabic_def, sep = "")
-nouns_arabic_def <- paste(nouns_arabic_def, collapse = "|")
-nouns <- paste(nouns_arabizi,nouns_arabic_def,nouns_arabic_indef,sep = "|")
+blueLatin <- "plava|plave|plavo|plavi|plavu|plavog|plav"
+blueCyrillic <- "плава|плаве|плаво|плави|плаву|плавог|плав"
+blue <- paste(blueLatin, blueCyrillic)
 
-bleachedNouns <- "وحدة|واحد|شي|شيء|wa7id|wa7ed|w7de|w7di|shi|we7de|we7d"
-articles <- "ال"
+yellowLatin <- "žuta|žute|žuto|žuti|žutu|žutog|zuta|zute|zuto|zuti|zutu|zutog"
+yellowCyrillic <- "жута|жуте|жуто|жути|жуту|жутог|зута|зуте|зуто|зути|зуту|зутог"
+yellow <- paste(yellowLatin, yellowCyrillic)
 
-sizeTerms_arabizi <- "kabira|kabeera|kabeer|kabir|kbeer|kbeeri|kbir|lkbir|alkabeer|kbiri|kbeere|lkbiri|s8ir|s8eer|z8ir|z8eer|zghir|sghir|zgheer|zgheer|s8iri|s8eeri|s8eere|z8iri|z8eeri|zghiri|sghiri|zgheeri|zgheeri|saghir|saghira|sagheer|sagheera|sa8ir|sa8eer|sa8ira|sa8eera|as8ar|asghar|az8ar|azghar|2asghar|2sghar|2s8ar|2s8r|akbar|2akbar|2kbar|2kbr|dakhm|dhakhem|da5m|da5em|dakhme|dhakhme|da5me|da5mi"
-sizeTerms_arabic_indef <- "كبير |صغير|كبيرة |صغيرة |أكبر |أصغر |ضخم|ضخمة"
-sizeTerms_arabic_indef <- gsub(" ", "", sizeTerms_arabic_indef, fixed = TRUE)
-sizeTerms_arabic_def <- strsplit(sizeTerms_arabic_indef, "|",fixed = TRUE)[[1]]
-sizeTerms_arabic_def <- paste("ال", sizeTerms_arabic_def, sep = "")
-sizeTerms_arabic_def <- paste(sizeTerms_arabic_def, collapse = "|")
-sizeTerms <- paste(sizeTerms_arabizi,sizeTerms_arabic_indef, sizeTerms_arabic_def, sep="|")
+whiteLatin <- "bela|bele|beo|beli|belo|belu|belog|bijela|bijele|bijeo|bijeli|bijelo|bijelu|bijelog"
+whiteCyrillic <- "бела|беле|бео|бели|бело|белу|белог|бијела|бијеле|бијео|бијели|бијело|бијелу|бијелог"
+white <- paste(whiteLatin, whiteCyrillic)
 
-d_preManualTypoCorrection <- automaticAnnotate(d, colorTerms, sizeTerms, nouns, bleachedNouns, articles)
+orangeLatin <- "naradžasta|narandzasta|narandjasta|narančasta|narancasta|naradžaste|narandzaste|narandjaste|narančaste|narancaste|naradžasto|narandzasto|narandjasto|narančasto|narancasto|naradžasti|narandzasti|narandjasti|narančasti|narancasti|naradžastog|narandzastog|narandjastog|narančastog|narancastog|naradžastu|narandzastu|narandjastu|narančastu|narancastu"
+orangeCyrillic <- "нараџаста|нарандзаста|нарандјаста|наранчаста|наранцаста|нараџасте|нарандзасте|нарандјасте|наранчасте|наранцасте|нараџасто|нарандзасто|нарандјасто|наранчасто|наранцасто|нараџасти|нарандзасти|нарандјасти|наранчасти|наранцасти|нараџастог|нарандзастог|нарандјастог|наранчастог|наранцастог|нараџасту|нарандзасту|нарандјасту|наранчасту|наранцасту"
+orange <- paste(orangeLatin, orangeCyrillic)
+
+purpleLatin <- "ljubičasta|ljubicasta|ljubičasti|ljubicasti|ljubičasto|ljubicasto|ljubičaste|ljubicaste|ljubičastu|ljubicastu|ljubičastog|ljubicastog|"
+purpleCyrillic <- "љубичаста|љубицаста|љубичасти|љубицасти|љубичасто|љубицасто|љубичасте|љубицасте|љубичасту|љубицасту|љубичастог|љубицастог|"
+purple <- paste(purpleLatin, purpleCyrillic)
+
+greenLatin <- "zelena|zeleni|zeleno|zelene|zelenog|zelenu"
+greenCyrillic <- "зелена|зелени|зелено|зелене|зеленог|зелену"
+green <- paste(greenLatin, greenCyrillic)
+
+blackLatin <- "crna|crn|crni|crno|crne|crnu|crnog"
+blackCyrillic <- "црна|црн|црни|црно|црне|црну|црног"
+black <- paste(blackLatin, blackCyrillic)
+
+colorTerms <- paste(red, blue, yellow, white, orange, purple, green, black, sep = "|")
+
+
+nounsCS1MLatin <- "leptir|balon|telefon|krevet|cvet|cvijet|novčanik|novcanik|prsten|jastuk|češalj|cesalj|digitron|kalkulator|kaiš|kais|kajš|kajs|šal|sal"
+nounsCS1FLatin <- "vrata|kruna|haljina|olovka|knjiga|sveća|sveca|svijeća|svijeca|pegla|stolica|ograda|maska|gitara|šolja|solja|šalica|salica|čaša|casa"
+nounsCS2MLatin <- "kalendar|čekić|cekic|kamion|mikroskop|dvogled|dalekozor|bubanj|robot|helikopter|nož|noz|kofer|lokot|katanac|šrafciger|srafciger|odvijač|odvijac"
+nounsCS2FLatin <- "kocka|riba|košara|kosara|korpa|kravata|vilica|viljuška|viljuska|rukavica|školjka|skoljka|čarapa|carapa|činija|cinija|zdela|zdjela|mašna|masna|ogrlica|papuča|papuca"
+nounsCS1MCyrillic <- "лептир|балон|телефон|кревет|цвет|цвијет|новчаник|новцаник|прстен|јастук|цешаљ|цесаљ|дигитрон|калкулатор|каиш|каис|кајш|кајс|шал|сал"
+nounsCS1FCyrillic <- "врата|круна|хаљина|оловка|књига|свећа|свеца|свијећа|свијеца|пегла|столица|ограда|маска|гитара|шоља|соља|шалица|салица|чаша|цаса"
+nounsCS2MCyrillic <-"календар|чекић|цекиц|камион|микроскоп|двоглед|далекозор|бубањ|робот|хеликоптер|нож|ноз|кофер|локот|катанац|шрафцигер|срафцигер|одвијач|одвијац"
+nounsCS2FCyrillic <- "коцка|риба|кошара|косара|корпа|кравата|вилица|виљушка|виљуска|рукавица|шкољка|скољка|чарапа|царапа|чинија|цинија|здела|здјела|машна|масна|огрлица|папуча|папуца"
+
+nouns <- paste(nounsCS1MLatin, nounsCS1FLatin, nounsCS2MLatin, nounsCS2FLatin, nounsCS1MCyrillic, nounsCS1FCyrillic, nounsCS2MCyrillic, nounsCS2FCyrillic, sep = "|")
+
+# We don't have articles, but we do have demonstratives. I assume these demonstratives will only appear
+# with missing nouns, and make something comparable to a bleached noun construction: That blue --> the blue one
+demonstratives <- "ta|taj|to|te|tu|tog|ona|onaj|ono|one|oni|onu|onog"
+
+sizeTerms <- "velika|veliki|veliko|velike|veliku|velikog|mala|mali|malo|male|malu|malog"
+
+# There are no bleached nouns in BCS
+bleachedNouns <- ""
+
+d_preManualTypoCorrection <- automaticAnnotate(d, colorTerms, sizeTerms, nouns, bleachedNouns, demonstratives)
 
 # Step 8: Write this dataset for manual correction of typos
 write_delim(data.frame(d_preManualTypoCorrection %>%
