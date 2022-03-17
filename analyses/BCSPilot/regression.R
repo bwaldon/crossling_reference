@@ -16,18 +16,22 @@ d = read_delim("../../data/ArabicMain/dummy/data_exp1.tsv", delim = "\t")
 
 # PLOT PROPORTION OF REDUNDANT UTTERANCES BY REDUNDANT PROPERTY
 
-visualize_sceneVariation(d)
+# We don't change scene Variation (number of distractor items), so this plot is obsolete
+#visualize_sceneVariation(d)
 
-ggsave(file="viz/scenevariation.pdf",width=8,height=4)
+#ggsave(file="viz/scenevariation.pdf",width=8,height=4)
+
 
 # PLOT BY-DYAD VARIABILITY IN OVERMODIFICATION STRATEGY
 
+# change this to only include color redundancy and not size redundancy use (change it for BCS)
 visualize_byDyad(d)
 
 ggsave(file="viz/bydyad.pdf",width=8,height=4)
 
 # PLOT BY-DYAD VARIABILITY IN OVERMODIFICAITON STRATEGY BY EXPERIMENT HALF
 
+# change this to only include color redundancy and not size redundancy use (change it for BCS)
 visualize_byDyadHalf(d)
 
 ggsave(file="viz/bydyadhalf.pdf",width=8,height=4)
@@ -70,5 +74,118 @@ hypothesis(m.b.full, "cLanguage > 0") # hypothesis(m.b.full, "cLanguage < 0"), d
 plot(m.b.full, variable = c("cSufficientProperty"))
 
 # AUXILIARY GLMER ANALYSIS
+
+# Center the variables of condition
+
+
+###################
+###################
+# For BCS
+
+# Factor the variables
+d$colorCondition <- factor(d$colorCondition)
+d$genderCondition <- factor(d$genderCondition)
+
+# Relevel the variables
+d <- d %>% mutate(colorCondition = fct_relevel(colorCondition, "redundant"))
+d <- d %>% mutate(genderCondition = fct_relevel(genderCondition, "match"))
+
+# Center the variables
+dataFrame$colorCondition = dataFrame$colorCondition - (dataFrame$mean(colorCondition))
+dataFrame$genderCondition = dataFrame$genderCondition - (dataFrame$mean(genderCondition))
+
+# Run the models
+BCSColorModel <- glmer(colorUse ~ colorCondition*genderCondition + (1 + colorCondition*genderCondition|participant) + (1 + colorCondition*genderCondition|item))
+BCSNounModel <- glmer(nounUse ~ colorCondition*genderCondition + (1 + colorCondition*genderCondition|participant) + (1 + colorCondition*genderCondition|item))
+
+# Model outputs
+summary(BCSColorModel)
+summary(BCSNounModel)
+
+# Color Use Graphs
+# For BCS Participants
+d <- read.csv("fakedata.csv")
+
+# Change this to reflect probability and NOT sum
+# dfPlot <- 
+  
+colorPresentSum <- d %>%
+  group_by(colorCondition, genderCondition) %>%
+  filter(colorUse == 1) %>%
+  count(colorUse)
+
+dfPlot <- d %>%
+  group_by(colorCondition, genderCondition) %>%
+  count()
+
+dfPlot$probability = colorPresentSum$n/dfPlot$n
+
+ggplot(data=dfPlot, aes(x=colorCondition, y=probability, fill=genderCondition)) +
+  geom_bar(stat="identity", color="black", position=position_dodge()) +
+  theme_minimal()
+
+# Create Graphs for English Participants
+# Repeat above code
+
+# Create faceted graphs to compare BCS and English participants
+# merge above two dataframes into one and repeat above code with an extra group_by variable
+
+
+# Noun Use Graphs
+# For BCS Participants
+d <- read.csv("fakedata.csv")
+
+dfPlot <- d %>%
+  group_by(colorCondition, genderCondition) %>%
+  filter(colorUse == 1) %>%
+  count(colorUse)
+
+ggplot(data=dfPlot, aes(x=colorCondition, y=n, fill=genderCondition)) +
+  geom_bar(stat="identity", color="black", position=position_dodge()) +
+  theme_minimal()
+
+# Create Graphs for English Participants
+# Repeat above code
+
+# Create faceted graphs to compare BCS and English participants
+# merge above two dataframes into one and repeat above code with an extra group_by variable
+
+
+# intercept --> overall baseline differences in color use
+# slope --> how sensitive people are to particular fixed effect
+## color condition --> more sensitive to color condition 
+# there can be an overall effect of color condition, but some people won't show it!
+
+#colorUse = color mention in a single trial {1,0}
+# 
+#colorCondition = {necessary, redundant}
+# FACTOR the variable
+#
+# RELEVEL
+# color necessity reference level: "redundant"; gender match reference level: "match"
+# d (the dataframe)
+# d <- d %>% mutate(colorCondition = fct_relevel(colorCondition, "redundant"))
+# this makes redundant level the 0 level
+#
+# CENTER
+# underlyingly:
+# --> necessary = 0
+# --> redundant = 1
+# scale() or by hand --> 
+# dataFrame$colorCondition = dataFrame$colorCondition - (dataFrame$mean(colorCondition))
+# moves 0 point between two levels of the variable
+#
+# significant effect of colorCondition --> effect is just for 0 level of other variable (genderCondition) i.e. match Condition
+#then we don't have the effect for mismatch condition
+# same true vice versa
+#
+#
+# centering --> allows for interpretation of both levels as 
+# -.05 = level 1; .05 = level 2 
+# this is scaled by number of cases per level 
+ 
+#genderCondition = {match, mismatch}
+
+
 m.glm = glmer(redUtterance ~ cSufficientProperty*cSceneVariation*cLanguage + (1+cSufficientProperty*cSceneVariation|gameid) + (1+cSufficientProperty*cSceneVariation*cLanguage|clickedType), data=centered, family="bernoulli")
 summary(m.glm)
