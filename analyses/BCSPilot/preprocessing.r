@@ -17,8 +17,8 @@ mongoCreds <- readLines("../../api_keys/mongo")
 
 ### 'Rounds' contains the by-trial info for the games played by the players
 
-#d <- getRoundData_byLanguage("BCS",mongoCreds)
-d <- readRDS("../../data/BCSPilot/rawData.rds")
+d <- getRoundData_byLanguage("BCS",mongoCreds)
+#d <- readRDS("../../data/BCSPilot/rawData.rds")
 # # To save this data locally (so you don't need to connect to the database):
 # saveRDS(d, file = "../../data/BCSPilot/rawData.rds")
 
@@ -31,7 +31,7 @@ rm(con)
 ## Option (b): Read in the raw data from .rds (rather than querying database)
 ## For pipelining: read in data from 2-person pilot
 
-d <- readRDS("../../data/BCSPilot/rawData.rds")
+#d <- readRDS("../../data/BCSPilot/rawData.rds")
 
 ## Cache the raw data before transforming (optional)
 
@@ -48,13 +48,13 @@ player_info <- getPlayerDemographicData(unique(d$gameId),mongoCreds)
 
 ## Option (b): read in the raw data from .rds (rather than querying the database)
 
-player_info <- readRDS("../../data/BCSPilot/rawPlayerInfo.rds")
+#player_info <- readRDS("../../data/BCSPilot/rawPlayerInfo.rds")
 
 # Step 3: do (demographic) exclusions
 
 ## Option (a): (Manually) list games that include players who are excluded by virtue of debrief survey responses
 
-excludeGames_demographic <- c()
+excludeGames_demographic <- c("GdJRzt75ocCjvTmj5")
 
 d <- d %>%
   filter(!(gameId %in% excludeGames_demographic))
@@ -78,49 +78,52 @@ plotAccuracyByTrialType(d)
 # Annotate Color Terms
 redLatin <- "crvena|crvene|crven|crveni|crveno|crvenu"
 redCyrillic <- "црвена|црвене|црвен|црвени|црвено|црвену"
-red <- paste(redLatin, redCyrillic)
+red <- paste(redLatin, redCyrillic, sep = "|")
 
 blueLatin <- "plava|plave|plavo|plavi|plavu|plavog|plav"
 blueCyrillic <- "плава|плаве|плаво|плави|плаву|плавог|плав"
-blue <- paste(blueLatin, blueCyrillic)
+blue <- paste(blueLatin, blueCyrillic, sep = "|")
 
 yellowLatin <- "žuta|žute|žuto|žuti|žutu|žutog|zuta|zute|zuto|zuti|zutu|zutog"
 yellowCyrillic <- "жута|жуте|жуто|жути|жуту|жутог|зута|зуте|зуто|зути|зуту|зутог"
-yellow <- paste(yellowLatin, yellowCyrillic)
+yellow <- paste(yellowLatin, yellowCyrillic, sep = "|")
 
 whiteLatin <- "bela|bele|beo|beli|belo|belu|belog|bijela|bijele|bijeo|bijeli|bijelo|bijelu|bijelog"
 whiteCyrillic <- "бела|беле|бео|бели|бело|белу|белог|бијела|бијеле|бијео|бијели|бијело|бијелу|бијелог"
-white <- paste(whiteLatin, whiteCyrillic)
+white <- paste(whiteLatin, whiteCyrillic, sep = "|")
 
 orangeLatin <- "naradžasta|narandzasta|narandjasta|narančasta|narancasta|naradžaste|narandzaste|narandjaste|narančaste|narancaste|naradžasto|narandzasto|narandjasto|narančasto|narancasto|naradžasti|narandzasti|narandjasti|narančasti|narancasti|naradžastog|narandzastog|narandjastog|narančastog|narancastog|naradžastu|narandzastu|narandjastu|narančastu|narancastu"
 orangeCyrillic <- "нараџаста|нарандзаста|нарандјаста|наранчаста|наранцаста|нараџасте|нарандзасте|нарандјасте|наранчасте|наранцасте|нараџасто|нарандзасто|нарандјасто|наранчасто|наранцасто|нараџасти|нарандзасти|нарандјасти|наранчасти|наранцасти|нараџастог|нарандзастог|нарандјастог|наранчастог|наранцастог|нараџасту|нарандзасту|нарандјасту|наранчасту|наранцасту"
-orange <- paste(orangeLatin, orangeCyrillic)
+orange <- paste(orangeLatin, orangeCyrillic, sep = "|")
 
-purpleLatin <- "ljubičasta|ljubicasta|ljubičasti|ljubicasti|ljubičasto|ljubicasto|ljubičaste|ljubicaste|ljubičastu|ljubicastu|ljubičastog|ljubicastog|"
-purpleCyrillic <- "љубичаста|љубицаста|љубичасти|љубицасти|љубичасто|љубицасто|љубичасте|љубицасте|љубичасту|љубицасту|љубичастог|љубицастог|"
-purple <- paste(purpleLatin, purpleCyrillic)
+purpleLatin <- "ljubičasta|ljubicasta|ljubičasti|ljubicasti|ljubičasto|ljubicasto|ljubičaste|ljubicaste|ljubičastu|ljubicastu|ljubičastog|ljubicastog"
+purpleCyrillic <- "љубичаста|љубицаста|љубичасти|љубицасти|љубичасто|љубицасто|љубичасте|љубицасте|љубичасту|љубицасту|љубичастог|љубицастог"
+purple <- paste(purpleLatin, purpleCyrillic, sep = "|")
 
 greenLatin <- "zelena|zeleni|zeleno|zelene|zelenog|zelenu"
 greenCyrillic <- "зелена|зелени|зелено|зелене|зеленог|зелену"
-green <- paste(greenLatin, greenCyrillic)
+green <- paste(greenLatin, greenCyrillic, sep = "|")
 
 blackLatin <- "crna|crn|crni|crno|crne|crnu|crnog"
 blackCyrillic <- "црна|црн|црни|црно|црне|црну|црног"
-black <- paste(blackLatin, blackCyrillic)
+black <- paste(blackLatin, blackCyrillic, sep = "|")
 
 colorTerms <- paste(red, blue, yellow, white, orange, purple, green, black, sep = "|")
 
-
 nounsCS1MLatin <- "leptir|balon|telefon|krevet|cvet|cvijet|novčanik|novcanik|prsten|jastuk|češalj|cesalj|digitron|kalkulator|kaiš|kais|kajš|kajs|šal|sal"
 nounsCS1FLatin <- "vrata|kruna|haljina|olovka|knjiga|sveća|sveca|svijeća|svijeca|pegla|stolica|ograda|maska|gitara|šolja|solja|šalica|salica|čaša|casa"
+nounsCS1FLatinAcc <- "krunu|haljinu|olovku|knjigu|sveću|svecu|svijeću|svijecu|peglu|stolicu|ogradu|masku|gitaru|šolju|solju|šalicu|salicu|čašu|casu"
 nounsCS2MLatin <- "kalendar|čekić|cekic|kamion|mikroskop|dvogled|dalekozor|bubanj|robot|helikopter|nož|noz|kofer|lokot|katanac|šrafciger|srafciger|odvijač|odvijac"
 nounsCS2FLatin <- "kocka|riba|košara|kosara|korpa|kravata|vilica|viljuška|viljuska|rukavica|školjka|skoljka|čarapa|carapa|činija|cinija|zdela|zdjela|mašna|masna|ogrlica|papuča|papuca"
+nounsCS2FLatinAcc <- "kocku|ribu|košaru|kosaru|korpu|kravatu|vilicu|viljušku|viljusku|rukavicu|školjku|skoljku|čarapu|carapu|činiju|ciniju|zdelu|zdjelu|mašnu|masnu|ogrlicu|papuču|papucu"
 nounsCS1MCyrillic <- "лептир|балон|телефон|кревет|цвет|цвијет|новчаник|новцаник|прстен|јастук|цешаљ|цесаљ|дигитрон|калкулатор|каиш|каис|кајш|кајс|шал|сал"
 nounsCS1FCyrillic <- "врата|круна|хаљина|оловка|књига|свећа|свеца|свијећа|свијеца|пегла|столица|ограда|маска|гитара|шоља|соља|шалица|салица|чаша|цаса"
+nounsCS1FCyrillicAcc <- "врата|круну|хаљину|оловку|књигу|свећу|свијећу|пеглу|столицу|ограду|маску|гитару|шољу|шалицу|чашу"
 nounsCS2MCyrillic <-"календар|чекић|цекиц|камион|микроскоп|двоглед|далекозор|бубањ|робот|хеликоптер|нож|ноз|кофер|локот|катанац|шрафцигер|срафцигер|одвијач|одвијац"
 nounsCS2FCyrillic <- "коцка|риба|кошара|косара|корпа|кравата|вилица|виљушка|виљуска|рукавица|шкољка|скољка|чарапа|царапа|чинија|цинија|здела|здјела|машна|масна|огрлица|папуча|папуца"
+nounsCS2FCyrillic <- "коцку|рибу|кошару|корпу|кравату|вилицу|виљушку|рукавицу|шкољку|чарапу|чинију|зделу|здјелу|машну|огрлицу|папучу"
 
-nouns <- paste(nounsCS1MLatin, nounsCS1FLatin, nounsCS2MLatin, nounsCS2FLatin, nounsCS1MCyrillic, nounsCS1FCyrillic, nounsCS2MCyrillic, nounsCS2FCyrillic, sep = "|")
+nouns <- paste(nounsCS1MLatin, nounsCS1FLatin, nounsCS1FLatinAcc, nounsCS2MLatin, nounsCS2FLatin, nounsCS2FLatinAcc, nounsCS1MCyrillic, nounsCS1FCyrillic, nounsCS1FCyrillicAcc, nounsCS2MCyrillic, nounsCS2FCyrillic, nounsCS2FCyrillicAcc, sep = "|")
 
 # We don't have articles, but we do have demonstratives. I assume these demonstratives will only appear
 # with missing nouns, and make something comparable to a bleached noun construction: That blue --> the blue one
@@ -133,20 +136,43 @@ bleachedNouns <- ""
 
 d_preManualTypoCorrection <- automaticAnnotate(d, colorTerms, sizeTerms, nouns, bleachedNouns, demonstratives)
 
+
+
+
 # Step 8: Write this dataset for manual correction of typos
 write_delim(data.frame(d_preManualTypoCorrection %>%
                          select(-target, -images, -listenerImages, -speakerImages,
                                 -chat)), 
             "../../data/BCSPilot/preManualTypoCorrection.tsv", delim="\t")
 
+
+# kajis
+#kamijon
+#kockica
+#klupica
+# zavrtac
+# rulavica
+#narukvica
+# ribica
+# dobos
+# digiron
+# taraba (ograda)
+#all the nouns in Accuastiave
+#POJAS
+
+# Redo this whole part
+# create your own T/F functions based on the NCS type stuff
+# Include gender column where you type in the gender
+
+
 # Step 9: Read manually corrected dataset for further preprocessing
 # Make sure file being read in is *post* manual correction ('pre' just for testing)
-d <- read_delim("../../data/BCSPilot/preManualTypoCorrection.tsv", delim = "\t") %>%
-  filter(grepl("color|size", condition)) %>%
+d <- read_delim("../../data/BCSPilot/postManualTypoCorrection.tsv", delim = "\t") %>%
+  filter(is.na(condition)) %>%
   mutate(clickedFeatures = strsplit(nameClickedObj, "_"),
-         clickedColor = map(clickedFeatures, pluck, 2),
-         clickedSize = map(clickedFeatures, pluck, 1),
-         clickedType = map(clickedFeatures, pluck, 3))
+         clickedColor = map(clickedFeatures, pluck, 1),
+         clickedType = map(clickedFeatures, pluck, 2),
+         clickedSize = rep("0", length(clickedFeatures)))
 colsizerows <- nrow(d)
 
 # How many trials were automatically labelled as mentioning a pre-coded level of reference?
@@ -157,20 +183,16 @@ print(paste("percentage of automatically labelled trials: ", auto_trials*100/col
 manu_trials = sum(d$manuallyAddedTrials)
 print(paste("percentage of manually added trials: ", manu_trials*100/colsizerows)) # 1.9 in Degen 2020
 
-# How often were articles omitted?
-no_article_trials = colsizerows - sum(d$theMentioned)
-print(paste("percentage trials where articles were omitted: ", no_article_trials*100/colsizerows)) # 71.6 in Degen 2020
-
 # How often were nouns omitted?
-d$article_mentioned = ifelse(d$oneMentioned == TRUE | d$theMentioned == TRUE, 1, 0)
-no_noun_trials = colsizerows - sum(d$article_mentioned)
+d$noun_mentioned = ifelse(d$typeMentioned == TRUE, 1, 0)
+no_noun_trials = colsizerows - sum(d$noun_mentioned)
 print(paste("percentage of trials where nouns were omitted: ", no_noun_trials*100/colsizerows)) # 88.6 in Degen 2020
 
 # In how many cases did the listener choose the wrong object?
 print(paste(100*(1-(sum(d$correct)/colsizerows)),"% of cases of non-target choices")) # 1.5 in Degen 2020
 
 # How many unique pairs?
-length(unique(d$gameId)) # 64
+length(unique(d$gameId)) # 3
 
 # Step 10: final transformations on data for regression analyses and BDA 
 

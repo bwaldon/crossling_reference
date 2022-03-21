@@ -1,0 +1,217 @@
+gameId	language	stage	condition	alt1BasicLevel	alt1SuperLevel	alt2BasicLevel	alt2SuperLevel	listenerSelection	roundNumber	directorAllMessages	directorFirstMessage	guesserAllMessages	nameClickedObj	correct	manuallyAddedTrials	colorMentioned	sizeMentioned	typeMentioned	oneMentioned	theMentioned
+WskiQY3QG4XLCmLFx	BCS	feedback	NA	NA	NA	NA	NA	1	1	kajis	kajis		white_belt	1	N	TRUE	FALSE	FALSE	TRUE	FALSE
+WskiQY3QG4XLCmLFx	BCS	feedback	NA	NA	NA	NA	NA	1	2	kravata	kravata		black_tie	1	N	TRUE	FALSE	TRUE	TRUE	TRUE
+WskiQY3QG4XLCmLFx	BCS	feedback	NA	NA	NA	NA	NA	1	3	olovka	olovka		yellow_pencil	1	N	TRUE	FALSE	TRUE	TRUE	FALSE
+WskiQY3QG4XLCmLFx	BCS	feedback	subNec	fish	animal	horse	animal	1	4	zuto riblje	zuto riblje		clownFish	1	CN	TRUE	FALSE	FALSE	TRUE	TRUE
+WskiQY3QG4XLCmLFx	BCS	feedback	NA	NA	NA	NA	NA	1	5	leptir	leptir		blue_butterfly	1	N	TRUE	FALSE	TRUE	TRUE	FALSE
+WskiQY3QG4XLCmLFx	BCS	feedback	supSuff	rosemary	plant	table	furniture	1	6	sareno	sareno		jellyBeans	1	C	TRUE	FALSE	FALSE	TRUE	FALSE
+WskiQY3QG4XLCmLFx	BCS	feedback	subNec	dog	animal	lion	animal	1	7	dalmatinac	dalmatinac		dalmatian	1	N	TRUE	FALSE	FALSE	TRUE	FALSE
+WskiQY3QG4XLCmLFx	BCS	feedback	NA	NA	NA	NA	NA	1	8	cinija	cinija		purple_bowl	1	N	TRUE	FALSE	TRUE	TRUE	FALSE
+WskiQY3QG4XLCmLFx	BCS	feedback	NA	NA	NA	NA	NA	1	9	dvogled lj	dvogled lj		purple_binoculars	1	N	TRUE	FALSE	TRUE	TRUE	FALSE
+WskiQY3QG4XLCmLFx	BCS	feedback	supSuff	shirt	clothing	flower	plant	1	10	sto	sto		diningTable	1	N	TRUE	FALSE	FALSE	TRUE	TRUE
+WskiQY3QG4XLCmLFx	BCS	feedback	NA	NA	NA	NA	NA	1	11	ograda	ograda		white_fence	1	N	TRUE	FALSE	TRUE	TRUE	FALSE
+WskiQY3QG4XLCmLFx	BCS	feedback	supSuff	dress	clothing	popcorn	snack	1	12	automobil	automobil		convertible	1	N	TRUE	FALSE	FALSE	TRUE	TRUE
+WskiQY3QG4XLCmLFx	BCS	feedback	NA	NA	NA	NA	NA	1	13	maska__slicna olovci	maska	koja	white_mask	1	N	TRUE	FALSE	TRUE	TRUE	FALSE
+WskiQY3QG4XLCmLFx	BCS	feedback	NA	NA	NA	NA	NA	1	14	robot__kalendarski	robot	koji	green_robot	1	N	TRUE	FALSE	TRUE	TRUE	FALSE
+WskiQY3QG4XLCmLFx	BCS	feedback	subNec	candy	snack	popcorn	snack	1	15	medice	medice		gummyBears	1	N	TRUE	FALSE	FALSE	TRUE	FALSE
+WskiQY3QG4XLCmLFx	BCS	feedback	NA	NA	NA	NA	NA	1	16	helikopter__cekicast	helikopter	koji	orange_helicopter	1	N	TRUE	FALSE	TRUE	TRUE	TRUE
+WskiQY3QG4XLCmLFx	BCS	feedback	NA	NA	NA	NA	NA	1	17	gitara	gitara		blue_guitar	1	N	TRUE	FALSE	TRUE	TRUE	TRUE
+WskiQY3QG4XLCmLFx	BCS	feedback	NA	NA	NA	NA	NA	1	18	noz	noz		orange_knife	1	N	TRUE	FALSE	TRUE	TRUE	FALSE
+WskiQY3QG4XLCmLFx	BCS	feedback	basicSuffType2	gloves	clothing	cow	animal	1	19	majica	majica		tShirt	1	N	TRUE	FALSE	FALSE	TRUE	FALSE
+WskiQY3QG4XLCmLFx	BCS	feedback	NA	NA	NA	NA	NA	1	20	kruna	kruna		red_crown	1	N	TRUE	FALSE	TRUE	TRUE	FALSE
+WskiQY3QG4XLCmLFx	BCS	feedback	NA	NA	NA	NA	NA	1	21	ogrlica	ogrlica		black_necklace	1	N	TRUE	FALSE	TRUE	TRUE	FALSE
+WskiQY3QG4XLCmLFx	BCS	feedback	subNec	fish	animal	iguana	animal	1	22	ribica	ribica		goldFish	1	N	TRUE	FALSE	FALSE	TRUE	FALSE
+WskiQY3QG4XLCmLFx	BCS	feedback	NA	NA	NA	NA	NA	1	23	sal	sal		red_scarf	1	N	TRUE	FALSE	TRUE	TRUE	FALSE
+WskiQY3QG4XLCmLFx	BCS	feedback	NA	NA	NA	NA	NA	1	24	kamijon	kamijon		green_truck	1	n	TRUE	FALSE	FALSE	TRUE	FALSE
+WskiQY3QG4XLCmLFx	BCS	feedback	NA	NA	NA	NA	NA	1	25	katanac	katanac		purple_lock	1	n	TRUE	FALSE	TRUE	TRUE	TRUE
+WskiQY3QG4XLCmLFx	BCS	feedback	basicSuffType2	ivy	plant	iguana	animal	1	26	suncokret	suncokret		sunflower	1	n	TRUE	FALSE	FALSE	TRUE	FALSE
+WskiQY3QG4XLCmLFx	BCS	feedback	supSuff	chips	snack	pottedPlant	plant	1	27	automobil	automobil		suv	1	N	TRUE	FALSE	FALSE	TRUE	TRUE
+WskiQY3QG4XLCmLFx	BCS	feedback	NA	NA	NA	NA	NA	1	28	digitron	digitron		white_calculator	1	N	TRUE	FALSE	TRUE	TRUE	FALSE
+WskiQY3QG4XLCmLFx	BCS	feedback	NA	NA	NA	NA	NA	1	29	vrata	vrata		blue_door	1	N	TRUE	FALSE	TRUE	TRUE	TRUE
+WskiQY3QG4XLCmLFx	BCS	feedback	NA	NA	NA	NA	NA	1	30	kockica	kockica		black_die	1	N	TRUE	FALSE	FALSE	TRUE	FALSE
+WskiQY3QG4XLCmLFx	BCS	feedback	subNec	bear	animal	cow	animal	1	31	panda	panda		pandaBear	1	N	TRUE	FALSE	FALSE	TRUE	FALSE
+WskiQY3QG4XLCmLFx	BCS	feedback	NA	NA	NA	NA	NA	1	32	viljuska	viljuska		purple_fork	1	N	TRUE	FALSE	TRUE	TRUE	FALSE
+WskiQY3QG4XLCmLFx	BCS	feedback	subNec	fish	animal	rabbit	animal	1	33	som	som		catfish	1	N	TRUE	FALSE	FALSE	TRUE	FALSE
+WskiQY3QG4XLCmLFx	BCS	feedback	NA	NA	NA	NA	NA	1	34	bubanj	bubanj		green_drum	1	N	TRUE	FALSE	TRUE	TRUE	FALSE
+WskiQY3QG4XLCmLFx	BCS	feedback	NA	NA	NA	NA	NA	1	35	telefon	telefon		blue_phone	1	N	TRUE	FALSE	TRUE	TRUE	TRUE
+WskiQY3QG4XLCmLFx	BCS	feedback	NA	NA	NA	NA	NA	1	36	kosara	kosara		green_basket	1	N	TRUE	FALSE	TRUE	TRUE	FALSE
+WskiQY3QG4XLCmLFx	BCS	feedback	supSuff	ivy	plant	ambulance	vehicle	1	37	medved	medved		polarBear	1	N	TRUE	FALSE	FALSE	TRUE	FALSE
+WskiQY3QG4XLCmLFx	BCS	feedback	subNec	car	vehicle	car	vehicle	1	38	kola__multipla najslicnija	kola	koja	minivan	1	N	TRUE	FALSE	FALSE	TRUE	FALSE
+WskiQY3QG4XLCmLFx	BCS	feedback	NA	NA	NA	NA	NA	1	39	cesalj	cesalj		yellow_comb	1	N	TRUE	FALSE	TRUE	TRUE	FALSE
+WskiQY3QG4XLCmLFx	BCS	feedback	basicSuffType2	cookies	snack	bed	furniture	2	40	mim	mim		cookies	0	N	TRUE	FALSE	FALSE	TRUE	FALSE
+WskiQY3QG4XLCmLFx	BCS	feedback	NA	NA	NA	NA	NA	1	41	stolica	stolica		blue_chair	1	N	TRUE	FALSE	TRUE	TRUE	TRUE
+WskiQY3QG4XLCmLFx	BCS	feedback	NA	NA	NA	NA	NA	1	42	papuca	papuca		black_slipper	1	N	TRUE	FALSE	TRUE	TRUE	FALSE
+WskiQY3QG4XLCmLFx	BCS	feedback	basicSuffType1	bookcase	furniture	lamp	furniture	1	43	sto	sto		picnicTable	1	N	TRUE	FALSE	FALSE	TRUE	TRUE
+WskiQY3QG4XLCmLFx	BCS	feedback	basicSuffType2	sheep	animal	socks	clothing	1	44	medved	medved		grizzlyBear	1	N	TRUE	FALSE	FALSE	TRUE	FALSE
+WskiQY3QG4XLCmLFx	BCS	feedback	NA	NA	NA	NA	NA	1	45	krevet	krevet	koji	yellow_bed	1	N	TRUE	FALSE	TRUE	TRUE	FALSE
+WskiQY3QG4XLCmLFx	BCS	feedback	basicSuffType1	chips	snack	popcorn	snack	1	46	mim	mim		mnMs	1	N	TRUE	FALSE	FALSE	TRUE	FALSE
+WskiQY3QG4XLCmLFx	BCS	feedback	NA	NA	NA	NA	NA	1	47	prsten	prsten		yellow_ring	1	N	TRUE	FALSE	TRUE	TRUE	TRUE
+WskiQY3QG4XLCmLFx	BCS	feedback	basicSuffType1	iguana	animal	snake	animal	1	48	kolibri	kolibri		hummingBird	1	N	TRUE	FALSE	FALSE	TRUE	FALSE
+WskiQY3QG4XLCmLFx	BCS	feedback	NA	NA	NA	NA	NA	1	49	cekic	cekic		orange_hammer	1	N	TRUE	FALSE	TRUE	TRUE	FALSE
+WskiQY3QG4XLCmLFx	BCS	feedback	NA	NA	NA	NA	NA	1	50	kalendar	kalendar		black_calendar	1	N	TRUE	FALSE	TRUE	TRUE	FALSE
+WskiQY3QG4XLCmLFx	BCS	feedback	NA	NA	NA	NA	NA	1	51	riba	riba		green_fish	1	N	TRUE	FALSE	TRUE	TRUE	FALSE
+WskiQY3QG4XLCmLFx	BCS	feedback	NA	NA	NA	NA	NA	1	52	knjiga	knjiga		blue_book	1	N	TRUE	FALSE	TRUE	TRUE	FALSE
+WskiQY3QG4XLCmLFx	BCS	feedback	NA	NA	NA	NA	NA	1	53	masna	masna		green_ribbon	1	N	TRUE	FALSE	TRUE	TRUE	FALSE
+WskiQY3QG4XLCmLFx	BCS	feedback	subNec	table	furniture	wardrobe	furniture	1	54	klupica	klupica		coffeeTable	1	N	TRUE	FALSE	FALSE	TRUE	FALSE
+WskiQY3QG4XLCmLFx	BCS	feedback	NA	NA	NA	NA	NA	1	55	novcanik	novcanik		white_wallet	1	N	TRUE	FALSE	TRUE	TRUE	FALSE
+WskiQY3QG4XLCmLFx	BCS	feedback	NA	NA	NA	NA	NA	1	56	zavrtac	zavrtac		purple_screwdriver	1	N	TRUE	FALSE	FALSE	TRUE	TRUE
+WskiQY3QG4XLCmLFx	BCS	feedback	NA	NA	NA	NA	NA	1	57	pegla	pegla		white_iron	1	N	TRUE	FALSE	TRUE	TRUE	FALSE
+WskiQY3QG4XLCmLFx	BCS	feedback	NA	NA	NA	NA	NA	1	58	sveca	sveca		red_candle	1	N	TRUE	FALSE	TRUE	TRUE	FALSE
+WskiQY3QG4XLCmLFx	BCS	feedback	NA	NA	NA	NA	NA	1	59	cvet	cvet		red_flower	1	N	TRUE	FALSE	TRUE	TRUE	FALSE
+WskiQY3QG4XLCmLFx	BCS	feedback	basicSuffType2	snake	animal	socks	clothing	1	60	golub	golub		pigeon	1	N	TRUE	FALSE	FALSE	TRUE	FALSE
+WskiQY3QG4XLCmLFx	BCS	feedback	supSuff	ambulance	vehicle	rosemary	plant	1	61	vucjak	vucjak		germanShepherd	1	N	TRUE	FALSE	FALSE	TRUE	FALSE
+WskiQY3QG4XLCmLFx	BCS	feedback	NA	NA	NA	NA	NA	1	62	skoljka	skoljka		orange_shell	1	N	TRUE	FALSE	TRUE	TRUE	FALSE
+WskiQY3QG4XLCmLFx	BCS	feedback	NA	NA	NA	NA	NA	1	63	haljina	haljina		blue_dress	1	N	TRUE	FALSE	TRUE	TRUE	FALSE
+WskiQY3QG4XLCmLFx	BCS	feedback	basicSuffType1	elephant	animal	fish	animal	1	64	medved	medved		blackBear	1	N	TRUE	FALSE	FALSE	TRUE	FALSE
+WskiQY3QG4XLCmLFx	BCS	feedback	NA	NA	NA	NA	NA	1	65	caraoa	caraoa		black_sock	1	N	TRUE	FALSE	FALSE	TRUE	FALSE
+WskiQY3QG4XLCmLFx	BCS	feedback	supSuff	pretzels	snack	socks	clothing	1	66	ruza	ruza		rose	1	N	TRUE	FALSE	FALSE	TRUE	FALSE
+WskiQY3QG4XLCmLFx	BCS	feedback	NA	NA	NA	NA	NA	1	67	solja	solja		blue_mug	1	N	TRUE	FALSE	TRUE	TRUE	FALSE
+WskiQY3QG4XLCmLFx	BCS	feedback	NA	NA	NA	NA	NA	1	68	balon	balon		white_balloon	1	N	TRUE	FALSE	TRUE	TRUE	FALSE
+WskiQY3QG4XLCmLFx	BCS	feedback	NA	NA	NA	NA	NA	1	69	mikroskop	mikroskop		green_microscope	1	N	TRUE	FALSE	TRUE	TRUE	FALSE
+WskiQY3QG4XLCmLFx	BCS	feedback	NA	NA	NA	NA	NA	1	70	rulavica	rulavica		purple_glove	1	N	TRUE	FALSE	FALSE	TRUE	FALSE
+WskiQY3QG4XLCmLFx	BCS	feedback	NA	NA	NA	NA	NA	1	71	kofer	kofer		black_luggage	1	N	TRUE	FALSE	TRUE	TRUE	FALSE
+WskiQY3QG4XLCmLFx	BCS	feedback	NA	NA	NA	NA	NA	1	72	jastuk	jastuk	koji	blue_cushion	1	N	TRUE	FALSE	TRUE	TRUE	TRUE
+kgAjLRok7q3vskRYD	BCS	feedback	NA	NA	NA	NA	NA	1	1	yuti cesalj	yuti cesalj		yellow_comb	1	CN	TRUE	FALSE	TRUE	TRUE	FALSE
+kgAjLRok7q3vskRYD	BCS	feedback	supSuff	train	vehicle	pretzels	snack	1	2	riba	riba		catfish	1	N	TRUE	FALSE	TRUE	TRUE	FALSE
+kgAjLRok7q3vskRYD	BCS	feedback	subNec	flower	plant	ivy	plant	1	3	zuti	zuti		sunflower	1	C	TRUE	FALSE	FALSE	TRUE	FALSE
+kgAjLRok7q3vskRYD	BCS	feedback	NA	NA	NA	NA	NA	1	4	bela pegla	bela pegla		white_iron	1	CN	TRUE	FALSE	TRUE	TRUE	FALSE
+kgAjLRok7q3vskRYD	BCS	feedback	supSuff	firetruck	vehicle	lamp	furniture	1	5	riba	riba		swordFish	1	N	TRUE	FALSE	TRUE	TRUE	FALSE
+kgAjLRok7q3vskRYD	BCS	feedback	basicSuffType1	bathrobe	clothing	dress	clothing	1	6	majica	majica		hawaiiShirt	1	N	TRUE	FALSE	FALSE	TRUE	FALSE
+kgAjLRok7q3vskRYD	BCS	feedback	basicSuffType2	bed	furniture	rabbit	animal	1	7	sto	sto		coffeeTable	1	N	TRUE	FALSE	FALSE	TRUE	TRUE
+kgAjLRok7q3vskRYD	BCS	feedback	NA	NA	NA	NA	NA	1	8	nije knjiga	nije knjiga		yellow_guitar	1		TRUE	FALSE	TRUE	TRUE	FALSE
+kgAjLRok7q3vskRYD	BCS	feedback	NA	NA	NA	NA	NA	1	9	zuta narukvica	zuta narukvica		yellow_ring	1	CN	TRUE	FALSE	FALSE	TRUE	TRUE
+kgAjLRok7q3vskRYD	BCS	feedback	NA	NA	NA	NA	NA	1	10	plava ogrlica	plava ogrlica		purple_necklace	1	CN	TRUE	FALSE	TRUE	TRUE	FALSE
+kgAjLRok7q3vskRYD	BCS	feedback	NA	NA	NA	NA	NA	1	11	zuta stolica	zuta stolica		yellow_chair	1	CN	TRUE	FALSE	TRUE	TRUE	TRUE
+kgAjLRok7q3vskRYD	BCS	feedback	supSuff	squirrel	animal	pottedPlant	plant	1	12	klikeri	klikeri		skittles	1	N	TRUE	FALSE	FALSE	TRUE	FALSE
+kgAjLRok7q3vskRYD	BCS	feedback	NA	NA	NA	NA	NA	1	13	rukavica	rukavica		purple_glove	1	N	TRUE	FALSE	TRUE	TRUE	FALSE
+kgAjLRok7q3vskRYD	BCS	feedback	NA	NA	NA	NA	NA	1	14	zuti jastuk	zuti jastuk		yellow_cushion	1	CN	TRUE	FALSE	TRUE	TRUE	TRUE
+kgAjLRok7q3vskRYD	BCS	feedback	NA	NA	NA	NA	NA	1	15	robot	robot		orange_robot	1	N	TRUE	FALSE	TRUE	TRUE	FALSE
+kgAjLRok7q3vskRYD	BCS	feedback	NA	NA	NA	NA	NA	1	16	bela olovka	bela olovka		white_pencil	1	CN	TRUE	FALSE	TRUE	TRUE	FALSE
+kgAjLRok7q3vskRYD	BCS	feedback	subNec	dog	animal	lion	animal	1	17	belo kuce	belo kuce		pug	1	CN	TRUE	FALSE	FALSE	TRUE	FALSE
+kgAjLRok7q3vskRYD	BCS	feedback	NA	NA	NA	NA	NA	1	18	nije stolica	nije stolica		red_balloon	1		TRUE	FALSE	TRUE	TRUE	TRUE
+kgAjLRok7q3vskRYD	BCS	feedback	basicSuffType1	motorcycle	vehicle	firetruck	vehicle	1	19	auto	auto		convertible	1	N	TRUE	FALSE	FALSE	TRUE	TRUE
+kgAjLRok7q3vskRYD	BCS	feedback	NA	NA	NA	NA	NA	1	20	zelena papuca	zelena papuca		green_slipper	1	CN	TRUE	FALSE	TRUE	TRUE	FALSE
+kgAjLRok7q3vskRYD	BCS	feedback	NA	NA	NA	NA	NA	1	21	haljina	haljina		blue_dress	1	N	TRUE	FALSE	TRUE	TRUE	FALSE
+kgAjLRok7q3vskRYD	BCS	feedback	supSuff	lamp	furniture	chips	snack	1	22	auto	auto		suv	1	N	TRUE	FALSE	FALSE	TRUE	TRUE
+kgAjLRok7q3vskRYD	BCS	feedback	basicSuffType2	socks	clothing	pretzels	snack	1	23	kosulja	kosulja		dressShirt	1	N	TRUE	FALSE	FALSE	TRUE	FALSE
+kgAjLRok7q3vskRYD	BCS	feedback	subNec	fish	animal	fish	animal	1	24	zlatna ribica	zlatna ribica		goldFish	1	CN	TRUE	FALSE	FALSE	TRUE	FALSE
+kgAjLRok7q3vskRYD	BCS	feedback	NA	NA	NA	NA	NA	1	25	noz	noz		black_knife	1	N	TRUE	FALSE	TRUE	TRUE	FALSE
+kgAjLRok7q3vskRYD	BCS	feedback	NA	NA	NA	NA	NA	1	26	plava kocka	plava kocka		purple_die	1	CN	TRUE	FALSE	TRUE	TRUE	FALSE
+kgAjLRok7q3vskRYD	BCS	feedback	NA	NA	NA	NA	NA	1	27	kruna	kruna		yellow_crown	1	N	TRUE	FALSE	TRUE	TRUE	FALSE
+kgAjLRok7q3vskRYD	BCS	feedback	NA	NA	NA	NA	NA	1	28	zelena korpa	zelena korpa		green_basket	1	CN	TRUE	FALSE	TRUE	TRUE	FALSE
+kgAjLRok7q3vskRYD	BCS	feedback	NA	NA	NA	NA	NA	1	29	riba__crvena	riba		orange_fish	1	CN	TRUE	FALSE	TRUE	TRUE	FALSE
+kgAjLRok7q3vskRYD	BCS	feedback	basicSuffType1	ivy	plant	grasses	plant	1	30	lala	lala		tulip	1	N	TRUE	FALSE	FALSE	TRUE	FALSE
+kgAjLRok7q3vskRYD	BCS	feedback	NA	NA	NA	NA	NA	1	31	dvogled	dvogled		orange_binoculars	1	N	TRUE	FALSE	TRUE	TRUE	FALSE
+kgAjLRok7q3vskRYD	BCS	feedback	NA	NA	NA	NA	NA	1	32	viljuska	viljuska		green_fork	1	N	TRUE	FALSE	TRUE	TRUE	FALSE
+kgAjLRok7q3vskRYD	BCS	feedback	supSuff	cookies	snack	grasses	plant	1	33	ptica	ptica		hummingBird	1	N	TRUE	FALSE	FALSE	TRUE	FALSE
+kgAjLRok7q3vskRYD	BCS	feedback	basicSuffType2	rosemary	plant	lamp	furniture	1	34	rada	rada		daisy	1	N	TRUE	FALSE	FALSE	TRUE	FALSE
+kgAjLRok7q3vskRYD	BCS	feedback	subNec	flower	plant	grasses	plant	1	35	ruza	ruza		rose	1	N	TRUE	FALSE	FALSE	TRUE	FALSE
+kgAjLRok7q3vskRYD	BCS	feedback	NA	NA	NA	NA	NA	1	36	dobos	dobos		orange_drum	1	N	TRUE	FALSE	FALSE	TRUE	FALSE
+kgAjLRok7q3vskRYD	BCS	feedback	subNec	dog	animal	lobster	animal	1	37	dalmatinac	dalmatinac		dalmatian	1	N	TRUE	FALSE	FALSE	TRUE	FALSE
+kgAjLRok7q3vskRYD	BCS	feedback	NA	NA	NA	NA	NA	1	38	kravata	kravata		black_tie	1	N	TRUE	FALSE	TRUE	TRUE	TRUE
+kgAjLRok7q3vskRYD	BCS	feedback	NA	NA	NA	NA	NA	1	39	zuta sveca	zuta sveca		yellow_candle	1	CN	TRUE	FALSE	TRUE	TRUE	TRUE
+kgAjLRok7q3vskRYD	BCS	feedback	subNec	bird	animal	elephant	animal	1	40	papagaj	papagaj		parrot	1	N	TRUE	FALSE	FALSE	TRUE	FALSE
+kgAjLRok7q3vskRYD	BCS	feedback	NA	NA	NA	NA	NA	1	41	sal	sal		blue_scarf	1	N	TRUE	FALSE	TRUE	TRUE	FALSE
+kgAjLRok7q3vskRYD	BCS	feedback	NA	NA	NA	NA	NA	1	42	kais	kais		yellow_belt	1	N	TRUE	FALSE	TRUE	TRUE	FALSE
+kgAjLRok7q3vskRYD	BCS	feedback	NA	NA	NA	NA	NA	1	43	digiron	digiron		blue_calculator	1	N	TRUE	FALSE	FALSE	TRUE	FALSE
+kgAjLRok7q3vskRYD	BCS	feedback	supSuff	rosemary	plant	pretzels	snack	1	44	natkasna	natkasna		bedsideTable	1	N	TRUE	FALSE	FALSE	TRUE	FALSE
+kgAjLRok7q3vskRYD	BCS	feedback	NA	NA	NA	NA	NA	1	45	ljubicasta masna	ljubicasta masna		purple_ribbon	1	CN	TRUE	FALSE	TRUE	TRUE	TRUE
+kgAjLRok7q3vskRYD	BCS	feedback	NA	NA	NA	NA	NA	1	46	vrata	vrata		white_door	1	N	TRUE	FALSE	TRUE	TRUE	TRUE
+kgAjLRok7q3vskRYD	BCS	feedback	basicSuffType1	motorcycle	vehicle	firetruck	vehicle	1	47	auto	auto		sportsCar	1	N	TRUE	FALSE	FALSE	TRUE	TRUE
+kgAjLRok7q3vskRYD	BCS	feedback	NA	NA	NA	NA	NA	1	48	maska	maska		red_mask	1	N	TRUE	FALSE	TRUE	TRUE	FALSE
+kgAjLRok7q3vskRYD	BCS	feedback	NA	NA	NA	NA	NA	1	49	zuti cvet	zuti cvet		yellow_flower	1	CN	TRUE	FALSE	TRUE	TRUE	FALSE
+kgAjLRok7q3vskRYD	BCS	feedback	NA	NA	NA	NA	NA	1	50	bela taraba	bela taraba		white_fence	1	CN	TRUE	FALSE	FALSE	TRUE	TRUE
+kgAjLRok7q3vskRYD	BCS	feedback	NA	NA	NA	NA	NA	1	51	skoljka	skoljka		green_shell	1	N	TRUE	FALSE	TRUE	TRUE	FALSE
+kgAjLRok7q3vskRYD	BCS	feedback	NA	NA	NA	NA	NA	1	52	plavi kalendar	plavi kalendar		purple_calendar	1	CN	TRUE	FALSE	TRUE	TRUE	FALSE
+kgAjLRok7q3vskRYD	BCS	feedback	basicSuffType2	pretzels	snack	shirt	clothing	1	53	bonbone	bonbone		mnMs	1	N	TRUE	FALSE	FALSE	TRUE	TRUE
+kgAjLRok7q3vskRYD	BCS	feedback	NA	NA	NA	NA	NA	1	54	mikroskop	mikroskop		orange_microscope	1	N	TRUE	FALSE	TRUE	TRUE	FALSE
+kgAjLRok7q3vskRYD	BCS	feedback	NA	NA	NA	NA	NA	1	55	plavi srafciger	plavi srafciger		purple_screwdriver	1	CN	TRUE	FALSE	TRUE	TRUE	FALSE
+kgAjLRok7q3vskRYD	BCS	feedback	NA	NA	NA	NA	NA	1	56	narandzasti katanac	narandzasti katanac		orange_lock	1	CN	TRUE	FALSE	TRUE	TRUE	TRUE
+kgAjLRok7q3vskRYD	BCS	feedback	NA	NA	NA	NA	NA	1	57	cinija	cinija		orange_bowl	1	N	TRUE	FALSE	TRUE	TRUE	FALSE
+kgAjLRok7q3vskRYD	BCS	feedback	NA	NA	NA	NA	NA	1	58	leptir	leptir		red_butterfly	1	N	TRUE	FALSE	TRUE	TRUE	FALSE
+kgAjLRok7q3vskRYD	BCS	feedback	NA	NA	NA	NA	NA	1	59	plavi novcanik	plavi novcanik		blue_wallet	1	CN	TRUE	FALSE	TRUE	TRUE	FALSE
+kgAjLRok7q3vskRYD	BCS	feedback	NA	NA	NA	NA	NA	1	60	smedja knjiga	smedja knjiga		red_book	1	CN	TRUE	FALSE	TRUE	TRUE	FALSE
+kgAjLRok7q3vskRYD	BCS	feedback	basicSuffType1	iguana	animal	sheep	animal	1	61	ovcar	ovcar		germanShepherd	1	N	TRUE	FALSE	FALSE	TRUE	FALSE
+kgAjLRok7q3vskRYD	BCS	feedback	NA	NA	NA	NA	NA	1	62	beli krevet	beli krevet		white_bed	1	CN	TRUE	FALSE	TRUE	TRUE	FALSE
+kgAjLRok7q3vskRYD	BCS	feedback	supSuff	lamp	furniture	grasses	plant	1	63	bonbone	bonbone		gummyBears	1	N	TRUE	FALSE	FALSE	TRUE	TRUE
+kgAjLRok7q3vskRYD	BCS	feedback	basicSuffType2	cow	animal	ivy	plant	1	64	kuce	kuce		husky	1	N	TRUE	FALSE	FALSE	TRUE	FALSE
+kgAjLRok7q3vskRYD	BCS	feedback	NA	NA	NA	NA	NA	1	65	zelenicekic	zelenicekic		green_hammer	1	CN	TRUE	FALSE	TRUE	TRUE	FALSE
+kgAjLRok7q3vskRYD	BCS	feedback	NA	NA	NA	NA	NA	1	66	helikopter	helikopter		green_helicopter	1	N	TRUE	FALSE	TRUE	TRUE	TRUE
+kgAjLRok7q3vskRYD	BCS	feedback	NA	NA	NA	NA	NA	1	67	plavi kamion	plavi kamion		purple_truck	1	CN	TRUE	FALSE	TRUE	TRUE	FALSE
+kgAjLRok7q3vskRYD	BCS	feedback	NA	NA	NA	NA	NA	1	68	narandzasti kamion	narandzasti kamion		orange_luggage	1	CN	TRUE	FALSE	TRUE	TRUE	FALSE
+kgAjLRok7q3vskRYD	BCS	feedback	subNec	car	vehicle	train	vehicle	1	69	beli karavan	beli karavan		minivan	1	CN	TRUE	FALSE	FALSE	TRUE	FALSE
+kgAjLRok7q3vskRYD	BCS	feedback	NA	NA	NA	NA	NA	1	70	telefon	telefon		blue_phone	1	N	TRUE	FALSE	TRUE	TRUE	TRUE
+kgAjLRok7q3vskRYD	BCS	feedback	NA	NA	NA	NA	NA	1	71	solja	solja		yellow_mug	1	N	TRUE	FALSE	TRUE	TRUE	FALSE
+kgAjLRok7q3vskRYD	BCS	feedback	NA	NA	NA	NA	NA	1	72	carapa	carapa		orange_sock	1	N	TRUE	FALSE	TRUE	TRUE	FALSE
+sANt6jJXrNsm3zFLu	BCS	feedback	NA	NA	NA	NA	NA	1	1	izaberi belu stolicu	izaberi belu stolicu		white_chair	1	CN	TRUE	FALSE	FALSE	TRUE	TRUE
+sANt6jJXrNsm3zFLu	BCS	feedback	NA	NA	NA	NA	NA	1	2	izaberi papucu	izaberi papucu		black_slipper	1	N	TRUE	FALSE	FALSE	TRUE	FALSE
+sANt6jJXrNsm3zFLu	BCS	feedback	NA	NA	NA	NA	NA	1	3	izaberi vrata	izaberi vrata		red_door	1	N	TRUE	FALSE	TRUE	TRUE	TRUE
+sANt6jJXrNsm3zFLu	BCS	feedback	subNec	dog	animal	pig	animal	1	4	izaberi vucjaka	izaberi vucjaka		germanShepherd	1	N	TRUE	FALSE	FALSE	TRUE	FALSE
+sANt6jJXrNsm3zFLu	BCS	feedback	subNec	dog	animal	rhino	animal	1	5	izaberi mopsa psa	izaberi mopsa psa		pug	1	N	TRUE	FALSE	FALSE	TRUE	FALSE
+sANt6jJXrNsm3zFLu	BCS	feedback	NA	NA	NA	NA	NA	1	6	izaberi zelenu kravatu	izaberi zelenu kravatu		green_tie	1	CN	TRUE	FALSE	FALSE	TRUE	TRUE
+sANt6jJXrNsm3zFLu	BCS	feedback	NA	NA	NA	NA	NA	1	7	izaberi balon	izaberi balon		red_balloon	1	N	TRUE	FALSE	TRUE	TRUE	FALSE
+sANt6jJXrNsm3zFLu	BCS	feedback	NA	NA	NA	NA	NA	1	8	korona	korona		blue_mask	1	N	TRUE	FALSE	FALSE	TRUE	TRUE
+sANt6jJXrNsm3zFLu	BCS	feedback	NA	NA	NA	NA	NA	1	9	viljuska__p.s. to je ljubicasta ne plava. izaberi zelenu	viljuska	"koja, zelena ili plava?__ti ces da mi kazes"	green_fork	1	N	TRUE	FALSE	TRUE	TRUE	FALSE
+sANt6jJXrNsm3zFLu	BCS	feedback	NA	NA	NA	NA	NA	1	10	"izaberi prsten, a da nije plave boje"	"izaberi prsten, a da nije plave boje"		white_ring	1	NNegC	TRUE	FALSE	TRUE	TRUE	TRUE
+sANt6jJXrNsm3zFLu	BCS	feedback	NA	NA	NA	NA	NA	1	11	ljubicasta rukavica	ljubicasta rukavica		purple_glove	1	CN	TRUE	FALSE	TRUE	TRUE	TRUE
+sANt6jJXrNsm3zFLu	BCS	feedback	subNec	shirt	clothing	gloves	clothing	1	12	izaberi havajsko plavu kosulju	izaberi havajsko plavu kosulju	havajka	hawaiiShirt	1	CN	TRUE	FALSE	FALSE	TRUE	FALSE
+sANt6jJXrNsm3zFLu	BCS	feedback	basicSuffType1	hamster	animal	fish	animal	1	13	izaberi medu	izaberi medu		grizzlyBear	1	N	TRUE	FALSE	FALSE	TRUE	FALSE
+sANt6jJXrNsm3zFLu	BCS	feedback	subNec	table	furniture	lamp	furniture	1	14	izaberi sto za dnevnu sobu	izaberi sto za dnevnu sobu		coffeeTable	1	N	TRUE	FALSE	FALSE	TRUE	TRUE
+sANt6jJXrNsm3zFLu	BCS	feedback	NA	NA	NA	NA	NA	1	15	izaberi crveni cvet	izaberi crveni cvet		red_flower	1	CN	TRUE	FALSE	TRUE	TRUE	FALSE
+sANt6jJXrNsm3zFLu	BCS	feedback	NA	NA	NA	NA	NA	1	16	izaberi telefon	izaberi telefon		white_phone	1	N	TRUE	FALSE	TRUE	TRUE	TRUE
+sANt6jJXrNsm3zFLu	BCS	feedback	NA	NA	NA	NA	NA	1	17	izaberi leptira	izaberi leptira		yellow_butterfly	1	N	TRUE	FALSE	TRUE	TRUE	FALSE
+sANt6jJXrNsm3zFLu	BCS	feedback	basicSuffType2	socks	clothing	grasses	plant	1	18	izaberi polo majicu	izaberi polo majicu		poloShirt	1	N	TRUE	FALSE	FALSE	TRUE	FALSE
+sANt6jJXrNsm3zFLu	BCS	feedback	basicSuffType1	wardrobe	furniture	lamp	furniture	1	19	izaberi natkasnu	izaberi natkasnu		bedsideTable	1	N	TRUE	FALSE	FALSE	TRUE	FALSE
+sANt6jJXrNsm3zFLu	BCS	feedback	NA	NA	NA	NA	NA	1	20	sveca boje limuna	sveca boje limuna		yellow_candle	1	NC	TRUE	FALSE	TRUE	TRUE	FALSE
+sANt6jJXrNsm3zFLu	BCS	feedback	NA	NA	NA	NA	NA	1	21	carapa u boji cekica	carapa u boji cekica		purple_sock	1	NC	TRUE	FALSE	TRUE	TRUE	FALSE
+sANt6jJXrNsm3zFLu	BCS	feedback	NA	NA	NA	NA	NA	1	22	izaberi zutu ogradu	izaberi zutu ogradu		yellow_fence	1	CN	TRUE	FALSE	FALSE	TRUE	TRUE
+sANt6jJXrNsm3zFLu	BCS	feedback	NA	NA	NA	NA	NA	1	23	izaberi olovku__hahahah__da nije u boji digitrona__da jeste__u boji__digitrona__daa	izaberi olovku	? zutu?__ne me bre zajebavaj__u boji digitrona?	blue_pencil	1	N	TRUE	FALSE	FALSE	TRUE	FALSE
+sANt6jJXrNsm3zFLu	BCS	feedback	NA	NA	NA	NA	NA	1	24	izaberi katanac__negro boje	izaberi katanac	na strafte?	black_lock	1	N	TRUE	FALSE	TRUE	TRUE	TRUE
+sANt6jJXrNsm3zFLu	BCS	feedback	NA	NA	NA	NA	NA	1	25	izaberi orglicu	izaberi orglicu		purple_necklace	1	N	TRUE	FALSE	FALSE	TRUE	FALSE
+sANt6jJXrNsm3zFLu	BCS	feedback	NA	NA	NA	NA	NA	1	26	izaberi korpu sa drskom	izaberi korpu sa drskom		purple_basket	1	N	TRUE	FALSE	FALSE	TRUE	FALSE
+sANt6jJXrNsm3zFLu	BCS	feedback	NA	NA	NA	NA	NA	1	27	izaberi jastuk boje balona	izaberi jastuk boje balona		red_cushion	1	N	TRUE	FALSE	TRUE	TRUE	TRUE
+sANt6jJXrNsm3zFLu	BCS	feedback	NA	NA	NA	NA	NA	1	28	izaberi helikopter	izaberi helikopter		green_helicopter	1	N	TRUE	FALSE	TRUE	TRUE	TRUE
+sANt6jJXrNsm3zFLu	BCS	feedback	supSuff	squirrel	animal	socks	clothing	1	29	izaberi brm brm	izaberi brm brm		suv	1	N	TRUE	FALSE	FALSE	TRUE	FALSE
+sANt6jJXrNsm3zFLu	BCS	feedback	NA	NA	NA	NA	NA	1	30	izaberi taman kalendar	izaberi taman kalendar		black_calendar	1	CN	TRUE	FALSE	TRUE	TRUE	TRUE
+sANt6jJXrNsm3zFLu	BCS	feedback	NA	NA	NA	NA	NA	1	31	izaberi knjigu__vec procitanu plave boje	izaberi knjigu	otvorenu ili zatvorenu?	blue_book	1	N	TRUE	FALSE	FALSE	TRUE	FALSE
+sANt6jJXrNsm3zFLu	BCS	feedback	NA	NA	NA	NA	NA	1	32	izaberi ribu	izaberi ribu		orange_fish	1	N	TRUE	FALSE	FALSE	TRUE	FALSE
+sANt6jJXrNsm3zFLu	BCS	feedback	NA	NA	NA	NA	NA	1	33	digitronce	digitronce		yellow_calculator	1	N	TRUE	FALSE	TRUE	TRUE	FALSE
+sANt6jJXrNsm3zFLu	BCS	feedback	NA	NA	NA	NA	NA	1	34	izaberi cudnog robota	izaberi cudnog robota		green_robot	1	N	TRUE	FALSE	TRUE	TRUE	TRUE
+sANt6jJXrNsm3zFLu	BCS	feedback	basicSuffType2	rhino	animal	bookcase	furniture	1	35	izaberi debelu mekanu zivotinju	izaberi debelu mekanu zivotinju		pandaBear	1	N	TRUE	FALSE	FALSE	TRUE	FALSE
+sANt6jJXrNsm3zFLu	BCS	feedback	basicSuffType2	chips	snack	dress	clothing	1	36	sarene pilule za lilule za lilule	sarene pilule za lilule za lilule		jellyBeans	1	N	TRUE	FALSE	FALSE	TRUE	FALSE
+sANt6jJXrNsm3zFLu	BCS	feedback	NA	NA	NA	NA	NA	1	37	izaberi srafciger__hahah zeleni	izaberi srafciger	krstasti?	green_screwdriver	1	N	TRUE	FALSE	TRUE	TRUE	FALSE
+sANt6jJXrNsm3zFLu	BCS	feedback	NA	NA	NA	NA	NA	1	38	a kad cu ja da pogadjam__izaberi kockicu	a kad cu ja da pogadjam	mislio sam da ces od 37e ali izgleda nikada	purple_die	1	N	TRUE	FALSE	FALSE	TRUE	FALSE
+sANt6jJXrNsm3zFLu	BCS	feedback	supSuff	lamp	furniture	socks	clothing	1	39	cvetak zanovetak	cvetak zanovetak		daisy	1	N	TRUE	FALSE	TRUE	TRUE	TRUE
+sANt6jJXrNsm3zFLu	BCS	feedback	subNec	flower	plant	grasses	plant	1	40	"izaberi cvet__od kog se dobija med__nee, ovaj lepsi zuti"	izaberi cvet	mali ili veliki?__ovaj sa bosanske zastave?__od njega se dobija ulje...	sunflower	1	N	TRUE	FALSE	TRUE	TRUE	FALSE
+sANt6jJXrNsm3zFLu	BCS	feedback	NA	NA	NA	NA	NA	1	41	izabari novcanik__topao za zenski rod	izabari novcanik	hladan ili topao?	red_wallet	1	N	TRUE	FALSE	TRUE	TRUE	FALSE
+sANt6jJXrNsm3zFLu	BCS	feedback	basicSuffType1	lion	animal	bison	animal	1	42	izaberi haskija	izaberi haskija		husky	1	N	TRUE	FALSE	FALSE	TRUE	FALSE
+sANt6jJXrNsm3zFLu	BCS	feedback	NA	NA	NA	NA	NA	1	43	izaberi cekic u boji carape	izaberi cekic u boji carape		orange_hammer	1	NC	TRUE	FALSE	TRUE	TRUE	FALSE
+sANt6jJXrNsm3zFLu	BCS	feedback	basicSuffType2	cow	animal	popcorn	snack	1	44	izaberi medu severnjaka	izaberi medu severnjaka		polarBear	1	N	TRUE	FALSE	FALSE	TRUE	FALSE
+sANt6jJXrNsm3zFLu	BCS	feedback	NA	NA	NA	NA	NA	1	45	izaberi ciniju__da nije tvoja plava	izaberi ciniju	ljubicastu ili vijolet?	black_bowl	1	N	TRUE	FALSE	FALSE	TRUE	FALSE
+sANt6jJXrNsm3zFLu	BCS	feedback	subNec	fish	animal	bear	animal	1	46	izaberi ribu sa dva brka	izaberi ribu sa dva brka		catfish	1	N	TRUE	FALSE	FALSE	TRUE	FALSE
+sANt6jJXrNsm3zFLu	BCS	feedback	basicSuffType2	bird	animal	pretzels	snack	1	47	izaberi medveda	izaberi medveda		blackBear	1	N	TRUE	FALSE	FALSE	TRUE	FALSE
+sANt6jJXrNsm3zFLu	BCS	feedback	basicSuffType2	wardrobe	furniture	snake	animal	1	48	izaberi klupu	izaberi klupu		picnicTable	1	N	TRUE	FALSE	FALSE	TRUE	FALSE
+sANt6jJXrNsm3zFLu	BCS	feedback	supSuff	lamp	furniture	rosemary	plant	1	49	izaberi igla ribu	izaberi igla ribu		swordFish	1	N	TRUE	FALSE	FALSE	TRUE	FALSE
+sANt6jJXrNsm3zFLu	BCS	feedback	basicSuffType2	kitten	animal	gloves	clothing	1	50	izaberi pticu	izaberi pticu		hummingBird	1	N	TRUE	FALSE	FALSE	TRUE	FALSE
+sANt6jJXrNsm3zFLu	BCS	feedback	NA	NA	NA	NA	NA	1	51	izaberi kofer__pomoranze	izaberi kofer	boje?	orange_luggage	1	N	TRUE	FALSE	TRUE	TRUE	FALSE
+sANt6jJXrNsm3zFLu	BCS	feedback	NA	NA	NA	NA	NA	1	52	izaberi haljinu	izaberi haljinu		red_dress	1	N	TRUE	FALSE	FALSE	TRUE	FALSE
+sANt6jJXrNsm3zFLu	BCS	feedback	NA	NA	NA	NA	NA	1	53	izaberi gitaru	izaberi gitaru		yellow_guitar	1	N	TRUE	FALSE	FALSE	TRUE	TRUE
+sANt6jJXrNsm3zFLu	BCS	feedback	basicSuffType1	firetruck	vehicle	ambulance	vehicle	1	54	izaberi auto__metalik	izaberi auto	sportski?	sportsCar	1	N	TRUE	FALSE	FALSE	TRUE	TRUE
+sANt6jJXrNsm3zFLu	BCS	feedback	NA	NA	NA	NA	NA	1	55	izaberi dobos	izaberi dobos		black_drum	1	N	TRUE	FALSE	FALSE	TRUE	FALSE
+sANt6jJXrNsm3zFLu	BCS	feedback	NA	NA	NA	NA	NA	1	56	iaberi solju	iaberi solju		yellow_mug	1	N	TRUE	FALSE	FALSE	TRUE	FALSE
+sANt6jJXrNsm3zFLu	BCS	feedback	NA	NA	NA	NA	NA	1	57	izaberi mikroskop	izaberi mikroskop		green_microscope	1	N	TRUE	FALSE	TRUE	TRUE	FALSE
+sANt6jJXrNsm3zFLu	BCS	feedback	NA	NA	NA	NA	NA	1	58	kamion ljubicaste boje	kamion ljubicaste boje		purple_truck	1	NC	TRUE	FALSE	TRUE	TRUE	TRUE
+sANt6jJXrNsm3zFLu	BCS	feedback	NA	NA	NA	NA	NA	1	59	izaberi krevet boje maske	izaberi krevet boje maske		yellow_bed	1	NC	TRUE	FALSE	TRUE	TRUE	FALSE
+sANt6jJXrNsm3zFLu	BCS	feedback	NA	NA	NA	NA	NA	1	60	izaberi noz	izaberi noz		black_knife	1	N	TRUE	FALSE	TRUE	TRUE	FALSE
+sANt6jJXrNsm3zFLu	BCS	feedback	NA	NA	NA	NA	NA	1	61	izaberi masnu	izaberi masnu		black_ribbon	1	N	TRUE	FALSE	FALSE	TRUE	FALSE
+sANt6jJXrNsm3zFLu	BCS	feedback	NA	NA	NA	NA	NA	1	62	izaberi dvogled	izaberi dvogled		purple_binoculars	1	N	TRUE	FALSE	TRUE	TRUE	FALSE
+sANt6jJXrNsm3zFLu	BCS	feedback	NA	NA	NA	NA	NA	1	63	vase velicanstvo	vase velicanstvo		blue_crown	1	N	TRUE	FALSE	FALSE	TRUE	FALSE
+sANt6jJXrNsm3zFLu	BCS	feedback	NA	NA	NA	NA	NA	1	64	izaberi pojas	izaberi pojas		blue_belt	1	N	TRUE	FALSE	FALSE	TRUE	FALSE
+sANt6jJXrNsm3zFLu	BCS	feedback	subNec	flower	plant	pottedPlant	plant	1	65	"izaberi cvet__ni vise ni manje nego crveni, al ne bode"	izaberi cvet	crveni predpodstavljam?__je l bode ili ne bode?	tulip	1	N	TRUE	FALSE	TRUE	TRUE	FALSE
+sANt6jJXrNsm3zFLu	BCS	feedback	NA	NA	NA	NA	NA	1	66	izaberi sal	izaberi sal		white_scarf	1	N	TRUE	FALSE	TRUE	TRUE	FALSE
+sANt6jJXrNsm3zFLu	BCS	feedback	NA	NA	NA	NA	NA	1	67	izaberi vajolet skoljku	izaberi vajolet skoljku		purple_shell	1	CN	TRUE	FALSE	FALSE	TRUE	FALSE
+sANt6jJXrNsm3zFLu	BCS	feedback	NA	NA	NA	NA	NA	1	68	izaberi cesalj zute boje	izaberi cesalj zute boje		yellow_comb	1	NC	TRUE	FALSE	TRUE	TRUE	TRUE
+sANt6jJXrNsm3zFLu	BCS	feedback	supSuff	ivy	plant	shirt	clothing	1	69	izaberi 101	izaberi 101		dalmatian	1	N	TRUE	FALSE	FALSE	TRUE	FALSE
+sANt6jJXrNsm3zFLu	BCS	feedback	basicSuffType2	rhino	animal	pottedPlant	plant	1	70	"golube, moj golube"	"golube, moj golube"		pigeon	1	N	TRUE	FALSE	FALSE	TRUE	FALSE
+sANt6jJXrNsm3zFLu	BCS	feedback	basicSuffType2	ambulance	vehicle	dress	clothing	1	71	izaberi mercedes benz__hahah__izaberi merivu__auto metalik boje__sports van__aha	izaberi mercedes benz	?__ne moj se saliti tako grubo__?__ovaj van__ne hitnu upomoc	minivan	1	N	TRUE	FALSE	FALSE	TRUE	FALSE
+sANt6jJXrNsm3zFLu	BCS	feedback	NA	NA	NA	NA	NA	1	72	izaberi peglu boje vrata__tananana	izaberi peglu boje vrata	bezgresan sam kao isus	white_iron	1	NC	TRUE	FALSE	TRUE	TRUE	TRUE

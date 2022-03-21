@@ -11,8 +11,15 @@ setwd(this.dir)
 source("../_shared/regressionHelpers.r")
 
 # READ DATA
-# # (dummy data for analysis pipeline creation)
-d = read_delim("../../data/ArabicMain/dummy/data_exp1.tsv", delim = "\t")
+
+d = read_delim("../../data/BCSPilot/postManualTypoCorrection.tsv", delim = "\t")
+
+d <- d %>%
+  filter(is.na(condition)) %>%
+  mutate(clickedFeatures = strsplit(nameClickedObj, "_"),
+         clickedColor = map(clickedFeatures, pluck, 1),
+         clickedType = map(clickedFeatures, pluck, 2),
+         clickedSize = rep("0", length(clickedFeatures)))
 
 # PLOT PROPORTION OF REDUNDANT UTTERANCES BY REDUNDANT PROPERTY
 
@@ -105,9 +112,6 @@ summary(BCSNounModel)
 # Color Use Graphs
 # For BCS Participants
 d <- read.csv("fakedata.csv")
-
-# Change this to reflect probability and NOT sum
-# dfPlot <- 
   
 colorPresentSum <- d %>%
   group_by(colorCondition, genderCondition) %>%
@@ -133,16 +137,21 @@ ggplot(data=dfPlot, aes(x=colorCondition, y=probability, fill=genderCondition)) 
 
 # Noun Use Graphs
 # For BCS Participants
-d <- read.csv("fakedata.csv")
-
-dfPlot <- d %>%
+nounPresentSum <- d %>%
   group_by(colorCondition, genderCondition) %>%
-  filter(colorUse == 1) %>%
-  count(colorUse)
+  filter(nounUse == 1) %>%
+  count(nounUse)
 
-ggplot(data=dfPlot, aes(x=colorCondition, y=n, fill=genderCondition)) +
+dfPlotNoun <- d %>%
+  group_by(colorCondition, genderCondition) %>%
+  count()
+
+dfPlotNoun$probability = nounPresentSum$n/dfPlotNoun$n
+
+ggplot(data=dfPlotNoun, aes(x=colorCondition, y=probability, fill=genderCondition)) +
   geom_bar(stat="identity", color="black", position=position_dodge()) +
   theme_minimal()
+
 
 # Create Graphs for English Participants
 # Repeat above code

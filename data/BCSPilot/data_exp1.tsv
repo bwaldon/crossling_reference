@@ -1,0 +1,30 @@
+gameid	Trial	TargetItem	UtteranceType	redUtterance	SufficientProperty	RedundantProperty	NumDistractors	NumSameDistractors	SceneVariation	speakerMessages	listenerMessages	refExp	minimal	redundant	clickedType	clickedSize	clickedColor	colorMentioned	sizeMentioned	typeMentioned	oneMentioned	theMentioned
+kgAjLRok7q3vskRYD	4	white_iron	color	minimal	color	size redundant	4	NA	1	bela pegla	NA	bela pegla	1	0	iron	0	white	TRUE	FALSE	TRUE	TRUE	FALSE
+kgAjLRok7q3vskRYD	9	yellow_ring	color	minimal	color	size redundant	4	NA	1	zuta narukvica	NA	zuta narukvica	1	0	ring	0	yellow	TRUE	FALSE	TRUE	TRUE	TRUE
+kgAjLRok7q3vskRYD	10	purple_necklace	color	minimal	color	size redundant	4	NA	1	plava ogrlica	NA	plava ogrlica	1	0	necklace	0	purple	TRUE	FALSE	TRUE	TRUE	FALSE
+kgAjLRok7q3vskRYD	11	yellow_chair	color	minimal	color	size redundant	4	NA	1	zuta stolica	NA	zuta stolica	1	0	chair	0	yellow	TRUE	FALSE	TRUE	TRUE	TRUE
+kgAjLRok7q3vskRYD	14	yellow_cushion	color	minimal	color	size redundant	4	NA	1	zuti jastuk	NA	zuti jastuk	1	0	cushion	0	yellow	TRUE	FALSE	TRUE	TRUE	TRUE
+kgAjLRok7q3vskRYD	16	white_pencil	color	minimal	color	size redundant	4	NA	1	bela olovka	NA	bela olovka	1	0	pencil	0	white	TRUE	FALSE	TRUE	TRUE	FALSE
+kgAjLRok7q3vskRYD	20	green_slipper	color	minimal	color	size redundant	4	NA	1	zelena papuca	NA	zelena papuca	1	0	slipper	0	green	TRUE	FALSE	TRUE	TRUE	FALSE
+kgAjLRok7q3vskRYD	26	purple_die	color	minimal	color	size redundant	4	NA	1	plava kocka	NA	plava kocka	1	0	die	0	purple	TRUE	FALSE	TRUE	TRUE	FALSE
+kgAjLRok7q3vskRYD	28	green_basket	color	minimal	color	size redundant	4	NA	1	zelena korpa	NA	zelena korpa	1	0	basket	0	green	TRUE	FALSE	TRUE	TRUE	FALSE
+kgAjLRok7q3vskRYD	39	yellow_candle	color	minimal	color	size redundant	4	NA	1	zuta sveca	NA	zuta sveca	1	0	candle	0	yellow	TRUE	FALSE	TRUE	TRUE	TRUE
+kgAjLRok7q3vskRYD	45	purple_ribbon	color	minimal	color	size redundant	4	NA	1	ljubicasta masna	NA	ljubicasta masna	1	0	ribbon	0	purple	TRUE	FALSE	TRUE	TRUE	TRUE
+kgAjLRok7q3vskRYD	49	yellow_flower	color	minimal	color	size redundant	4	NA	1	zuti cvet	NA	zuti cvet	1	0	flower	0	yellow	TRUE	FALSE	TRUE	TRUE	FALSE
+kgAjLRok7q3vskRYD	50	white_fence	color	minimal	color	size redundant	4	NA	1	bela taraba	NA	bela taraba	1	0	fence	0	white	TRUE	FALSE	TRUE	TRUE	TRUE
+kgAjLRok7q3vskRYD	52	purple_calendar	color	minimal	color	size redundant	4	NA	1	plavi kalendar	NA	plavi kalendar	1	0	calendar	0	purple	TRUE	FALSE	TRUE	TRUE	FALSE
+kgAjLRok7q3vskRYD	55	purple_screwdriver	color	minimal	color	size redundant	4	NA	1	plavi srafciger	NA	plavi srafciger	1	0	screwdriver	0	purple	TRUE	FALSE	TRUE	TRUE	FALSE
+kgAjLRok7q3vskRYD	56	orange_lock	color	minimal	color	size redundant	4	NA	1	narandzasti katanac	NA	narandzasti katanac	1	0	lock	0	orange	TRUE	FALSE	TRUE	TRUE	TRUE
+kgAjLRok7q3vskRYD	59	blue_wallet	color	minimal	color	size redundant	4	NA	1	plavi novcanik	NA	plavi novcanik	1	0	wallet	0	blue	TRUE	FALSE	TRUE	TRUE	FALSE
+kgAjLRok7q3vskRYD	62	white_bed	color	minimal	color	size redundant	4	NA	1	beli krevet	NA	beli krevet	1	0	bed	0	white	TRUE	FALSE	TRUE	TRUE	FALSE
+kgAjLRok7q3vskRYD	65	green_hammer	color	minimal	color	size redundant	4	NA	1	zelenicekic	NA	zelenicekic	1	0	hammer	0	green	TRUE	FALSE	TRUE	TRUE	FALSE
+kgAjLRok7q3vskRYD	67	purple_truck	color	minimal	color	size redundant	4	NA	1	plavi kamion	NA	plavi kamion	1	0	truck	0	purple	TRUE	FALSE	TRUE	TRUE	FALSE
+kgAjLRok7q3vskRYD	68	orange_luggage	color	minimal	color	size redundant	4	NA	1	narandzasti kamion	NA	narandzasti kamion	1	0	luggage	0	orange	TRUE	FALSE	TRUE	TRUE	FALSE
+sANt6jJXrNsm3zFLu	1	white_chair	color	minimal	color	size redundant	4	NA	1	izaberi belu stolicu	NA	izaberi belu stolicu	1	0	chair	0	white	TRUE	FALSE	TRUE	TRUE	TRUE
+sANt6jJXrNsm3zFLu	6	green_tie	color	minimal	color	size redundant	4	NA	1	izaberi zelenu kravatu	NA	izaberi zelenu kravatu	1	0	tie	0	green	TRUE	FALSE	TRUE	TRUE	TRUE
+sANt6jJXrNsm3zFLu	10	white_ring	color	minimal	color	size redundant	4	NA	1	izaberi prsten, a da nije plave boje	NA	izaberi prsten, a da nije plave boje	1	0	ring	0	white	TRUE	FALSE	TRUE	TRUE	TRUE
+sANt6jJXrNsm3zFLu	11	purple_glove	color	minimal	color	size redundant	4	NA	1	ljubicasta rukavica	NA	ljubicasta rukavica	1	0	glove	0	purple	TRUE	FALSE	TRUE	TRUE	TRUE
+sANt6jJXrNsm3zFLu	15	red_flower	color	minimal	color	size redundant	4	NA	1	izaberi crveni cvet	NA	izaberi crveni cvet	1	0	flower	0	red	TRUE	FALSE	TRUE	TRUE	FALSE
+sANt6jJXrNsm3zFLu	22	yellow_fence	color	minimal	color	size redundant	4	NA	1	izaberi zutu ogradu	NA	izaberi zutu ogradu	1	0	fence	0	yellow	TRUE	FALSE	TRUE	TRUE	TRUE
+sANt6jJXrNsm3zFLu	58	purple_truck	color	minimal	color	size redundant	4	NA	1	kamion ljubicaste boje	NA	kamion ljubicaste boje	1	0	truck	0	purple	TRUE	FALSE	TRUE	TRUE	TRUE
+sANt6jJXrNsm3zFLu	68	yellow_comb	color	minimal	color	size redundant	4	NA	1	izaberi cesalj zute boje	NA	izaberi cesalj zute boje	1	0	comb	0	yellow	TRUE	FALSE	TRUE	TRUE	TRUE
