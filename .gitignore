@@ -29,3 +29,4 @@ papers/cogsci2020/si_context_rt.pdf
 *.log
 *.synctex.gz
 #*.txt
+*api_keys/*
