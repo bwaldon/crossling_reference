@@ -54,49 +54,49 @@ exports.generateScenes = function generateScenes() {
           // scene 1 is a color necessary scene
           scenes.push(sceneColorNecessary(determineColorScheme,
             "BCSStimulus_" + determineColorScheme + "_" + g + "_" + rot[0][0],
-            "BCSStimulus_" + determineColorScheme + "_" + g + "_" + rot[0][1]));
+            "BCSStimulus_" + determineColorScheme + "_" + g + "_" + rot[0][1], "scene1"));
           scenes.push(sceneColorNecessary(determineColorScheme,
             "BCSStimulus_" + determineColorScheme + "_" + g + "_" + rot[1][0],
-            "BCSStimulus_" + determineColorScheme + "_" + g + "_" + rot[1][1]));
+            "BCSStimulus_" + determineColorScheme + "_" + g + "_" + rot[1][1], "scene1"));
           scenes.push(sceneColorNecessary(determineColorScheme,
             "BCSStimulus_" + determineColorScheme + "_" + g + "_" + rot[2][0],
-            "BCSStimulus_" + determineColorScheme + "_" + g + "_" + rot[2][1]));
+            "BCSStimulus_" + determineColorScheme + "_" + g + "_" + rot[2][1], "scene1"));
 
           // create all 3 three trials of scene 2
           // scene 2 is a color redundant scene
           scenes.push(sceneColorRedundant(determineColorScheme,
             "BCSStimulus_" + determineColorScheme + "_" + g + "_" + rot[3][0],
-            "BCSStimulus_" + determineColorScheme + "_" + g + "_" + rot[3][1]));
+            "BCSStimulus_" + determineColorScheme + "_" + g + "_" + rot[3][1], "scene2"));
           scenes.push(sceneColorRedundant(determineColorScheme,
             "BCSStimulus_" + determineColorScheme + "_" + g + "_" + rot[4][0],
-            "BCSStimulus_" + determineColorScheme + "_" + g + "_" + rot[4][1]));
+            "BCSStimulus_" + determineColorScheme + "_" + g + "_" + rot[4][1], "scene2"));
           scenes.push(sceneColorRedundant(determineColorScheme,
             "BCSStimulus_" + determineColorScheme + "_" + g + "_" + rot[5][0],
-            "BCSStimulus_" + determineColorScheme + "_" + g + "_" + rot[5][1]));
+            "BCSStimulus_" + determineColorScheme + "_" + g + "_" + rot[5][1], "scene2"));
 
           // create all 3 three trials of scene 3
           // scene 3 is a color redundant scene
           scenes.push(sceneColorRedundant(determineColorScheme,
             "BCSStimulus_" + determineColorScheme + "_" + g + "_" + rot[6][0],
-            "BCSStimulus_" + determineColorScheme + "_" + oppositeGender + "_" + rot[6][1]));
+            "BCSStimulus_" + determineColorScheme + "_" + oppositeGender + "_" + rot[6][1], "scene3"));
           scenes.push(sceneColorRedundant(determineColorScheme,
             "BCSStimulus_" + determineColorScheme + "_" + g + "_" + rot[7][0],
-            "BCSStimulus_" + determineColorScheme + "_" + oppositeGender + "_" + rot[7][1]));
+            "BCSStimulus_" + determineColorScheme + "_" + oppositeGender + "_" + rot[7][1], "scene3"));
           scenes.push(sceneColorRedundant(determineColorScheme,
             "BCSStimulus_" + determineColorScheme + "_" + g + "_" + rot[8][0],
-            "BCSStimulus_" + determineColorScheme + "_" + oppositeGender + "_" + rot[8][1]));
+            "BCSStimulus_" + determineColorScheme + "_" + oppositeGender + "_" + rot[8][1], "scene3"));
 
           // create all 3 three trials of scene 4
           // scene 4 is a color necessary scene
           scenes.push(sceneColorNecessary(determineColorScheme,
             "BCSStimulus_" + determineColorScheme + "_" + g + "_" + rot[9][0],
-            "BCSStimulus_" + determineColorScheme + "_" + oppositeGender + "_" + rot[9][1]));
+            "BCSStimulus_" + determineColorScheme + "_" + oppositeGender + "_" + rot[9][1], "scene4"));
           scenes.push(sceneColorNecessary(determineColorScheme,
             "BCSStimulus_" + determineColorScheme + "_" + g + "_" + rot[10][0],
-            "BCSStimulus_" + determineColorScheme + "_" + oppositeGender + "_" + rot[10][1]));
+            "BCSStimulus_" + determineColorScheme + "_" + oppositeGender + "_" + rot[10][1], "scene4"));
           scenes.push(sceneColorNecessary(determineColorScheme,
             "BCSStimulus_" + determineColorScheme + "_" + g + "_" + rot[11][0],
-            "BCSStimulus_" + determineColorScheme + "_" + oppositeGender + "_" + rot[11][1]));
+            "BCSStimulus_" + determineColorScheme + "_" + oppositeGender + "_" + rot[11][1], "scene4"));
         }
       }
 
@@ -235,7 +235,7 @@ exports.generateScenes = function generateScenes() {
     //    condition: ??? 0--> BRANDON< WHAT DOES TZHIS DO. and can I use it as a rotation???
     //
 
-    function sceneMain(colorScheme, target, distractor, distractor2) {
+    function sceneMain(colorScheme, target, distractor, distractor2, condition) {
       targetColor = pickColor(colorScheme);
       distractorColor = pickColorExcept(colorScheme, targetColor);
 
@@ -255,7 +255,7 @@ exports.generateScenes = function generateScenes() {
         'alt1SuperLevel': 'NA',
         'alt2BasicLevel': 'NA',
         'alt2SuperLevel': 'NA',
-        'condition': 'NA'
+        'condition': condition
       })
     }
 
@@ -263,16 +263,16 @@ exports.generateScenes = function generateScenes() {
   // wrapper for color necessary condition. Calls on sceneMain and returns exact output
   // as SceneMaine, but this function determines that the second distractor item
   // will be the same type as the target
-  function sceneColorNecessary(colorScheme, target, distractor) {
-    return(sceneMain(colorScheme, target, distractor, target));
+  function sceneColorNecessary(colorScheme, target, distractor, condition) {
+    return(sceneMain(colorScheme, target, distractor, target, condition));
   }
 
   // wrapper for color redundant condition. Calls on sceneMain and returns exact output
   // as SceneMaine, but this function determines that the second distractor item
   // will be of a different type than the target (i.e. the two distractor items
   // will be the same type)
-  function sceneColorRedundant(colorScheme, target, distractor) {
-    return(sceneMain(colorScheme, target, distractor, distractor));
+  function sceneColorRedundant(colorScheme, target, distractor, condition) {
+    return(sceneMain(colorScheme, target, distractor, distractor, condition));
   }
 
   // Return a color within a specified color scheme
