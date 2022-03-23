@@ -1,2 +1,3 @@
 BDAColor,BDASize,condition,BDAOtherColor,BDAItem
-color,size,NA,othercolor,item
+color,size,scenario1,othercolor,item
+color,size,scenario4,othercolor,item
