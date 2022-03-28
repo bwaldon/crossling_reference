@@ -12,14 +12,13 @@ source("../_shared/regressionHelpers.r")
 
 # READ DATA
 
-d = read_delim("../../data/BCSPilot/postManualTypoCorrection.tsv", delim = "\t")
+d = read_delim("../../data/BCSPilot/data_exp1.tsv", delim = "\t")
 
 d <- d %>%
-  filter(is.na(condition)) %>%
-  mutate(clickedFeatures = strsplit(nameClickedObj, "_"),
-         clickedColor = map(clickedFeatures, pluck, 1),
-         clickedType = map(clickedFeatures, pluck, 2),
-         clickedSize = rep("0", length(clickedFeatures)))
+  filter(condition %in% c("scenario1", "scenario2", "scenario3", "scenario4")) %>%
+  select(gameId, language, condition, roundNumber, directorAllMessages, directorFirstMessage, guesserAllMessages,
+         nameClickedObj, correct, colorMentioned, sizeMentioned, typeMentioned, oneMentioned, clickedColor, 
+         clickedType, target)
 
 # PLOT PROPORTION OF REDUNDANT UTTERANCES BY REDUNDANT PROPERTY
 
@@ -29,80 +28,153 @@ d <- d %>%
 #ggsave(file="viz/scenevariation.pdf",width=8,height=4)
 
 
-# PLOT BY-DYAD VARIABILITY IN OVERMODIFICATION STRATEGY
-
-# change this to only include color redundancy and not size redundancy use (change it for BCS)
-visualize_byDyad(d)
-
-ggsave(file="viz/bydyad.pdf",width=8,height=4)
-
-# PLOT BY-DYAD VARIABILITY IN OVERMODIFICAITON STRATEGY BY EXPERIMENT HALF
-
-# change this to only include color redundancy and not size redundancy use (change it for BCS)
-visualize_byDyadHalf(d)
-
-ggsave(file="viz/bydyadhalf.pdf",width=8,height=4)
-
-# BAYESIAN MIXED EFFECTS LOGISTIC REGRESSION
-## READ IN THE ENGLISH DATA FROM DEGEN ET AL. (2020)
-
-d_english <- read_delim("../../data/Degen2020/data_exp1.csv", delim = "\t")
-d_english$Language <- "English"
-d$Language <- "Arabic"
-
 d <- d %>%
-  full_join(d_english)
+  mutate(colorCondition = case_when(condition %in% c("scenario1", "scenario4") ~ "necessary",
+                                    TRUE ~ "redundant"),
+         genderCondition = case_when(condition %in% c("scenario1", "scenario2") ~ "match",
+                                     TRUE ~ "mismatch"),
+         colorMentioned = case_when(colorMentioned == TRUE ~ 1,
+                                    TRUE ~ 0),
+         nounMentioned = case_when(typeMentioned == TRUE ~ 1,
+                                   TRUE ~ 0))
 
-# # CENTER PREDICTORS (NOTE: REFERENCE LEVEL OF FACTORS MAY CHANGE)
-d <- d %>% 
-  mutate(SufficientProperty = factor(SufficientProperty),
-         redUtterance = factor(redUtterance),
-         gameid = factor(gameid),
-         Language = factor(Language))
-centered = cbind(d,myCenter(data.frame(d %>% select(SufficientProperty, Trial, SceneVariation, Language))))
-contrasts(centered$redUtterance)
-contrasts(centered$SufficientProperty)
-contrasts(centered$Language)
+# Plots
 
-pairscor.fnc(centered[,c("redUtterance","SufficientProperty","SceneVariation","Language")])
+# Color use by scenario
+df_colorMentioned <- d %>%
+  group_by(colorCondition, genderCondition) %>%
+  filter(colorMentioned == 1) %>%
+  count(colorMentioned)
 
-options(mc.cores = parallel::detectCores())
+df_totalColor <- d %>%
+  group_by(colorCondition, genderCondition) %>%
+  count()
 
-# # MODEL SPECIFICATION
+df_color <- merge(df_colorMentioned, df_totalColor, by = c("colorCondition", "genderCondition"), all.y = TRUE)
 
-m.b.full = brm(redUtterance ~ cSufficientProperty*cSceneVariation*cLanguage + (1+cSufficientProperty*cSceneVariation|gameid) + (1+cSufficientProperty*cSceneVariation*cLanguage|clickedType), data=centered, family="bernoulli")
+df_color <- df_color %>%
+  rename(totalColorMentioned = n.x, n = n.y)
 
-summary(m.b.full)
+df_color$totalColorMentioned <- df_color$totalColorMentioned %>%
+  replace_na(0)
 
-# ONE-SIDED HYPOTHESIS TESTING (EXAMPLE)
-hypothesis(m.b.full, "cLanguage > 0") # hypothesis(m.b.full, "cLanguage < 0"), depending on reference level coding
+df_color <- df_color %>%
+  mutate(colorUse = totalColorMentioned/n)
 
-# PLOTTING POSTERIORS (EXAMPLE)
-plot(m.b.full, variable = c("cSufficientProperty"))
+plotColor <- ggplot(df_color, aes(x = colorCondition, y = colorUse, group = genderCondition)) +
+  geom_bar(position = "dodge", stat='identity', aes(fill=genderCondition)) 
 
-# AUXILIARY GLMER ANALYSIS
+plotColor
 
-# Center the variables of condition
+ggsave(filename = "colorUse.pdf", plot = plotColor,
+       width = 6, height = 2.5, units = "in", device = "pdf")
 
+# Noun use by Scenario
+df_nounMentioned <- d %>%
+  group_by(genderCondition, colorCondition) %>%
+  filter(nounMentioned == 1) %>%
+  count(nounMentioned)
+
+df_totalNoun <- d %>%
+  group_by(genderCondition, colorCondition) %>%
+  count()
+
+df_noun <- merge(df_nounMentioned, df_totalNoun, by = c("genderCondition", "colorCondition"), all.y = TRUE)
+
+df_noun <- df_noun %>%
+  rename(totalNounMentioned = n.x, n = n.y)
+
+df_noun$totalNounMentioned <- df_noun$totalNounMentioned
+
+df_noun <- df_noun %>%
+  mutate(nounUse = totalNounMentioned/n)
+
+plotNoun <- ggplot(df_noun, aes(x = genderCondition, y = nounUse, group = colorCondition)) +
+  geom_bar(position = "dodge", stat='identity', aes(fill=colorCondition)) 
+
+plotNoun
+
+ggsave(filename = "nounUse.pdf", plot = plotNoun,
+       width = 6, height = 2.5, units = "in", device = "pdf")
 
 ###################
 ###################
 # For BCS
 
+d <- d %>%
+  mutate(colorCondition = case_when(colorCondition == "necessary" ~ 1,
+                                    TRUE ~ 0),
+         genderCondition = case_when(genderCondition == "mismatch" ~ 1,
+                                     TRUE ~ 0),
+         gameId = case_when(gameId == "WskiQY3QG4XLCmLFx" ~ 1,
+                             gameId == "kgAjLRok7q3vskRYD" ~ 2,
+                             gameId == "sANt6jJXrNsm3zFLu" ~ 3),
+         target = case_when(target == "belt" ~ 1,
+                            target == "tie" ~ 2,
+                            target == "pencil" ~ 3,
+                            target == "butterfly" ~ 4,
+                            target == "bowl" ~ 5,
+                            target == "binoculars" ~ 6,
+                            target == "fence" ~ 7,
+                            target == "mask" ~ 8,
+                            target == "robot" ~ 9,
+                            target == "helicopter" ~ 10,
+                            target == "guitar" ~ 11,
+                            target == "knife" ~ 12,
+                            target == "crown" ~ 13,
+                            target == "necklace" ~ 14,
+                            target == "scarf" ~ 15,
+                            target == "truck" ~ 16,
+                            target == "lock" ~ 17,
+                            target == "calculator" ~ 18,
+                            target == "door" ~ 19,
+                            target == "die" ~ 20,
+                            target == "fork" ~ 21,
+                            target == "drum" ~ 22,
+                            target == "phone" ~ 23,
+                            target == "basket" ~ 24,
+                            target == "comb" ~ 25,
+                            target == "chair" ~ 26,
+                            target == "slipper" ~ 27,
+                            target == "bed" ~ 28,
+                            target == "ring" ~ 29,
+                            target == "hammer" ~ 30,
+                            target == "calendar" ~ 31,
+                            target == "fish" ~ 32,
+                            target == "book" ~ 33,
+                            target == "ribbon" ~ 34,
+                            target == "walled" ~ 35,
+                            target == "screwdriver" ~ 36,
+                            target == "iron" ~ 37,
+                            target == "candle" ~ 38,
+                            target == "flower" ~ 39,
+                            target == "shell" ~ 40,
+                            target == "dress" ~ 41,
+                            target == "sock" ~ 42,
+                            target == "mug" ~ 43,
+                            target == "balloon" ~ 44,
+                            target == "microscope" ~ 45,
+                            target == "glove" ~ 46,
+                            target == "cushion" ~ 47,
+                            target == "sock" ~ 48
+                            ))
 # Factor the variables
-d$colorCondition <- factor(d$colorCondition)
-d$genderCondition <- factor(d$genderCondition)
+# d$colorCondition <- factor(d$colorCondition)
+# d$genderCondition <- factor(d$genderCondition)
+# # d$colorMentioned <- factor(d$colorMentioned)
+# d$gameId <- factor(d$gameId)
+# d$target <- factor(unlist(d$target))
 
-# Relevel the variables
-d <- d %>% mutate(colorCondition = fct_relevel(colorCondition, "redundant"))
-d <- d %>% mutate(genderCondition = fct_relevel(genderCondition, "match"))
-
+# # Relevel the variables
+# d <- d %>% mutate(colorCondition = fct_relevel(colorCondition, "redundant"))
+# d <- d %>% mutate(genderCondition = fct_relevel(genderCondition, "match"))
 # Center the variables
-dataFrame$colorCondition = dataFrame$colorCondition - (dataFrame$mean(colorCondition))
-dataFrame$genderCondition = dataFrame$genderCondition - (dataFrame$mean(genderCondition))
+# d$colorCondition = d$colorCondition - mean(d$colorCondition)
+# d$genderCondition = d$genderCondition - mean(d$genderCondition)
 
 # Run the models
-BCSColorModel <- glmer(colorUse ~ colorCondition*genderCondition + (1 + colorCondition*genderCondition|participant) + (1 + colorCondition*genderCondition|item))
+#test<-glm(colorMentioned ~ colorCondition*genderCondition + (1 + colorCondition*genderCondition|gameId) + (1 + colorCondition*genderCondition|target), data = d, family=binomial(link="logit"))
+BCSColorModel <- glm(colorMentioned ~ colorCondition*genderCondition + (1 + colorCondition*genderCondition|gameId) + (1 + colorCondition*genderCondition|target), data = d)
 BCSNounModel <- glmer(nounUse ~ colorCondition*genderCondition + (1 + colorCondition*genderCondition|participant) + (1 + colorCondition*genderCondition|item))
 
 # Model outputs

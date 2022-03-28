@@ -7,10 +7,9 @@ theme_set(theme_bw())
 
 source("../_shared/regressionHelpers.R")
 source("../_shared/preprocessingHelpers.R")
+source("BCSPreprocessingHelpers.R")
 
 # Step 1: read in raw game data
-
-## Option (a): read in the rounds and player info info from the Mongo database
 
 ### mongoCreds contains the API key to the Mongo database (ask Brandon for credentials)
 mongoCreds <- readLines("../../api_keys/mongo")
@@ -18,20 +17,24 @@ mongoCreds <- readLines("../../api_keys/mongo")
 ### 'Rounds' contains the by-trial info for the games played by the players
 
 d <- getRoundData_byLanguage("BCS",mongoCreds)
-#d <- readRDS("../../data/BCSPilot/rawData.rds")
-# # To save this data locally (so you don't need to connect to the database):
-# saveRDS(d, file = "../../data/BCSPilot/rawData.rds")
+
+
+# Get how long the game takes
+gameLength <- d %>%
+  filter(gameId != "GdJRzt75ocCjvTmj5") %>%
+  select(gameId, updatedAt) %>%
+  mutate(trial = rep(1:72, (nrow(d)-72)/72)) %>%
+  filter(trial %in% c(1, 72)) %>%
+  mutate(time = as.integer(updatedAt))
+
+averageTime <- (((1647802989-1647802010) + (1647813047-1647811786) + (1647888158-1647885671))/3)/60
+# 26.3 minutes
 
 ### 'Users' contains the email addresses
 
 con <- mongo("players", url = sprintf("mongodb+srv://%s@cluster0.xizoq.mongodb.net/crossling-ref", mongoCreds))
 playerEmailAddresses <- (data.frame(con$find(sprintf('{ "gameId": { "$in": %s } } ', toJSON(unique(d$gameId))))))$id
 rm(con)
-
-## Option (b): Read in the raw data from .rds (rather than querying database)
-## For pipelining: read in data from 2-person pilot
-
-#d <- readRDS("../../data/BCSPilot/rawData.rds")
 
 ## Cache the raw data before transforming (optional)
 
@@ -43,13 +46,8 @@ rawD <- d
 
 player_info <- getPlayerDemographicData(unique(d$gameId),mongoCreds)
 
-# # To save this data locally (so you don't need to connect to the database):
-# saveRDS(player_info, file = "../../data/BCSPilot/rawPlayerInfo.rds")
 
-## Option (b): read in the raw data from .rds (rather than querying the database)
-
-#player_info <- readRDS("../../data/BCSPilot/rawPlayerInfo.rds")
-
+test <- readRDS("../../data/BCSPilot/rawPlayerInfo.rds")
 # Step 3: do (demographic) exclusions
 
 ## Option (a): (Manually) list games that include players who are excluded by virtue of debrief survey responses
@@ -59,8 +57,6 @@ excludeGames_demographic <- c("GdJRzt75ocCjvTmj5")
 d <- d %>%
   filter(!(gameId %in% excludeGames_demographic))
 
-## Option (b): If list of excluded games is saved locally, read in the list (TODO)
-
 # Step 4: massage the data into something that looks like Degen et al.'s raw format
 
 d <- transformDataDegen2020Raw(d)
@@ -68,6 +64,33 @@ d <- transformDataDegen2020Raw(d)
 # Step 5: exclude games where accuracy is less than < 0.7 (and, optionally, plot by-game accuracy)
 
 d <- accuracyExclusions(d, makeGraph = TRUE, xlab = "BCS Speakers")
+
+
+
+
+# allTargets <- d_preManualTypoCorrection %>%
+#   filter(condition == "NA")
+# 
+# df_allTargets <- data.frame()
+# 
+# for(x in 0:nrow(allTargets)) {
+#   df_allTargets <- rbind(df_allTargets, data.frame(allTargets$images[x]))
+# }
+# 
+# write_csv(df_allTargets, "../../data/BCSPilot/allTargets.csv")
+
+# I didn't have the condition statement in the original code
+# So i'm just pasting the conditions in here
+# this will all be deleted for the final analysis, because I added it back into the code
+targetConditions <- c('scenario2', 'scenario3', 'scenario3', 'scenario3', 'scenario2', 'scenario4', 'scenario2', 'scenario1', 'scenario1', 'scenario1', 'scenario1', 'scenario1', 'scenario1', 'scenario1', 'scenario2', 'scenario3', 'scenario2', 'scenario2', 'scenario1', 'scenario4', 'scenario3', 'scenario4', 'scenario3', 'scenario4', 'scenario1', 'scenario2', 'scenario1', 'scenario4', 'scenario4', 'scenario3', 'scenario3', 'scenario4', 'scenario3', 'scenario1', 'scenario4', 'scenario2', 'scenario2', 'scenario3', 'scenario4', 'scenario2', 'scenario4', 'scenario2', 'scenario1', 'scenario3', 'scenario4', 'scenario3', 'scenario2', 'scenario4', 'scenario1', 'scenario1', 'scenario2', 'scenario4', 'scenario4', 'scenario1', 'scenario2', 'scenario4', 'scenario3', 'scenario4', 'scenario3', 'scenario4', 'scenario3', 'scenario3', 'scenario1', 'scenario2', 'scenario1', 'scenario1', 'scenario2', 'scenario2', 'scenario2', 'scenario2', 'scenario4', 'scenario2', 'scenario2', 'scenario2', 'scenario4', 'scenario2', 'scenario2', 'scenario4', 'scenario1', 'scenario3', 'scenario1', 'scenario2', 'scenario4', 'scenario4', 'scenario3', 'scenario3', 'scenario4', 'scenario4', 'scenario4', 'scenario1', 'scenario3', 'scenario1', 'scenario4', 'scenario3', 'scenario2', 'scenario3', 'scenario1', 'scenario3', 'scenario2', 'scenario1', 'scenario3', 'scenario2', 'scenario1', 'scenario4', 'scenario1', 'scenario4', 'scenario3', 'scenario3', 'scenario4', 'scenario4', 'scenario1', 'scenario4', 'scenario1', 'scenario3', 'scenario2', 'scenario4', 'scenario2', 'scenario4', 'scenario4', 'scenario2', 'scenario2', 'scenario2', 'scenario1', 'scenario2', 'scenario4', 'scenario4', 'scenario4', 'scenario1', 'scenario3', 'scenario2', 'scenario3', 'scenario2', 'scenario3', 'scenario4', 'scenario4', 'scenario2', 'scenario3', 'scenario3', 'scenario2', 'scenario2', 'scenario2', 'scenario4', 'scenario1', 'scenario1')
+
+counter = 1
+for(x in 1:nrow(d)){
+  if(d$condition[x] == "NA") {
+    d$condition[x] <- targetConditions[counter]
+    counter = counter + 1
+  }
+}
 
 # Step 6 (optional): plot accuracy by trial type 
 
@@ -120,7 +143,7 @@ nounsCS1MCyrillic <- "лептир|балон|телефон|кревет|цве
 nounsCS1FCyrillic <- "врата|круна|хаљина|оловка|књига|свећа|свеца|свијећа|свијеца|пегла|столица|ограда|маска|гитара|шоља|соља|шалица|салица|чаша|цаса"
 nounsCS1FCyrillicAcc <- "врата|круну|хаљину|оловку|књигу|свећу|свијећу|пеглу|столицу|ограду|маску|гитару|шољу|шалицу|чашу"
 nounsCS2MCyrillic <-"календар|чекић|цекиц|камион|микроскоп|двоглед|далекозор|бубањ|робот|хеликоптер|нож|ноз|кофер|локот|катанац|шрафцигер|срафцигер|одвијач|одвијац"
-nounsCS2FCyrillic <- "коцка|риба|кошара|косара|корпа|кравата|вилица|виљушка|виљуска|рукавица|шкољка|скољка|чарапа|царапа|чинија|цинија|здела|здјела|машна|масна|огрлица|папуча|папуца"
+nounsCS2FCyrillicAcc <- "коцка|риба|кошара|косара|корпа|кравата|вилица|виљушка|виљуска|рукавица|шкољка|скољка|чарапа|царапа|чинија|цинија|здела|здјела|машна|масна|огрлица|папуча|папуца"
 nounsCS2FCyrillic <- "коцку|рибу|кошару|корпу|кравату|вилицу|виљушку|рукавицу|шкољку|чарапу|чинију|зделу|здјелу|машну|огрлицу|папучу"
 
 nouns <- paste(nounsCS1MLatin, nounsCS1FLatin, nounsCS1FLatinAcc, nounsCS2MLatin, nounsCS2FLatin, nounsCS2FLatinAcc, nounsCS1MCyrillic, nounsCS1FCyrillic, nounsCS1FCyrillicAcc, nounsCS2MCyrillic, nounsCS2FCyrillic, nounsCS2FCyrillicAcc, sep = "|")
@@ -137,7 +160,17 @@ bleachedNouns <- ""
 d_preManualTypoCorrection <- automaticAnnotate(d, colorTerms, sizeTerms, nouns, bleachedNouns, demonstratives)
 
 
+allCriticalTargets <- d_preManualTypoCorrection %>%
+  filter(condition %in% c("scenario1", "scenario2", "scenario3", "scenario4"))
+  
+allCriticalTargets <- allCriticalTargets[,3]$name
 
+allCriticalTargets <- unlist(strsplit(allCriticalTargets, split = "_"))
+remove <- c("blue", "red", "yellow", "white", "black", "orange", "purple", "green")
+allCriticalTargets <- allCriticalTargets[! allCriticalTargets %in% remove]
+
+d_preManualTypoCorrection <- d_preManualTypoCorrection %>%
+  add_column(gender = NA)
 
 # Step 8: Write this dataset for manual correction of typos
 write_delim(data.frame(d_preManualTypoCorrection %>%
@@ -168,11 +201,16 @@ write_delim(data.frame(d_preManualTypoCorrection %>%
 # Step 9: Read manually corrected dataset for further preprocessing
 # Make sure file being read in is *post* manual correction ('pre' just for testing)
 d <- read_delim("../../data/BCSPilot/postManualTypoCorrection.tsv", delim = "\t") %>%
-  filter(is.na(condition)) %>%
+  filter(condition %in% c("scenario1", "scenario2", "scenario3", "scenario4")) %>%
   mutate(clickedFeatures = strsplit(nameClickedObj, "_"),
          clickedColor = map(clickedFeatures, pluck, 1),
          clickedType = map(clickedFeatures, pluck, 2),
          clickedSize = rep("0", length(clickedFeatures)))
+
+# add in target values
+
+d <-d %>%
+  add_column(target = allCriticalTargets)
 colsizerows <- nrow(d)
 
 # How many trials were automatically labelled as mentioning a pre-coded level of reference?
@@ -186,15 +224,32 @@ print(paste("percentage of manually added trials: ", manu_trials*100/colsizerows
 # How often were nouns omitted?
 d$noun_mentioned = ifelse(d$typeMentioned == TRUE, 1, 0)
 no_noun_trials = colsizerows - sum(d$noun_mentioned)
-print(paste("percentage of trials where nouns were omitted: ", no_noun_trials*100/colsizerows)) # 88.6 in Degen 2020
+print(paste("percentage of trials where nouns were omitted: ", no_noun_trials*100/colsizerows)) 
+# 2.08%
+
+# How often were colors used?
+d$color_mentioned = ifelse(d$colorMentioned == TRUE, 1, 0)
+print(paste("percentage of trials where colors were mentioned: ", sum(d$color_mentioned)*100/colsizerows))
+# 22%
 
 # In how many cases did the listener choose the wrong object?
-print(paste(100*(1-(sum(d$correct)/colsizerows)),"% of cases of non-target choices")) # 1.5 in Degen 2020
+print(paste(100*(1-(sum(d$correct)/colsizerows)),"% of cases of non-target choices")) 
+# 0%
 
 # How many unique pairs?
 length(unique(d$gameId)) # 3
 
 # Step 10: final transformations on data for regression analyses and BDA 
 
+
+d <- d %>%
+  select(-clickedFeatures)
+
+d$clickedColor <- unlist(d$clickedColor)
+d$clickedType <- unlist(d$clickedType)
+
 destinationFolder <- "../../data/BCSPilot"
-produceBDAandRegressionData(d, destinationFolder = destinationFolder)
+write_delim(d, sprintf("%s/data_exp1.tsv", destinationFolder),delim="\t")
+# 
+# 
+# BCSProduceBDAandRegressionData(d, destinationFolder = destinationFolder)

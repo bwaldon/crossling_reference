@@ -30,6 +30,9 @@ export default class PlayerId extends Component {
                         <p>
                             {batchGroupName === null
                                 ? "Please enter your Prolific ID:"
+                                : batchGroupName.includes("English") ||
+                                  batchGroupName.includes("english")
+                                ? "Please enter your Prolific ID:"
                                 : batchGroupName.includes("chinese") ||
                                   batchGroupName.includes("Chinese")
                                 ? "请输入你的Prolific账号:"
