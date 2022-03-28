@@ -72,3 +72,5 @@ plot(m.b.full, variable = c("cSufficientProperty"))
 # AUXILIARY GLMER ANALYSIS
 m.glm = glmer(redUtterance ~ cSufficientProperty*cSceneVariation*cLanguage + (1+cSufficientProperty*cSceneVariation|gameid) + (1+cSufficientProperty*cSceneVariation*cLanguage|clickedType), data=centered, family="bernoulli")
 summary(m.glm)
+
+
