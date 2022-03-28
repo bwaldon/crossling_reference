@@ -12,7 +12,7 @@ source("../_shared/regressionHelpers.r")
 
 # READ DATA
 # # (dummy data for analysis pipeline creation)
-d = read_delim("../../data/SpanishMain/dummy/data_exp1.tsv", delim = "\t")
+d = read_delim("../../data/SpanishMain/data_exp1.tsv", delim = "\t") 
 
 # PLOT PROPORTION OF REDUNDANT UTTERANCES BY REDUNDANT PROPERTY
 
@@ -64,7 +64,7 @@ m.b.full = brm(redUtterance ~ cSufficientProperty*cSceneVariation*cLanguage + (1
 summary(m.b.full)
 
 # ONE-SIDED HYPOTHESIS TESTING (EXAMPLE)
-hypothesis(m.b.full, "cLanguage > 0") # hypothesis(m.b.full, "cLanguage < 0"), depending on reference level coding
+hypothesis(m.b.full, "cLanguage < 0") # hypothesis(m.b.full, "cLanguage < 0"), depending on reference level coding
 
 # PLOTTING POSTERIORS (EXAMPLE)
 plot(m.b.full, variable = c("cSufficientProperty"))
