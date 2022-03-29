@@ -1,0 +1,145 @@
+gameId	language	stage	condition	alt1BasicLevel	alt1SuperLevel	alt2BasicLevel	alt2SuperLevel	listenerSelection	roundNumber	directorAllMessages	directorFirstMessage	guesserAllMessages	nameClickedObj	correct	colorMentioned	sizeMentioned	typeMentioned	oneMentioned	theMentioned	gender	clickedColor	clickedType	clickedSize	noun_mentioned	color_mentioned	target
+CkeeDJQs3b24kcEJ5	English	feedback	scene3	NA	NA	NA	NA	1	4	mug	mug	NA	white_mug	1	FALSE	FALSE	TRUE	FALSE	FALSE	NA	white	mug	0	1	0	mug
+CkeeDJQs3b24kcEJ5	English	feedback	scene4	NA	NA	NA	NA	1	5	blue telephone	blue telephone	NA	blue_phone	1	TRUE	FALSE	TRUE	FALSE	FALSE	NA	blue	phone	0	1	1	phone
+CkeeDJQs3b24kcEJ5	English	feedback	scene2	NA	NA	NA	NA	1	6	basket	basket	NA	purple_basket	1	FALSE	FALSE	TRUE	FALSE	TRUE	NA	purple	basket	0	1	0	basket
+CkeeDJQs3b24kcEJ5	English	feedback	scene2	NA	NA	NA	NA	1	10	door	door	NA	blue_door	1	FALSE	FALSE	TRUE	FALSE	FALSE	NA	blue	door	0	1	0	door
+CkeeDJQs3b24kcEJ5	English	feedback	scene4	NA	NA	NA	NA	1	11	black hammer	black hammer	NA	black_hammer	1	TRUE	FALSE	TRUE	FALSE	TRUE	NA	black	hammer	0	1	1	hammer
+CkeeDJQs3b24kcEJ5	English	feedback	scene2	NA	NA	NA	NA	1	12	dress	dress	NA	white_dress	1	FALSE	FALSE	TRUE	FALSE	FALSE	NA	white	dress	0	1	0	dress
+CkeeDJQs3b24kcEJ5	English	feedback	scene3	NA	NA	NA	NA	1	13	bed	bed	NA	red_bed	1	FALSE	FALSE	TRUE	FALSE	FALSE	NA	red	bed	0	1	0	bed
+CkeeDJQs3b24kcEJ5	English	feedback	scene2	NA	NA	NA	NA	1	14	ring	ring	NA	blue_ring	1	FALSE	FALSE	TRUE	FALSE	FALSE	NA	blue	ring	0	1	0	ring
+CkeeDJQs3b24kcEJ5	English	feedback	scene2	NA	NA	NA	NA	1	15	helicopter	helicopter	NA	orange_helicopter	1	FALSE	FALSE	TRUE	FALSE	FALSE	NA	orange	helicopter	0	1	0	helicopter
+CkeeDJQs3b24kcEJ5	English	feedback	scene2	NA	NA	NA	NA	1	16	comb	comb	NA	red_comb	1	FALSE	FALSE	TRUE	FALSE	FALSE	NA	red	comb	0	1	0	comb
+CkeeDJQs3b24kcEJ5	English	feedback	scene3	NA	NA	NA	NA	1	19	guitar	guitar	NA	yellow_guitar	1	FALSE	FALSE	TRUE	FALSE	TRUE	NA	yellow	guitar	0	1	0	guitar
+CkeeDJQs3b24kcEJ5	English	feedback	scene2	NA	NA	NA	NA	1	20	robot	robot	NA	green_robot	1	FALSE	FALSE	TRUE	FALSE	FALSE	NA	green	robot	0	1	0	robot
+CkeeDJQs3b24kcEJ5	English	feedback	scene4	NA	NA	NA	NA	1	21	orange shell	orange shell	NA	orange_shell	1	TRUE	FALSE	TRUE	FALSE	TRUE	NA	orange	shell	0	1	1	shell
+CkeeDJQs3b24kcEJ5	English	feedback	scene1	NA	NA	NA	NA	1	23	black suitcase	black suitcase	NA	black_luggage	1	TRUE	FALSE	TRUE	FALSE	TRUE	NA	black	luggage	0	1	1	luggage
+CkeeDJQs3b24kcEJ5	English	feedback	scene2	NA	NA	NA	NA	1	27	knife	knife	NA	orange_knife	1	FALSE	FALSE	TRUE	FALSE	FALSE	NA	orange	knife	0	1	0	knife
+CkeeDJQs3b24kcEJ5	English	feedback	scene1	NA	NA	NA	NA	1	28	blue calculator	blue calculator	NA	blue_calculator	1	TRUE	FALSE	TRUE	FALSE	TRUE	NA	blue	calculator	0	1	1	calculator
+CkeeDJQs3b24kcEJ5	English	feedback	scene2	NA	NA	NA	NA	1	29	dice	dice	NA	orange_die	1	FALSE	FALSE	FALSE	FALSE	FALSE	NA	orange	die	0	0	0	die
+CkeeDJQs3b24kcEJ5	English	feedback	scene3	NA	NA	NA	NA	1	30	flower	flower	NA	red_flower	1	FALSE	FALSE	TRUE	FALSE	FALSE	NA	red	flower	0	1	0	flower
+CkeeDJQs3b24kcEJ5	English	feedback	scene1	NA	NA	NA	NA	1	31	white scarf	white scarf	NA	white_scarf	1	TRUE	FALSE	TRUE	FALSE	TRUE	NA	white	scarf	0	1	1	scarf
+CkeeDJQs3b24kcEJ5	English	feedback	scene3	NA	NA	NA	NA	1	33	drum	drum	NA	orange_drum	1	FALSE	FALSE	TRUE	FALSE	FALSE	NA	orange	drum	0	1	0	drum
+CkeeDJQs3b24kcEJ5	English	feedback	scene4	NA	NA	NA	NA	1	36	black lorry	black lorry	NA	black_truck	1	TRUE	FALSE	TRUE	FALSE	TRUE	NA	black	truck	0	1	1	truck
+CkeeDJQs3b24kcEJ5	English	feedback	scene2	NA	NA	NA	NA	1	37	green fish	green fish	NA	green_fish	1	TRUE	FALSE	TRUE	FALSE	FALSE	NA	green	fish	0	1	1	fish
+CkeeDJQs3b24kcEJ5	English	feedback	scene4	NA	NA	NA	NA	1	38	purple calendar	purple calendar	NA	purple_calendar	1	TRUE	FALSE	TRUE	FALSE	TRUE	NA	purple	calendar	0	1	1	calendar
+CkeeDJQs3b24kcEJ5	English	feedback	scene1	NA	NA	NA	NA	1	44	purple padlock	purple padlock	NA	purple_lock	1	TRUE	FALSE	TRUE	FALSE	TRUE	NA	purple	lock	0	1	1	lock
+CkeeDJQs3b24kcEJ5	English	feedback	scene4	NA	NA	NA	NA	1	45	blue fence	blue fence	NA	blue_fence	1	TRUE	FALSE	TRUE	FALSE	FALSE	NA	blue	fence	0	1	1	fence
+CkeeDJQs3b24kcEJ5	English	feedback	scene1	NA	NA	NA	NA	1	47	red belt	red belt	NA	red_belt	1	TRUE	FALSE	TRUE	FALSE	FALSE	NA	red	belt	0	1	1	belt
+CkeeDJQs3b24kcEJ5	English	feedback	scene4	NA	NA	NA	NA	1	48	purple sock	purple sock	NA	purple_sock	1	TRUE	FALSE	TRUE	FALSE	FALSE	NA	purple	sock	0	1	1	sock
+CkeeDJQs3b24kcEJ5	English	feedback	scene1	NA	NA	NA	NA	1	49	green fork	green fork	NA	green_fork	1	TRUE	FALSE	TRUE	FALSE	FALSE	NA	green	fork	0	1	1	fork
+CkeeDJQs3b24kcEJ5	English	feedback	scene2	NA	NA	NA	NA	1	50	crown	crown	NA	blue_crown	1	FALSE	FALSE	TRUE	FALSE	FALSE	NA	blue	crown	0	1	0	crown
+CkeeDJQs3b24kcEJ5	English	feedback	scene3	NA	NA	NA	NA	1	51	wallet	wallet	NA	red_wallet	1	FALSE	FALSE	TRUE	FALSE	TRUE	NA	red	wallet	0	1	0	wallet
+CkeeDJQs3b24kcEJ5	English	feedback	scene1	NA	NA	NA	NA	1	52	white candle	white candle	NA	white_candle	1	TRUE	FALSE	TRUE	FALSE	TRUE	NA	white	candle	0	1	1	candle
+CkeeDJQs3b24kcEJ5	English	feedback	scene3	NA	NA	NA	NA	1	54	necklace	necklace	NA	green_necklace	1	FALSE	FALSE	TRUE	FALSE	TRUE	NA	green	necklace	0	1	0	necklace
+CkeeDJQs3b24kcEJ5	English	feedback	scene4	NA	NA	NA	NA	1	55	blue butterfly	blue butterfly	NA	blue_butterfly	1	TRUE	FALSE	TRUE	FALSE	FALSE	NA	blue	butterfly	0	1	1	butterfly
+CkeeDJQs3b24kcEJ5	English	feedback	scene3	NA	NA	NA	NA	1	56	microscope	microscope	NA	green_microscope	1	FALSE	FALSE	TRUE	FALSE	FALSE	NA	green	microscope	0	1	0	microscope
+CkeeDJQs3b24kcEJ5	English	feedback	scene4	NA	NA	NA	NA	1	57	white iron	white iron	NA	white_iron	1	TRUE	FALSE	TRUE	FALSE	FALSE	NA	white	iron	0	1	1	iron
+CkeeDJQs3b24kcEJ5	English	feedback	scene4	NA	NA	NA	NA	1	58	black bowl	black bowl	NA	black_bowl	1	TRUE	FALSE	TRUE	FALSE	TRUE	NA	black	bowl	0	1	1	bowl
+CkeeDJQs3b24kcEJ5	English	feedback	scene2	NA	NA	NA	NA	1	59	cushion	cushion	NA	red_cushion	1	FALSE	FALSE	TRUE	FALSE	FALSE	NA	red	cushion	0	1	0	cushion
+CkeeDJQs3b24kcEJ5	English	feedback	scene4	NA	NA	NA	NA	1	60	yellow balloon	yellow balloon	NA	yellow_balloon	1	TRUE	FALSE	TRUE	FALSE	TRUE	NA	yellow	balloon	0	1	1	balloon
+CkeeDJQs3b24kcEJ5	English	feedback	scene1	NA	NA	NA	NA	1	61	yellow book	yellow book	NA	yellow_book	1	TRUE	FALSE	TRUE	FALSE	FALSE	NA	yellow	book	0	1	1	book
+CkeeDJQs3b24kcEJ5	English	feedback	scene3	NA	NA	NA	NA	1	62	binoculars	binoculars	NA	purple_binoculars	1	FALSE	FALSE	TRUE	FALSE	TRUE	NA	purple	binoculars	0	1	0	binoculars
+CkeeDJQs3b24kcEJ5	English	feedback	scene4	NA	NA	NA	NA	1	63	blue chair	blue chair	NA	blue_chair	1	TRUE	FALSE	TRUE	FALSE	TRUE	NA	blue	chair	0	1	1	chair
+CkeeDJQs3b24kcEJ5	English	feedback	scene1	NA	NA	NA	NA	1	64	purple tie	purple tie	NA	purple_tie	1	TRUE	FALSE	TRUE	FALSE	FALSE	NA	purple	tie	0	1	1	tie
+CkeeDJQs3b24kcEJ5	English	feedback	scene1	NA	NA	NA	NA	1	65	blue pencil	blue pencil	NA	blue_pencil	1	TRUE	FALSE	TRUE	FALSE	FALSE	NA	blue	pencil	0	1	1	pencil
+CkeeDJQs3b24kcEJ5	English	feedback	scene3	NA	NA	NA	NA	1	66	mask	mask	NA	yellow_mask	1	FALSE	FALSE	TRUE	FALSE	TRUE	NA	yellow	mask	0	1	0	mask
+CkeeDJQs3b24kcEJ5	English	feedback	scene3	NA	NA	NA	NA	1	68	slipper	slipper	NA	green_slipper	1	FALSE	FALSE	TRUE	FALSE	FALSE	NA	green	slipper	0	1	0	slipper
+CkeeDJQs3b24kcEJ5	English	feedback	scene1	NA	NA	NA	NA	1	69	green glove	green glove	NA	green_glove	1	TRUE	FALSE	TRUE	FALSE	FALSE	NA	green	glove	0	1	1	glove
+CkeeDJQs3b24kcEJ5	English	feedback	scene3	NA	NA	NA	NA	1	70	bow	bow	NA	black_ribbon	1	FALSE	FALSE	TRUE	FALSE	FALSE	NA	black	ribbon	0	1	0	ribbon
+CkeeDJQs3b24kcEJ5	English	feedback	scene1	NA	NA	NA	NA	1	71	purple screwdriver	purple screwdriver	NA	purple_screwdriver	1	TRUE	FALSE	TRUE	FALSE	FALSE	NA	purple	screwdriver	0	1	1	screwdriver
+4WNZ8SEiTnr6nRgtP	English	feedback	scene3	NA	NA	NA	NA	1	1	red with a string attached	red with a string attached	NA	red_balloon	1	TRUE	FALSE	FALSE	FALSE	TRUE	NA	red	balloon	0	0	1	balloon
+4WNZ8SEiTnr6nRgtP	English	feedback	scene2	NA	NA	NA	NA	1	2	has blades on top	has blades on top	NA	orange_helicopter	1	FALSE	FALSE	FALSE	FALSE	TRUE	NA	orange	helicopter	0	0	0	helicopter
+4WNZ8SEiTnr6nRgtP	English	feedback	scene3	NA	NA	NA	NA	1	4	you can look through it	you can look through it	NA	purple_binoculars	1	FALSE	FALSE	FALSE	FALSE	TRUE	NA	purple	binoculars	0	0	0	binoculars
+4WNZ8SEiTnr6nRgtP	English	feedback	scene1	NA	NA	NA	NA	1	5	sunshine colour in the garden	sunshine colour in the garden	NA	yellow_fence	1	FALSE	FALSE	FALSE	FALSE	TRUE	NA	yellow	fence	0	0	0	fence
+4WNZ8SEiTnr6nRgtP	English	feedback	scene3	NA	NA	NA	NA	1	6	it makes a loud noise if you bang it	it makes a loud noise if you bang it	i don't think you need to give me hints, you can just say what it is.	green_drum	1	FALSE	FALSE	FALSE	FALSE	TRUE	NA	green	drum	0	0	0	drum
+4WNZ8SEiTnr6nRgtP	English	feedback	scene4	NA	NA	NA	NA	1	9	blue pencil	blue pencil	NA	blue_pencil	1	TRUE	FALSE	TRUE	FALSE	FALSE	NA	blue	pencil	0	1	1	pencil
+4WNZ8SEiTnr6nRgtP	English	feedback	scene4	NA	NA	NA	NA	1	10	green necklace	green necklace	NA	green_necklace	1	TRUE	FALSE	TRUE	FALSE	TRUE	NA	green	necklace	0	1	1	necklace
+4WNZ8SEiTnr6nRgtP	English	feedback	scene4	NA	NA	NA	NA	1	11	black slipper	black slipper	NA	black_slipper	1	TRUE	FALSE	TRUE	FALSE	TRUE	NA	black	slipper	0	1	1	slipper
+4WNZ8SEiTnr6nRgtP	English	feedback	scene3	NA	NA	NA	NA	1	12	microscope	microscope	NA	black_microscope	1	FALSE	FALSE	TRUE	FALSE	FALSE	NA	black	microscope	0	1	0	microscope
+4WNZ8SEiTnr6nRgtP	English	feedback	scene1	NA	NA	NA	NA	1	14	red iron	red iron	NA	red_iron	1	TRUE	FALSE	TRUE	FALSE	FALSE	NA	red	iron	0	1	1	iron
+4WNZ8SEiTnr6nRgtP	English	feedback	scene1	NA	NA	NA	NA	1	16	orange basket	orange basket	NA	orange_basket	1	TRUE	FALSE	TRUE	FALSE	TRUE	NA	orange	basket	0	1	1	basket
+4WNZ8SEiTnr6nRgtP	English	feedback	scene4	NA	NA	NA	NA	1	17	white book	white book	NA	white_book	1	TRUE	FALSE	TRUE	FALSE	FALSE	NA	white	book	0	1	1	book
+4WNZ8SEiTnr6nRgtP	English	feedback	scene2	NA	NA	NA	NA	1	18	electric guitar	electric guitar	NA	red_guitar	1	FALSE	FALSE	TRUE	FALSE	TRUE	NA	red	guitar	0	1	0	guitar
+4WNZ8SEiTnr6nRgtP	English	feedback	scene4	NA	NA	NA	NA	1	19	blue flower	blue flower	NA	blue_flower	1	TRUE	FALSE	TRUE	FALSE	FALSE	NA	blue	flower	0	1	1	flower
+4WNZ8SEiTnr6nRgtP	English	feedback	scene1	NA	NA	NA	NA	1	20	black lock	black lock	NA	black_lock	1	TRUE	FALSE	TRUE	FALSE	TRUE	NA	black	lock	0	1	1	lock
+4WNZ8SEiTnr6nRgtP	English	feedback	scene4	NA	NA	NA	NA	1	22	green hammer	green hammer	NA	green_hammer	1	TRUE	FALSE	TRUE	FALSE	TRUE	NA	green	hammer	0	1	1	hammer
+4WNZ8SEiTnr6nRgtP	English	feedback	scene2	NA	NA	NA	NA	1	24	red mug	red mug	NA	red_mug	1	TRUE	FALSE	TRUE	FALSE	FALSE	NA	red	mug	0	1	1	mug
+4WNZ8SEiTnr6nRgtP	English	feedback	scene4	NA	NA	NA	NA	1	25	purple calender page	purple calender page	NA	purple_calendar	1	TRUE	FALSE	TRUE	FALSE	TRUE	NA	purple	calendar	0	1	1	calendar
+4WNZ8SEiTnr6nRgtP	English	feedback	scene1	NA	NA	NA	NA	1	26	orange suitcase	orange suitcase	NA	orange_luggage	1	TRUE	FALSE	TRUE	FALSE	TRUE	NA	orange	luggage	0	1	1	luggage
+4WNZ8SEiTnr6nRgtP	English	feedback	scene2	NA	NA	NA	NA	1	27	green fork	green fork	NA	green_fork	1	TRUE	FALSE	TRUE	FALSE	FALSE	NA	green	fork	0	1	1	fork
+4WNZ8SEiTnr6nRgtP	English	feedback	scene2	NA	NA	NA	NA	1	28	purple knife	purple knife	NA	purple_knife	1	TRUE	FALSE	TRUE	FALSE	FALSE	NA	purple	knife	0	1	1	knife
+4WNZ8SEiTnr6nRgtP	English	feedback	scene1	NA	NA	NA	NA	1	29	brown screw driver	brown screw driver	NA	orange_screwdriver	1	TRUE	FALSE	TRUE	FALSE	FALSE	NA	orange	screwdriver	0	1	1	screwdriver
+4WNZ8SEiTnr6nRgtP	English	feedback	scene4	NA	NA	NA	NA	1	30	white candle	white candle	NA	white_candle	1	TRUE	FALSE	TRUE	FALSE	TRUE	NA	white	candle	0	1	1	candle
+4WNZ8SEiTnr6nRgtP	English	feedback	scene2	NA	NA	NA	NA	1	31	robot	robot	NA	green_robot	1	FALSE	FALSE	TRUE	FALSE	FALSE	NA	green	robot	0	1	0	robot
+4WNZ8SEiTnr6nRgtP	English	feedback	scene1	NA	NA	NA	NA	1	32	black dice	black dice	NA	black_die	1	TRUE	FALSE	TRUE	FALSE	TRUE	NA	black	die	0	1	1	die
+4WNZ8SEiTnr6nRgtP	English	feedback	scene2	NA	NA	NA	NA	1	33	glove	glove	NA	black_glove	1	FALSE	FALSE	TRUE	FALSE	FALSE	NA	black	glove	0	1	0	glove
+4WNZ8SEiTnr6nRgtP	English	feedback	scene3	NA	NA	NA	NA	1	37	door	door	NA	white_door	1	FALSE	FALSE	TRUE	FALSE	FALSE	NA	white	door	0	1	0	door
+4WNZ8SEiTnr6nRgtP	English	feedback	scene1	NA	NA	NA	NA	1	38	red ring	red ring	NA	red_ring	1	TRUE	FALSE	TRUE	FALSE	FALSE	NA	red	ring	0	1	1	ring
+4WNZ8SEiTnr6nRgtP	English	feedback	scene3	NA	NA	NA	NA	1	40	butterfly	butterfly	NA	white_butterfly	1	FALSE	FALSE	TRUE	FALSE	FALSE	NA	white	butterfly	0	1	0	butterfly
+4WNZ8SEiTnr6nRgtP	English	feedback	scene4	NA	NA	NA	NA	1	41	white bed	white bed	NA	white_bed	1	TRUE	FALSE	TRUE	FALSE	FALSE	NA	white	bed	0	1	1	bed
+4WNZ8SEiTnr6nRgtP	English	feedback	scene3	NA	NA	NA	NA	1	43	phone	phone	NA	red_phone	1	FALSE	FALSE	TRUE	TRUE	FALSE	NA	red	phone	0	1	0	phone
+4WNZ8SEiTnr6nRgtP	English	feedback	scene3	NA	NA	NA	NA	1	44	shell	shell	NA	green_shell	1	FALSE	FALSE	TRUE	FALSE	FALSE	NA	green	shell	0	1	0	shell
+4WNZ8SEiTnr6nRgtP	English	feedback	scene2	NA	NA	NA	NA	1	45	belt	belt	NA	yellow_belt	1	FALSE	FALSE	TRUE	FALSE	FALSE	NA	yellow	belt	0	1	0	belt
+4WNZ8SEiTnr6nRgtP	English	feedback	scene3	NA	NA	NA	NA	1	48	crown	crown	NA	white_crown	1	FALSE	FALSE	TRUE	FALSE	FALSE	NA	white	crown	0	1	0	crown
+4WNZ8SEiTnr6nRgtP	English	feedback	scene4	NA	NA	NA	NA	1	51	green truck	green truck	NA	green_truck	1	TRUE	FALSE	TRUE	FALSE	FALSE	NA	green	truck	0	1	1	truck
+4WNZ8SEiTnr6nRgtP	English	feedback	scene1	NA	NA	NA	NA	1	53	white chair	white chair	NA	white_chair	1	TRUE	FALSE	TRUE	FALSE	TRUE	NA	white	chair	0	1	1	chair
+4WNZ8SEiTnr6nRgtP	English	feedback	scene1	NA	NA	NA	NA	1	54	red comb	red comb	NA	red_comb	1	TRUE	FALSE	TRUE	FALSE	FALSE	NA	red	comb	0	1	1	comb
+4WNZ8SEiTnr6nRgtP	English	feedback	scene1	NA	NA	NA	NA	1	55	yellow cushion	yellow cushion	NA	yellow_cushion	1	TRUE	FALSE	TRUE	FALSE	FALSE	NA	yellow	cushion	0	1	1	cushion
+4WNZ8SEiTnr6nRgtP	English	feedback	scene2	NA	NA	NA	NA	1	56	tie	tie	NA	green_tie	1	FALSE	FALSE	TRUE	FALSE	FALSE	NA	green	tie	0	1	0	tie
+4WNZ8SEiTnr6nRgtP	English	feedback	scene3	NA	NA	NA	NA	1	58	bowl	bowl	NA	green_bowl	1	FALSE	FALSE	TRUE	FALSE	FALSE	NA	green	bowl	0	1	0	bowl
+4WNZ8SEiTnr6nRgtP	English	feedback	scene3	NA	NA	NA	NA	1	61	sock	sock	NA	purple_sock	1	FALSE	FALSE	TRUE	FALSE	FALSE	NA	purple	sock	0	1	0	sock
+4WNZ8SEiTnr6nRgtP	English	feedback	scene2	NA	NA	NA	NA	1	63	mask	mask	NA	white_mask	1	FALSE	FALSE	TRUE	FALSE	TRUE	NA	white	mask	0	1	0	mask
+4WNZ8SEiTnr6nRgtP	English	feedback	scene4	NA	NA	NA	NA	1	65	purple bow	purple bow	NA	purple_ribbon	1	TRUE	FALSE	TRUE	FALSE	FALSE	NA	purple	ribbon	0	1	1	ribbon
+4WNZ8SEiTnr6nRgtP	English	feedback	scene1	NA	NA	NA	NA	1	67	purple fish	purple fish	NA	purple_fish	1	TRUE	FALSE	TRUE	FALSE	FALSE	NA	purple	fish	0	1	1	fish
+4WNZ8SEiTnr6nRgtP	English	feedback	scene2	NA	NA	NA	NA	1	68	scarf	scarf	NA	red_scarf	1	FALSE	FALSE	TRUE	FALSE	TRUE	NA	red	scarf	0	1	0	scarf
+4WNZ8SEiTnr6nRgtP	English	feedback	scene3	NA	NA	NA	NA	1	69	dress	dress	NA	red_dress	1	FALSE	FALSE	TRUE	FALSE	FALSE	NA	red	dress	0	1	0	dress
+4WNZ8SEiTnr6nRgtP	English	feedback	scene4	NA	NA	NA	NA	1	70	blue wallet	blue wallet	NA	blue_wallet	1	TRUE	FALSE	TRUE	FALSE	TRUE	NA	blue	wallet	0	1	1	wallet
+4WNZ8SEiTnr6nRgtP	English	feedback	scene2	NA	NA	NA	NA	1	71	calculator	calculator	NA	yellow_calculator	1	FALSE	FALSE	TRUE	FALSE	TRUE	NA	yellow	calculator	0	1	0	calculator
+mED7QQZxAY5vxevq5	English	feedback	scene2	NA	NA	NA	NA	1	1	red rectangle with numbers	red rectangle with numbers	NA	red_calculator	1	TRUE	FALSE	FALSE	FALSE	TRUE	NA	red	calculator	0	0	1	calculator
+mED7QQZxAY5vxevq5	English	feedback	scene2	NA	NA	NA	NA	1	2	orange with eyes	orange with eyes	NA	orange_robot	1	TRUE	FALSE	FALSE	FALSE	TRUE	NA	orange	robot	0	0	1	robot
+mED7QQZxAY5vxevq5	English	feedback	scene2	NA	NA	NA	NA	1	4	green and very sharp	green and very sharp	NA	green_knife	1	TRUE	FALSE	FALSE	FALSE	TRUE	NA	green	knife	0	0	1	knife
+mED7QQZxAY5vxevq5	English	feedback	scene1	NA	NA	NA	NA	1	6	purple and warm, wear on feet	purple and warm, wear on feet	NA	purple_sock	1	TRUE	FALSE	FALSE	FALSE	TRUE	NA	purple	sock	0	0	1	sock
+mED7QQZxAY5vxevq5	English	feedback	scene2	NA	NA	NA	NA	1	7	blue and long wear on waist	blue and long wear on waist	NA	blue_belt	1	TRUE	FALSE	FALSE	FALSE	TRUE	NA	blue	belt	0	0	1	belt
+mED7QQZxAY5vxevq5	English	feedback	scene2	NA	NA	NA	NA	1	8	orange and can fly in the sky	orange and can fly in the sky	NA	orange_helicopter	1	TRUE	FALSE	FALSE	FALSE	TRUE	NA	orange	helicopter	0	0	1	helicopter
+mED7QQZxAY5vxevq5	English	feedback	scene2	NA	NA	NA	NA	1	9	blue and can play music	blue and can play music	NA	blue_guitar	1	TRUE	FALSE	FALSE	FALSE	TRUE	NA	blue	guitar	0	0	1	guitar
+mED7QQZxAY5vxevq5	English	feedback	scene4	NA	NA	NA	NA	1	11	red and can write with it	red and can write with it	NA	red_pencil	1	TRUE	FALSE	FALSE	FALSE	TRUE	NA	red	pencil	0	0	1	pencil
+mED7QQZxAY5vxevq5	English	feedback	scene4	NA	NA	NA	NA	1	12	white and can be used to light up a room	white and can be used to light up a room	NA	white_candle	1	TRUE	FALSE	FALSE	FALSE	TRUE	NA	white	candle	0	0	1	candle
+mED7QQZxAY5vxevq5	English	feedback	scene2	NA	NA	NA	NA	1	14	yellow and wear over mouth	yellow and wear over mouth	NA	yellow_mask	1	TRUE	FALSE	FALSE	FALSE	TRUE	NA	yellow	mask	0	0	1	mask
+mED7QQZxAY5vxevq5	English	feedback	scene1	NA	NA	NA	NA	1	15	white and squishy, used to sit down	white and squishy, used to sit down	NA	white_cushion	1	TRUE	FALSE	FALSE	FALSE	TRUE	NA	white	cushion	0	0	1	cushion
+mED7QQZxAY5vxevq5	English	feedback	scene1	NA	NA	NA	NA	1	16	green and used to lock things inside	green and used to lock things inside	NA	green_lock	1	TRUE	FALSE	TRUE	FALSE	TRUE	NA	green	lock	0	1	1	lock
+mED7QQZxAY5vxevq5	English	feedback	scene2	NA	NA	NA	NA	1	18	orange slipper	orange slipper	NA	orange_slipper	1	TRUE	FALSE	TRUE	FALSE	TRUE	NA	orange	slipper	0	1	1	slipper
+mED7QQZxAY5vxevq5	English	feedback	scene3	NA	NA	NA	NA	1	20	butterfly	butterfly	NA	blue_butterfly	1	FALSE	FALSE	TRUE	FALSE	FALSE	NA	blue	butterfly	0	1	0	butterfly
+mED7QQZxAY5vxevq5	English	feedback	scene1	NA	NA	NA	NA	1	25	red chair	red chair	NA	red_chair	1	TRUE	FALSE	TRUE	FALSE	TRUE	NA	red	chair	0	1	1	chair
+mED7QQZxAY5vxevq5	English	feedback	scene2	NA	NA	NA	NA	1	28	yellow cup	yellow cup	NA	yellow_mug	1	TRUE	FALSE	TRUE	FALSE	FALSE	NA	yellow	mug	0	1	1	mug
+mED7QQZxAY5vxevq5	English	feedback	scene3	NA	NA	NA	NA	1	29	green binoculars	green binoculars	NA	green_binoculars	1	TRUE	FALSE	TRUE	FALSE	TRUE	NA	green	binoculars	0	1	1	binoculars
+mED7QQZxAY5vxevq5	English	feedback	scene2	NA	NA	NA	NA	1	30	red scarf	red scarf	NA	red_scarf	1	TRUE	FALSE	TRUE	FALSE	TRUE	NA	red	scarf	0	1	1	scarf
+mED7QQZxAY5vxevq5	English	feedback	scene4	NA	NA	NA	NA	1	32	purple fork	purple fork	NA	purple_fork	1	TRUE	FALSE	TRUE	FALSE	FALSE	NA	purple	fork	0	1	1	fork
+mED7QQZxAY5vxevq5	English	feedback	scene4	NA	NA	NA	NA	1	33	red bed	red bed	NA	red_bed	1	TRUE	FALSE	TRUE	FALSE	FALSE	NA	red	bed	0	1	1	bed
+mED7QQZxAY5vxevq5	English	feedback	scene1	NA	NA	NA	NA	1	35	orange screwdriver	orange screwdriver	NA	orange_screwdriver	1	TRUE	FALSE	TRUE	FALSE	TRUE	NA	orange	screwdriver	0	1	1	screwdriver
+mED7QQZxAY5vxevq5	English	feedback	scene3	NA	NA	NA	NA	1	36	black fish	black fish	NA	black_fish	1	TRUE	FALSE	TRUE	FALSE	TRUE	NA	black	fish	0	1	1	fish
+mED7QQZxAY5vxevq5	English	feedback	scene2	NA	NA	NA	NA	1	37	black necklace	black necklace	NA	black_necklace	1	TRUE	FALSE	TRUE	FALSE	TRUE	NA	black	necklace	0	1	1	necklace
+mED7QQZxAY5vxevq5	English	feedback	scene4	NA	NA	NA	NA	1	38	orange lorry	orange lorry	NA	orange_truck	1	TRUE	FALSE	TRUE	FALSE	TRUE	NA	orange	truck	0	1	1	truck
+mED7QQZxAY5vxevq5	English	feedback	scene4	NA	NA	NA	NA	1	40	red flower	red flower	NA	red_flower	1	TRUE	FALSE	TRUE	FALSE	FALSE	NA	red	flower	0	1	1	flower
+mED7QQZxAY5vxevq5	English	feedback	scene1	NA	NA	NA	NA	1	41	blue comb	blue comb	NA	blue_comb	1	TRUE	FALSE	TRUE	FALSE	FALSE	NA	blue	comb	0	1	1	comb
+mED7QQZxAY5vxevq5	English	feedback	scene3	NA	NA	NA	NA	1	43	white crown	white crown	NA	white_crown	1	TRUE	FALSE	TRUE	FALSE	FALSE	NA	white	crown	0	1	1	crown
+mED7QQZxAY5vxevq5	English	feedback	scene3	NA	NA	NA	NA	1	44	blue telephone box	blue telephone box	NA	blue_phone	1	TRUE	FALSE	TRUE	TRUE	FALSE	NA	blue	phone	0	1	1	phone
+mED7QQZxAY5vxevq5	English	feedback	scene4	NA	NA	NA	NA	1	45	green tie	green tie	NA	green_tie	1	TRUE	FALSE	TRUE	FALSE	FALSE	NA	green	tie	0	1	1	tie
+mED7QQZxAY5vxevq5	English	feedback	scene3	NA	NA	NA	NA	1	46	purple microscope	purple microscope	NA	purple_microscope	1	TRUE	FALSE	TRUE	FALSE	FALSE	NA	purple	microscope	0	1	1	microscope
+mED7QQZxAY5vxevq5	English	feedback	scene3	NA	NA	NA	NA	1	47	purple drum	purple drum	NA	purple_drum	1	TRUE	FALSE	TRUE	FALSE	FALSE	NA	purple	drum	0	1	1	drum
+mED7QQZxAY5vxevq5	English	feedback	scene1	NA	NA	NA	NA	1	50	purple shell	purple shell	NA	purple_shell	1	TRUE	FALSE	TRUE	FALSE	FALSE	NA	purple	shell	0	1	1	shell
+mED7QQZxAY5vxevq5	English	feedback	scene3	NA	NA	NA	NA	1	51	yellow balloon	yellow balloon	NA	yellow_balloon	1	TRUE	FALSE	TRUE	FALSE	TRUE	NA	yellow	balloon	0	1	1	balloon
+mED7QQZxAY5vxevq5	English	feedback	scene1	NA	NA	NA	NA	1	52	black suitcase	black suitcase	NA	black_luggage	1	TRUE	FALSE	TRUE	FALSE	TRUE	NA	black	luggage	0	1	1	luggage
+mED7QQZxAY5vxevq5	English	feedback	scene3	NA	NA	NA	NA	1	53	red door	red door	NA	red_door	1	TRUE	FALSE	TRUE	FALSE	FALSE	NA	red	door	0	1	1	door
+mED7QQZxAY5vxevq5	English	feedback	scene3	NA	NA	NA	NA	1	55	black dice	black dice	NA	black_die	1	TRUE	FALSE	TRUE	FALSE	TRUE	NA	black	die	0	1	1	die
+mED7QQZxAY5vxevq5	English	feedback	scene1	NA	NA	NA	NA	1	57	blue ring	blue ring	NA	blue_ring	1	TRUE	FALSE	TRUE	FALSE	FALSE	NA	blue	ring	0	1	1	ring
+mED7QQZxAY5vxevq5	English	feedback	scene3	NA	NA	NA	NA	1	58	purple basket	purple basket	NA	purple_basket	1	TRUE	FALSE	TRUE	FALSE	TRUE	NA	purple	basket	0	1	1	basket
+mED7QQZxAY5vxevq5	English	feedback	scene1	NA	NA	NA	NA	1	59	blue iron	blue iron	NA	blue_iron	1	TRUE	FALSE	TRUE	FALSE	FALSE	NA	blue	iron	0	1	1	iron
+mED7QQZxAY5vxevq5	English	feedback	scene3	NA	NA	NA	NA	1	60	yellow dress	yellow dress	NA	yellow_dress	1	TRUE	FALSE	TRUE	FALSE	FALSE	NA	yellow	dress	0	1	1	dress
+mED7QQZxAY5vxevq5	English	feedback	scene4	NA	NA	NA	NA	1	61	red wallet	red wallet	NA	red_wallet	1	TRUE	FALSE	TRUE	FALSE	TRUE	NA	red	wallet	0	1	1	wallet
+mED7QQZxAY5vxevq5	English	feedback	scene4	NA	NA	NA	NA	1	62	white book	white book	NA	white_book	1	TRUE	FALSE	TRUE	FALSE	FALSE	NA	white	book	0	1	1	book
+mED7QQZxAY5vxevq5	English	feedback	scene4	NA	NA	NA	NA	1	65	orange hammer	orange hammer	NA	orange_hammer	1	TRUE	FALSE	TRUE	FALSE	TRUE	NA	orange	hammer	0	1	1	hammer
+mED7QQZxAY5vxevq5	English	feedback	scene2	NA	NA	NA	NA	1	66	orange bow	orange bow	NA	orange_ribbon	1	TRUE	FALSE	TRUE	FALSE	TRUE	NA	orange	ribbon	0	1	1	ribbon
+mED7QQZxAY5vxevq5	English	feedback	scene4	NA	NA	NA	NA	1	67	orange glove	orange glove	NA	orange_glove	1	TRUE	FALSE	TRUE	FALSE	TRUE	NA	orange	glove	0	1	1	glove
+mED7QQZxAY5vxevq5	English	feedback	scene4	NA	NA	NA	NA	1	69	green calendar	green calendar	NA	green_calendar	1	TRUE	FALSE	TRUE	FALSE	TRUE	NA	green	calendar	0	1	1	calendar
+mED7QQZxAY5vxevq5	English	feedback	scene1	NA	NA	NA	NA	1	71	black bowl	black bowl	NA	black_bowl	1	TRUE	FALSE	TRUE	FALSE	TRUE	NA	black	bowl	0	1	1	bowl
+mED7QQZxAY5vxevq5	English	feedback	scene1	NA	NA	NA	NA	1	72	yellow fence :)	yellow fence :)	NA	yellow_fence	1	TRUE	FALSE	TRUE	FALSE	FALSE	NA	yellow	fence	0	1	1	fence
