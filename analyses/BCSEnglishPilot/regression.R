@@ -12,10 +12,9 @@ source("../_shared/regressionHelpers.r")
 
 # READ DATA
 
-d = read_delim("../../data/BCSPilot/data_exp1.tsv", delim = "\t")
+d = read_delim("../../data/BCSEnglishPilot/data_exp1.tsv", delim = "\t")
 
 d <- d %>%
-  filter(condition %in% c("scenario1", "scenario2", "scenario3", "scenario4")) %>%
   select(gameId, language, condition, roundNumber, directorAllMessages, directorFirstMessage, guesserAllMessages,
          nameClickedObj, correct, colorMentioned, sizeMentioned, typeMentioned, oneMentioned, clickedColor, 
          clickedType, target)
@@ -29,9 +28,9 @@ d <- d %>%
 
 
 d <- d %>%
-  mutate(colorCondition = case_when(condition %in% c("scenario1", "scenario4") ~ "necessary",
+  mutate(colorCondition = case_when(condition %in% c("scene1", "scene4") ~ "necessary",
                                     TRUE ~ "redundant"),
-         genderCondition = case_when(condition %in% c("scenario1", "scenario2") ~ "match",
+         genderCondition = case_when(condition %in% c("scene1", "scene2") ~ "match",
                                      TRUE ~ "mismatch"),
          colorMentioned = case_when(colorMentioned == TRUE ~ 1,
                                     TRUE ~ 0),
@@ -106,6 +105,7 @@ ggsave(filename = "nounUse.pdf", plot = plotNoun,
 d$colorCondition <- factor(d$colorCondition)
 d$genderCondition <- factor(d$genderCondition)
 d$target <- factor(unlist(d$target))
+d$gameId <- factor(d$gameId)
 
 # # Relevel the variables
 d <- d %>% mutate(colorCondition = fct_relevel(colorCondition, "redundant"))
@@ -122,3 +122,39 @@ BCSNounModel <- glmer(nounMentioned ~ colorCondition*genderCondition + (1 + colo
 # Model outputs
 summary(BCSColorModel)
 summary(BCSNounModel)
+
+
+# intercept --> overall baseline differences in color use
+# slope --> how sensitive people are to particular fixed effect
+## color condition --> more sensitive to color condition 
+# there can be an overall effect of color condition, but some people won't show it!
+
+#colorUse = color mention in a single trial {1,0}
+# 
+#colorCondition = {necessary, redundant}
+# FACTOR the variable
+#
+# RELEVEL
+# color necessity reference level: "redundant"; gender match reference level: "match"
+# d (the dataframe)
+# d <- d %>% mutate(colorCondition = fct_relevel(colorCondition, "redundant"))
+# this makes redundant level the 0 level
+#
+# CENTER
+# underlyingly:
+# --> necessary = 0
+# --> redundant = 1
+# scale() or by hand --> 
+# dataFrame$colorCondition = dataFrame$colorCondition - (dataFrame$mean(colorCondition))
+# moves 0 point between two levels of the variable
+#
+# significant effect of colorCondition --> effect is just for 0 level of other variable (genderCondition) i.e. match Condition
+#then we don't have the effect for mismatch condition
+# same true vice versa
+#
+#
+# centering --> allows for interpretation of both levels as 
+# -.05 = level 1; .05 = level 2 
+# this is scaled by number of cases per level 
+
+#genderCondition = {match, mismatch}
