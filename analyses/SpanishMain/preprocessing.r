@@ -81,12 +81,24 @@ d_preManualTypoCorrection <- automaticAnnotate(d, colorTerms, sizeTerms, nouns, 
 write_delim(data.frame(d_preManualTypoCorrection %>%
                          select(-target, -images, -listenerImages, -speakerImages,
                                 -chat)), 
-            "../../data/ArabicMain/preManualTypoCorrection.tsv", delim="\t")
+            "../../data/SpanishMain/preManualTypoCorrection.tsv", delim="\t")
 
 # Step 9: Read manually corrected dataset for further preprocessing
 # Make sure file being read in is *post* manual correction ('pre' just for testing)
-d <- read_delim("../../data/ArabicMain/preManualTypoCorrection.tsv", delim = "\t") %>%
+d <- read_delim("../../data/SpanishMain/postManualTypoCorrection.tsv", delim = "\t") %>%
   filter(grepl("color|size", condition)) %>%
+  filter(!(grepl("ENGLISH", words))) %>%
+  # Get accurate 'legacy' annotation columns (e.g. colorMentioned) by back-transforming from the annotation column ('words')
+  mutate(colorMentioned = case_when(grepl("C",words) ~ TRUE,
+                                    TRUE ~ FALSE),
+         sizeMentioned = case_when(grepl("S",words) ~ TRUE,
+                                    TRUE ~ FALSE),
+         typeMentioned = case_when(grepl("N",words) ~ TRUE,
+                                   TRUE ~ FALSE),
+         oneMentioned = case_when(grepl("B",words) ~ TRUE,
+                                   TRUE ~ FALSE),
+         theMentioned = case_when(grepl("A",words) ~ TRUE,
+                                  TRUE ~ FALSE)) %>%
   mutate(clickedFeatures = strsplit(nameClickedObj, "_"),
          clickedColor = map(clickedFeatures, pluck, 2),
          clickedSize = map(clickedFeatures, pluck, 1),

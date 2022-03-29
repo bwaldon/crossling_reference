@@ -1,227 +1,823 @@
 gameid	Trial	TargetItem	UtteranceType	redUtterance	SufficientProperty	RedundantProperty	NumDistractors	NumSameDistractors	SceneVariation	speakerMessages	listenerMessages	refExp	minimal	redundant	clickedType	clickedSize	clickedColor	colorMentioned	sizeMentioned	typeMentioned	oneMentioned	theMentioned
-v2J2BjboP65oSJMoy	2	small_orange_billiardball	size	minimal	size	color redundant	2	2	0	mas pequeño or smaller	NA	mas pequeño or smaller	1	0	billiardball	small	orange	FALSE	TRUE	FALSE	TRUE	FALSE
-v2J2BjboP65oSJMoy	3	big_grey_rock	size	minimal	size	color redundant	4	4	0	bigger or mas grande	NA	bigger or mas grande	1	0	rock	big	grey	FALSE	TRUE	FALSE	TRUE	FALSE
-v2J2BjboP65oSJMoy	5	small_brown_belt	color	minimal	color	size redundant	2	1	0.5	light brown o cafe claro	NA	light brown o cafe claro	1	0	belt	small	brown	TRUE	FALSE	FALSE	TRUE	TRUE
-v2J2BjboP65oSJMoy	7	big_blue_scarf	color	minimal	color	size redundant	4	2	0.5	blue o azul	NA	blue o azul	1	0	scarf	big	blue	TRUE	FALSE	FALSE	TRUE	FALSE
-v2J2BjboP65oSJMoy	9	big_red_toothbrush	color	minimal	color	size redundant	4	2	0.5	red o rojo	NA	red o rojo	1	0	toothbrush	big	red	TRUE	FALSE	FALSE	TRUE	FALSE
-v2J2BjboP65oSJMoy	10	small_white_phone	color	minimal	color	size redundant	2	1	0.5	white o blanco	NA	white o blanco	1	0	phone	small	white	TRUE	FALSE	FALSE	TRUE	TRUE
-v2J2BjboP65oSJMoy	14	small_purple_hairdryer	color	minimal	color	size redundant	3	2	0.3333333333333333	purple o morado	NA	purple o morado	1	0	hairdryer	small	purple	TRUE	FALSE	FALSE	TRUE	FALSE
-v2J2BjboP65oSJMoy	15	big_pink_teacup	size	minimal	size	color redundant	4	3	0.25	bigger or mas grande	NA	bigger or mas grande	1	0	teacup	big	pink	FALSE	TRUE	FALSE	TRUE	FALSE
-TXdqz7vwbJSeKpJHS	6	small_purple_billiardball	color	minimal	color	size redundant	4	4	0	color morado	NA	color morado	1	0	billiardball	small	purple	TRUE	FALSE	FALSE	TRUE	FALSE
-TXdqz7vwbJSeKpJHS	9	big_red_yarn	size	minimal	size	color redundant	3	3	0	el mas grande	NA	el mas grande	1	0	yarn	big	red	FALSE	TRUE	FALSE	TRUE	TRUE
-TXdqz7vwbJSeKpJHS	11	big_green_binder	size and color	redundant	size	color redundant	4	2	0.5	el verde mas grande	NA	el verde mas grande	0	1	binder	big	green	TRUE	TRUE	FALSE	TRUE	TRUE
-TXdqz7vwbJSeKpJHS	12	small_black_book	size and color	redundant	size	color redundant	4	2	0.5	el negro mas pequeño	NA	el negro mas pequeño	0	1	book	small	black	TRUE	TRUE	FALSE	TRUE	TRUE
-TXdqz7vwbJSeKpJHS	18	big_grey_rock	size	minimal	size	color redundant	3	1	0.6666666666666666	el mas grande	NA	el mas grande	1	0	rock	big	grey	FALSE	TRUE	FALSE	TRUE	TRUE
-TXdqz7vwbJSeKpJHS	20	small_white_phone	size	minimal	size	color redundant	3	2	0.3333333333333333	el mas pequeño	NA	el mas pequeño	1	0	phone	small	white	FALSE	TRUE	FALSE	TRUE	TRUE
-TXdqz7vwbJSeKpJHS	23	big_green_bracelet	size	minimal	size	color redundant	4	4	0	el mas grande	NA	el mas grande	1	0	bracelet	big	green	FALSE	TRUE	FALSE	TRUE	TRUE
-TXdqz7vwbJSeKpJHS	26	big_red_stapler	size	minimal	size	color redundant	4	4	0	el mas grande	NA	el mas grande	1	0	stapler	big	red	FALSE	TRUE	FALSE	TRUE	TRUE
-TXdqz7vwbJSeKpJHS	28	small_green_jacket	size and color	redundant	size	color redundant	3	2	0.3333333333333333	el mas pequeño, verde	NA	el mas pequeño, verde	0	1	jacket	small	green	TRUE	TRUE	FALSE	TRUE	TRUE
-TXdqz7vwbJSeKpJHS	31	small_red_bellpepper	color	minimal	color	size redundant	2	2	0	rojo	NA	rojo	1	0	bellpepper	small	red	TRUE	FALSE	FALSE	TRUE	FALSE
-TXdqz7vwbJSeKpJHS	32	small_yellow_balloon	color	minimal	color	size redundant	2	2	0	amarillo	NA	amarillo	1	0	balloon	small	yellow	TRUE	FALSE	FALSE	TRUE	FALSE
-TXdqz7vwbJSeKpJHS	37	small_white_weddingcake	color	minimal	color	size redundant	4	2	0.5	blanco	NA	blanco	1	0	weddingcake	small	white	TRUE	FALSE	FALSE	TRUE	TRUE
-TXdqz7vwbJSeKpJHS	43	big_red_chair	size	minimal	size	color redundant	2	1	0.5	el mas grande	NA	el mas grande	1	0	chair	big	red	FALSE	TRUE	FALSE	TRUE	TRUE
-TXdqz7vwbJSeKpJHS	45	big_orange_coathanger	color	minimal	color	size redundant	3	2	0.3333333333333333	naranja	NA	naranja	1	0	coathanger	big	orange	TRUE	FALSE	FALSE	TRUE	FALSE
-TXdqz7vwbJSeKpJHS	47	small_purple_bike	color	minimal	color	size redundant	4	3	0.25	morada	NA	morada	1	0	bike	small	purple	TRUE	FALSE	FALSE	TRUE	FALSE
-TXdqz7vwbJSeKpJHS	48	big_blue_candle	size and color	redundant	size	color redundant	4	3	0.25	azul, la mas grande	NA	azul, la mas grande	0	1	candle	big	blue	TRUE	TRUE	FALSE	TRUE	TRUE
-TXdqz7vwbJSeKpJHS	52	small_blue_guitar	size	minimal	size	color redundant	2	2	0	la mas pequeña	NA	la mas pequeña	1	0	guitar	small	blue	FALSE	TRUE	FALSE	TRUE	TRUE
-TXdqz7vwbJSeKpJHS	53	big_blue_butterfly	size and color	redundant	size	color redundant	4	1	0.75	la mas grande, azul	NA	la mas grande, azul	0	1	butterfly	big	blue	TRUE	TRUE	FALSE	TRUE	TRUE
-TXdqz7vwbJSeKpJHS	54	small_white_shoe	size	minimal	size	color redundant	2	2	0	el mas pequeño	NA	el mas pequeño	1	0	shoe	small	white	FALSE	TRUE	FALSE	TRUE	TRUE
-TXdqz7vwbJSeKpJHS	55	big_blue_cushion	size	minimal	size	color redundant	3	3	0	el mas grande	NA	el mas grande	1	0	cushion	big	blue	FALSE	TRUE	FALSE	TRUE	TRUE
-TXdqz7vwbJSeKpJHS	57	big_purple_rug	size and color	redundant	color	size redundant	3	1	0.6666666666666666	morado, la mas grande	NA	morado, la mas grande	0	1	rug	big	purple	TRUE	TRUE	FALSE	TRUE	TRUE
-TXdqz7vwbJSeKpJHS	59	big_blue_tack	color	minimal	color	size redundant	2	1	0.5	azul	NA	azul	1	0	tack	big	blue	TRUE	FALSE	FALSE	TRUE	FALSE
-TXdqz7vwbJSeKpJHS	61	big_red_flower	color	minimal	color	size redundant	4	4	0	roja	NA	roja	1	0	flower	big	red	TRUE	FALSE	FALSE	TRUE	FALSE
-TXdqz7vwbJSeKpJHS	62	big_green_framee	color	minimal	color	size redundant	3	2	0.3333333333333333	verde	NA	verde	1	0	framee	big	green	TRUE	FALSE	FALSE	TRUE	FALSE
-TXdqz7vwbJSeKpJHS	63	small_blue_cap	size and color	redundant	size	color redundant	3	1	0.6666666666666666	pequeño, azul	NA	pequeño, azul	0	1	cap	small	blue	TRUE	TRUE	FALSE	TRUE	FALSE
-TXdqz7vwbJSeKpJHS	65	big_white_pingpongball	color	minimal	color	size redundant	4	2	0.5	blanco	NA	blanco	1	0	pingpongball	big	white	TRUE	FALSE	FALSE	TRUE	TRUE
-TXdqz7vwbJSeKpJHS	68	small_brown_turtle	size	minimal	size	color redundant	2	1	0.5	la mas pequeña	NA	la mas pequeña	1	0	turtle	small	brown	FALSE	TRUE	FALSE	TRUE	TRUE
-TXdqz7vwbJSeKpJHS	69	big_red_pepper	size and color	redundant	size	color redundant	4	3	0.25	rojo, el mas grande	NA	rojo, el mas grande	0	1	pepper	big	red	TRUE	TRUE	FALSE	TRUE	TRUE
-TXdqz7vwbJSeKpJHS	70	big_pink_teacup	size and color	redundant	size	color redundant	4	1	0.75	la mas grande, rosa	NA	la mas grande, rosa	0	1	teacup	big	pink	TRUE	TRUE	FALSE	TRUE	TRUE
-D5sTSEMaXM7y3Q7AW	16	small_blue_binder	size	minimal	size	color redundant	4	3	0.25	pequeña	NA	pequeña	1	0	binder	small	blue	FALSE	TRUE	FALSE	TRUE	FALSE
-D5sTSEMaXM7y3Q7AW	17	big_yellow_napkin	size	minimal	size	color redundant	4	4	0	grande	NA	grande	1	0	napkin	big	yellow	FALSE	TRUE	FALSE	TRUE	FALSE
-D5sTSEMaXM7y3Q7AW	21	big_blue_comb	size	minimal	size	color redundant	2	1	0.5	grande	NA	grande	1	0	comb	big	blue	FALSE	TRUE	FALSE	TRUE	FALSE
-D5sTSEMaXM7y3Q7AW	26	small_blue_candle	size	minimal	size	color redundant	4	2	0.5	pequeña	NA	pequeña	1	0	candle	small	blue	FALSE	TRUE	FALSE	TRUE	FALSE
-D5sTSEMaXM7y3Q7AW	28	big_green_bracelet	color	minimal	color	size redundant	4	2	0.5	verde	NA	verde	1	0	bracelet	big	green	TRUE	FALSE	FALSE	TRUE	FALSE
-D5sTSEMaXM7y3Q7AW	29	small_red_toothbrush	size	minimal	size	color redundant	3	1	0.6666666666666666	pequeño	NA	pequeño	1	0	toothbrush	small	red	FALSE	TRUE	FALSE	TRUE	FALSE
-D5sTSEMaXM7y3Q7AW	33	small_green_chair	size	minimal	size	color redundant	2	2	0	pequeño	NA	pequeño	1	0	chair	small	green	FALSE	TRUE	FALSE	TRUE	FALSE
-D5sTSEMaXM7y3Q7AW	35	small_blue_cushion	size	minimal	size	color redundant	4	1	0.75	pequeño	NA	pequeño	1	0	cushion	small	blue	FALSE	TRUE	FALSE	TRUE	FALSE
-D5sTSEMaXM7y3Q7AW	38	big_orange_billiardball	size	minimal	size	color redundant	3	3	0	grande	NA	grande	1	0	billiardball	big	orange	FALSE	TRUE	FALSE	TRUE	FALSE
-D5sTSEMaXM7y3Q7AW	39	big_purple_rug	size	minimal	size	color redundant	3	2	0.3333333333333333	grande	NA	grande	1	0	rug	big	purple	FALSE	TRUE	FALSE	TRUE	FALSE
-D5sTSEMaXM7y3Q7AW	41	big_black_turtle	color	minimal	color	size redundant	3	3	0	negro	NA	negro	1	0	turtle	big	black	TRUE	FALSE	FALSE	TRUE	FALSE
-D5sTSEMaXM7y3Q7AW	43	big_black_book	size	minimal	size	color redundant	4	4	0	grande	NA	grande	1	0	book	big	black	FALSE	TRUE	FALSE	TRUE	FALSE
-D5sTSEMaXM7y3Q7AW	46	small_pink_phone	size	minimal	size	color redundant	2	1	0.5	pequeño	NA	pequeño	1	0	phone	small	pink	FALSE	TRUE	FALSE	TRUE	FALSE
-D5sTSEMaXM7y3Q7AW	53	small_purple_flower	size	minimal	size	color redundant	4	1	0.75	pequeña	NA	pequeña	1	0	flower	small	purple	FALSE	TRUE	FALSE	TRUE	FALSE
-D5sTSEMaXM7y3Q7AW	54	big_red_tack	size	minimal	size	color redundant	4	3	0.25	grande	NA	grande	1	0	tack	big	red	FALSE	TRUE	FALSE	TRUE	FALSE
-D5sTSEMaXM7y3Q7AW	56	big_purple_coathanger	size	minimal	size	color redundant	3	1	0.6666666666666666	grande	NA	grande	1	0	coathanger	big	purple	FALSE	TRUE	FALSE	TRUE	FALSE
-D5sTSEMaXM7y3Q7AW	57	small_black_belt	size	minimal	size	color redundant	3	2	0.3333333333333333	pequeño	NA	pequeño	1	0	belt	small	black	FALSE	TRUE	FALSE	TRUE	FALSE
-D5sTSEMaXM7y3Q7AW	60	big_purple_yarn	size	minimal	size	color redundant	4	2	0.5	grande	NA	grande	1	0	yarn	big	purple	FALSE	TRUE	FALSE	TRUE	FALSE
-D5sTSEMaXM7y3Q7AW	64	small_pink_hairdryer	size	minimal	size	color redundant	2	2	0	pequeño	NA	pequeño	1	0	hairdryer	small	pink	FALSE	TRUE	FALSE	TRUE	FALSE
-g8tXfbQJ5w3Yo5kXq	2	small_brown_jacket	size	minimal	size	color redundant	2	2	0	es la sudadera más pequeña de todas	pequeno?	es la sudadera más pequeña de todas	1	0	jacket	small	brown	FALSE	TRUE	FALSE	TRUE	TRUE
-g8tXfbQJ5w3Yo5kXq	6	big_tan_rock	color	minimal	color	size redundant	3	3	0	roca amarilla	amarilla?	roca amarilla	1	0	rock	big	tan	TRUE	FALSE	FALSE	TRUE	TRUE
-g8tXfbQJ5w3Yo5kXq	7	small_orange_cushion	color	minimal	color	size redundant	4	2	0.5	almohada naranja	grande?	almohada naranja	1	0	cushion	small	orange	TRUE	FALSE	FALSE	TRUE	FALSE
-g8tXfbQJ5w3Yo5kXq	8	big_purple_bracelet	color	minimal	color	size redundant	3	2	0.3333333333333333	collar morado	violeta?	collar morado	1	0	bracelet	big	purple	TRUE	FALSE	FALSE	TRUE	TRUE
-g8tXfbQJ5w3Yo5kXq	11	big_yellow_shoe	color	minimal	color	size redundant	3	1	0.6666666666666666	zapato amarillo	amarillo?	zapato amarillo	1	0	shoe	big	yellow	TRUE	FALSE	TRUE	TRUE	FALSE
-g8tXfbQJ5w3Yo5kXq	15	big_pink_phone	size	minimal	size	color redundant	2	2	0	telefono grande	pequeno?	telefono grande	1	0	phone	big	pink	FALSE	TRUE	FALSE	TRUE	TRUE
-g8tXfbQJ5w3Yo5kXq	16	big_white_pingpongball	size and color	redundant	size	color redundant	4	1	0.75	pelota blanca grande	blanco peaueno?	pelota blanca grande	0	1	pingpongball	big	white	TRUE	TRUE	FALSE	TRUE	TRUE
-g8tXfbQJ5w3Yo5kXq	18	small_purple_yarn	color	minimal	color	size redundant	2	1	0.5	lana morada	violeta?	lana morada	1	0	yarn	small	purple	TRUE	FALSE	FALSE	TRUE	TRUE
-g8tXfbQJ5w3Yo5kXq	20	big_red_scarf	color	minimal	color	size redundant	4	2	0.5	bufanda roja	rojo?	bufanda roja	1	0	scarf	big	red	TRUE	FALSE	TRUE	TRUE	FALSE
-g8tXfbQJ5w3Yo5kXq	21	small_green_guitar	size	minimal	size	color redundant	4	4	0	guitarra pequeña	pequena?	guitarra pequeña	1	0	guitar	small	green	FALSE	TRUE	TRUE	TRUE	FALSE
-g8tXfbQJ5w3Yo5kXq	26	big_black_belt	size and color	redundant	size	color redundant	4	3	0.25	cinturon negro grande	marron?	cinturon negro grande	0	1	belt	big	black	TRUE	TRUE	FALSE	TRUE	FALSE
-g8tXfbQJ5w3Yo5kXq	28	big_red_flower	size and color	redundant	size	color redundant	3	2	0.3333333333333333	flor roja grande	morada?	flor roja grande	0	1	flower	big	red	TRUE	TRUE	TRUE	TRUE	FALSE
-g8tXfbQJ5w3Yo5kXq	31	small_red_toothbrush	color	minimal	color	size redundant	2	2	0	rojo	rojo?	rojo	1	0	toothbrush	small	red	TRUE	FALSE	FALSE	TRUE	FALSE
-g8tXfbQJ5w3Yo5kXq	32	big_green_chair	size and color	redundant	size	color redundant	3	1	0.6666666666666666	verde grande	verde grande?	verde grande	0	1	chair	big	green	TRUE	TRUE	FALSE	TRUE	FALSE
-g8tXfbQJ5w3Yo5kXq	34	big_yellow_napkin	size and color	redundant	size	color redundant	4	2	0.5	amarillo grande	amarillo grande?	amarillo grande	0	1	napkin	big	yellow	TRUE	TRUE	FALSE	TRUE	FALSE
-g8tXfbQJ5w3Yo5kXq	35	big_purple_billiardball	size	minimal	size	color redundant	3	3	0	mas grande	5 grande?	mas grande	1	0	billiardball	big	purple	FALSE	TRUE	FALSE	TRUE	FALSE
-g8tXfbQJ5w3Yo5kXq	37	big_pink_bucket	size and color	redundant	size	color redundant	4	2	0.5	rosa grande	ok	rosa grande	0	1	bucket	big	pink	TRUE	TRUE	FALSE	TRUE	FALSE
-g8tXfbQJ5w3Yo5kXq	38	small_red_bellpepper	size and color	redundant	size	color redundant	2	1	0.5	pimiento rojo pequeño	amarillo?	pimiento rojo pequeño	0	1	bellpepper	small	red	TRUE	TRUE	FALSE	TRUE	FALSE
-g8tXfbQJ5w3Yo5kXq	44	small_blue_butterfly	size and color	redundant	size	color redundant	4	1	0.75	mariposa azul pequeña	azul chica?	mariposa azul pequeña	0	1	butterfly	small	blue	TRUE	TRUE	TRUE	TRUE	FALSE
-g8tXfbQJ5w3Yo5kXq	48	big_green_pepper	color	minimal	color	size redundant	4	1	0.75	pimiento verde	verde?	pimiento verde	1	0	pepper	big	green	TRUE	FALSE	FALSE	TRUE	FALSE
-g8tXfbQJ5w3Yo5kXq	51	big_black_book	size	minimal	size	color redundant	4	3	0.25	libreta negra grande	azul?	libreta negra grande	1	0	book	big	black	FALSE	TRUE	FALSE	TRUE	FALSE
-g8tXfbQJ5w3Yo5kXq	52	big_red_tack	size	minimal	size	color redundant	3	3	0	grande	grande?	grande	1	0	tack	big	red	FALSE	TRUE	FALSE	TRUE	FALSE
-g8tXfbQJ5w3Yo5kXq	53	small_black_comb	size and color	redundant	size	color redundant	3	1	0.6666666666666666	negro pequeño	negro peaueno?	negro pequeño	0	1	comb	small	black	TRUE	TRUE	FALSE	TRUE	FALSE
-g8tXfbQJ5w3Yo5kXq	54	small_green_framee	color	minimal	color	size redundant	2	2	0	verde	verde?	verde	1	0	framee	small	green	TRUE	FALSE	FALSE	TRUE	FALSE
-g8tXfbQJ5w3Yo5kXq	55	big_blue_cap	color	minimal	color	size redundant	4	3	0.25	azul	azul?	azul	1	0	cap	big	blue	TRUE	FALSE	FALSE	TRUE	FALSE
-g8tXfbQJ5w3Yo5kXq	56	big_orange_coathanger	color	minimal	color	size redundant	3	1	0.6666666666666666	naranja	naranja?	naranja	1	0	coathanger	big	orange	TRUE	FALSE	FALSE	TRUE	FALSE
-g8tXfbQJ5w3Yo5kXq	57	small_pink_weddingcake	color	minimal	color	size redundant	3	3	0	rosa	rosa?	rosa	1	0	weddingcake	small	pink	TRUE	FALSE	FALSE	TRUE	FALSE
-g8tXfbQJ5w3Yo5kXq	58	big_pink_hairdryer	color	minimal	color	size redundant	4	3	0.25	rosa	ok	rosa	1	0	hairdryer	big	pink	TRUE	FALSE	FALSE	TRUE	FALSE
-g8tXfbQJ5w3Yo5kXq	64	big_pink_balloon	color	minimal	color	size redundant	2	1	0.5	rosa	ok	rosa	1	0	balloon	big	pink	TRUE	FALSE	FALSE	TRUE	FALSE
-g8tXfbQJ5w3Yo5kXq	65	small_blue_rug	size and color	redundant	size	color redundant	2	1	0.5	azul pequeño	morada?	azul pequeño	0	1	rug	small	blue	TRUE	TRUE	FALSE	TRUE	FALSE
-g8tXfbQJ5w3Yo5kXq	66	small_red_bike	size and color	redundant	color	size redundant	4	1	0.75	roja pequeña	rojo?	roja pequeña	0	1	bike	small	red	TRUE	TRUE	FALSE	TRUE	FALSE
-g8tXfbQJ5w3Yo5kXq	68	big_blue_binder	color	minimal	color	size redundant	3	2	0.3333333333333333	azul	azul?	azul	1	0	binder	big	blue	TRUE	FALSE	FALSE	TRUE	FALSE
-g8tXfbQJ5w3Yo5kXq	69	small_pink_teacup	size and color	redundant	size	color redundant	3	2	0.3333333333333333	rosa pequeño	blanco?	rosa pequeño	0	1	teacup	small	pink	TRUE	TRUE	FALSE	TRUE	FALSE
-g8tXfbQJ5w3Yo5kXq	71	big_purple_stapler	color	minimal	color	size redundant	4	4	0	morado	morado?	morado	1	0	stapler	big	purple	TRUE	FALSE	FALSE	TRUE	FALSE
-g8tXfbQJ5w3Yo5kXq	72	small_blue_candle	size and color	redundant	size	color redundant	4	4	0	azul más pequeño__un placer	pequeno?	azul más pequeño	0	1	candle	small	blue	TRUE	TRUE	FALSE	TRUE	FALSE
-Drac2QY2EJGirNSty	1	big_orange_cushion	color	minimal	color	size redundant	3	3	0	cojin naranja	NA	cojin naranja	1	0	cushion	big	orange	TRUE	FALSE	FALSE	TRUE	FALSE
-Drac2QY2EJGirNSty	2	small_pink_framee	color	minimal	color	size redundant	3	2	0.3333333333333333	cuadro rosa	NA	cuadro rosa	1	0	framee	small	pink	TRUE	FALSE	FALSE	TRUE	FALSE
-Drac2QY2EJGirNSty	3	small_blue_guitar	color	minimal	color	size redundant	3	2	0.3333333333333333	guitarra azul	NA	guitarra azul	1	0	guitar	small	blue	TRUE	FALSE	TRUE	TRUE	FALSE
-Drac2QY2EJGirNSty	10	small_white_pingpongball	color	minimal	color	size redundant	2	2	0	bola blanca	NA	bola blanca	1	0	pingpongball	small	white	TRUE	FALSE	FALSE	TRUE	TRUE
-Drac2QY2EJGirNSty	11	small_red_bike	size and color	redundant	size	color redundant	4	2	0.5	bicicleta roja pequeña	vale	bicicleta roja pequeña	0	1	bike	small	red	TRUE	TRUE	TRUE	TRUE	FALSE
-Drac2QY2EJGirNSty	15	small_yellow_bellpepper	color	minimal	color	size redundant	2	1	0.5	pimiento amarillo	NA	pimiento amarillo	1	0	bellpepper	small	yellow	TRUE	FALSE	FALSE	TRUE	FALSE
-Drac2QY2EJGirNSty	16	big_white_shoe	size and color	redundant	size	color redundant	4	3	0.25	zapato blanco grande	NA	zapato blanco grande	0	1	shoe	big	white	TRUE	TRUE	TRUE	TRUE	TRUE
-Drac2QY2EJGirNSty	20	small_purple_rug	color	minimal	color	size redundant	4	2	0.5	alfombra morada	NA	alfombra morada	1	0	rug	small	purple	TRUE	FALSE	TRUE	TRUE	FALSE
-Drac2QY2EJGirNSty	21	small_blue_scarf	size and color	redundant	size	color redundant	2	1	0.5	pañuelo azul pequeño	NA	pañuelo azul pequeño	0	1	scarf	small	blue	TRUE	TRUE	FALSE	TRUE	TRUE
-Drac2QY2EJGirNSty	22	small_green_bracelet	color	minimal	color	size redundant	4	1	0.75	pulsera verde	NA	pulsera verde	1	0	bracelet	small	green	TRUE	FALSE	TRUE	TRUE	FALSE
-Drac2QY2EJGirNSty	23	small_white_phone	color	minimal	color	size redundant	2	2	0	el blanco	NA	el blanco	1	0	phone	small	white	TRUE	FALSE	FALSE	TRUE	TRUE
-Drac2QY2EJGirNSty	24	small_purple_hairdryer	color	minimal	color	size redundant	2	1	0.5	secador morado	NA	secador morado	1	0	hairdryer	small	purple	TRUE	FALSE	FALSE	TRUE	FALSE
-Drac2QY2EJGirNSty	31	big_pink_teacup	size and color	redundant	size	color redundant	3	2	0.3333333333333333	taza rosa grande	NA	taza rosa grande	0	1	teacup	big	pink	TRUE	TRUE	FALSE	TRUE	FALSE
-Drac2QY2EJGirNSty	32	small_purple_butterfly	size and color	redundant	size	color redundant	3	2	0.3333333333333333	mariposa pequeña rosa	NA	mariposa pequeña rosa	0	1	butterfly	small	purple	TRUE	TRUE	TRUE	TRUE	FALSE
-Drac2QY2EJGirNSty	34	big_orange_cap	color	minimal	color	size redundant	4	3	0.25	gorra naranja	NA	gorra naranja	1	0	cap	big	orange	TRUE	FALSE	TRUE	TRUE	FALSE
-Drac2QY2EJGirNSty	35	big_black_book	color	minimal	color	size redundant	4	2	0.5	libro negro	NA	libro negro	1	0	book	big	black	TRUE	FALSE	TRUE	TRUE	FALSE
-Drac2QY2EJGirNSty	37	small_orange_napkin	color	minimal	color	size redundant	3	3	0	servilleta naranja	NA	servilleta naranja	1	0	napkin	small	orange	TRUE	FALSE	TRUE	TRUE	FALSE
-Drac2QY2EJGirNSty	41	small_brown_turtle	size and color	redundant	size	color redundant	2	1	0.5	tortuga verde pequeña	NA	tortuga verde pequeña	0	1	turtle	small	brown	TRUE	TRUE	TRUE	TRUE	FALSE
-Drac2QY2EJGirNSty	43	big_red_pepper	size and color	redundant	size	color redundant	4	1	0.75	pimiento rojo grande	NA	pimiento rojo grande	0	1	pepper	big	red	TRUE	TRUE	FALSE	TRUE	FALSE
-Drac2QY2EJGirNSty	47	small_blue_comb	color	minimal	color	size redundant	4	3	0.25	peine azul	NA	peine azul	1	0	comb	small	blue	TRUE	FALSE	TRUE	TRUE	FALSE
-Drac2QY2EJGirNSty	48	small_brown_jacket	size	minimal	size	color redundant	2	2	0	la pequeña	NA	la pequeña	1	0	jacket	small	brown	FALSE	TRUE	FALSE	TRUE	TRUE
-Drac2QY2EJGirNSty	52	big_orange_billiardball	size	minimal	size	color redundant	2	2	0	bola 5 grande	NA	bola 5 grande	1	0	billiardball	big	orange	FALSE	TRUE	FALSE	TRUE	TRUE
-Drac2QY2EJGirNSty	53	small_red_candle	size and color	redundant	size	color redundant	4	3	0.25	vela rosa pequeña	NA	vela rosa pequeña	0	1	candle	small	red	TRUE	TRUE	TRUE	TRUE	TRUE
-Drac2QY2EJGirNSty	54	small_pink_weddingcake	color	minimal	color	size redundant	4	1	0.75	la tarta rosa	NA	la tarta rosa	1	0	weddingcake	small	pink	TRUE	FALSE	FALSE	TRUE	TRUE
-Drac2QY2EJGirNSty	55	big_blue_tack	color	minimal	color	size redundant	3	1	0.6666666666666666	el azul	NA	el azul	1	0	tack	big	blue	TRUE	FALSE	FALSE	TRUE	TRUE
-Drac2QY2EJGirNSty	57	big_pink_balloon	color	minimal	color	size redundant	4	4	0	el rosa	NA	el rosa	1	0	balloon	big	pink	TRUE	FALSE	FALSE	TRUE	TRUE
-Drac2QY2EJGirNSty	60	small_green_binder	size and color	redundant	size	color redundant	4	1	0.75	carpeta verde pequeña	NA	carpeta verde pequeña	0	1	binder	small	green	TRUE	TRUE	TRUE	TRUE	FALSE
-Drac2QY2EJGirNSty	61	small_red_stapler	size	minimal	size	color redundant	3	3	0	la pequeña	NA	la pequeña	1	0	stapler	small	red	FALSE	TRUE	FALSE	TRUE	TRUE
-Drac2QY2EJGirNSty	63	small_tan_rock	size	minimal	size	color redundant	3	1	0.6666666666666666	piedra marrón pequeña	NA	piedra marrón pequeña	1	0	rock	small	tan	FALSE	TRUE	TRUE	TRUE	FALSE
-Drac2QY2EJGirNSty	65	big_orange_coathanger	size	minimal	size	color redundant	4	4	0	percha grande	queda poco	percha grande	1	0	coathanger	big	orange	FALSE	TRUE	FALSE	TRUE	FALSE
-Drac2QY2EJGirNSty	66	small_black_belt	color	minimal	color	size redundant	4	4	0	el negro__si, poco	NA	el negro	1	0	belt	small	black	TRUE	FALSE	FALSE	TRUE	TRUE
-Drac2QY2EJGirNSty	72	small_purple_flower	size and color	redundant	size	color redundant	4	2	0.5	morada pequeña	NA	morada pequeña	0	1	flower	small	purple	TRUE	TRUE	FALSE	TRUE	FALSE
-ncA5wQm2wMWx6Qw4m	3	big_green_binder	size and color	redundant	size	color redundant	4	1	0.75	es uno de los folders verdes. es el que se ve más grande.	NA	es uno de los folders verdes. es el que se ve más grande.	0	1	binder	big	green	TRUE	TRUE	FALSE	TRUE	TRUE
-ncA5wQm2wMWx6Qw4m	4	big_orange_napkin	color	minimal	color	size redundant	3	1	0.6666666666666666	naranja	NA	naranja	1	0	napkin	big	orange	TRUE	FALSE	FALSE	TRUE	FALSE
-ncA5wQm2wMWx6Qw4m	8	small_blue_candle	size and color	redundant	size	color redundant	4	2	0.5	vela morada (o azul?) pequeña	NA	vela morada (o azul?) pequeña	0	1	candle	small	blue	TRUE	TRUE	TRUE	TRUE	TRUE
-ncA5wQm2wMWx6Qw4m	13	small_blue_cushion	color	minimal	color	size redundant	2	2	0	azul	NA	azul	1	0	cushion	small	blue	TRUE	FALSE	FALSE	TRUE	FALSE
-ncA5wQm2wMWx6Qw4m	14	small_white_phone	size and color	redundant	size	color redundant	4	1	0.75	teléfono blanco pequeño	NA	teléfono blanco pequeño	0	1	phone	small	white	TRUE	TRUE	TRUE	TRUE	TRUE
-ncA5wQm2wMWx6Qw4m	15	big_white_shoe	size	minimal	size	color redundant	4	4	0	ah caray... el zapato más grande	NA	ah caray... el zapato más grande	1	0	shoe	big	white	FALSE	TRUE	TRUE	TRUE	TRUE
-ncA5wQm2wMWx6Qw4m	16	big_purple_bracelet	color	minimal	color	size redundant	3	1	0.6666666666666666	morado	NA	morado	1	0	bracelet	big	purple	TRUE	FALSE	FALSE	TRUE	FALSE
-ncA5wQm2wMWx6Qw4m	19	small_red_scarf	color	minimal	color	size redundant	2	2	0	rojo	NA	rojo	1	0	scarf	small	red	TRUE	FALSE	FALSE	TRUE	FALSE
-ncA5wQm2wMWx6Qw4m	20	small_purple_yarn	size and color	redundant	size	color redundant	4	2	0.5	morado pequeño	NA	morado pequeño	0	1	yarn	small	purple	TRUE	TRUE	FALSE	TRUE	FALSE
-ncA5wQm2wMWx6Qw4m	22	big_blue_toothbrush	color	minimal	color	size redundant	3	3	0	azul	NA	azul	1	0	toothbrush	big	blue	TRUE	FALSE	FALSE	TRUE	FALSE
-ncA5wQm2wMWx6Qw4m	23	big_purple_flower	color	minimal	color	size redundant	4	2	0.5	la morada	NA	la morada	1	0	flower	big	purple	TRUE	FALSE	FALSE	TRUE	TRUE
-ncA5wQm2wMWx6Qw4m	27	big_red_bucket	size	minimal	size	color redundant	3	3	0	la cubeta más grande	NA	la cubeta más grande	1	0	bucket	big	red	FALSE	TRUE	FALSE	TRUE	TRUE
-ncA5wQm2wMWx6Qw4m	30	small_green_pepper	color	minimal	color	size redundant	3	2	0.3333333333333333	verde	NA	verde	1	0	pepper	small	green	TRUE	FALSE	FALSE	TRUE	FALSE
-ncA5wQm2wMWx6Qw4m	35	small_blue_comb	color	minimal	color	size redundant	4	4	0	peine azul	NA	peine azul	1	0	comb	small	blue	TRUE	FALSE	TRUE	TRUE	FALSE
-ncA5wQm2wMWx6Qw4m	36	big_red_stapler	size	minimal	size	color redundant	2	2	0	la más grande	NA	la más grande	1	0	stapler	big	red	FALSE	TRUE	FALSE	TRUE	TRUE
-ncA5wQm2wMWx6Qw4m	37	big_blue_guitar	size	minimal	size	color redundant	4	4	0	de nuevo, la más grande	NA	de nuevo, la más grande	1	0	guitar	big	blue	FALSE	TRUE	FALSE	TRUE	TRUE
-ncA5wQm2wMWx6Qw4m	38	big_purple_bike	size	minimal	size	color redundant	3	3	0	la más grande	NA	la más grande	1	0	bike	big	purple	FALSE	TRUE	FALSE	TRUE	TRUE
-ncA5wQm2wMWx6Qw4m	39	small_white_weddingcake	size and color	redundant	size	color redundant	3	2	0.3333333333333333	blanco chico	NA	blanco chico	0	1	weddingcake	small	white	TRUE	TRUE	FALSE	TRUE	TRUE
-ncA5wQm2wMWx6Qw4m	41	big_blue_cap	color	minimal	color	size redundant	2	1	0.5	azul	NA	azul	1	0	cap	big	blue	TRUE	FALSE	FALSE	TRUE	FALSE
-ncA5wQm2wMWx6Qw4m	42	small_pink_teacup	color	minimal	color	size redundant	2	1	0.5	rosa	NA	rosa	1	0	teacup	small	pink	TRUE	FALSE	FALSE	TRUE	FALSE
-ncA5wQm2wMWx6Qw4m	43	small_yellow_bellpepper	size and color	redundant	size	color redundant	3	1	0.6666666666666666	amarillo pequeño	NA	amarillo pequeño	0	1	bellpepper	small	yellow	TRUE	TRUE	FALSE	TRUE	FALSE
-ncA5wQm2wMWx6Qw4m	49	big_orange_coathanger	size and color	redundant	size	color redundant	4	3	0.25	naranja grande	NA	naranja grande	0	1	coathanger	big	orange	TRUE	TRUE	FALSE	TRUE	FALSE
-ncA5wQm2wMWx6Qw4m	52	big_purple_butterfly	size and color	redundant	size	color redundant	2	1	0.5	rosa grande	NA	rosa grande	0	1	butterfly	big	purple	TRUE	TRUE	FALSE	TRUE	FALSE
-ncA5wQm2wMWx6Qw4m	53	big_blue_rug	size and color	redundant	size	color redundant	2	2	0	azul grande	NA	azul grande	0	1	rug	big	blue	TRUE	TRUE	FALSE	TRUE	FALSE
-ncA5wQm2wMWx6Qw4m	54	small_pink_hairdryer	size and color	redundant	size	color redundant	4	3	0.25	rosa pequeño	NA	rosa pequeño	0	1	hairdryer	small	pink	TRUE	TRUE	FALSE	TRUE	FALSE
-ncA5wQm2wMWx6Qw4m	55	small_pink_framee	color	minimal	color	size redundant	4	1	0.75	rosa	NA	rosa	1	0	framee	small	pink	TRUE	FALSE	FALSE	TRUE	FALSE
-ncA5wQm2wMWx6Qw4m	59	big_grey_rock	color	minimal	color	size redundant	4	3	0.25	piedra gris	NA	piedra gris	1	0	rock	big	grey	TRUE	FALSE	TRUE	TRUE	FALSE
-ncA5wQm2wMWx6Qw4m	62	big_pink_balloon	size and color	redundant	size	color redundant	2	1	0.5	rosa grande	NA	rosa grande	0	1	balloon	big	pink	TRUE	TRUE	FALSE	TRUE	FALSE
-ncA5wQm2wMWx6Qw4m	65	big_orange_pingpongball	color	minimal	color	size redundant	4	1	0.75	naranja	NA	naranja	1	0	pingpongball	big	orange	TRUE	FALSE	FALSE	TRUE	FALSE
-ncA5wQm2wMWx6Qw4m	66	small_purple_billiardball	size and color	redundant	size	color redundant	3	1	0.6666666666666666	morado pequeño	NA	morado pequeño	0	1	billiardball	small	purple	TRUE	TRUE	FALSE	TRUE	FALSE
-ncA5wQm2wMWx6Qw4m	69	big_green_chair	color	minimal	color	size redundant	3	3	0	verde	NA	verde	1	0	chair	big	green	TRUE	FALSE	FALSE	TRUE	FALSE
-ncA5wQm2wMWx6Qw4m	70	big_red_tack	size and color	redundant	size	color redundant	3	2	0.3333333333333333	rojo grande	NA	rojo grande	0	1	tack	big	red	TRUE	TRUE	FALSE	TRUE	FALSE
-ncA5wQm2wMWx6Qw4m	71	big_black_book	color	minimal	color	size redundant	4	3	0.25	negro	NA	negro	1	0	book	big	black	TRUE	FALSE	FALSE	TRUE	FALSE
-RdyH6CPjXhDjFiBn6	2	small_orange_coathanger	color	minimal	color	size redundant	4	2	0.5	color naranja	NA	color naranja	1	0	coathanger	small	orange	TRUE	FALSE	FALSE	TRUE	FALSE
-RdyH6CPjXhDjFiBn6	3	big_black_belt	size	minimal	size	color redundant	3	3	0	el cinturón más grande	NA	el cinturón más grande	1	0	belt	big	black	FALSE	TRUE	TRUE	TRUE	TRUE
-RdyH6CPjXhDjFiBn6	4	big_pink_teacup	size	minimal	size	color redundant	4	4	0	la taza más grande	NA	la taza más grande	1	0	teacup	big	pink	FALSE	TRUE	FALSE	TRUE	TRUE
-RdyH6CPjXhDjFiBn6	5	big_green_framee	color	minimal	color	size redundant	4	3	0.25	cuadro verde	NA	cuadro verde	1	0	framee	big	green	TRUE	FALSE	FALSE	TRUE	FALSE
-RdyH6CPjXhDjFiBn6	7	big_pink_balloon	color	minimal	color	size redundant	2	2	0	globo rosa	NA	globo rosa	1	0	balloon	big	pink	TRUE	FALSE	TRUE	TRUE	FALSE
-RdyH6CPjXhDjFiBn6	13	big_red_scarf	size and color	redundant	size	color redundant	4	2	0.5	bufanda roja (imagen más grande)	NA	bufanda roja (imagen más grande)	0	1	scarf	big	red	TRUE	TRUE	TRUE	TRUE	FALSE
-RdyH6CPjXhDjFiBn6	14	big_pink_hairdryer	color	minimal	color	size redundant	4	1	0.75	secador rosa	NA	secador rosa	1	0	hairdryer	big	pink	TRUE	FALSE	FALSE	TRUE	FALSE
-RdyH6CPjXhDjFiBn6	15	big_brown_turtle	color	minimal	color	size redundant	3	2	0.3333333333333333	tortuga verde claro	NA	tortuga verde claro	1	0	turtle	big	brown	TRUE	FALSE	TRUE	TRUE	TRUE
-RdyH6CPjXhDjFiBn6	16	big_purple_yarn	color	minimal	color	size redundant	3	3	0	color morado	NA	color morado	1	0	yarn	big	purple	TRUE	FALSE	FALSE	TRUE	FALSE
-RdyH6CPjXhDjFiBn6	18	big_purple_stapler	size and color	redundant	size	color redundant	3	2	0.3333333333333333	engrapadora morada grande	NA	engrapadora morada grande	0	1	stapler	big	purple	TRUE	TRUE	TRUE	TRUE	FALSE
-RdyH6CPjXhDjFiBn6	19	big_white_shoe	color	minimal	color	size redundant	2	2	0	zapato gris	NA	zapato gris	1	0	shoe	big	white	TRUE	FALSE	TRUE	TRUE	FALSE
-RdyH6CPjXhDjFiBn6	20	small_orange_billiardball	size	minimal	size	color redundant	3	3	0	pelota pequeña	NA	pelota pequeña	1	0	billiardball	small	orange	FALSE	TRUE	FALSE	TRUE	TRUE
-RdyH6CPjXhDjFiBn6	21	small_blue_toothbrush	size and color	redundant	size	color redundant	4	2	0.5	cepillo azul (el más pequeño)	NA	cepillo azul (el más pequeño)	0	1	toothbrush	small	blue	TRUE	TRUE	FALSE	TRUE	TRUE
-RdyH6CPjXhDjFiBn6	22	small_blue_butterfly	color	minimal	color	size redundant	4	4	0	mariposa azul	NA	mariposa azul	1	0	butterfly	small	blue	TRUE	FALSE	TRUE	TRUE	FALSE
-RdyH6CPjXhDjFiBn6	25	big_white_pingpongball	size and color	redundant	size	color redundant	4	1	0.75	pelota blanca (grande)	NA	pelota blanca (grande)	0	1	pingpongball	big	white	TRUE	TRUE	FALSE	TRUE	TRUE
-RdyH6CPjXhDjFiBn6	26	small_blue_tack	size	minimal	size	color redundant	2	2	0	pin pequeño	NA	pin pequeño	1	0	tack	small	blue	FALSE	TRUE	FALSE	TRUE	FALSE
-RdyH6CPjXhDjFiBn6	27	big_blue_rug	size and color	redundant	size	color redundant	2	2	0	tapete azul (grande)	NA	tapete azul (grande)	0	1	rug	big	blue	TRUE	TRUE	FALSE	TRUE	FALSE
-RdyH6CPjXhDjFiBn6	28	big_blue_candle	size	minimal	size	color redundant	2	1	0.5	vela grande	NA	vela grande	1	0	candle	big	blue	FALSE	TRUE	TRUE	TRUE	TRUE
-RdyH6CPjXhDjFiBn6	31	small_blue_book	size and color	redundant	size	color redundant	4	1	0.75	libro azul (pequeño)	NA	libro azul (pequeño)	0	1	book	small	blue	TRUE	TRUE	TRUE	TRUE	FALSE
-RdyH6CPjXhDjFiBn6	33	big_red_flower	color	minimal	color	size redundant	2	1	0.5	flor roja	NA	flor roja	1	0	flower	big	red	TRUE	FALSE	TRUE	TRUE	FALSE
-RdyH6CPjXhDjFiBn6	34	big_green_chair	size and color	redundant	size	color redundant	4	3	0.25	sillón verde (grande)	NA	sillón verde (grande)	0	1	chair	big	green	TRUE	TRUE	FALSE	TRUE	FALSE
-RdyH6CPjXhDjFiBn6	35	small_blue_cap	color	minimal	color	size redundant	4	3	0.25	gorra azul	NA	gorra azul	1	0	cap	small	blue	TRUE	FALSE	TRUE	TRUE	FALSE
-RdyH6CPjXhDjFiBn6	39	small_green_jacket	color	minimal	color	size redundant	2	1	0.5	chamarra verde	NA	chamarra verde	1	0	jacket	small	green	TRUE	FALSE	FALSE	TRUE	FALSE
-RdyH6CPjXhDjFiBn6	41	big_red_bellpepper	color	minimal	color	size redundant	3	1	0.6666666666666666	pimiento rojo	NA	pimiento rojo	1	0	bellpepper	big	red	TRUE	FALSE	FALSE	TRUE	FALSE
-RdyH6CPjXhDjFiBn6	42	small_purple_bracelet	size and color	redundant	size	color redundant	3	1	0.6666666666666666	pulsera morada (pequeña)	NA	pulsera morada (pequeña)	0	1	bracelet	small	purple	TRUE	TRUE	TRUE	TRUE	FALSE
-RdyH6CPjXhDjFiBn6	47	small_white_weddingcake	size and color	redundant	size	color redundant	4	3	0.25	pastel blanco (pequeño)	NA	pastel blanco (pequeño)	0	1	weddingcake	small	white	TRUE	TRUE	FALSE	TRUE	TRUE
-RdyH6CPjXhDjFiBn6	49	big_pink_phone	color	minimal	color	size redundant	3	1	0.6666666666666666	teléfono rosa	NA	teléfono rosa	1	0	phone	big	pink	TRUE	FALSE	TRUE	TRUE	TRUE
-RdyH6CPjXhDjFiBn6	52	small_black_comb	size	minimal	size	color redundant	2	1	0.5	cepillo pequeño	NA	cepillo pequeño	1	0	comb	small	black	FALSE	TRUE	FALSE	TRUE	FALSE
-RdyH6CPjXhDjFiBn6	56	small_orange_cushion	size	minimal	size	color redundant	4	4	0	cojín pequeño	NA	cojín pequeño	1	0	cushion	small	orange	FALSE	TRUE	FALSE	TRUE	FALSE
-RdyH6CPjXhDjFiBn6	60	big_green_binder	color	minimal	color	size redundant	4	4	0	folder verde	NA	folder verde	1	0	binder	big	green	TRUE	FALSE	FALSE	TRUE	FALSE
-RdyH6CPjXhDjFiBn6	63	big_red_bike	size and color	redundant	size	color redundant	3	1	0.6666666666666666	bici roja (grande)	NA	bici roja (grande)	0	1	bike	big	red	TRUE	TRUE	FALSE	TRUE	FALSE
-RdyH6CPjXhDjFiBn6	65	small_red_pepper	color	minimal	color	size redundant	3	3	0	chile rojo	NA	chile rojo	1	0	pepper	small	red	TRUE	FALSE	FALSE	TRUE	FALSE
-RdyH6CPjXhDjFiBn6	67	big_blue_guitar	color	minimal	color	size redundant	4	2	0.5	guitarra azul	NA	guitarra azul	1	0	guitar	big	blue	TRUE	FALSE	TRUE	TRUE	FALSE
-RdyH6CPjXhDjFiBn6	70	small_red_bucket	color	minimal	color	size redundant	4	1	0.75	cubeta roja	NA	cubeta roja	1	0	bucket	small	red	TRUE	FALSE	FALSE	TRUE	FALSE
-RdyH6CPjXhDjFiBn6	71	small_grey_rock	color	minimal	color	size redundant	3	2	0.3333333333333333	piedra gris	NA	piedra gris	1	0	rock	small	grey	TRUE	FALSE	TRUE	TRUE	FALSE
-ri9WkdRrTvaRgjAbd	1	small_blue_comb	size	minimal	size	color redundant	2	2	0	el mas chico__el peine mas chiquito	ese?	el mas chico	1	0	comb	small	blue	FALSE	TRUE	FALSE	TRUE	TRUE
-ri9WkdRrTvaRgjAbd	2	big_yellow_shoe	size and color	redundant	size	color redundant	3	2	0.3333333333333333	el amarillo mas grande	NA	el amarillo mas grande	0	1	shoe	big	yellow	TRUE	TRUE	FALSE	TRUE	TRUE
-ri9WkdRrTvaRgjAbd	4	small_red_stapler	size	minimal	size	color redundant	4	2	0.5	la grapadora mas chica	NA	la grapadora mas chica	1	0	stapler	small	red	FALSE	TRUE	FALSE	TRUE	TRUE
-ri9WkdRrTvaRgjAbd	5	big_red_candle	color	minimal	color	size redundant	2	2	0	roja	NA	roja	1	0	candle	big	red	TRUE	FALSE	FALSE	TRUE	FALSE
-ri9WkdRrTvaRgjAbd	7	small_pink_bucket	color	minimal	color	size redundant	3	1	0.6666666666666666	morada	NA	morada	1	0	bucket	small	pink	TRUE	FALSE	FALSE	TRUE	FALSE
-ri9WkdRrTvaRgjAbd	9	big_white_phone	color	minimal	color	size redundant	3	2	0.3333333333333333	blanco	NA	blanco	1	0	phone	big	white	TRUE	FALSE	FALSE	TRUE	TRUE
-ri9WkdRrTvaRgjAbd	10	small_pink_framee	size	minimal	size	color redundant	4	4	0	el mas chiquito	NA	el mas chiquito	1	0	framee	small	pink	FALSE	TRUE	FALSE	TRUE	TRUE
-ri9WkdRrTvaRgjAbd	19	big_blue_rug	color	minimal	color	size redundant	4	4	0	azul	NA	azul	1	0	rug	big	blue	TRUE	FALSE	FALSE	TRUE	FALSE
-ri9WkdRrTvaRgjAbd	20	small_purple_coathanger	size and color	redundant	size	color redundant	3	1	0.6666666666666666	morado chico	NA	morado chico	0	1	coathanger	small	purple	TRUE	TRUE	FALSE	TRUE	FALSE
-ri9WkdRrTvaRgjAbd	22	small_orange_cushion	size and color	redundant	size	color redundant	2	1	0.5	naranja chica	NA	naranja chica	0	1	cushion	small	orange	TRUE	TRUE	FALSE	TRUE	FALSE
-ri9WkdRrTvaRgjAbd	23	big_purple_bracelet	size and color	redundant	size	color redundant	4	2	0.5	morado mas grande	NA	morado mas grande	0	1	bracelet	big	purple	TRUE	TRUE	FALSE	TRUE	FALSE
-ri9WkdRrTvaRgjAbd	24	big_yellow_napkin	size and color	redundant	size	color redundant	4	3	0.25	amarilla mas grande	NA	amarilla mas grande	0	1	napkin	big	yellow	TRUE	TRUE	FALSE	TRUE	TRUE
-ri9WkdRrTvaRgjAbd	26	small_orange_cap	color	minimal	color	size redundant	3	1	0.6666666666666666	naranja	NA	naranja	1	0	cap	small	orange	TRUE	FALSE	FALSE	TRUE	FALSE
-ri9WkdRrTvaRgjAbd	28	big_orange_pingpongball	color	minimal	color	size redundant	3	2	0.3333333333333333	naranja	NA	naranja	1	0	pingpongball	big	orange	TRUE	FALSE	FALSE	TRUE	FALSE
-ri9WkdRrTvaRgjAbd	29	small_black_book	color	minimal	color	size redundant	4	4	0	negro	NA	negro	1	0	book	small	black	TRUE	FALSE	FALSE	TRUE	FALSE
-ri9WkdRrTvaRgjAbd	31	big_purple_hairdryer	size and color	redundant	size	color redundant	3	2	0.3333333333333333	morada mas grande	NA	morada mas grande	0	1	hairdryer	big	purple	TRUE	TRUE	FALSE	TRUE	FALSE
-ri9WkdRrTvaRgjAbd	35	small_green_binder	color	minimal	color	size redundant	4	2	0.5	verde	NA	verde	1	0	binder	small	green	TRUE	FALSE	FALSE	TRUE	FALSE
-ri9WkdRrTvaRgjAbd	36	big_red_bellpepper	size	minimal	size	color redundant	2	2	0	mas grande	NA	mas grande	1	0	bellpepper	big	red	FALSE	TRUE	FALSE	TRUE	FALSE
-ri9WkdRrTvaRgjAbd	38	small_red_scarf	color	minimal	color	size redundant	2	2	0	roja	NA	roja	1	0	scarf	small	red	TRUE	FALSE	FALSE	TRUE	FALSE
-ri9WkdRrTvaRgjAbd	39	small_red_chair	size and color	redundant	size	color redundant	4	1	0.75	naranja chica	NA	naranja chica	0	1	chair	small	red	TRUE	TRUE	FALSE	TRUE	FALSE
-ri9WkdRrTvaRgjAbd	40	big_black_belt	color	minimal	color	size redundant	4	3	0.25	negro	NA	negro	1	0	belt	big	black	TRUE	FALSE	FALSE	TRUE	FALSE
-ri9WkdRrTvaRgjAbd	46	big_yellow_balloon	color	minimal	color	size redundant	4	3	0.25	amarillo	NA	amarillo	1	0	balloon	big	yellow	TRUE	FALSE	FALSE	TRUE	FALSE
-ri9WkdRrTvaRgjAbd	48	small_brown_turtle	size	minimal	size	color redundant	3	3	0	mas chica	NA	mas chica	1	0	turtle	small	brown	FALSE	TRUE	FALSE	TRUE	FALSE
-ri9WkdRrTvaRgjAbd	49	big_pink_weddingcake	color	minimal	color	size redundant	4	1	0.75	rosa	NA	rosa	1	0	weddingcake	big	pink	TRUE	FALSE	FALSE	TRUE	FALSE
-ri9WkdRrTvaRgjAbd	50	small_green_guitar	size and color	redundant	size	color redundant	4	1	0.75	verde chica	NA	verde chica	0	1	guitar	small	green	TRUE	TRUE	FALSE	TRUE	FALSE
-ri9WkdRrTvaRgjAbd	56	small_white_teacup	color	minimal	color	size redundant	4	2	0.5	blanca	NA	blanca	1	0	teacup	small	white	TRUE	FALSE	FALSE	TRUE	TRUE
-ri9WkdRrTvaRgjAbd	57	small_red_yarn	color	minimal	color	size redundant	3	3	0	roja	NA	roja	1	0	yarn	small	red	TRUE	FALSE	FALSE	TRUE	FALSE
-ri9WkdRrTvaRgjAbd	61	big_red_bike	size and color	redundant	size	color redundant	4	3	0.25	roja grande	NA	roja grande	0	1	bike	big	red	TRUE	TRUE	FALSE	TRUE	FALSE
-ri9WkdRrTvaRgjAbd	64	big_red_pepper	size and color	redundant	size	color redundant	2	1	0.5	rojo grande	NA	rojo grande	0	1	pepper	big	red	TRUE	TRUE	FALSE	TRUE	FALSE
-ri9WkdRrTvaRgjAbd	66	big_red_tack	color	minimal	color	size redundant	3	3	0	rojo	NA	rojo	1	0	tack	big	red	TRUE	FALSE	FALSE	TRUE	FALSE
-ri9WkdRrTvaRgjAbd	67	small_blue_toothbrush	size	minimal	size	color redundant	3	3	0	mas chico	NA	mas chico	1	0	toothbrush	small	blue	FALSE	TRUE	FALSE	TRUE	FALSE
-ri9WkdRrTvaRgjAbd	68	big_brown_jacket	size and color	redundant	size	color redundant	3	1	0.6666666666666666	cafe grande	NA	cafe grande	0	1	jacket	big	brown	TRUE	TRUE	FALSE	TRUE	FALSE
-ri9WkdRrTvaRgjAbd	69	small_orange_billiardball	color	minimal	color	size redundant	4	1	0.75	roja	NA	roja	1	0	billiardball	small	orange	TRUE	FALSE	FALSE	TRUE	FALSE
-ri9WkdRrTvaRgjAbd	70	big_purple_butterfly	size	minimal	size	color redundant	4	4	0	mas grande	NA	mas grande	1	0	butterfly	big	purple	FALSE	TRUE	FALSE	TRUE	FALSE
-ri9WkdRrTvaRgjAbd	71	big_purple_flower	color	minimal	color	size redundant	2	1	0.5	morada	NA	morada	1	0	flower	big	purple	TRUE	FALSE	FALSE	TRUE	FALSE
+v2J2BjboP65oSJMoy	5	small_brown_belt	color	minimal	color	size redundant	2	1	0.5	light brown o cafe claro	NA	light brown o cafe claro	1	0	belt	small	brown	TRUE	FALSE	FALSE	FALSE	FALSE
+v2J2BjboP65oSJMoy	10	small_white_phone	color	minimal	color	size redundant	2	1	0.5	white o blanco	NA	white o blanco	1	0	phone	small	white	TRUE	FALSE	FALSE	FALSE	FALSE
+TXdqz7vwbJSeKpJHS	46	small_brown_belt	color	minimal	color	size redundant	2	1	0.5	marron claro	NA	marron claro	1	0	belt	small	brown	TRUE	FALSE	FALSE	FALSE	FALSE
+TXdqz7vwbJSeKpJHS	59	big_blue_tack	color	minimal	color	size redundant	2	1	0.5	azul	NA	azul	1	0	tack	big	blue	TRUE	FALSE	FALSE	FALSE	FALSE
+g8tXfbQJ5w3Yo5kXq	18	small_purple_yarn	color	minimal	color	size redundant	2	1	0.5	lana morada	violeta?	lana morada	1	0	yarn	small	purple	TRUE	FALSE	TRUE	FALSE	FALSE
+g8tXfbQJ5w3Yo5kXq	64	big_pink_balloon	color	minimal	color	size redundant	2	1	0.5	rosa	ok	rosa	1	0	balloon	big	pink	TRUE	FALSE	FALSE	FALSE	FALSE
+Drac2QY2EJGirNSty	15	small_yellow_bellpepper	color	minimal	color	size redundant	2	1	0.5	pimiento amarillo	NA	pimiento amarillo	1	0	bellpepper	small	yellow	TRUE	FALSE	TRUE	FALSE	FALSE
+Drac2QY2EJGirNSty	24	small_purple_hairdryer	color	minimal	color	size redundant	2	1	0.5	secador morado	NA	secador morado	1	0	hairdryer	small	purple	TRUE	FALSE	TRUE	FALSE	FALSE
+ncA5wQm2wMWx6Qw4m	41	big_blue_cap	color	minimal	color	size redundant	2	1	0.5	azul	NA	azul	1	0	cap	big	blue	TRUE	FALSE	FALSE	FALSE	FALSE
+ncA5wQm2wMWx6Qw4m	42	small_pink_teacup	color	minimal	color	size redundant	2	1	0.5	rosa	NA	rosa	1	0	teacup	small	pink	TRUE	FALSE	FALSE	FALSE	FALSE
+RdyH6CPjXhDjFiBn6	33	big_red_flower	color	minimal	color	size redundant	2	1	0.5	flor roja	NA	flor roja	1	0	flower	big	red	TRUE	FALSE	TRUE	FALSE	FALSE
+RdyH6CPjXhDjFiBn6	39	small_green_jacket	color	minimal	color	size redundant	2	1	0.5	chamarra verde	NA	chamarra verde	1	0	jacket	small	green	TRUE	FALSE	TRUE	FALSE	FALSE
+ri9WkdRrTvaRgjAbd	32	big_tan_rock	color	minimal	color	size redundant	2	1	0.5	amarillenta	NA	amarillenta	1	0	rock	big	tan	TRUE	FALSE	FALSE	FALSE	FALSE
+ri9WkdRrTvaRgjAbd	71	big_purple_flower	color	minimal	color	size redundant	2	1	0.5	morada	NA	morada	1	0	flower	big	purple	TRUE	FALSE	FALSE	FALSE	FALSE
+xiA5WJQ9BBwufErLv	14	small_red_toothbrush	color	minimal	color	size redundant	2	1	0.5	rojo	NA	rojo	1	0	toothbrush	small	red	TRUE	FALSE	FALSE	FALSE	FALSE
+8mztCuTtp44PNj9aR	24	small_purple_yarn	color	minimal	color	size redundant	2	1	0.5	morado	NA	morado	1	0	yarn	small	purple	TRUE	FALSE	FALSE	FALSE	FALSE
+8mztCuTtp44PNj9aR	30	big_white_pingpongball	color	minimal	color	size redundant	2	1	0.5	blanca	NA	blanca	1	0	pingpongball	big	white	TRUE	FALSE	FALSE	FALSE	FALSE
+PLenL62JMPMEiyEZd	39	big_purple_flower	color	minimal	color	size redundant	2	1	0.5	morada	NA	morada	1	0	flower	big	purple	TRUE	FALSE	FALSE	FALSE	FALSE
+PLenL62JMPMEiyEZd	46	big_blue_rug	color	minimal	color	size redundant	2	1	0.5	azul	NA	azul	1	0	rug	big	blue	TRUE	FALSE	FALSE	FALSE	FALSE
+MjtKysa8uTdkgCZhY	70	small_brown_belt	color	minimal	color	size redundant	2	1	0.5	marron	NA	marron	1	0	belt	small	brown	TRUE	FALSE	FALSE	FALSE	FALSE
+5FBHB2gcEAxFrnBTj	41	small_green_chair	color	minimal	color	size redundant	2	1	0.5	verde	color, tamaño	verde	1	0	chair	small	green	TRUE	FALSE	FALSE	FALSE	FALSE
+5FBHB2gcEAxFrnBTj	68	big_blue_candle	color	minimal	color	size redundant	2	1	0.5	morado	color, tamaño	morado	1	0	candle	big	blue	TRUE	FALSE	FALSE	FALSE	FALSE
+krPu8jL2ifeQiJtiz	39	small_purple_bike	color	minimal	color	size redundant	2	1	0.5	rosa	NA	rosa	1	0	bike	small	purple	TRUE	FALSE	FALSE	FALSE	FALSE
+krPu8jL2ifeQiJtiz	41	big_green_framee	color	minimal	color	size redundant	2	1	0.5	verde	NA	verde	1	0	framee	big	green	TRUE	FALSE	FALSE	FALSE	FALSE
+L3TwC8ZM9Kcs7QBx4	10	big_blue_guitar	color	minimal	color	size redundant	2	1	0.5	la guitarra electrica azul	NA	la guitarra electrica azul	1	0	guitar	big	blue	TRUE	FALSE	TRUE	FALSE	TRUE
+L3TwC8ZM9Kcs7QBx4	60	big_white_weddingcake	color	minimal	color	size redundant	2	1	0.5	el pastel blanco	NA	el pastel blanco	1	0	weddingcake	big	white	TRUE	FALSE	FALSE	FALSE	TRUE
+o9ajiSJQsC87WWPMG	42	big_green_framee	color	minimal	color	size redundant	2	1	0.5	verde	NA	verde	1	0	framee	big	green	TRUE	FALSE	FALSE	FALSE	FALSE
+o9ajiSJQsC87WWPMG	60	big_green_jacket	color	minimal	color	size redundant	2	1	0.5	verde	NA	verde	1	0	jacket	big	green	TRUE	FALSE	FALSE	FALSE	FALSE
+w2fzmfuovTcBBykSN	39	big_orange_billiardball	color	minimal	color	size redundant	2	1	0.5	naranja	NA	naranja	1	0	billiardball	big	orange	TRUE	FALSE	FALSE	FALSE	FALSE
+w2fzmfuovTcBBykSN	64	big_white_teacup	color	minimal	color	size redundant	2	1	0.5	blanca	NA	blanca	1	0	teacup	big	white	TRUE	FALSE	FALSE	FALSE	FALSE
+s4qdZmttuex8PYHYK	4	big_red_toothbrush	color	minimal	color	size redundant	2	1	0.5	el rojo	NA	el rojo	1	0	toothbrush	big	red	TRUE	FALSE	FALSE	FALSE	TRUE
+S7FpNmQk9XcQXJHTf	26	big_purple_bike	color	minimal	color	size redundant	2	1	0.5	es voleta__violeta*	NA	es voleta	1	0	bike	big	purple	TRUE	FALSE	FALSE	FALSE	FALSE
+S7FpNmQk9XcQXJHTf	46	small_orange_coathanger	color	minimal	color	size redundant	2	1	0.5	es naranja	NA	es naranja	1	0	coathanger	small	orange	TRUE	FALSE	FALSE	FALSE	FALSE
+ZdgvjcuMKtwGjydbR	49	big_orange_pingpongball	color	minimal	color	size redundant	2	1	0.5	amarillo	NA	amarillo	1	0	pingpongball	big	orange	TRUE	FALSE	FALSE	FALSE	FALSE
+ZdgvjcuMKtwGjydbR	55	big_blue_binder	color	minimal	color	size redundant	2	1	0.5	azul	NA	azul	1	0	binder	big	blue	TRUE	FALSE	FALSE	FALSE	FALSE
+89kCaivgGxt9As4s5	46	small_red_flower	color	minimal	color	size redundant	2	1	0.5	roja	NA	roja	1	0	flower	small	red	TRUE	FALSE	FALSE	FALSE	FALSE
+89kCaivgGxt9As4s5	48	small_purple_bracelet	color	minimal	color	size redundant	2	1	0.5	morado	NA	morado	1	0	bracelet	small	purple	TRUE	FALSE	FALSE	FALSE	FALSE
+mJWL79uZrXh3YMtMs	32	big_white_teacup	color	minimal	color	size redundant	2	1	0.5	blanco	NA	blanco	1	0	teacup	big	white	TRUE	FALSE	FALSE	FALSE	FALSE
+mJWL79uZrXh3YMtMs	53	big_blue_guitar	color	minimal	color	size redundant	2	1	0.5	azul	NA	azul	1	0	guitar	big	blue	TRUE	FALSE	FALSE	FALSE	FALSE
+9xQZnMmmLAedmSnpb	20	small_blue_book	color	minimal	color	size redundant	2	1	0.5	libro azul	NA	libro azul	1	0	book	small	blue	TRUE	FALSE	TRUE	FALSE	FALSE
+9xQZnMmmLAedmSnpb	31	big_red_bucket	color	minimal	color	size redundant	2	1	0.5	cubeta roja	NA	cubeta roja	1	0	bucket	big	red	TRUE	FALSE	TRUE	FALSE	FALSE
+KchWPEsJ7AK6yb5ab	35	small_orange_coathanger	color	minimal	color	size redundant	2	1	0.5	naranja	NA	naranja	1	0	coathanger	small	orange	TRUE	FALSE	FALSE	FALSE	FALSE
+KchWPEsJ7AK6yb5ab	66	small_blue_binder	color	minimal	color	size redundant	2	1	0.5	azul	NA	azul	1	0	binder	small	blue	TRUE	FALSE	FALSE	FALSE	FALSE
+6iNLyBqiCFSzy3vxQ	42	small_red_bucket	color	minimal	color	size redundant	2	1	0.5	balde rojo	NA	balde rojo	1	0	bucket	small	red	TRUE	FALSE	TRUE	FALSE	FALSE
+6iNLyBqiCFSzy3vxQ	66	small_white_pingpongball	color	minimal	color	size redundant	2	1	0.5	pelota banca	NA	pelota banca	1	0	pingpongball	small	white	TRUE	FALSE	TRUE	FALSE	FALSE
+TXdqz7vwbJSeKpJHS	31	small_red_bellpepper	color	minimal	color	size redundant	2	2	0	rojo	NA	rojo	1	0	bellpepper	small	red	TRUE	FALSE	FALSE	FALSE	FALSE
+TXdqz7vwbJSeKpJHS	32	small_yellow_balloon	color	minimal	color	size redundant	2	2	0	amarillo	NA	amarillo	1	0	balloon	small	yellow	TRUE	FALSE	FALSE	FALSE	FALSE
+g8tXfbQJ5w3Yo5kXq	31	small_red_toothbrush	color	minimal	color	size redundant	2	2	0	rojo	rojo?	rojo	1	0	toothbrush	small	red	TRUE	FALSE	FALSE	FALSE	FALSE
+g8tXfbQJ5w3Yo5kXq	54	small_green_framee	color	minimal	color	size redundant	2	2	0	verde	verde?	verde	1	0	framee	small	green	TRUE	FALSE	FALSE	FALSE	FALSE
+Drac2QY2EJGirNSty	10	small_white_pingpongball	color	minimal	color	size redundant	2	2	0	bola blanca	NA	bola blanca	1	0	pingpongball	small	white	TRUE	FALSE	TRUE	FALSE	FALSE
+Drac2QY2EJGirNSty	23	small_white_phone	color	minimal	color	size redundant	2	2	0	el blanco	NA	el blanco	1	0	phone	small	white	TRUE	FALSE	FALSE	FALSE	TRUE
+ncA5wQm2wMWx6Qw4m	13	small_blue_cushion	color	minimal	color	size redundant	2	2	0	azul	NA	azul	1	0	cushion	small	blue	TRUE	FALSE	FALSE	FALSE	FALSE
+ncA5wQm2wMWx6Qw4m	19	small_red_scarf	color	minimal	color	size redundant	2	2	0	rojo	NA	rojo	1	0	scarf	small	red	TRUE	FALSE	FALSE	FALSE	FALSE
+RdyH6CPjXhDjFiBn6	7	big_pink_balloon	color	minimal	color	size redundant	2	2	0	globo rosa	NA	globo rosa	1	0	balloon	big	pink	TRUE	FALSE	TRUE	FALSE	FALSE
+RdyH6CPjXhDjFiBn6	19	big_white_shoe	color	minimal	color	size redundant	2	2	0	zapato gris	NA	zapato gris	1	0	shoe	big	white	TRUE	FALSE	TRUE	FALSE	FALSE
+ri9WkdRrTvaRgjAbd	5	big_red_candle	color	minimal	color	size redundant	2	2	0	roja	NA	roja	1	0	candle	big	red	TRUE	FALSE	FALSE	FALSE	FALSE
+ri9WkdRrTvaRgjAbd	38	small_red_scarf	color	minimal	color	size redundant	2	2	0	roja	NA	roja	1	0	scarf	small	red	TRUE	FALSE	FALSE	FALSE	FALSE
+xiA5WJQ9BBwufErLv	40	small_red_scarf	color	minimal	color	size redundant	2	2	0	rojo	NA	rojo	1	0	scarf	small	red	TRUE	FALSE	FALSE	FALSE	FALSE
+8mztCuTtp44PNj9aR	56	big_purple_hairdryer	color	minimal	color	size redundant	2	2	0	morado	NA	morado	1	0	hairdryer	big	purple	TRUE	FALSE	FALSE	FALSE	FALSE
+8mztCuTtp44PNj9aR	58	big_blue_cap	color	minimal	color	size redundant	2	2	0	azul	NA	azul	1	0	cap	big	blue	TRUE	FALSE	FALSE	FALSE	FALSE
+PLenL62JMPMEiyEZd	13	small_pink_balloon	color	minimal	color	size redundant	2	2	0	rosa	NA	rosa	1	0	balloon	small	pink	TRUE	FALSE	FALSE	FALSE	FALSE
+PLenL62JMPMEiyEZd	42	small_yellow_shoe	color	minimal	color	size redundant	2	2	0	amarillo	NA	amarillo	1	0	shoe	small	yellow	TRUE	FALSE	FALSE	FALSE	FALSE
+5FBHB2gcEAxFrnBTj	3	big_red_tack	color	minimal	color	size redundant	2	2	0	rojo	color?	rojo	1	0	tack	big	red	TRUE	FALSE	FALSE	FALSE	FALSE
+5FBHB2gcEAxFrnBTj	16	small_green_binder	color	minimal	color	size redundant	2	2	0	verde	color?	verde	1	0	binder	small	green	TRUE	FALSE	FALSE	FALSE	FALSE
+krPu8jL2ifeQiJtiz	9	small_orange_pingpongball	color	minimal	color	size redundant	2	2	0	naranja	NA	naranja	1	0	pingpongball	small	orange	TRUE	FALSE	FALSE	FALSE	FALSE
+krPu8jL2ifeQiJtiz	27	big_grey_rock	color	minimal	color	size redundant	2	2	0	gris	NA	gris	1	0	rock	big	grey	TRUE	FALSE	FALSE	FALSE	FALSE
+L3TwC8ZM9Kcs7QBx4	4	big_purple_bike	color	minimal	color	size redundant	2	2	0	la bicicleta rosa	NA	la bicicleta rosa	1	0	bike	big	purple	TRUE	FALSE	TRUE	FALSE	TRUE
+o9ajiSJQsC87WWPMG	18	big_blue_book	color	minimal	color	size redundant	2	2	0	azul	NA	azul	1	0	book	big	blue	TRUE	FALSE	FALSE	FALSE	FALSE
+w2fzmfuovTcBBykSN	4	small_pink_weddingcake	color	minimal	color	size redundant	2	2	0	rosa - pink	NA	rosa - pink	1	0	weddingcake	small	pink	TRUE	FALSE	FALSE	FALSE	FALSE
+w2fzmfuovTcBBykSN	17	big_purple_bracelet	color	minimal	color	size redundant	2	2	0	morado	NA	morado	1	0	bracelet	big	purple	TRUE	FALSE	FALSE	FALSE	FALSE
+s4qdZmttuex8PYHYK	42	small_red_bike	color	minimal	color	size redundant	2	2	0	el rojo	NA	el rojo	1	0	bike	small	red	TRUE	FALSE	FALSE	FALSE	TRUE
+s4qdZmttuex8PYHYK	70	small_orange_cap	color	minimal	color	size redundant	2	2	0	el naranja	NA	el naranja	1	0	cap	small	orange	TRUE	FALSE	FALSE	FALSE	TRUE
+S7FpNmQk9XcQXJHTf	51	small_purple_yarn	color	minimal	color	size redundant	2	2	0	es lila	NA	es lila	1	0	yarn	small	purple	TRUE	FALSE	FALSE	FALSE	FALSE
+S7FpNmQk9XcQXJHTf	57	big_orange_napkin	color	minimal	color	size redundant	2	2	0	es naranja	NA	es naranja	1	0	napkin	big	orange	TRUE	FALSE	FALSE	FALSE	FALSE
+ZdgvjcuMKtwGjydbR	52	small_red_pepper	color	minimal	color	size redundant	2	2	0	rojo	NA	rojo	1	0	pepper	small	red	TRUE	FALSE	FALSE	FALSE	FALSE
+ZdgvjcuMKtwGjydbR	54	small_green_guitar	color	minimal	color	size redundant	2	2	0	verde	NA	verde	1	0	guitar	small	green	TRUE	FALSE	FALSE	FALSE	FALSE
+89kCaivgGxt9As4s5	49	small_red_toothbrush	color	minimal	color	size redundant	2	2	0	rojo	NA	rojo	1	0	toothbrush	small	red	TRUE	FALSE	FALSE	FALSE	FALSE
+89kCaivgGxt9As4s5	71	small_green_pepper	color	minimal	color	size redundant	2	2	0	verde	NA	verde	1	0	pepper	small	green	TRUE	FALSE	FALSE	FALSE	FALSE
+mJWL79uZrXh3YMtMs	22	big_purple_coathanger	color	minimal	color	size redundant	2	2	0	morado	NA	morado	1	0	coathanger	big	purple	TRUE	FALSE	FALSE	FALSE	FALSE
+mJWL79uZrXh3YMtMs	57	small_red_bucket	color	minimal	color	size redundant	2	2	0	cubeta roja	NA	cubeta roja	1	0	bucket	small	red	TRUE	FALSE	TRUE	FALSE	FALSE
+9xQZnMmmLAedmSnpb	16	big_blue_guitar	color	minimal	color	size redundant	2	2	0	el bajo azul	NA	el bajo azul	1	0	guitar	big	blue	TRUE	FALSE	TRUE	FALSE	TRUE
+9xQZnMmmLAedmSnpb	19	small_grey_rock	color	minimal	color	size redundant	2	2	0	la piedra gris	NA	la piedra gris	1	0	rock	small	grey	TRUE	FALSE	TRUE	FALSE	TRUE
+KchWPEsJ7AK6yb5ab	19	small_black_belt	color	minimal	color	size redundant	2	2	0	negro	NA	negro	1	0	belt	small	black	TRUE	FALSE	FALSE	FALSE	FALSE
+KchWPEsJ7AK6yb5ab	38	small_red_toothbrush	color	minimal	color	size redundant	2	2	0	rojo	NA	rojo	1	0	toothbrush	small	red	TRUE	FALSE	FALSE	FALSE	FALSE
+6iNLyBqiCFSzy3vxQ	14	big_brown_belt	color	minimal	color	size redundant	2	2	0	cinturon cafe	NA	cinturon cafe	1	0	belt	big	brown	TRUE	FALSE	TRUE	FALSE	FALSE
+6iNLyBqiCFSzy3vxQ	53	small_blue_cap	color	minimal	color	size redundant	2	2	0	gorro azul	NA	gorro azul	1	0	cap	small	blue	TRUE	FALSE	TRUE	FALSE	FALSE
+TXdqz7vwbJSeKpJHS	57	big_purple_rug	size and color	redundant	color	size redundant	3	1	0.6666666666666666	morado, la mas grande	NA	morado, la mas grande	0	1	rug	big	purple	TRUE	TRUE	FALSE	FALSE	TRUE
+g8tXfbQJ5w3Yo5kXq	11	big_yellow_shoe	color	minimal	color	size redundant	3	1	0.6666666666666666	zapato amarillo	amarillo?	zapato amarillo	1	0	shoe	big	yellow	TRUE	FALSE	TRUE	FALSE	FALSE
+g8tXfbQJ5w3Yo5kXq	56	big_orange_coathanger	color	minimal	color	size redundant	3	1	0.6666666666666666	naranja	naranja?	naranja	1	0	coathanger	big	orange	TRUE	FALSE	FALSE	FALSE	FALSE
+Drac2QY2EJGirNSty	9	big_red_toothbrush	color	minimal	color	size redundant	3	1	0.6666666666666666	cepillo rohjo__rojo	vale	cepillo rohjo	1	0	toothbrush	big	red	TRUE	FALSE	TRUE	FALSE	FALSE
+Drac2QY2EJGirNSty	55	big_blue_tack	color	minimal	color	size redundant	3	1	0.6666666666666666	el azul	NA	el azul	1	0	tack	big	blue	TRUE	FALSE	FALSE	FALSE	TRUE
+ncA5wQm2wMWx6Qw4m	4	big_orange_napkin	color	minimal	color	size redundant	3	1	0.6666666666666666	naranja	NA	naranja	1	0	napkin	big	orange	TRUE	FALSE	FALSE	FALSE	FALSE
+ncA5wQm2wMWx6Qw4m	16	big_purple_bracelet	color	minimal	color	size redundant	3	1	0.6666666666666666	morado	NA	morado	1	0	bracelet	big	purple	TRUE	FALSE	FALSE	FALSE	FALSE
+RdyH6CPjXhDjFiBn6	41	big_red_bellpepper	color	minimal	color	size redundant	3	1	0.6666666666666666	pimiento rojo	NA	pimiento rojo	1	0	bellpepper	big	red	TRUE	FALSE	FALSE	FALSE	FALSE
+RdyH6CPjXhDjFiBn6	49	big_pink_phone	color	minimal	color	size redundant	3	1	0.6666666666666666	teléfono rosa	NA	teléfono rosa	1	0	phone	big	pink	TRUE	FALSE	TRUE	FALSE	FALSE
+ri9WkdRrTvaRgjAbd	7	small_pink_bucket	color	minimal	color	size redundant	3	1	0.6666666666666666	morada	NA	morada	1	0	bucket	small	pink	TRUE	FALSE	FALSE	FALSE	FALSE
+ri9WkdRrTvaRgjAbd	26	small_orange_cap	color	minimal	color	size redundant	3	1	0.6666666666666666	naranja	NA	naranja	1	0	cap	small	orange	TRUE	FALSE	FALSE	FALSE	FALSE
+8mztCuTtp44PNj9aR	21	big_blue_book	color	minimal	color	size redundant	3	1	0.6666666666666666	azul	NA	azul	1	0	book	big	blue	TRUE	FALSE	FALSE	FALSE	FALSE
+8mztCuTtp44PNj9aR	72	small_pink_framee	color	minimal	color	size redundant	3	1	0.6666666666666666	rosa	NA	rosa	1	0	framee	small	pink	TRUE	FALSE	FALSE	FALSE	FALSE
+PLenL62JMPMEiyEZd	37	small_white_teacup	color	minimal	color	size redundant	3	1	0.6666666666666666	blanco	NA	blanco	1	0	teacup	small	white	TRUE	FALSE	FALSE	FALSE	FALSE
+MjtKysa8uTdkgCZhY	9	big_purple_yarn	color	minimal	color	size redundant	3	1	0.6666666666666666	morado	es rojo y grande?	morado	1	0	yarn	big	purple	TRUE	FALSE	FALSE	FALSE	FALSE
+5FBHB2gcEAxFrnBTj	7	small_white_phone	size and color	redundant	color	size redundant	3	1	0.6666666666666666	blanco y pequeño	color y tamaño?	blanco y pequeño	0	1	phone	small	white	TRUE	TRUE	FALSE	FALSE	FALSE
+5FBHB2gcEAxFrnBTj	39	small_purple_butterfly	color	minimal	color	size redundant	3	1	0.6666666666666666	rosa	color y tamaño?	rosa	1	0	butterfly	small	purple	TRUE	FALSE	FALSE	FALSE	FALSE
+krPu8jL2ifeQiJtiz	7	big_white_weddingcake	color	minimal	color	size redundant	3	1	0.6666666666666666	blanco	NA	blanco	1	0	weddingcake	big	white	TRUE	FALSE	FALSE	FALSE	FALSE
+krPu8jL2ifeQiJtiz	34	big_pink_phone	color	minimal	color	size redundant	3	1	0.6666666666666666	rosa	NA	rosa	1	0	phone	big	pink	TRUE	FALSE	FALSE	FALSE	FALSE
+L3TwC8ZM9Kcs7QBx4	42	small_blue_butterfly	color	minimal	color	size redundant	3	1	0.6666666666666666	la mariposa azul	NA	la mariposa azul	1	0	butterfly	small	blue	TRUE	FALSE	TRUE	FALSE	TRUE
+L3TwC8ZM9Kcs7QBx4	71	small_orange_billiardball	color	minimal	color	size redundant	3	1	0.6666666666666666	la bola naranja	NA	la bola naranja	1	0	billiardball	small	orange	TRUE	FALSE	TRUE	FALSE	TRUE
+o9ajiSJQsC87WWPMG	28	big_pink_phone	color	minimal	color	size redundant	3	1	0.6666666666666666	rosa	NA	rosa	1	0	phone	big	pink	TRUE	FALSE	FALSE	FALSE	FALSE
+o9ajiSJQsC87WWPMG	58	big_orange_billiardball	color	minimal	color	size redundant	3	1	0.6666666666666666	naranja	NA	naranja	1	0	billiardball	big	orange	TRUE	FALSE	FALSE	FALSE	FALSE
+w2fzmfuovTcBBykSN	9	small_red_scarf	color	minimal	color	size redundant	3	1	0.6666666666666666	rojo	NA	rojo	1	0	scarf	small	red	TRUE	FALSE	FALSE	FALSE	FALSE
+w2fzmfuovTcBBykSN	37	small_red_flower	color	minimal	color	size redundant	3	1	0.6666666666666666	roja	NA	roja	1	0	flower	small	red	TRUE	FALSE	FALSE	FALSE	FALSE
+s4qdZmttuex8PYHYK	11	small_blue_butterfly	color	minimal	color	size redundant	3	1	0.6666666666666666	el azul	NA	el azul	1	0	butterfly	small	blue	TRUE	FALSE	FALSE	FALSE	TRUE
+s4qdZmttuex8PYHYK	22	big_yellow_napkin	color	minimal	color	size redundant	3	1	0.6666666666666666	el amarillo	NA	el amarillo	1	0	napkin	big	yellow	TRUE	FALSE	FALSE	FALSE	TRUE
+S7FpNmQk9XcQXJHTf	54	small_red_bucket	color	minimal	color	size redundant	3	1	0.6666666666666666	es roja	NA	es roja	1	0	bucket	small	red	TRUE	FALSE	FALSE	FALSE	FALSE
+S7FpNmQk9XcQXJHTf	58	big_purple_butterfly	color	minimal	color	size redundant	3	1	0.6666666666666666	es rosada	NA	es rosada	1	0	butterfly	big	purple	TRUE	FALSE	FALSE	FALSE	FALSE
+ZdgvjcuMKtwGjydbR	38	small_white_weddingcake	color	minimal	color	size redundant	3	1	0.6666666666666666	blanco	NA	blanco	1	0	weddingcake	small	white	TRUE	FALSE	FALSE	FALSE	FALSE
+ZdgvjcuMKtwGjydbR	41	small_blue_candle	color	minimal	color	size redundant	3	1	0.6666666666666666	azul	NA	azul	1	0	candle	small	blue	TRUE	FALSE	FALSE	FALSE	FALSE
+89kCaivgGxt9As4s5	26	small_orange_cushion	color	minimal	color	size redundant	3	1	0.6666666666666666	naranja	NA	naranja	1	0	cushion	small	orange	TRUE	FALSE	FALSE	FALSE	FALSE
+89kCaivgGxt9As4s5	68	small_blue_binder	color	minimal	color	size redundant	3	1	0.6666666666666666	azul	NA	azul	1	0	binder	small	blue	TRUE	FALSE	FALSE	FALSE	FALSE
+KkMmp5urRFWCQh3Hb	25	big_black_book	color	minimal	color	size redundant	3	1	0.6666666666666666	biblia negra	NA	biblia negra	1	0	book	big	black	TRUE	FALSE	TRUE	FALSE	FALSE
+KkMmp5urRFWCQh3Hb	70	big_red_yarn	color	minimal	color	size redundant	3	1	0.6666666666666666	rojo	NA	rojo	1	0	yarn	big	red	TRUE	FALSE	FALSE	FALSE	FALSE
+mJWL79uZrXh3YMtMs	16	small_white_weddingcake	color	minimal	color	size redundant	3	1	0.6666666666666666	blanco	NA	blanco	1	0	weddingcake	small	white	TRUE	FALSE	FALSE	FALSE	FALSE
+mJWL79uZrXh3YMtMs	33	big_green_jacket	color	minimal	color	size redundant	3	1	0.6666666666666666	verde	NA	verde	1	0	jacket	big	green	TRUE	FALSE	FALSE	FALSE	FALSE
+9xQZnMmmLAedmSnpb	11	big_orange_napkin	color	minimal	color	size redundant	3	1	0.6666666666666666	selecciona el trapo naranja	NA	selecciona el trapo naranja	1	0	napkin	big	orange	TRUE	FALSE	TRUE	FALSE	TRUE
+9xQZnMmmLAedmSnpb	67	small_blue_candle	color	minimal	color	size redundant	3	1	0.6666666666666666	la vela azul	NA	la vela azul	1	0	candle	small	blue	TRUE	FALSE	TRUE	FALSE	TRUE
+KchWPEsJ7AK6yb5ab	28	small_green_guitar	color	minimal	color	size redundant	3	1	0.6666666666666666	verde	NA	verde	1	0	guitar	small	green	TRUE	FALSE	FALSE	FALSE	FALSE
+KchWPEsJ7AK6yb5ab	30	big_orange_cap	color	minimal	color	size redundant	3	1	0.6666666666666666	amarillo	NA	amarillo	1	0	cap	big	orange	TRUE	FALSE	FALSE	FALSE	FALSE
+6iNLyBqiCFSzy3vxQ	1	small_orange_coathanger	color	minimal	color	size redundant	3	1	0.6666666666666666	colgador anaranjado	NA	colgador anaranjado	1	0	coathanger	small	orange	TRUE	FALSE	TRUE	FALSE	FALSE
+6iNLyBqiCFSzy3vxQ	32	big_blue_butterfly	color	minimal	color	size redundant	3	1	0.6666666666666666	mariposa azul	NA	mariposa azul	1	0	butterfly	big	blue	TRUE	FALSE	TRUE	FALSE	FALSE
+v2J2BjboP65oSJMoy	14	small_purple_hairdryer	color	minimal	color	size redundant	3	2	0.3333333333333333	purple o morado	NA	purple o morado	1	0	hairdryer	small	purple	TRUE	FALSE	FALSE	FALSE	FALSE
+TXdqz7vwbJSeKpJHS	45	big_orange_coathanger	color	minimal	color	size redundant	3	2	0.3333333333333333	naranja	NA	naranja	1	0	coathanger	big	orange	TRUE	FALSE	FALSE	FALSE	FALSE
+TXdqz7vwbJSeKpJHS	62	big_green_framee	color	minimal	color	size redundant	3	2	0.3333333333333333	verde	NA	verde	1	0	framee	big	green	TRUE	FALSE	FALSE	FALSE	FALSE
+g8tXfbQJ5w3Yo5kXq	8	big_purple_bracelet	color	minimal	color	size redundant	3	2	0.3333333333333333	collar morado	violeta?	collar morado	1	0	bracelet	big	purple	TRUE	FALSE	TRUE	FALSE	FALSE
+g8tXfbQJ5w3Yo5kXq	68	big_blue_binder	color	minimal	color	size redundant	3	2	0.3333333333333333	azul	azul?	azul	1	0	binder	big	blue	TRUE	FALSE	FALSE	FALSE	FALSE
+Drac2QY2EJGirNSty	2	small_pink_framee	color	minimal	color	size redundant	3	2	0.3333333333333333	cuadro rosa	NA	cuadro rosa	1	0	framee	small	pink	TRUE	FALSE	TRUE	FALSE	FALSE
+Drac2QY2EJGirNSty	3	small_blue_guitar	color	minimal	color	size redundant	3	2	0.3333333333333333	guitarra azul	NA	guitarra azul	1	0	guitar	small	blue	TRUE	FALSE	TRUE	FALSE	FALSE
+ncA5wQm2wMWx6Qw4m	30	small_green_pepper	color	minimal	color	size redundant	3	2	0.3333333333333333	verde	NA	verde	1	0	pepper	small	green	TRUE	FALSE	FALSE	FALSE	FALSE
+ncA5wQm2wMWx6Qw4m	64	small_brown_turtle	color	minimal	color	size redundant	3	2	0.3333333333333333	íbamos bien jaja tortuga café	NA	íbamos bien jaja tortuga café	1	0	turtle	small	brown	TRUE	FALSE	TRUE	FALSE	FALSE
+RdyH6CPjXhDjFiBn6	15	big_brown_turtle	color	minimal	color	size redundant	3	2	0.3333333333333333	tortuga verde claro	NA	tortuga verde claro	1	0	turtle	big	brown	TRUE	FALSE	TRUE	FALSE	FALSE
+RdyH6CPjXhDjFiBn6	71	small_grey_rock	color	minimal	color	size redundant	3	2	0.3333333333333333	piedra gris	NA	piedra gris	1	0	rock	small	grey	TRUE	FALSE	TRUE	FALSE	FALSE
+ri9WkdRrTvaRgjAbd	9	big_white_phone	color	minimal	color	size redundant	3	2	0.3333333333333333	blanco	NA	blanco	1	0	phone	big	white	TRUE	FALSE	FALSE	FALSE	FALSE
+ri9WkdRrTvaRgjAbd	28	big_orange_pingpongball	color	minimal	color	size redundant	3	2	0.3333333333333333	naranja	NA	naranja	1	0	pingpongball	big	orange	TRUE	FALSE	FALSE	FALSE	FALSE
+xiA5WJQ9BBwufErLv	9	big_green_framee	color	minimal	color	size redundant	3	2	0.3333333333333333	verde	NA	verde	1	0	framee	big	green	TRUE	FALSE	FALSE	FALSE	FALSE
+xiA5WJQ9BBwufErLv	56	small_green_chair	color	minimal	color	size redundant	3	2	0.3333333333333333	verde	NA	verde	1	0	chair	small	green	TRUE	FALSE	FALSE	FALSE	FALSE
+8mztCuTtp44PNj9aR	51	small_white_weddingcake	color	minimal	color	size redundant	3	2	0.3333333333333333	blanco	NA	blanco	1	0	weddingcake	small	white	TRUE	FALSE	FALSE	FALSE	FALSE
+PLenL62JMPMEiyEZd	11	small_green_pepper	color	minimal	color	size redundant	3	2	0.3333333333333333	verde	NA	verde	1	0	pepper	small	green	TRUE	FALSE	FALSE	FALSE	FALSE
+PLenL62JMPMEiyEZd	21	small_pink_phone	color	minimal	color	size redundant	3	2	0.3333333333333333	rosa	NA	rosa	1	0	phone	small	pink	TRUE	FALSE	FALSE	FALSE	FALSE
+MjtKysa8uTdkgCZhY	28	small_blue_rug	color	minimal	color	size redundant	3	2	0.3333333333333333	azul	grande?	azul	1	0	rug	small	blue	TRUE	FALSE	FALSE	FALSE	FALSE
+5FBHB2gcEAxFrnBTj	14	big_black_book	size and color	redundant	color	size redundant	3	2	0.3333333333333333	negro tamaño grande	color y tamaño?	negro tamaño grande	0	1	book	big	black	TRUE	TRUE	FALSE	FALSE	FALSE
+5FBHB2gcEAxFrnBTj	66	big_yellow_bellpepper	color	minimal	color	size redundant	3	2	0.3333333333333333	amarillo	color, tamaño	amarillo	1	0	bellpepper	big	yellow	TRUE	FALSE	FALSE	FALSE	FALSE
+krPu8jL2ifeQiJtiz	46	small_purple_billiardball	color	minimal	color	size redundant	3	2	0.3333333333333333	lila	NA	lila	1	0	billiardball	small	purple	TRUE	FALSE	FALSE	FALSE	FALSE
+krPu8jL2ifeQiJtiz	48	small_pink_hairdryer	color	minimal	color	size redundant	3	2	0.3333333333333333	rosa	NA	rosa	1	0	hairdryer	small	pink	TRUE	FALSE	FALSE	FALSE	FALSE
+L3TwC8ZM9Kcs7QBx4	48	big_red_bellpepper	color	minimal	color	size redundant	3	2	0.3333333333333333	el pimiento rojo	NA	el pimiento rojo	1	0	bellpepper	big	red	TRUE	FALSE	TRUE	FALSE	TRUE
+L3TwC8ZM9Kcs7QBx4	65	big_blue_book	color	minimal	color	size redundant	3	2	0.3333333333333333	el libro azul	NA	el libro azul	1	0	book	big	blue	TRUE	FALSE	TRUE	FALSE	TRUE
+o9ajiSJQsC87WWPMG	33	small_red_candle	color	minimal	color	size redundant	3	2	0.3333333333333333	roja	NA	roja	1	0	candle	small	red	TRUE	FALSE	FALSE	FALSE	FALSE
+o9ajiSJQsC87WWPMG	59	small_orange_pingpongball	color	minimal	color	size redundant	3	2	0.3333333333333333	naranja	NA	naranja	1	0	pingpongball	small	orange	TRUE	FALSE	FALSE	FALSE	FALSE
+w2fzmfuovTcBBykSN	62	small_purple_bike	color	minimal	color	size redundant	3	2	0.3333333333333333	morada	NA	morada	1	0	bike	small	purple	TRUE	FALSE	FALSE	FALSE	FALSE
+w2fzmfuovTcBBykSN	69	big_pink_framee	color	minimal	color	size redundant	3	2	0.3333333333333333	rosa	NA	rosa	1	0	framee	big	pink	TRUE	FALSE	FALSE	FALSE	FALSE
+s4qdZmttuex8PYHYK	26	big_grey_rock	color	minimal	color	size redundant	3	2	0.3333333333333333	el gris	NA	el gris	1	0	rock	big	grey	TRUE	FALSE	FALSE	FALSE	TRUE
+s4qdZmttuex8PYHYK	27	small_red_pepper	color	minimal	color	size redundant	3	2	0.3333333333333333	el rojo	NA	el rojo	1	0	pepper	small	red	TRUE	FALSE	FALSE	FALSE	TRUE
+S7FpNmQk9XcQXJHTf	14	big_pink_balloon	color	minimal	color	size redundant	3	2	0.3333333333333333	es rosa	NA	es rosa	1	0	balloon	big	pink	TRUE	FALSE	FALSE	FALSE	FALSE
+S7FpNmQk9XcQXJHTf	23	small_blue_cushion	color	minimal	color	size redundant	3	2	0.3333333333333333	es azul	NA	es azul	1	0	cushion	small	blue	TRUE	FALSE	FALSE	FALSE	FALSE
+ZdgvjcuMKtwGjydbR	3	big_green_framee	color	minimal	color	size redundant	3	2	0.3333333333333333	verde	NA	verde	1	0	framee	big	green	TRUE	FALSE	FALSE	FALSE	FALSE
+ZdgvjcuMKtwGjydbR	43	small_pink_teacup	color	minimal	color	size redundant	3	2	0.3333333333333333	rosado	NA	rosado	1	0	teacup	small	pink	TRUE	FALSE	FALSE	FALSE	FALSE
+89kCaivgGxt9As4s5	11	big_yellow_shoe	color	minimal	color	size redundant	3	2	0.3333333333333333	amarrilo	NA	amarrilo	1	0	shoe	big	yellow	TRUE	FALSE	FALSE	FALSE	FALSE
+89kCaivgGxt9As4s5	43	big_red_chair	color	minimal	color	size redundant	3	2	0.3333333333333333	rojo	NA	rojo	1	0	chair	big	red	TRUE	FALSE	FALSE	FALSE	FALSE
+KkMmp5urRFWCQh3Hb	6	big_red_tack	color	minimal	color	size redundant	3	2	0.3333333333333333	pin colorado	NA	pin colorado	1	0	tack	big	red	TRUE	FALSE	TRUE	FALSE	FALSE
+mJWL79uZrXh3YMtMs	29	small_blue_book	color	minimal	color	size redundant	3	2	0.3333333333333333	azul	NA	azul	1	0	book	small	blue	TRUE	FALSE	FALSE	FALSE	FALSE
+mJWL79uZrXh3YMtMs	47	small_blue_comb	color	minimal	color	size redundant	3	2	0.3333333333333333	azul	NA	azul	1	0	comb	small	blue	TRUE	FALSE	FALSE	FALSE	FALSE
+9xQZnMmmLAedmSnpb	49	big_black_comb	color	minimal	color	size redundant	3	2	0.3333333333333333	peine negro	NA	peine negro	1	0	comb	big	black	TRUE	FALSE	TRUE	FALSE	FALSE
+9xQZnMmmLAedmSnpb	51	small_purple_stapler	color	minimal	color	size redundant	3	2	0.3333333333333333	la morada	NA	la morada	1	0	stapler	small	purple	TRUE	FALSE	FALSE	FALSE	TRUE
+KchWPEsJ7AK6yb5ab	59	small_white_phone	color	minimal	color	size redundant	3	2	0.3333333333333333	blanco	NA	blanco	1	0	phone	small	white	TRUE	FALSE	FALSE	FALSE	FALSE
+KchWPEsJ7AK6yb5ab	69	small_blue_candle	color	minimal	color	size redundant	3	2	0.3333333333333333	morado	NA	morado	1	0	candle	small	blue	TRUE	FALSE	FALSE	FALSE	FALSE
+6iNLyBqiCFSzy3vxQ	35	big_white_shoe	color	minimal	color	size redundant	3	2	0.3333333333333333	zapato blanco	NA	zapato blanco	1	0	shoe	big	white	TRUE	FALSE	TRUE	FALSE	FALSE
+6iNLyBqiCFSzy3vxQ	70	big_blue_guitar	color	minimal	color	size redundant	3	2	0.3333333333333333	guitarra azul	NA	guitarra azul	1	0	guitar	big	blue	TRUE	FALSE	TRUE	FALSE	FALSE
+D5sTSEMaXM7y3Q7AW	41	big_black_turtle	color	minimal	color	size redundant	3	3	0	negro	NA	negro	1	0	turtle	big	black	TRUE	FALSE	FALSE	FALSE	FALSE
+g8tXfbQJ5w3Yo5kXq	6	big_tan_rock	color	minimal	color	size redundant	3	3	0	roca amarilla	amarilla?	roca amarilla	1	0	rock	big	tan	TRUE	FALSE	TRUE	FALSE	FALSE
+g8tXfbQJ5w3Yo5kXq	57	small_pink_weddingcake	color	minimal	color	size redundant	3	3	0	rosa	rosa?	rosa	1	0	weddingcake	small	pink	TRUE	FALSE	FALSE	FALSE	FALSE
+Drac2QY2EJGirNSty	1	big_orange_cushion	color	minimal	color	size redundant	3	3	0	cojin naranja	NA	cojin naranja	1	0	cushion	big	orange	TRUE	FALSE	TRUE	FALSE	FALSE
+Drac2QY2EJGirNSty	37	small_orange_napkin	color	minimal	color	size redundant	3	3	0	servilleta naranja	NA	servilleta naranja	1	0	napkin	small	orange	TRUE	FALSE	TRUE	FALSE	FALSE
+ncA5wQm2wMWx6Qw4m	22	big_blue_toothbrush	color	minimal	color	size redundant	3	3	0	azul	NA	azul	1	0	toothbrush	big	blue	TRUE	FALSE	FALSE	FALSE	FALSE
+ncA5wQm2wMWx6Qw4m	69	big_green_chair	color	minimal	color	size redundant	3	3	0	verde	NA	verde	1	0	chair	big	green	TRUE	FALSE	FALSE	FALSE	FALSE
+RdyH6CPjXhDjFiBn6	16	big_purple_yarn	color	minimal	color	size redundant	3	3	0	color morado	NA	color morado	1	0	yarn	big	purple	TRUE	FALSE	FALSE	FALSE	FALSE
+RdyH6CPjXhDjFiBn6	65	small_red_pepper	color	minimal	color	size redundant	3	3	0	chile rojo	NA	chile rojo	1	0	pepper	small	red	TRUE	FALSE	TRUE	FALSE	FALSE
+ri9WkdRrTvaRgjAbd	57	small_red_yarn	color	minimal	color	size redundant	3	3	0	roja	NA	roja	1	0	yarn	small	red	TRUE	FALSE	FALSE	FALSE	FALSE
+ri9WkdRrTvaRgjAbd	66	big_red_tack	color	minimal	color	size redundant	3	3	0	rojo	NA	rojo	1	0	tack	big	red	TRUE	FALSE	FALSE	FALSE	FALSE
+xiA5WJQ9BBwufErLv	7	big_brown_turtle	color	minimal	color	size redundant	3	3	0	la clara	NA	la clara	1	0	turtle	big	brown	TRUE	FALSE	FALSE	FALSE	TRUE
+8mztCuTtp44PNj9aR	66	small_purple_bracelet	color	minimal	color	size redundant	3	3	0	morado	NA	morado	1	0	bracelet	small	purple	TRUE	FALSE	FALSE	FALSE	FALSE
+8mztCuTtp44PNj9aR	71	small_red_bike	color	minimal	color	size redundant	3	3	0	roja	NA	roja	1	0	bike	small	red	TRUE	FALSE	FALSE	FALSE	FALSE
+PLenL62JMPMEiyEZd	9	small_red_toothbrush	color	minimal	color	size redundant	3	3	0	rojo	NA	rojo	1	0	toothbrush	small	red	TRUE	FALSE	FALSE	FALSE	FALSE
+PLenL62JMPMEiyEZd	33	big_white_pingpongball	color	minimal	color	size redundant	3	3	0	blanco	NA	blanco	1	0	pingpongball	big	white	TRUE	FALSE	FALSE	FALSE	FALSE
+5FBHB2gcEAxFrnBTj	34	big_pink_teacup	color	minimal	color	size redundant	3	3	0	rosa	color?	rosa	1	0	teacup	big	pink	TRUE	FALSE	FALSE	FALSE	FALSE
+5FBHB2gcEAxFrnBTj	46	small_orange_billiardball	color	minimal	color	size redundant	3	3	0	rojo	color	rojo	1	0	billiardball	small	orange	TRUE	FALSE	FALSE	FALSE	FALSE
+krPu8jL2ifeQiJtiz	31	big_black_turtle	color	minimal	color	size redundant	3	3	0	negro	NA	negro	1	0	turtle	big	black	TRUE	FALSE	FALSE	FALSE	FALSE
+krPu8jL2ifeQiJtiz	61	small_red_bellpepper	color	minimal	color	size redundant	3	3	0	rojo	NA	rojo	1	0	bellpepper	small	red	TRUE	FALSE	FALSE	FALSE	FALSE
+L3TwC8ZM9Kcs7QBx4	5	big_pink_phone	color	minimal	color	size redundant	3	3	0	el telefono naranja claro	NA	el telefono naranja claro	1	0	phone	big	pink	TRUE	FALSE	TRUE	FALSE	TRUE
+L3TwC8ZM9Kcs7QBx4	25	big_purple_hairdryer	color	minimal	color	size redundant	3	3	0	la seczdora de pelo morada	NA	la seczdora de pelo morada	1	0	hairdryer	big	purple	TRUE	FALSE	TRUE	FALSE	TRUE
+o9ajiSJQsC87WWPMG	20	big_blue_butterfly	color	minimal	color	size redundant	3	3	0	azul	NA	azul	1	0	butterfly	big	blue	TRUE	FALSE	FALSE	FALSE	FALSE
+o9ajiSJQsC87WWPMG	29	big_red_toothbrush	color	minimal	color	size redundant	3	3	0	rojo	NA	rojo	1	0	toothbrush	big	red	TRUE	FALSE	FALSE	FALSE	FALSE
+w2fzmfuovTcBBykSN	29	big_red_stapler	color	minimal	color	size redundant	3	3	0	roja	NA	roja	1	0	stapler	big	red	TRUE	FALSE	FALSE	FALSE	FALSE
+w2fzmfuovTcBBykSN	52	big_yellow_balloon	color	minimal	color	size redundant	3	3	0	amarillo	NA	amarillo	1	0	balloon	big	yellow	TRUE	FALSE	FALSE	FALSE	FALSE
+s4qdZmttuex8PYHYK	33	big_blue_candle	color	minimal	color	size redundant	3	3	0	el azul	NA	el azul	1	0	candle	big	blue	TRUE	FALSE	FALSE	FALSE	TRUE
+s4qdZmttuex8PYHYK	54	small_pink_bucket	color	minimal	color	size redundant	3	3	0	el rosa	NA	el rosa	1	0	bucket	small	pink	TRUE	FALSE	FALSE	FALSE	TRUE
+S7FpNmQk9XcQXJHTf	34	big_red_toothbrush	color	minimal	color	size redundant	3	3	0	es rojo	NA	es rojo	1	0	toothbrush	big	red	TRUE	FALSE	FALSE	FALSE	FALSE
+S7FpNmQk9XcQXJHTf	38	big_white_phone	color	minimal	color	size redundant	3	3	0	es blanco	NA	es blanco	1	0	phone	big	white	TRUE	FALSE	FALSE	FALSE	FALSE
+ZdgvjcuMKtwGjydbR	36	small_purple_rug	color	minimal	color	size redundant	3	3	0	morado	NA	morado	1	0	rug	small	purple	TRUE	FALSE	FALSE	FALSE	FALSE
+89kCaivgGxt9As4s5	42	big_brown_turtle	color	minimal	color	size redundant	3	3	0	verde	NA	verde	1	0	turtle	big	brown	TRUE	FALSE	FALSE	FALSE	FALSE
+89kCaivgGxt9As4s5	58	small_blue_comb	color	minimal	color	size redundant	3	3	0	azul	NA	azul	1	0	comb	small	blue	TRUE	FALSE	FALSE	FALSE	FALSE
+mJWL79uZrXh3YMtMs	7	big_purple_bike	color	minimal	color	size redundant	3	3	0	la bicicleta morada	?	la bicicleta morada	1	0	bike	big	purple	TRUE	FALSE	TRUE	FALSE	TRUE
+mJWL79uZrXh3YMtMs	55	big_green_pepper	color	minimal	color	size redundant	3	3	0	el verde	NA	el verde	1	0	pepper	big	green	TRUE	FALSE	FALSE	FALSE	TRUE
+9xQZnMmmLAedmSnpb	15	big_orange_coathanger	color	minimal	color	size redundant	3	3	0	selecciona la pechera naranja	NA	selecciona la pechera naranja	1	0	coathanger	big	orange	TRUE	FALSE	TRUE	FALSE	TRUE
+9xQZnMmmLAedmSnpb	25	big_green_bracelet	color	minimal	color	size redundant	3	3	0	pulsera verde	NA	pulsera verde	1	0	bracelet	big	green	TRUE	FALSE	TRUE	FALSE	FALSE
+KchWPEsJ7AK6yb5ab	70	small_black_book	color	minimal	color	size redundant	3	3	0	negro	NA	negro	1	0	book	small	black	TRUE	FALSE	FALSE	FALSE	FALSE
+6iNLyBqiCFSzy3vxQ	7	small_white_phone	color	minimal	color	size redundant	3	3	0	telefono blanco	NA	telefono blanco	1	0	phone	small	white	TRUE	FALSE	FALSE	FALSE	FALSE
+6iNLyBqiCFSzy3vxQ	44	big_purple_bracelet	color	minimal	color	size redundant	3	3	0	pulsera morada	NA	pulsera morada	1	0	bracelet	big	purple	TRUE	FALSE	TRUE	FALSE	FALSE
+TXdqz7vwbJSeKpJHS	35	big_black_comb	size and color	redundant	color	size redundant	4	1	0.75	el mas grande, marron	NA	el mas grande, marron	0	1	comb	big	black	TRUE	TRUE	FALSE	FALSE	TRUE
+g8tXfbQJ5w3Yo5kXq	48	big_green_pepper	color	minimal	color	size redundant	4	1	0.75	pimiento verde	verde?	pimiento verde	1	0	pepper	big	green	TRUE	FALSE	TRUE	FALSE	FALSE
+g8tXfbQJ5w3Yo5kXq	66	small_red_bike	size and color	redundant	color	size redundant	4	1	0.75	roja pequeña	rojo?	roja pequeña	0	1	bike	small	red	TRUE	TRUE	FALSE	FALSE	FALSE
+Drac2QY2EJGirNSty	22	small_green_bracelet	color	minimal	color	size redundant	4	1	0.75	pulsera verde	NA	pulsera verde	1	0	bracelet	small	green	TRUE	FALSE	TRUE	FALSE	FALSE
+Drac2QY2EJGirNSty	54	small_pink_weddingcake	color	minimal	color	size redundant	4	1	0.75	la tarta rosa	NA	la tarta rosa	1	0	weddingcake	small	pink	TRUE	FALSE	TRUE	FALSE	TRUE
+ncA5wQm2wMWx6Qw4m	55	small_pink_framee	color	minimal	color	size redundant	4	1	0.75	rosa	NA	rosa	1	0	framee	small	pink	TRUE	FALSE	FALSE	FALSE	FALSE
+ncA5wQm2wMWx6Qw4m	65	big_orange_pingpongball	color	minimal	color	size redundant	4	1	0.75	naranja	NA	naranja	1	0	pingpongball	big	orange	TRUE	FALSE	FALSE	FALSE	FALSE
+RdyH6CPjXhDjFiBn6	14	big_pink_hairdryer	color	minimal	color	size redundant	4	1	0.75	secador rosa	NA	secador rosa	1	0	hairdryer	big	pink	TRUE	FALSE	TRUE	FALSE	FALSE
+RdyH6CPjXhDjFiBn6	70	small_red_bucket	color	minimal	color	size redundant	4	1	0.75	cubeta roja	NA	cubeta roja	1	0	bucket	small	red	TRUE	FALSE	TRUE	FALSE	FALSE
+ri9WkdRrTvaRgjAbd	49	big_pink_weddingcake	color	minimal	color	size redundant	4	1	0.75	rosa	NA	rosa	1	0	weddingcake	big	pink	TRUE	FALSE	FALSE	FALSE	FALSE
+ri9WkdRrTvaRgjAbd	69	small_orange_billiardball	color	minimal	color	size redundant	4	1	0.75	roja	NA	roja	1	0	billiardball	small	orange	TRUE	FALSE	FALSE	FALSE	FALSE
+xiA5WJQ9BBwufErLv	6	small_green_jacket	color	minimal	color	size redundant	4	1	0.75	la verde	NA	la verde	1	0	jacket	small	green	TRUE	FALSE	FALSE	FALSE	TRUE
+xiA5WJQ9BBwufErLv	52	small_orange_coathanger	color	minimal	color	size redundant	4	1	0.75	enaranja	NA	enaranja	1	0	coathanger	small	orange	TRUE	FALSE	FALSE	FALSE	FALSE
+8mztCuTtp44PNj9aR	59	big_red_tack	color	minimal	color	size redundant	4	1	0.75	rojo	NA	rojo	1	0	tack	big	red	TRUE	FALSE	FALSE	FALSE	FALSE
+PLenL62JMPMEiyEZd	18	big_purple_bracelet	color	minimal	color	size redundant	4	1	0.75	rosa	NA	rosa	1	0	bracelet	big	purple	TRUE	FALSE	FALSE	FALSE	FALSE
+PLenL62JMPMEiyEZd	25	big_red_scarf	color	minimal	color	size redundant	4	1	0.75	rojo	NA	rojo	1	0	scarf	big	red	TRUE	FALSE	FALSE	FALSE	FALSE
+5FBHB2gcEAxFrnBTj	24	small_red_stapler	size and color	redundant	color	size redundant	4	1	0.75	rojo y pequeño	color y tamaño?	rojo y pequeño	0	1	stapler	small	red	TRUE	TRUE	FALSE	FALSE	FALSE
+5FBHB2gcEAxFrnBTj	52	big_brown_belt	color	minimal	color	size redundant	4	1	0.75	café	color o tamaño	café	1	0	belt	big	brown	TRUE	FALSE	FALSE	FALSE	FALSE
+krPu8jL2ifeQiJtiz	3	big_green_guitar	color	minimal	color	size redundant	4	1	0.75	verde	NA	verde	1	0	guitar	big	green	TRUE	FALSE	FALSE	FALSE	FALSE
+krPu8jL2ifeQiJtiz	8	big_blue_candle	color	minimal	color	size redundant	4	1	0.75	azul	NA	azul	1	0	candle	big	blue	TRUE	FALSE	FALSE	FALSE	FALSE
+L3TwC8ZM9Kcs7QBx4	1	small_pink_teacup	size and color	redundant	color	size redundant	4	1	0.75	la taza rosa chica	NA	la taza rosa chica	0	1	teacup	small	pink	TRUE	TRUE	TRUE	FALSE	TRUE
+L3TwC8ZM9Kcs7QBx4	30	big_purple_yarn	color	minimal	color	size redundant	4	1	0.75	el estambre morado	NA	el estambre morado	1	0	yarn	big	purple	TRUE	FALSE	TRUE	FALSE	TRUE
+o9ajiSJQsC87WWPMG	16	small_red_scarf	color	minimal	color	size redundant	4	1	0.75	rojo	NA	rojo	1	0	scarf	small	red	TRUE	FALSE	FALSE	FALSE	FALSE
+o9ajiSJQsC87WWPMG	37	big_black_comb	color	minimal	color	size redundant	4	1	0.75	negro	NA	negro	1	0	comb	big	black	TRUE	FALSE	FALSE	FALSE	FALSE
+w2fzmfuovTcBBykSN	30	small_orange_pingpongball	color	minimal	color	size redundant	4	1	0.75	naranaja	NA	naranaja	1	0	pingpongball	small	orange	TRUE	FALSE	FALSE	FALSE	FALSE
+w2fzmfuovTcBBykSN	43	big_red_toothbrush	color	minimal	color	size redundant	4	1	0.75	rojo	NA	rojo	1	0	toothbrush	big	red	TRUE	FALSE	FALSE	FALSE	FALSE
+s4qdZmttuex8PYHYK	28	big_green_guitar	color	minimal	color	size redundant	4	1	0.75	el verde	NA	el verde	1	0	guitar	big	green	TRUE	FALSE	FALSE	FALSE	TRUE
+s4qdZmttuex8PYHYK	46	small_red_stapler	color	minimal	color	size redundant	4	1	0.75	el rojo	NA	el rojo	1	0	stapler	small	red	TRUE	FALSE	FALSE	FALSE	TRUE
+S7FpNmQk9XcQXJHTf	29	big_blue_comb	color	minimal	color	size redundant	4	1	0.75	es azul y negro	NA	es azul y negro	1	0	comb	big	blue	TRUE	FALSE	FALSE	FALSE	FALSE
+S7FpNmQk9XcQXJHTf	71	big_green_chair	color	minimal	color	size redundant	4	1	0.75	es verde	NA	es verde	1	0	chair	big	green	TRUE	FALSE	FALSE	FALSE	FALSE
+ZdgvjcuMKtwGjydbR	50	big_red_scarf	color	minimal	color	size redundant	4	1	0.75	rojo	NA	rojo	1	0	scarf	big	red	TRUE	FALSE	FALSE	FALSE	FALSE
+89kCaivgGxt9As4s5	13	big_purple_coathanger	color	minimal	color	size redundant	4	1	0.75	morado	NA	morado	1	0	coathanger	big	purple	TRUE	FALSE	FALSE	FALSE	FALSE
+89kCaivgGxt9As4s5	64	big_red_candle	color	minimal	color	size redundant	4	1	0.75	rojo	NA	rojo	1	0	candle	big	red	TRUE	FALSE	FALSE	FALSE	FALSE
+KkMmp5urRFWCQh3Hb	57	big_orange_billiardball	color	minimal	color	size redundant	4	1	0.75	5 rojo__o naranja	NA	5 rojo	1	0	billiardball	big	orange	TRUE	FALSE	FALSE	FALSE	FALSE
+mJWL79uZrXh3YMtMs	3	small_green_bracelet	color	minimal	color	size redundant	4	1	0.75	verde	NA	verde	1	0	bracelet	small	green	TRUE	FALSE	FALSE	FALSE	FALSE
+mJWL79uZrXh3YMtMs	72	big_yellow_bellpepper	color	minimal	color	size redundant	4	1	0.75	amarillo__sii__si ps ya que__es__la amarilla__igulmente, graxx__<3	ya es la ultima__me equivoque en 2__fue un placer trabajar contigo	amarillo	1	0	bellpepper	big	yellow	TRUE	FALSE	FALSE	FALSE	FALSE
+9xQZnMmmLAedmSnpb	29	big_red_bellpepper	color	minimal	color	size redundant	4	1	0.75	pimiento rojo	NA	pimiento rojo	1	0	bellpepper	big	red	TRUE	FALSE	TRUE	FALSE	FALSE
+9xQZnMmmLAedmSnpb	61	small_blue_butterfly	color	minimal	color	size redundant	4	1	0.75	mariposa azul	NA	mariposa azul	1	0	butterfly	small	blue	TRUE	FALSE	TRUE	FALSE	FALSE
+KchWPEsJ7AK6yb5ab	4	small_blue_cushion	color	minimal	color	size redundant	4	1	0.75	zul__azul	NA	zul	1	0	cushion	small	blue	TRUE	FALSE	FALSE	FALSE	FALSE
+KchWPEsJ7AK6yb5ab	8	small_yellow_shoe	color	minimal	color	size redundant	4	1	0.75	amarillo	NA	amarillo	1	0	shoe	small	yellow	TRUE	FALSE	FALSE	FALSE	FALSE
+6iNLyBqiCFSzy3vxQ	9	big_red_yarn	color	minimal	color	size redundant	4	1	0.75	lana roja	NA	lana roja	1	0	yarn	big	red	TRUE	FALSE	TRUE	FALSE	FALSE
+6iNLyBqiCFSzy3vxQ	18	small_orange_napkin	color	minimal	color	size redundant	4	1	0.75	pañuelo naranjo	NA	pañuelo naranjo	1	0	napkin	small	orange	TRUE	FALSE	TRUE	FALSE	FALSE
+v2J2BjboP65oSJMoy	7	big_blue_scarf	color	minimal	color	size redundant	4	2	0.5	blue o azul	NA	blue o azul	1	0	scarf	big	blue	TRUE	FALSE	FALSE	FALSE	FALSE
+v2J2BjboP65oSJMoy	9	big_red_toothbrush	color	minimal	color	size redundant	4	2	0.5	red o rojo	NA	red o rojo	1	0	toothbrush	big	red	TRUE	FALSE	FALSE	FALSE	FALSE
+TXdqz7vwbJSeKpJHS	37	small_white_weddingcake	color	minimal	color	size redundant	4	2	0.5	blanco	NA	blanco	1	0	weddingcake	small	white	TRUE	FALSE	FALSE	FALSE	FALSE
+TXdqz7vwbJSeKpJHS	65	big_white_pingpongball	color	minimal	color	size redundant	4	2	0.5	blanco	NA	blanco	1	0	pingpongball	big	white	TRUE	FALSE	FALSE	FALSE	FALSE
+D5sTSEMaXM7y3Q7AW	28	big_green_bracelet	color	minimal	color	size redundant	4	2	0.5	verde	NA	verde	1	0	bracelet	big	green	TRUE	FALSE	FALSE	FALSE	FALSE
+g8tXfbQJ5w3Yo5kXq	7	small_orange_cushion	color	minimal	color	size redundant	4	2	0.5	almohada naranja	grande?	almohada naranja	1	0	cushion	small	orange	TRUE	FALSE	TRUE	FALSE	FALSE
+g8tXfbQJ5w3Yo5kXq	20	big_red_scarf	color	minimal	color	size redundant	4	2	0.5	bufanda roja	rojo?	bufanda roja	1	0	scarf	big	red	TRUE	FALSE	TRUE	FALSE	FALSE
+Drac2QY2EJGirNSty	20	small_purple_rug	color	minimal	color	size redundant	4	2	0.5	alfombra morada	NA	alfombra morada	1	0	rug	small	purple	TRUE	FALSE	TRUE	FALSE	FALSE
+Drac2QY2EJGirNSty	35	big_black_book	color	minimal	color	size redundant	4	2	0.5	libro negro	NA	libro negro	1	0	book	big	black	TRUE	FALSE	TRUE	FALSE	FALSE
+ncA5wQm2wMWx6Qw4m	23	big_purple_flower	color	minimal	color	size redundant	4	2	0.5	la morada	NA	la morada	1	0	flower	big	purple	TRUE	FALSE	FALSE	FALSE	TRUE
+ncA5wQm2wMWx6Qw4m	48	big_brown_jacket	color	minimal	color	size redundant	4	2	0.5	café	NA	café	1	0	jacket	big	brown	TRUE	FALSE	FALSE	FALSE	FALSE
+RdyH6CPjXhDjFiBn6	2	small_orange_coathanger	color	minimal	color	size redundant	4	2	0.5	color naranja	NA	color naranja	1	0	coathanger	small	orange	TRUE	FALSE	FALSE	FALSE	FALSE
+RdyH6CPjXhDjFiBn6	67	big_blue_guitar	color	minimal	color	size redundant	4	2	0.5	guitarra azul	NA	guitarra azul	1	0	guitar	big	blue	TRUE	FALSE	TRUE	FALSE	FALSE
+ri9WkdRrTvaRgjAbd	35	small_green_binder	color	minimal	color	size redundant	4	2	0.5	verde	NA	verde	1	0	binder	small	green	TRUE	FALSE	FALSE	FALSE	FALSE
+ri9WkdRrTvaRgjAbd	56	small_white_teacup	color	minimal	color	size redundant	4	2	0.5	blanca	NA	blanca	1	0	teacup	small	white	TRUE	FALSE	FALSE	FALSE	FALSE
+xiA5WJQ9BBwufErLv	66	big_red_bike	color	minimal	color	size redundant	4	2	0.5	rojo	NA	rojo	1	0	bike	big	red	TRUE	FALSE	FALSE	FALSE	FALSE
+xiA5WJQ9BBwufErLv	71	small_purple_yarn	color	minimal	color	size redundant	4	2	0.5	violeta	NA	violeta	1	0	yarn	small	purple	TRUE	FALSE	FALSE	FALSE	FALSE
+8mztCuTtp44PNj9aR	19	small_red_toothbrush	color	minimal	color	size redundant	4	2	0.5	rojo	NA	rojo	1	0	toothbrush	small	red	TRUE	FALSE	FALSE	FALSE	FALSE
+8mztCuTtp44PNj9aR	22	big_yellow_napkin	color	minimal	color	size redundant	4	2	0.5	amarillo	NA	amarillo	1	0	napkin	big	yellow	TRUE	FALSE	FALSE	FALSE	FALSE
+PLenL62JMPMEiyEZd	24	big_blue_cushion	color	minimal	color	size redundant	4	2	0.5	azul	NA	azul	1	0	cushion	big	blue	TRUE	FALSE	FALSE	FALSE	FALSE
+PLenL62JMPMEiyEZd	70	big_orange_napkin	color	minimal	color	size redundant	4	2	0.5	naranja	NA	naranja	1	0	napkin	big	orange	TRUE	FALSE	FALSE	FALSE	FALSE
+MjtKysa8uTdkgCZhY	53	big_red_chair	color	minimal	color	size redundant	4	2	0.5	rojo	rojo?	rojo	1	0	chair	big	red	TRUE	FALSE	FALSE	FALSE	FALSE
+5FBHB2gcEAxFrnBTj	10	small_black_turtle	size and color	redundant	color	size redundant	4	2	0.5	negro y pequeño	tamaño y color?	negro y pequeño	0	1	turtle	small	black	TRUE	TRUE	FALSE	FALSE	FALSE
+5FBHB2gcEAxFrnBTj	30	big_blue_cushion	size and color	redundant	color	size redundant	4	2	0.5	azul grande	color y tamaño?	azul grande	0	1	cushion	big	blue	TRUE	TRUE	FALSE	FALSE	FALSE
+krPu8jL2ifeQiJtiz	42	small_pink_bucket	color	minimal	color	size redundant	4	2	0.5	rosa	NA	rosa	1	0	bucket	small	pink	TRUE	FALSE	FALSE	FALSE	FALSE
+krPu8jL2ifeQiJtiz	57	big_white_teacup	color	minimal	color	size redundant	4	2	0.5	blanco	NA	blanco	1	0	teacup	big	white	TRUE	FALSE	FALSE	FALSE	FALSE
+L3TwC8ZM9Kcs7QBx4	51	small_yellow_napkin	color	minimal	color	size redundant	4	2	0.5	la servilleta amarilla	NA	la servilleta amarilla	1	0	napkin	small	yellow	TRUE	FALSE	TRUE	FALSE	TRUE
+L3TwC8ZM9Kcs7QBx4	68	big_brown_belt	color	minimal	color	size redundant	4	2	0.5	el cinturon cafe	NA	el cinturon cafe	1	0	belt	big	brown	TRUE	FALSE	TRUE	FALSE	TRUE
+o9ajiSJQsC87WWPMG	17	small_orange_cushion	color	minimal	color	size redundant	4	2	0.5	naranja	NA	naranja	1	0	cushion	small	orange	TRUE	FALSE	FALSE	FALSE	FALSE
+o9ajiSJQsC87WWPMG	44	small_orange_coathanger	color	minimal	color	size redundant	4	2	0.5	naranja	NA	naranja	1	0	coathanger	small	orange	TRUE	FALSE	FALSE	FALSE	FALSE
+w2fzmfuovTcBBykSN	7	small_brown_belt	color	minimal	color	size redundant	4	2	0.5	cafe	NA	cafe	1	0	belt	small	brown	TRUE	FALSE	FALSE	FALSE	FALSE
+w2fzmfuovTcBBykSN	44	small_yellow_shoe	color	minimal	color	size redundant	4	2	0.5	amarillo	NA	amarillo	1	0	shoe	small	yellow	TRUE	FALSE	FALSE	FALSE	FALSE
+s4qdZmttuex8PYHYK	18	big_red_yarn	color	minimal	color	size redundant	4	2	0.5	el rojo	NA	el rojo	1	0	yarn	big	red	TRUE	FALSE	FALSE	FALSE	TRUE
+s4qdZmttuex8PYHYK	65	small_red_flower	color	minimal	color	size redundant	4	2	0.5	el rojo	NA	el rojo	1	0	flower	small	red	TRUE	FALSE	FALSE	FALSE	TRUE
+S7FpNmQk9XcQXJHTf	43	small_orange_billiardball	color	minimal	color	size redundant	4	2	0.5	es roja	NA	es roja	1	0	billiardball	small	orange	TRUE	FALSE	FALSE	FALSE	FALSE
+S7FpNmQk9XcQXJHTf	61	small_pink_hairdryer	color	minimal	color	size redundant	4	2	0.5	es rosa	NA	es rosa	1	0	hairdryer	small	pink	TRUE	FALSE	FALSE	FALSE	FALSE
+ZdgvjcuMKtwGjydbR	4	big_blue_cushion	color	minimal	color	size redundant	4	2	0.5	azul	NA	azul	1	0	cushion	big	blue	TRUE	FALSE	FALSE	FALSE	FALSE
+ZdgvjcuMKtwGjydbR	9	small_pink_phone	color	minimal	color	size redundant	4	2	0.5	rosado	NA	rosado	1	0	phone	small	pink	TRUE	FALSE	FALSE	FALSE	FALSE
+89kCaivgGxt9As4s5	12	big_blue_guitar	color	minimal	color	size redundant	4	2	0.5	azul	NA	azul	1	0	guitar	big	blue	TRUE	FALSE	FALSE	FALSE	FALSE
+89kCaivgGxt9As4s5	51	big_pink_phone	color	minimal	color	size redundant	4	2	0.5	rosa	NA	rosa	1	0	phone	big	pink	TRUE	FALSE	FALSE	FALSE	FALSE
+KkMmp5urRFWCQh3Hb	4	big_blue_rug	color	minimal	color	size redundant	4	2	0.5	alfombra azul	NA	alfombra azul	1	0	rug	big	blue	TRUE	FALSE	TRUE	FALSE	FALSE
+mJWL79uZrXh3YMtMs	2	small_blue_candle	color	minimal	color	size redundant	4	2	0.5	es la morada	color	es la morada	1	0	candle	small	blue	TRUE	FALSE	FALSE	FALSE	TRUE
+mJWL79uZrXh3YMtMs	43	big_green_binder	color	minimal	color	size redundant	4	2	0.5	verde	NA	verde	1	0	binder	big	green	TRUE	FALSE	FALSE	FALSE	FALSE
+9xQZnMmmLAedmSnpb	13	big_white_teacup	color	minimal	color	size redundant	4	2	0.5	selecciona la taza blanca	NA	selecciona la taza blanca	1	0	teacup	big	white	TRUE	FALSE	TRUE	FALSE	TRUE
+9xQZnMmmLAedmSnpb	41	small_red_bike	color	minimal	color	size redundant	4	2	0.5	bicicleta roja	NA	bicicleta roja	1	0	bike	small	red	TRUE	FALSE	TRUE	FALSE	FALSE
+KchWPEsJ7AK6yb5ab	67	big_yellow_napkin	color	minimal	color	size redundant	4	2	0.5	amarillo	NA	amarillo	1	0	napkin	big	yellow	TRUE	FALSE	FALSE	FALSE	FALSE
+KchWPEsJ7AK6yb5ab	71	small_purple_bike	color	minimal	color	size redundant	4	2	0.5	violeta	NA	violeta	1	0	bike	small	purple	TRUE	FALSE	FALSE	FALSE	FALSE
+6iNLyBqiCFSzy3vxQ	37	big_orange_billiardball	color	minimal	color	size redundant	4	2	0.5	bola roja	NA	bola roja	1	0	billiardball	big	orange	TRUE	FALSE	TRUE	FALSE	FALSE
+6iNLyBqiCFSzy3vxQ	55	big_red_chair	color	minimal	color	size redundant	4	2	0.5	sillon rojo	NA	sillon rojo	1	0	chair	big	red	TRUE	FALSE	TRUE	FALSE	FALSE
+TXdqz7vwbJSeKpJHS	47	small_purple_bike	color	minimal	color	size redundant	4	3	0.25	morada	NA	morada	1	0	bike	small	purple	TRUE	FALSE	FALSE	FALSE	FALSE
+g8tXfbQJ5w3Yo5kXq	55	big_blue_cap	color	minimal	color	size redundant	4	3	0.25	azul	azul?	azul	1	0	cap	big	blue	TRUE	FALSE	FALSE	FALSE	FALSE
+g8tXfbQJ5w3Yo5kXq	58	big_pink_hairdryer	color	minimal	color	size redundant	4	3	0.25	rosa	ok	rosa	1	0	hairdryer	big	pink	TRUE	FALSE	FALSE	FALSE	FALSE
+Drac2QY2EJGirNSty	34	big_orange_cap	color	minimal	color	size redundant	4	3	0.25	gorra naranja	NA	gorra naranja	1	0	cap	big	orange	TRUE	FALSE	TRUE	FALSE	FALSE
+Drac2QY2EJGirNSty	47	small_blue_comb	color	minimal	color	size redundant	4	3	0.25	peine azul	NA	peine azul	1	0	comb	small	blue	TRUE	FALSE	TRUE	FALSE	FALSE
+ncA5wQm2wMWx6Qw4m	59	big_grey_rock	color	minimal	color	size redundant	4	3	0.25	piedra gris	NA	piedra gris	1	0	rock	big	grey	TRUE	FALSE	TRUE	FALSE	FALSE
+ncA5wQm2wMWx6Qw4m	71	big_black_book	color	minimal	color	size redundant	4	3	0.25	negro	NA	negro	1	0	book	big	black	TRUE	FALSE	FALSE	FALSE	FALSE
+RdyH6CPjXhDjFiBn6	5	big_green_framee	color	minimal	color	size redundant	4	3	0.25	cuadro verde	NA	cuadro verde	1	0	framee	big	green	TRUE	FALSE	FALSE	FALSE	FALSE
+RdyH6CPjXhDjFiBn6	35	small_blue_cap	color	minimal	color	size redundant	4	3	0.25	gorra azul	NA	gorra azul	1	0	cap	small	blue	TRUE	FALSE	TRUE	FALSE	FALSE
+ri9WkdRrTvaRgjAbd	40	big_black_belt	color	minimal	color	size redundant	4	3	0.25	negro	NA	negro	1	0	belt	big	black	TRUE	FALSE	FALSE	FALSE	FALSE
+ri9WkdRrTvaRgjAbd	46	big_yellow_balloon	color	minimal	color	size redundant	4	3	0.25	amarillo	NA	amarillo	1	0	balloon	big	yellow	TRUE	FALSE	FALSE	FALSE	FALSE
+xiA5WJQ9BBwufErLv	58	small_yellow_shoe	color	minimal	color	size redundant	4	3	0.25	amarillo	NA	amarillo	1	0	shoe	small	yellow	TRUE	FALSE	FALSE	FALSE	FALSE
+xiA5WJQ9BBwufErLv	68	big_orange_napkin	color	minimal	color	size redundant	4	3	0.25	naranja	NA	naranja	1	0	napkin	big	orange	TRUE	FALSE	FALSE	FALSE	FALSE
+8mztCuTtp44PNj9aR	41	big_pink_balloon	color	minimal	color	size redundant	4	3	0.25	rosa	NA	rosa	1	0	balloon	big	pink	TRUE	FALSE	FALSE	FALSE	FALSE
+8mztCuTtp44PNj9aR	67	small_blue_binder	color	minimal	color	size redundant	4	3	0.25	azul	NA	azul	1	0	binder	small	blue	TRUE	FALSE	FALSE	FALSE	FALSE
+C9425wL5d2jqqrfnt	23	big_green_pepper	color	minimal	color	size redundant	4	3	0.25	es verde	NA	es verde	1	0	pepper	big	green	TRUE	FALSE	FALSE	FALSE	FALSE
+PLenL62JMPMEiyEZd	10	big_red_stapler	color	minimal	color	size redundant	4	3	0.25	rojo	NA	rojo	1	0	stapler	big	red	TRUE	FALSE	FALSE	FALSE	FALSE
+PLenL62JMPMEiyEZd	52	big_tan_rock	color	minimal	color	size redundant	4	3	0.25	mas clara	NA	mas clara	1	0	rock	big	tan	TRUE	FALSE	FALSE	FALSE	FALSE
+5FBHB2gcEAxFrnBTj	23	small_blue_guitar	size and color	redundant	color	size redundant	4	3	0.25	azul y pequeño	color y tamaño?	azul y pequeño	0	1	guitar	small	blue	TRUE	TRUE	FALSE	FALSE	FALSE
+5FBHB2gcEAxFrnBTj	59	big_green_jacket	color	minimal	color	size redundant	4	3	0.25	verde	color, tamaño	verde	1	0	jacket	big	green	TRUE	FALSE	FALSE	FALSE	FALSE
+krPu8jL2ifeQiJtiz	26	big_black_comb	color	minimal	color	size redundant	4	3	0.25	negro	NA	negro	1	0	comb	big	black	TRUE	FALSE	FALSE	FALSE	FALSE
+krPu8jL2ifeQiJtiz	50	small_brown_jacket	color	minimal	color	size redundant	4	3	0.25	marron	NA	marron	1	0	jacket	small	brown	TRUE	FALSE	FALSE	FALSE	FALSE
+L3TwC8ZM9Kcs7QBx4	22	big_purple_coathanger	color	minimal	color	size redundant	4	3	0.25	el gancho morado	NA	el gancho morado	1	0	coathanger	big	purple	TRUE	FALSE	TRUE	FALSE	TRUE
+L3TwC8ZM9Kcs7QBx4	64	small_red_toothbrush	color	minimal	color	size redundant	4	3	0.25	el cepillo de dientes rojo	NA	el cepillo de dientes rojo	1	0	toothbrush	small	red	TRUE	FALSE	TRUE	FALSE	TRUE
+o9ajiSJQsC87WWPMG	4	small_red_tack	color	minimal	color	size redundant	4	3	0.25	rojo	NA	rojo	1	0	tack	small	red	TRUE	FALSE	FALSE	FALSE	FALSE
+o9ajiSJQsC87WWPMG	11	big_grey_rock	color	minimal	color	size redundant	4	3	0.25	gris	NA	gris	1	0	rock	big	grey	TRUE	FALSE	FALSE	FALSE	FALSE
+w2fzmfuovTcBBykSN	19	big_black_book	color	minimal	color	size redundant	4	3	0.25	negro	NA	negro	1	0	book	big	black	TRUE	FALSE	FALSE	FALSE	FALSE
+w2fzmfuovTcBBykSN	32	small_blue_binder	color	minimal	color	size redundant	4	3	0.25	azul	NA	azul	1	0	binder	small	blue	TRUE	FALSE	FALSE	FALSE	FALSE
+s4qdZmttuex8PYHYK	15	small_blue_cushion	color	minimal	color	size redundant	4	3	0.25	el azul	NA	el azul	1	0	cushion	small	blue	TRUE	FALSE	FALSE	FALSE	TRUE
+s4qdZmttuex8PYHYK	67	big_brown_belt	color	minimal	color	size redundant	4	3	0.25	el cafe	NA	el cafe	1	0	belt	big	brown	TRUE	FALSE	FALSE	FALSE	TRUE
+S7FpNmQk9XcQXJHTf	28	big_green_guitar	color	minimal	color	size redundant	4	3	0.25	es verde	NA	es verde	1	0	guitar	big	green	TRUE	FALSE	FALSE	FALSE	FALSE
+S7FpNmQk9XcQXJHTf	50	big_green_jacket	color	minimal	color	size redundant	4	3	0.25	es verde	NA	es verde	1	0	jacket	big	green	TRUE	FALSE	FALSE	FALSE	FALSE
+ZdgvjcuMKtwGjydbR	48	big_blue_butterfly	color	minimal	color	size redundant	4	3	0.25	azul	NA	azul	1	0	butterfly	big	blue	TRUE	FALSE	FALSE	FALSE	FALSE
+ZdgvjcuMKtwGjydbR	62	big_yellow_shoe	color	minimal	color	size redundant	4	3	0.25	amarillo	NA	amarillo	1	0	shoe	big	yellow	TRUE	FALSE	FALSE	FALSE	FALSE
+89kCaivgGxt9As4s5	32	big_purple_rug	color	minimal	color	size redundant	4	3	0.25	morado	NA	morado	1	0	rug	big	purple	TRUE	FALSE	FALSE	FALSE	FALSE
+89kCaivgGxt9As4s5	55	small_yellow_napkin	color	minimal	color	size redundant	4	3	0.25	amarillo	NA	amarillo	1	0	napkin	small	yellow	TRUE	FALSE	FALSE	FALSE	FALSE
+mJWL79uZrXh3YMtMs	14	small_red_yarn	color	minimal	color	size redundant	4	3	0.25	rojo	NA	rojo	1	0	yarn	small	red	TRUE	FALSE	FALSE	FALSE	FALSE
+mJWL79uZrXh3YMtMs	28	small_orange_cushion	color	minimal	color	size redundant	4	3	0.25	cafe	NA	cafe	1	0	cushion	small	orange	TRUE	FALSE	FALSE	FALSE	FALSE
+9xQZnMmmLAedmSnpb	48	big_white_pingpongball	color	minimal	color	size redundant	4	3	0.25	pelota blanca	NA	pelota blanca	1	0	pingpongball	big	white	TRUE	FALSE	TRUE	FALSE	FALSE
+9xQZnMmmLAedmSnpb	69	big_purple_hairdryer	color	minimal	color	size redundant	4	3	0.25	el morado	NA	el morado	1	0	hairdryer	big	purple	TRUE	FALSE	FALSE	FALSE	TRUE
+KchWPEsJ7AK6yb5ab	13	big_green_framee	color	minimal	color	size redundant	4	3	0.25	verde	NA	verde	1	0	framee	big	green	TRUE	FALSE	FALSE	FALSE	FALSE
+KchWPEsJ7AK6yb5ab	23	big_blue_scarf	color	minimal	color	size redundant	4	3	0.25	azul	NA	azul	1	0	scarf	big	blue	TRUE	FALSE	FALSE	FALSE	FALSE
+6iNLyBqiCFSzy3vxQ	45	big_black_turtle	color	minimal	color	size redundant	4	3	0.25	tortuga negra	NA	tortuga negra	1	0	turtle	big	black	TRUE	FALSE	TRUE	FALSE	FALSE
+6iNLyBqiCFSzy3vxQ	57	big_pink_weddingcake	color	minimal	color	size redundant	4	3	0.25	rosado	NA	rosado	1	0	weddingcake	big	pink	TRUE	FALSE	FALSE	FALSE	FALSE
+TXdqz7vwbJSeKpJHS	6	small_purple_billiardball	color	minimal	color	size redundant	4	4	0	color morado	NA	color morado	1	0	billiardball	small	purple	TRUE	FALSE	FALSE	FALSE	FALSE
+TXdqz7vwbJSeKpJHS	61	big_red_flower	color	minimal	color	size redundant	4	4	0	roja	NA	roja	1	0	flower	big	red	TRUE	FALSE	FALSE	FALSE	FALSE
+g8tXfbQJ5w3Yo5kXq	43	big_black_turtle	color	minimal	color	size redundant	4	4	0	tortuga negra	negro?	tortuga negra	1	0	turtle	big	black	TRUE	FALSE	TRUE	FALSE	FALSE
+g8tXfbQJ5w3Yo5kXq	71	big_purple_stapler	color	minimal	color	size redundant	4	4	0	morado	morado?	morado	1	0	stapler	big	purple	TRUE	FALSE	FALSE	FALSE	FALSE
+Drac2QY2EJGirNSty	57	big_pink_balloon	color	minimal	color	size redundant	4	4	0	el rosa	NA	el rosa	1	0	balloon	big	pink	TRUE	FALSE	FALSE	FALSE	TRUE
+Drac2QY2EJGirNSty	66	small_black_belt	color	minimal	color	size redundant	4	4	0	el negro__si, poco	NA	el negro	1	0	belt	small	black	TRUE	FALSE	FALSE	FALSE	TRUE
+ncA5wQm2wMWx6Qw4m	35	small_blue_comb	color	minimal	color	size redundant	4	4	0	peine azul	NA	peine azul	1	0	comb	small	blue	TRUE	FALSE	TRUE	FALSE	FALSE
+ncA5wQm2wMWx6Qw4m	58	small_brown_belt	color	minimal	color	size redundant	4	4	0	café	NA	café	1	0	belt	small	brown	TRUE	FALSE	FALSE	FALSE	FALSE
+RdyH6CPjXhDjFiBn6	22	small_blue_butterfly	color	minimal	color	size redundant	4	4	0	mariposa azul	NA	mariposa azul	1	0	butterfly	small	blue	TRUE	FALSE	TRUE	FALSE	FALSE
+RdyH6CPjXhDjFiBn6	60	big_green_binder	color	minimal	color	size redundant	4	4	0	folder verde	NA	folder verde	1	0	binder	big	green	TRUE	FALSE	TRUE	FALSE	FALSE
+ri9WkdRrTvaRgjAbd	19	big_blue_rug	color	minimal	color	size redundant	4	4	0	azul	NA	azul	1	0	rug	big	blue	TRUE	FALSE	FALSE	FALSE	FALSE
+ri9WkdRrTvaRgjAbd	29	small_black_book	color	minimal	color	size redundant	4	4	0	negro	NA	negro	1	0	book	small	black	TRUE	FALSE	FALSE	FALSE	FALSE
+xiA5WJQ9BBwufErLv	1	small_blue_guitar	color	minimal	color	size redundant	4	4	0	es la azul	NA	es la azul	1	0	guitar	small	blue	TRUE	FALSE	FALSE	FALSE	TRUE
+xiA5WJQ9BBwufErLv	63	small_blue_tack	color	minimal	color	size redundant	4	4	0	azul	NA	azul	1	0	tack	small	blue	TRUE	FALSE	FALSE	FALSE	FALSE
+8mztCuTtp44PNj9aR	13	big_green_pepper	color	minimal	color	size redundant	4	4	0	verde	NA	verde	1	0	pepper	big	green	TRUE	FALSE	FALSE	FALSE	FALSE
+8mztCuTtp44PNj9aR	23	big_black_belt	color	minimal	color	size redundant	4	4	0	negro	NA	negro	1	0	belt	big	black	TRUE	FALSE	FALSE	FALSE	FALSE
+C9425wL5d2jqqrfnt	30	big_red_yarn	color	minimal	color	size redundant	4	4	0	es un estambre diferente a los demas	NA	es un estambre diferente a los demas	1	0	yarn	big	red	TRUE	FALSE	FALSE	FALSE	TRUE
+PLenL62JMPMEiyEZd	19	small_blue_comb	color	minimal	color	size redundant	4	4	0	azul	NA	azul	1	0	comb	small	blue	TRUE	FALSE	FALSE	FALSE	FALSE
+PLenL62JMPMEiyEZd	41	small_purple_billiardball	color	minimal	color	size redundant	4	4	0	morado	NA	morado	1	0	billiardball	small	purple	TRUE	FALSE	FALSE	FALSE	FALSE
+5FBHB2gcEAxFrnBTj	4	small_blue_toothbrush	color	minimal	color	size redundant	4	4	0	azul	color?	azul	1	0	toothbrush	small	blue	TRUE	FALSE	FALSE	FALSE	FALSE
+5FBHB2gcEAxFrnBTj	35	small_purple_bracelet	color	minimal	color	size redundant	4	4	0	morado	color?	morado	1	0	bracelet	small	purple	TRUE	FALSE	FALSE	FALSE	FALSE
+krPu8jL2ifeQiJtiz	17	small_green_chair	color	minimal	color	size redundant	4	4	0	verde	NA	verde	1	0	chair	small	green	TRUE	FALSE	FALSE	FALSE	FALSE
+krPu8jL2ifeQiJtiz	60	big_blue_toothbrush	color	minimal	color	size redundant	4	4	0	azul	NA	azul	1	0	toothbrush	big	blue	TRUE	FALSE	FALSE	FALSE	FALSE
+L3TwC8ZM9Kcs7QBx4	31	small_orange_cap	color	minimal	color	size redundant	4	4	0	la gorra amarilla	NA	la gorra amarilla	1	0	cap	small	orange	TRUE	FALSE	TRUE	FALSE	TRUE
+L3TwC8ZM9Kcs7QBx4	36	small_purple_flower	color	minimal	color	size redundant	4	4	0	la flor morada	NA	la flor morada	1	0	flower	small	purple	TRUE	FALSE	TRUE	FALSE	TRUE
+o9ajiSJQsC87WWPMG	51	big_brown_turtle	color	minimal	color	size redundant	4	4	0	verde claro	NA	verde claro	1	0	turtle	big	brown	TRUE	FALSE	FALSE	FALSE	FALSE
+o9ajiSJQsC87WWPMG	52	small_green_chair	color	minimal	color	size redundant	4	4	0	verde	NA	verde	1	0	chair	small	green	TRUE	FALSE	FALSE	FALSE	FALSE
+w2fzmfuovTcBBykSN	3	big_red_candle	color	minimal	color	size redundant	4	4	0	rosa	NA	rosa	1	0	candle	big	red	TRUE	FALSE	FALSE	FALSE	FALSE
+s4qdZmttuex8PYHYK	30	small_red_chair	color	minimal	color	size redundant	4	4	0	el rojo	NA	el rojo	1	0	chair	small	red	TRUE	FALSE	FALSE	FALSE	TRUE
+s4qdZmttuex8PYHYK	60	small_white_phone	color	minimal	color	size redundant	4	4	0	el blanco	NA	el blanco	1	0	phone	small	white	TRUE	FALSE	FALSE	FALSE	TRUE
+S7FpNmQk9XcQXJHTf	27	big_purple_bracelet	color	minimal	color	size redundant	4	4	0	es lila	NA	es lila	1	0	bracelet	big	purple	TRUE	FALSE	FALSE	FALSE	FALSE
+S7FpNmQk9XcQXJHTf	63	small_green_binder	color	minimal	color	size redundant	4	4	0	es verde	NA	es verde	1	0	binder	small	green	TRUE	FALSE	FALSE	FALSE	FALSE
+ZdgvjcuMKtwGjydbR	61	big_yellow_napkin	color	minimal	color	size redundant	4	4	0	amarillo	NA	amarillo	1	0	napkin	big	yellow	TRUE	FALSE	FALSE	FALSE	FALSE
+ZdgvjcuMKtwGjydbR	71	small_red_yarn	color	minimal	color	size redundant	4	4	0	rojo	NA	rojo	1	0	yarn	small	red	TRUE	FALSE	FALSE	FALSE	FALSE
+89kCaivgGxt9As4s5	37	small_yellow_bellpepper	color	minimal	color	size redundant	4	4	0	amarillo	NA	amarillo	1	0	bellpepper	small	yellow	TRUE	FALSE	FALSE	FALSE	FALSE
+89kCaivgGxt9As4s5	52	small_pink_teacup	color	minimal	color	size redundant	4	4	0	rosa	NA	rosa	1	0	teacup	small	pink	TRUE	FALSE	FALSE	FALSE	FALSE
+KkMmp5urRFWCQh3Hb	16	big_yellow_napkin	color	minimal	color	size redundant	4	4	0	amarillento	NA	amarillento	1	0	napkin	big	yellow	TRUE	FALSE	FALSE	FALSE	FALSE
+KkMmp5urRFWCQh3Hb	47	small_red_chair	color	minimal	color	size redundant	4	4	0	roja__o naranja	NA	roja	1	0	chair	small	red	TRUE	FALSE	FALSE	FALSE	FALSE
+mJWL79uZrXh3YMtMs	19	small_yellow_napkin	color	minimal	color	size redundant	4	4	0	amarillo	NA	amarillo	1	0	napkin	small	yellow	TRUE	FALSE	FALSE	FALSE	FALSE
+mJWL79uZrXh3YMtMs	36	big_purple_hairdryer	color	minimal	color	size redundant	4	4	0	el morado	NA	el morado	1	0	hairdryer	big	purple	TRUE	FALSE	FALSE	FALSE	TRUE
+9xQZnMmmLAedmSnpb	39	small_blue_tack	color	minimal	color	size redundant	4	4	0	tachuela azul	NA	tachuela azul	1	0	tack	small	blue	TRUE	FALSE	TRUE	FALSE	FALSE
+9xQZnMmmLAedmSnpb	63	big_blue_rug	color	minimal	color	size redundant	4	4	0	la azul	NA	la azul	1	0	rug	big	blue	TRUE	FALSE	FALSE	FALSE	TRUE
+KchWPEsJ7AK6yb5ab	43	big_yellow_bellpepper	color	minimal	color	size redundant	4	4	0	amarillo	NA	amarillo	1	0	bellpepper	big	yellow	TRUE	FALSE	FALSE	FALSE	FALSE
+KchWPEsJ7AK6yb5ab	46	small_red_yarn	color	minimal	color	size redundant	4	4	0	rojo	NA	rojo	1	0	yarn	small	red	TRUE	FALSE	FALSE	FALSE	FALSE
+6iNLyBqiCFSzy3vxQ	6	small_blue_rug	color	minimal	color	size redundant	4	4	0	toalla azul	NA	toalla azul	1	0	rug	small	blue	TRUE	FALSE	TRUE	FALSE	FALSE
+6iNLyBqiCFSzy3vxQ	13	big_red_tack	color	minimal	color	size redundant	4	4	0	chinche rojo	NA	chinche rojo	1	0	tack	big	red	TRUE	FALSE	TRUE	FALSE	FALSE
+TXdqz7vwbJSeKpJHS	43	big_red_chair	size	minimal	size	color redundant	2	1	0.5	el mas grande	NA	el mas grande	1	0	chair	big	red	FALSE	TRUE	FALSE	FALSE	TRUE
+TXdqz7vwbJSeKpJHS	68	small_brown_turtle	size	minimal	size	color redundant	2	1	0.5	la mas pequeña	NA	la mas pequeña	1	0	turtle	small	brown	FALSE	TRUE	FALSE	FALSE	TRUE
+D5sTSEMaXM7y3Q7AW	21	big_blue_comb	size	minimal	size	color redundant	2	1	0.5	grande	NA	grande	1	0	comb	big	blue	FALSE	TRUE	FALSE	FALSE	FALSE
+D5sTSEMaXM7y3Q7AW	46	small_pink_phone	size	minimal	size	color redundant	2	1	0.5	pequeño	NA	pequeño	1	0	phone	small	pink	FALSE	TRUE	FALSE	FALSE	FALSE
+g8tXfbQJ5w3Yo5kXq	38	small_red_bellpepper	size and color	redundant	size	color redundant	2	1	0.5	pimiento rojo pequeño	amarillo?	pimiento rojo pequeño	0	1	bellpepper	small	red	TRUE	TRUE	TRUE	FALSE	FALSE
+g8tXfbQJ5w3Yo5kXq	65	small_blue_rug	size and color	redundant	size	color redundant	2	1	0.5	azul pequeño	morada?	azul pequeño	0	1	rug	small	blue	TRUE	TRUE	FALSE	FALSE	FALSE
+Drac2QY2EJGirNSty	21	small_blue_scarf	size and color	redundant	size	color redundant	2	1	0.5	pañuelo azul pequeño	NA	pañuelo azul pequeño	0	1	scarf	small	blue	TRUE	TRUE	TRUE	FALSE	FALSE
+Drac2QY2EJGirNSty	41	small_brown_turtle	size and color	redundant	size	color redundant	2	1	0.5	tortuga verde pequeña	NA	tortuga verde pequeña	0	1	turtle	small	brown	TRUE	TRUE	TRUE	FALSE	FALSE
+ncA5wQm2wMWx6Qw4m	52	big_purple_butterfly	size and color	redundant	size	color redundant	2	1	0.5	rosa grande	NA	rosa grande	0	1	butterfly	big	purple	TRUE	TRUE	FALSE	FALSE	FALSE
+ncA5wQm2wMWx6Qw4m	62	big_pink_balloon	size and color	redundant	size	color redundant	2	1	0.5	rosa grande	NA	rosa grande	0	1	balloon	big	pink	TRUE	TRUE	FALSE	FALSE	FALSE
+RdyH6CPjXhDjFiBn6	28	big_blue_candle	size	minimal	size	color redundant	2	1	0.5	vela grande	NA	vela grande	1	0	candle	big	blue	FALSE	TRUE	TRUE	FALSE	FALSE
+RdyH6CPjXhDjFiBn6	52	small_black_comb	size	minimal	size	color redundant	2	1	0.5	cepillo pequeño	NA	cepillo pequeño	1	0	comb	small	black	FALSE	TRUE	TRUE	FALSE	FALSE
+ri9WkdRrTvaRgjAbd	22	small_orange_cushion	size and color	redundant	size	color redundant	2	1	0.5	naranja chica	NA	naranja chica	0	1	cushion	small	orange	TRUE	TRUE	FALSE	FALSE	FALSE
+ri9WkdRrTvaRgjAbd	64	big_red_pepper	size and color	redundant	size	color redundant	2	1	0.5	rojo grande	NA	rojo grande	0	1	pepper	big	red	TRUE	TRUE	FALSE	FALSE	FALSE
+xiA5WJQ9BBwufErLv	34	big_white_weddingcake	size	minimal	size	color redundant	2	1	0.5	grande	NA	grande	1	0	weddingcake	big	white	FALSE	TRUE	FALSE	FALSE	FALSE
+xiA5WJQ9BBwufErLv	37	big_purple_butterfly	size	minimal	size	color redundant	2	1	0.5	grande	NA	grande	1	0	butterfly	big	purple	FALSE	TRUE	FALSE	FALSE	FALSE
+8mztCuTtp44PNj9aR	33	big_blue_butterfly	size	minimal	size	color redundant	2	1	0.5	grande	NA	grande	1	0	butterfly	big	blue	FALSE	TRUE	FALSE	FALSE	FALSE
+8mztCuTtp44PNj9aR	34	big_blue_rug	size	minimal	size	color redundant	2	1	0.5	grande	NA	grande	1	0	rug	big	blue	FALSE	TRUE	FALSE	FALSE	FALSE
+C9425wL5d2jqqrfnt	41	small_purple_billiardball	size	minimal	size	color redundant	2	1	0.5	es pequeño	NA	es pequeño	1	0	billiardball	small	purple	FALSE	TRUE	FALSE	FALSE	FALSE
+C9425wL5d2jqqrfnt	62	big_purple_coathanger	size	minimal	size	color redundant	2	1	0.5	es la mas grande	NA	es la mas grande	1	0	coathanger	big	purple	FALSE	TRUE	FALSE	FALSE	TRUE
+PLenL62JMPMEiyEZd	59	small_red_bucket	size and color	redundant	size	color redundant	2	1	0.5	rojo chico	NA	rojo chico	0	1	bucket	small	red	TRUE	TRUE	FALSE	FALSE	FALSE
+PLenL62JMPMEiyEZd	67	big_blue_butterfly	size	minimal	size	color redundant	2	1	0.5	mas grande	NA	mas grande	1	0	butterfly	big	blue	FALSE	TRUE	FALSE	FALSE	FALSE
+MjtKysa8uTdkgCZhY	11	small_blue_cushion	size	minimal	size	color redundant	2	1	0.5	peque	naranja?	peque	1	0	cushion	small	blue	FALSE	TRUE	FALSE	FALSE	FALSE
+5FBHB2gcEAxFrnBTj	49	big_red_bucket	size and color	redundant	size	color redundant	2	1	0.5	rojo grande	color, tamaño	rojo grande	0	1	bucket	big	red	TRUE	TRUE	FALSE	FALSE	FALSE
+5FBHB2gcEAxFrnBTj	54	big_white_shoe	size and color	redundant	size	color redundant	2	1	0.5	gris grande	color, tamaño	gris grande	0	1	shoe	big	white	TRUE	TRUE	FALSE	FALSE	FALSE
+krPu8jL2ifeQiJtiz	32	big_orange_coathanger	size	minimal	size	color redundant	2	1	0.5	grande	NA	grande	1	0	coathanger	big	orange	FALSE	TRUE	FALSE	FALSE	FALSE
+krPu8jL2ifeQiJtiz	58	small_yellow_shoe	size	minimal	size	color redundant	2	1	0.5	pequeño	NA	pequeño	1	0	shoe	small	yellow	FALSE	TRUE	FALSE	FALSE	FALSE
+L3TwC8ZM9Kcs7QBx4	6	small_blue_comb	size and color	redundant	size	color redundant	2	1	0.5	el peine azul pequeno	NA	el peine azul pequeno	0	1	comb	small	blue	TRUE	TRUE	TRUE	FALSE	TRUE
+L3TwC8ZM9Kcs7QBx4	32	small_green_chair	size and color	redundant	size	color redundant	2	1	0.5	la silla verde chica	NA	la silla verde chica	0	1	chair	small	green	TRUE	TRUE	TRUE	FALSE	TRUE
+o9ajiSJQsC87WWPMG	7	small_purple_stapler	size	minimal	size	color redundant	2	1	0.5	más pequeña	NA	más pequeña	1	0	stapler	small	purple	FALSE	TRUE	FALSE	FALSE	FALSE
+o9ajiSJQsC87WWPMG	57	big_pink_weddingcake	size and color	redundant	size	color redundant	2	1	0.5	rosa, más grande	NA	rosa, más grande	0	1	weddingcake	big	pink	TRUE	TRUE	FALSE	FALSE	FALSE
+w2fzmfuovTcBBykSN	21	small_green_guitar	size	minimal	size	color redundant	2	1	0.5	chica	NA	chica	1	0	guitar	small	green	FALSE	TRUE	FALSE	FALSE	FALSE
+w2fzmfuovTcBBykSN	41	big_brown_turtle	size	minimal	size	color redundant	2	1	0.5	grande	NA	grande	1	0	turtle	big	brown	FALSE	TRUE	FALSE	FALSE	FALSE
+s4qdZmttuex8PYHYK	3	small_yellow_balloon	size	minimal	size	color redundant	2	1	0.5	el mas chico	NA	el mas chico	1	0	balloon	small	yellow	FALSE	TRUE	FALSE	FALSE	TRUE
+s4qdZmttuex8PYHYK	61	big_green_binder	size	minimal	size	color redundant	2	1	0.5	el mas grande	NA	el mas grande	1	0	binder	big	green	FALSE	TRUE	FALSE	FALSE	TRUE
+S7FpNmQk9XcQXJHTf	35	small_red_stapler	size and color	redundant	size	color redundant	2	1	0.5	es rojo y el más pequeño	NA	es rojo y el más pequeño	0	1	stapler	small	red	TRUE	TRUE	FALSE	FALSE	TRUE
+S7FpNmQk9XcQXJHTf	66	small_blue_scarf	size and color	redundant	size	color redundant	2	1	0.5	es azuly la más pequeña	NA	es azuly la más pequeña	0	1	scarf	small	blue	TRUE	TRUE	FALSE	FALSE	TRUE
+ZdgvjcuMKtwGjydbR	11	big_green_chair	size and color	redundant	size	color redundant	2	1	0.5	verde grande	NA	verde grande	0	1	chair	big	green	TRUE	TRUE	FALSE	FALSE	FALSE
+ZdgvjcuMKtwGjydbR	28	small_grey_rock	size	minimal	size	color redundant	2	1	0.5	mas chico	NA	mas chico	1	0	rock	small	grey	FALSE	TRUE	FALSE	FALSE	FALSE
+89kCaivgGxt9As4s5	24	big_orange_cap	size and color	redundant	size	color redundant	2	1	0.5	amarillo grande	NA	amarillo grande	0	1	cap	big	orange	TRUE	TRUE	FALSE	FALSE	FALSE
+89kCaivgGxt9As4s5	54	big_purple_stapler	size and color	redundant	size	color redundant	2	1	0.5	morado grande	NA	morado grande	0	1	stapler	big	purple	TRUE	TRUE	FALSE	FALSE	FALSE
+mJWL79uZrXh3YMtMs	17	small_white_shoe	size and color	redundant	size	color redundant	2	1	0.5	blanco chico	NA	blanco chico	0	1	shoe	small	white	TRUE	TRUE	FALSE	FALSE	FALSE
+mJWL79uZrXh3YMtMs	65	small_white_phone	size	minimal	size	color redundant	2	1	0.5	el mas chico	NA	el mas chico	1	0	phone	small	white	FALSE	TRUE	FALSE	FALSE	TRUE
+9xQZnMmmLAedmSnpb	28	small_red_toothbrush	size and color	redundant	size	color redundant	2	1	0.5	cepillo rojo pequeño	NA	cepillo rojo pequeño	0	1	toothbrush	small	red	TRUE	TRUE	TRUE	FALSE	FALSE
+9xQZnMmmLAedmSnpb	58	small_green_binder	size and color	redundant	size	color redundant	2	1	0.5	la verde más pequeña	NA	la verde más pequeña	0	1	binder	small	green	TRUE	TRUE	FALSE	FALSE	TRUE
+KchWPEsJ7AK6yb5ab	11	small_purple_bracelet	size	minimal	size	color redundant	2	1	0.5	pequenho	NA	pequenho	1	0	bracelet	small	purple	FALSE	TRUE	FALSE	FALSE	FALSE
+KchWPEsJ7AK6yb5ab	64	big_purple_stapler	size	minimal	size	color redundant	2	1	0.5	grande	NA	grande	1	0	stapler	big	purple	FALSE	TRUE	FALSE	FALSE	FALSE
+6iNLyBqiCFSzy3vxQ	30	big_red_scarf	size and color	redundant	size	color redundant	2	1	0.5	bufanda roja grande	NA	bufanda roja grande	0	1	scarf	big	red	TRUE	TRUE	TRUE	FALSE	FALSE
+6iNLyBqiCFSzy3vxQ	40	big_blue_candle	size and color	redundant	size	color redundant	2	1	0.5	vela azul grande	NA	vela azul grande	0	1	candle	big	blue	TRUE	TRUE	TRUE	FALSE	FALSE
+v2J2BjboP65oSJMoy	2	small_orange_billiardball	size	minimal	size	color redundant	2	2	0	mas pequeño or smaller	NA	mas pequeño or smaller	1	0	billiardball	small	orange	FALSE	TRUE	FALSE	FALSE	FALSE
+TXdqz7vwbJSeKpJHS	52	small_blue_guitar	size	minimal	size	color redundant	2	2	0	la mas pequeña	NA	la mas pequeña	1	0	guitar	small	blue	FALSE	TRUE	FALSE	FALSE	TRUE
+TXdqz7vwbJSeKpJHS	54	small_white_shoe	size	minimal	size	color redundant	2	2	0	el mas pequeño	NA	el mas pequeño	1	0	shoe	small	white	FALSE	TRUE	FALSE	FALSE	TRUE
+D5sTSEMaXM7y3Q7AW	33	small_green_chair	size	minimal	size	color redundant	2	2	0	pequeño	NA	pequeño	1	0	chair	small	green	FALSE	TRUE	FALSE	FALSE	FALSE
+D5sTSEMaXM7y3Q7AW	64	small_pink_hairdryer	size	minimal	size	color redundant	2	2	0	pequeño	NA	pequeño	1	0	hairdryer	small	pink	FALSE	TRUE	FALSE	FALSE	FALSE
+g8tXfbQJ5w3Yo5kXq	2	small_brown_jacket	size	minimal	size	color redundant	2	2	0	es la sudadera más pequeña de todas	pequeno?	es la sudadera más pequeña de todas	1	0	jacket	small	brown	FALSE	TRUE	TRUE	FALSE	TRUE
+g8tXfbQJ5w3Yo5kXq	15	big_pink_phone	size	minimal	size	color redundant	2	2	0	telefono grande	pequeno?	telefono grande	1	0	phone	big	pink	FALSE	TRUE	TRUE	FALSE	FALSE
+Drac2QY2EJGirNSty	48	small_brown_jacket	size	minimal	size	color redundant	2	2	0	la pequeña	NA	la pequeña	1	0	jacket	small	brown	FALSE	TRUE	FALSE	FALSE	TRUE
+Drac2QY2EJGirNSty	52	big_orange_billiardball	size	minimal	size	color redundant	2	2	0	bola 5 grande	NA	bola 5 grande	1	0	billiardball	big	orange	FALSE	TRUE	TRUE	FALSE	FALSE
+ncA5wQm2wMWx6Qw4m	36	big_red_stapler	size	minimal	size	color redundant	2	2	0	la más grande	NA	la más grande	1	0	stapler	big	red	FALSE	TRUE	FALSE	FALSE	TRUE
+ncA5wQm2wMWx6Qw4m	53	big_blue_rug	size and color	redundant	size	color redundant	2	2	0	azul grande	NA	azul grande	0	1	rug	big	blue	TRUE	TRUE	FALSE	FALSE	FALSE
+RdyH6CPjXhDjFiBn6	26	small_blue_tack	size	minimal	size	color redundant	2	2	0	pin pequeño	NA	pin pequeño	1	0	tack	small	blue	FALSE	TRUE	TRUE	FALSE	FALSE
+RdyH6CPjXhDjFiBn6	27	big_blue_rug	size and color	redundant	size	color redundant	2	2	0	tapete azul (grande)	NA	tapete azul (grande)	0	1	rug	big	blue	TRUE	TRUE	TRUE	FALSE	FALSE
+ri9WkdRrTvaRgjAbd	1	small_blue_comb	size	minimal	size	color redundant	2	2	0	el mas chico__el peine mas chiquito	ese?	el mas chico	1	0	comb	small	blue	FALSE	TRUE	FALSE	FALSE	TRUE
+ri9WkdRrTvaRgjAbd	36	big_red_bellpepper	size	minimal	size	color redundant	2	2	0	mas grande	NA	mas grande	1	0	bellpepper	big	red	FALSE	TRUE	FALSE	FALSE	FALSE
+xiA5WJQ9BBwufErLv	17	small_pink_hairdryer	size	minimal	size	color redundant	2	2	0	pequeño	NA	pequeño	1	0	hairdryer	small	pink	FALSE	TRUE	FALSE	FALSE	FALSE
+xiA5WJQ9BBwufErLv	54	small_white_pingpongball	size	minimal	size	color redundant	2	2	0	peque	NA	peque	1	0	pingpongball	small	white	FALSE	TRUE	FALSE	FALSE	FALSE
+8mztCuTtp44PNj9aR	29	small_red_candle	size	minimal	size	color redundant	2	2	0	pequeña	NA	pequeña	1	0	candle	small	red	FALSE	TRUE	FALSE	FALSE	FALSE
+8mztCuTtp44PNj9aR	47	small_red_scarf	size	minimal	size	color redundant	2	2	0	pequeño	NA	pequeño	1	0	scarf	small	red	FALSE	TRUE	FALSE	FALSE	FALSE
+C9425wL5d2jqqrfnt	71	small_red_stapler	size	minimal	size	color redundant	2	2	0	es la mas pequeña	NA	es la mas pequeña	1	0	stapler	small	red	FALSE	TRUE	FALSE	FALSE	TRUE
+PLenL62JMPMEiyEZd	15	big_black_belt	size	minimal	size	color redundant	2	2	0	mas grande	NA	mas grande	1	0	belt	big	black	FALSE	TRUE	FALSE	FALSE	FALSE
+PLenL62JMPMEiyEZd	31	small_red_yarn	size	minimal	size	color redundant	2	2	0	mas chico	NA	mas chico	1	0	yarn	small	red	FALSE	TRUE	FALSE	FALSE	FALSE
+5FBHB2gcEAxFrnBTj	18	small_pink_weddingcake	size	minimal	size	color redundant	2	2	0	chico	tamaño?	chico	1	0	weddingcake	small	pink	FALSE	TRUE	FALSE	FALSE	FALSE
+5FBHB2gcEAxFrnBTj	40	big_blue_scarf	size	minimal	size	color redundant	2	2	0	grande	tamaño	grande	1	0	scarf	big	blue	FALSE	TRUE	FALSE	FALSE	FALSE
+krPu8jL2ifeQiJtiz	45	small_orange_cap	size	minimal	size	color redundant	2	2	0	pequeño	NA	pequeño	1	0	cap	small	orange	FALSE	TRUE	FALSE	FALSE	FALSE
+krPu8jL2ifeQiJtiz	71	big_blue_binder	size	minimal	size	color redundant	2	2	0	grande	NA	grande	1	0	binder	big	blue	FALSE	TRUE	FALSE	FALSE	FALSE
+L3TwC8ZM9Kcs7QBx4	49	big_pink_framee	size and color	redundant	size	color redundant	2	2	0	el cuadro rosa mas grande	NA	el cuadro rosa mas grande	0	1	framee	big	pink	TRUE	TRUE	TRUE	FALSE	TRUE
+L3TwC8ZM9Kcs7QBx4	50	big_red_bucket	size	minimal	size	color redundant	2	2	0	la cubeta mas grande	NA	la cubeta mas grande	1	0	bucket	big	red	FALSE	TRUE	TRUE	FALSE	TRUE
+o9ajiSJQsC87WWPMG	10	small_pink_balloon	size	minimal	size	color redundant	2	2	0	más pequeño	NA	más pequeño	1	0	balloon	small	pink	FALSE	TRUE	FALSE	FALSE	FALSE
+o9ajiSJQsC87WWPMG	27	big_red_yarn	size	minimal	size	color redundant	2	2	0	más grande	NA	más grande	1	0	yarn	big	red	FALSE	TRUE	FALSE	FALSE	FALSE
+w2fzmfuovTcBBykSN	55	big_purple_yarn	size	minimal	size	color redundant	2	2	0	grande	NA	grande	1	0	yarn	big	purple	FALSE	TRUE	FALSE	FALSE	FALSE
+w2fzmfuovTcBBykSN	57	small_black_comb	size	minimal	size	color redundant	2	2	0	chico	NA	chico	1	0	comb	small	black	FALSE	TRUE	FALSE	FALSE	FALSE
+s4qdZmttuex8PYHYK	19	big_green_framee	size	minimal	size	color redundant	2	2	0	el mas grande	NA	el mas grande	1	0	framee	big	green	FALSE	TRUE	FALSE	FALSE	TRUE
+s4qdZmttuex8PYHYK	32	big_purple_bracelet	size	minimal	size	color redundant	2	2	0	el mas grande	NA	el mas grande	1	0	bracelet	big	purple	FALSE	TRUE	FALSE	FALSE	TRUE
+S7FpNmQk9XcQXJHTf	6	big_yellow_shoe	size	minimal	size	color redundant	2	2	0	es el más grande	NA	es el más grande	1	0	shoe	big	yellow	FALSE	TRUE	FALSE	FALSE	TRUE
+S7FpNmQk9XcQXJHTf	21	big_pink_teacup	size	minimal	size	color redundant	2	2	0	esla más grande	NA	esla más grande	1	0	teacup	big	pink	FALSE	TRUE	FALSE	FALSE	TRUE
+ZdgvjcuMKtwGjydbR	16	small_green_jacket	size	minimal	size	color redundant	2	2	0	mas pequeño	NA	mas pequeño	1	0	jacket	small	green	FALSE	TRUE	FALSE	FALSE	FALSE
+ZdgvjcuMKtwGjydbR	27	big_yellow_bellpepper	size	minimal	size	color redundant	2	2	0	mas grande	NA	mas grande	1	0	bellpepper	big	yellow	FALSE	TRUE	FALSE	FALSE	FALSE
+89kCaivgGxt9As4s5	10	big_orange_billiardball	size	minimal	size	color redundant	2	2	0	pelota grande	NA	pelota grande	1	0	billiardball	big	orange	FALSE	TRUE	TRUE	FALSE	FALSE
+89kCaivgGxt9As4s5	50	big_orange_pingpongball	size	minimal	size	color redundant	2	2	0	grande	NA	grande	1	0	pingpongball	big	orange	FALSE	TRUE	FALSE	FALSE	FALSE
+mJWL79uZrXh3YMtMs	44	small_orange_billiardball	size	minimal	size	color redundant	2	2	0	el mas chico	NA	el mas chico	1	0	billiardball	small	orange	FALSE	TRUE	FALSE	FALSE	TRUE
+mJWL79uZrXh3YMtMs	58	small_orange_cap	size	minimal	size	color redundant	2	2	0	la mas chica	NA	la mas chica	1	0	cap	small	orange	FALSE	TRUE	FALSE	FALSE	TRUE
+9xQZnMmmLAedmSnpb	50	big_orange_cap	size and color	redundant	size	color redundant	2	2	0	gorra amarilla grande	NA	gorra amarilla grande	0	1	cap	big	orange	TRUE	TRUE	TRUE	FALSE	FALSE
+9xQZnMmmLAedmSnpb	56	big_red_flower	size	minimal	size	color redundant	2	2	0	la flor mas grande	NA	la flor mas grande	1	0	flower	big	red	FALSE	TRUE	TRUE	FALSE	TRUE
+KchWPEsJ7AK6yb5ab	22	small_blue_butterfly	size	minimal	size	color redundant	2	2	0	pequenho	NA	pequenho	1	0	butterfly	small	blue	FALSE	TRUE	FALSE	FALSE	FALSE
+KchWPEsJ7AK6yb5ab	56	big_red_pepper	size	minimal	size	color redundant	2	2	0	grande	NA	grande	1	0	pepper	big	red	FALSE	TRUE	FALSE	FALSE	FALSE
+6iNLyBqiCFSzy3vxQ	21	small_black_book	size	minimal	size	color redundant	2	2	0	libreta pequeña	NA	libreta pequeña	1	0	book	small	black	FALSE	TRUE	TRUE	FALSE	FALSE
+6iNLyBqiCFSzy3vxQ	27	big_green_pepper	size	minimal	size	color redundant	2	2	0	ají grande	NA	ají grande	1	0	pepper	big	green	FALSE	TRUE	TRUE	FALSE	FALSE
+TXdqz7vwbJSeKpJHS	18	big_grey_rock	size	minimal	size	color redundant	3	1	0.6666666666666666	el mas grande	NA	el mas grande	1	0	rock	big	grey	FALSE	TRUE	FALSE	FALSE	TRUE
+TXdqz7vwbJSeKpJHS	63	small_blue_cap	size and color	redundant	size	color redundant	3	1	0.6666666666666666	pequeño, azul	NA	pequeño, azul	0	1	cap	small	blue	TRUE	TRUE	FALSE	FALSE	FALSE
+D5sTSEMaXM7y3Q7AW	29	small_red_toothbrush	size	minimal	size	color redundant	3	1	0.6666666666666666	pequeño	NA	pequeño	1	0	toothbrush	small	red	FALSE	TRUE	FALSE	FALSE	FALSE
+D5sTSEMaXM7y3Q7AW	56	big_purple_coathanger	size	minimal	size	color redundant	3	1	0.6666666666666666	grande	NA	grande	1	0	coathanger	big	purple	FALSE	TRUE	FALSE	FALSE	FALSE
+g8tXfbQJ5w3Yo5kXq	32	big_green_chair	size and color	redundant	size	color redundant	3	1	0.6666666666666666	verde grande	verde grande?	verde grande	0	1	chair	big	green	TRUE	TRUE	FALSE	FALSE	FALSE
+g8tXfbQJ5w3Yo5kXq	53	small_black_comb	size and color	redundant	size	color redundant	3	1	0.6666666666666666	negro pequeño	negro peaueno?	negro pequeño	0	1	comb	small	black	TRUE	TRUE	FALSE	FALSE	FALSE
+Drac2QY2EJGirNSty	63	small_tan_rock	size and color	redundant	size	color redundant	3	1	0.6666666666666666	piedra marrón pequeña	NA	piedra marrón pequeña	0	1	rock	small	tan	TRUE	TRUE	TRUE	FALSE	FALSE
+Drac2QY2EJGirNSty	69	small_pink_bucket	size and color	redundant	size	color redundant	3	1	0.6666666666666666	rosa pequelña__ña	NA	rosa pequelña	0	1	bucket	small	pink	TRUE	TRUE	FALSE	FALSE	FALSE
+ncA5wQm2wMWx6Qw4m	43	small_yellow_bellpepper	size and color	redundant	size	color redundant	3	1	0.6666666666666666	amarillo pequeño	NA	amarillo pequeño	0	1	bellpepper	small	yellow	TRUE	TRUE	FALSE	FALSE	FALSE
+ncA5wQm2wMWx6Qw4m	66	small_purple_billiardball	size and color	redundant	size	color redundant	3	1	0.6666666666666666	morado pequeño	NA	morado pequeño	0	1	billiardball	small	purple	TRUE	TRUE	FALSE	FALSE	FALSE
+RdyH6CPjXhDjFiBn6	42	small_purple_bracelet	size and color	redundant	size	color redundant	3	1	0.6666666666666666	pulsera morada (pequeña)	NA	pulsera morada (pequeña)	0	1	bracelet	small	purple	TRUE	TRUE	TRUE	FALSE	FALSE
+RdyH6CPjXhDjFiBn6	63	big_red_bike	size and color	redundant	size	color redundant	3	1	0.6666666666666666	bici roja (grande)	NA	bici roja (grande)	0	1	bike	big	red	TRUE	TRUE	TRUE	FALSE	FALSE
+ri9WkdRrTvaRgjAbd	20	small_purple_coathanger	size and color	redundant	size	color redundant	3	1	0.6666666666666666	morado chico	NA	morado chico	0	1	coathanger	small	purple	TRUE	TRUE	FALSE	FALSE	FALSE
+ri9WkdRrTvaRgjAbd	68	big_brown_jacket	size and color	redundant	size	color redundant	3	1	0.6666666666666666	cafe grande	NA	cafe grande	0	1	jacket	big	brown	TRUE	TRUE	FALSE	FALSE	FALSE
+xiA5WJQ9BBwufErLv	13	small_black_belt	size and color	redundant	size	color redundant	3	1	0.6666666666666666	negro pequeño	NA	negro pequeño	0	1	belt	small	black	TRUE	TRUE	FALSE	FALSE	FALSE
+xiA5WJQ9BBwufErLv	15	big_black_comb	size and color	redundant	size	color redundant	3	1	0.6666666666666666	negro grande	NA	negro grande	0	1	comb	big	black	TRUE	TRUE	FALSE	FALSE	FALSE
+8mztCuTtp44PNj9aR	37	big_blue_guitar	size	minimal	size	color redundant	3	1	0.6666666666666666	grande	NA	grande	1	0	guitar	big	blue	FALSE	TRUE	FALSE	FALSE	FALSE
+8mztCuTtp44PNj9aR	64	small_red_bellpepper	size	minimal	size	color redundant	3	1	0.6666666666666666	chico	NA	chico	1	0	bellpepper	small	red	FALSE	TRUE	FALSE	FALSE	FALSE
+C9425wL5d2jqqrfnt	43	big_green_guitar	size	minimal	size	color redundant	3	1	0.6666666666666666	el tamaño mas grande	NA	el tamaño mas grande	1	0	guitar	big	green	FALSE	TRUE	FALSE	FALSE	TRUE
+C9425wL5d2jqqrfnt	66	big_red_chair	size	minimal	size	color redundant	3	1	0.6666666666666666	es el mas grande	NA	es el mas grande	1	0	chair	big	red	FALSE	TRUE	FALSE	FALSE	TRUE
+PLenL62JMPMEiyEZd	6	small_pink_framee	size	minimal	size	color redundant	3	1	0.6666666666666666	chico	NA	chico	1	0	framee	small	pink	FALSE	TRUE	FALSE	FALSE	FALSE
+PLenL62JMPMEiyEZd	69	big_red_chair	size	minimal	size	color redundant	3	1	0.6666666666666666	mas grande	NA	mas grande	1	0	chair	big	red	FALSE	TRUE	FALSE	FALSE	FALSE
+5FBHB2gcEAxFrnBTj	58	small_grey_rock	size and color	redundant	size	color redundant	3	1	0.6666666666666666	gris pequeña	color, tamaño	gris pequeña	0	1	rock	small	grey	TRUE	TRUE	FALSE	FALSE	FALSE
+5FBHB2gcEAxFrnBTj	63	small_yellow_napkin	size and color	redundant	size	color redundant	3	1	0.6666666666666666	amarillo pequeño	color, tamaño	amarillo pequeño	0	1	napkin	small	yellow	TRUE	TRUE	FALSE	FALSE	FALSE
+krPu8jL2ifeQiJtiz	10	small_blue_rug	size	minimal	size	color redundant	3	1	0.6666666666666666	pequeña	NA	pequeña	1	0	rug	small	blue	FALSE	TRUE	FALSE	FALSE	FALSE
+krPu8jL2ifeQiJtiz	18	small_red_tack	size	minimal	size	color redundant	3	1	0.6666666666666666	pequeño	NA	pequeño	1	0	tack	small	red	FALSE	TRUE	FALSE	FALSE	FALSE
+L3TwC8ZM9Kcs7QBx4	24	big_blue_candle	size and color	redundant	size	color redundant	3	1	0.6666666666666666	la vela azul grande	NA	la vela azul grande	0	1	candle	big	blue	TRUE	TRUE	TRUE	FALSE	TRUE
+L3TwC8ZM9Kcs7QBx4	45	small_pink_balloon	size and color	redundant	size	color redundant	3	1	0.6666666666666666	el globo rosa chico	NA	el globo rosa chico	0	1	balloon	small	pink	TRUE	TRUE	TRUE	FALSE	TRUE
+o9ajiSJQsC87WWPMG	61	small_purple_bracelet	size	minimal	size	color redundant	3	1	0.6666666666666666	más chico	NA	más chico	1	0	bracelet	small	purple	FALSE	TRUE	FALSE	FALSE	FALSE
+w2fzmfuovTcBBykSN	53	big_blue_rug	size	minimal	size	color redundant	3	1	0.6666666666666666	grande	NA	grande	1	0	rug	big	blue	FALSE	TRUE	FALSE	FALSE	FALSE
+w2fzmfuovTcBBykSN	63	small_orange_napkin	size	minimal	size	color redundant	3	1	0.6666666666666666	pequeña	NA	pequeña	1	0	napkin	small	orange	FALSE	TRUE	FALSE	FALSE	FALSE
+s4qdZmttuex8PYHYK	6	small_red_scarf	size	minimal	size	color redundant	3	1	0.6666666666666666	el mas chico	NA	el mas chico	1	0	scarf	small	red	FALSE	TRUE	FALSE	FALSE	TRUE
+s4qdZmttuex8PYHYK	49	small_pink_weddingcake	size	minimal	size	color redundant	3	1	0.6666666666666666	el chico	NA	el chico	1	0	weddingcake	small	pink	FALSE	TRUE	FALSE	FALSE	TRUE
+S7FpNmQk9XcQXJHTf	41	big_blue_candle	size and color	redundant	size	color redundant	3	1	0.6666666666666666	es azul y la más grande	NA	es azul y la más grande	0	1	candle	big	blue	TRUE	TRUE	FALSE	FALSE	TRUE
+S7FpNmQk9XcQXJHTf	42	big_black_book	size and color	redundant	size	color redundant	3	1	0.6666666666666666	es negro y el más grande	NA	es negro y el más grande	0	1	book	big	black	TRUE	TRUE	FALSE	FALSE	TRUE
+ZdgvjcuMKtwGjydbR	10	small_blue_cap	size and color	redundant	size	color redundant	3	1	0.6666666666666666	celeste pequeño	NA	celeste pequeño	0	1	cap	small	blue	TRUE	TRUE	FALSE	FALSE	FALSE
+ZdgvjcuMKtwGjydbR	21	small_orange_coathanger	size	minimal	size	color redundant	3	1	0.6666666666666666	mas chico	NA	mas chico	1	0	coathanger	small	orange	FALSE	TRUE	FALSE	FALSE	FALSE
+89kCaivgGxt9As4s5	15	big_blue_butterfly	size and color	redundant	size	color redundant	3	1	0.6666666666666666	azul grande	NA	azul grande	0	1	butterfly	big	blue	TRUE	TRUE	FALSE	FALSE	FALSE
+89kCaivgGxt9As4s5	61	big_blue_scarf	size and color	redundant	size	color redundant	3	1	0.6666666666666666	azul grande	NA	azul grande	0	1	scarf	big	blue	TRUE	TRUE	FALSE	FALSE	FALSE
+KkMmp5urRFWCQh3Hb	10	big_blue_cushion	size and color	redundant	size	color redundant	3	1	0.6666666666666666	cojín azul grande	NA	cojín azul grande	0	1	cushion	big	blue	TRUE	TRUE	TRUE	FALSE	FALSE
+mJWL79uZrXh3YMtMs	59	big_green_framee	size and color	redundant	size	color redundant	3	1	0.6666666666666666	la verde grande	NA	la verde grande	0	1	framee	big	green	TRUE	TRUE	FALSE	FALSE	TRUE
+mJWL79uZrXh3YMtMs	64	small_purple_butterfly	size	minimal	size	color redundant	3	1	0.6666666666666666	la mas chico	NA	la mas chico	1	0	butterfly	small	purple	FALSE	TRUE	FALSE	FALSE	TRUE
+9xQZnMmmLAedmSnpb	59	big_white_phone	size and color	redundant	size	color redundant	3	1	0.6666666666666666	telefono blanco grande	NA	telefono blanco grande	0	1	phone	big	white	TRUE	TRUE	TRUE	FALSE	FALSE
+9xQZnMmmLAedmSnpb	70	small_red_scarf	size and color	redundant	size	color redundant	3	1	0.6666666666666666	bufanda roja pequeña	NA	bufanda roja pequeña	0	1	scarf	small	red	TRUE	TRUE	TRUE	FALSE	FALSE
+KchWPEsJ7AK6yb5ab	42	small_black_comb	size	minimal	size	color redundant	3	1	0.6666666666666666	pequenho	NA	pequenho	1	0	comb	small	black	FALSE	TRUE	FALSE	FALSE	FALSE
+KchWPEsJ7AK6yb5ab	63	big_green_chair	size	minimal	size	color redundant	3	1	0.6666666666666666	grande	NA	grande	1	0	chair	big	green	FALSE	TRUE	FALSE	FALSE	FALSE
+6iNLyBqiCFSzy3vxQ	39	small_purple_bike	size and color	redundant	size	color redundant	3	1	0.6666666666666666	bici morada pequeña	NA	bici morada pequeña	0	1	bike	small	purple	TRUE	TRUE	TRUE	FALSE	FALSE
+6iNLyBqiCFSzy3vxQ	47	big_purple_hairdryer	size and color	redundant	size	color redundant	3	1	0.6666666666666666	secador morado grande	NA	secador morado grande	0	1	hairdryer	big	purple	TRUE	TRUE	TRUE	FALSE	FALSE
+TXdqz7vwbJSeKpJHS	20	small_white_phone	size	minimal	size	color redundant	3	2	0.3333333333333333	el mas pequeño	NA	el mas pequeño	1	0	phone	small	white	FALSE	TRUE	FALSE	FALSE	TRUE
+TXdqz7vwbJSeKpJHS	28	small_green_jacket	size and color	redundant	size	color redundant	3	2	0.3333333333333333	el mas pequeño, verde	NA	el mas pequeño, verde	0	1	jacket	small	green	TRUE	TRUE	FALSE	FALSE	TRUE
+D5sTSEMaXM7y3Q7AW	39	big_purple_rug	size	minimal	size	color redundant	3	2	0.3333333333333333	grande	NA	grande	1	0	rug	big	purple	FALSE	TRUE	FALSE	FALSE	FALSE
+D5sTSEMaXM7y3Q7AW	57	small_black_belt	size	minimal	size	color redundant	3	2	0.3333333333333333	pequeño	NA	pequeño	1	0	belt	small	black	FALSE	TRUE	FALSE	FALSE	FALSE
+g8tXfbQJ5w3Yo5kXq	28	big_red_flower	size and color	redundant	size	color redundant	3	2	0.3333333333333333	flor roja grande	morada?	flor roja grande	0	1	flower	big	red	TRUE	TRUE	TRUE	FALSE	FALSE
+g8tXfbQJ5w3Yo5kXq	69	small_pink_teacup	size and color	redundant	size	color redundant	3	2	0.3333333333333333	rosa pequeño	blanco?	rosa pequeño	0	1	teacup	small	pink	TRUE	TRUE	FALSE	FALSE	FALSE
+Drac2QY2EJGirNSty	31	big_pink_teacup	size and color	redundant	size	color redundant	3	2	0.3333333333333333	taza rosa grande	NA	taza rosa grande	0	1	teacup	big	pink	TRUE	TRUE	TRUE	FALSE	FALSE
+Drac2QY2EJGirNSty	32	small_purple_butterfly	size and color	redundant	size	color redundant	3	2	0.3333333333333333	mariposa pequeña rosa	NA	mariposa pequeña rosa	0	1	butterfly	small	purple	TRUE	TRUE	TRUE	FALSE	FALSE
+ncA5wQm2wMWx6Qw4m	39	small_white_weddingcake	size and color	redundant	size	color redundant	3	2	0.3333333333333333	blanco chico	NA	blanco chico	0	1	weddingcake	small	white	TRUE	TRUE	FALSE	FALSE	FALSE
+ncA5wQm2wMWx6Qw4m	70	big_red_tack	size and color	redundant	size	color redundant	3	2	0.3333333333333333	rojo grande	NA	rojo grande	0	1	tack	big	red	TRUE	TRUE	FALSE	FALSE	FALSE
+RdyH6CPjXhDjFiBn6	18	big_purple_stapler	size and color	redundant	size	color redundant	3	2	0.3333333333333333	engrapadora morada grande	NA	engrapadora morada grande	0	1	stapler	big	purple	TRUE	TRUE	TRUE	FALSE	FALSE
+RdyH6CPjXhDjFiBn6	72	small_orange_napkin	size	minimal	size	color redundant	3	2	0.3333333333333333	papel paqueño	NA	papel paqueño	1	0	napkin	small	orange	FALSE	TRUE	TRUE	FALSE	FALSE
+ri9WkdRrTvaRgjAbd	2	big_yellow_shoe	size and color	redundant	size	color redundant	3	2	0.3333333333333333	el amarillo mas grande	NA	el amarillo mas grande	0	1	shoe	big	yellow	TRUE	TRUE	FALSE	FALSE	TRUE
+ri9WkdRrTvaRgjAbd	31	big_purple_hairdryer	size and color	redundant	size	color redundant	3	2	0.3333333333333333	morada mas grande	NA	morada mas grande	0	1	hairdryer	big	purple	TRUE	TRUE	FALSE	FALSE	FALSE
+xiA5WJQ9BBwufErLv	43	small_blue_cap	size	minimal	size	color redundant	3	2	0.3333333333333333	peque	NA	peque	1	0	cap	small	blue	FALSE	TRUE	FALSE	FALSE	FALSE
+xiA5WJQ9BBwufErLv	57	small_black_book	size	minimal	size	color redundant	3	2	0.3333333333333333	peque	NA	peque	1	0	book	small	black	FALSE	TRUE	FALSE	FALSE	FALSE
+8mztCuTtp44PNj9aR	20	big_pink_phone	size	minimal	size	color redundant	3	2	0.3333333333333333	grande	NA	grande	1	0	phone	big	pink	FALSE	TRUE	FALSE	FALSE	FALSE
+8mztCuTtp44PNj9aR	49	big_tan_rock	size	minimal	size	color redundant	3	2	0.3333333333333333	grande	NA	grande	1	0	rock	big	tan	FALSE	TRUE	FALSE	FALSE	FALSE
+C9425wL5d2jqqrfnt	72	small_green_jacket	size	minimal	size	color redundant	3	2	0.3333333333333333	es la mas pequeña__gracias igualmente__saluds	gracias amigx bien hecho!	es la mas pequeña	1	0	jacket	small	green	FALSE	TRUE	FALSE	FALSE	TRUE
+PLenL62JMPMEiyEZd	27	small_purple_hairdryer	size	minimal	size	color redundant	3	2	0.3333333333333333	mas chico	NA	mas chico	1	0	hairdryer	small	purple	FALSE	TRUE	FALSE	FALSE	FALSE
+PLenL62JMPMEiyEZd	34	small_red_candle	size	minimal	size	color redundant	3	2	0.3333333333333333	mas chica	NA	mas chica	1	0	candle	small	red	FALSE	TRUE	FALSE	FALSE	FALSE
+MjtKysa8uTdkgCZhY	17	big_blue_tack	size	minimal	size	color redundant	3	2	0.3333333333333333	no, es grande	rojo?	no, es grande	1	0	tack	big	blue	FALSE	TRUE	FALSE	FALSE	FALSE
+MjtKysa8uTdkgCZhY	68	big_red_bucket	size	minimal	size	color redundant	3	2	0.3333333333333333	grande	rosa?	grande	1	0	bucket	big	red	FALSE	TRUE	FALSE	FALSE	FALSE
+5FBHB2gcEAxFrnBTj	13	big_red_pepper	size and color	redundant	size	color redundant	3	2	0.3333333333333333	rojo y el más grande	color y tamaño?	rojo y el más grande	0	1	pepper	big	red	TRUE	TRUE	FALSE	FALSE	TRUE
+5FBHB2gcEAxFrnBTj	20	small_red_flower	size and color	redundant	size	color redundant	3	2	0.3333333333333333	rojo y pequeño	color y tamaño?	rojo y pequeño	0	1	flower	small	red	TRUE	TRUE	FALSE	FALSE	FALSE
+krPu8jL2ifeQiJtiz	24	small_blue_cushion	size	minimal	size	color redundant	3	2	0.3333333333333333	pequeño	NA	pequeño	1	0	cushion	small	blue	FALSE	TRUE	FALSE	FALSE	FALSE
+krPu8jL2ifeQiJtiz	25	big_red_scarf	size	minimal	size	color redundant	3	2	0.3333333333333333	grande	NA	grande	1	0	scarf	big	red	FALSE	TRUE	FALSE	FALSE	FALSE
+L3TwC8ZM9Kcs7QBx4	23	small_white_shoe	size and color	redundant	size	color redundant	3	2	0.3333333333333333	la zapatilla plateada chica	NA	la zapatilla plateada chica	0	1	shoe	small	white	TRUE	TRUE	TRUE	FALSE	TRUE
+L3TwC8ZM9Kcs7QBx4	27	small_blue_scarf	size and color	redundant	size	color redundant	3	2	0.3333333333333333	la bufanda azul chica	NA	la bufanda azul chica	0	1	scarf	small	blue	TRUE	TRUE	TRUE	FALSE	TRUE
+o9ajiSJQsC87WWPMG	22	small_green_guitar	size	minimal	size	color redundant	3	2	0.3333333333333333	la más pequeña	NA	la más pequeña	1	0	guitar	small	green	FALSE	TRUE	FALSE	FALSE	TRUE
+o9ajiSJQsC87WWPMG	32	small_blue_binder	size	minimal	size	color redundant	3	2	0.3333333333333333	más pequeña	NA	más pequeña	1	0	binder	small	blue	FALSE	TRUE	FALSE	FALSE	FALSE
+w2fzmfuovTcBBykSN	25	small_purple_hairdryer	size	minimal	size	color redundant	3	2	0.3333333333333333	chica	NA	chica	1	0	hairdryer	small	purple	FALSE	TRUE	FALSE	FALSE	FALSE
+w2fzmfuovTcBBykSN	56	big_red_tack	size	minimal	size	color redundant	3	2	0.3333333333333333	grande	NA	grande	1	0	tack	big	red	FALSE	TRUE	FALSE	FALSE	FALSE
+s4qdZmttuex8PYHYK	37	big_purple_hairdryer	size	minimal	size	color redundant	3	2	0.3333333333333333	el mas grande	NA	el mas grande	1	0	hairdryer	big	purple	FALSE	TRUE	FALSE	FALSE	TRUE
+s4qdZmttuex8PYHYK	71	small_blue_comb	size	minimal	size	color redundant	3	2	0.3333333333333333	el mas chico	NA	el mas chico	1	0	comb	small	blue	FALSE	TRUE	FALSE	FALSE	TRUE
+S7FpNmQk9XcQXJHTf	53	small_orange_pingpongball	size and color	redundant	size	color redundant	3	2	0.3333333333333333	es naranja y el más pequeño	NA	es naranja y el más pequeño	0	1	pingpongball	small	orange	TRUE	TRUE	FALSE	FALSE	TRUE
+S7FpNmQk9XcQXJHTf	60	small_black_turtle	size and color	redundant	size	color redundant	3	2	0.3333333333333333	es negra y la más pequeña	NA	es negra y la más pequeña	0	1	turtle	small	black	TRUE	TRUE	FALSE	FALSE	TRUE
+ZdgvjcuMKtwGjydbR	13	big_red_tack	size and color	redundant	size	color redundant	3	2	0.3333333333333333	rojo grande	NA	rojo grande	0	1	tack	big	red	TRUE	TRUE	FALSE	FALSE	FALSE
+ZdgvjcuMKtwGjydbR	46	small_pink_bucket	size and color	redundant	size	color redundant	3	2	0.3333333333333333	rosa mas chico	NA	rosa mas chico	0	1	bucket	small	pink	TRUE	TRUE	FALSE	FALSE	FALSE
+89kCaivgGxt9As4s5	6	big_brown_jacket	size and color	redundant	size	color redundant	3	2	0.3333333333333333	sudadera cafe grande	NA	sudadera cafe grande	0	1	jacket	big	brown	TRUE	TRUE	TRUE	FALSE	FALSE
+89kCaivgGxt9As4s5	28	big_tan_rock	size and color	redundant	size	color redundant	3	2	0.3333333333333333	dorado grande	NA	dorado grande	0	1	rock	big	tan	TRUE	TRUE	FALSE	FALSE	FALSE
+mJWL79uZrXh3YMtMs	26	small_brown_belt	size and color	redundant	size	color redundant	3	2	0.3333333333333333	cinturon cafe calro chico	NA	cinturon cafe calro chico	0	1	belt	small	brown	TRUE	TRUE	TRUE	FALSE	FALSE
+9xQZnMmmLAedmSnpb	30	small_pink_balloon	size and color	redundant	size	color redundant	3	2	0.3333333333333333	globo rosa pequeño	NA	globo rosa pequeño	0	1	balloon	small	pink	TRUE	TRUE	TRUE	FALSE	FALSE
+9xQZnMmmLAedmSnpb	46	big_black_turtle	size and color	redundant	size	color redundant	3	2	0.3333333333333333	tortuga negra grande	NA	tortuga negra grande	0	1	turtle	big	black	TRUE	TRUE	TRUE	FALSE	FALSE
+KchWPEsJ7AK6yb5ab	36	small_pink_weddingcake	size	minimal	size	color redundant	3	2	0.3333333333333333	pequenho	NA	pequenho	1	0	weddingcake	small	pink	FALSE	TRUE	FALSE	FALSE	FALSE
+KchWPEsJ7AK6yb5ab	55	big_red_tack	size	minimal	size	color redundant	3	2	0.3333333333333333	grande	NA	grande	1	0	tack	big	red	FALSE	TRUE	FALSE	FALSE	FALSE
+6iNLyBqiCFSzy3vxQ	48	small_purple_stapler	size and color	redundant	size	color redundant	3	2	0.3333333333333333	corchetera morada pequeña	NA	corchetera morada pequeña	0	1	stapler	small	purple	TRUE	TRUE	TRUE	FALSE	FALSE
+6iNLyBqiCFSzy3vxQ	59	big_blue_comb	size	minimal	size	color redundant	3	2	0.3333333333333333	peineta grande	NA	peineta grande	1	0	comb	big	blue	FALSE	TRUE	TRUE	FALSE	FALSE
+TXdqz7vwbJSeKpJHS	9	big_red_yarn	size	minimal	size	color redundant	3	3	0	el mas grande	NA	el mas grande	1	0	yarn	big	red	FALSE	TRUE	FALSE	FALSE	TRUE
+TXdqz7vwbJSeKpJHS	55	big_blue_cushion	size	minimal	size	color redundant	3	3	0	el mas grande	NA	el mas grande	1	0	cushion	big	blue	FALSE	TRUE	FALSE	FALSE	TRUE
+D5sTSEMaXM7y3Q7AW	38	big_orange_billiardball	size	minimal	size	color redundant	3	3	0	grande	NA	grande	1	0	billiardball	big	orange	FALSE	TRUE	FALSE	FALSE	FALSE
+g8tXfbQJ5w3Yo5kXq	35	big_purple_billiardball	size	minimal	size	color redundant	3	3	0	mas grande	5 grande?	mas grande	1	0	billiardball	big	purple	FALSE	TRUE	FALSE	FALSE	FALSE
+g8tXfbQJ5w3Yo5kXq	52	big_red_tack	size	minimal	size	color redundant	3	3	0	grande	grande?	grande	1	0	tack	big	red	FALSE	TRUE	FALSE	FALSE	FALSE
+Drac2QY2EJGirNSty	61	small_red_stapler	size	minimal	size	color redundant	3	3	0	la pequeña	NA	la pequeña	1	0	stapler	small	red	FALSE	TRUE	FALSE	FALSE	TRUE
+ncA5wQm2wMWx6Qw4m	27	big_red_bucket	size	minimal	size	color redundant	3	3	0	la cubeta más grande	NA	la cubeta más grande	1	0	bucket	big	red	FALSE	TRUE	TRUE	FALSE	TRUE
+ncA5wQm2wMWx6Qw4m	38	big_purple_bike	size	minimal	size	color redundant	3	3	0	la más grande	NA	la más grande	1	0	bike	big	purple	FALSE	TRUE	FALSE	FALSE	TRUE
+RdyH6CPjXhDjFiBn6	3	big_black_belt	size	minimal	size	color redundant	3	3	0	el cinturón más grande	NA	el cinturón más grande	1	0	belt	big	black	FALSE	TRUE	TRUE	FALSE	TRUE
+RdyH6CPjXhDjFiBn6	20	small_orange_billiardball	size	minimal	size	color redundant	3	3	0	pelota pequeña	NA	pelota pequeña	1	0	billiardball	small	orange	FALSE	TRUE	TRUE	FALSE	FALSE
+ri9WkdRrTvaRgjAbd	48	small_brown_turtle	size	minimal	size	color redundant	3	3	0	mas chica	NA	mas chica	1	0	turtle	small	brown	FALSE	TRUE	FALSE	FALSE	FALSE
+ri9WkdRrTvaRgjAbd	67	small_blue_toothbrush	size	minimal	size	color redundant	3	3	0	mas chico	NA	mas chico	1	0	toothbrush	small	blue	FALSE	TRUE	FALSE	FALSE	FALSE
+xiA5WJQ9BBwufErLv	16	big_orange_cushion	size	minimal	size	color redundant	3	3	0	grande	NA	grande	1	0	cushion	big	orange	FALSE	TRUE	FALSE	FALSE	FALSE
+xiA5WJQ9BBwufErLv	25	small_red_candle	size	minimal	size	color redundant	3	3	0	peque	NA	peque	1	0	candle	small	red	FALSE	TRUE	FALSE	FALSE	FALSE
+8mztCuTtp44PNj9aR	32	big_green_chair	size	minimal	size	color redundant	3	3	0	grande	NA	grande	1	0	chair	big	green	FALSE	TRUE	FALSE	FALSE	FALSE
+8mztCuTtp44PNj9aR	50	big_orange_coathanger	size	minimal	size	color redundant	3	3	0	grande	NA	grande	1	0	coathanger	big	orange	FALSE	TRUE	FALSE	FALSE	FALSE
+C9425wL5d2jqqrfnt	40	small_red_bellpepper	size	minimal	size	color redundant	3	3	0	es pequeño	NA	es pequeño	1	0	bellpepper	small	red	FALSE	TRUE	FALSE	FALSE	FALSE
+PLenL62JMPMEiyEZd	29	small_brown_jacket	size	minimal	size	color redundant	3	3	0	mas chico	NA	mas chico	1	0	jacket	small	brown	FALSE	TRUE	FALSE	FALSE	FALSE
+PLenL62JMPMEiyEZd	72	small_white_weddingcake	size	minimal	size	color redundant	3	3	0	mas chico	NA	mas chico	1	0	weddingcake	small	white	FALSE	TRUE	FALSE	FALSE	FALSE
+5FBHB2gcEAxFrnBTj	11	big_purple_hairdryer	size	minimal	size	color redundant	3	3	0	el más grande	tamaño?	el más grande	1	0	hairdryer	big	purple	FALSE	TRUE	FALSE	FALSE	TRUE
+5FBHB2gcEAxFrnBTj	31	big_blue_rug	size	minimal	size	color redundant	3	3	0	la más grande	tamaño?	la más grande	1	0	rug	big	blue	FALSE	TRUE	FALSE	FALSE	TRUE
+krPu8jL2ifeQiJtiz	4	small_purple_stapler	size	minimal	size	color redundant	3	3	0	pequeña	NA	pequeña	1	0	stapler	small	purple	FALSE	TRUE	FALSE	FALSE	FALSE
+krPu8jL2ifeQiJtiz	51	big_red_flower	size	minimal	size	color redundant	3	3	0	grande	NA	grande	1	0	flower	big	red	FALSE	TRUE	FALSE	FALSE	FALSE
+L3TwC8ZM9Kcs7QBx4	29	big_tan_rock	size	minimal	size	color redundant	3	3	0	la roca mas grande	NA	la roca mas grande	1	0	rock	big	tan	FALSE	TRUE	TRUE	FALSE	TRUE
+L3TwC8ZM9Kcs7QBx4	35	big_orange_pingpongball	size and color	redundant	size	color redundant	3	3	0	el circulo naranja mas grande	NA	el circulo naranja mas grande	0	1	pingpongball	big	orange	TRUE	TRUE	TRUE	FALSE	TRUE
+o9ajiSJQsC87WWPMG	41	small_red_bike	size	minimal	size	color redundant	3	3	0	más chica	NA	más chica	1	0	bike	small	red	FALSE	TRUE	FALSE	FALSE	FALSE
+o9ajiSJQsC87WWPMG	48	small_blue_cap	size	minimal	size	color redundant	3	3	0	más pequeña	NA	más pequeña	1	0	cap	small	blue	FALSE	TRUE	FALSE	FALSE	FALSE
+w2fzmfuovTcBBykSN	20	small_green_pepper	size	minimal	size	color redundant	3	3	0	chico	NA	chico	1	0	pepper	small	green	FALSE	TRUE	FALSE	FALSE	FALSE
+w2fzmfuovTcBBykSN	50	small_orange_coathanger	size	minimal	size	color redundant	3	3	0	chico	NA	chico	1	0	coathanger	small	orange	FALSE	TRUE	FALSE	FALSE	FALSE
+s4qdZmttuex8PYHYK	56	big_brown_jacket	size	minimal	size	color redundant	3	3	0	el mas grande	NA	el mas grande	1	0	jacket	big	brown	FALSE	TRUE	FALSE	FALSE	TRUE
+s4qdZmttuex8PYHYK	66	big_pink_teacup	size	minimal	size	color redundant	3	3	0	el mas grande	NA	el mas grande	1	0	teacup	big	pink	FALSE	TRUE	FALSE	FALSE	TRUE
+S7FpNmQk9XcQXJHTf	10	big_blue_tack	size	minimal	size	color redundant	3	3	0	es el más grande	NA	es el más grande	1	0	tack	big	blue	FALSE	TRUE	FALSE	FALSE	TRUE
+S7FpNmQk9XcQXJHTf	72	big_green_framee	size and color	redundant	size	color redundant	3	3	0	es verde y el más grande	NA	es verde y el más grande	0	1	framee	big	green	TRUE	TRUE	FALSE	FALSE	TRUE
+ZdgvjcuMKtwGjydbR	2	small_brown_belt	size	minimal	size	color redundant	3	3	0	cinturon mas pequeño	NA	cinturon mas pequeño	1	0	belt	small	brown	FALSE	TRUE	TRUE	FALSE	FALSE
+89kCaivgGxt9As4s5	33	small_red_bike	size	minimal	size	color redundant	3	3	0	chico	NA	chico	1	0	bike	small	red	FALSE	TRUE	FALSE	FALSE	FALSE
+89kCaivgGxt9As4s5	40	big_red_bucket	size	minimal	size	color redundant	3	3	0	grande	NA	grande	1	0	bucket	big	red	FALSE	TRUE	FALSE	FALSE	FALSE
+KkMmp5urRFWCQh3Hb	72	small_red_flower	size	minimal	size	color redundant	3	3	0	última amigo. florecita pequeñita	NA	última amigo. florecita pequeñita	1	0	flower	small	red	FALSE	TRUE	TRUE	FALSE	FALSE
+mJWL79uZrXh3YMtMs	13	big_blue_tack	size	minimal	size	color redundant	3	3	0	el mas grande	NA	el mas grande	1	0	tack	big	blue	FALSE	TRUE	FALSE	FALSE	TRUE
+mJWL79uZrXh3YMtMs	39	big_purple_stapler	size	minimal	size	color redundant	3	3	0	la mas grande	NA	la mas grande	1	0	stapler	big	purple	FALSE	TRUE	FALSE	FALSE	TRUE
+9xQZnMmmLAedmSnpb	45	small_orange_cushion	size	minimal	size	color redundant	3	3	0	cojin mas pequeño	NA	cojin mas pequeño	1	0	cushion	small	orange	FALSE	TRUE	TRUE	FALSE	FALSE
+9xQZnMmmLAedmSnpb	65	small_yellow_shoe	size	minimal	size	color redundant	3	3	0	la zapatilla mas pequeña	NA	la zapatilla mas pequeña	1	0	shoe	small	yellow	FALSE	TRUE	TRUE	FALSE	TRUE
+KchWPEsJ7AK6yb5ab	29	small_grey_rock	size	minimal	size	color redundant	3	3	0	pequenho	NA	pequenho	1	0	rock	small	grey	FALSE	TRUE	FALSE	FALSE	FALSE
+KchWPEsJ7AK6yb5ab	44	big_orange_billiardball	size	minimal	size	color redundant	3	3	0	grande	NA	grande	1	0	billiardball	big	orange	FALSE	TRUE	FALSE	FALSE	FALSE
+6iNLyBqiCFSzy3vxQ	22	big_green_framee	size	minimal	size	color redundant	3	3	0	marco grande	NA	marco grande	1	0	framee	big	green	FALSE	TRUE	TRUE	FALSE	FALSE
+6iNLyBqiCFSzy3vxQ	33	small_red_toothbrush	size	minimal	size	color redundant	3	3	0	cepilllo pequeño	NA	cepilllo pequeño	1	0	toothbrush	small	red	FALSE	TRUE	TRUE	FALSE	FALSE
+TXdqz7vwbJSeKpJHS	53	big_blue_butterfly	size and color	redundant	size	color redundant	4	1	0.75	la mas grande, azul	NA	la mas grande, azul	0	1	butterfly	big	blue	TRUE	TRUE	FALSE	FALSE	TRUE
+TXdqz7vwbJSeKpJHS	70	big_pink_teacup	size and color	redundant	size	color redundant	4	1	0.75	la mas grande, rosa	NA	la mas grande, rosa	0	1	teacup	big	pink	TRUE	TRUE	FALSE	FALSE	TRUE
+D5sTSEMaXM7y3Q7AW	35	small_blue_cushion	size	minimal	size	color redundant	4	1	0.75	pequeño	NA	pequeño	1	0	cushion	small	blue	FALSE	TRUE	FALSE	FALSE	FALSE
+D5sTSEMaXM7y3Q7AW	53	small_purple_flower	size	minimal	size	color redundant	4	1	0.75	pequeña	NA	pequeña	1	0	flower	small	purple	FALSE	TRUE	FALSE	FALSE	FALSE
+g8tXfbQJ5w3Yo5kXq	16	big_white_pingpongball	size and color	redundant	size	color redundant	4	1	0.75	pelota blanca grande	blanco peaueno?	pelota blanca grande	0	1	pingpongball	big	white	TRUE	TRUE	TRUE	FALSE	FALSE
+g8tXfbQJ5w3Yo5kXq	44	small_blue_butterfly	size and color	redundant	size	color redundant	4	1	0.75	mariposa azul pequeña	azul chica?	mariposa azul pequeña	0	1	butterfly	small	blue	TRUE	TRUE	TRUE	FALSE	FALSE
+Drac2QY2EJGirNSty	43	big_red_pepper	size and color	redundant	size	color redundant	4	1	0.75	pimiento rojo grande	NA	pimiento rojo grande	0	1	pepper	big	red	TRUE	TRUE	TRUE	FALSE	FALSE
+Drac2QY2EJGirNSty	60	small_green_binder	size and color	redundant	size	color redundant	4	1	0.75	carpeta verde pequeña	NA	carpeta verde pequeña	0	1	binder	small	green	TRUE	TRUE	TRUE	FALSE	FALSE
+ncA5wQm2wMWx6Qw4m	3	big_green_binder	size and color	redundant	size	color redundant	4	1	0.75	es uno de los folders verdes. es el que se ve más grande.	NA	es uno de los folders verdes. es el que se ve más grande.	0	1	binder	big	green	TRUE	TRUE	TRUE	FALSE	TRUE
+ncA5wQm2wMWx6Qw4m	14	small_white_phone	size and color	redundant	size	color redundant	4	1	0.75	teléfono blanco pequeño	NA	teléfono blanco pequeño	0	1	phone	small	white	TRUE	TRUE	TRUE	FALSE	FALSE
+RdyH6CPjXhDjFiBn6	25	big_white_pingpongball	size and color	redundant	size	color redundant	4	1	0.75	pelota blanca (grande)	NA	pelota blanca (grande)	0	1	pingpongball	big	white	TRUE	TRUE	TRUE	FALSE	FALSE
+RdyH6CPjXhDjFiBn6	31	small_blue_book	size and color	redundant	size	color redundant	4	1	0.75	libro azul (pequeño)	NA	libro azul (pequeño)	0	1	book	small	blue	TRUE	TRUE	TRUE	FALSE	FALSE
+ri9WkdRrTvaRgjAbd	39	small_red_chair	size and color	redundant	size	color redundant	4	1	0.75	naranja chica	NA	naranja chica	0	1	chair	small	red	TRUE	TRUE	FALSE	FALSE	FALSE
+ri9WkdRrTvaRgjAbd	50	small_green_guitar	size and color	redundant	size	color redundant	4	1	0.75	verde chica	NA	verde chica	0	1	guitar	small	green	TRUE	TRUE	FALSE	FALSE	FALSE
+xiA5WJQ9BBwufErLv	65	big_white_teacup	size	minimal	size	color redundant	4	1	0.75	grande	NA	grande	1	0	teacup	big	white	FALSE	TRUE	FALSE	FALSE	FALSE
+xiA5WJQ9BBwufErLv	67	big_pink_balloon	size	minimal	size	color redundant	4	1	0.75	grande	NA	grande	1	0	balloon	big	pink	FALSE	TRUE	FALSE	FALSE	FALSE
+8mztCuTtp44PNj9aR	28	big_pink_teacup	size and color	redundant	size	color redundant	4	1	0.75	rosa grande	NA	rosa grande	0	1	teacup	big	pink	TRUE	TRUE	FALSE	FALSE	FALSE
+8mztCuTtp44PNj9aR	39	big_red_bucket	size	minimal	size	color redundant	4	1	0.75	grande	NA	grande	1	0	bucket	big	red	FALSE	TRUE	FALSE	FALSE	FALSE
+PLenL62JMPMEiyEZd	1	small_black_turtle	size and color	redundant	size	color redundant	4	1	0.75	chiquita y oscura	NA	chiquita y oscura	0	1	turtle	small	black	TRUE	TRUE	FALSE	FALSE	FALSE
+PLenL62JMPMEiyEZd	55	big_blue_guitar	size and color	redundant	size	color redundant	4	1	0.75	azul grande	NA	azul grande	0	1	guitar	big	blue	TRUE	TRUE	FALSE	FALSE	FALSE
+5FBHB2gcEAxFrnBTj	26	big_pink_framee	size and color	redundant	size	color redundant	4	1	0.75	rosa grande	color y tamaño?	rosa grande	0	1	framee	big	pink	TRUE	TRUE	FALSE	FALSE	FALSE
+5FBHB2gcEAxFrnBTj	27	small_blue_comb	size and color	redundant	size	color redundant	4	1	0.75	azul chico	color y tamaño?	azul chico	0	1	comb	small	blue	TRUE	TRUE	FALSE	FALSE	FALSE
+krPu8jL2ifeQiJtiz	70	big_blue_butterfly	size	minimal	size	color redundant	4	1	0.75	grande	NA	grande	1	0	butterfly	big	blue	FALSE	TRUE	FALSE	FALSE	FALSE
+krPu8jL2ifeQiJtiz	72	big_purple_yarn	size	minimal	size	color redundant	4	1	0.75	grande	NA	grande	1	0	yarn	big	purple	FALSE	TRUE	FALSE	FALSE	FALSE
+L3TwC8ZM9Kcs7QBx4	55	big_blue_rug	size and color	redundant	size	color redundant	4	1	0.75	la alfombra azul mas grande	NA	la alfombra azul mas grande	0	1	rug	big	blue	TRUE	TRUE	TRUE	FALSE	TRUE
+L3TwC8ZM9Kcs7QBx4	69	small_green_binder	size and color	redundant	size	color redundant	4	1	0.75	el folder verde mas chico	NA	el folder verde mas chico	0	1	binder	small	green	TRUE	TRUE	TRUE	FALSE	TRUE
+w2fzmfuovTcBBykSN	22	big_green_jacket	size	minimal	size	color redundant	4	1	0.75	grande	NA	grande	1	0	jacket	big	green	FALSE	TRUE	FALSE	FALSE	FALSE
+w2fzmfuovTcBBykSN	26	small_green_chair	size	minimal	size	color redundant	4	1	0.75	chico	NA	chico	1	0	chair	small	green	FALSE	TRUE	FALSE	FALSE	FALSE
+s4qdZmttuex8PYHYK	45	small_white_pingpongball	size	minimal	size	color redundant	4	1	0.75	el mas chico	NA	el mas chico	1	0	pingpongball	small	white	FALSE	TRUE	FALSE	FALSE	TRUE
+s4qdZmttuex8PYHYK	72	big_brown_turtle	size	minimal	size	color redundant	4	1	0.75	el mas grande	NA	el mas grande	1	0	turtle	big	brown	FALSE	TRUE	FALSE	FALSE	TRUE
+S7FpNmQk9XcQXJHTf	19	big_pink_weddingcake	size and color	redundant	size	color redundant	4	1	0.75	es el rosa más grande	NA	es el rosa más grande	0	1	weddingcake	big	pink	TRUE	TRUE	FALSE	FALSE	TRUE
+S7FpNmQk9XcQXJHTf	64	big_green_pepper	size and color	redundant	size	color redundant	4	1	0.75	es verde y el más grande	NA	es verde y el más grande	0	1	pepper	big	green	TRUE	TRUE	FALSE	FALSE	TRUE
+ZdgvjcuMKtwGjydbR	8	small_orange_billiardball	size and color	redundant	size	color redundant	4	1	0.75	naranjo pequeño	NA	naranjo pequeño	0	1	billiardball	small	orange	TRUE	TRUE	FALSE	FALSE	FALSE
+ZdgvjcuMKtwGjydbR	72	big_purple_flower	size and color	redundant	size	color redundant	4	1	0.75	morado grande	NA	morado grande	0	1	flower	big	purple	TRUE	TRUE	FALSE	FALSE	FALSE
+89kCaivgGxt9As4s5	69	small_black_belt	size and color	redundant	size	color redundant	4	1	0.75	negro chico	NA	negro chico	0	1	belt	small	black	TRUE	TRUE	FALSE	FALSE	FALSE
+KkMmp5urRFWCQh3Hb	9	small_black_comb	size	minimal	size	color redundant	4	1	0.75	peine de muñeca o bebe pequeño	NA	peine de muñeca o bebe pequeño	1	0	comb	small	black	FALSE	TRUE	TRUE	FALSE	FALSE
+mJWL79uZrXh3YMtMs	4	big_yellow_balloon	size and color	redundant	size	color redundant	4	1	0.75	la amarillo grande	cual es	la amarillo grande	0	1	balloon	big	yellow	TRUE	TRUE	FALSE	FALSE	TRUE
+mJWL79uZrXh3YMtMs	30	small_orange_pingpongball	size and color	redundant	size	color redundant	4	1	0.75	amarilla chica	NA	amarilla chica	0	1	pingpongball	small	orange	TRUE	TRUE	FALSE	FALSE	FALSE
+9xQZnMmmLAedmSnpb	23	small_pink_weddingcake	size and color	redundant	size	color redundant	4	1	0.75	pastel rosa pequeño	NA	pastel rosa pequeño	0	1	weddingcake	small	pink	TRUE	TRUE	TRUE	FALSE	FALSE
+9xQZnMmmLAedmSnpb	27	small_black_belt	size and color	redundant	size	color redundant	4	1	0.75	cinturon negro pequeño	NA	cinturon negro pequeño	0	1	belt	small	black	TRUE	TRUE	TRUE	FALSE	FALSE
+KchWPEsJ7AK6yb5ab	40	big_purple_flower	size	minimal	size	color redundant	4	1	0.75	grande	NA	grande	1	0	flower	big	purple	FALSE	TRUE	FALSE	FALSE	FALSE
+KchWPEsJ7AK6yb5ab	60	big_pink_bucket	size	minimal	size	color redundant	4	1	0.75	grande	NA	grande	1	0	bucket	big	pink	FALSE	TRUE	FALSE	FALSE	FALSE
+6iNLyBqiCFSzy3vxQ	11	small_yellow_balloon	size and color	redundant	size	color redundant	4	1	0.75	globo amarillo pequeño	NA	globo amarillo pequeño	0	1	balloon	small	yellow	TRUE	TRUE	TRUE	FALSE	FALSE
+6iNLyBqiCFSzy3vxQ	34	big_purple_flower	size and color	redundant	size	color redundant	4	1	0.75	flor morada grande	NA	flor morada grande	0	1	flower	big	purple	TRUE	TRUE	TRUE	FALSE	FALSE
+TXdqz7vwbJSeKpJHS	11	big_green_binder	size and color	redundant	size	color redundant	4	2	0.5	el verde mas grande	NA	el verde mas grande	0	1	binder	big	green	TRUE	TRUE	FALSE	FALSE	TRUE
+TXdqz7vwbJSeKpJHS	12	small_black_book	size and color	redundant	size	color redundant	4	2	0.5	el negro mas pequeño	NA	el negro mas pequeño	0	1	book	small	black	TRUE	TRUE	FALSE	FALSE	TRUE
+D5sTSEMaXM7y3Q7AW	26	small_blue_candle	size	minimal	size	color redundant	4	2	0.5	pequeña	NA	pequeña	1	0	candle	small	blue	FALSE	TRUE	FALSE	FALSE	FALSE
+D5sTSEMaXM7y3Q7AW	60	big_purple_yarn	size	minimal	size	color redundant	4	2	0.5	grande	NA	grande	1	0	yarn	big	purple	FALSE	TRUE	FALSE	FALSE	FALSE
+g8tXfbQJ5w3Yo5kXq	34	big_yellow_napkin	size and color	redundant	size	color redundant	4	2	0.5	amarillo grande	amarillo grande?	amarillo grande	0	1	napkin	big	yellow	TRUE	TRUE	FALSE	FALSE	FALSE
+g8tXfbQJ5w3Yo5kXq	37	big_pink_bucket	size and color	redundant	size	color redundant	4	2	0.5	rosa grande	ok	rosa grande	0	1	bucket	big	pink	TRUE	TRUE	FALSE	FALSE	FALSE
+Drac2QY2EJGirNSty	11	small_red_bike	size and color	redundant	size	color redundant	4	2	0.5	bicicleta roja pequeña	vale	bicicleta roja pequeña	0	1	bike	small	red	TRUE	TRUE	TRUE	FALSE	FALSE
+Drac2QY2EJGirNSty	72	small_purple_flower	size and color	redundant	size	color redundant	4	2	0.5	morada pequeña	NA	morada pequeña	0	1	flower	small	purple	TRUE	TRUE	FALSE	FALSE	FALSE
+ncA5wQm2wMWx6Qw4m	8	small_blue_candle	size and color	redundant	size	color redundant	4	2	0.5	vela morada (o azul?) pequeña	NA	vela morada (o azul?) pequeña	0	1	candle	small	blue	TRUE	TRUE	TRUE	FALSE	FALSE
+ncA5wQm2wMWx6Qw4m	20	small_purple_yarn	size and color	redundant	size	color redundant	4	2	0.5	morado pequeño	NA	morado pequeño	0	1	yarn	small	purple	TRUE	TRUE	FALSE	FALSE	FALSE
+RdyH6CPjXhDjFiBn6	13	big_red_scarf	size and color	redundant	size	color redundant	4	2	0.5	bufanda roja (imagen más grande)	NA	bufanda roja (imagen más grande)	0	1	scarf	big	red	TRUE	TRUE	TRUE	FALSE	FALSE
+RdyH6CPjXhDjFiBn6	21	small_blue_toothbrush	size and color	redundant	size	color redundant	4	2	0.5	cepillo azul (el más pequeño)	NA	cepillo azul (el más pequeño)	0	1	toothbrush	small	blue	TRUE	TRUE	TRUE	FALSE	TRUE
+ri9WkdRrTvaRgjAbd	4	small_red_stapler	size	minimal	size	color redundant	4	2	0.5	la grapadora mas chica	NA	la grapadora mas chica	1	0	stapler	small	red	FALSE	TRUE	TRUE	FALSE	TRUE
+ri9WkdRrTvaRgjAbd	23	big_purple_bracelet	size and color	redundant	size	color redundant	4	2	0.5	morado mas grande	NA	morado mas grande	0	1	bracelet	big	purple	TRUE	TRUE	FALSE	FALSE	FALSE
+xiA5WJQ9BBwufErLv	48	big_tan_rock	size	minimal	size	color redundant	4	2	0.5	grande	NA	grande	1	0	rock	big	tan	FALSE	TRUE	FALSE	FALSE	FALSE
+xiA5WJQ9BBwufErLv	60	big_blue_binder	size and color	redundant	size	color redundant	4	2	0.5	azul grande	NA	azul grande	0	1	binder	big	blue	TRUE	TRUE	FALSE	FALSE	FALSE
+8mztCuTtp44PNj9aR	9	big_white_shoe	size and color	redundant	size	color redundant	4	2	0.5	al zapato blanco mas grande	NA	al zapato blanco mas grande	0	1	shoe	big	white	TRUE	TRUE	TRUE	FALSE	TRUE
+8mztCuTtp44PNj9aR	40	small_blue_cushion	size	minimal	size	color redundant	4	2	0.5	pequeña	NA	pequeña	1	0	cushion	small	blue	FALSE	TRUE	FALSE	FALSE	FALSE
+C9425wL5d2jqqrfnt	13	big_brown_belt	size	minimal	size	color redundant	4	2	0.5	cinto el mas grande	NA	cinto el mas grande	1	0	belt	big	brown	FALSE	TRUE	TRUE	FALSE	TRUE
+C9425wL5d2jqqrfnt	37	big_blue_tack	size	minimal	size	color redundant	4	2	0.5	es el mas grandde	NA	es el mas grandde	1	0	tack	big	blue	FALSE	TRUE	FALSE	FALSE	TRUE
+PLenL62JMPMEiyEZd	23	big_blue_binder	size and color	redundant	size	color redundant	4	2	0.5	azul y grande	NA	azul y grande	0	1	binder	big	blue	TRUE	TRUE	FALSE	FALSE	FALSE
+PLenL62JMPMEiyEZd	53	small_red_bellpepper	size and color	redundant	size	color redundant	4	2	0.5	rojo y chico	NA	rojo y chico	0	1	bellpepper	small	red	TRUE	TRUE	FALSE	FALSE	FALSE
+MjtKysa8uTdkgCZhY	3	big_purple_stapler	size	minimal	size	color redundant	4	2	0.5	si, muy grande	es grande y morado?	si, muy grande	1	0	stapler	big	purple	FALSE	TRUE	FALSE	FALSE	FALSE
+5FBHB2gcEAxFrnBTj	64	small_orange_pingpongball	size and color	redundant	size	color redundant	4	2	0.5	naranja pequeño	color, tamaño	naranja pequeño	0	1	pingpongball	small	orange	TRUE	TRUE	FALSE	FALSE	FALSE
+5FBHB2gcEAxFrnBTj	69	small_orange_coathanger	size and color	redundant	size	color redundant	4	2	0.5	anaranjado pequeño	color, tamaño	anaranjado pequeño	0	1	coathanger	small	orange	TRUE	TRUE	FALSE	FALSE	FALSE
+krPu8jL2ifeQiJtiz	36	small_black_belt	size	minimal	size	color redundant	4	2	0.5	pequeño	NA	pequeño	1	0	belt	small	black	FALSE	TRUE	FALSE	FALSE	FALSE
+krPu8jL2ifeQiJtiz	38	small_orange_napkin	size	minimal	size	color redundant	4	2	0.5	pequeño	NA	pequeño	1	0	napkin	small	orange	FALSE	TRUE	FALSE	FALSE	FALSE
+L3TwC8ZM9Kcs7QBx4	33	big_red_tack	size and color	redundant	size	color redundant	4	2	0.5	la tachuela roja mas grande	NA	la tachuela roja mas grande	0	1	tack	big	red	TRUE	TRUE	TRUE	FALSE	TRUE
+L3TwC8ZM9Kcs7QBx4	40	small_purple_stapler	size and color	redundant	size	color redundant	4	2	0.5	la engrapadora morada mas chica	NA	la engrapadora morada mas chica	0	1	stapler	small	purple	TRUE	TRUE	TRUE	FALSE	TRUE
+w2fzmfuovTcBBykSN	33	big_orange_cushion	size	minimal	size	color redundant	4	2	0.5	grande	NA	grande	1	0	cushion	big	orange	FALSE	TRUE	FALSE	FALSE	FALSE
+w2fzmfuovTcBBykSN	68	big_grey_rock	size	minimal	size	color redundant	4	2	0.5	grande	NA	grande	1	0	rock	big	grey	FALSE	TRUE	FALSE	FALSE	FALSE
+s4qdZmttuex8PYHYK	29	big_orange_coathanger	size	minimal	size	color redundant	4	2	0.5	el mas grande	NA	el mas grande	1	0	coathanger	big	orange	FALSE	TRUE	FALSE	FALSE	TRUE
+s4qdZmttuex8PYHYK	55	big_blue_book	size	minimal	size	color redundant	4	2	0.5	el mas grande	NA	el mas grande	1	0	book	big	blue	FALSE	TRUE	FALSE	FALSE	TRUE
+S7FpNmQk9XcQXJHTf	47	big_grey_rock	size and color	redundant	size	color redundant	4	2	0.5	es gris y la más grande	NA	es gris y la más grande	0	1	rock	big	grey	TRUE	TRUE	FALSE	FALSE	TRUE
+S7FpNmQk9XcQXJHTf	70	small_red_flower	size and color	redundant	size	color redundant	4	2	0.5	es roja y la más pequeña	NA	es roja y la más pequeña	0	1	flower	small	red	TRUE	TRUE	FALSE	FALSE	TRUE
+ZdgvjcuMKtwGjydbR	23	big_red_stapler	size and color	redundant	size	color redundant	4	2	0.5	rojo grande	NA	rojo grande	0	1	stapler	big	red	TRUE	TRUE	FALSE	FALSE	FALSE
+ZdgvjcuMKtwGjydbR	60	big_black_book	size and color	redundant	size	color redundant	4	2	0.5	negro grande	NA	negro grande	0	1	book	big	black	TRUE	TRUE	FALSE	FALSE	FALSE
+89kCaivgGxt9As4s5	21	big_pink_balloon	size and color	redundant	size	color redundant	4	2	0.5	rosa grande	NA	rosa grande	0	1	balloon	big	pink	TRUE	TRUE	FALSE	FALSE	FALSE
+89kCaivgGxt9As4s5	60	small_white_weddingcake	size and color	redundant	size	color redundant	4	2	0.5	blanco chico	NA	blanco chico	0	1	weddingcake	small	white	TRUE	TRUE	FALSE	FALSE	FALSE
+mJWL79uZrXh3YMtMs	8	small_black_turtle	size	minimal	size	color redundant	4	2	0.5	la mas chica	NA	la mas chica	1	0	turtle	small	black	FALSE	TRUE	FALSE	FALSE	TRUE
+mJWL79uZrXh3YMtMs	54	big_tan_rock	size	minimal	size	color redundant	4	2	0.5	la roca mas grande	NA	la roca mas grande	1	0	rock	big	tan	FALSE	TRUE	TRUE	FALSE	TRUE
+9xQZnMmmLAedmSnpb	22	small_pink_framee	size and color	redundant	size	color redundant	4	2	0.5	cuadro rosa pequeño	NA	cuadro rosa pequeño	0	1	framee	small	pink	TRUE	TRUE	TRUE	FALSE	FALSE
+KchWPEsJ7AK6yb5ab	12	big_brown_turtle	size	minimal	size	color redundant	4	2	0.5	grande	NA	grande	1	0	turtle	big	brown	FALSE	TRUE	FALSE	FALSE	FALSE
+KchWPEsJ7AK6yb5ab	48	small_yellow_balloon	size	minimal	size	color redundant	4	2	0.5	pequenho	NA	pequenho	1	0	balloon	small	yellow	FALSE	TRUE	FALSE	FALSE	FALSE
+6iNLyBqiCFSzy3vxQ	23	big_orange_cushion	size and color	redundant	size	color redundant	4	2	0.5	cojin rojo grande	NA	cojin rojo grande	0	1	cushion	big	orange	TRUE	TRUE	TRUE	FALSE	FALSE
+6iNLyBqiCFSzy3vxQ	58	small_brown_jacket	size and color	redundant	size	color redundant	4	2	0.5	poleron cafe pequeño	NA	poleron cafe pequeño	0	1	jacket	small	brown	TRUE	TRUE	TRUE	FALSE	FALSE
+v2J2BjboP65oSJMoy	15	big_pink_teacup	size	minimal	size	color redundant	4	3	0.25	bigger or mas grande	NA	bigger or mas grande	1	0	teacup	big	pink	FALSE	TRUE	FALSE	FALSE	FALSE
+TXdqz7vwbJSeKpJHS	48	big_blue_candle	size and color	redundant	size	color redundant	4	3	0.25	azul, la mas grande	NA	azul, la mas grande	0	1	candle	big	blue	TRUE	TRUE	FALSE	FALSE	TRUE
+TXdqz7vwbJSeKpJHS	69	big_red_pepper	size and color	redundant	size	color redundant	4	3	0.25	rojo, el mas grande	NA	rojo, el mas grande	0	1	pepper	big	red	TRUE	TRUE	FALSE	FALSE	TRUE
+D5sTSEMaXM7y3Q7AW	16	small_blue_binder	size	minimal	size	color redundant	4	3	0.25	pequeña	NA	pequeña	1	0	binder	small	blue	FALSE	TRUE	FALSE	FALSE	FALSE
+D5sTSEMaXM7y3Q7AW	54	big_red_tack	size	minimal	size	color redundant	4	3	0.25	grande	NA	grande	1	0	tack	big	red	FALSE	TRUE	FALSE	FALSE	FALSE
+g8tXfbQJ5w3Yo5kXq	26	big_black_belt	size and color	redundant	size	color redundant	4	3	0.25	cinturon negro grande	marron?	cinturon negro grande	0	1	belt	big	black	TRUE	TRUE	TRUE	FALSE	FALSE
+g8tXfbQJ5w3Yo5kXq	51	big_black_book	size and color	redundant	size	color redundant	4	3	0.25	libreta negra grande	azul?	libreta negra grande	0	1	book	big	black	TRUE	TRUE	TRUE	FALSE	FALSE
+Drac2QY2EJGirNSty	16	big_white_shoe	size and color	redundant	size	color redundant	4	3	0.25	zapato blanco grande	NA	zapato blanco grande	0	1	shoe	big	white	TRUE	TRUE	TRUE	FALSE	FALSE
+Drac2QY2EJGirNSty	53	small_red_candle	size and color	redundant	size	color redundant	4	3	0.25	vela rosa pequeña	NA	vela rosa pequeña	0	1	candle	small	red	TRUE	TRUE	TRUE	FALSE	FALSE
+ncA5wQm2wMWx6Qw4m	49	big_orange_coathanger	size and color	redundant	size	color redundant	4	3	0.25	naranja grande	NA	naranja grande	0	1	coathanger	big	orange	TRUE	TRUE	FALSE	FALSE	FALSE
+ncA5wQm2wMWx6Qw4m	54	small_pink_hairdryer	size and color	redundant	size	color redundant	4	3	0.25	rosa pequeño	NA	rosa pequeño	0	1	hairdryer	small	pink	TRUE	TRUE	FALSE	FALSE	FALSE
+RdyH6CPjXhDjFiBn6	34	big_green_chair	size and color	redundant	size	color redundant	4	3	0.25	sillón verde (grande)	NA	sillón verde (grande)	0	1	chair	big	green	TRUE	TRUE	TRUE	FALSE	FALSE
+RdyH6CPjXhDjFiBn6	47	small_white_weddingcake	size and color	redundant	size	color redundant	4	3	0.25	pastel blanco (pequeño)	NA	pastel blanco (pequeño)	0	1	weddingcake	small	white	TRUE	TRUE	TRUE	FALSE	FALSE
+ri9WkdRrTvaRgjAbd	24	big_yellow_napkin	size and color	redundant	size	color redundant	4	3	0.25	amarilla mas grande	NA	amarilla mas grande	0	1	napkin	big	yellow	TRUE	TRUE	FALSE	FALSE	FALSE
+ri9WkdRrTvaRgjAbd	61	big_red_bike	size and color	redundant	size	color redundant	4	3	0.25	roja grande	NA	roja grande	0	1	bike	big	red	TRUE	TRUE	FALSE	FALSE	FALSE
+xiA5WJQ9BBwufErLv	22	small_pink_phone	size	minimal	size	color redundant	4	3	0.25	pequeña	NA	pequeña	1	0	phone	small	pink	FALSE	TRUE	FALSE	FALSE	FALSE
+xiA5WJQ9BBwufErLv	50	big_purple_rug	size	minimal	size	color redundant	4	3	0.25	grande	NA	grande	1	0	rug	big	purple	FALSE	TRUE	FALSE	FALSE	FALSE
+8mztCuTtp44PNj9aR	15	small_black_turtle	size	minimal	size	color redundant	4	3	0.25	la mas pequeña	NA	la mas pequeña	1	0	turtle	small	black	FALSE	TRUE	FALSE	FALSE	TRUE
+8mztCuTtp44PNj9aR	44	small_brown_jacket	size	minimal	size	color redundant	4	3	0.25	pequeña	NA	pequeña	1	0	jacket	small	brown	FALSE	TRUE	FALSE	FALSE	FALSE
+PLenL62JMPMEiyEZd	12	small_purple_bike	size and color	redundant	size	color redundant	4	3	0.25	morada y chica	NA	morada y chica	0	1	bike	small	purple	TRUE	TRUE	FALSE	FALSE	FALSE
+PLenL62JMPMEiyEZd	61	small_orange_coathanger	size and color	redundant	size	color redundant	4	3	0.25	naranja chico	NA	naranja chico	0	1	coathanger	small	orange	TRUE	TRUE	FALSE	FALSE	FALSE
+MjtKysa8uTdkgCZhY	4	small_yellow_balloon	size	minimal	size	color redundant	4	3	0.25	pequeñito	NA	pequeñito	1	0	balloon	small	yellow	FALSE	TRUE	FALSE	FALSE	FALSE
+MjtKysa8uTdkgCZhY	10	small_red_bike	size	minimal	size	color redundant	4	3	0.25	no, es pequeñito	morado?	no, es pequeñito	1	0	bike	small	red	FALSE	TRUE	FALSE	FALSE	FALSE
+5FBHB2gcEAxFrnBTj	1	small_purple_bike	size and color	redundant	size	color redundant	4	3	0.25	morado y pequeña	de qué color y tamaño es?	morado y pequeña	0	1	bike	small	purple	TRUE	TRUE	FALSE	FALSE	FALSE
+5FBHB2gcEAxFrnBTj	43	big_yellow_balloon	size and color	redundant	size	color redundant	4	3	0.25	amarillo, grande	color, tamaño	amarillo, grande	0	1	balloon	big	yellow	TRUE	TRUE	FALSE	FALSE	FALSE
+krPu8jL2ifeQiJtiz	13	small_black_book	size	minimal	size	color redundant	4	3	0.25	pequeño	NA	pequeño	1	0	book	small	black	FALSE	TRUE	FALSE	FALSE	FALSE
+krPu8jL2ifeQiJtiz	67	small_purple_bracelet	size	minimal	size	color redundant	4	3	0.25	pequeña	NA	pequeña	1	0	bracelet	small	purple	FALSE	TRUE	FALSE	FALSE	FALSE
+L3TwC8ZM9Kcs7QBx4	8	small_green_jacket	size and color	redundant	size	color redundant	4	3	0.25	la chamarra verde chica	NA	la chamarra verde chica	0	1	jacket	small	green	TRUE	TRUE	TRUE	FALSE	TRUE
+L3TwC8ZM9Kcs7QBx4	38	small_red_pepper	size and color	redundant	size	color redundant	4	3	0.25	el chile rojo chico	NA	el chile rojo chico	0	1	pepper	small	red	TRUE	TRUE	TRUE	FALSE	TRUE
+o9ajiSJQsC87WWPMG	65	small_red_bucket	size	minimal	size	color redundant	4	3	0.25	más chica	NA	más chica	1	0	bucket	small	red	FALSE	TRUE	FALSE	FALSE	FALSE
+w2fzmfuovTcBBykSN	60	small_blue_cap	size	minimal	size	color redundant	4	3	0.25	pequeña	NA	pequeña	1	0	cap	small	blue	FALSE	TRUE	FALSE	FALSE	FALSE
+w2fzmfuovTcBBykSN	72	small_red_bucket	size	minimal	size	color redundant	4	3	0.25	pequeña	NA	pequeña	1	0	bucket	small	red	FALSE	TRUE	FALSE	FALSE	FALSE
+s4qdZmttuex8PYHYK	5	small_blue_tack	size	minimal	size	color redundant	4	3	0.25	el mas chico	NA	el mas chico	1	0	tack	small	blue	FALSE	TRUE	FALSE	FALSE	TRUE
+s4qdZmttuex8PYHYK	58	big_orange_billiardball	size	minimal	size	color redundant	4	3	0.25	el mas grande	NA	el mas grande	1	0	billiardball	big	orange	FALSE	TRUE	FALSE	FALSE	TRUE
+S7FpNmQk9XcQXJHTf	3	small_blue_cap	size	minimal	size	color redundant	4	3	0.25	es la más pequeña	es naranja?	es la más pequeña	1	0	cap	small	blue	FALSE	TRUE	FALSE	FALSE	TRUE
+S7FpNmQk9XcQXJHTf	55	big_yellow_bellpepper	size and color	redundant	size	color redundant	4	3	0.25	es amarillo y el más grande	NA	es amarillo y el más grande	0	1	bellpepper	big	yellow	TRUE	TRUE	FALSE	FALSE	TRUE
+ZdgvjcuMKtwGjydbR	17	small_pink_balloon	size and color	redundant	size	color redundant	4	3	0.25	rosa pequeño	NA	rosa pequeño	0	1	balloon	small	pink	TRUE	TRUE	FALSE	FALSE	FALSE
+ZdgvjcuMKtwGjydbR	29	small_red_bike	size and color	redundant	size	color redundant	4	3	0.25	rojo mas chico	NA	rojo mas chico	0	1	bike	small	red	TRUE	TRUE	FALSE	FALSE	FALSE
+89kCaivgGxt9As4s5	4	small_blue_book	size and color	redundant	size	color redundant	4	3	0.25	libreta azul pequeña	NA	libreta azul pequeña	0	1	book	small	blue	TRUE	TRUE	TRUE	FALSE	FALSE
+89kCaivgGxt9As4s5	25	small_purple_yarn	size and color	redundant	size	color redundant	4	3	0.25	morado chico	NA	morado chico	0	1	yarn	small	purple	TRUE	TRUE	FALSE	FALSE	FALSE
+KkMmp5urRFWCQh3Hb	66	small_red_scarf	size	minimal	size	color redundant	4	3	0.25	pequeñita	NA	pequeñita	1	0	scarf	small	red	FALSE	TRUE	FALSE	FALSE	FALSE
+mJWL79uZrXh3YMtMs	68	small_purple_rug	size and color	redundant	size	color redundant	4	3	0.25	la mas chica morada	NA	la mas chica morada	0	1	rug	small	purple	TRUE	TRUE	FALSE	FALSE	TRUE
+mJWL79uZrXh3YMtMs	70	big_purple_flower	size	minimal	size	color redundant	4	3	0.25	la mas grande	NA	la mas grande	1	0	flower	big	purple	FALSE	TRUE	FALSE	FALSE	TRUE
+9xQZnMmmLAedmSnpb	12	small_green_jacket	size	minimal	size	color redundant	4	3	0.25	selecciona la hoodie verde más pequeña	NA	selecciona la hoodie verde más pequeña	1	0	jacket	small	green	FALSE	TRUE	TRUE	FALSE	TRUE
+9xQZnMmmLAedmSnpb	47	small_green_chair	size and color	redundant	size	color redundant	4	3	0.25	sillon verde pequeña	NA	sillon verde pequeña	0	1	chair	small	green	TRUE	TRUE	TRUE	FALSE	FALSE
+KchWPEsJ7AK6yb5ab	7	small_pink_teacup	size	minimal	size	color redundant	4	3	0.25	pequenho	NA	pequenho	1	0	teacup	small	pink	FALSE	TRUE	FALSE	FALSE	FALSE
+KchWPEsJ7AK6yb5ab	37	small_green_jacket	size	minimal	size	color redundant	4	3	0.25	pequenho	NA	pequenho	1	0	jacket	small	green	FALSE	TRUE	FALSE	FALSE	FALSE
+6iNLyBqiCFSzy3vxQ	26	small_grey_rock	size	minimal	size	color redundant	4	3	0.25	piedra pequeña	NA	piedra pequeña	1	0	rock	small	grey	FALSE	TRUE	TRUE	FALSE	FALSE
+v2J2BjboP65oSJMoy	3	big_grey_rock	size	minimal	size	color redundant	4	4	0	bigger or mas grande	NA	bigger or mas grande	1	0	rock	big	grey	FALSE	TRUE	FALSE	FALSE	FALSE
+TXdqz7vwbJSeKpJHS	23	big_green_bracelet	size	minimal	size	color redundant	4	4	0	el mas grande	NA	el mas grande	1	0	bracelet	big	green	FALSE	TRUE	FALSE	FALSE	TRUE
+TXdqz7vwbJSeKpJHS	26	big_red_stapler	size	minimal	size	color redundant	4	4	0	el mas grande	NA	el mas grande	1	0	stapler	big	red	FALSE	TRUE	FALSE	FALSE	TRUE
+D5sTSEMaXM7y3Q7AW	17	big_yellow_napkin	size	minimal	size	color redundant	4	4	0	grande	NA	grande	1	0	napkin	big	yellow	FALSE	TRUE	FALSE	FALSE	FALSE
+D5sTSEMaXM7y3Q7AW	43	big_black_book	size	minimal	size	color redundant	4	4	0	grande	NA	grande	1	0	book	big	black	FALSE	TRUE	FALSE	FALSE	FALSE
+g8tXfbQJ5w3Yo5kXq	21	small_green_guitar	size	minimal	size	color redundant	4	4	0	guitarra pequeña	pequena?	guitarra pequeña	1	0	guitar	small	green	FALSE	TRUE	TRUE	FALSE	FALSE
+g8tXfbQJ5w3Yo5kXq	72	small_blue_candle	size and color	redundant	size	color redundant	4	4	0	azul más pequeño__un placer	pequeno?	azul más pequeño	0	1	candle	small	blue	TRUE	TRUE	FALSE	FALSE	FALSE
+Drac2QY2EJGirNSty	46	small_purple_yarn	size	minimal	size	color redundant	4	4	0	lana pequela__ña	NA	lana pequela	1	0	yarn	small	purple	FALSE	TRUE	TRUE	FALSE	FALSE
+Drac2QY2EJGirNSty	65	big_orange_coathanger	size	minimal	size	color redundant	4	4	0	percha grande	queda poco	percha grande	1	0	coathanger	big	orange	FALSE	TRUE	TRUE	FALSE	FALSE
+ncA5wQm2wMWx6Qw4m	15	big_white_shoe	size	minimal	size	color redundant	4	4	0	ah caray... el zapato más grande	NA	ah caray... el zapato más grande	1	0	shoe	big	white	FALSE	TRUE	TRUE	FALSE	TRUE
+ncA5wQm2wMWx6Qw4m	37	big_blue_guitar	size	minimal	size	color redundant	4	4	0	de nuevo, la más grande	NA	de nuevo, la más grande	1	0	guitar	big	blue	FALSE	TRUE	FALSE	FALSE	TRUE
+RdyH6CPjXhDjFiBn6	4	big_pink_teacup	size	minimal	size	color redundant	4	4	0	la taza más grande	NA	la taza más grande	1	0	teacup	big	pink	FALSE	TRUE	TRUE	FALSE	TRUE
+RdyH6CPjXhDjFiBn6	56	small_orange_cushion	size	minimal	size	color redundant	4	4	0	cojín pequeño	NA	cojín pequeño	1	0	cushion	small	orange	FALSE	TRUE	TRUE	FALSE	FALSE
+ri9WkdRrTvaRgjAbd	10	small_pink_framee	size	minimal	size	color redundant	4	4	0	el mas chiquito	NA	el mas chiquito	1	0	framee	small	pink	FALSE	TRUE	FALSE	FALSE	TRUE
+ri9WkdRrTvaRgjAbd	70	big_purple_butterfly	size	minimal	size	color redundant	4	4	0	mas grande	NA	mas grande	1	0	butterfly	big	purple	FALSE	TRUE	FALSE	FALSE	FALSE
+xiA5WJQ9BBwufErLv	36	big_pink_bucket	size	minimal	size	color redundant	4	4	0	grande	NA	grande	1	0	bucket	big	pink	FALSE	TRUE	FALSE	FALSE	FALSE
+xiA5WJQ9BBwufErLv	61	big_orange_billiardball	size	minimal	size	color redundant	4	4	0	grande	NA	grande	1	0	billiardball	big	orange	FALSE	TRUE	FALSE	FALSE	FALSE
+8mztCuTtp44PNj9aR	3	small_purple_flower	size	minimal	size	color redundant	4	4	0	la mas pequeña	NA	la mas pequeña	1	0	flower	small	purple	FALSE	TRUE	FALSE	FALSE	TRUE
+8mztCuTtp44PNj9aR	17	small_purple_stapler	size	minimal	size	color redundant	4	4	0	la mas pequeña	NA	la mas pequeña	1	0	stapler	small	purple	FALSE	TRUE	FALSE	FALSE	TRUE
+C9425wL5d2jqqrfnt	21	big_white_teacup	size	minimal	size	color redundant	4	4	0	la taza mas grande	tasa grande?	la taza mas grande	1	0	teacup	big	white	FALSE	TRUE	TRUE	FALSE	TRUE
+PLenL62JMPMEiyEZd	44	small_blue_tack	size	minimal	size	color redundant	4	4	0	mas chico	NA	mas chico	1	0	tack	small	blue	FALSE	TRUE	FALSE	FALSE	FALSE
+PLenL62JMPMEiyEZd	71	big_black_book	size	minimal	size	color redundant	4	4	0	mas grande	NA	mas grande	1	0	book	big	black	FALSE	TRUE	FALSE	FALSE	FALSE
+MjtKysa8uTdkgCZhY	60	small_white_weddingcake	size	minimal	size	color redundant	4	4	0	peque	NA	peque	1	0	weddingcake	small	white	FALSE	TRUE	FALSE	FALSE	FALSE
+5FBHB2gcEAxFrnBTj	21	small_purple_yarn	size	minimal	size	color redundant	4	4	0	pequeño	tamaño?	pequeño	1	0	yarn	small	purple	FALSE	TRUE	FALSE	FALSE	FALSE
+5FBHB2gcEAxFrnBTj	33	small_blue_cap	size	minimal	size	color redundant	4	4	0	la más chica	tamaño?	la más chica	1	0	cap	small	blue	FALSE	TRUE	FALSE	FALSE	TRUE
+krPu8jL2ifeQiJtiz	37	small_green_pepper	size	minimal	size	color redundant	4	4	0	pequeño	NA	pequeño	1	0	pepper	small	green	FALSE	TRUE	FALSE	FALSE	FALSE
+krPu8jL2ifeQiJtiz	63	small_pink_balloon	size	minimal	size	color redundant	4	4	0	pequeño	NA	pequeño	1	0	balloon	small	pink	FALSE	TRUE	FALSE	FALSE	FALSE
+L3TwC8ZM9Kcs7QBx4	53	big_purple_bracelet	size	minimal	size	color redundant	4	4	0	la pulsera mas grande	NA	la pulsera mas grande	1	0	bracelet	big	purple	FALSE	TRUE	TRUE	FALSE	TRUE
+L3TwC8ZM9Kcs7QBx4	57	big_blue_cushion	size	minimal	size	color redundant	4	4	0	el cojin mas grande	NA	el cojin mas grande	1	0	cushion	big	blue	FALSE	TRUE	TRUE	FALSE	TRUE
+o9ajiSJQsC87WWPMG	5	big_yellow_napkin	size	minimal	size	color redundant	4	4	0	es la imagen más grande	de qué tamaño es?	es la imagen más grande	1	0	napkin	big	yellow	FALSE	TRUE	FALSE	FALSE	TRUE
+o9ajiSJQsC87WWPMG	56	small_yellow_shoe	size	minimal	size	color redundant	4	4	0	más chico	NA	más chico	1	0	shoe	small	yellow	FALSE	TRUE	FALSE	FALSE	FALSE
+w2fzmfuovTcBBykSN	10	small_white_phone	size	minimal	size	color redundant	4	4	0	pequeño	NA	pequeño	1	0	phone	small	white	FALSE	TRUE	FALSE	FALSE	FALSE
+w2fzmfuovTcBBykSN	18	big_blue_butterfly	size	minimal	size	color redundant	4	4	0	grande	NA	grande	1	0	butterfly	big	blue	FALSE	TRUE	FALSE	FALSE	FALSE
+s4qdZmttuex8PYHYK	39	big_white_shoe	size	minimal	size	color redundant	4	4	0	al mas grande	NA	al mas grande	1	0	shoe	big	white	FALSE	TRUE	FALSE	FALSE	TRUE
+s4qdZmttuex8PYHYK	44	big_yellow_bellpepper	size	minimal	size	color redundant	4	4	0	el mas grande	NA	el mas grande	1	0	bellpepper	big	yellow	FALSE	TRUE	FALSE	FALSE	TRUE
+S7FpNmQk9XcQXJHTf	15	small_blue_rug	size	minimal	size	color redundant	4	4	0	es el más pequeño	NA	es el más pequeño	1	0	rug	small	blue	FALSE	TRUE	FALSE	FALSE	TRUE
+S7FpNmQk9XcQXJHTf	25	small_black_belt	size	minimal	size	color redundant	4	4	0	es el más pequeño	NA	es el más pequeño	1	0	belt	small	black	FALSE	TRUE	FALSE	FALSE	TRUE
+ZdgvjcuMKtwGjydbR	44	big_blue_toothbrush	size	minimal	size	color redundant	4	4	0	cepillo mas grande	NA	cepillo mas grande	1	0	toothbrush	big	blue	FALSE	TRUE	TRUE	FALSE	FALSE
+ZdgvjcuMKtwGjydbR	67	small_black_comb	size	minimal	size	color redundant	4	4	0	mas chico	NA	mas chico	1	0	comb	small	black	FALSE	TRUE	FALSE	FALSE	FALSE
+89kCaivgGxt9As4s5	29	big_red_tack	size	minimal	size	color redundant	4	4	0	grande	NA	grande	1	0	tack	big	red	FALSE	TRUE	FALSE	FALSE	FALSE
+89kCaivgGxt9As4s5	56	small_pink_hairdryer	size	minimal	size	color redundant	4	4	0	chico	NA	chico	1	0	hairdryer	small	pink	FALSE	TRUE	FALSE	FALSE	FALSE
+KkMmp5urRFWCQh3Hb	63	small_green_bracelet	size	minimal	size	color redundant	4	4	0	la más pequeña	NA	la más pequeña	1	0	bracelet	small	green	FALSE	TRUE	FALSE	FALSE	TRUE
+mJWL79uZrXh3YMtMs	42	small_red_toothbrush	size	minimal	size	color redundant	4	4	0	el mas chico	NA	el mas chico	1	0	toothbrush	small	red	FALSE	TRUE	FALSE	FALSE	TRUE
+mJWL79uZrXh3YMtMs	51	big_red_chair	size	minimal	size	color redundant	4	4	0	el mas grande	NA	el mas grande	1	0	chair	big	red	FALSE	TRUE	FALSE	FALSE	TRUE
+9xQZnMmmLAedmSnpb	57	big_red_yarn	size	minimal	size	color redundant	4	4	0	el más grande	NA	el más grande	1	0	yarn	big	red	FALSE	TRUE	FALSE	FALSE	TRUE
+9xQZnMmmLAedmSnpb	71	small_orange_billiardball	size	minimal	size	color redundant	4	4	0	la bola mas pequeña	NA	la bola mas pequeña	1	0	billiardball	small	orange	FALSE	TRUE	TRUE	FALSE	TRUE
+KchWPEsJ7AK6yb5ab	32	small_white_pingpongball	size	minimal	size	color redundant	4	4	0	pequenho	NA	pequenho	1	0	pingpongball	small	white	FALSE	TRUE	FALSE	FALSE	FALSE
+KchWPEsJ7AK6yb5ab	52	big_pink_hairdryer	size	minimal	size	color redundant	4	4	0	grande	NA	grande	1	0	hairdryer	big	pink	FALSE	TRUE	FALSE	FALSE	FALSE
+6iNLyBqiCFSzy3vxQ	16	small_white_teacup	size	minimal	size	color redundant	4	4	0	taza pequeña	NA	taza pequeña	1	0	teacup	small	white	FALSE	TRUE	TRUE	FALSE	FALSE
+6iNLyBqiCFSzy3vxQ	52	big_green_binder	size	minimal	size	color redundant	4	4	0	carpeta grande	NA	carpeta grande	1	0	binder	big	green	FALSE	TRUE	TRUE	FALSE	FALSE
