@@ -19,6 +19,23 @@ visualize_sceneVariation = function(d) {
     facet_wrap(~RedundantProperty) 
 }
 
+visualize_sceneVariation_byorder = function(d) {
+  agr <- d %>%
+    select(redundant,RedundantProperty,NumDistractors,SceneVariation,redWordOrder) %>%
+    gather(Utterance,Mentioned,-RedundantProperty,-NumDistractors,-SceneVariation,-redWordOrder) %>%
+    group_by(Utterance,RedundantProperty,NumDistractors,SceneVariation,redWordOrder) %>%
+    summarise(Probability=mean(Mentioned),ci.low=ci.low(Mentioned),ci.high=ci.high(Mentioned)) %>%
+    ungroup() %>%
+    mutate(YMin = Probability - ci.low, YMax = Probability + ci.high, Distractors=as.factor(NumDistractors))
+  ggplot(agr, aes(x=SceneVariation,y=Probability,shape=Distractors,group=1)) +
+    geom_point() +
+    geom_errorbar(aes(ymin=YMin,ymax=YMax)) +
+    xlab("Scene variation") +
+    ylab("Probability of redundant modifier") +
+    scale_shape_discrete(name = "Number of\ndistractors") +
+    facet_grid(redWordOrder~RedundantProperty) 
+}
+
 visualize_byDyad = function(d) {
   agr_dyad = d %>%
     select(redundant,RedundantProperty,gameid) %>%

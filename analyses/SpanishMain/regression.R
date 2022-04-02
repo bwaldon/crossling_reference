@@ -12,13 +12,39 @@ source("../_shared/regressionHelpers.r")
 
 # READ DATA
 # # (dummy data for analysis pipeline creation)
-d = read_delim("../../data/SpanishMain/data_exp1.tsv", delim = "\t") 
+d = read_delim("../../data/SpanishMain/data_exp1.tsv", delim = "\t")
+d_postraw = read_tsv("../../data/SpanishMain/postManualTypoCorrection.tsv") 
+
+# get data with linear order annotation
+d_post = d_postraw %>% 
+  select(gameId,roundNumber,nameClickedObj,words)
+colnames(d_post) = c("gameid","Trial","TargetItem","WordOrder")
+  
+d = d %>% 
+  left_join(d_post,by=c("gameid","Trial","TargetItem")) %>% 
+  mutate(redWordOrder = case_when(
+    WordOrder %in% c("ANC","NC","ANCS","ANS","NAS","NCAS","NCS","NS","NSC") ~ "post-nominal",
+    WordOrder %in% c("ACN","CN","ACSN","ASN","CASN","CSN","SN","SCN","CSN","ASCN") ~ "pre-nominal",
+    WordOrder %in% c("CNS","SNC") ~ "split",
+  TRUE ~ "no noun"))
+
+# how many cases of pre-, post-, and split referring exps?
+table(d$redWordOrder)
+# no noun post-nominal 
+# 622          200 
+
+# how many cases of conjunction?
+table(d_postraw$comments)
 
 # PLOT PROPORTION OF REDUNDANT UTTERANCES BY REDUNDANT PROPERTY
 
 visualize_sceneVariation(d)
 
 ggsave(file="viz/scenevariation.pdf",width=8,height=4)
+
+visualize_sceneVariation_byorder(d)
+
+ggsave(file="viz/scenevariation_byorder.pdf",width=8,height=6)
 
 # PLOT BY-DYAD VARIABILITY IN OVERMODIFICATION STRATEGY
 
