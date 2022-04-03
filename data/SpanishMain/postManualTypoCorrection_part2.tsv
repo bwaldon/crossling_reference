@@ -1,0 +1,1153 @@
+gameId	language	stage	condition	alt1BasicLevel	alt1SuperLevel	alt2BasicLevel	alt2SuperLevel	listenerSelection	roundNumber	directorAllMessages	directorFirstMessage	guesserAllMessages	nameClickedObj	correct	words	comments	sep	colorMentioned	sizeMentioned	typeMentioned	oneMentioned	theMentioned
+i9kH9EnohLzqAaboq	Spanish	feedback	color21	NA	NA	NA	NA	1	3	es de otro color.	es de otro color.		big_pink_weddingcake	1		bleached color		FALSE	FALSE	FALSE	TRUE	FALSE
+i9kH9EnohLzqAaboq	Spanish	feedback	color21	NA	NA	NA	NA	1	50	es de diferente color.	es de diferente color.		big_orange_billiardball	1		bleached color		FALSE	FALSE	FALSE	TRUE	FALSE
+XZtfg4k35HZQbAaKS	Spanish	feedback	color21	NA	NA	NA	NA	1	17	azul	azul		big_blue_butterfly	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+XZtfg4k35HZQbAaKS	Spanish	feedback	color21	NA	NA	NA	NA	1	46	rojo	rojo		small_red_tack	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+5uPb46X29k7aKpKos	Spanish	feedback	color21	NA	NA	NA	NA	1	25	diferente color	diferente color		big_red_bike	1		bleached color		FALSE	FALSE	FALSE	TRUE	FALSE
+5uPb46X29k7aKpKos	Spanish	feedback	color21	NA	NA	NA	NA	1	39	diferente color	diferente color		small_yellow_balloon	1		bleached color		FALSE	FALSE	FALSE	TRUE	FALSE
+6548bWiJoGcuX59Zp	Spanish	feedback	color21	NA	NA	NA	NA	1	41	azul	azul		small_blue_toothbrush	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+6548bWiJoGcuX59Zp	Spanish	feedback	color21	NA	NA	NA	NA	1	71	morado	morado		big_purple_bracelet	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+MvesSZxmNwRWxpMDF	Spanish	feedback	color21	NA	NA	NA	NA	1	45	marron	marron		big_tan_rock	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+MvesSZxmNwRWxpMDF	Spanish	feedback	color21	NA	NA	NA	NA	1	51	vela rosa	vela rosa		big_red_candle	1	NC			TRUE	FALSE	TRUE	TRUE	TRUE
+RcCbHw4ML3ei95SZP	Spanish	feedback	color21	NA	NA	NA	NA	2	18	uno de los dos grandes...	uno de los dos grandes...		big_purple_bracelet	0	A	????		FALSE	TRUE	FALSE	TRUE	TRUE
+RcCbHw4ML3ei95SZP	Spanish	feedback	color21	NA	NA	NA	NA	2	29	tamaño medio, hay uno mas grande y otro mas pequeño... nada diferenciador en este caso	tamaño medio, hay uno mas grande y otro mas pequeño... nada diferenciador en este caso		big_purple_hairdryer	0	S			FALSE	TRUE	FALSE	TRUE	FALSE
+Cisj4o5sAv9g8rbmS	Spanish	feedback	color21	NA	NA	NA	NA	1	17	color azul	color azul		small_blue_book	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+Cisj4o5sAv9g8rbmS	Spanish	feedback	color21	NA	NA	NA	NA	1	54	verde	verde		small_green_framee	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+rh7GW6WH2awWyB4Kx	Spanish	feedback	color21	NA	NA	NA	NA	1	6	morado	morado		big_purple_flower	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+rh7GW6WH2awWyB4Kx	Spanish	feedback	color21	NA	NA	NA	NA	1	30	roja	roja		small_red_bike	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+oPMCjJ3aFSj92CzNA	Spanish	feedback	color21	NA	NA	NA	NA	1	28	bicicleta roja	bicicleta roja		big_red_bike	1	NC			TRUE	FALSE	TRUE	TRUE	FALSE
+oPMCjJ3aFSj92CzNA	Spanish	feedback	color21	NA	NA	NA	NA	1	53	la café	la café		small_brown_jacket	1	AC			FALSE	FALSE	FALSE	TRUE	TRUE
+bDqu8DtgmaBkuLzTC	Spanish	feedback	color21	NA	NA	NA	NA	1	6	es la de diferente color	es la de diferente color		small_purple_yarn	1	A	bleached color		FALSE	FALSE	FALSE	TRUE	TRUE
+bDqu8DtgmaBkuLzTC	Spanish	feedback	color21	NA	NA	NA	NA	1	69	es diferente	es diferente		small_orange_coathanger	1		bleached contrast		FALSE	FALSE	FALSE	TRUE	FALSE
+6NunwfhDpBsQMdZXp	Spanish	feedback	color21	NA	NA	NA	NA	1	9	verde	verde		small_green_bracelet	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+6NunwfhDpBsQMdZXp	Spanish	feedback	color21	NA	NA	NA	NA	1	33	distinto color	distinto color		small_blue_tack	1		bleached color		FALSE	FALSE	FALSE	TRUE	FALSE
+S4kr4v62hXL4LYC7D	Spanish	feedback	color21	NA	NA	NA	NA	1	12	pink again	pink again		big_pink_weddingcake	1		ENGLISH		FALSE	FALSE	FALSE	TRUE	FALSE
+S4kr4v62hXL4LYC7D	Spanish	feedback	color21	NA	NA	NA	NA	1	61	blue	blue		small_blue_toothbrush	1		ENGLISH		FALSE	FALSE	FALSE	TRUE	FALSE
+bYnFuaH8d9Dkp54C5	Spanish	feedback	color21	NA	NA	NA	NA	1	11	sí	sí	es blanco ?	big_white_weddingcake	1				FALSE	FALSE	FALSE	TRUE	FALSE
+bYnFuaH8d9Dkp54C5	Spanish	feedback	color21	NA	NA	NA	NA	1	53	no__si	no	es grande ?__es rojo ?	small_red_bellpepper	1				FALSE	FALSE	FALSE	TRUE	FALSE
+jbp9GcgfoE26diyWb	Spanish	feedback	color21	NA	NA	NA	NA	1	14	sillon rojo	sillon rojo		small_red_chair	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+jbp9GcgfoE26diyWb	Spanish	feedback	color21	NA	NA	NA	NA	1	72	el blanco	el blanco		big_white_weddingcake	1	AC			TRUE	FALSE	FALSE	TRUE	TRUE
+2PA2eTW2JBioGPq2S	Spanish	feedback	color21	NA	NA	NA	NA	1	9	purpura	purpura		big_purple_hairdryer	1	C			FALSE	FALSE	FALSE	TRUE	FALSE
+2PA2eTW2JBioGPq2S	Spanish	feedback	color21	NA	NA	NA	NA	1	67	rojo	rojo		big_red_candle	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+QC9QPrwjj6RsY6hks	Spanish	feedback	color21	NA	NA	NA	NA	1	22	el gorro azul	el gorro azul		big_blue_cap	1	ANC			TRUE	FALSE	FALSE	TRUE	TRUE
+QC9QPrwjj6RsY6hks	Spanish	feedback	color21	NA	NA	NA	NA	1	64	blanco	blanco		small_white_shoe	1	C			TRUE	FALSE	FALSE	TRUE	TRUE
+aSJ3S2g3n7c5XYeuq	Spanish	feedback	color21	NA	NA	NA	NA	1	31	different color/color diferente	different color/color diferente		big_white_teacup	1		bleached color		FALSE	FALSE	FALSE	TRUE	FALSE
+aSJ3S2g3n7c5XYeuq	Spanish	feedback	color21	NA	NA	NA	NA	1	67	c__color different	c		big_orange_cushion	1		bleached contrast		FALSE	FALSE	FALSE	TRUE	FALSE
+SZ8Bs9kQ4wkYwTsFm	Spanish	feedback	color21	NA	NA	NA	NA	1	10	es el diferente	es el diferente	mas pequeño?	big_red_toothbrush	1	A	bleached contrast		FALSE	FALSE	FALSE	TRUE	TRUE
+SZ8Bs9kQ4wkYwTsFm	Spanish	feedback	color21	NA	NA	NA	NA	1	63	gris	gris		big_grey_rock	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+ZeAdhLHahHwqnn9MG	Spanish	feedback	color21	NA	NA	NA	NA	1	6	pelota naranja	pelota naranja		small_orange_pingpongball	1	NC			TRUE	FALSE	TRUE	TRUE	TRUE
+ZeAdhLHahHwqnn9MG	Spanish	feedback	color21	NA	NA	NA	NA	1	35	rosa	rosa		small_pink_framee	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+3j4nmgjGw5svrxehe	Spanish	feedback	color21	NA	NA	NA	NA	1	33	azul	azul		big_blue_scarf	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+3j4nmgjGw5svrxehe	Spanish	feedback	color21	NA	NA	NA	NA	1	60	vela azul	vela azul		small_blue_candle	1	NC			TRUE	FALSE	TRUE	TRUE	TRUE
+yzi4tHBHqvsoo3nn5	Spanish	feedback	color21	NA	NA	NA	NA	1	34	gorra naranja	gorra naranja		small_orange_cap	1	NC			TRUE	FALSE	TRUE	TRUE	FALSE
+yzi4tHBHqvsoo3nn5	Spanish	feedback	color21	NA	NA	NA	NA	1	66	bufanda azul	bufanda azul		small_blue_scarf	1	NC			TRUE	FALSE	TRUE	TRUE	FALSE
+g7vxxhW2jevjbHBv8	Spanish	feedback	color21	NA	NA	NA	NA	1	10	es naranja__rojo	es naranja	naranja o rojo?	small_red_bellpepper	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+g7vxxhW2jevjbHBv8	Spanish	feedback	color21	NA	NA	NA	NA	1	40	es el de color más brillante	es el de color más brillante	?	big_yellow_napkin	1	A	bleached color		FALSE	FALSE	FALSE	TRUE	TRUE
+woScH39WSn3r8vT9s	Spanish	feedback	color21	NA	NA	NA	NA	1	54	el color rosa	el color rosa		big_pink_phone	1	AC			TRUE	FALSE	FALSE	TRUE	TRUE
+woScH39WSn3r8vT9s	Spanish	feedback	color21	NA	NA	NA	NA	1	63	de color rosa	de color rosa		small_pink_balloon	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+6ghf7bahMwk2Gum9F	Spanish	feedback	color21	NA	NA	NA	NA	1	14	rojo	rojo	lo bueno que no soy daltonico jaja ok	big_red_flower	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+6ghf7bahMwk2Gum9F	Spanish	feedback	color21	NA	NA	NA	NA	1	67	rojo	rojo		small_red_scarf	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+7byBpzzTrLBTrRaSW	Spanish	feedback	color21	NA	NA	NA	NA	1	11	diferente	diferente		small_green_jacket	1		bleached contrsast		FALSE	FALSE	FALSE	TRUE	FALSE
+7byBpzzTrLBTrRaSW	Spanish	feedback	color21	NA	NA	NA	NA	1	56	diferente	diferente		small_orange_billiardball	1		bleached contrsast		FALSE	FALSE	FALSE	TRUE	FALSE
+Ndey5riTwZPPn8eqi	Spanish	feedback	color21	NA	NA	NA	NA	1	34	sí	sí	naranja?	big_orange_coathanger	1				FALSE	FALSE	FALSE	TRUE	FALSE
+Ndey5riTwZPPn8eqi	Spanish	feedback	color21	NA	NA	NA	NA	1	63	sí	sí	naranja?	small_orange_cushion	1				FALSE	FALSE	FALSE	TRUE	FALSE
+e85bNvHjAANCEpjwF	Spanish	feedback	color21	NA	NA	NA	NA	1	43	diferente color	diferente color		big_yellow_balloon	1		bleached color		FALSE	FALSE	FALSE	TRUE	FALSE
+e85bNvHjAANCEpjwF	Spanish	feedback	color21	NA	NA	NA	NA	1	59	diferente	diferente		small_red_yarn	1		bleached contrast		FALSE	FALSE	FALSE	TRUE	FALSE
+BnA3FeomaYQsW7WNG	Spanish	feedback	color21	NA	NA	NA	NA	1	21	rosa	rosa		big_pink_framee	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+BnA3FeomaYQsW7WNG	Spanish	feedback	color21	NA	NA	NA	NA	1	62	rosa	rosa		big_purple_bracelet	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+GZ4Bi32LYs5JLP3dn	Spanish	feedback	color21	NA	NA	NA	NA	1	16	blanco	blanco		big_white_phone	1	C			TRUE	FALSE	FALSE	TRUE	TRUE
+GZ4Bi32LYs5JLP3dn	Spanish	feedback	color21	NA	NA	NA	NA	1	70	azul	azul		small_blue_comb	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+GetM4rtofxHS3ga5m	Spanish	feedback	color21	NA	NA	NA	NA	1	52	el pimiento verde	el pimiento verde		big_green_pepper	1	ANC			TRUE	FALSE	TRUE	TRUE	TRUE
+GetM4rtofxHS3ga5m	Spanish	feedback	color21	NA	NA	NA	NA	1	58	la vela roja	la vela roja		big_red_candle	1	ANC			TRUE	FALSE	TRUE	TRUE	TRUE
+z7BQy72TNHyrXNdby	Spanish	feedback	color21	NA	NA	NA	NA	1	24	el morado	el morado		small_purple_coathanger	1	AC			TRUE	FALSE	FALSE	TRUE	TRUE
+z7BQy72TNHyrXNdby	Spanish	feedback	color21	NA	NA	NA	NA	1	71	el amarillo	el amarillo		small_yellow_shoe	1	AC			TRUE	FALSE	FALSE	TRUE	TRUE
+5iXGA8yrtbLNsFb8x	Spanish	feedback	color21	NA	NA	NA	NA	1	4	es color agua	es color agua		big_blue_scarf	1		bleaced color		FALSE	FALSE	FALSE	TRUE	FALSE
+5iXGA8yrtbLNsFb8x	Spanish	feedback	color21	NA	NA	NA	NA	1	17	el de color diferente	el de color diferente		big_purple_coathanger	1	A	bleaced color		FALSE	FALSE	FALSE	TRUE	TRUE
+i9kH9EnohLzqAaboq	Spanish	feedback	color22	NA	NA	NA	NA	1	2	es diferente.	es diferente.		small_purple_flower	1		bleaced color		FALSE	FALSE	FALSE	TRUE	FALSE
+i9kH9EnohLzqAaboq	Spanish	feedback	color22	NA	NA	NA	NA	1	14	es de otro color.	es de otro color.		big_pink_phone	1				FALSE	FALSE	FALSE	TRUE	FALSE
+XZtfg4k35HZQbAaKS	Spanish	feedback	color22	NA	NA	NA	NA	1	34	amarillo	amarillo		big_yellow_bellpepper	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+XZtfg4k35HZQbAaKS	Spanish	feedback	color22	NA	NA	NA	NA	1	36	rosa	rosa		big_pink_hairdryer	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+5uPb46X29k7aKpKos	Spanish	feedback	color22	NA	NA	NA	NA	1	48	diferente color	diferente color		small_purple_coathanger	1		bleached color		FALSE	FALSE	FALSE	TRUE	FALSE
+5uPb46X29k7aKpKos	Spanish	feedback	color22	NA	NA	NA	NA	1	51	diferente color	diferente color		small_purple_stapler	1		bleached color		FALSE	FALSE	FALSE	TRUE	FALSE
+6548bWiJoGcuX59Zp	Spanish	feedback	color22	NA	NA	NA	NA	1	31	verde	verde		big_green_pepper	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+6548bWiJoGcuX59Zp	Spanish	feedback	color22	NA	NA	NA	NA	1	46	morado	morado		small_blue_candle	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+MvesSZxmNwRWxpMDF	Spanish	feedback	color22	NA	NA	NA	NA	1	39	amarillo	amarillo		big_yellow_napkin	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+MvesSZxmNwRWxpMDF	Spanish	feedback	color22	NA	NA	NA	NA	1	55	azul	azul		big_blue_scarf	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+RcCbHw4ML3ei95SZP	Spanish	feedback	color22	NA	NA	NA	NA	1	39	el mas pequeño, 2 son iguales__33%__verde	el mas pequeño, 2 son iguales	color diferente?	big_green_framee	1	ASC	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+RcCbHw4ML3ei95SZP	Spanish	feedback	color22	NA	NA	NA	NA	1	62	la mas pequeña de las 3, rosa	la mas pequeña de las 3, rosa		big_pink_weddingcake	1	ASAC	superlative		TRUE	TRUE	FALSE	TRUE	TRUE
+Cisj4o5sAv9g8rbmS	Spanish	feedback	color22	NA	NA	NA	NA	1	15	color azul	color azul		big_blue_rug	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+Cisj4o5sAv9g8rbmS	Spanish	feedback	color22	NA	NA	NA	NA	1	28	azul	azul		small_blue_cushion	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+rh7GW6WH2awWyB4Kx	Spanish	feedback	color22	NA	NA	NA	NA	1	17	verde	verde		small_green_guitar	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+rh7GW6WH2awWyB4Kx	Spanish	feedback	color22	NA	NA	NA	NA	1	48	rojo	rojo		small_red_pepper	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+oPMCjJ3aFSj92CzNA	Spanish	feedback	color22	NA	NA	NA	NA	1	24	el morado	el morado		small_purple_hairdryer	1	AC			TRUE	FALSE	FALSE	TRUE	TRUE
+oPMCjJ3aFSj92CzNA	Spanish	feedback	color22	NA	NA	NA	NA	1	43	pastel blanco	pastel blanco		small_white_weddingcake	1	NC			TRUE	FALSE	TRUE	TRUE	TRUE
+bDqu8DtgmaBkuLzTC	Spanish	feedback	color22	NA	NA	NA	NA	1	46	es mas intenso el color	es mas intenso el color		small_red_toothbrush	1	A	bleached color		FALSE	FALSE	FALSE	TRUE	TRUE
+bDqu8DtgmaBkuLzTC	Spanish	feedback	color22	NA	NA	NA	NA	1	66	es diferente	es diferente		small_orange_cap	1		bleached contrast		FALSE	FALSE	FALSE	TRUE	FALSE
+6NunwfhDpBsQMdZXp	Spanish	feedback	color22	NA	NA	NA	NA	1	5	la mas clara	la mas clara		big_pink_hairdryer	1	AC	superlative		TRUE	FALSE	FALSE	TRUE	TRUE
+6NunwfhDpBsQMdZXp	Spanish	feedback	color22	NA	NA	NA	NA	1	8	azul	azul		small_blue_butterfly	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+S4kr4v62hXL4LYC7D	Spanish	feedback	color22	NA	NA	NA	NA	1	5	black turtle	black turtle		big_black_turtle	1				FALSE	FALSE	FALSE	TRUE	TRUE
+S4kr4v62hXL4LYC7D	Spanish	feedback	color22	NA	NA	NA	NA	1	37	purple	purple		small_purple_flower	1				FALSE	FALSE	FALSE	TRUE	FALSE
+bYnFuaH8d9Dkp54C5	Spanish	feedback	color22	NA	NA	NA	NA	1	51	sí	sí	es morado ?	small_purple_yarn	1				FALSE	FALSE	FALSE	TRUE	FALSE
+bYnFuaH8d9Dkp54C5	Spanish	feedback	color22	NA	NA	NA	NA	1	57	si	si	es azul ?	small_blue_candle	1				FALSE	FALSE	FALSE	TRUE	FALSE
+jbp9GcgfoE26diyWb	Spanish	feedback	color22	NA	NA	NA	NA	1	38	globo amarillo	globo amarillo		big_yellow_balloon	1	NC			TRUE	FALSE	TRUE	TRUE	FALSE
+jbp9GcgfoE26diyWb	Spanish	feedback	color22	NA	NA	NA	NA	1	56	la verde	la verde		big_green_jacket	1	AC			TRUE	FALSE	FALSE	TRUE	TRUE
+2PA2eTW2JBioGPq2S	Spanish	feedback	color22	NA	NA	NA	NA	1	33	rojo	rojo		small_red_yarn	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+2PA2eTW2JBioGPq2S	Spanish	feedback	color22	NA	NA	NA	NA	1	64	azul	azul		big_blue_rug	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+QC9QPrwjj6RsY6hks	Spanish	feedback	color22	NA	NA	NA	NA	1	35	la roja	la roja		big_red_candle	1	AC			TRUE	FALSE	FALSE	TRUE	TRUE
+QC9QPrwjj6RsY6hks	Spanish	feedback	color22	NA	NA	NA	NA	1	45	naranja	naranja		big_orange_pingpongball	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+aSJ3S2g3n7c5XYeuq	Spanish	feedback	color22	NA	NA	NA	NA	1	18	different color/color diferente	different color/color diferente		big_green_guitar	1		bleached color		FALSE	FALSE	FALSE	TRUE	FALSE
+aSJ3S2g3n7c5XYeuq	Spanish	feedback	color22	NA	NA	NA	NA	1	52	different color/color diferente	different color/color diferente		big_red_pepper	1		bleached color		FALSE	FALSE	FALSE	TRUE	FALSE
+SZ8Bs9kQ4wkYwTsFm	Spanish	feedback	color22	NA	NA	NA	NA	1	4	es del mismo color que la sangre	es del mismo color que la sangre	es la diferente	big_red_yarn	1	A	bleached color		FALSE	FALSE	FALSE	TRUE	TRUE
+SZ8Bs9kQ4wkYwTsFm	Spanish	feedback	color22	NA	NA	NA	NA	1	14	azul__si	azul	azul?	small_blue_butterfly	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+ZeAdhLHahHwqnn9MG	Spanish	feedback	color22	NA	NA	NA	NA	1	1	estambre rojo	estambre rojo		big_red_yarn	1	NC			TRUE	FALSE	FALSE	TRUE	FALSE
+ZeAdhLHahHwqnn9MG	Spanish	feedback	color22	NA	NA	NA	NA	1	39	verde	verde		big_green_guitar	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+3j4nmgjGw5svrxehe	Spanish	feedback	color22	NA	NA	NA	NA	1	24	la blanca	la blanca		big_white_teacup	1	AC			TRUE	FALSE	FALSE	TRUE	TRUE
+3j4nmgjGw5svrxehe	Spanish	feedback	color22	NA	NA	NA	NA	1	34	roja	roja		big_red_bucket	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+yzi4tHBHqvsoo3nn5	Spanish	feedback	color22	NA	NA	NA	NA	1	16	bola purpura	bola purpura		big_purple_billiardball	1	NC			FALSE	FALSE	TRUE	TRUE	TRUE
+yzi4tHBHqvsoo3nn5	Spanish	feedback	color22	NA	NA	NA	NA	1	45	marco rosa	marco rosa		small_pink_framee	1	NC			TRUE	FALSE	TRUE	TRUE	FALSE
+g7vxxhW2jevjbHBv8	Spanish	feedback	color22	NA	NA	NA	NA	1	14	es verde	es verde		small_green_framee	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+g7vxxhW2jevjbHBv8	Spanish	feedback	color22	NA	NA	NA	NA	1	72	es la de color más obscuro	es la de color más obscuro		small_black_turtle	1	A	bleached color/superlative		FALSE	FALSE	FALSE	TRUE	TRUE
+woScH39WSn3r8vT9s	Spanish	feedback	color22	NA	NA	NA	NA	1	16	la de color naranja	la de color naranja		small_orange_cap	1	AC			TRUE	FALSE	FALSE	TRUE	TRUE
+woScH39WSn3r8vT9s	Spanish	feedback	color22	NA	NA	NA	NA	1	21	la rosa	la rosa		small_pink_hairdryer	1	AC			TRUE	FALSE	FALSE	TRUE	TRUE
+6ghf7bahMwk2Gum9F	Spanish	feedback	color22	NA	NA	NA	NA	1	24	morado	morado		small_purple_rug	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+6ghf7bahMwk2Gum9F	Spanish	feedback	color22	NA	NA	NA	NA	1	41	color morado	color morado		big_pink_bucket	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+7byBpzzTrLBTrRaSW	Spanish	feedback	color22	NA	NA	NA	NA	1	33	diferente	diferente		big_pink_bucket	1		bleached contrast		FALSE	FALSE	FALSE	TRUE	FALSE
+7byBpzzTrLBTrRaSW	Spanish	feedback	color22	NA	NA	NA	NA	1	65	distinto	distinto		small_green_chair	1		bleached contrast		FALSE	FALSE	FALSE	TRUE	FALSE
+Ndey5riTwZPPn8eqi	Spanish	feedback	color22	NA	NA	NA	NA	1	24	sí	sí	amarillo?	small_yellow_balloon	1				FALSE	FALSE	FALSE	TRUE	FALSE
+Ndey5riTwZPPn8eqi	Spanish	feedback	color22	NA	NA	NA	NA	1	26	sí	sí	blanco?	small_white_shoe	1				FALSE	FALSE	FALSE	TRUE	FALSE
+e85bNvHjAANCEpjwF	Spanish	feedback	color22	NA	NA	NA	NA	1	5	color verde	color verde		small_green_pepper	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+e85bNvHjAANCEpjwF	Spanish	feedback	color22	NA	NA	NA	NA	1	62	diferente	diferente		small_purple_hairdryer	1		bleached contrast		FALSE	FALSE	FALSE	TRUE	FALSE
+BnA3FeomaYQsW7WNG	Spanish	feedback	color22	NA	NA	NA	NA	1	2	blanco	blanco		big_white_phone	1	C			TRUE	FALSE	FALSE	TRUE	TRUE
+BnA3FeomaYQsW7WNG	Spanish	feedback	color22	NA	NA	NA	NA	1	9	blanco	blanco		big_white_weddingcake	1	C			TRUE	FALSE	FALSE	TRUE	TRUE
+GZ4Bi32LYs5JLP3dn	Spanish	feedback	color22	NA	NA	NA	NA	1	9	morado/violeta	morado/violeta		big_purple_flower	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+GZ4Bi32LYs5JLP3dn	Spanish	feedback	color22	NA	NA	NA	NA	1	69	amarillo	amarillo		small_orange_pingpongball	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+GetM4rtofxHS3ga5m	Spanish	feedback	color22	NA	NA	NA	NA	1	23	bicicleta roja	bicicleta roja		small_red_bike	1	NC			TRUE	FALSE	TRUE	TRUE	FALSE
+GetM4rtofxHS3ga5m	Spanish	feedback	color22	NA	NA	NA	NA	1	36	cinturon negro	cinturon negro		big_black_belt	1	NC			TRUE	FALSE	TRUE	TRUE	FALSE
+z7BQy72TNHyrXNdby	Spanish	feedback	color22	NA	NA	NA	NA	1	31	el rosa	el rosa		small_pink_framee	1	AC			TRUE	FALSE	FALSE	TRUE	TRUE
+z7BQy72TNHyrXNdby	Spanish	feedback	color22	NA	NA	NA	NA	1	62	el azul	el azul		small_blue_cushion	1	AC			TRUE	FALSE	FALSE	TRUE	TRUE
+5iXGA8yrtbLNsFb8x	Spanish	feedback	color22	NA	NA	NA	NA	1	7	es el que es diferente	es el que es diferente		big_pink_phone	1	A	bleached contrast		FALSE	FALSE	FALSE	TRUE	TRUE
+5iXGA8yrtbLNsFb8x	Spanish	feedback	color22	NA	NA	NA	NA	1	58	diferente	diferente		small_brown_turtle	1		bleached contrast		FALSE	FALSE	FALSE	TRUE	FALSE
+i9kH9EnohLzqAaboq	Spanish	feedback	color31	NA	NA	NA	NA	1	28	es de otro color.	es de otro color.		small_blue_tack	1		bleached color		FALSE	FALSE	FALSE	TRUE	FALSE
+i9kH9EnohLzqAaboq	Spanish	feedback	color31	NA	NA	NA	NA	1	34	es de otro color.	es de otro color.		small_red_scarf	1		bleached color		FALSE	FALSE	FALSE	TRUE	FALSE
+XZtfg4k35HZQbAaKS	Spanish	feedback	color31	NA	NA	NA	NA	1	44	amarillo	amarillo		big_yellow_napkin	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+XZtfg4k35HZQbAaKS	Spanish	feedback	color31	NA	NA	NA	NA	1	69	azul	azul		big_blue_binder	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+5uPb46X29k7aKpKos	Spanish	feedback	color31	NA	NA	NA	NA	1	55	más pequeño__blanco	más pequeño	color?	small_white_teacup	1	S	superlative		FALSE	TRUE	FALSE	TRUE	FALSE
+5uPb46X29k7aKpKos	Spanish	feedback	color31	NA	NA	NA	NA	1	60	diferente color	diferente color		small_red_candle	1		bleached color		FALSE	FALSE	FALSE	TRUE	FALSE
+6548bWiJoGcuX59Zp	Spanish	feedback	color31	NA	NA	NA	NA	1	2	color diferente	color diferente		big_orange_pingpongball	1		bleached color		FALSE	FALSE	FALSE	TRUE	FALSE
+6548bWiJoGcuX59Zp	Spanish	feedback	color31	NA	NA	NA	NA	1	15	azul	azul		big_blue_rug	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+MvesSZxmNwRWxpMDF	Spanish	feedback	color31	NA	NA	NA	NA	1	10	azul	azul		big_blue_binder	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+MvesSZxmNwRWxpMDF	Spanish	feedback	color31	NA	NA	NA	NA	1	44	rojo	rojo		small_red_bike	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+RcCbHw4ML3ei95SZP	Spanish	feedback	color31	NA	NA	NA	NA	1	54	grande, rojo (hay otro igual amarillo)	grande, rojo (hay otro igual amarillo)		big_red_bellpepper	1	SC			TRUE	TRUE	FALSE	TRUE	FALSE
+RcCbHw4ML3ei95SZP	Spanish	feedback	color31	NA	NA	NA	NA	1	60	grande, azul (otra igual marron y 2 mas pequeñas)	grande, azul (otra igual marron y 2 mas pequeñas)		big_blue_cushion	1	CC			TRUE	TRUE	FALSE	TRUE	FALSE
+Cisj4o5sAv9g8rbmS	Spanish	feedback	color31	NA	NA	NA	NA	1	69	rojo	rojo		small_red_chair	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+Cisj4o5sAv9g8rbmS	Spanish	feedback	color31	NA	NA	NA	NA	1	72	morada	morada		small_purple_hairdryer	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+rh7GW6WH2awWyB4Kx	Spanish	feedback	color31	NA	NA	NA	NA	1	21	cafe	cafe		small_brown_jacket	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+rh7GW6WH2awWyB4Kx	Spanish	feedback	color31	NA	NA	NA	NA	1	49	verede	verede		big_green_framee	1	C			FALSE	FALSE	FALSE	TRUE	FALSE
+oPMCjJ3aFSj92CzNA	Spanish	feedback	color31	NA	NA	NA	NA	1	51	cinturón negro	cinturón negro		small_black_belt	1	NC			TRUE	FALSE	TRUE	TRUE	FALSE
+oPMCjJ3aFSj92CzNA	Spanish	feedback	color31	NA	NA	NA	NA	1	54	el rosado	el rosado		small_pink_phone	1	AC			TRUE	FALSE	FALSE	TRUE	TRUE
+bDqu8DtgmaBkuLzTC	Spanish	feedback	color31	NA	NA	NA	NA	1	24	es de otro color	es de otro color		small_purple_billiardball	1		bleached color		FALSE	FALSE	FALSE	TRUE	FALSE
+bDqu8DtgmaBkuLzTC	Spanish	feedback	color31	NA	NA	NA	NA	1	42	de otro color	de otro color		small_purple_butterfly	1		bleached color		FALSE	FALSE	FALSE	TRUE	FALSE
+6NunwfhDpBsQMdZXp	Spanish	feedback	color31	NA	NA	NA	NA	1	50	verde	verde		small_green_chair	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+6NunwfhDpBsQMdZXp	Spanish	feedback	color31	NA	NA	NA	NA	1	59	blanco	blanco		big_white_weddingcake	1	C			TRUE	FALSE	FALSE	TRUE	TRUE
+S4kr4v62hXL4LYC7D	Spanish	feedback	color31	NA	NA	NA	NA	1	11	pink	pink		small_pink_bucket	1				FALSE	FALSE	FALSE	TRUE	FALSE
+S4kr4v62hXL4LYC7D	Spanish	feedback	color31	NA	NA	NA	NA	1	41	brown pillow	brown pillow		big_orange_cushion	1				FALSE	FALSE	FALSE	TRUE	FALSE
+bYnFuaH8d9Dkp54C5	Spanish	feedback	color31	NA	NA	NA	NA	1	61	si	si	es azul ?	small_blue_rug	1				FALSE	FALSE	FALSE	TRUE	FALSE
+bYnFuaH8d9Dkp54C5	Spanish	feedback	color31	NA	NA	NA	NA	1	67	si	si	es negro ?	big_black_book	1				FALSE	FALSE	FALSE	TRUE	FALSE
+jbp9GcgfoE26diyWb	Spanish	feedback	color31	NA	NA	NA	NA	1	8	cepillo de difernte color	cepillo de difernte color		big_red_toothbrush	1	N			FALSE	FALSE	FALSE	TRUE	FALSE
+jbp9GcgfoE26diyWb	Spanish	feedback	color31	NA	NA	NA	NA	1	68	el blanco	el blanco		big_white_phone	1	AC			TRUE	FALSE	FALSE	TRUE	TRUE
+2PA2eTW2JBioGPq2S	Spanish	feedback	color31	NA	NA	NA	NA	1	6	la rosa	la rosa		big_pink_bucket	1	AC			TRUE	FALSE	FALSE	TRUE	TRUE
+2PA2eTW2JBioGPq2S	Spanish	feedback	color31	NA	NA	NA	NA	1	71	blanco	blanco		small_white_shoe	1	C			TRUE	FALSE	FALSE	TRUE	TRUE
+QC9QPrwjj6RsY6hks	Spanish	feedback	color31	NA	NA	NA	NA	1	28	la de color morado	la de color morado		big_purple_rug	1	AC			TRUE	FALSE	FALSE	TRUE	TRUE
+QC9QPrwjj6RsY6hks	Spanish	feedback	color31	NA	NA	NA	NA	1	68	rojo	rojo		big_red_bellpepper	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+aSJ3S2g3n7c5XYeuq	Spanish	feedback	color31	NA	NA	NA	NA	1	3	es el objeto de distinto color	es el objeto de distinto color		big_yellow_shoe	1	A	bleached color		FALSE	FALSE	FALSE	TRUE	TRUE
+aSJ3S2g3n7c5XYeuq	Spanish	feedback	color31	NA	NA	NA	NA	1	42	different color/color diferente	different color/color diferente		small_red_yarn	1		bleached color		FALSE	FALSE	FALSE	TRUE	FALSE
+SZ8Bs9kQ4wkYwTsFm	Spanish	feedback	color31	NA	NA	NA	NA	1	59	amarilla	amarilla		small_yellow_napkin	1	C			TRUE	FALSE	FALSE	TRUE	TRUE
+SZ8Bs9kQ4wkYwTsFm	Spanish	feedback	color31	NA	NA	NA	NA	1	60	es rosa	es rosa		small_pink_weddingcake	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+ZeAdhLHahHwqnn9MG	Spanish	feedback	color31	NA	NA	NA	NA	1	17	sillón rojo	sillón rojo		big_red_chair	1	NC			TRUE	FALSE	FALSE	TRUE	FALSE
+ZeAdhLHahHwqnn9MG	Spanish	feedback	color31	NA	NA	NA	NA	1	42	rosa	rosa		small_purple_flower	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+3j4nmgjGw5svrxehe	Spanish	feedback	color31	NA	NA	NA	NA	1	20	azul!	azul!		big_blue_toothbrush	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+3j4nmgjGw5svrxehe	Spanish	feedback	color31	NA	NA	NA	NA	1	48	naranja	naranja		big_orange_coathanger	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+yzi4tHBHqvsoo3nn5	Spanish	feedback	color31	NA	NA	NA	NA	1	4	pastel blanco	pastel blanco		small_white_weddingcake	1	NC			TRUE	FALSE	TRUE	TRUE	TRUE
+yzi4tHBHqvsoo3nn5	Spanish	feedback	color31	NA	NA	NA	NA	1	17	telefono rosa	telefono rosa		big_pink_phone	1	NC			TRUE	FALSE	TRUE	TRUE	TRUE
+g7vxxhW2jevjbHBv8	Spanish	feedback	color31	NA	NA	NA	NA	1	15	es naranja	es naranja		small_orange_pingpongball	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+g7vxxhW2jevjbHBv8	Spanish	feedback	color31	NA	NA	NA	NA	1	56	es de color diferente	es de color diferente		big_blue_cushion	1		bleached color		FALSE	FALSE	FALSE	TRUE	FALSE
+woScH39WSn3r8vT9s	Spanish	feedback	color31	NA	NA	NA	NA	1	53	el color blanco	el color blanco		small_white_shoe	1	AC			TRUE	FALSE	FALSE	TRUE	TRUE
+woScH39WSn3r8vT9s	Spanish	feedback	color31	NA	NA	NA	NA	1	68	la de color naranja	la de color naranja		big_orange_pingpongball	1	AC			TRUE	FALSE	FALSE	TRUE	TRUE
+6ghf7bahMwk2Gum9F	Spanish	feedback	color31	NA	NA	NA	NA	1	2	negro	negro	ok	big_black_book	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+6ghf7bahMwk2Gum9F	Spanish	feedback	color31	NA	NA	NA	NA	1	71	rojo	rojo	ok	small_red_yarn	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+7byBpzzTrLBTrRaSW	Spanish	feedback	color31	NA	NA	NA	NA	1	4	pequeño__diferente	pequeño	hay dos no ¿?	small_black_comb	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+7byBpzzTrLBTrRaSW	Spanish	feedback	color31	NA	NA	NA	NA	1	69	distinto	distinto		big_green_pepper	1		bleached contrast		FALSE	FALSE	FALSE	TRUE	FALSE
+Ndey5riTwZPPn8eqi	Spanish	feedback	color31	NA	NA	NA	NA	1	22	sí	sí	negro?	big_black_comb	1				FALSE	FALSE	FALSE	TRUE	FALSE
+Ndey5riTwZPPn8eqi	Spanish	feedback	color31	NA	NA	NA	NA	1	38	sí	sí	cafe?	big_brown_belt	1				FALSE	FALSE	FALSE	TRUE	FALSE
+e85bNvHjAANCEpjwF	Spanish	feedback	color31	NA	NA	NA	NA	1	7	color rojo	color rojo		small_red_bike	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+e85bNvHjAANCEpjwF	Spanish	feedback	color31	NA	NA	NA	NA	1	25	diferente color	diferente color		small_brown_belt	1		bleached contrast		FALSE	FALSE	FALSE	TRUE	FALSE
+BnA3FeomaYQsW7WNG	Spanish	feedback	color31	NA	NA	NA	NA	1	8	verde	verde		small_green_jacket	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+BnA3FeomaYQsW7WNG	Spanish	feedback	color31	NA	NA	NA	NA	1	49	morado	morado		small_blue_candle	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+GZ4Bi32LYs5JLP3dn	Spanish	feedback	color31	NA	NA	NA	NA	1	32	verde	verde		small_green_guitar	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+GZ4Bi32LYs5JLP3dn	Spanish	feedback	color31	NA	NA	NA	NA	1	59	morado	morado		big_purple_billiardball	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+GetM4rtofxHS3ga5m	Spanish	feedback	color31	NA	NA	NA	NA	1	7	piedra grisacea	piedra grisacea		small_grey_rock	1	NC			TRUE	FALSE	TRUE	TRUE	FALSE
+GetM4rtofxHS3ga5m	Spanish	feedback	color31	NA	NA	NA	NA	1	20	taza rosa	taza rosa		small_pink_teacup	1	NC			TRUE	FALSE	FALSE	TRUE	FALSE
+z7BQy72TNHyrXNdby	Spanish	feedback	color31	NA	NA	NA	NA	1	43	la roja	la roja		small_red_bike	1	AC			TRUE	FALSE	FALSE	TRUE	TRUE
+z7BQy72TNHyrXNdby	Spanish	feedback	color31	NA	NA	NA	NA	1	45	la morada	la morada		small_purple_billiardball	1	AC			TRUE	FALSE	FALSE	TRUE	TRUE
+5iXGA8yrtbLNsFb8x	Spanish	feedback	color31	NA	NA	NA	NA	1	22	el de diferente color	el de diferente color		big_blue_comb	1	A	bleached color		FALSE	FALSE	FALSE	TRUE	TRUE
+5iXGA8yrtbLNsFb8x	Spanish	feedback	color31	NA	NA	NA	NA	1	55	rosa	rosa		big_pink_framee	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+i9kH9EnohLzqAaboq	Spanish	feedback	color32	NA	NA	NA	NA	1	7	es de otro color.	es de otro color.		small_orange_pingpongball	1		bleached color		FALSE	FALSE	FALSE	TRUE	FALSE
+i9kH9EnohLzqAaboq	Spanish	feedback	color32	NA	NA	NA	NA	1	52	es de diferente color.	es de diferente color.		small_red_toothbrush	1		bleached color		FALSE	FALSE	FALSE	TRUE	FALSE
+XZtfg4k35HZQbAaKS	Spanish	feedback	color32	NA	NA	NA	NA	1	38	naranja	naranja		big_orange_cushion	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+XZtfg4k35HZQbAaKS	Spanish	feedback	color32	NA	NA	NA	NA	1	54	rosa	rosa		small_pink_teacup	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+5uPb46X29k7aKpKos	Spanish	feedback	color32	NA	NA	NA	NA	1	33	diferente color	diferente color		small_blue_comb	1		bleached color		FALSE	FALSE	FALSE	TRUE	FALSE
+5uPb46X29k7aKpKos	Spanish	feedback	color32	NA	NA	NA	NA	1	53	diferente color	diferente color		big_red_bucket	1		bleached color		FALSE	FALSE	FALSE	TRUE	FALSE
+6548bWiJoGcuX59Zp	Spanish	feedback	color32	NA	NA	NA	NA	1	16	obscuro	obscuro		big_black_turtle	1	C	???? I labeled dark as color		FALSE	FALSE	FALSE	TRUE	FALSE
+6548bWiJoGcuX59Zp	Spanish	feedback	color32	NA	NA	NA	NA	1	37	diferente	diferente		big_orange_coathanger	1		bleached contrast		FALSE	FALSE	FALSE	TRUE	FALSE
+MvesSZxmNwRWxpMDF	Spanish	feedback	color32	NA	NA	NA	NA	1	13	amarillo	amarillo		big_yellow_bellpepper	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+MvesSZxmNwRWxpMDF	Spanish	feedback	color32	NA	NA	NA	NA	1	65	azul	azul		big_blue_rug	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+RcCbHw4ML3ei95SZP	Spanish	feedback	color32	NA	NA	NA	NA	3	1	tamaño medio	tamaño medio		big_grey_rock	0	S	???? Is there a medium size?		FALSE	FALSE	FALSE	TRUE	FALSE
+RcCbHw4ML3ei95SZP	Spanish	feedback	color32	NA	NA	NA	NA	1	47	el mas pequeño, orientado a izquierda, el unico rojo	el mas pequeño, orientado a izquierda, el unico rojo		small_red_toothbrush	1	ASAC			TRUE	TRUE	FALSE	TRUE	TRUE
+Cisj4o5sAv9g8rbmS	Spanish	feedback	color32	NA	NA	NA	NA	1	40	blanca	blanca		small_white_pingpongball	1	C			TRUE	FALSE	FALSE	TRUE	TRUE
+Cisj4o5sAv9g8rbmS	Spanish	feedback	color32	NA	NA	NA	NA	1	62	blanco	blanco		big_white_shoe	1	C			TRUE	FALSE	FALSE	TRUE	TRUE
+rh7GW6WH2awWyB4Kx	Spanish	feedback	color32	NA	NA	NA	NA	1	12	rosa	rosa		small_pink_teacup	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+rh7GW6WH2awWyB4Kx	Spanish	feedback	color32	NA	NA	NA	NA	1	51	verde	verde		small_green_bracelet	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+oPMCjJ3aFSj92CzNA	Spanish	feedback	color32	NA	NA	NA	NA	1	15	globo dorado	globo dorado		small_yellow_balloon	1	NC			FALSE	FALSE	TRUE	TRUE	FALSE
+oPMCjJ3aFSj92CzNA	Spanish	feedback	color32	NA	NA	NA	NA	1	69	el azul	el azul		big_blue_book	1	AC			TRUE	FALSE	FALSE	TRUE	TRUE
+bDqu8DtgmaBkuLzTC	Spanish	feedback	color32	NA	NA	NA	NA	1	11	es de otro color	es de otro color		small_black_belt	1		bleached color		FALSE	FALSE	FALSE	TRUE	FALSE
+bDqu8DtgmaBkuLzTC	Spanish	feedback	color32	NA	NA	NA	NA	1	43	es mas oscura	es mas oscura		big_black_book	1	C	???? I labeled dark as color		FALSE	FALSE	FALSE	TRUE	FALSE
+6NunwfhDpBsQMdZXp	Spanish	feedback	color32	NA	NA	NA	NA	1	30	distinto color	distinto color		small_black_book	1		bleached color		FALSE	FALSE	FALSE	TRUE	FALSE
+6NunwfhDpBsQMdZXp	Spanish	feedback	color32	NA	NA	NA	NA	1	32	distinto color	distinto color		small_blue_binder	1		bleached color		FALSE	FALSE	FALSE	TRUE	FALSE
+S4kr4v62hXL4LYC7D	Spanish	feedback	color32	NA	NA	NA	NA	1	14	blue	blue		big_blue_comb	1				FALSE	FALSE	FALSE	TRUE	FALSE
+S4kr4v62hXL4LYC7D	Spanish	feedback	color32	NA	NA	NA	NA	1	64	withe__white__*	withe		big_white_teacup	1				FALSE	FALSE	FALSE	TRUE	FALSE
+bYnFuaH8d9Dkp54C5	Spanish	feedback	color32	NA	NA	NA	NA	1	4	no__sí	no	es grande en comparación con los demás ?__es de un color distinto ?	small_blue_guitar	1				FALSE	FALSE	FALSE	TRUE	FALSE
+bYnFuaH8d9Dkp54C5	Spanish	feedback	color32	NA	NA	NA	NA	1	20	no	no	es color gris ?	small_tan_rock	1				FALSE	FALSE	FALSE	TRUE	FALSE
+jbp9GcgfoE26diyWb	Spanish	feedback	color32	NA	NA	NA	NA	1	37	libro negro	libro negro		small_black_book	1	NC			TRUE	FALSE	TRUE	TRUE	FALSE
+jbp9GcgfoE26diyWb	Spanish	feedback	color32	NA	NA	NA	NA	1	47	la blanca	la blanca		big_white_pingpongball	1	AC			TRUE	FALSE	FALSE	TRUE	TRUE
+2PA2eTW2JBioGPq2S	Spanish	feedback	color32	NA	NA	NA	NA	1	10	rosa	rosa		small_pink_teacup	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+2PA2eTW2JBioGPq2S	Spanish	feedback	color32	NA	NA	NA	NA	1	59	blanca	blanca		big_white_pingpongball	1	C			TRUE	FALSE	FALSE	TRUE	TRUE
+QC9QPrwjj6RsY6hks	Spanish	feedback	color32	NA	NA	NA	NA	1	57	verde	verde		big_green_pepper	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+QC9QPrwjj6RsY6hks	Spanish	feedback	color32	NA	NA	NA	NA	1	72	azul	azul		big_blue_book	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+aSJ3S2g3n7c5XYeuq	Spanish	feedback	color32	NA	NA	NA	NA	1	26	different color/color diferente	different color/color diferente		big_orange_napkin	1		bleached color		FALSE	FALSE	FALSE	TRUE	FALSE
+aSJ3S2g3n7c5XYeuq	Spanish	feedback	color32	NA	NA	NA	NA	1	44	different color/color diferente	different color/color diferente		small_black_comb	1		bleached color		FALSE	FALSE	FALSE	TRUE	FALSE
+SZ8Bs9kQ4wkYwTsFm	Spanish	feedback	color32	NA	NA	NA	NA	1	42	morada	morada		big_purple_bike	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+SZ8Bs9kQ4wkYwTsFm	Spanish	feedback	color32	NA	NA	NA	NA	1	52	café	café		big_brown_belt	1	C			FALSE	FALSE	FALSE	TRUE	FALSE
+ZeAdhLHahHwqnn9MG	Spanish	feedback	color32	NA	NA	NA	NA	1	10	chile verde	chile verde		big_green_pepper	1	NC			TRUE	FALSE	TRUE	TRUE	FALSE
+ZeAdhLHahHwqnn9MG	Spanish	feedback	color32	NA	NA	NA	NA	1	11	cinto negro	cinto negro		small_black_belt	1	NC			TRUE	FALSE	TRUE	TRUE	FALSE
+3j4nmgjGw5svrxehe	Spanish	feedback	color32	NA	NA	NA	NA	1	62	rojo	rojo		big_red_tack	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+3j4nmgjGw5svrxehe	Spanish	feedback	color32	NA	NA	NA	NA	1	70	naranja	naranja		small_orange_cap	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+yzi4tHBHqvsoo3nn5	Spanish	feedback	color32	NA	NA	NA	NA	1	8	pimiento verde	pimiento verde		big_green_pepper	1	NC			TRUE	FALSE	TRUE	TRUE	FALSE
+yzi4tHBHqvsoo3nn5	Spanish	feedback	color32	NA	NA	NA	NA	1	29	perchero naranja	perchero naranja		big_orange_coathanger	1	NC			TRUE	FALSE	TRUE	TRUE	FALSE
+g7vxxhW2jevjbHBv8	Spanish	feedback	color32	NA	NA	NA	NA	1	13	es de color rosado	es de color rosado		small_red_candle	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+g7vxxhW2jevjbHBv8	Spanish	feedback	color32	NA	NA	NA	NA	1	57	es de color diferente	es de color diferente		big_purple_bike	1		bleached color		FALSE	FALSE	FALSE	TRUE	FALSE
+woScH39WSn3r8vT9s	Spanish	feedback	color32	NA	NA	NA	NA	1	22	la verde	la verde		big_green_guitar	1	AC			TRUE	FALSE	FALSE	TRUE	TRUE
+woScH39WSn3r8vT9s	Spanish	feedback	color32	NA	NA	NA	NA	1	43	el verde	el verde		small_green_pepper	1	AC			TRUE	FALSE	FALSE	TRUE	TRUE
+6ghf7bahMwk2Gum9F	Spanish	feedback	color32	NA	NA	NA	NA	1	1	rosado	rosado	bueno, es el unico	big_pink_phone	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+6ghf7bahMwk2Gum9F	Spanish	feedback	color32	NA	NA	NA	NA	1	30	rojo	rojo		big_red_chair	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+7byBpzzTrLBTrRaSW	Spanish	feedback	color32	NA	NA	NA	NA	1	40	diferente	diferente		small_tan_rock	1		bleached contrast		FALSE	FALSE	FALSE	TRUE	FALSE
+7byBpzzTrLBTrRaSW	Spanish	feedback	color32	NA	NA	NA	NA	1	67	distinto	distinto		big_yellow_balloon	1		bleached contrast		FALSE	FALSE	FALSE	TRUE	FALSE
+Ndey5riTwZPPn8eqi	Spanish	feedback	color32	NA	NA	NA	NA	1	15	sí	sí	verde?	small_green_jacket	1				FALSE	FALSE	FALSE	TRUE	FALSE
+Ndey5riTwZPPn8eqi	Spanish	feedback	color32	NA	NA	NA	NA	1	49	sí	sí	azul?__digo__rosa	small_pink_teacup	1				FALSE	FALSE	FALSE	TRUE	FALSE
+e85bNvHjAANCEpjwF	Spanish	feedback	color32	NA	NA	NA	NA	1	12	azul	azul		big_blue_binder	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+e85bNvHjAANCEpjwF	Spanish	feedback	color32	NA	NA	NA	NA	1	72	diferente	diferente		big_pink_teacup	1		bleached contrast		FALSE	FALSE	FALSE	TRUE	FALSE
+BnA3FeomaYQsW7WNG	Spanish	feedback	color32	NA	NA	NA	NA	1	29	azul	azul		big_blue_binder	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+BnA3FeomaYQsW7WNG	Spanish	feedback	color32	NA	NA	NA	NA	1	36	azul	azul		small_blue_guitar	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+GZ4Bi32LYs5JLP3dn	Spanish	feedback	color32	NA	NA	NA	NA	1	18	azul	azul		big_blue_toothbrush	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+GZ4Bi32LYs5JLP3dn	Spanish	feedback	color32	NA	NA	NA	NA	1	67	azul	azul		big_blue_butterfly	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+GetM4rtofxHS3ga5m	Spanish	feedback	color32	NA	NA	NA	NA	1	18	cubo rosa	cubo rosa		big_pink_bucket	1	NC			TRUE	FALSE	FALSE	TRUE	FALSE
+GetM4rtofxHS3ga5m	Spanish	feedback	color32	NA	NA	NA	NA	1	25	sudadera marron	sudadera marron		small_brown_jacket	1	NC			TRUE	FALSE	FALSE	TRUE	FALSE
+z7BQy72TNHyrXNdby	Spanish	feedback	color32	NA	NA	NA	NA	1	47	el rosa	el rosa		small_pink_balloon	1	AC			TRUE	FALSE	FALSE	TRUE	TRUE
+z7BQy72TNHyrXNdby	Spanish	feedback	color32	NA	NA	NA	NA	1	55	el blanco	el blanco		big_white_weddingcake	1	AC			TRUE	FALSE	FALSE	TRUE	TRUE
+5iXGA8yrtbLNsFb8x	Spanish	feedback	color32	NA	NA	NA	NA	1	16	el diferente	el diferente		big_orange_napkin	1	A	bleached contrast		FALSE	FALSE	FALSE	TRUE	TRUE
+5iXGA8yrtbLNsFb8x	Spanish	feedback	color32	NA	NA	NA	NA	1	52	morada	morada		small_purple_hairdryer	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+i9kH9EnohLzqAaboq	Spanish	feedback	color33	NA	NA	NA	NA	1	35	es de otro color.	es de otro color.		big_purple_stapler	1		bleached color		FALSE	FALSE	FALSE	TRUE	FALSE
+i9kH9EnohLzqAaboq	Spanish	feedback	color33	NA	NA	NA	NA	1	36	es de otro color.	es de otro color.		small_yellow_shoe	1		bleached color		FALSE	FALSE	FALSE	TRUE	FALSE
+XZtfg4k35HZQbAaKS	Spanish	feedback	color33	NA	NA	NA	NA	1	30	naranja	naranja		big_orange_billiardball	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+XZtfg4k35HZQbAaKS	Spanish	feedback	color33	NA	NA	NA	NA	1	51	azul	azul		small_blue_guitar	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+5uPb46X29k7aKpKos	Spanish	feedback	color33	NA	NA	NA	NA	1	9	diferente color	diferente color		big_brown_jacket	1		bleached color		FALSE	FALSE	FALSE	TRUE	FALSE
+5uPb46X29k7aKpKos	Spanish	feedback	color33	NA	NA	NA	NA	1	35	distinto color	distinto color		big_pink_weddingcake	1		bleached color		FALSE	FALSE	FALSE	TRUE	FALSE
+6548bWiJoGcuX59Zp	Spanish	feedback	color33	NA	NA	NA	NA	1	6	violeta	violeta		big_purple_flower	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+6548bWiJoGcuX59Zp	Spanish	feedback	color33	NA	NA	NA	NA	1	45	verde	verde		small_green_guitar	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+MvesSZxmNwRWxpMDF	Spanish	feedback	color33	NA	NA	NA	NA	1	28	azul	azul		small_blue_toothbrush	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+MvesSZxmNwRWxpMDF	Spanish	feedback	color33	NA	NA	NA	NA	1	32	morado	morado		small_purple_flower	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+RcCbHw4ML3ei95SZP	Spanish	feedback	color33	NA	NA	NA	NA	2	31	todos son iguales, mismo tamaño... un poco mas pequeño quiza, echalo a suertes xd	todos son iguales, mismo tamaño... un poco mas pequeño quiza, echalo a suertes xd		big_yellow_shoe	0	S			FALSE	TRUE	FALSE	TRUE	FALSE
+RcCbHw4ML3ei95SZP	Spanish	feedback	color33	NA	NA	NA	NA	1	53	uf, mismo tamaño que el resto, pero negro	uf, mismo tamaño que el resto, pero negro		small_black_comb	1	AC	???? A does not refer to object		TRUE	FALSE	FALSE	TRUE	TRUE
+Cisj4o5sAv9g8rbmS	Spanish	feedback	color33	NA	NA	NA	NA	1	35	imagen menos oscura	imagen menos oscura		small_brown_turtle	1	C	???? refers to the image not the object, I labeled dark as color 		FALSE	FALSE	FALSE	TRUE	FALSE
+Cisj4o5sAv9g8rbmS	Spanish	feedback	color33	NA	NA	NA	NA	1	66	verde	verde		big_green_pepper	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+rh7GW6WH2awWyB4Kx	Spanish	feedback	color33	NA	NA	NA	NA	1	2	morado	morado		small_purple_billiardball	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+rh7GW6WH2awWyB4Kx	Spanish	feedback	color33	NA	NA	NA	NA	1	61	rojo	rojo		big_red_bellpepper	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+oPMCjJ3aFSj92CzNA	Spanish	feedback	color33	NA	NA	NA	NA	1	11	pulsera verde	pulsera verde		small_green_bracelet	1	NC			TRUE	FALSE	TRUE	TRUE	FALSE
+oPMCjJ3aFSj92CzNA	Spanish	feedback	color33	NA	NA	NA	NA	1	58	el naranja	el naranja		big_orange_cushion	1	AC			TRUE	FALSE	FALSE	TRUE	TRUE
+bDqu8DtgmaBkuLzTC	Spanish	feedback	color33	NA	NA	NA	NA	1	59	es de otro color	es de otro color		small_pink_bucket	1		bleached color		FALSE	FALSE	FALSE	TRUE	FALSE
+bDqu8DtgmaBkuLzTC	Spanish	feedback	color33	NA	NA	NA	NA	1	60	es diferente a las demas	es diferente a las demas		big_tan_rock	1	A	bleached contrast		FALSE	FALSE	FALSE	TRUE	TRUE
+6NunwfhDpBsQMdZXp	Spanish	feedback	color33	NA	NA	NA	NA	1	18	distinto color	distinto color		small_yellow_bellpepper	1		bleached contrast		FALSE	FALSE	FALSE	TRUE	FALSE
+6NunwfhDpBsQMdZXp	Spanish	feedback	color33	NA	NA	NA	NA	1	43	azul	azul		small_blue_cap	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+S4kr4v62hXL4LYC7D	Spanish	feedback	color33	NA	NA	NA	NA	1	26	blue	blue		small_blue_tack	1				FALSE	FALSE	FALSE	TRUE	FALSE
+S4kr4v62hXL4LYC7D	Spanish	feedback	color33	NA	NA	NA	NA	1	51	green	green		small_green_binder	1				FALSE	FALSE	FALSE	TRUE	FALSE
+bYnFuaH8d9Dkp54C5	Spanish	feedback	color33	NA	NA	NA	NA	1	8	sí	sí	es azul ?	big_blue_comb	1				FALSE	FALSE	FALSE	TRUE	FALSE
+bYnFuaH8d9Dkp54C5	Spanish	feedback	color33	NA	NA	NA	NA	1	37	sí	sí	es rosa ?	small_pink_teacup	1				FALSE	FALSE	FALSE	TRUE	FALSE
+jbp9GcgfoE26diyWb	Spanish	feedback	color33	NA	NA	NA	NA	1	3	la cubeta de diferente color	la cubeta de diferente color	✌	big_red_bucket	1	AN			FALSE	FALSE	TRUE	TRUE	TRUE
+jbp9GcgfoE26diyWb	Spanish	feedback	color33	NA	NA	NA	NA	1	69	la azul	la azul		small_blue_scarf	1	AC			TRUE	FALSE	FALSE	TRUE	TRUE
+2PA2eTW2JBioGPq2S	Spanish	feedback	color33	NA	NA	NA	NA	1	37	verde	verde		big_green_framee	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+2PA2eTW2JBioGPq2S	Spanish	feedback	color33	NA	NA	NA	NA	1	54	azul	azul		small_blue_guitar	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+QC9QPrwjj6RsY6hks	Spanish	feedback	color33	NA	NA	NA	NA	1	59	rosa	rosa		big_purple_bracelet	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+QC9QPrwjj6RsY6hks	Spanish	feedback	color33	NA	NA	NA	NA	1	69	la rosa distinta	la rosa distinta		small_purple_flower	1	AC	bleached contrast		TRUE	FALSE	FALSE	TRUE	TRUE
+aSJ3S2g3n7c5XYeuq	Spanish	feedback	color33	NA	NA	NA	NA	1	1	es el objeto diferente	es el objeto diferente		big_red_bike	1	A	bleached contrast		FALSE	FALSE	FALSE	TRUE	TRUE
+aSJ3S2g3n7c5XYeuq	Spanish	feedback	color33	NA	NA	NA	NA	1	63	different color	different color		small_white_pingpongball	1		bleached color		FALSE	FALSE	FALSE	TRUE	FALSE
+SZ8Bs9kQ4wkYwTsFm	Spanish	feedback	color33	NA	NA	NA	NA	1	7	es del color del limón	es del color del limón		big_green_bracelet	1		bleached color		FALSE	FALSE	FALSE	TRUE	TRUE
+SZ8Bs9kQ4wkYwTsFm	Spanish	feedback	color33	NA	NA	NA	NA	1	49	verde	verde		big_green_binder	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+ZeAdhLHahHwqnn9MG	Spanish	feedback	color33	NA	NA	NA	NA	1	20	bicicleta rosa	bicicleta rosa		small_purple_bike	1	NC			TRUE	FALSE	TRUE	TRUE	FALSE
+ZeAdhLHahHwqnn9MG	Spanish	feedback	color33	NA	NA	NA	NA	1	57	azul	azul		small_blue_tack	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+3j4nmgjGw5svrxehe	Spanish	feedback	color33	NA	NA	NA	NA	1	9	el amarillo	el amarillo		small_yellow_bellpepper	1	AC			TRUE	FALSE	FALSE	TRUE	TRUE
+3j4nmgjGw5svrxehe	Spanish	feedback	color33	NA	NA	NA	NA	1	63	amarillo	amarillo		small_yellow_napkin	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+yzi4tHBHqvsoo3nn5	Spanish	feedback	color33	NA	NA	NA	NA	1	30	engrapadora roja	engrapadora roja		small_red_stapler	1	NC			TRUE	FALSE	TRUE	TRUE	FALSE
+yzi4tHBHqvsoo3nn5	Spanish	feedback	color33	NA	NA	NA	NA	1	70	bola blanca	bola blanca		big_white_pingpongball	1	NC			TRUE	FALSE	TRUE	TRUE	TRUE
+g7vxxhW2jevjbHBv8	Spanish	feedback	color33	NA	NA	NA	NA	1	4	es diferente a las demás__es dorada	es diferente a las demás		big_tan_rock	1	A	bleached contrast		FALSE	FALSE	FALSE	TRUE	TRUE
+g7vxxhW2jevjbHBv8	Spanish	feedback	color33	NA	NA	NA	NA	1	68	la de diferente color	la de diferente color		small_red_flower	1	A	bleached color		FALSE	FALSE	FALSE	TRUE	TRUE
+woScH39WSn3r8vT9s	Spanish	feedback	color33	NA	NA	NA	NA	1	61	la de color cafe	la de color cafe		small_tan_rock	1	AC			TRUE	FALSE	FALSE	TRUE	TRUE
+woScH39WSn3r8vT9s	Spanish	feedback	color33	NA	NA	NA	NA	1	66	el azul	el azul		small_blue_book	1	AC			TRUE	FALSE	FALSE	TRUE	TRUE
+6ghf7bahMwk2Gum9F	Spanish	feedback	color33	NA	NA	NA	NA	1	19	morado	morado		big_purple_hairdryer	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+6ghf7bahMwk2Gum9F	Spanish	feedback	color33	NA	NA	NA	NA	1	50	morado	morado	ok	small_purple_stapler	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+7byBpzzTrLBTrRaSW	Spanish	feedback	color33	NA	NA	NA	NA	1	31	luna	luna		small_white_pingpongball	1	N	????? mention moon instead of ball		FALSE	FALSE	FALSE	TRUE	FALSE
+7byBpzzTrLBTrRaSW	Spanish	feedback	color33	NA	NA	NA	NA	1	49	diferente	diferente		small_brown_belt	1		bleached contrast		FALSE	FALSE	FALSE	TRUE	FALSE
+Ndey5riTwZPPn8eqi	Spanish	feedback	color33	NA	NA	NA	NA	1	4	rojo	rojo	rojo?	small_red_bucket	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+Ndey5riTwZPPn8eqi	Spanish	feedback	color33	NA	NA	NA	NA	1	58	sí	sí	azul?	small_blue_rug	1				FALSE	FALSE	FALSE	TRUE	FALSE
+e85bNvHjAANCEpjwF	Spanish	feedback	color33	NA	NA	NA	NA	1	23	diferente color	diferente color		small_blue_butterfly	1		bleached color		FALSE	FALSE	FALSE	TRUE	FALSE
+e85bNvHjAANCEpjwF	Spanish	feedback	color33	NA	NA	NA	NA	1	40	diferente color	diferente color		big_purple_billiardball	1		bleached color		FALSE	FALSE	FALSE	TRUE	FALSE
+BnA3FeomaYQsW7WNG	Spanish	feedback	color33	NA	NA	NA	NA	1	27	rosa	rosa		big_pink_balloon	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+BnA3FeomaYQsW7WNG	Spanish	feedback	color33	NA	NA	NA	NA	1	47	naranja	naranja		big_orange_billiardball	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+GZ4Bi32LYs5JLP3dn	Spanish	feedback	color33	NA	NA	NA	NA	1	20	rojo	rojo		big_red_yarn	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+GZ4Bi32LYs5JLP3dn	Spanish	feedback	color33	NA	NA	NA	NA	1	33	verde	verde		big_green_bracelet	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+GetM4rtofxHS3ga5m	Spanish	feedback	color33	NA	NA	NA	NA	1	6	pelota naranja	pelota naranja		big_orange_pingpongball	1	NC			TRUE	FALSE	TRUE	TRUE	TRUE
+GetM4rtofxHS3ga5m	Spanish	feedback	color33	NA	NA	NA	NA	1	14	chincheta azul	chincheta azul		small_blue_tack	1	NC			TRUE	FALSE	FALSE	TRUE	FALSE
+z7BQy72TNHyrXNdby	Spanish	feedback	color33	NA	NA	NA	NA	1	52	la azul	la azul		big_blue_candle	1	AC			TRUE	FALSE	FALSE	TRUE	TRUE
+z7BQy72TNHyrXNdby	Spanish	feedback	color33	NA	NA	NA	NA	1	68	la verde	la verde		big_green_jacket	1	AC			TRUE	FALSE	FALSE	TRUE	TRUE
+5iXGA8yrtbLNsFb8x	Spanish	feedback	color33	NA	NA	NA	NA	1	59	rosa	rosa		big_pink_teacup	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+5iXGA8yrtbLNsFb8x	Spanish	feedback	color33	NA	NA	NA	NA	1	61	diferente	diferente		small_red_chair	1		bleached contrast		FALSE	FALSE	FALSE	TRUE	FALSE
+i9kH9EnohLzqAaboq	Spanish	feedback	color41	NA	NA	NA	NA	1	61	es de otro color,	es de otro color,		big_green_framee	1		bleached color		FALSE	FALSE	FALSE	TRUE	FALSE
+i9kH9EnohLzqAaboq	Spanish	feedback	color41	NA	NA	NA	NA	1	65	es de diferente color,	es de diferente color,		small_pink_teacup	1		bleached color		FALSE	FALSE	FALSE	TRUE	FALSE
+XZtfg4k35HZQbAaKS	Spanish	feedback	color41	NA	NA	NA	NA	1	21	naanja	naanja		small_orange_coathanger	1	C			FALSE	FALSE	FALSE	TRUE	FALSE
+XZtfg4k35HZQbAaKS	Spanish	feedback	color41	NA	NA	NA	NA	1	55	amarillo	amarillo		big_yellow_balloon	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+5uPb46X29k7aKpKos	Spanish	feedback	color41	NA	NA	NA	NA	1	6	diferente color	diferente color		big_orange_napkin	1				FALSE	FALSE	FALSE	TRUE	FALSE
+5uPb46X29k7aKpKos	Spanish	feedback	color41	NA	NA	NA	NA	1	43	diferente color	diferente color		small_green_pepper	1				FALSE	FALSE	FALSE	TRUE	FALSE
+6548bWiJoGcuX59Zp	Spanish	feedback	color41	NA	NA	NA	NA	1	8	amarillo	amarillo		small_yellow_shoe	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+6548bWiJoGcuX59Zp	Spanish	feedback	color41	NA	NA	NA	NA	1	59	rojo	rojo		small_red_bellpepper	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+MvesSZxmNwRWxpMDF	Spanish	feedback	color41	NA	NA	NA	NA	1	48	marron	marron		big_brown_jacket	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+MvesSZxmNwRWxpMDF	Spanish	feedback	color41	NA	NA	NA	NA	1	60	azul	azul		big_blue_cap	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+RcCbHw4ML3ei95SZP	Spanish	feedback	color41	NA	NA	NA	NA	1	32	el mas pequeño de los 5, hay uno un poco mas grande pero poco	el mas pequeño de los 5, hay uno un poco mas grande pero poco		small_pink_phone	1	ASAS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+RcCbHw4ML3ei95SZP	Spanish	feedback	color41	NA	NA	NA	NA	1	59	grande, naranja (hay otra igual amarilla y 3 mas pequeñas)	grande, naranja (hay otra igual amarilla y 3 mas pequeñas)		big_orange_napkin	1	SCCS	?????		TRUE	TRUE	FALSE	TRUE	TRUE
+Cisj4o5sAv9g8rbmS	Spanish	feedback	color41	NA	NA	NA	NA	1	13	color negro	color negro		small_black_belt	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+Cisj4o5sAv9g8rbmS	Spanish	feedback	color41	NA	NA	NA	NA	1	36	diferente color	diferente color		small_orange_napkin	1		bleached color		FALSE	FALSE	FALSE	TRUE	FALSE
+rh7GW6WH2awWyB4Kx	Spanish	feedback	color41	NA	NA	NA	NA	1	11	amarillo	amarillo		big_yellow_shoe	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+rh7GW6WH2awWyB4Kx	Spanish	feedback	color41	NA	NA	NA	NA	1	27	rosa	rosa		small_purple_butterfly	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+oPMCjJ3aFSj92CzNA	Spanish	feedback	color41	NA	NA	NA	NA	1	23	chile rojo	chile rojo		small_red_pepper	1	NC			TRUE	FALSE	TRUE	TRUE	FALSE
+oPMCjJ3aFSj92CzNA	Spanish	feedback	color41	NA	NA	NA	NA	1	45	la morada	la morada		small_purple_stapler	1	AC			TRUE	FALSE	FALSE	TRUE	TRUE
+bDqu8DtgmaBkuLzTC	Spanish	feedback	color41	NA	NA	NA	NA	1	16	es pequeño y de diferente color	es pequeño y de diferente color		small_black_comb	1	S	bleached color		FALSE	TRUE	FALSE	TRUE	FALSE
+bDqu8DtgmaBkuLzTC	Spanish	feedback	color41	NA	NA	NA	NA	1	68	es totalmente diferente	es totalmente diferente		big_yellow_shoe	1		bleached contrast		FALSE	FALSE	FALSE	TRUE	FALSE
+6NunwfhDpBsQMdZXp	Spanish	feedback	color41	NA	NA	NA	NA	1	15	distinto color	distinto color		big_orange_napkin	1		bleached color		FALSE	FALSE	FALSE	TRUE	FALSE
+6NunwfhDpBsQMdZXp	Spanish	feedback	color41	NA	NA	NA	NA	1	34	pequeño__azul	pequeño	negro o azul?	small_blue_comb	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+S4kr4v62hXL4LYC7D	Spanish	feedback	color41	NA	NA	NA	NA	1	3	green	green		small_green_jacket	1				FALSE	FALSE	FALSE	TRUE	FALSE
+S4kr4v62hXL4LYC7D	Spanish	feedback	color41	NA	NA	NA	NA	1	23	pink	pink		big_pink_framee	1				FALSE	FALSE	FALSE	TRUE	FALSE
+bYnFuaH8d9Dkp54C5	Spanish	feedback	color41	NA	NA	NA	NA	1	10	sí	sí	es blanco ?	big_white_phone	1				FALSE	FALSE	FALSE	TRUE	FALSE
+bYnFuaH8d9Dkp54C5	Spanish	feedback	color41	NA	NA	NA	NA	1	58	si	si	es verde ?	small_green_bracelet	1				FALSE	FALSE	FALSE	TRUE	FALSE
+jbp9GcgfoE26diyWb	Spanish	feedback	color41	NA	NA	NA	NA	1	42	el naranja	el naranja		big_orange_coathanger	1	AC			TRUE	FALSE	FALSE	TRUE	TRUE
+jbp9GcgfoE26diyWb	Spanish	feedback	color41	NA	NA	NA	NA	1	60	el verde	el verde		small_green_framee	1	AC			TRUE	FALSE	FALSE	TRUE	TRUE
+2PA2eTW2JBioGPq2S	Spanish	feedback	color41	NA	NA	NA	NA	1	24	pequeño color negro	pequeño color negro		small_black_turtle	1	SC			TRUE	TRUE	FALSE	TRUE	FALSE
+2PA2eTW2JBioGPq2S	Spanish	feedback	color41	NA	NA	NA	NA	1	56	negro pequeño	negro pequeño		small_black_comb	1	CS			TRUE	TRUE	FALSE	TRUE	FALSE
+QC9QPrwjj6RsY6hks	Spanish	feedback	color41	NA	NA	NA	NA	1	51	el negro	el negro		big_black_comb	1	AC			TRUE	FALSE	FALSE	TRUE	TRUE
+QC9QPrwjj6RsY6hks	Spanish	feedback	color41	NA	NA	NA	NA	1	70	naranja	naranja		big_orange_billiardball	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+aSJ3S2g3n7c5XYeuq	Spanish	feedback	color41	NA	NA	NA	NA	1	55	different color/color diferente	different color/color diferente		big_green_bracelet	1		bleached color		FALSE	FALSE	FALSE	TRUE	FALSE
+aSJ3S2g3n7c5XYeuq	Spanish	feedback	color41	NA	NA	NA	NA	1	69	different color	different color		big_purple_rug	1		bleached color		FALSE	FALSE	FALSE	TRUE	FALSE
+SZ8Bs9kQ4wkYwTsFm	Spanish	feedback	color41	NA	NA	NA	NA	1	56	morada	morada		big_purple_rug	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+SZ8Bs9kQ4wkYwTsFm	Spanish	feedback	color41	NA	NA	NA	NA	1	67	naranja	naranja		small_orange_pingpongball	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+ZeAdhLHahHwqnn9MG	Spanish	feedback	color41	NA	NA	NA	NA	1	21	gorra azul	gorra azul		big_blue_cap	1	NC			TRUE	FALSE	TRUE	TRUE	FALSE
+ZeAdhLHahHwqnn9MG	Spanish	feedback	color41	NA	NA	NA	NA	1	25	bufanda azul	bufanda azul		big_blue_scarf	1	NC			TRUE	FALSE	TRUE	TRUE	FALSE
+3j4nmgjGw5svrxehe	Spanish	feedback	color41	NA	NA	NA	NA	1	45	verde	verde		big_green_bracelet	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+3j4nmgjGw5svrxehe	Spanish	feedback	color41	NA	NA	NA	NA	1	72	la últimaa__es la morada__byee__:)	la últimaa	siiii__ok graciaaas__byeee	small_purple_flower	1	A			FALSE	FALSE	FALSE	TRUE	TRUE
+yzi4tHBHqvsoo3nn5	Spanish	feedback	color41	NA	NA	NA	NA	1	10	sudadera verde	sudadera verde		small_green_jacket	1	NC			TRUE	FALSE	FALSE	TRUE	FALSE
+yzi4tHBHqvsoo3nn5	Spanish	feedback	color41	NA	NA	NA	NA	1	52	globo anarillo__amarillo	globo anarillo		small_yellow_balloon	1	NC			FALSE	FALSE	TRUE	TRUE	FALSE
+g7vxxhW2jevjbHBv8	Spanish	feedback	color41	NA	NA	NA	NA	1	6	es azul	es azul		small_blue_rug	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+g7vxxhW2jevjbHBv8	Spanish	feedback	color41	NA	NA	NA	NA	1	35	la de color diferente	la de color diferente		big_green_bracelet	1	A	bleached color		FALSE	FALSE	FALSE	TRUE	TRUE
+woScH39WSn3r8vT9s	Spanish	feedback	color41	NA	NA	NA	NA	1	4	la de color naranja	la de color naranja		small_orange_billiardball	1	AC			TRUE	FALSE	FALSE	TRUE	TRUE
+woScH39WSn3r8vT9s	Spanish	feedback	color41	NA	NA	NA	NA	1	67	el azul	el azul		big_blue_rug	1	AC			TRUE	FALSE	FALSE	TRUE	TRUE
+6ghf7bahMwk2Gum9F	Spanish	feedback	color41	NA	NA	NA	NA	1	15	rojo	rojo		small_red_candle	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+6ghf7bahMwk2Gum9F	Spanish	feedback	color41	NA	NA	NA	NA	1	45	color cafe	color cafe		big_brown_belt	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+7byBpzzTrLBTrRaSW	Spanish	feedback	color41	NA	NA	NA	NA	1	3	diferente	diferente		big_blue_rug	1		bleached contrast		FALSE	FALSE	FALSE	TRUE	FALSE
+7byBpzzTrLBTrRaSW	Spanish	feedback	color41	NA	NA	NA	NA	1	51	diferente	diferente		small_white_shoe	1		bleached contrast		FALSE	FALSE	FALSE	TRUE	FALSE
+Ndey5riTwZPPn8eqi	Spanish	feedback	color41	NA	NA	NA	NA	1	50	sí	sí	azul?	big_blue_book	1				FALSE	FALSE	FALSE	TRUE	FALSE
+Ndey5riTwZPPn8eqi	Spanish	feedback	color41	NA	NA	NA	NA	1	69	sí	sí	gris?	big_grey_rock	1				FALSE	FALSE	FALSE	TRUE	FALSE
+e85bNvHjAANCEpjwF	Spanish	feedback	color41	NA	NA	NA	NA	1	2	te la pones cuando hace frio alrededor del cuello__de color azul	te la pones cuando hace frio alrededor del cuello		big_blue_scarf	1	A			FALSE	FALSE	FALSE	TRUE	TRUE
+e85bNvHjAANCEpjwF	Spanish	feedback	color41	NA	NA	NA	NA	1	18	color diferente	color diferente		small_red_tack	1		bleached color		FALSE	FALSE	FALSE	TRUE	FALSE
+BnA3FeomaYQsW7WNG	Spanish	feedback	color41	NA	NA	NA	NA	1	15	negro	negro		small_black_turtle	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+BnA3FeomaYQsW7WNG	Spanish	feedback	color41	NA	NA	NA	NA	1	34	azul	azul		small_blue_rug	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+GZ4Bi32LYs5JLP3dn	Spanish	feedback	color41	NA	NA	NA	NA	1	51	rojo	rojo		small_red_bellpepper	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+GZ4Bi32LYs5JLP3dn	Spanish	feedback	color41	NA	NA	NA	NA	1	57	rojo	rojo		small_red_tack	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+GetM4rtofxHS3ga5m	Spanish	feedback	color41	NA	NA	NA	NA	1	19	percha morada	percha morada		small_purple_coathanger	1	NC			TRUE	FALSE	TRUE	TRUE	FALSE
+GetM4rtofxHS3ga5m	Spanish	feedback	color41	NA	NA	NA	NA	1	22	tortuga pequeña negra	tortuga pequeña negra		small_black_turtle	1	NSC			TRUE	TRUE	TRUE	TRUE	FALSE
+z7BQy72TNHyrXNdby	Spanish	feedback	color41	NA	NA	NA	NA	1	28	la más oscura	la más oscura		small_black_turtle	1	A	superlative		FALSE	FALSE	FALSE	TRUE	TRUE
+z7BQy72TNHyrXNdby	Spanish	feedback	color41	NA	NA	NA	NA	1	36	el azul	el azul		small_blue_toothbrush	1	AC			TRUE	FALSE	FALSE	TRUE	TRUE
+5iXGA8yrtbLNsFb8x	Spanish	feedback	color41	NA	NA	NA	NA	1	24	el de color diferente	el de color diferente		big_red_bellpepper	1	A	bleached color		FALSE	FALSE	FALSE	TRUE	TRUE
+5iXGA8yrtbLNsFb8x	Spanish	feedback	color41	NA	NA	NA	NA	1	36	el de color diferente	el de color diferente		big_black_book	1	A	bleached color		FALSE	FALSE	FALSE	TRUE	TRUE
+i9kH9EnohLzqAaboq	Spanish	feedback	color42	NA	NA	NA	NA	1	45	es de diferente color,	es de diferente color,		small_black_book	1		bleached color		FALSE	FALSE	FALSE	TRUE	FALSE
+i9kH9EnohLzqAaboq	Spanish	feedback	color42	NA	NA	NA	NA	1	48	es de diferente color.	es de diferente color.		small_red_bellpepper	1		bleached color		FALSE	FALSE	FALSE	TRUE	FALSE
+XZtfg4k35HZQbAaKS	Spanish	feedback	color42	NA	NA	NA	NA	1	65	rosa	rosa		small_pink_framee	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+XZtfg4k35HZQbAaKS	Spanish	feedback	color42	NA	NA	NA	NA	1	72	suerte en la vida__es el negro	suerte en la vida		big_black_belt	1	A	????? 		FALSE	FALSE	FALSE	TRUE	TRUE
+5uPb46X29k7aKpKos	Spanish	feedback	color42	NA	NA	NA	NA	1	28	diferente color	diferente color		small_pink_framee	1		bleached color		FALSE	FALSE	FALSE	TRUE	FALSE
+5uPb46X29k7aKpKos	Spanish	feedback	color42	NA	NA	NA	NA	1	66	verde	verde		big_green_binder	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+6548bWiJoGcuX59Zp	Spanish	feedback	color42	NA	NA	NA	NA	1	9	naranja	naranja		big_orange_cushion	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+6548bWiJoGcuX59Zp	Spanish	feedback	color42	NA	NA	NA	NA	1	51	rosa	rosa		small_pink_phone	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+MvesSZxmNwRWxpMDF	Spanish	feedback	color42	NA	NA	NA	NA	1	8	morado	morado		big_purple_yarn	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+MvesSZxmNwRWxpMDF	Spanish	feedback	color42	NA	NA	NA	NA	1	46	negro	negro		big_black_belt	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+RcCbHw4ML3ei95SZP	Spanish	feedback	color42	NA	NA	NA	NA	1	57	pequeño, verde (hay dos iguales rojos y dos mas grandes)	pequeño, verde (hay dos iguales rojos y dos mas grandes)		small_green_pepper	1	SC			TRUE	TRUE	FALSE	TRUE	FALSE
+RcCbHw4ML3ei95SZP	Spanish	feedback	color42	NA	NA	NA	NA	1	61	pequeña, negra, hay dos iguales marrones	pequeña, negra, hay dos iguales marrones		small_black_turtle	1	SC			TRUE	TRUE	FALSE	TRUE	FALSE
+Cisj4o5sAv9g8rbmS	Spanish	feedback	color42	NA	NA	NA	NA	1	16	color azul	color azul		big_blue_cap	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+Cisj4o5sAv9g8rbmS	Spanish	feedback	color42	NA	NA	NA	NA	1	52	amarillo	amarillo		big_yellow_bellpepper	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+rh7GW6WH2awWyB4Kx	Spanish	feedback	color42	NA	NA	NA	NA	1	5	amarillo	amarillo		big_orange_cap	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+rh7GW6WH2awWyB4Kx	Spanish	feedback	color42	NA	NA	NA	NA	1	34	tortuga cafe	tortuga cafe		small_brown_turtle	1	NC			TRUE	FALSE	TRUE	TRUE	FALSE
+oPMCjJ3aFSj92CzNA	Spanish	feedback	color42	NA	NA	NA	NA	1	9	el pañuelo amarillo	el pañuelo amarillo		small_yellow_napkin	1	AC			TRUE	FALSE	FALSE	TRUE	TRUE
+oPMCjJ3aFSj92CzNA	Spanish	feedback	color42	NA	NA	NA	NA	1	27	la rosa	la rosa		big_pink_teacup	1	AC			TRUE	FALSE	FALSE	TRUE	TRUE
+bDqu8DtgmaBkuLzTC	Spanish	feedback	color42	NA	NA	NA	NA	1	47	es de otro color	es de otro color		big_pink_balloon	1				FALSE	FALSE	FALSE	TRUE	FALSE
+bDqu8DtgmaBkuLzTC	Spanish	feedback	color42	NA	NA	NA	NA	1	51	es de otro color	es de otro color		small_red_bike	1				FALSE	FALSE	FALSE	TRUE	FALSE
+6NunwfhDpBsQMdZXp	Spanish	feedback	color42	NA	NA	NA	NA	1	2	azul	azul		big_blue_candle	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+6NunwfhDpBsQMdZXp	Spanish	feedback	color42	NA	NA	NA	NA	1	28	distinto color	distinto color		big_yellow_balloon	1				FALSE	FALSE	FALSE	TRUE	FALSE
+S4kr4v62hXL4LYC7D	Spanish	feedback	color42	NA	NA	NA	NA	1	21	green	green		big_green_guitar	1				FALSE	FALSE	FALSE	TRUE	FALSE
+S4kr4v62hXL4LYC7D	Spanish	feedback	color42	NA	NA	NA	NA	1	43	blue	blue		small_blue_candle	1				FALSE	FALSE	FALSE	TRUE	FALSE
+bYnFuaH8d9Dkp54C5	Spanish	feedback	color42	NA	NA	NA	NA	1	40	sí	sí	es dorado ?	big_yellow_balloon	1				FALSE	FALSE	FALSE	TRUE	FALSE
+bYnFuaH8d9Dkp54C5	Spanish	feedback	color42	NA	NA	NA	NA	1	49	si	si	es rosa ?	small_pink_bucket	1				FALSE	FALSE	FALSE	TRUE	FALSE
+jbp9GcgfoE26diyWb	Spanish	feedback	color42	NA	NA	NA	NA	1	49	bola morada	bola morada		small_purple_billiardball	1	NC			TRUE	FALSE	TRUE	TRUE	TRUE
+jbp9GcgfoE26diyWb	Spanish	feedback	color42	NA	NA	NA	NA	1	64	la azul	la azul		big_blue_cap	1	AC			TRUE	FALSE	FALSE	TRUE	TRUE
+2PA2eTW2JBioGPq2S	Spanish	feedback	color42	NA	NA	NA	NA	1	4	negro	negro		big_black_book	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+2PA2eTW2JBioGPq2S	Spanish	feedback	color42	NA	NA	NA	NA	1	68	azul	azul		big_purple_coathanger	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+QC9QPrwjj6RsY6hks	Spanish	feedback	color42	NA	NA	NA	NA	1	33	la que es verde	la que es verde		small_green_binder	1	AC			TRUE	FALSE	FALSE	TRUE	TRUE
+QC9QPrwjj6RsY6hks	Spanish	feedback	color42	NA	NA	NA	NA	1	62	azul	azul		big_blue_cushion	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+aSJ3S2g3n7c5XYeuq	Spanish	feedback	color42	NA	NA	NA	NA	1	28	different color/color diferente	different color/color diferente		big_pink_phone	1				FALSE	FALSE	FALSE	TRUE	FALSE
+aSJ3S2g3n7c5XYeuq	Spanish	feedback	color42	NA	NA	NA	NA	1	39	different color/color diferente	different color/color diferente		big_pink_hairdryer	1				FALSE	FALSE	FALSE	TRUE	FALSE
+SZ8Bs9kQ4wkYwTsFm	Spanish	feedback	color42	NA	NA	NA	NA	1	26	es blanco	es blanco		small_white_teacup	1	C			TRUE	FALSE	FALSE	TRUE	TRUE
+SZ8Bs9kQ4wkYwTsFm	Spanish	feedback	color42	NA	NA	NA	NA	1	69	rojo	rojo		small_red_bellpepper	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+ZeAdhLHahHwqnn9MG	Spanish	feedback	color42	NA	NA	NA	NA	1	29	verde	verde		small_green_jacket	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+ZeAdhLHahHwqnn9MG	Spanish	feedback	color42	NA	NA	NA	NA	1	60	naranja	naranja		big_orange_napkin	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+3j4nmgjGw5svrxehe	Spanish	feedback	color42	NA	NA	NA	NA	1	7	pastel rosa	pastel rosa		big_pink_weddingcake	1	NC			TRUE	FALSE	TRUE	TRUE	TRUE
+3j4nmgjGw5svrxehe	Spanish	feedback	color42	NA	NA	NA	NA	1	29	la morada	la morada		small_purple_bike	1	AC			TRUE	FALSE	FALSE	TRUE	TRUE
+yzi4tHBHqvsoo3nn5	Spanish	feedback	color42	NA	NA	NA	NA	1	15	zapato amarillo	zapato amarillo		small_yellow_shoe	1	NC			TRUE	FALSE	TRUE	TRUE	FALSE
+yzi4tHBHqvsoo3nn5	Spanish	feedback	color42	NA	NA	NA	NA	1	59	taza rosa	taza rosa		small_pink_teacup	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+g7vxxhW2jevjbHBv8	Spanish	feedback	color42	NA	NA	NA	NA	1	28	es de diferente color	es de diferente color		small_pink_balloon	1				FALSE	FALSE	FALSE	TRUE	FALSE
+g7vxxhW2jevjbHBv8	Spanish	feedback	color42	NA	NA	NA	NA	1	71	es de diferente color	es de diferente color		big_green_binder	1				FALSE	FALSE	FALSE	TRUE	FALSE
+woScH39WSn3r8vT9s	Spanish	feedback	color42	NA	NA	NA	NA	1	6	el de color morado	el de color morado		big_purple_coathanger	1	AC			TRUE	FALSE	FALSE	TRUE	TRUE
+woScH39WSn3r8vT9s	Spanish	feedback	color42	NA	NA	NA	NA	1	29	de color rosa	de color rosa		small_pink_framee	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+6ghf7bahMwk2Gum9F	Spanish	feedback	color42	NA	NA	NA	NA	1	5	azul	azul		big_blue_cushion	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+6ghf7bahMwk2Gum9F	Spanish	feedback	color42	NA	NA	NA	NA	1	16	blanco	blanco		big_white_pingpongball	1	C			TRUE	FALSE	FALSE	TRUE	TRUE
+7byBpzzTrLBTrRaSW	Spanish	feedback	color42	NA	NA	NA	NA	1	6	diferente	diferente		big_red_toothbrush	1				FALSE	FALSE	FALSE	TRUE	FALSE
+7byBpzzTrLBTrRaSW	Spanish	feedback	color42	NA	NA	NA	NA	1	20	diferente	diferente		big_red_yarn	1				FALSE	FALSE	FALSE	TRUE	FALSE
+Ndey5riTwZPPn8eqi	Spanish	feedback	color42	NA	NA	NA	NA	1	13	sí	sí	verde?	big_green_guitar	1				FALSE	FALSE	FALSE	TRUE	FALSE
+Ndey5riTwZPPn8eqi	Spanish	feedback	color42	NA	NA	NA	NA	1	48	sí	sí	rojo?	big_red_yarn	1				FALSE	FALSE	FALSE	TRUE	FALSE
+e85bNvHjAANCEpjwF	Spanish	feedback	color42	NA	NA	NA	NA	1	4	color violeta	color violeta		small_blue_candle	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+e85bNvHjAANCEpjwF	Spanish	feedback	color42	NA	NA	NA	NA	1	37	diferente	diferente		big_tan_rock	1				FALSE	FALSE	FALSE	TRUE	FALSE
+BnA3FeomaYQsW7WNG	Spanish	feedback	color42	NA	NA	NA	NA	1	7	rojo	rojo		small_red_yarn	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+BnA3FeomaYQsW7WNG	Spanish	feedback	color42	NA	NA	NA	NA	1	55	azul	azul		big_blue_cushion	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+GZ4Bi32LYs5JLP3dn	Spanish	feedback	color42	NA	NA	NA	NA	1	12	cafe	cafe		small_brown_jacket	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+GZ4Bi32LYs5JLP3dn	Spanish	feedback	color42	NA	NA	NA	NA	1	21	azul	azul		big_blue_scarf	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+GetM4rtofxHS3ga5m	Spanish	feedback	color42	NA	NA	NA	NA	1	39	la bola roja	la bola roja		small_orange_billiardball	1	ANC			TRUE	FALSE	TRUE	TRUE	TRUE
+GetM4rtofxHS3ga5m	Spanish	feedback	color42	NA	NA	NA	NA	1	63	grapadora roja	grapadora roja		small_red_stapler	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+z7BQy72TNHyrXNdby	Spanish	feedback	color42	NA	NA	NA	NA	1	23	la roja	la roja		small_red_stapler	1	AC			TRUE	FALSE	FALSE	TRUE	TRUE
+z7BQy72TNHyrXNdby	Spanish	feedback	color42	NA	NA	NA	NA	1	46	la naranja	la naranja		big_orange_napkin	1	AC			TRUE	FALSE	FALSE	TRUE	TRUE
+5iXGA8yrtbLNsFb8x	Spanish	feedback	color42	NA	NA	NA	NA	1	12	el de color diferente	el de color diferente		small_brown_belt	1	A			FALSE	FALSE	FALSE	TRUE	TRUE
+5iXGA8yrtbLNsFb8x	Spanish	feedback	color42	NA	NA	NA	NA	1	69	naranja	naranja		small_orange_cushion	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+i9kH9EnohLzqAaboq	Spanish	feedback	color43	NA	NA	NA	NA	1	30	es de otro color.	es de otro color.		small_blue_cap	1				FALSE	FALSE	FALSE	TRUE	FALSE
+i9kH9EnohLzqAaboq	Spanish	feedback	color43	NA	NA	NA	NA	1	59	es de diferente color.	es de diferente color.		big_brown_jacket	1				FALSE	FALSE	FALSE	TRUE	FALSE
+XZtfg4k35HZQbAaKS	Spanish	feedback	color43	NA	NA	NA	NA	1	11	rosa__morado	rosa	pequeño?	big_purple_flower	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+XZtfg4k35HZQbAaKS	Spanish	feedback	color43	NA	NA	NA	NA	1	39	gris	gris		small_white_shoe	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+5uPb46X29k7aKpKos	Spanish	feedback	color43	NA	NA	NA	NA	1	1	color distinto	color distinto	cinturón marrón	big_brown_belt	1				FALSE	FALSE	FALSE	TRUE	FALSE
+5uPb46X29k7aKpKos	Spanish	feedback	color43	NA	NA	NA	NA	1	61	diferente color	diferente color		small_green_bracelet	1				FALSE	FALSE	FALSE	TRUE	FALSE
+6548bWiJoGcuX59Zp	Spanish	feedback	color43	NA	NA	NA	NA	1	14	rosa	rosa		small_pink_teacup	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+6548bWiJoGcuX59Zp	Spanish	feedback	color43	NA	NA	NA	NA	1	29	rojo	rojo		small_red_stapler	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+MvesSZxmNwRWxpMDF	Spanish	feedback	color43	NA	NA	NA	NA	1	9	naranja	naranja		big_orange_coathanger	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+MvesSZxmNwRWxpMDF	Spanish	feedback	color43	NA	NA	NA	NA	1	31	azul	azul		big_blue_butterfly	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+RcCbHw4ML3ei95SZP	Spanish	feedback	color43	NA	NA	NA	NA	3	2	tamaño medio, again	tamaño medio, again		big_purple_coathanger	0				FALSE	FALSE	FALSE	TRUE	FALSE
+RcCbHw4ML3ei95SZP	Spanish	feedback	color43	NA	NA	NA	NA	4	37	el mas pequeño de los 5, hay 1 mas grande y 3 iguales (un poco mas grandes)	el mas pequeño de los 5, hay 1 mas grande y 3 iguales (un poco mas grandes)		small_pink_teacup	0	ASAS			FALSE	TRUE	FALSE	TRUE	TRUE
+Cisj4o5sAv9g8rbmS	Spanish	feedback	color43	NA	NA	NA	NA	1	7	es el unico de color diferente rosa	es el unico de color diferente rosa		small_pink_phone	1	AC			TRUE	FALSE	FALSE	TRUE	TRUE
+Cisj4o5sAv9g8rbmS	Spanish	feedback	color43	NA	NA	NA	NA	1	59	morada	morada		big_pink_bucket	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+rh7GW6WH2awWyB4Kx	Spanish	feedback	color43	NA	NA	NA	NA	1	37	azul	azul		big_blue_candle	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+rh7GW6WH2awWyB4Kx	Spanish	feedback	color43	NA	NA	NA	NA	1	38	morado	morado		small_purple_rug	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+oPMCjJ3aFSj92CzNA	Spanish	feedback	color43	NA	NA	NA	NA	1	8	pimiento rojo	pimiento rojo		small_red_bellpepper	1	NC			TRUE	FALSE	TRUE	TRUE	FALSE
+oPMCjJ3aFSj92CzNA	Spanish	feedback	color43	NA	NA	NA	NA	1	64	el naranja	el naranja		big_orange_cap	1	AC			TRUE	FALSE	FALSE	TRUE	TRUE
+bDqu8DtgmaBkuLzTC	Spanish	feedback	color43	NA	NA	NA	NA	1	45	es de otro color	es de otro color		big_purple_hairdryer	1				FALSE	FALSE	FALSE	TRUE	FALSE
+bDqu8DtgmaBkuLzTC	Spanish	feedback	color43	NA	NA	NA	NA	1	49	es de otro color	es de otro color		big_green_chair	1				FALSE	FALSE	FALSE	TRUE	FALSE
+6NunwfhDpBsQMdZXp	Spanish	feedback	color43	NA	NA	NA	NA	1	17	distinto color	distinto color		big_red_yarn	1				FALSE	FALSE	FALSE	TRUE	FALSE
+6NunwfhDpBsQMdZXp	Spanish	feedback	color43	NA	NA	NA	NA	1	27	distinto color	distinto color		small_white_shoe	1				FALSE	FALSE	FALSE	TRUE	FALSE
+S4kr4v62hXL4LYC7D	Spanish	feedback	color43	NA	NA	NA	NA	1	47	black	black		big_black_belt	1				FALSE	FALSE	FALSE	TRUE	TRUE
+S4kr4v62hXL4LYC7D	Spanish	feedback	color43	NA	NA	NA	NA	1	54	yellow	yellow		big_orange_cap	1				FALSE	FALSE	FALSE	TRUE	TRUE
+bYnFuaH8d9Dkp54C5	Spanish	feedback	color43	NA	NA	NA	NA	1	28	no__si	no	es pequeño ?__es naranja ?	big_orange_cushion	1				FALSE	FALSE	FALSE	TRUE	FALSE
+bYnFuaH8d9Dkp54C5	Spanish	feedback	color43	NA	NA	NA	NA	1	62	si	si	es verde ?	big_green_chair	1				FALSE	FALSE	FALSE	TRUE	FALSE
+jbp9GcgfoE26diyWb	Spanish	feedback	color43	NA	NA	NA	NA	1	46	la verde	la verde		big_green_guitar	1	AC			TRUE	FALSE	FALSE	TRUE	TRUE
+jbp9GcgfoE26diyWb	Spanish	feedback	color43	NA	NA	NA	NA	1	51	la de diferente color	la de diferente color		big_tan_rock	1	A			FALSE	FALSE	FALSE	TRUE	TRUE
+2PA2eTW2JBioGPq2S	Spanish	feedback	color43	NA	NA	NA	NA	1	23	azul	azul		small_blue_tack	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+2PA2eTW2JBioGPq2S	Spanish	feedback	color43	NA	NA	NA	NA	1	49	amarillo	amarillo		small_yellow_balloon	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+QC9QPrwjj6RsY6hks	Spanish	feedback	color43	NA	NA	NA	NA	1	58	blanco	blanco		big_white_teacup	1	C			TRUE	FALSE	FALSE	TRUE	TRUE
+QC9QPrwjj6RsY6hks	Spanish	feedback	color43	NA	NA	NA	NA	1	71	morado distinto	morado distinto		small_purple_hairdryer	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+aSJ3S2g3n7c5XYeuq	Spanish	feedback	color43	NA	NA	NA	NA	1	2	es el objeto de distinto color	es el objeto de distinto color		small_pink_balloon	1	A			FALSE	FALSE	FALSE	TRUE	TRUE
+aSJ3S2g3n7c5XYeuq	Spanish	feedback	color43	NA	NA	NA	NA	1	35	different color/color diferente´	different color/color diferente´		big_purple_coathanger	1				FALSE	FALSE	FALSE	TRUE	FALSE
+SZ8Bs9kQ4wkYwTsFm	Spanish	feedback	color43	NA	NA	NA	NA	1	34	es azul	es azul		big_blue_comb	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+SZ8Bs9kQ4wkYwTsFm	Spanish	feedback	color43	NA	NA	NA	NA	1	41	roja	roja		small_red_flower	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+ZeAdhLHahHwqnn9MG	Spanish	feedback	color43	NA	NA	NA	NA	1	45	verde	verde		small_green_binder	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+ZeAdhLHahHwqnn9MG	Spanish	feedback	color43	NA	NA	NA	NA	1	50	negro	negro		big_black_turtle	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+3j4nmgjGw5svrxehe	Spanish	feedback	color43	NA	NA	NA	NA	1	2	hola__la tortuga más café	hola	holaa__cual es el que tiene el cuadrado negro?__ok	big_brown_turtle	1				FALSE	FALSE	FALSE	TRUE	TRUE
+3j4nmgjGw5svrxehe	Spanish	feedback	color43	NA	NA	NA	NA	1	32	el amarillo	el amarillo		small_yellow_shoe	1	AC			TRUE	FALSE	FALSE	TRUE	TRUE
+yzi4tHBHqvsoo3nn5	Spanish	feedback	color43	NA	NA	NA	NA	1	24	alfombra azul	alfombra azul		big_blue_rug	1	NC			TRUE	FALSE	TRUE	TRUE	FALSE
+yzi4tHBHqvsoo3nn5	Spanish	feedback	color43	NA	NA	NA	NA	1	57	tortuga no oscura__la que no es negra	tortuga no oscura		small_brown_turtle	1	N			FALSE	FALSE	TRUE	TRUE	FALSE
+g7vxxhW2jevjbHBv8	Spanish	feedback	color43	NA	NA	NA	NA	1	50	es el de color diferente	es el de color diferente		big_green_pepper	1	A			FALSE	FALSE	FALSE	TRUE	TRUE
+g7vxxhW2jevjbHBv8	Spanish	feedback	color43	NA	NA	NA	NA	1	66	la de color diferente	la de color diferente		small_red_stapler	1	A			FALSE	FALSE	FALSE	TRUE	TRUE
+woScH39WSn3r8vT9s	Spanish	feedback	color43	NA	NA	NA	NA	1	57	la roja	la roja		small_red_bike	1	AC			TRUE	FALSE	FALSE	TRUE	TRUE
+woScH39WSn3r8vT9s	Spanish	feedback	color43	NA	NA	NA	NA	1	65	el cafe	el cafe		small_brown_belt	1	AC			TRUE	FALSE	FALSE	TRUE	TRUE
+6ghf7bahMwk2Gum9F	Spanish	feedback	color43	NA	NA	NA	NA	1	20	morado	morado		big_purple_bracelet	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+6ghf7bahMwk2Gum9F	Spanish	feedback	color43	NA	NA	NA	NA	1	48	pastel rosa	pastel rosa		big_pink_weddingcake	1	NC			TRUE	FALSE	TRUE	TRUE	TRUE
+7byBpzzTrLBTrRaSW	Spanish	feedback	color43	NA	NA	NA	NA	1	22	diferente	diferente		small_pink_weddingcake	1				FALSE	FALSE	FALSE	TRUE	FALSE
+7byBpzzTrLBTrRaSW	Spanish	feedback	color43	NA	NA	NA	NA	1	35	distinto	distinto		small_blue_tack	1				FALSE	FALSE	FALSE	TRUE	FALSE
+Ndey5riTwZPPn8eqi	Spanish	feedback	color43	NA	NA	NA	NA	1	61	sí	sí	rosa?	big_pink_phone	1		GUESSER-RESPONSE		FALSE	FALSE	FALSE	TRUE	FALSE
+Ndey5riTwZPPn8eqi	Spanish	feedback	color43	NA	NA	NA	NA	1	72	sí	sí	amarillo?	small_orange_cap	1		GUESSER-RESPONSE		FALSE	FALSE	FALSE	TRUE	FALSE
+e85bNvHjAANCEpjwF	Spanish	feedback	color43	NA	NA	NA	NA	1	22	diferente color	diferente color		small_white_weddingcake	1		bleached contrast		FALSE	FALSE	FALSE	TRUE	FALSE
+e85bNvHjAANCEpjwF	Spanish	feedback	color43	NA	NA	NA	NA	1	50	diferente color	diferente color		small_white_phone	1		bleached contrast		FALSE	FALSE	FALSE	TRUE	FALSE
+BnA3FeomaYQsW7WNG	Spanish	feedback	color43	NA	NA	NA	NA	1	51	rosa	rosa		small_purple_bike	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+BnA3FeomaYQsW7WNG	Spanish	feedback	color43	NA	NA	NA	NA	1	68	rojo	rojo		big_red_scarf	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+GZ4Bi32LYs5JLP3dn	Spanish	feedback	color43	NA	NA	NA	NA	1	2	blanco	blanco		small_white_shoe	1	C			TRUE	FALSE	FALSE	TRUE	TRUE
+GZ4Bi32LYs5JLP3dn	Spanish	feedback	color43	NA	NA	NA	NA	1	8	negro	negro		small_black_book	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+GetM4rtofxHS3ga5m	Spanish	feedback	color43	NA	NA	NA	NA	1	4	una manta morada	una manta morada		big_purple_rug	1	NC			TRUE	FALSE	FALSE	TRUE	FALSE
+GetM4rtofxHS3ga5m	Spanish	feedback	color43	NA	NA	NA	NA	1	59	lana morada	lana morada		small_purple_yarn	1	NC			TRUE	FALSE	FALSE	TRUE	TRUE
+z7BQy72TNHyrXNdby	Spanish	feedback	color43	NA	NA	NA	NA	1	10	pulsera verde	pulsera verde		small_green_bracelet	1	NC			TRUE	FALSE	TRUE	TRUE	FALSE
+z7BQy72TNHyrXNdby	Spanish	feedback	color43	NA	NA	NA	NA	1	64	la verde	la verde		small_green_guitar	1	AC			TRUE	FALSE	FALSE	TRUE	TRUE
+5iXGA8yrtbLNsFb8x	Spanish	feedback	color43	NA	NA	NA	NA	1	63	morada	morada		big_purple_yarn	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+5iXGA8yrtbLNsFb8x	Spanish	feedback	color43	NA	NA	NA	NA	1	70	rosa	rosa		small_purple_bike	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+i9kH9EnohLzqAaboq	Spanish	feedback	color44	NA	NA	NA	NA	1	51	es de diferente color.	es de diferente color.		small_blue_rug	1		bleached contrast		FALSE	FALSE	FALSE	TRUE	FALSE
+i9kH9EnohLzqAaboq	Spanish	feedback	color44	NA	NA	NA	NA	1	53	es de diferente color.	es de diferente color.		small_brown_belt	1		bleached contrast		FALSE	FALSE	FALSE	TRUE	FALSE
+XZtfg4k35HZQbAaKS	Spanish	feedback	color44	NA	NA	NA	NA	1	31	nrgra	nrgra		small_black_turtle	1	C			FALSE	FALSE	FALSE	TRUE	FALSE
+XZtfg4k35HZQbAaKS	Spanish	feedback	color44	NA	NA	NA	NA	1	35	azul	azul		small_blue_rug	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+5uPb46X29k7aKpKos	Spanish	feedback	color44	NA	NA	NA	NA	1	16	diferente color	diferente color		big_red_yarn	1		bleached contrast		FALSE	FALSE	FALSE	TRUE	FALSE
+5uPb46X29k7aKpKos	Spanish	feedback	color44	NA	NA	NA	NA	1	44	diferente color	diferente color		small_purple_flower	1		bleached contrast		FALSE	FALSE	FALSE	TRUE	FALSE
+6548bWiJoGcuX59Zp	Spanish	feedback	color44	NA	NA	NA	NA	1	5	azul	azul		big_blue_book	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+6548bWiJoGcuX59Zp	Spanish	feedback	color44	NA	NA	NA	NA	1	50	rojo	rojo		small_red_scarf	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+MvesSZxmNwRWxpMDF	Spanish	feedback	color44	NA	NA	NA	NA	1	3	amarillo	amarillo		small_yellow_shoe	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+MvesSZxmNwRWxpMDF	Spanish	feedback	color44	NA	NA	NA	NA	1	71	verde	verde		small_green_framee	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+RcCbHw4ML3ei95SZP	Spanish	feedback	color44	NA	NA	NA	NA	2	8	la silueta mas pequeña, la diferencia es poca	la silueta mas pequeña, la diferencia es poca		small_blue_book	0	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+RcCbHw4ML3ei95SZP	Spanish	feedback	color44	NA	NA	NA	NA	4	13	pequeño, diferencia minima como antes	pequeño, diferencia minima como antes		small_green_chair	0	S			FALSE	TRUE	FALSE	TRUE	FALSE
+Cisj4o5sAv9g8rbmS	Spanish	feedback	color44	NA	NA	NA	NA	1	44	azul	azul		small_blue_butterfly	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+Cisj4o5sAv9g8rbmS	Spanish	feedback	color44	NA	NA	NA	NA	1	60	azul	azul		big_blue_toothbrush	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+rh7GW6WH2awWyB4Kx	Spanish	feedback	color44	NA	NA	NA	NA	1	52	morado	morado		big_pink_bucket	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+rh7GW6WH2awWyB4Kx	Spanish	feedback	color44	NA	NA	NA	NA	1	72	rojo	rojo		big_red_stapler	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+oPMCjJ3aFSj92CzNA	Spanish	feedback	color44	NA	NA	NA	NA	1	10	la unica roja	la unica roja		big_red_tack	1	AC			TRUE	FALSE	FALSE	TRUE	TRUE
+oPMCjJ3aFSj92CzNA	Spanish	feedback	color44	NA	NA	NA	NA	1	34	el azul	el azul		big_blue_binder	1	AC			TRUE	FALSE	FALSE	TRUE	TRUE
+bDqu8DtgmaBkuLzTC	Spanish	feedback	color44	NA	NA	NA	NA	1	31	es de otro color	es de otro color		small_blue_tack	1		bleached contrast		FALSE	FALSE	FALSE	TRUE	FALSE
+bDqu8DtgmaBkuLzTC	Spanish	feedback	color44	NA	NA	NA	NA	1	38	es de otro color	es de otro color		small_pink_framee	1		bleached contrast		FALSE	FALSE	FALSE	TRUE	FALSE
+6NunwfhDpBsQMdZXp	Spanish	feedback	color44	NA	NA	NA	NA	1	41	distinto color	distinto color		big_brown_turtle	1		bleached contrast		FALSE	FALSE	FALSE	TRUE	FALSE
+6NunwfhDpBsQMdZXp	Spanish	feedback	color44	NA	NA	NA	NA	1	67	azul	azul		big_blue_guitar	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+S4kr4v62hXL4LYC7D	Spanish	feedback	color44	NA	NA	NA	NA	1	46	black	black		big_black_book	1		ENGLISH		FALSE	FALSE	FALSE	TRUE	TRUE
+S4kr4v62hXL4LYC7D	Spanish	feedback	color44	NA	NA	NA	NA	1	49	red	red		big_red_chair	1		ENGLISH		FALSE	FALSE	FALSE	TRUE	FALSE
+bYnFuaH8d9Dkp54C5	Spanish	feedback	color44	NA	NA	NA	NA	1	23	si	si	es azul ?	small_blue_tack	1		GUESSER-RESPONSE		FALSE	FALSE	FALSE	TRUE	FALSE
+bYnFuaH8d9Dkp54C5	Spanish	feedback	color44	NA	NA	NA	NA	1	70	si	si	es morado ?	big_purple_coathanger	1		GUESSER-RESPONSE		FALSE	FALSE	FALSE	TRUE	FALSE
+jbp9GcgfoE26diyWb	Spanish	feedback	color44	NA	NA	NA	NA	1	6	la que es de diferente color	la que es de diferente color		big_purple_rug	1	A	bleached contrast		FALSE	FALSE	FALSE	TRUE	TRUE
+jbp9GcgfoE26diyWb	Spanish	feedback	color44	NA	NA	NA	NA	1	67	secadora morada	secadora morada		big_purple_hairdryer	1	NC			TRUE	FALSE	TRUE	TRUE	FALSE
+2PA2eTW2JBioGPq2S	Spanish	feedback	color44	NA	NA	NA	NA	1	36	blanco	blanco		small_white_phone	1	C			TRUE	FALSE	FALSE	TRUE	TRUE
+2PA2eTW2JBioGPq2S	Spanish	feedback	color44	NA	NA	NA	NA	1	42	rosa	rosa		big_pink_weddingcake	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+QC9QPrwjj6RsY6hks	Spanish	feedback	color44	NA	NA	NA	NA	1	23	la de color naranja	la de color naranja		small_orange_coathanger	1	AC			TRUE	FALSE	FALSE	TRUE	TRUE
+QC9QPrwjj6RsY6hks	Spanish	feedback	color44	NA	NA	NA	NA	1	60	azul	azul		big_blue_toothbrush	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+aSJ3S2g3n7c5XYeuq	Spanish	feedback	color44	NA	NA	NA	NA	1	5	es el objeto de distinto color	es el objeto de distinto color		small_red_chair	1		bleached contrast		FALSE	FALSE	FALSE	TRUE	TRUE
+aSJ3S2g3n7c5XYeuq	Spanish	feedback	color44	NA	NA	NA	NA	1	48	different color/color diferente	different color/color diferente		big_blue_binder	1		bleached contrast		FALSE	FALSE	FALSE	TRUE	FALSE
+SZ8Bs9kQ4wkYwTsFm	Spanish	feedback	color44	NA	NA	NA	NA	1	40	verde	verde		big_green_chair	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+SZ8Bs9kQ4wkYwTsFm	Spanish	feedback	color44	NA	NA	NA	NA	1	54	roja	roja		big_red_candle	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+ZeAdhLHahHwqnn9MG	Spanish	feedback	color44	NA	NA	NA	NA	1	5	globo rosa	globo rosa		small_pink_balloon	1	NC			TRUE	FALSE	TRUE	TRUE	FALSE
+ZeAdhLHahHwqnn9MG	Spanish	feedback	color44	NA	NA	NA	NA	1	53	rosa	rosa		big_pink_bucket	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+3j4nmgjGw5svrxehe	Spanish	feedback	color44	NA	NA	NA	NA	1	28	la moradita	la moradita		big_purple_hairdryer	1	AC	diminutive		FALSE	FALSE	FALSE	TRUE	TRUE
+3j4nmgjGw5svrxehe	Spanish	feedback	color44	NA	NA	NA	NA	1	71	la de color distinto	la de color distinto		big_tan_rock	1	A	bleached contrast		FALSE	FALSE	FALSE	TRUE	TRUE
+yzi4tHBHqvsoo3nn5	Spanish	feedback	color44	NA	NA	NA	NA	1	38	secadora purpura	secadora purpura		small_purple_hairdryer	1	NC			FALSE	FALSE	TRUE	TRUE	FALSE
+yzi4tHBHqvsoo3nn5	Spanish	feedback	color44	NA	NA	NA	NA	1	61	carpeta verde	carpeta verde		small_green_binder	1	NC			TRUE	FALSE	TRUE	TRUE	FALSE
+g7vxxhW2jevjbHBv8	Spanish	feedback	color44	NA	NA	NA	NA	1	18	la tonalidad de café es más clara	la tonalidad de café es más clara		small_brown_belt	1	AC	? superlative		TRUE	FALSE	FALSE	TRUE	TRUE
+g7vxxhW2jevjbHBv8	Spanish	feedback	color44	NA	NA	NA	NA	1	41	es la de color diferente	es la de color diferente		big_purple_billiardball	1	A	bleached contrast		FALSE	FALSE	FALSE	TRUE	TRUE
+woScH39WSn3r8vT9s	Spanish	feedback	color44	NA	NA	NA	NA	1	12	la morada	la morada		small_purple_stapler	1	AC			TRUE	FALSE	FALSE	TRUE	TRUE
+woScH39WSn3r8vT9s	Spanish	feedback	color44	NA	NA	NA	NA	1	40	de color negro	de color negro		big_black_comb	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+6ghf7bahMwk2Gum9F	Spanish	feedback	color44	NA	NA	NA	NA	1	33	naranja	naranja		small_orange_napkin	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+6ghf7bahMwk2Gum9F	Spanish	feedback	color44	NA	NA	NA	NA	1	47	negra	negra		small_black_turtle	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+7byBpzzTrLBTrRaSW	Spanish	feedback	color44	NA	NA	NA	NA	1	26	diferente	diferente		big_yellow_bellpepper	1		bleached contrast		FALSE	FALSE	FALSE	TRUE	FALSE
+7byBpzzTrLBTrRaSW	Spanish	feedback	color44	NA	NA	NA	NA	1	44	diferente	diferente		big_purple_stapler	1		bleached contrast		FALSE	FALSE	FALSE	TRUE	FALSE
+Ndey5riTwZPPn8eqi	Spanish	feedback	color44	NA	NA	NA	NA	1	30	sí	sí	rojo	big_red_scarf	1		GUESSER-RESPONSE		FALSE	FALSE	FALSE	TRUE	FALSE
+Ndey5riTwZPPn8eqi	Spanish	feedback	color44	NA	NA	NA	NA	1	46	sí	sí	acul?__azul?	small_blue_binder	1		GUESSER-RESPONSE		FALSE	FALSE	FALSE	TRUE	FALSE
+e85bNvHjAANCEpjwF	Spanish	feedback	color44	NA	NA	NA	NA	1	17	color diferente	color diferente		big_brown_turtle	1		bleached contrast		FALSE	FALSE	FALSE	TRUE	FALSE
+e85bNvHjAANCEpjwF	Spanish	feedback	color44	NA	NA	NA	NA	1	39	diferente color	diferente color		small_purple_bracelet	1		bleached contrast		FALSE	FALSE	FALSE	TRUE	FALSE
+BnA3FeomaYQsW7WNG	Spanish	feedback	color44	NA	NA	NA	NA	1	33	rojo	rojo		big_red_stapler	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+BnA3FeomaYQsW7WNG	Spanish	feedback	color44	NA	NA	NA	NA	1	57	marron	marron		small_brown_belt	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+GZ4Bi32LYs5JLP3dn	Spanish	feedback	color44	NA	NA	NA	NA	1	5	el de color distinto	el de color distinto		small_orange_napkin	1	A	bleached contrast		FALSE	FALSE	FALSE	TRUE	TRUE
+GZ4Bi32LYs5JLP3dn	Spanish	feedback	color44	NA	NA	NA	NA	1	34	color cafe	color cafe		small_tan_rock	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+GetM4rtofxHS3ga5m	Spanish	feedback	color44	NA	NA	NA	NA	1	44	el cojin marron	el cojin marron		small_orange_cushion	1	ANC			TRUE	FALSE	FALSE	TRUE	TRUE
+GetM4rtofxHS3ga5m	Spanish	feedback	color44	NA	NA	NA	NA	1	49	libro negro	libro negro		small_black_book	1	NC			TRUE	FALSE	TRUE	TRUE	FALSE
+z7BQy72TNHyrXNdby	Spanish	feedback	color44	NA	NA	NA	NA	1	15	libro azul	libro azul		big_blue_book	1	NC			TRUE	FALSE	TRUE	TRUE	FALSE
+z7BQy72TNHyrXNdby	Spanish	feedback	color44	NA	NA	NA	NA	1	29	la azul	la azul		big_blue_scarf	1	AC			TRUE	FALSE	FALSE	TRUE	TRUE
+5iXGA8yrtbLNsFb8x	Spanish	feedback	color44	NA	NA	NA	NA	1	8	el que es diferente	el que es diferente		big_red_toothbrush	1	A	bleached contrast		FALSE	FALSE	FALSE	TRUE	TRUE
+5iXGA8yrtbLNsFb8x	Spanish	feedback	color44	NA	NA	NA	NA	1	57	azul	azul		small_blue_tack	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+i9kH9EnohLzqAaboq	Spanish	feedback	size21	NA	NA	NA	NA	1	5	es pequeño.	es pequeño.		small_pink_bucket	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+i9kH9EnohLzqAaboq	Spanish	feedback	size21	NA	NA	NA	NA	1	64	es el más pequeño.	es el más pequeño.		small_red_bike	1	AS			FALSE	TRUE	FALSE	TRUE	TRUE
+XZtfg4k35HZQbAaKS	Spanish	feedback	size21	NA	NA	NA	NA	1	25	pequeño	pequeño		small_black_book	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+XZtfg4k35HZQbAaKS	Spanish	feedback	size21	NA	NA	NA	NA	1	48	pequeño	pequeño		small_red_yarn	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+5uPb46X29k7aKpKos	Spanish	feedback	size21	NA	NA	NA	NA	1	54	más pequeño	más pequeño		small_blue_cushion	1	S	comparative		FALSE	TRUE	FALSE	TRUE	FALSE
+5uPb46X29k7aKpKos	Spanish	feedback	size21	NA	NA	NA	NA	1	58	más pequeño	más pequeño		small_purple_hairdryer	1	S	comparative		FALSE	TRUE	FALSE	TRUE	FALSE
+6548bWiJoGcuX59Zp	Spanish	feedback	size21	NA	NA	NA	NA	1	19	pequeño	pequeño		small_red_tack	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+6548bWiJoGcuX59Zp	Spanish	feedback	size21	NA	NA	NA	NA	1	34	grande	grande		big_pink_balloon	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+MvesSZxmNwRWxpMDF	Spanish	feedback	size21	NA	NA	NA	NA	1	15	verde pequeño	verde pequeño		small_green_guitar	1	CS			TRUE	TRUE	FALSE	TRUE	FALSE
+MvesSZxmNwRWxpMDF	Spanish	feedback	size21	NA	NA	NA	NA	1	58	pequeño	pequeño		small_pink_balloon	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+RcCbHw4ML3ei95SZP	Spanish	feedback	size21	NA	NA	NA	NA	1	14	el grande de los 3	el grande de los 3		big_red_bucket	1	ASA			FALSE	TRUE	FALSE	TRUE	TRUE
+RcCbHw4ML3ei95SZP	Spanish	feedback	size21	NA	NA	NA	NA	1	63	el mas pequeño de los 3	el mas pequeño de los 3		small_blue_tack	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+Cisj4o5sAv9g8rbmS	Spanish	feedback	size21	NA	NA	NA	NA	1	5	es la imagen del objeto mas grande color morado	es la imagen del objeto mas grande color morado	color?	big_purple_coathanger	1	ASC	N? superlative		TRUE	TRUE	FALSE	TRUE	TRUE
+Cisj4o5sAv9g8rbmS	Spanish	feedback	size21	NA	NA	NA	NA	1	56	imagen mas chica	imagen mas chica		small_pink_teacup	1	S	comparative		FALSE	TRUE	FALSE	TRUE	FALSE
+rh7GW6WH2awWyB4Kx	Spanish	feedback	size21	NA	NA	NA	NA	1	43	pequeño	pequeño		small_red_scarf	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+rh7GW6WH2awWyB4Kx	Spanish	feedback	size21	NA	NA	NA	NA	1	59	grande	grande		big_blue_cushion	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+oPMCjJ3aFSj92CzNA	Spanish	feedback	size21	NA	NA	NA	NA	1	1	hola__es la bola 5 morada, la más pequeña	hola	hola	small_purple_billiardball	1				FALSE	FALSE	FALSE	TRUE	TRUE
+oPMCjJ3aFSj92CzNA	Spanish	feedback	size21	NA	NA	NA	NA	1	37	la flor más pequeña	la flor más pequeña		small_purple_flower	1	ANS	superlative		FALSE	TRUE	TRUE	TRUE	TRUE
+bDqu8DtgmaBkuLzTC	Spanish	feedback	size21	NA	NA	NA	NA	1	4	es la mas pequeña	es la mas pequeña		small_yellow_napkin	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+bDqu8DtgmaBkuLzTC	Spanish	feedback	size21	NA	NA	NA	NA	1	21	es mas pequeño	es mas pequeño		small_orange_pingpongball	1	S	comparative		FALSE	TRUE	FALSE	TRUE	FALSE
+6NunwfhDpBsQMdZXp	Spanish	feedback	size21	NA	NA	NA	NA	1	31	pequeño	pequeño		small_green_framee	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+6NunwfhDpBsQMdZXp	Spanish	feedback	size21	NA	NA	NA	NA	1	63	mas pequeño	mas pequeño		small_white_teacup	1	S	comparative		FALSE	TRUE	FALSE	TRUE	FALSE
+S4kr4v62hXL4LYC7D	Spanish	feedback	size21	NA	NA	NA	NA	1	44	pink, smallest	pink, smallest		small_purple_bike	1		ENGLISH		FALSE	FALSE	FALSE	TRUE	FALSE
+S4kr4v62hXL4LYC7D	Spanish	feedback	size21	NA	NA	NA	NA	1	65	smallest	smallest		small_pink_balloon	1		ENGLISH		FALSE	FALSE	FALSE	TRUE	FALSE
+bYnFuaH8d9Dkp54C5	Spanish	feedback	size21	NA	NA	NA	NA	1	48	si	si	es grande ?	big_blue_toothbrush	1		GUESSER-RESPONSE		FALSE	FALSE	FALSE	TRUE	FALSE
+bYnFuaH8d9Dkp54C5	Spanish	feedback	size21	NA	NA	NA	NA	1	52	no__si	no	es naranja ?__es pequeño ?	small_white_pingpongball	1		GUESSER-RESPONSE		FALSE	FALSE	FALSE	TRUE	FALSE
+jbp9GcgfoE26diyWb	Spanish	feedback	size21	NA	NA	NA	NA	1	35	cojin naranja más grande	cojin naranja más grande		big_orange_cushion	1	NCS	comparative		TRUE	TRUE	FALSE	TRUE	FALSE
+jbp9GcgfoE26diyWb	Spanish	feedback	size21	NA	NA	NA	NA	1	70	la roja más pequeña	la roja más pequeña		small_red_stapler	1	ACS	superlative		TRUE	TRUE	FALSE	TRUE	TRUE
+2PA2eTW2JBioGPq2S	Spanish	feedback	size21	NA	NA	NA	NA	1	39	pequela__pequeña	pequela		small_grey_rock	1	S			FALSE	FALSE	FALSE	TRUE	TRUE
+2PA2eTW2JBioGPq2S	Spanish	feedback	size21	NA	NA	NA	NA	1	69	pequeña	pequeña		small_orange_napkin	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+QC9QPrwjj6RsY6hks	Spanish	feedback	size21	NA	NA	NA	NA	1	6	es el más grande	es el más grande		big_orange_napkin	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+QC9QPrwjj6RsY6hks	Spanish	feedback	size21	NA	NA	NA	NA	1	65	grande	grande		big_green_chair	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+aSJ3S2g3n7c5XYeuq	Spanish	feedback	size21	NA	NA	NA	NA	1	8	smaller one/el mas pequeño	smaller one/el mas pequeño		small_blue_book	1	S	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+aSJ3S2g3n7c5XYeuq	Spanish	feedback	size21	NA	NA	NA	NA	1	24	smaller	smaller		small_pink_framee	1		ENGLISH		FALSE	FALSE	FALSE	TRUE	FALSE
+SZ8Bs9kQ4wkYwTsFm	Spanish	feedback	size21	NA	NA	NA	NA	1	28	café__pequeño	café		small_orange_cushion	1	C			FALSE	FALSE	FALSE	TRUE	FALSE
+SZ8Bs9kQ4wkYwTsFm	Spanish	feedback	size21	NA	NA	NA	NA	1	62	rojo__el más grande	rojo		big_red_pepper	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+ZeAdhLHahHwqnn9MG	Spanish	feedback	size21	NA	NA	NA	NA	2	2	grapadora morada, hay 2	grapadora morada, hay 2		small_purple_stapler	0	NC			TRUE	FALSE	FALSE	TRUE	FALSE
+ZeAdhLHahHwqnn9MG	Spanish	feedback	size21	NA	NA	NA	NA	1	64	rojo chico	rojo chico		small_red_toothbrush	1	CS			TRUE	TRUE	FALSE	TRUE	FALSE
+3j4nmgjGw5svrxehe	Spanish	feedback	size21	NA	NA	NA	NA	1	10	el más grande	el más grande		big_blue_book	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+3j4nmgjGw5svrxehe	Spanish	feedback	size21	NA	NA	NA	NA	1	26	la blanca grande	la blanca grande		big_white_pingpongball	1	ACS			TRUE	TRUE	FALSE	TRUE	TRUE
+yzi4tHBHqvsoo3nn5	Spanish	feedback	size21	NA	NA	NA	NA	1	19	cinturon negro mas grande	cinturon negro mas grande		big_black_belt	1	NCS	comparative		TRUE	TRUE	TRUE	TRUE	FALSE
+yzi4tHBHqvsoo3nn5	Spanish	feedback	size21	NA	NA	NA	NA	1	20	paño naranja pequeño	paño naranja pequeño		small_orange_napkin	1	NCS			TRUE	TRUE	FALSE	TRUE	FALSE
+g7vxxhW2jevjbHBv8	Spanish	feedback	size21	NA	NA	NA	NA	1	22	es rosa y más grande que las demás	es rosa y más grande que las demás		big_purple_butterfly	1	CS	superlative, conjunction		TRUE	TRUE	FALSE	TRUE	TRUE
+g7vxxhW2jevjbHBv8	Spanish	feedback	size21	NA	NA	NA	NA	1	34	la más pequeña	la más pequeña		small_green_jacket	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+woScH39WSn3r8vT9s	Spanish	feedback	size21	NA	NA	NA	NA	1	17	la mas grande	la mas grande		big_blue_candle	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+woScH39WSn3r8vT9s	Spanish	feedback	size21	NA	NA	NA	NA	1	49	el mas grande	el mas grande		big_pink_teacup	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+6ghf7bahMwk2Gum9F	Spanish	feedback	size21	NA	NA	NA	NA	1	43	azul grande	azul grande	pequeño?	big_blue_toothbrush	1	CS			TRUE	TRUE	FALSE	TRUE	FALSE
+6ghf7bahMwk2Gum9F	Spanish	feedback	size21	NA	NA	NA	NA	1	51	verde grande	verde grande		big_green_guitar	1	CS			TRUE	TRUE	FALSE	TRUE	FALSE
+7byBpzzTrLBTrRaSW	Spanish	feedback	size21	NA	NA	NA	NA	1	8	pequeño	pequeño		small_blue_book	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+7byBpzzTrLBTrRaSW	Spanish	feedback	size21	NA	NA	NA	NA	1	63	enorme	enorme		big_purple_butterfly	1	S			FALSE	FALSE	FALSE	TRUE	FALSE
+Ndey5riTwZPPn8eqi	Spanish	feedback	size21	NA	NA	NA	NA	1	31	no__sí	no	rojo?__pequeño?	small_purple_stapler	1		GUESSER-RESPONSE		FALSE	FALSE	FALSE	TRUE	FALSE
+Ndey5riTwZPPn8eqi	Spanish	feedback	size21	NA	NA	NA	NA	1	36	no__sí	no	rojo?__pequeño'__?	small_green_chair	1		GUESSER-RESPONSE		FALSE	FALSE	FALSE	TRUE	FALSE
+e85bNvHjAANCEpjwF	Spanish	feedback	size21	NA	NA	NA	NA	1	21	mas chica	mas chica		small_blue_cushion	1	S	comparative		FALSE	TRUE	FALSE	TRUE	FALSE
+e85bNvHjAANCEpjwF	Spanish	feedback	size21	NA	NA	NA	NA	1	28	mas pequeño	mas pequeño		small_blue_toothbrush	1	S	comparative		FALSE	TRUE	FALSE	TRUE	FALSE
+BnA3FeomaYQsW7WNG	Spanish	feedback	size21	NA	NA	NA	NA	1	50	grande	grande		big_red_pepper	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+BnA3FeomaYQsW7WNG	Spanish	feedback	size21	NA	NA	NA	NA	1	54	pequeño	pequeño		small_orange_cap	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+GZ4Bi32LYs5JLP3dn	Spanish	feedback	size21	NA	NA	NA	NA	1	55	rojo chico	rojo chico		small_red_bike	1	CS			TRUE	TRUE	FALSE	TRUE	FALSE
+GZ4Bi32LYs5JLP3dn	Spanish	feedback	size21	NA	NA	NA	NA	1	71	rosa grande	rosa grande		big_pink_weddingcake	1	CS			TRUE	TRUE	FALSE	TRUE	FALSE
+GetM4rtofxHS3ga5m	Spanish	feedback	size21	NA	NA	NA	NA	1	9	un telefono blanco mas grande	un telefono blanco mas grande		big_white_phone	1	NCS	comparative		TRUE	TRUE	TRUE	TRUE	TRUE
+GetM4rtofxHS3ga5m	Spanish	feedback	size21	NA	NA	NA	NA	1	11	tarta rosa pequeña	tarta rosa pequeña		small_pink_weddingcake	1	NCS			TRUE	TRUE	TRUE	TRUE	FALSE
+z7BQy72TNHyrXNdby	Spanish	feedback	size21	NA	NA	NA	NA	1	35	el pequeño	el pequeño		small_blue_comb	1	AS			FALSE	TRUE	FALSE	TRUE	TRUE
+z7BQy72TNHyrXNdby	Spanish	feedback	size21	NA	NA	NA	NA	1	39	el grande	el grande		big_green_pepper	1	AS			FALSE	TRUE	FALSE	TRUE	TRUE
+5iXGA8yrtbLNsFb8x	Spanish	feedback	size21	NA	NA	NA	NA	1	25	la más grande	la más grande		big_red_flower	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+5iXGA8yrtbLNsFb8x	Spanish	feedback	size21	NA	NA	NA	NA	1	27	la más grande	la más grande		big_orange_billiardball	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+i9kH9EnohLzqAaboq	Spanish	feedback	size22	NA	NA	NA	NA	1	11	es pequeño.	es pequeño.		small_green_bracelet	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+i9kH9EnohLzqAaboq	Spanish	feedback	size22	NA	NA	NA	NA	1	57	es el más grande.	es el más grande.		big_yellow_napkin	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+XZtfg4k35HZQbAaKS	Spanish	feedback	size22	NA	NA	NA	NA	1	14	pequeño	pequeño		small_blue_cap	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+XZtfg4k35HZQbAaKS	Spanish	feedback	size22	NA	NA	NA	NA	1	37	pequeño	pequeño		small_green_pepper	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+5uPb46X29k7aKpKos	Spanish	feedback	size22	NA	NA	NA	NA	1	37	distinto tamaño	distinto tamaño		big_orange_cap	1		bleached contrast		FALSE	FALSE	FALSE	TRUE	FALSE
+5uPb46X29k7aKpKos	Spanish	feedback	size22	NA	NA	NA	NA	1	47	más grande	más grande		big_grey_rock	1	S	comparative		FALSE	TRUE	FALSE	TRUE	FALSE
+6548bWiJoGcuX59Zp	Spanish	feedback	size22	NA	NA	NA	NA	1	11	grande	grande		big_grey_rock	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+6548bWiJoGcuX59Zp	Spanish	feedback	size22	NA	NA	NA	NA	1	42	grande	grande		big_brown_belt	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+MvesSZxmNwRWxpMDF	Spanish	feedback	size22	NA	NA	NA	NA	1	6	mas grande	mas grande		big_orange_pingpongball	1	S	comparative		FALSE	TRUE	FALSE	TRUE	FALSE
+MvesSZxmNwRWxpMDF	Spanish	feedback	size22	NA	NA	NA	NA	1	25	mas grande	mas grande		big_white_phone	1	S	comparative		FALSE	TRUE	FALSE	TRUE	FALSE
+RcCbHw4ML3ei95SZP	Spanish	feedback	size22	NA	NA	NA	NA	1	4	grande, la mas grande de todas	grande, la mas grande de todas		big_green_jacket	1	SAS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+RcCbHw4ML3ei95SZP	Spanish	feedback	size22	NA	NA	NA	NA	1	55	la mas grande de las 3, mismo color (las otras 2 son iguales)	la mas grande de las 3, mismo color (las otras 2 son iguales)		big_purple_stapler	1	AS	superlative (and bleached contrast)		FALSE	TRUE	FALSE	TRUE	TRUE
+Cisj4o5sAv9g8rbmS	Spanish	feedback	size22	NA	NA	NA	NA	1	53	imagen mas grande	imagen mas grande		big_green_jacket	1	S	comparative		FALSE	TRUE	FALSE	TRUE	FALSE
+Cisj4o5sAv9g8rbmS	Spanish	feedback	size22	NA	NA	NA	NA	1	61	imagen mas grande	imagen mas grande		big_red_bike	1	S	comparative		FALSE	TRUE	FALSE	TRUE	FALSE
+rh7GW6WH2awWyB4Kx	Spanish	feedback	size22	NA	NA	NA	NA	1	26	grande	grande		big_blue_comb	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+rh7GW6WH2awWyB4Kx	Spanish	feedback	size22	NA	NA	NA	NA	1	57	pequeño	pequeño		small_green_chair	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+oPMCjJ3aFSj92CzNA	Spanish	feedback	size22	NA	NA	NA	NA	1	17	el zapato más grande	el zapato más grande		big_yellow_shoe	1	ANS	superlative		FALSE	TRUE	TRUE	TRUE	TRUE
+oPMCjJ3aFSj92CzNA	Spanish	feedback	size22	NA	NA	NA	NA	1	31	cepillo rojo, el más grande	cepillo rojo, el más grande		big_red_toothbrush	1	NCAS	superlative		TRUE	TRUE	FALSE	TRUE	TRUE
+bDqu8DtgmaBkuLzTC	Spanish	feedback	size22	NA	NA	NA	NA	1	13	es mas pequeño	es mas pequeño		small_pink_phone	1	S	comparative		FALSE	TRUE	FALSE	TRUE	FALSE
+bDqu8DtgmaBkuLzTC	Spanish	feedback	size22	NA	NA	NA	NA	1	40	es mas grande	es mas grande		big_purple_stapler	1	S	comparative		FALSE	TRUE	FALSE	TRUE	FALSE
+6NunwfhDpBsQMdZXp	Spanish	feedback	size22	NA	NA	NA	NA	1	10	grande	grande		big_red_scarf	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+6NunwfhDpBsQMdZXp	Spanish	feedback	size22	NA	NA	NA	NA	1	49	mayor tamaño	mayor tamaño		big_pink_bucket	1	S			FALSE	FALSE	FALSE	TRUE	FALSE
+S4kr4v62hXL4LYC7D	Spanish	feedback	size22	NA	NA	NA	NA	1	39	biggest	biggest		big_grey_rock	1		ENGLISH		FALSE	FALSE	FALSE	TRUE	FALSE
+S4kr4v62hXL4LYC7D	Spanish	feedback	size22	NA	NA	NA	NA	1	59	smallest	smallest		small_purple_bracelet	1		ENGLISH		FALSE	FALSE	FALSE	TRUE	FALSE
+bYnFuaH8d9Dkp54C5	Spanish	feedback	size22	NA	NA	NA	NA	1	50	si	si	es pequeño ?	small_red_scarf	1		GUESSER-RESPONSE		FALSE	FALSE	FALSE	TRUE	FALSE
+bYnFuaH8d9Dkp54C5	Spanish	feedback	size22	NA	NA	NA	NA	1	59	si	si	es pequeño vrdd ?	small_green_pepper	1		GUESSER-RESPONSE		FALSE	FALSE	FALSE	TRUE	FALSE
+jbp9GcgfoE26diyWb	Spanish	feedback	size22	NA	NA	NA	NA	1	17	la más grande	la más grande		big_purple_bike	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+jbp9GcgfoE26diyWb	Spanish	feedback	size22	NA	NA	NA	NA	1	41	el más grande	el más grande		big_blue_tack	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+2PA2eTW2JBioGPq2S	Spanish	feedback	size22	NA	NA	NA	NA	1	15	pequeño	pequeño		small_red_pepper	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+2PA2eTW2JBioGPq2S	Spanish	feedback	size22	NA	NA	NA	NA	1	47	grande	grande		big_brown_belt	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+QC9QPrwjj6RsY6hks	Spanish	feedback	size22	NA	NA	NA	NA	1	8	el más grande	el más grande		big_pink_framee	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+QC9QPrwjj6RsY6hks	Spanish	feedback	size22	NA	NA	NA	NA	1	66	pequeño	pequeño		small_green_jacket	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+aSJ3S2g3n7c5XYeuq	Spanish	feedback	size22	NA	NA	NA	NA	1	46	big one	big one		big_red_stapler	1		ENGLISH		FALSE	FALSE	FALSE	TRUE	FALSE
+aSJ3S2g3n7c5XYeuq	Spanish	feedback	size22	NA	NA	NA	NA	1	59	small	small		small_orange_billiardball	1		ENGLISH		FALSE	FALSE	FALSE	TRUE	FALSE
+SZ8Bs9kQ4wkYwTsFm	Spanish	feedback	size22	NA	NA	NA	NA	1	22	el más grande	el más grande		big_pink_framee	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+SZ8Bs9kQ4wkYwTsFm	Spanish	feedback	size22	NA	NA	NA	NA	1	72	el más pequeño	el más pequeño		small_white_shoe	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+ZeAdhLHahHwqnn9MG	Spanish	feedback	size22	NA	NA	NA	NA	1	15	taza blanca grande	taza blanca grande		big_white_teacup	1	NCS			TRUE	TRUE	FALSE	TRUE	TRUE
+ZeAdhLHahHwqnn9MG	Spanish	feedback	size22	NA	NA	NA	NA	1	51	chico	chico		small_black_book	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+3j4nmgjGw5svrxehe	Spanish	feedback	size22	NA	NA	NA	NA	1	14	el más chico	el más chico		small_yellow_balloon	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+3j4nmgjGw5svrxehe	Spanish	feedback	size22	NA	NA	NA	NA	1	54	el chico	el chico		small_blue_rug	1	AS			FALSE	TRUE	FALSE	TRUE	TRUE
+yzi4tHBHqvsoo3nn5	Spanish	feedback	size22	NA	NA	NA	NA	1	1	mariposa pequeña	mariposa pequeña		small_purple_butterfly	1	NS			FALSE	TRUE	TRUE	TRUE	FALSE
+yzi4tHBHqvsoo3nn5	Spanish	feedback	size22	NA	NA	NA	NA	1	41	peine mas grande	peine mas grande		big_blue_comb	1	NS	comparative		FALSE	TRUE	TRUE	TRUE	FALSE
+g7vxxhW2jevjbHBv8	Spanish	feedback	size22	NA	NA	NA	NA	1	63	la más chica	la más chica		small_blue_cap	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+g7vxxhW2jevjbHBv8	Spanish	feedback	size22	NA	NA	NA	NA	1	69	la más grande	la más grande		big_white_shoe	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+woScH39WSn3r8vT9s	Spanish	feedback	size22	NA	NA	NA	NA	1	59	el mas pequeño	el mas pequeño		small_white_weddingcake	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+woScH39WSn3r8vT9s	Spanish	feedback	size22	NA	NA	NA	NA	1	72	la mas pequeña	la mas pequeña		small_blue_scarf	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+6ghf7bahMwk2Gum9F	Spanish	feedback	size22	NA	NA	NA	NA	1	22	mas pequeño	mas pequeño		small_green_binder	1	S	comparative		FALSE	TRUE	FALSE	TRUE	FALSE
+6ghf7bahMwk2Gum9F	Spanish	feedback	size22	NA	NA	NA	NA	1	66	mas grande	mas grande		big_brown_jacket	1	S	comparative		FALSE	TRUE	FALSE	TRUE	FALSE
+7byBpzzTrLBTrRaSW	Spanish	feedback	size22	NA	NA	NA	NA	1	19	pequeña	pequeña		small_purple_flower	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+7byBpzzTrLBTrRaSW	Spanish	feedback	size22	NA	NA	NA	NA	1	58	grande	grande		big_red_scarf	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+Ndey5riTwZPPn8eqi	Spanish	feedback	size22	NA	NA	NA	NA	1	51	sí	sí	pequeño?	small_red_bike	1		GUESSER-RESPONSE		FALSE	FALSE	FALSE	TRUE	FALSE
+Ndey5riTwZPPn8eqi	Spanish	feedback	size22	NA	NA	NA	NA	1	52	sí	sí	grande?	big_red_flower	1		GUESSER-RESPONSE		FALSE	FALSE	FALSE	TRUE	FALSE
+e85bNvHjAANCEpjwF	Spanish	feedback	size22	NA	NA	NA	NA	1	30	mas pequeño	mas pequeño		small_red_chair	1	S	comparative		FALSE	TRUE	FALSE	TRUE	FALSE
+e85bNvHjAANCEpjwF	Spanish	feedback	size22	NA	NA	NA	NA	1	51	mas chico	mas chico		small_blue_book	1	S	comparative		FALSE	TRUE	FALSE	TRUE	FALSE
+BnA3FeomaYQsW7WNG	Spanish	feedback	size22	NA	NA	NA	NA	1	16	pequeño	pequeño		small_yellow_bellpepper	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+BnA3FeomaYQsW7WNG	Spanish	feedback	size22	NA	NA	NA	NA	1	30	grande	grande		big_orange_napkin	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+GZ4Bi32LYs5JLP3dn	Spanish	feedback	size22	NA	NA	NA	NA	1	54	mas chico	mas chico		small_white_teacup	1	S	comparative		FALSE	TRUE	FALSE	TRUE	FALSE
+GZ4Bi32LYs5JLP3dn	Spanish	feedback	size22	NA	NA	NA	NA	1	61	mas grande	mas grande		big_orange_coathanger	1	S	comparative		FALSE	TRUE	FALSE	TRUE	FALSE
+GetM4rtofxHS3ga5m	Spanish	feedback	size22	NA	NA	NA	NA	1	34	la figura mas pequeña	la figura mas pequeña		small_yellow_napkin	1	AS	N?		FALSE	TRUE	FALSE	TRUE	TRUE
+GetM4rtofxHS3ga5m	Spanish	feedback	size22	NA	NA	NA	NA	1	64	la guitarra mas pequeña	la guitarra mas pequeña		small_blue_guitar	1	ANS	superlative		FALSE	TRUE	TRUE	TRUE	TRUE
+z7BQy72TNHyrXNdby	Spanish	feedback	size22	NA	NA	NA	NA	1	61	el pequeño	el pequeño		small_green_chair	1	AS			FALSE	TRUE	FALSE	TRUE	TRUE
+z7BQy72TNHyrXNdby	Spanish	feedback	size22	NA	NA	NA	NA	1	67	el grande	el grande		big_black_belt	1	AS			FALSE	TRUE	FALSE	TRUE	TRUE
+5iXGA8yrtbLNsFb8x	Spanish	feedback	size22	NA	NA	NA	NA	1	31	la más grande	la más grande		big_purple_stapler	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+5iXGA8yrtbLNsFb8x	Spanish	feedback	size22	NA	NA	NA	NA	1	66	grande	grande		big_tan_rock	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+i9kH9EnohLzqAaboq	Spanish	feedback	size31	NA	NA	NA	NA	1	21	es morado y grande.	es morado y grande.		big_purple_coathanger	1	CS	conjunction		TRUE	TRUE	FALSE	TRUE	FALSE
+i9kH9EnohLzqAaboq	Spanish	feedback	size31	NA	NA	NA	NA	1	71	es el más grande.	es el más grande.		big_green_chair	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+XZtfg4k35HZQbAaKS	Spanish	feedback	size31	NA	NA	NA	NA	1	22	pequeña	pequeña		small_orange_pingpongball	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+XZtfg4k35HZQbAaKS	Spanish	feedback	size31	NA	NA	NA	NA	1	45	grande	grande		big_green_bracelet	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+5uPb46X29k7aKpKos	Spanish	feedback	size31	NA	NA	NA	NA	1	11	diferente tamaño	diferente tamaño		big_yellow_shoe	1		bleached contrast		FALSE	FALSE	FALSE	TRUE	FALSE
+5uPb46X29k7aKpKos	Spanish	feedback	size31	NA	NA	NA	NA	1	42	diferente tamaño	diferente tamaño		small_red_tack	1		bleached contrast		FALSE	FALSE	FALSE	TRUE	FALSE
+6548bWiJoGcuX59Zp	Spanish	feedback	size31	NA	NA	NA	NA	1	64	grande	grande		big_red_bike	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+6548bWiJoGcuX59Zp	Spanish	feedback	size31	NA	NA	NA	NA	1	65	grande	grande		big_white_weddingcake	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+MvesSZxmNwRWxpMDF	Spanish	feedback	size31	NA	NA	NA	NA	1	27	morado mas grande	morado mas grande		big_purple_bracelet	1	CS	comparative		TRUE	TRUE	FALSE	TRUE	FALSE
+MvesSZxmNwRWxpMDF	Spanish	feedback	size31	NA	NA	NA	NA	1	62	pequeño	pequeño		small_pink_teacup	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+RcCbHw4ML3ei95SZP	Spanish	feedback	size31	NA	NA	NA	NA	1	12	la mas pequeña	la mas pequeña		small_purple_billiardball	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+RcCbHw4ML3ei95SZP	Spanish	feedback	size31	NA	NA	NA	NA	1	71	el mas grande de los 4, rosa (hay otro igual mas pequeño)	el mas grande de los 4, rosa (hay otro igual mas pequeño)		big_pink_balloon	1	ASC	superlative		TRUE	TRUE	FALSE	TRUE	TRUE
+Cisj4o5sAv9g8rbmS	Spanish	feedback	size31	NA	NA	NA	NA	1	42	roja mas chica	roja mas chica		small_red_stapler	1	CS	comparative		TRUE	TRUE	FALSE	TRUE	FALSE
+Cisj4o5sAv9g8rbmS	Spanish	feedback	size31	NA	NA	NA	NA	1	71	imagen mas grande	imagen mas grande		big_tan_rock	1	S	comparative		FALSE	TRUE	FALSE	TRUE	FALSE
+rh7GW6WH2awWyB4Kx	Spanish	feedback	size31	NA	NA	NA	NA	1	53	peequeño	peequeño		small_yellow_balloon	1	S			FALSE	FALSE	FALSE	TRUE	FALSE
+rh7GW6WH2awWyB4Kx	Spanish	feedback	size31	NA	NA	NA	NA	1	65	pequeña	pequeña		small_grey_rock	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+oPMCjJ3aFSj92CzNA	Spanish	feedback	size31	NA	NA	NA	NA	1	20	peine azul, el más pequeño	peine azul, el más pequeño		small_blue_comb	1	NCAS	superlative		TRUE	TRUE	TRUE	TRUE	TRUE
+oPMCjJ3aFSj92CzNA	Spanish	feedback	size31	NA	NA	NA	NA	1	35	la roja más grande	la roja más grande		big_red_scarf	1	ACS	superlative		TRUE	TRUE	FALSE	TRUE	TRUE
+bDqu8DtgmaBkuLzTC	Spanish	feedback	size31	NA	NA	NA	NA	1	7	es pequeña	es pequeña		small_blue_guitar	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+bDqu8DtgmaBkuLzTC	Spanish	feedback	size31	NA	NA	NA	NA	1	63	es mas grande	es mas grande		big_pink_teacup	1	S	comparative		FALSE	TRUE	FALSE	TRUE	FALSE
+6NunwfhDpBsQMdZXp	Spanish	feedback	size31	NA	NA	NA	NA	1	23	grande	grande		big_green_jacket	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+6NunwfhDpBsQMdZXp	Spanish	feedback	size31	NA	NA	NA	NA	1	45	mayor tamaño__rojo	mayor tamaño		big_orange_billiardball	1	S			FALSE	FALSE	FALSE	TRUE	FALSE
+S4kr4v62hXL4LYC7D	Spanish	feedback	size31	NA	NA	NA	NA	2	19	purple, the lighter one	purple, the lighter one		small_purple_rug	0		ENGLISH		FALSE	FALSE	FALSE	TRUE	FALSE
+S4kr4v62hXL4LYC7D	Spanish	feedback	size31	NA	NA	NA	NA	1	33	orange circule, the biggest	orange circule, the biggest		big_orange_pingpongball	1		ENGLISH		FALSE	FALSE	FALSE	TRUE	FALSE
+bYnFuaH8d9Dkp54C5	Spanish	feedback	size31	NA	NA	NA	NA	1	46	sí	sí	es pequeño?	small_purple_butterfly	1		GUESSER-RESPONSE		FALSE	FALSE	FALSE	TRUE	FALSE
+bYnFuaH8d9Dkp54C5	Spanish	feedback	size31	NA	NA	NA	NA	1	71	si__si	si	es rojo ?__pequeño ?	small_red_stapler	1		GUESSER-RESPONSE		FALSE	FALSE	FALSE	TRUE	FALSE
+jbp9GcgfoE26diyWb	Spanish	feedback	size31	NA	NA	NA	NA	1	2	la vela más pequeña	la vela más pequeña		small_blue_candle	1	ANS	superlative		FALSE	TRUE	TRUE	TRUE	TRUE
+jbp9GcgfoE26diyWb	Spanish	feedback	size31	NA	NA	NA	NA	1	55	la más pequeña	la más pequeña		small_brown_turtle	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+2PA2eTW2JBioGPq2S	Spanish	feedback	size31	NA	NA	NA	NA	1	8	cepillo pequeño	cepillo pequeño		small_blue_toothbrush	1	NS			FALSE	TRUE	FALSE	TRUE	FALSE
+2PA2eTW2JBioGPq2S	Spanish	feedback	size31	NA	NA	NA	NA	1	11	pulsera grande	pulsera grande		big_green_bracelet	1	NS			FALSE	TRUE	TRUE	TRUE	FALSE
+QC9QPrwjj6RsY6hks	Spanish	feedback	size31	NA	NA	NA	NA	1	14	el pequeño	el pequeño		small_white_phone	1	AS			FALSE	TRUE	FALSE	TRUE	TRUE
+QC9QPrwjj6RsY6hks	Spanish	feedback	size31	NA	NA	NA	NA	1	34	la grande	la grande		big_black_turtle	1	AS			FALSE	TRUE	FALSE	TRUE	TRUE
+aSJ3S2g3n7c5XYeuq	Spanish	feedback	size31	NA	NA	NA	NA	1	13	smaller one/ pequeño	smaller one/ pequeño		small_red_flower	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+aSJ3S2g3n7c5XYeuq	Spanish	feedback	size31	NA	NA	NA	NA	1	51	big one	big one		big_blue_butterfly	1		ENGLISH		FALSE	FALSE	FALSE	TRUE	FALSE
+SZ8Bs9kQ4wkYwTsFm	Spanish	feedback	size31	NA	NA	NA	NA	1	3	es pequeña__color café__es la más chica de todas	es pequeña		small_brown_turtle	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+SZ8Bs9kQ4wkYwTsFm	Spanish	feedback	size31	NA	NA	NA	NA	1	12	color blanco__el más pequeño	color blanco		small_white_phone	1	C			TRUE	FALSE	FALSE	TRUE	TRUE
+ZeAdhLHahHwqnn9MG	Spanish	feedback	size31	NA	NA	NA	NA	1	40	roca grande	roca grande		big_grey_rock	1	NS			FALSE	TRUE	FALSE	TRUE	FALSE
+ZeAdhLHahHwqnn9MG	Spanish	feedback	size31	NA	NA	NA	NA	1	43	azul chica	azul chica		small_blue_rug	1	CS			TRUE	TRUE	FALSE	TRUE	FALSE
+3j4nmgjGw5svrxehe	Spanish	feedback	size31	NA	NA	NA	NA	1	11	la azul grande	la azul grande		big_blue_butterfly	1	ACS			TRUE	TRUE	FALSE	TRUE	TRUE
+3j4nmgjGw5svrxehe	Spanish	feedback	size31	NA	NA	NA	NA	1	31	el peine negro grande	el peine negro grande		big_black_comb	1	ANCS			TRUE	TRUE	TRUE	TRUE	TRUE
+yzi4tHBHqvsoo3nn5	Spanish	feedback	size31	NA	NA	NA	NA	1	40	pulsera mas pequeña	pulsera mas pequeña		small_purple_bracelet	1	NS	comparative		FALSE	TRUE	TRUE	TRUE	FALSE
+yzi4tHBHqvsoo3nn5	Spanish	feedback	size31	NA	NA	NA	NA	1	72	balde rojo pequeño	balde rojo pequeño		small_red_bucket	1	NCS			TRUE	TRUE	TRUE	TRUE	FALSE
+g7vxxhW2jevjbHBv8	Spanish	feedback	size31	NA	NA	NA	NA	1	23	es el más grande de todos y rosa	es el más grande de todos y rosa		big_pink_weddingcake	1	ASC	superlative		TRUE	TRUE	FALSE	TRUE	TRUE
+g7vxxhW2jevjbHBv8	Spanish	feedback	size31	NA	NA	NA	NA	1	67	la más grande, color blanco	la más grande, color blanco		big_white_teacup	1	ASC	superlative		TRUE	TRUE	FALSE	TRUE	TRUE
+woScH39WSn3r8vT9s	Spanish	feedback	size31	NA	NA	NA	NA	1	28	la mas grande	la mas grande		big_red_tack	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+woScH39WSn3r8vT9s	Spanish	feedback	size31	NA	NA	NA	NA	1	58	el verde grande	el verde grande		big_green_chair	1	ACS			TRUE	TRUE	FALSE	TRUE	TRUE
+6ghf7bahMwk2Gum9F	Spanish	feedback	size31	NA	NA	NA	NA	1	25	azul grande	azul grande		big_blue_butterfly	1	CS			TRUE	TRUE	FALSE	TRUE	FALSE
+6ghf7bahMwk2Gum9F	Spanish	feedback	size31	NA	NA	NA	NA	1	32	rojo pequeño	rojo pequeño		small_red_bellpepper	1	CS			TRUE	TRUE	FALSE	TRUE	FALSE
+7byBpzzTrLBTrRaSW	Spanish	feedback	size31	NA	NA	NA	NA	1	15	pequeña	pequeña		small_brown_turtle	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+7byBpzzTrLBTrRaSW	Spanish	feedback	size31	NA	NA	NA	NA	1	64	pequeña	pequeña		small_white_teacup	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+Ndey5riTwZPPn8eqi	Spanish	feedback	size31	NA	NA	NA	NA	1	14	sí	sí	pequeño__?	small_purple_hairdryer	1		GUESSER-RESPONSE		FALSE	FALSE	FALSE	TRUE	FALSE
+Ndey5riTwZPPn8eqi	Spanish	feedback	size31	NA	NA	NA	NA	1	47	sí	sí	pequeño?	small_red_tack	1		GUESSER-RESPONSE		FALSE	FALSE	FALSE	TRUE	FALSE
+e85bNvHjAANCEpjwF	Spanish	feedback	size31	NA	NA	NA	NA	1	1	its green__es verde__it's the shape of a box__you choose__ok__es la forma geometrica 2d de una caja	its green	how big__first of all eng o esp?__dont care both of them are ok to me__is the size of the box equal to the pink ones or its different	small_green_framee	1		ENGLISH		FALSE	FALSE	FALSE	TRUE	FALSE
+e85bNvHjAANCEpjwF	Spanish	feedback	size31	NA	NA	NA	NA	1	66	mas grande	mas grande		big_orange_cap	1	S	comparative		FALSE	TRUE	FALSE	TRUE	FALSE
+BnA3FeomaYQsW7WNG	Spanish	feedback	size31	NA	NA	NA	NA	1	45	grande	grande		big_white_shoe	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+BnA3FeomaYQsW7WNG	Spanish	feedback	size31	NA	NA	NA	NA	1	53	pequeño	pequeño		small_white_pingpongball	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+GZ4Bi32LYs5JLP3dn	Spanish	feedback	size31	NA	NA	NA	NA	1	19	azul grande	azul grande		big_blue_rug	1	CS			TRUE	TRUE	FALSE	TRUE	FALSE
+GZ4Bi32LYs5JLP3dn	Spanish	feedback	size31	NA	NA	NA	NA	1	63	morado grande	morado grande		big_pink_balloon	1	CS			TRUE	TRUE	FALSE	TRUE	FALSE
+GetM4rtofxHS3ga5m	Spanish	feedback	size31	NA	NA	NA	NA	1	48	el globo rosa mas pequeño	el globo rosa mas pequeño		small_pink_balloon	1	ANCS	superlative		TRUE	TRUE	TRUE	TRUE	TRUE
+GetM4rtofxHS3ga5m	Spanish	feedback	size31	NA	NA	NA	NA	1	61	la pulsera verde mas pequeña	la pulsera verde mas pequeña		small_green_bracelet	1	ANCS	superlative		TRUE	TRUE	TRUE	TRUE	TRUE
+z7BQy72TNHyrXNdby	Spanish	feedback	size31	NA	NA	NA	NA	1	9	gorra pequeña	gorra pequeña		small_orange_cap	1	NS			FALSE	TRUE	TRUE	TRUE	FALSE
+z7BQy72TNHyrXNdby	Spanish	feedback	size31	NA	NA	NA	NA	1	18	folder grande	folder grande		big_green_binder	1	NS			FALSE	TRUE	FALSE	TRUE	FALSE
+5iXGA8yrtbLNsFb8x	Spanish	feedback	size31	NA	NA	NA	NA	1	3	tiene costuras y es del color del sol__la más grande	tiene costuras y es del color del sol	las dos tienen costuras pero una es mas grande cual es	big_orange_cap	1	C			FALSE	FALSE	FALSE	TRUE	TRUE
+5iXGA8yrtbLNsFb8x	Spanish	feedback	size31	NA	NA	NA	NA	1	35	la más grande	la más grande		big_green_jacket	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+i9kH9EnohLzqAaboq	Spanish	feedback	size32	NA	NA	NA	NA	1	16	es el más pequeño.	es el más pequeño.		small_red_pepper	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+i9kH9EnohLzqAaboq	Spanish	feedback	size32	NA	NA	NA	NA	1	25	el más grande.	el más grande.		big_blue_candle	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+XZtfg4k35HZQbAaKS	Spanish	feedback	size32	NA	NA	NA	NA	1	19	pequeño	pequeño		small_white_weddingcake	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+XZtfg4k35HZQbAaKS	Spanish	feedback	size32	NA	NA	NA	NA	1	42	grande	grande		big_blue_scarf	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+5uPb46X29k7aKpKos	Spanish	feedback	size32	NA	NA	NA	NA	1	2	diferente tamaño	diferente tamaño		big_green_chair	1		bleached contrast		FALSE	FALSE	FALSE	TRUE	FALSE
+5uPb46X29k7aKpKos	Spanish	feedback	size32	NA	NA	NA	NA	1	41	diferente tamaño	diferente tamaño		small_green_guitar	1		bleached contrast		FALSE	FALSE	FALSE	TRUE	FALSE
+6548bWiJoGcuX59Zp	Spanish	feedback	size32	NA	NA	NA	NA	1	57	morado grande	morado grande		big_purple_yarn	1	CS			TRUE	TRUE	FALSE	TRUE	FALSE
+6548bWiJoGcuX59Zp	Spanish	feedback	size32	NA	NA	NA	NA	1	70	menor	menor		small_orange_billiardball	1	S			FALSE	FALSE	FALSE	TRUE	FALSE
+MvesSZxmNwRWxpMDF	Spanish	feedback	size32	NA	NA	NA	NA	1	20	pequeño	pequeño		small_blue_book	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+MvesSZxmNwRWxpMDF	Spanish	feedback	size32	NA	NA	NA	NA	1	70	grande	grande		big_purple_hairdryer	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+RcCbHw4ML3ei95SZP	Spanish	feedback	size32	NA	NA	NA	NA	1	7	grande, la unica diferente en tamaño	grande, la unica diferente en tamaño		big_brown_belt	1	S			FALSE	TRUE	FALSE	TRUE	TRUE
+RcCbHw4ML3ei95SZP	Spanish	feedback	size32	NA	NA	NA	NA	1	67	la mas pequeña	la mas pequeña		small_red_scarf	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+Cisj4o5sAv9g8rbmS	Spanish	feedback	size32	NA	NA	NA	NA	1	1	es  colo de los pitufos__el mas chiquito	es  colo de los pitufos	es chiquito o grande?	small_blue_binder	1	S			FALSE	FALSE	FALSE	TRUE	TRUE
+Cisj4o5sAv9g8rbmS	Spanish	feedback	size32	NA	NA	NA	NA	1	24	imagen mas grande	imagen mas grande		big_purple_bracelet	1	S	comparative		FALSE	TRUE	FALSE	TRUE	FALSE
+rh7GW6WH2awWyB4Kx	Spanish	feedback	size32	NA	NA	NA	NA	1	19	grande	grande		big_purple_hairdryer	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+rh7GW6WH2awWyB4Kx	Spanish	feedback	size32	NA	NA	NA	NA	1	32	pequeño	pequeño		small_pink_phone	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+oPMCjJ3aFSj92CzNA	Spanish	feedback	size32	NA	NA	NA	NA	1	59	la ma´s pequeña	la ma´s pequeña		small_tan_rock	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+oPMCjJ3aFSj92CzNA	Spanish	feedback	size32	NA	NA	NA	NA	1	65	la más grande	la más grande		big_pink_bucket	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+bDqu8DtgmaBkuLzTC	Spanish	feedback	size32	NA	NA	NA	NA	1	18	es mas grande	es mas grande		big_red_candle	1	S	comparative		FALSE	TRUE	FALSE	TRUE	FALSE
+bDqu8DtgmaBkuLzTC	Spanish	feedback	size32	NA	NA	NA	NA	1	29	es mas pequeña	es mas pequeña		small_white_weddingcake	1	S	comparative		FALSE	TRUE	FALSE	TRUE	FALSE
+6NunwfhDpBsQMdZXp	Spanish	feedback	size32	NA	NA	NA	NA	1	52	mayor tamaño	mayor tamaño		big_blue_rug	1	S			FALSE	FALSE	FALSE	TRUE	FALSE
+6NunwfhDpBsQMdZXp	Spanish	feedback	size32	NA	NA	NA	NA	1	54	mas pequeño	mas pequeño		small_purple_coathanger	1	S	comparative		FALSE	TRUE	FALSE	TRUE	FALSE
+S4kr4v62hXL4LYC7D	Spanish	feedback	size32	NA	NA	NA	NA	1	69	small, red	small, red		small_red_pepper	1		ENGLISH		FALSE	FALSE	FALSE	TRUE	FALSE
+S4kr4v62hXL4LYC7D	Spanish	feedback	size32	NA	NA	NA	NA	1	72	smallest, orange	smallest, orange		small_orange_billiardball	1		ENGLISH		FALSE	FALSE	FALSE	TRUE	FALSE
+bYnFuaH8d9Dkp54C5	Spanish	feedback	size32	NA	NA	NA	NA	4	32	sí	sí	es azul ?	small_blue_cap	0		GUESSER-RESPONSE		FALSE	FALSE	FALSE	TRUE	FALSE
+bYnFuaH8d9Dkp54C5	Spanish	feedback	size32	NA	NA	NA	NA	1	34	no__sí	no	es morado ?__es grande ?	big_orange_billiardball	1		GUESSER-RESPONSE		FALSE	FALSE	FALSE	TRUE	FALSE
+jbp9GcgfoE26diyWb	Spanish	feedback	size32	NA	NA	NA	NA	1	34	pulsera verde más grande	pulsera verde más grande		big_green_bracelet	1	NCS	comparative		TRUE	TRUE	TRUE	TRUE	FALSE
+jbp9GcgfoE26diyWb	Spanish	feedback	size32	NA	NA	NA	NA	1	40	cinturon cafe más grande	cinturon cafe más grande		big_brown_belt	1	NCS	comparative		TRUE	TRUE	TRUE	TRUE	FALSE
+2PA2eTW2JBioGPq2S	Spanish	feedback	size32	NA	NA	NA	NA	1	19	grande	grande		big_blue_butterfly	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+2PA2eTW2JBioGPq2S	Spanish	feedback	size32	NA	NA	NA	NA	1	48	pequeña	pequeña		small_purple_bike	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+QC9QPrwjj6RsY6hks	Spanish	feedback	size32	NA	NA	NA	NA	1	12	el más pequeño	el más pequeño		small_brown_belt	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+QC9QPrwjj6RsY6hks	Spanish	feedback	size32	NA	NA	NA	NA	1	44	la guitarra grande	la guitarra grande		big_green_guitar	1	ANS			FALSE	TRUE	TRUE	TRUE	TRUE
+aSJ3S2g3n7c5XYeuq	Spanish	feedback	size32	NA	NA	NA	NA	1	25	big one	big one		big_red_candle	1		ENGLISH		FALSE	FALSE	FALSE	TRUE	FALSE
+aSJ3S2g3n7c5XYeuq	Spanish	feedback	size32	NA	NA	NA	NA	1	65	smaller	smaller		small_blue_scarf	1		ENGLISH		FALSE	FALSE	FALSE	TRUE	FALSE
+SZ8Bs9kQ4wkYwTsFm	Spanish	feedback	size32	NA	NA	NA	NA	1	16	es dorado__el más grande	es dorado	rosa?	big_yellow_balloon	1				FALSE	FALSE	FALSE	TRUE	FALSE
+SZ8Bs9kQ4wkYwTsFm	Spanish	feedback	size32	NA	NA	NA	NA	1	58	café__pequeña	café		small_brown_jacket	1	S			FALSE	FALSE	FALSE	TRUE	FALSE
+ZeAdhLHahHwqnn9MG	Spanish	feedback	size32	NA	NA	NA	NA	1	12	peine negro, al lado del azul	peine negro, al lado del azul		big_black_comb	1	NC			TRUE	FALSE	TRUE	TRUE	TRUE
+ZeAdhLHahHwqnn9MG	Spanish	feedback	size32	NA	NA	NA	NA	1	47	azul chica	azul chica		small_blue_candle	1	CS			TRUE	TRUE	FALSE	TRUE	FALSE
+3j4nmgjGw5svrxehe	Spanish	feedback	size32	NA	NA	NA	NA	1	35	chile verde grande	chile verde grande		big_green_pepper	1	NCS			TRUE	TRUE	TRUE	TRUE	FALSE
+3j4nmgjGw5svrxehe	Spanish	feedback	size32	NA	NA	NA	NA	1	55	el chico blanco	el chico blanco		small_white_phone	1	ASC			TRUE	TRUE	FALSE	TRUE	TRUE
+yzi4tHBHqvsoo3nn5	Spanish	feedback	size32	NA	NA	NA	NA	1	43	roca pequeña	roca pequeña		small_tan_rock	1	NS			FALSE	TRUE	FALSE	TRUE	FALSE
+yzi4tHBHqvsoo3nn5	Spanish	feedback	size32	NA	NA	NA	NA	1	44	guitarra mas grande	guitarra mas grande		big_green_guitar	1	NS	comparative		FALSE	TRUE	TRUE	TRUE	FALSE
+g7vxxhW2jevjbHBv8	Spanish	feedback	size32	NA	NA	NA	NA	1	36	la más pequeña	la más pequeña		small_pink_bucket	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+g7vxxhW2jevjbHBv8	Spanish	feedback	size32	NA	NA	NA	NA	1	46	es el más pequeño verde	es el más pequeño verde		small_green_chair	1	ASC	superlative		TRUE	TRUE	FALSE	TRUE	TRUE
+woScH39WSn3r8vT9s	Spanish	feedback	size32	NA	NA	NA	NA	1	5	el mas grande	el mas grande		big_yellow_bellpepper	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+woScH39WSn3r8vT9s	Spanish	feedback	size32	NA	NA	NA	NA	1	55	la mas grande	la mas grande		big_yellow_napkin	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+6ghf7bahMwk2Gum9F	Spanish	feedback	size32	NA	NA	NA	NA	1	7	naranja pequeño	naranja pequeño		small_orange_cap	1	CS			TRUE	TRUE	FALSE	TRUE	FALSE
+6ghf7bahMwk2Gum9F	Spanish	feedback	size32	NA	NA	NA	NA	1	64	blanca pequeña	blanca pequeña		small_white_teacup	1	CS			TRUE	TRUE	FALSE	TRUE	TRUE
+7byBpzzTrLBTrRaSW	Spanish	feedback	size32	NA	NA	NA	NA	1	9	lejano	lejano		small_red_bike	1		size by perspective?		FALSE	FALSE	FALSE	TRUE	FALSE
+7byBpzzTrLBTrRaSW	Spanish	feedback	size32	NA	NA	NA	NA	1	60	enorme	enorme		big_purple_coathanger	1	S			FALSE	FALSE	FALSE	TRUE	FALSE
+Ndey5riTwZPPn8eqi	Spanish	feedback	size32	NA	NA	NA	NA	1	18	pequeño	pequeño	rosa?	small_blue_butterfly	1	S	GUESSER-RESPONSE		FALSE	TRUE	FALSE	TRUE	FALSE
+Ndey5riTwZPPn8eqi	Spanish	feedback	size32	NA	NA	NA	NA	1	45	no__sí	no	verde?__grande?	big_purple_bracelet	1		GUESSER-RESPONSE		FALSE	FALSE	FALSE	TRUE	FALSE
+e85bNvHjAANCEpjwF	Spanish	feedback	size32	NA	NA	NA	NA	1	61	mas chico	mas chico		small_red_bellpepper	1	S	comparative		FALSE	TRUE	FALSE	TRUE	FALSE
+e85bNvHjAANCEpjwF	Spanish	feedback	size32	NA	NA	NA	NA	1	67	mas chico	mas chico		small_purple_rug	1	S	comparative		FALSE	TRUE	FALSE	TRUE	FALSE
+BnA3FeomaYQsW7WNG	Spanish	feedback	size32	NA	NA	NA	NA	1	19	pequeño	pequeño		small_pink_hairdryer	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+BnA3FeomaYQsW7WNG	Spanish	feedback	size32	NA	NA	NA	NA	1	41	pequeño	pequeño		small_pink_bucket	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+GZ4Bi32LYs5JLP3dn	Spanish	feedback	size32	NA	NA	NA	NA	1	6	el verde de mayor tamaño	el verde de mayor tamaño		big_green_binder	1	ACS	superlative		TRUE	FALSE	FALSE	TRUE	TRUE
+GZ4Bi32LYs5JLP3dn	Spanish	feedback	size32	NA	NA	NA	NA	1	28	tortuga mas grande	tortuga mas grande		big_brown_turtle	1	NS	comparative		FALSE	TRUE	TRUE	TRUE	FALSE
+GetM4rtofxHS3ga5m	Spanish	feedback	size32	NA	NA	NA	NA	1	17	pimiento amarillo mas grande	pimiento amarillo mas grande		big_yellow_bellpepper	1	NCS	comparative		TRUE	TRUE	TRUE	TRUE	FALSE
+GetM4rtofxHS3ga5m	Spanish	feedback	size32	NA	NA	NA	NA	1	43	la mariposa mas grande	la mariposa mas grande		big_purple_butterfly	1	ANS	superlative		FALSE	TRUE	TRUE	TRUE	TRUE
+z7BQy72TNHyrXNdby	Spanish	feedback	size32	NA	NA	NA	NA	1	8	flor pequeña	flor pequeña		small_red_flower	1	NS			FALSE	TRUE	TRUE	TRUE	FALSE
+z7BQy72TNHyrXNdby	Spanish	feedback	size32	NA	NA	NA	NA	1	58	la grande	la grande		big_grey_rock	1	AS			FALSE	TRUE	FALSE	TRUE	TRUE
+5iXGA8yrtbLNsFb8x	Spanish	feedback	size32	NA	NA	NA	NA	1	37	el más grande	el más grande		big_blue_binder	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+5iXGA8yrtbLNsFb8x	Spanish	feedback	size32	NA	NA	NA	NA	1	60	más grande	más grande		big_purple_bracelet	1	S	comparative		FALSE	TRUE	FALSE	TRUE	FALSE
+i9kH9EnohLzqAaboq	Spanish	feedback	size33	NA	NA	NA	NA	1	55	es el más pequeño.	es el más pequeño.		small_grey_rock	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+i9kH9EnohLzqAaboq	Spanish	feedback	size33	NA	NA	NA	NA	1	60	es el más pequeño.	es el más pequeño.		small_blue_binder	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+XZtfg4k35HZQbAaKS	Spanish	feedback	size33	NA	NA	NA	NA	1	23	peuqñeo	peuqñeo		small_green_chair	1	S			FALSE	FALSE	FALSE	TRUE	FALSE
+XZtfg4k35HZQbAaKS	Spanish	feedback	size33	NA	NA	NA	NA	1	71	grande	grande		big_red_stapler	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+5uPb46X29k7aKpKos	Spanish	feedback	size33	NA	NA	NA	NA	1	15	más pequeño	más pequeño		small_blue_toothbrush	1	S	comparative		FALSE	TRUE	FALSE	TRUE	FALSE
+5uPb46X29k7aKpKos	Spanish	feedback	size33	NA	NA	NA	NA	1	49	más pequeño	más pequeño		small_red_bellpepper	1	S	comparative		FALSE	TRUE	FALSE	TRUE	FALSE
+6548bWiJoGcuX59Zp	Spanish	feedback	size33	NA	NA	NA	NA	1	39	grande	grande		big_green_chair	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+6548bWiJoGcuX59Zp	Spanish	feedback	size33	NA	NA	NA	NA	1	40	grande	grande		big_blue_binder	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+MvesSZxmNwRWxpMDF	Spanish	feedback	size33	NA	NA	NA	NA	1	2	mas grande	mas grande		big_pink_bucket	1	S	comparative		FALSE	TRUE	FALSE	TRUE	FALSE
+MvesSZxmNwRWxpMDF	Spanish	feedback	size33	NA	NA	NA	NA	1	18	mas grande	mas grande		big_white_weddingcake	1	S	comparative		FALSE	TRUE	FALSE	TRUE	FALSE
+RcCbHw4ML3ei95SZP	Spanish	feedback	size33	NA	NA	NA	NA	1	50	la grande de las 4, mismo color (rojo) las otras 3 son iguales	la grande de las 4, mismo color (rojo) las otras 3 son iguales		big_red_yarn	1	ASC	superlative?		TRUE	TRUE	FALSE	TRUE	TRUE
+RcCbHw4ML3ei95SZP	Spanish	feedback	size33	NA	NA	NA	NA	1	68	la mas pequeña	la mas pequeña		small_orange_pingpongball	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+Cisj4o5sAv9g8rbmS	Spanish	feedback	size33	NA	NA	NA	NA	1	21	el mas grande	el mas grande		big_yellow_balloon	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+Cisj4o5sAv9g8rbmS	Spanish	feedback	size33	NA	NA	NA	NA	1	31	imagen mas chica	imagen mas chica		small_purple_flower	1	S	comparative		FALSE	TRUE	FALSE	TRUE	FALSE
+rh7GW6WH2awWyB4Kx	Spanish	feedback	size33	NA	NA	NA	NA	1	20	pequeo}ño	pequeo}ño		small_red_toothbrush	1	S			FALSE	FALSE	FALSE	TRUE	FALSE
+rh7GW6WH2awWyB4Kx	Spanish	feedback	size33	NA	NA	NA	NA	1	42	pequeño	pequeño		small_black_book	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+oPMCjJ3aFSj92CzNA	Spanish	feedback	size33	NA	NA	NA	NA	1	52	el  más pequeño	el  más pequeño		small_orange_coathanger	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+oPMCjJ3aFSj92CzNA	Spanish	feedback	size33	NA	NA	NA	NA	1	57	el más grande	el más grande		big_purple_yarn	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+bDqu8DtgmaBkuLzTC	Spanish	feedback	size33	NA	NA	NA	NA	1	26	es mas grande	es mas grande		big_red_bellpepper	1	S	comparative		FALSE	TRUE	FALSE	TRUE	FALSE
+bDqu8DtgmaBkuLzTC	Spanish	feedback	size33	NA	NA	NA	NA	1	33	es mas grande	es mas grande		big_green_jacket	1	S	comparative		FALSE	TRUE	FALSE	TRUE	FALSE
+6NunwfhDpBsQMdZXp	Spanish	feedback	size33	NA	NA	NA	NA	1	7	pequeño	pequeño		small_blue_toothbrush	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+6NunwfhDpBsQMdZXp	Spanish	feedback	size33	NA	NA	NA	NA	1	65	mas pequeño	mas pequeño		small_white_phone	1	S	comparative		FALSE	TRUE	FALSE	TRUE	FALSE
+S4kr4v62hXL4LYC7D	Spanish	feedback	size33	NA	NA	NA	NA	1	31	the biggest	the biggest		big_white_shoe	1		ENGLISH		FALSE	FALSE	FALSE	TRUE	FALSE
+S4kr4v62hXL4LYC7D	Spanish	feedback	size33	NA	NA	NA	NA	1	71	smallest	smallest		small_pink_phone	1		ENGLISH		FALSE	FALSE	FALSE	TRUE	FALSE
+bYnFuaH8d9Dkp54C5	Spanish	feedback	size33	NA	NA	NA	NA	1	24	si	si	es grande ?	big_purple_flower	1		GUESSER-RESPONSE		FALSE	FALSE	FALSE	TRUE	FALSE
+bYnFuaH8d9Dkp54C5	Spanish	feedback	size33	NA	NA	NA	NA	1	43	si	si	es grande ?	big_purple_bike	1		GUESSER-RESPONSE		FALSE	FALSE	FALSE	TRUE	FALSE
+jbp9GcgfoE26diyWb	Spanish	feedback	size33	NA	NA	NA	NA	1	12	la más grande	la más grande		big_white_teacup	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+jbp9GcgfoE26diyWb	Spanish	feedback	size33	NA	NA	NA	NA	1	25	la más pequeña	la más pequeña		small_orange_napkin	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+2PA2eTW2JBioGPq2S	Spanish	feedback	size33	NA	NA	NA	NA	1	58	grande	grande		big_red_flower	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+2PA2eTW2JBioGPq2S	Spanish	feedback	size33	NA	NA	NA	NA	1	65	grande	grande		big_red_bellpepper	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+QC9QPrwjj6RsY6hks	Spanish	feedback	size33	NA	NA	NA	NA	1	7	el más pequeño	el más pequeño		small_blue_tack	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+QC9QPrwjj6RsY6hks	Spanish	feedback	size33	NA	NA	NA	NA	1	13	la grande	la grande		big_purple_bike	1	AS			FALSE	TRUE	FALSE	TRUE	TRUE
+aSJ3S2g3n7c5XYeuq	Spanish	feedback	size33	NA	NA	NA	NA	1	12	el más grande	el más grande		big_red_toothbrush	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+aSJ3S2g3n7c5XYeuq	Spanish	feedback	size33	NA	NA	NA	NA	1	70	smaller	smaller		small_orange_cap	1		ENGLISH		FALSE	FALSE	FALSE	TRUE	FALSE
+SZ8Bs9kQ4wkYwTsFm	Spanish	feedback	size33	NA	NA	NA	NA	1	66	la más grande	la más grande		big_blue_guitar	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+SZ8Bs9kQ4wkYwTsFm	Spanish	feedback	size33	NA	NA	NA	NA	1	71	la más pequeña	la más pequeña		small_red_stapler	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+ZeAdhLHahHwqnn9MG	Spanish	feedback	size33	NA	NA	NA	NA	1	62	grande	grande		big_white_shoe	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+ZeAdhLHahHwqnn9MG	Spanish	feedback	size33	NA	NA	NA	NA	1	71	grande	grande		big_orange_cushion	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+3j4nmgjGw5svrxehe	Spanish	feedback	size33	NA	NA	NA	NA	1	36	el más chico	el más chico		small_black_belt	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+3j4nmgjGw5svrxehe	Spanish	feedback	size33	NA	NA	NA	NA	1	57	el chico	el chico		small_green_framee	1	AS			FALSE	TRUE	FALSE	TRUE	TRUE
+yzi4tHBHqvsoo3nn5	Spanish	feedback	size33	NA	NA	NA	NA	1	35	bici mas pequeña	bici mas pequeña		small_purple_bike	1	NS	comparative		FALSE	TRUE	FALSE	TRUE	FALSE
+yzi4tHBHqvsoo3nn5	Spanish	feedback	size33	NA	NA	NA	NA	1	39	ovillo mas pequeño	ovillo mas pequeño		small_purple_yarn	1	NS	comparative		FALSE	TRUE	FALSE	TRUE	FALSE
+g7vxxhW2jevjbHBv8	Spanish	feedback	size33	NA	NA	NA	NA	1	8	es más pequeña	es más pequeña		small_green_guitar	1	S	comparative		FALSE	TRUE	FALSE	TRUE	FALSE
+g7vxxhW2jevjbHBv8	Spanish	feedback	size33	NA	NA	NA	NA	1	27	es la más grande	es la más grande		big_red_tack	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+woScH39WSn3r8vT9s	Spanish	feedback	size33	NA	NA	NA	NA	1	19	la mas grande	la mas grande		big_brown_jacket	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+woScH39WSn3r8vT9s	Spanish	feedback	size33	NA	NA	NA	NA	1	24	la mas chica	la mas chica		small_blue_butterfly	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+6ghf7bahMwk2Gum9F	Spanish	feedback	size33	NA	NA	NA	NA	1	13	el mas grande	el mas grande		big_white_shoe	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+6ghf7bahMwk2Gum9F	Spanish	feedback	size33	NA	NA	NA	NA	1	40	globo grande	globo grande		big_yellow_balloon	1	NS			FALSE	TRUE	TRUE	TRUE	FALSE
+7byBpzzTrLBTrRaSW	Spanish	feedback	size33	NA	NA	NA	NA	1	21	pequeña	pequeña		small_blue_cushion	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+7byBpzzTrLBTrRaSW	Spanish	feedback	size33	NA	NA	NA	NA	1	66	grande	grande		big_yellow_napkin	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+Ndey5riTwZPPn8eqi	Spanish	feedback	size33	NA	NA	NA	NA	1	11	sí	sí	pequeño?	small_brown_turtle	1		GUESSER-RESPONSE		FALSE	FALSE	FALSE	TRUE	FALSE
+Ndey5riTwZPPn8eqi	Spanish	feedback	size33	NA	NA	NA	NA	1	59	sí	sí	pequeño	small_blue_toothbrush	1		GUESSER-RESPONSE		FALSE	FALSE	FALSE	TRUE	FALSE
+e85bNvHjAANCEpjwF	Spanish	feedback	size33	NA	NA	NA	NA	1	35	mas grande de todos	mas grande de todos		big_white_shoe	1	S	comparative/superlative		FALSE	TRUE	FALSE	TRUE	FALSE
+e85bNvHjAANCEpjwF	Spanish	feedback	size33	NA	NA	NA	NA	1	68	mas chico	mas chico		small_blue_comb	1	S	comparative		FALSE	TRUE	FALSE	TRUE	FALSE
+BnA3FeomaYQsW7WNG	Spanish	feedback	size33	NA	NA	NA	NA	1	42	pequeño	pequeño		small_blue_toothbrush	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+BnA3FeomaYQsW7WNG	Spanish	feedback	size33	NA	NA	NA	NA	1	66	pequeño	pequeño		small_blue_butterfly	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+GZ4Bi32LYs5JLP3dn	Spanish	feedback	size33	NA	NA	NA	NA	1	29	el mas grande	el mas grande		big_pink_hairdryer	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+GZ4Bi32LYs5JLP3dn	Spanish	feedback	size33	NA	NA	NA	NA	1	40	mas pequeño	mas pequeño		small_pink_framee	1	S	comparative		FALSE	TRUE	FALSE	TRUE	FALSE
+GetM4rtofxHS3ga5m	Spanish	feedback	size33	NA	NA	NA	NA	1	45	el marco mas grande	el marco mas grande		big_pink_framee	1	ANS	superlative		FALSE	TRUE	TRUE	TRUE	TRUE
+GetM4rtofxHS3ga5m	Spanish	feedback	size33	NA	NA	NA	NA	1	69	la flor mas grande	la flor mas grande		big_red_flower	1	ANS	superlative		FALSE	TRUE	TRUE	TRUE	TRUE
+z7BQy72TNHyrXNdby	Spanish	feedback	size33	NA	NA	NA	NA	1	32	la pequeña	la pequeña		small_red_bucket	1	AS			FALSE	TRUE	FALSE	TRUE	TRUE
+z7BQy72TNHyrXNdby	Spanish	feedback	size33	NA	NA	NA	NA	1	70	el grande	el grande		big_purple_yarn	1	AS			FALSE	TRUE	FALSE	TRUE	TRUE
+5iXGA8yrtbLNsFb8x	Spanish	feedback	size33	NA	NA	NA	NA	1	18	la más pequeña	la más pequeña		small_blue_butterfly	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+5iXGA8yrtbLNsFb8x	Spanish	feedback	size33	NA	NA	NA	NA	1	47	más pequeña	más pequeña		small_green_guitar	1	S	comparative		FALSE	TRUE	FALSE	TRUE	FALSE
+i9kH9EnohLzqAaboq	Spanish	feedback	size41	NA	NA	NA	NA	1	20	es el más pequeño.	es el más pequeño.		small_black_comb	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+i9kH9EnohLzqAaboq	Spanish	feedback	size41	NA	NA	NA	NA	1	70	es el más pequeño.	es el más pequeño.		small_purple_hairdryer	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+XZtfg4k35HZQbAaKS	Spanish	feedback	size41	NA	NA	NA	NA	1	52	rosa pequeña	rosa pequeña		small_purple_bike	1	CS			TRUE	TRUE	FALSE	TRUE	FALSE
+XZtfg4k35HZQbAaKS	Spanish	feedback	size41	NA	NA	NA	NA	1	64	grande	grande		big_black_comb	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+5uPb46X29k7aKpKos	Spanish	feedback	size41	NA	NA	NA	NA	1	5	diferente tamaño	diferente tamaño		small_blue_scarf	1		bleached contrast		FALSE	FALSE	FALSE	TRUE	FALSE
+5uPb46X29k7aKpKos	Spanish	feedback	size41	NA	NA	NA	NA	1	72	más pequeño	más pequeño		small_white_phone	1	S	comparative		FALSE	TRUE	FALSE	TRUE	FALSE
+6548bWiJoGcuX59Zp	Spanish	feedback	size41	NA	NA	NA	NA	1	44	naranja grande	naranja grande		big_orange_cap	1	CS			TRUE	TRUE	FALSE	TRUE	FALSE
+6548bWiJoGcuX59Zp	Spanish	feedback	size41	NA	NA	NA	NA	1	63	pequeño	pequeño		small_pink_bucket	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+MvesSZxmNwRWxpMDF	Spanish	feedback	size41	NA	NA	NA	NA	1	43	mas grande	mas grande		big_brown_turtle	1	S	comparative		FALSE	TRUE	FALSE	TRUE	FALSE
+MvesSZxmNwRWxpMDF	Spanish	feedback	size41	NA	NA	NA	NA	1	49	pequeño	pequeño		small_green_chair	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+RcCbHw4ML3ei95SZP	Spanish	feedback	size41	NA	NA	NA	NA	1	22	la silueta mas pequeña	la silueta mas pequeña		small_purple_bike	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+RcCbHw4ML3ei95SZP	Spanish	feedback	size41	NA	NA	NA	NA	1	51	el mas pequeño de todos, amarillo (hay otro mas grande)	el mas pequeño de todos, amarillo (hay otro mas grande)		small_orange_cap	1	ASC	superlative		TRUE	TRUE	FALSE	TRUE	TRUE
+Cisj4o5sAv9g8rbmS	Spanish	feedback	size41	NA	NA	NA	NA	1	37	azul mas chica	azul mas chica		small_blue_scarf	1	CS	comparative		TRUE	TRUE	FALSE	TRUE	FALSE
+Cisj4o5sAv9g8rbmS	Spanish	feedback	size41	NA	NA	NA	NA	1	65	imagen mas chica rosa	imagen mas chica rosa		small_pink_weddingcake	1	SC	comparative		TRUE	TRUE	FALSE	TRUE	FALSE
+rh7GW6WH2awWyB4Kx	Spanish	feedback	size41	NA	NA	NA	NA	1	13	pequeño	pequeño		small_white_pingpongball	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+rh7GW6WH2awWyB4Kx	Spanish	feedback	size41	NA	NA	NA	NA	1	66	amarilo grande	amarilo grande		big_yellow_napkin	1	CS			FALSE	TRUE	FALSE	TRUE	FALSE
+oPMCjJ3aFSj92CzNA	Spanish	feedback	size41	NA	NA	NA	NA	1	30	vela roja, la más grande	vela roja, la más grande		big_red_candle	1	NCAS	superlative		TRUE	TRUE	TRUE	TRUE	TRUE
+oPMCjJ3aFSj92CzNA	Spanish	feedback	size41	NA	NA	NA	NA	1	44	sillon verde, el más pequeño	sillon verde, el más pequeño		small_green_chair	1	NCAS	superlative		TRUE	TRUE	FALSE	TRUE	TRUE
+bDqu8DtgmaBkuLzTC	Spanish	feedback	size41	NA	NA	NA	NA	1	5	es mas grande	es mas grande		big_orange_cushion	1	S	comparative		FALSE	TRUE	FALSE	TRUE	FALSE
+bDqu8DtgmaBkuLzTC	Spanish	feedback	size41	NA	NA	NA	NA	1	72	es mas grande	es mas grande		big_blue_binder	1	S	comparative		FALSE	TRUE	FALSE	TRUE	FALSE
+6NunwfhDpBsQMdZXp	Spanish	feedback	size41	NA	NA	NA	NA	1	4	pequeña	pequeña		small_red_bike	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+6NunwfhDpBsQMdZXp	Spanish	feedback	size41	NA	NA	NA	NA	1	22	grande	grande		big_red_flower	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+S4kr4v62hXL4LYC7D	Spanish	feedback	size41	NA	NA	NA	NA	1	20	holy haha it's a blue one__they are exactly the same	holy haha it's a blue one		big_blue_butterfly	1		ENGLISH		FALSE	FALSE	FALSE	TRUE	FALSE
+S4kr4v62hXL4LYC7D	Spanish	feedback	size41	NA	NA	NA	NA	1	48	small red	small red		small_red_bellpepper	1		ENGLISH		FALSE	FALSE	FALSE	TRUE	FALSE
+bYnFuaH8d9Dkp54C5	Spanish	feedback	size41	NA	NA	NA	NA	1	14	sí	sí	es pequeño ?	small_blue_binder	1		GUESSER-RESPONSE		FALSE	FALSE	FALSE	TRUE	FALSE
+bYnFuaH8d9Dkp54C5	Spanish	feedback	size41	NA	NA	NA	NA	1	64	si	si	es oscurso y grande ?	big_black_turtle	1		GUESSER-RESPONSE		FALSE	FALSE	FALSE	TRUE	FALSE
+jbp9GcgfoE26diyWb	Spanish	feedback	size41	NA	NA	NA	NA	1	18	pimiento rojo pequeño	pimiento rojo pequeño		small_red_bellpepper	1	NCS			TRUE	TRUE	TRUE	TRUE	FALSE
+jbp9GcgfoE26diyWb	Spanish	feedback	size41	NA	NA	NA	NA	1	57	la más grande rosa	la más grande rosa		big_purple_butterfly	1	ASC	superlative		TRUE	TRUE	FALSE	TRUE	TRUE
+2PA2eTW2JBioGPq2S	Spanish	feedback	size41	NA	NA	NA	NA	1	17	pequeña	pequeña		small_green_jacket	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+2PA2eTW2JBioGPq2S	Spanish	feedback	size41	NA	NA	NA	NA	1	31	pequeña	pequeña		small_orange_cushion	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+QC9QPrwjj6RsY6hks	Spanish	feedback	size41	NA	NA	NA	NA	1	31	la que es más grande	la que es más grande		big_blue_scarf	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+QC9QPrwjj6RsY6hks	Spanish	feedback	size41	NA	NA	NA	NA	1	36	la pequeña	la pequeña		small_grey_rock	1	AS			FALSE	TRUE	FALSE	TRUE	TRUE
+aSJ3S2g3n7c5XYeuq	Spanish	feedback	size41	NA	NA	NA	NA	1	11	different color/color diferente__biiger one__si	different color/color diferente	es el objeto más grande?	big_red_bellpepper	1		bleached contrast		FALSE	FALSE	FALSE	TRUE	FALSE
+aSJ3S2g3n7c5XYeuq	Spanish	feedback	size41	NA	NA	NA	NA	1	32	bigger	bigger		big_green_jacket	1		ENGLISH		FALSE	FALSE	FALSE	TRUE	FALSE
+SZ8Bs9kQ4wkYwTsFm	Spanish	feedback	size41	NA	NA	NA	NA	1	17	es azul__el más grande	es azul		big_blue_tack	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+SZ8Bs9kQ4wkYwTsFm	Spanish	feedback	size41	NA	NA	NA	NA	1	20	es negro__pequeño	es negro		small_black_book	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+ZeAdhLHahHwqnn9MG	Spanish	feedback	size41	NA	NA	NA	NA	1	8	mariposa rosa chica	mariposa rosa chica		small_purple_butterfly	1	NCS			TRUE	TRUE	TRUE	TRUE	FALSE
+ZeAdhLHahHwqnn9MG	Spanish	feedback	size41	NA	NA	NA	NA	1	34	rojo grande	rojo grande		big_red_bellpepper	1	CS			TRUE	TRUE	FALSE	TRUE	FALSE
+3j4nmgjGw5svrxehe	Spanish	feedback	size41	NA	NA	NA	NA	1	21	la azul de nuez__de nuevo	la azul de nuez		big_blue_cushion	1	AC	?		TRUE	FALSE	FALSE	TRUE	TRUE
+3j4nmgjGw5svrxehe	Spanish	feedback	size41	NA	NA	NA	NA	1	44	la verde chica	la verde chica		small_green_binder	1	ACS			TRUE	TRUE	FALSE	TRUE	TRUE
+yzi4tHBHqvsoo3nn5	Spanish	feedback	size41	NA	NA	NA	NA	1	6	sillon verde pequeño	sillon verde pequeño		small_green_chair	1	NCS			TRUE	TRUE	FALSE	TRUE	FALSE
+yzi4tHBHqvsoo3nn5	Spanish	feedback	size41	NA	NA	NA	NA	1	49	el mas pequeño	el mas pequeño		small_red_bellpepper	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+g7vxxhW2jevjbHBv8	Spanish	feedback	size41	NA	NA	NA	NA	1	33	es el más pequeño	es el más pequeño		small_pink_hairdryer	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+g7vxxhW2jevjbHBv8	Spanish	feedback	size41	NA	NA	NA	NA	1	52	es el más pequeño	es el más pequeño		small_black_comb	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+woScH39WSn3r8vT9s	Spanish	feedback	size41	NA	NA	NA	NA	1	2	el de color morado que se ve mas grande	el de color morado que se ve mas grande		big_purple_bracelet	1	ACS	comparative		TRUE	TRUE	FALSE	TRUE	TRUE
+woScH39WSn3r8vT9s	Spanish	feedback	size41	NA	NA	NA	NA	1	45	el azul mas grande	el azul mas grande		big_blue_toothbrush	1	ACS	superlative		TRUE	TRUE	FALSE	TRUE	TRUE
+6ghf7bahMwk2Gum9F	Spanish	feedback	size41	NA	NA	NA	NA	1	4	rosa pequeño	rosa pequeño		small_pink_framee	1	CS			TRUE	TRUE	FALSE	TRUE	FALSE
+6ghf7bahMwk2Gum9F	Spanish	feedback	size41	NA	NA	NA	NA	1	34	negro grande del medio	negro grande del medio		big_black_comb	1	CS			TRUE	TRUE	FALSE	TRUE	TRUE
+7byBpzzTrLBTrRaSW	Spanish	feedback	size41	NA	NA	NA	NA	1	25	pequeñito	pequeñito		small_green_binder	1	S	diminutive		FALSE	FALSE	FALSE	TRUE	FALSE
+7byBpzzTrLBTrRaSW	Spanish	feedback	size41	NA	NA	NA	NA	1	29	enorme	enorme		big_blue_guitar	1	S			FALSE	FALSE	FALSE	TRUE	FALSE
+Ndey5riTwZPPn8eqi	Spanish	feedback	size41	NA	NA	NA	NA	1	21	sí	sí	pequeño?	small_red_candle	1		GUESSER-RESPONSE		FALSE	FALSE	FALSE	TRUE	FALSE
+Ndey5riTwZPPn8eqi	Spanish	feedback	size41	NA	NA	NA	NA	1	42	sí	sí	rosa pequeño?	small_pink_framee	1		GUESSER-RESPONSE		FALSE	FALSE	FALSE	TRUE	FALSE
+e85bNvHjAANCEpjwF	Spanish	feedback	size41	NA	NA	NA	NA	1	48	mas chica	mas chica		small_red_stapler	1	S	comparative		FALSE	TRUE	FALSE	TRUE	FALSE
+e85bNvHjAANCEpjwF	Spanish	feedback	size41	NA	NA	NA	NA	1	64	mas chico	mas chico		small_orange_napkin	1	S	comparative		FALSE	TRUE	FALSE	TRUE	FALSE
+BnA3FeomaYQsW7WNG	Spanish	feedback	size41	NA	NA	NA	NA	1	18	pequeña	pequeña		small_red_flower	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+BnA3FeomaYQsW7WNG	Spanish	feedback	size41	NA	NA	NA	NA	1	70	prqueño	prqueño		small_black_book	1	S			FALSE	FALSE	FALSE	TRUE	FALSE
+GZ4Bi32LYs5JLP3dn	Spanish	feedback	size41	NA	NA	NA	NA	1	14	rojo grande	rojo grande		big_red_bucket	1	CS			TRUE	TRUE	FALSE	TRUE	FALSE
+GZ4Bi32LYs5JLP3dn	Spanish	feedback	size41	NA	NA	NA	NA	1	46	negro mas pequeño	negro mas pequeño		small_black_belt	1	CS	comparative		TRUE	TRUE	FALSE	TRUE	FALSE
+GetM4rtofxHS3ga5m	Spanish	feedback	size41	NA	NA	NA	NA	1	15	zapato amarillo pequeño	zapato amarillo pequeño		small_yellow_shoe	1	NCS			TRUE	TRUE	TRUE	TRUE	FALSE
+GetM4rtofxHS3ga5m	Spanish	feedback	size41	NA	NA	NA	NA	1	30	secador mas pequeño morado	secador mas pequeño morado		small_purple_hairdryer	1	NSC	comparative		TRUE	TRUE	TRUE	TRUE	FALSE
+z7BQy72TNHyrXNdby	Spanish	feedback	size41	NA	NA	NA	NA	1	37	el rosa grande	el rosa grande		big_pink_phone	1	ACS			TRUE	TRUE	FALSE	TRUE	TRUE
+z7BQy72TNHyrXNdby	Spanish	feedback	size41	NA	NA	NA	NA	1	44	la blanca grande	la blanca grande		big_white_pingpongball	1	ACS			TRUE	TRUE	FALSE	TRUE	TRUE
+5iXGA8yrtbLNsFb8x	Spanish	feedback	size41	NA	NA	NA	NA	1	14	el más grande	el más grande		big_red_pepper	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+5iXGA8yrtbLNsFb8x	Spanish	feedback	size41	NA	NA	NA	NA	1	39	el más pequeño	el más pequeño		small_blue_candle	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+i9kH9EnohLzqAaboq	Spanish	feedback	size42	NA	NA	NA	NA	1	6	es grande.	es grande.		big_blue_butterfly	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+i9kH9EnohLzqAaboq	Spanish	feedback	size42	NA	NA	NA	NA	1	44	es el más pequeño.	es el más pequeño.		small_pink_balloon	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+XZtfg4k35HZQbAaKS	Spanish	feedback	size42	NA	NA	NA	NA	1	16	rosa grande	rosa grande		big_pink_bucket	1	CS			TRUE	TRUE	FALSE	TRUE	FALSE
+XZtfg4k35HZQbAaKS	Spanish	feedback	size42	NA	NA	NA	NA	1	50	grande	grande		big_grey_rock	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+5uPb46X29k7aKpKos	Spanish	feedback	size42	NA	NA	NA	NA	1	38	distinto tamaño	distinto tamaño		big_white_pingpongball	1		bleached contrast		FALSE	FALSE	FALSE	TRUE	FALSE
+5uPb46X29k7aKpKos	Spanish	feedback	size42	NA	NA	NA	NA	1	57	más pequeño	más pequeño		small_blue_rug	1	S	comparative		FALSE	TRUE	FALSE	TRUE	FALSE
+6548bWiJoGcuX59Zp	Spanish	feedback	size42	NA	NA	NA	NA	1	56	menor	menor		small_blue_comb	1	S			FALSE	FALSE	FALSE	TRUE	FALSE
+6548bWiJoGcuX59Zp	Spanish	feedback	size42	NA	NA	NA	NA	1	69	menor	menor		small_purple_hairdryer	1	S			FALSE	FALSE	FALSE	TRUE	FALSE
+MvesSZxmNwRWxpMDF	Spanish	feedback	size42	NA	NA	NA	NA	1	37	pequeño	pequeño		small_red_tack	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+MvesSZxmNwRWxpMDF	Spanish	feedback	size42	NA	NA	NA	NA	1	63	pequeño	pequeño		small_black_comb	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+RcCbHw4ML3ei95SZP	Spanish	feedback	size42	NA	NA	NA	NA	1	10	la mas pequeña otra vez	la mas pequeña otra vez		small_blue_guitar	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+RcCbHw4ML3ei95SZP	Spanish	feedback	size42	NA	NA	NA	NA	1	40	la mas grande de las 5, rojo	la mas grande de las 5, rojo		big_red_candle	1	ASC	superlative		TRUE	TRUE	FALSE	TRUE	TRUE
+Cisj4o5sAv9g8rbmS	Spanish	feedback	size42	NA	NA	NA	NA	1	18	color azul, el mas chico	color azul, el mas chico		small_blue_comb	1	CAS	superlative		TRUE	TRUE	FALSE	TRUE	TRUE
+Cisj4o5sAv9g8rbmS	Spanish	feedback	size42	NA	NA	NA	NA	1	27	imagen mas grande	imagen mas grande		big_red_candle	1	S	comparative		FALSE	TRUE	FALSE	TRUE	FALSE
+rh7GW6WH2awWyB4Kx	Spanish	feedback	size42	NA	NA	NA	NA	1	10	el mas greande	el mas greande		big_green_binder	1	AS	superlative		FALSE	FALSE	FALSE	TRUE	TRUE
+rh7GW6WH2awWyB4Kx	Spanish	feedback	size42	NA	NA	NA	NA	1	47	pqueño	pqueño		small_pink_weddingcake	1	S			FALSE	FALSE	FALSE	TRUE	FALSE
+oPMCjJ3aFSj92CzNA	Spanish	feedback	size42	NA	NA	NA	NA	1	6	cuadrado verde, el más pequeño	cuadrado verde, el más pequeño		small_green_framee	1	NCAS	superlative		TRUE	TRUE	FALSE	TRUE	TRUE
+oPMCjJ3aFSj92CzNA	Spanish	feedback	size42	NA	NA	NA	NA	1	70	el azul más grande	el azul más grande		big_blue_rug	1	ACS	superlative		TRUE	TRUE	FALSE	TRUE	TRUE
+bDqu8DtgmaBkuLzTC	Spanish	feedback	size42	NA	NA	NA	NA	1	8	es pequeña	es pequeña		small_brown_turtle	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+bDqu8DtgmaBkuLzTC	Spanish	feedback	size42	NA	NA	NA	NA	1	30	pequeña	pequeña		small_purple_bracelet	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+6NunwfhDpBsQMdZXp	Spanish	feedback	size42	NA	NA	NA	NA	1	53	mayor tamaño	mayor tamaño		big_green_pepper	1	S	comparative		FALSE	FALSE	FALSE	TRUE	FALSE
+6NunwfhDpBsQMdZXp	Spanish	feedback	size42	NA	NA	NA	NA	1	57	mas pequeño	mas pequeño		small_tan_rock	1	S	comparative		FALSE	TRUE	FALSE	TRUE	FALSE
+S4kr4v62hXL4LYC7D	Spanish	feedback	size42	NA	NA	NA	NA	2	9	it's the red one, but there are 3 of them__:')	it's the red one, but there are 3 of them		small_red_yarn	0		ENGLISH		FALSE	FALSE	FALSE	TRUE	FALSE
+S4kr4v62hXL4LYC7D	Spanish	feedback	size42	NA	NA	NA	NA	1	29	blue scarf, the biggest one	blue scarf, the biggest one		big_blue_scarf	1		ENGLISH		FALSE	FALSE	FALSE	TRUE	FALSE
+bYnFuaH8d9Dkp54C5	Spanish	feedback	size42	NA	NA	NA	NA	1	42	sí	sí	es grande ?	big_brown_belt	1				FALSE	FALSE	FALSE	TRUE	FALSE
+bYnFuaH8d9Dkp54C5	Spanish	feedback	size42	NA	NA	NA	NA	1	44	si	si	es grande?	big_purple_hairdryer	1				FALSE	FALSE	FALSE	TRUE	FALSE
+jbp9GcgfoE26diyWb	Spanish	feedback	size42	NA	NA	NA	NA	1	7	chile rojo, el más grande	chile rojo, el más grande		big_red_pepper	1	NCAS	superlative		TRUE	TRUE	TRUE	TRUE	TRUE
+jbp9GcgfoE26diyWb	Spanish	feedback	size42	NA	NA	NA	NA	1	44	folder azul más grande	folder azul más grande		big_blue_binder	1	NCS	comparative		TRUE	TRUE	FALSE	TRUE	FALSE
+2PA2eTW2JBioGPq2S	Spanish	feedback	size42	NA	NA	NA	NA	1	46	pequeña	pequeña		small_orange_cap	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+2PA2eTW2JBioGPq2S	Spanish	feedback	size42	NA	NA	NA	NA	1	70	pequeña	pequeña		small_orange_billiardball	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+QC9QPrwjj6RsY6hks	Spanish	feedback	size42	NA	NA	NA	NA	1	9	el dorado más pequeño	el dorado más pequeño		small_yellow_balloon	1	ACS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+QC9QPrwjj6RsY6hks	Spanish	feedback	size42	NA	NA	NA	NA	1	41	la rosa grande	la rosa grande		big_purple_butterfly	1	ACS			TRUE	TRUE	FALSE	TRUE	TRUE
+aSJ3S2g3n7c5XYeuq	Spanish	feedback	size42	NA	NA	NA	NA	1	14	big one/ mas grande	big one/ mas grande		big_red_bucket	1	S	comparative		FALSE	TRUE	FALSE	TRUE	FALSE
+aSJ3S2g3n7c5XYeuq	Spanish	feedback	size42	NA	NA	NA	NA	1	27	small	small		small_red_tack	1		ENGLISH		FALSE	FALSE	FALSE	TRUE	FALSE
+SZ8Bs9kQ4wkYwTsFm	Spanish	feedback	size42	NA	NA	NA	NA	1	11	el más grande__color morado	el más grande		big_purple_coathanger	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+SZ8Bs9kQ4wkYwTsFm	Spanish	feedback	size42	NA	NA	NA	NA	1	51	rosa__la más grande	rosa		big_pink_hairdryer	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+ZeAdhLHahHwqnn9MG	Spanish	feedback	size42	NA	NA	NA	NA	1	26	bola rosa chica	bola rosa chica		small_purple_billiardball	1	NCS			TRUE	TRUE	TRUE	TRUE	TRUE
+ZeAdhLHahHwqnn9MG	Spanish	feedback	size42	NA	NA	NA	NA	1	70	morado chico	morado chico		small_purple_hairdryer	1	CS			TRUE	TRUE	FALSE	TRUE	FALSE
+3j4nmgjGw5svrxehe	Spanish	feedback	size42	NA	NA	NA	NA	1	23	la bola naranja__pequela__pequeña	la bola naranja		small_orange_billiardball	1	ANC			TRUE	FALSE	TRUE	TRUE	TRUE
+3j4nmgjGw5svrxehe	Spanish	feedback	size42	NA	NA	NA	NA	1	58	la morada__más grande	la morada		big_purple_stapler	1	AC			TRUE	FALSE	FALSE	TRUE	TRUE
+yzi4tHBHqvsoo3nn5	Spanish	feedback	size42	NA	NA	NA	NA	1	53	cepillo rojo mas grande	cepillo rojo mas grande		big_red_toothbrush	1	NCS	comparative		TRUE	TRUE	FALSE	TRUE	FALSE
+yzi4tHBHqvsoo3nn5	Spanish	feedback	size42	NA	NA	NA	NA	1	65	tachuela roja mas grande	tachuela roja mas grande		big_red_tack	1	NCS	comparative		TRUE	TRUE	TRUE	TRUE	TRUE
+g7vxxhW2jevjbHBv8	Spanish	feedback	size42	NA	NA	NA	NA	1	19	es blanco y ligeramente más grande que los demás	es blanco y ligeramente más grande que los demás		big_white_phone	1	CS	comparative		TRUE	TRUE	FALSE	TRUE	TRUE
+g7vxxhW2jevjbHBv8	Spanish	feedback	size42	NA	NA	NA	NA	1	29	es el color rojo más alargado/grande	es el color rojo más alargado/grande		big_red_toothbrush	1	ACS	superlative		TRUE	TRUE	FALSE	TRUE	TRUE
+woScH39WSn3r8vT9s	Spanish	feedback	size42	NA	NA	NA	NA	1	11	la mas pequeña	la mas pequeña		small_purple_yarn	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+woScH39WSn3r8vT9s	Spanish	feedback	size42	NA	NA	NA	NA	1	23	la mas grande	la mas grande		big_brown_turtle	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+6ghf7bahMwk2Gum9F	Spanish	feedback	size42	NA	NA	NA	NA	1	11	5 enmedio__si	5 enmedio	la 5 morado grande?__ok	big_purple_billiardball	1				FALSE	FALSE	FALSE	TRUE	FALSE
+6ghf7bahMwk2Gum9F	Spanish	feedback	size42	NA	NA	NA	NA	1	52	naranja grande	naranja grande		big_orange_coathanger	1	CS			TRUE	TRUE	FALSE	TRUE	FALSE
+7byBpzzTrLBTrRaSW	Spanish	feedback	size42	NA	NA	NA	NA	1	27	pequeñito	pequeñito		small_blue_cap	1	S	diminutive		FALSE	FALSE	FALSE	TRUE	FALSE
+7byBpzzTrLBTrRaSW	Spanish	feedback	size42	NA	NA	NA	NA	1	52	grande	grande		big_white_phone	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+Ndey5riTwZPPn8eqi	Spanish	feedback	size42	NA	NA	NA	NA	1	9	pequeño	pequeño	chico?	small_purple_billiardball	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+Ndey5riTwZPPn8eqi	Spanish	feedback	size42	NA	NA	NA	NA	1	20	sí	sí	grande?	big_pink_weddingcake	1		GUESSER-RESPONSE		FALSE	FALSE	FALSE	TRUE	FALSE
+e85bNvHjAANCEpjwF	Spanish	feedback	size42	NA	NA	NA	NA	1	11	grande de color rosa y sirve para verter liquidos	grande de color rosa y sirve para verter liquidos		big_pink_bucket	1	SC			TRUE	TRUE	FALSE	TRUE	FALSE
+e85bNvHjAANCEpjwF	Spanish	feedback	size42	NA	NA	NA	NA	1	33	mas pequeño	mas pequeño		small_purple_coathanger	1	S	comparative		FALSE	TRUE	FALSE	TRUE	FALSE
+BnA3FeomaYQsW7WNG	Spanish	feedback	size42	NA	NA	NA	NA	1	37	pequeño	pequeño		small_white_teacup	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+BnA3FeomaYQsW7WNG	Spanish	feedback	size42	NA	NA	NA	NA	1	58	grande	grande		big_black_comb	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+GZ4Bi32LYs5JLP3dn	Spanish	feedback	size42	NA	NA	NA	NA	1	26	azul grande	azul grande		big_blue_cushion	1	CS			TRUE	TRUE	FALSE	TRUE	FALSE
+GZ4Bi32LYs5JLP3dn	Spanish	feedback	size42	NA	NA	NA	NA	1	43	azul mas chico	azul mas chico		small_blue_cap	1	CS	comparative		TRUE	TRUE	FALSE	TRUE	FALSE
+GetM4rtofxHS3ga5m	Spanish	feedback	size42	NA	NA	NA	NA	1	37	cepillo de dientes azul,el mas grande	cepillo de dientes azul,el mas grande		big_blue_toothbrush	1	NCAS	superlative		TRUE	TRUE	FALSE	TRUE	TRUE
+GetM4rtofxHS3ga5m	Spanish	feedback	size42	NA	NA	NA	NA	1	72	el peine negro mas pequeño	el peine negro mas pequeño		small_black_comb	1	ANCS	superlative		TRUE	TRUE	TRUE	TRUE	TRUE
+z7BQy72TNHyrXNdby	Spanish	feedback	size42	NA	NA	NA	NA	1	63	el pequeño	el pequeño		small_blue_tack	1	AS			FALSE	TRUE	FALSE	TRUE	TRUE
+z7BQy72TNHyrXNdby	Spanish	feedback	size42	NA	NA	NA	NA	1	65	la pequeña	la pequeña		small_blue_butterfly	1	AS			FALSE	TRUE	FALSE	TRUE	TRUE
+5iXGA8yrtbLNsFb8x	Spanish	feedback	size42	NA	NA	NA	NA	1	32	la más pequeña	la más pequeña		small_red_bucket	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+5iXGA8yrtbLNsFb8x	Spanish	feedback	size42	NA	NA	NA	NA	1	45	más grande	más grande		big_pink_balloon	1	S	comparative		FALSE	TRUE	FALSE	TRUE	FALSE
+i9kH9EnohLzqAaboq	Spanish	feedback	size43	NA	NA	NA	NA	1	67	es el más pequeño.	es el más pequeño.		small_blue_cushion	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+i9kH9EnohLzqAaboq	Spanish	feedback	size43	NA	NA	NA	NA	1	72	es el más grande.	es el más grande.		big_green_guitar	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+XZtfg4k35HZQbAaKS	Spanish	feedback	size43	NA	NA	NA	NA	1	3	rosa__grnade	rosa	pequeño?	big_pink_phone	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+XZtfg4k35HZQbAaKS	Spanish	feedback	size43	NA	NA	NA	NA	1	8	grand	grand		big_brown_jacket	1	S			FALSE	FALSE	FALSE	TRUE	FALSE
+5uPb46X29k7aKpKos	Spanish	feedback	size43	NA	NA	NA	NA	1	29	diferente tamaño	diferente tamaño		big_blue_book	1		bleached contrast		FALSE	FALSE	FALSE	TRUE	FALSE
+5uPb46X29k7aKpKos	Spanish	feedback	size43	NA	NA	NA	NA	1	63	más pequeño	más pequeño		small_orange_billiardball	1	S	comparative		FALSE	TRUE	FALSE	TRUE	FALSE
+6548bWiJoGcuX59Zp	Spanish	feedback	size43	NA	NA	NA	NA	1	60	grande	grande		big_orange_napkin	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+6548bWiJoGcuX59Zp	Spanish	feedback	size43	NA	NA	NA	NA	1	68	pequeño	pequeño		small_purple_butterfly	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+MvesSZxmNwRWxpMDF	Spanish	feedback	size43	NA	NA	NA	NA	1	14	naranja mas grande	naranja mas grande		big_orange_cushion	1	CS	comparative		TRUE	TRUE	FALSE	TRUE	FALSE
+MvesSZxmNwRWxpMDF	Spanish	feedback	size43	NA	NA	NA	NA	1	22	pequeño	pequeño		small_red_pepper	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+RcCbHw4ML3ei95SZP	Spanish	feedback	size43	NA	NA	NA	NA	1	17	el mas pequeño, los otros 4 son del mismo tamaño	el mas pequeño, los otros 4 son del mismo tamaño		small_green_binder	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+RcCbHw4ML3ei95SZP	Spanish	feedback	size43	NA	NA	NA	NA	1	19	el mas pequeño	el mas pequeño		small_purple_rug	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+Cisj4o5sAv9g8rbmS	Spanish	feedback	size43	NA	NA	NA	NA	1	33	imagen mas chica	imagen mas chica		small_green_guitar	1	S	comparative		FALSE	TRUE	FALSE	TRUE	FALSE
+Cisj4o5sAv9g8rbmS	Spanish	feedback	size43	NA	NA	NA	NA	1	49	imagen mas chica	imagen mas chica		small_red_tack	1	S	comparative		FALSE	TRUE	FALSE	TRUE	FALSE
+rh7GW6WH2awWyB4Kx	Spanish	feedback	size43	NA	NA	NA	NA	1	8	el mas pequeño	el mas pequeño		small_black_belt	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+rh7GW6WH2awWyB4Kx	Spanish	feedback	size43	NA	NA	NA	NA	1	44	pequeño	pequeño		small_orange_coathanger	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+oPMCjJ3aFSj92CzNA	Spanish	feedback	size43	NA	NA	NA	NA	1	26	tortuga, la más pequeña	tortuga, la más pequeña		small_brown_turtle	1	NAS	superlative		FALSE	TRUE	TRUE	TRUE	TRUE
+oPMCjJ3aFSj92CzNA	Spanish	feedback	size43	NA	NA	NA	NA	1	33	guitarra verde, la más pequeña	guitarra verde, la más pequeña		small_green_guitar	1	NCAS	superlative		TRUE	TRUE	TRUE	TRUE	TRUE
+bDqu8DtgmaBkuLzTC	Spanish	feedback	size43	NA	NA	NA	NA	1	36	es mas grande	es mas grande		big_blue_rug	1	S	comparative		FALSE	TRUE	FALSE	TRUE	FALSE
+bDqu8DtgmaBkuLzTC	Spanish	feedback	size43	NA	NA	NA	NA	4	44	es ligeramente mas grande	es ligeramente mas grande		small_red_pepper	0	S	comparative		FALSE	TRUE	FALSE	TRUE	FALSE
+6NunwfhDpBsQMdZXp	Spanish	feedback	size43	NA	NA	NA	NA	1	11	grande	grande		big_white_pingpongball	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+6NunwfhDpBsQMdZXp	Spanish	feedback	size43	NA	NA	NA	NA	1	36	pequeño	pequeño		small_blue_cushion	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+S4kr4v62hXL4LYC7D	Spanish	feedback	size43	NA	NA	NA	NA	3	1	hi!	hi!	hi	small_purple_coathanger	0				FALSE	FALSE	FALSE	TRUE	FALSE
+S4kr4v62hXL4LYC7D	Spanish	feedback	size43	NA	NA	NA	NA	3	24	red and smallest	red and smallest		big_red_stapler	0		ENGLISH		FALSE	FALSE	FALSE	TRUE	FALSE
+bYnFuaH8d9Dkp54C5	Spanish	feedback	size43	NA	NA	NA	NA	1	9	no__sí	no	es amarillo ?__es pequeño relativo a los demás ?	small_orange_napkin	1		GUESSER-RESPONSE		FALSE	FALSE	FALSE	TRUE	FALSE
+bYnFuaH8d9Dkp54C5	Spanish	feedback	size43	NA	NA	NA	NA	1	13	no__sí	no	es rosa ?__es grande relativo a los demás ?	big_green_framee	1		GUESSER-RESPONSE		FALSE	FALSE	FALSE	TRUE	FALSE
+jbp9GcgfoE26diyWb	Spanish	feedback	size43	NA	NA	NA	NA	1	11	zapato amarillo más pequeño	zapato amarillo más pequeño		small_yellow_shoe	1	NCS	comparative		TRUE	TRUE	TRUE	TRUE	FALSE
+jbp9GcgfoE26diyWb	Spanish	feedback	size43	NA	NA	NA	NA	1	62	rojo más grande	rojo más grande		big_red_yarn	1	CS	comparative		TRUE	TRUE	FALSE	TRUE	FALSE
+2PA2eTW2JBioGPq2S	Spanish	feedback	size43	NA	NA	NA	NA	1	5	el verde mas grande	el verde mas grande		big_green_chair	1	ACS	superlative		TRUE	TRUE	FALSE	TRUE	TRUE
+2PA2eTW2JBioGPq2S	Spanish	feedback	size43	NA	NA	NA	NA	1	40	grande	grande		big_green_binder	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+QC9QPrwjj6RsY6hks	Spanish	feedback	size43	NA	NA	NA	NA	1	43	la pequeña	la pequeña		small_pink_weddingcake	1	AS			FALSE	TRUE	FALSE	TRUE	TRUE
+QC9QPrwjj6RsY6hks	Spanish	feedback	size43	NA	NA	NA	NA	1	50	el cubo grande	el cubo grande		big_pink_bucket	1	ANS			FALSE	TRUE	FALSE	TRUE	TRUE
+aSJ3S2g3n7c5XYeuq	Spanish	feedback	size43	NA	NA	NA	NA	1	33	small	small		small_brown_belt	1		ENGLISH		FALSE	FALSE	FALSE	TRUE	FALSE
+aSJ3S2g3n7c5XYeuq	Spanish	feedback	size43	NA	NA	NA	NA	1	72	big one	big one		big_black_turtle	1		ENGLISH		FALSE	FALSE	FALSE	TRUE	FALSE
+SZ8Bs9kQ4wkYwTsFm	Spanish	feedback	size43	NA	NA	NA	NA	1	6	es la más grande de todas	es la más grande de todas		big_red_scarf	1	AS	comparative/superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+SZ8Bs9kQ4wkYwTsFm	Spanish	feedback	size43	NA	NA	NA	NA	1	21	rojo__pequeño	rojo		small_red_bucket	1	C			TRUE	FALSE	FALSE	TRUE	FALSE
+ZeAdhLHahHwqnn9MG	Spanish	feedback	size43	NA	NA	NA	NA	1	54	chico	chico		small_white_phone	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+ZeAdhLHahHwqnn9MG	Spanish	feedback	size43	NA	NA	NA	NA	1	59	morado grande	morado grande		big_purple_bracelet	1	CS			TRUE	TRUE	FALSE	TRUE	FALSE
+3j4nmgjGw5svrxehe	Spanish	feedback	size43	NA	NA	NA	NA	1	51	el verde grande	el verde grande		big_green_chair	1	ACS			TRUE	TRUE	FALSE	TRUE	TRUE
+3j4nmgjGw5svrxehe	Spanish	feedback	size43	NA	NA	NA	NA	1	69	la verde grande	la verde grande		big_green_guitar	1	ACS			TRUE	TRUE	FALSE	TRUE	TRUE
+yzi4tHBHqvsoo3nn5	Spanish	feedback	size43	NA	NA	NA	NA	1	3	flor purpura mas grande	flor purpura mas grande		big_purple_flower	1	NCS	comparative		FALSE	TRUE	TRUE	TRUE	FALSE
+yzi4tHBHqvsoo3nn5	Spanish	feedback	size43	NA	NA	NA	NA	1	9	vela roja pequeña	vela roja pequeña		small_red_candle	1	NCS			TRUE	TRUE	TRUE	TRUE	TRUE
+g7vxxhW2jevjbHBv8	Spanish	feedback	size43	NA	NA	NA	NA	1	26	es la más grande de todas y roja	es la más grande de todas y roja		big_red_scarf	1	ASC	superlative, conjunction		TRUE	TRUE	FALSE	TRUE	TRUE
+g7vxxhW2jevjbHBv8	Spanish	feedback	size43	NA	NA	NA	NA	1	60	es el más grande	es el más grande		big_red_yarn	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+woScH39WSn3r8vT9s	Spanish	feedback	size43	NA	NA	NA	NA	1	9	la mas grande	la mas grande		big_red_flower	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+woScH39WSn3r8vT9s	Spanish	feedback	size43	NA	NA	NA	NA	1	39	la mas grande	la mas grande		big_pink_bucket	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+6ghf7bahMwk2Gum9F	Spanish	feedback	size43	NA	NA	NA	NA	1	42	pieza de enmedio__la grande de medio	pieza de enmedio	es de tamaño normal?	big_blue_tack	1				FALSE	FALSE	FALSE	TRUE	FALSE
+6ghf7bahMwk2Gum9F	Spanish	feedback	size43	NA	NA	NA	NA	1	56	piedra chica__si	piedra chica	cafe?__ok	small_tan_rock	1	NS			FALSE	TRUE	TRUE	TRUE	FALSE
+7byBpzzTrLBTrRaSW	Spanish	feedback	size43	NA	NA	NA	NA	1	28	grande	grande		big_purple_hairdryer	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+7byBpzzTrLBTrRaSW	Spanish	feedback	size43	NA	NA	NA	NA	1	39	enorme	enorme		big_green_bracelet	1	S			FALSE	FALSE	FALSE	TRUE	FALSE
+Ndey5riTwZPPn8eqi	Spanish	feedback	size43	NA	NA	NA	NA	1	35	no__sí	no	naranja?__grande?	big_yellow_napkin	1		GUESSER-RESPONSE		FALSE	FALSE	FALSE	TRUE	FALSE
+Ndey5riTwZPPn8eqi	Spanish	feedback	size43	NA	NA	NA	NA	1	40	no__sí	no	rojo?__grande?	big_green_pepper	1		GUESSER-RESPONSE		FALSE	FALSE	FALSE	TRUE	FALSE
+e85bNvHjAANCEpjwF	Spanish	feedback	size43	NA	NA	NA	NA	1	16	mas pequeña de todas__verde	mas pequeña de todas		small_green_guitar	1	S	comparative/superlative		FALSE	TRUE	FALSE	TRUE	FALSE
+e85bNvHjAANCEpjwF	Spanish	feedback	size43	NA	NA	NA	NA	1	52	mas chico	mas chico		small_green_jacket	1	S	comparative		FALSE	TRUE	FALSE	TRUE	FALSE
+BnA3FeomaYQsW7WNG	Spanish	feedback	size43	NA	NA	NA	NA	1	56	pequeño	pequeño		small_tan_rock	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+BnA3FeomaYQsW7WNG	Spanish	feedback	size43	NA	NA	NA	NA	1	63	grande	grande		big_blue_tack	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+GZ4Bi32LYs5JLP3dn	Spanish	feedback	size43	NA	NA	NA	NA	1	27	el verde mas chico	el verde mas chico		small_green_pepper	1	ACS	superlative		TRUE	TRUE	FALSE	TRUE	TRUE
+GZ4Bi32LYs5JLP3dn	Spanish	feedback	size43	NA	NA	NA	NA	1	45	morado mas grande	morado mas grande		big_purple_stapler	1	CS	comparative		TRUE	TRUE	FALSE	TRUE	FALSE
+GetM4rtofxHS3ga5m	Spanish	feedback	size43	NA	NA	NA	NA	1	26	sofa mas pequeño	sofa mas pequeño		small_red_chair	1	NS	comparative		FALSE	TRUE	FALSE	TRUE	FALSE
+GetM4rtofxHS3ga5m	Spanish	feedback	size43	NA	NA	NA	NA	1	57	la bufanda azul mas pequeña	la bufanda azul mas pequeña		small_blue_scarf	1	ANCS	superlative		TRUE	TRUE	TRUE	TRUE	TRUE
+z7BQy72TNHyrXNdby	Spanish	feedback	size43	NA	NA	NA	NA	1	57	el grande	el grande		big_red_bellpepper	1	AS			FALSE	TRUE	FALSE	TRUE	TRUE
+z7BQy72TNHyrXNdby	Spanish	feedback	size43	NA	NA	NA	NA	1	60	la pequeña	la pequeña		small_white_teacup	1	AS			FALSE	TRUE	FALSE	TRUE	TRUE
+5iXGA8yrtbLNsFb8x	Spanish	feedback	size43	NA	NA	NA	NA	1	11	el más pequeño	el más pequeño		small_white_shoe	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+5iXGA8yrtbLNsFb8x	Spanish	feedback	size43	NA	NA	NA	NA	1	44	más grande	más grande		big_white_weddingcake	1	S	comparative		FALSE	TRUE	FALSE	TRUE	FALSE
+i9kH9EnohLzqAaboq	Spanish	feedback	size44	NA	NA	NA	NA	1	15	es la más pequeña.	es la más pequeña.		small_black_turtle	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+i9kH9EnohLzqAaboq	Spanish	feedback	size44	NA	NA	NA	NA	1	38	es el más grande.	es el más grande.		big_red_yarn	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+XZtfg4k35HZQbAaKS	Spanish	feedback	size44	NA	NA	NA	NA	1	7	grande	grande		big_blue_candle	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+XZtfg4k35HZQbAaKS	Spanish	feedback	size44	NA	NA	NA	NA	1	18	pequeño	pequeño		small_blue_toothbrush	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+5uPb46X29k7aKpKos	Spanish	feedback	size44	NA	NA	NA	NA	1	62	más pequeño	más pequeño		small_blue_butterfly	1	S	comparative		FALSE	TRUE	FALSE	TRUE	FALSE
+5uPb46X29k7aKpKos	Spanish	feedback	size44	NA	NA	NA	NA	1	71	más grande	más grande		big_brown_turtle	1	S	comparative		FALSE	TRUE	FALSE	TRUE	FALSE
+6548bWiJoGcuX59Zp	Spanish	feedback	size44	NA	NA	NA	NA	1	58	grande	grande		big_green_framee	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+6548bWiJoGcuX59Zp	Spanish	feedback	size44	NA	NA	NA	NA	1	72	pequeño	pequeño		small_brown_jacket	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+MvesSZxmNwRWxpMDF	Spanish	feedback	size44	NA	NA	NA	NA	1	52	pequeño	pequeño		small_red_stapler	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+MvesSZxmNwRWxpMDF	Spanish	feedback	size44	NA	NA	NA	NA	1	72	grande	grande		big_purple_billiardball	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+RcCbHw4ML3ei95SZP	Spanish	feedback	size44	NA	NA	NA	NA	1	27	la pequeña de las 5	la pequeña de las 5		small_purple_flower	1	AS			FALSE	TRUE	FALSE	TRUE	TRUE
+RcCbHw4ML3ei95SZP	Spanish	feedback	size44	NA	NA	NA	NA	1	45	la mas grande, todas del mismo color	la mas grande, todas del mismo color		big_purple_butterfly	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+Cisj4o5sAv9g8rbmS	Spanish	feedback	size44	NA	NA	NA	NA	1	39	imagen mas grande	imagen mas grande		big_purple_yarn	1	S	comparative		FALSE	TRUE	FALSE	TRUE	FALSE
+Cisj4o5sAv9g8rbmS	Spanish	feedback	size44	NA	NA	NA	NA	1	67	mas grande	mas grande		big_purple_billiardball	1	S	comparative		FALSE	TRUE	FALSE	TRUE	FALSE
+rh7GW6WH2awWyB4Kx	Spanish	feedback	size44	NA	NA	NA	NA	1	16	grande	grande		big_blue_tack	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+rh7GW6WH2awWyB4Kx	Spanish	feedback	size44	NA	NA	NA	NA	1	64	grande	grande		big_red_yarn	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+oPMCjJ3aFSj92CzNA	Spanish	feedback	size44	NA	NA	NA	NA	1	14	bola naranja, la más pequeña	bola naranja, la más pequeña		small_orange_pingpongball	1	NCAS	superlative		TRUE	TRUE	TRUE	TRUE	TRUE
+oPMCjJ3aFSj92CzNA	Spanish	feedback	size44	NA	NA	NA	NA	1	29	la mariposa más pequeña	la mariposa más pequeña		small_blue_butterfly	1	ANS	superlative		FALSE	TRUE	TRUE	TRUE	TRUE
+bDqu8DtgmaBkuLzTC	Spanish	feedback	size44	NA	NA	NA	NA	1	32	es pequeña	es pequeña		small_purple_flower	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+bDqu8DtgmaBkuLzTC	Spanish	feedback	size44	NA	NA	NA	NA	1	58	es mas grande	es mas grande		big_blue_scarf	1	S	comparative		FALSE	TRUE	FALSE	TRUE	FALSE
+6NunwfhDpBsQMdZXp	Spanish	feedback	size44	NA	NA	NA	NA	1	20	grande	grande		big_purple_stapler	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+6NunwfhDpBsQMdZXp	Spanish	feedback	size44	NA	NA	NA	NA	1	72	mas grande	mas grande		big_black_belt	1	S	comparative		FALSE	TRUE	FALSE	TRUE	FALSE
+S4kr4v62hXL4LYC7D	Spanish	feedback	size44	NA	NA	NA	NA	1	66	biggest	biggest		big_yellow_napkin	1		ENGLISH		FALSE	FALSE	FALSE	TRUE	FALSE
+S4kr4v62hXL4LYC7D	Spanish	feedback	size44	NA	NA	NA	NA	1	70	biggest	biggest		big_purple_hairdryer	1		ENGLISH		FALSE	FALSE	FALSE	TRUE	FALSE
+bYnFuaH8d9Dkp54C5	Spanish	feedback	size44	NA	NA	NA	NA	1	29	si	si	es grande ?	big_yellow_shoe	1		GUESSER-RESPONSE		FALSE	FALSE	FALSE	TRUE	FALSE
+bYnFuaH8d9Dkp54C5	Spanish	feedback	size44	NA	NA	NA	NA	1	60	si	si	es pequeño ?	small_brown_jacket	1		GUESSER-RESPONSE		FALSE	FALSE	FALSE	TRUE	FALSE
+jbp9GcgfoE26diyWb	Spanish	feedback	size44	NA	NA	NA	NA	1	9	la flor más grande	la flor más grande		big_red_flower	1	ANS	superlative		FALSE	TRUE	TRUE	TRUE	TRUE
+jbp9GcgfoE26diyWb	Spanish	feedback	size44	NA	NA	NA	NA	1	52	el más pequeño	el más pequeño		small_black_comb	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+2PA2eTW2JBioGPq2S	Spanish	feedback	size44	NA	NA	NA	NA	1	2	pequeña	pequeña		small_red_scarf	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+2PA2eTW2JBioGPq2S	Spanish	feedback	size44	NA	NA	NA	NA	1	13	grande	grande		big_purple_stapler	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+QC9QPrwjj6RsY6hks	Spanish	feedback	size44	NA	NA	NA	NA	1	10	la más grande	la más grande		big_red_stapler	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+QC9QPrwjj6RsY6hks	Spanish	feedback	size44	NA	NA	NA	NA	1	19	el pequeño	el pequeño		small_purple_yarn	1	AS			FALSE	TRUE	FALSE	TRUE	TRUE
+aSJ3S2g3n7c5XYeuq	Spanish	feedback	size44	NA	NA	NA	NA	1	50	big one	big one		big_grey_rock	1		ENGLISH		FALSE	FALSE	FALSE	TRUE	FALSE
+aSJ3S2g3n7c5XYeuq	Spanish	feedback	size44	NA	NA	NA	NA	1	57	small	small		small_white_weddingcake	1		ENGLISH		FALSE	FALSE	FALSE	TRUE	FALSE
+SZ8Bs9kQ4wkYwTsFm	Spanish	feedback	size44	NA	NA	NA	NA	1	27	es el más pequeño	es el más pequeño		small_orange_billiardball	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+SZ8Bs9kQ4wkYwTsFm	Spanish	feedback	size44	NA	NA	NA	NA	1	43	la más grande	la más grande		big_orange_cap	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+ZeAdhLHahHwqnn9MG	Spanish	feedback	size44	NA	NA	NA	NA	1	22	gancho grande	gancho grande		big_orange_coathanger	1	NS			FALSE	TRUE	TRUE	TRUE	FALSE
+ZeAdhLHahHwqnn9MG	Spanish	feedback	size44	NA	NA	NA	NA	1	32	pastel chico	pastel chico		small_white_weddingcake	1	NS			FALSE	TRUE	TRUE	TRUE	TRUE
+3j4nmgjGw5svrxehe	Spanish	feedback	size44	NA	NA	NA	NA	1	39	el que se ve más grande	el que se ve más grande		big_green_jacket	1	S	comparative		FALSE	TRUE	FALSE	TRUE	TRUE
+3j4nmgjGw5svrxehe	Spanish	feedback	size44	NA	NA	NA	NA	1	40	igual el más grande	igual el más grande		big_purple_yarn	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+yzi4tHBHqvsoo3nn5	Spanish	feedback	size44	NA	NA	NA	NA	1	37	cojin mas pequeño	cojin mas pequeño		small_orange_cushion	1	NS	comparative		FALSE	TRUE	FALSE	TRUE	FALSE
+yzi4tHBHqvsoo3nn5	Spanish	feedback	size44	NA	NA	NA	NA	1	54	libro mas pequeño	libro mas pequeño		small_blue_book	1	NS	comparative		FALSE	TRUE	TRUE	TRUE	FALSE
+g7vxxhW2jevjbHBv8	Spanish	feedback	size44	NA	NA	NA	NA	1	21	es más pequeño que los demás	es más pequeño que los demás		small_blue_book	1	S	comparative		FALSE	TRUE	FALSE	TRUE	TRUE
+g7vxxhW2jevjbHBv8	Spanish	feedback	size44	NA	NA	NA	NA	1	49	es el más grande	es el más grande		big_orange_coathanger	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+woScH39WSn3r8vT9s	Spanish	feedback	size44	NA	NA	NA	NA	1	25	la mas chica	la mas chica		small_orange_cushion	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+woScH39WSn3r8vT9s	Spanish	feedback	size44	NA	NA	NA	NA	1	70	la mas pequeña	la mas pequeña		small_green_binder	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+6ghf7bahMwk2Gum9F	Spanish	feedback	size44	NA	NA	NA	NA	1	37	mas pequeño	mas pequeño		small_green_pepper	1	S	comparative		FALSE	TRUE	FALSE	TRUE	FALSE
+6ghf7bahMwk2Gum9F	Spanish	feedback	size44	NA	NA	NA	NA	1	68	bici mas grande de la derecha	bici mas grande de la derecha		big_red_bike	1	NS	comparative		FALSE	TRUE	FALSE	TRUE	TRUE
+7byBpzzTrLBTrRaSW	Spanish	feedback	size44	NA	NA	NA	NA	1	30	chiquito	chiquito		small_green_framee	1	S	diminutive		FALSE	TRUE	FALSE	TRUE	FALSE
+7byBpzzTrLBTrRaSW	Spanish	feedback	size44	NA	NA	NA	NA	1	57	pequeña	pequeña		small_red_candle	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+Ndey5riTwZPPn8eqi	Spanish	feedback	size44	NA	NA	NA	NA	1	10	sí	sí	pequeño?	small_white_pingpongball	1		GUESSER-RESPONSE		FALSE	FALSE	FALSE	TRUE	FALSE
+Ndey5riTwZPPn8eqi	Spanish	feedback	size44	NA	NA	NA	NA	1	16	sí	sí	grande?	big_red_bellpepper	1		GUESSER-RESPONSE		FALSE	FALSE	FALSE	TRUE	FALSE
+e85bNvHjAANCEpjwF	Spanish	feedback	size44	NA	NA	NA	NA	4	6	es el mismo objeto en todas__selecciona cualquiera	es el mismo objeto en todas		small_purple_flower	0	A			FALSE	FALSE	FALSE	TRUE	TRUE
+e85bNvHjAANCEpjwF	Spanish	feedback	size44	NA	NA	NA	NA	1	14	mas grande de todas	mas grande de todas		big_orange_pingpongball	1	S	comparative/superlative		FALSE	TRUE	FALSE	TRUE	FALSE
+BnA3FeomaYQsW7WNG	Spanish	feedback	size44	NA	NA	NA	NA	1	44	grande	grande		big_purple_coathanger	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+BnA3FeomaYQsW7WNG	Spanish	feedback	size44	NA	NA	NA	NA	1	69	grande	grande		big_red_chair	1	S			FALSE	TRUE	FALSE	TRUE	FALSE
+GZ4Bi32LYs5JLP3dn	Spanish	feedback	size44	NA	NA	NA	NA	1	7	el mas grande	el mas grande		big_green_chair	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+GZ4Bi32LYs5JLP3dn	Spanish	feedback	size44	NA	NA	NA	NA	1	44	mas grande	mas grande		big_red_candle	1	S	comparative		FALSE	TRUE	FALSE	TRUE	FALSE
+GetM4rtofxHS3ga5m	Spanish	feedback	size44	NA	NA	NA	NA	1	32	gorro mas grande	gorro mas grande		big_blue_cap	1	NS	comparative		FALSE	TRUE	FALSE	TRUE	FALSE
+GetM4rtofxHS3ga5m	Spanish	feedback	size44	NA	NA	NA	NA	1	53	la carpeta mas grande	la carpeta mas grande		big_blue_binder	1	ANS	superlative		FALSE	TRUE	TRUE	TRUE	TRUE
+z7BQy72TNHyrXNdby	Spanish	feedback	size44	NA	NA	NA	NA	1	17	la grande	la grande		big_pink_hairdryer	1	AS			FALSE	TRUE	FALSE	TRUE	TRUE
+z7BQy72TNHyrXNdby	Spanish	feedback	size44	NA	NA	NA	NA	1	40	el pequeño	el pequeño		small_blue_rug	1	AS			FALSE	TRUE	FALSE	TRUE	TRUE
+5iXGA8yrtbLNsFb8x	Spanish	feedback	size44	NA	NA	NA	NA	1	42	la más pequeña	la más pequeña		small_white_pingpongball	1	AS	superlative		FALSE	TRUE	FALSE	TRUE	TRUE
+5iXGA8yrtbLNsFb8x	Spanish	feedback	size44	NA	NA	NA	NA	1	62	más grande	más grande		big_purple_rug	1	S	comparative		FALSE	TRUE	FALSE	TRUE	FALSE
