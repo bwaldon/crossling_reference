@@ -1,0 +1,247 @@
+<html>
+
+<head>
+    <title>Language study</title>
+
+    <!--JS-->
+
+    <!-- external general utilities -->
+    <script src="shared/js/jquery-1.11.1.min.js "></script>
+    <script src="shared/full-projects/jquery-ui/jquery-ui.min.js"></script>
+    <script src="shared/js/underscore-min.js"></script>
+    <script src="shared/js/uniqueturker.js"></script>
+
+    <!-- if you want to draw stuff: -->
+    <!-- <script src="../_shared/js/raphael-min.js"></script> -->
+
+    <!-- cocolab experiment logic -->
+    <script src="shared/js/exp-V2.js"></script>
+    <script src="shared/js/stream-V2.js"></script>
+
+    <!-- cocolab general utilities -->
+    <script src="shared/js/mmturkey.js "></script>
+    <script src="shared/js/browserCheck.js"></script>
+    <!-- if you want to draw cute creatures (depends on raphael): -->
+    <!-- <script src="../_shared/js/ecosystem.js"></script> -->
+
+    <!-- experiment specific helper functions -->
+    <script src="shared/js/utils.js"></script>
+    <script src="shared/preload.js"></script>
+
+    <!--CSS-->
+    <link href="shared/full-projects/jquery-ui/jquery-ui.min.css" rel="stylesheet" type="text/css"/>
+    <link href="shared/css/cocolab-style.css" rel="stylesheet" type="text/css"/>
+    <link href="css/local-style.css" rel="stylesheet" type="text/css"/>
+
+    <!-- stimuli file -->
+    <script src="js/stimuli.js"></script>
+    <!-- experiment file -->
+    <script src="js/index.js"></script>
+
+    <script src="https://proliferate.alps.science/static/js/proliferate.js" type="text/javascript"></script>
+</head>
+
+<body onload="init();">
+  <noscript>This task requires JavaScript.</noscript>
+
+  <!-- <div class="slide" id="bot" >
+    <h3>Are you a bot?</h3>
+    <p id="s"></p>
+    <p id="q"></p>
+    <input type="text" id="text_box"/></question>
+    <br><br><br>
+      <div class="err1">
+        <p2>Failing this question two more times will disqualify you from this study.</p2></div>
+      <div class="err2">
+        <p2>Failing this question one more time will disqualify you from this study.</p2></div>
+      <div class="disq">
+        <p2>You failed the question and you are disqualified.</p2></div>
+      <div class="button">
+        <button onclick="_s.button()">Continue</button></div>
+  </div> -->
+
+  <div class="slide" id="i0" >
+    <img src="shared/images/alpslogo.png" alt="Stanford ALPS Lab" style="width:400;">
+<!--     <p id="cocolab">Stanford ALPS Lab</p> -->
+    <p id="instruct-text"> Videćete slike nekih objekta. Vaš zadatak je da ukucate u polje za tekst ispod slike kako se zove prikazan objekat. Ovaj eksperiment će trajati otprilike 10 minuta. Molimo vas da pažljivo odgovarate.
+    <br> Molimo vas da odgovarate na bosanskom/crnogorskom/hrvatskom/srpskom.
+    <br> Ako nemate slova š, č, ć, ž, ili đ na tastaturi, slobodno koristite slova s, c, z, ili dj.  </p>
+    <button id="start_button" type="button">Počnite eksperiment</button>
+    <p id="instruct-text" align="left"><i><small><small><small><strong><br>Formular za saglasnost ispitanika za učešće u istraživanju</strong>:<br>Pozvani ste da učestvujete u studiji o proizvodnji i razumevanju jezika. <br>Osoba koja vrši eksperiment će vas zamoliti da uradite lingvističke zadatke kao što su čitanje rečenica ili reči, imenovanje slika ili opisivanje scena, smišljanje svojih rečenica, ili da učestvujete u jednostavnoj igrici jezika.
+      <br>Bićete plaćeni za učestvovanje po objavljenom kursu.
+      <br>Nema nikakvih rizika ni beneficija vezanih za ovu studiju.
+      <br>Ukoliko ste pročitali ovaj formular i rešili da učestvujete u ovoj studiji, treba da znate da je vaše učestvovanje u potpunosti dobrovoljno i možete da odbijete da učestvujete ili da se predomislite u svakom trenutku bez bilo kakvih negativnih posledica ili gubitka beneficija na koja imate prava. Imate pravo da odbijete da radite posebne zadatke. Vaša privatnost će biti zaštićena u svim publikovanim i pisanim podacima koji potiču iz studije.
+      <br>Možete da odštampate ovaj formular za vašu upotrebu.
+      <br>INFORMACIJA ZA KONTAKT:
+      <br>Ako imate bilo koja pitanja, probleme ili žalbe u vezi sa ovom studijom, njenim procedurama, rizicima i beneficijama, kontaktirajte Direktorku Protokola Meghan Sumner na broju <br>(650)-725-9336 <br>Ako niste zadovoljni načinom na koji se sprovodi ova studija ili imate bilo kakve primedbe ili opšta pitanja o istraživanju ili o vašim pravima kao učesniku, molimo vas kontaktirajte Stanford Komisiju za Ocenu Etičnosti Istraživanja (Stanford Institutional Review Bord, IRB) da bi ste razgovarali sa nekime nezavisno od istraživačke grupe, na broju (650)-723-2480 ili na besplatnom broju 1-866-680-2906.
+        Takođe možete pisati na adresu: Stanford IRB, Stanford University, 3000 El Camino Real, Five Palo Alto Square, 4th Floor, Palo Alto, CA 94306 USA.
+      <br>Ako se složite da učestvujete, molimo vas nastavite prema zadacima studije. <br><br></small></small></small></i></p>
+  </div>
+
+  <!-- <div class="slide" id="instructions">
+    <h3>Instructions</h3>
+    <p>In this experiment you will read 6 descriptions of events. In
+    each description, a person makes a statement. Please read each
+    description carefully and answer questions about the speaker's
+    statement.</p>
+<!--    <button type="button" id="ibutton">Continue</button>    -->
+   <!-- <button onclick="_s.button()">Continue</button>
+  </div> -->
+
+  <div class="slide" id="objecttrial">
+  	<p id="contextsentence">{{}}</p>
+    <div id="objectimage">
+{{}}
+	</div>
+    <br>
+    <textarea id="answer" rows="1" cols="30"></textarea>
+   <!--  <table id="slider_table" class="slider_table"> -->
+     <!--  <tr><td class="left"><h3>very atypical</h3></td><td class="right" id="numObjects"><h3>very typical</h3></td></tr>
+      <tr><td colspan="2"><div id="single_slider" class="slider"></div></td></tr> -->
+    <!-- </table> -->
+    <br><br>
+    <button onclick="_s.button()">Nastavite</button>
+    <div class="err">Molimo vas unesite odgovor pre nego što nastavite. </div>
+     <!-- <br>
+	      <textarea id="objectlabel" rows="2" cols="50"></textarea>
+     <br>  -->
+
+    <!-- <button class="contbutton">Next</button>
+
+        <div class="err">Please say what kind of object you think this is. If you don't know, write "don't know".</div> -->
+
+  </div>
+
+  <div class="slide"  id="subj_info">
+    <div class="long_form">
+      <div class="subj_info_title">Anketa</div>
+      <p class="info" style="margin:0 0 0px 0;"><br>Molimo vas odgovorite na sledeću anketu.
+        <br>Prvi deo ankete nije obavezan.
+        <br>Drugi deo ankete je obavezan.
+      </p>
+
+      <p style="color:#036; font-size:17; font-weight:bold"p>Prvi Deo</p>
+
+      <p>Kojeg ste pola:
+        <select id="gender">
+          <label><option value=""/></label>
+          <label><option value="Male"/>Muškog</label>
+          <label><option value="Female"/>Ženskog</label>
+          <label><option value="Other"/>Ostalo</label>
+        </select>
+      </p>
+
+      <p>Godine starosti: <input type="text" id="age"/></p>
+
+      <p>Koji je vaš najviši nivo školovanja?
+        <select id="education">
+          <label><option value="-1"/></label>
+          <label><option value="0"/>Manji od gimnazije</label>
+          <label><option value="1"/>Gimnazija</label>
+          <label><option value="2"/>Deo fakulteta (<2 godine studija)</label>
+          <label><option value="3"/>Bačelor/viša diploma</label>
+          <label><option value="4"/>Doktorat ili Masters</label>
+        </select>
+      </p>
+
+      <p>Da li ste pažljivo pročitali uputstva i da li mislite da ste ispravno uradili studiju?</p>
+      <label><input type="radio"  name="assess" value="No"/>Ne</label>
+      <label><input type="radio"  name="assess" value="Yes"/>Da</label>
+      <label><input type="radio"  name="assess" value="Confused"/>Bio/la sam zbunjen/a</label>
+
+      <p>Da li ste pronašli bilo kakvih problema sa studijom? </p>
+      <textarea id="problems" rows="2" cols="50"></textarea>
+
+      <p>Da li mislite da je naknada za učestvovanje u studiji bila odgovarajuća?</p>
+      <textarea id="fairprice" rows="1" cols="10"></textarea>
+
+      <p>Da li vam se svidela studija?</p>
+      <select id="enjoyment">
+        <label><option value="-1"></option></label>
+        <label><option value="0">Lošiji od prosečnog eksperimenta</option></label>
+        <label><option value="1" >Prosečan eksperiment</option></label>
+        <label><option value="2">Bolji od prosečnog eksperimenta</option></label>
+      </select>
+
+      <p>U polje ispod, unesite ostale komentare u vezi sa studijom. </p>
+      <textarea id="comments" rows="3" cols="50"></textarea>
+      <br/>
+
+      <p style="color:#036; font-size:17; font-weight:bold">Drugi Deo</p>
+
+      <p>Dok ste odrastali, koji ste jezik (ili jezike) govorili u domaćinstvu/kućanstvu: <input type="text" id="firstLanguage"/></p>
+
+      <p>Dok ste odrastali, koji se jezik govorio kao primarni jezik u školi? <input type="text" id="bcsPrimaryLanguageSchool"/></p>
+
+      <p>Koje druge jezike govorite: <input type="text" id="otherLanguage"/></p>
+      <label>(Jezik/jezike koje ste naučili kao strane jezike)</label>
+
+      <p>Da li ste ikada živeli u Jugoslaviji ili u nekoj od zemalja bivše Jugoslavije?
+        <br>
+        <select id="liveInYugo">
+          <label><option value=""/></label>
+          <label><option value="no"/>Ne, nikada nisam živeo/la u Jugoslaviji/zemlji bivše Jugoslavije.</label>
+          <label><option value="visited"/>Ne, ali sam često posečivao/la Jugoslaviju/zemlju bivše Jugoslavije u detinjstvu.</label>
+          <label><option value="preAge8"/>Da, ali pre nego što sam napunio/la 8 godina.</label>
+          <label><option value="preAndPostAge8"/>Da, pre i nakon što sam napunio/la 8 godina.</label>
+          <label><option value="postAge8"/>Da, nakon što sam napunio/la 8 godina.</label>
+        </select>
+      </p>
+
+      <p>U kojoj zemlji bivše Jugoslavije ste živeli ili proveli dosta vremena?
+        <br>
+        <select id="country">
+          <label><option value=""/></label>
+          <label><option value="none"/>Nisam živeo/la u zemlji bivše Jugoslavije</label>
+          <label><option value="BIH"/>Bosna i Hercegovina</label>
+          <label><option value="MNE"/>Crna Gora</label>
+          <label><option value="HR"/>Hrvatska</label>
+          <label><option value="MK"/>Makedonija</label>
+          <label><option value="SI"/>Slovenija</label>
+          <label><option value="SRB"/>Srbija</label>
+        </select>
+      </p>
+
+      <p>Kada koristim maternji oblik svog jezika ja bih rekao/la:
+        <select id="dialectOne">
+          <label><option value=""/></label>
+          <label><option value="ekavica"/>Lepo</label>
+          <label><option value="ikavica"/>Lipo</label>
+          <label><option value="ijekavica"/>Lijepo</label>
+          <label><option value="other"/>Nešto drugo</label>
+        </select>
+      </p>
+
+      <p>Kada koristim maternji oblik svog jezika ja bih rekao/la:
+        <select id="dialectTwo">
+          <label><option value=""/></label>
+          <label><option value="štokavski"/>Što/šta</label>
+          <label><option value="čakavski"/>Ča/zač</label>
+          <label><option value="kajkavski"/>Kaj</label>
+          <label><option value="other"/>Nešto drugo</label>
+        </select>
+      </p>
+
+      <br>
+      <div class="err2" style="color:red; font-size:17; font-weight:bold">Molimo vas odgovorite na pitanja u drugom delu pre nego što nastavite. </div>
+      <br>
+      <button onclick="_s.submit()">Podnesite</button>
+      <br>
+      <p style="color:white;">.</p>
+    </div>
+  </div>
+
+  <div id="thanks" class="slide js" >
+    <p  class="big">Hvala na učešću!</p>
+  </div>
+
+  <div class="progress">
+    <span>Progress:</span>
+    <div class="bar-wrapper">
+      <div class="bar" width="0%">
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
