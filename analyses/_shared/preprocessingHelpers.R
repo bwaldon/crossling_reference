@@ -75,7 +75,18 @@ transformDataDegen2020Raw <- function(d) {
   d <- d %>%
     filter(!(chat == "NULL"))
   for(i in seq(nrow(d))) {
-    chat_temp <- d[i,]$chat[[1]] %>% select(text,role)
+    
+    chat_temp <- d[i,]$chat[[1]] 
+    
+    # patch that creates empty text col. in case no lang. exchanged
+    if(length(names(chat_temp) != 0)) {
+      chat_temp <- chat_temp %>% select(text,role)
+    } else {
+      chat_temp <- data.frame(1)
+      chat_temp$text <- " "
+      chat_temp$role <- " "
+      chat_temp <- chat_temp %>% select(text,role)
+    }
     
     chat_temp$text <- tolower(as.character(chat_temp$text))
     
@@ -173,6 +184,22 @@ plotAccuracyByTrialType <- function(d) {
 # Outputs: a dataframe
 
 automaticAnnotate <- function(d, colorTerms, sizeTerms, nouns, bleachedNouns, articles) {
+  
+  colorList <- strsplit(colorTerms, "|",fixed = TRUE)[[1]]
+  sizeList <- strsplit(sizeTerms, "|", fixed = TRUE)[[1]]
+  nounList <- strsplit(nouns, "|",fixed = TRUE)[[1]]
+  bleachedList <- strsplit(bleachedNouns, "|",fixed = TRUE)[[1]]
+  articlesList <- strsplit(articles, "|",fixed = TRUE)[[1]]
+  
+  d <- d %>%
+    mutate(words = strsplit(directorFirstMessage, " ",fixed = TRUE)) %>%
+    mutate(words = paste(map(words, function(word) {
+      word <- tolower(word)
+      ifelse(word %in% colorList,"C",ifelse(word %in% sizeList,"S",ifelse(word %in% nounList,"N",ifelse(word %in% bleachedList,"B",ifelse(word %in% articlesList,"A","")))))
+    })), sep = "")
+  
+  # LEGACY COLUMNS
+  
   # Was a color mentioned?
   d$colorMentioned = ifelse(grepl(colorTerms, d$directorFirstMessage, ignore.case = TRUE), T, F)
   
