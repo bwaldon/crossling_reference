@@ -59,7 +59,10 @@ options(mc.cores = parallel::detectCores())
 
 # # MODEL SPECIFICATION
 
-m.b.full = brm(redUtterance ~ cSufficientProperty*cSceneVariation*cLanguage + (1+cSufficientProperty*cSceneVariation|gameid) + (1+cSufficientProperty*cSceneVariation*cLanguage|clickedType), data=centered, family="bernoulli")
+m.b.full = brm(redUtterance ~ cSufficientProperty*cSceneVariation*cLanguage + 
+                 (1+cSufficientProperty*cSceneVariation|gameid) + 
+                 (1+cSufficientProperty*cSceneVariation*cLanguage|clickedType), 
+               data=centered, family="bernoulli", iter = 3000)
 
 summary(m.b.full)
 
@@ -67,7 +70,7 @@ summary(m.b.full)
 hypothesis(m.b.full, "cLanguage > 0") # hypothesis(m.b.full, "cLanguage < 0"), depending on reference level coding
 
 # PLOTTING POSTERIORS (EXAMPLE)
-plot(m.b.full, variable = c("cSufficientProperty"))
+plot(m.b.full, variable = c("cLanguage"))
 
 # AUXILIARY GLMER ANALYSIS
 m.glm = glmer(redUtterance ~ cSufficientProperty*cSceneVariation*cLanguage + (1+cSufficientProperty*cSceneVariation|gameid) + (1+cSufficientProperty*cSceneVariation*cLanguage|clickedType), data=centered, family="bernoulli")
