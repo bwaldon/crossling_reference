@@ -1453,7 +1453,6 @@ xiA5WJQ9BBwufErLv	Spanish	feedback	size43	NA	NA	NA	NA	1	22	pequeña	pequeña	S		
 xiA5WJQ9BBwufErLv	Spanish	feedback	size43	NA	NA	NA	NA	1	50	grande	grande	S			big_purple_rug	1	FALSE	TRUE	FALSE	TRUE	FALSE	
 8mztCuTtp44PNj9aR	Spanish	feedback	size43	NA	NA	NA	NA	1	15	la mas pequeña	la mas pequeña	AS	superlative		small_black_turtle	1	FALSE	TRUE	FALSE	TRUE	TRUE	
 8mztCuTtp44PNj9aR	Spanish	feedback	size43	NA	NA	NA	NA	1	44	pequeña	pequeña	S			small_brown_jacket	1	FALSE	TRUE	FALSE	TRUE	FALSE	
-C9425wL5d2jqqrfnt	Spanish	selection	size43	NA	NA	NA	NA	NONE	1		NA				NONE	0	FALSE	FALSE	FALSE	FALSE	FALSE	
 C9425wL5d2jqqrfnt	Spanish	feedback	size43	NA	NA	NA	NA	1	18	una roca gris__si	una roca gris	ANC		pequeña?	small_grey_rock	1	TRUE	FALSE	FALSE	TRUE	FALSE	
 PLenL62JMPMEiyEZd	Spanish	feedback	size43	NA	NA	NA	NA	1	12	morada y chica	morada y chica	CS	conjunction		small_purple_bike	1	TRUE	TRUE	FALSE	TRUE	FALSE	
 PLenL62JMPMEiyEZd	Spanish	feedback	size43	NA	NA	NA	NA	1	61	naranja chico	naranja chico	CS			small_orange_coathanger	1	TRUE	TRUE	FALSE	TRUE	FALSE	
@@ -1606,8 +1605,6 @@ ncA5wQm2wMWx6Qw4m	Spanish	feedback	subNec	flower	plant	rosemary	plant	1	46	blanc
 ncA5wQm2wMWx6Qw4m	Spanish	feedback	subNec	bird	animal	fish	animal	1	47	águila	águila				eagle	1	FALSE	FALSE	FALSE	TRUE	TRUE	
 ncA5wQm2wMWx6Qw4m	Spanish	feedback	subNec	car	vehicle	ambulance	vehicle	1	51	el mercedes	el mercedes	A			convertible	1	FALSE	FALSE	FALSE	TRUE	TRUE	
 ncA5wQm2wMWx6Qw4m	Spanish	feedback	subNec	car	vehicle	car	vehicle	1	61	camioneta blanca	camioneta blanca	C			suv	1	TRUE	FALSE	FALSE	TRUE	TRUE	
-ncA5wQm2wMWx6Qw4m	Spanish	feedback	subNec	bird	animal	elephant	animal	1	72	colibrí	colibrí				hummingBird	1	FALSE	FALSE	FALSE	TRUE	FALSE	
-RdyH6CPjXhDjFiBn6	Spanish	selection	subNec	bird	animal	bison	animal	NONE	1	tiene muchos colores__y es un ave	tiene muchos colores				NONE	0	FALSE	FALSE	FALSE	TRUE	FALSE	
 RdyH6CPjXhDjFiBn6	Spanish	feedback	subNec	bear	animal	cow	animal	1	10	oso panda	oso panda				pandaBear	1	FALSE	FALSE	FALSE	TRUE	FALSE	
 RdyH6CPjXhDjFiBn6	Spanish	feedback	subNec	fish	animal	bear	animal	1	11	pez gris	pez gris	C			swordFish	1	TRUE	FALSE	FALSE	TRUE	FALSE	
 RdyH6CPjXhDjFiBn6	Spanish	feedback	subNec	fish	animal	dog	animal	1	32	pez payaso	pez payaso				clownFish	1	FALSE	FALSE	FALSE	TRUE	FALSE	
