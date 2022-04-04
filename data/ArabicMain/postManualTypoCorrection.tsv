@@ -1,0 +1,885 @@
+gameId	language	stage	condition	alt1BasicLevel	alt1SuperLevel	alt2BasicLevel	alt2SuperLevel	listenerSelection	roundNumber	directorAllMessages	directorFirstMessage	guesserAllMessages	nameClickedObj	correct	words	comments	colorMentioned	sizeMentioned	typeMentioned	oneMentioned	theMentioned
+35NAyGqMuuhEiwwsu	Arabic	feedback	basicSuffType1	ivy	plant	rosemary	plant	1	2	hadiya lil zawja	hadiya lil zawja		tulip	1			FALSE	FALSE	TRUE	TRUE	FALSE
+35NAyGqMuuhEiwwsu	Arabic	feedback	basicSuffType1	lamp	furniture	bed	furniture	1	6	lil julous	lil julous		picnicTable	1			FALSE	FALSE	TRUE	TRUE	FALSE
+35NAyGqMuuhEiwwsu	Arabic	feedback	basicSuffType1	bookcase	furniture	wardrobe	furniture	1	23	lil akil	lil akil		diningTable	1			FALSE	FALSE	TRUE	TRUE	FALSE
+35NAyGqMuuhEiwwsu	Arabic	feedback	basicSuffType1	rabbit	animal	squirrel	animal	1	33	muftaris	muftaris		grizzlyBear	1			FALSE	FALSE	TRUE	TRUE	FALSE
+35NAyGqMuuhEiwwsu	Arabic	feedback	basicSuffType1	pottedPlant	plant	grasses	plant	1	35	ahmar	ahmar		rose	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+35NAyGqMuuhEiwwsu	Arabic	feedback	basicSuffType1	snake	animal	bison	animal	1	42	ta2ie	ta2ie		hummingBird	1			FALSE	FALSE	TRUE	TRUE	FALSE
+35NAyGqMuuhEiwwsu	Arabic	feedback	basicSuffType1	elephant	animal	pig	animal	1	51	ba7r	ba7r		clownFish	1			FALSE	FALSE	TRUE	TRUE	FALSE
+35NAyGqMuuhEiwwsu	Arabic	feedback	basicSuffType1	lion	animal	bird	animal	1	59	ba7r	ba7r		goldFish	1			FALSE	FALSE	TRUE	TRUE	FALSE
+35NAyGqMuuhEiwwsu	Arabic	feedback	basicSuffType1	bathrobe	clothing	gloves	clothing	1	67	saghir malabis	saghir malabis		tShirt	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+35NAyGqMuuhEiwwsu	Arabic	feedback	basicSuffType1	firetruck	vehicle	motorcycle	vehicle	1	72	3a2ila	3a2ila		minivan	1			FALSE	FALSE	TRUE	TRUE	FALSE
+3uRGDDr9F4h9CYxfY	Arabic	feedback	basicSuffType1	grasses	plant	rosemary	plant	1	3	الزهرة البيضاء	الزهرة البيضاء	?	daisy	1			TRUE	FALSE	TRUE	TRUE	TRUE
+3uRGDDr9F4h9CYxfY	Arabic	feedback	basicSuffType1	pretzels	snack	cookies	snack	1	7	الحلوى الملونة	الحلوى الملونة	?	skittles	1			FALSE	FALSE	TRUE	TRUE	TRUE
+3uRGDDr9F4h9CYxfY	Arabic	feedback	basicSuffType1	iguana	animal	snake	animal	1	10	دب الباندا	دب الباندا		pandaBear	1	N		FALSE	FALSE	TRUE	TRUE	TRUE
+3uRGDDr9F4h9CYxfY	Arabic	feedback	basicSuffType1	train	vehicle	ambulance	vehicle	1	12	السيارة الفضية	السيارة الفضية		sportsCar	1			TRUE	FALSE	TRUE	TRUE	TRUE
+3uRGDDr9F4h9CYxfY	Arabic	feedback	basicSuffType1	lobster	animal	horse	animal	1	17	السمكة	السمكة	???	clownFish	1			FALSE	FALSE	TRUE	TRUE	TRUE
+3uRGDDr9F4h9CYxfY	Arabic	feedback	basicSuffType1	bathrobe	clothing	socks	clothing	1	31	القميص	القميص		hawaiiShirt	1			FALSE	FALSE	TRUE	TRUE	TRUE
+3uRGDDr9F4h9CYxfY	Arabic	feedback	basicSuffType1	lamp	furniture	wardrobe	furniture	1	33	الدرسر	الدرسر	?	bedsideTable	1			FALSE	FALSE	TRUE	TRUE	TRUE
+3uRGDDr9F4h9CYxfY	Arabic	feedback	basicSuffType1	socks	clothing	gloves	clothing	1	46	القميص الأزرق	القميص الأزرق	????	tShirt	1			TRUE	FALSE	TRUE	TRUE	TRUE
+3uRGDDr9F4h9CYxfY	Arabic	feedback	basicSuffType1	fish	animal	crocodile	animal	1	56	الدب	الدب		grizzlyBear	1			FALSE	FALSE	TRUE	TRUE	TRUE
+743QreGaJE7p3im4s	Arabic	feedback	basicSuffType1	lobster	animal	kitten	animal	1	13	samaket nemo	samaket nemo		clownFish	1			FALSE	FALSE	TRUE	TRUE	FALSE
+743QreGaJE7p3im4s	Arabic	feedback	basicSuffType1	pottedPlant	plant	ivy	plant	1	15	warde bayda	warde bayda		daisy	1	NC		TRUE	FALSE	TRUE	TRUE	FALSE
+743QreGaJE7p3im4s	Arabic	feedback	basicSuffType1	pig	animal	rabbit	animal	1	22	kaleb	kaleb		dalmatian	1			FALSE	FALSE	TRUE	TRUE	FALSE
+743QreGaJE7p3im4s	Arabic	feedback	basicSuffType1	wardrobe	furniture	lamp	furniture	1	26	tawle	tawle		picnicTable	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+743QreGaJE7p3im4s	Arabic	feedback	basicSuffType1	bookcase	furniture	bed	furniture	1	40	tawlet 2oodet l nom	tawlet 2oodet l nom		bedsideTable	1			FALSE	FALSE	TRUE	TRUE	FALSE
+743QreGaJE7p3im4s	Arabic	feedback	basicSuffType1	grasses	plant	rosemary	plant	1	43	warde	warde		sunflower	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+743QreGaJE7p3im4s	Arabic	feedback	basicSuffType1	cookies	snack	pretzels	snack	1	57	bonbon	bonbon		skittles	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+743QreGaJE7p3im4s	Arabic	feedback	basicSuffType1	train	vehicle	firetruck	vehicle	1	59	seyara	seyara		minivan	1			FALSE	FALSE	TRUE	TRUE	FALSE
+743QreGaJE7p3im4s	Arabic	feedback	basicSuffType1	bison	animal	hamster	animal	1	69	samake	samake		goldFish	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+7KNu9oiEMipd2MtkM	Arabic	feedback	basicSuffType1	lamp	furniture	bookcase	furniture	1	2	tawli	tawli		picnicTable	1			FALSE	FALSE	TRUE	TRUE	FALSE
+7KNu9oiEMipd2MtkM	Arabic	feedback	basicSuffType1	snake	animal	hamster	animal	1	4	samaki	samaki		goldFish	1			FALSE	FALSE	TRUE	TRUE	FALSE
+7KNu9oiEMipd2MtkM	Arabic	feedback	basicSuffType1	horse	animal	rhino	animal	1	7	il kalb	il kalb		dalmatian	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+7KNu9oiEMipd2MtkM	Arabic	feedback	basicSuffType1	bird	animal	iguana	animal	1	10	panda__banda	panda		pandaBear	1			FALSE	FALSE	TRUE	TRUE	FALSE
+7KNu9oiEMipd2MtkM	Arabic	feedback	basicSuffType1	gloves	clothing	socks	clothing	1	22	2amees	2amees		dressShirt	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+7KNu9oiEMipd2MtkM	Arabic	feedback	basicSuffType1	sheep	animal	crocodile	animal	1	35	finding nemo	finding nemo		clownFish	1			FALSE	FALSE	TRUE	TRUE	FALSE
+7KNu9oiEMipd2MtkM	Arabic	feedback	basicSuffType1	iguana	animal	elephant	animal	1	43	swordfish	swordfish		swordFish	1			FALSE	FALSE	TRUE	TRUE	FALSE
+7KNu9oiEMipd2MtkM	Arabic	feedback	basicSuffType1	socks	clothing	dress	clothing	1	60	kanzi zar2a	kanzi zar2a		tShirt	1	NC		TRUE	FALSE	TRUE	TRUE	FALSE
+CTQ7DPToATf6cMCQG	Arabic	feedback	basicSuffType1	crocodile	animal	rabbit	animal	1	7	اسود ابيض	اسود ابيض		pandaBear	1			FALSE	FALSE	TRUE	TRUE	FALSE
+CTQ7DPToATf6cMCQG	Arabic	feedback	basicSuffType1	kitten	animal	lobster	animal	1	17	سما	سما		pigeon	1			FALSE	FALSE	TRUE	TRUE	FALSE
+CTQ7DPToATf6cMCQG	Arabic	feedback	basicSuffType1	dog	animal	rhino	animal	1	23	مختلف اللون	مختلف اللون		goldFish	1			FALSE	FALSE	TRUE	TRUE	TRUE
+CTQ7DPToATf6cMCQG	Arabic	feedback	basicSuffType1	pretzels	snack	cookies	snack	1	37	فانزي	فانزي		jellyBeans	1			FALSE	FALSE	TRUE	TRUE	FALSE
+CTQ7DPToATf6cMCQG	Arabic	feedback	basicSuffType1	rosemary	plant	grasses	plant	1	44	مختلف اللون	مختلف اللون		daisy	1			FALSE	FALSE	TRUE	TRUE	TRUE
+CTQ7DPToATf6cMCQG	Arabic	feedback	basicSuffType1	rabbit	animal	lion	animal	1	47	سما	سما		eagle	1			FALSE	FALSE	TRUE	TRUE	FALSE
+CTQ7DPToATf6cMCQG	Arabic	feedback	basicSuffType1	rhino	animal	fish	animal	1	50	ابو حسن	ابو حسن		parrot	1			FALSE	FALSE	TRUE	TRUE	FALSE
+CTQ7DPToATf6cMCQG	Arabic	feedback	basicSuffType1	motorcycle	vehicle	train	vehicle	1	59	مختلف اللون	مختلف اللون		sportsCar	1			FALSE	FALSE	TRUE	TRUE	TRUE
+J2gnT5ynexArsiA5J	Arabic	feedback	basicSuffType1	lamp	furniture	bookcase	furniture	1	3	طاولة	طاولة		diningTable	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+J2gnT5ynexArsiA5J	Arabic	feedback	basicSuffType1	crocodile	animal	lion	animal	1	4	دب	دب		blackBear	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+J2gnT5ynexArsiA5J	Arabic	feedback	basicSuffType1	elephant	animal	iguana	animal	1	18	kalib	kalib		dalmatian	1			FALSE	FALSE	TRUE	TRUE	FALSE
+J2gnT5ynexArsiA5J	Arabic	feedback	basicSuffType1	cow	animal	horse	animal	1	23	deb	deb		grizzlyBear	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+J2gnT5ynexArsiA5J	Arabic	feedback	basicSuffType1	grasses	plant	pottedPlant	plant	1	30	warde	warde		rose	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+J2gnT5ynexArsiA5J	Arabic	feedback	basicSuffType1	squirrel	animal	rabbit	animal	1	35	3asfour	3asfour		hummingBird	1			FALSE	FALSE	TRUE	TRUE	FALSE
+J2gnT5ynexArsiA5J	Arabic	feedback	basicSuffType1	ambulance	vehicle	firetruck	vehicle	1	38	sayyara	sayyara		convertible	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+J2gnT5ynexArsiA5J	Arabic	feedback	basicSuffType1	popcorn	snack	chips	snack	1	56	shokolata	shokolata		mnMs	1			FALSE	FALSE	TRUE	TRUE	FALSE
+J2gnT5ynexArsiA5J	Arabic	feedback	basicSuffType1	bison	animal	iguana	animal	1	62	samke	samke		goldFish	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+J2gnT5ynexArsiA5J	Arabic	feedback	basicSuffType1	socks	clothing	dress	clothing	1	66	2amees	2amees		dressShirt	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+J2gnT5ynexArsiA5J	Arabic	feedback	basicSuffType1	horse	animal	crocodile	animal	1	71	samke	samke		catfish	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+LxWvw7LzjpRjtLCmR	Arabic	feedback	basicSuffType1	bird	animal	hamster	animal	1	5	kalbon	kalbon		germanShepherd	1			FALSE	FALSE	TRUE	TRUE	FALSE
+LxWvw7LzjpRjtLCmR	Arabic	feedback	basicSuffType1	popcorn	snack	cookies	snack	1	7	sakakir mulawan	sakakir mulawan		jellyBeans	1			FALSE	FALSE	TRUE	TRUE	FALSE
+LxWvw7LzjpRjtLCmR	Arabic	feedback	basicSuffType1	pretzels	snack	chips	snack	1	11	sakakir mulawana	sakakir mulawana		skittles	1			FALSE	FALSE	TRUE	TRUE	FALSE
+LxWvw7LzjpRjtLCmR	Arabic	feedback	basicSuffType1	train	vehicle	firetruck	vehicle	1	15	siyara bala sakif	siyara bala sakif		convertible	1			FALSE	FALSE	TRUE	TRUE	FALSE
+LxWvw7LzjpRjtLCmR	Arabic	feedback	basicSuffType1	motorcycle	vehicle	firetruck	vehicle	1	55	van	van		minivan	1			FALSE	FALSE	TRUE	TRUE	FALSE
+LxWvw7LzjpRjtLCmR	Arabic	feedback	basicSuffType1	ambulance	vehicle	firetruck	vehicle	1	63	siyara	siyara		suv	1			FALSE	FALSE	TRUE	TRUE	FALSE
+XH3CJvT9vQpKNR7j2	Arabic	feedback	basicSuffType1	bison	animal	dog	animal	1	45	bird	bird		pigeon	1			FALSE	FALSE	TRUE	TRUE	FALSE
+XH3CJvT9vQpKNR7j2	Arabic	feedback	basicSuffType1	firetruck	vehicle	train	vehicle	1	58	car	car		sportsCar	1			FALSE	FALSE	TRUE	TRUE	FALSE
+XH3CJvT9vQpKNR7j2	Arabic	feedback	basicSuffType1	crocodile	animal	bird	animal	1	64	dog	dog		germanShepherd	1			FALSE	FALSE	TRUE	TRUE	FALSE
+Ze9pdxWSi9w76muqW	Arabic	feedback	basicSuffType1	bed	furniture	lamp	furniture	1	2	tosta3mal liltta3am	tosta3mal liltta3am		diningTable	1			FALSE	FALSE	TRUE	TRUE	FALSE
+Ze9pdxWSi9w76muqW	Arabic	feedback	basicSuffType1	lion	animal	cow	animal	1	11	ya3ish fi alqotob al mottajamid	ya3ish fi alqotob al mottajamid		polarBear	1			FALSE	FALSE	TRUE	TRUE	FALSE
+Ze9pdxWSi9w76muqW	Arabic	feedback	basicSuffType1	squirrel	animal	sheep	animal	1	18	ta3ish fil ma2	ta3ish fil ma2		goldFish	1			FALSE	FALSE	TRUE	TRUE	FALSE
+Ze9pdxWSi9w76muqW	Arabic	feedback	basicSuffType1	crocodile	animal	cow	animal	1	27	7ayawan da5om	7ayawan da5om		blackBear	1			FALSE	FALSE	TRUE	TRUE	FALSE
+Ze9pdxWSi9w76muqW	Arabic	feedback	basicSuffType1	lion	animal	elephant	animal	1	29	kalb motawa7ish	kalb motawa7ish		pug	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+Ze9pdxWSi9w76muqW	Arabic	feedback	basicSuffType1	horse	animal	fish	animal	1	37	yosta5dam lil 7aras	yosta5dam lil 7aras		germanShepherd	1			FALSE	FALSE	TRUE	TRUE	FALSE
+Ze9pdxWSi9w76muqW	Arabic	feedback	basicSuffType1	pretzels	snack	cookies	snack	1	38	alwan moa3adida	alwan moa3adida		jellyBeans	1			FALSE	FALSE	TRUE	TRUE	FALSE
+Ze9pdxWSi9w76muqW	Arabic	feedback	basicSuffType1	firetruck	vehicle	motorcycle	vehicle	1	39	sayara kabira	sayara kabira		suv	1	NS		FALSE	TRUE	TRUE	TRUE	FALSE
+Ze9pdxWSi9w76muqW	Arabic	feedback	basicSuffType1	snake	animal	elephant	animal	1	40	ta2ir mofttaris	ta2ir mofttaris		eagle	1			FALSE	FALSE	TRUE	TRUE	FALSE
+Ze9pdxWSi9w76muqW	Arabic	feedback	basicSuffType1	gloves	clothing	bathrobe	clothing	1	43	malabis rijaliyi	malabis rijaliyi		hawaiiShirt	1			FALSE	FALSE	TRUE	TRUE	FALSE
+Ze9pdxWSi9w76muqW	Arabic	feedback	basicSuffType1	gloves	clothing	bathrobe	clothing	1	44	malabis rijaliyi	malabis rijaliyi		dressShirt	1			FALSE	FALSE	TRUE	TRUE	FALSE
+Ze9pdxWSi9w76muqW	Arabic	feedback	basicSuffType1	bookcase	furniture	bed	furniture	1	64	lil malabis	lil malabis		bedsideTable	1			FALSE	FALSE	TRUE	TRUE	FALSE
+Ze9pdxWSi9w76muqW	Arabic	feedback	basicSuffType1	bathrobe	clothing	dress	clothing	1	67	rijali	rijali		tShirt	1			FALSE	FALSE	TRUE	TRUE	FALSE
+bKq6RbCG2DgMzNmgc	Arabic	feedback	basicSuffType1	pretzels	snack	chips	snack	1	5	alwan kteeri	alwan kteeri		jellyBeans	1			FALSE	FALSE	TRUE	TRUE	FALSE
+bKq6RbCG2DgMzNmgc	Arabic	feedback	basicSuffType1	ivy	plant	pottedPlant	plant	1	10	warde	warde		sunflower	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+bKq6RbCG2DgMzNmgc	Arabic	feedback	basicSuffType1	bird	animal	horse	animal	1	16	kab__kalb	kab		pug	1			FALSE	FALSE	TRUE	TRUE	FALSE
+bKq6RbCG2DgMzNmgc	Arabic	feedback	basicSuffType1	bed	furniture	wardrobe	furniture	1	19	tawle	tawle		diningTable	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+bKq6RbCG2DgMzNmgc	Arabic	feedback	basicSuffType1	chips	snack	pretzels	snack	1	27	alwan kteeri	alwan kteeri		gummyBears	1			FALSE	FALSE	TRUE	TRUE	FALSE
+bKq6RbCG2DgMzNmgc	Arabic	feedback	basicSuffType1	cow	animal	lobster	animal	1	31	samake bish3a	samake bish3a		swordFish	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+bKq6RbCG2DgMzNmgc	Arabic	feedback	basicSuffType1	wardrobe	furniture	lamp	furniture	1	32	jaroor	jaroor		bedsideTable	1			FALSE	FALSE	TRUE	TRUE	FALSE
+bKq6RbCG2DgMzNmgc	Arabic	feedback	basicSuffType1	horse	animal	sheep	animal	1	42	tair	tair		parrot	1			FALSE	FALSE	TRUE	TRUE	FALSE
+bKq6RbCG2DgMzNmgc	Arabic	feedback	basicSuffType1	horse	animal	elephant	animal	1	53	dib	dib		blackBear	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+bKq6RbCG2DgMzNmgc	Arabic	feedback	basicSuffType1	bear	animal	rabbit	animal	1	57	samake	samake		clownFish	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+bKq6RbCG2DgMzNmgc	Arabic	feedback	basicSuffType1	gloves	clothing	dress	clothing	1	63	kense	kense		tShirt	1			FALSE	FALSE	TRUE	TRUE	FALSE
+bKq6RbCG2DgMzNmgc	Arabic	feedback	basicSuffType1	grasses	plant	rosemary	plant	1	66	warde	warde		daisy	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+c7jZYAwp46LQyzHMR	Arabic	feedback	basicSuffType1	dog	animal	bison	animal	1	22	bird	bird		hummingBird	1			FALSE	FALSE	TRUE	TRUE	FALSE
+caCn6B6YxirR9trd7	Arabic	feedback	basicSuffType1	elephant	animal	sheep	animal	1	11	aswad	aswad		blackBear	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+caCn6B6YxirR9trd7	Arabic	feedback	basicSuffType1	lion	animal	horse	animal	1	20	munaqqat	munaqqat		dalmatian	1			FALSE	FALSE	TRUE	TRUE	FALSE
+caCn6B6YxirR9trd7	Arabic	feedback	basicSuffType1	horse	animal	squirrel	animal	1	28	aswad w abyad	aswad w abyad		pandaBear	1	CC		TRUE	FALSE	TRUE	TRUE	FALSE
+caCn6B6YxirR9trd7	Arabic	feedback	basicSuffType1	wardrobe	furniture	lamp	furniture	1	38	5ashabiyya wa lakin laysat 3aliya	5ashabiyya wa lakin laysat 3aliya		coffeeTable	1			FALSE	FALSE	TRUE	TRUE	FALSE
+caCn6B6YxirR9trd7	Arabic	feedback	basicSuffType1	gloves	clothing	dress	clothing	1	41	azraq	azraq		poloShirt	1			FALSE	FALSE	TRUE	TRUE	FALSE
+caCn6B6YxirR9trd7	Arabic	feedback	basicSuffType1	socks	clothing	dress	clothing	1	53	azraq	azraq		dressShirt	1			FALSE	FALSE	TRUE	TRUE	FALSE
+caCn6B6YxirR9trd7	Arabic	feedback	basicSuffType1	pottedPlant	plant	grasses	plant	1	54	baydaa	baydaa		daisy	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+caCn6B6YxirR9trd7	Arabic	feedback	basicSuffType1	firetruck	vehicle	ambulance	vehicle	1	55	lawnuha fiddhi	lawnuha fiddhi		sportsCar	1			FALSE	FALSE	TRUE	TRUE	FALSE
+caCn6B6YxirR9trd7	Arabic	feedback	basicSuffType1	motorcycle	vehicle	ambulance	vehicle	1	59	abyad	abyad		suv	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+caCn6B6YxirR9trd7	Arabic	feedback	basicSuffType1	popcorn	snack	pretzels	snack	1	60	mulawwana	mulawwana		skittles	1			FALSE	FALSE	TRUE	TRUE	FALSE
+caCn6B6YxirR9trd7	Arabic	feedback	basicSuffType1	dress	clothing	bathrobe	clothing	1	68	azraq__kalla	azraq	kemmaho taweel?	tShirt	1			FALSE	FALSE	TRUE	TRUE	FALSE
+sJ8RoLS8MGCGRucmN	Arabic	feedback	basicSuffType1	gloves	clothing	dress	clothing	2	3	brightest	brightest		gloves	0			FALSE	FALSE	TRUE	TRUE	FALSE
+sJ8RoLS8MGCGRucmN	Arabic	feedback	basicSuffType1	bathrobe	clothing	socks	clothing	1	12	dress shirt	dress shirt		dressShirt	1			FALSE	FALSE	TRUE	TRUE	FALSE
+sJ8RoLS8MGCGRucmN	Arabic	feedback	basicSuffType1	bed	furniture	bookcase	furniture	1	16	picnic	picnic		picnicTable	1			FALSE	FALSE	TRUE	TRUE	FALSE
+sJ8RoLS8MGCGRucmN	Arabic	feedback	basicSuffType1	sheep	animal	iguana	animal	1	18	keep on swimming	keep on swimming		clownFish	1			FALSE	FALSE	TRUE	TRUE	FALSE
+sJ8RoLS8MGCGRucmN	Arabic	feedback	basicSuffType1	crocodile	animal	horse	animal	1	22	sword	sword		swordFish	1			FALSE	FALSE	TRUE	TRUE	FALSE
+sJ8RoLS8MGCGRucmN	Arabic	feedback	basicSuffType1	horse	animal	lion	animal	1	59	aswad w abyad	aswad w abyad		pandaBear	1	CC		TRUE	FALSE	TRUE	TRUE	FALSE
+sJ8RoLS8MGCGRucmN	Arabic	feedback	basicSuffType1	horse	animal	kitten	animal	1	65	dob	dob		grizzlyBear	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+sJ8RoLS8MGCGRucmN	Arabic	feedback	basicSuffType1	elephant	animal	hamster	animal	1	71	alwan 7ilwa__asfoor	alwan 7ilwa		parrot	1			FALSE	FALSE	TRUE	TRUE	FALSE
+35NAyGqMuuhEiwwsu	Arabic	feedback	basicSuffType2	rabbit	animal	ivy	plant	1	1	common pet__7ayawan yurabihi ba3d al nas fi al bayt__najis	common pet		germanShepherd	1			FALSE	FALSE	TRUE	TRUE	FALSE
+35NAyGqMuuhEiwwsu	Arabic	feedback	basicSuffType2	elephant	animal	gloves	clothing	1	10	abyad	abyad		dalmatian	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+35NAyGqMuuhEiwwsu	Arabic	feedback	basicSuffType2	squirrel	animal	bookcase	furniture	1	12	ta2ir	ta2ir		eagle	1			FALSE	FALSE	TRUE	TRUE	FALSE
+35NAyGqMuuhEiwwsu	Arabic	feedback	basicSuffType2	iguana	animal	cookies	snack	1	17	fil bahr	fil bahr		catfish	1			FALSE	FALSE	TRUE	TRUE	FALSE
+35NAyGqMuuhEiwwsu	Arabic	feedback	basicSuffType2	rabbit	animal	bathrobe	clothing	1	22	ta2ir	ta2ir		pigeon	1			FALSE	FALSE	TRUE	TRUE	FALSE
+35NAyGqMuuhEiwwsu	Arabic	feedback	basicSuffType2	motorcycle	vehicle	lobster	animal	1	27	lil 3a2ila	lil 3a2ila		suv	1			FALSE	FALSE	TRUE	TRUE	FALSE
+35NAyGqMuuhEiwwsu	Arabic	feedback	basicSuffType2	pig	animal	lamp	furniture	1	29	qutb shamali	qutb shamali		polarBear	1			FALSE	FALSE	TRUE	TRUE	FALSE
+35NAyGqMuuhEiwwsu	Arabic	feedback	basicSuffType2	horse	animal	table	furniture	1	50	bamboo	bamboo		pandaBear	1			FALSE	FALSE	TRUE	TRUE	FALSE
+35NAyGqMuuhEiwwsu	Arabic	feedback	basicSuffType2	cookies	snack	ivy	plant	1	61	gelatin	gelatin		jellyBeans	1			FALSE	FALSE	TRUE	TRUE	FALSE
+35NAyGqMuuhEiwwsu	Arabic	feedback	basicSuffType2	bathrobe	clothing	car	vehicle	1	64	malabis saghir	malabis saghir		hawaiiShirt	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+35NAyGqMuuhEiwwsu	Arabic	feedback	basicSuffType2	socks	clothing	snake	animal	1	70	malabis kabir	malabis kabir		dressShirt	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+3uRGDDr9F4h9CYxfY	Arabic	feedback	basicSuffType2	lamp	furniture	flower	plant	1	1	الطاولة	الطاولة		diningTable	1			FALSE	FALSE	TRUE	TRUE	TRUE
+3uRGDDr9F4h9CYxfY	Arabic	feedback	basicSuffType2	kitten	animal	gloves	clothing	1	4	الدب الأسود	الدب الأسود		blackBear	1			TRUE	FALSE	TRUE	TRUE	TRUE
+3uRGDDr9F4h9CYxfY	Arabic	feedback	basicSuffType2	motorcycle	vehicle	shirt	clothing	1	5	السيارة البيضاء	السيارة البيضاء		minivan	1			TRUE	FALSE	TRUE	TRUE	TRUE
+3uRGDDr9F4h9CYxfY	Arabic	feedback	basicSuffType2	rhino	animal	wardrobe	furniture	1	13	الحمامة	الحمامة		pigeon	1			FALSE	FALSE	TRUE	TRUE	TRUE
+3uRGDDr9F4h9CYxfY	Arabic	feedback	basicSuffType2	rabbit	animal	wardrobe	furniture	1	14	الكلب	الكلب		dalmatian	1			FALSE	FALSE	TRUE	TRUE	TRUE
+3uRGDDr9F4h9CYxfY	Arabic	feedback	basicSuffType2	bathrobe	clothing	firetruck	vehicle	1	16	القميص الأزرق	القميص الأزرق		poloShirt	1			TRUE	FALSE	TRUE	TRUE	TRUE
+3uRGDDr9F4h9CYxfY	Arabic	feedback	basicSuffType2	pig	animal	chips	snack	1	26	الذئب	الذئب		husky	1			FALSE	FALSE	TRUE	TRUE	TRUE
+3uRGDDr9F4h9CYxfY	Arabic	feedback	basicSuffType2	rosemary	plant	motorcycle	vehicle	1	57	الزهرة	الزهرة		rose	1			FALSE	FALSE	TRUE	TRUE	TRUE
+3uRGDDr9F4h9CYxfY	Arabic	feedback	basicSuffType2	sheep	animal	flower	plant	1	61	الدب الأبيض	الدب الأبيض	?	polarBear	1			TRUE	FALSE	TRUE	TRUE	TRUE
+3uRGDDr9F4h9CYxfY	Arabic	feedback	basicSuffType2	popcorn	snack	rosemary	plant	1	63	الحلوى الملونة	الحلوى الملونة		jellyBeans	1			FALSE	FALSE	TRUE	TRUE	TRUE
+3uRGDDr9F4h9CYxfY	Arabic	feedback	basicSuffType2	wardrobe	furniture	firetruck	vehicle	1	64	الطاولة	الطاولة		coffeeTable	1			FALSE	FALSE	TRUE	TRUE	TRUE
+3uRGDDr9F4h9CYxfY	Arabic	feedback	basicSuffType2	grasses	plant	cookies	snack	1	67	الزهرة الحمراء	الزهرة الحمراء		tulip	1			TRUE	FALSE	TRUE	TRUE	TRUE
+3uRGDDr9F4h9CYxfY	Arabic	feedback	basicSuffType2	bed	furniture	ivy	plant	1	70	الطاولة	الطاولة		picnicTable	1			FALSE	FALSE	TRUE	TRUE	TRUE
+743QreGaJE7p3im4s	Arabic	feedback	basicSuffType2	dog	animal	socks	clothing	1	8	nisr	nisr		eagle	1			FALSE	FALSE	TRUE	TRUE	FALSE
+743QreGaJE7p3im4s	Arabic	feedback	basicSuffType2	horse	animal	cookies	snack	1	23	3asfoor	3asfoor		hummingBird	1			FALSE	FALSE	TRUE	TRUE	FALSE
+743QreGaJE7p3im4s	Arabic	feedback	basicSuffType2	bison	animal	wardrobe	furniture	1	36	samake	samake		catfish	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+743QreGaJE7p3im4s	Arabic	feedback	basicSuffType2	ivy	plant	lamp	furniture	1	46	warde again	warde again		rose	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+743QreGaJE7p3im4s	Arabic	feedback	basicSuffType2	lion	animal	lamp	furniture	1	49	kaleb	kaleb		pug	1			FALSE	FALSE	TRUE	TRUE	FALSE
+743QreGaJE7p3im4s	Arabic	feedback	basicSuffType2	pretzels	snack	ambulance	vehicle	1	52	bonbon dabadeeb	bonbon dabadeeb		gummyBears	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+743QreGaJE7p3im4s	Arabic	feedback	basicSuffType2	sheep	animal	shirt	clothing	1	54	babagha2	babagha2		parrot	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+743QreGaJE7p3im4s	Arabic	feedback	basicSuffType2	bookcase	furniture	gloves	clothing	1	72	tawle	tawle		diningTable	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+7KNu9oiEMipd2MtkM	Arabic	feedback	basicSuffType2	grasses	plant	socks	clothing	1	3	wardi	wardi		daisy	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+7KNu9oiEMipd2MtkM	Arabic	feedback	basicSuffType2	sheep	animal	bed	furniture	1	15	ya dib	ya dib		grizzlyBear	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+7KNu9oiEMipd2MtkM	Arabic	feedback	basicSuffType2	cookies	snack	car	vehicle	1	17	mlawaneen	mlawaneen		jellyBeans	1			FALSE	FALSE	TRUE	TRUE	FALSE
+7KNu9oiEMipd2MtkM	Arabic	feedback	basicSuffType2	rosemary	plant	chips	snack	1	23	il wardi	il wardi		rose	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+7KNu9oiEMipd2MtkM	Arabic	feedback	basicSuffType2	iguana	animal	rosemary	plant	1	31	catfish	catfish		catfish	1			FALSE	FALSE	TRUE	TRUE	FALSE
+7KNu9oiEMipd2MtkM	Arabic	feedback	basicSuffType2	wardrobe	furniture	iguana	animal	1	40	tawli	tawli		diningTable	1			FALSE	FALSE	TRUE	TRUE	FALSE
+7KNu9oiEMipd2MtkM	Arabic	feedback	basicSuffType2	pottedPlant	plant	motorcycle	vehicle	1	41	al zahratul safra2	al zahratul safra2		sunflower	1			TRUE	FALSE	TRUE	TRUE	FALSE
+7KNu9oiEMipd2MtkM	Arabic	feedback	basicSuffType2	lion	animal	bed	furniture	1	45	dib__dib aswad	dib		blackBear	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+7KNu9oiEMipd2MtkM	Arabic	feedback	basicSuffType2	popcorn	snack	motorcycle	vehicle	1	49	skittles	skittles		skittles	1			FALSE	FALSE	TRUE	TRUE	FALSE
+7KNu9oiEMipd2MtkM	Arabic	feedback	basicSuffType2	bathrobe	clothing	ambulance	vehicle	1	53	hawaii	hawaii		hawaiiShirt	1			FALSE	FALSE	TRUE	TRUE	FALSE
+7KNu9oiEMipd2MtkM	Arabic	feedback	basicSuffType2	lion	animal	socks	clothing	1	54	asfur__3asfur*	asfur		hummingBird	1			FALSE	FALSE	TRUE	TRUE	FALSE
+7KNu9oiEMipd2MtkM	Arabic	feedback	basicSuffType2	lobster	animal	grasses	plant	1	63	kalb abyad	kalb abyad		pug	1	NC		TRUE	FALSE	TRUE	TRUE	FALSE
+CTQ7DPToATf6cMCQG	Arabic	feedback	basicSuffType2	hamster	animal	dress	clothing	1	13	ليلي	ليلي		germanShepherd	1			FALSE	FALSE	TRUE	TRUE	FALSE
+CTQ7DPToATf6cMCQG	Arabic	feedback	basicSuffType2	dog	animal	flower	plant	1	19	بحر	بحر		clownFish	1			FALSE	FALSE	TRUE	TRUE	FALSE
+CTQ7DPToATf6cMCQG	Arabic	feedback	basicSuffType2	bookcase	furniture	shirt	clothing	1	20	بني	بني		bedsideTable	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+CTQ7DPToATf6cMCQG	Arabic	feedback	basicSuffType2	hamster	animal	motorcycle	vehicle	1	39	كبير	كبير		grizzlyBear	1			FALSE	FALSE	TRUE	TRUE	FALSE
+CTQ7DPToATf6cMCQG	Arabic	feedback	basicSuffType2	bison	animal	candy	snack	1	43	فاتح اللون	فاتح اللون		polarBear	1			FALSE	FALSE	TRUE	TRUE	TRUE
+CTQ7DPToATf6cMCQG	Arabic	feedback	basicSuffType2	wardrobe	furniture	gloves	clothing	1	48	كلي ستيك يا صفاء	كلي ستيك يا صفاء		diningTable	1			FALSE	FALSE	TRUE	TRUE	FALSE
+CTQ7DPToATf6cMCQG	Arabic	feedback	basicSuffType2	squirrel	animal	car	vehicle	1	52	سماء	سماء		hummingBird	1			FALSE	FALSE	TRUE	TRUE	FALSE
+CTQ7DPToATf6cMCQG	Arabic	feedback	basicSuffType2	pretzels	snack	lion	animal	1	55	الوان	الوان		skittles	1			FALSE	FALSE	TRUE	TRUE	TRUE
+CTQ7DPToATf6cMCQG	Arabic	feedback	basicSuffType2	rosemary	plant	rhino	animal	1	66	زيت	زيت		sunflower	1			FALSE	FALSE	TRUE	TRUE	FALSE
+J2gnT5ynexArsiA5J	Arabic	feedback	basicSuffType2	iguana	animal	chips	snack	1	17	samke	samke		swordFish	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+J2gnT5ynexArsiA5J	Arabic	feedback	basicSuffType2	kitten	animal	socks	clothing	1	19	deb	deb		pandaBear	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+J2gnT5ynexArsiA5J	Arabic	feedback	basicSuffType2	sheep	animal	popcorn	snack	1	34	baba8a2	baba8a2		parrot	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+J2gnT5ynexArsiA5J	Arabic	feedback	basicSuffType2	snake	animal	dress	clothing	1	36	kalib	kalib		husky	1			FALSE	FALSE	TRUE	TRUE	FALSE
+J2gnT5ynexArsiA5J	Arabic	feedback	basicSuffType2	kitten	animal	ambulance	vehicle	1	37	kalib	kalib		germanShepherd	1			FALSE	FALSE	TRUE	TRUE	FALSE
+J2gnT5ynexArsiA5J	Arabic	feedback	basicSuffType2	grasses	plant	train	vehicle	1	46	warde	warde		sunflower	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+J2gnT5ynexArsiA5J	Arabic	feedback	basicSuffType2	motorcycle	vehicle	popcorn	snack	1	49	van	van		minivan	1			FALSE	FALSE	TRUE	TRUE	FALSE
+J2gnT5ynexArsiA5J	Arabic	feedback	basicSuffType2	popcorn	snack	pottedPlant	plant	1	55	shi tayyib mlawwan	shi tayyib mlawwan		jellyBeans	1	B		FALSE	FALSE	TRUE	TRUE	FALSE
+J2gnT5ynexArsiA5J	Arabic	feedback	basicSuffType2	popcorn	snack	horse	animal	1	60	7elo	7elo		gummyBears	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+LxWvw7LzjpRjtLCmR	Arabic	feedback	basicSuffType2	iguana	animal	dress	clothing	1	13	samaka nemo	samaka nemo		clownFish	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+LxWvw7LzjpRjtLCmR	Arabic	feedback	basicSuffType2	cow	animal	dress	clothing	1	19	samaka	samaka		swordFish	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+LxWvw7LzjpRjtLCmR	Arabic	feedback	basicSuffType2	pig	animal	wardrobe	furniture	1	34	kalb	kalb		husky	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+LxWvw7LzjpRjtLCmR	Arabic	feedback	basicSuffType2	bison	animal	pottedPlant	plant	1	38	kalbon saghir	kalbon saghir		pug	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+LxWvw7LzjpRjtLCmR	Arabic	feedback	basicSuffType2	socks	clothing	rosemary	plant	1	49	kamees azra2	kamees azra2		poloShirt	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+LxWvw7LzjpRjtLCmR	Arabic	feedback	basicSuffType2	wardrobe	furniture	bear	animal	1	51	tawila khashabi	tawila khashabi		diningTable	1			FALSE	FALSE	TRUE	TRUE	FALSE
+LxWvw7LzjpRjtLCmR	Arabic	feedback	basicSuffType2	wardrobe	furniture	shirt	clothing	1	52	dirswar saghir	dirswar saghir		bedsideTable	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+LxWvw7LzjpRjtLCmR	Arabic	feedback	basicSuffType2	cow	animal	table	furniture	1	61	tayr kabir	tayr kabir		eagle	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+LxWvw7LzjpRjtLCmR	Arabic	feedback	basicSuffType2	fish	animal	motorcycle	vehicle	1	65	kalbon	kalbon		dalmatian	1			FALSE	FALSE	TRUE	TRUE	FALSE
+XH3CJvT9vQpKNR7j2	Arabic	feedback	basicSuffType2	grasses	plant	pretzels	snack	1	15	warde	warde		tulip	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+XH3CJvT9vQpKNR7j2	Arabic	feedback	basicSuffType2	bathrobe	clothing	motorcycle	vehicle	1	53	tishert	tishert		tShirt	1			FALSE	FALSE	TRUE	TRUE	FALSE
+XH3CJvT9vQpKNR7j2	Arabic	feedback	basicSuffType2	bed	furniture	bathrobe	clothing	1	57	bench	bench		picnicTable	1			FALSE	FALSE	TRUE	TRUE	FALSE
+XH3CJvT9vQpKNR7j2	Arabic	feedback	basicSuffType2	ambulance	vehicle	snake	animal	1	60	van	van		minivan	1			FALSE	FALSE	TRUE	TRUE	FALSE
+XH3CJvT9vQpKNR7j2	Arabic	feedback	basicSuffType2	bison	animal	gloves	clothing	1	61	panda	panda		pandaBear	1			FALSE	FALSE	TRUE	TRUE	FALSE
+XH3CJvT9vQpKNR7j2	Arabic	feedback	basicSuffType2	dress	clothing	chips	snack	1	66	kamiss	kamiss		hawaiiShirt	1			FALSE	FALSE	TRUE	TRUE	FALSE
+Ze9pdxWSi9w76muqW	Arabic	feedback	basicSuffType2	ivy	plant	firetruck	vehicle	1	4	ra2i7a jamila	ra2i7a jamila		sunflower	1			FALSE	FALSE	TRUE	TRUE	FALSE
+Ze9pdxWSi9w76muqW	Arabic	feedback	basicSuffType2	elephant	animal	gloves	clothing	1	10	7ayawan monaqqat	7ayawan monaqqat		dalmatian	1			FALSE	FALSE	TRUE	TRUE	FALSE
+Ze9pdxWSi9w76muqW	Arabic	feedback	basicSuffType2	bird	animal	shirt	clothing	1	22	7ayawan ma2i	7ayawan ma2i		swordFish	1			FALSE	FALSE	TRUE	TRUE	FALSE
+Ze9pdxWSi9w76muqW	Arabic	feedback	basicSuffType2	ivy	plant	rhino	animal	1	47	ra2i7a jamilya	ra2i7a jamilya		daisy	1			FALSE	FALSE	TRUE	TRUE	FALSE
+Ze9pdxWSi9w76muqW	Arabic	feedback	basicSuffType2	dog	animal	popcorn	snack	1	52	7ayawan ma2i	7ayawan ma2i		catfish	1			FALSE	FALSE	TRUE	TRUE	FALSE
+Ze9pdxWSi9w76muqW	Arabic	feedback	basicSuffType2	pretzels	snack	lobster	animal	3	57	dob lil akil	dob lil akil		lobster	0	N		FALSE	FALSE	TRUE	TRUE	FALSE
+Ze9pdxWSi9w76muqW	Arabic	feedback	basicSuffType2	crocodile	animal	firetruck	vehicle	2	68	7ayawan ma2i	7ayawan ma2i		crocodile	0			FALSE	FALSE	TRUE	TRUE	FALSE
+Ze9pdxWSi9w76muqW	Arabic	feedback	basicSuffType2	dog	animal	table	furniture	1	69	ta2ir jamil	ta2ir jamil		hummingBird	1			FALSE	FALSE	TRUE	TRUE	FALSE
+Ze9pdxWSi9w76muqW	Arabic	feedback	basicSuffType2	elephant	animal	ivy	plant	1	70	7ayawan kan 3ala washak al inqirad	7ayawan kan 3ala washak al inqirad		pandaBear	1			FALSE	FALSE	TRUE	TRUE	FALSE
+Ze9pdxWSi9w76muqW	Arabic	feedback	basicSuffType2	lamp	furniture	gloves	clothing	1	71	killa 5ashab	killa 5ashab		coffeeTable	1			FALSE	FALSE	TRUE	TRUE	FALSE
+bKq6RbCG2DgMzNmgc	Arabic	feedback	basicSuffType2	iguana	animal	socks	clothing	1	12	dib	dib		grizzlyBear	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+bKq6RbCG2DgMzNmgc	Arabic	feedback	basicSuffType2	rosemary	plant	wardrobe	furniture	1	13	warde	warde		rose	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+bKq6RbCG2DgMzNmgc	Arabic	feedback	basicSuffType2	rabbit	animal	gloves	clothing	1	17	samake bish3a	samake bish3a		catfish	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+bKq6RbCG2DgMzNmgc	Arabic	feedback	basicSuffType2	bookcase	furniture	flower	plant	1	22	tawle	tawle		coffeeTable	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+bKq6RbCG2DgMzNmgc	Arabic	feedback	basicSuffType2	dress	clothing	table	furniture	1	26	2amees	2amees		poloShirt	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+bKq6RbCG2DgMzNmgc	Arabic	feedback	basicSuffType2	elephant	animal	gloves	clothing	1	28	tair	tair		eagle	1			FALSE	FALSE	TRUE	TRUE	FALSE
+bKq6RbCG2DgMzNmgc	Arabic	feedback	basicSuffType2	motorcycle	vehicle	bookcase	furniture	1	29	sayara	sayara		convertible	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+bKq6RbCG2DgMzNmgc	Arabic	feedback	basicSuffType2	dress	clothing	car	vehicle	1	34	2amees	2amees		hawaiiShirt	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+bKq6RbCG2DgMzNmgc	Arabic	feedback	basicSuffType2	motorcycle	vehicle	popcorn	snack	1	43	sayara	sayara		suv	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+bKq6RbCG2DgMzNmgc	Arabic	feedback	basicSuffType2	rabbit	animal	bathrobe	clothing	1	44	kalb	kalb		dalmatian	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+bKq6RbCG2DgMzNmgc	Arabic	feedback	basicSuffType2	motorcycle	vehicle	squirrel	animal	1	48	sayara	sayara		sportsCar	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+bKq6RbCG2DgMzNmgc	Arabic	feedback	basicSuffType2	chips	snack	hamster	animal	1	62	7boob mlawani	7boob mlawani		skittles	1			FALSE	FALSE	TRUE	TRUE	FALSE
+bKq6RbCG2DgMzNmgc	Arabic	feedback	basicSuffType2	rabbit	animal	dress	clothing	1	72	the2eb	the2eb		husky	1			FALSE	FALSE	TRUE	TRUE	FALSE
+c7jZYAwp46LQyzHMR	Arabic	feedback	basicSuffType2	horse	animal	pretzels	snack	1	4	ببغاء 🦜	ببغاء 🦜		parrot	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+c7jZYAwp46LQyzHMR	Arabic	feedback	basicSuffType2	cow	animal	grasses	plant	1	40	dog	dog		germanShepherd	1			FALSE	FALSE	TRUE	TRUE	FALSE
+c7jZYAwp46LQyzHMR	Arabic	feedback	basicSuffType2	pretzels	snack	kitten	animal	1	42	multicolor sweets	multicolor sweets		skittles	1			FALSE	FALSE	TRUE	TRUE	FALSE
+caCn6B6YxirR9trd7	Arabic	feedback	basicSuffType2	ivy	plant	elephant	animal	1	7	lawnuha a7mar	lawnuha a7mar		rose	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+caCn6B6YxirR9trd7	Arabic	feedback	basicSuffType2	wardrobe	furniture	dress	clothing	1	21	ma9noo3a min 5ashab w na2kulu 3alayha	ma9noo3a min 5ashab w na2kulu 3alayha		picnicTable	1			FALSE	FALSE	TRUE	TRUE	FALSE
+caCn6B6YxirR9trd7	Arabic	feedback	basicSuffType2	pottedPlant	plant	lamp	furniture	3	31	safraa	safraa		lamp	0	C		TRUE	FALSE	TRUE	TRUE	FALSE
+caCn6B6YxirR9trd7	Arabic	feedback	basicSuffType2	kitten	animal	lamp	furniture	1	32	ya6eer	ya6eer		eagle	1			FALSE	FALSE	TRUE	TRUE	FALSE
+caCn6B6YxirR9trd7	Arabic	feedback	basicSuffType2	rabbit	animal	bed	furniture	1	37	tasba7	tasba7		catfish	1			FALSE	FALSE	TRUE	TRUE	FALSE
+caCn6B6YxirR9trd7	Arabic	feedback	basicSuffType2	lion	animal	dress	clothing	1	46	lahu ajni7a	lahu ajni7a		parrot	1			FALSE	FALSE	TRUE	TRUE	FALSE
+caCn6B6YxirR9trd7	Arabic	feedback	basicSuffType2	ivy	plant	table	furniture	1	48	jameela	jameela		tulip	1			FALSE	FALSE	TRUE	TRUE	FALSE
+caCn6B6YxirR9trd7	Arabic	feedback	basicSuffType2	cookies	snack	car	vehicle	1	51	mulawwana	mulawwana		mnMs	1			FALSE	FALSE	TRUE	TRUE	FALSE
+caCn6B6YxirR9trd7	Arabic	feedback	basicSuffType2	lion	animal	socks	clothing	1	67	kabeer wa mu5eef w ya3eeshu fi alghaba	kabeer wa mu5eef w ya3eeshu fi alghaba		grizzlyBear	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+sJ8RoLS8MGCGRucmN	Arabic	feedback	basicSuffType2	firetruck	vehicle	squirrel	animal	1	4	moms favorite in travel	moms favorite in travel		minivan	1			FALSE	FALSE	TRUE	TRUE	FALSE
+sJ8RoLS8MGCGRucmN	Arabic	feedback	basicSuffType2	pig	animal	gloves	clothing	1	9	loves tata susu garden	loves tata susu garden		hummingBird	1			FALSE	FALSE	TRUE	TRUE	FALSE
+sJ8RoLS8MGCGRucmN	Arabic	feedback	basicSuffType2	bathrobe	clothing	rosemary	plant	1	10	gift to assistant	gift to assistant		poloShirt	1			FALSE	FALSE	TRUE	TRUE	FALSE
+sJ8RoLS8MGCGRucmN	Arabic	feedback	basicSuffType2	motorcycle	vehicle	ivy	plant	1	15	fast	fast		sportsCar	1			FALSE	FALSE	TRUE	TRUE	FALSE
+sJ8RoLS8MGCGRucmN	Arabic	feedback	basicSuffType2	pottedPlant	plant	popcorn	snack	1	29	hamra	hamra		tulip	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+sJ8RoLS8MGCGRucmN	Arabic	feedback	basicSuffType2	popcorn	snack	socks	clothing	1	36	dabdoob	dabdoob		gummyBears	1			FALSE	FALSE	TRUE	TRUE	FALSE
+sJ8RoLS8MGCGRucmN	Arabic	feedback	basicSuffType2	rosemary	plant	table	furniture	1	45	warda safra2	warda safra2		sunflower	1	N		TRUE	FALSE	TRUE	TRUE	FALSE
+sJ8RoLS8MGCGRucmN	Arabic	feedback	basicSuffType2	bed	furniture	bathrobe	clothing	NONE	48	tawela jamb al takhit	tawela jamb al takhit		NONE	0	N		FALSE	FALSE	TRUE	TRUE	FALSE
+sJ8RoLS8MGCGRucmN	Arabic	feedback	basicSuffType2	rabbit	animal	cookies	snack	1	51	hamaaamaaa	hamaaamaaa		pigeon	1			FALSE	FALSE	TRUE	TRUE	FALSE
+sJ8RoLS8MGCGRucmN	Arabic	feedback	basicSuffType2	motorcycle	vehicle	cow	animal	1	56	seyara	seyara		suv	1			FALSE	FALSE	TRUE	TRUE	FALSE
+sJ8RoLS8MGCGRucmN	Arabic	feedback	basicSuffType2	gloves	clothing	ivy	plant	1	60	asrak	asrak		tShirt	1			FALSE	FALSE	TRUE	TRUE	FALSE
+35NAyGqMuuhEiwwsu	Arabic	feedback	color21	NA	NA	NA	NA	1	44	ahmar	ahmar		big_red_tack	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+35NAyGqMuuhEiwwsu	Arabic	feedback	color21	NA	NA	NA	NA	1	58	a7mar	a7mar		big_orange_billiardball	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+3uRGDDr9F4h9CYxfY	Arabic	feedback	color21	NA	NA	NA	NA	1	23	الآلة الموسيقية الخضراء	الآلة الموسيقية الخضراء	?	big_green_guitar	1	NC		TRUE	FALSE	TRUE	TRUE	TRUE
+3uRGDDr9F4h9CYxfY	Arabic	feedback	color21	NA	NA	NA	NA	1	35	الدراجة البنفسجية	الدراجة البنفسجية	?	big_purple_bike	1	NC		TRUE	FALSE	TRUE	TRUE	TRUE
+743QreGaJE7p3im4s	Arabic	feedback	color21	NA	NA	NA	NA	1	12	kerse khadra	kerse khadra		small_green_chair	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+743QreGaJE7p3im4s	Arabic	feedback	color21	NA	NA	NA	NA	1	18	kteb azra2	kteb azra2		big_blue_book	1	NC		TRUE	FALSE	TRUE	TRUE	FALSE
+7KNu9oiEMipd2MtkM	Arabic	feedback	color21	NA	NA	NA	NA	1	8	il t3li2a il mov	il t3li2a il mov		small_purple_coathanger	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+7KNu9oiEMipd2MtkM	Arabic	feedback	color21	NA	NA	NA	NA	1	51	azra2	azra2		big_blue_cap	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+CTQ7DPToATf6cMCQG	Arabic	feedback	color21	NA	NA	NA	NA	1	8	مختلف اللون	مختلف اللون		big_purple_billiardball	1			FALSE	FALSE	TRUE	TRUE	TRUE
+CTQ7DPToATf6cMCQG	Arabic	feedback	color21	NA	NA	NA	NA	1	18	مختلف اللون	مختلف اللون		small_blue_comb	1			FALSE	FALSE	TRUE	TRUE	TRUE
+J2gnT5ynexArsiA5J	Arabic	feedback	color21	NA	NA	NA	NA	1	25	2azra2	2azra2		small_blue_guitar	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+J2gnT5ynexArsiA5J	Arabic	feedback	color21	NA	NA	NA	NA	1	47	banafsaji	banafsaji		big_purple_hairdryer	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+LxWvw7LzjpRjtLCmR	Arabic	feedback	color21	NA	NA	NA	NA	1	1	wisada zarka2	wisada zarka2		big_blue_cushion	1	NC		TRUE	FALSE	TRUE	TRUE	FALSE
+LxWvw7LzjpRjtLCmR	Arabic	feedback	color21	NA	NA	NA	NA	1	42	kura bortokali	kura bortokali		small_orange_billiardball	1	NC		TRUE	FALSE	TRUE	TRUE	FALSE
+XH3CJvT9vQpKNR7j2	Arabic	feedback	color21	NA	NA	NA	NA	1	63	purple	purple		big_purple_stapler	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+XH3CJvT9vQpKNR7j2	Arabic	feedback	color21	NA	NA	NA	NA	1	68	akhdar	akhdar		small_green_framee	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+Ze9pdxWSi9w76muqW	Arabic	feedback	color21	NA	NA	NA	NA	1	3	allawn almo5ttalif	allawn almo5ttalif		small_blue_rug	1			FALSE	FALSE	TRUE	TRUE	FALSE
+Ze9pdxWSi9w76muqW	Arabic	feedback	color21	NA	NA	NA	NA	1	60	lawn mo5talif	lawn mo5talif		small_purple_flower	1			FALSE	FALSE	TRUE	TRUE	FALSE
+bKq6RbCG2DgMzNmgc	Arabic	feedback	color21	NA	NA	NA	NA	1	39	burtuqal	burtuqal		small_orange_pingpongball	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+bKq6RbCG2DgMzNmgc	Arabic	feedback	color21	NA	NA	NA	NA	1	71	azra2	azra2		big_blue_butterfly	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+c7jZYAwp46LQyzHMR	Arabic	feedback	color21	NA	NA	NA	NA	1	21	pink phone	pink phone		big_pink_phone	1			FALSE	FALSE	TRUE	TRUE	FALSE
+caCn6B6YxirR9trd7	Arabic	feedback	color21	NA	NA	NA	NA	1	8	5adraa	5adraa		small_green_bracelet	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+caCn6B6YxirR9trd7	Arabic	feedback	color21	NA	NA	NA	NA	1	13	5adraa__laysat kl baaqi	5adraa		big_blue_rug	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+sJ8RoLS8MGCGRucmN	Arabic	feedback	color21	NA	NA	NA	NA	1	20	yellow	yellow		big_yellow_balloon	1			FALSE	FALSE	TRUE	TRUE	FALSE
+sJ8RoLS8MGCGRucmN	Arabic	feedback	color21	NA	NA	NA	NA	1	67	yello	yello		big_yellow_napkin	1			FALSE	FALSE	TRUE	TRUE	FALSE
+35NAyGqMuuhEiwwsu	Arabic	feedback	color22	NA	NA	NA	NA	1	8	asfar	asfar		small_yellow_shoe	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+35NAyGqMuuhEiwwsu	Arabic	feedback	color22	NA	NA	NA	NA	1	69	azrak	azrak		big_blue_candle	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+3uRGDDr9F4h9CYxfY	Arabic	feedback	color22	NA	NA	NA	NA	1	32	السشوار البنفسجي	السشوار البنفسجي		small_purple_hairdryer	1	NC		TRUE	FALSE	TRUE	TRUE	TRUE
+3uRGDDr9F4h9CYxfY	Arabic	feedback	color22	NA	NA	NA	NA	1	49	المعطف البني	المعطف البني	?	big_brown_jacket	1	NC		TRUE	FALSE	TRUE	TRUE	TRUE
+743QreGaJE7p3im4s	Arabic	feedback	color22	NA	NA	NA	NA	1	35	skarbeeni bayda	skarbeeni bayda		small_white_shoe	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+743QreGaJE7p3im4s	Arabic	feedback	color22	NA	NA	NA	NA	1	68	2oswara khadra	2oswara khadra		big_green_bracelet	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+7KNu9oiEMipd2MtkM	Arabic	feedback	color22	NA	NA	NA	NA	1	5	il sushwar il mov	il sushwar il mov		big_purple_hairdryer	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+7KNu9oiEMipd2MtkM	Arabic	feedback	color22	NA	NA	NA	NA	1	37	aswad	aswad		small_black_book	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+CTQ7DPToATf6cMCQG	Arabic	feedback	color22	NA	NA	NA	NA	1	5	اخضر	اخضر		small_green_pepper	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+CTQ7DPToATf6cMCQG	Arabic	feedback	color22	NA	NA	NA	NA	1	67	مختلف اللون	مختلف اللون		small_blue_cushion	1			FALSE	FALSE	TRUE	TRUE	TRUE
+J2gnT5ynexArsiA5J	Arabic	feedback	color22	NA	NA	NA	NA	1	24	zar2a	zar2a		big_blue_cushion	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+J2gnT5ynexArsiA5J	Arabic	feedback	color22	NA	NA	NA	NA	1	27	2awad	2awad		small_black_comb	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+LxWvw7LzjpRjtLCmR	Arabic	feedback	color22	NA	NA	NA	NA	1	10	masbaha 2orjowani	masbaha 2orjowani		big_purple_bracelet	1	NC		TRUE	FALSE	TRUE	TRUE	FALSE
+LxWvw7LzjpRjtLCmR	Arabic	feedback	color22	NA	NA	NA	NA	1	58	kora bayda2	kora bayda2		small_white_pingpongball	1	N		TRUE	FALSE	TRUE	TRUE	FALSE
+XH3CJvT9vQpKNR7j2	Arabic	feedback	color22	NA	NA	NA	NA	1	54	blue	blue		big_blue_cap	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+XH3CJvT9vQpKNR7j2	Arabic	feedback	color22	NA	NA	NA	NA	1	72	orange	orange		small_orange_cushion	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+Ze9pdxWSi9w76muqW	Arabic	feedback	color22	NA	NA	NA	NA	1	13	lawn mo5talif	lawn mo5talif		big_pink_balloon	1			FALSE	FALSE	TRUE	TRUE	FALSE
+Ze9pdxWSi9w76muqW	Arabic	feedback	color22	NA	NA	NA	NA	1	55	lawn mo5talif	lawn mo5talif		small_blue_binder	1			FALSE	FALSE	TRUE	TRUE	FALSE
+bKq6RbCG2DgMzNmgc	Arabic	feedback	color22	NA	NA	NA	NA	1	54	zahr	zahr		big_purple_flower	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+bKq6RbCG2DgMzNmgc	Arabic	feedback	color22	NA	NA	NA	NA	1	67	banafsajee	banafsajee		small_purple_coathanger	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+c7jZYAwp46LQyzHMR	Arabic	feedback	color22	NA	NA	NA	NA	1	44	black book	black book		small_black_book	1			FALSE	FALSE	TRUE	TRUE	FALSE
+caCn6B6YxirR9trd7	Arabic	feedback	color22	NA	NA	NA	NA	1	25	a7mar wardi	a7mar wardi		small_purple_butterfly	1	CN		TRUE	FALSE	TRUE	TRUE	FALSE
+caCn6B6YxirR9trd7	Arabic	feedback	color22	NA	NA	NA	NA	1	33	lawnuha wardi	lawnuha wardi		small_purple_billiardball	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+sJ8RoLS8MGCGRucmN	Arabic	feedback	color22	NA	NA	NA	NA	1	40	2abyad	2abyad		big_white_phone	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+sJ8RoLS8MGCGRucmN	Arabic	feedback	color22	NA	NA	NA	NA	1	66	akhdar	akhdar		big_green_guitar	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+35NAyGqMuuhEiwwsu	Arabic	feedback	color31	NA	NA	NA	NA	1	20	2a7mar	2a7mar		big_red_bellpepper	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+35NAyGqMuuhEiwwsu	Arabic	feedback	color31	NA	NA	NA	NA	1	62	banafsajo	banafsajo		big_purple_bracelet	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+3uRGDDr9F4h9CYxfY	Arabic	feedback	color31	NA	NA	NA	NA	1	34	البالون الأصفر	البالون الأصفر	?	small_yellow_balloon	1	NC		TRUE	FALSE	TRUE	TRUE	TRUE
+3uRGDDr9F4h9CYxfY	Arabic	feedback	color31	NA	NA	NA	NA	1	65	السلحفاة السوداء	السلحفاة السوداء	??	small_black_turtle	1	NC		TRUE	FALSE	TRUE	TRUE	TRUE
+743QreGaJE7p3im4s	Arabic	feedback	color31	NA	NA	NA	NA	1	1	koub__yes	koub	rmedi?	small_white_teacup	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+743QreGaJE7p3im4s	Arabic	feedback	color31	NA	NA	NA	NA	1	30	khet mauve	khet mauve		small_purple_yarn	1	NC		TRUE	FALSE	TRUE	TRUE	FALSE
+7KNu9oiEMipd2MtkM	Arabic	feedback	color31	NA	NA	NA	NA	1	59	as8ar shi bini	as8ar shi bini		small_brown_jacket	1	SBC		TRUE	TRUE	TRUE	TRUE	FALSE
+7KNu9oiEMipd2MtkM	Arabic	feedback	color31	NA	NA	NA	NA	1	66	7ar 2a7mar	7ar 2a7mar		big_red_bellpepper	1	NC		TRUE	FALSE	TRUE	TRUE	FALSE
+CTQ7DPToATf6cMCQG	Arabic	feedback	color31	NA	NA	NA	NA	1	58	مختلف اللون	مختلف اللون		small_orange_coathanger	1			FALSE	FALSE	TRUE	TRUE	TRUE
+CTQ7DPToATf6cMCQG	Arabic	feedback	color31	NA	NA	NA	NA	1	63	مختلف اللون	مختلف اللون		big_pink_hairdryer	1			FALSE	FALSE	TRUE	TRUE	TRUE
+J2gnT5ynexArsiA5J	Arabic	feedback	color31	NA	NA	NA	NA	1	5	اصفر	اصفر		big_yellow_shoe	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+J2gnT5ynexArsiA5J	Arabic	feedback	color31	NA	NA	NA	NA	1	6	بنفسجي	بنفسجي		big_purple_coathanger	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+LxWvw7LzjpRjtLCmR	Arabic	feedback	color31	NA	NA	NA	NA	1	57	3ala2a bortokali	3ala2a bortokali		small_orange_coathanger	1	NC		TRUE	FALSE	TRUE	TRUE	FALSE
+LxWvw7LzjpRjtLCmR	Arabic	feedback	color31	NA	NA	NA	NA	1	62	hatif wardi al lawn	hatif wardi al lawn		big_pink_phone	1	NC		TRUE	FALSE	TRUE	TRUE	FALSE
+XH3CJvT9vQpKNR7j2	Arabic	feedback	color31	NA	NA	NA	NA	1	20	green	green		big_green_bracelet	1			FALSE	FALSE	TRUE	TRUE	FALSE
+XH3CJvT9vQpKNR7j2	Arabic	feedback	color31	NA	NA	NA	NA	1	28	pink	pink		big_purple_yarn	1			FALSE	FALSE	TRUE	TRUE	FALSE
+Ze9pdxWSi9w76muqW	Arabic	feedback	color31	NA	NA	NA	NA	1	1	alsora almo5talifa	alsora almo5talifa		small_purple_coathanger	1			FALSE	FALSE	TRUE	TRUE	FALSE
+Ze9pdxWSi9w76muqW	Arabic	feedback	color31	NA	NA	NA	NA	1	49	lawn mo5talif	lawn mo5talif		small_yellow_napkin	1			FALSE	FALSE	TRUE	TRUE	FALSE
+bKq6RbCG2DgMzNmgc	Arabic	feedback	color31	NA	NA	NA	NA	1	11	baloon zahr	baloon zahr		big_pink_balloon	1	NC		TRUE	FALSE	TRUE	TRUE	FALSE
+bKq6RbCG2DgMzNmgc	Arabic	feedback	color31	NA	NA	NA	NA	1	60	azra2	azra2		big_blue_candle	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+caCn6B6YxirR9trd7	Arabic	feedback	color31	NA	NA	NA	NA	1	12	7amraa	7amraa		small_red_chair	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+caCn6B6YxirR9trd7	Arabic	feedback	color31	NA	NA	NA	NA	1	45	lawnuha mu5talif	lawnuha mu5talif		big_blue_cap	1			FALSE	FALSE	TRUE	TRUE	FALSE
+sJ8RoLS8MGCGRucmN	Arabic	feedback	color31	NA	NA	NA	NA	1	25	red	red		small_red_pepper	1			FALSE	FALSE	TRUE	TRUE	FALSE
+sJ8RoLS8MGCGRucmN	Arabic	feedback	color31	NA	NA	NA	NA	1	31	mauve	mauve		small_purple_billiardball	1			FALSE	FALSE	TRUE	TRUE	FALSE
+35NAyGqMuuhEiwwsu	Arabic	feedback	color32	NA	NA	NA	NA	1	26	lawn mu5talif	lawn mu5talif		big_tan_rock	1			FALSE	FALSE	TRUE	TRUE	FALSE
+35NAyGqMuuhEiwwsu	Arabic	feedback	color32	NA	NA	NA	NA	1	34	saghir akhda	saghir akhda		small_green_binder	1	SC		TRUE	TRUE	TRUE	TRUE	FALSE
+3uRGDDr9F4h9CYxfY	Arabic	feedback	color32	NA	NA	NA	NA	1	22	القماش البنفسجي	القماش البنفسجي	?	small_purple_rug	1	NC		TRUE	FALSE	TRUE	TRUE	TRUE
+3uRGDDr9F4h9CYxfY	Arabic	feedback	color32	NA	NA	NA	NA	1	45	الكتاب الأزرق	الكتاب الأزرق		small_blue_book	1	NC		TRUE	FALSE	TRUE	TRUE	TRUE
+743QreGaJE7p3im4s	Arabic	feedback	color32	NA	NA	NA	NA	1	25	kteb 2akhdar	kteb 2akhdar		big_green_binder	1	NC		TRUE	FALSE	TRUE	TRUE	FALSE
+743QreGaJE7p3im4s	Arabic	feedback	color32	NA	NA	NA	NA	1	61	tabe__mauve	tabe		big_purple_billiardball	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+7KNu9oiEMipd2MtkM	Arabic	feedback	color32	NA	NA	NA	NA	1	13	orange	orange		big_orange_pingpongball	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+7KNu9oiEMipd2MtkM	Arabic	feedback	color32	NA	NA	NA	NA	1	19	a7mar	a7mar		big_red_scarf	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+CTQ7DPToATf6cMCQG	Arabic	feedback	color32	NA	NA	NA	NA	1	6	مختلف اللون	مختلف اللون		big_orange_napkin	1			FALSE	FALSE	TRUE	TRUE	TRUE
+CTQ7DPToATf6cMCQG	Arabic	feedback	color32	NA	NA	NA	NA	1	30	مختلف اللون	مختلف اللون		small_blue_candle	1			FALSE	FALSE	TRUE	TRUE	TRUE
+J2gnT5ynexArsiA5J	Arabic	feedback	color32	NA	NA	NA	NA	1	9	الاصفر	الاصفر		big_yellow_balloon	1	C		TRUE	FALSE	TRUE	TRUE	TRUE
+J2gnT5ynexArsiA5J	Arabic	feedback	color32	NA	NA	NA	NA	1	65	s8iri mish 7amra	s8iri mish 7amra		small_purple_flower	1	SC		TRUE	TRUE	TRUE	TRUE	FALSE
+LxWvw7LzjpRjtLCmR	Arabic	feedback	color32	NA	NA	NA	NA	1	17	farashaton zarka2	farashaton zarka2		small_blue_butterfly	1	NC		TRUE	FALSE	TRUE	TRUE	FALSE
+LxWvw7LzjpRjtLCmR	Arabic	feedback	color32	NA	NA	NA	NA	1	28	sham3a zarka2	sham3a zarka2		big_blue_candle	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+XH3CJvT9vQpKNR7j2	Arabic	feedback	color32	NA	NA	NA	NA	1	33	banafsaji	banafsaji		big_purple_hairdryer	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+XH3CJvT9vQpKNR7j2	Arabic	feedback	color32	NA	NA	NA	NA	1	56	different rock	different rock		small_grey_rock	1			FALSE	FALSE	TRUE	TRUE	FALSE
+Ze9pdxWSi9w76muqW	Arabic	feedback	color32	NA	NA	NA	NA	1	48	lawn mo5talif	lawn mo5talif		big_green_guitar	1			FALSE	FALSE	TRUE	TRUE	FALSE
+Ze9pdxWSi9w76muqW	Arabic	feedback	color32	NA	NA	NA	NA	1	58	lawn mo5talif	lawn mo5talif		small_green_chair	1			FALSE	FALSE	TRUE	TRUE	FALSE
+bKq6RbCG2DgMzNmgc	Arabic	feedback	color32	NA	NA	NA	NA	1	51	asfar	asfar		small_yellow_bellpepper	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+bKq6RbCG2DgMzNmgc	Arabic	feedback	color32	NA	NA	NA	NA	1	68	a7mar	a7mar		small_red_stapler	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+caCn6B6YxirR9trd7	Arabic	feedback	color32	NA	NA	NA	NA	1	62	aswad	aswad		small_blue_guitar	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+caCn6B6YxirR9trd7	Arabic	feedback	color32	NA	NA	NA	NA	1	63	a7mar	a7mar		small_red_toothbrush	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+sJ8RoLS8MGCGRucmN	Arabic	feedback	color32	NA	NA	NA	NA	1	35	burble	burble		big_purple_stapler	1			FALSE	FALSE	TRUE	TRUE	FALSE
+sJ8RoLS8MGCGRucmN	Arabic	feedback	color32	NA	NA	NA	NA	1	69	oronge	oronge		big_orange_pingpongball	1			FALSE	FALSE	TRUE	TRUE	FALSE
+35NAyGqMuuhEiwwsu	Arabic	feedback	color33	NA	NA	NA	NA	1	16	saghir__sah	saghir	nafs lhajem__lon ger__?	small_purple_hairdryer	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+35NAyGqMuuhEiwwsu	Arabic	feedback	color33	NA	NA	NA	NA	1	24	abyad	abyad		big_white_teacup	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+3uRGDDr9F4h9CYxfY	Arabic	feedback	color33	NA	NA	NA	NA	1	9	الفنجان الزهري	الفنجان الزهري	?	big_pink_teacup	1	NC		TRUE	FALSE	TRUE	TRUE	TRUE
+3uRGDDr9F4h9CYxfY	Arabic	feedback	color33	NA	NA	NA	NA	1	44	الزهرية	الزهرية		small_pink_framee	1	C		TRUE	FALSE	TRUE	TRUE	TRUE
+743QreGaJE7p3im4s	Arabic	feedback	color33	NA	NA	NA	NA	1	31	satol zaher	satol zaher		small_pink_bucket	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+743QreGaJE7p3im4s	Arabic	feedback	color33	NA	NA	NA	NA	1	38	sa7on akhdar	sa7on akhdar		big_green_framee	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+7KNu9oiEMipd2MtkM	Arabic	feedback	color33	NA	NA	NA	NA	1	33	mov	mov		big_blue_candle	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+7KNu9oiEMipd2MtkM	Arabic	feedback	color33	NA	NA	NA	NA	1	70	ballon zahr	ballon zahr		small_pink_balloon	1	NC		TRUE	FALSE	TRUE	TRUE	FALSE
+CTQ7DPToATf6cMCQG	Arabic	feedback	color33	NA	NA	NA	NA	1	32	مختلف اللون	مختلف اللون		small_blue_butterfly	1			FALSE	FALSE	TRUE	TRUE	TRUE
+CTQ7DPToATf6cMCQG	Arabic	feedback	color33	NA	NA	NA	NA	1	68	مختلف اللون	مختلف اللون		big_white_teacup	1			FALSE	FALSE	TRUE	TRUE	TRUE
+J2gnT5ynexArsiA5J	Arabic	feedback	color33	NA	NA	NA	NA	1	21	2abyad	2abyad		small_white_weddingcake	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+J2gnT5ynexArsiA5J	Arabic	feedback	color33	NA	NA	NA	NA	1	28	2azra2	2azra2		big_blue_scarf	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+LxWvw7LzjpRjtLCmR	Arabic	feedback	color33	NA	NA	NA	NA	1	31	ka3katon lilzawaj zahr al lawni	ka3katon lilzawaj zahr al lawni		big_pink_weddingcake	1	NC		TRUE	FALSE	TRUE	TRUE	FALSE
+LxWvw7LzjpRjtLCmR	Arabic	feedback	color33	NA	NA	NA	NA	1	70	2ashaat sawda2	2ashaat sawda2		big_black_belt	1	NC		TRUE	FALSE	TRUE	TRUE	FALSE
+XH3CJvT9vQpKNR7j2	Arabic	feedback	color33	NA	NA	NA	NA	1	22	red	red		small_red_scarf	1			FALSE	FALSE	TRUE	TRUE	FALSE
+XH3CJvT9vQpKNR7j2	Arabic	feedback	color33	NA	NA	NA	NA	1	30	brown	brown		big_black_comb	1			FALSE	FALSE	TRUE	TRUE	FALSE
+Ze9pdxWSi9w76muqW	Arabic	feedback	color33	NA	NA	NA	NA	1	24	lawn mo5talif	lawn mo5talif		small_red_bellpepper	1			FALSE	FALSE	TRUE	TRUE	FALSE
+Ze9pdxWSi9w76muqW	Arabic	feedback	color33	NA	NA	NA	NA	1	56	lawn mo5talif	lawn mo5talif		small_purple_butterfly	1			FALSE	FALSE	TRUE	TRUE	FALSE
+bKq6RbCG2DgMzNmgc	Arabic	feedback	color33	NA	NA	NA	NA	1	64	zahr	zahr		big_purple_rug	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+bKq6RbCG2DgMzNmgc	Arabic	feedback	color33	NA	NA	NA	NA	1	65	a7mar	a7mar		small_red_pepper	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+c7jZYAwp46LQyzHMR	Arabic	feedback	color33	NA	NA	NA	NA	1	2	green bracelet	green bracelet		big_green_bracelet	1			FALSE	FALSE	TRUE	TRUE	FALSE
+c7jZYAwp46LQyzHMR	Arabic	feedback	color33	NA	NA	NA	NA	1	3	blue butterfly 🦋	blue butterfly 🦋	اعتقد عليك الكتابة بالعربي__ويجب ان أحزر	big_blue_butterfly	1			FALSE	FALSE	TRUE	TRUE	FALSE
+caCn6B6YxirR9trd7	Arabic	feedback	color33	NA	NA	NA	NA	1	18	lawnuha 8ayr albaaqi	lawnuha 8ayr albaaqi		small_orange_coathanger	1			FALSE	FALSE	TRUE	TRUE	FALSE
+caCn6B6YxirR9trd7	Arabic	feedback	color33	NA	NA	NA	NA	1	36	7amraa	7amraa		big_orange_cushion	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+sJ8RoLS8MGCGRucmN	Arabic	feedback	color33	NA	NA	NA	NA	1	2	bl\\\darkest	bl\\\darkest		small_black_turtle	1			FALSE	FALSE	TRUE	TRUE	FALSE
+sJ8RoLS8MGCGRucmN	Arabic	feedback	color33	NA	NA	NA	NA	1	50	a7mar	a7mar		small_red_flower	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+35NAyGqMuuhEiwwsu	Arabic	feedback	color41	NA	NA	NA	NA	1	25	saghir zahr	saghir zahr		small_pink_framee	1	SC		TRUE	TRUE	TRUE	TRUE	FALSE
+35NAyGqMuuhEiwwsu	Arabic	feedback	color41	NA	NA	NA	NA	1	43	azrak	azrak		big_blue_cushion	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+3uRGDDr9F4h9CYxfY	Arabic	feedback	color41	NA	NA	NA	NA	1	18	العقد البنفسجي	العقد البنفسجي		big_purple_bracelet	1	NC		TRUE	FALSE	TRUE	TRUE	TRUE
+3uRGDDr9F4h9CYxfY	Arabic	feedback	color41	NA	NA	NA	NA	1	38	الفرشاة الحمراء	الفرشاة الحمراء		big_red_toothbrush	1	NC		TRUE	FALSE	TRUE	TRUE	TRUE
+743QreGaJE7p3im4s	Arabic	feedback	color41	NA	NA	NA	NA	1	47	hizam__benne	hizam		big_brown_belt	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+743QreGaJE7p3im4s	Arabic	feedback	color41	NA	NA	NA	NA	1	48	ta3lee2a mauve	ta3lee2a mauve		small_purple_coathanger	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+7KNu9oiEMipd2MtkM	Arabic	feedback	color41	NA	NA	NA	NA	1	29	il7amra	il7amra		small_red_stapler	1	N		TRUE	FALSE	TRUE	TRUE	FALSE
+7KNu9oiEMipd2MtkM	Arabic	feedback	color41	NA	NA	NA	NA	1	52	zahr	zahr		big_pink_bucket	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+CTQ7DPToATf6cMCQG	Arabic	feedback	color41	NA	NA	NA	NA	1	45	مختلف اللون	مختلف اللون		small_green_guitar	1			FALSE	FALSE	TRUE	TRUE	TRUE
+CTQ7DPToATf6cMCQG	Arabic	feedback	color41	NA	NA	NA	NA	1	61	مختلف اللون	مختلف اللون		big_purple_yarn	1			FALSE	FALSE	TRUE	TRUE	TRUE
+J2gnT5ynexArsiA5J	Arabic	feedback	color41	NA	NA	NA	NA	1	12	kirse 7amra	kirse 7amra		big_red_chair	1	NC		TRUE	FALSE	TRUE	TRUE	FALSE
+J2gnT5ynexArsiA5J	Arabic	feedback	color41	NA	NA	NA	NA	1	14	sile7fe biniye	sile7fe biniye	its usually obvious without a hint__but i have to wait for you to type something	small_brown_turtle	1	NC		TRUE	FALSE	TRUE	TRUE	FALSE
+LxWvw7LzjpRjtLCmR	Arabic	feedback	color41	NA	NA	NA	NA	1	18	kanaba bortokali	kanaba bortokali		big_red_chair	1	NC		TRUE	FALSE	TRUE	TRUE	FALSE
+LxWvw7LzjpRjtLCmR	Arabic	feedback	color41	NA	NA	NA	NA	1	54	sha2fi bortokali	sha2fi bortokali		big_orange_napkin	1	NC		TRUE	FALSE	TRUE	TRUE	FALSE
+XH3CJvT9vQpKNR7j2	Arabic	feedback	color41	NA	NA	NA	NA	1	3	black	black		small_black_book	1			FALSE	FALSE	TRUE	TRUE	FALSE
+XH3CJvT9vQpKNR7j2	Arabic	feedback	color41	NA	NA	NA	NA	1	37	blue folder	blue folder		small_blue_binder	1			FALSE	FALSE	TRUE	TRUE	FALSE
+Ze9pdxWSi9w76muqW	Arabic	feedback	color41	NA	NA	NA	NA	1	30	lawn mo5talif	lawn mo5talif		big_blue_comb	1			FALSE	FALSE	TRUE	TRUE	FALSE
+Ze9pdxWSi9w76muqW	Arabic	feedback	color41	NA	NA	NA	NA	1	42	lawn mo5talif	lawn mo5talif		small_purple_bike	1			FALSE	FALSE	TRUE	TRUE	FALSE
+bKq6RbCG2DgMzNmgc	Arabic	feedback	color41	NA	NA	NA	NA	1	15	musht azra2	musht azra2		big_blue_comb	1	NC		TRUE	FALSE	TRUE	TRUE	FALSE
+bKq6RbCG2DgMzNmgc	Arabic	feedback	color41	NA	NA	NA	NA	1	45	ktab azra2	ktab azra2		small_blue_book	1	NC		TRUE	FALSE	TRUE	TRUE	FALSE
+c7jZYAwp46LQyzHMR	Arabic	feedback	color41	NA	NA	NA	NA	1	43	black belt	black belt		small_black_belt	1			FALSE	FALSE	TRUE	TRUE	FALSE
+caCn6B6YxirR9trd7	Arabic	feedback	color41	NA	NA	NA	NA	1	50	a5dar	a5dar		big_green_binder	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+caCn6B6YxirR9trd7	Arabic	feedback	color41	NA	NA	NA	NA	1	71	abyad	abyad		small_white_shoe	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+sJ8RoLS8MGCGRucmN	Arabic	feedback	color41	NA	NA	NA	NA	1	7	lightest	lightest		small_pink_bucket	1			FALSE	FALSE	TRUE	TRUE	FALSE
+sJ8RoLS8MGCGRucmN	Arabic	feedback	color41	NA	NA	NA	NA	1	49	oronge	oronge		small_orange_cap	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+35NAyGqMuuhEiwwsu	Arabic	feedback	color42	NA	NA	NA	NA	1	13	banafsaji	banafsaji		big_purple_flower	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+35NAyGqMuuhEiwwsu	Arabic	feedback	color42	NA	NA	NA	NA	1	56	banafsaji	banafsaji		big_purple_coathanger	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+3uRGDDr9F4h9CYxfY	Arabic	feedback	color42	NA	NA	NA	NA	1	8	المكبس الأحمر	المكبس الأحمر	?	small_red_stapler	1	NC		TRUE	FALSE	TRUE	TRUE	TRUE
+3uRGDDr9F4h9CYxfY	Arabic	feedback	color42	NA	NA	NA	NA	1	21	الكعكة الزهرية	الكعكة الزهرية	???	big_pink_weddingcake	1	NC		TRUE	FALSE	TRUE	TRUE	TRUE
+743QreGaJE7p3im4s	Arabic	feedback	color42	NA	NA	NA	NA	1	44	hatef zahor	hatef zahor		small_pink_phone	1	NC		TRUE	FALSE	TRUE	TRUE	FALSE
+743QreGaJE7p3im4s	Arabic	feedback	color42	NA	NA	NA	NA	1	63	kabese__mauve	kabese		big_purple_stapler	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+7KNu9oiEMipd2MtkM	Arabic	feedback	color42	NA	NA	NA	NA	1	34	azra2	azra2		small_blue_butterfly	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+7KNu9oiEMipd2MtkM	Arabic	feedback	color42	NA	NA	NA	NA	1	46	7ajra rmedi__rmediyi	7ajra rmedi		big_grey_rock	1	NC		TRUE	FALSE	TRUE	TRUE	FALSE
+CTQ7DPToATf6cMCQG	Arabic	feedback	color42	NA	NA	NA	NA	1	27	مختلف اللون	مختلف اللون		small_green_binder	1			FALSE	FALSE	TRUE	TRUE	TRUE
+CTQ7DPToATf6cMCQG	Arabic	feedback	color42	NA	NA	NA	NA	1	38	مختلف اللون	مختلف اللون		big_red_scarf	1			FALSE	FALSE	TRUE	TRUE	TRUE
+J2gnT5ynexArsiA5J	Arabic	feedback	color42	NA	NA	NA	NA	1	16	2a7mar	2a7mar		small_red_yarn	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+J2gnT5ynexArsiA5J	Arabic	feedback	color42	NA	NA	NA	NA	1	54	2a5dar	2a5dar		small_green_pepper	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+LxWvw7LzjpRjtLCmR	Arabic	feedback	color42	NA	NA	NA	NA	1	22	solhafat boni fatih al lawni	solhafat boni fatih al lawni		big_brown_turtle	1	NC		TRUE	FALSE	TRUE	TRUE	FALSE
+LxWvw7LzjpRjtLCmR	Arabic	feedback	color42	NA	NA	NA	NA	1	68	finjan bayda2	finjan bayda2		big_white_teacup	1	NC		TRUE	FALSE	TRUE	TRUE	FALSE
+XH3CJvT9vQpKNR7j2	Arabic	feedback	color42	NA	NA	NA	NA	1	6	brown	brown		big_brown_belt	1			FALSE	FALSE	TRUE	TRUE	FALSE
+XH3CJvT9vQpKNR7j2	Arabic	feedback	color42	NA	NA	NA	NA	1	41	red	red		small_red_bucket	1			FALSE	FALSE	TRUE	TRUE	FALSE
+Ze9pdxWSi9w76muqW	Arabic	feedback	color42	NA	NA	NA	NA	1	33	lawn mo5talif	lawn mo5talif		small_purple_billiardball	1			FALSE	FALSE	TRUE	TRUE	FALSE
+Ze9pdxWSi9w76muqW	Arabic	feedback	color42	NA	NA	NA	NA	1	65	lawn mo5talif	lawn mo5talif		small_red_bucket	1			FALSE	FALSE	TRUE	TRUE	FALSE
+bKq6RbCG2DgMzNmgc	Arabic	feedback	color42	NA	NA	NA	NA	1	23	cubai zar2a__eh 3afwan	cubai zar2a	zahr?	small_pink_teacup	1	NC		TRUE	FALSE	TRUE	TRUE	FALSE
+bKq6RbCG2DgMzNmgc	Arabic	feedback	color42	NA	NA	NA	NA	1	25	sa5ra li lawna gheir	sa5ra li lawna gheir		big_grey_rock	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+c7jZYAwp46LQyzHMR	Arabic	feedback	color42	NA	NA	NA	NA	1	23	مجلّد لونه اخضر كانت امي تعيّط لما ارسم علاي	مجلّد لونه اخضر كانت امي تعيّط لما ارسم علاي	🤣	small_green_binder	1	NC		TRUE	FALSE	TRUE	TRUE	FALSE
+caCn6B6YxirR9trd7	Arabic	feedback	color42	NA	NA	NA	NA	1	19	lawnuha mu5talif	lawnuha mu5talif		big_white_teacup	1			FALSE	FALSE	TRUE	TRUE	FALSE
+caCn6B6YxirR9trd7	Arabic	feedback	color42	NA	NA	NA	NA	1	70	purple	purple		big_blue_candle	1			FALSE	FALSE	TRUE	TRUE	FALSE
+sJ8RoLS8MGCGRucmN	Arabic	feedback	color42	NA	NA	NA	NA	1	34	azraa	azraa		small_blue_toothbrush	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+sJ8RoLS8MGCGRucmN	Arabic	feedback	color42	NA	NA	NA	NA	1	42	2azra2	2azra2		big_blue_candle	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+35NAyGqMuuhEiwwsu	Arabic	feedback	color43	NA	NA	NA	NA	1	49	akhdar saghir	akhdar saghir		small_green_jacket	1	CS		TRUE	TRUE	TRUE	TRUE	FALSE
+35NAyGqMuuhEiwwsu	Arabic	feedback	color43	NA	NA	NA	NA	1	60	ahmar	ahmar		big_red_stapler	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+3uRGDDr9F4h9CYxfY	Arabic	feedback	color43	NA	NA	NA	NA	1	20	الكرة البيضاء	الكرة البيضاء		big_white_pingpongball	1	NC		TRUE	FALSE	TRUE	TRUE	TRUE
+3uRGDDr9F4h9CYxfY	Arabic	feedback	color43	NA	NA	NA	NA	1	55	الزهرة الحمراء	الزهرة الحمراء		big_red_flower	1	NC		TRUE	FALSE	TRUE	TRUE	TRUE
+743QreGaJE7p3im4s	Arabic	feedback	color43	NA	NA	NA	NA	1	5	tabe bayda	tabe bayda		small_white_pingpongball	1	NC		TRUE	FALSE	TRUE	TRUE	FALSE
+743QreGaJE7p3im4s	Arabic	feedback	color43	NA	NA	NA	NA	1	27	sol7afet 2aswad	sol7afet 2aswad		big_black_turtle	1	NC		TRUE	FALSE	TRUE	TRUE	FALSE
+7KNu9oiEMipd2MtkM	Arabic	feedback	color43	NA	NA	NA	NA	1	14	mlawani	mlawani		big_pink_phone	1			FALSE	FALSE	TRUE	TRUE	FALSE
+7KNu9oiEMipd2MtkM	Arabic	feedback	color43	NA	NA	NA	NA	1	18	il sawda	il sawda		small_black_turtle	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+CTQ7DPToATf6cMCQG	Arabic	feedback	color43	NA	NA	NA	NA	1	25	مختلف اللون	مختلف اللون		small_red_chair	1			FALSE	FALSE	TRUE	TRUE	TRUE
+CTQ7DPToATf6cMCQG	Arabic	feedback	color43	NA	NA	NA	NA	1	60	مختلف اللون	مختلف اللون		small_pink_phone	1			FALSE	FALSE	TRUE	TRUE	TRUE
+J2gnT5ynexArsiA5J	Arabic	feedback	color43	NA	NA	NA	NA	1	39	7amra	7amra		small_red_bike	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+J2gnT5ynexArsiA5J	Arabic	feedback	color43	NA	NA	NA	NA	1	61	banafsaji	banafsaji		big_purple_rug	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+LxWvw7LzjpRjtLCmR	Arabic	feedback	color43	NA	NA	NA	NA	1	9	kameeson bonni	kameeson bonni		small_brown_jacket	1	NC		TRUE	FALSE	TRUE	TRUE	FALSE
+LxWvw7LzjpRjtLCmR	Arabic	feedback	color43	NA	NA	NA	NA	1	16	shal hamra2	shal hamra2		big_red_scarf	1	NC		TRUE	FALSE	TRUE	TRUE	FALSE
+XH3CJvT9vQpKNR7j2	Arabic	feedback	color43	NA	NA	NA	NA	1	38	orange	orange		small_orange_billiardball	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+XH3CJvT9vQpKNR7j2	Arabic	feedback	color43	NA	NA	NA	NA	1	50	ahmar	ahmar		big_red_pepper	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+Ze9pdxWSi9w76muqW	Arabic	feedback	color43	NA	NA	NA	NA	1	19	lawn mo5talif	lawn mo5talif		small_orange_cap	1			FALSE	FALSE	TRUE	TRUE	FALSE
+Ze9pdxWSi9w76muqW	Arabic	feedback	color43	NA	NA	NA	NA	1	61	lawn mo5talif	lawn mo5talif		small_pink_phone	1			FALSE	FALSE	TRUE	TRUE	FALSE
+bKq6RbCG2DgMzNmgc	Arabic	feedback	color43	NA	NA	NA	NA	1	33	khadra	khadra		small_green_guitar	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+bKq6RbCG2DgMzNmgc	Arabic	feedback	color43	NA	NA	NA	NA	1	50	asfar	asfar		small_yellow_shoe	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+c7jZYAwp46LQyzHMR	Arabic	feedback	color43	NA	NA	NA	NA	1	1	orange	orange	size?	small_orange_napkin	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+caCn6B6YxirR9trd7	Arabic	feedback	color43	NA	NA	NA	NA	1	35	safraa	safraa		big_yellow_bellpepper	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+caCn6B6YxirR9trd7	Arabic	feedback	color43	NA	NA	NA	NA	1	40	a7mar	a7mar		big_brown_jacket	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+sJ8RoLS8MGCGRucmN	Arabic	feedback	color43	NA	NA	NA	NA	1	61	mauve	mauve		small_purple_bracelet	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+sJ8RoLS8MGCGRucmN	Arabic	feedback	color43	NA	NA	NA	NA	1	72	asfar	asfar		small_yellow_shoe	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+35NAyGqMuuhEiwwsu	Arabic	feedback	color44	NA	NA	NA	NA	1	18	azraq	azraq		small_blue_scarf	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+35NAyGqMuuhEiwwsu	Arabic	feedback	color44	NA	NA	NA	NA	1	47	azrak	azrak		small_blue_toothbrush	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+3uRGDDr9F4h9CYxfY	Arabic	feedback	color44	NA	NA	NA	NA	1	37	المشط الأزرق	المشط الأزرق		big_blue_comb	1	NC		TRUE	FALSE	TRUE	TRUE	TRUE
+3uRGDDr9F4h9CYxfY	Arabic	feedback	color44	NA	NA	NA	NA	1	47	الفلفل الأخضر	الفلفل الأخضر		big_green_pepper	1	NC		TRUE	FALSE	TRUE	TRUE	TRUE
+743QreGaJE7p3im4s	Arabic	feedback	color44	NA	NA	NA	NA	1	19	dabs 2azra2	dabs 2azra2		big_blue_tack	1	NC		TRUE	FALSE	TRUE	TRUE	FALSE
+743QreGaJE7p3im4s	Arabic	feedback	color44	NA	NA	NA	NA	1	32	sham3a 7amra	sham3a 7amra		big_red_candle	1	NC		TRUE	FALSE	TRUE	TRUE	FALSE
+7KNu9oiEMipd2MtkM	Arabic	feedback	color44	NA	NA	NA	NA	1	26	abyadh	abyadh		small_white_weddingcake	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+7KNu9oiEMipd2MtkM	Arabic	feedback	color44	NA	NA	NA	NA	1	72	ta2iyi zahra	ta2iyi zahra		big_pink_teacup	1	NC		TRUE	FALSE	TRUE	TRUE	FALSE
+CTQ7DPToATf6cMCQG	Arabic	feedback	color44	NA	NA	NA	NA	1	31	مختلف اللون	مختلف اللون		small_yellow_bellpepper	1			FALSE	FALSE	TRUE	TRUE	TRUE
+CTQ7DPToATf6cMCQG	Arabic	feedback	color44	NA	NA	NA	NA	1	72	مختلف اللون	مختلف اللون		big_pink_weddingcake	1			FALSE	FALSE	TRUE	TRUE	TRUE
+J2gnT5ynexArsiA5J	Arabic	feedback	color44	NA	NA	NA	NA	1	7	الفنجان الابيض	الفنجان الابيض		big_white_teacup	1	NC		TRUE	FALSE	TRUE	TRUE	TRUE
+J2gnT5ynexArsiA5J	Arabic	feedback	color44	NA	NA	NA	NA	1	57	2asfar	2asfar		small_yellow_bellpepper	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+LxWvw7LzjpRjtLCmR	Arabic	feedback	color44	NA	NA	NA	NA	1	24	kabasa hamra2	kabasa hamra2		small_red_stapler	1	NC		TRUE	FALSE	TRUE	TRUE	FALSE
+LxWvw7LzjpRjtLCmR	Arabic	feedback	color44	NA	NA	NA	NA	1	32	moshit sawda2	moshit sawda2		small_black_comb	1	NC		TRUE	FALSE	TRUE	TRUE	FALSE
+XH3CJvT9vQpKNR7j2	Arabic	feedback	color44	NA	NA	NA	NA	1	16	farshe zaher	farshe zaher		big_purple_butterfly	1	NC		TRUE	FALSE	TRUE	TRUE	FALSE
+XH3CJvT9vQpKNR7j2	Arabic	feedback	color44	NA	NA	NA	NA	1	29	brown	brown		small_brown_turtle	1			FALSE	FALSE	TRUE	TRUE	FALSE
+Ze9pdxWSi9w76muqW	Arabic	feedback	color44	NA	NA	NA	NA	1	7	lawn mo5alif	lawn mo5alif		small_blue_tack	1			FALSE	FALSE	TRUE	TRUE	FALSE
+Ze9pdxWSi9w76muqW	Arabic	feedback	color44	NA	NA	NA	NA	1	8	lawn mo5talif	lawn mo5talif		small_brown_turtle	1			FALSE	FALSE	TRUE	TRUE	FALSE
+bKq6RbCG2DgMzNmgc	Arabic	feedback	color44	NA	NA	NA	NA	1	20	zahr	zahr		big_pink_framee	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+bKq6RbCG2DgMzNmgc	Arabic	feedback	color44	NA	NA	NA	NA	1	61	zahr	zahr		small_pink_weddingcake	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+c7jZYAwp46LQyzHMR	Arabic	feedback	color44	NA	NA	NA	NA	1	25	شمعة لونها بنفسجي	شمعة لونها بنفسجي		small_blue_candle	1	NC		TRUE	FALSE	TRUE	TRUE	FALSE
+caCn6B6YxirR9trd7	Arabic	feedback	color44	NA	NA	NA	NA	1	10	7amraa	7amraa		big_red_pepper	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+caCn6B6YxirR9trd7	Arabic	feedback	color44	NA	NA	NA	NA	1	47	lawnuha mu5talif	lawnuha mu5talif		small_orange_pingpongball	1			FALSE	FALSE	TRUE	TRUE	FALSE
+sJ8RoLS8MGCGRucmN	Arabic	feedback	color44	NA	NA	NA	NA	1	14	different	different		big_purple_bike	1			FALSE	FALSE	TRUE	TRUE	FALSE
+sJ8RoLS8MGCGRucmN	Arabic	feedback	color44	NA	NA	NA	NA	1	43	asrak	asrak		small_blue_cushion	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+35NAyGqMuuhEiwwsu	Arabic	feedback	size21	NA	NA	NA	NA	1	15	kabira	kabira		big_orange_cap	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+35NAyGqMuuhEiwwsu	Arabic	feedback	size21	NA	NA	NA	NA	1	71	tayib kabir	tayib kabir		big_white_weddingcake	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+3uRGDDr9F4h9CYxfY	Arabic	feedback	size21	NA	NA	NA	NA	1	15	الهاتف الزهري الكبير	الهاتف الزهري الكبير		big_pink_phone	1	NCS		TRUE	TRUE	TRUE	TRUE	TRUE
+3uRGDDr9F4h9CYxfY	Arabic	feedback	size21	NA	NA	NA	NA	1	58	الكرة الصغيرة	الكرة الصغيرة		small_orange_billiardball	1	NS		FALSE	TRUE	TRUE	TRUE	TRUE
+743QreGaJE7p3im4s	Arabic	feedback	size21	NA	NA	NA	NA	1	62	seshwar zaher__la2	seshwar zaher	zghir?	big_pink_hairdryer	1	NC		TRUE	FALSE	TRUE	TRUE	FALSE
+743QreGaJE7p3im4s	Arabic	feedback	size21	NA	NA	NA	NA	1	70	farashe__zar2a__kbeeri	farashe		big_blue_butterfly	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+7KNu9oiEMipd2MtkM	Arabic	feedback	size21	NA	NA	NA	NA	1	61	as8ar shi	as8ar shi		small_blue_rug	1	SB		FALSE	TRUE	TRUE	TRUE	FALSE
+7KNu9oiEMipd2MtkM	Arabic	feedback	size21	NA	NA	NA	NA	1	62	as8ar shi	as8ar shi		small_yellow_napkin	1	SB		FALSE	TRUE	TRUE	TRUE	FALSE
+CTQ7DPToATf6cMCQG	Arabic	feedback	size21	NA	NA	NA	NA	1	24	كبير	كبير		big_orange_pingpongball	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+CTQ7DPToATf6cMCQG	Arabic	feedback	size21	NA	NA	NA	NA	1	41	كبير	كبير		big_red_flower	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+J2gnT5ynexArsiA5J	Arabic	feedback	size21	NA	NA	NA	NA	1	1	صغيرة	صغيرة		small_blue_cap	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+J2gnT5ynexArsiA5J	Arabic	feedback	size21	NA	NA	NA	NA	1	43	kbiri	kbiri		big_blue_candle	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+LxWvw7LzjpRjtLCmR	Arabic	feedback	size21	NA	NA	NA	NA	1	21	daraja kabira 2orjowani	daraja kabira 2orjowani		big_purple_bike	1	NSC		TRUE	TRUE	TRUE	TRUE	FALSE
+LxWvw7LzjpRjtLCmR	Arabic	feedback	size21	NA	NA	NA	NA	1	29	warda hamra2 kabira	warda hamra2 kabira		big_red_flower	1	NCS		TRUE	TRUE	TRUE	TRUE	FALSE
+XH3CJvT9vQpKNR7j2	Arabic	feedback	size21	NA	NA	NA	NA	1	9	big rug blue	big rug blue		big_blue_rug	1			FALSE	FALSE	TRUE	TRUE	FALSE
+XH3CJvT9vQpKNR7j2	Arabic	feedback	size21	NA	NA	NA	NA	1	11	yellow mini	yellow mini		small_yellow_napkin	1			FALSE	FALSE	TRUE	TRUE	FALSE
+Ze9pdxWSi9w76muqW	Arabic	feedback	size21	NA	NA	NA	NA	1	31	akbar wi7di	akbar wi7di		big_pink_framee	1	SB		FALSE	TRUE	TRUE	TRUE	FALSE
+Ze9pdxWSi9w76muqW	Arabic	feedback	size21	NA	NA	NA	NA	1	66	as8ar wi7di	as8ar wi7di		small_purple_hairdryer	1	SB		FALSE	TRUE	TRUE	TRUE	FALSE
+bKq6RbCG2DgMzNmgc	Arabic	feedback	size21	NA	NA	NA	NA	1	9	akbar we7de	akbar we7de		big_blue_tack	1	SB		FALSE	TRUE	TRUE	TRUE	FALSE
+bKq6RbCG2DgMzNmgc	Arabic	feedback	size21	NA	NA	NA	NA	1	24	zgheeri	zgheeri		small_green_bracelet	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+c7jZYAwp46LQyzHMR	Arabic	feedback	size21	NA	NA	NA	NA	1	53	small picture enclave	small picture enclave		small_green_framee	1			FALSE	FALSE	TRUE	TRUE	FALSE
+c7jZYAwp46LQyzHMR	Arabic	selection	size21	NA	NA	NA	NA	NONE	55	سجادة زرقة زغيرة	سجادة زرقة زغيرة		NONE	0	NCS		TRUE	TRUE	TRUE	TRUE	FALSE
+caCn6B6YxirR9trd7	Arabic	feedback	size21	NA	NA	NA	NA	1	39	kabeer	kabeer		big_white_weddingcake	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+caCn6B6YxirR9trd7	Arabic	feedback	size21	NA	NA	NA	NA	3	58	sa8eer	sa8eer		big_green_framee	0	S		FALSE	TRUE	TRUE	TRUE	FALSE
+sJ8RoLS8MGCGRucmN	Arabic	feedback	size21	NA	NA	NA	NA	1	19	smallest	smallest		small_blue_rug	1			FALSE	FALSE	TRUE	TRUE	FALSE
+sJ8RoLS8MGCGRucmN	Arabic	feedback	size21	NA	NA	NA	NA	1	52	kabeeer__moshot	kabeeer		big_blue_comb	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+35NAyGqMuuhEiwwsu	Arabic	feedback	size22	NA	NA	NA	NA	1	5	asghar wa7id	asghar wa7id		small_blue_guitar	1	SB		FALSE	TRUE	TRUE	TRUE	FALSE
+35NAyGqMuuhEiwwsu	Arabic	feedback	size22	NA	NA	NA	NA	1	65	saghir	saghir		small_black_comb	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+3uRGDDr9F4h9CYxfY	Arabic	feedback	size22	NA	NA	NA	NA	1	53	الملف الصغير	الملف الصغير		small_blue_binder	1	NS		FALSE	TRUE	TRUE	TRUE	TRUE
+3uRGDDr9F4h9CYxfY	Arabic	feedback	size22	NA	NA	NA	NA	1	69	الفراشة الصغيرة	الفراشة الصغيرة		small_purple_butterfly	1	NS		FALSE	TRUE	TRUE	TRUE	TRUE
+743QreGaJE7p3im4s	Arabic	feedback	size22	NA	NA	NA	NA	1	21	felfol sgheer	felfol sgheer		small_yellow_bellpepper	1	NS		FALSE	TRUE	TRUE	TRUE	FALSE
+743QreGaJE7p3im4s	Arabic	feedback	size22	NA	NA	NA	NA	1	33	biceclet zgheeri	biceclet zgheeri		small_red_bike	1	NS		FALSE	TRUE	TRUE	TRUE	FALSE
+7KNu9oiEMipd2MtkM	Arabic	feedback	size22	NA	NA	NA	NA	1	64	akbar shi	akbar shi		big_red_chair	1	SB		FALSE	TRUE	TRUE	TRUE	FALSE
+7KNu9oiEMipd2MtkM	Arabic	feedback	size22	NA	NA	NA	NA	1	65	akbar firsheyi	akbar firsheyi		big_blue_toothbrush	1	SN		FALSE	TRUE	TRUE	TRUE	FALSE
+CTQ7DPToATf6cMCQG	Arabic	feedback	size22	NA	NA	NA	NA	1	40	صغير	صغير		small_red_bucket	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+CTQ7DPToATf6cMCQG	Arabic	feedback	size22	NA	NA	NA	NA	1	56	صغير	صغير		small_black_book	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+J2gnT5ynexArsiA5J	Arabic	feedback	size22	NA	NA	NA	NA	1	41	s8iri	s8iri		small_blue_toothbrush	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+J2gnT5ynexArsiA5J	Arabic	feedback	size22	NA	NA	NA	NA	1	69	s8ir	s8ir		small_black_belt	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+LxWvw7LzjpRjtLCmR	Arabic	feedback	size22	NA	NA	NA	NA	1	33	folayfila saghira safra2	folayfila saghira safra2		small_yellow_bellpepper	1	NSC		TRUE	TRUE	TRUE	TRUE	FALSE
+LxWvw7LzjpRjtLCmR	Arabic	feedback	size22	NA	NA	NA	NA	1	40	firshat al asnan kabira	firshat al asnan kabira		big_blue_toothbrush	1	NS		FALSE	TRUE	TRUE	TRUE	FALSE
+XH3CJvT9vQpKNR7j2	Arabic	feedback	size22	NA	NA	NA	NA	1	48	kbir	kbir		big_yellow_bellpepper	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+XH3CJvT9vQpKNR7j2	Arabic	feedback	size22	NA	NA	NA	NA	1	71	kbire	kbire		big_white_shoe	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+Ze9pdxWSi9w76muqW	Arabic	feedback	size22	NA	NA	NA	NA	1	32	akbar wi7di	akbar wi7di		big_orange_cushion	1	SB		FALSE	TRUE	TRUE	TRUE	FALSE
+Ze9pdxWSi9w76muqW	Arabic	feedback	size22	NA	NA	NA	NA	1	53	7ajm sa8ir	7ajm sa8ir		small_green_jacket	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+bKq6RbCG2DgMzNmgc	Arabic	feedback	size22	NA	NA	NA	NA	1	7	silhofat kbeer	silhofat kbeer		big_black_turtle	1	NS		FALSE	TRUE	TRUE	TRUE	FALSE
+bKq6RbCG2DgMzNmgc	Arabic	feedback	size22	NA	NA	NA	NA	1	41	azghar we7de	azghar we7de		small_blue_cap	1	SB		FALSE	TRUE	TRUE	TRUE	FALSE
+caCn6B6YxirR9trd7	Arabic	feedback	size22	NA	NA	NA	NA	1	17	sa8eer	sa8eer		small_blue_book	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+caCn6B6YxirR9trd7	Arabic	feedback	size22	NA	NA	NA	NA	1	57	kabeer	kabeer		big_yellow_napkin	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+sJ8RoLS8MGCGRucmN	Arabic	feedback	size22	NA	NA	NA	NA	1	33	akbar wa7ed	akbar wa7ed		big_pink_hairdryer	1	SB		FALSE	TRUE	TRUE	TRUE	FALSE
+sJ8RoLS8MGCGRucmN	Arabic	feedback	size22	NA	NA	NA	NA	1	53	kabeer	kabeer		big_red_bellpepper	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+35NAyGqMuuhEiwwsu	Arabic	feedback	size31	NA	NA	NA	NA	1	48	asfar kabir	asfar kabir		big_yellow_napkin	1	CS		TRUE	TRUE	TRUE	TRUE	FALSE
+35NAyGqMuuhEiwwsu	Arabic	feedback	size31	NA	NA	NA	NA	1	53	kabira	kabira		big_green_chair	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+3uRGDDr9F4h9CYxfY	Arabic	feedback	size31	NA	NA	NA	NA	1	40	الحذاء الصغير	الحذاء الصغير		small_white_shoe	1	NS		FALSE	TRUE	TRUE	TRUE	TRUE
+3uRGDDr9F4h9CYxfY	Arabic	feedback	size31	NA	NA	NA	NA	1	42	التعليقة الكبيرة	التعليقة الكبيرة	?	big_purple_coathanger	1	NS		FALSE	FALSE	TRUE	TRUE	TRUE
+743QreGaJE7p3im4s	Arabic	feedback	size31	NA	NA	NA	NA	1	45	ma7rama safra__la2__sgheeri	ma7rama safra	kbiri__?	small_yellow_napkin	1	NC		TRUE	FALSE	TRUE	TRUE	FALSE
+743QreGaJE7p3im4s	Arabic	feedback	size31	NA	NA	NA	NA	1	51	sejjada mauve__kbeeri	sejjada mauve		big_purple_rug	1	NC		FALSE	FALSE	TRUE	TRUE	FALSE
+7KNu9oiEMipd2MtkM	Arabic	feedback	size31	NA	NA	NA	NA	1	12	as8ar shi	as8ar shi		small_blue_tack	1	SB		FALSE	TRUE	TRUE	TRUE	FALSE
+7KNu9oiEMipd2MtkM	Arabic	feedback	size31	NA	NA	NA	NA	1	28	as8ar 2shat 2aswad	as8ar 2shat 2aswad		small_black_belt	1	SNC		TRUE	TRUE	TRUE	TRUE	FALSE
+CTQ7DPToATf6cMCQG	Arabic	feedback	size31	NA	NA	NA	NA	1	11	صغير	صغير		small_grey_rock	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+CTQ7DPToATf6cMCQG	Arabic	feedback	size31	NA	NA	NA	NA	1	49	صغير	صغير		small_pink_balloon	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+J2gnT5ynexArsiA5J	Arabic	feedback	size31	NA	NA	NA	NA	1	22	tabi kbiri	tabi kbiri		big_white_pingpongball	1	NS		FALSE	TRUE	TRUE	TRUE	FALSE
+J2gnT5ynexArsiA5J	Arabic	feedback	size31	NA	NA	NA	NA	1	40	s8iri	s8iri		small_purple_stapler	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+LxWvw7LzjpRjtLCmR	Arabic	feedback	size31	NA	NA	NA	NA	1	26	hitha2 fodi kabir	hitha2 fodi kabir		big_white_shoe	1	NCS		TRUE	TRUE	TRUE	TRUE	FALSE
+LxWvw7LzjpRjtLCmR	Arabic	feedback	size31	NA	NA	NA	NA	1	64	satil wardi saghir	satil wardi saghir		small_pink_bucket	1	NCS		TRUE	TRUE	TRUE	TRUE	FALSE
+XH3CJvT9vQpKNR7j2	Arabic	feedback	size31	NA	NA	NA	NA	1	4	mini purple	mini purple		small_purple_flower	1			FALSE	FALSE	TRUE	TRUE	FALSE
+XH3CJvT9vQpKNR7j2	Arabic	feedback	size31	NA	NA	NA	NA	1	62	mini green	mini green		small_green_jacket	1			FALSE	FALSE	TRUE	TRUE	FALSE
+Ze9pdxWSi9w76muqW	Arabic	feedback	size31	NA	NA	NA	NA	1	5	lawn al laymon__wa 7ajm mo5talif	lawn al laymon		small_orange_pingpongball	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+Ze9pdxWSi9w76muqW	Arabic	feedback	size31	NA	NA	NA	NA	1	25	zoomed out	zoomed out		small_purple_stapler	1			FALSE	FALSE	TRUE	TRUE	FALSE
+bKq6RbCG2DgMzNmgc	Arabic	feedback	size31	NA	NA	NA	NA	1	21	a5dar kbeeri	a5dar kbeeri		big_green_binder	1	CS		TRUE	TRUE	TRUE	TRUE	FALSE
+bKq6RbCG2DgMzNmgc	Arabic	feedback	size31	NA	NA	NA	NA	1	38	akbar we7de	akbar we7de		big_orange_billiardball	1	SB		FALSE	TRUE	TRUE	TRUE	FALSE
+c7jZYAwp46LQyzHMR	Arabic	feedback	size31	NA	NA	NA	NA	1	6	دبوس ازرق صغير	دبوس ازرق صغير		small_blue_tack	1	NCS		TRUE	TRUE	TRUE	TRUE	FALSE
+caCn6B6YxirR9trd7	Arabic	feedback	size31	NA	NA	NA	NA	1	30	sa8eer	sa8eer		small_red_bucket	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+caCn6B6YxirR9trd7	Arabic	feedback	size31	NA	NA	NA	NA	1	34	sa8eer	sa8eer		small_black_belt	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+sJ8RoLS8MGCGRucmN	Arabic	feedback	size31	NA	NA	NA	NA	1	11	smallest	smallest		small_white_weddingcake	1			FALSE	FALSE	TRUE	TRUE	FALSE
+sJ8RoLS8MGCGRucmN	Arabic	feedback	size31	NA	NA	NA	NA	1	17	smallest	smallest		small_white_teacup	1			FALSE	FALSE	TRUE	TRUE	FALSE
+35NAyGqMuuhEiwwsu	Arabic	feedback	size32	NA	NA	NA	NA	1	3	asghar wa7id	asghar wa7id		small_black_book	1	SB		FALSE	TRUE	TRUE	TRUE	FALSE
+35NAyGqMuuhEiwwsu	Arabic	feedback	size32	NA	NA	NA	NA	1	40	saghir	saghir		small_blue_rug	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+3uRGDDr9F4h9CYxfY	Arabic	feedback	size32	NA	NA	NA	NA	1	6	الدلو الأحمر الكبير	الدلو الأحمر الكبير	?	big_red_bucket	1	NCS		TRUE	TRUE	TRUE	TRUE	TRUE
+3uRGDDr9F4h9CYxfY	Arabic	feedback	size32	NA	NA	NA	NA	1	62	الشمعة الزرقاء الصغيرة	الشمعة الزرقاء الصغيرة	?	small_blue_candle	1	NCS		TRUE	TRUE	TRUE	TRUE	TRUE
+743QreGaJE7p3im4s	Arabic	feedback	size32	NA	NA	NA	NA	1	17	ta2eye kbeeri borda2ane	ta2eye kbeeri borda2ane		big_orange_cap	1	NSC		TRUE	TRUE	TRUE	TRUE	FALSE
+743QreGaJE7p3im4s	Arabic	feedback	size32	NA	NA	NA	NA	1	56	shal a7mar__sgheer	shal a7mar		small_red_scarf	1	NC		TRUE	FALSE	TRUE	TRUE	FALSE
+7KNu9oiEMipd2MtkM	Arabic	feedback	size32	NA	NA	NA	NA	1	30	akbar shi	akbar shi		big_green_framee	1	SB		FALSE	TRUE	TRUE	TRUE	FALSE
+7KNu9oiEMipd2MtkM	Arabic	feedback	size32	NA	NA	NA	NA	1	39	akbar shi	akbar shi		big_blue_guitar	1	SB		FALSE	TRUE	TRUE	TRUE	FALSE
+CTQ7DPToATf6cMCQG	Arabic	feedback	size32	NA	NA	NA	NA	1	28	صغير	صغير		small_purple_bike	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+CTQ7DPToATf6cMCQG	Arabic	feedback	size32	NA	NA	NA	NA	1	62	كبير	كبير		big_red_tack	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+J2gnT5ynexArsiA5J	Arabic	feedback	size32	NA	NA	NA	NA	1	31	tabi kbiri	tabi kbiri		big_orange_billiardball	1	NS		FALSE	TRUE	TRUE	TRUE	FALSE
+J2gnT5ynexArsiA5J	Arabic	feedback	size32	NA	NA	NA	NA	1	67	s8ir	s8ir		small_red_tack	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+LxWvw7LzjpRjtLCmR	Arabic	feedback	size32	NA	NA	NA	NA	1	50	folder khadra2__lol__kabira	folder khadra2	kabir__lol	big_green_binder	1	NC		TRUE	FALSE	TRUE	TRUE	FALSE
+LxWvw7LzjpRjtLCmR	Arabic	feedback	size32	NA	NA	NA	NA	1	72	har hamra2 kabira	har hamra2 kabira		big_red_pepper	1	NCS		TRUE	TRUE	TRUE	TRUE	FALSE
+XH3CJvT9vQpKNR7j2	Arabic	feedback	size32	NA	NA	NA	NA	1	36	akhdar kbir	akhdar kbir		big_green_chair	1	CS		TRUE	TRUE	TRUE	TRUE	FALSE
+XH3CJvT9vQpKNR7j2	Arabic	feedback	size32	NA	NA	NA	NA	1	49	azrak zgir	azrak zgir		small_blue_guitar	1	CS		TRUE	TRUE	TRUE	TRUE	FALSE
+Ze9pdxWSi9w76muqW	Arabic	feedback	size32	NA	NA	NA	NA	1	16	zoomed out	zoomed out		small_green_pepper	1			FALSE	FALSE	TRUE	TRUE	FALSE
+Ze9pdxWSi9w76muqW	Arabic	feedback	size32	NA	NA	NA	NA	1	62	akbar wi7kdi__wi7di	akbar wi7kdi		big_blue_candle	1	SB		FALSE	TRUE	TRUE	TRUE	FALSE
+bKq6RbCG2DgMzNmgc	Arabic	feedback	size32	NA	NA	NA	NA	1	37	azghar we7de	azghar we7de		small_blue_toothbrush	1	SB		FALSE	TRUE	TRUE	TRUE	FALSE
+bKq6RbCG2DgMzNmgc	Arabic	feedback	size32	NA	NA	NA	NA	1	55	zgheeri	zgheeri		small_blue_cushion	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+caCn6B6YxirR9trd7	Arabic	feedback	size32	NA	NA	NA	NA	1	29	sa8eer	sa8eer		small_blue_comb	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+caCn6B6YxirR9trd7	Arabic	feedback	size32	NA	NA	NA	NA	1	56	kabeer	kabeer		big_pink_phone	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+sJ8RoLS8MGCGRucmN	Arabic	feedback	size32	NA	NA	NA	NA	1	6	largest	largest		big_green_jacket	1			FALSE	FALSE	TRUE	TRUE	FALSE
+sJ8RoLS8MGCGRucmN	Arabic	feedback	size32	NA	NA	NA	NA	1	58	hajar kabeer	hajar kabeer		big_grey_rock	1	NS		FALSE	TRUE	TRUE	TRUE	FALSE
+35NAyGqMuuhEiwwsu	Arabic	feedback	size33	NA	NA	NA	NA	1	45	kabir	kabir		big_pink_bucket	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+35NAyGqMuuhEiwwsu	Arabic	feedback	size33	NA	NA	NA	NA	1	54	saghir	saghir		small_red_pepper	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+3uRGDDr9F4h9CYxfY	Arabic	feedback	size33	NA	NA	NA	NA	1	29	الحجرة الكبيرة	الحجرة الكبيرة	?	big_grey_rock	1	NS		FALSE	TRUE	TRUE	TRUE	TRUE
+3uRGDDr9F4h9CYxfY	Arabic	feedback	size33	NA	NA	NA	NA	1	54	المخدة الصغيرة	المخدة الصغيرة		small_blue_cushion	1	NS		FALSE	TRUE	TRUE	TRUE	TRUE
+743QreGaJE7p3im4s	Arabic	feedback	size33	NA	NA	NA	NA	1	64	asghar warde	asghar warde		small_purple_flower	1	SN		FALSE	TRUE	TRUE	TRUE	FALSE
+743QreGaJE7p3im4s	Arabic	feedback	size33	NA	NA	NA	NA	1	71	7ajara__kbeeri	7ajara		big_tan_rock	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+7KNu9oiEMipd2MtkM	Arabic	feedback	size33	NA	NA	NA	NA	1	11	akbar subat__skarbeeni	akbar subat		big_yellow_shoe	1	SN		FALSE	TRUE	TRUE	TRUE	FALSE
+7KNu9oiEMipd2MtkM	Arabic	feedback	size33	NA	NA	NA	NA	1	69	akbar shi	akbar shi		big_red_flower	1	SB		FALSE	TRUE	TRUE	TRUE	FALSE
+CTQ7DPToATf6cMCQG	Arabic	feedback	size33	NA	NA	NA	NA	1	3	كبير	كبير		big_red_toothbrush	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+CTQ7DPToATf6cMCQG	Arabic	feedback	size33	NA	NA	NA	NA	1	4	صغير	صغير		small_green_framee	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+J2gnT5ynexArsiA5J	Arabic	feedback	size33	NA	NA	NA	NA	1	53	s8ir	s8ir		small_blue_binder	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+J2gnT5ynexArsiA5J	Arabic	feedback	size33	NA	NA	NA	NA	1	59	s8ir	s8ir		small_white_phone	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+LxWvw7LzjpRjtLCmR	Arabic	feedback	size33	NA	NA	NA	NA	1	25	koba3a safra2 kabira	koba3a safra2 kabira		big_orange_cap	1	NCS		TRUE	TRUE	TRUE	TRUE	FALSE
+LxWvw7LzjpRjtLCmR	Arabic	feedback	size33	NA	NA	NA	NA	1	46	gitar saghir	gitar saghir		small_blue_guitar	1	NS		FALSE	TRUE	TRUE	TRUE	FALSE
+XH3CJvT9vQpKNR7j2	Arabic	feedback	size33	NA	NA	NA	NA	1	40	big balloon	big balloon		big_pink_balloon	1			FALSE	FALSE	TRUE	TRUE	FALSE
+XH3CJvT9vQpKNR7j2	Arabic	feedback	size33	NA	NA	NA	NA	1	42	big	big		big_blue_toothbrush	1			FALSE	FALSE	TRUE	TRUE	FALSE
+Ze9pdxWSi9w76muqW	Arabic	feedback	size33	NA	NA	NA	NA	1	12	zoomed out	zoomed out		small_brown_belt	1			FALSE	FALSE	TRUE	TRUE	FALSE
+Ze9pdxWSi9w76muqW	Arabic	feedback	size33	NA	NA	NA	NA	1	34	7ajm kabir	7ajm kabir		big_purple_bracelet	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+bKq6RbCG2DgMzNmgc	Arabic	feedback	size33	NA	NA	NA	NA	1	35	akbar we7de	akbar we7de		big_orange_napkin	1	SB		FALSE	TRUE	TRUE	TRUE	FALSE
+bKq6RbCG2DgMzNmgc	Arabic	feedback	size33	NA	NA	NA	NA	1	70	akbar we7de	akbar we7de		big_red_bike	1	SB		FALSE	TRUE	TRUE	TRUE	FALSE
+caCn6B6YxirR9trd7	Arabic	feedback	size33	NA	NA	NA	NA	1	9	sa8eera	sa8eera		small_grey_rock	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+caCn6B6YxirR9trd7	Arabic	feedback	size33	NA	NA	NA	NA	1	52	kabeer	kabeer		big_purple_yarn	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+sJ8RoLS8MGCGRucmN	Arabic	feedback	size33	NA	NA	NA	NA	1	26	sageer	sageer		small_green_chair	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+sJ8RoLS8MGCGRucmN	Arabic	feedback	size33	NA	NA	NA	NA	1	64	asghar sooof	asghar sooof		small_purple_yarn	1	SN		FALSE	TRUE	TRUE	TRUE	FALSE
+35NAyGqMuuhEiwwsu	Arabic	feedback	size41	NA	NA	NA	NA	1	11	saghir	saghir		small_purple_bike	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+35NAyGqMuuhEiwwsu	Arabic	feedback	size41	NA	NA	NA	NA	1	28	2a7mar kabir	2a7mar kabir		big_red_yarn	1	CS		TRUE	TRUE	TRUE	TRUE	FALSE
+3uRGDDr9F4h9CYxfY	Arabic	feedback	size41	NA	NA	NA	NA	1	48	الخيط الأحمر الصغير	الخيط الأحمر الصغير	?	small_red_yarn	1	NCS		TRUE	TRUE	TRUE	TRUE	TRUE
+3uRGDDr9F4h9CYxfY	Arabic	feedback	size41	NA	NA	NA	NA	1	52	الوشاح الأزرق الكبير	الوشاح الأزرق الكبير		big_blue_scarf	1	NCS		TRUE	TRUE	TRUE	TRUE	TRUE
+743QreGaJE7p3im4s	Arabic	feedback	size41	NA	NA	NA	NA	1	10	felafel a7mar kbeer__folfol	felafel a7mar kbeer		big_red_pepper	1	NCS		TRUE	TRUE	TRUE	TRUE	FALSE
+743QreGaJE7p3im4s	Arabic	feedback	size41	NA	NA	NA	NA	1	65	kaleb 7elo__zaher__kbeer	kaleb 7elo		big_pink_weddingcake	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+7KNu9oiEMipd2MtkM	Arabic	feedback	size41	NA	NA	NA	NA	1	32	as8ar shi	as8ar shi		small_red_pepper	1	SB		FALSE	TRUE	TRUE	TRUE	FALSE
+7KNu9oiEMipd2MtkM	Arabic	feedback	size41	NA	NA	NA	NA	1	48	)as8ar shi (mov	)as8ar shi (mov		small_purple_bike	1	SBC		TRUE	TRUE	TRUE	TRUE	FALSE
+CTQ7DPToATf6cMCQG	Arabic	feedback	size41	NA	NA	NA	NA	1	10	صغير	صغير		small_yellow_shoe	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+CTQ7DPToATf6cMCQG	Arabic	feedback	size41	NA	NA	NA	NA	1	15	صغير	صغير		small_blue_cap	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+J2gnT5ynexArsiA5J	Arabic	feedback	size41	NA	NA	NA	NA	1	13	satil 2a7mar z8ir	satil 2a7mar z8ir		small_red_bucket	1	NCS		TRUE	TRUE	TRUE	TRUE	FALSE
+J2gnT5ynexArsiA5J	Arabic	feedback	size41	NA	NA	NA	NA	1	70	s8iri	s8iri		small_brown_jacket	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+LxWvw7LzjpRjtLCmR	Arabic	feedback	size41	NA	NA	NA	NA	1	23	baloon asfar al lawn kabir	baloon asfar al lawn kabir		big_yellow_balloon	1	NCS		TRUE	TRUE	TRUE	TRUE	FALSE
+LxWvw7LzjpRjtLCmR	Arabic	feedback	size41	NA	NA	NA	NA	1	67	kadr khadra2 kabeer	kadr khadra2 kabeer		big_green_framee	1	NCS		TRUE	TRUE	TRUE	TRUE	FALSE
+XH3CJvT9vQpKNR7j2	Arabic	feedback	size41	NA	NA	NA	NA	1	44	mini white	mini white		small_white_weddingcake	1			FALSE	FALSE	TRUE	TRUE	FALSE
+XH3CJvT9vQpKNR7j2	Arabic	feedback	size41	NA	NA	NA	NA	1	59	mini purple	mini purple		small_purple_bike	1			FALSE	FALSE	TRUE	TRUE	FALSE
+Ze9pdxWSi9w76muqW	Arabic	feedback	size41	NA	NA	NA	NA	1	35	lawn mo5talif w sa8ir	lawn mo5talif w sa8ir		small_blue_toothbrush	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+Ze9pdxWSi9w76muqW	Arabic	feedback	size41	NA	NA	NA	NA	1	72	akbar wi7di	akbar wi7di		big_tan_rock	1	SB		FALSE	TRUE	TRUE	TRUE	FALSE
+bKq6RbCG2DgMzNmgc	Arabic	feedback	size41	NA	NA	NA	NA	1	4	jacket bini kbeer__kaboot	jacket bini kbeer		big_brown_jacket	1	NCS		TRUE	TRUE	TRUE	TRUE	FALSE
+bKq6RbCG2DgMzNmgc	Arabic	feedback	size41	NA	NA	NA	NA	1	8	azghar 2shat	azghar 2shat		small_black_belt	1	SN		FALSE	TRUE	TRUE	TRUE	FALSE
+caCn6B6YxirR9trd7	Arabic	feedback	size41	NA	NA	NA	NA	1	15	assa8eer	assa8eer		small_pink_hairdryer	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+caCn6B6YxirR9trd7	Arabic	feedback	size41	NA	NA	NA	NA	1	69	kabeer	kabeer		big_blue_tack	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+sJ8RoLS8MGCGRucmN	Arabic	feedback	size41	NA	NA	NA	NA	1	21	shortest	shortest		small_blue_tack	1			FALSE	FALSE	TRUE	TRUE	FALSE
+sJ8RoLS8MGCGRucmN	Arabic	feedback	size41	NA	NA	NA	NA	1	68	blu__kabeer	blu		big_blue_binder	1			FALSE	FALSE	TRUE	TRUE	FALSE
+35NAyGqMuuhEiwwsu	Arabic	feedback	size42	NA	NA	NA	NA	1	7	saghir	saghir		small_orange_pingpongball	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+35NAyGqMuuhEiwwsu	Arabic	feedback	size42	NA	NA	NA	NA	1	31	saghir	saghir		small_brown_belt	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+3uRGDDr9F4h9CYxfY	Arabic	feedback	size42	NA	NA	NA	NA	1	43	الصغيرة	الصغيرة		small_orange_napkin	1	S		FALSE	TRUE	TRUE	TRUE	TRUE
+3uRGDDr9F4h9CYxfY	Arabic	feedback	size42	NA	NA	NA	NA	1	71	القبعة الكبيرة	القبعة الكبيرة		big_orange_cap	1	NS		FALSE	TRUE	TRUE	TRUE	TRUE
+743QreGaJE7p3im4s	Arabic	feedback	size42	NA	NA	NA	NA	1	2	malabes__khadra__yes	malabes	zghire?	small_green_jacket	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+743QreGaJE7p3im4s	Arabic	feedback	size42	NA	NA	NA	NA	1	28	forshey zar2a kbeeri	forshey zar2a kbeeri		big_blue_toothbrush	1	NCS		TRUE	TRUE	TRUE	TRUE	FALSE
+7KNu9oiEMipd2MtkM	Arabic	feedback	size42	NA	NA	NA	NA	1	16	akbar wi7di zar2a	akbar wi7di zar2a		big_blue_binder	1	SBC		TRUE	TRUE	TRUE	TRUE	FALSE
+7KNu9oiEMipd2MtkM	Arabic	feedback	size42	NA	NA	NA	NA	1	56	as8ar shi	as8ar shi		small_orange_cushion	1	SB		FALSE	TRUE	TRUE	TRUE	FALSE
+CTQ7DPToATf6cMCQG	Arabic	feedback	size42	NA	NA	NA	NA	1	12	صغير	صغير		small_green_jacket	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+CTQ7DPToATf6cMCQG	Arabic	feedback	size42	NA	NA	NA	NA	1	64	صغير	صغير		small_blue_rug	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+J2gnT5ynexArsiA5J	Arabic	feedback	size42	NA	NA	NA	NA	1	33	kbiri	kbiri		big_purple_bracelet	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+J2gnT5ynexArsiA5J	Arabic	feedback	size42	NA	NA	NA	NA	1	51	kbiri	kbiri		big_blue_butterfly	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+LxWvw7LzjpRjtLCmR	Arabic	feedback	size42	NA	NA	NA	NA	1	35	hajara ramadiyon kabira	hajara ramadiyon kabira		big_grey_rock	1	NCS		TRUE	TRUE	TRUE	TRUE	FALSE
+LxWvw7LzjpRjtLCmR	Arabic	feedback	size42	NA	NA	NA	NA	1	41	dabous hamra2 kabira	dabous hamra2 kabira		big_red_tack	1	NCS		TRUE	TRUE	TRUE	TRUE	FALSE
+XH3CJvT9vQpKNR7j2	Arabic	feedback	size42	NA	NA	NA	NA	1	18	the blue one__yes	the blue one	is this one	small_blue_tack	1			FALSE	FALSE	TRUE	TRUE	FALSE
+XH3CJvT9vQpKNR7j2	Arabic	feedback	size42	NA	NA	NA	NA	1	67	zaher zgir	zaher zgir		small_pink_teacup	1	CS		TRUE	TRUE	TRUE	TRUE	FALSE
+Ze9pdxWSi9w76muqW	Arabic	feedback	size42	NA	NA	NA	NA	1	45	sa8ir l7ajm	sa8ir l7ajm		small_pink_teacup	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+Ze9pdxWSi9w76muqW	Arabic	feedback	size42	NA	NA	NA	NA	1	63	as8ar wi7di	as8ar wi7di		small_white_shoe	1	SB		FALSE	TRUE	TRUE	TRUE	FALSE
+bKq6RbCG2DgMzNmgc	Arabic	feedback	size42	NA	NA	NA	NA	1	6	a7mar zgheer	a7mar zgheer		small_red_scarf	1	CS		TRUE	TRUE	TRUE	TRUE	FALSE
+bKq6RbCG2DgMzNmgc	Arabic	feedback	size42	NA	NA	NA	NA	1	36	akbar we7de	akbar we7de		big_pink_hairdryer	1	SB		FALSE	TRUE	TRUE	TRUE	FALSE
+c7jZYAwp46LQyzHMR	Arabic	feedback	size42	NA	NA	NA	NA	1	41	small pink cake	small pink cake		small_pink_weddingcake	1			FALSE	FALSE	TRUE	TRUE	FALSE
+caCn6B6YxirR9trd7	Arabic	feedback	size42	NA	NA	NA	NA	1	26	sa8eer	sa8eer		small_black_turtle	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+caCn6B6YxirR9trd7	Arabic	feedback	size42	NA	NA	NA	NA	1	42	kabeera	kabeera		big_purple_flower	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+sJ8RoLS8MGCGRucmN	Arabic	feedback	size42	NA	NA	NA	NA	1	23	shrunk in the dryer	shrunk in the dryer		small_red_scarf	1			FALSE	FALSE	TRUE	TRUE	FALSE
+sJ8RoLS8MGCGRucmN	Arabic	feedback	size42	NA	NA	NA	NA	1	44	saghier	saghier		small_pink_framee	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+35NAyGqMuuhEiwwsu	Arabic	feedback	size43	NA	NA	NA	NA	1	32	saghir	saghir		small_purple_butterfly	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+35NAyGqMuuhEiwwsu	Arabic	feedback	size43	NA	NA	NA	NA	1	57	saghir	saghir		small_black_turtle	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+3uRGDDr9F4h9CYxfY	Arabic	feedback	size43	NA	NA	NA	NA	1	66	المقعد الأخضر الكبير	المقعد الأخضر الكبير		big_green_chair	1	NCS		TRUE	TRUE	TRUE	TRUE	TRUE
+3uRGDDr9F4h9CYxfY	Arabic	feedback	size43	NA	NA	NA	NA	1	72	الصغيرة	الصغيرة		small_brown_belt	1	S		FALSE	TRUE	TRUE	TRUE	TRUE
+743QreGaJE7p3im4s	Arabic	feedback	size43	NA	NA	NA	NA	1	34	balón asfar sgheer	balón asfar sgheer		small_yellow_balloon	1	NCS		TRUE	TRUE	TRUE	TRUE	FALSE
+743QreGaJE7p3im4s	Arabic	feedback	size43	NA	NA	NA	NA	1	41	m5ade kbeeri bortokali	m5ade kbeeri bortokali		big_orange_cushion	1	NSC		FALSE	TRUE	TRUE	TRUE	FALSE
+7KNu9oiEMipd2MtkM	Arabic	feedback	size43	NA	NA	NA	NA	1	21	as8ar shi	as8ar shi		small_black_comb	1	SB		FALSE	TRUE	TRUE	TRUE	FALSE
+7KNu9oiEMipd2MtkM	Arabic	feedback	size43	NA	NA	NA	NA	1	44	as8ar shi	as8ar shi		small_purple_billiardball	1	SB		FALSE	TRUE	TRUE	TRUE	FALSE
+CTQ7DPToATf6cMCQG	Arabic	feedback	size43	NA	NA	NA	NA	1	42	كبير	كبير		big_black_belt	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+CTQ7DPToATf6cMCQG	Arabic	feedback	size43	NA	NA	NA	NA	1	69	كبير	كبير		big_black_turtle	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+J2gnT5ynexArsiA5J	Arabic	feedback	size43	NA	NA	NA	NA	1	29	kteb kbir	kteb kbir		big_black_book	1	NS		FALSE	TRUE	TRUE	TRUE	FALSE
+J2gnT5ynexArsiA5J	Arabic	feedback	size43	NA	NA	NA	NA	1	64	kbiri	kbiri		big_tan_rock	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+LxWvw7LzjpRjtLCmR	Arabic	feedback	size43	NA	NA	NA	NA	1	48	sajada zarka2 kabira	sajada zarka2 kabira		big_blue_rug	1	NCS		FALSE	TRUE	TRUE	TRUE	FALSE
+LxWvw7LzjpRjtLCmR	Arabic	feedback	size43	NA	NA	NA	NA	1	53	soof 2orjowani kabir	soof 2orjowani kabir		big_purple_yarn	1	NCS		FALSE	TRUE	TRUE	TRUE	FALSE
+XH3CJvT9vQpKNR7j2	Arabic	feedback	size43	NA	NA	NA	NA	1	65	big whit ball	big whit ball		big_white_pingpongball	1			FALSE	FALSE	TRUE	TRUE	FALSE
+XH3CJvT9vQpKNR7j2	Arabic	feedback	size43	NA	NA	NA	NA	1	69	purple zgir	purple zgir		small_purple_coathanger	1			FALSE	FALSE	TRUE	TRUE	FALSE
+Ze9pdxWSi9w76muqW	Arabic	feedback	size43	NA	NA	NA	NA	1	20	zoomed in	zoomed in		big_red_scarf	1			FALSE	FALSE	TRUE	TRUE	FALSE
+Ze9pdxWSi9w76muqW	Arabic	feedback	size43	NA	NA	NA	NA	1	50	sa8ir l7ajm	sa8ir l7ajm		small_red_yarn	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+bKq6RbCG2DgMzNmgc	Arabic	feedback	size43	NA	NA	NA	NA	1	47	akbar we7de	akbar we7de		big_pink_bucket	1	SB		FALSE	TRUE	TRUE	TRUE	FALSE
+bKq6RbCG2DgMzNmgc	Arabic	feedback	size43	NA	NA	NA	NA	1	56	akbar we7de	akbar we7de		big_pink_phone	1	SB		FALSE	TRUE	TRUE	TRUE	FALSE
+c7jZYAwp46LQyzHMR	Arabic	feedback	size43	NA	NA	NA	NA	1	45	فليفلة صفرا كبيرة لا الطبخ 😂	فليفلة صفرا كبيرة لا الطبخ 😂		big_yellow_bellpepper	1	NCS		TRUE	TRUE	TRUE	TRUE	TRUE
+caCn6B6YxirR9trd7	Arabic	feedback	size43	NA	NA	NA	NA	1	4	kibbayse s8iri	kibbayse s8iri		small_purple_stapler	1	NS		FALSE	TRUE	TRUE	TRUE	FALSE
+caCn6B6YxirR9trd7	Arabic	feedback	size43	NA	NA	NA	NA	1	16	alkabeera	alkabeera		big_purple_bike	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+sJ8RoLS8MGCGRucmN	Arabic	feedback	size43	NA	NA	NA	NA	1	39	al kabeera	al kabeera		big_purple_butterfly	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+sJ8RoLS8MGCGRucmN	Arabic	feedback	size43	NA	NA	NA	NA	1	63	akbar ketayb	akbar ketayb		big_blue_book	1	SN		FALSE	TRUE	TRUE	TRUE	FALSE
+35NAyGqMuuhEiwwsu	Arabic	feedback	size44	NA	NA	NA	NA	1	55	kabir	kabir		big_yellow_balloon	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+35NAyGqMuuhEiwwsu	Arabic	feedback	size44	NA	NA	NA	NA	1	66	saghir	saghir		small_pink_phone	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+3uRGDDr9F4h9CYxfY	Arabic	feedback	size44	NA	NA	NA	NA	1	39	الدبوس الصغير	الدبوس الصغير		small_red_tack	1	NS		FALSE	TRUE	TRUE	TRUE	TRUE
+3uRGDDr9F4h9CYxfY	Arabic	feedback	size44	NA	NA	NA	NA	1	68	الفليفلة الحمراء الكبيرة	الفليفلة الحمراء الكبيرة		big_red_bellpepper	1	NCS		TRUE	TRUE	TRUE	TRUE	TRUE
+743QreGaJE7p3im4s	Arabic	feedback	size44	NA	NA	NA	NA	1	9	guitar sgheer	guitar sgheer		small_blue_guitar	1	NS		FALSE	TRUE	TRUE	TRUE	FALSE
+743QreGaJE7p3im4s	Arabic	feedback	size44	NA	NA	NA	NA	1	16	moshot kbeer	moshot kbeer		big_black_comb	1	NS		FALSE	TRUE	TRUE	TRUE	FALSE
+7KNu9oiEMipd2MtkM	Arabic	feedback	size44	NA	NA	NA	NA	1	6	2as8ar shi	2as8ar shi		small_purple_bracelet	1	SB		FALSE	TRUE	TRUE	TRUE	FALSE
+7KNu9oiEMipd2MtkM	Arabic	feedback	size44	NA	NA	NA	NA	1	38	akbar shi	akbar shi		big_purple_yarn	1	SB		FALSE	TRUE	TRUE	TRUE	FALSE
+CTQ7DPToATf6cMCQG	Arabic	feedback	size44	NA	NA	NA	NA	1	1	كبير	كبير		big_red_stapler	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+CTQ7DPToATf6cMCQG	Arabic	feedback	size44	NA	NA	NA	NA	1	33	كبير	كبير		big_purple_bracelet	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+J2gnT5ynexArsiA5J	Arabic	feedback	size44	NA	NA	NA	NA	1	26	kbiri	kbiri		big_pink_framee	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+J2gnT5ynexArsiA5J	Arabic	feedback	size44	NA	NA	NA	NA	1	63	s8iri	s8iri		small_yellow_napkin	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+LxWvw7LzjpRjtLCmR	Arabic	feedback	size44	NA	NA	NA	NA	1	59	kitabon sawda2 saghir	kitabon sawda2 saghir		small_black_book	1	S		TRUE	TRUE	TRUE	TRUE	FALSE
+LxWvw7LzjpRjtLCmR	Arabic	feedback	size44	NA	NA	NA	NA	1	69	nashafat al sha3ir saghira__lol__forgot the name	nashafat al sha3ir saghira		small_pink_hairdryer	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+XH3CJvT9vQpKNR7j2	Arabic	feedback	size44	NA	NA	NA	NA	1	2	small phone	small phone		small_pink_phone	1			FALSE	FALSE	TRUE	TRUE	FALSE
+XH3CJvT9vQpKNR7j2	Arabic	feedback	size44	NA	NA	NA	NA	1	46	sham3a zgire	sham3a zgire		small_red_candle	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+Ze9pdxWSi9w76muqW	Arabic	feedback	size44	NA	NA	NA	NA	1	26	zoomed out	zoomed out		small_blue_book	1			FALSE	FALSE	TRUE	TRUE	FALSE
+Ze9pdxWSi9w76muqW	Arabic	feedback	size44	NA	NA	NA	NA	1	51	sa8ir l7ajm	sa8ir l7ajm		small_white_weddingcake	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+bKq6RbCG2DgMzNmgc	Arabic	feedback	size44	NA	NA	NA	NA	1	59	azghar we7de	azghar we7de		small_purple_yarn	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+bKq6RbCG2DgMzNmgc	Arabic	feedback	size44	NA	NA	NA	NA	1	69	we7de zgheeri	we7de zgheeri		small_red_chair	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+caCn6B6YxirR9trd7	Arabic	feedback	size44	NA	NA	NA	NA	1	3	shalun sa8eer	shalun sa8eer		small_red_scarf	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+caCn6B6YxirR9trd7	Arabic	feedback	size44	NA	NA	NA	NA	1	24	kabeer	kabeer		big_yellow_balloon	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+sJ8RoLS8MGCGRucmN	Arabic	feedback	size44	NA	NA	NA	NA	1	30	saghier	saghier		small_black_belt	1	S		FALSE	TRUE	TRUE	TRUE	FALSE
+sJ8RoLS8MGCGRucmN	Arabic	feedback	size44	NA	NA	NA	NA	1	37	ti3le2a al sagheera	ti3le2a al sagheera		small_purple_coathanger	1	NS		FALSE	TRUE	TRUE	TRUE	FALSE
+35NAyGqMuuhEiwwsu	Arabic	feedback	subNec	flower	plant	ivy	plant	1	4	fiha asfar	fiha asfar		daisy	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+35NAyGqMuuhEiwwsu	Arabic	feedback	subNec	fish	animal	squirrel	animal	1	9	naqqar	naqqar		swordFish	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+35NAyGqMuuhEiwwsu	Arabic	feedback	subNec	dog	animal	fish	animal	1	14	yu3jibuki	yu3jibuki		husky	1			FALSE	FALSE	TRUE	TRUE	FALSE
+35NAyGqMuuhEiwwsu	Arabic	feedback	subNec	dog	animal	cow	animal	1	19	la yu3jibuki	la yu3jibuki		pug	1			FALSE	FALSE	TRUE	TRUE	FALSE
+35NAyGqMuuhEiwwsu	Arabic	feedback	subNec	table	furniture	table	furniture	1	36	fi salon amam al kanabaya	fi salon amam al kanabaya		coffeeTable	1			FALSE	FALSE	TRUE	TRUE	FALSE
+35NAyGqMuuhEiwwsu	Arabic	feedback	subNec	bear	animal	hamster	animal	1	37	ya2kul la7m	ya2kul la7m		blackBear	1			FALSE	FALSE	TRUE	TRUE	FALSE
+35NAyGqMuuhEiwwsu	Arabic	feedback	subNec	car	vehicle	firetruck	vehicle	1	39	bi doun saqf	bi doun saqf		convertible	1			FALSE	FALSE	TRUE	TRUE	FALSE
+35NAyGqMuuhEiwwsu	Arabic	feedback	subNec	car	vehicle	ambulance	vehicle	1	41	riyadiya	riyadiya		sportsCar	1			FALSE	FALSE	TRUE	TRUE	FALSE
+35NAyGqMuuhEiwwsu	Arabic	feedback	subNec	candy	snack	chips	snack	1	46	gelatin	gelatin		gummyBears	1			FALSE	FALSE	TRUE	TRUE	FALSE
+35NAyGqMuuhEiwwsu	Arabic	feedback	subNec	candy	snack	cookies	snack	1	52	ishtaraha hasan	ishtaraha hasan		skittles	1			FALSE	FALSE	TRUE	TRUE	FALSE
+35NAyGqMuuhEiwwsu	Arabic	feedback	subNec	candy	snack	candy	snack	1	68	hasan	hasan		mnMs	1			FALSE	FALSE	TRUE	TRUE	FALSE
+3uRGDDr9F4h9CYxfY	Arabic	feedback	subNec	bird	animal	pig	animal	1	19	الطائر الملون	الطائر الملون		parrot	1	NC		TRUE	FALSE	TRUE	TRUE	TRUE
+3uRGDDr9F4h9CYxfY	Arabic	feedback	subNec	car	vehicle	firetruck	vehicle	1	24	السيارة الزرقاء اللامعة	السيارة الزرقاء اللامعة	?	convertible	1	NC		TRUE	FALSE	TRUE	TRUE	TRUE
+3uRGDDr9F4h9CYxfY	Arabic	feedback	subNec	fish	animal	kitten	animal	1	25	السمكة الزرقاء	السمكة الزرقاء	?	swordFish	1	NC		TRUE	FALSE	TRUE	TRUE	TRUE
+3uRGDDr9F4h9CYxfY	Arabic	feedback	subNec	candy	snack	pretzels	snack	1	28	حلوى الدبدوب	حلوى الدبدوب		gummyBears	1	N		FALSE	FALSE	TRUE	TRUE	TRUE
+3uRGDDr9F4h9CYxfY	Arabic	feedback	subNec	shirt	clothing	shirt	clothing	1	30	القميص ذو الأكمام الطويلة	القميص ذو الأكمام الطويلة		dressShirt	1			FALSE	FALSE	TRUE	TRUE	TRUE
+3uRGDDr9F4h9CYxfY	Arabic	feedback	subNec	dog	animal	hamster	animal	1	41	الكلب الأسود و البني	الكلب الأسود و البني		germanShepherd	1			TRUE	FALSE	TRUE	TRUE	TRUE
+3uRGDDr9F4h9CYxfY	Arabic	feedback	subNec	fish	animal	crocodile	animal	1	51	السمكة الصغيرة	السمكة الصغيرة		goldFish	1	NC		TRUE	TRUE	TRUE	TRUE	TRUE
+743QreGaJE7p3im4s	Arabic	feedback	subNec	table	furniture	wardrobe	furniture	1	3	tawela__lal qahwa	tawela		coffeeTable	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+743QreGaJE7p3im4s	Arabic	feedback	subNec	candy	snack	popcorn	snack	1	6	bonbon mdawar	bonbon mdawar		jellyBeans	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+743QreGaJE7p3im4s	Arabic	feedback	subNec	flower	plant	rosemary	plant	1	7	warde 7amra	warde 7amra		tulip	1	NC		TRUE	FALSE	TRUE	TRUE	FALSE
+743QreGaJE7p3im4s	Arabic	feedback	subNec	bear	animal	elephant	animal	1	14	deb	deb		polarBear	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+743QreGaJE7p3im4s	Arabic	feedback	subNec	bear	animal	bird	animal	1	24	deb aswad	deb aswad		blackBear	1	NC		TRUE	FALSE	TRUE	TRUE	FALSE
+743QreGaJE7p3im4s	Arabic	feedback	subNec	fish	animal	cow	animal	1	29	samake temma taweel	samake temma taweel		swordFish	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+743QreGaJE7p3im4s	Arabic	feedback	subNec	shirt	clothing	shirt	clothing	1	37	kanze nos kem seda	kanze nos kem seda		poloShirt	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+743QreGaJE7p3im4s	Arabic	feedback	subNec	car	vehicle	motorcycle	vehicle	1	50	seyara 3a2eleya__eh	seyara 3a2eleya	bayda?	suv	1	NC		TRUE	FALSE	TRUE	TRUE	FALSE
+743QreGaJE7p3im4s	Arabic	feedback	subNec	bird	animal	squirrel	animal	1	58	7ameme	7ameme		pigeon	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+743QreGaJE7p3im4s	Arabic	feedback	subNec	shirt	clothing	dress	clothing	1	60	2amees__mratab__lal shoghol	2amees		dressShirt	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+743QreGaJE7p3im4s	Arabic	feedback	subNec	car	vehicle	car	vehicle	1	66	seyara zar2a	seyara zar2a		convertible	1	NC		TRUE	FALSE	TRUE	TRUE	FALSE
+743QreGaJE7p3im4s	Arabic	feedback	subNec	shirt	clothing	dress	clothing	1	67	2amees mna2ash	2amees mna2ash		hawaiiShirt	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+7KNu9oiEMipd2MtkM	Arabic	feedback	subNec	candy	snack	pretzels	snack	1	9	gummy	gummy		gummyBears	1			FALSE	FALSE	TRUE	TRUE	FALSE
+7KNu9oiEMipd2MtkM	Arabic	feedback	subNec	shirt	clothing	shirt	clothing	1	25	2azra2 fati7__feti7*	2azra2 fati7		poloShirt	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+7KNu9oiEMipd2MtkM	Arabic	feedback	subNec	car	vehicle	car	vehicle	1	42	siyarit convertible__li bala sa2f	siyarit convertible		convertible	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+7KNu9oiEMipd2MtkM	Arabic	feedback	subNec	bird	animal	horse	animal	1	55	parrot	parrot		parrot	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+7KNu9oiEMipd2MtkM	Arabic	feedback	subNec	car	vehicle	ambulance	vehicle	1	57	van	van		minivan	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+7KNu9oiEMipd2MtkM	Arabic	feedback	subNec	dog	animal	hamster	animal	1	67	kalb il husky	kalb il husky		husky	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+7KNu9oiEMipd2MtkM	Arabic	feedback	subNec	candy	snack	chips	snack	1	71	m&ms	m&ms		mnMs	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+CTQ7DPToATf6cMCQG	Arabic	feedback	subNec	table	furniture	lamp	furniture	1	2	خشب غامق	خشب غامق		coffeeTable	1			FALSE	FALSE	TRUE	TRUE	FALSE
+CTQ7DPToATf6cMCQG	Arabic	feedback	subNec	shirt	clothing	shirt	clothing	1	16	شتاء	شتاء		dressShirt	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+CTQ7DPToATf6cMCQG	Arabic	feedback	subNec	table	furniture	table	furniture	1	22	مختلف اللون	مختلف اللون		picnicTable	1			FALSE	FALSE	TRUE	TRUE	TRUE
+CTQ7DPToATf6cMCQG	Arabic	feedback	subNec	flower	plant	grasses	plant	1	35	فالانتاين	فالانتاين		rose	1			FALSE	FALSE	TRUE	TRUE	TRUE
+CTQ7DPToATf6cMCQG	Arabic	feedback	subNec	car	vehicle	firetruck	vehicle	1	36	صيفيه	صيفيه		convertible	1			FALSE	FALSE	TRUE	TRUE	FALSE
+CTQ7DPToATf6cMCQG	Arabic	feedback	subNec	shirt	clothing	gloves	clothing	1	46	فاتح	فاتح		poloShirt	1			FALSE	FALSE	TRUE	TRUE	FALSE
+CTQ7DPToATf6cMCQG	Arabic	feedback	subNec	candy	snack	popcorn	snack	1	53	حلال او حرام	حلال او حرام		gummyBears	1			FALSE	FALSE	TRUE	TRUE	TRUE
+CTQ7DPToATf6cMCQG	Arabic	feedback	subNec	shirt	clothing	dress	clothing	1	54	خريف	خريف		hawaiiShirt	1			FALSE	FALSE	TRUE	TRUE	FALSE
+CTQ7DPToATf6cMCQG	Arabic	feedback	subNec	fish	animal	bison	animal	1	57	حيه	حيه		catfish	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+CTQ7DPToATf6cMCQG	Arabic	feedback	subNec	bear	animal	lobster	animal	1	65	اسود	اسود		blackBear	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+CTQ7DPToATf6cMCQG	Arabic	feedback	subNec	dog	animal	bear	animal	1	71	كلاسي	كلاسي		husky	1			FALSE	FALSE	TRUE	TRUE	FALSE
+J2gnT5ynexArsiA5J	Arabic	feedback	subNec	table	furniture	bed	furniture	1	11	tawle bala ma23ad	tawle bala ma23ad		coffeeTable	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+J2gnT5ynexArsiA5J	Arabic	feedback	subNec	shirt	clothing	dress	clothing	1	15	2azra2 feti7	2azra2 feti7		poloShirt	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+J2gnT5ynexArsiA5J	Arabic	feedback	subNec	car	vehicle	motorcycle	vehicle	1	32	sayyara 7elwe	sayyara 7elwe		sportsCar	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+J2gnT5ynexArsiA5J	Arabic	feedback	subNec	bird	animal	bear	animal	1	42	2amerka	2amerka		eagle	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+J2gnT5ynexArsiA5J	Arabic	feedback	subNec	fish	animal	pig	animal	1	44	nemo	nemo		clownFish	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+J2gnT5ynexArsiA5J	Arabic	feedback	subNec	bear	animal	dog	animal	1	48	deb 2abyad	deb 2abyad		polarBear	1	NC		TRUE	FALSE	TRUE	TRUE	FALSE
+J2gnT5ynexArsiA5J	Arabic	feedback	subNec	bird	animal	bear	animal	1	50	3asfour rmede	3asfour rmede		pigeon	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+J2gnT5ynexArsiA5J	Arabic	feedback	subNec	car	vehicle	train	vehicle	1	68	sayyara kbiri	sayyara kbiri		suv	1	NS		FALSE	TRUE	TRUE	TRUE	FALSE
+LxWvw7LzjpRjtLCmR	Arabic	feedback	subNec	fish	animal	lobster	animal	1	3	samaka saghira	samaka saghira		goldFish	1	NS		FALSE	TRUE	TRUE	TRUE	FALSE
+LxWvw7LzjpRjtLCmR	Arabic	feedback	subNec	bear	animal	snake	animal	1	6	dobon kutbi	dobon kutbi		polarBear	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+LxWvw7LzjpRjtLCmR	Arabic	feedback	subNec	fish	animal	snake	animal	1	27	samaka al kita	samaka al kita		catfish	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+LxWvw7LzjpRjtLCmR	Arabic	feedback	subNec	table	furniture	lamp	furniture	1	30	2a3dit khashab boni ghami2	2a3dit khashab boni ghami2		coffeeTable	1	NC		TRUE	FALSE	TRUE	TRUE	FALSE
+LxWvw7LzjpRjtLCmR	Arabic	feedback	subNec	flower	plant	grasses	plant	1	39	warda safra2	warda safra2		sunflower	1	NC		TRUE	FALSE	TRUE	TRUE	FALSE
+LxWvw7LzjpRjtLCmR	Arabic	feedback	subNec	bird	animal	pig	animal	1	60	tayr mulawan	tayr mulawan		parrot	1	NC		TRUE	FALSE	TRUE	TRUE	FALSE
+LxWvw7LzjpRjtLCmR	Arabic	feedback	subNec	table	furniture	bookcase	furniture	1	66	tawila khashabi__ma3 2a3dat	tawila khashabi		picnicTable	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+LxWvw7LzjpRjtLCmR	Arabic	feedback	subNec	candy	snack	chips	snack	1	71	sakakir mulawana dabadee__dabadeeb	sakakir mulawana dabadee		gummyBears	1	NC		TRUE	FALSE	TRUE	TRUE	FALSE
+XH3CJvT9vQpKNR7j2	Arabic	feedback	subNec	flower	plant	pottedPlant	plant	1	1	yellow	yellow		sunflower	1			FALSE	FALSE	TRUE	TRUE	FALSE
+XH3CJvT9vQpKNR7j2	Arabic	feedback	subNec	bird	animal	snake	animal	1	5	eagle	eagle		eagle	1			FALSE	FALSE	TRUE	TRUE	FALSE
+XH3CJvT9vQpKNR7j2	Arabic	feedback	subNec	fish	animal	snake	animal	1	10	sord fish	sord fish		swordFish	1			FALSE	FALSE	TRUE	TRUE	FALSE
+XH3CJvT9vQpKNR7j2	Arabic	feedback	subNec	flower	plant	flower	plant	1	12	mini red	mini red		rose	1			FALSE	FALSE	TRUE	TRUE	FALSE
+XH3CJvT9vQpKNR7j2	Arabic	feedback	subNec	bird	animal	bison	animal	1	21	parrot	parrot		parrot	1			FALSE	FALSE	TRUE	TRUE	FALSE
+XH3CJvT9vQpKNR7j2	Arabic	feedback	subNec	dog	animal	elephant	animal	1	24	dog	dog		dalmatian	1			FALSE	FALSE	TRUE	TRUE	FALSE
+XH3CJvT9vQpKNR7j2	Arabic	feedback	subNec	dog	animal	kitten	animal	1	25	big dog	big dog		pug	1			FALSE	FALSE	TRUE	TRUE	FALSE
+XH3CJvT9vQpKNR7j2	Arabic	feedback	subNec	table	furniture	wardrobe	furniture	1	26	simple table	simple table		diningTable	1			FALSE	FALSE	TRUE	TRUE	FALSE
+XH3CJvT9vQpKNR7j2	Arabic	feedback	subNec	fish	animal	bison	animal	1	27	open mouth fish	open mouth fish		catfish	1			FALSE	FALSE	TRUE	TRUE	FALSE
+XH3CJvT9vQpKNR7j2	Arabic	feedback	subNec	fish	animal	hamster	animal	1	31	samake orange	samake orange		clownFish	1	NC		TRUE	FALSE	TRUE	TRUE	FALSE
+XH3CJvT9vQpKNR7j2	Arabic	feedback	subNec	bear	animal	sheep	animal	1	43	bear	bear		grizzlyBear	1			FALSE	FALSE	TRUE	TRUE	FALSE
+XH3CJvT9vQpKNR7j2	Arabic	feedback	subNec	candy	snack	candy	snack	1	47	geir m&ms	geir m&ms		jellyBeans	1			FALSE	FALSE	TRUE	TRUE	FALSE
+XH3CJvT9vQpKNR7j2	Arabic	feedback	subNec	candy	snack	pretzels	snack	1	70	m&ms	m&ms		skittles	1			FALSE	FALSE	TRUE	TRUE	FALSE
+Ze9pdxWSi9w76muqW	Arabic	feedback	subNec	flower	plant	flower	plant	1	17	lawn jathab	lawn jathab		rose	1			FALSE	FALSE	TRUE	TRUE	FALSE
+Ze9pdxWSi9w76muqW	Arabic	feedback	subNec	flower	plant	pottedPlant	plant	1	23	lawn jathab	lawn jathab		tulip	1			FALSE	FALSE	TRUE	TRUE	FALSE
+Ze9pdxWSi9w76muqW	Arabic	feedback	subNec	dog	animal	iguana	animal	2	28	kalb jamil	kalb jamil		dalmatian	0	N		FALSE	FALSE	TRUE	TRUE	FALSE
+Ze9pdxWSi9w76muqW	Arabic	feedback	subNec	car	vehicle	motorcycle	vehicle	1	36	sayara 3a2iliya	sayara 3a2iliya		minivan	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+Ze9pdxWSi9w76muqW	Arabic	feedback	subNec	bird	animal	bird	animal	1	54	alwan classiciyi	alwan classiciyi		pigeon	1			FALSE	FALSE	TRUE	TRUE	FALSE
+Ze9pdxWSi9w76muqW	Arabic	feedback	subNec	bird	animal	bear	animal	1	59	lawn jamil	lawn jamil		parrot	1			FALSE	FALSE	TRUE	TRUE	FALSE
+bKq6RbCG2DgMzNmgc	Arabic	feedback	subNec	fish	animal	bird	animal	1	1	samake__la2	samake	3alayha abyad she?	goldFish	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+bKq6RbCG2DgMzNmgc	Arabic	feedback	subNec	dog	animal	elephant	animal	1	2	the2eb 3ale aswad	the2eb 3ale aswad		germanShepherd	1	NC		TRUE	FALSE	TRUE	TRUE	FALSE
+bKq6RbCG2DgMzNmgc	Arabic	feedback	subNec	bird	animal	squirrel	animal	1	18	tair 3ale shwayt a5dar	tair 3ale shwayt a5dar		pigeon	1	NC		TRUE	FALSE	TRUE	TRUE	FALSE
+bKq6RbCG2DgMzNmgc	Arabic	feedback	subNec	flower	plant	pottedPlant	plant	1	40	warde 7amra	warde 7amra		tulip	1	NC		TRUE	FALSE	TRUE	TRUE	FALSE
+bKq6RbCG2DgMzNmgc	Arabic	feedback	subNec	bird	animal	elephant	animal	1	46	3asfoor	3asfoor		hummingBird	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+bKq6RbCG2DgMzNmgc	Arabic	feedback	subNec	candy	snack	pretzels	snack	1	49	7boob mlawane asye	7boob mlawane asye		mnMs	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+bKq6RbCG2DgMzNmgc	Arabic	feedback	subNec	car	vehicle	ambulance	vehicle	1	52	sayara 3adiye w bey5a	sayara 3adiye w bey5a		minivan	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+bKq6RbCG2DgMzNmgc	Arabic	feedback	subNec	table	furniture	table	furniture	1	58	tawla w ma2a3id	tawla w ma2a3id		picnicTable	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+c7jZYAwp46LQyzHMR	Arabic	feedback	subNec	dog	animal	hamster	animal	2	5	كلب	كلب	حزرني ما هو نوع الكلب	husky	0	N		FALSE	FALSE	TRUE	TRUE	FALSE
+caCn6B6YxirR9trd7	Arabic	feedback	subNec	table	furniture	lamp	furniture	1	2	6awila musawwara min al3ard	6awila musawwara min al3ard		diningTable	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+caCn6B6YxirR9trd7	Arabic	feedback	subNec	dog	animal	lobster	animal	1	14	yanba7 wa laakinnahu laysa munaqqat	yanba7 wa laakinnahu laysa munaqqat		germanShepherd	1			FALSE	FALSE	TRUE	TRUE	FALSE
+caCn6B6YxirR9trd7	Arabic	feedback	subNec	fish	animal	lobster	animal	1	23	azraq	azraq		swordFish	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+caCn6B6YxirR9trd7	Arabic	feedback	subNec	candy	snack	candy	snack	1	49	6ariyya	6ariyya		gummyBears	1			FALSE	FALSE	TRUE	TRUE	FALSE
+caCn6B6YxirR9trd7	Arabic	feedback	subNec	fish	animal	crocodile	animal	1	65	laysat mu5eefa	laysat mu5eefa		clownFish	1			FALSE	FALSE	TRUE	TRUE	FALSE
+caCn6B6YxirR9trd7	Arabic	feedback	subNec	dog	animal	pig	animal	1	72	abyad w wajhuhu aswad	abyad w wajhuhu aswad		pug	1	CC		TRUE	FALSE	TRUE	TRUE	FALSE
+sJ8RoLS8MGCGRucmN	Arabic	feedback	subNec	table	furniture	lamp	furniture	1	32	tawle__oops__tawela lal akil	tawle		diningTable	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+sJ8RoLS8MGCGRucmN	Arabic	feedback	subNec	candy	snack	pretzels	snack	1	46	2alwan katheree	2alwan katheree		jellyBeans	1			FALSE	FALSE	TRUE	TRUE	FALSE
+sJ8RoLS8MGCGRucmN	Arabic	feedback	subNec	fish	animal	bison	animal	1	47	samak__asfar	samak		goldFish	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+sJ8RoLS8MGCGRucmN	Arabic	feedback	subNec	candy	snack	popcorn	snack	2	57	sugar tayib__sukar	sugar tayib		mnMs	0			FALSE	FALSE	TRUE	TRUE	FALSE
+sJ8RoLS8MGCGRucmN	Arabic	feedback	subNec	dog	animal	pig	animal	1	62	aswad w abyad__al dolmashion	aswad w abyad		dalmatian	1	CC		TRUE	FALSE	TRUE	TRUE	FALSE
+sJ8RoLS8MGCGRucmN	Arabic	feedback	subNec	dog	animal	fish	animal	1	70	kalb bolees	kalb bolees		germanShepherd	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+35NAyGqMuuhEiwwsu	Arabic	feedback	supSuff	car	vehicle	cookies	snack	1	21	malabis	malabis		poloShirt	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+35NAyGqMuuhEiwwsu	Arabic	feedback	supSuff	motorcycle	vehicle	popcorn	snack	1	30	asfar	asfar		sunflower	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+35NAyGqMuuhEiwwsu	Arabic	feedback	supSuff	motorcycle	vehicle	bathrobe	clothing	1	38	khzene	khzene		bedsideTable	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+35NAyGqMuuhEiwwsu	Arabic	feedback	supSuff	chips	snack	shirt	clothing	1	63	ta2ir	ta2ir		parrot	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+3uRGDDr9F4h9CYxfY	Arabic	feedback	supSuff	dress	clothing	wardrobe	furniture	1	2	العصفور	العصفور		hummingBird	1	N		FALSE	FALSE	TRUE	TRUE	TRUE
+3uRGDDr9F4h9CYxfY	Arabic	feedback	supSuff	grasses	plant	lamp	furniture	1	11	الحلوى الملونة	الحلوى الملونة		mnMs	1	N		FALSE	FALSE	TRUE	TRUE	TRUE
+3uRGDDr9F4h9CYxfY	Arabic	feedback	supSuff	cow	animal	popcorn	snack	1	27	السيارة البيضاء	السيارة البيضاء		suv	1	NC		TRUE	FALSE	TRUE	TRUE	TRUE
+3uRGDDr9F4h9CYxfY	Arabic	feedback	supSuff	bed	furniture	rosemary	plant	1	36	الكلب	الكلب		pug	1	N		FALSE	FALSE	TRUE	TRUE	TRUE
+3uRGDDr9F4h9CYxfY	Arabic	feedback	supSuff	rosemary	plant	bathrobe	clothing	1	50	السمكة	السمكة	?	catfish	1	N		FALSE	FALSE	TRUE	TRUE	TRUE
+3uRGDDr9F4h9CYxfY	Arabic	feedback	supSuff	gloves	clothing	lion	animal	1	59	الزهرة	الزهرة		sunflower	1	N		FALSE	FALSE	TRUE	TRUE	TRUE
+3uRGDDr9F4h9CYxfY	Arabic	feedback	supSuff	socks	clothing	motorcycle	vehicle	1	60	الصقر	الصقر		eagle	1	N		FALSE	FALSE	TRUE	TRUE	TRUE
+743QreGaJE7p3im4s	Arabic	feedback	supSuff	gloves	clothing	wardrobe	furniture	1	4	bonbon 3a shokala	bonbon 3a shokala		mnMs	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+743QreGaJE7p3im4s	Arabic	feedback	supSuff	motorcycle	vehicle	wardrobe	furniture	1	11	deb yabane	deb yabane		pandaBear	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+743QreGaJE7p3im4s	Arabic	feedback	supSuff	flower	plant	wardrobe	furniture	1	20	kaleb	kaleb		germanShepherd	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+743QreGaJE7p3im4s	Arabic	feedback	supSuff	flower	plant	cookies	snack	1	39	kaleb	kaleb		husky	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+743QreGaJE7p3im4s	Arabic	feedback	supSuff	cookies	snack	bookcase	furniture	1	42	deb	deb		grizzlyBear	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+743QreGaJE7p3im4s	Arabic	feedback	supSuff	chips	snack	horse	animal	1	53	kanze zar2a	kanze zar2a		tShirt	1	NC		TRUE	FALSE	TRUE	TRUE	FALSE
+743QreGaJE7p3im4s	Arabic	feedback	supSuff	elephant	animal	table	furniture	1	55	seyara	seyara		sportsCar	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+7KNu9oiEMipd2MtkM	Arabic	feedback	supSuff	firetruck	vehicle	popcorn	snack	1	1	3asfur	3asfur		pigeon	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+7KNu9oiEMipd2MtkM	Arabic	feedback	supSuff	train	vehicle	bathrobe	clothing	1	20	saqar	saqar		eagle	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+7KNu9oiEMipd2MtkM	Arabic	feedback	supSuff	lobster	animal	pretzels	snack	1	24	tawli	tawli		coffeeTable	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+7KNu9oiEMipd2MtkM	Arabic	feedback	supSuff	ambulance	vehicle	rosemary	plant	1	27	ya kalb	ya kalb		germanShepherd	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+7KNu9oiEMipd2MtkM	Arabic	feedback	supSuff	lamp	furniture	shirt	clothing	1	36	siyara	siyara		suv	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+7KNu9oiEMipd2MtkM	Arabic	feedback	supSuff	pretzels	snack	shirt	clothing	1	47	siyarit audi	siyarit audi		sportsCar	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+7KNu9oiEMipd2MtkM	Arabic	feedback	supSuff	rosemary	plant	ambulance	vehicle	1	50	dib abyadh	dib abyadh		polarBear	1	NC		TRUE	FALSE	TRUE	TRUE	FALSE
+7KNu9oiEMipd2MtkM	Arabic	feedback	supSuff	elephant	animal	shirt	clothing	1	58	tawlit nom	tawlit nom		bedsideTable	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+7KNu9oiEMipd2MtkM	Arabic	feedback	supSuff	bookcase	furniture	gloves	clothing	1	68	wardi	wardi		tulip	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+CTQ7DPToATf6cMCQG	Arabic	feedback	supSuff	dress	clothing	bed	furniture	1	9	حيوان	حيوان		pug	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+CTQ7DPToATf6cMCQG	Arabic	feedback	supSuff	candy	snack	elephant	animal	1	14	صيف	صيف		tShirt	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+CTQ7DPToATf6cMCQG	Arabic	feedback	supSuff	train	vehicle	dress	clothing	1	21	فالانتاين	فالانتاين		tulip	1	N		FALSE	FALSE	TRUE	TRUE	TRUE
+CTQ7DPToATf6cMCQG	Arabic	feedback	supSuff	popcorn	snack	grasses	plant	1	26	شي ما عنا يا	شي ما عنا يا		suv	1	B		FALSE	FALSE	TRUE	TRUE	FALSE
+CTQ7DPToATf6cMCQG	Arabic	feedback	supSuff	socks	clothing	ivy	plant	1	29	حيوان	حيوان		swordFish	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+CTQ7DPToATf6cMCQG	Arabic	feedback	supSuff	pig	animal	table	furniture	1	34	سكاكر	سكاكر		mnMs	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+CTQ7DPToATf6cMCQG	Arabic	feedback	supSuff	ivy	plant	dress	clothing	1	51	عاو	عاو		dalmatian	1			FALSE	FALSE	TRUE	TRUE	FALSE
+CTQ7DPToATf6cMCQG	Arabic	feedback	supSuff	cookies	snack	bookcase	furniture	1	70	تفاجءت مين خبر كانت حامل	تفاجءت مين خبر كانت حامل		minivan	1			FALSE	FALSE	TRUE	TRUE	FALSE
+J2gnT5ynexArsiA5J	Arabic	feedback	supSuff	bookcase	furniture	rosemary	plant	1	2	قميص	قميص		hawaiiShirt	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+J2gnT5ynexArsiA5J	Arabic	feedback	supSuff	fish	animal	popcorn	snack	1	8	الطاولة	الطاولة		picnicTable	1	N		FALSE	FALSE	TRUE	TRUE	TRUE
+J2gnT5ynexArsiA5J	Arabic	feedback	supSuff	iguana	animal	pretzels	snack	1	10	kanze l zar2a	kanze l zar2a		tShirt	1	NC		TRUE	FALSE	TRUE	TRUE	FALSE
+J2gnT5ynexArsiA5J	Arabic	feedback	supSuff	socks	clothing	lamp	furniture	1	20	warde	warde		tulip	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+J2gnT5ynexArsiA5J	Arabic	feedback	supSuff	snake	animal	flower	plant	1	45	shi tayyib	shi tayyib		skittles	1	B		FALSE	FALSE	TRUE	TRUE	FALSE
+J2gnT5ynexArsiA5J	Arabic	feedback	supSuff	popcorn	snack	bed	furniture	1	52	kalib	kalib		pug	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+J2gnT5ynexArsiA5J	Arabic	feedback	supSuff	shirt	clothing	candy	snack	1	58	warde	warde		daisy	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+J2gnT5ynexArsiA5J	Arabic	feedback	supSuff	shirt	clothing	car	vehicle	1	72	tawle	tawle		bedsideTable	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+LxWvw7LzjpRjtLCmR	Arabic	feedback	supSuff	candy	snack	firetruck	vehicle	1	2	kamees	kamees		tShirt	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+LxWvw7LzjpRjtLCmR	Arabic	feedback	supSuff	bed	furniture	lobster	animal	1	4	wardaton hamra2	wardaton hamra2		tulip	1	NC		TRUE	FALSE	TRUE	TRUE	FALSE
+LxWvw7LzjpRjtLCmR	Arabic	feedback	supSuff	shirt	clothing	popcorn	snack	1	8	banda	banda		pandaBear	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+LxWvw7LzjpRjtLCmR	Arabic	feedback	supSuff	wardrobe	furniture	dog	animal	1	12	siyara	siyara		sportsCar	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+LxWvw7LzjpRjtLCmR	Arabic	feedback	supSuff	lamp	furniture	dog	animal	1	14	wardaton hamra2	wardaton hamra2		rose	1	NC		TRUE	FALSE	TRUE	TRUE	FALSE
+LxWvw7LzjpRjtLCmR	Arabic	feedback	supSuff	ambulance	vehicle	pottedPlant	plant	1	20	dob	dob		grizzlyBear	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+LxWvw7LzjpRjtLCmR	Arabic	feedback	supSuff	lamp	furniture	firetruck	vehicle	1	36	dobon aswad	dobon aswad		blackBear	1	NC		TRUE	FALSE	TRUE	TRUE	FALSE
+LxWvw7LzjpRjtLCmR	Arabic	feedback	supSuff	cow	animal	table	furniture	1	37	sakakir mulawan	sakakir mulawan		mnMs	1	NC		TRUE	FALSE	TRUE	TRUE	FALSE
+LxWvw7LzjpRjtLCmR	Arabic	feedback	supSuff	crocodile	animal	bed	furniture	1	43	warda bayda2	warda bayda2		daisy	1	NC		TRUE	FALSE	TRUE	TRUE	FALSE
+LxWvw7LzjpRjtLCmR	Arabic	feedback	supSuff	cookies	snack	train	vehicle	1	44	kamees asra2	kamees asra2		dressShirt	1	NC		TRUE	FALSE	TRUE	TRUE	FALSE
+LxWvw7LzjpRjtLCmR	Arabic	feedback	supSuff	bed	furniture	car	vehicle	1	45	hamama	hamama		pigeon	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+LxWvw7LzjpRjtLCmR	Arabic	feedback	supSuff	table	furniture	pottedPlant	plant	1	47	kamees azra2	kamees azra2		hawaiiShirt	1	NC		TRUE	FALSE	TRUE	TRUE	FALSE
+LxWvw7LzjpRjtLCmR	Arabic	feedback	supSuff	firetruck	vehicle	candy	snack	1	56	3asfor	3asfor		hummingBird	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+XH3CJvT9vQpKNR7j2	Arabic	feedback	supSuff	socks	clothing	motorcycle	vehicle	1	7	bear	bear		blackBear	1			FALSE	FALSE	TRUE	TRUE	FALSE
+XH3CJvT9vQpKNR7j2	Arabic	feedback	supSuff	pretzels	snack	rhino	animal	1	8	car	car		convertible	1			FALSE	FALSE	TRUE	TRUE	FALSE
+XH3CJvT9vQpKNR7j2	Arabic	feedback	supSuff	ivy	plant	bathrobe	clothing	1	13	bear	bear		polarBear	1			FALSE	FALSE	TRUE	TRUE	FALSE
+XH3CJvT9vQpKNR7j2	Arabic	feedback	supSuff	train	vehicle	wardrobe	furniture	1	14	gummy	gummy		gummyBears	1			FALSE	FALSE	TRUE	TRUE	FALSE
+XH3CJvT9vQpKNR7j2	Arabic	feedback	supSuff	firetruck	vehicle	candy	snack	1	17	samake	samake		goldFish	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+XH3CJvT9vQpKNR7j2	Arabic	feedback	supSuff	chips	snack	bed	furniture	1	19	flower	flower		daisy	1			FALSE	FALSE	TRUE	TRUE	FALSE
+XH3CJvT9vQpKNR7j2	Arabic	feedback	supSuff	socks	clothing	firetruck	vehicle	1	23	comendina	comendina		bedsideTable	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+XH3CJvT9vQpKNR7j2	Arabic	feedback	supSuff	chips	snack	motorcycle	vehicle	1	32	3assfour	3assfour		hummingBird	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+XH3CJvT9vQpKNR7j2	Arabic	feedback	supSuff	popcorn	snack	pottedPlant	plant	1	34	kamiss	kamiss		poloShirt	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+XH3CJvT9vQpKNR7j2	Arabic	feedback	supSuff	bed	furniture	grasses	plant	1	35	kalib	kalib		husky	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+XH3CJvT9vQpKNR7j2	Arabic	feedback	supSuff	sheep	animal	firetruck	vehicle	1	39	table	table		coffeeTable	1			FALSE	FALSE	TRUE	TRUE	FALSE
+XH3CJvT9vQpKNR7j2	Arabic	feedback	supSuff	iguana	animal	socks	clothing	1	51	m&ms	m&ms		mnMs	1			FALSE	FALSE	TRUE	TRUE	FALSE
+XH3CJvT9vQpKNR7j2	Arabic	feedback	supSuff	ambulance	vehicle	chips	snack	1	52	kamiss	kamiss		dressShirt	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+XH3CJvT9vQpKNR7j2	Arabic	feedback	supSuff	dress	clothing	bed	furniture	1	55	car	car		suv	1			FALSE	FALSE	TRUE	TRUE	FALSE
+Ze9pdxWSi9w76muqW	Arabic	feedback	supSuff	rosemary	plant	rabbit	animal	1	6	murtada's favorite	murtada's favorite		convertible	1			FALSE	FALSE	TRUE	TRUE	FALSE
+Ze9pdxWSi9w76muqW	Arabic	feedback	supSuff	rosemary	plant	chips	snack	1	9	la to2kal	la to2kal		picnicTable	1			FALSE	FALSE	TRUE	TRUE	FALSE
+Ze9pdxWSi9w76muqW	Arabic	feedback	supSuff	car	vehicle	wardrobe	furniture	1	14	to2kal	to2kal		mnMs	1			FALSE	FALSE	TRUE	TRUE	FALSE
+Ze9pdxWSi9w76muqW	Arabic	feedback	supSuff	dress	clothing	lamp	furniture	1	15	torkab	torkab		sportsCar	1			FALSE	FALSE	TRUE	TRUE	FALSE
+Ze9pdxWSi9w76muqW	Arabic	feedback	supSuff	bed	furniture	rosemary	plant	1	21	tolbas	tolbas		poloShirt	1			FALSE	FALSE	TRUE	TRUE	FALSE
+Ze9pdxWSi9w76muqW	Arabic	feedback	supSuff	dress	clothing	elephant	animal	1	41	ashya2 taybi	ashya2 taybi		skittles	1			FALSE	FALSE	TRUE	TRUE	FALSE
+Ze9pdxWSi9w76muqW	Arabic	feedback	supSuff	bookcase	furniture	ambulance	vehicle	1	46	7ayan__7ayawan	7ayan		grizzlyBear	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+bKq6RbCG2DgMzNmgc	Arabic	feedback	supSuff	dress	clothing	flower	plant	1	3	dib	dib		polarBear	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+bKq6RbCG2DgMzNmgc	Arabic	feedback	supSuff	motorcycle	vehicle	popcorn	snack	1	14	2amees	2amees		dressShirt	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+bKq6RbCG2DgMzNmgc	Arabic	feedback	supSuff	shirt	clothing	pottedPlant	plant	1	30	dib	dib		pandaBear	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+c7jZYAwp46LQyzHMR	Arabic	feedback	supSuff	candy	snack	firetruck	vehicle	1	24	وردة حمراء	وردة حمراء		tulip	1	NC		TRUE	FALSE	TRUE	TRUE	FALSE
+c7jZYAwp46LQyzHMR	Arabic	feedback	supSuff	lamp	furniture	firetruck	vehicle	1	54	red rose	red rose		rose	1			FALSE	FALSE	TRUE	TRUE	FALSE
+caCn6B6YxirR9trd7	Arabic	feedback	supSuff	pottedPlant	plant	car	vehicle	1	1	salam__samaka__tasba7__wa lawnuha burtuqali	salam		goldFish	1			FALSE	FALSE	TRUE	TRUE	FALSE
+caCn6B6YxirR9trd7	Arabic	feedback	supSuff	bed	furniture	pottedPlant	plant	1	5	qameesun azraq	qameesun azraq		hawaiiShirt	1	NC		TRUE	FALSE	TRUE	TRUE	FALSE
+caCn6B6YxirR9trd7	Arabic	feedback	supSuff	dress	clothing	car	vehicle	1	6	dubbun qotbi	dubbun qotbi		polarBear	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+caCn6B6YxirR9trd7	Arabic	feedback	supSuff	pretzels	snack	snake	animal	1	22	vroom vroom	vroom vroom		convertible	1			FALSE	FALSE	TRUE	TRUE	FALSE
+caCn6B6YxirR9trd7	Arabic	feedback	supSuff	cookies	snack	socks	clothing	1	27	ya6eer	ya6eer		pigeon	1			FALSE	FALSE	TRUE	TRUE	FALSE
+caCn6B6YxirR9trd7	Arabic	feedback	supSuff	train	vehicle	ivy	plant	1	43	5ashabiya	5ashabiya		bedsideTable	1			FALSE	FALSE	TRUE	TRUE	FALSE
+caCn6B6YxirR9trd7	Arabic	feedback	supSuff	bookcase	furniture	pottedPlant	plant	1	44	7ayawan	7ayawan		husky	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+caCn6B6YxirR9trd7	Arabic	feedback	supSuff	lamp	furniture	chips	snack	1	61	abyad	abyad		minivan	1	C		TRUE	FALSE	TRUE	TRUE	FALSE
+caCn6B6YxirR9trd7	Arabic	feedback	supSuff	train	vehicle	dog	animal	1	64	latheetha	latheetha		jellyBeans	1			FALSE	FALSE	TRUE	TRUE	FALSE
+caCn6B6YxirR9trd7	Arabic	feedback	supSuff	bed	furniture	chips	snack	1	66	ya6eer	ya6eer		hummingBird	1			FALSE	FALSE	TRUE	TRUE	FALSE
+sJ8RoLS8MGCGRucmN	Arabic	feedback	supSuff	bathrobe	clothing	grasses	plant	1	1	someting in black	someting in black	hello__a bear	blackBear	1			FALSE	FALSE	TRUE	TRUE	FALSE
+sJ8RoLS8MGCGRucmN	Arabic	feedback	supSuff	train	vehicle	flower	plant	1	5	ugly	ugly		pug	1			FALSE	FALSE	TRUE	TRUE	FALSE
+sJ8RoLS8MGCGRucmN	Arabic	feedback	supSuff	bathrobe	clothing	pretzels	snack	1	8	hodas favorite	hodas favorite		convertible	1			FALSE	FALSE	TRUE	TRUE	FALSE
+sJ8RoLS8MGCGRucmN	Arabic	feedback	supSuff	snake	animal	popcorn	snack	1	13	beauty	beauty		rose	1			FALSE	FALSE	TRUE	TRUE	FALSE
+sJ8RoLS8MGCGRucmN	Arabic	feedback	supSuff	motorcycle	vehicle	rosemary	plant	1	24	ugly	ugly		catfish	1			FALSE	FALSE	TRUE	TRUE	FALSE
+sJ8RoLS8MGCGRucmN	Arabic	feedback	supSuff	chips	snack	ivy	plant	1	27	bird	bird		eagle	1			FALSE	FALSE	TRUE	TRUE	FALSE
+sJ8RoLS8MGCGRucmN	Arabic	feedback	supSuff	popcorn	snack	ivy	plant	1	28	ruf ruf	ruf ruf		husky	1			FALSE	FALSE	TRUE	TRUE	FALSE
+sJ8RoLS8MGCGRucmN	Arabic	feedback	supSuff	squirrel	animal	table	furniture	1	38	warda	warda		daisy	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+sJ8RoLS8MGCGRucmN	Arabic	feedback	supSuff	lion	animal	lamp	furniture	1	41	cancer	cancer		mnMs	1			FALSE	FALSE	TRUE	TRUE	FALSE
+sJ8RoLS8MGCGRucmN	Arabic	feedback	supSuff	gloves	clothing	rabbit	animal	1	54	tawela	tawela		coffeeTable	1	N		FALSE	FALSE	TRUE	TRUE	FALSE
+sJ8RoLS8MGCGRucmN	Arabic	feedback	supSuff	ivy	plant	motorcycle	vehicle	1	55	dob	dob		polarBear	1	N		FALSE	FALSE	TRUE	TRUE	FALSE

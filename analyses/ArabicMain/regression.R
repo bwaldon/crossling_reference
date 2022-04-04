@@ -12,7 +12,7 @@ source("../_shared/regressionHelpers.r")
 
 # READ DATA
 # # (dummy data for analysis pipeline creation)
-d = read_delim("../../data/ArabicMain/dummy/data_exp1.tsv", delim = "\t")
+d = read_delim("../../data/ArabicMain/data_exp1.tsv", delim = "\t")
 
 # PLOT PROPORTION OF REDUNDANT UTTERANCES BY REDUNDANT PROPERTY
 
