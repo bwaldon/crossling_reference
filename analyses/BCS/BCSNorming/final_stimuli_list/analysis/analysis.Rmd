@@ -1,0 +1,1125 @@
+---
+title: "BCS_RSA_final_stimuli_list"
+output: pdf_document
+#rmarkdown::github_document
+#output:
+  #html_document: default
+  #pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(warning= FALSE, message = FALSE, echo = TRUE)
+```
+
+```{r data import, include=FALSE}
+library(tidyverse)
+theme_set(theme_bw())
+
+source("../../shared/analysis.R")
+dfNoun1 = read.csv("../data/1_noun_norming_main-merged_cleaned.csv", header = TRUE)
+dfNoun2 = read.csv("../data/1_noun_norming_fluent-merged_cleaned.csv", header = TRUE)
+dfNoun <- rbind(dfNoun1, dfNoun2)
+
+dfNoun <- dfNoun %>%
+  rename(item = utterance,
+         dialectOne = subject_information.dialectOne,
+         dialectTwo = subject_information.dialectTwo)
+
+subjectCleanUp <- dfNoun %>%
+  select(workerid, schoolLanguage, firstLanguage, status) %>%
+  unique()
+
+# There are "statuses" that are coded incorrectly. These incorrect codings are due to spelling errors and 
+# listing two or more languages split up by / rather than spaces and commas
+
+# Manually input them into the dataframe
+dfNoun$status[dfNoun$workerid == 272] <- "heritage"
+dfNoun$status[dfNoun$workerid == 248] <- "native"
+dfNoun$status[dfNoun$workerid == 241] <- "heritage"
+dfNoun$status[dfNoun$workerid == 274] <- "heritage"
+dfNoun$status[dfNoun$workerid == 232] <- "native"
+dfNoun$status[dfNoun$workerid == 394] <- "heritage"
+dfNoun$status[dfNoun$workerid == 337] <- "native"
+dfNoun$status[dfNoun$workerid == 402] <- "simk"
+dfNoun$status[dfNoun$workerid == 152] <- "native"
+dfNoun$status[dfNoun$workerid == 169] <- "native"
+dfNoun$status[dfNoun$workerid == 262] <- "native"
+dfNoun$status[dfNoun$workerid == 154] <- "native"
+dfNoun$status[dfNoun$workerid == 423] <- "foreign"
+
+# get rid of participants who answered with colors
+# Get rid of participants who clearly used google translate (gvozdje instead of pegla and umreti instead of kocka)
+dfNoun <- dfNoun %>%
+  filter(workerid != 214 &  
+           workerid != 333 &
+           workerid != 346 &
+           workerid != 261 &
+           workerid != 357)
+
+# get rid of SIMK and foreign speakers
+dfNoun <- dfNoun %>%
+  filter(status != "simk" & status != "foreign")
+
+dfNoun_split <- runAnalysis(dfNoun)
+
+
+# Fix labels 
+
+# Standardize spellings for ease
+dfNoun$response = str_to_lower(str_replace_all(dfNoun$response, "\\b ", ""))
+dfNoun$response = str_to_lower(str_replace_all(dfNoun$response, "\\b\n", ""))
+dfNoun$response = str_replace_all(dfNoun$response, "\\bč", "c")
+dfNoun$response = str_replace_all(dfNoun$response,"ć", "c")
+dfNoun$response = str_replace_all(dfNoun$response,"š", "s")
+dfNoun$response = str_replace_all(dfNoun$response,"ž", "z")
+dfNoun$response = str_replace_all(dfNoun$response,"đ", "dj")
+
+dfNoun$response = str_replace_all(dfNoun$response, "\\b\\bbijelavrataidovratak\\b", "vrata")
+dfNoun$response = str_replace_all(dfNoun$response, "\\b\\bbrata\\b", "vrata")
+dfNoun$response = str_replace_all(dfNoun$response, "\\b\\bvratu\\b", "vrata")
+dfNoun$response = str_replace_all(dfNoun$response, "\\b\\bzutavrata\\b", "vrata")
+
+dfNoun$response = str_replace_all(dfNoun$response, "\\bkrona\\b", "kruna")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bkrovna\\b", "kruna")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bcorona\\b", "kruna")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bkryna\\b", "kruna")
+
+dfNoun$response = str_replace_all(dfNoun$response, "\\bplavahaljina\\b", "haljina")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bodjeca\\b", "odeca")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bhaljinu\\b", "haljina")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bhsljina\\b", "haljina")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bbelahaljina\\b", "haljina")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bhsljina\\b", "haljina")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bhajlina\\b", "haljina")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bhaljuna\\b", "haljina")
+
+dfNoun$response = str_replace_all(dfNoun$response, "\\bsvijeca\\b", "sveca")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bsvejca\\b", "sveca")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bsvica\\b", "sveca")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bsvijca\\b", "sveca")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bsvjiec\\b", "sveca")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bsvjeca\\b", "sveca")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bsijeca\\b", "sveca")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bsvece\\b", "sveca")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bzutasvijeca\\b", "sveca")
+
+dfNoun$response = str_replace_all(dfNoun$response, "\\bkniga\\b", "knjiga")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bcrvenaknjiga\\b", "knjiga")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bknjigu\\b", "knjiga")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bbiljeznica\\b", "beleznica")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bkgniga\\b", "knjiga")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bknjig\\b", "knjiga")
+
+dfNoun$response = str_replace_all(dfNoun$response, "\\bstolca\\b", "stolica")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bstolcu\\b", "stolica")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bstolivca\\b", "stolica")
+
+dfNoun$response = str_replace_all(dfNoun$response, "\\bobicnaolovka\\b", "olovka")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bbijelaolovka\\b", "olovka")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bdrvenaolovka\\b", "olovka")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bsuhaolovka\\b", "olovka")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bgrafitnaolovka\\b", "olovka")
+
+dfNoun$response = str_replace_all(dfNoun$response, "\\bzutapegla\\b", "pegla")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bpeglezna\\b", "pegla")
+
+dfNoun$response = str_replace_all(dfNoun$response, "\\bbijelamaska\\b", "maska")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bzutamaska\\b", "maska")
+
+dfNoun$response = str_replace_all(dfNoun$response, "\\bguitara\\b", "gitara")
+
+dfNoun$response = str_replace_all(dfNoun$response, "\\bdrvenaograda\\b", "ograda")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bogrda\\b", "ograda")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bogrrada\\b", "ograda")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bbijelaograda\\b", "ograda")
+
+
+dfNoun$response = str_replace_all(dfNoun$response, "\\bfotelj\\b", "fotelja")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bfotelj\\b", "fatelja")
+
+dfNoun$response = str_replace_all(dfNoun$response, "\\bkantica\\b", "kanta")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bcrvenakanta\\b", "kanta")
+
+dfNoun$response = str_replace_all(dfNoun$response, "\\blamoa\\b", "lampa")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bcrvenalampa\\b", "lampa")
+dfNoun$response = str_replace_all(dfNoun$response, "\\blampalam\\b", "lampa")
+dfNoun$response = str_replace_all(dfNoun$response, "\\blampu\\b", "lampa")
+
+
+dfNoun$response = str_replace_all(dfNoun$response, "\\bnaruknica\\b", "narukvica")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bogrlice\\b", "ogrlica")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bcrvenarukvica\\b", "narukvica")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bnarukvica(brojanica)\\b", "narukvica")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bnarukvica\\?\\b", "narukvica")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bbisernaogrlica\\b", "ogrlica")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bnarokvica\\b", "narukvica")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bnarkuvica\\b", "narukvica")
+
+dfNoun$response = str_replace_all(dfNoun$response, "\\bstijlke\\b", "stikla")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bzipela\\b", "cipela")
+
+dfNoun$response = str_replace_all(dfNoun$response, "\\bcipela\\b", "majority")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bstikla\\b", "majority")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bstikla/cipela\\b", "majority")
+
+dfNoun$response = str_replace_all(dfNoun$response, "\\bplavasalica\\b", "majority")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bsalica\\b", "majority")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bsoju\\b", "majority")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bsolja\\b", "majority")
+
+dfNoun$response = str_replace_all(dfNoun$response, "\\bheftalica\\b", "majority")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bheftarica\\b", "majority")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bhektalica\\b", "majority")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bklamarica\\b", "majority")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bklamerica\\b", "majority")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bklemerica\\b", "majority")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bspajalica\\b", "majority")
+
+
+dfNoun$response = str_replace_all(dfNoun$response, "\\bbalun\\b", "balon")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bzutibalon\\b", "balon")
+
+dfNoun$response = str_replace_all(dfNoun$response, "\\bkrever\\b", "krevet")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bplavikrevet\\b", "krevet")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bbracnikrevet\\b", "krevet")
+
+dfNoun$response = str_replace_all(dfNoun$response, "\\btelephon\\b", "telefon")
+
+dfNoun$response = str_replace_all(dfNoun$response, "\\bleptitr\\b", "leptir")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bljeptir\\b", "leptir")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bcrvenileptir\\b", "leptir")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bleptiri\\b", "leptir")
+
+dfNoun$response = str_replace_all(dfNoun$response, "\\bjastug\\b", "jastuk")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bukrasnijastuk\\b", "jastuk")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bjastucic\\b", "jastuk")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bjastukl\\b", "jastuk")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bzutijastuk\\b", "jastuk")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bzutjastuk\\b", "jastuk")
+
+dfNoun$response = str_replace_all(dfNoun$response, "\\bplavinovcanik\\b", "jastuk")
+
+dfNoun$response = str_replace_all(dfNoun$response, "\\bceselj\\b", "cesalj")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bcasalj\\b", "cesalj")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bcesaljzakosu\\b", "cesalj")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bcesel\\b", "cesalj")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bzuticesalj\\b", "cesalj")
+
+dfNoun$response = str_replace_all(dfNoun$response, "\\bcrveniprsten\\b", "prsten")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bprstn\\b", "prsten")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bpirsten\\b", "prsten")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bpircten\\b", "prsten")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bpersten\\b", "prsten")
+
+dfNoun$response = str_replace_all(dfNoun$response, "\\bbelisal\\b", "sal")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bbijelisal\\b", "sal")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bplavisal\\b", "sal")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bsal,sal\\b", "sal")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bsal.\\b", "sal")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bsal...\\b", "sal")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bsal(3slova)\\b", "sal")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bsalbre\\b", "sal")
+
+dfNoun$response = str_replace_all(dfNoun$response, "\\bsalokovrata\\b", "sal")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bsalzavrat\\b", "sal")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bschal\\b", "sal")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bshal\\b", "sal")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bzutisal\\b", "sal")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bzutsal\\b", "sal")
+
+dfNoun$response = str_replace_all(dfNoun$response, "\\bcvece", "cvet")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bcvijet", "cvet")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bcvijece", "cvet")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bcvit", "cvet")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bplavicvijet", "cvet")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bzvet", "cvet")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bzvjet", "cvet")
+
+dfNoun$response = str_replace_all(dfNoun$response, "\\bkajs\\b", "kais")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bkajis\\b", "kais")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bkajis\\b", "kais")
+
+dfNoun$response = str_replace_all(dfNoun$response, "\\bkais\\b", "majority")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bremen\\b", "majority")
+
+dfNoun$response = str_replace_all(dfNoun$response, "\\bl+kalkulator\\b", "kalkulator")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bcalculator\\b", "kalkulator")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bkalkulato\\b", "kalkulator")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bracunalp\\b", "racunar")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bdzepnoracunalo\\b", "racunalo")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bzutikalkulator\\b", "kalkulator")
+
+dfNoun$response = str_replace_all(dfNoun$response, "\\bdigitron\\b", "majority")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bkalkulator\\b", "majority")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bkalkulator/digitron\\b", "majority")
+
+dfNoun$response = str_replace_all(dfNoun$response, "\\bkockica\\b", "kocka")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bkocke\\b", "kocka")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bkockazaigranje\\b", "kocka")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bkocak\\b", "kocka")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bkocke\\b", "kocka")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bkotcka\\b", "kocka")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bkocika\\b", "kocka")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bkocku\\b", "kocka")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bljubicastakocka\\b", "kocka")
+
+dfNoun$response = str_replace_all(dfNoun$response, "\\brita\\b", "riba")
+dfNoun$response = str_replace_all(dfNoun$response, "\\brebu\\b", "ruba")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bljubicastariba\\b", "riba")
+
+dfNoun$response = str_replace_all(dfNoun$response, "\\bkravala\\b", "kravata")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bcrnakravata\\b", "kravata")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bkrvata\\b", "kravata")
+
+dfNoun$response = str_replace_all(dfNoun$response, "\\brukavice\\b", "rukavica")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bnarancastarukavica\\b", "rukavica")
+
+dfNoun$response = str_replace_all(dfNoun$response, "\\bcarape\\b", "carapa")
+
+dfNoun$response = str_replace_all(dfNoun$response, "\\bskoljaka\\b", "skoljka")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bskolja\\b", "skoljka")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bskoljke\\b", "skoljka")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bskojlka\\b", "skoljka")
+
+dfNoun$response = str_replace_all(dfNoun$response, "\\bmasnica\\b", "masna")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bmasta\\b", "masna")
+
+dfNoun$response = str_replace_all(dfNoun$response, "\\bnarancastaogrlica\\b", "ogrlica")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bogrica\\b", "ogrlica")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bogirlica\\b", "ogrlica")
+dfNoun$response = str_replace_all(dfNoun$response, "\\borglica\\b", "ogrlica")
+
+dfNoun$response = str_replace_all(dfNoun$response, "\\bpapuce\\b", "papuca")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bselenapapuca\\b", "papuca")
+
+dfNoun$response = str_replace_all(dfNoun$response, "\\bzelenalopata\\b", "lopata")
+dfNoun$response = str_replace_all(dfNoun$response, "\\blopota\\b", "lopata")
+dfNoun$response = str_replace_all(dfNoun$response, "\\blopatica\\b", "lopata")
+
+dfNoun$response = str_replace_all(dfNoun$response, "\\bljubicastatorbica", "torba")
+dfNoun$response = str_replace_all(dfNoun$response, "\\btorbe", "torba")
+dfNoun$response = str_replace_all(dfNoun$response, "\\btorbica", "torba")
+dfNoun$response = str_replace_all(dfNoun$response, "\\btorbiva", "torba")
+
+dfNoun$response = str_replace_all(dfNoun$response, "\\bvasa", "vaza")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bvasna", "vazna")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bvasnica", "vazna")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bvaya", "vaza")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bzelenavaz", "vaza")
+
+dfNoun$response = str_replace_all(dfNoun$response, "\\bviljosku", "viljuska")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bviluska", "viljuska")
+
+dfNoun$response = str_replace_all(dfNoun$response, "\\bviljuska", "majority")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bvilica", "majority")
+
+dfNoun$response = str_replace_all(dfNoun$response, "\\bkorba\\b", "korpa")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bkorpica\\b", "korpa")
+
+dfNoun$response = str_replace_all(dfNoun$response, "\\bkosarica\\b", "kosara")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bkosaricazakupovinu\\b", "kosara")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bzelenakosarica\\b", "kosara")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bpletenakosara\\b", "kosara")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bslamnatakosara\\b", "kosara")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bzelenakosara", "kosara")
+
+dfNoun$response = str_replace_all(dfNoun$response, "\\bkorpa/kosara", "majority")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bkorpa", "majority")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bkosara", "majority")
+
+dfNoun$response = str_replace_all(dfNoun$response, "\\bzvidaljka", "zvizdaljka")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bcrnazvizdalica", "zvizdaljka")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bzvizdalica", "zvizdaljka")
+
+dfNoun$response = str_replace_all(dfNoun$response, "\\bzvizdaljka", "majority")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bpistaljka", "majority")
+
+dfNoun$response = str_replace_all(dfNoun$response, "\\bkoledar\\b", "kalendar")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bcrnikalendar\\b", "kalendar")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bkalender\\b", "kalendar")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bkoleendar\\b", "kalendar")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bcalendar\\b", "kalendar")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bkolendar\\b", "kalendar")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bkolodar\\b", "kalendar")
+dfNoun$response = str_replace_all(dfNoun$response, "\\blaendar\\b", "kalendar")
+
+dfNoun$response = str_replace_all(dfNoun$response, "\\bcrnicekic\\b", "cekic")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bcakic\\b", "cekic")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bceckic\\b", "cekic")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bcelic\\b", "cekic")
+
+dfNoun$response = str_replace_all(dfNoun$response, "\\bkamijon\\b", "kamion")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bzelenikamion\\b", "kamion")
+
+dfNoun$response = str_replace_all(dfNoun$response, "\\bbuban\\b", "bubanj")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bboban\\b", "bubanj")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bbobni\\b", "bubanj")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bbubabj\\b", "bubanj")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bdubanj\\b", "bubanj")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bmalibubanj\\b", "bubanj")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bbybanj\\b", "bubanj")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bboben\\b", "bubanj")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bboban\\b", "bubanj")
+
+dfNoun$response = str_replace_all(dfNoun$response, "\\bcrvenamajica\\b", "majica")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bmaica\\b", "majica")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bmajce\\b", "majica")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bmajcu\\b", "majica")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bmajica\\b", "majica")
+
+dfNoun$response = str_replace_all(dfNoun$response, "\\bmirkoskop\\b", "mikroskop")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bzelenimikroskop\\b", "mikroskop")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bmikroskope\\b", "mikroskop")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bmikroscop\\b", "mikroskop")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bmikroskom\\b", "mikroskop")
+
+dfNoun$response = str_replace_all(dfNoun$response, "\\bhelicopter\\b", "mikroskop")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bzlenihelikopter\\b", "mikroskop")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bhelihopter\\b", "mikroskop")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bhilihopter\\b", "mikroskop")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bhelikoptar\\b", "mikroskop")
+
+dfNoun$response = str_replace_all(dfNoun$response, "\\bzelenirobot\\b", "robot")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bljubicastirobot\\b", "robot")
+
+dfNoun$response = str_replace_all(dfNoun$response, "\\bkufer\\b", "kofer")
+
+dfNoun$response = str_replace_all(dfNoun$response, "\\bhansaplast\\b", "hanzaplast")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bhanzaflast\\b", "hanzaplast")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bhansaflast\\b", "hanzaplast")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bhanzoplast\\b", "hanzaplast")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bflajster\\b", "flaster")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bplaster\\b", "flaster")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bflastir\\b", "flaster")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bbandaza\\b", "bandaz")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bljubicastiplaster\\b", "flaster")
+
+dfNoun$response = str_replace_all(dfNoun$response, "\\bljubicastnoz", "noz")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bnarancastinoz", "noz")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bnoz.", "noz")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bnoz...", "noz")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bnoz(opetnecerecod3slova)", "noz")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bnoz...", "noz")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bnozh", "noz")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bnozz", "noz")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bovojenoz", "noz")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bvelikinoz", "noz")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bzeleninoz", "noz")
+
+dfNoun$response = str_replace_all(dfNoun$response, "\\bkazetofon", "kasetofon")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bljubicastikasetofon", "kasetofon")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bradion", "radio")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bzeleniradio", "radio")
+
+dfNoun$response = str_replace_all(dfNoun$response, "\\bkasetofon", "majority")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bradio", "majority")
+
+dfNoun$response = str_replace_all(dfNoun$response, "\\bnarancastitanjir", "tanjir")
+dfNoun$response = str_replace_all(dfNoun$response, "\\btanir", "tanjir")
+dfNoun$response = str_replace_all(dfNoun$response, "\\btanjiric", "tanjir")
+dfNoun$response = str_replace_all(dfNoun$response, "\\btanjuriczasalicu", "tanjur")
+dfNoun$response = str_replace_all(dfNoun$response, "\\btanjuric", "tanjur")
+
+dfNoun$response = str_replace_all(dfNoun$response, "\\btanjir", "majority")
+dfNoun$response = str_replace_all(dfNoun$response, "\\btanjur", "majority")
+
+dfNoun$response = str_replace_all(dfNoun$response, "\\bdvogled", "majority")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bdalekozor", "majority")
+
+dfNoun$response = str_replace_all(dfNoun$response, "\\bkatanac/lokot", "majority")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bljubicastilokot", "lokot")
+
+dfNoun$response = str_replace_all(dfNoun$response, "\\blokot", "majority")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bkatanac", "majority")
+
+dfNoun$response = str_replace_all(dfNoun$response, "\\bkarmin/ruz", "majority")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bruz/karmin", "majority")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bzeleniruz", "ruz")
+
+dfNoun$response = str_replace_all(dfNoun$response, "\\bkarmin", "majority")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bruz", "majority")
+
+dfNoun$response = str_replace_all(dfNoun$response, "\\bcrnisarafciger", "srafciger")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bodvidac", "odvijac")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bsarafciger", "srafciger")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bsarafcigersarafciger", "srafciger")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bsarafenciger", "srafciger")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bserafciger", "srafciger")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bsrafzieger", "srafciger")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bsravciger", "srafciger")
+
+dfNoun$response = str_replace_all(dfNoun$response, "\\bsrafciger", "majority")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bodvijac", "majority")
+
+
+dfNoun$response = str_replace_all(dfNoun$response, "\\bzdela", "zdjela")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bzdjelica", "zdjela")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bzelenazdjela", "zdjela")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bzdelja", "zdjela")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bzdejla", "zdjela")
+dfNoun$response = str_replace_all(dfNoun$response, "\\badijela", "zdjela")
+
+dfNoun$response = str_replace_all(dfNoun$response, "\\bzdjela", "majority")
+dfNoun$response = str_replace_all(dfNoun$response, "\\bcinija", "majority")
+
+dfNoun$response = str_replace_all(dfNoun$response, "\n", "")
+dfNoun$response = str_replace_all(dfNoun$response, " ", "")
+
+# Run the df_percent to get percentages
+
+
+dfNoun_split <- runAnalysis(dfNoun)
+
+
+## Do people have a majority response over a 70% threshold?
+
+# Input: string refering to object in dfNoun_split
+# output: Return the percent of people responded the most common answer
+getPercent <- function(objectName) {
+  
+  tib <- dfNoun_split[[objectName]]
+
+  totalSum <- tib$count %>%
+    sum()
+  
+  maxCount <- tib %>%
+    group_by(cresponse) %>%
+    summarise(n = sum(count))
+
+  maxNum <- maxCount[which.max(maxCount$n),]$n
+  return(maxNum/totalSum)
+}
+
+# Input: string refering to object in dfNoun_split
+# output: Return the the most common esponse
+getLabel <- function(objectName) {
+  
+  tib <- dfNoun_split[[objectName]]
+
+  maxCount <- tib %>%
+    group_by(cresponse) %>%
+    summarise(n = sum(count))
+
+  return(maxCount[which.max(maxCount$n),][[1]])
+}
+
+
+allNounNames <- names(dfNoun_split)
+
+# create dataframe with most common responses 
+# and percent of people that responded with them
+dfNoun_percent <- data.frame(item = allNounNames,
+                         label = unlist(lapply(allNounNames, getLabel)),
+                         percent = unlist(lapply(allNounNames, getPercent)))
+
+#append gender and color scheme to the df_percent
+df_targets <- read.csv("../../shared/final_targets.csv", header = TRUE)
+
+df_targets <- df_targets %>%
+  filter(Color == "blue" | Color == "green") %>%
+  select(Item, Color.scheme, Gender)
+
+colnames(df_targets) <- c("item", "colorScheme", "gender")
+
+dfNoun_percent <- merge(df_targets, dfNoun_percent,by = c("item"))
+
+
+
+# #append gender and color scheme to the dfNoun
+# df_targets <- read.csv("../../shared/final_targets.csv", header = TRUE)
+# 
+# df_targets <- df_targets %>%
+#   filter(Color == "blue" | Color == "green") %>%
+#   select(Item, Color.scheme, Gender)
+# 
+# colnames(df_targets) <- c("item", "colorScheme", "gender")
+# 
+# dfNoun <- merge(df_targets, dfNoun,by = c("item"))
+
+```
+
+```{r color, echo=FALSE, include=FALSE}
+
+dfColor1 = read.csv("../data/2_color_norming_main-merged_cleaned.csv", header = TRUE)
+dfColor2 = read.csv("../data/2_color_norming_fluent-merged_cleaned.csv", header = TRUE)
+dfColor <- rbind(dfColor1, dfColor2)
+
+
+dfColor$response = tolower(dfColor$response)
+
+
+# ####### GET RID OF ALL THINGS THAT ARE NOT LETTERS!!!
+dfColor$response = str_replace_all(dfColor$response, "/", "")
+dfColor$response = str_replace_all(dfColor$response, "\\\\", "")
+dfColor$response = str_replace_all(dfColor$response, ";", "")
+dfColor$response = str_replace_all(dfColor$response, "\'", "")
+dfColor$response = str_replace_all(dfColor$response, "<", "")
+dfColor$response = str_replace_all(dfColor$response, "\n", "")
+dfColor$response = str_replace_all(dfColor$response, " ", "")
+dfColor$response = str_replace_all(dfColor$response, "\\?", "")
+
+# Replace all single word color responses with a standardized color label
+
+dfColor$response = str_replace_all(dfColor$response, "bela\\b", "belo")
+dfColor$response = str_replace_all(dfColor$response, "bele\\b", "belo")
+dfColor$response = str_replace_all(dfColor$response, "beli\\b", "belo")
+dfColor$response = str_replace_all(dfColor$response, "bije;a\\b", "belo")
+dfColor$response = str_replace_all(dfColor$response, "bijea\\b", "belo")
+dfColor$response = str_replace_all(dfColor$response, "bijel\\b", "belo")
+dfColor$response = str_replace_all(dfColor$response, "bijela\\b", "belo")
+dfColor$response = str_replace_all(dfColor$response, "bijele\\b", "belo")
+dfColor$response = str_replace_all(dfColor$response, "bijeli\\b", "belo")
+dfColor$response = str_replace_all(dfColor$response, "bijelo\\b", "belo")
+dfColor$response = str_replace_all(dfColor$response, "bijrla\\b", "belo")
+dfColor$response = str_replace_all(dfColor$response, "biojele\\b", "belo")
+dfColor$response = str_replace_all(dfColor$response, "bjeal\\b", "belo")
+dfColor$response = str_replace_all(dfColor$response, "bjel\\b", "belo")
+dfColor$response = str_replace_all(dfColor$response, "bjela\\b", "belo")
+dfColor$response = str_replace_all(dfColor$response, "bjel\\b", "belo")
+dfColor$response = str_replace_all(dfColor$response, "bjelo\\b", "belo")
+dfColor$response = str_replace_all(dfColor$response, "bjeli\\b", "belo")
+dfColor$response = str_replace_all(dfColor$response, "bijelo\\b", "belo")
+dfColor$response = str_replace_all(dfColor$response, "bijlo\\b", "belo")
+dfColor$response = str_replace_all(dfColor$response, "bepo\\b", "belo")
+dfColor$response = str_replace_all(dfColor$response, "bjeol\\b", "belo")
+dfColor$response = str_replace_all(dfColor$response, "binele\\b", "belo")
+dfColor$response = str_replace_all(dfColor$response, "bijelq\\b", "crveno")
+dfColor$response = str_replace_all(dfColor$response, "bijlele\\b", "crveno")
+
+
+dfColor$response = str_replace_all(dfColor$response, "cne\\b", "crno")
+dfColor$response = str_replace_all(dfColor$response, "cren\\b", "crno")
+dfColor$response = str_replace_all(dfColor$response, "crn\\b", "crno")
+dfColor$response = str_replace_all(dfColor$response, "crna\\b", "crno")
+dfColor$response = str_replace_all(dfColor$response, "crne\\b", "crno")
+dfColor$response = str_replace_all(dfColor$response, "crni\\b", "crno")
+dfColor$response = str_replace_all(dfColor$response, "crnq\\b", "crno")
+dfColor$response = str_replace_all(dfColor$response, "cirno\\b", "crno")
+dfColor$response = str_replace_all(dfColor$response, "zrno\\b", "crno")
+dfColor$response = str_replace_all(dfColor$response, "crnw\\b", "crno")
+dfColor$response = str_replace_all(dfColor$response, "cirn\\b", "crno")
+
+
+dfColor$response = str_replace_all(dfColor$response, "crven\\b", "crveno")
+dfColor$response = str_replace_all(dfColor$response, "crneven\\b", "crveno")
+dfColor$response = str_replace_all(dfColor$response, "crvena\\b", "crveno")
+dfColor$response = str_replace_all(dfColor$response, "crvene\\b", "crveno")
+dfColor$response = str_replace_all(dfColor$response, "crveni\\b", "crveno")
+dfColor$response = str_replace_all(dfColor$response, "cvene\\b", "crveno")
+dfColor$response = str_replace_all(dfColor$response, "crvani\\b", "crveno")
+dfColor$response = str_replace_all(dfColor$response, "crvreni\\b", "crveno")
+dfColor$response = str_replace_all(dfColor$response, "crvr\\b", "crveno")
+dfColor$response = str_replace_all(dfColor$response, "zrveno\\b", "crveno")
+dfColor$response = str_replace_all(dfColor$response, "cirvena\\b", "crveno")
+dfColor$response = str_replace_all(dfColor$response, "cirveno\\b", "crveno")
+dfColor$response = str_replace_all(dfColor$response, "crvno\\b", "crveno")
+dfColor$response = str_replace_all(dfColor$response, "cirveni\\b", "crveno")
+dfColor$response = str_replace_all(dfColor$response, "zrvena\\b", "crveno")
+dfColor$response = str_replace_all(dfColor$response, "cirven\\b", "crveno")
+dfColor$response = str_replace_all(dfColor$response, "cirni\\b", "crveno")
+dfColor$response = str_replace_all(dfColor$response, "crvna\\b", "crveno")
+
+dfColor$response = str_replace_all(dfColor$response, "jubicasti\\b", "ljubicasto")
+dfColor$response = str_replace_all(dfColor$response, "ljubicaaste\\b", "ljubicasto")
+dfColor$response = str_replace_all(dfColor$response, "ljubicasa\\b", "ljubicasto")
+dfColor$response = str_replace_all(dfColor$response, "ljubicaset\\b", "ljubicasto")
+dfColor$response = str_replace_all(dfColor$response, "ljubicasrte\\b", "ljubicasto")
+dfColor$response = str_replace_all(dfColor$response, "ljubicast\\b", "ljubicasto")
+dfColor$response = str_replace_all(dfColor$response, "ljubičast\\b", "ljubicasto")
+dfColor$response = str_replace_all(dfColor$response, "ljubicasta\\b", "ljubicasto")
+dfColor$response = str_replace_all(dfColor$response, "ljubičastaa\\b", "ljubicasto")
+dfColor$response = str_replace_all(dfColor$response, "ljubicaste\\b", "ljubicasto")
+dfColor$response = str_replace_all(dfColor$response, "ljubičaste\\b", "ljubicasto")
+dfColor$response = str_replace_all(dfColor$response, "ljubicasti\\b", "ljubicasto")
+dfColor$response = str_replace_all(dfColor$response, "ljubičasti\\b", "ljubicasto")
+dfColor$response = str_replace_all(dfColor$response, "ljubičasto\\b", "ljubicasto")
+dfColor$response = str_replace_all(dfColor$response, "ljubičastta\\b", "ljubicasto")
+dfColor$response = str_replace_all(dfColor$response, "ljubiccaste\\b", "ljubicasto")
+dfColor$response = str_replace_all(dfColor$response, "ljubicsra\\b", "ljubicasto")
+dfColor$response = str_replace_all(dfColor$response, "ljubicsti\\b", "ljubicasto")
+dfColor$response = str_replace_all(dfColor$response, "ljubivasto\\b", "ljubicasto")
+dfColor$response = str_replace_all(dfColor$response, "Ljuicaste\\b", "ljubicasto")
+dfColor$response = str_replace_all(dfColor$response, "ljuvičaste\\b", "ljubicasto")
+dfColor$response = str_replace_all(dfColor$response, "ljubicasna\\b", "ljubicasto")
+dfColor$response = str_replace_all(dfColor$response, "ljubicasno\\b", "ljubicasto")
+dfColor$response = str_replace_all(dfColor$response, "ljubičasta\\b", "ljubicasto")
+dfColor$response = str_replace_all(dfColor$response, "ljuvičaste\\b", "ljubicasto")
+dfColor$response = str_replace_all(dfColor$response, "ljubicastno\\b", "ljubicasto")
+dfColor$response = str_replace_all(dfColor$response, "ljubicast\\b", "ljubicasto")
+dfColor$response = str_replace_all(dfColor$response, "ljubicasye\\b", "ljubicasto")
+dfColor$response = str_replace_all(dfColor$response, "ljubocasta\\b", "ljubicasto")
+dfColor$response = str_replace_all(dfColor$response, "ljuicaste\\b", "ljubicasto")
+dfColor$response = str_replace_all(dfColor$response, "lljubicasto\\b", "ljubicasto")
+dfColor$response = str_replace_all(dfColor$response, "ljubcasta\\b", "ljubicasto")
+dfColor$response = str_replace_all(dfColor$response, "ljubicasno\\b", "ljubicasto")
+dfColor$response = str_replace_all(dfColor$response, "ljubiaste\\b", "ljubicasto")
+dfColor$response = str_replace_all(dfColor$response, "ljubacasto\\b", "ljubicasto")
+dfColor$response = str_replace_all(dfColor$response, "ljubicate\\b", "ljubicasto")
+
+dfColor$response = str_replace_all(dfColor$response, "naradjanska\\b", "narandzasto")
+dfColor$response = str_replace_all(dfColor$response, "naradzan\\b", "narandzasto")
+dfColor$response = str_replace_all(dfColor$response, "naradzanska\\b", "narandzasto")
+dfColor$response = str_replace_all(dfColor$response, "naradzasta\\b", "narandzasto")
+dfColor$response = str_replace_all(dfColor$response, "naranasta\\b", "narandzasto")
+dfColor$response = str_replace_all(dfColor$response, "narancast\\b", "narandzasto")
+dfColor$response = str_replace_all(dfColor$response, "narančast\\b", "narandzasto")
+dfColor$response = str_replace_all(dfColor$response, "narancasta\\b", "narandzasto")
+dfColor$response = str_replace_all(dfColor$response, "narančasta\\b", "narandzasto")
+dfColor$response = str_replace_all(dfColor$response, "narancasta\\b", "narandzasto")
+dfColor$response = str_replace_all(dfColor$response, "narancaste\\b", "narandzasto")
+dfColor$response = str_replace_all(dfColor$response, "narančaste\\b", "narandzasto")
+dfColor$response = str_replace_all(dfColor$response, "Narancaste\\b", "narandzasto")
+dfColor$response = str_replace_all(dfColor$response, "narančaste boje\\b", "narandzasto")
+dfColor$response = str_replace_all(dfColor$response, "narancasti\\b", "narandzasto")
+dfColor$response = str_replace_all(dfColor$response, "narančasti\\b", "narandzasto")
+dfColor$response = str_replace_all(dfColor$response, "narancasto\\b", "narandzasto")
+dfColor$response = str_replace_all(dfColor$response, "narančasto\\b", "narandzasto")
+dfColor$response = str_replace_all(dfColor$response, "narančste\\b", "narandzasto")
+dfColor$response = str_replace_all(dfColor$response, "naranđasta\\b", "narandzasto")
+dfColor$response = str_replace_all(dfColor$response, "narandjanska\\b", "narandzasto")
+dfColor$response = str_replace_all(dfColor$response, "narandjast\\b", "narandzasto")
+dfColor$response = str_replace_all(dfColor$response, "narandzast\\b", "narandzasto")
+dfColor$response = str_replace_all(dfColor$response, "narandzasta\\b", "narandzasto")
+dfColor$response = str_replace_all(dfColor$response, "narandžasta\\b", "narandzasto")
+dfColor$response = str_replace_all(dfColor$response, "narandzaste\\b", "narandzasto")
+dfColor$response = str_replace_all(dfColor$response, "narandzaste\\b", "narandzasto")
+dfColor$response = str_replace_all(dfColor$response, "narandzasti\\b", "narandzasto")
+dfColor$response = str_replace_all(dfColor$response, "narandzasto\\b", "narandzasto")
+dfColor$response = str_replace_all(dfColor$response, "naranzdaste\\b", "narandzasto")
+dfColor$response = str_replace_all(dfColor$response, "narnčasto\\b", "narandzasto")
+dfColor$response = str_replace_all(dfColor$response, "nrandzasta\\b", "narandzasto")
+dfColor$response = str_replace_all(dfColor$response, "nrandzaste\\b", "narandzasto")
+dfColor$response = str_replace_all(dfColor$response, "narančasteboje\\b", "narandzasto")
+dfColor$response = str_replace_all(dfColor$response, "narandast\\b", "narandzasto")
+dfColor$response = str_replace_all(dfColor$response, "narandasta\\b", "narandzasto")
+dfColor$response = str_replace_all(dfColor$response, "narandasti\\b", "narandzasto")
+dfColor$response = str_replace_all(dfColor$response, "narandasto\\b", "narandzasto")
+dfColor$response = str_replace_all(dfColor$response, "narandjasto\\b", "narandzasto")
+dfColor$response = str_replace_all(dfColor$response, "narandžaste\\b", "narandzasto")
+dfColor$response = str_replace_all(dfColor$response, "narandzastno\\b", "narandzasto")
+dfColor$response = str_replace_all(dfColor$response, "narandzasto\\b", "narandzasto")
+dfColor$response = str_replace_all(dfColor$response, "narndjasto\\b", "narandzasto")
+dfColor$response = str_replace_all(dfColor$response, "narndzaste\\b", "narandzasto")
+dfColor$response = str_replace_all(dfColor$response, "narancast\\b", "narandzasto")
+dfColor$response = str_replace_all(dfColor$response, "narancaste\\b", "narandzasto")
+dfColor$response = str_replace_all(dfColor$response, "narančasto\\b", "narandzasto")
+dfColor$response = str_replace_all(dfColor$response, "naranca\\b", "narandzasto")
+dfColor$response = str_replace_all(dfColor$response, "naranjasto\\b", "narandzasto")
+dfColor$response = str_replace_all(dfColor$response, "narandjasti\\b", "narandzasto")
+dfColor$response = str_replace_all(dfColor$response, "narandzaste\\b", "naradzasto")
+dfColor$response = str_replace_all(dfColor$response, "narancesto\\b", "narandzasto")
+dfColor$response = str_replace_all(dfColor$response, "narandjasta\\b", "narandzasto")
+dfColor$response = str_replace_all(dfColor$response, "naracasta\\b", "narandzasto")
+dfColor$response = str_replace_all(dfColor$response, "narancasdto\\b", "narandzasto")
+
+dfColor$response = str_replace_all(dfColor$response, "plaava\\b", "plavo")
+dfColor$response = str_replace_all(dfColor$response, "place\\b", "plavo")
+dfColor$response = str_replace_all(dfColor$response, "placve\\b", "plavo")
+dfColor$response = str_replace_all(dfColor$response, "plav\\b", "plavo")
+dfColor$response = str_replace_all(dfColor$response, "plava\\b", "plavo")
+dfColor$response = str_replace_all(dfColor$response, "plave\\b", "plavo")
+dfColor$response = str_replace_all(dfColor$response, "plavel\\b", "plavo")
+dfColor$response = str_replace_all(dfColor$response, "plavi\\b", "plavo")
+
+dfColor$response = str_replace_all(dfColor$response, "siv\\b", "sivo")
+dfColor$response = str_replace_all(dfColor$response, "siva\\b", "sivo")
+dfColor$response = str_replace_all(dfColor$response, "sive\\b", "sivo")
+dfColor$response = str_replace_all(dfColor$response, "sivi\\b", "sivo")
+
+dfColor$response = str_replace_all(dfColor$response, "smeda\\b", "smedje")
+dfColor$response = str_replace_all(dfColor$response, "smeđa\\b", "smedje")
+dfColor$response = str_replace_all(dfColor$response, "smede\\b", "smedje")
+dfColor$response = str_replace_all(dfColor$response, "smeđe\\b", "smedje")
+dfColor$response = str_replace_all(dfColor$response, "smeđe4\\b", "smedje")
+dfColor$response = str_replace_all(dfColor$response, "smedi\\b", "smedje")
+dfColor$response = str_replace_all(dfColor$response, "smeđi\\b", "smedje")
+dfColor$response = str_replace_all(dfColor$response, "smedja\\b", "smedje")
+dfColor$response = str_replace_all(dfColor$response, "smedjje\\b", "smedje")
+dfColor$response = str_replace_all(dfColor$response, "zmedje\\b", "smedje")
+
+
+dfColor$response = str_replace_all(dfColor$response, "srebrena\\b", "srebrno")
+dfColor$response = str_replace_all(dfColor$response, "srebrn\\b", "srebrno")
+dfColor$response = str_replace_all(dfColor$response, "srebrna\\b", "srebrno")
+dfColor$response = str_replace_all(dfColor$response, "srebrne\\b", "srebrno")
+dfColor$response = str_replace_all(dfColor$response, "srebrni\\b", "srebrno")
+
+
+dfColor$response = str_replace_all(dfColor$response, "yelen\\b", "zeleno")
+dfColor$response = str_replace_all(dfColor$response, "yelena\\b", "zeleno")
+dfColor$response = str_replace_all(dfColor$response, "yeleno\\b", "zeleno")
+dfColor$response = str_replace_all(dfColor$response, "zalen\\b", "zeleno")
+dfColor$response = str_replace_all(dfColor$response, "zaleni\\b", "zeleno")
+dfColor$response = str_replace_all(dfColor$response, "zaleno\\b", "zeleno")
+dfColor$response = str_replace_all(dfColor$response, "zalemna", "zeleno")
+dfColor$response = str_replace_all(dfColor$response, "zelen\\b", "zeleno")
+dfColor$response = str_replace_all(dfColor$response, "zelena\\b", "zeleno")
+dfColor$response = str_replace_all(dfColor$response, "zelene\\b", "zeleno")
+dfColor$response = str_replace_all(dfColor$response, "zeleni\\b", "zeleno")
+dfColor$response = str_replace_all(dfColor$response, "selena\\b", "zeleno")
+dfColor$response = str_replace_all(dfColor$response, "zelemna\\b", "zeleno")
+dfColor$response = str_replace_all(dfColor$response, "zeleo\\b", "zeleno")
+
+dfColor$response = str_replace_all(dfColor$response, "zlatna\\b", "zlatno")
+dfColor$response = str_replace_all(dfColor$response, "zlatne\\b", "zlatno")
+dfColor$response = str_replace_all(dfColor$response, "zlatni\\b", "zlatno")
+
+dfColor$response = str_replace_all(dfColor$response, "zut\\b", "zuto")
+dfColor$response = str_replace_all(dfColor$response, "žut\\b", "zuto")
+dfColor$response = str_replace_all(dfColor$response, "zuta\\b", "zuto")
+dfColor$response = str_replace_all(dfColor$response, "žuta\\b", "zuto")
+dfColor$response = str_replace_all(dfColor$response, "žutaa\\b", "zuto")
+dfColor$response = str_replace_all(dfColor$response, "žutal\\b", "zuto")
+dfColor$response = str_replace_all(dfColor$response, "zute\\b", "zuto")
+dfColor$response = str_replace_all(dfColor$response, "žute\\b", "zuto")
+dfColor$response = str_replace_all(dfColor$response, "zuteboje\\b", "zuto")
+dfColor$response = str_replace_all(dfColor$response, "žuteboje\\b", "zuto")
+dfColor$response = str_replace_all(dfColor$response, "zuti\\b", "zuto")
+dfColor$response = str_replace_all(dfColor$response, "žuti\\b", "zuto")
+dfColor$response = str_replace_all(dfColor$response, "zuto\\b", "zuto")
+dfColor$response = str_replace_all(dfColor$response, "žuto\\b", "zuto")
+dfColor$response = str_replace_all(dfColor$response, "zutra\\b", "zuto")
+dfColor$response = str_replace_all(dfColor$response, "yuto\\b", "zuto")
+dfColor$response = str_replace_all(dfColor$response, "zuro\\b", "zuto")
+dfColor$response = str_replace_all(dfColor$response, "zuza\\b", "zuto")
+dfColor$response = str_replace_all(dfColor$response, "zutq\\b", "zuto")
+
+
+dfColor$response = str_replace_all(dfColor$response, "\n", "")
+dfColor$response = str_replace_all(dfColor$response, " ", "")
+
+subjectCleanUp <- dfColor %>%
+  select(workerid, schoolLanguage, firstLanguage, status) %>%
+  unique()
+
+#view(subjectCleanUp)
+
+# Get number of participants total
+dfColor %>%
+  select(workerid) %>%
+  unique() %>%
+  nrow()
+# 147
+
+# These are the statuses that were coded incorrectly:
+# these incorrect codings are due to spelling errors and 
+# listing two or more languages split up by / rather than spaces and commas
+
+
+# Manually input them into the dataframe
+dfColor$status[dfColor$workerid == 165] <- "native"
+dfColor$status[dfColor$workerid == 151] <- "native"
+dfColor$status[dfColor$workerid == 155] <- "native"
+dfColor$status[dfColor$workerid == 244] <- "heritage"
+dfColor$status[dfColor$workerid == 430] <- "heritage"
+dfColor$status[dfColor$workerid == 350] <- "native"
+dfColor$status[dfColor$workerid == 396] <- "heritage"
+dfColor$status[dfColor$workerid == 244] <- "heritage"
+dfColor$status[dfColor$workerid == 388] <- "heritage"
+
+
+# get rid of foreign and simk speakers
+dfColor <- dfColor %>%
+  filter(status != "simk" & status != "foreign")
+
+# Get number of participants after simk/foreign exclusions
+dfColor %>%
+  select(workerid) %>%
+  unique() %>%
+  nrow()
+# 82
+
+# Get rid of participant 193 (answered the object names rather than colors)
+# get rid of participant 278 who answered in English
+dfColor <- dfColor %>%
+  filter(workerid != 193 & workerid != 278)
+
+# Get number of participants after simk/foreign exclusions
+dfColor %>%
+  select(workerid) %>%
+  unique() %>%
+  nrow()
+# 80
+
+dfColor_split <- runAnalysis(dfColor)
+
+
+
+## Do people have a majority response over a 70% threshold?
+
+# Create data frame with each item x color and its utterances
+dfColor_responses <- dfColor %>%
+  group_by(object, response) %>%
+  summarize(count=n()) 
+
+dfColor_responses <- dfColor_responses %>%
+  split(dfColor_responses$object)
+
+# Input: string refering to object in df_responses
+# output: Return the percent of people responded the most common answer
+getPercent <- function(objectName) {
+  
+  tib <- dfColor_responses[[objectName]]
+  
+  totalSum <- sum(tib$count)
+  
+  maxCount <- tib %>%
+    group_by(response) %>%
+    summarise(n = sum(count))
+  
+  maxNum <- maxCount[which.max(maxCount$n),]$n
+  
+  return(maxNum/totalSum)
+}
+
+# Input: string refering to object in df_responses
+# output: Return the the most common esponse
+getLabel <- function(objectName) {
+  
+  tib <- dfColor_responses[[objectName]]
+
+  maxCount <- tib %>%
+    group_by(response) %>%
+    summarise(n = sum(count))
+
+  return(maxCount[which.max(maxCount$n),][[1]])
+}
+
+allColorNames <- names(dfColor_responses)
+
+dfColor_percent <- data.frame(item = allColorNames,
+                         label = unlist(lapply(allColorNames, getLabel)),
+                         percent = unlist(lapply(allColorNames, getPercent)))
+
+dfColor_percent <- dfColor_percent %>%
+  mutate(color = str_extract(item, "[^_]+"), 
+         object = str_extract(item, "[^_]*$"))
+
+
+dfColor_percent_merge <- dfColor_percent %>%
+  mutate(color = case_when(
+    color %in% c("blue", "purple") ~ "color1",
+    color %in% c("red", "green") ~ "color2",
+    color %in% c("yellow", "orange") ~ "color3",
+    color %in% c("white", "black") ~ "color4"
+  ))
+
+dfColor_percent_merge <- dfColor_percent_merge %>%
+  pivot_wider(names_from = c(color),
+              values_from = c(percent))
+
+dfColor_percent_merge <- dfColor_percent_merge %>%
+  select(object, color1, color2, color3, color4) %>%
+  group_by(object) %>%
+  fill(everything(), .direction = "downup") %>%
+  slice(1)
+
+dfColor_percent_merge <- dfColor_percent_merge %>%
+  filter(object %in% c("door", "crown", "dress", "candle", "book",
+                       "chair", "pencil", "iron", "mask", "guitar",
+                       "fence", "armchair", "bucket", "lamp", "shirt",
+                       "bracelet", "shoe", "mug", "stapler", "balloon",
+                       "bed", "phone", "butterfly", "cushion", "wallet", 
+                       "comb", "ring", "scarf", "flower", "belt", 
+                       "calculator", "die", "fish", "tie", "glove",
+                       "sock", "shell", "ribbon", "necklace", "slipper",
+                       "shovel", "purse", "vase", "bowl", "fork", 
+                       "basket", "whistle", "calendar", "hammer", 
+                       "truck", "drum", "microscope", "helicopter", 
+                       "robot", "luggage", "bandaid", "knife", "radio", 
+                       "plate", "binoculars", "lock", "lipstick", 
+                       "screwdriver"))
+
+dfColor_percent_merge <- dfColor_percent_merge %>%
+  rename(item = object)
+```
+
+
+# Norming Study Results
+
+This document produces a table merging the results from the BCS Noun Norming  and the Color Norming studies. This table is meant to serve as a master list of potential stimuli. Stimuli are included only if they met the inclusion criteria of both the noun and color norming studies. The criteria are given below:  
+  
+Noun Norming Inclusion Criteria:  
+1. After accounting for spelling errors and spelling/pronounciation differences across dialects, more than 70% of responses answered with a single label  
+2. There was no label that accounted for 70% of responses. However the combination of the top 2-3 labels did account for 70% of the responses, and they were all of the same gender.  
+  
+Color Norming Inclusion Criteria:  
+1. Stimuli were excluded if responses to at least one of the object’s four colors did not reach a 70% threshold. Multiple color responses (e.g. “blue-grey”) and modified colors (e.g. “light blue”) were counted as separate from the single color responses (e.g. “blue”).  
+  
+  
+Below I reproduce the analysis from both of these studies, but only for the items that met the thresholds for both studies.  
+
+The final table is given below:   
+  
+```{r merge, echo=FALSE}
+
+df_final <- merge(dfNoun_percent, dfColor_percent_merge) %>%
+  rename(NounLabelAccuracy = percent) %>%
+  arrange(colorScheme, gender, NounLabelAccuracy, color4)
+
+df_final
+```
+  
+  
+Items are then split up from this table based on color scheme and gender:  
+  
+## Color Scheme 1 Feminine  
+
+```{r cs1fem, echo=FALSE}
+
+df_cs1fem <- df_final %>%
+  filter(colorScheme == 1 & gender == "F" &
+           item %in% c("door", "crown", "dress", "candle", "book",
+                       "chair", "pencil", "iron", "mask", "guitar",
+                       "fence", "armchair", "bucket", "lamp", "shirt",
+                       "bracelet", "shoe", "mug", "stapler")) %>%
+  arrange(desc(NounLabelAccuracy))
+
+df_cs1fem
+```
+  
+  
+There are a total of `r nrow(df_cs1fem)` stimuli that are in color scheme 1 and are feminine.  
+  
+If we are to choose the top 12, they are:  
+- door  
+- crown  
+- dress  
+- mug  
+- pencil  
+- book  
+- candle  
+- iron  
+- chair  
+- fence  
+- mask  
+- guitar  
+  
+Of these, the only one with multiple answers is "mug" {šolja, šalica}. Both are feminine and this is a dialectal difference. So not too much variability.  
+  
+We should consider if we want to include "fence" or another object, since that is the only larger object out of all of these.  
+
+In terms of color, white book has a 73% and yellow crown has a 75%..
+
+If we don't like fence, white book, or yellow crown, possible replacements are:
+- stapler, 3 different feminine labels, but not used interchangeably, colors are super clear
+- lamp: the only reason it does not reach 100% for noun nameability is because some people answered "desk lamp" as a compound
+
+Any other replacements, one of the criterion fall below 80%.
+
+
+## Color Scheme 1 Masculine  
+
+```{r cs1masc, echo=FALSE}
+
+df_cs1masc <- df_final %>%
+  filter(colorScheme == 1 & gender == "M" &
+           item %in% c("balloon", "bed", "phone", "butterfly",
+                       "cushion", "wallet", "comb", "ring",
+                       "scarf", "flower", "belt", "calculator")) %>%
+  arrange(desc(NounLabelAccuracy))
+
+df_cs1masc
+```
+  
+  
+There are a total of `r nrow(df_cs1masc)` stimuli that are in color scheme 1 and are masculine  
+  
+This is the limiting case, we should include all of them.   
+   
+## Color Scheme 2 Feminine  
+```{r cs2Fem, echo=FALSE}
+df_cs2fem <- df_final %>%
+  filter(colorScheme == 2 & gender == "F" &
+           item %in% c("die", "fish", "tie", "glove", "sock",
+                       "shell", "ribbon", "necklace", "slipper",
+                       "shovel", "purse", "vase", "bowl", "fork", 
+                       "basket", "whistle")) %>%
+  arrange(desc(NounLabelAccuracy))
+
+df_cs2fem
+```
+  
+  
+There are a total of `r nrow(df_cs2fem)` stimuli that are in color scheme 2 and are feminine.  
+  
+Just take the top 12, I have no opinions about them. 
+
+
+## Color Scheme 2 Masculine  
+```{r cs2Masc, echo=FALSE}
+
+df_cs2masc <- df_final %>%
+  filter(colorScheme == 2 & gender == "M" &
+           item %in% c("calendar", "hammer", "truck", "drum",
+                       "microscope", "helicopter", "robot", 
+                       "luggage", "bandaid", "knife", "radio", 
+                       "plate", "binoculars", "lock", "lipstick", 
+                       "screwdriver")) %>%
+  arrange(desc(NounLabelAccuracy))
+
+df_cs2masc
+```
+  
+  
+There are a total of `r nrow(df_cs2masc)` stimuli that are in color scheme 2 and are masculine  
+  
+  
+Of the top 12 there are 3 that are potentially problematic:
+- truck/helicopter --> only larger objects
+- radio --> radio versus kasetefon (radio versus casette player)
+
+I say we replace radio with knife. The only reason knife is not higher is due to compounds, but I believe a lot of them are because "noz" is a 3 letter word, and the program didn't allow people to enter 3 letter words. There is only a single response that doesn't have the word "noz" in it, and all the colors come across very clearly.
+
+I think truck/helicopter is better than the other words. So we should keep them and fence. 
+
+
+# The stimuli:
+
+Majority combinations we chose are:  
+- mug  
+- calculator  
+- belt  
+- basket  
+- fork  
+- bowl  
+- binoculars  
+- lock  
+- screwdriver  
+
+Bowl, binoculars, and screwdriver fall slightly below the 70% threshold for the dialectal measure. That is, if we split it up by BIH/HR/SRB (country), for BIH and SRB one label comes out over the 70% threshold. For HR speakers it does not. However, I still count this as dialectal as the other label is primarily driven by HR speakers. 
+
+Calculator is not dialectal. 
+
+# Our Options
+
+# Option 1: Randomize
+Per participant:
+4 scenarios
+2 genders
+6 items
+
+Let's go through an example to show how this works. So say we have scenario 4 for a masculine target. We need to build a scenario that looks like:
+
+[Target: object 1, gender a, color x],   
+[competitor 1: object 1, gender a, color y],  
+[competitor 2: object 2, gender b, colory y]  
+  
+We randomly pikc a color scheme: it is color scheme 1. 
+We then randomly pick an object from cs1 that is masculine: balloon.
+We randomly pick a color from cs1: blue.
+
+[Target: object 1 = balloon, gender a = masculine, color x = blue]  
+  
+We now move onto competitor 1. We already know object 1 and gender a. So we just have to pick a different color in cs1. We pick: yellow.  
+   
+[competitor 1: object 1 = balloon, gender a = masculine, color y = yellow]  
+  
+We finally pick competitor 2. 
+There are two genders, and we want the opposite of masculine. So we have to pick a feminine object.  
+We randomly pick an object from cs1 feminine objects: book
+The color likewise has to be the same as before. So we are already done.
+
+
+[competitor 2: object 2 = book, gender b = feminine, colory y = yellow]  
+

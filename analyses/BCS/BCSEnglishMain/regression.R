@@ -102,12 +102,12 @@ plot <-
   geom_bar(position = "dodge", stat='identity', aes(fill=genderCondition)) +
   geom_errorbar(aes(ymin = YMin, ymax=YMax), width=0.4, position=position_dodge(.9)) +
   xlab("Color Condition") +
-  ylab("Use of word") +
+  ylab("Proportion of word use") +
   theme(text = element_text(size = 16), 
         plot.title = element_text(hjust = 0.5, size = 14),
-        axis.text.x = element_text(size = 12, angle = 45, hjust = 0.9),
+        axis.text.x = element_text(size = 12),
         legend.text = element_text(size = 12)) +
-  labs(fill = "Gender Condition")
+  labs(fill = "Gender")
   
 plot
 
@@ -186,8 +186,6 @@ BCSColorModel <- glmer(colorMentioned ~ colorCondition*genderCondition + (1 + co
 
 #- take out interaction term
 BCSColorModel <- glmer(colorMentioned ~ colorCondition + genderCondition + (1 + colorCondition|gameId) + (1 + genderCondition|gameId) + (1 + colorCondition|target) + (1 + genderCondition|target), data = d, family = binomial)
-
-
 
 BCSNounModel <- glmer(nounMentioned ~ colorCondition*genderCondition + (1 + colorCondition*genderCondition|gameId) + (1 + colorCondition*genderCondition|target), data = d, family = binomial)
 

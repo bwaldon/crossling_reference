@@ -1,0 +1,692 @@
+workerid,proliferate.condition,object,response,rt,slide_number_in_experiment,utterance,catch_trials,subject_information.age,subject_information.asses,subject_information.bcsPrimaryLanguageSchool,subject_information.comments,subject_information.country,subject_information.dialectOne,subject_information.dialectTwo,subject_information.education,subject_information.enjoyment,subject_information.fairprice,subject_information.firstLanguage,subject_information.gender,subject_information.liveInYugo,subject_information.otherLanguage,subject_information.problems,system.Browser,system.OS,system.screenH,system.screenW,time_in_minutes,error
+139,condition1,purple_drum,boban,6641,2,drum,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,orange_binoculars,dvogled,21998,3,binoculars,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,white_bracelet,narukvica,13342,4,bracelet,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,white_shirt,majica,9647,5,shirt,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,green_lipstick,šminka,12960,6,lipstick,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,white_rug,tepih,17845,7,rug,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,blue_cap,kapa,8423,8,cap,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,white_yarn,prede,18895,9,yarn,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,black_vase,vaza,10982,10,vase,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,green_tent,šator,8254,11,tent,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,black_fish,riba,7409,12,fish,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,white_wallet,novačnik,10197,13,wallet,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,white_napkin,maramicu,12353,14,napkin,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,green_duck,patka,9696,15,duck,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,green_slipper,papuče,10541,16,slipper,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,blue_shoe,cipela,8682,17,shoe,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,black_tie,kravata,8891,18,tie,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,purple_luggage,kofer,7279,19,luggage,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,black_truck,"
+kamion",9028,20,truck,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,red_mug,"
+šalica",103051,21,mug,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,red_phone,"
+telefon",4398,22,phone,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,yellow_magnifyingglass,"
+lupa",10490,23,magnifyingglass,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,blue_book,"
+knjiga",7177,24,book,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,white_guitar,"
+kitara",2683,25,guitar,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,green_basket,"
+korpa",7684,26,basket,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,red_flower,"
+cvet",16286,27,flower,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,yellow_scarf,"
+šal",2535,28,scarf,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,white_comb,"
+češalj",8018,29,comb,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,red_butterfly,"
+leptir",7126,30,butterfly,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,blue_table,"
+stol",4147,31,table,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,blue_ruler,"
+lenjir",7717,32,ruler,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,green_ladle,"
+kutlača",7717,33,ladle,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,green_umbrella,"
+kišobran",11336,34,umbrella,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,yellow_ring,"
+prsten",3718,35,ring,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,orange_boot,"
+čizme",7675,36,boot,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,green_lock,"
+ključavnica",16089,37,lock,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,orange_shield,"
+štit",8078,38,shield,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,orange_sponge,"
+goba",8723,39,sponge,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,black_bonbon,"
+bonbon",12068,40,bonbon,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,yellow_cushion,"
+jastuk",9499,41,cushion,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,green_necklace,"
+ogrlica",7696,42,necklace,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,purple_cake,"
+torta",2760,43,cake,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,white_fence,"
+ograda",7421,44,fence,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,blue_coathanger,"
+vešalica",9480,45,coathanger,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,purple_die,"
+kocka",2539,46,die,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,orange_purse,"
+torbica",7894,47,purse,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,blue_clock,"
+budilnik",7197,48,clock,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,green_helicopter,"
+helikopter",6252,49,helicopter,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,purple_whistle,"
+živzduk",21623,50,whistle,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,orange_microscope,"mikroskop
+",9179,51,microscope,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,green_glove,"
+rukavica",3607,52,glove,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,white_armchair,"
+fotelj",8396,53,armchair,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,orange_airplane,"
+avion",6674,54,airplane,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,blue_present,"
+poklon",5951,55,present,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,white_balloon,"
+balon",3579,56,balloon,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,black_hammer,"
+čekič",9167,57,hammer,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,orange_robot,"
+robot",2661,58,robot,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,orange_spoon,"
+kašika",7607,59,spoon,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,red_mask,"
+maska",6228,60,mask,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,purple_shovel,"
+lopata",6985,61,shovel,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,orange_radio,"
+radio",2395,62,radio,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,yellow_calculator,"
+kalkulator",10190,63,calculator,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,green_bowl,"
+bovl",7218,64,bowl,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,blue_crown,"
+kruna",5373,65,crown,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,red_candle,"
+sveća",8965,66,candle,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,orange_dresser,"
+fioka",15136,67,dresser,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,white_key,"
+ključ",6674,68,key,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,yellow_iron,"
+gvožde",12333,69,iron,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,yellow_frame,"
+ram",7954,70,frame,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,purple_knife,"
+nož",11986,71,knife,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,yellow_ornament,bombika,11282,72,ornament,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,orange_ribbon,"
+traka",6654,73,ribbon,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,blue_mouse,"
+miška",3048,74,mouse,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,orange_box,"
+škatla",3624,75,box,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,black_rope,"
+nit",3942,76,rope,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,green_shell,"
+školjka",11305,77,shell,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,red_belt,"
+pas",6370,78,belt,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,orange_bench,"
+klo",3125,79,bench,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,blue_billiardball,"
+žoga",8127,80,billiardball,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,purple_camera,"
+fotoaparat",3515,81,camera,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,orange_fork,"
+viljuška",8518,82,fork,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,yellow_notebook,"
+sveska",7439,83,notebook,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,red_dress,"
+haljina",9724,84,dress,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,black_remote,"
+daljniec",12295,85,remote,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,blue_switch,"
+štekar",7654,86,switch,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,white_sword,"
+sablja",9305,87,sword,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,blue_stapler,"
+spajalica",8075,88,stapler,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,blue_bed,"
+krevet",3514,89,bed,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,white_fryingpan,"
+pan",7303,90,fryingpan,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,white_bucket,"
+kanta",14195,91,bucket,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,purple_bandaid,"
+zakrpa",7150,92,bandaid,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,black_razor,"
+brijač",7827,93,razor,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,purple_piano,"
+klavir",3394,94,piano,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,white_bike,"
+bicikel",3430,95,bike,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,black_tv,"
+televizor",5094,96,tv,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,white_door,"
+vrata",4886,97,door,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,purple_screwdriver,"
+šfatciger",11458,98,screwdriver,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,orange_sock,"
+čarapa",7726,99,sock,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,orange_calendar,"
+kalendar",3659,100,calendar,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,yellow_binder,"
+mapa",5387,101,binder,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,red_dustpan,"
+smetišnica",16029,102,dustpan,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,blue_chair,"
+sto",10002,103,chair,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,black_plate,"
+tanjir",8557,104,plate,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,blue_pencil,"
+olovka",7369,105,pencil,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+139,condition1,blue_lamp,"
+svijetlo",11547,106,lamp,[],21,Yes,slovenski,,SI,ekavica,kajkavski,2,2,DA,Slovenski i hrvatski,Female,preAge8,"engleski, njemački, hrvatski",Ne,Chrome,Windows,768,1366,18.4225,
+143,condition1,orange_shield,samobran,21271,2,shield,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,orange_calendar,kalender,8595,3,calendar,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,yellow_magnifyingglass,lupa,7337,4,magnifyingglass,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,blue_rug,tepih,20579,5,rug,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,blue_yarn,vuna,4197,6,yarn,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,black_glove,ruka,17405,7,glove,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,red_ruler,ravnilo,39079,8,ruler,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,orange_bonbon,bonbon,32234,9,bonbon,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,orange_truck,kamion,11715,10,truck,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,black_tie,kravat,9266,11,tie,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,orange_ribbon,mašna,11909,12,ribbon,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,black_luggage,kofer,16591,13,luggage,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,green_bench,stolec,30135,14,bench,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,green_screwdriver,izvijac,32792,15,screwdriver,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,white_mask,maska,7997,16,mask,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,yellow_shoe,papuča,10212,17,shoe,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,green_remote,pilot,6653,18,remote,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,red_billiardball,krugla,5806,19,billiardball,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,blue_ornament,bozicna krugla,8647,20,ornament,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,purple_purse,torba,9627,21,purse,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,white_calculator,kalkulator,11772,22,calculator,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,yellow_candle,sviječa,5467,23,candle,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,red_binder,mapa,3239,24,binder,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,green_lipstick,šminka,3886,25,lipstick,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,black_drum,bobnič,7341,26,drum,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,blue_dustpan,lopata,4517,27,dustpan,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,orange_bowl,skleda,21979,28,bowl,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,blue_coathanger,obješalo,6484,29,coathanger,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,orange_boot,papuča,7497,30,boot,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,red_phone,telefon,12201,31,phone,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,blue_fence,ograd,8482,32,fence,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,orange_dresser,omar,16216,33,dresser,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,green_shovel,lopata,3524,34,shovel,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,black_hammer,hamer,3257,35,hammer,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,yellow_clock,vekar,5244,36,clock,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,yellow_scarf,šali,42372,37,scarf,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,black_tent,šotor,4940,38,tent,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,white_cap,kapa,3487,39,cap,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,red_belt,pojas,15123,40,belt,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,red_iron,pegla,20378,41,iron,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,purple_camera,kamera,3346,42,camera,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,purple_sock,čarape,16571,43,sock,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,yellow_comb,češalj,30541,44,comb,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,white_present,darilo,3805,45,present,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,white_table,stol,5758,46,table,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,green_duck,raca,6429,47,duck,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,blue_sword,sablja,6845,48,sword,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,blue_armchair,stolec,5328,49,armchair,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,blue_chair,stolica,7186,50,chair,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,red_guitar,kitara,3325,51,guitar,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,blue_book,kniga,3997,52,book,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,blue_mug,šalica,12124,53,mug,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,black_box,kutja,7096,54,box,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,orange_fish,riba,3195,55,fish,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,white_fryingpan,tava,11195,56,fryingpan,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,white_door,duri,3923,57,door,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,orange_vase,vaza,3528,58,vase,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,blue_butterfly,leptir,9924,59,butterfly,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,purple_microscope,mikroskop,9738,60,microscope,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,blue_key,ključ,10620,61,key,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,orange_die,kocka,3237,62,die,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,white_bucket,kanta,8405,63,bucket,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,blue_dress,suknja,11592,64,dress,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,red_bed,krevet,8164,65,bed,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,yellow_notebook,biljeznica,17368,66,notebook,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,yellow_wallet,novčanik,11197,67,wallet,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,orange_slipper,papuča,12160,68,slipper,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,black_knife,nožac,27316,69,knife,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,green_piano,klavir,7994,70,piano,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,orange_robot,robot,3248,71,robot,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,green_rope,užec,21098,72,rope,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,yellow_crown,krona,4777,73,crown,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,green_binoculars,dalekozor,26181,74,binoculars,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,green_necklace,ogrlica,12016,75,necklace,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,red_pencil,pisalo,7446,76,pencil,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,purple_fork,vilica,10733,77,fork,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,purple_lock,lokot,23308,78,lock,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,yellow_ring,prsten,11103,79,ring,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,green_tv,televizija,7440,80,tv,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,white_bracelet,narukvica,16034,81,bracelet,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,green_plate,tanjor,10899,82,plate,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,blue_shirt,košulja,13553,83,shirt,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,white_flower,ruža,20072,84,flower,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,white_cushion,jastuk,14440,85,cushion,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,orange_helicopter,helikopter,9606,86,helicopter,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,orange_shell,školka,19708,87,shell,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,orange_cake,torta,9087,88,cake,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,white_bike,bicikl,28366,89,bike,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,purple_sponge,spužva,34877,90,sponge,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,green_whistle,žviga,39304,91,whistle,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,black_airplane,zrakoplov,12030,92,airplane,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,white_frame,rupa,15622,93,frame,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,white_lamp,lampa,3473,94,lamp,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,orange_spoon,žlica,11447,95,spoon,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,yellow_napkin,ubrus,17375,96,napkin,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,red_stapler,sponkač,7237,97,stapler,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,green_umbrella,kišobran,6102,98,umbrella,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,black_basket,košara,26348,99,basket,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,orange_radio,radio,3359,100,radio,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,green_razor,britva,14174,101,razor,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,white_switch,stik,16768,102,switch,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,red_balloon,balon,3300,103,balloon,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,purple_bandaid,zakrpa,23706,104,bandaid,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,orange_ladle,kutlača,10048,105,ladle,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+143,condition1,blue_mouse,miška,4100,106,mouse,[],20,Yes,slovenski,,SI,ekavica,kajkavski,0,2,ja,slovenski,Male,visited,engleski nemski i hrvatski,ne,Chrome,Linux,915,412,24.90275,
+142,condition1,purple_drum,bubanj,31563,2,drum,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,blue_mask,zastitna maska,18065,3,mask,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,black_purse,Torba,20420,4,purse,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,green_razor,brijac,6094,5,razor,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,yellow_billiardball,loptica za bilijar,20555,6,billiardball,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,orange_necklace,ogrlica,6667,7,necklace,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,orange_rope,konac,14522,8,rope,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,red_calculator,digitron,7348,9,calculator,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,black_hammer,cekic,5129,10,hammer,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,yellow_napkin,salveta,8264,11,napkin,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,blue_wallet,novcanik,8122,12,wallet,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,white_present,ukrasna kutija,9811,13,present,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,orange_dresser,komoda,7329,14,dresser,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,purple_tie,kravata,5883,15,tie,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,white_fryingpan,tiganj,4849,16,fryingpan,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,red_crown,kruna,4462,17,crown,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,yellow_balloon,balon,4424,18,balloon,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,white_belt,kais,5122,19,belt,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,white_bracelet,narukvica,6742,20,bracelet,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,black_shield,oklop,9135,21,shield,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,red_comb,cesalj,4680,22,comb,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,blue_clock,"
+sat",4776,23,clock,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,blue_bed,"
+bracni krevet",6488,24,bed,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,black_lock,"
+katanac",3663,25,lock,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,orange_microscope,"
+mikroskop",9135,26,microscope,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,red_guitar,"
+elektricna gitara",9234,27,guitar,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,white_frame,"
+ram ya sliku",5790,28,frame,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,green_ribbon,"
+masna",2687,29,ribbon,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,white_armchair,"
+fotelja",4111,30,armchair,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,purple_shovel,"
+asov",6229,31,shovel,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,green_calendar,"
+kalendar",4387,32,calendar,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,black_fish,"
+riba",2788,33,fish,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,black_spoon,"
+kasika",2996,34,spoon,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,yellow_scarf,"
+sal",1986,35,scarf,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,purple_umbrella,"
+kisobran",3317,36,umbrella,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,red_key,"
+kljuc",2566,37,key,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,green_die,"
+kockica",3104,38,die,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,blue_book,"
+knjiga",3890,39,book,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,purple_duck,"
+gumena patkica",6824,40,duck,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,orange_cake,"
+torta",3398,41,cake,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,green_bandaid,"
+hanyaplast",4463,42,bandaid,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,black_shell,"
+skoljka",2870,43,shell,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,black_sock,"
+carapa",2977,44,sock,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,blue_ornament,"
+ukras",2917,45,ornament,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,yellow_door,"
+vrata",3727,46,door,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,white_shirt,"
+majica",3274,47,shirt,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,black_remote,"
+daljinski",3564,48,remote,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,red_mouse,"
+mkis",2187,49,mouse,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,red_flower,"
+cvet",2688,50,flower,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,orange_tent,"
+sator",3849,51,tent,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,blue_switch,"
+prekidac",4573,52,switch,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,black_robot,"
+robot",5262,53,robot,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,purple_lipstick,"
+karmin",2926,54,lipstick,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,red_ruler,"
+lenjir",2880,55,ruler,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,green_bowl,"
+cinija",3170,56,bowl,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,red_cap,"
+kacket",3853,57,cap,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,yellow_chair,"
+stolica",4346,58,chair,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,green_truck,"
+kamion",2841,59,truck,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,yellow_lamp,"
+lampa",2724,60,lamp,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,green_helicopter,"
+helihopter",5209,61,helicopter,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,white_bucket,"
+kanta",6409,62,bucket,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,green_boot,"
+cipela",5376,63,boot,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,purple_box,"
+kutija",4466,64,box,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,black_vase,"
+vaya",3556,65,vase,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,green_sponge,"
+sundjer",4385,66,sponge,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,green_luggage,"
+kofer",3815,67,luggage,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,black_tv,"
+televizor",5267,68,tv,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,orange_glove,"
+rukavica",4062,69,glove,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,red_pencil,"
+olovka",5090,70,pencil,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,black_fork,"
+viljuska",5195,71,fork,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,white_yarn,"
+vuna",4678,72,yarn,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,blue_stapler,"
+heftalica",46845,73,stapler,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,white_dress,"
+haljina",6734,74,dress,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,white_ring,"
+prsten",4350,75,ring,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,white_sword,"
+mac",3403,76,sword,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,red_fence,drvena ograda,13794,77,fence,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,yellow_butterfly,"
+leptir",7187,78,butterfly,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,red_rug,"
+tepih",44378,79,rug,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,orange_binoculars,"
+dvogled",8043,80,binoculars,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,red_bike,"
+bicikl",4850,81,bike,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,purple_knife,"
+noz",5262,82,knife,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,red_mug,"
+solja",2064,83,mug,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,black_airplane,"
+avion",3237,84,airplane,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,black_whistle,"
+pistaljka",6617,85,whistle,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,black_piano,"
+klavir",3686,86,piano,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,white_candle,"
+sveca",2592,87,candle,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,purple_bonbon,"
+bombona",3934,88,bonbon,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,yellow_iron,"
+pegla",3995,89,iron,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,purple_slipper,"
+papuca",2562,90,slipper,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,white_coathanger,"
+ofinger",4141,91,coathanger,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,yellow_magnifyingglass,"
+lupa",3389,92,magnifyingglass,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,blue_table,"
+klupa",10466,93,table,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,white_phone,"
+telefon",5152,94,phone,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,black_bench,"
+klupa",3336,95,bench,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,black_plate,"
+tacna",7149,96,plate,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,white_notebook,"
+sveska sa spiralom",22712,97,notebook,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,white_binder,"
+fascikla",3779,98,binder,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,blue_cushion,"
+jastuk",2940,99,cushion,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,black_ladle,"
+kutlaca",4278,100,ladle,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,white_dustpan,"
+djubrovnik",8250,101,dustpan,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,white_shoe,"
+stikla",6856,102,shoe,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,orange_radio,"
+radio",2828,103,radio,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,orange_basket,"
+korpa",2791,104,basket,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,black_screwdriver,"
+srafciger",5220,105,screwdriver,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+142,condition1,orange_camera,"
+foto aparat",5766,106,camera,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,15.247383333333334,
+140,condition1,green_plate,tanjir,6775,2,plate,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,red_mug,"
+solja",2813,3,mug,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,orange_hammer,"
+cekic",26417,4,hammer,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,black_airplane,"
+avion",2916,5,airplane,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,black_lock,"
+katanac",23634,6,lock,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,red_binder,"
+fastikla",3471,7,binder,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,black_tv,"
+televizor",4713,8,tv,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,purple_razor,"
+brijac",2500,9,razor,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,yellow_bed,"
+krevet",2481,10,bed,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,white_iron,"
+pegla",10927,11,iron,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,red_stapler,spajalica,38572,12,stapler,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,orange_bowl,"
+cinija",15837,13,bowl,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,blue_ring,"
+prsten",5982,14,ring,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,blue_present,"
+poklon",3750,15,present,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,red_clock,"
+alarm",4196,16,clock,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,white_billiardball,"
+lopta",2549,17,billiardball,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,purple_robot,"
+robot",2753,18,robot,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,purple_duck,"
+patka",3598,19,duck,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,blue_balloon,"
+balon",2079,20,balloon,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,green_purse,"
+torba",3030,21,purse,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,purple_bandaid,"
+flaster",3212,22,bandaid,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,black_drum,"
+bubanj",14900,23,drum,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,yellow_table,"
+sto",3094,24,table,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,blue_yarn,"
+pletenje",13396,25,yarn,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,white_book,"
+knjiga",3785,26,book,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,yellow_lamp,"
+lampa",1602,27,lamp,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,green_luggage,"
+kofer",7118,28,luggage,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,green_glove,"
+rukavica",2823,29,glove,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,blue_butterfly,"
+leptir",2099,30,butterfly,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,blue_dress,"
+haljina",5108,31,dress,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,orange_helicopter,"
+helikopter",3281,32,helicopter,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,black_ladle,"
+kutlaca",2827,33,ladle,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,red_switch,"
+prekidac",13109,34,switch,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,orange_boot,"
+cizme",3145,35,boot,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,purple_remote,"
+daljinac",4606,36,remote,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,blue_calculator,"
+kalkulator",4712,37,calculator,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,black_lipstick,"
+karmin",3907,38,lipstick,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,white_flower,"
+cvet",2340,39,flower,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,white_phone,"
+telefon",2510,40,phone,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,green_radio,"
+radio",2232,41,radio,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,yellow_crown,"
+kruna",4000,42,crown,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,red_chair,"
+stolica",2334,43,chair,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,green_die,"
+kocka",4553,44,die,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,red_key,"
+kljuc",2329,45,key,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,yellow_napkin,"
+maramica",9402,46,napkin,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,orange_bonbon,"
+bombona",13538,47,bonbon,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,orange_shell,"
+skoljka",3432,48,shell,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,orange_umbrella,"
+kisobran",2731,49,umbrella,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,orange_tie,"
+kravata",2729,50,tie,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,purple_fish,"
+riba",2070,51,fish,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,white_comb,"
+cesalj",2711,52,comb,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,blue_sword,"
+noz",6876,53,sword,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,purple_ribbon,"
+traka",4961,54,ribbon,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,red_ornament,"
+dekoracija",18487,55,ornament,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,green_sock,"
+carapa",2727,56,sock,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,blue_cap,"
+kacket",3407,57,cap,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,black_sponge,"
+brisac",5301,58,sponge,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,yellow_shoe,"
+stikla",2293,59,shoe,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,black_rope,"
+kanap",4313,60,rope,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,red_armchair,"
+fotelja",4589,61,armchair,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,blue_candle,"
+sveca",3247,62,candle,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,white_bucket,"
+kanta",8646,63,bucket,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,purple_basket,"
+korpa",8006,64,basket,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,orange_truck,"
+kamion",2631,65,truck,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,green_tent,"
+sator",3364,66,tent,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,purple_shield,"
+stit",2775,67,shield,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,blue_wallet,"
+novcanik",6668,68,wallet,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,yellow_guitar,gitara,5860,69,guitar,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,white_cushion,"
+jastuk",2948,70,cushion,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,green_knife,"
+noz",1980,71,knife,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,blue_ruler,"
+lenjir",2789,72,ruler,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,orange_microscope,"
+mikroscop",3915,73,microscope,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,purple_bench,"
+klupa",2500,74,bench,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,green_shovel,"
+lopata",10213,75,shovel,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,white_scarf,"
+marama",9593,76,scarf,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,yellow_coathanger,"
+ofinger",3256,77,coathanger,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,green_camera,"
+kamera",2616,78,camera,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,red_frame,"
+ram",2278,79,frame,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,blue_fence,"
+ograda",3037,80,fence,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,purple_calendar,"
+kalendar",2531,81,calendar,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,red_notebook,"
+sveska",2937,82,notebook,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,black_whistle,"
+pistaljka",4460,83,whistle,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,green_binoculars,"
+dvogled",9269,84,binoculars,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,blue_door,"
+vrata",3847,85,door,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,purple_screwdriver,"
+srafciger",14625,86,screwdriver,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,black_vase,"
+vaza",3392,87,vase,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,purple_dresser,"
+orman",2473,88,dresser,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,red_mouse,"
+mis",1739,89,mouse,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,black_fork,"
+viljuska",3182,90,fork,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,red_rug,"
+tepih",17906,91,rug,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,yellow_shirt,"
+majica",3330,92,shirt,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,red_mask,"
+maska",5084,93,mask,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,orange_spoon,"
+kasika",2741,94,spoon,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,black_necklace,"
+ogrlica",3615,95,necklace,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,black_piano,"
+klavir",2690,96,piano,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,black_cake,"
+torta",2603,97,cake,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,red_fryingpan,"
+tiganj",3253,98,fryingpan,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,white_dustpan,"ne znam
+",15143,99,dustpan,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,yellow_pencil,"
+olovka",2269,100,pencil,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,green_box,"
+kutija",2207,101,box,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,red_belt,"
+kajs",2549,102,belt,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,white_bike,"
+bicikla",3629,103,bike,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,blue_bracelet,"
+narukvica",3799,104,bracelet,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,orange_slipper,"
+patofna",3506,105,slipper,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,
+140,condition1,blue_magnifyingglass,"
+lupa",10308,106,magnifyingglass,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,11.252383333333333,

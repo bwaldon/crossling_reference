@@ -1,0 +1,39 @@
+---
+title: "Perceptual Difficulty - Norming for Namability"
+output: rmarkdown::github_document
+#output:
+  #html_document: default
+  #pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r data import, include=FALSE}
+library(tidyverse)
+theme_set(theme_bw())
+
+source("../../../shared/analysis.R")
+df = read.csv("../data/1_noun_norming_pilot-merged_cleaned.csv", header = TRUE)
+
+df_split <- runAnalysis(df)
+
+makePlots <- function(objectName) {
+  x <- plot_df_subset(df_split[[objectName]], objectName)
+  x
+}
+
+```
+
+```{r objects, echo=FALSE}
+
+lapply(names(df_split), makePlots)
+```
+
+
+
+
+
+
+

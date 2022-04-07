@@ -1,0 +1,4319 @@
+---
+title: "BCS_RSA_Noun_Norming_Native"
+output: pdf_document
+#rmarkdown::github_document
+#output:
+  #html_document: default
+  #pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(warning= FALSE, message = FALSE, echo = TRUE)
+```
+
+```{r data import, include=FALSE}
+library(tidyverse)
+theme_set(theme_bw())
+
+source("../../../shared/analysis.R")
+df = read.csv("../data/1_noun_norming_main-merged_cleaned.csv", header = TRUE)
+df2 = read.csv("../data/1_noun_norming_fluent-merged_cleaned.csv", header = TRUE)
+
+df <- rbind(df, df2)
+
+subjectCleanUp <- df %>%
+  select(workerid, schoolLanguage, firstLanguage, status) %>%
+  unique()
+
+#view(subjectCleanUp)
+
+
+# There are "statuses" that are coded incorrectly. These incorrect codings are due to spelling errors and 
+# listing two or more languages split up by / rather than spaces and commas
+
+# Manually input them into the dataframe
+df$status[df$workerid == 272] <- "heritage"
+df$status[df$workerid == 248] <- "native"
+df$status[df$workerid == 241] <- "heritage"
+df$status[df$workerid == 274] <- "heritage"
+df$status[df$workerid == 232] <- "native"
+df$status[df$workerid == 394] <- "heritage"
+df$status[df$workerid == 337] <- "native"
+df$status[df$workerid == 402] <- "simk"
+df$status[df$workerid == 152] <- "native"
+df$status[df$workerid == 169] <- "native"
+df$status[df$workerid == 262] <- "native"
+df$status[df$workerid == 154] <- "native"
+df$status[df$workerid == 423] <- "foreign"
+
+# Get number of participants total
+df %>%
+  select(workerid) %>%
+  unique() %>%
+  nrow()
+# 127
+
+# get rid of SIMK and foreign speakers
+df <- df %>%
+  filter(status != "simk" & status != "foreign")
+
+# Get number of participants after excluding simk and foreign
+df %>%
+  select(workerid) %>%
+  unique() %>%
+  nrow()
+# 77
+
+# get rid of participants who answered with colors
+# Get rid of participants who clearly used google translate (gvozdje instead of pegla and umreti instead of kocka)
+df <- df %>%
+  filter(workerid != 214 &  
+           workerid != 333 &
+           workerid != 346 &
+           workerid != 261 &
+           workerid != 357)
+
+# Get number of participants after further exclusions
+df %>%
+  select(workerid) %>%
+  unique() %>%
+  nrow()
+# 75
+
+
+# Standardize spellings for ease
+df$response = str_to_lower(str_replace_all(df$response, " ", ""))
+df$response = str_to_lower(str_replace_all(df$response, "\n", ""))
+df$response = str_replace_all(df$response, "č", "c")
+df$response = str_replace_all(df$response,"ć", "c")
+df$response = str_replace_all(df$response,"š", "s")
+df$response = str_replace_all(df$response,"ž", "z")
+df$response = str_replace_all(df$response,"đ", "dj")
+
+# Change answers to account for spelling differences
+# I only got through some responses before giving up on this method
+df$response = str_replace_all(df$response, "avijon\\b", "avion")
+df$response = str_replace_all(df$response, "putnickiavion\\b", "avion")
+df$response = str_replace_all(df$response, "zelenizrakoplov\\b", "zrakoplov")
+
+df$response = str_replace_all(df$response, "fotelj\\b", "fotelja")
+df$response = str_replace_all(df$response, "fotelj\\b", "fatelja")
+df$response = str_replace_all(df$response, "stolca\\b", "stolica")
+df$response = str_replace_all(df$response, "stolcu\\b", "stolica")
+
+df$response = str_replace_all(df$response, "balun\\b", "balon")
+df$response = str_replace_all(df$response, "zutibalon\\b", "balon")
+
+df$response = str_replace_all(df$response, "hansaplast\\b", "hanzaplast")
+df$response = str_replace_all(df$response, "hanzaflast\\b", "hanzaplast")
+df$response = str_replace_all(df$response, "hansaflast\\b", "hanzaplast")
+df$response = str_replace_all(df$response, "hanzoplast\\b", "hanzaplast")
+df$response = str_replace_all(df$response, "flajster\\b", "flaster")
+df$response = str_replace_all(df$response, "plaster\\b", "flaster")
+df$response = str_replace_all(df$response, "flastir\\b", "flaster")
+df$response = str_replace_all(df$response, "bandaza\\b", "bandaz")
+df$response = str_replace_all(df$response, "ljubicastiplaster\\b", "flaster")
+
+df$response = str_replace_all(df$response, "korba\\b", "korpa")
+df$response = str_replace_all(df$response, "korpica\\b", "korpa")
+
+df$response = str_replace_all(df$response, "kosarica\\b", "kosara")
+df$response = str_replace_all(df$response, "kosaricazakupovinu\\b", "kosara")
+df$response = str_replace_all(df$response, "zelenakosarica\\b", "kosara")
+df$response = str_replace_all(df$response, "pletenakosara\\b", "kosara")
+df$response = str_replace_all(df$response, "slamnatakosara\\b", "kosara")
+df$response = str_replace_all(df$response, "zelenakosara\\b", "kosara")
+
+df$response = str_replace_all(df$response, "krever\\b", "krevet")
+df$response = str_replace_all(df$response, "plavikrevet\\b", "krevet")
+df$response = str_replace_all(df$response, "bracnikrevet\\b", "krevet")
+
+df$response = str_replace_all(df$response, "kajs\\b", "kais")
+df$response = str_replace_all(df$response, "kajis\\b", "kais")
+df$response = str_replace_all(df$response, "kajis\\b", "kais")
+
+df$response = str_replace_all(df$response, "klop\\b", "klupa")
+df$response = str_replace_all(df$response, "klup\\b", "klupa")
+df$response = str_replace_all(df$response, "klupica\\b", "klupa")
+df$response = str_replace_all(df$response, "klopca\\b", "klupa") #this is the Slovenian word
+df$response = str_replace_all(df$response, "drvenaklupa\\b", "klupa")
+df$response = str_replace_all(df$response, "klupic\\b", "klupa")
+
+df$response = str_replace_all(df$response, "bickil\\b", "bicikl")
+df$response = str_replace_all(df$response, "plavibicikl\\b", "bicikl")
+df$response = str_replace_all(df$response, "bicikel\\b", "bicikl")
+
+df$response = str_replace_all(df$response, "loptica\\b", "lopta")
+df$response = str_replace_all(df$response, "biljarskakugla\\b", "biljardkugla")
+
+df$response = str_replace_all(df$response, "neznamrijeczato.nijesekoristiloujugoslavijitoliko\\b", "neznam")
+df$response = str_replace_all(df$response, "neznamstajetacnoovo\\b", "neznam")
+df$response = str_replace_all(df$response, "nezanm\\:\\)\\b", "neznam")
+df$response = str_replace_all(df$response, "neznamstajeto\\b", "neznam")
+df$response = str_replace_all(df$response, "mapu\\b", "mapa")
+df$response = str_replace_all(df$response, "zutifolder\\b", "folder")
+
+df$response = str_replace_all(df$response, "zaboravilasam.googlekazedvogledalimislimdasmotozvalidrukcije\\b", "neznam")
+df$response = str_replace_all(df$response, "nemogusesjetiti\\b", "neznam")
+
+df$response = str_replace_all(df$response, "bonbon\\b", "bombon")
+df$response = str_replace_all(df$response, "bonbona\\b", "bombona")
+df$response = str_replace_all(df$response, "bombone\\b", "bombona")
+df$response = str_replace_all(df$response, "bmbon\\b", "bombon")
+df$response = str_replace_all(df$response, "bonobn\\b", "bombon")
+df$response = str_replace_all(df$response, "onbon\\b", "bombon")
+df$response = str_replace_all(df$response, "ljubicastiomotzabonbon\\b", "bombon")
+df$response = str_replace_all(df$response, "bon-bona\\b", "bombona")
+
+df$response = str_replace_all(df$response, "kniga\\b", "knjiga")
+df$response = str_replace_all(df$response, "crvenaknjiga\\b", "knjiga")
+df$response = str_replace_all(df$response, "knjigu\\b", "knjiga")
+df$response = str_replace_all(df$response, "biljeznica\\b", "beleznica")
+df$response = str_replace_all(df$response, "kgniga\\b", "knjiga")
+df$response = str_replace_all(df$response, "knjig\\b", "knjiga")
+
+df$response = str_replace_all(df$response, "cizme\\b", "cizma")
+df$response = str_replace_all(df$response, "cipele\\b", "cipela")
+df$response = str_replace_all(df$response, "cisma\\b", "cizma")
+df$response = str_replace_all(df$response, "cizmica\\b", "cizma")
+df$response = str_replace_all(df$response, "gleznjace\\b", "gleznjaca")
+df$response = str_replace_all(df$response, "cisme\\b", "cizma")
+df$response = str_replace_all(df$response, "tsipale\\b", "cipela")
+df$response = str_replace_all(df$response, "smedjecizme\\b", "cizma")
+
+df$response = str_replace_all(df$response, "zdela\\b", "zdjela")
+df$response = str_replace_all(df$response, "zdjelica\\b", "zdjela")
+df$response = str_replace_all(df$response, "duboktanjir\\b", "tanjir")
+df$response = str_replace_all(df$response, "dubokitanjir\\b", "tanjir")
+df$response = str_replace_all(df$response, "tanjur\\b", "tanjir")
+df$response = str_replace_all(df$response, "zdelja\\b", "zdjela")
+df$response = str_replace_all(df$response, "dubljitanjir\\b", "tanjir")
+df$response = str_replace_all(df$response, "posudja\\b", "posuda")
+df$response = str_replace_all(df$response, "zdejla\\b", "zdjela")
+
+df$response = str_replace_all(df$response, "crnakutija\\b", "kutija")
+df$response = str_replace_all(df$response, "kutiju\\b", "kutija")
+df$response = str_replace_all(df$response, "kartonskakutija\\b", "kutija")
+df$response = str_replace_all(df$response, "kutia\\b", "kutija")
+df$response = str_replace_all(df$response, "ljubicastakutija\\b", "kutija")
+
+df$response = str_replace_all(df$response, "naruknica\\b", "narukvica")
+df$response = str_replace_all(df$response, "ogrlice\\b", "ogrlica")
+df$response = str_replace_all(df$response, "crvenarukvica\\b", "narukvica")
+df$response = str_replace_all(df$response, "narukvica(brojanica)\\b", "narukvica")
+df$response = str_replace_all(df$response, "narukvica\\?\\b", "narukvica")
+df$response = str_replace_all(df$response, "bisernaogrlica\\b", "ogrlica")
+df$response = str_replace_all(df$response, "narokvica\\b", "narukvica")
+
+df$response = str_replace_all(df$response, "kantica\\b", "kanta")
+df$response = str_replace_all(df$response, "crvenakanta\\b", "narukvica")
+df$response = str_replace_all(df$response, "korpica\\b", "korpa")
+
+df$response = str_replace_all(df$response, "leptitr\\b", "leptir")
+df$response = str_replace_all(df$response, "ljeptir\\b", "leptir")
+df$response = str_replace_all(df$response, "crvenileptir\\b", "leptir")
+df$response = str_replace_all(df$response, "leptiri\\b", "leptir")
+
+df$response = str_replace_all(df$response, "tarta\\b", "torta")
+df$response = str_replace_all(df$response, "cokoladnikolac\\b", "kolac")
+df$response = str_replace_all(df$response, "torte\\b", "torta")
+df$response = str_replace_all(df$response, "tortsa\\b", "torta")
+
+
+df$response = str_replace_all(df$response, "l+kalkulator\\b", "kalkulator")
+df$response = str_replace_all(df$response, "calculator\\b", "kalkulator")
+df$response = str_replace_all(df$response, "kalkulato\\b", "kalkulator")
+df$response = str_replace_all(df$response, "racunalp\\b", "racunar")
+df$response = str_replace_all(df$response, "dzepnoracunalo\\b", "racunalo")
+df$response = str_replace_all(df$response, "zutikalkulator\\b", "kalkulator")
+
+df$response = str_replace_all(df$response, "koledar\\b", "kalendar")
+df$response = str_replace_all(df$response, "crnikalendar\\b", "kalendar")
+df$response = str_replace_all(df$response, "kalender\\b", "kalendar")
+df$response = str_replace_all(df$response, "koleendar\\b", "kalendar")
+df$response = str_replace_all(df$response, "calendar\\b", "kalendar")
+df$response = str_replace_all(df$response, "kolendar\\b", "kalendar")
+df$response = str_replace_all(df$response, "kolodar\\b", "kalendar")
+df$response = str_replace_all(df$response, "laendar\\b", "kalendar")
+
+
+df$response = str_replace_all(df$response, "foto-aparat\\b", "fotoaparat")
+df$response = str_replace_all(df$response, "analognifotoaparat\\b", "fotoaparat")
+df$response = str_replace_all(df$response, "kamera\\?\\b", "kamera")
+df$response = str_replace_all(df$response, "kumera\\b", "kamera")
+df$response = str_replace_all(df$response, "camera\\b", "kamera")
+df$response = str_replace_all(df$response, "narancastakamera\\b", "kamera")
+df$response = str_replace_all(df$response, "camara\\b", "kamera")
+df$response = str_replace_all(df$response, "insta/polaroidkamera\\b", "kamera")
+
+df$response = str_replace_all(df$response, "svijeca\\b", "sveca")
+df$response = str_replace_all(df$response, "svejca\\b", "sveca")
+df$response = str_replace_all(df$response, "svica\\b", "sveca")
+df$response = str_replace_all(df$response, "svijca\\b", "sveca")
+df$response = str_replace_all(df$response, "svjiec\\b", "sveca")
+df$response = str_replace_all(df$response, "svjeca\\b", "sveca")
+df$response = str_replace_all(df$response, "sijeca\\b", "sveca")
+df$response = str_replace_all(df$response, "svece\\b", "sveca")
+df$response = str_replace_all(df$response, "zutasvijeca\\b", "sveca")
+
+df$response = str_replace_all(df$response, "capu\\b", "kapa")
+df$response = str_replace_all(df$response, "bijelakapa\\b", "kapa")
+df$response = str_replace_all(df$response, "kapa\\?\\b", "kapa")
+df$response = str_replace_all(df$response, "zutakapa\\b", "kapa")
+
+df$response = str_replace_all(df$response, "stolivca\\b", "stolica")
+
+df$response = str_replace_all(df$response, "budilnica\\b", "budilica")
+df$response = str_replace_all(df$response, "satt\\b", "sat")
+df$response = str_replace_all(df$response, "crvenabudilica\\b", "budilica")
+df$response = str_replace_all(df$response, "alarmsat\\b", "alarm-sat")
+df$response = str_replace_all(df$response, "sat/alarm\\b", "alarm-sat")
+df$response = str_replace_all(df$response, "satalarm\\b", "alarm-sat")
+df$response = str_replace_all(df$response, "alarma\\b", "alarm")
+df$response = str_replace_all(df$response, "budilca\\b", "budilica")
+df$response = str_replace_all(df$response, "budilnica\\b", "budilica")
+df$response = str_replace_all(df$response, "budnica\\b", "budilica")
+df$response = str_replace_all(df$response, "satbudilica\\b", "budilica")
+df$response = str_replace_all(df$response, "say\\b", "sat")
+df$response = str_replace_all(df$response, "stonisat\\b", "sat")
+df$response = str_replace_all(df$response, "zutisat\\b", "sat")
+
+df$response = str_replace_all(df$response, "vjesalica\\b", "vesalica")
+df$response = str_replace_all(df$response, "hanger\\b", "ofinger")
+df$response = str_replace_all(df$response, "ovinger\\b", "ofinger")
+df$response = str_replace_all(df$response, "vesaljica\\b", "vesalica")
+df$response = str_replace_all(df$response, "objesalnik\\b", "obesalnik")
+df$response = str_replace_all(df$response, "besalicabesalica\\b", "vesalica")
+df$response = str_replace_all(df$response, "aufinger\\b", "ofinger")
+df$response = str_replace_all(df$response, "bijelavjesalica\\b", "vesalica")
+df$response = str_replace_all(df$response, "visalica\\b", "vesalica")
+
+df$response = str_replace_all(df$response, "vzglavnik\\b", "glavnik")
+df$response = str_replace_all(df$response, "ceselj\\b", "cesalj")
+df$response = str_replace_all(df$response, "casalj\\b", "cesalj")
+df$response = str_replace_all(df$response, "cesaljzakosu\\b", "cesalj")
+df$response = str_replace_all(df$response, "cesel\\b", "cesalj")
+df$response = str_replace_all(df$response, "zuticesalj\\b", "cesalj")
+
+df$response = str_replace_all(df$response, "krona\\b", "kruna")
+df$response = str_replace_all(df$response, "krovna\\b", "kruna")
+df$response = str_replace_all(df$response, "corona\\b", "kruna")
+df$response = str_replace_all(df$response, "kryna\\b", "kruna")
+
+df$response = str_replace_all(df$response, "jastuce\\b", "jastuk")
+df$response = str_replace_all(df$response, "jastug\\b", "jastuk")
+df$response = str_replace_all(df$response, "ukrasnijastuk\\b", "jastuk")
+df$response = str_replace_all(df$response, "jastucic\\b", "jastuk")
+df$response = str_replace_all(df$response, "jastukl\\b", "jastuk")
+df$response = str_replace_all(df$response, "zutijastuk\\b", "jastuk")
+df$response = str_replace_all(df$response, "zutjastuk\\b", "jastuk")
+
+df$response = str_replace_all(df$response, "kockica\\b", "kocka")
+df$response = str_replace_all(df$response, "kocke\\b", "kocka")
+df$response = str_replace_all(df$response, "kockazaigranje\\b", "kocka")
+df$response = str_replace_all(df$response, "kocak\\b", "kocka")
+df$response = str_replace_all(df$response, "kocke\\b", "kocka")
+df$response = str_replace_all(df$response, "kotcka\\b", "kocka")
+df$response = str_replace_all(df$response, "kocika\\b", "kocka")
+df$response = str_replace_all(df$response, "kocku\\b", "kocka")
+df$response = str_replace_all(df$response, "ljubicastakocka\\b", "kocka")
+
+df$response = str_replace_all(df$response, "bijelavrataidovratak\\b", "vrata")
+df$response = str_replace_all(df$response, "brata\\b", "vrata")
+df$response = str_replace_all(df$response, "vratu\\b", "vrata")
+df$response = str_replace_all(df$response, "zutavrata\\b", "vrata")
+
+df$response = str_replace_all(df$response, "plavahaljina\\b", "haljina")
+df$response = str_replace_all(df$response, "odjeca\\b", "odeca")
+df$response = str_replace_all(df$response, "haljinu\\b", "haljina")
+df$response = str_replace_all(df$response, "hsljina\\b", "haljina")
+df$response = str_replace_all(df$response, "belahaljina\\b", "haljina")
+df$response = str_replace_all(df$response, "hsljina\\b", "haljina")
+df$response = str_replace_all(df$response, "hajlina\\b", "haljina")
+df$response = str_replace_all(df$response, "haljuna\\b", "haljina")
+
+df$response = str_replace_all(df$response, "ormaric\\b", "ormar")
+df$response = str_replace_all(df$response, "omar\\b", "ormar")
+df$response = str_replace_all(df$response, "orman\\b", "ormar")
+df$response = str_replace_all(df$response, "ormarica\\b", "ormar")
+df$response = str_replace_all(df$response, "ormarsaladicama\\b", "ormar")
+df$response = str_replace_all(df$response, "zelenakomoda\\b", "komoda")
+df$response = str_replace_all(df$response, "zeleniormaric\\b", "ormar")
+df$response = str_replace_all(df$response, "ljubicastakomoda\\b", "komoda")
+
+df$response = str_replace_all(df$response, "buban\\b", "bubanj")
+df$response = str_replace_all(df$response, "boban\\b", "bubanj")
+df$response = str_replace_all(df$response, "bobni\\b", "bubanj")
+df$response = str_replace_all(df$response, "bubabj\\b", "bubanj")
+df$response = str_replace_all(df$response, "dubanj\\b", "bubanj")
+df$response = str_replace_all(df$response, "malibubanj\\b", "bubanj")
+df$response = str_replace_all(df$response, "bybanj\\b", "bubanj")
+df$response = str_replace_all(df$response, "boben\\b", "bubanj")
+df$response = str_replace_all(df$response, "boban\\b", "bubanj")
+
+df$response = str_replace_all(df$response, "patkica\\b", "patka")
+df$response = str_replace_all(df$response, "gumenapatkica\\b", "gumenapatka")
+df$response = str_replace_all(df$response, "patkicazakupanje\\b", "patkazakupanje")
+df$response = str_replace_all(df$response, "patke\\b", "patka")
+df$response = str_replace_all(df$response, "cipila\\b", "cipela")
+
+df$response = str_replace_all(df$response, "plavasalica\\b", "salica")
+df$response = str_replace_all(df$response, "soju\\b", "solja")
+
+
+df$response = str_replace_all(df$response, "viljosku", "viljuska")
+df$response = str_replace_all(df$response, "viluska", "viljuska")
+
+df$response = str_replace_all(df$response, "adijela", "zdjela")
+df$response = str_replace_all(df$response, "zelenazdjela", "zdjela")
+
+df$response = str_replace_all(df$response, "vasa", "vaza")
+df$response = str_replace_all(df$response, "vasna", "vazna")
+df$response = str_replace_all(df$response, "vasnica", "vazna")
+df$response = str_replace_all(df$response, "vaya", "vaza")
+df$response = str_replace_all(df$response, "zelenavaz", "vaza")
+df$response = str_replace_all(df$response, "vazaa", "vaza")
+
+df$response = str_replace_all(df$response, "ljubicastilokot", "lokot")
+
+df$response = str_replace_all(df$response, "crnisarafciger", "srafciger")
+df$response = str_replace_all(df$response, "odvidac", "odvijac")
+df$response = str_replace_all(df$response, "sarafciger", "srafciger")
+df$response = str_replace_all(df$response, "sarafcigersarafciger", "srafciger")
+df$response = str_replace_all(df$response, "sarafenciger", "srafciger")
+df$response = str_replace_all(df$response, "serafciger", "srafciger")
+df$response = str_replace_all(df$response, "srafzieger", "srafciger")
+df$response = str_replace_all(df$response, "sravciger", "srafciger")
+
+df_split <- runAnalysis(df)
+
+
+## Do people have a majority response over a 70% threshold?
+
+# Input: string refering to object in df_split
+# output: Return the percent of people responded the most common answer
+getPercent <- function(objectName) {
+  
+  tib <- df_split[[objectName]]
+
+  totalSum <- tib$count %>%
+    sum()
+  
+  maxCount <- tib %>%
+    group_by(cresponse) %>%
+    summarise(n = sum(count))
+
+  maxNum <- maxCount[which.max(maxCount$n),]$n
+  return(maxNum/totalSum)
+}
+
+# Input: string refering to object in df_split
+# output: Return the the most common esponse
+getLabel <- function(objectName) {
+  
+  tib <- df_split[[objectName]]
+
+  maxCount <- tib %>%
+    group_by(cresponse) %>%
+    summarise(n = sum(count))
+
+  return(maxCount[which.max(maxCount$n),][[1]])
+}
+
+
+allNames <- names(df_split)
+
+# create dataframe with most common responses 
+# and percent of people that responded with them
+df_percent <- data.frame(item = allNames,
+                         label = unlist(lapply(allNames, getLabel)),
+                         percent = unlist(lapply(allNames, getPercent)))
+
+#append gender and color scheme to the df_percent
+df_targets <- read.csv("../../../shared/final_targets.csv", header = TRUE)
+
+df_targets <- df_targets %>%
+  filter(Color == "blue" | Color == "green") %>%
+  select(Item, Color.scheme, Gender)
+
+colnames(df_targets) <- c("item", "colorScheme", "gender")
+
+df_percent <- merge(df_targets, df_percent,by = c("item"))
+
+# Function that takes in an object name and prints a plot of responses
+# for that objects
+makePlots <- function(objectName) {
+  x <- plot_df_subset(df_split[[objectName]], objectName)
+  x
+}
+
+```
+
+
+```{r participant data, echo=FALSE}
+# Plot participant data
+participant_info <- df %>%
+  select(workerid, status) %>%
+  unique() %>%
+  group_by(status) %>%
+  summarize(count=n())
+
+plot_demographics <- participant_info %>%
+  ggplot(aes(x = status, y = count)) +
+  geom_bar(stat="identity")
+
+participant_dialectOne <- df %>%
+  select(workerid, subject_information.dialectOne) %>%
+  unique() %>%
+  group_by(subject_information.dialectOne) %>%
+  summarize(count=n())
+
+plot_dialectOne <- participant_dialectOne %>%
+  ggplot(aes(x = subject_information.dialectOne, y = count)) +
+  geom_bar(stat="identity")
+
+participant_dialectTwo <- df %>%
+  select(workerid, subject_information.dialectTwo) %>%
+  unique() %>%
+  group_by(subject_information.dialectTwo) %>%
+  summarize(count=n())
+
+plot_dialectTwo <- participant_dialectTwo %>%
+  ggplot(aes(x = subject_information.dialectTwo, y = count)) +
+  geom_bar(stat="identity")
+
+participant_dialectCountry <- df %>%
+  select(workerid, country) %>%
+  unique() %>%
+  group_by(country) %>%
+  summarize(count=n())
+
+plot_dialectCountry<- participant_dialectCountry %>%
+  ggplot(aes(x = country, y = count)) +
+  geom_bar(stat="identity")
+```
+
+# Participant Demographics
+## Language status
+
+Foreign: first language and language spoken at school are not BCS  
+Heritage: first language is BCS and language spoken at school is not BCS  
+SIMK: Country of origin is Slovenia (SI) or Macedonia (MK)  
+native: first language and language spoken at school are BCS  
+  
+For this iteration, I got rid of all SIMK and foreign speakers (their answers made the data a lot more messy)
+
+```{r demographics, echo=FALSE}
+plot_demographics
+```
+
+## Dialect Information
+### Dialect Measure 1
+Dialects are often split up based on the phonological change of the Common Slavic *jat* vowel (*ě), which changed to /i/ (Ikavian/Ikavica), /e/ (Ekavian/Ekavica), or /ije/ /je/ (Ijekavian/Ijekavica). Standard Croatian and Bosnian is based on Ijekavian, whereas standard Serbian is based on Ekavian. Serbians in Croatia, Bosnian Serbs, and Montenegrians mainly use Ijekavian. A geographic distribution is shown below. 
+
+![alt text here](../../../shared/dialect_map_one.jpg)
+
+yellow: ijekaciva  
+blue: ekavica  
+red: ikavica   
+  
+  
+Our participants had the following distribution:  
+
+```{r dialectOne, echo=FALSE}
+plot_dialectOne
+```
+
+### Dialect Measure 2
+Another common way of classifying the dialects is based on their most common wuestion word for "what": 
+  
+Shtokavian (Štokavski) = što/šta  
+Chakavian (Čakavski) = Ča/ca  
+Kajkavian (Kajkavski) = Kaj/key
+  
+Shtokavian is the standard for all of BCS and is spoken in Bosnia and Herzegovina, Croatia, Montenegro, and Serbia. 
+Chakavian is spoken on the Croatian coast and Kajkavian is spoken in northern Croatia. Slovenians use the word "kaj" for the "what" question word, therefore I assume Slovenians would be classified as Kaikavian speakers based on my dialect survey (even if they don't produce the word "kaj" when speaking BCS). 
+  
+The map below gives a geographic distribution of the three dialects in Croatia. Bosnia and Herzegovina, Mongenegro, and Serbia would all be colored green based on this map. 
+  
+![alt text here](../../../shared/dialect_map_two.jpg)
+
+Chakavian (blue) = Čakavski  
+Kaikavian (purple) = Kajkavski  
+Shtokavian (green) = Štokavski  
+
+  
+Our participants had the following dialect distribution:  
+  
+```{r dialectTwo, echo=FALSE}
+plot_dialectTwo
+```
+
+### Country of participants
+Participants answered the question: In which Ex-Jugoslav country did I live in/spent a lot of time in. This question aims to get a geographic distribution of participants. While we can classify speakers across ekavian/ikavian/ijekavian dialects, since this distiction represents a phonological one, it is unclear whether it will likewise reflect a difference in use of lexical items. Keep in mind that the answer to this question is distinct from what nationality participants identify as (for example there are Serbians, Croatians, and Bosnians who all live in Bosnia and Hercegovina). Based on my (limited) observations, I believe that country may be a better predictor of lexical items than national identity could be.  
+    
+BIH: Bosnia and Herzegovina  
+HR: Croatia  
+SRB: Serbia  
+SI: Slovenia  
+MK: Macedonia  
+MNE: Montenegro  
+
+```{r dialectCountry, echo=FALSE}
+plot_dialectCountry
+```
+
+
+# Analysis of which words should be used
+
+
+Stefan and Brandon had a long discussion on how we should choose these items in a principled manner. I will try to recap some of the discussion here and then go through and pick items. 
+
+The main fear is the following: we are investigating whether participants use gender pragmatically to modulate how often and when they use nouns versus adjectives redundanly. The question Brandon brought up was, if an object has two lexical items associated with it of two different genders, the participant could potentially make the choice between the two lexical items based on its gender rather than semantic considerations. 
+
+Let's assume the following two scenarios:
+scenario 1: [present_object, shoe_object]
+scenario 2: [present_object, box_object]
+
+and the following results of teh norming study:
+present_object: 
+  "present_masc" = 40%
+  "box_fem" = 60%
+  
+box_object:
+  "box_fem" = 99%
+  "container_masc" = 1%
+  
+shoe_object:
+  "shoe_fem" = 98%
+  "sneaker_fem" = 2%
+
+We assume that the results of the norming study give a fair prediction of how likely participants are to use a label given an object, disregarding context. 
+
+Clearly context does play a role. For example in scenario 2, participants will opt to call the present_object "present_masc" due to the context. 
+
+However, most cases will end up being like scenario 1, whereby a participant can use both "present_masc" or "box_fem". Both will semantically disambiguate the present_object from the shoe_object well enough. 
+
+We have to consider the possibility that in scenario 2, gender can play a role in picking the lexical item. So in this scenario, the prior for picking the lexical item "shoe_fem" is really strong. It is a possibility that participants can then reason about the gender of the lexical item they have to pick for the present_object. That is, in scenario 2 they might opt to pick "present_masc" more often than "box_fem" because it will disambiguate the object not just by lexical item but also gender. 
+
+I believe this kind of reasoning is unlikely, but as Brandon brought up, since we are looking at whether participants use gender pragmatically to modulate redundant uses of nouns and adjectives—there is no reason why this possibility doesn't also exist.
+
+
+Therefore I propose the following classification of items:
+1. Fall above the 70% threshold --> we can include these items
+2. Almost fall above the threshold, and would if I clean up spelling errors and stuff like that --> I will clean it up and we will see if they do fall above the threshold --> we can include these items
+3. Fall below threshold, but lexical items used are of the same gender and when added up they reach teh 70% threshold --> In that case we don't have to worry about the issue above, because gender can never be the deciding factor between those two lexical items. --> we can include these items
+4. Fall below threshold, and the lexical items used are of different genders. However, the lexical item used is based on dialect. In that case, we have reasonable assumption that we won't run into the issue discussed above, because a single speaker will only use the lexical item (and thus a single gender) given the speach community they are in. (They might have both lexical items if they are bidialectal, but in that case will only presumably use the lexical item in the dialect they are currently communicating in) --> we can include these items
+5. Else case --> we can't include these items.
+
+
+The following table is the % of people that answered the most common answer for each of the following words:
+```{r percentCorrectTotal, echo=FALSE}
+df_percent
+```
+
+The way we designed the study, we want a total of 48 targets per participant (+ 22 filler trials). That is:  
+4 scenarios x 2 gender for target x 6 = 48 target trials    
++ 22 filler trials    
+=  70 trials per pariticipant.  
+
+There will be two stimuli sets based on color scheme:  
+colorscheme 1 (cs1 = {blue, yellow, red, white};
+cs2 = {green, purple, orange, black}  
+For each trial, the stimuli images will be drawn randomly from within a single color scheme. Therefore we need a total of 96 items (each in 4 colors). Their distribution is as follows:
+
+96 items:  
+- 48 in color scheme 1  
+  - 24 masculine  
+  - 24 feminine  
+- 48 in color scheme 2  
+  - 24 masculine  
+  - 24 feminine  
+   
+In order to see if we have enough stimuli based on our nameability norming, I group all the stimuli based on their color scheme and gender and then sort the nouns into the following groups:  
+1. > 70% of responses are the same  
+2. <70% of responses are the same, but if we account for spelling errors it seems that we will get >70% (I have yet to go through and do this manually)   
+3. there are 2-3 majority words, the object is clearly identifiable, and all the words are the same gender  
+4. there are 2-3 majority words, the object is clearly identifiable, but the words are of different genders  
+5. there is no majority word and the object is clearly identifiable  
+6. there is no majority word and the object is not clearly identifiable  
+
+
+Overall the distribution of words with >70% responses agree on a single response are:
+```{r percentOverSeventy, echo=FALSE}
+df_percent %>%
+  filter(percent >= 0.7) %>%
+  summarise(n())
+```
+
+The number of responses that do not meet the 70% threshold are:
+```{r percentUnderSeventy, echo=FALSE}
+df_percent %>%
+  filter(percent <= 0.7) %>%
+  summarise(n())
+```
+
+We now split up by color scheme:
+
+## Color Scheme 1 
+The number of responses >= 70% threshold in color scheme 1 split up by gender:
+```{r cs1, echo=FALSE}
+df_percent %>%
+  group_by(gender) %>%
+  filter(colorScheme == 1 & percent >= 0.7) %>%
+  summarise(n()) 
+```
+
+
+## Feminine
+
+Here are all the items in color scheme one that are feminine
+```{r cs1fem, echo=FALSE}
+df_percent %>%
+  filter(colorScheme == 1 & gender == "F") %>%
+  arrange(percent)
+```
+
+As stated above, there are 16 feminine nouns that fall into category (1)
+
+**Fall above the 70% threshold**  
+- door  
+- crown  
+- dress 
+- candle  
+- book  
+- chair  
+- pencil  
+- iron  
+- mask  
+- guitar  
+- fence  
+- armchair  
+- bucket  
+- lamp  
+- shirt  
+- bracelet  
+
+
+Here are the words that fell below the threshold:
+```{r cs1femBelowThreshold, echo=FALSE}
+df_percent %>%
+  filter(colorScheme == 1 & gender == "F" & percent <0.7) %>%
+  arrange(percent)
+```
+
+
+Words that fall above the threshold if we combine the top words with the same gender:  
+- shoe: {stikla, cipela}  
+- mug: {casa, salica, solja}
+- stapler: {heftalica, klamerica, spajalica}
+
+Words that we should include contingent on dialect:  
+- napkin: {marama, krpa, salveta} for SRB and BIH
+- magnifyingglass: {lupa} for SRB
+
+words to consider due to compounds:
+- billiardball  
+
+Words we should not include:  
+- yarn  
+- binder  
+- notebook  
+
+Overall we should include: all words above threshold, all words that are of the same gender when combined fall above threshold  
+This gives us 19 target words  
+
+If we also want to include words contingent on dialect:
+this vies us: 21 target words
+
+
+#### Shoe
+```{r graphShoe, echo=FALSE}
+
+df %>%
+  filter(utterance == "shoe") %>%
+  group_by(response) %>%
+  count()
+```
+
+Lets combine the top answers "stikla" (high hell) and "cipela" (shoe)
+```{r graphShoe2, echo=FALSE}
+df_shoe <- df %>% filter(utterance == "shoe")
+df_shoe$response = str_replace_all(df_shoe$response, "stijlke\\b", "stikla")
+df_shoe$response = str_replace_all(df_shoe$response, "zipela\\b", "cipela")
+
+df_shoe$response = str_replace_all(df_shoe$response, "cipela\\b", "majority")
+df_shoe$response = str_replace_all(df_shoe$response, "stikla\\b", "majority")
+df_shoe$response = str_replace_all(df_shoe$response, "stikla/cipela\\b", "majority")
+
+majorityNum <- df_shoe %>%
+  filter(response == "majority") %>%
+  count()
+
+totalNum <- df_shoe %>%
+  count()
+
+majorityNum/totalNum
+```
+
+Combining "stikla" and "cipela" gives us the threshold --> type 3, should include
+
+
+
+####Napkin
+```{r graphNapkin, echo=FALSE}
+
+df %>%
+  filter(utterance == "napkin") %>%
+  group_by(response) %>%
+  count()
+```
+
+Lets combine the top answers "salveta" (napkin), "marama" (cloth for clothing), "krpa" (rag)
+```{r graphNapkin2, echo=FALSE}
+df_obj <- df %>% filter(utterance == "napkin")
+df_obj$response = str_replace_all(df_obj$response, "maramcia,krpa\\b", "majority")
+df_obj$response = str_replace_all(df_obj$response, "salveta/krpa\\b", "majority")
+df_obj$response = str_replace_all(df_obj$response, "salveta\\b", "majority")
+df_obj$response = str_replace_all(df_obj$response, "marama\\b", "majority")
+df_obj$response = str_replace_all(df_obj$response, "maramica\\b", "majority")
+df_obj$response = str_replace_all(df_obj$response, "sarvet\\b", "salveta")
+df_obj$response = str_replace_all(df_obj$response, "selveta\\b", "salveta")
+df_obj$response = str_replace_all(df_obj$response, "kirpa\b", "majority")
+df_obj$response = str_replace_all(df_obj$response, "krpa\\b", "majority")
+
+df_obj$response = str_replace_all(df_obj$response, "neznam,mozdakapailiubrus?\\b", "ubrus")
+df_obj$response = str_replace_all(df_obj$response, "obrusladja\\b", "ubrus")
+df_obj$response = str_replace_all(df_obj$response, "ubrus\\?\\b", "ubrus")
+
+
+majorityNum <- df_obj %>%
+  filter(response == "majority") %>%
+  count()
+
+totalNum <- df_obj %>%
+  count()
+
+majorityNum/totalNum
+```
+
+However we should consider that ``r 10/totalNum`` of participants answered some variant of "ubrus". Is that a dialect thing?
+
+```{r graphNapkin3, echo=FALSE}
+df_obj %>%
+  group_by(subject_information.dialectOne, response) %>%
+  count()
+  
+```
+
+```{r graphNapkin4, echo=FALSE}
+df_obj %>%
+  group_by(subject_information.dialectTwo, response) %>%
+  count()
+  
+```
+
+```{r graphNapkin5, echo=FALSE}
+df_obj %>%
+  group_by(country, response) %>%
+  count()
+  
+```
+
+Of the dialect measures, what seems telling is 1 instance was from BIH and all the other 9 were from Croatia. Therefore this might be a dialectal measure which features for Croat speakers. 
+
+Croatians:
+```{r graphNapkin6, echo=FALSE}
+majorityNum <- df_obj %>%
+  filter(country == "HR" & response == "majority") %>%
+  group_by(response) %>%
+  count()
+  
+totalNum <- df_obj %>%
+  filter(country == "HR") %>%
+  count()
+
+majorityNum$n/totalNum
+```
+
+
+BIH:
+```{r graphNapkin7, echo=FALSE}
+majorityNum <- df_obj %>%
+  filter(country == "BIH" & response == "majority") %>%
+  group_by(response) %>%
+  count()
+  
+totalNum <- df_obj %>%
+  filter(country == "BIH") %>%
+  count()
+
+majorityNum$n/totalNum
+```
+
+SRB:
+```{r graphNapkin8, echo=FALSE}
+majorityNum <- df_obj %>%
+  filter(country == "SRB" & response == "majority") %>%
+  group_by(response) %>%
+  count()
+  
+totalNum <- df_obj %>%
+  filter(country == "SRB") %>%
+  count()
+
+majorityNum$n/totalNum
+```
+
+The picture is complex. The combination of "salveta", "marama", and "krpa" reaches threshold for Serbia and BIH, but not Croatia. Most Ubrus instances are found for speakers in HR and who speak Ijekavica (the dialect in BIH and HR). Therefore if we include this word, we should look at whether HR speakers in the RSA study use ubrus, and if so, exclude all of them from the analysis for this word. 
+
+####Magnifyingglass
+```{r Magnifyingglass, echo=FALSE}
+
+df %>%
+  filter(utterance == "magnifyingglass") %>%
+  group_by(response) %>%
+  count()
+```
+
+```{r Magnifyingglass2, echo=FALSE}
+df_obj <- df %>% filter(utterance == "magnifyingglass")
+
+df_obj %>%
+  group_by(response) %>%
+  count()
+```
+
+```{r Magnifyingglass3, echo=FALSE}
+df_obj %>%
+  group_by(subject_information.dialectOne, response) %>%
+  count()
+  
+```
+
+```{r Magnifyingglass4, echo=FALSE}
+df_obj %>%
+  group_by(country, response) %>%
+  count()
+```
+
+HR:
+```{r Magnifyingglass5, echo=FALSE}
+majorityNum <- df_obj %>%
+  filter(country == "HR" & response == "lupa") %>%
+  group_by(response) %>%
+  count()
+  
+totalNum <- df_obj %>%
+  filter(country == "HR") %>%
+  count()
+
+majorityNum$n/totalNum
+```
+
+
+BIH:
+```{r Magnifyingglass6, echo=FALSE}
+majorityNum <- df_obj %>%
+  filter(country == "BIH" & response == "lupa") %>%
+  group_by(response) %>%
+  count()
+  
+totalNum <- df_obj %>%
+  filter(country == "BIH") %>%
+  count()
+
+majorityNum$n/totalNum
+```
+
+SRB:
+```{r Magnifyingglass7, echo=FALSE}
+majorityNum <- df_obj %>%
+  filter(country == "SRB" & response == "lupa") %>%
+  group_by(response) %>%
+  count()
+  
+totalNum <- df_obj %>%
+  filter(country == "SRB") %>%
+  count()
+
+majorityNum$n/totalNum
+```
+
+Magnifying glass as "lupa" only reaches the threshold for serbian speakers. If we include it, we should only include the data from Serbian sepaekrs and not people from HR or BIH.
+
+
+
+
+####Mug
+```{r mug, echo=FALSE}
+df_obj <- df %>% filter(utterance == "mug")
+
+df_obj %>%
+  group_by(response) %>%
+  count()
+```
+
+
+Is it dialectal?  
+  
+ekavica:
+```{r mug3, echo=FALSE}
+cntry <- df_obj %>%
+  filter(subject_information.dialectOne == "ekavica") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "solja")
+
+totalNum <- sum(cntry$n)
+
+majorityNum$n/totalNum
+
+```
+
+ijekavica:
+```{r mug4, echo=FALSE}
+cntry <- df_obj %>%
+  filter(subject_information.dialectOne == "ijekavica") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "salica")
+
+totalNum <- sum(cntry$n)
+
+(majorityNum$n)/totalNum
+
+```
+
+SRB:
+```{r mug5, echo=FALSE}
+cntry <- df_obj %>%
+  filter(country == "SRB") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "solja")
+
+totalNum <- sum(cntry$n)
+
+majorityNum$n/totalNum
+
+```
+
+HR:
+```{r mug6, echo=FALSE}
+cntry <- df_obj %>%
+  filter(country == "HR") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "salica")
+
+totalNum <- sum(cntry$n)
+
+(majorityNum$n)/totalNum
+
+```
+
+BIH:
+```{r mug7, echo=FALSE}
+cntry <- df_obj %>%
+  filter(country == "BIH") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "solja")
+
+totalNum <- sum(cntry$n)
+
+(majorityNum$n)/totalNum
+
+```
+  
+
+
+The confusion here is between: "casa" (cup), "salica" (mug), and "solja" (mug)
+```{r mug2, echo=FALSE}
+df_obj$response = str_replace_all(df_obj$response, "plavasalica\\b", "majority")
+df_obj$response = str_replace_all(df_obj$response, "salica\\b", "majority")
+df_obj$response = str_replace_all(df_obj$response, "soju\\b", "majority")
+df_obj$response = str_replace_all(df_obj$response, "solja\\b", "majority")
+
+
+majorityNum <- df_obj %>%
+  filter(response == "majority") %>%
+  count()
+
+totalNum <- df_obj %>%
+  count()
+
+majorityNum/totalNum
+```
+
+All three words are of the same gender and reach threshold. We should include it. 
+
+####Yarn
+```{r yarn, echo=FALSE}
+df_obj <- df %>% filter(utterance == "yarn")
+
+df_obj %>%
+  group_by(response) %>%
+  count()
+```
+
+Use of "vuna" (yarn) when accounting for different spellings:
+```{r yarn2, echo=FALSE}
+df_obj$response = str_replace_all(df_obj$response, "pletenavuna\\b", "vuna")
+df_obj$response = str_replace_all(df_obj$response, "vune\\b", "vuna")
+df_obj$response = str_replace_all(df_obj$response, "vunica\\b", "vuna")
+df_obj$response = str_replace_all(df_obj$response, "crvenavuna\\b", "vuna")
+
+majorityNum <- df_obj %>%
+  filter(response == "vuna") %>%
+  count()
+
+totalNum <- df_obj %>%
+  count()
+
+majorityNum/totalNum
+```
+
+This one is very messy in terms of answers, I think we should not include this one. 
+
+####billiardball
+```{r billiardball, echo=FALSE}
+df_obj <- df %>% filter(utterance == "billiardball")
+
+df_obj %>%
+  group_by(response) %>%
+  count()
+```
+
+If we count all compounds with "lopta" (ball) and kugla (ball):
+```{r billiardball2, echo=FALSE}
+df_obj$response = str_replace_all(df_obj$response, "kuglazabilijar\\b", "majority")
+df_obj$response = str_replace_all(df_obj$response, "kuglazabiljar\\b", "majority")
+df_obj$response = str_replace_all(df_obj$response, "kuglazabiljard\\b", "majority")
+df_obj$response = str_replace_all(df_obj$response, "kuglazakugljane\\b", "majority")
+df_obj$response = str_replace_all(df_obj$response, "lopta\\b", "majority")
+df_obj$response = str_replace_all(df_obj$response, "loptazabiliar\\b", "majority")
+df_obj$response = str_replace_all(df_obj$response, "loptazabilijard\\b", "majority")
+df_obj$response = str_replace_all(df_obj$response, "loptazakuglanje\\b", "majority")
+df_obj$response = str_replace_all(df_obj$response, "lopticazabilijar\\b", "majority")
+df_obj$response = str_replace_all(df_obj$response, "lopticezabilijar\\b", "majority")
+df_obj$response = str_replace_all(df_obj$response, "zutabiljarkugla\\b", "majority")
+
+df_obj$response = str_replace_all(df_obj$response, "bilijardkugla\\b", "majority")
+df_obj$response = str_replace_all(df_obj$response, "bilijarksakugla\\b", "majority")
+df_obj$response = str_replace_all(df_obj$response, "bilijarkugla\\b", "majority")
+df_obj$response = str_replace_all(df_obj$response, "bilijarskakugla\\b", "majority")
+df_obj$response = str_replace_all(df_obj$response, "bilijarskalopta\\b", "majority")
+df_obj$response = str_replace_all(df_obj$response, "biljardkugla\\b", "majority")
+df_obj$response = str_replace_all(df_obj$response, "biljarkugla\\b", "majority")
+df_obj$response = str_replace_all(df_obj$response, "biljarlopta\\b", "majority")
+df_obj$response = str_replace_all(df_obj$response, "biljarskalopta\\b", "majority")
+df_obj$response = str_replace_all(df_obj$response, "kugla\\b", "majority")
+
+majorityNum <- df_obj %>%
+  filter(response == "majority") %>%
+  count()
+
+totalNum <- df_obj %>%
+  count()
+
+majorityNum/totalNum
+```
+
+We get a clear majority. Include this one if we want to include compounds. 
+
+If we count all compounds with "lopta" (ball) and kugla (ball):
+```{r billiardball3, echo=FALSE}
+df_obj$response = str_replace_all(df_obj$response, "kuglazabilijar\\b", "majority")
+df_obj$response = str_replace_all(df_obj$response, "kuglazabiljar\\b", "majority")
+df_obj$response = str_replace_all(df_obj$response, "kuglazabiljard\\b", "majority")
+df_obj$response = str_replace_all(df_obj$response, "kuglazakugljane\\b", "majority")
+df_obj$response = str_replace_all(df_obj$response, "lopta\\b", "majority")
+df_obj$response = str_replace_all(df_obj$response, "loptazabiliar\\b", "majority")
+df_obj$response = str_replace_all(df_obj$response, "loptazabilijard\\b", "majority")
+df_obj$response = str_replace_all(df_obj$response, "loptazakuglanje\\b", "majority")
+df_obj$response = str_replace_all(df_obj$response, "lopticazabilijar\\b", "majority")
+df_obj$response = str_replace_all(df_obj$response, "lopticezabilijar\\b", "majority")
+df_obj$response = str_replace_all(df_obj$response, "zutabiljarkugla\\b", "majority")
+
+df_obj$response = str_replace_all(df_obj$response, "bilijardkugla\\b", "majority")
+df_obj$response = str_replace_all(df_obj$response, "bilijarksakugla\\b", "majority")
+df_obj$response = str_replace_all(df_obj$response, "bilijarkugla\\b", "majority")
+df_obj$response = str_replace_all(df_obj$response, "bilijarskakugla\\b", "majority")
+df_obj$response = str_replace_all(df_obj$response, "bilijarskalopta\\b", "majority")
+df_obj$response = str_replace_all(df_obj$response, "biljardkugla\\b", "majority")
+df_obj$response = str_replace_all(df_obj$response, "biljarkugla\\b", "majority")
+df_obj$response = str_replace_all(df_obj$response, "biljarlopta\\b", "majority")
+df_obj$response = str_replace_all(df_obj$response, "biljarskalopta\\b", "majority")
+df_obj$response = str_replace_all(df_obj$response, "kugla\\b", "majority")
+
+majorityNum <- df_obj %>%
+  filter(response == "majority") %>%
+  count()
+
+totalNum <- df_obj %>%
+  count()
+
+majorityNum/totalNum
+```
+
+We get a clear majority. Include this one if we want to include compounds. 
+
+
+####binder
+```{r binder, echo=FALSE}
+df_obj <- df %>% filter(utterance == "binder")
+
+df_obj %>%
+  group_by(response) %>%
+  count()
+```
+This one is a mess, we shouldn't include it. 
+
+####notebook
+```{r notebook, echo=FALSE}
+df_obj <- df %>% filter(utterance == "notebook")
+
+df_obj %>%
+  group_by(response) %>%
+  count()
+```
+This one is a mess, we shouldn't include it.
+
+####stapler
+```{r stapler, echo=FALSE}
+df_obj <- df %>% filter(utterance == "stapler")
+
+df_obj %>%
+  group_by(response) %>%
+  count()
+```
+
+Majority words are: spajalica, heftalica, and klamerica. All are of the same gender. If we combine these responses we get:
+
+```{r stapler2, echo=FALSE}
+df_obj$response = str_replace_all(df_obj$response, "heftalica\\b", "majority")
+df_obj$response = str_replace_all(df_obj$response, "heftarica\\b", "majority")
+df_obj$response = str_replace_all(df_obj$response, "hektalica\\b", "majority")
+df_obj$response = str_replace_all(df_obj$response, "klamarica\\b", "majority")
+df_obj$response = str_replace_all(df_obj$response, "klamerica\\b", "majority")
+df_obj$response = str_replace_all(df_obj$response, "klemerica\\b", "majority")
+df_obj$response = str_replace_all(df_obj$response, "spajalica\\b", "majority")
+
+majorityNum <- df_obj %>%
+  filter(response == "majority") %>%
+  count()
+
+totalNum <- df_obj %>%
+  count()
+
+majorityNum/totalNum
+```
+
+If we combine all 3, they reach threshold. I assume the three words come from different dialects, but since they are all the same gender it doesn't really matter. We should include it. 
+
+####Ornament
+```{r ornament, echo=FALSE}
+df_obj <- df %>% filter(utterance == "ornament")
+
+df_obj %>%
+  group_by(response) %>%
+  count()
+```
+
+People understood what the object was but the responses were a mess and included a lot of compounds. I don't think we should include this one. 
+
+## Masculine CS 1
+Here are all the items in color scheme one that are masculine  
+```{r cs1masc, echo=FALSE}
+df_percent %>%
+  filter(colorScheme == 1 & gender == "M") %>%
+  arrange(percent)
+```
+
+As stated above, there are 10 masculine nouns that fall into category (1)  
+  
+**Fall above the 70% threshold**  
+- balloon  
+- bed  
+- phone  
+- key  
+- butterfly   
+- cushion  
+- wallet  
+- comb  
+- ring   
+- scarf    
+
+
+Words that fall above threshold after accounting for spelling errors:
+- scarf
+- flower
+
+Words that fall above the threshold if we combine the top words with the same gender:  
+- belt: {kais, remen}
+- calculator: {digitron, kalkulator}
+
+Words that we should include contingent on dialect:  
+- fryingpan: {tiganj vs. tava} for SRB vs BIH/HR
+- ruler: {lenjir} for SRB/BIH, {ravnalo} for HR
+- clock: {sat} everyone, {budilnik} for SRB, {budilica} for HR, unclear for BIH
+
+words to consider due to compounds:
+- switch (68% without compounds): {osigurac, prekidac, salter}
+- mouse (67% without compounds)
+
+Words we should not include:  
+- present
+- coathanger (reaches threshold for HR, see notes)
+- rug
+- bike
+- hat
+- table
+- sword
+
+
+Overall we should include: all words above threshold, all words that are of the same gender when combined fall above threshold  
+This gives us 14 target words  
+
+If we also want to include words contingent on dialect:
+this gives us: 17 target words
+
+If we also want to include words with compounds:
+this gives us: 19 target words
+
+Considerations for each words that fell below the 70% threshold are given below
+
+#### Present
+```{r present, echo=FALSE}
+df_obj <- df %>% filter(utterance == "present")
+
+df_obj %>%
+  group_by(response) %>%
+  count()
+```
+
+Consider getting rid of the 2 participants that answered "dar". This is obviously google translate ("dar" is a "gift", but not a physical one, rather like a talent).
+
+```{r present2, echo=FALSE}
+df_obj$response = str_replace_all(df_obj$response, "belakutijazapoklon\\b", "compound")
+df_obj$response = str_replace_all(df_obj$response, "kutijazapoklon\\b", "compound")
+df_obj$response = str_replace_all(df_obj$response, "plavakutijazapoklon\\b", "compound")
+df_obj$response = str_replace_all(df_obj$response, "poklonkutija\\b", "compound")
+
+df_obj %>%
+  group_by(response) %>%
+  count()
+```
+
+
+We should not include this one. Kutija (box) and Poklon (present) are in competition, and they are of different genders. 
+
+
+#### switch
+```{r switch, echo=FALSE}
+df_obj <- df %>% filter(utterance == "switch")
+
+df_obj %>%
+  group_by(response) %>%
+  count()
+```
+
+
+Cleanup:
+prekidac, 
+osigurac,
+Salter
+compound
+```{r switch2, echo=FALSE}
+df_obj$response = str_replace_all(df_obj$response, "crveniprekidaczasvjetlo\\b", "compound")
+df_obj$response = str_replace_all(df_obj$response, "porekidac\\b", "prekidac")
+df_obj$response = str_replace_all(df_obj$response, "prekidaczasvetlo\\b", "compound")
+df_obj$response = str_replace_all(df_obj$response, "prekidaczasvijetlo\\b", "compound")
+df_obj$response = str_replace_all(df_obj$response, "prekidaczasvjetlo\\b", "compound")
+df_obj$response = str_replace_all(df_obj$response, "prekidax\\b", "prekidac")
+df_obj$response = str_replace_all(df_obj$response, "svjetloprekidac\\b", "compound")
+
+df_obj$response = str_replace_all(df_obj$response, "otikac\\b", "utikac")
+df_obj$response = str_replace_all(df_obj$response, "okidac\\b", "utikac")
+
+df_obj$response = str_replace_all(df_obj$response, "prekidac/salter\\b", "compound")
+
+df_obj$response = str_replace_all(df_obj$response, "utikaczasvijetlo\\b", "compound")
+
+
+majorityNum <- df_obj %>%
+  filter(response == "prekidac") %>%
+  count()
+
+totalNum <- df_obj %>%
+  count()
+
+majorityNum/totalNum
+
+majorityNum <- df_obj %>%
+  filter(response == "prekidac" | response == "osigurac" | response == "salter") %>%
+  count()
+
+totalNum <- df_obj %>%
+  count()
+
+majorityNum/totalNum
+
+majorityNum <- df_obj %>%
+  filter(response == "prekidac" | response == "osigurac" | response == "compound") %>%
+  count()
+
+totalNum <- df_obj %>%
+  count()
+
+majorityNum/totalNum
+```
+  
+Prekidac alone accounts for 68% of responses.
+
+If we include "osigurac" accounts for 71% of the responses. 
+
+If we also include compounds like "Prekidac za svetlo" (switch for light) we get 80%. 
+
+I think we should include this one. Of the responses that are not masculine we have:  
+siba (1)  F
+sklopka (1) F  
+svetlo/svijetlo (2)  N  
+uticnica (1)  F  
+
+However svetlo/svijetlo means "light", which is obviously not what the object is. Likewise "uticnica" is an outlet, which is likewise not what this object is. 
+
+Therefore I think we should include this item, and just get rid of trials where the word is used as a compound. 
+
+  
+
+#### scarf
+```{r scarf, echo=FALSE}
+df_obj <- df %>% filter(utterance == "scarf")
+
+df_obj %>%
+  group_by(response) %>%
+  count()
+```
+
+```{r scarf2, echo=FALSE}
+df_obj$response = str_replace_all(df_obj$response, "belisal\\b", "sal")
+df_obj$response = str_replace_all(df_obj$response, "bijelisal\\b", "sal")
+df_obj$response = str_replace_all(df_obj$response, "plavisal\\b", "sal")
+df_obj$response = str_replace_all(df_obj$response, "sal,sal\\b", "sal")
+df_obj$response = str_replace_all(df_obj$response, "sal.\\b", "sal")
+df_obj$response = str_replace_all(df_obj$response, "sal...\\b", "sal")
+df_obj$response = str_replace_all(df_obj$response, "sal(3slova)\\b", "sal")
+df_obj$response = str_replace_all(df_obj$response, "salbre\\b", "sal")
+
+df_obj$response = str_replace_all(df_obj$response, "salokovrata\\b", "sal")
+df_obj$response = str_replace_all(df_obj$response, "salzavrat\\b", "sal")
+df_obj$response = str_replace_all(df_obj$response, "schal\\b", "sal")
+df_obj$response = str_replace_all(df_obj$response, "shal\\b", "sal")
+df_obj$response = str_replace_all(df_obj$response, "zutisal\\b", "sal")
+df_obj$response = str_replace_all(df_obj$response, "zutsal\\b", "sal")
+
+majorityNum <- df_obj %>%
+  filter(response == "sal") %>%
+  count()
+
+totalNum <- df_obj %>%
+  count()
+
+majorityNum/totalNum
+
+```
+
+After corrections, this meets the threshold. We should include it. 
+
+
+#### fryingpan
+```{r fryingpan, echo=FALSE}
+df_obj <- df %>% filter(utterance == "fryingpan")
+
+df_obj$response = str_replace_all(df_obj$response, "crvenatava\\b", "tava")
+df_obj$response = str_replace_all(df_obj$response, "tavi\\b", "tava")
+
+df_obj %>%
+  group_by(response) %>%
+  count()
+```
+
+Distribution of answers for Ekavica:
+```{r pan2, echo=FALSE}
+ekavica <- df_obj %>%
+  filter(subject_information.dialectOne == "ekavica") %>%
+  group_by(response) %>%
+  count()
+
+ekavica
+
+```
+
+This reaches the threshold:
+```{r pan3, echo=FALSE}
+majorityNum <- ekavica %>%
+  filter(response == "tiganj")
+
+totalNum <- sum(ekavica$n)
+
+majorityNum$n/totalNum
+
+```
+
+
+Distribution of answers for Ijekavica:
+```{r pan4, echo=FALSE}
+ijekavica <- df_obj %>%
+  filter(subject_information.dialectOne == "ijekavica") %>%
+  group_by(response) %>%
+  count()
+
+ijekavica
+
+```
+
+This reaches the threshold:
+```{r pan5, echo=FALSE}
+majorityNum <- ijekavica %>%
+  filter(response == "tava")
+
+totalNum <- sum(ijekavica$n)
+
+majorityNum$n/totalNum
+
+```
+
+
+
+If we group by country we get the same results:
+
+For Serbia:
+```{r pan6, echo=FALSE}
+cntry <- df_obj %>%
+  filter(country == "SRB") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "tiganj")
+
+totalNum <- sum(cntry$n)
+
+majorityNum$n/totalNum
+
+```
+
+For Croatia:
+```{r pan7, echo=FALSE}
+cntry <- df_obj %>%
+  filter(country == "HR") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "tava")
+
+totalNum <- sum(cntry$n)
+
+majorityNum$n/totalNum
+
+```
+
+For BIH:
+```{r pan8, echo=FALSE}
+cntry <- df_obj %>%
+  filter(country == "BIH") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "tava")
+
+totalNum <- sum(cntry$n)
+
+majorityNum$n/totalNum
+
+```
+
+Tava versus Tiganj is entirely dialectal. Despite being of two different genders, we can still include the word because we can reasonably assume that participants will use the one in their dialect.
+
+
+#### belt
+```{r belt, echo=FALSE}
+df_obj <- df %>% filter(utterance == "belt")
+
+
+df_obj %>%
+  group_by(response) %>%
+  count()
+```
+
+
+Is it dialectal?  
+  
+ekavica:
+```{r belt3, echo=FALSE}
+cntry <- df_obj %>%
+  filter(subject_information.dialectOne == "ekavica") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "kais")
+
+totalNum <- sum(cntry$n)
+
+majorityNum$n/totalNum
+
+```
+
+ijekavica:
+```{r belt4, echo=FALSE}
+cntry <- df_obj %>%
+  filter(subject_information.dialectOne == "ijekavica") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "kais")
+
+totalNum <- sum(cntry$n)
+
+(majorityNum$n)/totalNum
+
+```
+
+SRB:
+```{r belt5, echo=FALSE}
+cntry <- df_obj %>%
+  filter(country == "SRB") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "kais")
+
+totalNum <- sum(cntry$n)
+
+majorityNum$n/totalNum
+
+```
+
+HR:
+```{r belt6, echo=FALSE}
+cntry <- df_obj %>%
+  filter(country == "HR") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "remen")
+
+totalNum <- sum(cntry$n)
+
+(majorityNum$n)/totalNum
+
+```
+
+BIH:
+```{r belt7, echo=FALSE}
+cntry <- df_obj %>%
+  filter(country == "BIH") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "kais")
+
+totalNum <- sum(cntry$n)
+
+(majorityNum$n)/totalNum
+
+```
+  
+It does seem to be dialectal:
+SRB: Kais
+BIH: Kais
+HR: Mix of Remen, Kais, and Pojas
+
+HR really drove "remen", therefore it might be a subdialect in HR that has "remen" rather than kais
+
+If we combine kais and remen we get threshold:
+```{r belt2, echo=FALSE}
+df_obj$response = str_replace_all(df_obj$response, "kais\\b", "majority")
+df_obj$response = str_replace_all(df_obj$response, "remen\\b", "majority")
+
+majorityNum <- df_obj %>%
+  filter(response == "majority") %>%
+  count()
+
+totalNum <- df_obj %>%
+  count()
+
+majorityNum/totalNum
+```
+
+Kais and remen are both of the same gender, so we should include this item. 
+
+
+#### mouse
+```{r mouse, echo=FALSE}
+df_obj <- df %>% filter(utterance == "mouse")
+
+
+df_obj %>%
+  group_by(response) %>%
+  count()
+```
+
+If we clean up spelling errors we get:
+
+```{r mouse2, echo=FALSE}
+df_obj$response = str_replace_all(df_obj$response, "crvenmis\\b", "mis")
+df_obj$response = str_replace_all(df_obj$response, "mis,mis\\b", "mis")
+df_obj$response = str_replace_all(df_obj$response, "mis.\\b", "mis")
+df_obj$response = str_replace_all(df_obj$response, "mis.,\\b", "mis")
+df_obj$response = str_replace_all(df_obj$response, "misz\\b", "mis")
+df_obj$response = str_replace_all(df_obj$response, "plavimis\\b", "mis")
+
+
+majorityNum <- df_obj %>%
+  filter(response == "mis") %>%
+  count()
+
+totalNum <- df_obj %>%
+  count()
+
+majorityNum/totalNum
+```
+If we include compounds we get:
+
+```{r mouse3, echo=FALSE}
+df_obj$response = str_replace_all(df_obj$response, "crvenikompjutorskimis\\b", "mis")
+df_obj$response = str_replace_all(df_obj$response, "igrackimis\\b", "mis")
+df_obj$response = str_replace_all(df_obj$response, "kompjuterskimis\\b", "mis")
+df_obj$response = str_replace_all(df_obj$response, "kompterskimis\\b", "mis")
+df_obj$response = str_replace_all(df_obj$response, "misodkompjutera\\b", "mis")
+df_obj$response = str_replace_all(df_obj$response, "miszakomjuter\\b", "mis")
+df_obj$response = str_replace_all(df_obj$response, "miszakompijuter\\b", "mis")
+df_obj$response = str_replace_all(df_obj$response, "miszakompjuter\\b", "mis")
+df_obj$response = str_replace_all(df_obj$response, "miszaracunar\\b", "mis")
+df_obj$response = str_replace_all(df_obj$response, "optickimix\\b", "mis")
+
+majorityNum <- df_obj %>%
+  filter(response == "mis") %>%
+  count()
+
+totalNum <- df_obj %>%
+  count()
+
+majorityNum/totalNum
+```
+We get an overwhelming majority.
+
+I think we should include this word and just throw out trials where people use compounds. 
+
+#### coathanger
+```{r coath, echo=FALSE}
+df_obj$response = str_replace_all(df_obj$response, "bijelavesalica", "vesalica")
+
+df_obj <- df %>% filter(utterance == "coathanger")
+
+
+df_obj %>%
+  group_by(response) %>%
+  count()
+```
+
+Majority responses are vesalica and ofinger. 
+
+Let's see if that is based on dialect:
+Ekavica:
+```{r coath2, echo=FALSE}
+cntry <- df_obj %>%
+  filter(subject_information.dialectOne == "ekavica") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "ofinger")
+
+totalNum <- sum(cntry$n)
+
+majorityNum$n/totalNum
+
+```
+
+Ijekavica:
+```{r coath3, echo=FALSE}
+cntry <- df_obj %>%
+  filter(subject_information.dialectOne == "ijekavica") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "vesalica")
+
+totalNum <- sum(cntry$n)
+
+# adding a +1 because I can't get "bijelavesalica" to be counted as "vesalica" for some reason
+(majorityNum$n+ 1)/totalNum
+
+```
+
+SRB:
+```{r coath4, echo=FALSE}
+cntry <- df_obj %>%
+  filter(country == "SRB") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "ofinger")
+
+totalNum <- sum(cntry$n)
+
+majorityNum$n/totalNum
+
+```
+
+HR:
+```{r coath5, echo=FALSE}
+cntry <- df_obj %>%
+  filter(country == "HR") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "vesalica")
+
+totalNum <- sum(cntry$n)
+
+majorityNum$n/totalNum
+
+```
+
+BIH:
+```{r coath6, echo=FALSE}
+cntry <- df_obj %>%
+  filter(country == "BIH") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "vesalica")
+
+totalNum <- sum(cntry$n)
+
+majorityNum$n/totalNum
+
+```
+
+While this was classified as a masculine noun, maybe we should include it as a feminine noun and only look at croatian speakers, as that is the only time this reached threshold. However, I believe the majority of our participants will be serbian speakers (based on community outreach), so we might also consider not including this item. 
+
+
+
+#### rug
+```{r rug, echo=FALSE}
+
+df_obj <- df %>% filter(utterance == "rug")
+df_obj$response = str_replace_all(df_obj$response, "crvenitepih", "tepih")
+df_obj$response = str_replace_all(df_obj$response, "tapetic", "tapet")
+df_obj$response = str_replace_all(df_obj$response, "tepig", "tepih")
+
+
+df_obj %>%
+  group_by(response) %>%
+  count()
+```
+
+Let's combine the items: cilin, tapet, tepih
+```{r rug2, echo=FALSE}
+
+majorityNum <- df_obj %>%
+  filter(response == "tepih" | response == "tapet" | response == "cilin") %>%
+  count()
+
+totalNum <- df_obj %>%
+  count()
+
+majorityNum/totalNum
+```
+
+This doesn't reach threshold. Given the semantic differences with the other words, I don't think we should include it. 
+
+
+#### flower
+```{r flower, echo=FALSE}
+
+df_obj <- df %>% filter(utterance == "flower")
+df_obj$response = str_replace_all(df_obj$response, "cvece", "cvet")
+df_obj$response = str_replace_all(df_obj$response, "cvijet", "cvet")
+df_obj$response = str_replace_all(df_obj$response, "cvijece", "cvet")
+df_obj$response = str_replace_all(df_obj$response, "cvit", "cvet")
+df_obj$response = str_replace_all(df_obj$response, "plavicvijet", "cvet")
+df_obj$response = str_replace_all(df_obj$response, "zvet", "cvet")
+df_obj$response = str_replace_all(df_obj$response, "zvjet", "cvet")
+
+majorityNum <- df_obj %>%
+  filter(response == "cvet") %>%
+  count()
+
+totalNum <- df_obj %>%
+  count()
+
+majorityNum/totalNum
+```
+
+After cleaning up spellings, this reaches threshold. We should include it. 
+
+
+#### frame
+```{r frame, echo=FALSE}
+
+df_obj <- df %>% filter(utterance == "frame")
+df_obj$response = str_replace_all(df_obj$response, "zutiokvir", "okvir")
+
+
+df_obj %>%
+  group_by(response) %>%
+  count()
+```
+
+If we combine ram and okvir:
+```{r frame2, echo=FALSE}
+
+majorityNum <- df_obj %>%
+  filter(response == "okvir" | response == "ram") %>%
+  count()
+
+totalNum <- df_obj %>%
+  count()
+
+majorityNum/totalNum
+```
+
+It reaches threshold. Since ram and okvir are the same gender, we should include this word. 
+
+#### bike
+```{r bike, echo=FALSE}
+
+df_obj <- df %>% filter(utterance == "bike")
+df_obj$response = str_replace_all(df_obj$response, "zutiokvir", "okvir")
+
+
+df_obj %>%
+  group_by(response) %>%
+  count()
+```
+
+Let's look at it by dialect:
+
+ekavica:
+```{r bike2, echo=FALSE}
+cntry <- df_obj %>%
+  filter(subject_information.dialectOne == "ekavica") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "bicikl")
+
+totalNum <- sum(cntry$n)
+
+majorityNum$n/totalNum
+
+```
+
+ijekavica:
+```{r bike3, echo=FALSE}
+cntry <- df_obj %>%
+  filter(subject_information.dialectOne == "ijekavica") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "bicikl")
+
+totalNum <- sum(cntry$n)
+
+majorityNum$n/totalNum
+
+```
+
+SRB:
+```{r bike4, echo=FALSE}
+cntry <- df_obj %>%
+  filter(country == "SRB") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "bicikl")
+
+totalNum <- sum(cntry$n)
+
+majorityNum$n/totalNum
+
+```
+
+HR:
+```{r bike5, echo=FALSE}
+cntry <- df_obj %>%
+  filter(country == "HR") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "bicikl")
+
+totalNum <- sum(cntry$n)
+
+majorityNum$n/totalNum
+
+```
+
+BIH:
+```{r bike6, echo=FALSE}
+cntry <- df_obj %>%
+  filter(country == "BIH") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "biciklo")
+
+totalNum <- sum(cntry$n)
+
+majorityNum$n/totalNum
+
+```
+
+The masculine form reaches threshold for Croatia. The neuter form reaches threshold for BIH. No form reaches threshold for Serbia. I don't think we should include this term considering how much gender variation there is. 
+
+
+
+#### cap
+```{r cap, echo=FALSE}
+
+df_obj <- df %>% filter(utterance == "cap")
+df_obj$response = str_replace_all(df_obj$response, "kapa?", "kapa")
+
+
+df_obj %>%
+  group_by(response) %>%
+  count()
+```
+
+ekavica:
+```{r cap2, echo=FALSE}
+cntry <- df_obj %>%
+  filter(subject_information.dialectOne == "ekavica") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "kacket")
+
+totalNum <- sum(cntry$n)
+
+majorityNum$n/totalNum
+
+```
+
+ijekavica:
+```{r cap3, echo=FALSE}
+cntry <- df_obj %>%
+  filter(subject_information.dialectOne == "ijekavica") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "kapa")
+
+totalNum <- sum(cntry$n)
+
+(majorityNum$n + 2)/totalNum
+
+```
+
+SRB:
+```{r cap4, echo=FALSE}
+cntry <- df_obj %>%
+  filter(country == "SRB") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "kacket")
+
+totalNum <- sum(cntry$n)
+
+majorityNum$n/totalNum
+
+```
+
+HR:
+```{r cap5, echo=FALSE}
+cntry <- df_obj %>%
+  filter(country == "HR") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "kapa")
+
+totalNum <- sum(cntry$n)
+
+(majorityNum$n + 2)/totalNum
+
+```
+
+BIH:
+```{r cap6, echo=FALSE}
+cntry <- df_obj %>%
+  filter(country == "BIH") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "kapa")
+
+totalNum <- sum(cntry$n)
+
+(majorityNum$n + 2)/totalNum
+
+```
+
+
+Overall this seems to be dialectal: Croatia and BIH say "kapa" and Serbia says "kacket". Ekavica says "kacket" and Ijekavica says "kapa". However, as a native speaker of Serbian ekavica, I consider "kacket" (cap) to be a subset of "kapa" (hat). I think we should not include this word, based on the discussion I had with Brandon discussed above. 
+
+
+#### table
+```{r table, echo=FALSE}
+
+df_obj <- df %>% filter(utterance == "table")
+df_obj$response = str_replace_all(df_obj$response, "kapa?", "kapa")
+
+
+df_obj %>%
+  group_by(response) %>%
+  count()
+```
+
+Do not include. 38 people thought this was a bench and not a table. Perhaps find a better image of a table to include. 
+
+#### calculator
+```{r calculator, echo=FALSE}
+
+df_obj <- df %>% filter(utterance == "calculator")
+
+df_obj %>%
+  group_by(response) %>%
+  count()
+```
+
+If we sum up digitron and kalkulator we get: 
+
+```{r calculator 2, echo=FALSE}
+
+majorityNum <- df_obj %>%
+  filter(response == "digitron" | response == "kalkulator" | response == "kalkulator/digitron") %>%
+  count()
+
+totalNum <- df_obj %>%
+  count()
+
+majorityNum/totalNum
+```
+
+We reach threshold. Both words are of the same gender, we should include it. 
+
+Let's check whether the use of either item is dialectal:
+
+ekavica:
+```{r calc3, echo=FALSE}
+cntry <- df_obj %>%
+  filter(subject_information.dialectOne == "ekavica") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "digitron")
+
+totalNum <- sum(cntry$n)
+
+majorityNum$n/totalNum
+
+```
+
+ijekavica:
+```{r calc4, echo=FALSE}
+cntry <- df_obj %>%
+  filter(subject_information.dialectOne == "ijekavica") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "kalkulator")
+
+totalNum <- sum(cntry$n)
+
+(majorityNum$n)/totalNum
+
+```
+
+SRB:
+```{r calc5, echo=FALSE}
+cntry <- df_obj %>%
+  filter(country == "SRB") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "digitron")
+
+totalNum <- sum(cntry$n)
+
+majorityNum$n/totalNum
+
+```
+
+HR:
+```{r calc6, echo=FALSE}
+cntry <- df_obj %>%
+  filter(country == "HR") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "kalkulator")
+
+totalNum <- sum(cntry$n)
+
+(majorityNum$n)/totalNum
+
+```
+
+BIH:
+```{r calc7, echo=FALSE}
+cntry <- df_obj %>%
+  filter(country == "BIH") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "digitron")
+
+totalNum <- sum(cntry$n)
+
+(majorityNum$n)/totalNum
+
+```
+
+
+This is not dialectal. We see some preferences, especially for Serbians/ekavica speakers using "digitron". But this does not reach our 70% threshold for any dialect.
+
+Is it dependent on type of speaker?  
+Native:  
+```{r calc8, echo=FALSE}
+cntry <- df_obj %>%
+  filter(status == "native") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "digitron")
+
+totalNum <- sum(cntry$n)
+
+(majorityNum$n)/totalNum
+
+```
+  
+Heritage:    
+```{r calc8, echo=FALSE}
+cntry <- df_obj %>%
+  filter(status == "heritage") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "kalkulator")
+
+totalNum <- sum(cntry$n)
+
+(majorityNum$n)/totalNum
+
+```
+
+Heritage versus native speaker likewise doesn't come up as significant. 
+
+#### sword
+```{r sword, echo=FALSE}
+
+df_obj <- df %>% filter(utterance == "sword")
+df_obj$response = str_replace_all(df_obj$response, "belimac", "mac")
+df_obj$response = str_replace_all(df_obj$response, "mac-neceprihvatititrislovaovajvasinterface", "mac")
+df_obj$response = str_replace_all(df_obj$response, "mac,mac", "mac")
+df_obj$response = str_replace_all(df_obj$response, "mac.", "mac")
+df_obj$response = str_replace_all(df_obj$response, "mac(opet3slova)", "mac")
+df_obj$response = str_replace_all(df_obj$response, "metalnimac", "mac")
+df_obj$response = str_replace_all(df_obj$response, "zlatnimac", "mac")
+df_obj$response = str_replace_all(df_obj$response, "zutimac", "mac")
+
+
+df_obj %>%
+  group_by(response) %>%
+  count()
+```
+
+Mac (sword) and sablja (saber) are in competition, and both can be applied to this object. They are different genders, and both can be used in a single dialect (based on my own experience), so we should not include it. 
+
+#### ruler
+```{r ruler, echo=FALSE}
+
+df_obj <- df %>% filter(utterance == "ruler")
+df_obj$response = str_replace_all(df_obj$response, "lenijar", "lenjir")
+df_obj$response = str_replace_all(df_obj$response, "linijar", "lenjir")
+df_obj$response = str_replace_all(df_obj$response, "plavoravnalo", "ravnalo")
+
+df_obj %>%
+  group_by(response) %>%
+  count()
+```
+
+We have two competing words: ravnalo (neuter) and lenjir (masculine). Let's see if it is dialectal:
+
+ekavica:
+```{r ruler2, echo=FALSE}
+cntry <- df_obj %>%
+  filter(subject_information.dialectOne == "ekavica") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "lenjir")
+
+totalNum <- sum(cntry$n)
+
+majorityNum$n/totalNum
+
+```
+
+ijekavica:
+```{r ruler3, echo=FALSE}
+cntry <- df_obj %>%
+  filter(subject_information.dialectOne == "ijekavica") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "ravnalo")
+
+totalNum <- sum(cntry$n)
+
+(majorityNum$n + 2)/totalNum
+
+```
+
+SRB:
+```{r ruler4, echo=FALSE}
+cntry <- df_obj %>%
+  filter(country == "SRB") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "lenjir")
+
+totalNum <- sum(cntry$n)
+
+majorityNum$n/totalNum
+
+```
+
+HR:
+```{r ruler5, echo=FALSE}
+cntry <- df_obj %>%
+  filter(country == "HR") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "ravnalo")
+
+totalNum <- sum(cntry$n)
+
+(majorityNum$n + 2)/totalNum
+
+```
+
+BIH:
+```{r ruler6, echo=FALSE}
+cntry <- df_obj %>%
+  filter(country == "BIH") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "lenjir")
+
+totalNum <- sum(cntry$n)
+
+(majorityNum$n + 2)/totalNum
+
+```
+
+Ekavica has "lenjir" reach threshold. Ijekavica has nothing reach threshold. This is explained by the country distribution:
+
+SRB: Lenjir reaches threshold (ekavica)  
+HR: ravnalo reaches threshold (ijekavica)  
+BIH: lenjir reaches threshold (ijekavica)  
+
+It is clear that this word is dialectal. Since I assume most of our participants will be Serbian Ekavica speakers (given community outreach), I think we should include this word. 
+
+
+#### clock
+```{r clock, echo=FALSE}
+
+df_obj <- df %>% filter(utterance == "clock")
+df_obj$response = str_replace_all(df_obj$response, "lenijar", "lenjir")
+df_obj$response = str_replace_all(df_obj$response, "linijar", "lenjir")
+df_obj$response = str_replace_all(df_obj$response, "plavoravnalo", "ravnalo")
+
+df_obj %>%
+  group_by(response) %>%
+  count()
+```
+
+It seems like a split that is important is: budilnik versus budilica. Let's see if those two are dialectal. If so we could include this, if not then we skip it. 
+
+ekavica:
+```{r clock2, echo=FALSE}
+df_obj$response = str_replace_all(df_obj$response, "satbudilnik", "budilnik")
+
+cntry <- df_obj %>%
+  filter(subject_information.dialectOne == "ekavica") %>%
+  group_by(response) %>%
+  count() %>%
+  filter(response != "sat")
+
+cntry
+
+majorityNum <- cntry %>%
+  filter(response == "budilnik") 
+
+totalNum <- sum(cntry$n)
+
+majorityNum$n/totalNum
+
+```
+
+ijekavica:
+```{r clock3, echo=FALSE}
+df_obj$response = str_replace_all(df_obj$response, "budilica/sat", "budilica")
+
+cntry <- df_obj %>%
+  filter(subject_information.dialectOne == "ijekavica") %>%
+  group_by(response) %>%
+  count() %>%
+  filter(response != "sat")
+
+majorityNum <- cntry %>%
+  filter(response == "budilica")
+
+totalNum <- sum(cntry$n)
+
+(majorityNum$n)/totalNum
+
+```
+
+SRB:
+```{r clock4, echo=FALSE}
+cntry <- df_obj %>%
+  filter(country == "SRB") %>%
+  group_by(response) %>%
+  count() %>%
+  filter(response != "sat")
+
+majorityNum <- cntry %>%
+  filter(response == "budilnik")
+
+totalNum <- sum(cntry$n)
+
+majorityNum$n/totalNum
+
+```
+
+HR:
+```{r clock5, echo=FALSE}
+cntry <- df_obj %>%
+  filter(country == "HR") %>%
+  group_by(response) %>%
+  count() %>%
+  filter(response != "sat")
+
+majorityNum <- cntry %>%
+  filter(response == "budilica")
+
+totalNum <- sum(cntry$n)
+
+(majorityNum$n)/totalNum
+
+```
+
+BIH:
+```{r clock6, echo=FALSE}
+cntry <- df_obj %>%
+  filter(country == "BIH") %>%
+  group_by(response) %>%
+  count() %>%
+  filter(response != "sat")
+
+majorityNum <- cntry %>%
+  filter(response == "budilica")
+
+totalNum <- sum(cntry$n)
+
+(majorityNum$n)/totalNum
+
+```
+
+Overall it seems clear: everyone says "sat", HR say "budilica", SRB say "budilnik", and for BIH there is not enough data (1 instance of budilica and 2 of budilnik). Again, because I expect we will have majority Serbian participants, I think we should include this word. 
+
+#### dustpan
+```{r dustapn, echo=FALSE}
+
+df_obj <- df %>% filter(utterance == "dustpan")
+
+df_obj %>%
+  group_by(response) %>%
+  count()
+```
+
+This is such a mess, we shouldn't include it. 
+
+
+## Color Scheme 2
+The number of responses >= 70% threshold in color scheme 2 split up by gender:    
+```{r cs2, echo=FALSE}
+df_percent %>%
+  group_by(gender) %>%
+  filter(colorScheme == 2 & percent >= 0.7) %>%
+  summarise(n()) 
+```
+
+
+### Feminine
+
+Here are all the items in color scheme two that are feminine  
+```{r cs2fem, echo=FALSE}
+df_percent %>%
+  filter(colorScheme == 2 & gender == "F") %>%
+  arrange(percent)
+```
+
+As stated above, there are 13 feminine nouns that fall into category (1)  
+  
+**Fall above the 70% threshold**  
+- die  
+- bench  
+- fish  
+- cake  
+- box  
+- tie  
+- glove  
+- sock  
+- shell  
+- ribbon  
+- necklace  
+- slipper  
+- shovel  
+
+Words that fall above threshold after accounting for spelling errors:
+- purse: (majority other responses are tasna)
+
+Words that fall above the threshold if we combine the top words with the same gender:  
+- vase: {vazna, vaza}
+- boot: {cipela} (shoe) and {cizma} (boot)
+- bowl: {zdjela, cinija}
+- spoon: {kasika, zlica}
+- fork: {vilica, viljuska}
+- basket: {kosara, korpa}
+- whistle: {zvizdaljka, pistaljka}
+
+Words that we should include contingent on dialect:  
+- bonbon: {bonbona} (SRB/BIH) or {bonbon} (HR)
+
+words to consider due to compounds:
+- duck
+
+Words we should not include:  
+- camera
+- ladle
+- dresser
+
+
+Overall we should include: all words above threshold, all words that are of the same gender when combined fall above threshold  
+This gives us 21 target words  
+
+If we also want to include words contingent on dialect:
+this gives us: 22 target words
+
+If we also want to include words with compounds:
+this gives us: 23 target words
+
+Considerations for each words that fell below the 70% threshold are given below
+
+#### Vase
+```{r vase, echo=FALSE}
+
+df_obj <- df %>% filter(utterance == "vase")
+
+df_obj %>%
+  group_by(response) %>%
+  count()
+```
+
+ekavica:
+```{r vase3, echo=FALSE}
+cntry <- df_obj %>%
+  filter(subject_information.dialectOne == "ekavica") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "viljuska")
+
+totalNum <- sum(cntry$n)
+
+majorityNum$n/totalNum
+
+```
+
+ijekavica:
+```{r vase4, echo=FALSE}
+cntry <- df_obj %>%
+  filter(subject_information.dialectOne == "ijekavica") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "vilica")
+
+totalNum <- sum(cntry$n)
+
+(majorityNum$n)/totalNum
+
+```
+
+SRB:
+```{r vase5, echo=FALSE}
+cntry <- df_obj %>%
+  filter(country == "SRB") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "viljuska")
+
+totalNum <- sum(cntry$n)
+
+majorityNum$n/totalNum
+
+```
+
+HR:
+```{r vase6, echo=FALSE}
+cntry <- df_obj %>%
+  filter(country == "HR") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "vilica")
+
+totalNum <- sum(cntry$n)
+
+(majorityNum$n)/totalNum
+
+```
+
+BIH:
+```{r vase7, echo=FALSE}
+cntry <- df_obj %>%
+  filter(country == "BIH") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "viljuska")
+
+totalNum <- sum(cntry$n)
+
+(majorityNum$n)/totalNum
+
+```
+  
+Without vazna and just vaza
+```{r vase2, echo=FALSE}
+
+majorityNum <- df_obj %>%
+  filter(response == "vaza") %>%
+  count()
+
+totalNum <- df_obj %>%
+  count()
+
+majorityNum/totalNum
+```
+
+Reaches threshold when we combine different spellings of "vaza" and "vazna".
+
+No reason to combine the two, vaza reaches threshold. 
+
+
+#### Boot
+```{r boot, echo=FALSE}
+
+df_obj <- df %>% filter(utterance == "boot")
+
+df_obj %>%
+  group_by(response) %>%
+  count()
+```
+
+If we combind cipela and cizma:
+```{r boot2, echo=FALSE}
+
+df_obj$response = str_replace_all(df_obj$response, "cipela", "majority")
+df_obj$response = str_replace_all(df_obj$response, "cizma", "majority")
+df_obj$response = str_replace_all(df_obj$response, "smedjecizma", "majority")
+
+majorityNum <- df_obj %>%
+  filter(response == "majority") %>%
+  count()
+
+totalNum <- df_obj %>%
+  count()
+
+majorityNum/totalNum
+```
+
+We get an overwhelming majority. Cipela (shoe) is a superset of cizma (boot), but they are both of the same gender so it doesn't matter. We should include them.
+
+#### Bowl
+```{r bowl, echo=FALSE}
+
+df_obj <- df %>% filter(utterance == "bowl")
+
+df_obj %>%
+  group_by(response) %>%
+  count()
+```
+
+ekavica:
+```{r bowl3, echo=FALSE}
+cntry <- df_obj %>%
+  filter(subject_information.dialectOne == "ekavica") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "cinija")
+
+totalNum <- sum(cntry$n)
+
+majorityNum$n/totalNum
+
+```
+
+ijekavica:
+```{r bowl4, echo=FALSE}
+cntry <- df_obj %>%
+  filter(subject_information.dialectOne == "ijekavica") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "zdjela")
+
+totalNum <- sum(cntry$n)
+
+(majorityNum$n)/totalNum
+
+```
+
+SRB:
+```{r bowl5, echo=FALSE}
+cntry <- df_obj %>%
+  filter(country == "SRB") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "cinija")
+
+totalNum <- sum(cntry$n)
+
+majorityNum$n/totalNum
+
+```
+
+HR:
+```{r bowl6, echo=FALSE}
+cntry <- df_obj %>%
+  filter(country == "HR") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "zdjela")
+
+totalNum <- sum(cntry$n)
+
+(majorityNum$n)/totalNum
+
+```
+
+BIH:
+```{r bowl7, echo=FALSE}
+cntry <- df_obj %>%
+  filter(country == "BIH") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "zdjela")
+
+totalNum <- sum(cntry$n)
+
+(majorityNum$n)/totalNum
+
+```
+  
+
+This seems to be dialectal, but borderline not:
+HR: Zdjela
+BIH: Zdjela, tho not at threshold. This may be because 3 participants answered incorrectly (cup or plate), 2 answered with other words (cinija and posuda)
+SRB: Cinija, not at threshold because 5 people responded with zdjela, however SRB was the main driver in cinija responses
+
+  
+Combine zdela and cinija:
+```{r bowl2, echo=FALSE}
+
+df_obj$response = str_replace_all(df_obj$response, "cinija", "majority")
+df_obj$response = str_replace_all(df_obj$response, "zdjela", "majority")
+
+
+majorityNum <- df_obj %>%
+  filter(response == "majority") %>%
+  count()
+
+totalNum <- df_obj %>%
+  count()
+
+majorityNum/totalNum
+```
+
+We have a majority. Zdjela and Cinija are dialectal and mean the same thing, and are of the same gender. We should include it. 
+
+#### Duck
+```{r duck, echo=FALSE}
+
+df_obj <- df %>% filter(utterance == "duck")
+
+df_obj %>%
+  group_by(response) %>%
+  count()
+```
+
+Compounds make up:
+```{r duck2, echo=FALSE}
+
+df_obj$response = str_replace_all(df_obj$response, "gumenapatak", "compound")
+df_obj$response = str_replace_all(df_obj$response, "gumenapatka", "compound")
+df_obj$response = str_replace_all(df_obj$response, "gumenopace", "compound")
+df_obj$response = str_replace_all(df_obj$response, "ljubicastagumenapatka", "compound")
+df_obj$response = str_replace_all(df_obj$response, "patkaigracka", "compound")
+df_obj$response = str_replace_all(df_obj$response, "patkazakupanje", "compound")
+df_obj$response = str_replace_all(df_obj$response, "patkazakupanje/igracka", "compound")
+df_obj$response = str_replace_all(df_obj$response, "patkicagumena", "compound")
+
+
+majorityNum <- df_obj %>%
+  filter(response == "compound") %>%
+  count()
+
+totalNum <- df_obj %>%
+  count()
+
+majorityNum/totalNum
+```
+
+Compounds make up for 32% of the responses, and "duck" makes up X% of the responses. If we want compounds include this one, if we really don't want compounds, exclude it. 
+
+#### Spoon
+```{r spoon, echo=FALSE}
+
+df_obj <- df %>% filter(utterance == "spoon")
+
+df_obj %>%
+  group_by(response) %>%
+  count()
+```
+
+```{r spoon2, echo=FALSE}
+
+df_obj$response = str_replace_all(df_obj$response, "kaska", "kasika")
+df_obj$response = str_replace_all(df_obj$response, "ksiku", "kasika")
+df_obj$response = str_replace_all(df_obj$response, "ljubicastazlica", "zlica")
+
+
+majorityNum <- df_obj %>%
+  filter(response == "kasika" | response == "zlica") %>%
+  count()
+
+totalNum <- df_obj %>%
+  count()
+
+majorityNum/totalNum
+```
+
+"zlica" and "kasika" make up an overwhelming majority. Both are of the same gender and are determined by dialect, so we should include it. 
+
+
+#### Fork
+```{r fork, echo=FALSE}
+
+df_obj <- df %>% filter(utterance == "fork")
+
+df_obj %>%
+  group_by(response) %>%
+  count()
+```
+
+Is it dialectal?  
+  
+ekavica:
+```{r fork3, echo=FALSE}
+cntry <- df_obj %>%
+  filter(subject_information.dialectOne == "ekavica") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "viljuska")
+
+totalNum <- sum(cntry$n)
+
+majorityNum$n/totalNum
+
+```
+
+ijekavica:
+```{r fork4, echo=FALSE}
+cntry <- df_obj %>%
+  filter(subject_information.dialectOne == "ijekavica") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "vilica")
+
+totalNum <- sum(cntry$n)
+
+(majorityNum$n)/totalNum
+
+```
+
+SRB:
+```{r fork5, echo=FALSE}
+cntry <- df_obj %>%
+  filter(country == "SRB") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "viljuska")
+
+totalNum <- sum(cntry$n)
+
+majorityNum$n/totalNum
+
+```
+
+HR:
+```{r fork6, echo=FALSE}
+cntry <- df_obj %>%
+  filter(country == "HR") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "vilica")
+
+totalNum <- sum(cntry$n)
+
+(majorityNum$n)/totalNum
+
+```
+
+BIH:
+```{r fork7, echo=FALSE}
+cntry <- df_obj %>%
+  filter(country == "BIH") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "viljuska")
+
+totalNum <- sum(cntry$n)
+
+(majorityNum$n)/totalNum
+
+```
+  
+
+It is dialectal:
+BIH + SRB: Viljuska
+HR: it didn't reach threshold, but it is the main driver in vilica. I assume there are other subdialects that resulted in the other non vilica-viljuska answers, and the majority of them are in HR which made vilica not reach threshold. 
+
+If we combine "vilica" and "viljuska":
+```{r fork2, echo=FALSE}
+
+
+majorityNum <- df_obj %>%
+  filter(response == "vilica" | response == "viljuska") %>%
+  count()
+
+totalNum <- df_obj %>%
+  count()
+
+majorityNum/totalNum
+```
+
+"vilica" and "viljuska" make up an overwhelming majority. Both are of the same gender and are determined by dialect, so we should include it. 
+
+#### Camera
+```{r camera, echo=FALSE}
+
+df_obj <- df %>% filter(utterance == "camera")
+
+df_obj %>%
+  group_by(response) %>%
+  count()
+```
+
+The overwhelming responses are: fotoaparat (or some version of that) and kamera. They are of two different genders, so lets see if it is contingent on dialect:
+
+SRB:
+```{r camera2, echo=FALSE}
+cntry <- df_obj %>%
+  filter(country == "SRB") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "fotoaparat")
+
+totalNum <- sum(cntry$n)
+
+majorityNum$n/totalNum
+
+```
+
+HR:
+```{r camera3, echo=FALSE}
+cntry <- df_obj %>%
+  filter(country == "HR") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "fotoaparat")
+
+totalNum <- sum(cntry$n)
+
+(majorityNum$n)/totalNum
+
+```
+
+BIH:
+```{r camaera4, echo=FALSE}
+cntry <- df_obj %>%
+  filter(country == "BIH") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "kamera")
+
+totalNum <- sum(cntry$n)
+
+(majorityNum$n)/totalNum
+
+```
+
+Fotoaparat only comes out at threshold for HR speakers. However, from personal knowledge, kamera and fotoaparat can both be used in my dialect of BCS. Therefore participants might have both at their disposal. Therfore we should not include these items. 
+
+#### Basket
+```{r basket, echo=FALSE}
+
+df_obj <- df %>% filter(utterance == "basket")
+
+df_obj %>%
+  group_by(response) %>%
+  count()
+```
+
+
+Lets see if its dialectal:
+
+Ekavica::
+```{r basket3, echo=FALSE}
+cntry <- df_obj %>%
+  filter(subject_information.dialectOne == "ekavica") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "korpa")
+
+totalNum <- sum(cntry$n)
+
+majorityNum$n/totalNum
+
+```
+
+Ijekavica::
+```{r basket4, echo=FALSE}
+cntry <- df_obj %>%
+  filter(subject_information.dialectOne == "ijekavica") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "kosara")
+
+totalNum <- sum(cntry$n)
+
+majorityNum$n/totalNum
+
+```
+
+SRB:
+```{r basket5, echo=FALSE}
+
+cntry <- df_obj %>%
+  filter(country == "SRB") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "korpa")
+
+totalNum <- sum(cntry$n)
+
+(majorityNum$n)/totalNum
+
+```
+
+HR:
+```{r basket6, echo=FALSE}
+cntry <- df_obj %>%
+  filter(country == "HR") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "kosara")
+
+totalNum <- sum(cntry$n)
+
+(majorityNum$n)/totalNum
+
+```
+
+BIH:
+```{r basket7, echo=FALSE}
+cntry <- df_obj %>%
+  filter(country == "BIH") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "korpa")
+
+totalNum <- sum(cntry$n)
+
+(majorityNum$n)/totalNum
+
+```
+
+The korpa/kosara difference is clearly dialectal:  
+SRB/ekavica: Korpa  
+HR: Kosara  
+BIH: Korpa  
+
+
+Let's combine the top two: korpa and kosara
+```{r basket2, echo=FALSE}
+df_obj$response = str_replace_all(df_obj$response, "korpa/kosara", "korpa")
+df_obj$response = str_replace_all(df_obj$response, "zelenakosara", "kosara")
+
+majorityNum <- df_obj %>%
+  filter(response == "korpa" | response == "kosara") %>%
+  count()
+
+totalNum <- df_obj %>%
+  count()
+
+majorityNum/totalNum
+```
+
+We get an overwhelming majority. They both mean the same thing. Since both are the same gender, we should include them. 
+
+#### Bonbon
+```{r bonbon, echo=FALSE}
+
+df_obj <- df %>% filter(utterance == "bonbon")
+
+df_obj %>%
+  group_by(response) %>%
+  count()
+```
+
+The question is between bonbon (M) and bonbona (F). Is this dialectal?
+
+Ekavica::
+```{r bon2, echo=FALSE}
+cntry <- df_obj %>%
+  filter(subject_information.dialectOne == "ekavica") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "bombona")
+
+totalNum <- sum(cntry$n)
+
+majorityNum$n/totalNum
+
+```
+
+Ijekavica::
+```{r bon3, echo=FALSE}
+cntry <- df_obj %>%
+  filter(subject_information.dialectOne == "ijekavica") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "bombon")
+
+totalNum <- sum(cntry$n)
+
+majorityNum$n/totalNum
+
+```
+
+SRB:
+```{r bon4, echo=FALSE}
+
+cntry <- df_obj %>%
+  filter(country == "SRB") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "bombona")
+
+totalNum <- sum(cntry$n)
+
+(majorityNum$n)/totalNum
+
+```
+
+HR:
+```{r bon5, echo=FALSE}
+cntry <- df_obj %>%
+  filter(country == "HR") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "bombon")
+
+totalNum <- sum(cntry$n)
+
+(majorityNum$n)/totalNum
+
+```
+
+BIH:
+```{r bon6, echo=FALSE}
+cntry <- df_obj %>%
+  filter(country == "BIH") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "bombona")
+
+totalNum <- sum(cntry$n)
+
+(majorityNum$n)/totalNum
+
+```
+
+It seems clear that this is dialectal:
+SRB: bombona
+HR: bombon
+BIH: bombona
+
+We should include it. 
+
+#### whistle
+```{r whistle, echo=FALSE}
+
+df_obj <- df %>% filter(utterance == "whistle")
+
+df_obj %>%
+  group_by(response) %>%
+  count()
+```
+
+```{r whistle2, echo=FALSE}
+df_obj$response = str_replace_all(df_obj$response, "zvidaljka", "zvizdaljka")
+df_obj$response = str_replace_all(df_obj$response, "crnazvizdalica", "zvizdaljka")
+df_obj$response = str_replace_all(df_obj$response, "zvizdalica", "zvizdaljka")
+
+
+
+majorityNum <- df_obj %>%
+  filter(response == "zvizdaljka" | response == "pistaljka") %>%
+  count()
+
+totalNum <- df_obj %>%
+  count()
+
+majorityNum/totalNum
+```
+
+Pistaljka and Zvizdaljka together give the threshold and both are feminine. We shoudl include it.
+
+#### purse
+```{r purse, echo=FALSE}
+
+df_obj <- df %>% filter(utterance == "purse")
+
+df_obj %>%
+  group_by(response) %>%
+  count()
+```
+
+Does torba/torbica make it on its own:
+```{r purse2, echo=FALSE}
+df_obj$response = str_replace_all(df_obj$response, "ljubicastatorbica", "torba")
+df_obj$response = str_replace_all(df_obj$response, "torbe", "torba")
+df_obj$response = str_replace_all(df_obj$response, "torbica", "torba")
+df_obj$response = str_replace_all(df_obj$response, "torbiva", "torba")
+
+
+
+majorityNum <- df_obj %>%
+  filter(response == "torba") %>%
+  count()
+
+totalNum <- df_obj %>%
+  count()
+
+majorityNum/totalNum
+```
+Torba on its own meets the threshold. The competitor is "tasna" which is also feminine. So I think we shoudl include this one. 
+
+#### ladle
+```{r ladle, echo=FALSE}
+
+df_obj <- df %>% filter(utterance == "ladle")
+
+df_obj %>%
+  group_by(response) %>%
+  count()
+```
+
+This one is so over the place that I think we should not include it. 
+
+#### dresser
+```{r dresser, echo=FALSE}
+
+df_obj <- df %>% filter(utterance == "dresser")
+
+df_obj %>%
+  group_by(response) %>%
+  count()
+```
+
+It comes down to komoda and ormar. Both are of different genders, and both exist in my dialect which means that participants can choose between the two. Therefore, I think we should exclude this one. 
+
+### Masculine
+Here are all the items in color scheme two that are masculine  
+```{r cs2masc, echo=FALSE}
+df_percent %>%
+  filter(colorScheme == 2 & gender == "M") %>%
+  arrange(percent)
+```
+
+As stated above, there are 14 masculine nouns that fall into category (1)    
+   
+**Fall above the 70% threshold**  
+- calendar  
+- umbrella  
+- airplane  
+- hammer  
+- truck  
+- piano  
+- tent  
+- drum  
+- microcope  
+- helicopter  
+- shield  
+- robot  
+- luggage  
+- bandaid  
+  
+Words that fall above threshold after accounting for spelling errors:
+- knife  
+
+Words that fall above the threshold if we combine the top words with the same gender:  
+- radio: {radio, kasetefon}  
+- tanjir: {tanjir, tanjur} (! beware of "tacna" which appeared often and is feminine!!!!)
+- binoculars: {dvogled, dalekozor}
+- lock: {lokot, katanac}
+- lipstick: {karmin, ruz}
+- screwdriver: {srafciger, odvijac}
+
+Words that we should include contingent on dialect:  
+- razor: {brijac} (SRB/BIH), {britvica} (HR)
+- sponge: {sundjer} (SRB), {spuzva} (HR/BIH)
+- rope: {kanap} (SRB), {kanap/uze/spaga} (HR/BIH)
+
+Words contingent on compounds:
+- remote (60% without compounds)
+
+Words we should not include:
+
+
+Overall we should include: all words above threshold, all words that are of the same gender when combined fall above threshold  
+This gives us 21 target words
+
+If we also want to include words contingent on dialect:   
+this gives us: 24 target words  
+
+If we also want to include words with compounds:  
+this gives us: 25 target words  
+
+Considerations for each words that fell below the 70% threshold are given below
+  
+#### knife
+```{r knife, echo=FALSE}
+
+df_obj <- df %>% filter(utterance == "knife")
+
+df_obj %>%
+  group_by(response) %>%
+  count()
+```
+  
+```{r knife2, echo=FALSE}
+df_obj$response = str_replace_all(df_obj$response, "ljubicastnoz", "noz")
+df_obj$response = str_replace_all(df_obj$response, "narancastinoz", "noz")
+df_obj$response = str_replace_all(df_obj$response, "noz.", "noz")
+df_obj$response = str_replace_all(df_obj$response, "noz...", "noz")
+df_obj$response = str_replace_all(df_obj$response, "noz(opetnecerecod3slova)", "noz")
+df_obj$response = str_replace_all(df_obj$response, "noz...", "noz")
+df_obj$response = str_replace_all(df_obj$response, "nozh", "noz")
+df_obj$response = str_replace_all(df_obj$response, "nozz", "noz")
+df_obj$response = str_replace_all(df_obj$response, "ovojenoz", "noz")
+df_obj$response = str_replace_all(df_obj$response, "velikinoz", "noz")
+df_obj$response = str_replace_all(df_obj$response, "zeleninoz", "noz")
+
+
+
+majorityNum <- df_obj %>%
+  filter(response == "noz") %>%
+  count()
+
+totalNum <- df_obj %>%
+  count()
+
+majorityNum/totalNum
+``` 
+  
+"Noz" reaches threshold, include it. 
+  
+#### radio
+```{r radio, echo=FALSE}
+
+df_obj <- df %>% filter(utterance == "radio")
+
+df_obj %>%
+  group_by(response) %>%
+  count()
+```
+  
+Combine "kasetefon"/"kasetar" (Casette player) and radio (radio):
+```{r radio2, echo=FALSE}
+df_obj$response = str_replace_all(df_obj$response, "kazetofon", "kasetofon")
+df_obj$response = str_replace_all(df_obj$response, "ljubicastikasetofon", "kasetofon")
+df_obj$response = str_replace_all(df_obj$response, "radion", "radio")
+df_obj$response = str_replace_all(df_obj$response, "zeleniradio", "radio")
+
+
+majorityNum <- df_obj %>%
+  filter(response == "kasetofon" | response == "radio") %>%
+  count()
+
+totalNum <- df_obj %>%
+  count()
+
+majorityNum/totalNum
+``` 
+
+By compining "kasetofon" (cassette player) and radio (radio) we reach majority. I think we shoudl include it. 
+
+#### plate
+```{r plate, echo=FALSE}
+
+df_obj <- df %>% filter(utterance == "plate")
+
+df_obj %>%
+  group_by(response) %>%
+  count()
+```
+
+Account for spelling errors and "tanjur"/"tanjir" dialect difference:
+```{r plate2, echo=FALSE}
+df_obj$response = str_replace_all(df_obj$response, "narancastitanjir", "tanjir")
+df_obj$response = str_replace_all(df_obj$response, "tanir", "tanjir")
+df_obj$response = str_replace_all(df_obj$response, "tanjiric", "tanjir")
+df_obj$response = str_replace_all(df_obj$response, "tanjuriczasalicu", "tanjur")
+df_obj$response = str_replace_all(df_obj$response, "tanjuric", "tanjur")
+
+
+majorityNum <- df_obj %>%
+  filter(response == "tanjir" | response == "tanjur") %>%
+  count()
+
+totalNum <- df_obj %>%
+  count()
+
+majorityNum/totalNum
+``` 
+
+This reaches threshold. Keep in mind that the 9 other responses for "tacna" which is feminine, applies to this object, and is found in the dialect which has "tanjir". We should include this word.
+
+#### binoculars
+```{r bino, echo=FALSE}
+
+df_obj <- df %>% filter(utterance == "binoculars")
+
+df_obj %>%
+  group_by(response) %>%
+  count()
+```
+
+
+ekavica:
+```{r bino3, echo=FALSE}
+cntry <- df_obj %>%
+  filter(subject_information.dialectOne == "ekavica") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "dvogled")
+
+totalNum <- sum(cntry$n)
+
+majorityNum$n/totalNum
+
+```
+
+ijekavica:
+```{r bino4, echo=FALSE}
+cntry <- df_obj %>%
+  filter(subject_information.dialectOne == "ijekavica") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "dalekozor")
+
+totalNum <- sum(cntry$n)
+
+(majorityNum$n)/totalNum
+
+```
+
+SRB:
+```{r bino5, echo=FALSE}
+cntry <- df_obj %>%
+  filter(country == "SRB") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "dvogled")
+
+totalNum <- sum(cntry$n)
+
+majorityNum$n/totalNum
+
+```
+
+HR:
+```{r bino6, echo=FALSE}
+cntry <- df_obj %>%
+  filter(country == "HR") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "dalekozor")
+
+totalNum <- sum(cntry$n)
+
+(majorityNum$n)/totalNum
+
+```
+
+BIH:
+```{r bino7, echo=FALSE}
+cntry <- df_obj %>%
+  filter(country == "BIH") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "dvogled")
+
+totalNum <- sum(cntry$n)
+
+(majorityNum$n)/totalNum
+
+```
+  
+  
+I think it's dialectal:
+BIH + SRB: Reach threshold for Dvogled
+HR: doesn't quite reach threshold for Dalekozor, but it is the main driver for this form.
+
+If we combine dalekozor and dvogled:
+```{r bino2, echo=FALSE}
+
+majorityNum <- df_obj %>%
+  filter(response == "dalekozor" | response == "dvogled") %>%
+  count()
+
+totalNum <- df_obj %>%
+  count()
+
+majorityNum/totalNum
+``` 
+
+We reach threshold. Both are masculine. We should include it.
+
+#### remote
+```{r remomte, echo=FALSE}
+
+df_obj <- df %>% filter(utterance == "remote")
+
+df_obj %>%
+  group_by(response) %>%
+  count()
+```
+
+Spelling errors:
+```{r remote2, echo=FALSE}
+df_obj$response = str_replace_all(df_obj$response, "dalijniski", "daljinski")
+df_obj$response = str_replace_all(df_obj$response, "dalinski", "daljinski")
+df_obj$response = str_replace_all(df_obj$response, "daljenski", "daljinski")
+df_obj$response = str_replace_all(df_obj$response, "daljisnki", "daljinski")
+df_obj$response = str_replace_all(df_obj$response, "dalkjinski", "daljinski")
+df_obj$response = str_replace_all(df_obj$response, "daniljski", "daljinski")
+
+majorityNum <- df_obj %>%
+  filter(response == "daljinski") %>%
+  count()
+
+totalNum <- df_obj %>%
+  count()
+
+majorityNum/totalNum
+``` 
+
+Lets add in the compound:
+```{r remote3, echo=FALSE}
+df_obj$response = str_replace_all(df_obj$response, "dalinskiupravac", "compound")
+df_obj$response = str_replace_all(df_obj$response, "daljinskiupavljac", "compound")
+df_obj$response = str_replace_all(df_obj$response, "daljinskiupravljac", "compound")
+df_obj$response = str_replace_all(df_obj$response, "daljinskiupravljaczatv", "compound")
+df_obj$response = str_replace_all(df_obj$response, "daljinskiuprevljac", "compound")
+df_obj$response = str_replace_all(df_obj$response, "daljinskiuprvaljac", "compound")
+
+majorityNum <- df_obj %>%
+  filter(response == "daljinski" | response == "compound") %>%
+  count()
+
+totalNum <- df_obj %>%
+  count()
+
+majorityNum/totalNum
+``` 
+
+We reach threshold if we include compounds (remot control versus remote). I would advice against including this compound because it is especially long. 
+
+#### razor
+```{r razor, echo=FALSE}
+
+df_obj <- df %>% filter(utterance == "razor")
+df_obj$response = str_replace_all(df_obj$response, "britva", "britvica")
+df_obj$response = str_replace_all(df_obj$response, "ljubicastabritvica", "britvica")
+
+
+df_obj %>%
+  group_by(response) %>%
+  count()
+```
+It comes down to britva versus brijac:
+Lets look at it dialectally:
+
+Ekavica::
+```{r razor2, echo=FALSE}
+cntry <- df_obj %>%
+  filter(subject_information.dialectOne == "ekavica") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "brijac")
+
+totalNum <- sum(cntry$n)
+
+majorityNum$n/totalNum
+
+```
+
+Ijekavica::
+```{r razor3, echo=FALSE}
+cntry <- df_obj %>%
+  filter(subject_information.dialectOne == "ijekavica") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "britvica")
+
+totalNum <- sum(cntry$n)
+
+majorityNum$n/totalNum
+
+```
+
+SRB:
+```{r razor4, echo=FALSE}
+
+cntry <- df_obj %>%
+  filter(country == "SRB") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "brijac")
+
+totalNum <- sum(cntry$n)
+
+(majorityNum$n)/totalNum
+
+```
+
+HR:
+```{r razor5, echo=FALSE}
+cntry <- df_obj %>%
+  filter(country == "HR") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "britvica")
+
+totalNum <- sum(cntry$n)
+
+(majorityNum$n)/totalNum
+
+```
+Note that HR has 8 responses for "brijac" and 18 for "britvica", 5 for "zilet"  
+
+BIH:  
+```{r razor6, echo=FALSE}
+cntry <- df_obj %>%
+  filter(country == "BIH") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "brijac")
+
+totalNum <- sum(cntry$n)
+
+(majorityNum$n)/totalNum
+
+```
+
+SRB and BIH reach threshold for Brijac. HR is split betwen britvica and brijac, however accounts for the majority of cases for "britvica". I recommend including it. 
+
+
+#### lock
+```{r lock, echo=FALSE}
+
+df_obj <- df %>% filter(utterance == "lock")
+
+
+df_obj %>%
+  group_by(response) %>%
+  count()
+```
+
+
+ekavica:
+```{r lock3, echo=FALSE}
+cntry <- df_obj %>%
+  filter(subject_information.dialectOne == "ekavica") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "katanac")
+
+totalNum <- sum(cntry$n)
+
+majorityNum$n/totalNum
+
+```
+
+ijekavica:
+```{r lock4, echo=FALSE}
+cntry <- df_obj %>%
+  filter(subject_information.dialectOne == "ijekavica") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "lokot")
+
+totalNum <- sum(cntry$n)
+
+(majorityNum$n)/totalNum
+
+```
+
+SRB:
+```{r lock5, echo=FALSE}
+cntry <- df_obj %>%
+  filter(country == "SRB") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "katanac")
+
+totalNum <- sum(cntry$n)
+
+majorityNum$n/totalNum
+
+```
+
+HR:
+```{r lock6, echo=FALSE}
+cntry <- df_obj %>%
+  filter(country == "HR") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "lokot")
+
+totalNum <- sum(cntry$n)
+
+(majorityNum$n)/totalNum
+
+```
+
+BIH:
+```{r lock7, echo=FALSE}
+cntry <- df_obj %>%
+  filter(country == "BIH") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "katanac")
+
+totalNum <- sum(cntry$n)
+
+(majorityNum$n)/totalNum
+
+```
+  
+  
+Seems dialectal,
+SRB: Katanac
+HR: Lokot
+BIH: Preference for Katanac, only 1 person said lokot. Other responses were lock, lokna (clear google translate), and "brava" (doorknob). It would have reached threshold without these responses.
+
+
+
+Majority items are Lokot and Katanac. Together:
+```{r lock2, echo=FALSE}
+df_obj$response = str_replace_all(df_obj$response, "katanac/lokot", "lokot")
+
+
+majorityNum <- df_obj %>%
+  filter(response == "lokot" | response == "katanac") %>%
+  count()
+
+totalNum <- df_obj %>%
+  count()
+
+majorityNum/totalNum
+``` 
+
+Reaches threshold. I think we should include it since both are masculine.
+
+#### lipstick
+```{r lipstick, echo=FALSE}
+
+df_obj <- df %>% filter(utterance == "lipstick")
+
+
+df_obj %>%
+  group_by(response) %>%
+  count()
+```
+
+Combine karmin and ruz:
+```{r lipstick2, echo=FALSE}
+df_obj$response = str_replace_all(df_obj$response, "karmin/ruz", "ruz")
+df_obj$response = str_replace_all(df_obj$response, "ruz/karmin", "ruz")
+df_obj$response = str_replace_all(df_obj$response, "zeleniruz", "ruz")
+
+majorityNum <- df_obj %>%
+  filter(response == "ruz" | response == "karmin") %>%
+  count()
+
+totalNum <- df_obj %>%
+  count()
+
+majorityNum/totalNum
+``` 
+
+Ruz and karmin together reaches threshold. Both are masculine. We should include it.
+
+#### sponge
+```{r sponge, echo=FALSE}
+
+df_obj <- df %>% filter(utterance == "sponge")
+df_obj$response = str_replace_all(df_obj$response, "narancastaspuzva", "spuzva")
+df_obj$response = str_replace_all(df_obj$response, "spuzvica", "spuzva")
+df_obj$response = str_replace_all(df_obj$response, "sspuzzva", "spuzva")
+df_obj$response = str_replace_all(df_obj$response, "sunjer", "sundjer")
+df_obj$response = str_replace_all(df_obj$response, "synjer", "sundjer")
+
+df_obj %>%
+  group_by(response) %>%
+  count()
+```
+Spuzva versus sundjer --> is it dialectal?  
+  
+Ekavica::  
+```{r sponge2, echo=FALSE}
+cntry <- df_obj %>%
+  filter(subject_information.dialectOne == "ekavica") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "sundjer")
+
+totalNum <- sum(cntry$n)
+
+majorityNum$n/totalNum
+
+```
+
+Ijekavica::
+```{r sponge3, echo=FALSE}
+cntry <- df_obj %>%
+  filter(subject_information.dialectOne == "ijekavica") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "spuzva")
+
+totalNum <- sum(cntry$n)
+
+majorityNum$n/totalNum
+
+```
+
+SRB:
+```{r sponge4, echo=FALSE}
+
+cntry <- df_obj %>%
+  filter(country == "SRB") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "sundjer")
+
+totalNum <- sum(cntry$n)
+
+(majorityNum$n)/totalNum
+
+```
+
+HR:
+```{r sponge5, echo=FALSE}
+cntry <- df_obj %>%
+  filter(country == "HR") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "spuzva")
+
+totalNum <- sum(cntry$n)
+
+(majorityNum$n)/totalNum
+
+```
+
+BIH:  
+```{r sponge6, echo=FALSE}
+cntry <- df_obj %>%
+  filter(country == "BIH") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "spuzva")
+
+totalNum <- sum(cntry$n)
+
+(majorityNum$n)/totalNum
+
+```
+
+This is clearly dialectal:
+SRB: Sundjer (M)
+HR: spuzva (F)
+BIH: spuzva (F) --> although it did not reach threshold, 5 pariticipants from BIH did not recognize the object.
+
+I think we should keep it, but remember these dialect differences. 
+
+#### screwdriver
+```{r screwdriver, echo=FALSE}
+
+df_obj <- df %>% filter(utterance == "screwdriver")
+
+df_obj %>%
+  group_by(response) %>%
+  count()
+```
+
+
+
+ekavica:
+```{r screw3, echo=FALSE}
+cntry <- df_obj %>%
+  filter(subject_information.dialectOne == "ekavica") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "srafciger")
+
+totalNum <- sum(cntry$n)
+
+(majorityNum$n + 1)/totalNum
+
+```
+
+ijekavica:
+```{r screw4, echo=FALSE}
+cntry <- df_obj %>%
+  filter(subject_information.dialectOne == "ijekavica") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "srafciger")
+
+totalNum <- sum(cntry$n)
+
+(majorityNum$n + 1)/totalNum
+
+```
+
+SRB:
+```{r screw5, echo=FALSE}
+cntry <- df_obj %>%
+  filter(country == "SRB") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "srafciger")
+
+totalNum <- sum(cntry$n)
+
+(majorityNum$n)/totalNum
+
+```
+
+HR:
+```{r screw6, echo=FALSE}
+cntry <- df_obj %>%
+  filter(country == "HR") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "srafciger")
+
+totalNum <- sum(cntry$n)
+
+(majorityNum$n + 1)/totalNum
+
+```
+
+BIH:
+```{r screw7, echo=FALSE}
+cntry <- df_obj %>%
+  filter(country == "BIH") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "srafciger")
+
+totalNum <- sum(cntry$n)
+
+(majorityNum$n)/totalNum
+
+```
+  
+Dialectal stuff:    
+SRB: Srafciger  
+BIH: Srafciger  
+HR: split half half between srafciger and odvijac. But Odvijac is clearly driven by HR speakers.  
+  
+  
+Combining odvijac and srafciger:
+```{r screwdriver2, echo=FALSE}
+
+majorityNum <- df_obj %>%
+  filter(response == "srafciger" | response == "odvijac") %>%
+  count()
+
+totalNum <- df_obj %>%
+  count()
+
+majorityNum/totalNum
+``` 
+
+Reaches threshold. Srafciger and odvijac are dialectal, but both are masucline, so we should include it.
+
+
+#### rope
+```{r rope, echo=FALSE}
+
+df_obj <- df %>% filter(utterance == "rope")
+df_obj$response = str_replace_all(df_obj$response, "kanap/kanapac", "kanap")
+df_obj$response = str_replace_all(df_obj$response, "konop/konopac", "kanap")
+df_obj$response = str_replace_all(df_obj$response, "konac", "kanap")
+df_obj$response = str_replace_all(df_obj$response, "konipac", "kanap")
+df_obj$response = str_replace_all(df_obj$response, "konop", "kanap")
+df_obj$response = str_replace_all(df_obj$response, "konopac", "kanap")
+df_obj$response = str_replace_all(df_obj$response, "uze-neznamzastoovoneceprihvatitiodgovor", "uze")
+df_obj$response = str_replace_all(df_obj$response, "kanapac", "kanap")
+df_obj$response = str_replace_all(df_obj$response, "komaduzeta", "uze")
+df_obj$response = str_replace_all(df_obj$response, "zelenouze", "uze")
+df_obj$response = str_replace_all(df_obj$response, "zelenikanap", "uze")
+
+df_obj %>%
+  group_by(response) %>%
+  count()
+```
+It is between: uze, kanap, and uze. Let's see if they are dialectal
+
+Ekavica::  
+```{r rope2, echo=FALSE}
+cntry <- df_obj %>%
+  filter(subject_information.dialectOne == "ekavica") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "kanap")
+
+totalNum <- sum(cntry$n)
+
+majorityNum$n/totalNum
+
+```
+
+Ijekavica::
+```{r rope3, echo=FALSE}
+cntry <- df_obj %>%
+  filter(subject_information.dialectOne == "ijekavica") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "kanap")
+
+totalNum <- sum(cntry$n)
+
+majorityNum$n/totalNum
+
+```
+
+SRB:
+```{r rope4, echo=FALSE}
+
+cntry <- df_obj %>%
+  filter(country == "SRB") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "kanap")
+
+totalNum <- sum(cntry$n)
+
+(majorityNum$n)/totalNum
+
+```
+
+HR:
+```{r rope5, echo=FALSE}
+cntry <- df_obj %>%
+  filter(country == "HR") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "kanap")
+
+totalNum <- sum(cntry$n)
+
+(majorityNum$n)/totalNum
+
+```
+Kanap (12), uze (11), spaga (6)
+
+BIH:  
+```{r rope6, echo=FALSE}
+cntry <- df_obj %>%
+  filter(country == "BIH") %>%
+  group_by(response) %>%
+  count()
+
+majorityNum <- cntry %>%
+  filter(response == "kanap")
+
+totalNum <- sum(cntry$n)
+
+(majorityNum$n)/totalNum
+
+```
+
+Again this seems to be dialectal. If we think we will have majority serbian participants, we should include it.
+
+# Overall
+
+
+**If we only include words that meet threshold:**  
+CS1:  
+  - Fem: 16  
+  - Masc: 12  
+CS2:  
+  - Fem: 14  
+  - Masc: 15  
+  
+**If we include words with same gender terms**  
+CS1:  
+  - Fem: 19  
+  - Masc: 14  
+CS2:  
+  - Fem: 21  
+  - Masc: 21  
+   
+**If we include dialect dependent words**  
+CS1:  
+  - Fem: 21  
+  - Masc: 17  
+CS2:  
+  - Fem: 22  
+  - Masc: 24  
+    
+**If we include compounds**  
+CS1:  
+  - Fem: 22  
+  - Masc: 19  
+CS2:  
+  - Fem: 23  
+  - Masc: 25  
+  
+It really comes down to the main question: Do we want to include objects with multiple labels of different genders, and if so will that be compatible with our analysis?  
+   
+And do we want to include compounds (billiard ball and rubber duck)?  
+
+# Participant Responses
+
+If you want to see tables of the above information, uncomment the thing below:
+```{r objects, echo=FALSE}
+lapply(names(df_split), makePlots)
+```
+
+```{r output, include = FALSE}
+#rmarkdown::render()
+# library(rmarkdown)
+# 
+# render("analysis.Rmd", "pdf_document")
+
+```
+
+
+
+

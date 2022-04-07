@@ -1,0 +1,726 @@
+workerid,proliferate.condition,object,response,rt,slide_number_in_experiment,utterance,catch_trials,subject_information.age,subject_information.asses,subject_information.bcsPrimaryLanguageSchool,subject_information.comments,subject_information.country,subject_information.dialectOne,subject_information.dialectTwo,subject_information.education,subject_information.enjoyment,subject_information.fairprice,subject_information.firstLanguage,subject_information.gender,subject_information.liveInYugo,subject_information.otherLanguage,subject_information.problems,system.Browser,system.OS,system.screenH,system.screenW,time_in_minutes,error
+146,condition1,red_magnifyingglass,crvena,8882,2,magnifyingglass,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,blue_scarf,"
+plava",1843,3,scarf,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,orange_hammer,"
+narandasta",6083,4,hammer,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,orange_sponge,"
+narandzasta",5202,5,sponge,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,black_tie,"
+crna",2666,6,tie,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,green_remote,"
+zelena",2746,7,remote,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,black_fish,"
+crna",2257,8,fish,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,orange_basket,"
+narandasta",5359,9,basket,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,white_table,"
+bela",1899,10,table,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,red_lamp,"
+crvena",2020,11,lamp,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,orange_slipper,"
+narandasta",3369,12,slipper,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,blue_cap,"
+plava",1925,13,cap,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,black_die,"
+crna",1658,14,die,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,yellow_notebook,"
+zuta",2494,15,notebook,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,green_shield,"
+zelena",2016,16,shield,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,purple_umbrella,"
+ljubicasta",3714,17,umbrella,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,orange_lock,"
+narandasta",3501,18,lock,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,yellow_present,"
+zuta",2001,19,present,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,purple_drum,"
+ljubicasta",3754,20,drum,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,black_screwdriver,"
+crna",1762,21,screwdriver,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,red_armchair,"
+crvena",2584,22,armchair,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,purple_rope,"
+ljubicasta",7359,23,rope,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,yellow_ruler,"
+zuta",3526,24,ruler,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,black_boot,"
+crna",1642,25,boot,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,purple_bandaid,"
+ljubicasta",3905,26,bandaid,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,white_bracelet,"
+bela",2333,27,bracelet,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,orange_luggage,"
+narandasta",3065,28,luggage,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,blue_butterfly,"
+plava",1912,29,butterfly,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,orange_tv,"
+narandasta",5643,30,tv,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,orange_whistle,"
+narandasta",2859,31,whistle,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,yellow_dress,"
+zuta",2538,32,dress,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,white_shirt,"
+bela",3794,33,shirt,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,purple_microscope,"
+ljubicasta",3633,34,microscope,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,red_balloon,"
+crvena",2170,35,balloon,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,red_mug,"
+crvena",2202,36,mug,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,black_dresser,"
+crna",2092,37,dresser,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,white_rug,"
+bela",1746,38,rug,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,black_glove,"
+crna",1526,39,glove,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,red_cushion,"
+crvena",2178,40,cushion,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,blue_billiardball,"
+plava",2916,41,billiardball,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,green_truck,"
+zelena",2986,42,truck,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,black_duck,"
+crna",1715,43,duck,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,purple_robot,"
+ljubicasta",3287,44,robot,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,red_flower,"
+crvena",1892,45,flower,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,white_shoe,"
+bela",1722,46,shoe,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,purple_spoon,"
+ljubicasta",3177,47,spoon,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,orange_piano,"
+narandasta",2937,48,piano,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,white_calculator,"
+bela",2490,49,calculator,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,orange_razor,"
+narandasta",2998,50,razor,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,blue_phone,"
+plava",2832,51,phone,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,purple_tent,"
+ljubicasta",3164,52,tent,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,white_mouse,"
+bela",1935,53,mouse,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,green_lipstick,"
+zelena",1959,54,lipstick,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,orange_radio,"
+narandasta",2782,55,radio,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,red_chair,"
+crvena",2069,56,chair,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,green_sock,"
+zelena",2114,57,sock,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,green_bowl,"
+zelena",1821,58,bowl,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,white_door,"
+bela",1924,59,door,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,red_clock,"
+crvena",1895,60,clock,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,red_pencil,"
+crvena",2068,61,pencil,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,yellow_binder,"
+zuta",1741,62,binder,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,orange_vase,"
+narandasta",2857,63,vase,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,black_calendar,"
+crna",2007,64,calendar,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,blue_iron,"
+plava",3364,65,iron,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,yellow_fryingpan,"
+zuta",1673,66,fryingpan,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,purple_shell,"
+ljubicasta",3096,67,shell,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,red_belt,"
+crvena",2386,68,belt,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,green_airplane,"
+zelena",2422,69,airplane,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,blue_comb,"
+plava",2180,70,comb,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,blue_bucket,"
+plava",2032,71,bucket,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,purple_ladle,"
+ljubicasta",3176,72,ladle,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,white_crown,"
+bela",2062,73,crown,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,purple_shovel,"
+ljubicasta",3049,74,shovel,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,yellow_bed,"
+zuta",1758,75,bed,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,blue_key,"
+plava",1982,76,key,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,white_candle,"
+bela",2164,77,candle,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,purple_helicopter,"
+ljubicasta",3230,78,helicopter,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,purple_ribbon,"
+ljubicasta",3287,79,ribbon,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,red_yarn,"
+crvena",2286,80,yarn,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,blue_guitar,"
+plava",2218,81,guitar,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,blue_napkin,"
+plava",1768,82,napkin,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,white_coathanger,"
+bela",2376,83,coathanger,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,orange_box,"
+narandasta",3068,84,box,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,yellow_switch,"
+zuta",1699,85,switch,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,red_fence,"
+crvena",2181,86,fence,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,orange_necklace,"
+narandasta",3088,87,necklace,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,red_dustpan,"
+crvena",2301,88,dustpan,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,yellow_sword,"
+zuta",2212,89,sword,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,blue_ring,"
+plava",2087,90,ring,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,white_bike,"
+bela",2106,91,bike,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,green_bench,"
+zelena",2459,92,bench,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,black_cake,"
+crna",1930,93,cake,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,green_knife,"
+zelena",2334,94,knife,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,yellow_wallet,"
+zuta",1867,95,wallet,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,orange_camera,"
+narandasta",3465,96,camera,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,white_mask,"
+bela",3569,97,mask,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,blue_ornament,"
+plava",1902,98,ornament,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,black_plate,"
+crna",2045,99,plate,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,yellow_stapler,"
+zuta",1663,100,stapler,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,green_bonbon,"
+zelena",1785,101,bonbon,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,black_binoculars,"
+crna",1682,102,binoculars,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,black_fork,"
+crna",1624,103,fork,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,white_book,"
+bela",2225,104,book,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,black_purse,"
+crna",1937,105,purse,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+146,condition1,white_frame,"
+bela",1738,106,frame,[],22,Yes,engleski,,SRB,ekavica,štokavski,3,2,da,grcki,Female,preAndPostAge8,srpski,ne,Chrome,Mac,900,1440,5.40635,
+147,condition1,green_tv,zelene,9550,2,tv,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,green_knife,zelene,6887,3,knife,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,orange_bowl,"
+narandžaste",13327,4,bowl,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,yellow_pencil,"
+žute",5398,5,pencil,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,black_bandaid,"
+crne",3369,6,bandaid,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,red_book,"
+crvene",2574,7,book,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,blue_scarf,"
+plave",1869,8,scarf,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,orange_shovel,"
+narandžaste",7793,9,shovel,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,blue_mug,"
+plave",2299,10,mug,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,purple_ribbon,"
+ljubičaste",9137,11,ribbon,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,white_balloon,"
+bele",2648,12,balloon,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,green_bench,"
+zelene",3728,13,bench,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,orange_drum,"
+svetlo braon",12417,14,drum,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,orange_luggage,"
+narandžaste",14362,15,luggage,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,white_door,"
+bele",3097,16,door,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,green_slipper,zelene,5038,17,slipper,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,purple_helicopter,"
+ljubičaste",4819,18,helicopter,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,red_belt,"
+crvene",3436,19,belt,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,green_ladle,"
+zelene",4533,20,ladle,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,blue_ruler,"
+plave",2370,21,ruler,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,orange_razor,"
+braon",5003,22,razor,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,orange_die,"
+svetlo braon",9979,23,die,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,green_fork,"
+zelene",4101,24,fork,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,black_duck,"
+crne",3335,25,duck,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,green_shield,"
+zeleno-braon",8803,26,shield,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,green_robot,"
+zelene",3779,27,robot,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,red_frame,"
+crvene",2880,28,frame,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,white_yarn,"
+bele",1833,29,yarn,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,purple_piano,"
+ljubičaste",5332,30,piano,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,black_hammer,"
+crne",2583,31,hammer,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,blue_shoe,"
+plave",2021,32,shoe,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,blue_butterfly,"
+plavo-žute",7953,33,butterfly,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,purple_sponge,"
+ljubičastp-crne",11319,34,sponge,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,white_cushion,"
+bele",3678,35,cushion,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,white_lamp,"
+bele",1964,36,lamp,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,orange_binoculars,"
+narandžaste",8167,37,binoculars,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,yellow_armchair,"
+žute",7724,38,armchair,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,white_bracelet,"
+bele",1727,39,bracelet,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,red_binder,"
+crvene",2635,40,binder,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,white_crown,"
+bele",2095,41,crown,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,white_stapler,"
+bele",1762,42,stapler,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,purple_calendar,"
+ljubičaste",9020,43,calendar,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,blue_fryingpan,"
+plave",3120,44,fryingpan,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,blue_bike,"
+plave",3038,45,bike,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,red_mask,"
+crvene",10452,46,mask,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,green_glove,"
+zelene",2617,47,glove,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,white_coathanger,"
+bele",1839,48,coathanger,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,blue_cap,"
+plave",3009,49,cap,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,red_phone,"
+crvene",3074,50,phone,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,white_napkin,"
+bele",1873,51,napkin,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,blue_fence,"
+plave",2663,52,fence,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,black_basket,"
+crne",2344,53,basket,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,blue_wallet,"
+plave",2511,54,wallet,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,purple_radio,"
+ljubičaste",6351,55,radio,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,green_rope,"
+zelene",3618,56,rope,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,orange_dresser,"
+narandžaste",8107,57,dresser,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,yellow_dustpan,"
+žute",3416,58,dustpan,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,green_umbrella,"
+zelene",3060,59,umbrella,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,purple_cake,"
+ljubičaste",7739,60,cake,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,white_guitar,"
+bele",2217,61,guitar,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,green_fish,"
+zelene",5877,62,fish,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,white_present,"
+bele",4413,63,present,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,red_shirt,"
+crvene",2816,64,shirt,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,yellow_table,"
+žute",4561,65,table,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,purple_microscope,"
+ljubičaste",6306,66,microscope,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,red_magnifyingglass,crvene,4148,67,magnifyingglass,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,orange_remote,"
+narandžaste",7967,68,remote,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,green_tent,zelene,5318,69,tent,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,white_candle,"
+bele",1810,70,candle,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,yellow_notebook,"
+žute",3714,71,notebook,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,red_bed,crvene,5213,72,bed,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,purple_lock,"
+ljubičaste",4930,73,lock,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,blue_ring,"
+plave",2195,74,ring,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,orange_whistle,"
+narandžaste",6431,75,whistle,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,blue_ornament,"
+plave",2049,76,ornament,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,green_necklace,"
+zelene",3017,77,necklace,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,green_shell,"
+zelene",2228,78,shell,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,purple_purse,"
+ljubičaste",6264,79,purse,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,green_truck,"
+zelene",3021,80,truck,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,blue_flower,"
+plave",1784,81,flower,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,orange_spoon,"
+narandžaste",7311,82,spoon,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,yellow_rug,"
+žute",3309,83,rug,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,black_sock,"
+crne",2032,84,sock,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,orange_screwdriver,narandžasto-braon,14370,85,screwdriver,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,white_iron,"
+bele",3313,86,iron,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,orange_boot,"
+svetlo-braon",8337,87,boot,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,white_clock,"
+bele",1922,88,clock,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,blue_switch,"
+plave",2040,89,switch,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,white_dress,"
+bele",3031,90,dress,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,purple_tie,"
+ljubičaste",4122,91,tie,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,black_box,crne,4069,92,box,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,white_comb,"
+bele",2522,93,comb,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,red_chair,"
+crvene",5072,94,chair,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,green_airplane,"
+zelene",3259,95,airplane,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,orange_bonbon,"
+narandžaste",6210,96,bonbon,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,purple_lipstick,"
+ljubičaste",4887,97,lipstick,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,black_vase,"
+crne",3018,98,vase,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,yellow_billiardball,"
+žute",4297,99,billiardball,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,yellow_key,"
+žute",3189,100,key,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,orange_plate,"
+narandžaste",7027,101,plate,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,blue_bucket,"
+plave",1983,102,bucket,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,red_sword,"
+crvene",2449,103,sword,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,white_mouse,"
+bele",2653,104,mouse,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,black_camera,crne,4157,105,camera,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+147,condition1,red_calculator,"
+crvene",3459,106,calculator,[],23,Yes,Francuski,,SRB,ekavica,štokavski,3,1,Da,Srpski,Female,preAge8,"Engleski, Španski, Italijanski, Švedski, Kineski",Ne,Chrome,Windows,720,1280,10.996583333333334,
+145,condition1,black_tie,crno,31311,2,tie,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,blue_guitar,plava,13806,3,guitar,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,orange_basket,"
+
+naranča",12279,4,basket,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,yellow_napkin,zuta,19842,5,napkin,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,black_drum,crna,3846,6,drum,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,white_flower,bijela,11604,7,flower,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,black_bench,crna,2650,8,bench,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,yellow_ring,zuta,3798,9,ring,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,white_dustpan,bijela,4468,10,dustpan,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,black_whistle,crna,2792,11,whistle,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,orange_piano,smeda,4464,12,piano,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,black_microscope,crna,4055,13,microscope,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,orange_helicopter,narancasta,8026,14,helicopter,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,white_candle,bijela,4099,15,candle,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,yellow_ruler,zuta,3716,16,ruler,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,red_bed,crvena,5794,17,bed,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,yellow_armchair,zuta,3477,18,armchair,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,green_ladle,zelena,4373,19,ladle,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,red_comb,crvena,5800,20,comb,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,white_shoe,bijela,3902,21,shoe,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,yellow_cap,zuta,3069,22,cap,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,black_hammer,crna,2755,23,hammer,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,yellow_mask,zuta,4833,24,mask,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,white_sword,bijela,4776,25,sword,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,black_spoon,crna,3568,26,spoon,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,red_wallet,crvena,4327,27,wallet,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,green_die,zelena,5096,28,die,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,orange_dresser,narancasta,5146,29,dresser,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,white_phone,bijela,3735,30,phone,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,green_purse,zelena,4190,31,purse,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,white_lamp,bijela,4208,32,lamp,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,green_camera,zelena,3509,33,camera,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,orange_fork,narancasta,4807,34,fork,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,blue_chair,plava,3482,35,chair,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,yellow_fryingpan,zuta,3030,36,fryingpan,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,black_shield,crna,2944,37,shield,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,blue_shirt,palava,3767,38,shirt,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,black_razor,crna,2811,39,razor,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,orange_rope,narancasta,5130,40,rope,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,red_crown,crvena,25067,41,crown,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,yellow_present,zuta,3022,42,present,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,purple_shell,ljubicasta,6199,43,shell,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,red_dress,crvena,5798,44,dress,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,black_binoculars,crna,2892,45,binoculars,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,red_calculator,crvena,4509,46,calculator,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,white_switch,bijela,4926,47,switch,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,red_clock,crvena,4877,48,clock,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,blue_fence,plava,3665,49,fence,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,purple_necklace,ljubicasta,7454,50,necklace,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,yellow_frame,zuta,3036,51,frame,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,purple_umbrella,ljubicasta,11254,52,umbrella,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,black_vase,crna,2320,53,vase,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,white_balloon,bijela,8013,54,balloon,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,green_sponge,zelena,5447,55,sponge,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,black_robot,crna,2720,56,robot,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,white_butterfly,bijela,4692,57,butterfly,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,purple_glove,ljubicasta,5000,58,glove,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,purple_slipper,ljubicasta,3671,59,slipper,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,green_truck,zelena,4249,60,truck,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,red_yarn,crvena,4042,61,yarn,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,white_key,bijela,3199,62,key,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,blue_rug,plava,2377,63,rug,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,red_belt,crvena,3300,64,belt,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,blue_billiardball,plava,3853,65,billiardball,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,purple_box,ljubicasta,7879,66,box,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,green_luggage,zelena,4451,67,luggage,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,orange_remote,narancasta,4457,68,remote,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,orange_cake,narancasta,3559,69,cake,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,black_tv,crna,2763,70,tv,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,yellow_book,zuta,3445,71,book,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,green_bonbon,zelena,4675,72,bonbon,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,white_pencil,bijela,4423,73,pencil,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,white_binder,bijela,2781,74,binder,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,blue_bucket,plava,2487,75,bucket,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,yellow_mug,zuta,2869,76,mug,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,black_bandaid,crna,2412,77,bandaid,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,black_bowl,crna,2214,78,bowl,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,green_lipstick,zelena,3184,79,lipstick,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,purple_plate,ljubicasta,3994,80,plate,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,white_ornament,bijela,5385,81,ornament,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,red_table,crvena,8962,82,table,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,black_shovel,crna,3165,83,shovel,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,black_sock,crna,2124,84,sock,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,yellow_scarf,zuta,2680,85,scarf,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,black_duck,crna,2577,86,duck,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,yellow_bracelet,zuta,2753,87,bracelet,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,black_ribbon,crna,2580,88,ribbon,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,orange_tent,smeda,5559,89,tent,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,white_coathanger,bijela,4033,90,coathanger,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,purple_boot,ljubicasta,8620,91,boot,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,red_stapler,crvena,4123,92,stapler,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,blue_door,plava,3558,93,door,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,black_screwdriver,crna,2736,94,screwdriver,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,orange_calendar,narancasta,8972,95,calendar,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,black_fish,crna,2727,96,fish,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,yellow_mouse,zuta,2636,97,mouse,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,black_airplane,crna,2848,98,airplane,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,black_lock,crna,2420,99,lock,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,yellow_notebook,zuta,2761,100,notebook,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,yellow_bike,zuta,2327,101,bike,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,orange_knife,narancasta,4874,102,knife,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,yellow_iron,zuta,3476,103,iron,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,purple_radio,ljubicasta,5663,104,radio,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,white_cushion,bijela,4169,105,cushion,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+145,condition1,red_magnifyingglass,crvena,6089,106,magnifyingglass,[],34,Yes,njemački,,none,ijekavica,štokavski,3,0,da,njemački i hrvatski,Male,no,"engleski,  francuski",Ne,Chrome,Windows,1440,2560,14.064466666666666,
+148,condition1,white_present,belo sive,62757,2,present,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,yellow_comb,"zute
+",20345,3,comb,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,blue_dress,"
+plave",16270,4,dress,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,red_rug,"
+bordo",8205,5,rug,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,purple_screwdriver,"
+ljubicasto",6740,6,screwdriver,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,black_bench,"
+crne",4689,7,bench,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,red_dustpan,"
+crvena",12395,8,dustpan,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,blue_scarf,"
+plava",3827,9,scarf,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,black_tv,"
+crna",10969,10,tv,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,yellow_cap,"
+zuta",7954,11,cap,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,black_piano,"
+crna",4035,12,piano,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,green_camera,"
+zelena",4807,13,camera,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,yellow_bucket,"
+zuta",4534,14,bucket,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,white_door,"
+bela",10192,15,door,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,black_calendar,"
+crno bela",10813,16,calendar,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,blue_book,"
+plava",3153,17,book,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,green_cake,"
+zelena",8556,18,cake,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,purple_bonbon,"
+ljubicasta",4560,19,bonbon,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,green_plate,"
+zelena",3944,20,plate,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,orange_knife,"
+narandzasto braon",11306,21,knife,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,black_glove,"
+crna",3478,22,glove,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,white_flower,"
+bela",2657,23,flower,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,white_phone,"
+bela",2994,24,phone,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,yellow_guitar,"
+zuta",2984,25,guitar,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,green_razor,"
+zelena",3672,26,razor,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,white_fence,"
+bela",2737,27,fence,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,black_die,"
+crna",6799,28,die,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,blue_lamp,"
+plava",6103,29,lamp,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,green_shovel,"
+zelena",3684,30,shovel,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,yellow_wallet,"
+zuta",2811,31,wallet,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,yellow_table,"
+zuta",3105,32,table,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,black_spoon,"
+crna",3205,33,spoon,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,black_microscope,"
+crna",3437,34,microscope,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,blue_shoe,"
+plava",2299,35,shoe,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,yellow_key,"
+zuta",4389,36,key,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,purple_bowl,"
+ljubicasta",5617,37,bowl,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,white_pencil,"
+bela",3084,38,pencil,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,orange_truck,"
+zuta",3386,39,truck,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,yellow_mouse,"
+zuta",3356,40,mouse,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,yellow_chair,"
+zuta",3306,41,chair,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,black_ribbon,"
+crna",5052,42,ribbon,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,yellow_ornament,"
+zuta",9131,43,ornament,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,purple_shield,"
+ljubicasta",4911,44,shield,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,purple_rope,"
+ljubicasta",7077,45,rope,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,orange_remote,"
+narandzasta",6297,46,remote,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,blue_iron,"
+plava",5002,47,iron,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,white_balloon,"
+bela",2289,48,balloon,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,black_whistle,"
+crna",3722,49,whistle,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,orange_robot,"
+narandzasta",5469,50,robot,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,purple_vase,"
+ljubicasta",3747,51,vase,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,blue_binder,"
+plava",6655,52,binder,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,red_shirt,"
+crvena",3652,53,shirt,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,red_billiardball,"
+crvena",2925,54,billiardball,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,blue_napkin,"
+plava",2724,55,napkin,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,green_ladle,"
+zelena",3569,56,ladle,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,black_fork,"
+crna",3000,57,fork,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,blue_magnifyingglass,"
+plava",2596,58,magnifyingglass,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,purple_helicopter,"
+ljubicasta",4128,59,helicopter,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,green_bandaid,"
+zelena",3507,60,bandaid,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,purple_tie,"
+ljubicasta",5184,61,tie,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,white_notebook,"
+bela",15496,62,notebook,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,orange_basket,"
+narandzasta",5955,63,basket,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,yellow_mask,"
+zuta",7245,64,mask,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,red_ruler,"
+crvena",3978,65,ruler,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,black_binoculars,"
+crna",3444,66,binoculars,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,orange_boot,"
+braon",3938,67,boot,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,red_belt,"
+crvena",3160,68,belt,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,blue_armchair,"
+plava",3979,69,armchair,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,orange_purse,"
+braon",6174,70,purse,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,orange_radio,"
+braon",6150,71,radio,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,purple_lipstick,"
+ljubicasta",3785,72,lipstick,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,green_drum,"
+zeleno bela",5531,73,drum,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,black_shell,"
+crna",2465,74,shell,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,yellow_yarn,"
+zuta",3419,75,yarn,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,yellow_crown,"
+zuta",2758,76,crown,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,black_box,"
+crna",3340,77,box,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,purple_sponge,"
+ljubicasta",6279,78,sponge,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,orange_fish,braon,37092,79,fish,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,blue_clock,"
+plava",3738,80,clock,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,white_candle,"
+bela",3522,81,candle,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,orange_tent,"
+braon",4942,82,tent,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,white_bed,"
+bela",3848,83,bed,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,yellow_switch,"
+zuta",2421,84,switch,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,blue_coathanger,"
+plava",8278,85,coathanger,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,blue_cushion,"
+plava",3811,86,cushion,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,black_slipper,"
+crna",3227,87,slipper,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,green_luggage,"
+zelena",4432,88,luggage,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,yellow_ring,"
+zlatna",6068,89,ring,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,white_frame,"
+bela",2487,90,frame,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,orange_airplane,"
+braon",3588,91,airplane,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,orange_necklace,"
+narandzasta",5615,92,necklace,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,yellow_calculator,"
+zuta",4236,93,calculator,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,black_umbrella,"
+crna",3190,94,umbrella,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,green_dresser,"
+zelena",2973,95,dresser,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,green_hammer,"
+zelena",3957,96,hammer,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,white_stapler,"
+bela",2333,97,stapler,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,blue_bracelet,"
+plava",2397,98,bracelet,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,purple_lock,"
+ljubicasta",5009,99,lock,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,blue_fryingpan,"
+plava",2684,100,fryingpan,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,red_sword,"
+crvena",3576,101,sword,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,white_butterfly,"
+plava",4179,102,butterfly,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,white_mug,"
+bela",2315,103,mug,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,orange_duck,"
+narandzasta",4962,104,duck,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,white_bike,"
+siva",5026,105,bike,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
+148,condition1,purple_sock,"
+ljubicasta",3765,106,sock,[],32,Yes,srpski,,HR,ekavica,štokavski,2,2,da,Srpski,Male,preAge8,engleski i holandski,ne,Chrome,Windows,768,1366,11.606083333333334,
