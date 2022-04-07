@@ -111,7 +111,7 @@ plot <-
   
 plot
 
-ggsave(filename = "colorAndNounUse.pdf", plot = plot,
+ggsave(filename = "viz/colorAndNounUse.pdf", plot = plot,
        width = 6, height = 3.5, units = "in", device = "pdf")
 
 # Noun use by Scenario
@@ -160,7 +160,7 @@ plotNoun <- ggplot(df_noun, aes(x = genderCondition, y = nounUse, group = colorC
 
 plotNoun
 
-ggsave(filename = "nounUse.pdf", plot = plotNoun,
+ggsave(filename = "viz/nounUse.pdf", plot = plotNoun,
        width = 6, height = 2.5, units = "in", device = "pdf")
 
 #############
@@ -178,20 +178,39 @@ d <- d %>% mutate(colorCondition = fct_relevel(colorCondition, "redundant"))
 d <- d %>% mutate(genderCondition = fct_relevel(genderCondition, "match"))
 
 # Center the variables
-contrasts(d$colorCondition) <- contr.sum(2)
-contrasts(d$genderCondition) <- contr.sum(2)
+d$ccolorCondition <- as.numeric(d$colorCondition) - mean(as.numeric(d$colorCondition))
+d$cgenderCondition <- as.numeric(d$genderCondition) - mean(as.numeric(d$genderCondition))
 
 # Run the models
-BCSColorModel <- glmer(colorMentioned ~ colorCondition*genderCondition + (1 + colorCondition*genderCondition|gameId) + (1 + colorCondition*genderCondition|target), data = d, family = binomial)
 
-#- take out interaction term
-BCSColorModel <- glmer(colorMentioned ~ colorCondition + genderCondition + (1 + colorCondition|gameId) + (1 + genderCondition|gameId) + (1 + colorCondition|target) + (1 + genderCondition|target), data = d, family = binomial)
+# contrasts
+contrasts(d$colorCondition)
+contrasts(d$genderCondition)
 
+<<<<<<< HEAD
 BCSNounModel <- glmer(nounMentioned ~ colorCondition*genderCondition + (1 + colorCondition*genderCondition|gameId) + (1 + colorCondition*genderCondition|target), data = d, family = binomial)
+=======
+# color use model, only random intercepts
+BCSColorModel <- glmer(colorMentioned ~ ccolorCondition*cgenderCondition + (1|gameId) + (1|target), data = d, family = binomial)
 
- # Model outputs
 summary(BCSColorModel)
+
+# color use model, full RE structure
+BCSColorModel <- glmer(colorMentioned ~ ccolorCondition*cgenderCondition + (1 + ccolorCondition*cgenderCondition|gameId) + (1 + ccolorCondition*cgenderCondition|target), data = d, family = binomial)
+>>>>>>> ae99190c8f4fce0063f5b6aba5615830490e8d2a
+
+summary(BCSColorModel)
+
+# noun use model, only random intercepts
+BCSNounModel <- glmer(nounMentioned ~ ccolorCondition*cgenderCondition + (1|gameId) + (1|target), data = d, family = binomial)
+
 summary(BCSNounModel)
+
+# noun use model, full RE structure
+BCSNounModel <- glmer(nounMentioned ~ ccolorCondition*cgenderCondition + (1 + ccolorCondition*cgenderCondition|gameId) + (1 + ccolorCondition*cgenderCondition|target), data = d, family = binomial)
+
+summary(BCSNounModel)
+
 
 
 # intercept --> overall baseline differences in color use

@@ -8,6 +8,9 @@ theme_set(theme_bw(18))
 this.dir <- dirname(rstudioapi::getSourceEditorContext()$path)
 setwd(this.dir)
 
+# color-blind-friendly palette
+cbPalette <- c("#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#CC79A7")
+
 source("../_shared/regressionHelpers.r")
 
 # READ DATA
@@ -80,7 +83,13 @@ ggsave(file="viz/bydyadhalf.pdf",width=8,height=4)
 
 d_english <- read_delim("../../data/Degen2020/data_exp1.csv", delim = "\t")
 d_english$Language <- "English"
+d_english = d_english %>% 
+  mutate(NounMentioned = case_when(typeMentioned == TRUE ~ "noun",
+                                   TRUE ~ "no noun"))
 d$Language <- "Spanish"
+d = d %>% 
+  mutate(NounMentioned = case_when(redWordOrder == "no noun" ~ "no noun",
+                                 TRUE ~ "noun"))
 
 d <- d %>%
   full_join(d_english)
@@ -145,5 +154,48 @@ plot(m.b.full, variable = c("cSufficientProperty"))
 # AUXILIARY GLMER ANALYSIS
 m.glm = glmer(redUtterance ~ cSufficientProperty*cSceneVariation*cLanguage + (1+cSufficientProperty*cSceneVariation|gameid) + (1+cSufficientProperty*cSceneVariation*cLanguage|clickedType), data=centered, family="binomial")
 summary(m.glm)
+
+# PLOT ENGLISH AND SPANISH DATA SIDE BY SIDE
+agr = d %>%
+  select(redundant,RedundantProperty,NumDistractors,SceneVariation,Language) %>%
+  gather(Utterance,Mentioned,-RedundantProperty,-NumDistractors,-SceneVariation,-Language) %>%
+  group_by(Utterance,RedundantProperty,NumDistractors,SceneVariation,Language) %>%
+  summarise(Probability=mean(Mentioned),ci.low=ci.low(Mentioned),ci.high=ci.high(Mentioned)) %>%
+  ungroup() %>%
+  mutate(YMin = Probability - ci.low, YMax = Probability + ci.high, Distractors=as.factor(NumDistractors))
+
+ggplot(agr, aes(x=SceneVariation,y=Probability,shape=Distractors,group=1,color=Language)) +
+  geom_point(size=3) +
+  geom_errorbar(aes(ymin=YMin,ymax=YMax),width=.03) +
+  xlab("Scene variation") +
+  ylab("Probability of redundant adjective") +
+  scale_shape_discrete(name = "Number of\ndistractors") +
+  scale_color_manual(values=cbPalette[1:2]) +
+  facet_wrap(~RedundantProperty)
+  # facet_grid(Language~RedundantProperty)
+ggsave(file="viz/scenevariation_bylanguage.pdf",width=8,height=4)
+ggsave(file="viz/scenevariation_bylanguage.jpg",width=11,height=4.5)
+
+table(d$NounMentioned,d$Language)
+prop.table(table(d$NounMentioned,d$Language),mar=c(2))
+
+# PLOT ENGLISH AND SPANISH DATA SIDE BY SIDE BY NOUN MENTION
+agr = d %>%
+  select(redundant,RedundantProperty,NumDistractors,SceneVariation,Language,NounMentioned) %>%
+  gather(Utterance,Mentioned,-RedundantProperty,-NumDistractors,-SceneVariation,-Language,-NounMentioned) %>%
+  group_by(Utterance,RedundantProperty,NumDistractors,SceneVariation,Language,NounMentioned) %>%
+  summarise(Probability=mean(Mentioned),ci.low=ci.low(Mentioned),ci.high=ci.high(Mentioned)) %>%
+  ungroup() %>%
+  mutate(YMin = Probability - ci.low, YMax = Probability + ci.high, Distractors=as.factor(NumDistractors))
+
+ggplot(agr, aes(x=SceneVariation,y=Probability,shape=Distractors,group=1,color=Language)) +
+  geom_point() +
+  geom_errorbar(aes(ymin=YMin,ymax=YMax),width=.03) +
+  xlab("Scene variation") +
+  ylab("Probability of redundant modifier") +
+  scale_shape_discrete(name = "Number of\ndistractors") +
+  scale_color_manual(values=cbPalette[1:2]) +
+  facet_grid(NounMentioned~RedundantProperty)
+ggsave(file="viz/scenevariation_bylanguage_bynounmention.pdf",width=8,height=6)
 
 
