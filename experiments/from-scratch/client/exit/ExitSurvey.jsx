@@ -52,6 +52,7 @@ export default class ExitSurvey extends React.Component {
 		whereLive: "",
 		whereGrowUp: "",
 		spanishCommunitySpecify: "",
+		amazon: "",
 	};
 
 	handleChange = (event) => {
@@ -104,6 +105,7 @@ export default class ExitSurvey extends React.Component {
 			whereLive,
 			whereGrowUp,
 			spanishCommunitySpecify,
+			amazon,
 			yugoslavCountryYears,
 			yugoslavCountry,
 			languageAtHomeBCS,
@@ -235,11 +237,50 @@ export default class ExitSurvey extends React.Component {
 			srb: "Srbija"
 		};
 
+		const amazonOptions = {
+			usa: "Sjedinjene Američke Države (USA) ",
+			uk: "Velika Britanija (UK)",
+			ca: "Kanada",
+			de: "Nemačka",
+			it: "Italija",
+			fr: "Francuska",
+			es: "Španija",
+			au: "Australija"
+		};
+
 		return (
 			<div dir="auto">
 				{" "}
 				<h1>{gameTextInLanguage.SURVEY_line1}</h1>
 				<h3>{gameTextInLanguage.SURVEY_line2}</h3>
+
+				{game.treatment.gameLanguage == "BCS" ? (
+					<div className="pt-form-content">
+						<b>
+							{"Za naknadu, ja hoću Amazon gift karticu za sledeću zemlju:"}
+						</b>
+						<HTMLSelect
+							name="amazon"
+							id="amazon"
+							onChange={this.handleChange}
+							value={amazon}
+						>
+							<option selected>
+								{gameTextInLanguage.SURVEY_selectOption}
+							</option>
+							{_.map(
+								amazonOptions,
+								(name, key) => (
+									<option key={key} value={key}>
+										{name}
+									</option>
+								)
+							)}
+						</HTMLSelect>
+					</div>
+				) : null}
+
+
 				<h3>{gameTextInLanguage.SURVEY_line3}</h3>
 				<form onSubmit={this.handleSubmit}>
 					<span> </span>
@@ -313,6 +354,7 @@ export default class ExitSurvey extends React.Component {
 
 						<div className="pt-form-group">
 
+						<br></br>
 						<div className="form-line">
 							<div>
 								<label htmlFor="languageAtHomeBCS">

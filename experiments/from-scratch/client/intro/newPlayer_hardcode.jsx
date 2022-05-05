@@ -18,6 +18,11 @@ export default class PlayerId extends Component {
         handleNewPlayer(id);
     };
 
+    // for BCS radio button
+    setValue(event) {
+      console.log(event.target.value);
+    };
+
     render() {
         const { id } = this.state;
         const urlParams = new window.URL(document.location).searchParams;
@@ -48,6 +53,7 @@ export default class PlayerId extends Component {
                                 ? "Por favor, ingrese su ID de Prolific."
                                 : "Please enter your Prolific ID:"}
                         </p>
+                        <br/>
 
                         <input
                             type="text"
@@ -59,6 +65,19 @@ export default class PlayerId extends Component {
                             required
                             autoComplete="off"
                         />
+
+                        <p>
+                            {batchGroupName.includes("bcs") ||
+                                  batchGroupName.includes("BCS") ||
+                                  batchGroupName.includes("Bcs") ? (
+                                  <div>
+                                    <br></br>Molimo vas unesite email adresu na koju možemo da vam pošaljemo Amazon gift karticu.
+                                    <br></br>Da biste dobili ispravnu karticu, na kraju studije, molimo vas odgovorite na prvo pitanje.
+                                    <br></br>Mi nudimo Amazon gift kartice za sledeće zemlje: SAD (USA), Velika Britanija (UK), Kanada, Nemačka, Italija, Francuska, Španija, Australija.
+                                  </div>
+                                  ) : null}
+
+                        </p>
 
                         <p
                             style={{ marginTop: "1cm" }}
@@ -76,6 +95,10 @@ export default class PlayerId extends Component {
                                     : batchGroupName.includes("Spanish") ||
                                       batchGroupName.includes("spanish")
                                     ? "Siguiente"
+                                    : batchGroupName.includes("bcs") ||
+                                      batchGroupName.includes("BCS") ||
+                                      batchGroupName.includes("Bcs")
+                                    ? "Sledeća"
                                     : "Next"}
                             </button>
                         </p>
