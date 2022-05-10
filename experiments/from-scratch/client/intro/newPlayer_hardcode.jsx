@@ -44,7 +44,7 @@ export default class PlayerId extends Component {
                                 : batchGroupName.includes("bcs") ||
                                   batchGroupName.includes("BCS") ||
                                   batchGroupName.includes("Bcs")
-                                ? "Unesite email adresu:"
+                                ? "Unesite email adresu ili Prolific ID:"
                                 : batchGroupName.includes("arabic") ||
                                   batchGroupName.includes("Arabic")
                                 ? "الرجاء إدخال عنوان بريدك الإلكتروني حتى نتمكن من تعويضك في نهاية الدراسة. (سيتم استخدام عنوان بريدك الإلكتروني فقط للحصول على التعويض، وستكون أجوبتك جميعها مجهولة المصدر)."
@@ -72,7 +72,8 @@ export default class PlayerId extends Component {
                                   batchGroupName.includes("Bcs") ? (
                                   <div>
                                     <br></br>Molimo vas unesite email adresu na koju možemo da vam pošaljemo Amazon gift karticu.
-                                    <br></br>Da biste dobili ispravnu karticu, na kraju studije, molimo vas odgovorite na prvo pitanje.
+                                    <br></br>Ako imate Prolific ID, unesite taj broj a <b>ne</b> vašu email adresu.
+                                    <br></br>Da biste dobili ispravnu Amazon karticu, na kraju studije, molimo vas odgovorite na prvo pitanje.
                                     <br></br>Mi nudimo Amazon gift kartice za sledeće zemlje: SAD (USA), Velika Britanija (UK), Kanada, Nemačka, Italija, Francuska, Španija, Australija.
                                   </div>
                                   ) : null}
