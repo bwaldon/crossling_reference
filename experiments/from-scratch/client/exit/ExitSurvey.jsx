@@ -53,6 +53,9 @@ export default class ExitSurvey extends React.Component {
 		whereGrowUp: "",
 		spanishCommunitySpecify: "",
 		amazon: "",
+		relationship: "",
+		relationshipOther: "",
+		familiarityRate: ""
 	};
 
 	handleChange = (event) => {
@@ -113,7 +116,10 @@ export default class ExitSurvey extends React.Component {
 			languageAtSchoolBCS,
 			currentOutsideHomeLanguageBCS,
 			dialectOneBCS,
-			dialectTwoBCS
+			dialectTwoBCS,
+			relationship,
+			relationshipOther,
+			familiarityRate
 		} = this.state;
 
 		const { game } = this.props;
@@ -248,9 +254,40 @@ export default class ExitSurvey extends React.Component {
 			au: "Australija"
 		};
 
+		const amazonOptionsEng = {
+			usa: "USA",
+			uk: "UK",
+			ca: "Canada",
+			de: "Germany",
+			it: "Italy",
+			fr: "France",
+			es: "Spain",
+			au: "Australia"
+		};
+
+		const relationshipOptions = {
+			closeFriends: "Close friends",
+			friends: "Friends",
+			spouse: "spouse",
+			family: "Family member (e.g. parent, sibling)",
+			acquiantance: "Acquiantance",
+			none: "I do not know my partner",
+			other: "other"
+		};
+
+		const familiarityRateOptions = {
+			daily: "daily",
+			severalWeekly: "about several times a week",
+			onceWeekly: "about once a week",
+			severalMonthl: "about several times a month",
+			onceMonth: "about once a month",
+			rarely: "rarely / less than once a month",
+			never: "I have never talked to this person before"
+		};
+
+
 		return (
 			<div dir="auto">
-				{" "}
 				<h1>{gameTextInLanguage.SURVEY_line1}</h1>
 				<h3>{gameTextInLanguage.SURVEY_line2}</h3>
 
@@ -280,8 +317,111 @@ export default class ExitSurvey extends React.Component {
 					</div>
 				) : null}
 
+				{game.treatment.gameLanguage == "English" &
+				 game.treatment.sceneGenerator == "BCS" ? (
+					<div className="pt-form-content">
+						<b>
+							{"For compensation, I want an Amazon gift card for the following country:"}
+						</b>
+						<HTMLSelect
+							name="amazon"
+							id="amazon"
+							onChange={this.handleChange}
+							value={amazon}
+						>
+							<option selected>
+								{gameTextInLanguage.SURVEY_selectOption}
+							</option>
+							{_.map(
+								amazonOptionsEng,
+								(name, key) => (
+									<option key={key} value={key}>
+										{name}
+									</option>
+								)
+							)}
+						</HTMLSelect>
+					</div>
+				) : null}
 
 				<h3>{gameTextInLanguage.SURVEY_line3}</h3>
+
+
+				{game.treatment.gameLanguage == "English" &
+				 game.treatment.sceneGenerator == "BCS" ? (
+ 					<div className="pt-form-group">
+						<div className="pt-form-content">
+							<b>
+								{"What is your relationship to the partner you played the game with:"}
+							</b>
+							<HTMLSelect
+								name="relationship"
+								id="relationship"
+								onChange={this.handleChange}
+								value={relationship}
+							>
+								<option selected>
+									{gameTextInLanguage.SURVEY_selectOption}
+								</option>
+								{_.map(
+									relationshipOptions,
+									(name, key) => (
+										<option key={key} value={key}>
+											{name}
+										</option>
+									)
+								)}
+							</HTMLSelect>
+						</div>
+						<br></br>
+						<div className="form-line">
+							<div>
+								<label htmlFor="relationshipOther">
+									<b>	If you answered other in the previous question, please specify:</b>
+								</label>
+								<input
+									id="relationshipOther"
+									type="text"
+									dir="auto"
+									name="relationshipOther"
+									value={relationshipOther}
+									onChange={this.handleChange}
+									autoComplete="off"
+								/>
+							</div>
+						</div>
+						<br></br>
+
+
+						<div className="pt-form-content">
+							<b>
+								{"How often do you talk to your partner:"}
+							</b>
+							<HTMLSelect
+								name="familiarityRate"
+								id="familiarityRate"
+								onChange={this.handleChange}
+								value={familiarityRate}
+							>
+								<option selected>
+									{gameTextInLanguage.SURVEY_selectOption}
+								</option>
+								{_.map(
+									familiarityRateOptions,
+									(name, key) => (
+										<option key={key} value={key}>
+											{name}
+										</option>
+									)
+								)}
+							</HTMLSelect>
+						</div>
+						<br></br>
+						<br></br>
+
+					</div>
+				) : null}
+
 				<form onSubmit={this.handleSubmit}>
 					<span> </span>
 
@@ -706,171 +846,172 @@ export default class ExitSurvey extends React.Component {
 							</div>
 						</div>
 					) : null}
-						<div className="pt-form-group">
-							<div className="pt-form-content">
-								<b>
-									{gameTextInLanguage.SURVEY_highestLevelOfEducation +
-										" "}
-								</b>
-								<HTMLSelect
-									name="education"
-									id="education"
-									onChange={this.handleChange}
-									value={education}
-								>
-									<option selected>
-										{gameTextInLanguage.SURVEY_selectOption}
+
+					<div className="pt-form-group">
+						<div className="pt-form-content">
+							<b>
+								{gameTextInLanguage.SURVEY_highestLevelOfEducation +
+									" "}
+							</b>
+							<HTMLSelect
+								name="education"
+								id="education"
+								onChange={this.handleChange}
+								value={education}
+							>
+								<option selected>
+									{gameTextInLanguage.SURVEY_selectOption}
+								</option>
+								{_.map(educationOptions, (name, key) => (
+									<option key={key} value={key}>
+										{name}
 									</option>
-									{_.map(educationOptions, (name, key) => (
-										<option key={key} value={key}>
-											{name}
-										</option>
-									))}
-								</HTMLSelect>
-							</div>
-						</div>{" "}
-						<br></br>
-						<div className="pt-form-group">
-							<div className="pt-form-content">
-								<b>
-									{gameTextInLanguage.SURVEY_followedInstructions +
-										" "}
-								</b>
-								<HTMLSelect
-									name="correctness"
-									id="correctness"
-									onChange={this.handleChange}
-									value={correctness}
-								>
-									<option selected>
-										{gameTextInLanguage.SURVEY_selectOption}
+								))}
+							</HTMLSelect>
+						</div>
+					</div>{" "}
+					<br></br>
+					<div className="pt-form-group">
+						<div className="pt-form-content">
+							<b>
+								{gameTextInLanguage.SURVEY_followedInstructions +
+									" "}
+							</b>
+							<HTMLSelect
+								name="correctness"
+								id="correctness"
+								onChange={this.handleChange}
+								value={correctness}
+							>
+								<option selected>
+									{gameTextInLanguage.SURVEY_selectOption}
+								</option>
+								{_.map(correctnessOptions, (name, key) => (
+									<option key={key} value={key}>
+										{name}
 									</option>
-									{_.map(correctnessOptions, (name, key) => (
-										<option key={key} value={key}>
-											{name}
-										</option>
-									))}
-								</HTMLSelect>
-							</div>
-						</div>{" "}
-						<br></br>
-						<div className="pt-form-group">
-							<div className="pt-form-content">
-								<b>
-									{gameTextInLanguage.SURVEY_workedWellWithPartner +
-										" "}
-								</b>
-								<HTMLSelect
-									name="workedWell"
-									id="workedWell"
-									onChange={this.handleChange}
-									value={workedWell}
-								>
-									<option selected>
-										{gameTextInLanguage.SURVEY_selectOption}
+								))}
+							</HTMLSelect>
+						</div>
+					</div>{" "}
+					<br></br>
+					<div className="pt-form-group">
+						<div className="pt-form-content">
+							<b>
+								{gameTextInLanguage.SURVEY_workedWellWithPartner +
+									" "}
+							</b>
+							<HTMLSelect
+								name="workedWell"
+								id="workedWell"
+								onChange={this.handleChange}
+								value={workedWell}
+							>
+								<option selected>
+									{gameTextInLanguage.SURVEY_selectOption}
+								</option>
+								{_.map(workedWellOptions, (name, key) => (
+									<option key={key} value={key}>
+										{name}
 									</option>
-									{_.map(workedWellOptions, (name, key) => (
-										<option key={key} value={key}>
-											{name}
-										</option>
-									))}
-								</HTMLSelect>
-							</div>
-						</div>{" "}
-						<br></br>
-						<div className="form-line thirds">
-							<FormGroup
-								className={"form-group"}
-								inline={false}
-								label={
-									<b>
-										{gameTextInLanguage.SURVEY_payWasFair}
-									</b>
-								}
-								labelFor={"fair"}
-								//className={"form-group"}
-							>
-								<TextArea
-									id="fair"
-									name="fair"
-									large={true}
-									intent={Intent.PRIMARY}
-									onChange={this.handleChange}
-									value={fair}
-									fill={true}
-								/>
-							</FormGroup>
+								))}
+							</HTMLSelect>
 						</div>
-						<div className="form-line thirds">
-							<FormGroup
-								className={"form-group"}
-								inline={false}
-								label={
-									<b>
-										{
-											gameTextInLanguage.SURVEY_inGameChatEasyToUse
-										}
-									</b>
-								}
-								labelFor={"chatUseful"}
-							>
-								<TextArea
-									id="chatUseful"
-									name="chatUseful"
-									large={true}
-									intent={Intent.PRIMARY}
-									onChange={this.handleChange}
-									value={chatUseful}
-									fill={true}
-								/>
-							</FormGroup>
-						</div>
-						<div className="form-line thirds">
-							<FormGroup
-								className={"form-group"}
-								inline={false}
-								label={
-									<b>
-										{gameTextInLanguage.SURVEY_colorblind}
-									</b>
-								}
-								labelFor={"colorblind"}
-							>
-								<TextArea
-									id="colorblind"
-									name="colorblind"
-									large={true}
-									intent={Intent.PRIMARY}
-									onChange={this.handleChange}
-									value={colorblind}
-									fill={true}
-								/>
-							</FormGroup>
-						</div>
-						<div className="form-line thirds">
-							<FormGroup
-								className={"form-group"}
-								inline={false}
-								label={
-									<b>
-										{
-											gameTextInLanguage.SURVEY_problemsOrComments
-										}
-									</b>
-								}
-								labelFor={"feedback"}
-							>
-								<TextArea
-									id="feedback"
-									name="feedback"
-									large={true}
-									intent={Intent.PRIMARY}
-									onChange={this.handleChange}
-									value={feedback}
-									fill={true}
-								/>
-							</FormGroup>
-						</div>
+					</div>{" "}
+					<br></br>
+					<div className="form-line thirds">
+						<FormGroup
+							className={"form-group"}
+							inline={false}
+							label={
+								<b>
+									{gameTextInLanguage.SURVEY_payWasFair}
+								</b>
+							}
+							labelFor={"fair"}
+							//className={"form-group"}
+						>
+							<TextArea
+								id="fair"
+								name="fair"
+								large={true}
+								intent={Intent.PRIMARY}
+								onChange={this.handleChange}
+								value={fair}
+								fill={true}
+							/>
+						</FormGroup>
+					</div>
+					<div className="form-line thirds">
+						<FormGroup
+							className={"form-group"}
+							inline={false}
+							label={
+								<b>
+									{
+										gameTextInLanguage.SURVEY_inGameChatEasyToUse
+									}
+								</b>
+							}
+							labelFor={"chatUseful"}
+						>
+							<TextArea
+								id="chatUseful"
+								name="chatUseful"
+								large={true}
+								intent={Intent.PRIMARY}
+								onChange={this.handleChange}
+								value={chatUseful}
+								fill={true}
+							/>
+						</FormGroup>
+					</div>
+					<div className="form-line thirds">
+						<FormGroup
+							className={"form-group"}
+							inline={false}
+							label={
+								<b>
+									{gameTextInLanguage.SURVEY_colorblind}
+								</b>
+							}
+							labelFor={"colorblind"}
+						>
+							<TextArea
+								id="colorblind"
+								name="colorblind"
+								large={true}
+								intent={Intent.PRIMARY}
+								onChange={this.handleChange}
+								value={colorblind}
+								fill={true}
+							/>
+						</FormGroup>
+					</div>
+					<div className="form-line thirds">
+						<FormGroup
+							className={"form-group"}
+							inline={false}
+							label={
+								<b>
+									{
+										gameTextInLanguage.SURVEY_problemsOrComments
+									}
+								</b>
+							}
+							labelFor={"feedback"}
+						>
+							<TextArea
+								id="feedback"
+								name="feedback"
+								large={true}
+								intent={Intent.PRIMARY}
+								onChange={this.handleChange}
+								value={feedback}
+								fill={true}
+							/>
+						</FormGroup>
+					</div>
 					<br></br>
 					<div className="pt-form-group">
 						<div className="pt-form-content">
@@ -1116,66 +1257,65 @@ export default class ExitSurvey extends React.Component {
 					</div>
 				</div>
 				) : null}
-				<div>
-					<br></br>
-					<div className="pt-form-group">
-						<div className="pt-form-content">
-							<b>
-								{gameTextInLanguage.SURVEY_keyboardLanguage +
-									" "}
-							</b>
-							<HTMLSelect
-								name="keyboardLanguage"
-								id="keyboardLanguage"
-								onChange={this.handleChange}
-								value={keyboardLanguage}
-							>
-								<option selected>
-									{gameTextInLanguage.SURVEY_selectOption}
-								</option>
-								{_.map(keyboardLanguageOptions, (name, key) => (
-									<option key={key} value={key}>
-										{name}
+					<div>
+						<br></br>
+						<div className="pt-form-group">
+							<div className="pt-form-content">
+								<b>
+									{gameTextInLanguage.SURVEY_keyboardLanguage +
+										" "}
+								</b>
+								<HTMLSelect
+									name="keyboardLanguage"
+									id="keyboardLanguage"
+									onChange={this.handleChange}
+									value={keyboardLanguage}
+								>
+									<option selected>
+										{gameTextInLanguage.SURVEY_selectOption}
 									</option>
-								))}
-							</HTMLSelect>
-						</div>{" "}
-					</div>
-					<br></br>
-					<div className="pt-form-group">
-						<div className="pt-form-content">
-							<b>
-								{gameTextInLanguage.SURVEY_keyboardComfort +
-									" "}
-							</b>
-							<HTMLSelect
-								name="keyboardComfort"
-								id="keyboardComfort"
-								onChange={this.handleChange}
-								value={keyboardComfort}
-							>
-								<option selected>
-									{gameTextInLanguage.SURVEY_selectOption}
-								</option>
-								{_.map(keyboardComfortOptions, (name, key) => (
-									<option key={key} value={key}>
-										{name}
+									{_.map(keyboardLanguageOptions, (name, key) => (
+										<option key={key} value={key}>
+											{name}
+										</option>
+									))}
+								</HTMLSelect>
+							</div>{" "}
+						</div>
+						<br></br>
+						<div className="pt-form-group">
+							<div className="pt-form-content">
+								<b>
+									{gameTextInLanguage.SURVEY_keyboardComfort +
+										" "}
+								</b>
+								<HTMLSelect
+									name="keyboardComfort"
+									id="keyboardComfort"
+									onChange={this.handleChange}
+									value={keyboardComfort}
+								>
+									<option selected>
+										{gameTextInLanguage.SURVEY_selectOption}
 									</option>
-								))}
-							</HTMLSelect>
-						</div>{" "}
-					</div>
+									{_.map(keyboardComfortOptions, (name, key) => (
+										<option key={key} value={key}>
+											{name}
+										</option>
+									))}
+								</HTMLSelect>
+							</div>{" "}
+						</div>
 
-					<button
-						type="submit"
-						className="pt-button pt-intent-primary"
-					>
-						{gameTextInLanguage.SURVEY_submitButtonText}
-						<span className="pt-icon-standard pt-icon-key-enter pt-align-right" />
-					</button>
+						<button
+							type="submit"
+							className="pt-button pt-intent-primary"
+						>
+							{gameTextInLanguage.SURVEY_submitButtonText}
+							<span className="pt-icon-standard pt-icon-key-enter pt-align-right" />
+						</button>
 					</div>
 				</form>{" "}
-
 			</div>
 		);
 	};
