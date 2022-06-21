@@ -15,6 +15,11 @@ import Quiz from "./intro/Quiz";
 import Quiz_rtl from "./intro/Quiz_rtl";
 import newPlayer_hardcode from "./intro/newPlayer_hardcode.jsx";
 
+
+const batchGroupName = urlParams.get("batchGroupName");
+
+
+
 // Set the About Component you want to use for the About dialog (optional).
 // Empirica.about(About);
 
@@ -56,6 +61,8 @@ Empirica.newPlayer(newPlayer_hardcode);
 // If you don't return anything, or do not define this function, a default
 // exit screen will be shown.
 Empirica.exitSteps((game, player) => {
+
+
 	// const steps = [];
 	// if (game.treatment.gameLanguage == "Arabic") {
 	// 	steps.push(ExitSurvey_rtl);
@@ -63,7 +70,18 @@ Empirica.exitSteps((game, player) => {
 	// 	steps.push(ExitSurvey);
 	// }
 	// steps.push(Thanks);
-	return [ExitSurvey, Thanks];
+
+	if (batchGroupName == "BCS1") {
+		import ExitSurveyLangSpecific from './exit/BCS_1.jsx'
+	} else if (batchGroupName == "Arabic_1") {
+		import ExitSurveyLangSpecific from './exit/Arabic_1.jsx'
+	} else if (batchGroupName == "Spanish_1") {
+		import ExitSurveyLangSpecific from './exit/Spanish_1.jsx'
+	} else {
+		import ExitSurveyLangSpecific from './exit/English.jsx'
+	}
+
+	return [ExitSurvey, ExitSurveyLangSpecific, Thanks];
 });
 
 Empirica.breadcrumb(customBreadCrumb);
