@@ -28,7 +28,11 @@ Empirica.gameInit((game) => {
   const generateScenesObject = function() {
     if (game.treatment.sceneGenerator == "BCS") {
       return(require("./BCS/generateScenesBCS"));
-    } else {
+    // } else if (game.treatment.sceneGenerator == "BCS2") {
+    //   return(require("./BCS/generateScenesBCS2"));
+  } else if (game.treatment.sceneGenerator == "BCS2") {
+      return(require("./BCS/generateScenesBCS2"));
+  } else {
       return(require("./degenEtal2020/generateScenes"));
     }
   }();
@@ -49,6 +53,7 @@ Empirica.gameInit((game) => {
       { name: scene.alt2Name, id: 3 },
       { name: scene.alt3Name, id: 4 },
       { name: scene.alt4Name, id: 5 },
+      { name: scene.alt5Name, id: 6 },
     ];
     images = images.filter((image) => image.name !== "IGNORE");
 

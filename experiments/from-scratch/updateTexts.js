@@ -1,13 +1,13 @@
 const getJSON = require('get-json')
 const fs = require('fs');
 
-const apiKey = fs.readFileSync("api_keys/googlesheets")
+const apiKey = fs.readFileSync("../../api_keys/googlesheets")
 
 getJSON('https://sheets.googleapis.com/v4/spreadsheets/1KPdMdS0BkTGfRDejqsVtcBQx6gqneLitntGPAQpg8Eg/values/Sheet1?key=' + apiKey)
 
 .then( function(json) {
 
-	// utility for converting google sheets api call to interpretable json 
+	// utility for converting google sheets api call to interpretable json
 
   function convertToObjects(headers, rows)
     {
