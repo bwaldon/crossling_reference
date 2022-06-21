@@ -4,24 +4,37 @@ makeModel <- function(header) {
   
 }
 
-wrapInference <- function(model, overmodifyingUtterance, targetReferent, inferenceType) {
+wrapInference <- function(model, target, inferenceType, samples, lag, burn) {
   
   if(inferenceType == "incrementalContinuous") {
-    inferenceCommand <- read_file("../_shared/inferenceCommands/main/incrementalContinuous.txt")
+    inferenceCommand <- read_file("../_shared/inferenceCommands/main/v2/incrementalContinuous.txt")
     
   } else if(inferenceType == "incremental") {
-    inferenceCommand <- read_file("../_shared/inferenceCommands/main/incremental.txt")
+    inferenceCommand <- read_file("../_shared/inferenceCommands/main/v2/incremental.txt")
     
   } else if(inferenceType == "continuous") {
-    inferenceCommand <- read_file("../_shared/inferenceCommands/main/continuous.txt")
+    inferenceCommand <- read_file("../_shared/inferenceCommands/main/v2/continuous.txt")
     
   } else if(inferenceType == "vanilla") {
-    inferenceCommand <- read_file("../_shared/inferenceCommands/main/vanilla.txt")
+    inferenceCommand <- read_file("../_shared/inferenceCommands/main/v2/vanilla.txt")
     
-  }
+  } else if(inferenceType == "continuous_equalcost") {
+    inferenceCommand <- read_file("../_shared/inferenceCommands/main/v2/continuous_equalcost.txt")
+    
+  } else if(inferenceType == "vanilla_equalcost") {
+    inferenceCommand <- read_file("../_shared/inferenceCommands/main/v2/vanilla_equalcost.txt")
+    
+  } else if(inferenceType == "incremental_equalcost") {
+    inferenceCommand <- read_file("../_shared/inferenceCommands/main/v2/incremental_equalcost.txt")
+    
+  } else if(inferenceType == "incrementalContinuous_equalcost") {
+    inferenceCommand <- read_file("../_shared/inferenceCommands/main/v2/incrementalContinuous_equalcost.txt")
+  } 
   
-  inferenceCommand <- gsub("OVERMODIFYING_UTTERANCE", overmodifyingUtterance, inferenceCommand, fixed = TRUE)
-  inferenceCommand <- gsub("TARGET_REFERENT", targetReferent, inferenceCommand, fixed = TRUE)
+  inferenceCommand <- gsub("TARGET_REFERENT", target, inferenceCommand, fixed = TRUE)
+  inferenceCommand <- gsub("NUM_SAMPLES", samples, inferenceCommand, fixed = TRUE)
+  inferenceCommand <- gsub("LAG", lag, inferenceCommand, fixed = TRUE)
+  inferenceCommand <- gsub("BURN_IN", burn, inferenceCommand, fixed = TRUE)
   
   return(paste(read_file(model), inferenceCommand, sep = "\n"))
   
