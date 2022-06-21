@@ -1,0 +1,28 @@
+var semantics = function(params) {
+  return function(state) {
+    return {
+    blue: ["plasticblue","glassblue"].includes(state) ? params.colorNoiseVal : 1 - params.colorNoiseVal ,
+    green:  ["plasticgreen","glassgreen"].includes(state) ? params.colorNoiseVal : 1 - params.colorNoiseVal ,
+    bottle: ["glassgreen", "plasticgreen", "glassblue", "plasticblue"].includes(state) ? 1 : 0,
+    glass: ["glassblue","glassgreen"].includes(state) ? params.materialNoiseVal : 1 - params.materialNoiseVal,
+    plastic: ["plasticblue","plasticgreen"].includes(state) ? params.materialNoiseVal : 1 - params.materialNoiseVal,
+    STOP : 1, 
+    START : 1
+  }
+  }
+}
+
+var model = function(params) {
+  return {
+    words : ['blue', 'green', 'glass', 'plastic', 'bottle', 'STOP', 'START'],
+    wordCost: {
+      "green" : params.colorCost,
+      "blue" : params.colorCost,
+      "glass" : params.materialCost,
+      "plastic" : params.materialCost,
+      "bottle" : params.nounCost,
+      'STOP'  : 0,
+      'START'  : 0
+    },
+  }
+}
