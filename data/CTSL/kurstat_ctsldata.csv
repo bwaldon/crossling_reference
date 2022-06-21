@@ -1,0 +1,861 @@
+gameid,speakerName,language,roundNum,condition,targetName,correct,gloss,colorMention,sizeMention,UtteranceType,onlyColorMention,onlySizeMention,colorsizeMention,RedundantProperty,SufficientProperty,RedExp3Cat,RedExp2Cat,redundant
+4870-6,aliamca,Turkish,6,"size 
+ sufficient",button_small_blue,1,"four number white spot has circle two number blue stripe has, button, small, smallest",1,1,color and size,0,0,1,color,size,redundant,redundant,1
+4870-6,aliamca,Turkish,14,"size 
+ sufficient",apple_big_red,1,biggest red apple,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+4870-6,aliamca,Turkish,15,"size 
+ sufficient",ball_big_purple,1,biggest purple baloon,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+4870-6,aliamca,Turkish,18,"size 
+ sufficient",glove_small_green,1,smallest green glove,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+4870-6,aliamca,Turkish,20,"color 
+ sufficient",tie_big_red,1,red tie,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+4870-6,aliamca,Turkish,21,"size 
+ sufficient",knife_big_red,1,biggest red knife,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+4870-6,aliamca,Turkish,22,"size 
+ sufficient",brush_big_blue,1,"biggest brush, blue brush",1,1,color and size,0,0,1,color,size,redundant,redundant,1
+4870-6,aliamca,Turkish,23,"size 
+ sufficient",bag_big_blue,1,biggest blue bag,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+4870-6,aliamca,Turkish,24,"color 
+ sufficient",pants_big_green,1,green pants,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+4870-6,aliamca,Turkish,25,"size 
+ sufficient",clock_small_purple,1,smallest clock purple,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+4870-6,aliamca,Turkish,27,"color 
+ sufficient",pepper_small_red,1,red pepper,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+4870-6,aliamca,Turkish,29,"color 
+ sufficient",toothbrush_big_purple,1,purple brush,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+4870-6,aliamca,Turkish,30,"color 
+ sufficient",lipstick_big_pink,1,"red lipstick, light red",1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+4870-6,aliamca,Turkish,32,"color 
+ sufficient",lighter_big_black,1,black lighter,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+4870-6,aliamca,Turkish,35,"size 
+ sufficient",chair_big_yellow,1,biggest chair,0,1,only size,0,1,0,color,size,minimal,not_redundant,0
+4870-6,aliamca,Turkish,36,"color 
+ sufficient",tshirt_big_orange,1,red tshirt,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+4870-6,aliamca,Turkish,37,"color 
+ sufficient",show_small_yellow,1,yellow shoe,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+4870-6,aliamca,Turkish,38,"size 
+ sufficient",key_small_gold,1,smallest key,0,1,only size,0,1,0,color,size,minimal,not_redundant,0
+4870-6,aliamca,Turkish,39,"size 
+ sufficient",flower_big_pink,1,biggest red flower,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+4870-6,aliamca,Turkish,41,"color 
+ sufficient",skirt_big_blue,1,"pink skirt, blue skirt",1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+4870-6,aliamca,Turkish,44,"size 
+ sufficient",glasses_small_blue,1,smallest glasses,0,1,only size,0,1,0,color,size,minimal,not_redundant,0
+4870-6,aliamca,Turkish,45,"size 
+ sufficient",balloon_big_pink,1,biggest red baloon,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+4870-6,aliamca,Turkish,47,"color 
+ sufficient",lock_small_gold,1,"yellow key, lock",1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+4870-6,aliamca,Turkish,49,"color 
+ sufficient",umbrella_small_blue,1,blue umbrella,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+4870-6,aliamca,Turkish,50,"color 
+ sufficient",scissors_big_blue,1,blue scissors,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+4870-6,aliamca,Turkish,51,"size 
+ sufficient",dress_big_blue,1,"big blue skirt, dress",1,1,color and size,0,0,1,color,size,redundant,redundant,1
+4870-6,aliamca,Turkish,54,"size 
+ sufficient",cat_big_black,1,biggest cat,0,1,only size,0,1,0,color,size,minimal,not_redundant,0
+4870-6,aliamca,Turkish,55,"color 
+ sufficient",socks_big_blue,1,"blue boots, socks",1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+4870-6,aliamca,Turkish,59,"size 
+ sufficient",car_small_blue,1,smallest blue taxi,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+4870-6,aliamca,Turkish,60,"color 
+ sufficient",pot_small_blue,1,with-lid pot smallest blue,1,1,color and size,0,0,1,size,color,redundant,redundant,1
+0031-a,aysetas,Turkish,6,"size 
+ sufficient",dress_small_green,1,"dress, small dress, smallest, green",1,1,color and size,0,0,1,color,size,redundant,redundant,1
+0031-a,aysetas,Turkish,7,"size 
+ sufficient",apple_small_green,1,"smallest apple, green apple",1,1,color and size,0,0,1,color,size,redundant,redundant,1
+0031-a,aysetas,Turkish,11,"color 
+ sufficient",pepper_big_red,1,red to-stuff pepper,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+0031-a,aysetas,Turkish,12,"size 
+ sufficient",glasses_big_red,1,biggest framed glasses,0,1,only size,0,1,0,color,size,minimal,not_redundant,0
+0031-a,aysetas,Turkish,13,"size 
+ sufficient",ball_small_yellow,1,"smallest, is this an egg, smallest egg yellow",1,1,color and size,0,0,1,color,size,redundant,redundant,1
+0031-a,aysetas,Turkish,15,"color 
+ sufficient",lighter_small_white,1,white lighter,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+0031-a,aysetas,Turkish,17,"color 
+ sufficient",pot_big_green,1,green pot with-handle,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+0031-a,aysetas,Turkish,18,"size 
+ sufficient",button_big_blue,1,"biggest ?, or button i-don’t-know",0,1,only size,0,1,0,color,size,minimal,not_redundant,0
+0031-a,aysetas,Turkish,19,"size 
+ sufficient",clock_small_purple,1,"clock, smallest clock, smallest clock, blue one",1,1,color and size,0,0,1,color,size,redundant,redundant,1
+0031-a,aysetas,Turkish,20,"size 
+ sufficient",knife_small_red,1,smallest knife,0,1,only size,0,1,0,color,size,minimal,not_redundant,0
+0031-a,aysetas,Turkish,21,"color 
+ sufficient",tie_small_red,1,red mm-what-was-it tie,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+0031-a,aysetas,Turkish,22,"color 
+ sufficient",umbrella_big_blue,1,blue umbrella,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+0031-a,aysetas,Turkish,26,"color 
+ sufficient",tshirt_big_yellow,1,yellow tshirt,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+0031-a,aysetas,Turkish,27,"size 
+ sufficient",brush_big_red,1,biggest paint-brush,0,1,only size,0,1,0,color,size,minimal,not_redundant,0
+0031-a,aysetas,Turkish,29,"color 
+ sufficient",skirt_small_green,1,green skirt,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+0031-a,aysetas,Turkish,30,"color 
+ sufficient",socks_big_blue,1,"blue socks, socks right",1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+0031-a,aysetas,Turkish,31,"color 
+ sufficient",scissors_small_green,1,green scissors,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+0031-a,aysetas,Turkish,32,"size 
+ sufficient",glove_small_orange,1,smallest red gloves,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+0031-a,aysetas,Turkish,33,"color 
+ sufficient",lock_small_gold,1,yellow lock,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+0031-a,aysetas,Turkish,35,"color 
+ sufficient",shoe_big_yellow,1,yellow shoe man shoe,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+0031-a,aysetas,Turkish,39,"size 
+ sufficient",flower_small_pink,1,smallest red flower,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+0031-a,aysetas,Turkish,45,"size 
+ sufficient",bag_small_blue,1,blue small bag,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+0031-a,aysetas,Turkish,46,"color 
+ sufficient",lipstick_big_red,1,"red lipstick, no red i-mean that pink little light red not but other red, weird red",1,1,color and size,0,0,1,size,color,redundant,redundant,1
+0031-a,aysetas,Turkish,47,"color 
+ sufficient",toothbrush_big_green,1,green toothbrush,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+0031-a,aysetas,Turkish,48,"size 
+ sufficient",car_small_green,1,small green car,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+0031-a,aysetas,Turkish,49,"size 
+ sufficient",baloon_small_yellow,1,smallest yellow balloon,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+0031-a,aysetas,Turkish,52,"size 
+ sufficient",chair_small_blue,1,small smallest blue chair,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+0031-a,aysetas,Turkish,53,"size 
+ sufficient",key_small_silver,1,smallest gray key,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+0031-a,aysetas,Turkish,55,"color 
+ sufficient",pants_small_pink,1,pink pants,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+0031-a,aysetas,Turkish,58,"size 
+ sufficient",cat_big_black,1,biggest black cat,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+9173-1,bayramamca,CTSL,7,"color 
+ sufficient",scissors_small_green,1,"tshirt scissors scissors ?, small scissors red not red, color, point(green)",1,1,color and size,0,0,1,size,color,redundant,redundant,1
+9173-1,bayramamca,CTSL,8,"size 
+ sufficient",balloon_big_pink,1,"baloon point(pink) big, big",1,1,color and size,0,0,1,color,size,redundant,redundant,1
+9173-1,bayramamca,CTSL,13,"color 
+ sufficient",pepper_big_green,1,pepper hot pepper hot point(green),1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+9173-1,bayramamca,CTSL,14,"size 
+ sufficient",dress_small_blue,1,"dress small point(blue) small, small",1,1,color and size,0,0,1,color,size,redundant,redundant,1
+9173-1,bayramamca,CTSL,15,"color 
+ sufficient",shoe_big_yellow,1,shoe big point(yellow),1,1,color and size,0,0,1,size,color,redundant,redundant,1
+9173-1,bayramamca,CTSL,16,"size 
+ sufficient",bag_small_blue,1,point(blue) pencil bag small point(blue),1,1,color and size,0,0,1,color,size,redundant,redundant,1
+9173-1,bayramamca,CTSL,18,"color 
+ sufficient",toothbrush_big_green,1,toothbrush point(green) toothbrush,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+9173-1,bayramamca,CTSL,20,"color 
+ sufficient",tie_big_blue,1,point(blue) tie striped tie,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+9173-1,bayramamca,CTSL,22,"size 
+ sufficient",key_big_silver,1,"key small key small, point(color) big",0,1,only size,0,1,0,color,size,minimal,not_redundant,0
+9173-1,bayramamca,CTSL,25,"color 
+ sufficient",pants_small_pink,1,point(pink) pants,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+9173-1,bayramamca,CTSL,27,"color 
+ sufficient",skirt_big_blue,1,point(blue) skirt,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+9173-1,bayramamca,CTSL,28,"size 
+ sufficient",flower_big_yellow,1,flower point(yellow) flower big flower big,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+9173-1,bayramamca,CTSL,30,"size 
+ sufficient",button_big_green,1,point(button) point(green) big point(button) big point(green),1,1,color and size,0,0,1,color,size,redundant,redundant,1
+9173-1,bayramamca,CTSL,33,"size 
+ sufficient",glove_small_orange,1,point(red) glove small,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+9173-1,bayramamca,CTSL,36,"size 
+ sufficient",glasses_small_blue,1,point(blue) glasses small,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+9173-1,bayramamca,CTSL,37,"size 
+ sufficient",apple_big_green,1,"apple point(green) apple apple, point(screen) big",1,1,color and size,0,0,1,color,size,redundant,redundant,1
+9173-1,bayramamca,CTSL,38,"color 
+ sufficient",pot_big_green,1,point(green) flame pot,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+9173-1,bayramamca,CTSL,39,"size 
+ sufficient",clock_big_purple,1,clock big point(purple) big clock big,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+9173-1,bayramamca,CTSL,40,"color 
+ sufficient",umbrella_big_blue,1,point(blue) rain umbrella,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+9173-1,bayramamca,CTSL,41,"size 
+ sufficient",cat_small_black,1,cat point(blue) small,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+9173-1,bayramamca,CTSL,42,"size 
+ sufficient",car_big_green,1,car point(green) big big,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+9173-1,bayramamca,CTSL,45,"color 
+ sufficient",lighter_small_white,1,lighter cigarette lighter small point(white) small,1,1,color and size,0,0,1,size,color,redundant,redundant,1
+9173-1,bayramamca,CTSL,47,"color 
+ sufficient",socks_small_green,1,socks point(green) small,1,1,color and size,0,0,1,size,color,redundant,redundant,1
+9173-1,bayramamca,CTSL,49,"size 
+ sufficient",brush_big_red,1,point(blue) brush big,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+9173-1,bayramamca,CTSL,54,"size 
+ sufficient",chair_big_yellow,1,"point(yellow) sit big, big big",1,1,color and size,0,0,1,color,size,redundant,redundant,1
+9173-1,bayramamca,CTSL,55,"size 
+ sufficient",ball_big_yellow,1,"point(yellow) ball, big",1,1,color and size,0,0,1,color,size,redundant,redundant,1
+9173-1,bayramamca,CTSL,59,"color 
+ sufficient",lock_big_gold,1,point(yellow) lock lock,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+9173-1,bayramamca,CTSL,60,"size 
+ sufficient",knife_small_blue,1,point(blue) knife small small,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+5101-0,Bülent(türkçe),Turkish,7,"color 
+ sufficient",umbrella_small_blue,1,umbrella blue,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+5101-0,Bülent(türkçe),Turkish,11,"size 
+ sufficient",apple_big_green,1,"green apple, big",1,1,color and size,0,0,1,color,size,redundant,redundant,1
+5101-0,Bülent(türkçe),Turkish,12,"size 
+ sufficient",balloon_big_yellow,1,yellow baloon big,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+5101-0,Bülent(türkçe),Turkish,13,"color 
+ sufficient",tshirt_big_yellow,1,yellow tshirt,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+5101-0,Bülent(türkçe),Turkish,15,"color 
+ sufficient",tie_big_blue,1,blue tie,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+5101-0,Bülent(türkçe),Turkish,17,"size 
+ sufficient",brush_big_blue,1,"blue brush, big",1,1,color and size,0,0,1,color,size,redundant,redundant,1
+5101-0,Bülent(türkçe),Turkish,18,"size 
+ sufficient",car_big_green,1,"green, big",1,1,color and size,0,0,1,color,size,redundant,redundant,1
+5101-0,Bülent(türkçe),Turkish,21,"color 
+ sufficient",socks_small_blue,1,blue socks small,1,1,color and size,0,0,1,size,color,redundant,redundant,1
+5101-0,Bülent(türkçe),Turkish,22,"color 
+ sufficient",toothbrush_big_green,1,green brush,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+5101-0,Bülent(türkçe),Turkish,23,"size 
+ sufficient",flower_small_yellow,1,"yellow flower, small",1,1,color and size,0,0,1,color,size,redundant,redundant,1
+5101-0,Bülent(türkçe),Turkish,26,"size 
+ sufficient",cat_small_white,1,white cat small,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+5101-0,Bülent(türkçe),Turkish,30,"color 
+ sufficient",scissors_big_green,1,"green, green scissors",1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+5101-0,Bülent(türkçe),Turkish,31,"size 
+ sufficient",glove_big_green,1,glove big green,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+5101-0,Bülent(türkçe),Turkish,32,"size 
+ sufficient",chair_big_yellow,1,yellow chair big,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+5101-0,Bülent(türkçe),Turkish,33,"size 
+ sufficient",clock_small_purple,1,purple small,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+5101-0,Bülent(türkçe),Turkish,34,"color 
+ sufficient",lock_small_gold,1,yellow lock,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+5101-0,Bülent(türkçe),Turkish,35,"size 
+ sufficient",dress_big_blue,1,blue dress big,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+5101-0,Bülent(türkçe),Turkish,36,"color 
+ sufficient",lighter_small_white,1,white lighter,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+5101-0,Bülent(türkçe),Turkish,38,"color 
+ sufficient",lipstick_small_red,1,red lipstick small,1,1,color and size,0,0,1,size,color,redundant,redundant,1
+5101-0,Bülent(türkçe),Turkish,40,"color 
+ sufficient",shoe_small_pink,1,pink,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+5101-0,Bülent(türkçe),Turkish,41,"size 
+ sufficient",bag_big_red,1,"red bag big, big",1,1,color and size,0,0,1,color,size,redundant,redundant,1
+5101-0,Bülent(türkçe),Turkish,47,"color 
+ sufficient",pants_small_green,1,green pants,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+5101-0,Bülent(türkçe),Turkish,48,"color 
+ sufficient",skirt_small_blue,1,blue dress,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+5101-0,Bülent(türkçe),Turkish,49,"size 
+ sufficient",key_small_silver,1,key small,0,1,only size,0,1,0,color,size,minimal,not_redundant,0
+5101-0,Bülent(türkçe),Turkish,50,"size 
+ sufficient",knife_big_red,1,"red knife, big",1,1,color and size,0,0,1,color,size,redundant,redundant,1
+5101-0,Bülent(türkçe),Turkish,53,"size 
+ sufficient",glasses_big_blue,1,blue glasses big,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+5101-0,Bülent(türkçe),Turkish,54,"color 
+ sufficient",pot_small_blue,1,blue pot small,1,1,color and size,0,0,1,size,color,redundant,redundant,1
+5101-0,Bülent(türkçe),Turkish,56,"color 
+ sufficient",pepper_big_green,1,green peppers,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+5101-0,Bülent(türkçe),Turkish,58,"size 
+ sufficient",ball_big_yellow,1,big yellow ball,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+5101-0,Bülent(türkçe),Turkish,60,"size 
+ sufficient",button_big_blue,1,"button, blue, big",1,1,color and size,0,0,1,color,size,redundant,redundant,1
+0881-8,duranatasoluk,CTSL,6,"color 
+ sufficient",lock_big_gold,1,"lock lock big lock big lock big lock, door fit lock color point(color), point(yellow)",1,1,color and size,0,0,1,size,color,redundant,redundant,1
+0881-8,duranatasoluk,CTSL,7,"size 
+ sufficient",cat_big_white,1,"point(brown) big, bite",1,1,color and size,0,0,1,color,size,redundant,redundant,1
+0881-8,duranatasoluk,CTSL,11,"color 
+ sufficient",lighter_small_black,1,lighter point(black) lighter,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+0881-8,duranatasoluk,CTSL,12,"color 
+ sufficient",tshirt_small_yellow,1,tshirt tshirt small point(yellow),1,1,color and size,0,0,1,size,color,redundant,redundant,1
+0881-8,duranatasoluk,CTSL,14,"size 
+ sufficient",apple_big_green,1,apple big apple big color point(green),1,1,color and size,0,0,1,color,size,redundant,redundant,1
+0881-8,duranatasoluk,CTSL,16,"color 
+ sufficient",socks_big_green,1,socks point(green),1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+0881-8,duranatasoluk,CTSL,18,"size 
+ sufficient",knife_big_red,1,"knife, knife big point(red)",1,1,color and size,0,0,1,color,size,redundant,redundant,1
+0881-8,duranatasoluk,CTSL,22,"size 
+ sufficient",chair_big_blue,1,point(chair) sit point(blue) point(blue) big,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+0881-8,duranatasoluk,CTSL,23,"size 
+ sufficient",glasses_big_blue,1,glasses big glasses glasses point(blue),1,1,color and size,0,0,1,color,size,redundant,redundant,1
+0881-8,duranatasoluk,CTSL,24,"size 
+ sufficient",glove_big_orange,1,"gloves point(orange), big gloves",1,1,color and size,0,0,1,color,size,redundant,redundant,1
+0881-8,duranatasoluk,CTSL,27,"color 
+ sufficient",toothbrush_big_purple,1,toothbrush point(purple),1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+0881-8,duranatasoluk,CTSL,30,"size 
+ sufficient",flower_small_yellow,1,flower small point(yellow) small,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+0881-8,duranatasoluk,CTSL,31,"color 
+ sufficient",scissors_small_green,1,scissors point(green),1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+0881-8,duranatasoluk,CTSL,32,"color 
+ sufficient",pepper_big_green,1,pepper point(green),1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+0881-8,duranatasoluk,CTSL,35,"size 
+ sufficient",baloon_small_pink,1,baloon ballon small,0,1,only size,0,1,0,color,size,minimal,not_redundant,0
+0881-8,duranatasoluk,CTSL,37,"color 
+ sufficient",pot_big_green,1,pot flames point(green),1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+0881-8,duranatasoluk,CTSL,43,"size 
+ sufficient",dress_big_green,1,dress big point(green),1,1,color and size,0,0,1,color,size,redundant,redundant,1
+0881-8,duranatasoluk,CTSL,44,"color 
+ sufficient",umbrella_small_blue,1,umbrella umbrella small umbrella small point(screen) point(blue),1,1,color and size,0,0,1,size,color,redundant,redundant,1
+0881-8,duranatasoluk,CTSL,46,"color 
+ sufficient",pants_small_pink,1,pants small pants point(pink),1,1,color and size,0,0,1,size,color,redundant,redundant,1
+0881-8,duranatasoluk,CTSL,47,"color 
+ sufficient",tie_small_red,1,tie point(red),1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+0881-8,duranatasoluk,CTSL,52,"size 
+ sufficient",brush_small_blue,1,brush small brush,0,1,only size,0,1,0,color,size,minimal,not_redundant,0
+0881-8,duranatasoluk,CTSL,53,"size 
+ sufficient",button_small_green,1,"? point(green), circle",1,0,only color,1,0,0,color,size,underinformative,not_redundant,0
+0881-8,duranatasoluk,CTSL,54,"color 
+ sufficient",shoe_big_yellow,1,shoe point(yellow),1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+0881-8,duranatasoluk,CTSL,57,"size 
+ sufficient",car_big_green,1,"car point(green) big, big",1,1,color and size,0,0,1,color,size,redundant,redundant,1
+0881-8,duranatasoluk,CTSL,58,"color 
+ sufficient",lipstick_big_pink,1,lipstick point(pink),1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+0881-8,duranatasoluk,CTSL,59,"size 
+ sufficient",ball_big_purple,1,ball ball point(purple),1,0,only color,1,0,0,color,size,underinformative,not_redundant,0
+2062-e,durdukılıç(türkçe),Turkish,10,"size 
+ sufficient",brush_big_red,1,brush big,0,1,only size,0,1,0,color,size,minimal,not_redundant,0
+2062-e,durdukılıç(türkçe),Turkish,12,"size 
+ sufficient",cat_small_black,1,"black cat, small",1,1,color and size,0,0,1,color,size,redundant,redundant,1
+2062-e,durdukılıç(türkçe),Turkish,13,"size 
+ sufficient",chair_small_yellow,1,chair yellow small,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+2062-e,durdukılıç(türkçe),Turkish,14,"size 
+ sufficient",car_big_green,1,car big green,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+2062-e,durdukılıç(türkçe),Turkish,16,"size 
+ sufficient",glove_big_orange,1,glove big orange,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+2062-e,durdukılıç(türkçe),Turkish,19,"color 
+ sufficient",shoe_small_pink,1,sports pink,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+2062-e,durdukılıç(türkçe),Turkish,20,"color 
+ sufficient",pants_big_pink,1,pants purple,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+2062-e,durdukılıç(türkçe),Turkish,21,"size 
+ sufficient",button_big_blue,1,"button big, blue",1,1,color and size,0,0,1,color,size,redundant,redundant,1
+2062-e,durdukılıç(türkçe),Turkish,22,"size 
+ sufficient",dress_small_green,1,dress small,0,1,only size,0,1,0,color,size,minimal,not_redundant,0
+2062-e,durdukılıç(türkçe),Turkish,23,"size 
+ sufficient",ball_small_purple,1,ball small purple,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+2062-e,durdukılıç(türkçe),Turkish,26,"size 
+ sufficient",flower_small_yellow,1,flower small,0,1,only size,0,1,0,color,size,minimal,not_redundant,0
+2062-e,durdukılıç(türkçe),Turkish,31,"color 
+ sufficient",pot_small_green,1,pot green,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+2062-e,durdukılıç(türkçe),Turkish,32,"color 
+ sufficient",socks_big_blue,1,socks blue,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+2062-e,durdukılıç(türkçe),Turkish,33,"size 
+ sufficient",clock_big_yellow,1,clock yellow big,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+2062-e,durdukılıç(türkçe),Turkish,35,"size 
+ sufficient",knife_big_red,1,knife big red holder,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+2062-e,durdukılıç(türkçe),Turkish,36,"size 
+ sufficient",bag_big_red,1,bag big red,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+2062-e,durdukılıç(türkçe),Turkish,37,"color 
+ sufficient",lock_small_silver,1,lock gray,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+2062-e,durdukılıç(türkçe),Turkish,38,"color 
+ sufficient",toothbrush_small_green,1,brush green,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+2062-e,durdukılıç(türkçe),Turkish,39,"size 
+ sufficient",apple_small_red,1,apple small red,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+2062-e,durdukılıç(türkçe),Turkish,40,"color 
+ sufficient",lighter_big_black,1,lighter black,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+2062-e,durdukılıç(türkçe),Turkish,41,"size 
+ sufficient",balloon_big_pink,1,baloon pink big,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+2062-e,durdukılıç(türkçe),Turkish,42,"color 
+ sufficient",tshirt_big_orange,1,tshirt red like one,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+2062-e,durdukılıç(türkçe),Turkish,45,"color 
+ sufficient",scissors_big_blue,1,scissors blue,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+2062-e,durdukılıç(türkçe),Turkish,46,"color 
+ sufficient",skirt_small_green,1,skirt green,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+2062-e,durdukılıç(türkçe),Turkish,47,"color 
+ sufficient",tie_big_red,1,tie red,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+2062-e,durdukılıç(türkçe),Turkish,51,"size 
+ sufficient",glasses_big_red,1,glasses red big,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+2062-e,durdukılıç(türkçe),Turkish,52,"color 
+ sufficient",umbrella_big_green,1,umbrella green,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+2062-e,durdukılıç(türkçe),Turkish,55,"size 
+ sufficient",key_small_gold,1,key yellow small,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+2062-e,durdukılıç(türkçe),Turkish,57,"color 
+ sufficient",pepper_big_red,1,pepper red,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+9458-d,fatma teyze (ctsl),CTSL,14,"size 
+ sufficient",key_big_silver,1,"big big big key big, big big",0,1,only size,0,1,0,color,size,minimal,not_redundant,0
+9458-d,fatma teyze (ctsl),CTSL,20,"size 
+ sufficient",dress_small_green,1,"dress small dress point(screen), think not, point(green), small",1,1,color and size,0,0,1,color,size,redundant,redundant,1
+9458-d,fatma teyze (ctsl),CTSL,21,"size 
+ sufficient",baloon_small_pink,1,baloon small,0,1,only size,0,1,0,color,size,minimal,not_redundant,0
+9458-d,fatma teyze (ctsl),CTSL,26,"color 
+ sufficient",umbrella_small_green,1,"umbrella rain umbrella, point(green)",1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+9458-d,fatma teyze (ctsl),CTSL,28,"color 
+ sufficient",pepper_big_red,1,point(red),1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+9458-d,fatma teyze (ctsl),CTSL,29,"size 
+ sufficient",car_big_green,1,point(green) big,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+9458-d,fatma teyze (ctsl),CTSL,31,"color 
+ sufficient",socks_small_blue,1,point(blue),1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+9458-d,fatma teyze (ctsl),CTSL,33,"size 
+ sufficient",ball_small_purple,1,small point(blue),1,1,color and size,0,0,1,color,size,redundant,redundant,1
+9458-d,fatma teyze (ctsl),CTSL,35,"size 
+ sufficient",chair_big_blue,1,point(blue) chair big,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+9458-d,fatma teyze (ctsl),CTSL,36,"size 
+ sufficient",knife_small_red,1,"point(red) knife small, point(red)",1,1,color and size,0,0,1,color,size,redundant,redundant,1
+9458-d,fatma teyze (ctsl),CTSL,37,"size 
+ sufficient",bag_big_red,1,point(red) big bag,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+9458-d,fatma teyze (ctsl),CTSL,40,"size 
+ sufficient",apple_big_red,1,apple big,0,1,only size,0,1,0,color,size,minimal,not_redundant,0
+9458-d,fatma teyze (ctsl),CTSL,41,"color 
+ sufficient",pot_small_green,1,"flames pot, point(blue)",1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+9458-d,fatma teyze (ctsl),CTSL,44,"color 
+ sufficient",skirt_small_blue,1,skirt point(blue),1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+9458-d,fatma teyze (ctsl),CTSL,45,"size 
+ sufficient",clock_big_yellow,1,"clock clock big small not big, point(green)",1,1,color and size,0,0,1,color,size,redundant,redundant,1
+9458-d,fatma teyze (ctsl),CTSL,46,"color 
+ sufficient",shoe_small_pink,1,point(pink),1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+9458-d,fatma teyze (ctsl),CTSL,48,"color 
+ sufficient",scissors_small_blue,1,"scisssors, point(blue)",1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+9458-d,fatma teyze (ctsl),CTSL,50,"size 
+ sufficient",button_small_blue,1,button small,0,1,only size,0,1,0,color,size,minimal,not_redundant,0
+9458-d,fatma teyze (ctsl),CTSL,51,"color 
+ sufficient",tshirt_big_yellow,1,point(yellow),1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+9458-d,fatma teyze (ctsl),CTSL,53,"color 
+ sufficient",lock_big_gold,1,point(yellow) lock,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+9458-d,fatma teyze (ctsl),CTSL,55,"color 
+ sufficient",pants_small_green,1,"? pants small, point(green)",1,1,color and size,0,0,1,size,color,redundant,redundant,1
+9458-d,fatma teyze (ctsl),CTSL,56,"size 
+ sufficient",brush_small_red,1,brush small,0,1,only size,0,1,0,color,size,minimal,not_redundant,0
+9458-d,fatma teyze (ctsl),CTSL,58,"color 
+ sufficient",tie_big_red,1,tie color tie point(red),1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+9458-d,fatma teyze (ctsl),CTSL,60,"color 
+ sufficient",lighter_big_white,1,lighter lighter big big lighter,0,1,only size,0,1,0,size,color,underinformative,not_redundant,0
+7680-b,hamza_ctsl,CTSL,6,"size 
+ sufficient",clock_big_yellow,1,clock small point(screen),0,1,only size,0,1,0,color,size,minimal,not_redundant,0
+7680-b,hamza_ctsl,CTSL,8,"size 
+ sufficient",ball_big_purple,1,point(purple),1,0,only color,1,0,0,color,size,underinformative,not_redundant,0
+7680-b,hamza_ctsl,CTSL,9,"color 
+ sufficient",skirt_big_green,1,point(green),1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+7680-b,hamza_ctsl,CTSL,11,"color 
+ sufficient",shoe_big_yellow,1,point(yellow),1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+7680-b,hamza_ctsl,CTSL,24,"size 
+ sufficient",knife_small_red,1,small knife small,0,1,only size,0,1,0,color,size,minimal,not_redundant,0
+7680-b,hamza_ctsl,CTSL,26,"size 
+ sufficient",key_big_gold,1,key big,0,1,only size,0,1,0,color,size,minimal,not_redundant,0
+7680-b,hamza_ctsl,CTSL,28,"size 
+ sufficient",dress_small_blue,1,dress small,0,1,only size,0,1,0,color,size,minimal,not_redundant,0
+7680-b,hamza_ctsl,CTSL,31,"size 
+ sufficient",brush_small_blue,1,brush small,0,1,only size,0,1,0,color,size,minimal,not_redundant,0
+7680-b,hamza_ctsl,CTSL,32,"size 
+ sufficient",apple_small_red,1,apple-small,0,1,only size,0,1,0,color,size,minimal,not_redundant,0
+7680-b,hamza_ctsl,CTSL,39,"size 
+ sufficient",car_big_green,1,car big,0,1,only size,0,1,0,color,size,minimal,not_redundant,0
+7680-b,hamza_ctsl,CTSL,44,"color 
+ sufficient",tshirt_small_orange,1,tshirt color point(red),1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+7680-b,hamza_ctsl,CTSL,46,"size 
+ sufficient",bag_big_red,1,point(color) big bag,0,1,only size,0,1,0,color,size,minimal,not_redundant,0
+7680-b,hamza_ctsl,CTSL,47,"size 
+ sufficient",chair_small_blue,1,chair small,0,1,only size,0,1,0,color,size,minimal,not_redundant,0
+7680-b,hamza_ctsl,CTSL,51,"size 
+ sufficient",cat_big_white,1,big big color point(screen) white big,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+7680-b,hamza_ctsl,CTSL,53,"size 
+ sufficient",glove_big_orange,1,"point(color), big",0,1,only size,0,1,0,color,size,minimal,not_redundant,0
+7680-b,hamza_ctsl,CTSL,57,"size 
+ sufficient",button_big_blue,1,"point(color), big",0,1,only size,0,1,0,color,size,minimal,not_redundant,0
+3434-9,hatice,Turkish,6,"color 
+ sufficient",skirt_small_blue,1,"skirt, blue",1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+3434-9,hatice,Turkish,7,"size 
+ sufficient",knife_small_blue,1,small blue knife,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+3434-9,hatice,Turkish,8,"color 
+ sufficient",lock_small_gold,1,lock yellow small,1,1,color and size,0,0,1,size,color,redundant,redundant,1
+3434-9,hatice,Turkish,9,"color 
+ sufficient",tshirt_big_orange,1,orange tshirt,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+3434-9,hatice,Turkish,10,"size 
+ sufficient",apple_big_red,1,red apple big one,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+3434-9,hatice,Turkish,11,"size 
+ sufficient",balloon_big_yellow,1,balloon yellow big,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+3434-9,hatice,Turkish,13,"size 
+ sufficient",button_small_green,1,button green small,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+3434-9,hatice,Turkish,15,"color 
+ sufficient",pot_small_green,1,pot green small,1,1,color and size,0,0,1,size,color,redundant,redundant,1
+3434-9,hatice,Turkish,23,"color 
+ sufficient",toothbrush_small_purple,1,toothbrush purple,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+3434-9,hatice,Turkish,24,"color 
+ sufficient",umbrella_big_blue,1,umbrella blue,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+3434-9,hatice,Turkish,26,"size 
+ sufficient",glasses_big_red,1,glasses red big,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+3434-9,hatice,Turkish,27,"color 
+ sufficient",pepper_small_green,1,to-stuff pepper green,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+3434-9,hatice,Turkish,28,"size 
+ sufficient",car_big_green,1,car green big,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+3434-9,hatice,Turkish,31,"size 
+ sufficient",key_small_gold,1,small yellow key,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+3434-9,hatice,Turkish,32,"color 
+ sufficient",tie_big_red,1,red,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+3434-9,hatice,Turkish,35,"size 
+ sufficient",dress_small_blue,1,dress blue small,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+3434-9,hatice,Turkish,36,"color 
+ sufficient",pants_small_green,1,pants green,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+3434-9,hatice,Turkish,37,"color 
+ sufficient",scissors_big_green,1,scissors green,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+3434-9,hatice,Turkish,38,"color 
+ sufficient",lighter_big_black,1,lighter black,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+3434-9,hatice,Turkish,40,"color 
+ sufficient",shoe_big_yellow,1,boots yellow,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+3434-9,hatice,Turkish,42,"size 
+ sufficient",ball_small_yellow,1,ball yellow small,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+3434-9,hatice,Turkish,43,"size 
+ sufficient",cat_big_white,1,white big cat,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+3434-9,hatice,Turkish,51,"size 
+ sufficient",bag_big_blue,1,blue bag big,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+3434-9,hatice,Turkish,53,"size 
+ sufficient",glove_small_green,1,green glove small,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+3434-9,hatice,Turkish,54,"size 
+ sufficient",flower_small_yellow,1,yellow flower small,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+3434-9,hatice,Turkish,55,"size 
+ sufficient",brush_small_blue,1,blue brush small,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+3434-9,hatice,Turkish,56,"color 
+ sufficient",socks_small_green,1,green boots,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+3434-9,hatice,Turkish,58,"color 
+ sufficient",lipstick_big_pink,1,"lipstick pink, not, big",1,1,color and size,0,0,1,size,color,redundant,redundant,1
+3434-9,hatice,Turkish,60,"size 
+ sufficient",chair_small_blue,1,chair blue small,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+7120-3,Ilknur,CTSL,6,"size 
+ sufficient",balloon_big_yellow,1,baloon baloon big baloon,0,1,only size,0,1,0,color,size,minimal,not_redundant,0
+7120-3,Ilknur,CTSL,7,"size 
+ sufficient",ball_small_yellow,1,yellow small,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+7120-3,Ilknur,CTSL,11,"size 
+ sufficient",button_big_blue,1,button big blue big,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+7120-3,Ilknur,CTSL,12,"color 
+ sufficient",pot_big_green,1,pot green,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+7120-3,Ilknur,CTSL,13,"size 
+ sufficient",brush_small_red,1,brush small red,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+7120-3,Ilknur,CTSL,14,"color 
+ sufficient",socks_small_blue,1,socks blue,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+7120-3,Ilknur,CTSL,15,"size 
+ sufficient",bag_big_red,1,bag red big,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+7120-3,Ilknur,CTSL,16,"size 
+ sufficient",glove_small_green,1,gloves small green,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+7120-3,Ilknur,CTSL,18,"color 
+ sufficient",umbrella_big_green,1,umbrella rain umbrella green,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+7120-3,Ilknur,CTSL,20,"color 
+ sufficient",pepper_big_green,1,pepper ? green,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+7120-3,Ilknur,CTSL,21,"size 
+ sufficient",clock_small_purple,1,clock small purple,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+7120-3,Ilknur,CTSL,23,"color 
+ sufficient",shoe_small_pink,1,shoe pink,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+7120-3,Ilknur,CTSL,24,"color 
+ sufficient",tshirt_big_yellow,1,tshirt yellow,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+7120-3,Ilknur,CTSL,26,"color 
+ sufficient",tie_big_red,1,tie red,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+7120-3,Ilknur,CTSL,28,"color 
+ sufficient",scissors_big_green,1,"scissors green, scissors",1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+7120-3,Ilknur,CTSL,31,"size 
+ sufficient",key_big_silver,1,key big key big gray,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+7120-3,Ilknur,CTSL,32,"color 
+ sufficient",lock_big_gold,1,lock lock yellow yellow,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+7120-3,Ilknur,CTSL,38,"size 
+ sufficient",dress_big_blue,1,dress blue dress big,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+7120-3,Ilknur,CTSL,39,"color 
+ sufficient",toothbrush_small_purple,1,toothbrush purple,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+7120-3,Ilknur,CTSL,44,"size 
+ sufficient",knife_small_red,1,knife small red,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+7120-3,Ilknur,CTSL,45,"size 
+ sufficient",flower_small_pink,1,flower small pink,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+7120-3,Ilknur,CTSL,46,"size 
+ sufficient",apple_small_green,1,apple green small,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+7120-3,Ilknur,CTSL,47,"size 
+ sufficient",cat_small_white,1,cat white small,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+7120-3,Ilknur,CTSL,50,"color 
+ sufficient",pants_small_pink,1,pants purple,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+7120-3,Ilknur,CTSL,53,"color 
+ sufficient",lighter_small_black,1,lighter black lighter lighter,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+7120-3,Ilknur,CTSL,54,"color 
+ sufficient",skirt_small_green,1,skirt green,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+7120-3,Ilknur,CTSL,56,"color 
+ sufficient",lipstick_big_pink,1,lipstick pink,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+7120-3,Ilknur,CTSL,57,"size 
+ sufficient",chair_big_blue,1,chair blue big,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+7120-3,Ilknur,CTSL,58,"size 
+ sufficient",glasses_small_red,1,glasses red small,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+7120-3,Ilknur,CTSL,59,"size 
+ sufficient",car_big_blue,1,car blue big,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+9178-6,köydekifatma,CTSL,12,"size 
+ sufficient",glasses_big_blue,1,glasses blue,1,0,only color,1,0,0,color,size,underinformative,not_redundant,0
+9178-6,köydekifatma,CTSL,15,"color 
+ sufficient",scissors_small_blue,1,scissors blue,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+9178-6,köydekifatma,CTSL,18,"color 
+ sufficient",toothbrush_big_purple,1,toothbrush pink toothbrush,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+9178-6,köydekifatma,CTSL,20,"size 
+ sufficient",apple_small_red,1,apple red,1,0,only color,1,0,0,color,size,underinformative,not_redundant,0
+9178-6,köydekifatma,CTSL,27,"size 
+ sufficient",chair_small_blue,1,chair small,0,1,only size,0,1,0,color,size,minimal,not_redundant,0
+9178-6,köydekifatma,CTSL,28,"color 
+ sufficient",pants_big_pink,1,pants point(pink),1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+9178-6,köydekifatma,CTSL,29,"color 
+ sufficient",shoe_big_pink,1,shoe point(pink),1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+9178-6,köydekifatma,CTSL,32,"size 
+ sufficient",dress_big_blue,1,dress point(blue) big,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+9178-6,köydekifatma,CTSL,33,"size 
+ sufficient",flower_big_yellow,1,flower big point(yellow),1,1,color and size,0,0,1,color,size,redundant,redundant,1
+9178-6,köydekifatma,CTSL,34,"color 
+ sufficient",tshirt_small_orange,1,tshirt point(orange),1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+9178-6,köydekifatma,CTSL,35,"color 
+ sufficient",pepper_small_red,1,pepper point(red),1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+9178-6,köydekifatma,CTSL,36,"size 
+ sufficient",knife_big_blue,1,knife point(blue) big,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+9178-6,köydekifatma,CTSL,40,"size 
+ sufficient",balloon_big_yellow,1,baloon point(yellow) big,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+9178-6,köydekifatma,CTSL,41,"size 
+ sufficient",glove_big_green,1,"glove, glove big",0,1,only size,0,1,0,color,size,minimal,not_redundant,0
+9178-6,köydekifatma,CTSL,43,"size 
+ sufficient",clock_big_yellow,1,clock big,0,1,only size,0,1,0,color,size,minimal,not_redundant,0
+9178-6,köydekifatma,CTSL,46,"color 
+ sufficient",socks_small_green,1,socks point(green),1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+9178-6,köydekifatma,CTSL,48,"color 
+ sufficient",lighter_small_black,1,water lighter size black,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+9178-6,köydekifatma,CTSL,50,"size 
+ sufficient",brush_small_blue,1,brush small,0,1,only size,0,1,0,color,size,minimal,not_redundant,0
+9178-6,köydekifatma,CTSL,51,"color 
+ sufficient",pot_small_green,1,flames small point(green),1,1,color and size,0,0,1,size,color,redundant,redundant,1
+9178-6,köydekifatma,CTSL,52,"color 
+ sufficient",skirt_small_blue,1,"skirt point(blue), skirt small skirt point(blue)",1,1,color and size,0,0,1,size,color,redundant,redundant,1
+9178-6,köydekifatma,CTSL,55,"color 
+ sufficient",tie_big_red,1,tie point(red),1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+9178-6,köydekifatma,CTSL,56,"color 
+ sufficient",lipstick_small_red,1,small lipstick,0,1,only size,0,1,0,size,color,underinformative,not_redundant,0
+9178-6,köydekifatma,CTSL,58,"color 
+ sufficient",umbrella_small_blue,1,umbrella point(blue),1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+9178-6,köydekifatma,CTSL,59,"size 
+ sufficient",bag_small_red,1,bag point(red) small,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+5082-3,Mustafa (ctsl),CTSL,9,"color 
+ sufficient",pot_small_green,1,point(green) pot point(green) pot,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+5082-3,Mustafa (ctsl),CTSL,10,"size 
+ sufficient",glasses_small_blue,1,"point(blue), glasses point(blue) big not small",1,1,color and size,0,0,1,color,size,redundant,redundant,1
+5082-3,Mustafa (ctsl),CTSL,15,"color 
+ sufficient",shoe_big_yellow,1,shoe point(yellow),1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+5082-3,Mustafa (ctsl),CTSL,19,"color 
+ sufficient",tshirt_small_orange,1,point(orange) tshirt,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+5082-3,Mustafa (ctsl),CTSL,20,"size 
+ sufficient",knife_small_blue,1,"knife small knife small, big not small",0,1,only size,0,1,0,color,size,minimal,not_redundant,0
+5082-3,Mustafa (ctsl),CTSL,21,"size 
+ sufficient",apple_small_red,1,"apple big not small, apple small",0,1,only size,0,1,0,color,size,minimal,not_redundant,0
+5082-3,Mustafa (ctsl),CTSL,23,"color 
+ sufficient",umbrella_small_green,1,rain point(green) rain umbrella,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+5082-3,Mustafa (ctsl),CTSL,26,"color 
+ sufficient",lock_small_gold,1,point(yellow) key,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+5082-3,Mustafa (ctsl),CTSL,28,"size 
+ sufficient",cat_big_black,1,cat big tall,0,1,only size,0,1,0,color,size,minimal,not_redundant,0
+5082-3,Mustafa (ctsl),CTSL,29,"size 
+ sufficient",bag_big_blue,1,bag big,0,1,only size,0,1,0,color,size,minimal,not_redundant,0
+5082-3,Mustafa (ctsl),CTSL,32,"color 
+ sufficient",skirt_big_blue,1,point(blue) skirt woman skirt,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+5082-3,Mustafa (ctsl),CTSL,35,"size 
+ sufficient",balloon_big_pink,1,"point(pink), point(pink) balloon think big",1,1,color and size,0,0,1,color,size,redundant,redundant,1
+5082-3,Mustafa (ctsl),CTSL,38,"color 
+ sufficient",pants_big_pink,1,point(pink) pants,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+5082-3,Mustafa (ctsl),CTSL,39,"size 
+ sufficient",car_small_green,1,car small big not small small,0,1,only size,0,1,0,color,size,minimal,not_redundant,0
+5082-3,Mustafa (ctsl),CTSL,40,"size 
+ sufficient",brush_small_red,1,paintbrush small,0,1,only size,0,1,0,color,size,minimal,not_redundant,0
+5082-3,Mustafa (ctsl),CTSL,41,"color 
+ sufficient",socks_big_green,1,point(green) socks point(green) socks,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+5082-3,Mustafa (ctsl),CTSL,48,"size 
+ sufficient",dress_small_green,1,dress dress small big not small,0,1,only size,0,1,0,color,size,minimal,not_redundant,0
+5082-3,Mustafa (ctsl),CTSL,49,"size 
+ sufficient",key_big_gold,1,key big key big,0,1,only size,0,1,0,color,size,minimal,not_redundant,0
+5082-3,Mustafa (ctsl),CTSL,50,"color 
+ sufficient",toothbrush_small_green,1,point(green) toothbrush,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+5082-3,Mustafa (ctsl),CTSL,51,"color 
+ sufficient",scissors_big_green,1,same point(green) think same scissors same point(up) scissors,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+5082-3,Mustafa (ctsl),CTSL,53,"size 
+ sufficient",ball_big_purple,1,big ball big big,0,1,only size,0,1,0,color,size,minimal,not_redundant,0
+5082-3,Mustafa (ctsl),CTSL,59,"color 
+ sufficient",lighter_big_black,1,lighter point(black),1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+5082-3,Mustafa (ctsl),CTSL,60,"color 
+ sufficient",tie_small_blue,1,point(blue) tie,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+2269-9,Şengülctsl,CTSL,6,"color 
+ sufficient",tie_big_red,1,"tie, tie neck, neck, red tie, point(red)",1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+2269-9,Şengülctsl,CTSL,7,"color 
+ sufficient",lipstick_small_red,1,"point(red), lipstick, small lipstick, not small point(red)-small",1,1,color and size,0,0,1,size,color,redundant,redundant,1
+2269-9,Şengülctsl,CTSL,9,"size 
+ sufficient",cat_small_black,1,"cat cat, small",0,1,only size,0,1,0,color,size,minimal,not_redundant,0
+2269-9,Şengülctsl,CTSL,10,"size 
+ sufficient",glasses_big_blue,1,"glasses point(blue), big",1,1,color and size,0,0,1,color,size,redundant,redundant,1
+2269-9,Şengülctsl,CTSL,11,"color 
+ sufficient",lock_big_silver,1,"lock lock big, point(gray)",1,1,color and size,0,0,1,size,color,redundant,redundant,1
+2269-9,Şengülctsl,CTSL,12,"size 
+ sufficient",brush_big_red,1,brush point(red) big,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+2269-9,Şengülctsl,CTSL,20,"size 
+ sufficient",dress_small_blue,1,point(blue) dress small point(blue),1,1,color and size,0,0,1,color,size,redundant,redundant,1
+2269-9,Şengülctsl,CTSL,21,"size 
+ sufficient",bag_small_red,1,bag point(red) bag small,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+2269-9,Şengülctsl,CTSL,22,"color 
+ sufficient",toothbrush_small_purple,1,toothbrush point(purple),1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+2269-9,Şengülctsl,CTSL,25,"color 
+ sufficient",lighter_big_black,1,lighter point(black),1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+2269-9,Şengülctsl,CTSL,27,"size 
+ sufficient",apple_small_red,1,apple point(red) small,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+2269-9,Şengülctsl,CTSL,28,"size 
+ sufficient",ball_big_purple,1,ball point(purple) big,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+2269-9,Şengülctsl,CTSL,30,"size 
+ sufficient",glove_small_orange,1,gloves point(orange) small gloves,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+2269-9,Şengülctsl,CTSL,31,"color 
+ sufficient",pepper_big_green,1,hot pepper point(green),1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+2269-9,Şengülctsl,CTSL,34,"size 
+ sufficient",clock_big_yellow,1,clock point(yellow) big,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+2269-9,Şengülctsl,CTSL,35,"color 
+ sufficient",tshirt_big_yellow,1,tshirt point(yellow),1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+2269-9,Şengülctsl,CTSL,36,"color 
+ sufficient",umbrella_small_green,1,umbrella point(green),1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+2269-9,Şengülctsl,CTSL,37,"size 
+ sufficient",flower_small_yellow,1,flower point(yellow) small,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+2269-9,Şengülctsl,CTSL,39,"color 
+ sufficient",pot_big_green,1,pot point(green) pot,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+2269-9,Şengülctsl,CTSL,41,"color 
+ sufficient",scissors_big_green,1,scissors point(green) scissors,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+2269-9,Şengülctsl,CTSL,42,"size 
+ sufficient",car_big_green,1,"car point(green) car, big",1,1,color and size,0,0,1,color,size,redundant,redundant,1
+2269-9,Şengülctsl,CTSL,43,"size 
+ sufficient",button_big_green,1,"button point(green), big",1,1,color and size,0,0,1,color,size,redundant,redundant,1
+2269-9,Şengülctsl,CTSL,45,"color 
+ sufficient",skirt_big_blue,1,skirt point(blue),1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+2269-9,Şengülctsl,CTSL,48,"size 
+ sufficient",balloon_big_pink,1,"baloon big point(pink), big",1,1,color and size,0,0,1,color,size,redundant,redundant,1
+2269-9,Şengülctsl,CTSL,49,"size 
+ sufficient",key_small_gold,1,key point(yellow) small,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+2269-9,Şengülctsl,CTSL,53,"color 
+ sufficient",pants_small_pink,1,pants point(pink) pants,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+2269-9,Şengülctsl,CTSL,55,"size 
+ sufficient",chair_small_yellow,1,chair point(yellow) chair small,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+2269-9,Şengülctsl,CTSL,56,"color 
+ sufficient",socks_small_green,1,socks point(green),1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+2269-9,Şengülctsl,CTSL,58,"size 
+ sufficient",knife_small_red,1,"knife point(red) small, small, point(red)",1,1,color and size,0,0,1,color,size,redundant,redundant,1
+2269-9,Şengülctsl,CTSL,60,"color 
+ sufficient",shoe_big_pink,1,shoe point(pink),1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+7597-b,ülküctsl,CTSL,6,"size 
+ sufficient",apple_small_green,1,"apple small apple small, small what apple small",0,1,only size,0,1,0,color,size,minimal,not_redundant,0
+7597-b,ülküctsl,CTSL,12,"color 
+ sufficient",pants_small_green,1,pants color pants point(green),1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+7597-b,ülküctsl,CTSL,14,"color 
+ sufficient",socks_big_blue,1,point(blue) socks,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+7597-b,ülküctsl,CTSL,19,"size 
+ sufficient",dress_big_green,1,point(shirt) point(green) dress big dress,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+7597-b,ülküctsl,CTSL,20,"size 
+ sufficient",chair_small_yellow,1,point(yellow) chair small big not small,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+7597-b,ülküctsl,CTSL,21,"size 
+ sufficient",knife_big_red,1,knife red point(red) big big knife big,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+7597-b,ülküctsl,CTSL,25,"color 
+ sufficient",skirt_big_green,1,skirt point(green) big point(green),1,1,color and size,0,0,1,size,color,redundant,redundant,1
+7597-b,ülküctsl,CTSL,32,"size 
+ sufficient",flower_big_yellow,1,"flower color point(yellow) big, flower big",1,1,color and size,0,0,1,color,size,redundant,redundant,1
+7597-b,ülküctsl,CTSL,33,"color 
+ sufficient",lipstick_small_pink,1,lipstick color point(pink) lipstick,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+7597-b,ülküctsl,CTSL,34,"color 
+ sufficient",shoe_big_pink,1,shoe color point(pink),1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+7597-b,ülküctsl,CTSL,35,"size 
+ sufficient",glove_big_orange,1,"glove wash glove point(orange), glove big",1,1,color and size,0,0,1,color,size,redundant,redundant,1
+7597-b,ülküctsl,CTSL,36,"color 
+ sufficient",scissors_small_green,1,scissors color point(green) scissors small small,1,1,color and size,0,0,1,size,color,redundant,redundant,1
+7597-b,ülküctsl,CTSL,40,"color 
+ sufficient",tshirt_small_orange,1,tshirt color point(orange),1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+7597-b,ülküctsl,CTSL,41,"color 
+ sufficient",pepper_small_green,1,hot to-stuff pepper color point(green),1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+7597-b,ülküctsl,CTSL,42,"size 
+ sufficient",ball_big_purple,1,"ball color point(purple) big, big",1,1,color and size,0,0,1,color,size,redundant,redundant,1
+7597-b,ülküctsl,CTSL,43,"color 
+ sufficient",tie_big_red,1,tie red point(red) point(brown),1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+7597-b,ülküctsl,CTSL,44,"size 
+ sufficient",key_big_silver,1,"key door key big, big",0,1,only size,0,1,0,color,size,minimal,not_redundant,0
+7597-b,ülküctsl,CTSL,45,"size 
+ sufficient",cat_small_white,1,cat small body point(teeth) cat body small,0,1,only size,0,1,0,color,size,minimal,not_redundant,0
+7597-b,ülküctsl,CTSL,46,"size 
+ sufficient",button_big_blue,1,button big point(blue) big,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+7597-b,ülküctsl,CTSL,47,"color 
+ sufficient",pot_small_blue,1,flames pot small point(blue) pot small,1,1,color and size,0,0,1,size,color,redundant,redundant,1
+7597-b,ülküctsl,CTSL,48,"color 
+ sufficient",toothbrush_big_green,1,"toothbrush color point(green), toothbrush big",1,1,color and size,0,0,1,size,color,redundant,redundant,1
+7597-b,ülküctsl,CTSL,51,"size 
+ sufficient",balloon_big_yellow,1,baloon big color point(yellow),1,1,color and size,0,0,1,color,size,redundant,redundant,1
+7597-b,ülküctsl,CTSL,54,"color 
+ sufficient",umbrella_small_green,1,rain umbrella color point(green) umbrella big,1,1,color and size,0,0,1,size,color,redundant,redundant,1
+7597-b,ülküctsl,CTSL,55,"size 
+ sufficient",bag_small_blue,1,pencil bag color point(blue) bag small small,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+7597-b,ülküctsl,CTSL,57,"color 
+ sufficient",lock_big_gold,1,lock color point(yellow),1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+7597-b,ülküctsl,CTSL,58,"size 
+ sufficient",clock_big_purple,1,clock color point(purple) clock big,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+3743-d,yasin(ctsl),CTSL,6,"color 
+ sufficient",show_small_yellow,1,shoe color point(yellow),1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+3743-d,yasin(ctsl),CTSL,7,"color 
+ sufficient",tshirt_small_yellow,1,tshirt point(yellow),1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+3743-d,yasin(ctsl),CTSL,9,"color 
+ sufficient",lighter_small_black,1,lighter small lighter point(black),1,1,color and size,0,0,1,size,color,redundant,redundant,1
+3743-d,yasin(ctsl),CTSL,11,"size 
+ sufficient",balloon_big_yellow,1,balloon big point(yellow),1,1,color and size,0,0,1,color,size,redundant,redundant,1
+3743-d,yasin(ctsl),CTSL,14,"size 
+ sufficient",chair_small_yellow,1,point(chair) chair small small point(yellow),1,1,color and size,0,0,1,color,size,redundant,redundant,1
+3743-d,yasin(ctsl),CTSL,17,"color 
+ sufficient",toothbrush_small_purple,1,"toothbrush, small toothbrush small point(purple)",1,1,color and size,0,0,1,size,color,redundant,redundant,1
+3743-d,yasin(ctsl),CTSL,18,"size 
+ sufficient",apple_small_green,1,apple small point(green),1,1,color and size,0,0,1,color,size,redundant,redundant,1
+3743-d,yasin(ctsl),CTSL,19,"size 
+ sufficient",brush_big_red,1,brush big brush big point(red),1,1,color and size,0,0,1,color,size,redundant,redundant,1
+3743-d,yasin(ctsl),CTSL,24,"color 
+ sufficient",pants_small_pink,1,pants point(purple),1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+3743-d,yasin(ctsl),CTSL,26,"color 
+ sufficient",scissors_big_blue,1,scissors point(blue),1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+3743-d,yasin(ctsl),CTSL,27,"size 
+ sufficient",flower_big_pink,1,flower bloom small not big point(red),1,1,color and size,0,0,1,color,size,redundant,redundant,1
+3743-d,yasin(ctsl),CTSL,29,"size 
+ sufficient",knife_small_blue,1,knife small knife small point(blue) point(blue),1,1,color and size,0,0,1,color,size,redundant,redundant,1
+3743-d,yasin(ctsl),CTSL,30,"size 
+ sufficient",clock_big_purple,1,clock ? sleep hour-minute-hand clock small point(blue),1,1,color and size,0,0,1,color,size,redundant,redundant,1
+3743-d,yasin(ctsl),CTSL,31,"size 
+ sufficient",button_big_blue,1,point(button) stich button stich point(button) stich point(blue) big,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+3743-d,yasin(ctsl),CTSL,32,"color 
+ sufficient",pepper_big_red,1,pepper stuff hot pepper stuff point(red),1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+3743-d,yasin(ctsl),CTSL,33,"size 
+ sufficient",ball_big_yellow,1,"ball ball bounce ball big ball, big ball point(yellow), big point(yellow), big big",1,1,color and size,0,0,1,color,size,redundant,redundant,1
+3743-d,yasin(ctsl),CTSL,34,"color 
+ sufficient",lipstick_small_red,1,lipstick point(red),1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+3743-d,yasin(ctsl),CTSL,36,"color 
+ sufficient",socks_big_blue,1,socks big point(blue),1,1,color and size,0,0,1,size,color,redundant,redundant,1
+3743-d,yasin(ctsl),CTSL,43,"color 
+ sufficient",umbrella_big_blue,1,umbrella rain umbrella rain point(blue),1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+3743-d,yasin(ctsl),CTSL,44,"color 
+ sufficient",pot_small_blue,1,pot pot eat pot point(blue),1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+3743-d,yasin(ctsl),CTSL,45,"size 
+ sufficient",bag_small_blue,1,bag pencil bag pencil bag small point(blue) small,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+3743-d,yasin(ctsl),CTSL,47,"size 
+ sufficient",car_small_blue,1,car small toy-car point(blue),1,1,color and size,0,0,1,color,size,redundant,redundant,1
+3743-d,yasin(ctsl),CTSL,48,"color 
+ sufficient",tie_big_red,1,tie point(red),1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+3743-d,yasin(ctsl),CTSL,49,"size 
+ sufficient",key_big_gold,1,"key big key big, key",0,1,only size,0,1,0,color,size,minimal,not_redundant,0
+3743-d,yasin(ctsl),CTSL,51,"size 
+ sufficient",cat_big_black,1,"cat big big, big point(blue) big, cat",1,1,color and size,0,0,1,color,size,redundant,redundant,1
+3743-d,yasin(ctsl),CTSL,52,"size 
+ sufficient",dress_small_green,1,dress small point(green),1,1,color and size,0,0,1,color,size,redundant,redundant,1
+3743-d,yasin(ctsl),CTSL,53,"color 
+ sufficient",skirt_big_green,1,skirt big point(green),1,1,color and size,0,0,1,size,color,redundant,redundant,1
+3743-d,yasin(ctsl),CTSL,55,"size 
+ sufficient",glasses_big_red,1,"glasses, big glasses big point(pink)",1,1,color and size,0,0,1,color,size,redundant,redundant,1
+3743-d,yasin(ctsl),CTSL,56,"size 
+ sufficient",glove_small_orange,1,glove small point(red),1,1,color and size,0,0,1,color,size,redundant,redundant,1
+1535-6,zafer,CTSL,10,"color 
+ sufficient",lipstick_small_red,1,lipstick big lipstick not small small small,0,1,only size,0,1,0,size,color,underinformative,not_redundant,0
+1535-6,zafer,CTSL,11,"size 
+ sufficient",dress_small_green,1,"dress, point(screen), small",0,1,only size,0,1,0,color,size,minimal,not_redundant,0
+1535-6,zafer,CTSL,12,"size 
+ sufficient",clock_big_purple,1,clock clock ? ? big,0,1,only size,0,1,0,color,size,minimal,not_redundant,0
+1535-6,zafer,CTSL,14,"color 
+ sufficient",pot_big_blue,1,point(blue) point(blue) pot,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+1535-6,zafer,CTSL,15,"color 
+ sufficient",tie_small_red,1,tie red point(red) red,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+1535-6,zafer,CTSL,17,"color 
+ sufficient",show_small_yellow,1,shoe point(yellow),1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+1535-6,zafer,CTSL,19,"size 
+ sufficient",bag_small_red,1,bag red small,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+1535-6,zafer,CTSL,22,"color 
+ sufficient",scissors_small_green,1,scissors scissors point(green),1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+1535-6,zafer,CTSL,25,"color 
+ sufficient",toothbrush_big_purple,1,toothbrush point(blue),1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+1535-6,zafer,CTSL,26,"size 
+ sufficient",car_small_blue,1,"car small point(blue), small",1,1,color and size,0,0,1,color,size,redundant,redundant,1
+1535-6,zafer,CTSL,28,"size 
+ sufficient",knife_big_red,1,red knife small not big,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+1535-6,zafer,CTSL,29,"size 
+ sufficient",glove_big_green,1,glove blue big glove point(green),1,1,color and size,0,0,1,color,size,redundant,redundant,1
+1535-6,zafer,CTSL,30,"size 
+ sufficient",flower_small_pink,1,flower red flower small,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+1535-6,zafer,CTSL,33,"size 
+ sufficient",ball_big_purple,1,ball big one,0,1,only size,0,1,0,color,size,minimal,not_redundant,0
+1535-6,zafer,CTSL,34,"size 
+ sufficient",baloon_small_pink,1,red baloon small,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+1535-6,zafer,CTSL,35,"color 
+ sufficient",lighter_small_black,1,black black lighter black,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+1535-6,zafer,CTSL,42,"size 
+ sufficient",glasses_small_red,1,glasses red small,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+1535-6,zafer,CTSL,45,"color 
+ sufficient",socks_big_blue,1,socks point(blue),1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+1535-6,zafer,CTSL,46,"size 
+ sufficient",apple_big_green,1,apple apple big big,0,1,only size,0,1,0,color,size,minimal,not_redundant,0
+1535-6,zafer,CTSL,47,"color 
+ sufficient",pants_small_pink,1,red pants red pants red,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
+1535-6,zafer,CTSL,48,"color 
+ sufficient",pepper_small_green,1,pepper small red not,1,1,color and size,0,0,1,size,color,redundant,redundant,1
+1535-6,zafer,CTSL,49,"size 
+ sufficient",cat_small_white,1,white white small,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+1535-6,zafer,CTSL,51,"size 
+ sufficient",button_small_blue,1,blue button three small,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+1535-6,zafer,CTSL,52,"size 
+ sufficient",brush_small_blue,1,paint brush big not small,0,1,only size,0,1,0,color,size,minimal,not_redundant,0
+1535-6,zafer,CTSL,57,"size 
+ sufficient",chair_big_blue,1,chair blue big one big,1,1,color and size,0,0,1,color,size,redundant,redundant,1
+1535-6,zafer,CTSL,60,"color 
+ sufficient",skirt_big_green,1,skirt skirt one blue three not skirt one,1,0,only color,1,0,0,size,color,minimal,not_redundant,0
