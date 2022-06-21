@@ -115,7 +115,6 @@ m.b.full = brm(redUtterance ~ cSufficientProperty*cSceneVariation*cLanguage + (1
 
 summary(m.b.full)
 
-
 # create centered version of English dataset
 centered = cbind(d_english %>% 
                    select(redUtterance,SufficientProperty,Trial,SceneVariation,gameid,clickedType) %>% 

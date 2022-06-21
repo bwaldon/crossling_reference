@@ -59,6 +59,8 @@ options(mc.cores = parallel::detectCores())
 
 # # MODEL SPECIFICATION
 
+set.seed(123)
+
 m.b.full = brm(redUtterance ~ cSufficientProperty*cSceneVariation*cLanguage + 
                  (1+cSufficientProperty*cSceneVariation|gameid) + 
                  (1+cSufficientProperty*cSceneVariation*cLanguage|clickedType), 

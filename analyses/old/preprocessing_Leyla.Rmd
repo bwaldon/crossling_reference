@@ -1,0 +1,296 @@
+---
+title: "English production experiment"
+output: rmarkdown::github_document
+#output:
+  #html_document: default
+  #pdf_document: default
+---
+
+```{r import, include=FALSE}
+#this.dir <- dirname(rstudioapi::getSourceEditorContext()$path)
+#setwd(this.dir)
+
+library("tidyverse")
+library("xlsx")
+library("readxl")
+source("helpers.R")
+library("wesanderson")
+palette = wes_palette("Zissou1")
+theme_set(theme_bw())
+
+demo = read.csv(file="../data/example-subject_information.csv")
+dd = read.csv(file="../data/merged_data.csv",sep="\t", header=T, quote="")
+```
+
+```{r data_clean, include=FALSE}
+dd = dd %>%
+  mutate(targetName = ifelse(clickedObjTargetStatus=="target",as.character(clickedObjName),ifelse(alt1TargetStatus=="target",as.character(alt1Name),ifelse(alt2TargetStatus=="target",as.character(alt2Name),ifelse(alt3TargetStatus=="target",as.character(alt3Name),NA))))) %>%
+  mutate(trialType = ifelse(clickedObjTrialType=="overinformativeness", "redundantModification", ifelse(clickedObjTrialType=="adjective_ordering","modifierOrdering", as.character(clickedObjTrialType)))) %>%
+  mutate(correct = ifelse(clickedObjTargetStatus=="target",1,0))
+
+demo = demo %>%
+  mutate(role = ifelse(role=="speaker", "director", ifelse(role=="listener", "guesser", NA)))
+
+dd$extra = NULL
+```
+
+**Number of participants tested:**
+```{r number_tested, echo=FALSE}
+length(demo$workerid)
+table(demo$role)
+```
+
+**Number of unique gameids and number of rounds for each game**
+```{r roundno, echo=FALSE}
+length(unique(dd$gameid))
+
+round_no = dd %>%
+  group_by(gameid) %>%
+  summarize(total_round_number = n())
+
+table(round_no$total_round_number)
+```
+
+
+```{r df_comparison, eval=FALSE, include=FALSE}
+# **Number of gameids in the server vs mturk data:**
+
+#TODO: fix this using unique.R
+# serverGameids =  df %>% select(gameid) %>% unique()
+# length(serverGameids$gameid)
+# 
+# mturkGameids = demo %>%select(gameID) %>% group_by(gameID) %>% count()
+# #length(mturkGameids$gameID)
+# length(unique(mturkGameids$gameID))
+```
+
+**Exclusion: Remove games with non-native speakers: **
+
+```{r exclusions, echo=FALSE}
+notnative = demo %>% filter(demo$nativeEnglish != "yes")  %>% select(gameID) #7754-6
+notnative
+
+dd = dd[!(dd$gameid %in% notnative$gameID),]
+```
+
+**Overall accuracy:**
+```{r ovv_accuracy, echo=FALSE}
+toplot =  dd %>%
+  group_by(gameid) %>%
+  dplyr::summarise(Mean=mean(correct),CILow=ci.low(correct),CIHigh=ci.high(correct)) %>%
+  ungroup() %>%
+  mutate(YMin=Mean-CILow,YMax=Mean+CIHigh) %>%
+  mutate(lowacc=ifelse(Mean<0.70,"1","0"))
+
+h=0.70
+ggplot(toplot, aes(x=reorder(gameid,Mean), y=Mean)) +
+  geom_bar(stat="identity", fill="lightblue") +
+  geom_hline(yintercept=h) +
+  geom_text(aes(0, h, label=h, vjust=-1, hjust=-0.3)) +
+  geom_errorbar(aes(ymin = YMin, ymax = YMax),width=.25) +
+  theme(axis.text.x=element_blank()) +
+  ylab("Accuracy") +
+  xlab("English speakers")
+
+ggsave(file="../graphs/accuracy.pdf",width=5,height=3)
+```
+
+**Exclusion: Remove games with accuracy<70%: **
+```{r exc_accuracy, echo=FALSE}
+exclude = toplot %>%
+  filter(lowacc==1)
+exclude # 10 games
+
+dd = dd[!(dd$gameid %in% exclude$gameid),]
+
+length(unique(dd$gameid)) #46 games left
+```
+
+**Accuracy by trial type:**
+```{r accuracy_tt, echo=FALSE}
+toplot =  dd %>%
+  group_by(trialType) %>%
+  dplyr::summarise(Mean=mean(correct),CILow=ci.low(correct),CIHigh=ci.high(correct)) %>%
+  ungroup() %>%
+  mutate(YMin=Mean-CILow,YMax=Mean+CIHigh) %>%
+  mutate(lowacc=ifelse(Mean<0.70,"1","0"))
+
+ggplot(toplot, aes(x=reorder(trialType,Mean), y=Mean)) +
+  geom_bar(position="dodge", stat="identity", fill="lightblue") +
+  geom_errorbar(aes(ymin = YMin, ymax = YMax),width=.25, position=position_dodge(width = 0.9)) +
+  theme(axis.title.x=element_blank()) +
+  ylab("Accuracy")
+
+ggsave(file="../graphs/accuracy_trialType.pdf",width=6,height=4.5)
+```
+
+# Redundant modifier trials:
+```{r overinformativeness, echo=FALSE}
+df = dd %>%
+  filter(trialType == "redundantModification")
+
+drows = nrow(df)
+#table(df$clickedObjCondition)
+
+df = df %>%
+  mutate(targetFull=targetName) %>%
+  separate(targetFull,c("targetobj","targetsize","targetcolor"))
+
+#table(df$targetobj,df$correct)
+
+toplot =  df %>%
+  group_by(targetobj) %>%
+  dplyr::summarise(Mean=mean(correct),CILow=ci.low(correct),CIHigh=ci.high(correct)) %>%
+  ungroup() %>%
+  mutate(YMin=Mean-CILow,YMax=Mean+CIHigh)
+
+ggplot(toplot, aes(x=reorder(targetobj,Mean), y=Mean)) +
+  geom_bar(position="dodge", stat="identity", fill="lightblue") +
+  geom_errorbar(aes(ymin = YMin, ymax = YMax),width=.25, position=position_dodge(width = 0.9)) +
+  scale_fill_manual(values=c("darkgreen","darkgoldenrod1")) +
+  xlab("items") +
+  ylab("Accuracy") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+ggsave(file="../graphs/accuracy_redmodifer.pdf",width=8,height=4)
+```
+
+**Was a color mentioned?**
+```{r colormention, echo=FALSE}
+colors = "blue|green|red|brown|black|clear|purple|pink|silver|gray|grey|white|yellow|violet|gold|silver|orange"
+df$colorMention = ifelse(grepl(colors, df$speakerMessages, ignore.case = TRUE), 1,0)
+table(df$colorMention)
+```
+
+**Was size mentioned?**
+```{r sizemention, echo=FALSE}
+sizes = "big|small|biggest|smallest|tiny|huge|little"
+df$sizeMention = ifelse(grepl(sizes, df$speakerMessages, ignore.case = TRUE), 1,0)
+table(df$sizeMention)
+```
+
+**Was both a color and size mentioned?**
+```{r colorsizesmention, echo=FALSE}
+df$colorsizeMention = ifelse(df$colorMention==1&df$sizeMention==1,1,0)
+table(df$colorsizeMention)
+```
+
+**Was an object name mentioned?**
+TODO: Fix this!
+```{r objectmention, echo=FALSE}
+names  = "dress|apple|hair|pepper|glasses|ball|lighter|pot|button|clock|knife|tie|umbrella|spoon|shorts|tshirt|brush|box|skirt|socks|scissors|glove|lock|shoe|flower|bag|lipstick|toothbrush|car|baloon|balloon|chair|key|pants|";
+df$objectMention = ifelse(grepl(names, df$speakerMessages, ignore.case = TRUE), 1, 0)
+table(df$objectMention)
+```
+
+**In how many trials did the listener choose the right object?**
+```{r fcorrect_selection, echo=FALSE}
+table(df$correct)
+non_target_click = drows-sum(df$correct)
+
+print(paste("percentage of trials where target wasn't selected: ", non_target_click*100/drows)) #8.89
+print("distribution accross conditions: ")
+table(df$clickedObjCondition,df$correct)
+```
+
+**Exclude trials where target wasn't selected**
+```{r clicktarget, echo=FALSE}
+targets = df %>% filter(correct == "1")
+nrow(targets) # 1133 trials
+
+targets = targets %>%
+  mutate(condition=clickedObjCondition) %>%
+  mutate(UtteranceType = ifelse(colorMention==1 & sizeMention==1,"color and size",ifelse(colorMention==1,"only color",ifelse(sizeMention==1,"only size","other")))) %>%
+  filter(UtteranceType!="other") %>%
+  mutate(rowNum = row_number()) %>%
+  mutate(onlyColorMention = ifelse(UtteranceType =="only color",1,0)) %>%
+  mutate(onlySizeMention = ifelse(UtteranceType =="only size",1,0)) %>%
+  mutate(RedundantProperty = ifelse(condition=="color_sufficient","size", ifelse(condition=="size_sufficient","color", NA))) %>%
+  mutate(SufficientProperty = ifelse(condition=="color_sufficient","color", ifelse(condition=="size_sufficient","size", NA))) %>%
+  mutate(RedExp3Cat = ifelse(UtteranceType=="color and size","redundant",ifelse((SufficientProperty=="color"&UtteranceType=="only color"),"minimal",ifelse((SufficientProperty=="size"&UtteranceType=="only size"),"minimal","underinformative")))) %>%
+  mutate(RedExp2Cat = ifelse(RedExp3Cat=="redundant","redundant","not_redundant")) %>%
+  mutate(redundant = ifelse(RedExp2Cat=="redundant",1,0)) %>%
+  mutate(condition=ifelse(condition=="size_sufficient","size \n sufficient",ifelse(condition=="color_sufficient","color \n sufficient",NA))) %>%
+  select(gameid,gameid,roundNum,condition,targetName,correct,speakerMessages,colorMention,sizeMention,UtteranceType,onlyColorMention,onlySizeMention,colorsizeMention,RedundantProperty,SufficientProperty,RedExp3Cat,RedExp2Cat,redundant)
+```
+
+**Reading corrected dataset for typos and mention of other modifiers**
+TODO: manual correction + code 'other' modifiers (still not changed -from pd)
+```{r manually_corrected, eval=FALSE, include=FALSE}
+# tinfo = d %>% mutate(id = row_number()) %>% select(id,trialType) #write.table
+# manual = read.xlsx("../data/manual_correction.xlsx",1)
+# d = d %>% dplyr::mutate(id = row_number())
+# tomerge = manual %>% select(id,needCorrection,otherModifier)
+# # no typos!
+# d = merge(d, tomerge, by="id", all.x=TRUE, all.y=TRUE)
+# d$otherMod = ifelse(is.na(d$otherModifier),"0","1")
+
+# shade  = "dark|light|shade|lite|sky|violet|bright|pale";
+# d$shade = ifelse(grepl(shade, d$otherModifier, ignore.case = TRUE), "1", "0")
+# size = "big|small|long|short|lengthy|tall|large";
+# d$size = ifelse(grepl(size, d$otherModifier, ignore.case = TRUE), "1", "0")
+# shape = "rectengular|rectengle|square";
+# d$shape = ifelse(grepl(shape, d$otherModifier, ignore.case = TRUE), "1", "0")
+# 
+# print(paste("percentage of trials where other modifiers were used: ", sum(as.numeric(d$otherMod))*100/drows)) #39.18
+```
+
+**Proportion of utterance by utterance type and trial type**
+```{r mainplot, echo=FALSE}
+agr = targets %>%
+  gather(MentionType,mention,onlyColorMention:colorsizeMention) %>%
+  group_by(RedundantProperty,condition,MentionType) %>%
+  summarise(Mean=mean(mention),CIlow=ci.low(mention),CIhigh=ci.high(mention)) %>%
+  ungroup() %>%
+  mutate(Ymin=Mean-CIlow, Ymax=Mean+CIhigh) %>%
+  mutate(MentionType=fct_recode(MentionType,"color and size"="colorsizeMention","only color"="onlyColorMention","only size"="onlySizeMention"))
+
+ggplot(agr, aes(x=condition,y=Mean,fill=RedundantProperty)) +
+  geom_bar(stat = "identity") +
+  geom_errorbar(aes(ymin = Ymin, ymax = Ymax),width=.25) +
+  xlab("Trial type") +
+  facet_wrap(~MentionType) + 
+  scale_fill_manual(values=c(palette[1],palette[3])) +
+  theme(legend.position = "none",axis.title.x = element_blank(),axis.text.x = element_text(size=7)) +
+  ylab("Proportion of utterance")
+
+ggsave(file="../graphs/proportion_overall.pdf",width=4,height=2)
+```
+
+**Mixed effects logistic regression predicting redundant adjective use from fixed effects of redundant property, with random by-subject and by-item intercepts and slopes for redundant property**
+```{r simple_model, echo=FALSE}
+library(lme4)
+library(languageR)
+#centering
+tomodel = targets %>%
+  mutate(condition = as.factor(condition)) %>%
+  mutate(ccondition = as.numeric(condition) - mean(as.numeric(condition)))
+
+m = glmer(redundant ~ ccondition + (1+ccondition|gameid) + (1|targetName), data=tomodel, family="binomial")
+summary(m)
+```
+
+**Proportion of utterance type**
+```{r utterancetype, echo=FALSE}
+agr = targets %>%
+  mutate(ThreeRedundant=ifelse(RedExp3Cat=="redundant",1,0)) %>%
+  mutate(ThreeMinimal=ifelse(RedExp3Cat=="minimal",1,0)) %>%
+  mutate(ThreeUnderinformative=ifelse(RedExp3Cat=="underinformative",1,0)) %>%
+  gather(ThreeType,value,ThreeRedundant:ThreeUnderinformative) %>%
+  group_by(RedundantProperty,ThreeType,condition) %>%
+  summarise(Mean=mean(value),CIlow=ci.low(value),CIhigh=ci.high(value)) %>%
+  ungroup() %>%
+  mutate(Ymin=Mean-CIlow, Ymax=Mean+CIhigh) %>%
+  mutate(ThreeType=fct_recode(ThreeType,"redundant"="ThreeRedundant","underinformative"="ThreeUnderinformative","minimal"="ThreeMinimal"))
+
+ggplot(agr, aes(x=condition,y=Mean,fill=RedundantProperty)) +
+  geom_bar(stat = "identity") +
+  geom_errorbar(aes(ymin = Ymin, ymax = Ymax),width=.25) +
+  xlab("Trial type") +
+  facet_grid(~ThreeType) + 
+  scale_fill_manual(values=c(palette[1],palette[3])) +
+  theme(legend.position = "none",axis.title.x = element_blank(),axis.text.x = element_text(size=7)) +
+  ylab("Proportion of utterance")
+
+ggsave(file="../graphs/proportion_threetype.png",width=4,height=2)
+``` 

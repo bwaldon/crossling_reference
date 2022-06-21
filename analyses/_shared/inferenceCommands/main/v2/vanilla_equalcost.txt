@@ -1,0 +1,28 @@
+var posteriors = Infer({model: function(){
+  var p = {
+    alpha: uniformDrift({a: 0, b: 40, w: 0.01}),
+    colorNoiseVal: 1,
+    sizeNoiseVal: 1,
+    adjCost: uniformDrift({a: 0, b: 2, w: .5/20}),
+    nounCost: 0,
+  }
+
+  var p = extend(p, {colorCost: p.adjCost, sizeCost: p.adjCost})
+
+  mapData({data: df}, function(d){
+    // d: a row of the long-form data that includes d.states, d.utterances, d.response
+    var m = extend(model(p), {states : d.states, utterances : d.utterances})
+    var speakerDist = globalUtteranceSpeaker("TARGET_REFERENT",m,p,semantics(p))
+    var altUtilities = _.sum(_.map(function(u) { speakerDist.score(u) }, d.utterances))
+    var responseUtility = speakerDist.score(d.response)
+    var score = responseUtility - altUtilities
+    factor(score)
+  })
+
+  return p
+}, method: "MCMC",
+samples: NUM_SAMPLES,
+lag: LAG, burn: BURN_IN,
+verbose: true})
+
+posteriors

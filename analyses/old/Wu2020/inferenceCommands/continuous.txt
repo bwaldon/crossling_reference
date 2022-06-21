@@ -1,0 +1,26 @@
+var posteriors = Infer({model: function(){
+  var p = {
+    alpha: uniformDrift({a: 0, b: 40, w: 1}),
+    colorNoiseVal: uniformDrift({a: 0.5, b: 1, w: 0.05}),
+    numberNoiseVal: uniformDrift({a: 0.5, b: 1, w: 0.05}),
+    numberCost: uniformDrift({a: 0, b: 1, w: 0.05}),
+    nounCost: 0,
+    colorCost: uniformDrift({a: 0, b: 1, w: 0.05})
+  }
+
+  mapData({data: df}, function(d){
+    var m = extend(model(p), {states : d.states, utterances : d.utterances})
+    var overMod1_score = Math.exp(globalUtteranceSpeaker(d.target,m,p,semantics(p)).score(d.overmod_1))
+    var overMod2_score = Math.exp(globalUtteranceSpeaker(d.target,m,p,semantics(p)).score(d.overmod_2))
+
+    observe(Gaussian({mu: overMod1_score + overMod2_score, sigma: 0.01}), d.observedMention)
+    
+  })
+
+  return p
+}, method: "MCMC",
+samples: 1000,
+lag: 1, burn: 2000,
+verbose: true})
+
+posteriors

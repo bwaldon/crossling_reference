@@ -18,7 +18,8 @@ mongoCreds <- readLines("../../api_keys/mongo")
 ### 'Rounds' contains the by-trial info for the games played by the players
 
 d <- getRoundData_byLanguage("Spanish",mongoCreds) %>%
-  filter(updatedAt > "2021-12-14 00:00:00")
+  # filter(updatedAt > "2021-12-14 00:00:00")
+  filter(updatedAt > "2022-3-31 00:00:00")
 
 saveRDS(d, file = "../../data/SpanishMain/rawData.rds")
 
@@ -69,8 +70,8 @@ plotAccuracyByTrialType(d)
 # Step 7: automatically annotate dataset 
 
 colorTerms <- "negro|azul|cafe|verde|gris|naranja|rosa|morado|rojo|beige|blanco|amarillo|
-negra|anaranjado|morada|roja|blanca|amarilla"
-nouns <- "globo|chilemorrón|cinturón|bicicleta|bola de billar|carpeta|libro|pulsera|cangilón|mariposa|vela|gorra|silla|perchero|peine|amortiguar|flor|marco|guitarra|secadora|chaqueta|servilleta|pimienta|teléfono |pelotadepingpong|piedra|alfombra|bufanda|zapato|engrapadora|tachuela|tazadeté|cepillodedientes|tortuga|pasteldebodas|hilo"
+negra|anaranjado|morada|roja|blanca|amarilla|marron|lila|violeta|morado|rosa|rosado|rosada|morada|naranja|anaranjado|anaranjada|naranjo|clara|claro|negra|negro|colorado"
+nouns <- "cojín|cinturon|cinturón|cinto|cincho|fajo|faja|pelota|bola|balde|valde|cubeta|cuveta|gancho|pechera|percha|colgador|secador|secadora|pastel|tarta|chile|ají|aji|pimiento|libro|biblia|telefono|teléfono|celular|mobil|globo|chilemorrón|cinturón|bicicleta|bola de billar|carpeta|libro|pulsera|cangilón|mariposa|vela|gorra|silla|perchero|peine|amortiguar|flor|marco|guitarra|secadora|chaqueta|servilleta|pimienta|teléfono |pelotadepingpong|piedra|alfombra|bufanda|zapato|engrapadora|tachuela|tazadeté|cepillodedientes|tortuga|pasteldebodas|hilo"
 bleachedNouns <- ""
 articles <- "el|la|los|las"
 sizeTerms <- "pequeño|pequeña|grande|chico|chica|chiquito|chiquita"
@@ -81,11 +82,12 @@ d_preManualTypoCorrection <- automaticAnnotate(d, colorTerms, sizeTerms, nouns, 
 write_delim(data.frame(d_preManualTypoCorrection %>%
                          select(-target, -images, -listenerImages, -speakerImages,
                                 -chat)), 
-            "../../data/SpanishMain/preManualTypoCorrection.tsv", delim="\t")
+            "../../data/SpanishMain/preManualTypoCorrection_part2.tsv", delim="\t")
 
 # Step 9: Read manually corrected dataset for further preprocessing
 # Make sure file being read in is *post* manual correction ('pre' just for testing)
 d <- read_delim("../../data/SpanishMain/postManualTypoCorrection.tsv", delim = "\t") %>%
+  rbind(read_delim("../../data/SpanishMain/postManualTypoCorrection_part2.tsv", delim = "\t")) %>%
   filter(grepl("color|size", condition)) %>%
   filter(!(grepl("ENGLISH", words))) %>%
   # Get accurate 'legacy' annotation columns (e.g. colorMentioned) by back-transforming from the annotation column ('words')
@@ -102,7 +104,9 @@ d <- read_delim("../../data/SpanishMain/postManualTypoCorrection.tsv", delim = "
   mutate(clickedFeatures = strsplit(nameClickedObj, "_"),
          clickedColor = map(clickedFeatures, pluck, 2),
          clickedSize = map(clickedFeatures, pluck, 1),
-         clickedType = map(clickedFeatures, pluck, 3))
+         clickedType = map(clickedFeatures, pluck, 3)) %>%
+  # Looks like we collected one game too many, exclude it from analysis
+  filter(!(gameId == "5iXGA8yrtbLNsFb8x"))
 colsizerows <- nrow(d)
 
 # How many trials were automatically labelled as mentioning a pre-coded level of reference?
