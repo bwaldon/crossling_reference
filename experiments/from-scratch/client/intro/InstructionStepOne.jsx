@@ -14,7 +14,7 @@ export default class InstructionStepOne extends React.Component {
     const objects = ["ambulance", "big_grey_rock", "lily", "pretzels"];
 
     const images = objects.map((object) => {
-      let path = "/images/" + object + ".jpg";
+      let path = "/images/degenetal_stimuli/" + object + ".jpg";
       return (
         <td>
           <Image image={object} path={path} />
