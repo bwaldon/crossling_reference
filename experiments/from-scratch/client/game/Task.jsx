@@ -26,7 +26,8 @@ class ListenerTask extends React.Component {
 		round.set("listenerSelection", this.state.selected)
 		this.handleChange = this.handleChange.bind(this);
 		this.handleSubmit = this.handleSubmit.bind(this);
-		this.images = round.get("listenerImages")	
+		this.images = round.get("listenerImages");
+		this.imageType = round.get("imageType");
 	}
 
 	// handle the click anywhere to proceed after selection
@@ -37,7 +38,7 @@ class ListenerTask extends React.Component {
 			this.props.player.stage.submit();
 			document.removeEventListener('click', this.handleClick, true);
 		}
-    } 
+    }
 
     // handle the submit button
 
@@ -80,7 +81,7 @@ class ListenerTask extends React.Component {
 			this.setState({ selected: e.target.id });
 		} else {
 
-		}	
+		}
 
 	};
 
@@ -88,13 +89,13 @@ class ListenerTask extends React.Component {
 
 		const { round, stage, player, game } = this.props;
     	const gameTextInLanguage = gameText.filter(row => row.language == game.treatment.gameLanguage)[0]
-		
+
 		let button;
 		let feedbackMessage;
 		const listenerSelection = round.get("listenerSelection")
 		const target = round.get("target")
-		const correct = listenerSelection == target.id ? true : false	
-		if (round.get('stage') === "feedback") {	
+		const correct = listenerSelection == target.id ? true : false
+		if (round.get('stage') === "feedback") {
 			if (listenerSelection == "NONE") {
 			feedbackMessage = gameTextInLanguage.TASK_youDidntSelectImage
 		} else if(!(correct)){
@@ -105,12 +106,15 @@ class ListenerTask extends React.Component {
 		} else {
 			button = <button onClick={this.handleSubmit}>{gameTextInLanguage.TASK_submitButtonText}</button>
 		}
-		
-		const images = this.images.map((image,) => { 
-			let path = "images/" + image.name + ".jpg";
+
+		const images = this.images.map((image,) => {
+			let path = "images/" + this.imageType + "/" + image.name + ".jpg";
+			console.log("here");
+			console.log(this.imageType);
+			console.log(path);
 			let highlighted;
 			let borderColor;
-			
+
 			if (round.get('stage') === "feedback") {
 				highlighted = listenerSelection == image.id || target.id == image.id ? true : false
 				borderColor = !(correct) & image.id == listenerSelection ? 'red' : 'green';
@@ -119,7 +123,7 @@ class ListenerTask extends React.Component {
 				borderColor = "black"
 			}
 			return(<Image image={image} path= {path} onClick = {this.handleChange} borderColor = {borderColor} highlighted = {highlighted} /> )})
-		
+
 		return (
 			<div className="task-stimulus">
 				<table>
@@ -137,7 +141,7 @@ class ListenerTask extends React.Component {
 				<i> {round.get('stage') == 'feedback' ? gameTextInLanguage.TASK_clickAnywhereToAdvance : ""} </i>
 				</td>
 				</tr>
-				</table>	
+				</table>
 			</div>
 			);
 	}
@@ -152,14 +156,15 @@ class SpeakerTask extends React.Component {
 	constructor(props) {
 		super(props);
 		const { round } = this.props;
-		this.images = round.get("speakerImages")
+		this.images = round.get("speakerImages");
+		this.imageType = round.get("imageType");
 	}
 
 	render() {
 
 		const { round, stage, player, game } = this.props;
     	const gameTextInLanguage = gameText.filter(row => row.language == game.treatment.gameLanguage)[0]
-		
+
 		let feedbackMessage;
 		const listenerSelection = round.get("listenerSelection")
 		const target = round.get("target")
@@ -174,8 +179,8 @@ class SpeakerTask extends React.Component {
 			}
 		}
 
-		const images = this.images.map((image,) => { 
-			let path = "images/" + image.name + ".jpg";
+		const images = this.images.map((image,) => {
+			let path = "images/" + this.imageType + "/" + image.name + ".jpg";
 			let highlighted;
 			let borderColor;
 			if (round.get('stage') === "feedback") {
@@ -186,9 +191,9 @@ class SpeakerTask extends React.Component {
 				borderColor = 'black'
 			}
 			return(<Image image={image} path= {path} borderColor = {borderColor} highlighted = {highlighted} /> )})
-		
+
 		return (
-			<div className="task-stimulus">		
+			<div className="task-stimulus">
 				<table>
 				<tr align ="center">
 				{images}
