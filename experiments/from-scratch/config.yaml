@@ -1,0 +1,186 @@
+treatments:
+  - name: onePlayer
+    factorIds:
+      - KAujRPntjxYGFTGYQ
+    archivedAt: 2021-03-31T01:43:11.714Z
+  - name: twoPlayer
+    factorIds:
+      - mYzqByEKgDthJTL72
+    archivedAt: 2021-05-06T18:02:25.404Z
+  - name: twoPlayers
+    factorIds:
+      - mYzqByEKgDthJTL72
+      - tKXfPSCQymC8aaD8F
+    archivedAt: 2021-05-06T19:33:34.686Z
+  - name: twoPlayerShort
+    factorIds:
+      - mYzqByEKgDthJTL72
+      - tKXfPSCQymC8aaD8F
+      - gMw9DznKr2MCYXcYB
+    archivedAt: 2021-08-27T16:41:22.879Z
+  - name: twoPlayerLong
+    factorIds:
+      - mYzqByEKgDthJTL72
+      - tKXfPSCQymC8aaD8F
+      - XYqSYpu6fpAie5sz9
+    archivedAt: 2021-08-27T16:41:22.356Z
+  - name: twoPlayerShortEnglish
+    factorIds:
+      - mYzqByEKgDthJTL72
+      - tKXfPSCQymC8aaD8F
+      - gMw9DznKr2MCYXcYB
+      - xhArXRwkPwZ57xEm5
+  - name: twoPlayerShortChinese
+    factorIds:
+      - mYzqByEKgDthJTL72
+      - tKXfPSCQymC8aaD8F
+      - gMw9DznKr2MCYXcYB
+      - tdHGQuYaNgupskAeQ
+  - name: twoPlayerLongEnglish
+    factorIds:
+      - mYzqByEKgDthJTL72
+      - tKXfPSCQymC8aaD8F
+      - XYqSYpu6fpAie5sz9
+      - xhArXRwkPwZ57xEm5
+  - name: twoPlayerShortMeta
+    factorIds:
+      - mYzqByEKgDthJTL72
+      - tKXfPSCQymC8aaD8F
+      - gMw9DznKr2MCYXcYB
+      - cQgWRe2APFtbGfgEg
+  - name: twoPlayerShortArabic
+    factorIds:
+      - hbM7oP9PRFQJ7ymwB
+      - gMw9DznKr2MCYXcYB
+      - tKXfPSCQymC8aaD8F
+      - mYzqByEKgDthJTL72
+  - name: twoPlayerShortArabicNoCode
+    factorIds:
+      - mYzqByEKgDthJTL72
+      - tKXfPSCQymC8aaD8F
+      - gMw9DznKr2MCYXcYB
+      - hbM7oP9PRFQJ7ymwB
+      - F5jgoXdWS3AQgC7zS
+  - name: ArabicShortEnglishConsent
+    factorIds:
+      - mYzqByEKgDthJTL72
+      - tKXfPSCQymC8aaD8F
+      - gMw9DznKr2MCYXcYB
+      - hbM7oP9PRFQJ7ymwB
+      - F5jgoXdWS3AQgC7zS
+      - NQRAzmF9qcv2oXuW9
+  - name: veryShortSpanish
+    factorIds:
+      - mYzqByEKgDthJTL72
+      - tKXfPSCQymC8aaD8F
+      - xaXu8XThv5DT8yGR8
+      - FMA5Yn7dD5ifTmdHz
+      - F5jgoXdWS3AQgC7zS
+      - uGrxySDdxAYsnhJkt
+factorTypes:
+  - _id: PkidNS8CDagWcrNhW
+    name: playerCount
+    description: The Number of players participating in the given game.
+    required: true
+    type: Integer
+    min: 1
+  - _id: TvpxrEsWe4W2SPuQ5
+    name: prolificCode
+    description: code for prolific participation
+    required: false
+    type: Integer
+  - _id: fXXjuopkoqcNL79qX
+    name: length
+    description: number of rounds played (full version is 72)
+    required: false
+    type: Integer
+  - _id: uEWBdmXDX94hX2eLn
+    name: gameLanguage
+    description: language of game
+    required: false
+    type: String
+  - _id: KpJuXc7ESK3evzzqm
+    name: showProlificCode
+    description: >-
+      whether or not to show a prolific participation code at the end of the
+      study
+    required: false
+    type: Boolean
+  - _id: LL56u82NbvX4d29vC
+    name: showConsentInNativeLanguage
+    description: 'If false, shows consent form in English'
+    required: false
+    type: Boolean
+factors:
+  - _id: KAujRPntjxYGFTGYQ
+    name: solo
+    value: 1
+    factorTypeId: PkidNS8CDagWcrNhW
+    archivedAt: 2021-03-31T01:42:59.657Z
+  - _id: mYzqByEKgDthJTL72
+    name: due
+    value: 2
+    factorTypeId: PkidNS8CDagWcrNhW
+  - _id: tKXfPSCQymC8aaD8F
+    name: test
+    value: 666
+    factorTypeId: TvpxrEsWe4W2SPuQ5
+  - _id: gMw9DznKr2MCYXcYB
+    name: short
+    value: 5
+    factorTypeId: fXXjuopkoqcNL79qX
+  - _id: XYqSYpu6fpAie5sz9
+    name: long
+    value: 72
+    factorTypeId: fXXjuopkoqcNL79qX
+  - _id: xhArXRwkPwZ57xEm5
+    name: English
+    value: English
+    factorTypeId: uEWBdmXDX94hX2eLn
+  - _id: tdHGQuYaNgupskAeQ
+    name: ChineseSimplified
+    value: ChineseSimplified
+    factorTypeId: uEWBdmXDX94hX2eLn
+  - _id: cQgWRe2APFtbGfgEg
+    name: Meta
+    value: Meta
+    factorTypeId: uEWBdmXDX94hX2eLn
+  - _id: hbM7oP9PRFQJ7ymwB
+    name: Arabic
+    value: Arabic
+    factorTypeId: uEWBdmXDX94hX2eLn
+  - _id: Wt5qk3YfDCAgMDid6
+    name: 'true'
+    value: true
+    factorTypeId: KpJuXc7ESK3evzzqm
+  - _id: F5jgoXdWS3AQgC7zS
+    name: 'false'
+    value: false
+    factorTypeId: KpJuXc7ESK3evzzqm
+  - _id: 7sxW9q3ashDYk9uBC
+    name: surveyOnly
+    value: 1
+    factorTypeId: fXXjuopkoqcNL79qX
+    archivedAt: 2021-11-28T20:39:11.494Z
+  - _id: uGrxySDdxAYsnhJkt
+    name: 'true'
+    value: true
+    factorTypeId: LL56u82NbvX4d29vC
+  - _id: NQRAzmF9qcv2oXuW9
+    name: 'false'
+    value: false
+    factorTypeId: LL56u82NbvX4d29vC
+  - _id: FMA5Yn7dD5ifTmdHz
+    name: Spanish
+    value: Spanish
+    factorTypeId: uEWBdmXDX94hX2eLn
+  - _id: xaXu8XThv5DT8yGR8
+    name: veryShort
+    value: 2
+    factorTypeId: fXXjuopkoqcNL79qX
+lobbyConfigs:
+  - name: soloLobby
+    timeoutType: lobby
+    timeoutInSeconds: 300
+    timeoutStrategy: fail
+    gameLobbyIds: []

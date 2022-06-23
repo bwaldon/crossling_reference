@@ -15,8 +15,8 @@ import {
 	Checkbox,
 } from "@blueprintjs/core";
 
-export default class ExitSurvey extends React.Component {
-	static stepName = "ExitSurvey";
+export default class ExitSurveyLangSpecific extends React.Component {
+	static stepName = "ExitSurveyLangSpecific";
 
 	state = {};
 

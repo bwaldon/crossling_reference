@@ -85,6 +85,6 @@ Empirica.gameInit((game) => {
     //   durationInSeconds: 3,
     // });
   });
-
+  
   game.set("length", gameLength);
 });

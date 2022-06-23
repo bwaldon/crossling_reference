@@ -13,12 +13,9 @@ import customGameLobby from "./game/GameLobby.jsx";
 import customWaitingForServer from "./game/WaitingForServer.jsx";
 import Quiz from "./intro/Quiz";
 import Quiz_rtl from "./intro/Quiz_rtl";
-import newPlayer_hardcode from "./intro/newPlayer_hardcode.jsx";
 
-
+const urlParams = new window.URL(document.location).searchParams;
 const batchGroupName = urlParams.get("batchGroupName");
-
-
 
 // Set the About Component you want to use for the About dialog (optional).
 // Empirica.about(About);
@@ -50,7 +47,18 @@ Empirica.introSteps((game, treatment) => {
 // See client/game/Round.jsx to learn more.
 Empirica.round(Round);
 
-Empirica.newPlayer(newPlayer_hardcode);
+let newPlayer; 
+
+// TODO: Modularize the NewPlayer page 
+
+if(batchGroupName == "BCS1") {
+	// Should eventually be something like: newPlayer = require("./intro/newPlayer_BCS.jsx").default;
+	newPlayer = require("./intro/newPlayer.jsx").default;
+} else {
+	newPlayer = require("./intro/newPlayer.jsx").default;
+}
+
+Empirica.newPlayer(newPlayer);
 
 // End of Game pages. These may vary depending on player or game information.
 // For example we can show the score of the user, or we can show them a
@@ -60,25 +68,19 @@ Empirica.newPlayer(newPlayer_hardcode);
 // user if they come back to the website.
 // If you don't return anything, or do not define this function, a default
 // exit screen will be shown.
+
 Empirica.exitSteps((game, player) => {
 
-
-	// const steps = [];
-	// if (game.treatment.gameLanguage == "Arabic") {
-	// 	steps.push(ExitSurvey_rtl);
-	// } else {
-	// 	steps.push(ExitSurvey);
-	// }
-	// steps.push(Thanks);
+	let ExitSurveyLangSpecific;
 
 	if (batchGroupName == "BCS1") {
-		import ExitSurveyLangSpecific from './exit/BCS_1.jsx'
+		ExitSurveyLangSpecific = require('./exit/BCS_1.jsx').default
 	} else if (batchGroupName == "Arabic_1") {
-		import ExitSurveyLangSpecific from './exit/Arabic_1.jsx'
+		ExitSurveyLangSpecific = require('./exit/Arabic_1.jsx').default
 	} else if (batchGroupName == "Spanish_1") {
-		import ExitSurveyLangSpecific from './exit/Spanish_1.jsx'
+		ExitSurveyLangSpecific = require('./exit/Spanish_1.jsx').default
 	} else {
-		import ExitSurveyLangSpecific from './exit/English.jsx'
+		ExitSurveyLangSpecific = require('./exit/English.jsx').default
 	}
 
 	return [ExitSurvey, ExitSurveyLangSpecific, Thanks];
