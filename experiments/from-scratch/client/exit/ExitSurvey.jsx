@@ -121,7 +121,6 @@ export default class ExitSurvey extends React.Component {
 				<form onSubmit={this.handleSubmit}>
 					<span> </span>
 
-					// age
 					<div className="form-line">
 						<div>
 							<label htmlFor="age">
@@ -141,7 +140,6 @@ export default class ExitSurvey extends React.Component {
 					</div>
 					<br></br>
 
-					//gender
 					<div className="form-line">
 						<div>
 							<label htmlFor="gender">
@@ -160,7 +158,6 @@ export default class ExitSurvey extends React.Component {
 					</div>
 					<br></br>
 
-					// native Languages
 					<div className="form-line">
 						<div>
 							<label htmlFor="language">
@@ -182,7 +179,6 @@ export default class ExitSurvey extends React.Component {
 					</div>
 					<br></br>
 
-					// education lavel
 					<div className="pt-form-group">
 						<div className="pt-form-content">
 							<b>
@@ -209,7 +205,6 @@ export default class ExitSurvey extends React.Component {
 
 					<br></br>
 
-					// followed instructions
 					<div className="pt-form-group">
 						<div className="pt-form-content">
 							<b>
@@ -235,7 +230,6 @@ export default class ExitSurvey extends React.Component {
 					</div>{" "}
 					<br></br>
 
-					// worked well with partner
 					<div className="pt-form-group">
 						<div className="pt-form-content">
 							<b>
@@ -261,7 +255,6 @@ export default class ExitSurvey extends React.Component {
 					</div>{" "}
 					<br></br>
 
-					// pay was fair
 					<div className="form-line thirds">
 						<FormGroup
 							className={"form-group"}
@@ -272,7 +265,6 @@ export default class ExitSurvey extends React.Component {
 								</b>
 							}
 							labelFor={"fair"}
-							//className={"form-group"}
 						>
 							<TextArea
 								id="fair"
@@ -286,7 +278,6 @@ export default class ExitSurvey extends React.Component {
 						</FormGroup>
 					</div>
 
-					// in game chat was easy to use?
 					<div className="form-line thirds">
 						<FormGroup
 							className={"form-group"}
@@ -312,7 +303,6 @@ export default class ExitSurvey extends React.Component {
 						</FormGroup>
 					</div>
 
-					// are you colorblind?
 					<div className="form-line thirds">
 						<FormGroup
 							className={"form-group"}
@@ -336,7 +326,6 @@ export default class ExitSurvey extends React.Component {
 						</FormGroup>
 					</div>
 
-					// problems or comments?
 					<div className="form-line thirds">
 						<FormGroup
 							className={"form-group"}
@@ -363,7 +352,6 @@ export default class ExitSurvey extends React.Component {
 					</div>
 					<br></br>
 
-					// was your partner human?
 					<div className="pt-form-group">
 						<div className="pt-form-content">
 							<b>
@@ -391,7 +379,6 @@ export default class ExitSurvey extends React.Component {
 					<div>
 						<br></br>
 
-						// keyboard in language
 						<div className="pt-form-group">
 							<div className="pt-form-content">
 								<b>
@@ -417,7 +404,6 @@ export default class ExitSurvey extends React.Component {
 						</div>
 						<br></br>
 
-						// are you comfortable with this keyboard?
 						<div className="pt-form-group">
 							<div className="pt-form-content">
 								<b>

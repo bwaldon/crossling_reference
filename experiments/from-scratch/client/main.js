@@ -47,13 +47,23 @@ Empirica.introSteps((game, treatment) => {
 // See client/game/Round.jsx to learn more.
 Empirica.round(Round);
 
-let newPlayer; 
+let newPlayer;
 
-// TODO: Modularize the NewPlayer page 
+// TODO: Modularize the NewPlayer page
 
 if(batchGroupName == "BCS1") {
 	// Should eventually be something like: newPlayer = require("./intro/newPlayer_BCS.jsx").default;
-	newPlayer = require("./intro/newPlayer.jsx").default;
+	newPlayer = require("./intro/newPlayer_BCS1.jsx").default;
+} else if (batchGroupName == "Arabic1") {
+	newPlayer = require("./intro/newPlayer_Arabic1.jsx").default;
+} else if (batchGroupName == "Spanish1") {
+	newPlayer = require("./intro/newPlayer_Spanish1.jsx").default;
+} else if (batchGroupName == "BCSEng1") {
+	newPlayer = require("./intro/newPlayer_BCSEng1.jsx").default;
+} else if (batchGroupName == "BCS2") {
+	newPlayer = require("./intro/newPlayer_BCS2.jsx").default;
+} else if (batchGroupName == "BCSEng2") {
+	newPlayer = require("./intro/newPlayer_BCSEng2.jsx").default;
 } else {
 	newPlayer = require("./intro/newPlayer.jsx").default;
 }
@@ -74,11 +84,17 @@ Empirica.exitSteps((game, player) => {
 	let ExitSurveyLangSpecific;
 
 	if (batchGroupName == "BCS1") {
-		ExitSurveyLangSpecific = require('./exit/BCS_1.jsx').default
-	} else if (batchGroupName == "Arabic_1") {
-		ExitSurveyLangSpecific = require('./exit/Arabic_1.jsx').default
-	} else if (batchGroupName == "Spanish_1") {
-		ExitSurveyLangSpecific = require('./exit/Spanish_1.jsx').default
+		ExitSurveyLangSpecific = require('./exit/BCS1.jsx').default
+	} else if (batchGroupName == "Arabic1") {
+		ExitSurveyLangSpecific = require('./exit/Arabic1.jsx').default
+	} else if (batchGroupName == "Spanish1") {
+		ExitSurveyLangSpecific = require('./exit/Spanish1.jsx').default
+	} else if (batchGroupName == "BCS2") {
+		ExitSurveyLangSpecific = require('./exit/BCS2.jsx').default
+	} else if (batchGroupName == "BCSEng1") {
+		ExitSurveyLangSpecific = require('./exit/BCSEng1.jsx').default
+	} else if (batchGroupName == "BCSEng2") {
+		ExitSurveyLangSpecific = require('./exit/BCSEng2.jsx').default
 	} else {
 		ExitSurveyLangSpecific = require('./exit/English.jsx').default
 	}

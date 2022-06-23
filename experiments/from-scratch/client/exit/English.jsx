@@ -342,7 +342,6 @@ export default class ExitSurveyLangSpecific extends React.Component {
 						</div>
 					</div>
 
-					// Race of participant
 					<div className="bp3-form-group">
 						<label className="bp3-label" htmlFor="race">
 							<b>

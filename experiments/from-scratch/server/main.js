@@ -68,6 +68,7 @@ Empirica.gameInit((game) => {
         listenerImages: _.shuffle(images),
         stage: "selection",
         condition: scene.condition,
+        imageType: scene.imageType,
         alt1BasicLevel: scene.alt1BasicLevel,
         alt1SuperLevel: scene.alt1SuperLevel,
         alt2BasicLevel: scene.alt2BasicLevel,
@@ -85,6 +86,6 @@ Empirica.gameInit((game) => {
     //   durationInSeconds: 3,
     // });
   });
-  
+
   game.set("length", gameLength);
 });

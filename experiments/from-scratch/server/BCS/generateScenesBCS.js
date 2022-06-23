@@ -204,6 +204,7 @@ exports.generateScenes = function generateScenes() {
               'alt2BasicLevel': alt2Basic,
               'alt2SuperLevel': alt2Super,
               'NumDistractors': 2,
+              'imageType': 'degenetal_stimuli',
               'condition' : contextMode
           });
       }
@@ -255,6 +256,7 @@ exports.generateScenes = function generateScenes() {
         'alt1SuperLevel': 'NA',
         'alt2BasicLevel': 'NA',
         'alt2SuperLevel': 'NA',
+        'imageType': 'pophristic_stimuli',
         'condition': condition
       })
     }
