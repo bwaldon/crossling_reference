@@ -26,8 +26,8 @@ Empirica.gameInit((game) => {
   // this factor determines which generateScenes file will be used, and thus
   // which stimuli will be shown.
   const generateScenesObject = function() {
-    if (game.treatment.sceneGenerator == "BCS") {
-      return(require("./BCS/generateScenesBCS"));
+    if (game.treatment.sceneGenerator == "BCS1") {
+      return(require("./BCS/generateScenesBCS1"));
     // } else if (game.treatment.sceneGenerator == "BCS2") {
     //   return(require("./BCS/generateScenesBCS2"));
   } else if (game.treatment.sceneGenerator == "BCS2") {
