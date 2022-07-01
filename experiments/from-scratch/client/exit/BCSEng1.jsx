@@ -289,24 +289,7 @@ export default class ExitSurveyLangSpecific extends React.Component {
 									</option>
 								))}
 							</HTMLSelect>
-							{game.treatment.gameLanguage == "Spanish" ? (
-								<div>
-									<label htmlFor="spanishCommunitySpecify">
-										<b>
-											{" " + "Si es así, ¿dónde?" + " "}
-										</b>
-									</label>
-									<input
-										id="spanishCommunitySpecify"
-										type="text"
-										dir="auto"
-										name="spanishCommunitySpecify"
-										value={spanishCommunitySpecify}
-										onChange={this.handleChange}
-										autoComplete="off"
-									/>{" "}
-								</div>
-							) : null}
+							
 						</div>
 					</div>
 					<br></br>
@@ -454,7 +437,7 @@ export default class ExitSurveyLangSpecific extends React.Component {
 						</div>
 						<br></br>
 					</div>
-					
+
 				</div>
 
 				<form onSubmit={this.handleSubmit}>

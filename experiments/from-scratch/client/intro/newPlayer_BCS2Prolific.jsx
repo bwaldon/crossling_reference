@@ -32,7 +32,7 @@ export default class PlayerId extends Component {
             <Centered>
                 <div className="new-player" dir="auto">
                     <form onSubmit={this.handleSubmit}>
-                        <p>Unesite email vaš Prolific ID ili email adresu:
+                        <p>Unesite vaš Prolific ID ili email adresu:
                         </p>
                         <br/>
 
@@ -49,10 +49,9 @@ export default class PlayerId extends Component {
 
                         <p>
                           <div>
-                            <br></br>Ako imate Prolific ID, unesite taj broj a <b>ne</b> vašu email adresu.
-                            <br></br>Ako vaš partner ima Prolific ID, molimo vas unesite vašu email adresu. Dobićete naknadu kroz Prolific Bonus Payment kroz konta vašeg partnera. 
-                            <br></br>Ako ni vi ni vaš partner nemate Prolific, dobićete naknadu kroz Amazon gift karticu.
-                            <br></br>Mi nudimo Amazon gift kartice za sledeće zemlje: SAD (USA), Velika Britanija (UK), Kanada, Nemačka, Italija, Francuska, Španija, Australija.
+                            <br></br> Molimo vas da unesete Prolific ID ukoliko ga imate.
+                            <br></br> Ukoliko niste popunili formular za prijavu na Prolific-u, molimo vas unesite vašu email adresu.
+                            <br></br> Mi ćemo poslati nadoknadu od 14 dolara (USD) preko Prolific Bonus Payment učestniku koji je registrovan na Prolific-u. Taj učesnik treba da podeli nadoknadu sa svojim suigračem (svakoj osobi po $7). Drugim rečima, suigrač koji nije registrovan na Prolific-u može svoju nadoknadu da dobije samo od svog suigrača. 
                           </div>
                         </p>
 

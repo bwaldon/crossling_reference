@@ -60,8 +60,12 @@ if(batchGroupName == "BCS1") {
 	newPlayer = require("./intro/newPlayer_Spanish1.jsx").default;
 } else if (batchGroupName == "BCSEng1") {
 	newPlayer = require("./intro/newPlayer_BCSEng1.jsx").default;
-} else if (batchGroupName == "BCS2") {
-	newPlayer = require("./intro/newPlayer_BCS2.jsx").default;
+} else if (batchGroupName == "BCS2Community") {
+	newPlayer = require("./intro/newPlayer_BCS2Community.jsx").default;
+} else if (batchGroupName == "BCS2Prolific") {
+	newPlayer = require("./intro/newPlayer_BCS2Prolific.jsx").default;
+} else if (batchGroupName == "BCSEng2Pilot") {
+	newPlayer = require("./intro/newPlayer_BCSEng2Pilot.jsx").default;
 } else if (batchGroupName == "BCSEng2") {
 	newPlayer = require("./intro/newPlayer_BCSEng2.jsx").default;
 } else {
@@ -89,10 +93,14 @@ Empirica.exitSteps((game, player) => {
 		ExitSurveyLangSpecific = require('./exit/Arabic1.jsx').default
 	} else if (batchGroupName == "Spanish1") {
 		ExitSurveyLangSpecific = require('./exit/Spanish1.jsx').default
-	} else if (batchGroupName == "BCS2") {
-		ExitSurveyLangSpecific = require('./exit/BCS2.jsx').default
+	} else if (batchGroupName == "BCS2Community") {
+		ExitSurveyLangSpecific = require('./exit/BCS2Community.jsx').default
+	} else if (batchGroupName == "BCS2Prolific") {
+		ExitSurveyLangSpecific = require('./exit/BCS2Prolific.jsx').default
 	} else if (batchGroupName == "BCSEng1") {
 		ExitSurveyLangSpecific = require('./exit/BCSEng1.jsx').default
+	} else if (batchGroupName == "BCSEng2Pilot") {
+		ExitSurveyLangSpecific = require('./exit/BCSEng2Pilot.jsx').default
 	} else if (batchGroupName == "BCSEng2") {
 		ExitSurveyLangSpecific = require('./exit/BCSEng2.jsx').default
 	} else {
