@@ -27,9 +27,9 @@ var model = function(params) {
   }
 }
 var params = {
-    alpha : 20.000000,
-    sizeNoiseVal : 1.000000,
-    colorNoiseVal : 1.000000,
+    alpha : 7.000000,
+    sizeNoiseVal : 0.800000,
+    colorNoiseVal : 0.950000,
     sizeCost : 0.100000,
     colorCost : 0.100000,
     nounCost : 0.000000
@@ -38,8 +38,10 @@ var params = {
 var semantics = semantics(params)
     
 var model = extend(model(params), 
- {states : ["bigred","smallblue","smallred"], utterances : ["START red pin STOP","START blue pin STOP","START big pin STOP","START small pin STOP","START big red pin STOP","START small blue pin STOP","START small red pin STOP"]}) 
+ {states : ["bigred","smallblue","smallred"], utterances : ["START pin red STOP","START pin blue STOP","START pin big STOP","START pin small STOP","START pin red big STOP","START pin blue small STOP","START pin red small STOP"]}) 
                  
+// safeDivide, getTransitions, licitTransitions: helper functions for incremental models 
+
 var safeDivide = function(x , y){
   if(y == 0) {
   return(0)
@@ -64,6 +66,7 @@ var licitTransitions = function(model) {
   return getTransitions(x) }, model.utterances)))
 }
 
+
 var wordPrior = function(model) {
   return uniformDraw(model.words)
 }
@@ -78,6 +81,7 @@ var stringMeanings = function (context, state, model, semantics) {
      var meaning = semantics(state)
     return reduce(function(x, acc) { return meaning[x] * acc; }, 1, cSplit) }
 
+// stringSemantics: defined according to Cohn-Gordon et al. (2019), in prose on the bottom of page 83
 // outputs values on the interval [0,1]: a string s's semantic value at a world w 
 // is the sum of semantic values of complete continuations of s true at w, 
 // divided by the total number of complete continuations of s:
@@ -90,6 +94,7 @@ var stringSemantics = function(context, state, model, semantics) {
   return safeDivide(trueContinuations,allContinuations.length)
 }
 
+// the normal, utterance-level RSA literal listener
 var globalLiteralListener =  function(utterance, model, params, semantics) {
   return Infer(function() {
     var state = uniformDraw(model.states)
@@ -103,6 +108,7 @@ var globalLiteralListener =  function(utterance, model, params, semantics) {
   }
               )}
 
+// the normal, utterance-level RSA pragmatic speaker
 var globalUtteranceSpeaker = cache(function(state, model, params, semantics) {
   return Infer({model: function() {
   var utterance = uniformDraw(model.utterances)
@@ -111,7 +117,7 @@ var globalUtteranceSpeaker = cache(function(state, model, params, semantics) {
     return utterance } })
 })
 
-// literal listener
+// L0^{WORD} from Cohn Gordon et al. (2019): defined according to equation (4) of that paper
 var incrementalLiteralListener = function(string,model,semantics) {
   return Infer({model: function(){
     var state = uniformDraw(model.states)
@@ -121,6 +127,7 @@ var incrementalLiteralListener = function(string,model,semantics) {
   }}
 )}
 
+// S1^{WORD} from Cohn Gordon et al. (2019): defined according to equation (5) of that paper
 var wordSpeaker = function(context, state, model, params, semantics) {
   return Infer({model: function(){
     var word = wordPrior(model)
@@ -134,6 +141,7 @@ var wordSpeaker = function(context, state, model, params, semantics) {
   }})
 }
 
+// L1^{WORD} from Cohn Gordon et al. (2019): defined according to equation (6) of that paper
 var pragmaticWordListener = function(word, context, model, params, semantics) {
   return Infer({model: function(){
     var state = uniformDraw(model.states)
@@ -142,7 +150,7 @@ var pragmaticWordListener = function(word, context, model, params, semantics) {
   }})
 }
 
-// S1^{UTT-IP} from the paper: defined according to equation 7
+// S1^{UTT-IP} from Cohn Gordon et al. (2019): defined according to equation (7) of that paper
 var incrementalUtteranceSpeaker = cache(function(utt, state, model, params, semantics) {
   var string = utt.split(" ")
     var indices = _.range(string.length)
@@ -153,4 +161,4 @@ var incrementalUtteranceSpeaker = cache(function(utt, state, model, params, sema
     },indices)
     return reduce(function(x, acc) { return x * acc; }, 1, probs)
 }, 100000)
-incrementalUtteranceSpeaker("START small blue pin STOP", "smallblue", model, params, semantics)
+incrementalUtteranceSpeaker("START pin blue small STOP", "smallblue", model, params, semantics)

@@ -228,6 +228,8 @@ ggsave(g, filename = "scilpreds.pdf", height = 4, width = 8, units = "in", dpi =
 
 ### SCIL MODEL COMPARISON
 
+### W/ RENAMING FOR NSF APPLICATION
+
 base = 6
 expand = 3
 
@@ -235,7 +237,8 @@ graph <- function(probArray) {
   
   toGraph <- data.frame(matrix(NA, nrow = 4, ncol = 3))
   colnames(toGraph) <- c("language", "behavior", "probability")
-  toGraph$language <- c("English", "English", "Spanish-postnom.", "Spanish-postnom.")
+  # toGraph$language <- c("English", "English", "Spanish-postnom.", "Spanish-postnom.")
+  toGraph$language <- c("English", "English", "Spanish", "Spanish")
   # toGraph$behavior <- c("Redundant color adjective (SS)", "Redundant size adjective (CS)", 
                         # "Redundant color adjective (SS)", "Redundant size adjective (CS)")
   # LABELS FOR POSTER
@@ -286,7 +289,8 @@ v3 <- as.numeric(runModel('V8', engine, modelAndSemantics, cmd_sp_postnom_global
 v4 <- as.numeric(runModel('V8', engine, modelAndSemantics, cmd_sp_postnom_global,states_cs, utterances_sp_postnom_cs, globalalpha, sizeNoiseVal = 1, colorNoiseVal = 1, 
                           colorCost = 0, sizeCost = 0, nounCost = 0))
 
-standardGraph <- graph(c(v1,v2,v3,v4)) + ggtitle("Standard RSA")
+standardGraph <- graph(c(v1,v2,v3,v4)) + ggtitle("dg-RSA")
+# standardGraph <- graph(c(v1,v2,v3,v4)) + ggtitle("Standard RSA")
 
 ## continuous RSA
 
@@ -302,7 +306,7 @@ v3 <- as.numeric(runModel('V8', engine, modelAndSemantics, cmd_sp_postnom_global
 v4 <- as.numeric(runModel('V8', engine, modelAndSemantics, cmd_sp_postnom_global, states_cs, utterances_sp_postnom_cs, globalalpha, sizeNoiseVal = 0.8, colorNoiseVal = 0.95, 
                           colorCost = 0, sizeCost = 0, nounCost = 0))
 
-crsaGraph <- graph(c(v1,v2,v3,v4)) + ggtitle("Continuous RSA")
+crsaGraph <- graph(c(v1,v2,v3,v4)) + ggtitle("cg-RSA")
 
 ## inc RSA
 
@@ -318,7 +322,7 @@ v3 <- as.numeric(runModel('V8', engine, modelAndSemantics, cmd_sp_postnom_inc, s
 v4 <- as.numeric(runModel('V8', engine, modelAndSemantics, cmd_sp_postnom_inc, states_cs, utterances_sp_postnom_cs, incalpha, sizeNoiseVal = 1, colorNoiseVal = 1, 
                           colorCost = colorCost, sizeCost = sizeCost, nounCost = 0))
 
-incGraph <- graph(c(v1,v2,v3,v4)) + ggtitle("Incremental RSA")
+incGraph <- graph(c(v1,v2,v3,v4)) + ggtitle("di-RSA")
 
 ## continuous inc RSA
 
@@ -334,14 +338,15 @@ v3 <- as.numeric(runModel('V8', engine, modelAndSemantics, cmd_sp_postnom_inc, s
 v4 <- as.numeric(runModel('V8', engine, modelAndSemantics, cmd_sp_postnom_inc, states_cs, utterances_sp_postnom_cs, incalpha, sizeNoiseVal = 0.8, colorNoiseVal = 0.95, 
                           colorCost = colorCost, sizeCost = sizeCost, nounCost = 0))
 
-cincrsaGraph <- graph(c(v1,v2,v3,v4)) + ggtitle("Continuous\n-incremental RSA") 
+cincrsaGraph <- graph(c(v1,v2,v3,v4)) + ggtitle("ci-RSA") 
 
 graphs <- arrangeGrob(grobs = list(standardGraph,crsaGraph,incGraph,cincrsaGraph), ncol = 2, left = 'Probability of utterance')
 legend <- plot_grid(get_legend(standardGraph + theme(legend.position = "bottom")))
 
 g <- arrangeGrob(graphs, legend, ncol = 1, heights=c(0.9, 0.1))
 
-ggsave(g, file = "modelcomparison_poster.pdf", height = 4, width = 4, units = "in", dpi = 1000)
+ggsave(g, file = "modelcomparison_nsf.pdf", height = 4, width = 4, units = "in", dpi = 1000)
+# ggsave(g, file = "modelcomparison_poster.pdf", height = 4, width = 4, units = "in", dpi = 1000)
 
 cincrsaGraph + theme(legend.position = "bottom")
 

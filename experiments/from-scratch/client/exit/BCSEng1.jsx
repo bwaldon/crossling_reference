@@ -437,7 +437,6 @@ export default class ExitSurveyLangSpecific extends React.Component {
 						</div>
 						<br></br>
 					</div>
-
 				</div>
 
 				<form onSubmit={this.handleSubmit}>
