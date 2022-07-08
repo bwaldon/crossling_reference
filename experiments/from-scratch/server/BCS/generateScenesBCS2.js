@@ -371,7 +371,7 @@ function sceneColorRedundant(targetNounID, targetCS, targetGender, condition) {
   } else {
     if (targetGender == 1) {
       distractorGender = 2;
-    }else {
+    } else {
       distractorGender = 1;
     }
   }
@@ -403,6 +403,7 @@ function sceneColorRedundant(targetNounID, targetCS, targetGender, condition) {
   for (i = 0; i < distractorStrings.length; i++){
     colorsUsed.push(distractorStrings[i][0]);
   }
+  colorsUsed.push(targetColor);
 
   // create a distractor of a same type as another distractor, but in a new color
   loopRepeatDistractor = true;

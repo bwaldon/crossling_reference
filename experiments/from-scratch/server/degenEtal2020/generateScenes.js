@@ -159,6 +159,7 @@ exports.generateScenes = function generateScenes() {
             'alt2Name': distractor2,
             'alt3Name': 'IGNORE',
             'alt4Name': 'IGNORE',
+            'alt5Name': 'IGNORE',
             'alt1BasicLevel': alt1Basic,
             'alt1SuperLevel': alt1Super,
             'alt2BasicLevel': alt2Basic,
@@ -199,10 +200,14 @@ function getSceneFromStimuli(nTotalDistractors, nRedundantDistractors, targetSti
         'TargetItem': colorSizeIDsToName[targetStimulus],
         'NumDistractors': nTotalDistractors,
         'condition' : sufficientDimension + nTotalDistractors + nRedundantDistractors,
+        'alt3Name': 'IGNORE',
+        'alt4Name': 'IGNORE',
+        'alt5Name': 'IGNORE',
         'alt1BasicLevel': 'NA',
         'alt1SuperLevel': 'NA',
         'alt2BasicLevel': 'NA',
-        'alt2SuperLevel': 'NA'
+        'alt2SuperLevel': 'NA',
+        'imageType': 'degenetal_stimuli'
     }
     for (i = 1; i <= nRedundantDistractors; i++)
     {

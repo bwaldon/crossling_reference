@@ -32,8 +32,7 @@ export default class PlayerId extends Component {
             <Centered>
                 <div className="new-player" dir="auto">
                     <form onSubmit={this.handleSubmit}>
-                        <p>
-                          Please enter your email or Prolific ID:
+                        <p>Unesite vašu email adresu:
                         </p>
                         <br/>
 
@@ -50,10 +49,8 @@ export default class PlayerId extends Component {
 
                         <p>
                           <div>
-                            <br></br>If you have a Prolific ID, please enter the ID and <b>not</b> your email address.
-                            <br></br>If you are a partner of someone recruited via prolific, please provide your email address (you will not receive any emails from us).
-                            <br></br> A compensation of $14 (USD) is provided via a prolific bonus payment to the partner who was recruited via prolific. It is up to that person to split the compensation equally between both partners ($7 each). In other words, if you did not complete the prolific pre-registration, you will receive your compensation from your partner (and not directly from us).
-                          </div> 
+                            <br></br>Molimo vas unesite email adresu na koju možemo da vam pošaljemo Amazon gift karticu.
+                          </div>
                         </p>
 
                         <p
@@ -61,7 +58,7 @@ export default class PlayerId extends Component {
                             className="button-holder"
                         >
                             <button type="submit">
-                              Next
+                                Sledeća
                             </button>
                         </p>
                     </form>
