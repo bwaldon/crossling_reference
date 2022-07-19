@@ -27,9 +27,9 @@ var model = function(params) {
   }
 }
 var params = {
-    alpha : 7.000000,
-    sizeNoiseVal : 0.800000,
-    colorNoiseVal : 0.950000,
+    alpha : 20.000000,
+    sizeNoiseVal : 1.000000,
+    colorNoiseVal : 1.000000,
     sizeCost : 0.100000,
     colorCost : 0.100000,
     nounCost : 0.000000
@@ -38,7 +38,7 @@ var params = {
 var semantics = semantics(params)
     
 var model = extend(model(params), 
- {states : ["bigred","smallblue","smallred"], utterances : ["START pin red STOP","START pin blue STOP","START pin big STOP","START pin small STOP","START pin red big STOP","START pin blue small STOP","START pin red small STOP"]}) 
+ {states : ["bigred","smallblue","smallred"], utterances : ["START red pin STOP","START blue pin STOP","START big pin STOP","START small pin STOP","START big red pin STOP","START small blue pin STOP","START small red pin STOP"]}) 
                  
 // safeDivide, getTransitions, licitTransitions: helper functions for incremental models 
 
@@ -161,4 +161,4 @@ var incrementalUtteranceSpeaker = cache(function(utt, state, model, params, sema
     },indices)
     return reduce(function(x, acc) { return x * acc; }, 1, probs)
 }, 100000)
-incrementalUtteranceSpeaker("START pin blue small STOP", "smallblue", model, params, semantics)
+incrementalUtteranceSpeaker("START small blue pin STOP", "smallblue", model, params, semantics)
