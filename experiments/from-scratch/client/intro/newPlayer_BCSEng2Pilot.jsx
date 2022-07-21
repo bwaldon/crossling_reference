@@ -15,7 +15,7 @@ export default class PlayerId extends Component {
 
         const { handleNewPlayer } = this.props;
         const { id } = this.state;
-        handleNewPlayer(id);
+        handleNewPlayer(id.concat("BCSEng2Pilot"));
     };
 
     // for BCS radio button

@@ -15,7 +15,7 @@ export default class PlayerId extends Component {
 
         const { handleNewPlayer } = this.props;
         const { id } = this.state;
-        handleNewPlayer(id);
+        handleNewPlayer(idid.concat("BCS2"));
     };
 
     // for BCS radio button
@@ -50,7 +50,7 @@ export default class PlayerId extends Component {
                         <p>
                           <div>
                             <br></br>Ako imate Prolific ID, unesite taj broj a <b>ne</b> vašu email adresu.
-                            <br></br>Ako vaš partner ima Prolific ID, molimo vas unesite vašu email adresu. Dobićete naknadu kroz Prolific Bonus Payment kroz konta vašeg partnera. 
+                            <br></br>Ako vaš partner ima Prolific ID, molimo vas unesite vašu email adresu. Dobićete naknadu kroz Prolific Bonus Payment kroz konta vašeg partnera.
                             <br></br>Ako ni vi ni vaš partner nemate Prolific, dobićete naknadu kroz Amazon gift karticu.
                             <br></br>Mi nudimo Amazon gift kartice za sledeće zemlje: SAD (USA), Velika Britanija (UK), Kanada, Nemačka, Italija, Francuska, Španija, Australija.
                           </div>
