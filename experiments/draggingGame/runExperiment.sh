@@ -1,0 +1,2 @@
+node updateTexts.js
+meteor
