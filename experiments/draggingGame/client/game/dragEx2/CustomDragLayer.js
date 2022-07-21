@@ -1,6 +1,5 @@
 import React from 'react'
 import { useDragLayer } from 'react-dnd'
-import Round from '../Round.jsx'
 import { BoxDragPreview } from './BoxDragPreview.js'
 import { ItemTypes } from './ItemTypes.js'
 import { snapToGrid } from './snapToGrid.js'

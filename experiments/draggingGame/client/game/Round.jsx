@@ -2,12 +2,11 @@ import React from "react";
 import SocialInteractions from "./SocialInteractions.jsx";
 // import DraggingTask from "./DraggingTask";
 // import Example from './example';
-import { default as Example } from './dragEx2/example'
 import { gameText } from "../gameText.js";
 import { DndProvider } from 'react-dnd';
 import { HTML5Backend } from 'react-dnd-html5-backend';
-import ListenerContainer from './dragEx2/ListenerContainer.js' 
-import { Example as SpeakerContainer } from './dragEx2/ExampleObject.js' 
+import SpeakerView from './dragEx2/SpeakerView.js' 
+import { ListenerView } from './dragEx2/ListenerView.js' 
 
 export default class Round extends React.Component {
   componentDidMount() {
@@ -27,7 +26,7 @@ export default class Round extends React.Component {
       (row) => row.language == game.treatment.gameLanguage
     )[0];
 
-    const view = player.get('role') == 'listener' ? <SpeakerContainer round={round}/> : <ListenerContainer round = {round}/>
+    const view = player.get('role') == 'listener' ? <ListenerView round={round}/> : <SpeakerView round={round}/> 
 
     return (
       <div className="round" dir="auto">

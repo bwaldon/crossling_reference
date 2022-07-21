@@ -1,6 +1,5 @@
 import React from 'react'
 import { memo, useEffect } from 'react'
-import Round from '../Round.jsx'
 import { Box } from './Box.js'
 
 function getStyles(left, top, isDragging) {
@@ -15,7 +14,7 @@ function getStyles(left, top, isDragging) {
     height: isDragging ? 0 : '',
   }
 }
-export const DraggableBoxSlave = memo(function DraggableBoxSlave(props) {
+export const NonDraggableBox = memo(function NonDraggableBox(props) {
   const { id, title, left, top } = props
   return (
     <div

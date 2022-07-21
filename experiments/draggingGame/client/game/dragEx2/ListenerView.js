@@ -1,9 +1,9 @@
 import React from 'react'
 import { useCallback, useState } from 'react'
-import { Container } from './Container.js'
+import { ListenerContainer } from './ListenerContainer.js'
 import { CustomDragLayer } from './CustomDragLayer.js'
 
-export const Example = (props) => {
+export const ListenerView = (props) => {
  const round = props.round;
   const [snapToGridAfterDrop, setSnapToGridAfterDrop] = useState(false)
   const [snapToGridWhileDragging, setSnapToGridWhileDragging] = useState(false)
@@ -15,7 +15,7 @@ export const Example = (props) => {
   }, [snapToGridWhileDragging])
   return (
     <div>
-      <Container round = {round} snapToGrid={snapToGridAfterDrop} />
+      <ListenerContainer round = {round} snapToGrid={snapToGridAfterDrop} />
       <CustomDragLayer round = {round} snapToGrid={snapToGridWhileDragging} />
       <p>
         <label htmlFor="snapToGridWhileDragging">
