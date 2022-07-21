@@ -15,7 +15,7 @@ export default class PlayerId extends Component {
 
         const { handleNewPlayer } = this.props;
         const { id } = this.state;
-        handleNewPlayer(id);
+        handleNewPlayer(id.concat("BCS2Prolific"));
     };
 
     // for BCS radio button
@@ -51,7 +51,7 @@ export default class PlayerId extends Component {
                           <div>
                             <br></br> Molimo vas da unesete Prolific ID ukoliko ga imate.
                             <br></br> Ukoliko niste popunili formular za prijavu na Prolific-u, molimo vas unesite vašu email adresu.
-                            <br></br> Mi ćemo poslati nadoknadu od 14 dolara (USD) preko Prolific Bonus Payment učestniku koji je registrovan na Prolific-u. Taj učesnik treba da podeli nadoknadu sa svojim suigračem (svakoj osobi po $7). Drugim rečima, suigrač koji nije registrovan na Prolific-u može svoju nadoknadu da dobije samo od svog suigrača. 
+                            <br></br> Mi ćemo poslati nadoknadu od 14 dolara (USD) preko Prolific Bonus Payment učestniku koji je registrovan na Prolific-u. Taj učesnik treba da podeli nadoknadu sa svojim suigračem (svakoj osobi po $7). Drugim rečima, suigrač koji nije registrovan na Prolific-u može svoju nadoknadu da dobije samo od svog suigrača.
                           </div>
                         </p>
 

@@ -15,7 +15,7 @@ export default class PlayerId extends Component {
 
         const { handleNewPlayer } = this.props;
         const { id } = this.state;
-        handleNewPlayer(id);
+        handleNewPlayer(id.concat("BCSEng2"));
     };
 
     // for BCS radio button
@@ -53,7 +53,7 @@ export default class PlayerId extends Component {
                             <br></br>If you have a Prolific ID, please enter the ID and <b>not</b> your email address.
                             <br></br>If you are a partner of someone recruited via prolific, please provide your email address (you will not receive any emails from us).
                             <br></br> A compensation of $14 (USD) is provided via a prolific bonus payment to the partner who was recruited via prolific. It is up to that person to split the compensation equally between both partners ($7 each). In other words, if you did not complete the prolific pre-registration, you will receive your compensation from your partner (and not directly from us).
-                          </div> 
+                          </div>
                         </p>
 
                         <p
