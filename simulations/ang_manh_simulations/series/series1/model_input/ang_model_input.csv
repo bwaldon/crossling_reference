@@ -1,0 +1,2 @@
+Name,Objects,Nouns,Adjectives,Size_adjectives,size_noise,color_noise,noun_noise,Language
+Basic_size_sufficient,"['small blue pin', 'big blue pin', 'big red pin']",['pin'],"['big', 'blue', 'small', 'red']","['big','small']",0.8,0.95,1,0
