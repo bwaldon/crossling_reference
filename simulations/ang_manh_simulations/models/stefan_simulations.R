@@ -109,7 +109,8 @@ scenarios <- data.frame(scenariosToRun)
 scenarios2 <- data.frame(scenariosToRun_2)
 
 newEnv <- runModelWrapper2(scenarios2$Objects, scenarios2$Nouns, scenarios2$Adjectives, 
-                           scenarios2$Size_adjectives, scenarios2$size_noise,scenarios2$color_noise,
+                           scenarios2$Size_adjectives, scenarios2$size_noise,scenarios2$color_noise, 
+                           scenarios2$noun_noise, scenarios2$Language)
 # Run the model on all rows, each representing a single scenario with a specific set
 # of parameters to be ran.
 scenarios <- scenarios %>%

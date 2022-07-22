@@ -1,5 +1,5 @@
 var states = ["R1", "R2", "R3"]
-                      var semantics = [["0.8", "0.95", "0.99", "0.19999999999999996", "0.050000000000000044", "1", "1", "1"],["0.19999999999999996", "0.95", "0.99", "0.8", "0.050000000000000044", "1", "1", "1"],["0.19999999999999996", "0.050000000000000044", "0.99", "0.8", "0.95", "1", "1", "1"]]
+                      var semantics = [["0.8", "0.95", "1", "0.19999999999999996", "0.050000000000000044", "1", "1", "1"],["0.19999999999999996", "0.95", "1", "0.8", "0.050000000000000044", "1", "1", "1"],["0.19999999999999996", "0.050000000000000044", "1", "0.8", "0.95", "1", "1", "1"]]
                       var words = ["small", "blue", "pin", "big", "red", "and", "STOP", "START"]
                       var utterances = [["START pin STOP", "START small pin STOP", "START blue pin STOP", "START small blue pin STOP", "START big pin STOP", "START big blue pin STOP", "START red pin STOP", "START big red pin STOP"],["START pin STOP", "START pin small STOP", "START pin blue STOP", "START pin blue small STOP", "START blue STOP", "START small STOP", "START blue small STOP", "START pin big STOP", "START pin blue big STOP", "START big STOP", "START blue big STOP", "START pin red STOP", "START pin red big STOP", "START red STOP", 
 "START red big STOP"],["START pin STOP", "START small pin STOP", "START pin blue STOP", "START small pin blue STOP", "START big pin STOP", "START big pin blue STOP", "START pin red STOP", "START big pin red STOP"],["START pin STOP", "START pin small STOP", "START pin blue STOP", "START pin blue and small STOP", "START pin small and blue STOP", "START pin big STOP", "START pin blue and big STOP", "START pin big and blue STOP", "START pin red STOP", "START pin red and big STOP", "START pin big and red STOP"
@@ -207,4 +207,4 @@ var incrementalUtteranceSpeaker = cache(function (utt, state, lang) {
  ).toFixed(3);
 }, 100000);
 
-incrementalUtteranceSpeaker("START small blue pin STOP", "R1", 0)
+incrementalUtteranceSpeaker("START small blue pin STOP", "R1", 0.000000)

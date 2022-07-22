@@ -1,7 +1,7 @@
 var referents = ['small blue pin', 'big blue pin', 'big red pin']
     var size_semvalue = 0.800000
     var color_semvalue = 0.950000
-    var noun_semvalue = 0.990000
+    var noun_semvalue = 1.000000
     var noun = ['pin']
     var adj = ['big', 'blue', 'small', 'red']
     var sizeAdj = ['big','small']
