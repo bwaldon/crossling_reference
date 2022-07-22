@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../../../BCS/1_noun_norming/images"
+		},
+		{
+			"path": "../../../BCS/1_noun_norming/js"
+		},
+		{
+			"path": "../../../BCS/1_noun_norming/shared"
+		},
+		{
+			"path": "../../../BCS/1_noun_norming/css"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "js"
+	}
+}
