@@ -5,7 +5,7 @@
     "start": "meteor run"
   },
   "dependencies": {
-    "@babel/runtime": "^7.18.3",
+    "@babel/runtime": "^7.18.9",
     "@blueprintjs/core": "^3.42.0",
     "bcrypt": "^5.0.0",
     "get-json": "^1.0.1",
@@ -16,7 +16,7 @@
     "react-dom": "16.5.2",
     "react-html-parser": "^2.0.2",
     "react-router-dom": "4.3.1",
-    "simpl-schema": "1.10.2"
+    "simpl-schema": "^1.10.2"
   },
   "meteor": {
     "mainModule": {

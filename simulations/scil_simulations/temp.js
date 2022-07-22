@@ -1,11 +1,13 @@
 var semantics = function(params) {
   return function(state) {
     return {
-    red: ["smallred","bigred"].includes(state) ? params.colorNoiseVal : 1 - params.colorNoiseVal ,
-    blue:  ["smallblue","bigblue"].includes(state) ? params.colorNoiseVal : 1 - params.colorNoiseVal ,
-    pin: ["bigblue", "smallblue", "bigred", "smallred"].includes(state) ? 1 : 0,
-    big: ["bigred","bigblue"].includes(state) ? params.sizeNoiseVal : 1 - params.sizeNoiseVal,
-    small: ["smallred","smallblue"].includes(state) ? params.sizeNoiseVal : 1 - params.sizeNoiseVal,
+    red: ["smallredpin","bigredpin"].includes(state) ? params.colorNoiseVal : 1 - params.colorNoiseVal ,
+    blue:  ["smallbluepin","bigbluepin", "smallblueball"].includes(state) ? params.colorNoiseVal : 1 - params.colorNoiseVal ,
+    pin: ["bigbluepin", "smallbluepin", "bigredpin", "smallredpin"].includes(state) ? 0.99 : 0.01,
+    ball: ["smallblueball"].includes(state) ? 0.99 : 0.01,
+    big: ["bigredpin","bigbluepin"].includes(state) ? params.sizeNoiseVal : 1 - params.sizeNoiseVal,
+    small: ["smallredpin","smallbluepin","smallblueball"].includes(state) ? params.sizeNoiseVal : 1 - params.sizeNoiseVal,
+    and: 1,
     STOP : 1, 
     START : 1
   }
@@ -14,31 +16,33 @@ var semantics = function(params) {
 
 var model = function(params) {
   return {
-    words : ['red', 'blue', 'big', 'small', 'pin', 'STOP', 'START'],
+    words : ['red', 'blue', 'big', 'small', 'pin', 'ball', 'and', 'STOP', 'START'],
     wordCost: {
       "blue" : params.colorCost,
       "red" : params.colorCost,
+      "and" : params.colorCost,
       "big" : params.sizeCost,
       "small" : params.sizeCost,
       "pin" : params.nounCost,
+      "ball" : params.nounCost,
       'STOP'  : 0,
       'START'  : 0
     },
   }
 }
 var params = {
-    alpha : 7.000000,
+    alpha : 10.000000,
     sizeNoiseVal : 0.800000,
     colorNoiseVal : 0.950000,
     sizeCost : 0.100000,
     colorCost : 0.100000,
-    nounCost : 0.000000
+    nounCost : 0.100000
   }
   
 var semantics = semantics(params)
     
 var model = extend(model(params), 
- {states : ["bigred","smallblue","smallred"], utterances : ["START pin red STOP","START pin blue STOP","START pin big STOP","START pin small STOP","START pin red big STOP","START pin blue small STOP","START pin red small STOP"]}) 
+ {states : ["smallbluepin","bigbluepin","bigredpin","smallblueball"], utterances : ["START pin STOP","START ball STOP","START pin red STOP","START pin blue STOP","START ball blue STOP","START pin big STOP","START pin small STOP","START ball small STOP","START pin blue and big STOP","START pin big and blue STOP","START pin red and big STOP","START pin big and red STOP","START pin blue and small STOP","START pin small and blue STOP","START ball blue and small STOP","START ball small and blue STOP"]}) 
                  
 // safeDivide, getTransitions, licitTransitions: helper functions for incremental models 
 
@@ -161,4 +165,4 @@ var incrementalUtteranceSpeaker = cache(function(utt, state, model, params, sema
     },indices)
     return reduce(function(x, acc) { return x * acc; }, 1, probs)
 }, 100000)
-incrementalUtteranceSpeaker("START pin blue small STOP", "smallblue", model, params, semantics)
+incrementalUtteranceSpeaker("START pin blue and small STOP", "smallbluepin", model, params, semantics) + incrementalUtteranceSpeaker("START pin small and blue STOP", "smallbluepin", model, params, semantics)
