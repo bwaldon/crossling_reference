@@ -24,11 +24,16 @@ modelAndSemantics <- read_file("manh_semantics.txt")
 
 # STATES
 
-states_ss = c("smallbluepin", "bigbluepin", "bigredpin", "smallblueball", "bigredpin", "bigredpin", "bigredpin", "bigredpin")
-states_cs = c("smallbluepin", "smallredpin", "bigredpin", "smallblueball", "bigredpin", "bigredpin", "bigredpin", "bigredpin")
+states_ss_med = c("smallbluepin", "bigbluepin", "bigredpin", "smallblueball", "bigredpin", "bigredpin")
+states_cs_med = c("smallbluepin", "smallredpin", "bigredpin", "smallblueball", "bigredpin", "bigredpin")
+states_ss_high = c("smallbluepin", "bigbluepin", "bigredpin", "smallblueball", "bigredpin", "bigredpin", "bigredpin", "bigredpin")
+states_cs_high = c("smallbluepin", "smallredpin", "bigredpin", "smallblueball", "bigredpin", "bigredpin", "bigredpin", "bigredpin")
 
-states_color <- "smallbluepin, smallredpin, bigredpin, smallblueball, bigredpin, bigredpin, bigredpin, bigredpin"
-states_size <- "smallbluepin, bigbluepin, bigredpin, smallblueball, bigredpin, bigredpin, bigredpin, bigredpin"
+
+states_color_med <- "smallbluepin, smallredpin, bigredpin, smallblueball, bigredpin, bigredpin"
+states_size_med <- "smallbluepin, bigbluepin, bigredpin, smallblueball, bigredpin, bigredpin"
+states_color_high <- "smallbluepin, smallredpin, bigredpin, smallblueball, bigredpin, bigredpin, bigredpin, bigredpin"
+states_size_high <- "smallbluepin, bigbluepin, bigredpin, smallblueball, bigredpin, bigredpin, bigredpin, bigredpin"
 
 # UTTERANCES: SIZE SUFFICIENT
 
@@ -100,6 +105,14 @@ cmd_sp = 'incrementalUtteranceSpeaker("START pin blue small STOP", "smallbluepin
 cmd_fr = 'incrementalUtteranceSpeaker("START small pin blue STOP", "smallbluepin", model, params, semantics)'
 cmd_vt = 'incrementalUtteranceSpeaker("START pin blue and small STOP", "smallbluepin", model, params, semantics) + incrementalUtteranceSpeaker("START pin small and blue STOP", "smallbluepin", model, params, semantics)'
 
+# redundant phrase
+
+utterance_eng <- "small blue pin"
+utterance_sp <- "pin blue small"
+utterance_fr <- "small pin blue"
+utterance_vt <- "pin blue and small + pin small and blue"
+
+
 # VALDF FOR SCIL PAPER
 
 valDF <- data.frame("colorNoise" = c(0.95), "sizeNoise" = c(0.8), "alpha" = c(1,5,10, 20))
@@ -113,103 +126,238 @@ valDF <- data.frame("colorNoise" = c(0.95), "sizeNoise" = c(0.8), "alpha" = c(1,
 valDF <- valDF %>%
   expand(colorNoise, sizeNoise, alpha)
 
-# COLOR-SUFFICIENT SCENARIO 
+# COLOR-SUFFICIENT SCENARIO Medium Variation
 
 ## English
 
-english_sizeOvermodification <- valDF %>%
+english_sizeOvermodification_med <- valDF %>%
   group_by(colorNoise, sizeNoise, alpha) %>%
-  mutate(speakerProb = runModel('V8', engine, modelAndSemantics, cmd_eng, states_cs, utterances_eng_cs, alpha, sizeNoiseVal = sizeNoise, colorNoiseVal = colorNoise, 
+  mutate(speakerProb = runModel('V8', engine, modelAndSemantics, cmd_eng, states_cs_med, utterances_eng_cs, alpha, sizeNoiseVal = sizeNoise, colorNoiseVal = colorNoise, 
                                 colorCost = 0, sizeCost = 0, nounCost = 0))
 
-english_sizeOvermodification = mutate(english_sizeOvermodification, state = states_color, .before = colorNoise)
-english_sizeOvermodification = mutate(english_sizeOvermodification, nounNoise = 0.99, .before = alpha)
- english_sizeOvermodification$language <- "English"
+english_sizeOvermodification_med = mutate(english_sizeOvermodification_med, state = states_color_med, .before = colorNoise)
+english_sizeOvermodification_med = mutate(english_sizeOvermodification_med, nounNoise = 0.99, .before = alpha)
+english_sizeOvermodification_med = mutate(english_sizeOvermodification_med, Utterance = utterance_eng, .before = speakerProb)
+english_sizeOvermodification_med$Language <- "English"
 
 ## Spanish
 
-sp_sizeOvermodification <- valDF %>%
+sp_sizeOvermodification_med <- valDF %>%
   group_by(colorNoise, sizeNoise, alpha) %>%
-  mutate(speakerProb = runModel('V8', engine, modelAndSemantics, cmd_sp, states_cs, utterances_sp_cs, alpha, sizeNoiseVal = sizeNoise, colorNoiseVal = colorNoise, 
+  mutate(speakerProb = runModel('V8', engine, modelAndSemantics, cmd_sp, states_cs_med, utterances_sp_cs, alpha, sizeNoiseVal = sizeNoise, colorNoiseVal = colorNoise, 
                                 colorCost = 0, sizeCost = 0, nounCost = 0))
 
-sp_sizeOvermodification = mutate(sp_sizeOvermodification, state = states_color, .before = colorNoise)
-sp_sizeOvermodification = mutate(sp_sizeOvermodification, nounNoise = 0.99, .before = alpha)
-sp_sizeOvermodification$language <- "Spanish"
+sp_sizeOvermodification_med = mutate(sp_sizeOvermodification_med, state = states_color_med, .before = colorNoise)
+sp_sizeOvermodification_med = mutate(sp_sizeOvermodification_med, nounNoise = 0.99, .before = alpha)
+sp_sizeOvermodification_med = mutate(sp_sizeOvermodification_med, Utterance = utterance_sp, .before = speakerProb)
+sp_sizeOvermodification_med$Language <- "Spanish"
 
 ## French
 
-fr_sizeOvermodification <- valDF %>%
+fr_sizeOvermodification_med <- valDF %>%
   group_by(colorNoise, sizeNoise, alpha) %>%
-  mutate(speakerProb = runModel('V8', engine, modelAndSemantics, cmd_fr, states_cs, utterances_fr_cs, alpha, sizeNoiseVal = sizeNoise, colorNoiseVal = colorNoise, 
+  mutate(speakerProb = runModel('V8', engine, modelAndSemantics, cmd_fr, states_cs_med, utterances_fr_cs, alpha, sizeNoiseVal = sizeNoise, colorNoiseVal = colorNoise, 
                                 colorCost = 0, sizeCost = 0, nounCost = 0))
 
-fr_sizeOvermodification = mutate(fr_sizeOvermodification, state = states_color, .before = colorNoise)
-fr_sizeOvermodification = mutate(fr_sizeOvermodification, nounNoise = 0.99, .before = alpha)
-fr_sizeOvermodification$language <- "French"
+fr_sizeOvermodification_med = mutate(fr_sizeOvermodification_med, state = states_color_med, .before = colorNoise)
+fr_sizeOvermodification_med = mutate(fr_sizeOvermodification_med, nounNoise = 0.99, .before = alpha)
+fr_sizeOvermodification_med = mutate(fr_sizeOvermodification_med, Utterance = utterance_fr, .before = speakerProb)
+fr_sizeOvermodification_med$Language <- "French"
 
 ## Vietnamese
 
-vt_sizeOvermodification <- valDF %>%
+vt_sizeOvermodification_med <- valDF %>%
   group_by(colorNoise, sizeNoise, alpha) %>%
-  mutate(speakerProb = runModel('V8', engine, modelAndSemantics, cmd_vt, states_cs, utterances_vt_cs, alpha, sizeNoiseVal = sizeNoise, colorNoiseVal = colorNoise, 
+  mutate(speakerProb = runModel('V8', engine, modelAndSemantics, cmd_vt, states_cs_med, utterances_vt_cs, alpha, sizeNoiseVal = sizeNoise, colorNoiseVal = colorNoise, 
                                 colorCost = 0, sizeCost = 0, nounCost = 0))
 
-vt_sizeOvermodification = mutate(vt_sizeOvermodification, state = states_color, .before = colorNoise)
-vt_sizeOvermodification = mutate(vt_sizeOvermodification, nounNoise = 0.99, .before = alpha)
-vt_sizeOvermodification$language <- "Vietnamese"
+vt_sizeOvermodification_med = mutate(vt_sizeOvermodification_med, state = states_color_med, .before = colorNoise)
+vt_sizeOvermodification_med = mutate(vt_sizeOvermodification_med, nounNoise = 0.99, .before = alpha)
+vt_sizeOvermodification_med = mutate(vt_sizeOvermodification_med, Utterance = utterance_vt, .before = speakerProb)
+vt_sizeOvermodification_med$Language <- "Vietnamese"
 
-sizeOvermodification <- rbind(english_sizeOvermodification, rbind(sp_sizeOvermodification,rbind(fr_sizeOvermodification,vt_sizeOvermodification)))
+sizeOvermodification_med <- rbind(english_sizeOvermodification_med, rbind(sp_sizeOvermodification_med,rbind(fr_sizeOvermodification_med,vt_sizeOvermodification_med)))
+sizeOvermodification_med = mutate(sizeOvermodification_med, Context = "Medium Scene Variation", .before = Utterance)
+sizeOvermodification_med = mutate(sizeOvermodification_med, Semantics = "Continuous", .before = Context)
+sizeOvermodification_med = mutate(sizeOvermodification_med, Utility = "Incremental", .after = Semantics)
+sizeOvermodification_med = mutate(sizeOvermodification_med, Redundancy = "Size Redundant", .before = Semantics)
 
-# SIZE-SUFFICIENT SCENARIO
+# SIZE-SUFFICIENT SCENARIO Medium Variation
 
 ## English
 
-english_colorOvermodification <- valDF %>%
+english_colorOvermodification_med <- valDF %>%
   group_by(colorNoise, sizeNoise, alpha) %>%
-  mutate(speakerProb = runModel('V8', engine, modelAndSemantics, cmd_eng, states_ss, utterances_eng_ss, alpha, sizeNoiseVal = sizeNoise, colorNoiseVal = colorNoise,
+  mutate(speakerProb = runModel('V8', engine, modelAndSemantics, cmd_eng, states_ss_med, utterances_eng_ss, alpha, sizeNoiseVal = sizeNoise, colorNoiseVal = colorNoise,
                                 colorCost = 0, sizeCost = 0, nounCost = 0))
 
-english_colorOvermodification = mutate(english_colorOvermodification, state = states_size, .before = colorNoise)
-english_colorOvermodification = mutate(english_colorOvermodification, nounNoise = 0.99, .before = alpha)
-english_colorOvermodification$language <- "English"
+english_colorOvermodification_med = mutate(english_colorOvermodification_med, state = states_size_med, .before = colorNoise)
+english_colorOvermodification_med = mutate(english_colorOvermodification_med, nounNoise = 0.99, .before = alpha)
+english_colorOvermodification_med = mutate(english_colorOvermodification_med, Utterance = utterance_eng, .before = speakerProb)
+english_colorOvermodification_med$Language <- "English"
 
 ## Spanish
 
-sp_colorOvermodification <- valDF %>%
+sp_colorOvermodification_med <- valDF %>%
   group_by(colorNoise, sizeNoise, alpha) %>%
-  mutate(speakerProb = runModel('V8', engine, modelAndSemantics, cmd_sp, states_ss, utterances_sp_ss, alpha, sizeNoiseVal = sizeNoise, colorNoiseVal = colorNoise,
+  mutate(speakerProb = runModel('V8', engine, modelAndSemantics, cmd_sp, states_ss_med, utterances_sp_ss, alpha, sizeNoiseVal = sizeNoise, colorNoiseVal = colorNoise,
                                 colorCost = 0, sizeCost = 0, nounCost = 0))
 
-sp_colorOvermodification = mutate(sp_colorOvermodification, state = states_size, .before = colorNoise)
-sp_colorOvermodification = mutate(sp_colorOvermodification, nounNoise = 0.99, .before = alpha)
-sp_colorOvermodification$language <- "Spanish"
+sp_colorOvermodification_med = mutate(sp_colorOvermodification_med, state = states_size_med, .before = colorNoise)
+sp_colorOvermodification_med = mutate(sp_colorOvermodification_med, nounNoise = 0.99, .before = alpha)
+sp_colorOvermodification_med = mutate(sp_colorOvermodification_med, Utterance = utterance_sp, .before = speakerProb)
+sp_colorOvermodification_med$Language <- "Spanish"
 
 ## French
 
-fr_colorOvermodification <- valDF %>%
+fr_colorOvermodification_med <- valDF %>%
   group_by(colorNoise, sizeNoise, alpha) %>%
-  mutate(speakerProb = runModel('V8', engine, modelAndSemantics, cmd_fr, states_ss, utterances_fr_ss, alpha, sizeNoiseVal = sizeNoise, colorNoiseVal = colorNoise,
+  mutate(speakerProb = runModel('V8', engine, modelAndSemantics, cmd_fr, states_ss_med, utterances_fr_ss, alpha, sizeNoiseVal = sizeNoise, colorNoiseVal = colorNoise,
                                 colorCost = 0, sizeCost = 0, nounCost = 0))
-fr_colorOvermodification = mutate(fr_colorOvermodification, state = states_size, .before = colorNoise)
-fr_colorOvermodification = mutate(fr_colorOvermodification, nounNoise = 0.99, .before = alpha)
-fr_colorOvermodification$language <- "French"
+fr_colorOvermodification_med = mutate(fr_colorOvermodification_med, state = states_size_med, .before = colorNoise)
+fr_colorOvermodification_med = mutate(fr_colorOvermodification_med, nounNoise = 0.99, .before = alpha)
+fr_colorOvermodification_med = mutate(fr_colorOvermodification_med, Utterance = utterance_fr, .before = speakerProb)
+fr_colorOvermodification_med$Language <- "French"
 
 ## Vietnamese
 
-vt_colorOvermodification <- valDF %>%
+vt_colorOvermodification_med <- valDF %>%
   group_by(colorNoise, sizeNoise, alpha) %>%
-  mutate(speakerProb = runModel('V8', engine, modelAndSemantics, cmd_vt, states_ss, utterances_vt_ss, alpha, sizeNoiseVal = sizeNoise, colorNoiseVal = colorNoise,
+  mutate(speakerProb = runModel('V8', engine, modelAndSemantics, cmd_vt, states_ss_med, utterances_vt_ss, alpha, sizeNoiseVal = sizeNoise, colorNoiseVal = colorNoise,
                                 colorCost = 0, sizeCost = 0, nounCost = 0))
 
-vt_colorOvermodification = mutate(vt_colorOvermodification, state = states_size, .before = colorNoise)
-vt_colorOvermodification = mutate(vt_colorOvermodification, nounNoise = 0.99, .before = alpha)
-vt_colorOvermodification$language <- "Vietnamese"
+vt_colorOvermodification_med = mutate(vt_colorOvermodification_med, state = states_size_med, .before = colorNoise)
+vt_colorOvermodification_med = mutate(vt_colorOvermodification_med, nounNoise = 0.99, .before = alpha)
+vt_colorOvermodification_med = mutate(vt_colorOvermodification_med, Utterance = utterance_vt, .before = speakerProb)
+vt_colorOvermodification_med$Language <- "Vietnamese"
 
-colorOvermodification <- rbind(english_colorOvermodification, rbind(sp_colorOvermodification,rbind(fr_colorOvermodification,vt_colorOvermodification)))
+colorOvermodification_med <- rbind(english_colorOvermodification_med, rbind(sp_colorOvermodification_med,rbind(fr_colorOvermodification_med,vt_colorOvermodification_med)))
+colorOvermodification_med = mutate(colorOvermodification_med, Context = "Medium Scene Variation", .before = Utterance)
+colorOvermodification_med = mutate(colorOvermodification_med, Semantics = "Continuous", .before = Context)
+colorOvermodification_med = mutate(colorOvermodification_med, Utility = "Incremental", .after = Semantics)
+colorOvermodification_med = mutate(colorOvermodification_med, Redundancy = "Color Redundant", .before = Semantics)
 
-write.csv(colorOvermodification, "../series/series1/model_output/color_overmodification_six_red_pin_no_cost_medium_var.csv", row.names = FALSE)
-write.csv(sizeOvermodification, "../series/series1/model_output/size_overmodification_six_red_pin_no_cost_medium_var.csv", row.names = FALSE)
+data_med <- rbind(colorOvermodification_med, sizeOvermodification_med)
+
+# COLOR-SUFFICIENT SCENARIO High Variation
+
+## English
+
+english_sizeOvermodification_high <- valDF %>%
+  group_by(colorNoise, sizeNoise, alpha) %>%
+  mutate(speakerProb = runModel('V8', engine, modelAndSemantics, cmd_eng, states_cs_high, utterances_eng_cs, alpha, sizeNoiseVal = sizeNoise, colorNoiseVal = colorNoise, 
+                                colorCost = 0, sizeCost = 0, nounCost = 0))
+
+english_sizeOvermodification_high = mutate(english_sizeOvermodification_high, state = states_color_high, .before = colorNoise)
+english_sizeOvermodification_high = mutate(english_sizeOvermodification_high, nounNoise = 0.99, .before = alpha)
+english_sizeOvermodification_high = mutate(english_sizeOvermodification_high, Utterance = utterance_eng, .before = speakerProb)
+english_sizeOvermodification_high$Language <- "English"
+
+## Spanish
+
+sp_sizeOvermodification_high <- valDF %>%
+  group_by(colorNoise, sizeNoise, alpha) %>%
+  mutate(speakerProb = runModel('V8', engine, modelAndSemantics, cmd_sp, states_cs_high, utterances_sp_cs, alpha, sizeNoiseVal = sizeNoise, colorNoiseVal = colorNoise, 
+                                colorCost = 0, sizeCost = 0, nounCost = 0))
+
+sp_sizeOvermodification_high = mutate(sp_sizeOvermodification_high, state = states_color_high, .before = colorNoise)
+sp_sizeOvermodification_high = mutate(sp_sizeOvermodification_high, nounNoise = 0.99, .before = alpha)
+sp_sizeOvermodification_high = mutate(sp_sizeOvermodification_high, Utterance = utterance_sp, .before = speakerProb)
+sp_sizeOvermodification_high$Language <- "Spanish"
+
+## French
+
+fr_sizeOvermodification_high <- valDF %>%
+  group_by(colorNoise, sizeNoise, alpha) %>%
+  mutate(speakerProb = runModel('V8', engine, modelAndSemantics, cmd_fr, states_cs_high, utterances_fr_cs, alpha, sizeNoiseVal = sizeNoise, colorNoiseVal = colorNoise, 
+                                colorCost = 0, sizeCost = 0, nounCost = 0))
+
+fr_sizeOvermodification_high = mutate(fr_sizeOvermodification_high, state = states_color_high, .before = colorNoise)
+fr_sizeOvermodification_high = mutate(fr_sizeOvermodification_high, nounNoise = 0.99, .before = alpha)
+fr_sizeOvermodification_high = mutate(fr_sizeOvermodification_high, Utterance = utterance_fr, .before = speakerProb)
+fr_sizeOvermodification_high$Language <- "French"
+
+## Vietnamese
+
+vt_sizeOvermodification_high <- valDF %>%
+  group_by(colorNoise, sizeNoise, alpha) %>%
+  mutate(speakerProb = runModel('V8', engine, modelAndSemantics, cmd_vt, states_cs_high, utterances_vt_cs, alpha, sizeNoiseVal = sizeNoise, colorNoiseVal = colorNoise, 
+                                colorCost = 0, sizeCost = 0, nounCost = 0))
+
+vt_sizeOvermodification_high = mutate(vt_sizeOvermodification_high, state = states_color_high, .before = colorNoise)
+vt_sizeOvermodification_high = mutate(vt_sizeOvermodification_high, nounNoise = 0.99, .before = alpha)
+vt_sizeOvermodification_high = mutate(vt_sizeOvermodification_high, Utterance = utterance_vt, .before = speakerProb)
+vt_sizeOvermodification_high$Language <- "Vietnamese"
+
+sizeOvermodification_high <- rbind(english_sizeOvermodification_high, rbind(sp_sizeOvermodification_high,rbind(fr_sizeOvermodification_high,vt_sizeOvermodification_high)))
+sizeOvermodification_high = mutate(sizeOvermodification_high, Context = "High Scene Variation", .before = Utterance)
+sizeOvermodification_high = mutate(sizeOvermodification_high, Semantics = "Continuous", .before = Context)
+sizeOvermodification_high = mutate(sizeOvermodification_high, Utility = "Incremental", .after = Semantics)
+sizeOvermodification_high = mutate(sizeOvermodification_high, Redundancy = "Size Redundant", .before = Semantics)
+
+# SIZE-SUFFICIENT SCENARIO High Variation
+
+## English
+
+english_colorOvermodification_high <- valDF %>%
+  group_by(colorNoise, sizeNoise, alpha) %>%
+  mutate(speakerProb = runModel('V8', engine, modelAndSemantics, cmd_eng, states_ss_high, utterances_eng_ss, alpha, sizeNoiseVal = sizeNoise, colorNoiseVal = colorNoise,
+                                colorCost = 0, sizeCost = 0, nounCost = 0))
+
+english_colorOvermodification_high = mutate(english_colorOvermodification_high, state = states_size_high, .before = colorNoise)
+english_colorOvermodification_high = mutate(english_colorOvermodification_high, nounNoise = 0.99, .before = alpha)
+english_colorOvermodification_high = mutate(english_colorOvermodification_high, Utterance = utterance_eng, .before = speakerProb)
+english_colorOvermodification_high$Language <- "English"
+
+## Spanish
+
+sp_colorOvermodification_high <- valDF %>%
+  group_by(colorNoise, sizeNoise, alpha) %>%
+  mutate(speakerProb = runModel('V8', engine, modelAndSemantics, cmd_sp, states_ss_high, utterances_sp_ss, alpha, sizeNoiseVal = sizeNoise, colorNoiseVal = colorNoise,
+                                colorCost = 0, sizeCost = 0, nounCost = 0))
+
+sp_colorOvermodification_high = mutate(sp_colorOvermodification_high, state = states_size_high, .before = colorNoise)
+sp_colorOvermodification_high = mutate(sp_colorOvermodification_high, nounNoise = 0.99, .before = alpha)
+sp_colorOvermodification_high = mutate(sp_colorOvermodification_high, Utterance = utterance_sp, .before = speakerProb)
+sp_colorOvermodification_high$Language <- "Spanish"
+
+## French
+
+fr_colorOvermodification_high <- valDF %>%
+  group_by(colorNoise, sizeNoise, alpha) %>%
+  mutate(speakerProb = runModel('V8', engine, modelAndSemantics, cmd_fr, states_ss_high, utterances_fr_ss, alpha, sizeNoiseVal = sizeNoise, colorNoiseVal = colorNoise,
+                                colorCost = 0, sizeCost = 0, nounCost = 0))
+fr_colorOvermodification_high = mutate(fr_colorOvermodification_high, state = states_size_high, .before = colorNoise)
+fr_colorOvermodification_high = mutate(fr_colorOvermodification_high, nounNoise = 0.99, .before = alpha)
+fr_colorOvermodification_high = mutate(fr_colorOvermodification_high, Utterance = utterance_fr, .before = speakerProb)
+fr_colorOvermodification_high$Language <- "French"
+
+## Vietnamese
+
+vt_colorOvermodification_high <- valDF %>%
+  group_by(colorNoise, sizeNoise, alpha) %>%
+  mutate(speakerProb = runModel('V8', engine, modelAndSemantics, cmd_vt, states_ss_high, utterances_vt_ss, alpha, sizeNoiseVal = sizeNoise, colorNoiseVal = colorNoise,
+                                colorCost = 0, sizeCost = 0, nounCost = 0))
+
+vt_colorOvermodification_high = mutate(vt_colorOvermodification_high, state = states_size_high, .before = colorNoise)
+vt_colorOvermodification_high = mutate(vt_colorOvermodification_high, nounNoise = 0.99, .before = alpha)
+vt_colorOvermodification_high = mutate(vt_colorOvermodification_high, Utterance = utterance_vt, .before = speakerProb)
+vt_colorOvermodification_high$Language <- "Vietnamese"
+
+colorOvermodification_high <- rbind(english_colorOvermodification_high, rbind(sp_colorOvermodification_high,rbind(fr_colorOvermodification_high,vt_colorOvermodification_high)))
+colorOvermodification_high = mutate(colorOvermodification_high, Context = "High Scene Variation", .before = Utterance)
+colorOvermodification_high = mutate(colorOvermodification_high, Semantics = "Continuous", .before = Context)
+colorOvermodification_high = mutate(colorOvermodification_high, Utility = "Incremental", .after = Semantics)
+colorOvermodification_high = mutate(colorOvermodification_high, Redundancy = "Color Redundant", .before = Semantics)
+
+data_high <- rbind(colorOvermodification_high, sizeOvermodification_high)
+
+total_data <- rbind(data_med, data_high)
+
+write.csv(total_data, "../series/series1/model_output/total_data_all_simulations.csv", row.names = FALSE)
+
+# write.csv(colorOvermodification_med, "../series/series1/model_output/color_Overmodification_med_six_red_pin_no_cost_medium_var.csv", row.names = FALSE)
+# write.csv(sizeOvermodification_med, "../series/series1/model_output/size_Overmodification_med_six_red_pin_no_cost_medium_var.csv", row.names = FALSE)
 #view(modelAndSemantics)
 
 # # PREDICTIONS PLOTS
@@ -233,12 +381,12 @@ write.csv(sizeOvermodification, "../series/series1/model_output/size_overmodific
 #   return(p)
 # }
 # 
-# color_plot <- plot(colorOvermodification) +
+# color_plot <- plot(colorOvermodification_med) +
 #   theme(strip.text.y = element_blank(),
 #         legend.position = "none") +
 #   ggtitle("Redundant color modification")
 # 
-# size_plot <- plot(sizeOvermodification) +
+# size_plot <- plot(sizeOvermodification_med) +
 #   theme(axis.text.y = element_blank(),
 #         axis.ticks.y = element_blank(),
 #         legend.position = "none") +
