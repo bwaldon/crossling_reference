@@ -34,15 +34,15 @@ var params = {
     alpha : 20.000000,
     sizeNoiseVal : 0.800000,
     colorNoiseVal : 0.950000,
-    sizeCost : 0.100000,
-    colorCost : 0.100000,
-    nounCost : 0.100000
+    sizeCost : 0.000000,
+    colorCost : 0.000000,
+    nounCost : 0.000000
   }
   
 var semantics = semantics(params)
     
 var model = extend(model(params), 
- {states : ["smallbluepin","bigbluepin","bigredpin","smallblueball","bigredpin","bigredpin"], utterances : ["START pin STOP","START ball STOP","START pin red STOP","START pin blue STOP","START ball blue STOP","START pin big STOP","START pin small STOP","START ball small STOP","START pin blue and big STOP","START pin big and blue STOP","START pin red and big STOP","START pin big and red STOP","START pin blue and small STOP","START pin small and blue STOP","START ball blue and small STOP","START ball small and blue STOP"]}) 
+ {states : ["smallbluepin","bigbluepin","bigredpin","smallblueball","bigredpin","bigredpin","bigredpin","bigredpin"], utterances : ["START pin STOP","START ball STOP","START pin red STOP","START pin blue STOP","START ball blue STOP","START pin big STOP","START pin small STOP","START ball small STOP","START pin blue and big STOP","START pin big and blue STOP","START pin red and big STOP","START pin big and red STOP","START pin blue and small STOP","START pin small and blue STOP","START ball blue and small STOP","START ball small and blue STOP"]}) 
                  
 // safeDivide, getTransitions, licitTransitions: helper functions for incremental models 
 

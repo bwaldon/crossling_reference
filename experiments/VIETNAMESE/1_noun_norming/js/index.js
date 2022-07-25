@@ -54,7 +54,7 @@ function getArticleItem(item_id) {
     var article = getArticleItem(stim.item);
    //  console.log(stim.item);
    //  console.log(stim.label);
-	var contextsentence = "Tên của thứ này là gì";
+	var contextsentence = "Tên của thứ này là gì?";
 	//var contextsentence = "How typical is this for "+stim.basiclevel+"?";
 	//var objimagehtml = '<img src="images/'+stim.basiclevel+'/'+stim.item+'.jpg" style="height:190px;">';
 	var objimagehtml = '<img src="images/'+stim.label+'.jpg" style="height:230px;">';
@@ -73,7 +73,7 @@ function getArticleItem(item_id) {
 	},
 
 	button : function() {
-	  if ($("#answer").val().length > 1) {
+	  if ($("#answer").val().length > 2) {
         $(".err").hide();
         this.log_responses();
         _stream.apply(this); //use exp.go() if and only if there is no "present" data.
@@ -113,9 +113,9 @@ function getArticleItem(item_id) {
         comments : $("#comments").val(),
 
         firstLanguage : $("#firstLanguage").val(),
-        bcsPrimaryLanguageSchool : $("#bcsPrimaryLanguageSchool").val(),
+        VietPrimaryLanguageSchool : $("#VietPrimaryLanguageSchool").val(),
         otherLanguage : $("#otherLanguage").val(),
-        liveInYugo : $("#liveInYugo").val(),
+        liveInVietnam : $("#liveInVietnam").val(),
         country : $("#country").val(),
         dialectOne : $("#dialectOne").val(),
         dialectTwo : $("#dialectTwo").val(),
@@ -125,8 +125,8 @@ function getArticleItem(item_id) {
       // error if any of the questions in the second part are left unanswered
       if (exp.subj_data.firstLanguage != "" &
         exp.subj_data.otherLanguage != "" &
-        exp.subj_data.bcsPrimaryLanguageSchool != "" &
-        exp.subj_data.liveInYugo != "" &
+        exp.subj_data.VietPrimaryLanguageSchool != "" &
+        exp.subj_data.liveInVietnam != "" &
         exp.subj_data.country != "" &
         exp.subj_data.dialectOne != "" &
         exp.subj_data.dialectTwo != "") {

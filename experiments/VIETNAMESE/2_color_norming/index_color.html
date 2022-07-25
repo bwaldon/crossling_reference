@@ -1,0 +1,246 @@
+<html>
+
+<head>
+    <title>Language study</title>
+
+    <!--JS-->
+
+    <!-- external general utilities -->
+    <script src="shared/js/jquery-1.11.1.min.js "></script>
+    <script src="shared/full-projects/jquery-ui/jquery-ui.min.js"></script>
+    <script src="shared/js/underscore-min.js"></script>
+    <script src="shared/js/uniqueturker.js"></script>
+
+    <!-- if you want to draw stuff: -->
+    <!-- <script src="../_shared/js/raphael-min.js"></script> -->
+
+    <!-- cocolab experiment logic -->
+    <script src="shared/js/exp-V2.js"></script>
+    <script src="shared/js/stream-V2.js"></script>
+
+    <!-- cocolab general utilities -->
+    <script src="shared/js/mmturkey.js "></script>
+    <script src="shared/js/browserCheck.js"></script>
+    <!-- if you want to draw cute creatures (depends on raphael): -->
+    <!-- <script src="../_shared/js/ecosystem.js"></script> -->
+
+    <!-- experiment specific helper functions -->
+    <script src="shared/js/utils.js"></script>
+    <script src="shared/preload.js"></script>
+
+    <!--CSS-->
+    <link href="shared/full-projects/jquery-ui/jquery-ui.min.css" rel="stylesheet" type="text/css"/>
+    <link href="shared/css/cocolab-style.css" rel="stylesheet" type="text/css"/>
+    <link href="css/local-style.css" rel="stylesheet" type="text/css"/>
+
+    <!-- stimuli file -->
+    <script src="js/stimuli.js"></script>
+    <!-- experiment file -->
+    <script src="js/index.js"></script>
+
+    <script src="https://proliferate.alps.science/static/js/proliferate.js" type="text/javascript"></script>
+</head>
+
+<body onload="init();">
+  <noscript>This task requires JavaScript.</noscript>
+
+  <!-- <div class="slide" id="bot" >
+    <h3>Are you a bot?</h3>
+    <p id="s"></p>
+    <p id="q"></p>
+    <input type="text" id="text_box"/></question>
+    <br><br><br>
+      <div class="err1">
+        <p2>Failing this question two more times will disqualify you from this study.</p2></div>
+      <div class="err2">
+        <p2>Failing this question one more time will disqualify you from this study.</p2></div>
+      <div class="disq">
+        <p2>You failed the question and you are disqualified.</p2></div>
+      <div class="button">
+        <button onclick="_s.button()">Continue</button></div>
+  </div> -->
+
+  <div class="slide" id="i0" >
+    <img src="shared/images/alpslogo.png" alt="Stanford ALPS Lab" style="width:400;">
+<!--     <p id="cocolab">Stanford ALPS Lab</p> -->
+    <p id="instruct-text"> Quý vị sẽ thấy hình ảnh của một số thứ. Nhiệm vụ của quý vị là đánh chữ quý vị sẽ sử dụng cho màu sắc của thứ đó. Quý vị sẽ hoàn thành thử nghiệm này trong khoảng mười phút. Vui lòng trả lời cẩn thận.
+    <br> Làm ơn trả lời với Tiếng Việt.
+    <br> Nếu quý vị không có dấu hù hợp cho các chữ, vui lòng chỉ sử dụng chữ đó. Ví dụ: á -> a</p>  </p>
+    <button id="start_button" type="button">Vui lòng bắt đầu thử nghiệm.</button>
+    <p id="instruct-text" align="left"><i><small><small><small><strong><br>Giấy chấp thuận cho người tham gia trong thử nghiệm.</strong>:<br>Chúng tôi mời quý vị tham gia vào một nghiên cứu về sản xuất và hiểu ngôn ngữ. <br>Người thử nghiệm của quý vị sẽ hỏi để thực hiện các nhiệm vụ như đọc từ và câu, nhận định hình ảnh và mô tả tình huống, tạo câu hoặc chơi một trò chơi nhỏ.
+      <br>Quý vị sẽ được trả tiền theo tỷ giá đã đăng.
+      <br>Nghiên cứu nầy sẽ không có rủi ro hoặc lợi ích.
+      <br>Nếu quý vị đã đọc chấp thuận tham gia nghiên cứu và quyết định tham gia trong nghiên cứu nầy, hãy hiểu sự tham gia của quý vị là tự mình muốn. Quý vị có quyền rút lại sự tham gia của mình khỏi nghiên cứu bất cứ lúc nào mà không bị phạt hoặc mất quyền lợi của quý vị. Quý vị có quyền từ chối thực hiện bất kỳ hoạt động nào. Quyền riêng tư của quý vị sẽ tiếp tục trong tất cả các dữ liệu đã xuất bản và bằng văn bản của nghiên cứu.
+      <br>Quý vị có thể in chấp thuận này.
+      <br>Hỏi thăm liên lạc:
+      <br>Nếu quý vị có bất kỳ câu hỏi, sự lo lắng, hoặc than phiền về nghiên cứu này, quý vị nên liên hệ giám đốc giao thức Meghan Sumner ở <br>(650)-725-9336 <br>Nếu quý vị có thắc mắc, sự lo lắng, khong hài lòng với nghiên cứu này, hoặc nghiên cứu này làm ảnh hưởng đến quyền lợi của quý vị, xin vui lòng liên hệ hội đồng đánh giá tổ chức Stanford để nói chuyện với một người độc lập với nhóm nghiên cứu ở (650)-723-2480 hoặc điện thoại miễn phí ở 1-866-680-2906.
+      Quý vị cũng có thể viết thư cho hội đồng đánh giá tổ chức Stanford ở Stanford University, 3000 El Camino Real, Five Palo Alto Square, 4th Floor, Palo Alto, CA 94306 USA.
+      <br>Nếu quý vị đồng ý tham gia, vui lòng làm nhiệm vụ trong giai đoạn tiếp theo. <br><br></small></small></small></i></p>
+    </div>
+  
+    <!-- <div class="slide" id="instructions">
+      <h3>Instructions</h3>
+      <p>In this experiment you will read 6 descriptions of events. In
+      each description, a person makes a statement. Please read each
+      description carefully and answer questions about the speaker's
+      statement.</p>
+  <!--    <button type="button" id="ibutton">Continue</button>    -->
+     <!-- <button onclick="_s.button()">Continue</button>
+    </div> -->
+  
+    <div class="slide" id="objecttrial">
+      <p id="contextsentence">{{}}</p>
+      <div id="objectimage">
+  {{}}
+    </div>
+      <br>
+      <textarea id="answer" rows="1" cols="30"></textarea>
+     <!--  <table id="slider_table" class="slider_table"> -->
+       <!--  <tr><td class="left"><h3>very atypical</h3></td><td class="right" id="numObjects"><h3>very typical</h3></td></tr>
+        <tr><td colspan="2"><div id="single_slider" class="slider"></div></td></tr> -->
+      <!-- </table> -->
+      <br><br>
+      <button onclick="_s.button()">Tiếp tục</button>
+      <div class="err">Vui lòng trả lời trước khi tiếp tục. </div>
+       <!-- <br>
+          <textarea id="objectlabel" rows="2" cols="50"></textarea>
+       <br>  -->
+  
+      <!-- <button class="contbutton">Next</button>
+  
+          <div class="err">Please say what kind of object you think this is. If you don't know, write "don't know".</div> -->
+  
+    </div>
+  
+    <div class="slide"  id="subj_info">
+      <div class="long_form">
+        <div class="subj_info_title">Cuộc khảo sát</div>
+        <p class="info" style="margin:0 0 0px 0;"><br>Vui lòng trả lời cuộc khảo sát.
+          <br>Phần đầu tiên của cuộc khảo sát là tùy chọn.
+          <br>Quí vị sẽ cần phải hoàn thành phần thứ hai của cuộc khảo sát.
+        </p>
+  
+        <p style="color:#036; font-size:17; font-weight:bold"p>Phần đầu tiên</p>
+  
+        <p>Bạn thuộc giới tính nào:
+          <select id="gender">
+            <label><option value=""/></label>
+            <label><option value="Male"/>Nam</label>
+            <label><option value="Female"/>Nữ</label>
+            <label><option value="Other"/>Giới tính khác</label>
+          </select>
+        </p>
+  
+        <p>Tuổi: <input type="text" id="age"/></p>
+  
+        <p>Trình độ học văn của quý vị là gì?
+          <select id="education">
+            <label><option value="-1"/></label>
+            <label><option value="0"/>It hơn cấp hai</label>
+            <label><option value="1"/>Cấp hai</label>
+            <label><option value="2"/>Tham dự đại học it hơn hai năm</label>
+            <label><option value="3"/>Tốt nghiệp đại học</label>
+            <label><option value="4"/>Bằng cấp trên đại học</label>
+          </select>
+        </p>
+  
+        <p>Quý vị có đọc hướng dẫn và hiểu hướng dẫn không?</p>
+        <label><input type="radio"  name="assess" value="No"/>Không</label>
+        <label><input type="radio"  name="assess" value="Yes"/>Có</label>
+        <label><input type="radio"  name="assess" value="Confused"/>Không chắc chắn</label>
+  
+        <p>Quý vị có gặp vấn đề gì với nghiên cứu không? </p>
+        <textarea id="problems" rows="2" cols="50"></textarea>
+  
+        <p>Lương có công bằng không?</p>
+        <textarea id="fairprice" rows="1" cols="10"></textarea>
+  
+        <p>Quí vị thích nghiên cứu này bao nhiêu?</p>
+        <select id="enjoyment">
+          <label><option value="-1"></option></label>
+          <label><option value="0">Dưới trung bình</option></label>
+          <label><option value="1" >Trung bình</option></label>
+          <label><option value="2">Trên mức trung bình</option></label>
+        </select>
+  
+        <p>Bất kỳ nhận xét nào khác về nghiên cứu này? </p>
+        <textarea id="comments" rows="3" cols="50"></textarea>
+        <br/>
+  
+        <p style="color:#036; font-size:17; font-weight:bold">Phần thứ hai</p>
+  
+        <p>Khi còn nhỏ, quí vị chủ yếu nói ngôn ngữ nào? <input type="text" id="firstLanguage"/></p>
+  
+        <p>Khi còn nhỏ, ngôn ngữ nào được sử dụng chủ yếu trong trường học của quí vị? <input type="text" id="VietPrimaryLanguageSchool"/></p>
+  
+        <p>Quí vị có nói ngôn ngữ nào khác không? <input type="text" id="otherLanguage"/></p>
+        <label>(Ngôn ngữ quí vị đã học như một ngoại ngữ)</label>
+  
+        <p>Quí vị đã từng sống ở Việt Nam chưa?
+          <br>
+          <select id="liveInVietnam">
+            <label><option value=""/></label>
+            <label><option value="no"/>Không.</label>
+            <label><option value="visited"/>Không nhưng tôi thường xuyên đến thăm.</label>
+            <label><option value="preAge8"/>Vâng, trước khi tôi tám tuổi.</label>
+            <label><option value="preAndPostAge8"/>Vâng, trước và sau khi tôi tám tuổi.</label>
+            <label><option value="postAge8"/>Vâng, sau khi tôi tám tuổi.</label>
+          </select>
+        </p>
+  
+        <p>Quí vị đã sống hoặc dành nhiều thời gian ở vùng, miền nào nói tiếng việt?
+          <br>
+          <select id="country">
+            <label><option value=""/></label>
+            <label><option value="mien_bac"/>Miền Bắc Việt Nam</label>
+            <label><option value="mien_trung"/>Miền Trung Việt Nam</label>
+            <label><option value="mien_nam"/>Miền Nam Việt Nam</label>
+            <label><option value="usa"/>Châu Mỹ</label>
+            <label><option value="other"/>Khác</label>
+          </select>
+        </p>
+  
+        <p>Khi tôi nói tiếng Việt, tôi thường nói:
+          <select id="dialectOne">
+            <label><option value=""/></label>
+            <label><option value="mien_trung"/>Mạ</label>
+            <label><option value="mein_bac"/>U</label>
+            <label><option value="mien_nam"/>Má</label>
+            <label><option value="other"/>Khác</label>
+          </select>
+        </p>
+  
+        <p>Khi tôi nói tiếng Việt, tôi thường nói:
+          <select id="dialectTwo">
+            <label><option value=""/></label>
+            <label><option value="mien_nam"/>Chén</label>
+            <label><option value="mien_bac"/>Bát</label>
+            <label><option value="mien_trung"/>Đọi</label>
+            <label><option value="other"/>Khác</label>
+          </select>
+        </p>
+  
+        <br>
+        <div class="err2" style="color:red; font-size:17; font-weight:bold">Vui lòng trả lời các câu hỏi trong phần thứ hai trước khi tiếp tục. </div>
+        <br>
+        <button onclick="_s.submit()">Gửi đi</button>
+        <br>
+        <p style="color:white;">.</p>
+      </div>
+    </div>
+  
+    <div id="thanks" class="slide js" >
+      <p  class="big">Cảm ơn vì đã tham gia</p>
+    </div>
+  
+    <div class="progress">
+      <span>Progress:</span>
+      <div class="bar-wrapper">
+        <div class="bar" width="0%">
+        </div>
+      </div>
+    </div>
+  
+  </body>
+  </html>
+  
