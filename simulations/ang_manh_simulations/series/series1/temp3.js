@@ -1,3 +1,16 @@
+var alpha = 5
+                      var adj_cost = 0.1
+                      var noun_cost = 0.1
+                      var adj = ['small','big','red','blue']
+                      var noun = ['ball','pin']
+                      var states = ["R1", "R2", "R3", "R4", "R5", "R6"]
+                      var semantics = [["0.8", "0.95", "0.99", "0.19999999999999996", "0.010000000000000009", "0.050000000000000044", "1", "1", "1"],["0.19999999999999996", "0.95", "0.010000000000000009", "0.8", "0.99", "0.050000000000000044", "1", "1", "1"],["0.8", "0.050000000000000044", "0.99", "0.19999999999999996", "0.010000000000000009", "0.95", "1", "1", "1"],["0.19999999999999996", "0.050000000000000044", "0.99", "0.8", "0.010000000000000009", "0.95", "1", "1", "1"],["0.19999999999999996", "0.050000000000000044", 
+"0.010000000000000009", "0.8", "0.99", "0.95", "1", "1", "1"],["0.19999999999999996", "0.050000000000000044", "0.010000000000000009", "0.8", "0.99", "0.95", "1", "1", "1"]]
+                      var words = ["small", "blue", "pin", "big", "ball", "red", "and", "STOP", "START"]
+                      var utterances = [["START pin STOP", "START small pin STOP", "START blue pin STOP", "START small blue pin STOP", "START ball STOP", "START big ball STOP", "START blue ball STOP", "START big blue ball STOP", "START red pin STOP", "START small red pin STOP", "START big pin STOP", "START big red pin STOP", "START red ball STOP", "START big red ball STOP"],["START pin STOP", "START pin small STOP", "START pin blue STOP", "START pin blue small STOP", "START ball STOP", "START ball big STOP", "START ball blue STOP", 
+"START ball blue big STOP", "START pin red STOP", "START pin red small STOP", "START pin big STOP", "START pin red big STOP", "START ball red STOP", "START ball red big STOP"],["START pin STOP", "START small pin STOP", "START pin blue STOP", "START small pin blue STOP", "START ball STOP", "START big ball STOP", "START ball blue STOP", "START big ball blue STOP", "START pin red STOP", "START small pin red STOP", "START big pin STOP", "START big pin red STOP", "START ball red STOP", "START big ball red STOP", 
+"_", "START pin STOP", "START pin small STOP", "START pin blue STOP", "START pin blue and small STOP", "START pin small and blue STOP", "START ball STOP", "START ball big STOP", "START ball blue STOP", "START ball blue and big STOP", "START ball big and blue STOP", "START pin red STOP", "START pin red and small STOP", "START pin small and red STOP", "START pin big STOP", "START pin red and big STOP", "START pin big and red STOP", "START ball red STOP", "START ball red and big STOP", "START ball big and red STOP"
+]]
 //new: Continuous incremental+global model----->
 var ENGLISH = 0
 var SPANISH = 1
@@ -204,3 +217,5 @@ var VietWrapper = cache(function(utt, state, lang) {
   var newUtt = "START " + string[1] + " " + secondadj + " and " + firstadj + " STOP"
   return incrementalUtteranceSpeaker(utt, state, lang) + incrementalUtteranceSpeaker(newUtt, state, lang)
 });
+
+VietWrapper("START pin blue and small STOP", "R1", 3)

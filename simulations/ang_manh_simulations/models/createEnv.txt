@@ -17,9 +17,9 @@ var SpanUtterances = function(refSize, refCol, refNoun){
   utterances.push("START " +refNoun + " " + refSize+ " STOP")
   utterances.push("START " +refNoun + " " + refCol+ " STOP")
   utterances.push("START " +refNoun + " " + refCol + " " + refSize+ " STOP")
-  utterances.push("START " +refCol +  " STOP")
-  utterances.push("START " +refSize+ " STOP")
-  utterances.push("START "+ refCol + " " + refSize+ " STOP")
+  //utterances.push("START " +refCol +  " STOP")
+  //utterances.push("START " +refSize+ " STOP")
+  //utterances.push("START "+ refCol + " " + refSize+ " STOP")
   return utterances
 }
 var FrenUtterances = function(refSize, refCol, refNoun){

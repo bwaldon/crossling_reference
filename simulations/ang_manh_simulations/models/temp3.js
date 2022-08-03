@@ -1,20 +1,30 @@
-var states = ["R1", "R2", "R3"]
-                      var semantics = [["0.8", "0.95", "1", "0.19999999999999996", "0.050000000000000044", "1", "1", "1"],["0.19999999999999996", "0.95", "1", "0.8", "0.050000000000000044", "1", "1", "1"],["0.19999999999999996", "0.050000000000000044", "1", "0.8", "0.95", "1", "1", "1"]]
-                      var words = ["small", "blue", "pin", "big", "red", "and", "STOP", "START"]
-                      var utterances = [["START pin STOP", "START small pin STOP", "START blue pin STOP", "START small blue pin STOP", "START big pin STOP", "START big blue pin STOP", "START red pin STOP", "START big red pin STOP"],["START pin STOP", "START pin small STOP", "START pin blue STOP", "START pin blue small STOP", "START blue STOP", "START small STOP", "START blue small STOP", "START pin big STOP", "START pin blue big STOP", "START big STOP", "START blue big STOP", "START pin red STOP", "START pin red big STOP", "START red STOP", 
-"START red big STOP"],["START pin STOP", "START small pin STOP", "START pin blue STOP", "START small pin blue STOP", "START big pin STOP", "START big pin blue STOP", "START pin red STOP", "START big pin red STOP"],["START pin STOP", "START pin small STOP", "START pin blue STOP", "START pin blue and small STOP", "START pin small and blue STOP", "START pin big STOP", "START pin blue and big STOP", "START pin big and blue STOP", "START pin red STOP", "START pin red and big STOP", "START pin big and red STOP"
-]]
-//Continuous incremental+global model----->
+var alpha = 5
+                      var adj_cost = 0.1
+                      var noun_cost = 0.1
+                      var adj = ['small','big','red','blue']
+                      var noun = ['ball','pin']
+                      var states = ["R1", "R2", "R3", "R4", "R5", "R6", "R7", "R8"]
+                      var semantics = [["0.8", "0.95", "0.99", "0.19999999999999996", "0.010000000000000009", "0.050000000000000044", "1", "1", "1", ],["0.19999999999999996", "0.95", "0.010000000000000009", "0.8", "0.99", "0.050000000000000044", "1", "1", "1", ],["0.8", "0.050000000000000044", "0.99", "0.19999999999999996", "0.010000000000000009", "0.95", "1", "1", "1", ],["0.19999999999999996", "0.050000000000000044", "0.99", "0.8", "0.010000000000000009", "0.95", "1", "1", "1", ],["0.19999999999999996", "0.050000000000000044", 
+"0.99", "0.8", "0.010000000000000009", "0.95", "1", "1", "1", ],["0.19999999999999996", "0.050000000000000044", "0.99", "0.8", "0.010000000000000009", "0.95", "1", "1", "1", ],["0.8", "0.050000000000000044", "0.010000000000000009", "0.19999999999999996", "0.99", "0.95", "1", "1", "1", ],["0.8", "0.050000000000000044", "0.010000000000000009", "0.19999999999999996", "0.99", "0.95", "1", "1", "1"]]
+                      var words = ["small", "blue", "pin", "big", "ball", "red", "and", "STOP", "START"]
+                      var utterances = [["START pin STOP", "START small pin STOP", "START blue pin STOP", "START small blue pin STOP", "START ball STOP", "START big ball STOP", "START blue ball STOP", "START big blue ball STOP", "START red pin STOP", "START small red pin STOP", "START big pin STOP", "START big red pin STOP", "START small ball STOP", "START red ball STOP", "START small red ball STOP", ],["START pin STOP", "START pin small STOP", "START pin blue STOP", "START pin blue small STOP", "START ball STOP", "START ball big STOP", 
+"START ball blue STOP", "START ball blue big STOP", "START pin red STOP", "START pin red small STOP", "START pin big STOP", "START pin red big STOP", "START ball small STOP", "START ball red STOP", "START ball red small STOP", ],["START pin STOP", "START small pin STOP", "START pin blue STOP", "START small pin blue STOP", "START ball STOP", "START big ball STOP", "START ball blue STOP", "START big ball blue STOP", "START pin red STOP", "START small pin red STOP", "START big pin STOP", "START big pin red STOP", 
+"START small ball STOP", "START ball red STOP", "START small ball red STOP", ],["START pin STOP", "START pin small STOP", "START pin blue STOP", "START pin blue and small STOP", "START pin small and blue STOP", "START ball STOP", "START ball big STOP", "START ball blue STOP", "START ball blue and big STOP", "START ball big and blue STOP", "START pin red STOP", "START pin red and small STOP", "START pin small and red STOP", "START pin big STOP", "START pin red and big STOP", "START pin big and red STOP", 
+"START ball small STOP", "START ball red STOP", "START ball red and small STOP", "START ball small and red STOP"]]
+//new: Continuous incremental+global model----->
 var ENGLISH = 0
 var SPANISH = 1
 var FRENCH = 2
 var VIETNAMESE = 3
-var alpha_inc = 7
-var alpha_global = 20
+
+var frenDistProb_3 = [0.25,0.25,0.25,0.25]
+var frenDistUtt = [  "START small pin blue STOP", "START small pin STOP",
+  "START pin blue STOP", "START pin STOP"]
 
 var wordCost = function(x){
-  //if (adj.includes(x)) return cost
-  if (x === "and") return cost
+  if (adj.includes(x)) return adj_cost
+  if (noun.includes(x)) return noun_cost
+  if (x === "and") return adj_cost
   return 0
 }
 
@@ -108,29 +118,22 @@ var globalLiteralListener = function (utterance) {
 
 // the normal, utterance-level RSA pragmatic speaker
 var globalUtteranceSpeaker = cache(function (state, lang) {
- if (lang == FRENCH){
-   return Infer({
-   model: function () {
-     var utterance = categorical(frenDistProb_3, frenDistUtt);//
-     var listener = globalLiteralListener(utterance);
-     factor(
-       alpha_global * (listener.score(state) - stringCost(utterance.split(" ")))
-     );
-     return utterance;
-   },
- });
- }
  return Infer({
    model: function () {
      var utterance = uniformDraw(utterances[lang]);//
      var listener = globalLiteralListener(utterance);
      factor(
-       alpha_global * (listener.score(state) - stringCost(utterance.split(" ")))
+       alpha * (listener.score(state) - stringCost(utterance.split(" ")))
      );
      return utterance;
    },
  });
 });
+
+var globalUtteranceSpeakerWrapper= function(utterance, state, lang){
+  var rawData = globalUtteranceSpeaker(state, lang)
+  return Math.exp(rawData.score(utterance)).toFixed(3)
+}
 
 //________________________________________________________________________________
 //                                   Incremental part:
@@ -164,7 +167,7 @@ var wordSpeaker = function (context, state, lang) {
      var result =
        stringMeanings(context.join(" "), state) == 0 //context is completely false for referent
          ? 1 //to avoid negatives?
-         : alpha_inc *
+         : alpha *
            (incrementalLiteralListener(newContext.join(" "), lang).score(
              state
            ) -
@@ -207,4 +210,12 @@ var incrementalUtteranceSpeaker = cache(function (utt, state, lang) {
  ).toFixed(3);
 }, 100000);
 
-incrementalUtteranceSpeaker("START small blue pin STOP", "R1", 0.000000)
+var VietWrapper = cache(function(utt, state, lang) {
+  var string = utt.split(" ");  // start, pin, small, and , blue, stop
+  var firstadj = string[2]
+  var secondadj = string[4]
+  var newUtt = "START " + string[1] + " " + secondadj + " and " + firstadj + " STOP"
+  return incrementalUtteranceSpeaker(utt, state, lang) + incrementalUtteranceSpeaker(newUtt, state, lang)
+});
+
+VietWrapper("START pin blue and small STOP", "R1", 3)
