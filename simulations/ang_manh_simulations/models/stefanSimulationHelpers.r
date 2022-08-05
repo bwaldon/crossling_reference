@@ -6,9 +6,9 @@
 # utterances: a vector of strings, each corresponding to a complete utterance.
 createEnv <- function(envCode, refs, noun, adj, sizeAdj, sizeNoise, colorNoise, nounNoise) {
   preamble <- sprintf("var referents = %s
-    var size_semvalue = %f
-    var color_semvalue = %f
-    var noun_semvalue = %f
+    var size_semvalue = %s
+    var color_semvalue = %s
+    var noun_semvalue = %s
     var noun = %s
     var adj = %s
     var sizeAdj = %s", refs, sizeNoise, colorNoise, nounNoise, noun, adj, sizeAdj)
@@ -18,12 +18,32 @@ createEnv <- function(envCode, refs, noun, adj, sizeAdj, sizeNoise, colorNoise, 
   return (evalWebPPL_V8(code))
 }
 
-runModel_2 <- function(backend, engine, environment, lang, alpha = 1, size_noise = 1, color_noise = 1, noun_noise = 1, cost = 0){
-  preamble <- sprintf("var states = [%s]
+runModel_2 <- function(backend, engine, environment,adjCost, nounCost, alpha, modelType,lang, adj, noun){
+  preamble <- sprintf("var alpha = %s
+                      var adj_cost = %s
+                      var noun_cost = %s
+                      var adj = %s
+                      var noun = %s
+                      var states = [%s]
                       var semantics = [[%s]]
                       var words = [%s]
-                      var utterances = [[%s]]", environment$states, environment$semantics, environment$words, environment$utterances)
-  postamble <- sprintf("incrementalUtteranceSpeaker(\"START small blue pin STOP\", \"R1\", %f)", lang)
+                      var utterances = [[%s]]", alpha, adjCost, nounCost, adj, noun,
+                      environment$states, environment$semantics, environment$words, environment$utterances)
+  if (modelType == "inc"){
+    if (lang == 0) postamble <- sprintf("incrementalUtteranceSpeaker(\"START small blue pin STOP\", \"R1\", %s)", lang)
+    else if (lang == 1) postamble <- sprintf("incrementalUtteranceSpeaker(\"START pin blue small STOP\", \"R1\", %s)", lang)
+    else if (lang == 2) postamble <- sprintf("incrementalUtteranceSpeaker(\"START small pin blue STOP\", \"R1\", %s)", lang)
+    else if (lang == 3) postamble <- 
+              sprintf("VietWrapper(\"START pin blue and small STOP\", \"R1\", %s)", lang)
+  }
+  else if (modelType == "global"){
+    if (lang == 0) postamble <- sprintf("globalUtteranceSpeakerWrapper(\"START small blue pin STOP\", \"R1\", %s)", lang)
+    else if (lang == 1) postamble <- sprintf("globalUtteranceSpeakerWrapper(\"START pin blue small STOP\", \"R1\", %s)", lang)
+    else if (lang == 2) postamble <- sprintf("globalUtteranceSpeakerWrapper(\"START small pin blue STOP\", \"R1\", %s)", lang)
+    else if (lang == 3) postamble <- 
+        sprintf("globalUtteranceSpeakerWrapper(\"START pin blue and small STOP\", \"R1\", %s) + 
+                      globalUtteranceSpeakerWrapper(\"START pin small and blue STOP\", \"R1\", %s)", lang, lang)
+  }
   code <- paste(preamble, engine, postamble, sep = '\n')
   write_file(code, 'temp3.js')
   return (evalWebPPL_V8(code))

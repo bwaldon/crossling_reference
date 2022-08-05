@@ -10,7 +10,7 @@ library("stringr")
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 
 # RUN WEBPPL FROM A V8 JS ENGINE (FASTER WHEN YOU NEED TO RUN MANY, MANY CALLS TO WEBPPL)
-source("../../_shared/V8wppl.R")
+source("../../../_shared/V8wppl.R")
 
 # SOURCE SOME HELPER SCRIPTS
 
@@ -21,62 +21,20 @@ source("stefanSimulationHelpers.R")
 
 # Source the engine
 # Engine = basic RSA model in webppl code (all the speaker and listener functions)
-engine <- read_file("stefanEngine.txt")
 angEngine <- read_file("angEngine.txt")
 
-# Load all the extra semantic functions that are required for the main Serbo-Croatian
-#   semantics function to run, but that are not found in the csv file created by stefanAllScenarios.py
-semanticHelperFunctions <- read_file("stefanSemanticHelperFunctions.txt")
-
 envCode <-read_file("createEnv.txt")
-# load in csv file with conditions to run
-# Load the csv file with all the conditions to run. This csv file is created by 
-#   stefanAllScenarios.py. It contains the following columns:
-# states: a set states that defines the particular scenario we are running
-# command: command/model type, aka is semantics boolean or continuous and
-#       are we using the incremental or vanilla/global model
-# target: the target object
-# utterance: one of the utterances that could apply to that scenario. This field is NA
-#       for global utterance commands because only the incremental utterance commands
-#       require us to specify a single utterance
-# model: RSA model function with all words and their noise/cost, this is a string
-#       of javaScript code
-# Semantics: RSA semantics function with all dictionary entries and their noise
-#       this is a string of javaScript code
-scenariosToRun <- read.csv("../series/series1/model_input/stefanScenarioSeries1.csv", as.is = TRUE)
-scenariosToRun_2 <- read.csv("../series/series1/model_input/ang_model_input.csv", as.is = TRUE)
-# Do to a bug in the python script, we have duplicates of boolean semantic rows
+# load in csv file with that builds the environment and the context, including the states
+#semantics array, words and utterance lists
+
+#Taking in input csv files
+scenariosToRun <- read.csv("../series/series1/model_input/exp_tester_input.csv", as.is = TRUE)
+# Due to a bug in the python script, we have duplicates of boolean semantic rows
 # therefore we only want to get the unique rows
 scenariosToRun <- unique(scenariosToRun)
 
-
-# Function that takes in values from each row of the scneariosToRun csv file
-#   run the model on those values, and return the speaker probability
-# Input:
-#   States: list of states
-#   command: The type of model which should be run. Command is a string of one of the following types:
-#     globalbool = global utterance/vanilla model with boolean semantics
-#     globalcont = global utterance/vanilla model with continuous/noisy semantics
-#     incBool = incremental model with boolean semantics
-#     incCont = incremental model with continuous semantics
-#   target: target state
-#   utterance: a single utterance which applies to at least one state in the list of states
-#   model: string of JS code, model function which is needed in the RSA input with values pertaining to
-#     this scenario
-#   semantics: string of JS code, semantics function for Serbo-Croatian with values pertaining to this scenario
-#   parameters: 
-# Output: A single number representing speaker probability of producing the given utterance and target
-runModelWrapper <- function(states, commandType, command, target, utterance, allUtterances, model, semantics, 
-                            alpha, sizeNoise, colorNoise, genderNoise, nounNoise, colorCost, sizeCost, nounCost) {
-
-  runModel('V8', engine, model, semantics, semanticHelperFunctions, command, states, allUtterances,
-          alpha, sizeNoise, colorNoise, genderNoise, nounNoise,
-           colorCost, sizeCost, nounCost)
-}
-
-runModelWrapper2 <-function(ref, nouns, adj, sizeAdj, sizeNoise, colorNoise, nounNoise, lang){
-  
-  all <- createEnv(envCode, ref, nouns, adj, sizeAdj, sizeNoise, colorNoise, nounNoise)
+#translates environment to readable webppl code, lots of building lists and adding brackets
+toParse <- function(all) { 
   newEnv <- data.frame(0)
   groups <- strsplit(all, ':')
   groups <- as.data.frame(groups)
@@ -86,9 +44,8 @@ runModelWrapper2 <-function(ref, nouns, adj, sizeAdj, sizeNoise, colorNoise, nou
   statesStripped <- substr(states, 3, nchar(states)-1)
   semantics <- groups[2,]
   semantics <- strsplit(semantics, ",")
-  semantics <- toString(semantics)
-  semStripped <- substr(semantics, 7, nchar(semantics)-1)
-  semRef <- str_replace_all(semStripped, ", \"_\", ", "],[")
+  semStripped <- toString(semantics) %>% substr(7, nchar(toString(semantics))-1)
+  semRef <- str_replace_all(semStripped, "\"_\", ", "],[")
   words <- groups[3,]
   words <- strsplit(words, ",")
   words <- toString(words)
@@ -97,27 +54,58 @@ runModelWrapper2 <-function(ref, nouns, adj, sizeAdj, sizeNoise, colorNoise, nou
   utterances <- strsplit(utterances, ",")
   utterances <- toString(utterances)
   utterancesStripped <- substr(utterances, 7, nchar(utterances)-1)
-  utterancesLang <- str_replace_all(utterancesStripped, ", \"_\", ", "],[")
+  utterancesLang <- str_replace_all(utterancesStripped, "\"_\", ", "],[")
   newEnv$states <- statesStripped
   newEnv$semantics <- semRef
   newEnv$words <- wordsStripped
   newEnv$utterances <- utterancesLang
-  return(runModel_2('V8', angEngine, newEnv, lang))
+  return(newEnv)
 }
+
+#Two wrapper functions that allow us to run the model given a row of the csv file
+runModelWrapper2 <-function(ref, nouns, adj, sizeAdj, sizeNoise, colorNoise, 
+                            nounNoise, adjCost, nounCost, alpha, modelType, lang){
+  all <- createEnv(envCode, ref, nouns, adj, sizeAdj, sizeNoise, colorNoise, nounNoise)
+  newEnv <- toParse(all)
+  return(runModel_2('V8', angEngine, newEnv, adjCost, nounCost, alpha, modelType, lang, adj, nouns))
+}
+
+runBig <- function(row) {
+  row <- as.data.frame(t(row))
+  return(runModelWrapper2(row$Objects, row$Nouns, row$Adjectives, 
+                          row$Size_adjectives, row$size_noise,row$color_noise, row$noun_noise, 
+                          row$adj_cost, row$noun_cost, row$alpha, row$global_inc, row$Language))
+}
+
 # Turn the contents of the csv file into a data frame
 scenarios <- data.frame(scenariosToRun)
-scenarios2 <- data.frame(scenariosToRun_2)
 
-newEnv <- runModelWrapper2(scenarios2$Objects, scenarios2$Nouns, scenarios2$Adjectives, 
-                           scenarios2$Size_adjectives, scenarios2$size_noise,scenarios2$color_noise, 
-                           scenarios2$noun_noise, scenarios2$Language)
+#paring down scenarios: global only needs to be run once
+scenarios_pared <- scenarios %>% filter(global_inc == "inc" | (global_inc == "global" & Language == 1))
+
 # Run the model on all rows, each representing a single scenario with a specific set
 # of parameters to be ran.
-scenarios <- scenarios %>%
-  mutate(output = sapply(
-  split(scenarios, 1:nrow(scenarios)),
-  function(x) do.call(runModelWrapper, x)
-))
+scenarios_pared <- scenarios_pared %>%
+  mutate(output = apply(scenarios_pared, 1, runBig))
+
+#fixing Vietnamese data --> janky but the only thing I could think of
+add_dec <- function(decimalRow){
+  decimal <- decimalRow[14]
+  newDex <- str_split(decimal,"0\\.", n= 3)
+  if (length(newDex[[1]]) < 3) return(decimal)
+  else {
+    num1 <- paste("0.",newDex[[1]][2], sep = "")
+    num2 <- paste("0.",newDex[[1]][3], sep = "")
+    return(as.double(num1)+as.double(num2))
+  }
+}
+scenarios_pared <- scenarios_pared %>% 
+  mutate(output = apply(scenarios_pared,1, add_dec))
+
+#Final chart
+view(scenarios_pared)
+#outputing to CSV file
+write.csv(scenarios_pared,"../series/series1/model_output/data_newer.csv")
 
 
 # Incremental versus global models return different outputs. Therefore we must split them up and
@@ -136,7 +124,7 @@ incrementalScenarios <- scenarios %>%
   filter(scenarios$commandType == "incBool" | scenarios$commandType == "incCont")
 incrementalScenarios$output <- as.numeric(incrementalScenarios$output)
 
-# The RSA for incremental utteracnes outputs a single number
+# The RSA for incremental utterances outputs a single number
 # but for global utterances it produces a whole string, so we want to split that string up
 
 ###
