@@ -68,6 +68,8 @@ if(batchGroupName == "BCS1") {
 	newPlayer = require("./intro/newPlayer_BCSEng2Pilot.jsx").default;
 } else if (batchGroupName == "BCSEng2") {
 	newPlayer = require("./intro/newPlayer_BCSEng2.jsx").default;
+} else if (batchGroupName == "French1") {
+	newPlayer = require("./intro/newPlayer_French1.jsx").default;
 } else {
 	newPlayer = require("./intro/newPlayer.jsx").default;
 }
@@ -103,6 +105,8 @@ Empirica.exitSteps((game, player) => {
 		ExitSurveyLangSpecific = require('./exit/BCSEng2Pilot.jsx').default
 	} else if (batchGroupName == "BCSEng2") {
 		ExitSurveyLangSpecific = require('./exit/BCSEng2.jsx').default
+	} else if (batchGroupName == "French1") {
+		newPlayer = require("./exit/French1.jsx").default;
 	} else {
 		ExitSurveyLangSpecific = require('./exit/English.jsx').default
 	}
