@@ -1,9 +1,5 @@
-# runModel: a function for running speaker/listener models with fixed parameter values. 
-# backend: either 'V8' or 'rwebppl'. The former is typically faster for running numerous sequential calls to WebPPL.
-# engine: a string, typically the kernel of webppl code found under "_shared/engine.txt"
-# modelAndSemantics: a string-type chunk of webppl code, where a model and a word-level semantics are defined, each as functions of free parameter values. (See the repo for examples).
-# states: a vector of strings, each corresponding to a state.
-# utterances: a vector of strings, each corresponding to a complete utterance.
+# createEnv: a function that takes in the objects and creates an array with utterances
+#words, states, and semantics.
 createEnv <- function(envCode, refs, noun, adj, sizeAdj, sizeNoise, colorNoise, nounNoise) {
   preamble <- sprintf("var referents = %s
     var size_semvalue = %s
@@ -17,7 +13,12 @@ createEnv <- function(envCode, refs, noun, adj, sizeAdj, sizeNoise, colorNoise, 
   write_file(code, "temp2.js")
   return (evalWebPPL_V8(code))
 }
-
+# runModel: a function for running speaker/listener models with fixed parameter values. 
+# backend: either 'V8' or 'rwebppl'. The former is typically faster for running numerous sequential calls to WebPPL.
+# engine: a string, webppl code that runs the two types of models
+# environment: created context parameters: utterances, states, words, semantics
+#adjCost,nounCost,alpha,modelType,lang, adj, noun: parameters for this run of the model
+#Note: small blue pin is always the target
 runModel_2 <- function(backend, engine, environment,adjCost, nounCost, alpha, modelType,lang, adj, noun){
   preamble <- sprintf("var alpha = %s
                       var adj_cost = %s
@@ -36,7 +37,7 @@ runModel_2 <- function(backend, engine, environment,adjCost, nounCost, alpha, mo
     else if (lang == 3) postamble <- 
               sprintf("VietWrapper(\"START pin blue and small STOP\", \"R1\", %s)", lang)
   }
-  else if (modelType == "global"){
+  else if (modelType == "global"){ #global is the same for all languages, so if statements aren't necessary
     if (lang == 0) postamble <- sprintf("globalUtteranceSpeakerWrapper(\"START small blue pin STOP\", \"R1\", %s)", lang)
     else if (lang == 1) postamble <- sprintf("globalUtteranceSpeakerWrapper(\"START pin blue small STOP\", \"R1\", %s)", lang)
     else if (lang == 2) postamble <- sprintf("globalUtteranceSpeakerWrapper(\"START small pin blue STOP\", \"R1\", %s)", lang)
@@ -47,39 +48,4 @@ runModel_2 <- function(backend, engine, environment,adjCost, nounCost, alpha, mo
   code <- paste(preamble, engine, postamble, sep = '\n')
   write_file(code, 'temp3.js')
   return (evalWebPPL_V8(code))
-}
-runModel <- function(backend, engine, model, semantics, semanticHelperFunctions, cmd, states, allUtterances,
-                    alpha = 1, sizeNoiseVal = 1, colorNoiseVal = 1, 
-                     genderNoiseVal = 1, nounNoiseVal = 1,
-                     sizeCost = 0, colorCost = 0, nounCost = 0) {
-
-  preamble <- sprintf("var params = {
-    alpha : %f,
-    sizeNoiseVal : %f,
-    colorNoiseVal : %f,
-    genderNoiseVal : %f,
-    nounNoiseVal : %f,
-    sizeCost : %f,
-    colorCost : %f,
-    nounCost : %f
-  }
-  
-var semantics = semantics(params)
-    
-var model = extend(model(params), \n {states : %s, utterances : %s}) 
-                 ", alpha, sizeNoiseVal, colorNoiseVal, genderNoiseVal, nounNoiseVal, sizeCost, colorCost, nounCost, states, allUtterances)
-  code <- paste(semantics, semanticHelperFunctions, model, preamble, engine, cmd, sep = "\n")
-  
-  write_file(code, "temp.js")
-  
-  if(backend == "rwebppl") {
-    
-    return(webppl(code))
-    
-  } else if(backend == "V8") {
-    
-    return(evalWebPPL_V8(code))
-    
-  }
-  
 }

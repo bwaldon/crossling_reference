@@ -1,5 +1,4 @@
-# plots the model predictions obtained by Angelique and Manh in summer 2022, documented here: https://docs.google.com/spreadsheets/d/1cj2Y4GLFNQPoW1eoIkCFzxrdtzFEOaPGDMvpjqP4E5k/edit?usp=sharing
-# for contexts, see slack channel / grant
+# plots the model predictions obtained by Angelique and Manh in summer 2022
 
 library(tidyverse)
 library(grid)
@@ -24,13 +23,8 @@ d_all_new = d_all_new %>% mutate(LangAbr = case_when (
   Language == "2" ~ "FR",
   Language == "3" ~ "VN",
 ))
-d_all_3 = d_all_new %>% filter(Name == "3_size_redundant_low" |
-                                 Name == "3_size_redundant_medium"|
-                                 Name == "3_size_redundant_high" )
-d_all_4 = d_all_new %>% filter(Name == "4_size_redundant_low" |
-                                 Name == "4_size_redundant_medium"|
-                                 Name == "4_size_redundant_high" )
 
+dodge = position_dodge(.9)
 # CONTEXT 1A AND 1B
 # 3 pins varying in color and size, noun uninformative
 # 1A: "color-redundant"
@@ -57,6 +51,7 @@ d_no_cost = d_global %>%
   )) %>%
   group_by(Language, global_inc, alpha) %>% 
   ungroup()
+
 d_with_cost = d %>%
   filter(adj_cost == 0.1 & noun_cost == 0.1) %>%
   mutate(ContextType = case_when(  
@@ -77,24 +72,17 @@ d_with_cost = d %>%
     ContextType == "Low variation" & Redundancy == "Size redundant" ~ "low_size",
     ContextType == "High variation" & Redundancy == "Size redundant" ~ "high_size",
   ))
-dodge = position_dodge(.9)
+
 d_global_5 = d_all_new %>%
   filter(global_inc=="global") %>%
   mutate(ContextType = case_when(  
-    Name == "exp_color_redundant" ~ "Low variation",
-    Name == "exp_size_redundant" ~ "Low variation",
-    Name == "exp_size_redundant_high"~ "High variation",
-    Name == "exp_color_redundant_high" ~ "High variation",
-    Name == "exp_size_redundant_medium"~ "Medium variation",
-    Name == "exp_color_redundant_medium" ~ "Medium variation", 
+    grepl("low",Name) ~ "Low variation",
+    grepl("medium",Name) ~ "Medium variation",
+    grepl("high",Name) ~ "High variation",
     TRUE ~ "other")) %>%
   mutate(Redundancy = case_when(  
-    Name == "exp_color_redundant" ~ "Color redundant",
-    Name == "exp_size_redundant" ~ "Size redundant",
-    Name == "exp_size_redundant_high"~ "Size redundant",
-    Name == "exp_color_redundant_high" ~ "Color redundant",  
-    Name == "exp_size_redundant_medium"~ "Size redundant",
-    Name == "exp_color_redundant_medium" ~ "Color redundant",
+    grepl("color",Name) ~ "Color redundant",
+    grepl("size",Name) ~ "Size redundant",
     TRUE ~ "other")) %>%
   mutate(Grouping = case_when(
     ContextType == "Low variation" & Redundancy == "Color redundant" ~ "low_color",
