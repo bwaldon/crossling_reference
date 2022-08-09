@@ -64,9 +64,9 @@
     <img src="shared/images/alpslogo.png" alt="Stanford ALPS Lab" style="width:400;">
 <!--     <p id="cocolab">Stanford ALPS Lab</p> -->
     <p id="instruct-text">Vous verrez des images d’objets. Votre tâche est d’écrire ce qu'est l’objet dans l’espace sous l’image.
-      Cette expérience devrait durer près de 5 minutes. Veuillez répondre attentivement. </p>
-      <br> Répondez en Français, s'il vous plaît.
-    <button id="start_button" type="button">Lancer l'expérience</button>
+      Cette expérience devrait durer environ 10 minutes. Veuillez répondre attentivement. </p>
+      <br> Veuillez répondre en Français.
+    <br> <button id="start_button" type="button">Lancer l'expérience</button>
     <p id="instruct-text" align="left"><i><small><small><small><strong><br>Formulaire de consentement</strong>:
       <br>Vous recevrez une rémunération pour votre participation d’après le tarif posté. Si vous avez lu ce formulaire et décidez de participer à cette étude, ayez conscience que votre participation est volontaire et que vous avez
       le droit de retirer votre consentement ou d’abandonner l’étude n’importe quand sans aucune pénalité et sans perte d’avantages auxquels vous auriez autrement droit. Vous avez le droit de refuser certaines tâches.
@@ -101,7 +101,7 @@
     <!-- </table> -->
     <br><br>
     <button onclick="_s.button()">Procéder</button>
-    <div class="err">Veuillez écrire quelque chose avant de procéder. </div>
+    <div class="err">Veuillez écrire quelque chose dans l'espace avant de procéder. </div>
      <!-- <br>
 	      <textarea id="objectlabel" rows="2" cols="50"></textarea>
      <br>  -->
@@ -149,7 +149,7 @@
       <label><input type="radio"  name="assess" value="Yes"/>Oui</label>
       <label><input type="radio"  name="assess" value="Confused"/>Non, j'étais perdu</label>
 
-      <p>Avez-vous trouvé des problèmes avec l’étude? Avez-vous d'autres commentaires à ajouter? </p>
+      <p>Avez-vous trouvé des problèmes avec l’étude? </p>
       <textarea id="problems" rows="2" cols="50"></textarea>
 
       <p>Était-ce juste la paye?</p>
@@ -174,7 +174,7 @@
       <p> Quelle était votre langue d'aprentissage à l'école? <input type="text" id="frenPrimaryLanguageSchool"/></p>
 
       <p>Quelles autres langues parlez-vous? <input type="text" id="otherLanguage"/></p>
-      <label>Langue(s) que vous avez apprise(s) comme langue(s) étrangère(s)</label>
+      <label>(Langue(s) que vous avez apprise(s) comme langue(s) étrangère(s))</label>
 
       <p>Avez-vous déja vécu dans un pays francophone?
         <br>
@@ -182,13 +182,14 @@
           <label><option value=""/></label>
           <label><option value="no"/>Non, je n'ai jamais vécu dans un pays francophone.</label>
           <label><option value="visited"/>Non, mais j'ai souvent visité un pays francophone dans mon enfance.</label>
-          <label><option value="preAge8"/>Oui, avant avoir 8 ans.</label>
-          <label><option value="preAndPostAge8"/>Oui, avant et après avoir 8 ans.</label>
-          <label><option value="postAge8"/>Oui, après avoir 8 ans.</label>
+          <label><option value="preAge8"/>Oui, avant d'avoir 8 ans.</label>
+          <label><option value="preAndPostAge8"/>Oui, avant et après d'avoir 8 ans.</label>
+          <label><option value="postAge8"/>Oui, après d'avoir 8 ans.</label>
         </select>
       </p>
 
-      <p>Dans quelle région francophone avez-vous vécu le plus longtemps?
+      <p>Dans quelle région francophone avez-vous vécu le plus longtemps ou quelle région avez-vous visité le plus souvent?
+        Si vous n'avez jamais visité une région francophone, à quelle région francophone vous identifiez-vous le plus?
         <br>
         <select id="region">
           <label><option value=""/></label>
@@ -203,7 +204,7 @@
           <label><option value="OT"/>Autre</label>
         </select>
       </p>
-      <p>Si nécessaire, veuillez préciser le pays, la region, ou donner des détails supplémentaires:
+      <p>Si nécessaire, veuillez préciser le pays, la région, ou donner des détails supplémentaires:
         <input type="text" id="regionSpecific"/>
       </p>
       <br>
