@@ -28,6 +28,7 @@ export default class ExitSurveyLangSpecific extends React.Component {
 		languageMostFrequentHome: "",
 		languageMostFrequentOutside: "",
 		region: "",
+		regionSpecify: ""
 	};
 
 	handleChange = (event) => {
@@ -56,6 +57,7 @@ export default class ExitSurveyLangSpecific extends React.Component {
 			languageMostFrequentHome,
 			languageMostFrequentOutside,
 			region,
+			regionSpecify
 		} = this.state;
 
 		const { game } = this.props;
@@ -343,7 +345,7 @@ export default class ExitSurveyLangSpecific extends React.Component {
 							</HTMLSelect>
 						</div>{" "}
 					</div>
-
+					<br></br>
 					<div className="pt-form-group">
 						<div className="pt-form-content">
 							<b>
@@ -367,6 +369,21 @@ export default class ExitSurveyLangSpecific extends React.Component {
 									)
 								)}
 							</HTMLSelect>
+							<br></br>
+							<label htmlFor="regionSpecify">
+								<b>
+									{"Si necessaire, veuillez préciser la région: "}
+								</b>
+							</label>
+							<input
+								id="regionSpecify"
+								type="text"
+								dir="auto"
+								name="regionSpecify"
+								value={regionSpecify}
+								onChange={this.handleChange}
+								autoComplete="off"
+							/>
 							</div>
 						</div>
 
