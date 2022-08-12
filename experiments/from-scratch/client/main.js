@@ -15,8 +15,8 @@ import Quiz from "./intro/Quiz";
 import Quiz_rtl from "./intro/Quiz_rtl";
 
 const urlParams = new window.URL(document.location).searchParams;
-const batchGroupName = urlParams.get("batchGroupName");
-
+ batchGroupName = urlParams.get("batchGroupName");
+batchGroupName="French1"
 // Set the About Component you want to use for the About dialog (optional).
 // Empirica.about(About);
 
@@ -50,7 +50,7 @@ Empirica.round(Round);
 let newPlayer;
 
 // TODO: Modularize the NewPlayer page
-
+console.log(batchGroupName)
 if(batchGroupName == "BCS1") {
 	// Should eventually be something like: newPlayer = require("./intro/newPlayer_BCS.jsx").default;
 	newPlayer = require("./intro/newPlayer_BCS1.jsx").default;
@@ -70,6 +70,8 @@ if(batchGroupName == "BCS1") {
 	newPlayer = require("./intro/newPlayer_BCSEng2.jsx").default;
 } else if (batchGroupName == "Vietnamese1") {
 	newPlayer = require("./intro/newPlayer_Vietnamese1.jsx").default;
+} else if (batchGroupName == "French1") {
+	newPlayer = require("./intro/newPlayer_French1.jsx").default;
 } else {
 	newPlayer = require("./intro/newPlayer.jsx").default;
 }
@@ -107,6 +109,8 @@ Empirica.exitSteps((game, player) => {
 		ExitSurveyLangSpecific = require('./exit/BCSEng2.jsx').default
 	} else if (batchGroupName == "Vietnamese1") {
 		ExitSurveyLangSpecific = require('./exit/Vietnamese1.jsx').default
+	} else if (batchGroupName == "French1") {
+		ExitSurveyLangSpecific = require("./exit/French1.jsx").default;
 	} else {
 		ExitSurveyLangSpecific = require('./exit/English.jsx').default
 	}

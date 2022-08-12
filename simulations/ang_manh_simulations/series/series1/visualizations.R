@@ -1,5 +1,4 @@
-# plots the model predictions obtained by Angelique and Manh in summer 2022, documented here: https://docs.google.com/spreadsheets/d/1cj2Y4GLFNQPoW1eoIkCFzxrdtzFEOaPGDMvpjqP4E5k/edit?usp=sharing
-# for contexts, see slack channel / grant
+# plots the model predictions obtained by Angelique and Manh in summer 2022
 
 library(tidyverse)
 library(grid)
@@ -24,56 +23,8 @@ d_all_new = d_all_new %>% mutate(LangAbr = case_when (
   Language == "2" ~ "FR",
   Language == "3" ~ "VN",
 ))
-d_all_ab = read_csv("model_output/trial_manh_1.csv")
-d_all_ab = d_all_ab %>% mutate(LangAbr = case_when (
-  Language == "0" ~ "EN",
-  Language == "1" ~ "SP",
-  Language == "2" ~ "FR",
-  Language == "3" ~ "VN",
-))
 
-#view(d_all_ab)
-
-d_global_ab = d_all_ab %>%
-  filter(global_inc=="global") %>%
-  mutate(ContextType = case_when(  
-    grepl("low",Name) ~ "Low variation",
-    grepl("a_",Name) ~ "A",
-    grepl("b_",Name) ~ "B",
-    TRUE ~ "other")) %>%
-  mutate(sceneName = case_when(  
-    grepl("3",Name) ~ "Scene 1",
-    grepl("4",Name) ~ "Scene 2",
-    TRUE ~ "other") )
-view(d_global_ab)
-type_order = c("Low variation", "A", "B")
-ggplot(d_global_ab, aes(x=factor(ContextType,level = type_order),y=output)) +
-  geom_bar(stat="identity",position=dodge) +
-  scale_fill_manual(values =c("#4287f5AA")) +
-  facet_wrap(~sceneName, nrow = 1) +
-  ylim(0,1) +
-  ylab("Probability of redundant referring expression") +
-  theme(axis.text.x = element_text(angle=15,hjust=1,vjust=1),legend.position="bottom",axis.title.x=element_blank())
-
-d_inc_ab = d_all_ab %>%
-  filter(global_inc=="inc") %>%
-  mutate(ContextType = case_when(  
-    grepl("low",Name) ~ "Low variation",
-    grepl("a_",Name) ~ "A",
-    grepl("b_",Name) ~ "B",
-    TRUE ~ "other")) %>%
-  mutate(sceneName = case_when(  
-    grepl("3",Name) ~ "Scene 3",
-    grepl("4",Name) ~ "Scene 4",
-    TRUE ~ "other") )
-ggplot(d_inc_ab, aes(x=LangAbr,y=output, fill = factor(ContextType,level = type_order))) +
-  geom_bar(stat="identity",position=dodge) +
-  scale_fill_manual(values =c("blue","yellow","red")) +
-  facet_wrap(~sceneName, nrow = 1) +
-  ylim(0,1) +
-  labs(y = "Probability of redundant referring expression", fill = "Variation", x = "Language") +
-  theme(legend.position="bottom")
-
+dodge = position_dodge(.9)
 # CONTEXT 1A AND 1B
 # 3 pins varying in color and size, noun uninformative
 # 1A: "color-redundant"
@@ -100,6 +51,7 @@ d_no_cost = d_global %>%
   )) %>%
   group_by(Language, global_inc, alpha) %>% 
   ungroup()
+
 d_with_cost = d %>%
   filter(adj_cost == 0.1 & noun_cost == 0.1) %>%
   mutate(ContextType = case_when(  
@@ -120,24 +72,17 @@ d_with_cost = d %>%
     ContextType == "Low variation" & Redundancy == "Size redundant" ~ "low_size",
     ContextType == "High variation" & Redundancy == "Size redundant" ~ "high_size",
   ))
-dodge = position_dodge(.9)
+
 d_global_5 = d_all_new %>%
   filter(global_inc=="global") %>%
   mutate(ContextType = case_when(  
-    Name == "exp_color_redundant" ~ "Low variation",
-    Name == "exp_size_redundant" ~ "Low variation",
-    Name == "exp_size_redundant_high"~ "High variation",
-    Name == "exp_color_redundant_high" ~ "High variation",
-    Name == "exp_size_redundant_medium"~ "Medium variation",
-    Name == "exp_color_redundant_medium" ~ "Medium variation", 
+    grepl("low",Name) ~ "Low variation",
+    grepl("medium",Name) ~ "Medium variation",
+    grepl("high",Name) ~ "High variation",
     TRUE ~ "other")) %>%
   mutate(Redundancy = case_when(  
-    Name == "exp_color_redundant" ~ "Color redundant",
-    Name == "exp_size_redundant" ~ "Size redundant",
-    Name == "exp_size_redundant_high"~ "Size redundant",
-    Name == "exp_color_redundant_high" ~ "Color redundant",  
-    Name == "exp_size_redundant_medium"~ "Size redundant",
-    Name == "exp_color_redundant_medium" ~ "Color redundant",
+    grepl("color",Name) ~ "Color redundant",
+    grepl("size",Name) ~ "Size redundant",
     TRUE ~ "other")) %>%
   mutate(Grouping = case_when(
     ContextType == "Low variation" & Redundancy == "Color redundant" ~ "low_color",

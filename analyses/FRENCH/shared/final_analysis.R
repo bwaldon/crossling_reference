@@ -35,10 +35,19 @@ theme_set(theme_bw())
 #
 #
 
-runAnalysis <- function(dataframe) {
+runAnalysisNoun <- function(dataframe) {
   df = dataframe
   responsesNative = df %>%
     group_by(utterance,response) %>%
+    summarize(count=n()) 
+  
+  return(responsesNative)
+}
+
+runAnalysisColor <- function(dataframe) {
+  df = dataframe
+  responsesNative = df %>%
+    group_by(color,response) %>%
     summarize(count=n()) 
   
   return(responsesNative)

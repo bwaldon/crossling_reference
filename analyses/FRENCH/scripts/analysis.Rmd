@@ -15,19 +15,31 @@ output: pdf_document
 library(tidyverse)
 theme_set(theme_bw())
 source("../shared/final_analysis.R")
+
+#data sources for stimuli: colors and objects
 wordListRaw = read.csv("../data/wordList.csv")
 wordList <- wordListRaw %>%
   select(Item, Gender) %>% 
   unique()
+colorList = read.csv("../data/colorList.csv")
+colorList <- colorList[-c(2)]
+
+#participant data
 df = read.csv("../data/french_noun_norming-merged_2.csv", header = TRUE)
 cf = read.csv("../data/french_color_norming-merged_2.csv", header = TRUE)
+
 origdf <- df
+
 # Get number of participants total
 df %>%
   select(workerid) %>%
   unique() %>%
   nrow()
-# 127
+cf %>%
+    select(workerid) %>%
+  unique() %>%
+  nrow() #83
+
 # get rid of participants who answered with colors
 origdf <- df %>%
   filter(workerid != 35)
@@ -36,7 +48,10 @@ denom <- df %>%
   select(workerid) %>%
   unique() %>%
   nrow()
+
 #84
+view(cf)
+#view(cf %>% filter(object == "orange_lock"))
 # Standardize spellings for ease -- removing articles, accents, question marks
 stripExtra <- function(df) {
   df$response = str_to_lower(df$response)
@@ -57,8 +72,18 @@ stripExtra <- function(df) {
   return(df)
 }
 df <- stripExtra(origdf)
+cf <- stripExtra(cf)
 
-view(df)
+getColor <- function(colRow) {
+  name <- t(colRow)[3]
+  color <- str_split(name,"_")[[1]][1]
+  return(color)
+}
+
+cf <- cf %>% mutate(color = apply(cf, 1, getColor))
+
+#view(cf)
+#view(df)
 
 # Change answers to account for spelling mistakes and
 #simplifying answers: e.g fer à repasser et fer = fer, lampe de nuit, lampe de table --> lampe
@@ -172,18 +197,45 @@ return(df)
 }
 #mildly gave up on: fer a repasser, talons, rope, purse, radio, ribbon
 
+#Adjusting for gender discrepancies in color
+genderMatch <- function(cf) {
+  cf$response = str_replace_all(cf$response, "blanc(he)?","blanc")#white
+  cf$response = str_replace_all(cf$response, "[nbv]oire?","noir")#black
+  cf$response = str_replace_all(cf$response, "verte?","vert")#green
+  cf$response = str_replace_all(cf$response, "violet(te)?","violet")#purple
+  cf$response = str_replace_all(cf$response, "\\*?bleue?","bleu")#blue
+  cf$response = str_replace_all(cf$response, "grise?","gris")#grey
+  return(cf)
+}
 df2 <- spellCheck(df)
+cf2 <- genderMatch(cf)
+
+#The color data could be streamlined for typos and other spelling variations further, but it was not necessary because 
+#we easily reached the color thresholds anyway.
 
 #returns a tibble of the form :
 #utterance1    response1 num
 #utterance1    response2  num
 #utterance2    response1 num
-counts <- runAnalysis(df2)
+countsNoun <- runAnalysisNoun(df2)
+countsColor <- runAnalysisColor(cf2)
 
 #returns percent corresponding to most common response
-getPercent <- function(object) {
+getPercentNoun <- function(object) {
   objectName = object[1]
-  tib <- counts %>% filter(utterance == objectName)
+  tib <- countsNoun %>% filter(utterance == objectName)
+  totalSum <- tib$count %>%
+    sum()
+  maxCount <- tib %>%
+    group_by(response) %>%
+    summarise(n = sum(count))
+  maxNum <- tib[which.max(tib$count),]$count
+  return(maxNum/totalSum)
+}
+
+getPercentColor <- function(color) {
+  colorName = color[1]
+  tib <- countsColor %>% filter(color == colorName)
   totalSum <- tib$count %>%
     sum()
   maxCount <- tib %>%
@@ -194,31 +246,44 @@ getPercent <- function(object) {
 }
 
 #returns most common response
-getLabel <- function(object) {
+getLabelNoun <- function(object) {
   objectName = object[1]
-  tib <- counts %>% filter(utterance == objectName)
+  tib <- countsNoun %>% filter(utterance == objectName)
   return(tib[which.max(tib$count),][[2]])
 }
 
-
-val <- getPercent("present")
-label <- getLabel("present")
+#returns most common response for color
+getLabelColor <- function(object) {
+  colorName = object[1]
+  tib <- countsColor %>% filter(color == colorName)
+  return(tib[which.max(tib$count),][[2]])
+}
 
 #appends most common responses and their percentages to the wordlist
-results <- wordList %>% mutate(common = apply(wordList, 1, getLabel)) %>%
-  mutate(percent = apply(wordList, 1, getPercent))
-view(results)
+resultsNoun <- wordList %>% mutate(common = apply(wordList, 1, getLabelNoun)) %>%
+  mutate(percent = apply(wordList, 1, getPercentNoun))
+
+resultsColor <- colorList %>% mutate(common = apply(colorList, 1, getLabelColor)) %>%
+  mutate(percent = apply(colorList, 1, getPercentColor))
+
+view(resultsNoun)
+view(resultsColor)
 
 #Filtering by which words reached an agreement of 70% or more
-below <- results %>% filter(percent < 0.70)
-above <- results %>% filter(percent >= 0.70)
+below <- resultsNoun %>% filter(percent < 0.70)
+above <- resultsNoun %>% filter(percent >= 0.70)
 view(below)
 view(above)
+above <- apply(above,2,as.character)
+write.csv(above, "noun_final.csv")
 nrow(below) #21
 nrow(above) #83
 #For French--checking gender of accepted nouns:
 nrow(above %>% filter(Gender == "F")) #33
 nrow(above %>% filter(Gender == "M")) #49
+
+view(above %>% filter(Gender == "F"))
+view(above %>% filter(Gender == "M"))
 
 nrow(below %>% filter(Gender == "F"))
 nrow(below %>% filter(Gender == "M")) 

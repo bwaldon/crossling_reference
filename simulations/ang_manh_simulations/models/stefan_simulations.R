@@ -5,6 +5,7 @@ library(viridis)
 library(jsonlite)
 library('varhandle')
 library("stringr")
+#Running global models may still not work for languages other than English! Run them in English.
 
 # Set working directory = R code knows where to get relevant documents
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
@@ -107,6 +108,9 @@ view(scenarios_pared)
 #outputing to CSV file
 write.csv(scenarios_pared,"../series/series1/model_output/trial_manh_1.csv")
 
+
+
+#Rest is Stefan's code--->
 
 # Incremental versus global models return different outputs. Therefore we must split them up and
 #   manipulate them to have them be of the same format
@@ -309,57 +313,4 @@ graphScenario <- function(inputDF) {
   jpeg(file=graph3Name, width = 1500, height = 1000)
   plot(graphScenarioNoise1)
   dev.off()
-}
-
-
-# Create data frame where each row is a single scenario that should be graphed
-# Data frame should have following three columns in the given order:
-# 1. String of states thata define that scenario
-#     e.g. "['blue_plate_masc', 'red_plate_masc', 'red_plate_masc']"
-# 2. String of the target object
-#     e.g. "blue_plate_masc"
-# 3. Scenario number (i.e. identifying number of that scenario)
-graphDF <- data.frame(
-  scenarios = c("['blue_plate_masc', 'red_plate_masc', 'red_plate_masc']",
-                "['blue_plate_masc', 'red_plate_masc', 'blue_knife_masc']",
-                "['blue_plate_masc', 'red_plate_masc', 'red_knife_masc']",
-                "['blue_plate_masc', 'blue_knife_masc', 'blue_knife_masc']",
-                "['blue_plate_masc', 'red_knife_masc', 'red_knife_masc']",
-                "['blue_plate_masc', 'red_knife_masc', 'blue_knife_masc']",
-                "['blue_plate_masc', 'red_plate_masc', 'blue_cup_fem']",
-                "['blue_plate_masc', 'red_plate_masc', 'red_cup_fem']",
-                "['blue_plate_masc', 'blue_knife_masc', 'blue_cup_fem']",
-                "['blue_plate_masc', 'blue_knife_masc', 'red_cup_fem']",
-                "['blue_plate_masc', 'red_knife_masc', 'blue_cup_fem']",
-                "['blue_plate_masc', 'red_knife_masc', 'red_cup_fem']",
-                "['blue_plate_masc', 'blue_cup_fem', 'blue_cup_fem']",
-                "['blue_plate_masc', 'red_cup_fem', 'red_cup_fem']",
-                "['blue_plate_masc', 'red_cup_fem', 'blue_cup_fem']",
-                "['blue_plate_masc', 'red_plate_masc', 'red_plate_masc', 'red_plate_masc', 'red_plate_masc', 'red_plate_masc']",
-                "['blue_plate_masc', 'red_knife_masc', 'red_knife_masc', 'red_knife_masc', 'red_knife_masc', 'red_knife_masc']",
-                "['blue_plate_masc', 'blue_knife_masc', 'blue_knife_masc', 'blue_knife_masc', 'blue_knife_masc', 'blue_knife_masc']",
-                "['blue_plate_masc', 'red_knife_masc', 'red_knife_masc', 'red_knife_masc', 'blue_knife_masc', 'blue_knife_masc']",
-                "['blue_plate_masc', 'red_knife_masc', 'red_knife_masc', 'blue_knife_masc', 'blue_knife_masc', 'blue_knife_masc']",
-                "['blue_plate_masc', 'red_plate_masc', 'red_plate_masc', 'red_knife_masc', 'red_knife_masc', 'red_knife_masc']",
-                "['blue_plate_masc', 'red_plate_masc', 'red_plate_masc', 'blue_knife_masc', 'blue_knife_masc', 'blue_knife_masc']",
-                "['blue_plate_masc', 'red_plate_masc', 'red_plate_masc', 'red_knife_masc', 'blue_knife_masc', 'blue_knife_masc']",
-                "['blue_plate_masc', 'red_plate_masc', 'red_plate_masc', 'red_knife_masc', 'red_knife_masc', 'blue_knife_masc']",
-                "['blue_plate_masc', 'red_cup_fem', 'red_cup_fem', 'red_cup_fem', 'red_cup_fem', 'red_cup_fem']",
-                "['blue_plate_masc', 'blue_cup_fem', 'blue_cup_fem', 'blue_cup_fem', 'blue_cup_fem', 'blue_cup_fem']",
-                "['blue_plate_masc', 'blue_cup_fem', 'blue_cup_fem', 'red_cup_fem', 'red_cup_fem', 'red_cup_fem']",
-                "['blue_plate_masc', 'blue_cup_fem', 'blue_cup_fem', 'blue_cup_fem', 'red_cup_fem', 'red_cup_fem']",
-                "['blue_plate_masc', 'red_plate_masc', 'red_plate_masc', 'red_cup_fem', 'red_cup_fem', 'red_cup_fem']",
-                "['blue_plate_masc', 'red_plate_masc', 'red_plate_masc', 'blue_cup_fem', 'blue_cup_fem', 'blue_cup_fem']",
-                "['blue_plate_masc', 'red_plate_masc', 'red_plate_masc', 'blue_cup_fem', 'blue_cup_fem', 'red_cup_fem']",
-                "['blue_plate_masc', 'red_plate_masc', 'red_plate_masc', 'red_cup_fem', 'blue_cup_fem', 'red_cup_fem']"
-  )
-)
-
-# Since each scenario has a target object of "blue_plate_masc" we can 
-#   just add that for each row as the target object
-graphDF <- graphDF %>%
-  add_column(target = rep("blue_plate_masc", nrow(graphDF))) %>%
-  add_column(trialNum = 1:nrow(graphDF))
-
-#Apply the graphing function to each scenario (i.e. row) in the data frame
-apply(graphDF, 1, graphScenario)
+}s
