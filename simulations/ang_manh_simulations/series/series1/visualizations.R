@@ -24,12 +24,55 @@ d_all_new = d_all_new %>% mutate(LangAbr = case_when (
   Language == "2" ~ "FR",
   Language == "3" ~ "VN",
 ))
-d_all_3 = d_all_new %>% filter(Name == "3_size_redundant_low" |
-                                 Name == "3_size_redundant_medium"|
-                                 Name == "3_size_redundant_high" )
-d_all_4 = d_all_new %>% filter(Name == "4_size_redundant_low" |
-                                 Name == "4_size_redundant_medium"|
-                                 Name == "4_size_redundant_high" )
+d_all_ab = read_csv("model_output/trial_manh_1.csv")
+d_all_ab = d_all_ab %>% mutate(LangAbr = case_when (
+  Language == "0" ~ "EN",
+  Language == "1" ~ "SP",
+  Language == "2" ~ "FR",
+  Language == "3" ~ "VN",
+))
+
+#view(d_all_ab)
+
+d_global_ab = d_all_ab %>%
+  filter(global_inc=="global") %>%
+  mutate(ContextType = case_when(  
+    grepl("low",Name) ~ "Low variation",
+    grepl("a_",Name) ~ "A",
+    grepl("b_",Name) ~ "B",
+    TRUE ~ "other")) %>%
+  mutate(sceneName = case_when(  
+    grepl("3",Name) ~ "Scene 1",
+    grepl("4",Name) ~ "Scene 2",
+    TRUE ~ "other") )
+view(d_global_ab)
+type_order = c("Low variation", "A", "B")
+ggplot(d_global_ab, aes(x=factor(ContextType,level = type_order),y=output)) +
+  geom_bar(stat="identity",position=dodge) +
+  scale_fill_manual(values =c("#4287f5AA")) +
+  facet_wrap(~sceneName, nrow = 1) +
+  ylim(0,1) +
+  ylab("Probability of redundant referring expression") +
+  theme(axis.text.x = element_text(angle=15,hjust=1,vjust=1),legend.position="bottom",axis.title.x=element_blank())
+
+d_inc_ab = d_all_ab %>%
+  filter(global_inc=="inc") %>%
+  mutate(ContextType = case_when(  
+    grepl("low",Name) ~ "Low variation",
+    grepl("a_",Name) ~ "A",
+    grepl("b_",Name) ~ "B",
+    TRUE ~ "other")) %>%
+  mutate(sceneName = case_when(  
+    grepl("3",Name) ~ "Scene 3",
+    grepl("4",Name) ~ "Scene 4",
+    TRUE ~ "other") )
+ggplot(d_inc_ab, aes(x=LangAbr,y=output, fill = factor(ContextType,level = type_order))) +
+  geom_bar(stat="identity",position=dodge) +
+  scale_fill_manual(values =c("blue","yellow","red")) +
+  facet_wrap(~sceneName, nrow = 1) +
+  ylim(0,1) +
+  labs(y = "Probability of redundant referring expression", fill = "Variation", x = "Language") +
+  theme(legend.position="bottom")
 
 # CONTEXT 1A AND 1B
 # 3 pins varying in color and size, noun uninformative

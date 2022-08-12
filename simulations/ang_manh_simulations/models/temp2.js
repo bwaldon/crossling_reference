@@ -1,4 +1,4 @@
-var referents = ['small blue pin', 'big blue ball', 'small red pin', 'big red pin', 'big red pin', 'big red pin', 'small red ball', 'small red ball']
+var referents = ['small blue pin', 'small red ball', 'big blue pin', 'big red pin','big blue ball', 'big blue ball']
     var size_semvalue = 0.8
     var color_semvalue = 0.95
     var noun_semvalue = 0.99
