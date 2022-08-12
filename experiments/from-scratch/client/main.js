@@ -15,8 +15,9 @@ import Quiz from "./intro/Quiz";
 import Quiz_rtl from "./intro/Quiz_rtl";
 
 const urlParams = new window.URL(document.location).searchParams;
- batchGroupName = urlParams.get("batchGroupName");
-batchGroupName="French1"
+batchGroupName = urlParams.get("batchGroupName");
+console.log(batchGroupName)
+//batchGroupName="French1"
 // Set the About Component you want to use for the About dialog (optional).
 // Empirica.about(About);
 
@@ -72,7 +73,9 @@ if(batchGroupName == "BCS1") {
 	newPlayer = require("./intro/newPlayer_Vietnamese1.jsx").default;
 } else if (batchGroupName == "French1") {
 	newPlayer = require("./intro/newPlayer_French1.jsx").default;
-} else {
+} else if (batchGroupName == "French1EngPilot"){
+	newPlayer = require("./intro/newPlayer_French1EngPilot.jsx").default;
+}else {
 	newPlayer = require("./intro/newPlayer.jsx").default;
 }
 
@@ -111,7 +114,9 @@ Empirica.exitSteps((game, player) => {
 		ExitSurveyLangSpecific = require('./exit/Vietnamese1.jsx').default
 	} else if (batchGroupName == "French1") {
 		ExitSurveyLangSpecific = require("./exit/French1.jsx").default;
-	} else {
+	} else if (batchGroupName == "French1EngPilot") {
+		ExitSurveyLangSpecific = require("./exit/BCSEng2Pilot.jsx").default;
+	}else {
 		ExitSurveyLangSpecific = require('./exit/English.jsx').default
 	}
 

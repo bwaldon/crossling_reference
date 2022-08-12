@@ -711,7 +711,7 @@
 "flower","guitar", "dress", "door", //rest are exclusive to french
 "billiardball", "magnifyingglass", "stapler", "ladle"]
 
-const mascAll = ["airplane", "bike", "comb", "armchair",
+const mascAll = ["airplane", "bike", "comb", "armchair", "screwdriver",
 "balloon", "bed","bonbon","bucket","butterfly","cake", "calendar","coathanger","cushion"
 ,"die", "drum","fish","frame","hammer","knife","lipstick","lock","mask","microscope","pencil","phone"
 ,"present","piano","whistle", "truck", "vase", "switch", "shell", "robot", "razor", "rug"]
@@ -729,7 +729,7 @@ const nounToScheme = {
 "tent": 0, "spoon":0, "sock":0, "shovel":0, "scarf":1, "ruler":1, "ring":1,
 "ornament":1, "napkin":1, "mug":1, "mouse":1, "lamp":1, "fryingpan":1,
 "flower":1,"guitar":1, "dress":1, "door":1, //rest are exclusive to french
-"billiardball":1, "magnifyingglass":1, "stapler":1, "ladle":0
+"billiardball":1, "magnifyingglass":1, "stapler":1, "ladle":0, "screwdriver": 0
 }
 
 const colorPool = [["green", "orange", "purple", "black"],["red", "yellow",  "blue", "white"]]
@@ -795,7 +795,6 @@ function fillScenes(sceneTemplate) {
   //newScenes = _.shuffle(newScenes) --> does not work without importing the _ library in other files
   return(newScenes)
 }
-
 // creating scenes as a list of object paths to image files
 function makePaths(objectList){
   newScenes = []
@@ -824,6 +823,7 @@ function makePaths(objectList){
   return(newScenes)
 }
 
+
   newScenes = fillScenes(scenes)
   scenePaths = makePaths(newScenes)
-  console.log(scenePaths)
+  console.log(scenePaths.length)
