@@ -826,4 +826,4 @@ function makePaths(objectList){
 
   newScenes = fillScenes(scenes)
   scenePaths = makePaths(newScenes)
-  console.log(scenePaths)
+  console.log(scenePaths.length)

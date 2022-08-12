@@ -1,5 +1,5 @@
 export const femAll = ["fork", "key", "remote","belt","candle","calculator","cap","chair","clock","crown", "tie"
-, "tent", "spoon", "sock", "shovel", "scarf", "ruler", "ring", "ornament", "napkin", "mug", "mouse", "lamp", "fryingpan",
+, "tent", "spoon", "sock", "shovel", "scarf", "ruler", "ring", "ornament", "napkin", "mug", "mouse", "lamp", "pan",
 "flower","guitar", "dress", "door", //rest are exclusive to french
 "billiardball", "magnifyingglass", "stapler", "ladle"]
 

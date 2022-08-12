@@ -9,7 +9,7 @@ export const nounToScheme = {
 "fork": 0, "key":1, "remote":0,"belt":1,"candle":1,"calculator":1,"cap":1,
 "chair":1,"clock":1,"crown":1, "tie":0,
 "tent": 0, "spoon":0, "sock":0, "shovel":0, "scarf":1, "ruler":1, "ring":1,
-"ornament":1, "napkin":1, "mug":1, "mouse":1, "lamp":1, "fryingpan":1,
+"ornament":1, "napkin":1, "mug":1, "mouse":1, "lamp":1, "pan":1,
 "flower":1,"guitar":1, "dress":1, "door":1, //rest are exclusive to french
 "billiardball":1, "magnifyingglass":1, "stapler":1, "ladle":0, "screwdriver": 0
 }

@@ -17,7 +17,6 @@ function pickNoun(pool) {
 }
 function pickNounScheme(pool, scheme){
   poolSchemeMatch = pool.filter(x => nounToScheme[x] == scheme)
-  console.log(poolSchemeMatch)
   return(pickNoun(poolSchemeMatch))
 }
 //selects a random color and another different color
