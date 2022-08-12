@@ -46,11 +46,11 @@ Empirica.gameInit((game) => {
   });
 
   const gameLength = game.treatment.length;
-
   let scenes = _.shuffle(generateScenesObject.generateScenes());
+    console.log("Printing all scenes: ")
+    console.log(scenes)
   _.times(gameLength, (i) => {
     let scene = scenes.pop();
-    console.log(scene)
     let images = []
     if(game.treatment.sceneGenerator != "French1"){
        images = [
