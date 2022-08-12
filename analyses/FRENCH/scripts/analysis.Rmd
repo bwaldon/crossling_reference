@@ -274,7 +274,8 @@ below <- resultsNoun %>% filter(percent < 0.70)
 above <- resultsNoun %>% filter(percent >= 0.70)
 view(below)
 view(above)
-write.csv(above, "noun_list.csv", TRUE)
+above <- apply(above,2,as.character)
+write.csv(above, "noun_final.csv")
 nrow(below) #21
 nrow(above) #83
 #For French--checking gender of accepted nouns:
