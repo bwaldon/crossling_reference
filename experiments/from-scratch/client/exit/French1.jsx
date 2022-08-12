@@ -28,9 +28,6 @@ export default class ExitSurveyLangSpecific extends React.Component {
 		languageMostFrequentHome: "",
 		languageMostFrequentOutside: "",
 		region: "",
-		relationship: "",
-		relationshipOther: "",
-		familiarityRate: ""
 	};
 
 	handleChange = (event) => {
@@ -59,9 +56,6 @@ export default class ExitSurveyLangSpecific extends React.Component {
 			languageMostFrequentHome,
 			languageMostFrequentOutside,
 			region,
-			relationship,
-			relationshipOther,
-			familiarityRate
 		} = this.state;
 
 		const { game } = this.props;
@@ -137,7 +131,7 @@ export default class ExitSurveyLangSpecific extends React.Component {
 			BE: "Belgique",
 			AN: "Antilles/Amérique du Sud",
 			OT: "Autre",
-		}
+		};
 
 		return (
 			<div dir="auto">
@@ -198,7 +192,7 @@ export default class ExitSurveyLangSpecific extends React.Component {
 									)
 								)}
 							</HTMLSelect>
-
+							<br></br>
 							<label htmlFor="otherPrimaryLanguagesSpecify">
 								<b>
 									{" " +
@@ -289,7 +283,8 @@ export default class ExitSurveyLangSpecific extends React.Component {
 									<option key={key} value={key}>
 										{name}
 									</option>
-								))}
+								)
+							)}
 							</HTMLSelect>
 						</div>{" "}
 					</div>
@@ -298,8 +293,7 @@ export default class ExitSurveyLangSpecific extends React.Component {
 					<div className="pt-form-group">
 						<div className="pt-form-content">
 							<b>
-								{gameTextInLanguage.SURVEY_languageMostFrequentHome +
-									" "}
+								{gameTextInLanguage.SURVEY_languageMostFrequentHome + " "}
 							</b>
 							<HTMLSelect
 								name="languageMostFrequentHome"
@@ -310,8 +304,7 @@ export default class ExitSurveyLangSpecific extends React.Component {
 								<option selected>
 									{gameTextInLanguage.SURVEY_selectOption}
 								</option>
-								{_.map(
-									languageMostFrequentHomeOptions,
+								{_.map(languageMostFrequentHomeOptions,
 									(name, key) => (
 										<option key={key} value={key}>
 											{name}
@@ -354,13 +347,13 @@ export default class ExitSurveyLangSpecific extends React.Component {
 					<div className="pt-form-group">
 						<div className="pt-form-content">
 							<b>
-								{"Dans quelle région francophone avez-vous vécu le plus longtemps ou quelle région avez-vous visité le plus souvent? Si vous n\\'avez jamais visité une région francophone, à quelle région francophone vous identifiez-vous le plus?"}
+								{"Dans quelle région francophone avez-vous vécu le plus longtemps ou quelle région avez-vous visité le plus souvent? Si vous n'avez jamais visité une région francophone, à quelle région francophone vous identifiez-vous le plus?"}
 							</b>
 							<HTMLSelect
 								name="region"
 								id="region"
 								onChange={this.handleChange}
-								value={relationship}
+								value={region}
 							>
 								<option selected>
 									{gameTextInLanguage.SURVEY_selectOption}
@@ -376,77 +369,9 @@ export default class ExitSurveyLangSpecific extends React.Component {
 							</HTMLSelect>
 							</div>
 						</div>
-						<br></br>
 
-					<div className="pt-form-group">
-						<div className="pt-form-content">
-							<b>
-								{"Comment décririez-vous votre relation avec votre parteinaire:"}
-							</b>
-							<HTMLSelect
-								name="relationship"
-								id="relationship"
-								onChange={this.handleChange}
-								value={relationship}
-							>
-								<option selected>
-									{gameTextInLanguage.SURVEY_selectOption}
-								</option>
-								{_.map(
-									relationshipOptions,
-									(name, key) => (
-										<option key={key} value={key}>
-											{name}
-										</option>
-									)
-								)}
-							</HTMLSelect>
-						</div>
-						<br></br>
-						<div className="form-line">
-							<div>
-								<label htmlFor="relationshipOther">
-									<b>	Si vous avez répondu Autre, veuillez préciser:</b>
-								</label>
-								<input
-									id="relationshipOther"
-									type="text"
-									dir="auto"
-									name="relationshipOther"
-									value={relationshipOther}
-									onChange={this.handleChange}
-									autoComplete="off"
-								/>
-							</div>
-						</div>
-						<br></br>
-						<div className="pt-form-content">
-							<b>
-								{"A quelle fréquence parlez-vous avec votre partenaire?"}
-							</b>
-							<HTMLSelect
-								name="familiarityRate"
-								id="familiarityRate"
-								onChange={this.handleChange}
-								value={familiarityRate}
-							>
-								<option selected>
-									{gameTextInLanguage.SURVEY_selectOption}
-								</option>
-								{_.map(
-									familiarityRateOptions,
-									(name, key) => (
-										<option key={key} value={key}>
-											{name}
-										</option>
-									)
-								)}
-							</HTMLSelect>
-						</div>
-						<br></br>
 					</div>
-
-				</div>
+						<br></br>
 
 				<form onSubmit={this.handleSubmit}>
 					<span> </span>
@@ -460,6 +385,7 @@ export default class ExitSurveyLangSpecific extends React.Component {
 						</button>
 					</div>
 				</form>{" "}
+
 			</div>
 		);
 	};

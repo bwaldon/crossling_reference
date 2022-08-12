@@ -33,7 +33,7 @@ export default class PlayerId extends Component {
                 <div className="new-player" dir="auto">
                     <form onSubmit={this.handleSubmit}>
                         <p>
-                          Veuillez saisir votre ID Prolific ou votre adresse email.
+                          Veuillez saisir votre ID Prolific
                         </p>
                         <br/>
 
@@ -47,16 +47,6 @@ export default class PlayerId extends Component {
                             required
                             autoComplete="off"
                         />
-
-                        <p>
-                          <div>
-                            <br></br> Veuillez saisir votre ID Prolific si vous en avez un.
-                            <br></br> Si vous n'avez pas complété l'étude de registration sur Prolific, saisissez votre adresse email.
-                            <br></br>Nous enverrons une compensation de $14 (USD) via Prolific Bonus Payment au·à la participant·e qui est enregistré·e auprès de Prolific.
-                            Le·la participant·e doit partager la compensation avec son·sa partenaire ($7 chacun·e).
-                            Autrement dit, un·e partenaire qui n'est pas inscrit·e sur Prolific ne peut obtenir sa compensation que de son·sa partenaire.
-                          </div>
-                        </p>
 
                         <p
                             style={{ marginTop: "1cm" }}
