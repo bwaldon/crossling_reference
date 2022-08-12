@@ -32,6 +32,9 @@ Empirica.gameInit((game) => {
     //   return(require("./BCS/generateScenesBCS2"));
   } else if (game.treatment.sceneGenerator == "BCS2") {
       return(require("./BCS/generateScenesBCS2"));
+  } else if (game.treatment.sceneGenerator == "French1"){
+    console.log("generating French scenes")
+      return(require("./FRENCH/generateScenesFrench1"))
   } else {
       return(require("./degenEtal2020/generateScenes"));
     }
@@ -47,14 +50,26 @@ Empirica.gameInit((game) => {
   let scenes = _.shuffle(generateScenesObject.generateScenes());
   _.times(gameLength, (i) => {
     let scene = scenes.pop();
-    let images = [
-      { name: scene.TargetItem, id: 1 },
-      { name: scene.alt1Name, id: 2 },
-      { name: scene.alt2Name, id: 3 },
-      { name: scene.alt3Name, id: 4 },
-      { name: scene.alt4Name, id: 5 },
-      { name: scene.alt5Name, id: 6 },
-    ];
+    console.log(scene)
+    let images = []
+    if(game.treatment.sceneGenerator != "French1"){
+       images = [
+        { name: scene.TargetItem, id: 1 },
+        { name: scene.alt1Name, id: 2 },
+        { name: scene.alt2Name, id: 3 },
+        { name: scene.alt3Name, id: 4 },
+        { name: scene.alt4Name, id: 5 },
+        { name: scene.alt5Name, id: 6 },
+      ];} else{
+        images = [
+          { name: scene.TargetItem, id: 1, size: scene.TargetItemSize },
+          { name: scene.alt1Name, id: 2, size: scene.alt1Size },
+          { name: scene.alt2Name, id: 3, size: scene.alt2Size },
+          { name: scene.alt3Name, id: 4 , size: scene.alt3Size},
+          { name: scene.alt4Name, id: 5, size: scene.alt4Size },
+          { name: scene.alt5Name, id: 6 , size: scene.alt5Size},
+        ];
+      }
     images = images.filter((image) => image.name !== "IGNORE");
 
     const target = { name: scene.TargetItem, id: 1 };

@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "./Image.jsx";
+import Image_var from "./Image_var.jsx"
 import { AlertToaster } from "meteor/empirica:core";
 import { gameText } from "../gameText.js";
 
@@ -108,10 +109,12 @@ class ListenerTask extends React.Component {
 		}
 
 		const images = this.images.map((image,) => {
-			let path = "images/" + this.imageType + "/" + image.name + ".jpg";
-			console.log("here");
-			console.log(this.imageType);
-			console.log(path);
+			let path = ""
+			if (game.treatment.sceneGenerator != "French1"){
+				path = "images/" + this.imageType + "/" + image.name + ".jpg";
+			} else{
+				path = "images/pophristic_stimuli/" + image.name + ".jpg";
+			}
 			let highlighted;
 			let borderColor;
 
@@ -122,13 +125,21 @@ class ListenerTask extends React.Component {
 				highlighted = this.state.selected == image.id ? true : false
 				borderColor = "black"
 			}
-			return(<Image image={image} path= {path} onClick = {this.handleChange} borderColor = {borderColor} highlighted = {highlighted} /> )})
+			if (game.treatment.sceneGenerator != "French1"){
+				return(<Image image={image} path= {path} onClick = {this.handleChange} borderColor = {borderColor} highlighted = {highlighted} /> )
+			} else {// variable sizes for images
+				return(<Image_var image={image} path= {path} onClick = {this.handleChange} borderColor = {borderColor} highlighted = {highlighted} /> )
+			}
+		})
 
 		return (
 			<div className="task-stimulus">
 				<table>
 				<tr align ="center">
-				{images}
+				{images.slice(0,images.length/2)}
+				</tr>
+				<tr align ="center">
+				{images.slice(images.length/2,)}
 				</tr>
 				<tr align="center">
 				<td colspan="5">
@@ -180,7 +191,14 @@ class SpeakerTask extends React.Component {
 		}
 
 		const images = this.images.map((image,) => {
-			let path = "images/" + this.imageType + "/" + image.name + ".jpg";
+			let path = ""
+			console.log(image)
+			if (game.treatment.sceneGenerator != "French1"){
+				path = "images/" + this.imageType + "/" + image.name + ".jpg";
+			} else{
+				path = "images/pophristic_stimuli/" + image.name + ".jpg";
+			}
+			console.log(path)
 			let highlighted;
 			let borderColor;
 			if (round.get('stage') === "feedback") {
@@ -190,13 +208,21 @@ class SpeakerTask extends React.Component {
 				highlighted = target.id === image.id ? true : false
 				borderColor = 'black'
 			}
-			return(<Image image={image} path= {path} borderColor = {borderColor} highlighted = {highlighted} /> )})
+			if (game.treatment.sceneGenerator != "French1"){
+				return(<Image image={image} path= {path} onClick = {this.handleChange} borderColor = {borderColor} highlighted = {highlighted} /> )
+			} else {
+				return(<Image_var image={image} path= {path} onClick = {this.handleChange} borderColor = {borderColor} highlighted = {highlighted} /> )
+			}
+		})
 
 		return (
 			<div className="task-stimulus">
 				<table>
 				<tr align ="center">
-				{images}
+				{images.slice(0,images.length/2)}
+				</tr>
+				<tr align ="center">
+				{images.slice(images.length/2)}
 				</tr>
 				<tr>
 				<td colspan="5" align = "center">
