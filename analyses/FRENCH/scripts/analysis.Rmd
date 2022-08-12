@@ -1,0 +1,296 @@
+---
+title: "noun_analyses"
+author: "Angelique Charles-Davis"
+date: '2022-08-01'
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+#knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+---
+```{r data import, include=FALSE}
+library(tidyverse)
+theme_set(theme_bw())
+source("../shared/final_analysis.R")
+
+#data sources for stimuli: colors and objects
+wordListRaw = read.csv("../data/wordList.csv")
+wordList <- wordListRaw %>%
+  select(Item, Gender) %>% 
+  unique()
+colorList = read.csv("../data/colorList.csv")
+colorList <- colorList[-c(2)]
+
+#participant data
+df = read.csv("../data/french_noun_norming-merged_2.csv", header = TRUE)
+cf = read.csv("../data/french_color_norming-merged_2.csv", header = TRUE)
+
+origdf <- df
+
+# Get number of participants total
+df %>%
+  select(workerid) %>%
+  unique() %>%
+  nrow()
+cf %>%
+    select(workerid) %>%
+  unique() %>%
+  nrow() #83
+
+# get rid of participants who answered with colors
+origdf <- df %>%
+  filter(workerid != 35)
+# Get number of participants after further exclusions
+denom <- df %>%
+  select(workerid) %>%
+  unique() %>%
+  nrow()
+
+#84
+view(cf)
+#view(cf %>% filter(object == "orange_lock"))
+# Standardize spellings for ease -- removing articles, accents, question marks
+stripExtra <- function(df) {
+  df$response = str_to_lower(df$response)
+  df$response = str_trim(df$response)
+  df$response = str_replace_all(df$response,"un ","")
+  df$response = str_replace_all(df$response,"\\n","")
+  df$response = str_replace_all(df$response,"\\?$","")
+  df$response = str_replace_all(df$response, "une ","")
+  df$response = str_replace_all(df$response, "\\bla ","")
+  df$response = str_replace_all(df$response, "\\ble ","")
+   df$response = str_replace_all(df$response, "\\s$","")
+  df$response = str_replace_all(df$response, "l'","")
+  df$response = str_replace_all(df$response, "[éèëê]", "e")
+  df$response = str_replace_all(df$response,"[âà]", "a")
+  df$response = str_replace_all(df$response,"ô", "o")
+  df$response = str_replace_all(df$response,"[îï]", "i")
+  df$response = str_replace_all(df$response,"ç", "c")
+  return(df)
+}
+df <- stripExtra(origdf)
+cf <- stripExtra(cf)
+
+getColor <- function(colRow) {
+  name <- t(colRow)[3]
+  color <- str_split(name,"_")[[1]][1]
+  return(color)
+}
+
+cf <- cf %>% mutate(color = apply(cf, 1, getColor))
+
+#view(cf)
+#view(df)
+
+# Change answers to account for spelling mistakes and
+#simplifying answers: e.g fer à repasser et fer = fer, lampe de nuit, lampe de table --> lampe
+spellCheck <- function(df) {
+df$response = str_replace_all(df$response, "s?serviette.*","serviette")#napkin
+df$response = str_replace_all(df$response, "fauteu?il(le)?.*","fauteuil")#armchair
+df$response = str_replace_all(df$response, "(ballo$|balloune|ballone|bal?lon.*)","ballon")#balloon
+df$response = str_replace_all(df$response, "p[ae]nsement.*","pansement")#bandaid
+df$response = str_replace_all(df$response, "lit.*","lit")#bed
+df$response = str_replace_all(df$response, "ceinture.*","ceinture")#belt
+df$response = str_replace_all(df$response, "bicycrouge","bicyclette")#bike
+df$response = str_replace_all(df$response, "belo\\b","velo")
+df$response = str_replace_all(df$response, "chiffre 5 dans balle de billard blanche", "balle") #ball for pool
+df$response = str_replace_all(df$response, "(boull?e|\\bpoule).*","boule") ##ca marche pas?
+df$response = str_replace_all(df$response, "pochette.*","pochette") #folder
+df$response = str_replace_all(df$response, "chemise.*","chemise")
+df$response = str_replace_all(df$response, "porte-? ?documents?","porte-documents")
+df$response = str_replace_all(df$response, "protege-? ?documents?","protege-documents")
+df$response = str_replace_all(df$response, "livre.*","livre")#book
+df$response = str_replace_all(df$response, "bracell?et?.*","bracelet") #bracelet
+df$response = str_replace_all(df$response, "(sc?eau|sot|saut).*","seau")#bucket
+df$response = str_replace_all(df$response, "papillon.*","papillon") #butterfly
+df$response = str_replace_all(df$response, "calculatetrice","calculatrice")#calculator
+df$response = str_replace_all(df$response, "bougie.*","bougie")#candle
+df$response = str_replace_all(df$response, "camera.*","camera")#camera
+df$response = str_replace_all(df$response, "appareil ^?pho[to][to].*","appareil photo")
+df$response = str_replace_all(df$response, "cas?quette*","casquette")#cap
+df$response = str_replace_all(df$response, "(chaise.*|chause\\b)","chaise") #chair
+df$response = str_replace_all(df$response, "(reveille|reveile)","reveil")#clock
+df$response = str_replace_all(df$response, "reveil(-| )matin","reveil-matin")
+df$response = str_replace_all(df$response, "ce?in(tr|gl)e.*","cintre") #hanger
+df$response = str_replace_all(df$response, "support.*","support")
+df$response = str_replace_all(df$response, "pe(u|i)?g?ne.*","peigne")#comb
+df$response = str_replace_all(df$response, "cou?rr?onn?e.*","couronne")#crown
+df$response = str_replace_all(df$response, "cous?si[nb].*","coussin")#pillow
+df$response = str_replace_all(df$response, "porte jaune","porte")#door
+df$response = str_replace_all(df$response, "r[ou]be?\\b","robe")
+df$response = str_replace_all(df$response, "pel?le.*","pelle")
+df$response = str_replace_all(df$response, "porte[- ]poussiere.*","porte-poussiere")
+df$response = str_replace_all(df$response, "ramasse[- ]poussiere.*","rammase-poussiere")
+df$response = str_replace_all(df$response, "cloture.*","cloture") #fence
+df$response = str_replace_all(df$response, "barriere.*","barriere")
+df$response = str_replace_all(df$response, "fleur.*","fleur") #flower
+df$response = str_replace_all(df$response, "cadre.*","cadre") #frame
+df$response = str_replace_all(df$response, "tableua.*","tableau")
+df$response = str_replace_all(df$response, "poel?[lm]e.*","poele") #frying pan
+df$response = str_replace_all(df$response, "guitare?.*","guitare") # guitar
+df$response = str_replace_all(df$response, "clef.*","cle") #key
+df$response = str_replace_all(df$response, "lampe.*","lampe") #lamp
+df$response = str_replace_all(df$response, "loupe.*","loupe") #magnifying glass
+df$response = str_replace_all(df$response, "masq[ui]e.*","masque") #mask
+df$response = str_replace_all(df$response, "madsue.*","masque")
+df$response = str_replace_all(df$response, "souris.*","souris") #mouse
+df$response = str_replace_all(df$response, "tasse.*","tasse") #mug
+df$response = str_replace_all(df$response, "ca[hy]ier.*","cahier") #notebook
+df$response = str_replace_all(df$response, "crayo[n,].*","crayon") #pencil
+df$response = str_replace_all(df$response, "telephone.*","telephone") #phone
+df$response = str_replace_all(df$response, ".*cade[au][ua].*","cadeau") #present
+df$response = str_replace_all(df$response, "ba[gh]ue.*","bague") #ring
+df$response = str_replace_all(df$response, "anneau.*","anneau") 
+df$response = str_replace_all(df$response, "tapis.*","tapis") #rug
+df$response = str_replace_all(df$response, "echar?p?pe*","echarpe") #scarf
+df$response = str_replace_all(df$response, "t(ee)?-? ?shirt.*","t-shirt") #shirt
+df$response = str_replace_all(df$response, "chandail(le)?.*","chandail")
+df$response = str_replace_all(df$response,"pantouf?fle", "pantoufle")
+df$response = str_replace_all(df$response, "ag?gra(ff|f|ph)euse.*","agrafeuse") #stapler
+df$response = str_replace_all(df$response, "interrr?upteur.*","interrupteur") #switch
+df$response = str_replace_all(df$response, "couteau.*","couteau") #sword
+df$response = str_replace_all(df$response, "porte-? ?feuille.*","porte-feuille") #wallet #ca marche pas 
+df$response = str_replace_all(df$response, "porte-? ?monnaie*","porte-monnaie")
+df$response = str_replace_all(df$response, "pelot?te*","pelote") #yarn
+df$response = str_replace_all(df$response, "a[vc]ion.*","avion") #plane
+df$response = str_replace_all(df$response, "pann?[io]er.*","panier") #basket
+df$response = str_replace_all(df$response, "\\bban[cd]?\\b","banc") #bench
+df$response = str_replace_all(df$response, "banc.*","banc")
+df$response = str_replace_all(df$response, ".*jumelle.*","jumelles")
+df$response = str_replace_all(df$response, ".*bo[nm]bo[nm].*","bonbon")
+df$response = str_replace_all(df$response, ".*bottes?.*","botte")
+df$response = str_replace_all(df$response, "\\bbol(e|le)?\\b.*","bol")#bowl
+df$response = str_replace_all(df$response, "gateau.*","gateau")#cake
+df$response = str_replace_all(df$response, "calendrier.*","calendrier")#calendar
+df$response = str_replace_all(df$response, "\\bdee?s?\\b","de")#dice
+df$response = str_replace_all(df$response, "com?m?mode.*","commode")#commode
+df$response = str_replace_all(df$response, "\\bsif?fle[tr]","sifflet")#whistle
+df$response = str_replace_all(df$response, "\\bvas?se\\b","vase")#vase
+df$response = str_replace_all(df$response, "parapluie?.*","parapluie")#umbrella
+df$response = str_replace_all(df$response, "\\btele\\b.*","television")#tv
+df$response = str_replace_all(df$response, "camion.*","camion")#truck
+df$response = str_replace_all(df$response, "cravat?te.*","cravate")#tie
+df$response = str_replace_all(df$response, "tente.*","tente")#tent
+df$response = str_replace_all(df$response, ".*cuillere.*","cuillere")#spoon
+df$response = str_replace_all(df$response, "chauss?et?te.*","chaussette")#sock
+df$response = str_replace_all(df$response, "chaussons?.*","chausson")#slipper
+df$response = str_replace_all(df$response, "coquille.*","coquille")#shell
+df$response = str_replace_all(df$response, "coc?quillage.*","coquillage")#shell
+df$response = str_replace_all(df$response, "tourne(a|\\s)?vise?.*","tournevis")#screwdriver
+df$response = str_replace_all(df$response, "poisson.*","poisson")#fish
+df$response = str_replace_all(df$response, "gant.*","gant")#glove
+df$response = str_replace_all(df$response, "marteau.*","marteau")#hammer
+df$response = str_replace_all(df$response, "rouge a levre.*","rouge a levre")#lipstick
+df$response = str_replace_all(df$response, "cadena.*","cadenas")#lock
+df$response = str_replace_all(df$response, "valise.*","valise")#luggage
+df$response = str_replace_all(df$response, "microscope.*","microscope")#microscope
+df$response = str_replace_all(df$response, "collier.*","collier")#necklace
+df$response = str_replace_all(df$response, "piano.*","piano")#luggage
+df$response = str_replace_all(df$response, "ass?iet?te*","assiette")#plate
+df$response = str_replace_all(df$response, "s[oe]ucou?p[er]*","soucoupe")
+df$response = str_replace_all(df$response, "rasoir.*","rasoir")#razor
+df$response = str_replace_all(df$response, "robot.*","robot")#robot
+return(df)
+}
+#mildly gave up on: fer a repasser, talons, rope, purse, radio, ribbon
+
+#Adjusting for gender discrepancies in color
+genderMatch <- function(cf) {
+  cf$response = str_replace_all(cf$response, "blanc(he)?","blanc")#white
+  cf$response = str_replace_all(cf$response, "[nbv]oire?","noir")#black
+  cf$response = str_replace_all(cf$response, "verte?","vert")#green
+  cf$response = str_replace_all(cf$response, "violet(te)?","violet")#purple
+  cf$response = str_replace_all(cf$response, "\\*?bleue?","bleu")#blue
+  cf$response = str_replace_all(cf$response, "grise?","gris")#grey
+  return(cf)
+}
+df2 <- spellCheck(df)
+cf2 <- genderMatch(cf)
+
+#The color data could be streamlined for typos and other spelling variations further, but it was not necessary because 
+#we easily reached the color thresholds anyway.
+
+#returns a tibble of the form :
+#utterance1    response1 num
+#utterance1    response2  num
+#utterance2    response1 num
+countsNoun <- runAnalysisNoun(df2)
+countsColor <- runAnalysisColor(cf2)
+
+#returns percent corresponding to most common response
+getPercentNoun <- function(object) {
+  objectName = object[1]
+  tib <- countsNoun %>% filter(utterance == objectName)
+  totalSum <- tib$count %>%
+    sum()
+  maxCount <- tib %>%
+    group_by(response) %>%
+    summarise(n = sum(count))
+  maxNum <- tib[which.max(tib$count),]$count
+  return(maxNum/totalSum)
+}
+
+getPercentColor <- function(color) {
+  colorName = color[1]
+  tib <- countsColor %>% filter(color == colorName)
+  totalSum <- tib$count %>%
+    sum()
+  maxCount <- tib %>%
+    group_by(response) %>%
+    summarise(n = sum(count))
+  maxNum <- tib[which.max(tib$count),]$count
+  return(maxNum/totalSum)
+}
+
+#returns most common response
+getLabelNoun <- function(object) {
+  objectName = object[1]
+  tib <- countsNoun %>% filter(utterance == objectName)
+  return(tib[which.max(tib$count),][[2]])
+}
+
+#returns most common response for color
+getLabelColor <- function(object) {
+  colorName = object[1]
+  tib <- countsColor %>% filter(color == colorName)
+  return(tib[which.max(tib$count),][[2]])
+}
+
+#appends most common responses and their percentages to the wordlist
+resultsNoun <- wordList %>% mutate(common = apply(wordList, 1, getLabelNoun)) %>%
+  mutate(percent = apply(wordList, 1, getPercentNoun))
+
+resultsColor <- colorList %>% mutate(common = apply(colorList, 1, getLabelColor)) %>%
+  mutate(percent = apply(colorList, 1, getPercentColor))
+
+view(resultsNoun)
+view(resultsColor)
+
+#Filtering by which words reached an agreement of 70% or more
+below <- resultsNoun %>% filter(percent < 0.70)
+above <- resultsNoun %>% filter(percent >= 0.70)
+view(below)
+view(above)
+above <- apply(above,2,as.character)
+write.csv(above, "noun_final.csv")
+nrow(below) #21
+nrow(above) #83
+#For French--checking gender of accepted nouns:
+nrow(above %>% filter(Gender == "F")) #33
+nrow(above %>% filter(Gender == "M")) #49
+
+view(above %>% filter(Gender == "F"))
+view(above %>% filter(Gender == "M"))
+
+nrow(below %>% filter(Gender == "F"))
+nrow(below %>% filter(Gender == "M")) 
+
+view(counts %>% filter(utterance == "slipper"))
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

@@ -7,6 +7,7 @@ library(jsonlite)
 
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 
+
 # RUN WEBPPL FROM A V8 JS ENGINE (FASTER WHEN YOU NEED TO RUN MANY, MANY CALLS TO WEBPPL)
 
 source("../../_shared/V8wppl.R")
@@ -240,7 +241,7 @@ graph <- function(probArray) {
   # toGraph$language <- c("English", "English", "Spanish-postnom.", "Spanish-postnom.")
   toGraph$language <- c("English", "English", "Spanish", "Spanish")
   # toGraph$behavior <- c("Redundant color adjective (SS)", "Redundant size adjective (CS)", 
-                        # "Redundant color adjective (SS)", "Redundant size adjective (CS)")
+  # "Redundant color adjective (SS)", "Redundant size adjective (CS)")
   # LABELS FOR POSTER
   toGraph$behavior <- c("Redundant color adjective", "Redundant size adjective", 
                         "Redundant color adjective", "Redundant size adjective") 
@@ -279,7 +280,7 @@ cmd_sp_postnom_inc <- cmd_sp_postnom
 
 v1 <- as.numeric(runModel('V8', engine, modelAndSemantics, cmd_eng_global, states_ss, utterances_eng_ss, globalalpha, sizeNoiseVal = 1, colorNoiseVal = 1, 
                           colorCost = 0, sizeCost = 0, nounCost = 0))
-  
+
 v2 <- as.numeric(runModel('V8', engine, modelAndSemantics, cmd_eng_global, states_cs, utterances_eng_cs, globalalpha, sizeNoiseVal = 1, colorNoiseVal = 1, 
                           colorCost = 0, sizeCost = 0, nounCost = 0))
 
@@ -356,7 +357,7 @@ cincrsaGraph + theme(legend.position = "bottom")
 
 runModel('V8', engine, modelAndSemantics, 
          'wordSpeaker(["START"], "smallblue", model, params, semantics)', states_ss, utterances_eng_ss, incalpha, sizeNoiseVal = 0.8, colorNoiseVal = 0.95, 
-                    colorCost = colorCost, sizeCost = sizeCost, nounCost = 0)
+         colorCost = colorCost, sizeCost = sizeCost, nounCost = 0)
 
 runModel('V8', engine, modelAndSemantics, 
          'wordSpeaker(["START","small"], "smallblue", model, params, semantics)', states_ss, utterances_eng_ss, incalpha, sizeNoiseVal = 0.8, colorNoiseVal = 0.95, 
