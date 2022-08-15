@@ -42,36 +42,272 @@ states_size_high <- "smallbluepin, bigbluepin, bigredpin, smallredball, bigbluep
 
 # UTTERANCES: SIZE SUFFICIENT
 
-utterances_eng_ss <- c("START red pin STOP", "START blue pin STOP",
-                       "START big pin STOP", "START small pin STOP",
-                       "START small ball STOP", "START blue ball STOP",
-                       "START pin STOP", "START ball STOP",
-                       "START big blue pin STOP",
-                       "START big red pin STOP",
-                       "START small blue pin STOP",
-                       "START small blue ball STOP")
+
+utterances_eng_ss_low<- c("START red pin STOP", "START blue pin STOP", 
+                          "START big pin STOP", "START small pin STOP",
+                          "START small ball STOP", "START red ball STOP",
+                          "START pin STOP", "START ball STOP",
+                          "START big blue pin STOP", 
+                          "START big red pin STOP",
+                          "START small blue pin STOP",
+                          "START small red ball STOP") 
+
+utterances_sp_ss_low<- c("START pin STOP", "START ball STOP",
+                         "START pin red STOP", "START pin blue STOP", "START ball red STOP", 
+                         "START pin big STOP", "START pin small STOP","START ball small STOP",
+                         "START pin blue small STOP", 
+                         "START pin blue big STOP",
+                         "START pin red big STOP", "START ball red small STOP") 
+
+utterances_fr_ss_low<- c("START pin STOP", "START ball STOP",
+                         "START pin red STOP", "START pin blue STOP","START ball red STOP", 
+                         "START big pin STOP", "START small pin STOP", "START small ball STOP",
+                         "START big pin blue STOP",
+                         "START small pin blue STOP",
+                         "START big pin red STOP",
+                         "START small ball red STOP")
+
+utterances_vt_ss_low<- c("START pin STOP", "START ball STOP", "START pin red STOP", "START pin blue STOP", "START ball blue STOP", 
+                         "START pin big STOP", "START pin small STOP","START ball small STOP", "START ball red STOP",
+                         "START pin blue and big STOP",
+                         "START pin big and blue STOP",
+                         "START pin red and big STOP", "START pin big and red STOP",
+                         "START pin blue and small STOP", "START pin small and blue STOP",
+                         "START ball red and small STOP", "START ball small and red STOP")
+
+
+# # UTTERANCES: COLOR SUFFICIENT
+# 
+# utterances_eng_cs_low<- c("START pin STOP", "START ball STOP","START red pin STOP", "START blue pin STOP","START blue ball STOP", 
+#                           "START big pin STOP", "START small pin STOP","START small ball STOP",
+#                           "START big red pin STOP",
+#                           "START small blue pin STOP","START small blue ball STOP",
+#                           "START small red pin STOP")
+# 
+# utterances_sp_cs_low<- c("START pin STOP", "START ball STOP","START pin red STOP", "START pin blue STOP", "START ball blue STOP", 
+#                          "START pin big STOP", "START pin small STOP","START ball small STOP",
+#                          "START pin red small STOP", "START pin red big STOP",
+#                          "START pin blue small STOP", 
+#                          "START ball blue small STOP")
+# 
+# utterances_fr_cs_low<- c("START pin STOP", "START ball STOP","START pin red STOP", "START pin blue STOP", "START ball blue STOP", 
+#                          "START big pin STOP", "START small pin STOP", "START small ball STOP",
+#                          "START big pin red STOP",
+#                          "START small pin red STOP",
+#                          "START small pin blue STOP", 
+#                          "START small ball blue STOP")
+# 
+# utterances_vt_cs_low<- c("START pin STOP", "START ball STOP","START pin red STOP", "START pin blue STOP","START ball blue STOP", 
+#                          "START pin big STOP", "START pin small STOP","START ball small STOP",
+#                          "START pin red and big STOP","START pin big and red STOP",
+#                          "START pin blue and small STOP", "START pin small and blue STOP", 
+#                          "START ball blue and small STOP", "START ball small and blue STOP", 
+#                          "START pin red and small STOP", "START pin small and red STOP")
+# 
+
+# UTTERANCES: SIZE SUFFICIENT
+
+utterances_eng_ss_med<- c("START red pin STOP", "START blue pin STOP", 
+                          "START big pin STOP", "START small pin STOP",
+                          "START small ball STOP", "START red ball STOP", 
+                          "START pin STOP", "START ball STOP", "START square STOP",
+                          "START big blue pin STOP", 
+                          "START big red pin STOP",
+                          "START small blue pin STOP",
+                          "START small red ball STOP"
+) 
+
+# ,"START big square STOP","START square STOP","START black square STOP","START red square STOP","START big black square STOP", "START big red square STOP"
+
+utterances_sp_ss_med<- c("START pin STOP", "START ball STOP",
+                         "START pin red STOP", "START pin blue STOP", "START ball red STOP", 
+                         "START pin big STOP", "START pin small STOP","START ball small STOP",
+                         "START pin blue small STOP", 
+                         "START pin blue big STOP",
+                         "START pin red big STOP", "START ball red small STOP"
+) 
+
+#, "START square STOP", "START square big STOP", "START square black STOP", "START square red STOP", "START square red big STOP", "START square black big STOP"
+
+utterances_fr_ss_med<- c("START pin STOP", "START ball STOP", 
+                         "START pin red STOP", "START pin blue STOP","START ball red STOP", 
+                         "START big pin STOP", "START small pin STOP", "START small ball STOP",
+                         "START big pin blue STOP",
+                         "START small pin blue STOP",
+                         "START big pin red STOP",
+                         "START small ball red STOP"
+)
+
+# ,"START square STOP", "START big square STOP", "START square red STOP", "START square black STOP","START big square black STOP","START big square red STOP"
+
+utterances_vt_ss_med<- c("START pin STOP", "START ball STOP", "START pin red STOP", "START pin blue STOP", "START ball red STOP", 
+                         "START pin big STOP", "START pin small STOP","START ball small STOP",
+                         "START pin blue and big STOP", 
+                         "START pin big and blue STOP",
+                         "START pin red and big STOP", "START pin big and red STOP",
+                         "START pin blue and small STOP", "START pin small and blue STOP",
+                         "START ball red and small STOP", "START ball small and red STOP"
+)
+
+#,"START square STOP", "START square big STOP","START square black STOP","START square red STOP","START square big and black STOP","START square black and big STOP",
+#"START square red and big STOP","START square big and red STOP"
+
+# # UTTERANCES: COLOR SUFFICIENT
+# 
+# utterances_eng_cs_med<- c("START pin STOP", "START ball STOP","START red pin STOP", "START blue pin STOP","START blue ball STOP", 
+#                           "START big pin STOP", "START small pin STOP","START small ball STOP",
+#                           "START big red pin STOP",
+#                           "START small blue pin STOP","START small blue ball STOP",
+#                           "START small red pin STOP",
+#                           "START big square STOP","START square STOP","START black square STOP","START red square STOP","START big black square STOP", "START big red square STOP")
+# 
+# utterances_sp_cs_med<- c("START pin STOP", "START ball STOP","START pin red STOP", "START pin blue STOP", "START ball blue STOP", 
+#                          "START pin big STOP", "START pin small STOP","START ball small STOP",
+#                          "START pin red small STOP", "START pin red big STOP",
+#                          "START pin blue small STOP", 
+#                          "START ball blue small STOP",
+#                          "START square STOP", "START square big STOP", "START square black STOP", "START square red STOP", "START square red big STOP", "START square black big STOP"
+# )
+# 
+# utterances_fr_cs_med<- c("START pin STOP", "START ball STOP","START pin red STOP", "START pin blue STOP", "START ball blue STOP", 
+#                          "START big pin STOP", "START small pin STOP", "START small ball STOP",
+#                          "START big pin red STOP",
+#                          "START small pin red STOP",
+#                          "START small pin blue STOP", 
+#                          "START small ball blue STOP",
+#                          "START square STOP", "START big square STOP", "START square red STOP", "START square black STOP","START big square black STOP","START big square red STOP")
+# 
+# utterances_vt_cs_med<- c("START pin STOP", "START ball STOP","START pin red STOP", "START pin blue STOP","START ball blue STOP", 
+#                          "START pin big STOP", "START pin small STOP","START ball small STOP",
+#                          "START pin red and big STOP","START pin big and red STOP",
+#                          "START pin blue and small STOP", "START pin small and blue STOP", 
+#                          "START ball blue and small STOP", "START ball small and blue STOP", 
+#                          "START pin red and small STOP", "START pin small and red STOP",
+#                          "START square STOP", "START square big STOP","START square black STOP","START square red STOP","START square big and black STOP","START square black and big STOP",
+#                          "START square red and big STOP","START square big and red STOP"
+# )
+
+# UTTERANCES: SIZE SUFFICIENT
+
+utterances_eng_ss_high<- c("START red pin STOP", "START blue pin STOP",  
+                           "START big pin STOP", "START small pin STOP",
+                           "START small ball STOP", "START red ball STOP",
+                           "START pin STOP", "START ball STOP",
+                           "START big blue pin STOP", 
+                           "START big red pin STOP",
+                           "START small blue pin STOP",
+                           "START small red ball STOP"
+) 
+
+# , "START big square STOP","START square STOP","START black square STOP","START red square STOP","START big black square STOP", "START big red square STOP",
+# "START small square STOP", "START small black square STOP", "START big circle STOP", "START circle STOP", "START black circle STOP", "START big black circle STOP"
+
+utterances_sp_ss_high<- c("START pin STOP", "START ball STOP", 
+                          "START pin red STOP", "START pin blue STOP", "START ball red STOP", 
+                          "START pin big STOP", "START pin small STOP","START ball small STOP", 
+                          "START pin blue small STOP", 
+                          "START pin blue big STOP",
+                          "START pin red big STOP", "START ball red small STOP"
+) 
+
+# , "START square STOP", "START square big STOP", "START square black STOP", "START square red STOP", "START square red big STOP", "START square black big STOP",
+# "START square small STOP", "START square black small STOP", "START circle big STOP", "START circle black STOP", "START circle black big STOP", "START circle STOP"
+
+utterances_fr_ss_high<- c("START pin STOP", "START ball STOP", 
+                          "START pin red STOP", "START pin blue STOP","START ball red STOP", 
+                          "START big pin STOP", "START small pin STOP", "START small ball STOP", 
+                          "START big pin blue STOP",
+                          "START small pin blue STOP",
+                          "START big pin red STOP",
+                          "START small ball red STOP"
+)
+
+# ,"START square STOP", "START big square STOP", "START square red STOP", "START square black STOP","START big square black STOP","START big square red STOP",
+# "START small square STOP", "START small square black STOP", "START circle STOP", "START big circle STOP", "START big circle black STOP", "START big circle black STOP"
+
+utterances_vt_ss_high<- c("START pin STOP", "START ball STOP", "START pin red STOP", "START pin blue STOP", "START ball red STOP",
+                          "START pin big STOP", "START pin small STOP","START ball small STOP", 
+                          "START pin blue and big STOP", 
+                          "START pin big and blue STOP",
+                          "START pin red and big STOP", "START pin big and red STOP",
+                          "START pin blue and small STOP", "START pin small and blue STOP",
+                          "START ball red and small STOP", "START ball small and red STOP"
+                          
+)
+
+#,"START square red STOP","START square big and black STOP","START square black and big STOP", ,
+# "START square STOP", "START square big STOP","START square black STOP"
+#"START square red and big STOP","START square big and red STOP",
+#"START square small STOP", "START square small and black STOP","START square black and small STOP", "START circle big STOP", "START circle STOP", "START circle black STOP", "START circle big and black STOP", "START circle black and big STOP"
+
+# # UTTERANCES: COLOR SUFFICIENT
+# 
+# utterances_eng_cs_high<- c("START pin STOP", "START ball STOP","START red pin STOP", "START blue pin STOP","START blue ball STOP", 
+#                            "START big pin STOP", "START small pin STOP","START small ball STOP",
+#                            "START big red pin STOP",
+#                            "START small blue pin STOP","START small blue ball STOP",
+#                            "START small red pin STOP",
+#                            "START big square STOP","START square STOP","START black square STOP","START red square STOP","START big black square STOP", "START big red square STOP",
+#                            "START small square STOP", "START small black square STOP", "START big circle STOP", "START circle STOP", "START black circle STOP", "START big black circle STOP")
+# 
+# utterances_sp_cs_high<- c("START pin STOP", "START ball STOP","START pin red STOP", "START pin blue STOP", "START ball blue STOP", 
+#                           "START pin big STOP", "START pin small STOP","START ball small STOP",
+#                           "START pin red small STOP", "START pin red big STOP",
+#                           "START pin blue small STOP", 
+#                           "START ball blue small STOP",
+#                           "START square STOP", "START square big STOP", "START square black STOP", "START square red STOP", "START square red big STOP", "START square black big STOP",
+#                           "START square small STOP", "START square black small STOP", "START circle big STOP", "START circle black STOP", "START circle black big STOP", "START circle STOP")
+# 
+# utterances_fr_cs_high<- c("START pin STOP", "START ball STOP","START pin red STOP", "START pin blue STOP", "START ball blue STOP", 
+#                           "START big pin STOP", "START small pin STOP", "START small ball STOP",
+#                           "START big pin red STOP",
+#                           "START small pin red STOP",
+#                           "START small pin blue STOP", 
+#                           "START small ball blue STOP",
+#                           "START square STOP", "START big square STOP", "START square red STOP", "START square black STOP","START big square black STOP","START big square red STOP",
+#                           "START small square STOP", "START small square black STOP", "START circle STOP", "START big circle STOP", "START big circle black STOP", "START big circle black STOP")
+# 
+# utterances_vt_cs_high<- c("START pin STOP", "START ball STOP","START pin red STOP", "START pin blue STOP","START ball blue STOP", 
+#                           "START pin big STOP", "START pin small STOP","START ball small STOP",
+#                           "START pin red and big STOP","START pin big and red STOP",
+#                           "START pin blue and small STOP", "START pin small and blue STOP", 
+#                           "START ball blue and small STOP", "START ball small and blue STOP", 
+#                           "START pin red and small STOP", "START pin small and red STOP",
+#                           "START square STOP", "START square big STOP","START square black STOP","START square red STOP","START square big and black STOP","START square black and big STOP",
+#                           "START square red and big STOP","START square big and red STOP",
+#                           "START square small STOP", "START square small and black STOP","START square black and small STOP", "START circle big STOP", "START circle STOP", "START circle black STOP", "START circle big and black STOP", "START circle black and big STOP"
+# )
+
+  utterances_eng_ss <- c("START red pin STOP", "START blue pin STOP",
+                         "START big pin STOP", "START small pin STOP",
+                         "START small ball STOP", "START blue ball STOP",
+                         "START pin STOP", "START ball STOP",
+                         "START big blue pin STOP",
+                         "START big red pin STOP",
+                         "START small blue pin STOP",
+                         "START small blue ball STOP")
 
 utterances_sp_ss <- c("START pin STOP", "START ball STOP",
-                            "START pin red STOP", "START pin blue STOP", "START ball blue STOP",
-                            "START pin big STOP", "START pin small STOP","START ball small STOP",
-                            "START pin blue small STOP",
-                            "START pin blue big STOP",
-                            "START pin red big STOP", "START ball blue small STOP")
+                      "START pin red STOP", "START pin blue STOP", "START ball blue STOP",
+                      "START pin big STOP", "START pin small STOP","START ball small STOP",
+                      "START pin blue small STOP",
+                      "START pin blue big STOP",
+                      "START pin red big STOP", "START ball blue small STOP")
 
 utterances_fr_ss <- c("START pin STOP", "START ball STOP",
                       "START pin red STOP", "START pin blue STOP","START ball blue STOP",
-                           "START big pin STOP", "START small pin STOP", "START small ball STOP",
-                           "START big pin blue STOP",
-                           "START small pin blue STOP",
-                           "START big pin red STOP",
-                           "START small ball blue STOP")
+                      "START big pin STOP", "START small pin STOP", "START small ball STOP",
+                      "START big pin blue STOP",
+                      "START small pin blue STOP",
+                      "START big pin red STOP",
+                      "START small ball blue STOP")
 
 utterances_vt_ss <- c("START pin STOP", "START ball STOP", "START pin red STOP", "START pin blue STOP", "START ball blue STOP",
-                              "START pin big STOP", "START pin small STOP","START ball small STOP",
-                              "START pin blue and big STOP",
-                              "START pin big and blue STOP",
-                              "START pin red and big STOP", "START pin big and red STOP",
-                              "START pin blue and small STOP", "START pin small and blue STOP",
+                      "START pin big STOP", "START pin small STOP","START ball small STOP",
+                      "START pin blue and big STOP",
+                      "START pin big and blue STOP",
+                      "START pin red and big STOP", "START pin big and red STOP",
+                      "START pin blue and small STOP", "START pin small and blue STOP",
                       "START ball blue and small STOP", "START ball small and blue STOP")
 
 # UTTERANCES: COLOR SUFFICIENT
@@ -83,24 +319,25 @@ utterances_eng_cs <- c("START pin STOP", "START ball STOP","START red pin STOP",
                        "START small red pin STOP")
 
 utterances_sp_cs <- c("START pin STOP", "START ball STOP","START pin red STOP", "START pin blue STOP", "START ball blue STOP",
-                            "START pin big STOP", "START pin small STOP","START ball small STOP",
-                            "START pin red small STOP", "START pin red big STOP",
-                            "START pin blue small STOP",
-                            "START ball blue small STOP")
+                      "START pin big STOP", "START pin small STOP","START ball small STOP",
+                      "START pin red small STOP", "START pin red big STOP",
+                      "START pin blue small STOP",
+                      "START ball blue small STOP")
 
 utterances_fr_cs <- c("START pin STOP", "START ball STOP","START pin red STOP", "START pin blue STOP", "START ball blue STOP",
-                           "START big pin STOP", "START small pin STOP", "START small ball STOP",
-                           "START big pin red STOP",
-                           "START small pin red STOP",
-                           "START small pin blue STOP",
-                           "START small ball blue STOP")
+                      "START big pin STOP", "START small pin STOP", "START small ball STOP",
+                      "START big pin red STOP",
+                      "START small pin red STOP",
+                      "START small pin blue STOP",
+                      "START small ball blue STOP")
 
 utterances_vt_cs <- c("START pin STOP", "START ball STOP","START pin red STOP", "START pin blue STOP","START ball blue STOP",
-                              "START pin big STOP", "START pin small STOP","START ball small STOP",
-                              "START pin red and big STOP","START pin big and red STOP",
+                      "START pin big STOP", "START pin small STOP","START ball small STOP",
+                      "START pin red and big STOP","START pin big and red STOP",
                       "START pin blue and small STOP", "START pin small and blue STOP",
                       "START ball blue and small STOP", "START ball small and blue STOP",
-                              "START pin red and small STOP", "START pin small and red STOP")
+                      "START pin red and small STOP", "START pin small and red STOP")
+>>>>>>> b4b2b193a3797357eb94ecbccf97c83e89d45fea
 
 
 # COMMANDS
@@ -196,8 +433,13 @@ valDF <- valDF %>%
 
 english_colorOvermodification_low <- valDF %>%
   group_by(colorNoise, sizeNoise, alpha) %>%
+  <<<<<<< HEAD
+mutate(speakerProb = runModel('V8', engine, modelAndSemantics, cmd_eng, states_ss_low, utterances_eng_ss_low, alpha, sizeNoiseVal = sizeNoise, colorNoiseVal = colorNoise,
+                              colorCost = 0.1, sizeCost = 0.1, nounCost = 0.1))
+=======
   mutate(speakerProb = runModel('V8', engine, modelAndSemantics, cmd_eng, states_cs_med, utterances_eng_cs, alpha, sizeNoiseVal = sizeNoise, colorNoiseVal = colorNoise,
                                 colorCost = 0, sizeCost = 0, nounCost = 0))
+>>>>>>> b4b2b193a3797357eb94ecbccf97c83e89d45fea
 
 english_colorOvermodification_low = mutate(english_colorOvermodification_low, state = states_size_low, .before = colorNoise)
 english_colorOvermodification_low = mutate(english_colorOvermodification_low, nounNoise = 0.99, .before = alpha)
@@ -208,9 +450,13 @@ english_colorOvermodification_low$Language <- "English"
 
 sp_colorOvermodification_low <- valDF %>%
   group_by(colorNoise, sizeNoise, alpha) %>%
-
+  <<<<<<< HEAD
+mutate(speakerProb = runModel('V8', engine, modelAndSemantics, cmd_sp, states_ss_low, utterances_sp_ss_low, alpha, sizeNoiseVal = sizeNoise, colorNoiseVal = colorNoise,
+                              colorCost = 0.1, sizeCost = 0.1, nounCost = 0.1))
+=======
   mutate(speakerProb = runModel('V8', engine, modelAndSemantics, cmd_sp, states_cs_med, utterances_sp_cs, alpha, sizeNoiseVal = sizeNoise, colorNoiseVal = colorNoise,
                                 colorCost = 0, sizeCost = 0, nounCost = 0))
+>>>>>>> b4b2b193a3797357eb94ecbccf97c83e89d45fea
 
 sp_colorOvermodification_low = mutate(sp_colorOvermodification_low, state = states_size_low, .before = colorNoise)
 sp_colorOvermodification_low = mutate(sp_colorOvermodification_low, nounNoise = 0.99, .before = alpha)
@@ -221,6 +467,14 @@ sp_colorOvermodification_low$Language <- "Spanish"
 
 fr_colorOvermodification_low <- valDF %>%
   group_by(colorNoise, sizeNoise, alpha) %>%
+  <<<<<<< HEAD
+mutate(speakerProb = runModel('V8', engine, modelAndSemantics, cmd_fr, states_ss_low, utterances_fr_ss_low, alpha, sizeNoiseVal = sizeNoise, colorNoiseVal = colorNoise,
+                              colorCost = 0.1, sizeCost = 0.1, nounCost = 0.1))
+fr_colorOvermodification_low = mutate(fr_colorOvermodification_low, state = states_size_low, .before = colorNoise)
+fr_colorOvermodification_low = mutate(fr_colorOvermodification_low, nounNoise = 0.99, .before = alpha)
+fr_colorOvermodification_low = mutate(fr_colorOvermodification_low, Utterance = utterance_fr, .before = speakerProb)
+fr_colorOvermodification_low$Language <- "French"
+=======
   mutate(speakerProb = runModel('V8', engine, modelAndSemantics, cmd_fr, states_cs_med, utterances_fr_cs, alpha, sizeNoiseVal = sizeNoise, colorNoiseVal = colorNoise,
                                 colorCost = 0, sizeCost = 0, nounCost = 0))
 
@@ -228,14 +482,31 @@ fr_sizeOvermodification_med = mutate(fr_sizeOvermodification_med, state = states
 fr_sizeOvermodification_med = mutate(fr_sizeOvermodification_med, nounNoise = 0.99, .before = alpha)
 fr_sizeOvermodification_med = mutate(fr_sizeOvermodification_med, Utterance = utterance_fr, .before = speakerProb)
 fr_sizeOvermodification_med$Language <- "French"
+>>>>>>> b4b2b193a3797357eb94ecbccf97c83e89d45fea
 
 ## Vietnamese
 
 vt_colorOvermodification_low <- valDF %>%
   group_by(colorNoise, sizeNoise, alpha) %>%
 
+mutate(speakerProb = runModel('V8', engine, modelAndSemantics, cmd_vt, states_ss_low, utterances_vt_ss_low, alpha, sizeNoiseVal = sizeNoise, colorNoiseVal = colorNoise,
+                              colorCost = 0.1, sizeCost = 0.1, nounCost = 0.1))
+
+vt_colorOvermodification_low = mutate(vt_colorOvermodification_low, state = states_size_low, .before = colorNoise)
+vt_colorOvermodification_low = mutate(vt_colorOvermodification_low, nounNoise = 0.99, .before = alpha)
+vt_colorOvermodification_low = mutate(vt_colorOvermodification_low, Utterance = utterance_vt, .before = speakerProb)
+vt_colorOvermodification_low$Language <- "Vietnamese"
+
+colorOvermodification_low <- rbind(english_colorOvermodification_low, rbind(sp_colorOvermodification_low,rbind(fr_colorOvermodification_low,vt_colorOvermodification_low)))
+colorOvermodification_low = mutate(colorOvermodification_low, Context = "Low Scene Variation", .before = Utterance)
+colorOvermodification_low = mutate(colorOvermodification_low, Semantics = "Continuous", .before = Context)
+colorOvermodification_low = mutate(colorOvermodification_low, Utility = "Incremental", .after = Semantics)
+colorOvermodification_low = mutate(colorOvermodification_low, Redundancy = "Color Redundant", .before = Semantics)
+colorOvermodification_low = mutate(colorOvermodification_low, Scenario = "1B", .before = state)
+=======
   mutate(speakerProb = runModel('V8', engine, modelAndSemantics, cmd_vt, states_cs_med, utterances_vt_cs, alpha, sizeNoiseVal = sizeNoise, colorNoiseVal = colorNoise,
                                 colorCost = 0, sizeCost = 0, nounCost = 0))
+>>>>>>> b4b2b193a3797357eb94ecbccf97c83e89d45fea
 
 #data_low <- rbind(colorOvermodification_low, sizeOvermodification_low)
 
@@ -354,7 +625,10 @@ colorOvermodification_med = mutate(colorOvermodification_med, Utility = "Increme
 colorOvermodification_med = mutate(colorOvermodification_med, Redundancy = "Color Redundant", .before = Semantics)
 colorOvermodification_med = mutate(colorOvermodification_med, Scenario = "2B", .before = state)
 
-data_med <- rbind(colorOvermodification_med, sizeOvermodification_med)
+<<<<<<< HEAD
+#data_med <- rbind(colorOvermodification_med, sizeOvermodification_med)
+=======
+  data_med <- rbind(colorOvermodification_med, sizeOvermodification_med)
 
 # COLOR-SUFFICIENT SCENARIO High Variation
 
@@ -400,7 +674,7 @@ vt_sizeOvermodification_high <- valDF %>%
   group_by(colorNoise, sizeNoise, alpha) %>%
   mutate(speakerProb = runModel('V8', engine, modelAndSemantics, cmd_vt, states_cs_high, utterances_vt_cs, alpha, sizeNoiseVal = sizeNoise, colorNoiseVal = colorNoise,
                                 colorCost = 0, sizeCost = 0, nounCost = 0))
-
+>>>>>>> b4b2b193a3797357eb94ecbccf97c83e89d45fea
 
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # 

@@ -29,7 +29,7 @@ envCode <-read_file("createEnv.txt")
 #semantics array, words and utterance lists
 
 #Taking in input csv files
-scenariosToRun <- read.csv("../series/series1/model_input/exp_tester_input.csv", as.is = TRUE)
+scenariosToRun <- read.csv("../series/series1/model_input/trial_manh_1.csv", as.is = TRUE)
 # Due to a bug in the python script, we have duplicates of boolean semantic rows
 # therefore we only want to get the unique rows
 scenariosToRun <- unique(scenariosToRun)
@@ -106,7 +106,7 @@ scenarios_pared <- scenarios_pared %>%
 #Final chart
 view(scenarios_pared)
 #outputing to CSV file
-write.csv(scenarios_pared,"../series/series1/model_output/data_newer.csv")
+write.csv(scenarios_pared,"../series/series1/model_output/trial_manh_1.csv")
 
 
 

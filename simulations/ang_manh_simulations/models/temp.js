@@ -1,12 +1,15 @@
 var semantics = function(params) {
   return function(state) {
     return {
-    red: ["smallredpin","bigredpin"].includes(state) ? params.colorNoiseVal : 1 - params.colorNoiseVal ,
+    red: ["smallredpin","bigredpin", "bigredsquare"].includes(state) ? params.colorNoiseVal : 1 - params.colorNoiseVal ,
+black: ["bigblacksquare","smallblacksquare", "bigblackcircle"].includes(state) ? params.colorNoiseVal : 1 - params.colorNoiseVal ,
+circle: ["bigblackcircle"].includes(state) ? 0.99 : 0.01 ,
+square: ["bigblacksquare","smallblacksquare", "bigredsquare"].includes(state) ? 0.99 : 0.01 ,
     blue:  ["smallbluepin","bigbluepin", "smallblueball"].includes(state) ? params.colorNoiseVal : 1 - params.colorNoiseVal ,
     pin: ["bigbluepin", "smallbluepin", "bigredpin", "smallredpin"].includes(state) ? 0.99 : 0.01,
 ball: ["smallblueball"].includes(state) ? 0.99 : 0.01,
-    big: ["bigredpin","bigbluepin"].includes(state) ? params.sizeNoiseVal : 1 - params.sizeNoiseVal,
-    small: ["smallredpin","smallbluepin", "smallblueball"].includes(state) ? params.sizeNoiseVal : 1 - params.sizeNoiseVal,
+    big: ["bigredpin","bigbluepin", "bigredsquare", "bigblackcircle"].includes(state) ? params.sizeNoiseVal : 1 - params.sizeNoiseVal,
+    small: ["smallredpin","smallbluepin", "smallblueball", "smallblacksquare"].includes(state) ? params.sizeNoiseVal : 1 - params.sizeNoiseVal,
     STOP : 1, 
     START : 1,
     and: 1
@@ -16,13 +19,16 @@ ball: ["smallblueball"].includes(state) ? 0.99 : 0.01,
 
 var model = function(params) {
   return {
-    words : ['red', 'blue', 'big', 'small', 'ball', 'pin', 'and', 'STOP', 'START'],
+    words : ['red', 'blue', 'big', 'small', 'ball', 'pin', 'and', 'circle', 'square', 'black', 'STOP', 'START'],
     wordCost: {
       "blue" : params.colorCost,
+"black" : params.colorCost,
       "red" : params.colorCost,
       "big" : params.sizeCost,
       "small" : params.sizeCost,
       "pin" : params.nounCost,
+"circle" : params.nounCost,
+"square" : params.nounCost,
       "ball" : params.nounCost,
       "and" : params.colorCost,
       'STOP'  : 0,
@@ -31,18 +37,18 @@ var model = function(params) {
   }
 }
 var params = {
-    alpha : 20.000000,
+    alpha : 5.000000,
     sizeNoiseVal : 0.800000,
     colorNoiseVal : 0.950000,
-    sizeCost : 0.000000,
-    colorCost : 0.000000,
-    nounCost : 0.000000
+    sizeCost : 0.100000,
+    colorCost : 0.100000,
+    nounCost : 0.100000
   }
   
 var semantics = semantics(params)
     
 var model = extend(model(params), 
- {states : ["smallbluepin","bigbluepin","bigredpin","smallblueball","bigredpin","bigredpin","bigredpin","bigredpin"], utterances : ["START pin STOP","START ball STOP","START pin red STOP","START pin blue STOP","START ball blue STOP","START pin big STOP","START pin small STOP","START ball small STOP","START pin blue and big STOP","START pin big and blue STOP","START pin red and big STOP","START pin big and red STOP","START pin blue and small STOP","START pin small and blue STOP","START ball blue and small STOP","START ball small and blue STOP"]}) 
+ {states : ["smallbluepin","bigbluepin","bigredpin","smallredball","bigbluesquare","bigbluesquare"], utterances : ["START pin STOP","START ball STOP","START pin red STOP","START pin blue STOP","START ball red STOP","START pin big STOP","START pin small STOP","START ball small STOP","START pin blue and big STOP","START pin big and blue STOP","START pin red and big STOP","START pin big and red STOP","START pin blue and small STOP","START pin small and blue STOP","START ball red and small STOP","START ball small and red STOP"]}) 
                  
 // safeDivide, getTransitions, licitTransitions: helper functions for incremental models 
 
