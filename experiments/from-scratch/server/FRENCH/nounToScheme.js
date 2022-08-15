@@ -5,7 +5,7 @@ export const nounToScheme = {
 "die": 0, "drum" : 0,"fish": 0,"frame":1 ,"hammer": 0,"knife": 0,
 "lipstick": 0,"lock": 0,"mask":1,"microscope": 0,"pencil": 1,"phone": 1
 ,"present": 1,"piano": 0,"whistle":0, "truck":0, "vase": 0, "switch":1,
-"shell": 0, "robot": 0, "razor": 0, "rug":1, "screwdriver": 0,
+"shell": 0, "robot": 0, "razor": 0, "rug":1,
 "fork": 0, "key":1, "remote":0,"belt":1,"candle":1,"calculator":1,"cap":1,
 "chair":1,"clock":1,"crown":1, "tie":0,
 "tent": 0, "spoon":0, "sock":0, "shovel":0, "scarf":1, "ruler":1, "ring":1,
