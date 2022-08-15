@@ -1,0 +1,709 @@
+Language,Semantics,Utility,Context,Utterance,Probability,UtteranceSpace,NounNoise
+English,Continuous,Global,1A,pin,0,full,0.99
+English,Continuous,Global,1A,small pin,0.352,full,0.99
+English,Continuous,Global,1A,blue pin,0.023,full,0.99
+English,Continuous,Global,1A,small blue pin,0.625,full,0.99
+Spanish,Continuous,Global,1A,pin,0,full,0.99
+Spanish,Continuous,Global,1A,pin small,0.352,full,0.99
+Spanish,Continuous,Global,1A,pin blue,0.023,full,0.99
+Spanish,Continuous,Global,1A,pin blue small,0.625,full,0.99
+French,Continuous,Global,1A,pin,0,full,0.99
+French,Continuous,Global,1A,small pin,0.352,full,0.99
+French,Continuous,Global,1A,pin blue,0.023,full,0.99
+French,Continuous,Global,1A,small pin blue,0.625,full,0.99
+Vietnamese,Continuous,Global,1A,pin,0,full,0.99
+Vietnamese,Continuous,Global,1A,pin small,0.217,full,0.99
+Vietnamese,Continuous,Global,1A,pin blue,0.014,full,0.99
+Vietnamese,Continuous,Global,1A,pin small and blue,0.384,full,0.99
+Vietnamese,Continuous,Global,1A,pin blue and small,0.384,full,0.99
+English,Continuous,Global,1B,pin,0,full,0.99
+English,Continuous,Global,1B,small pin,0.001,full,0.99
+English,Continuous,Global,1B,blue pin,0.823,full,0.99
+English,Continuous,Global,1B,small blue pin,0.176,full,0.99
+Spanish,Continuous,Global,1B,pin,0,full,0.99
+Spanish,Continuous,Global,1B,pin small,0.001,full,0.99
+Spanish,Continuous,Global,1B,pin blue,0.823,full,0.99
+Spanish,Continuous,Global,1B,pin blue small,0.176,full,0.99
+French,Continuous,Global,1B,pin,0,full,0.99
+French,Continuous,Global,1B,small pin,0.001,full,0.99
+French,Continuous,Global,1B,pin blue,0.823,full,0.99
+French,Continuous,Global,1B,small pin blue,0.176,full,0.99
+Vietnamese,Continuous,Global,1B,pin,0,full,0.99
+Vietnamese,Continuous,Global,1B,pin small,0.001,full,0.99
+Vietnamese,Continuous,Global,1B,pin blue,0.699,full,0.99
+Vietnamese,Continuous,Global,1B,pin small and blue,0.15,full,0.99
+Vietnamese,Continuous,Global,1B,pin blue and small,0.15,full,0.99
+English,Continuous,Global,2A,pin,0.002,full,0.99
+English,Continuous,Global,2A,small pin,0.392,full,0.99
+English,Continuous,Global,2A,blue pin,0.064,full,0.99
+English,Continuous,Global,2A,small blue pin,0.543,full,0.99
+Spanish,Continuous,Global,2A,pin,0.002,full,0.99
+Spanish,Continuous,Global,2A,pin small,0.392,full,0.99
+Spanish,Continuous,Global,2A,pin blue,0.064,full,0.99
+Spanish,Continuous,Global,2A,pin blue small,0.543,full,0.99
+French,Continuous,Global,2A,pin,0.002,full,0.99
+French,Continuous,Global,2A,small pin,0.392,full,0.99
+French,Continuous,Global,2A,pin blue,0.064,full,0.99
+French,Continuous,Global,2A,small pin blue,0.543,full,0.99
+Vietnamese,Continuous,Global,2A,pin,0.001,full,0.99
+Vietnamese,Continuous,Global,2A,pin small,0.254,full,0.99
+Vietnamese,Continuous,Global,2A,pin blue,0.041,full,0.99
+Vietnamese,Continuous,Global,2A,pin small and blue,0.352,full,0.99
+Vietnamese,Continuous,Global,2A,pin blue and small,0.352,full,0.99
+English,Continuous,Global,2B,pin,0,full,0.99
+English,Continuous,Global,2B,small pin,0.002,full,0.99
+English,Continuous,Global,2B,blue pin,0.873,full,0.99
+English,Continuous,Global,2B,small blue pin,0.125,full,0.99
+Spanish,Continuous,Global,2B,pin,0,full,0.99
+Spanish,Continuous,Global,2B,pin small,0.002,full,0.99
+Spanish,Continuous,Global,2B,pin blue,0.873,full,0.99
+Spanish,Continuous,Global,2B,pin blue small,0.125,full,0.99
+French,Continuous,Global,2B,pin,0,full,0.99
+French,Continuous,Global,2B,small pin,0.002,full,0.99
+French,Continuous,Global,2B,pin blue,0.873,full,0.99
+French,Continuous,Global,2B,small pin blue,0.125,full,0.99
+Vietnamese,Continuous,Global,2B,pin,0,full,0.99
+Vietnamese,Continuous,Global,2B,pin small,0.002,full,0.99
+Vietnamese,Continuous,Global,2B,pin blue,0.776,full,0.99
+Vietnamese,Continuous,Global,2B,pin small and blue,0.111,full,0.99
+Vietnamese,Continuous,Global,2B,pin blue and small,0.111,full,0.99
+English,Continuous,Global,3A,pin,0.542,full,0.99
+English,Continuous,Global,3A,small pin,0.062,full,0.99
+English,Continuous,Global,3A,blue pin,0.353,full,0.99
+English,Continuous,Global,3A,small blue pin,0.043,full,0.99
+Spanish,Continuous,Global,3A,pin,0.542,full,0.99
+Spanish,Continuous,Global,3A,pin small,0.062,full,0.99
+Spanish,Continuous,Global,3A,pin blue,0.353,full,0.99
+Spanish,Continuous,Global,3A,pin blue small,0.043,full,0.99
+French,Continuous,Global,3A,pin,0.542,full,0.99
+French,Continuous,Global,3A,small pin,0.062,full,0.99
+French,Continuous,Global,3A,pin blue,0.353,full,0.99
+French,Continuous,Global,3A,small pin blue,0.043,full,0.99
+Vietnamese,Continuous,Global,3A,pin,0.52,full,0.99
+Vietnamese,Continuous,Global,3A,pin small,0.059,full,0.99
+Vietnamese,Continuous,Global,3A,pin blue,0.339,full,0.99
+Vietnamese,Continuous,Global,3A,pin small and blue,0.041,full,0.99
+Vietnamese,Continuous,Global,3A,pin blue and small,0.041,full,0.99
+English,Continuous,Global,4,pin,0,full,0.99
+English,Continuous,Global,4,small pin,0.045,full,0.99
+English,Continuous,Global,4,blue pin,0.823,full,0.99
+English,Continuous,Global,4,small blue pin,0.132,full,0.99
+Spanish,Continuous,Global,4,pin,0,full,0.99
+Spanish,Continuous,Global,4,pin small,0.045,full,0.99
+Spanish,Continuous,Global,4,pin blue,0.823,full,0.99
+Spanish,Continuous,Global,4,pin blue small,0.132,full,0.99
+French,Continuous,Global,4,pin,0,full,0.99
+French,Continuous,Global,4,small pin,0.045,full,0.99
+French,Continuous,Global,4,pin blue,0.823,full,0.99
+French,Continuous,Global,4,small pin blue,0.132,full,0.99
+Vietnamese,Continuous,Global,4,pin,0,full,0.99
+Vietnamese,Continuous,Global,4,pin small,0.04,full,0.99
+Vietnamese,Continuous,Global,4,pin blue,0.727,full,0.99
+Vietnamese,Continuous,Global,4,pin small and blue,0.117,full,0.99
+Vietnamese,Continuous,Global,4,pin blue and small,0.117,full,0.99
+English,Continuous,Incremental,1A,pin,0.004,full,0.99
+English,Continuous,Incremental,1A,small pin,0.216,full,0.99
+English,Continuous,Incremental,1A,blue pin,0.06,full,0.99
+English,Continuous,Incremental,1A,small blue pin,0.72,full,0.99
+Spanish,Continuous,Incremental,1A,pin,0.007,full,0.99
+Spanish,Continuous,Incremental,1A,pin small,0.894,full,0.99
+Spanish,Continuous,Incremental,1A,pin blue,0.003,full,0.99
+Spanish,Continuous,Incremental,1A,pin blue small,0.096,full,0.99
+French,Continuous,Incremental,1A,pin,0,full,0.99
+French,Continuous,Incremental,1A,small pin,0.23,full,0.99
+French,Continuous,Incremental,1A,pin blue,0.004,full,0.99
+French,Continuous,Incremental,1A,small pin blue,0.766,full,0.99
+Vietnamese,Continuous,Incremental,1A,pin,0.004,full,0.99
+Vietnamese,Continuous,Incremental,1A,pin small,0.216,full,0.99
+Vietnamese,Continuous,Incremental,1A,pin blue,0.03,full,0.99
+Vietnamese,Continuous,Incremental,1A,pin small and blue,0.72,full,0.99
+Vietnamese,Continuous,Incremental,1A,pin blue and small,0.03,full,0.99
+English,Continuous,Incremental,1B,pin,0.001,full,0.99
+English,Continuous,Incremental,1B,small pin,0,full,0.99
+English,Continuous,Incremental,1B,blue pin,0.992,full,0.99
+English,Continuous,Incremental,1B,small blue pin,0.007,full,0.99
+Spanish,Continuous,Incremental,1B,pin,0.001,full,0.99
+Spanish,Continuous,Incremental,1B,pin small,0.006,full,0.99
+Spanish,Continuous,Incremental,1B,pin blue,0.434,full,0.99
+Spanish,Continuous,Incremental,1B,pin blue small,0.559,full,0.99
+French,Continuous,Incremental,1B,pin,0,full,0.99
+French,Continuous,Incremental,1B,small pin,0.005,full,0.99
+French,Continuous,Incremental,1B,pin blue,0.118,full,0.99
+French,Continuous,Incremental,1B,small pin blue,0.878,full,0.99
+Vietnamese,Continuous,Incremental,1B,pin,0.001,full,0.99
+Vietnamese,Continuous,Incremental,1B,pin small,0.003,full,0.99
+Vietnamese,Continuous,Incremental,1B,pin blue,0.434,full,0.99
+Vietnamese,Continuous,Incremental,1B,pin small and blue,0.003,full,0.99
+Vietnamese,Continuous,Incremental,1B,pin blue and small,0.559,full,0.99
+English,Continuous,Incremental,2A,pin,0.143,full,0.99
+English,Continuous,Incremental,2A,small pin,0.688,full,0.99
+English,Continuous,Incremental,2A,blue pin,0.129,full,0.99
+English,Continuous,Incremental,2A,small blue pin,0.04,full,0.99
+Spanish,Continuous,Incremental,2A,pin,0.007,full,0.99
+Spanish,Continuous,Incremental,2A,pin small,0.892,full,0.99
+Spanish,Continuous,Incremental,2A,pin blue,0.003,full,0.99
+Spanish,Continuous,Incremental,2A,pin blue small,0.097,full,0.99
+French,Continuous,Incremental,2A,pin,0.011,full,0.99
+French,Continuous,Incremental,2A,small pin,0.194,full,0.99
+French,Continuous,Incremental,2A,pin blue,0.153,full,0.99
+French,Continuous,Incremental,2A,small pin blue,0.642,full,0.99
+Vietnamese,Continuous,Incremental,2A,pin,0.004,full,0.99
+Vietnamese,Continuous,Incremental,2A,pin small,0.217,full,0.99
+Vietnamese,Continuous,Incremental,2A,pin blue,0.03,full,0.99
+Vietnamese,Continuous,Incremental,2A,pin small and blue,0.718,full,0.99
+Vietnamese,Continuous,Incremental,2A,pin blue and small,0.03,full,0.99
+English,Continuous,Incremental,2B,pin,0.072,full,0.99
+English,Continuous,Incremental,2B,small pin,0.016,full,0.99
+English,Continuous,Incremental,2B,blue pin,0.883,full,0.99
+English,Continuous,Incremental,2B,small blue pin,0.029,full,0.99
+Spanish,Continuous,Incremental,2B,pin,0.001,full,0.99
+Spanish,Continuous,Incremental,2B,pin small,0.006,full,0.99
+Spanish,Continuous,Incremental,2B,pin blue,0.434,full,0.99
+Spanish,Continuous,Incremental,2B,pin blue small,0.559,full,0.99
+French,Continuous,Incremental,2B,pin,0.001,full,0.99
+French,Continuous,Incremental,2B,small pin,0.002,full,0.99
+French,Continuous,Incremental,2B,pin blue,0.615,full,0.99
+French,Continuous,Incremental,2B,small pin blue,0.382,full,0.99
+Vietnamese,Continuous,Incremental,2B,pin,0.001,full,0.99
+Vietnamese,Continuous,Incremental,2B,pin small,0.003,full,0.99
+Vietnamese,Continuous,Incremental,2B,pin blue,0.434,full,0.99
+Vietnamese,Continuous,Incremental,2B,pin small and blue,0.003,full,0.99
+Vietnamese,Continuous,Incremental,2B,pin blue and small,0.559,full,0.99
+English,Continuous,Incremental,3A,pin,0.451,full,0.99
+English,Continuous,Incremental,3A,small pin,0,full,0.99
+English,Continuous,Incremental,3A,blue pin,0.549,full,0.99
+English,Continuous,Incremental,3A,small blue pin,0,full,0.99
+Spanish,Continuous,Incremental,3A,pin,0.311,full,0.99
+Spanish,Continuous,Incremental,3A,pin small,0.311,full,0.99
+Spanish,Continuous,Incremental,3A,pin blue,0.189,full,0.99
+Spanish,Continuous,Incremental,3A,pin blue small,0.189,full,0.99
+French,Continuous,Incremental,3A,pin,0.451,full,0.99
+French,Continuous,Incremental,3A,small pin,0,full,0.99
+French,Continuous,Incremental,3A,pin blue,0.549,full,0.99
+French,Continuous,Incremental,3A,small pin blue,0,full,0.99
+Vietnamese,Continuous,Incremental,3A,pin,0.301,full,0.99
+Vietnamese,Continuous,Incremental,3A,pin small,0.149,full,0.99
+Vietnamese,Continuous,Incremental,3A,pin blue,0.184,full,0.99
+Vietnamese,Continuous,Incremental,3A,pin small and blue,0.182,full,0.99
+Vietnamese,Continuous,Incremental,3A,pin blue and small,0.184,full,0.99
+English,Continuous,Incremental,4,pin,0.001,full,0.99
+English,Continuous,Incremental,4,small pin,0.018,full,0.99
+English,Continuous,Incremental,4,blue pin,0.725,full,0.99
+English,Continuous,Incremental,4,small blue pin,0.256,full,0.99
+Spanish,Continuous,Incremental,4,pin,0.001,full,0.99
+Spanish,Continuous,Incremental,4,pin small,0.085,full,0.99
+Spanish,Continuous,Incremental,4,pin blue,0.341,full,0.99
+Spanish,Continuous,Incremental,4,pin blue small,0.574,full,0.99
+French,Continuous,Incremental,4,pin,0,full,0.99
+French,Continuous,Incremental,4,small pin,0.065,full,0.99
+French,Continuous,Incremental,4,pin blue,0.002,full,0.99
+French,Continuous,Incremental,4,small pin blue,0.933,full,0.99
+Vietnamese,Continuous,Incremental,4,pin,0.001,full,0.99
+Vietnamese,Continuous,Incremental,4,pin small,0.015,full,0.99
+Vietnamese,Continuous,Incremental,4,pin blue,0.286,full,0.99
+Vietnamese,Continuous,Incremental,4,pin small and blue,0.216,full,0.99
+Vietnamese,Continuous,Incremental,4,pin blue and small,0.482,full,0.99
+English,Discrete,Global,1A,pin,0,full,0.99
+English,Discrete,Global,1A,small pin,0.499,full,0.99
+English,Discrete,Global,1A,blue pin,0.001,full,0.99
+English,Discrete,Global,1A,small blue pin,0.499,full,0.99
+Spanish,Discrete,Global,1A,pin,0,full,0.99
+Spanish,Discrete,Global,1A,pin small,0.499,full,0.99
+Spanish,Discrete,Global,1A,pin blue,0.001,full,0.99
+Spanish,Discrete,Global,1A,pin blue small,0.499,full,0.99
+French,Discrete,Global,1A,pin,0,full,0.99
+French,Discrete,Global,1A,small pin,0.499,full,0.99
+French,Discrete,Global,1A,pin blue,0.001,full,0.99
+French,Discrete,Global,1A,small pin blue,0.499,full,0.99
+Vietnamese,Discrete,Global,1A,pin,0,full,0.99
+Vietnamese,Discrete,Global,1A,pin small,0.333,full,0.99
+Vietnamese,Discrete,Global,1A,pin blue,0.001,full,0.99
+Vietnamese,Discrete,Global,1A,pin small and blue,0.333,full,0.99
+Vietnamese,Discrete,Global,1A,pin blue and small,0.333,full,0.99
+English,Discrete,Global,1B,pin,0,full,0.99
+English,Discrete,Global,1B,small pin,0.001,full,0.99
+English,Discrete,Global,1B,blue pin,0.499,full,0.99
+English,Discrete,Global,1B,small blue pin,0.499,full,0.99
+Spanish,Discrete,Global,1B,pin,0,full,0.99
+Spanish,Discrete,Global,1B,pin small,0.001,full,0.99
+Spanish,Discrete,Global,1B,pin blue,0.499,full,0.99
+Spanish,Discrete,Global,1B,pin blue small,0.499,full,0.99
+French,Discrete,Global,1B,pin,0,full,0.99
+French,Discrete,Global,1B,small pin,0.001,full,0.99
+French,Discrete,Global,1B,pin blue,0.499,full,0.99
+French,Discrete,Global,1B,small pin blue,0.499,full,0.99
+Vietnamese,Discrete,Global,1B,pin,0,full,0.99
+Vietnamese,Discrete,Global,1B,pin small,0.001,full,0.99
+Vietnamese,Discrete,Global,1B,pin blue,0.333,full,0.99
+Vietnamese,Discrete,Global,1B,pin small and blue,0.333,full,0.99
+Vietnamese,Discrete,Global,1B,pin blue and small,0.333,full,0.99
+English,Discrete,Global,2A,pin,0,full,0.99
+English,Discrete,Global,2A,small pin,0.499,full,0.99
+English,Discrete,Global,2A,blue pin,0.003,full,0.99
+English,Discrete,Global,2A,small blue pin,0.499,full,0.99
+Spanish,Discrete,Global,2A,pin,0,full,0.99
+Spanish,Discrete,Global,2A,pin small,0.499,full,0.99
+Spanish,Discrete,Global,2A,pin blue,0.003,full,0.99
+Spanish,Discrete,Global,2A,pin blue small,0.499,full,0.99
+French,Discrete,Global,2A,pin,0,full,0.99
+French,Discrete,Global,2A,small pin,0.499,full,0.99
+French,Discrete,Global,2A,pin blue,0.003,full,0.99
+French,Discrete,Global,2A,small pin blue,0.499,full,0.99
+Vietnamese,Discrete,Global,2A,pin,0,full,0.99
+Vietnamese,Discrete,Global,2A,pin small,0.333,full,0.99
+Vietnamese,Discrete,Global,2A,pin blue,0.002,full,0.99
+Vietnamese,Discrete,Global,2A,pin small and blue,0.333,full,0.99
+Vietnamese,Discrete,Global,2A,pin blue and small,0.333,full,0.99
+English,Discrete,Global,2B,pin,0,full,0.99
+English,Discrete,Global,2B,small pin,0.003,full,0.99
+English,Discrete,Global,2B,blue pin,0.499,full,0.99
+English,Discrete,Global,2B,small blue pin,0.499,full,0.99
+Spanish,Discrete,Global,2B,pin,0,full,0.99
+Spanish,Discrete,Global,2B,pin small,0.003,full,0.99
+Spanish,Discrete,Global,2B,pin blue,0.499,full,0.99
+Spanish,Discrete,Global,2B,pin blue small,0.499,full,0.99
+French,Discrete,Global,2B,pin,0,full,0.99
+French,Discrete,Global,2B,small pin,0.003,full,0.99
+French,Discrete,Global,2B,pin blue,0.499,full,0.99
+French,Discrete,Global,2B,small pin blue,0.499,full,0.99
+Vietnamese,Discrete,Global,2B,pin,0,full,0.99
+Vietnamese,Discrete,Global,2B,pin small,0.002,full,0.99
+Vietnamese,Discrete,Global,2B,pin blue,0.333,full,0.99
+Vietnamese,Discrete,Global,2B,pin small and blue,0.333,full,0.99
+Vietnamese,Discrete,Global,2B,pin blue and small,0.333,full,0.99
+English,Discrete,Global,3A,pin,0.25,full,0.99
+English,Discrete,Global,3A,small pin,0.25,full,0.99
+English,Discrete,Global,3A,blue pin,0.25,full,0.99
+English,Discrete,Global,3A,small blue pin,0.25,full,0.99
+Spanish,Discrete,Global,3A,pin,0.25,full,0.99
+Spanish,Discrete,Global,3A,pin small,0.25,full,0.99
+Spanish,Discrete,Global,3A,pin blue,0.25,full,0.99
+Spanish,Discrete,Global,3A,pin blue small,0.25,full,0.99
+French,Discrete,Global,3A,pin,0.25,full,0.99
+French,Discrete,Global,3A,small pin,0.25,full,0.99
+French,Discrete,Global,3A,pin blue,0.25,full,0.99
+French,Discrete,Global,3A,small pin blue,0.25,full,0.99
+Vietnamese,Discrete,Global,3A,pin,0.2,full,0.99
+Vietnamese,Discrete,Global,3A,pin small,0.2,full,0.99
+Vietnamese,Discrete,Global,3A,pin blue,0.2,full,0.99
+Vietnamese,Discrete,Global,3A,pin small and blue,0.2,full,0.99
+Vietnamese,Discrete,Global,3A,pin blue and small,0.2,full,0.99
+English,Discrete,Global,4,pin,0,full,0.99
+English,Discrete,Global,4,small pin,0.333,full,0.99
+English,Discrete,Global,4,blue pin,0.333,full,0.99
+English,Discrete,Global,4,small blue pin,0.333,full,0.99
+Spanish,Discrete,Global,4,pin,0,full,0.99
+Spanish,Discrete,Global,4,pin small,0.333,full,0.99
+Spanish,Discrete,Global,4,pin blue,0.333,full,0.99
+Spanish,Discrete,Global,4,pin blue small,0.333,full,0.99
+French,Discrete,Global,4,pin,0,full,0.99
+French,Discrete,Global,4,small pin,0.333,full,0.99
+French,Discrete,Global,4,pin blue,0.333,full,0.99
+French,Discrete,Global,4,small pin blue,0.333,full,0.99
+Vietnamese,Discrete,Global,4,pin,0,full,0.99
+Vietnamese,Discrete,Global,4,pin small,0.25,full,0.99
+Vietnamese,Discrete,Global,4,pin blue,0.25,full,0.99
+Vietnamese,Discrete,Global,4,pin small and blue,0.25,full,0.99
+Vietnamese,Discrete,Global,4,pin blue and small,0.25,full,0.99
+English,Discrete,Incremental,1A,pin,0,full,0.99
+English,Discrete,Incremental,1A,small pin,0.496,full,0.99
+English,Discrete,Incremental,1A,blue pin,0.008,full,0.99
+English,Discrete,Incremental,1A,small blue pin,0.496,full,0.99
+Spanish,Discrete,Incremental,1A,pin,0,full,0.99
+Spanish,Discrete,Incremental,1A,pin small,0.992,full,0.99
+Spanish,Discrete,Incremental,1A,pin blue,0,full,0.99
+Spanish,Discrete,Incremental,1A,pin blue small,0.008,full,0.99
+French,Discrete,Incremental,1A,pin,0,full,0.99
+French,Discrete,Incremental,1A,small pin,0.5,full,0.99
+French,Discrete,Incremental,1A,pin blue,0,full,0.99
+French,Discrete,Incremental,1A,small pin blue,0.5,full,0.99
+Vietnamese,Discrete,Incremental,1A,pin,0,full,0.99
+Vietnamese,Discrete,Incremental,1A,pin small,0.496,full,0.99
+Vietnamese,Discrete,Incremental,1A,pin blue,0.004,full,0.99
+Vietnamese,Discrete,Incremental,1A,pin small and blue,0.496,full,0.99
+Vietnamese,Discrete,Incremental,1A,pin blue and small,0.004,full,0.99
+English,Discrete,Incremental,1B,pin,0,full,0.99
+English,Discrete,Incremental,1B,small pin,0,full,0.99
+English,Discrete,Incremental,1B,blue pin,0.992,full,0.99
+English,Discrete,Incremental,1B,small blue pin,0.008,full,0.99
+Spanish,Discrete,Incremental,1B,pin,0,full,0.99
+Spanish,Discrete,Incremental,1B,pin small,0.008,full,0.99
+Spanish,Discrete,Incremental,1B,pin blue,0.496,full,0.99
+Spanish,Discrete,Incremental,1B,pin blue small,0.496,full,0.99
+French,Discrete,Incremental,1B,pin,0,full,0.99
+French,Discrete,Incremental,1B,small pin,0.007,full,0.99
+French,Discrete,Incremental,1B,pin blue,0.055,full,0.99
+French,Discrete,Incremental,1B,small pin blue,0.937,full,0.99
+Vietnamese,Discrete,Incremental,1B,pin,0,full,0.99
+Vietnamese,Discrete,Incremental,1B,pin small,0.004,full,0.99
+Vietnamese,Discrete,Incremental,1B,pin blue,0.496,full,0.99
+Vietnamese,Discrete,Incremental,1B,pin small and blue,0.004,full,0.99
+Vietnamese,Discrete,Incremental,1B,pin blue and small,0.496,full,0.99
+English,Discrete,Incremental,2A,pin,0.052,full,0.99
+English,Discrete,Incremental,2A,small pin,0.888,full,0.99
+English,Discrete,Incremental,2A,blue pin,0.052,full,0.99
+English,Discrete,Incremental,2A,small blue pin,0.007,full,0.99
+Spanish,Discrete,Incremental,2A,pin,0,full,0.99
+Spanish,Discrete,Incremental,2A,pin small,0.992,full,0.99
+Spanish,Discrete,Incremental,2A,pin blue,0,full,0.99
+Spanish,Discrete,Incremental,2A,pin blue small,0.008,full,0.99
+French,Discrete,Incremental,2A,pin,0.003,full,0.99
+French,Discrete,Incremental,2A,small pin,0.472,full,0.99
+French,Discrete,Incremental,2A,pin blue,0.052,full,0.99
+French,Discrete,Incremental,2A,small pin blue,0.472,full,0.99
+Vietnamese,Discrete,Incremental,2A,pin,0,full,0.99
+Vietnamese,Discrete,Incremental,2A,pin small,0.496,full,0.99
+Vietnamese,Discrete,Incremental,2A,pin blue,0.004,full,0.99
+Vietnamese,Discrete,Incremental,2A,pin small and blue,0.496,full,0.99
+Vietnamese,Discrete,Incremental,2A,pin blue and small,0.004,full,0.99
+English,Discrete,Incremental,2B,pin,0.052,full,0.99
+English,Discrete,Incremental,2B,small pin,0.026,full,0.99
+English,Discrete,Incremental,2B,blue pin,0.895,full,0.99
+English,Discrete,Incremental,2B,small blue pin,0.026,full,0.99
+Spanish,Discrete,Incremental,2B,pin,0,full,0.99
+Spanish,Discrete,Incremental,2B,pin small,0.008,full,0.99
+Spanish,Discrete,Incremental,2B,pin blue,0.496,full,0.99
+Spanish,Discrete,Incremental,2B,pin blue small,0.496,full,0.99
+French,Discrete,Incremental,2B,pin,0,full,0.99
+French,Discrete,Incremental,2B,small pin,0.004,full,0.99
+French,Discrete,Incremental,2B,pin blue,0.5,full,0.99
+French,Discrete,Incremental,2B,small pin blue,0.496,full,0.99
+Vietnamese,Discrete,Incremental,2B,pin,0,full,0.99
+Vietnamese,Discrete,Incremental,2B,pin small,0.004,full,0.99
+Vietnamese,Discrete,Incremental,2B,pin blue,0.496,full,0.99
+Vietnamese,Discrete,Incremental,2B,pin small and blue,0.004,full,0.99
+Vietnamese,Discrete,Incremental,2B,pin blue and small,0.496,full,0.99
+English,Discrete,Incremental,3A,pin,0.5,full,0.99
+English,Discrete,Incremental,3A,small pin,0,full,0.99
+English,Discrete,Incremental,3A,blue pin,0.5,full,0.99
+English,Discrete,Incremental,3A,small blue pin,0,full,0.99
+Spanish,Discrete,Incremental,3A,pin,0.333,full,0.99
+Spanish,Discrete,Incremental,3A,pin small,0.333,full,0.99
+Spanish,Discrete,Incremental,3A,pin blue,0.167,full,0.99
+Spanish,Discrete,Incremental,3A,pin blue small,0.167,full,0.99
+French,Discrete,Incremental,3A,pin,0.5,full,0.99
+French,Discrete,Incremental,3A,small pin,0,full,0.99
+French,Discrete,Incremental,3A,pin blue,0.5,full,0.99
+French,Discrete,Incremental,3A,small pin blue,0,full,0.99
+Vietnamese,Discrete,Incremental,3A,pin,0.333,full,0.99
+Vietnamese,Discrete,Incremental,3A,pin small,0.167,full,0.99
+Vietnamese,Discrete,Incremental,3A,pin blue,0.167,full,0.99
+Vietnamese,Discrete,Incremental,3A,pin small and blue,0.167,full,0.99
+Vietnamese,Discrete,Incremental,3A,pin blue and small,0.167,full,0.99
+English,Discrete,Incremental,4,pin,0,full,0.99
+English,Discrete,Incremental,4,small pin,0.25,full,0.99
+English,Discrete,Incremental,4,blue pin,0.5,full,0.99
+English,Discrete,Incremental,4,small blue pin,0.25,full,0.99
+Spanish,Discrete,Incremental,4,pin,0,full,0.99
+Spanish,Discrete,Incremental,4,pin small,0.5,full,0.99
+Spanish,Discrete,Incremental,4,pin blue,0.25,full,0.99
+Spanish,Discrete,Incremental,4,pin blue small,0.25,full,0.99
+French,Discrete,Incremental,4,pin,0,full,0.99
+French,Discrete,Incremental,4,small pin,0.5,full,0.99
+French,Discrete,Incremental,4,pin blue,0,full,0.99
+French,Discrete,Incremental,4,small pin blue,0.5,full,0.99
+Vietnamese,Discrete,Incremental,4,pin,0,full,0.99
+Vietnamese,Discrete,Incremental,4,pin small,0.25,full,0.99
+Vietnamese,Discrete,Incremental,4,pin blue,0.25,full,0.99
+Vietnamese,Discrete,Incremental,4,pin small and blue,0.25,full,0.99
+Vietnamese,Discrete,Incremental,4,pin blue and small,0.25,full,0.99
+English,Continuous,Global,3B,pin,0.558,full,0.99
+English,Continuous,Global,3B,small pin,0.068,full,0.99
+English,Continuous,Global,3B,blue pin,0.33,full,0.99
+English,Continuous,Global,3B,small blue pin,0.043,full,0.99
+Spanish,Continuous,Global,3B,pin,0.558,full,0.99
+Spanish,Continuous,Global,3B,pin small,0.068,full,0.99
+Spanish,Continuous,Global,3B,pin blue,0.33,full,0.99
+Spanish,Continuous,Global,3B,pin blue small,0.043,full,0.99
+French,Continuous,Global,3B,pin,0.558,full,0.99
+French,Continuous,Global,3B,small pin,0.068,full,0.99
+French,Continuous,Global,3B,pin blue,0.33,full,0.99
+French,Continuous,Global,3B,small pin blue,0.043,full,0.99
+Vietnamese,Continuous,Global,3B,pin,0.535,full,0.99
+Vietnamese,Continuous,Global,3B,pin small,0.065,full,0.99
+Vietnamese,Continuous,Global,3B,pin blue,0.317,full,0.99
+Vietnamese,Continuous,Global,3B,pin small and blue,0.041,full,0.99
+Vietnamese,Continuous,Global,3B,pin blue and small,0.041,full,0.99
+English,Discrete,Global,3B,pin,0.25,full,0.99
+English,Discrete,Global,3B,small pin,0.25,full,0.99
+English,Discrete,Global,3B,blue pin,0.25,full,0.99
+English,Discrete,Global,3B,small blue pin,0.25,full,0.99
+Spanish,Discrete,Global,3B,pin,0.25,full,0.99
+Spanish,Discrete,Global,3B,pin small,0.25,full,0.99
+Spanish,Discrete,Global,3B,pin blue,0.25,full,0.99
+Spanish,Discrete,Global,3B,pin blue small,0.25,full,0.99
+French,Discrete,Global,3B,pin,0.25,full,0.99
+French,Discrete,Global,3B,small pin,0.25,full,0.99
+French,Discrete,Global,3B,pin blue,0.25,full,0.99
+French,Discrete,Global,3B,small pin blue,0.25,full,0.99
+Vietnamese,Discrete,Global,3B,pin,0.2,full,0.99
+Vietnamese,Discrete,Global,3B,pin small,0.2,full,0.99
+Vietnamese,Discrete,Global,3B,pin blue,0.2,full,0.99
+Vietnamese,Discrete,Global,3B,pin small and blue,0.2,full,0.99
+Vietnamese,Discrete,Global,3B,pin blue and small,0.2,full,0.99
+English,Continuous,Incremental,3B,pin,0.461,full,0.99
+English,Continuous,Incremental,3B,small pin,0.269,full,0.99
+English,Continuous,Incremental,3B,blue pin,0,full,0.99
+English,Continuous,Incremental,3B,small blue pin,0.269,full,0.99
+Spanish,Continuous,Incremental,3B,pin,0.309,full,0.99
+Spanish,Continuous,Incremental,3B,pin small,0.361,full,0.99
+Spanish,Continuous,Incremental,3B,pin blue,0.152,full,0.99
+Spanish,Continuous,Incremental,3B,pin blue small,0.178,full,0.99
+French,Continuous,Incremental,3B,pin,0.231,full,0.99
+French,Continuous,Incremental,3B,small pin,0.269,full,0.99
+French,Continuous,Incremental,3B,pin blue,0.231,full,0.99
+French,Continuous,Incremental,3B,small pin blue,0.269,full,0.99
+Vietnamese,Continuous,Incremental,3B,pin,0.309,full,0.99
+Vietnamese,Continuous,Incremental,3B,pin small,0.18,full,0.99
+Vietnamese,Continuous,Incremental,3B,pin blue,0.152,full,0.99
+Vietnamese,Continuous,Incremental,3B,pin small and blue,0.18,full,0.99
+French,Continuous,Incremental,3B,pin blue and small,0.178,full,0.99
+English,Discrete,Incremental,3B,pin,0.5,full,0.99
+English,Discrete,Incremental,3B,small pin,0.25,full,0.99
+English,Discrete,Incremental,3B,blue pin,0,full,0.99
+English,Discrete,Incremental,3B,small blue pin,0.25,full,0.99
+Spanish,Discrete,Incremental,3B,pin,0.333,full,0.99
+Spanish,Discrete,Incremental,3B,pin small,0.333,full,0.99
+Spanish,Discrete,Incremental,3B,pin blue,0.167,full,0.99
+Spanish,Discrete,Incremental,3B,pin blue small,0.167,full,0.99
+French,Discrete,Incremental,3B,pin,0.25,full,0.99
+French,Discrete,Incremental,3B,small pin,0.25,full,0.99
+French,Discrete,Incremental,3B,pin blue,0.25,full,0.99
+French,Discrete,Incremental,3B,small pin blue,0.25,full,0.99
+Vietnamese,Discrete,Incremental,3B,pin,0.333,full,0.99
+Vietnamese,Discrete,Incremental,3B,pin small,0.167,full,0.99
+Vietnamese,Discrete,Incremental,3B,pin blue,0.167,full,0.99
+Vietnamese,Discrete,Incremental,3B,pin small and blue,0.167,full,0.99
+French,Discrete,Incremental,3B,pin blue and small,0.167,full,0.99
+English,Continuous,Global,3A,pin,0.605,pruned,0.99
+English,Continuous,Global,3A,blue pin,0.395,pruned,0.99
+Spanish,Continuous,Global,3A,pin,0.605,pruned,0.99
+Spanish,Continuous,Global,3A,pin blue,0.395,pruned,0.99
+French,Continuous,Global,3A,pin,0.605,pruned,0.99
+French,Continuous,Global,3A,pin blue,0.395,pruned,0.99
+Vietnamese,Continuous,Global,3A,pin,0.605,pruned,0.99
+Vietnamese,Continuous,Global,3A,pin blue,0.395,pruned,0.99
+English,Continuous,Incremental,3A,pin,0.451,pruned,0.99
+English,Continuous,Incremental,3A,blue pin,0.549,pruned,0.99
+Spanish,Continuous,Incremental,3A,pin,0.451,pruned,0.99
+Spanish,Continuous,Incremental,3A,pin blue,0.549,pruned,0.99
+French,Continuous,Incremental,3A,pin,0.451,pruned,0.99
+French,Continuous,Incremental,3A,pin blue,0.549,pruned,0.99
+Vietnamese,Continuous,Incremental,3A,pin,0.451,pruned,0.99
+Vietnamese,Continuous,Incremental,3A,pin blue,0.549,pruned,0.99
+English,Discrete,Global,3A,pin,0.5,pruned,0.99
+English,Discrete,Global,3A,blue pin,0.5,pruned,0.99
+Spanish,Discrete,Global,3A,pin,0.5,pruned,0.99
+Spanish,Discrete,Global,3A,pin blue,0.5,pruned,0.99
+French,Discrete,Global,3A,pin,0.5,pruned,0.99
+French,Discrete,Global,3A,pin blue,0.5,pruned,0.99
+Vietnamese,Discrete,Global,3A,pin,0.5,pruned,0.99
+Vietnamese,Discrete,Global,3A,pin blue,0.5,pruned,0.99
+English,Discrete,Incremental,3A,pin,0.5,pruned,0.99
+English,Discrete,Incremental,3A,blue pin,0.5,pruned,0.99
+Spanish,Discrete,Incremental,3A,pin,0.5,pruned,0.99
+Spanish,Discrete,Incremental,3A,pin blue,0.5,pruned,0.99
+French,Discrete,Incremental,3A,pin,0.5,pruned,0.99
+French,Discrete,Incremental,3A,pin blue,0.5,pruned,0.99
+Vietnamese,Discrete,Incremental,3A,pin,0.5,pruned,0.99
+Vietnamese,Discrete,Incremental,3A,pin blue,0.5,pruned,0.99
+English,Continuous,Global,3B,pin,0.891,pruned,0.99
+English,Continuous,Global,3B,small pin,0.109,pruned,0.99
+Spanish,Continuous,Global,3B,pin,0.891,pruned,0.99
+Spanish,Continuous,Global,3B,pin small,0.109,pruned,0.99
+French,Continuous,Global,3B,pin,0.891,pruned,0.99
+French,Continuous,Global,3B,small pin,0.109,pruned,0.99
+Vietnamese,Continuous,Global,3B,pin,0.891,pruned,0.99
+Vietnamese,Continuous,Global,3B,pin small,0.109,pruned,0.99
+English,Continuous,Incremental,3B,pin,0.461,pruned,0.99
+English,Continuous,Incremental,3B,small pin,0.539,pruned,0.99
+Spanish,Continuous,Incremental,3B,pin,0.461,pruned,0.99
+Spanish,Continuous,Incremental,3B,pin small,0.539,pruned,0.99
+French,Continuous,Incremental,3B,pin,0.461,pruned,0.99
+French,Continuous,Incremental,3B,small pin,0.539,pruned,0.99
+Vietnamese,Continuous,Incremental,3B,pin,0.461,pruned,0.99
+Vietnamese,Continuous,Incremental,3B,pin small,0.539,pruned,0.99
+English,Discrete,Global,3B,pin,0.5,pruned,0.99
+English,Discrete,Global,3B,small pin,0.5,pruned,0.99
+Spanish,Discrete,Global,3B,pin,0.5,pruned,0.99
+Spanish,Discrete,Global,3B,pin small,0.5,pruned,0.99
+French,Discrete,Global,3B,pin,0.5,pruned,0.99
+French,Discrete,Global,3B,small pin,0.5,pruned,0.99
+Vietnamese,Discrete,Global,3B,pin,0.5,pruned,0.99
+Vietnamese,Discrete,Global,3B,pin small,0.5,pruned,0.99
+English,Discrete,Incremental,3B,pin,0.5,pruned,0.99
+English,Discrete,Incremental,3B,small pin,0.5,pruned,0.99
+Spanish,Discrete,Incremental,3B,pin,0.5,pruned,0.99
+Spanish,Discrete,Incremental,3B,pin small,0.5,pruned,0.99
+French,Discrete,Incremental,3B,pin,0.5,pruned,0.99
+French,Discrete,Incremental,3B,small pin,0.5,pruned,0.99
+Vietnamese,Discrete,Incremental,3B,pin,0.5,pruned,0.99
+Vietnamese,Discrete,Incremental,3B,pin small,0.5,pruned,0.99
+English,Continuous,Global,3A,pin,0.362,pruned,0.9
+English,Continuous,Global,3A,blue pin,0.638,pruned,0.9
+Spanish,Continuous,Global,3A,pin,0.362,pruned,0.9
+Spanish,Continuous,Global,3A,pin blue,0.638,pruned,0.9
+French,Continuous,Global,3A,pin,0.362,pruned,0.9
+French,Continuous,Global,3A,pin blue,0.638,pruned,0.9
+Vietnamese,Continuous,Global,3A,pin,0.362,pruned,0.9
+Vietnamese,Continuous,Global,3A,pin blue,0.638,pruned,0.9
+English,Continuous,Incremental,3A,pin,0.131,pruned,0.9
+English,Continuous,Incremental,3A,blue pin,0.869,pruned,0.9
+Spanish,Continuous,Incremental,3A,pin,0.131,pruned,0.9
+Spanish,Continuous,Incremental,3A,pin blue,0.869,pruned,0.9
+French,Continuous,Incremental,3A,pin,0.131,pruned,0.9
+French,Continuous,Incremental,3A,pin blue,0.869,pruned,0.9
+Vietnamese,Continuous,Incremental,3A,pin,0.131,pruned,0.9
+Vietnamese,Continuous,Incremental,3A,pin blue,0.869,pruned,0.9
+English,Continuous,Global,3B,pin,0.764,pruned,0.9
+English,Continuous,Global,3B,small pin,0.236,pruned,0.9
+Spanish,Continuous,Global,3B,pin,0.764,pruned,0.9
+Spanish,Continuous,Global,3B,pin small,0.236,pruned,0.9
+French,Continuous,Global,3B,pin,0.764,pruned,0.9
+French,Continuous,Global,3B,small pin,0.236,pruned,0.9
+Vietnamese,Continuous,Global,3B,pin,0.764,pruned,0.9
+Vietnamese,Continuous,Global,3B,pin small,0.236,pruned,0.9
+English,Continuous,Incremental,3B,pin,0.189,pruned,0.9
+English,Continuous,Incremental,3B,small pin,0.811,pruned,0.9
+Spanish,Continuous,Incremental,3B,pin,0.189,pruned,0.9
+Spanish,Continuous,Incremental,3B,pin small,0.811,pruned,0.9
+French,Continuous,Incremental,3B,pin,0.189,pruned,0.9
+French,Continuous,Incremental,3B,small pin,0.811,pruned,0.9
+Vietnamese,Continuous,Incremental,3B,pin,0.189,pruned,0.9
+Vietnamese,Continuous,Incremental,3B,pin small,0.811,pruned,0.9
+English,Continuous,Global,5A,pin,0,full,0.99
+English,Continuous,Global,5A,small pin,0.128,full,0.99
+English,Continuous,Global,5A,blue pin,0.244,full,0.99
+English,Continuous,Global,5A,small blue pin,0.629,full,0.99
+Spanish,Continuous,Global,5A,pin,0,full,0.99
+Spanish,Continuous,Global,5A,pin small,0.128,full,0.99
+Spanish,Continuous,Global,5A,pin blue,0.244,full,0.99
+Spanish,Continuous,Global,5A,pin blue small,0.629,full,0.99
+French,Continuous,Global,5A,pin,0,full,0.99
+French,Continuous,Global,5A,small pin,0.128,full,0.99
+French,Continuous,Global,5A,pin blue,0.244,full,0.99
+French,Continuous,Global,5A,small pin blue,0.629,full,0.99
+Vietnamese,Continuous,Global,5A,pin,0,full,0.99
+Vietnamese,Continuous,Global,5A,pin small,0.078,full,0.99
+Vietnamese,Continuous,Global,5A,pin blue,0.15,full,0.99
+Vietnamese,Continuous,Global,5A,pin small and blue,0.386,full,0.99
+Vietnamese,Continuous,Global,5A,pin blue and small,0.386,full,0.99
+English,Continuous,Incremental,5A,pin,0,full,0.99
+English,Continuous,Incremental,5A,small pin,0.017,full,0.99
+English,Continuous,Incremental,5A,blue pin,0.185,full,0.99
+English,Continuous,Incremental,5A,small blue pin,0.798,full,0.99
+Spanish,Continuous,Incremental,5A,pin,0,full,0.99
+Spanish,Continuous,Incremental,5A,pin small,0.469,full,0.99
+Spanish,Continuous,Incremental,5A,pin blue,0.013,full,0.99
+Spanish,Continuous,Incremental,5A,pin blue small,0.518,full,0.99
+French,Continuous,Incremental,5A,pin,0,full,0.99
+French,Continuous,Incremental,5A,small pin,0.021,full,0.99
+French,Continuous,Incremental,5A,pin blue,0,full,0.99
+French,Continuous,Incremental,5A,small pin blue,0.978,full,0.99
+Vietnamese,Continuous,Incremental,5A,pin,0,full,0.99
+Vietnamese,Continuous,Incremental,5A,pin small,0.017,full,0.99
+Vietnamese,Continuous,Incremental,5A,pin blue,0.092,full,0.99
+Vietnamese,Continuous,Incremental,5A,pin small and blue,0.798,full,0.99
+Vietnamese,Continuous,Incremental,5A,pin blue and small,0.092,full,0.99
+English,Discrete,Global,5A,pin,0,full,0.99
+English,Discrete,Global,5A,small pin,0.496,full,0.99
+English,Discrete,Global,5A,blue pin,0.009,full,0.99
+English,Discrete,Global,5A,small blue pin,0.496,full,0.99
+Spanish,Discrete,Global,5A,pin,0,full,0.99
+Spanish,Discrete,Global,5A,pin small,0.496,full,0.99
+Spanish,Discrete,Global,5A,pin blue,0.009,full,0.99
+Spanish,Discrete,Global,5A,pin blue small,0.496,full,0.99
+French,Discrete,Global,5A,pin,0,full,0.99
+French,Discrete,Global,5A,small pin,0.496,full,0.99
+French,Discrete,Global,5A,pin blue,0.009,full,0.99
+French,Discrete,Global,5A,small pin blue,0.496,full,0.99
+Vietnamese,Discrete,Global,5A,pin,0,full,0.99
+Vietnamese,Discrete,Global,5A,pin small,0.331,full,0.99
+Vietnamese,Discrete,Global,5A,pin blue,0.006,full,0.99
+Vietnamese,Discrete,Global,5A,pin small and blue,0.331,full,0.99
+Vietnamese,Discrete,Global,5A,pin blue and small,0.331,full,0.99
+English,Discrete,Incremental,5A,pin,0,full,0.99
+English,Discrete,Incremental,5A,small pin,0.496,full,0.99
+English,Discrete,Incremental,5A,blue pin,0.008,full,0.99
+English,Discrete,Incremental,5A,small blue pin,0.496,full,0.99
+Spanish,Discrete,Incremental,5A,pin,0,full,0.99
+Spanish,Discrete,Incremental,5A,pin small,0.992,full,0.99
+Spanish,Discrete,Incremental,5A,pin blue,0,full,0.99
+Spanish,Discrete,Incremental,5A,pin blue small,0.008,full,0.99
+French,Discrete,Incremental,5A,pin,0,full,0.99
+French,Discrete,Incremental,5A,small pin,0.5,full,0.99
+French,Discrete,Incremental,5A,pin blue,0,full,0.99
+French,Discrete,Incremental,5A,small pin blue,0.5,full,0.99
+Vietnamese,Discrete,Incremental,5A,pin,0,full,0.99
+Vietnamese,Discrete,Incremental,5A,pin small,0.496,full,0.99
+Vietnamese,Discrete,Incremental,5A,pin blue,0.004,full,0.99
+Vietnamese,Discrete,Incremental,5A,pin small and blue,0.496,full,0.99
+Vietnamese,Discrete,Incremental,5A,pin blue and small,0.004,full,0.99
+English,Continuous,Global,5B,pin,0,full,0.99
+English,Continuous,Global,5B,small pin,0.001,full,0.99
+English,Continuous,Global,5B,blue pin,0.892,full,0.99
+English,Continuous,Global,5B,small blue pin,0.106,full,0.99
+Spanish,Continuous,Global,5B,pin,0,full,0.99
+Spanish,Continuous,Global,5B,pin small,0.001,full,0.99
+Spanish,Continuous,Global,5B,pin blue,0.892,full,0.99
+Spanish,Continuous,Global,5B,pin blue small,0.106,full,0.99
+French,Continuous,Global,5B,pin,0,full,0.99
+French,Continuous,Global,5B,small pin,0.001,full,0.99
+French,Continuous,Global,5B,pin blue,0.892,full,0.99
+French,Continuous,Global,5B,small pin blue,0.106,full,0.99
+Vietnamese,Continuous,Global,5B,pin,0,full,0.99
+Vietnamese,Continuous,Global,5B,pin small,0.001,full,0.99
+Vietnamese,Continuous,Global,5B,pin blue,0.807,full,0.99
+Vietnamese,Continuous,Global,5B,pin small and blue,0.096,full,0.99
+Vietnamese,Continuous,Global,5B,pin blue and small,0.096,full,0.99
+English,Continuous,Incremental,5B,pin,0,full,0.99
+English,Continuous,Incremental,5B,small pin,0,full,0.99
+English,Continuous,Incremental,5B,blue pin,0.998,full,0.99
+English,Continuous,Incremental,5B,small blue pin,0.002,full,0.99
+Spanish,Continuous,Incremental,5B,pin,0,full,0.99
+Spanish,Continuous,Incremental,5B,pin small,0.002,full,0.99
+Spanish,Continuous,Incremental,5B,pin blue,0.282,full,0.99
+Spanish,Continuous,Incremental,5B,pin blue small,0.717,full,0.99
+French,Continuous,Incremental,5B,pin,0,full,0.99
+French,Continuous,Incremental,5B,small pin,0.001,full,0.99
+French,Continuous,Incremental,5B,pin blue,0.008,full,0.99
+French,Continuous,Incremental,5B,small pin blue,0.991,full,0.99
+Vietnamese,Continuous,Incremental,5B,pin,0,full,0.99
+Vietnamese,Continuous,Incremental,5B,pin small,0.001,full,0.99
+Vietnamese,Continuous,Incremental,5B,pin blue,0.282,full,0.99
+Vietnamese,Continuous,Incremental,5B,pin small and blue,0.001,full,0.99
+Vietnamese,Continuous,Incremental,5B,pin blue and small,0.717,full,0.99
+English,Discrete,Global,5B,pin,0,full,0.99
+English,Discrete,Global,5B,small pin,0.009,full,0.99
+English,Discrete,Global,5B,blue pin,0.496,full,0.99
+English,Discrete,Global,5B,small blue pin,0.496,full,0.99
+Spanish,Discrete,Global,5B,pin,0,full,0.99
+Spanish,Discrete,Global,5B,pin small,0.009,full,0.99
+Spanish,Discrete,Global,5B,pin blue,0.496,full,0.99
+Spanish,Discrete,Global,5B,pin blue small,0.496,full,0.99
+French,Discrete,Global,5B,pin,0,full,0.99
+French,Discrete,Global,5B,small pin,0.009,full,0.99
+French,Discrete,Global,5B,pin blue,0.496,full,0.99
+French,Discrete,Global,5B,small pin blue,0.496,full,0.99
+Vietnamese,Discrete,Global,5B,pin,0,full,0.99
+Vietnamese,Discrete,Global,5B,pin small,0.006,full,0.99
+Vietnamese,Discrete,Global,5B,pin blue,0.331,full,0.99
+Vietnamese,Discrete,Global,5B,pin small and blue,0.331,full,0.99
+Vietnamese,Discrete,Global,5B,pin blue and small,0.331,full,0.99
+English,Discrete,Incremental,5B,pin,0,full,0.99
+English,Discrete,Incremental,5B,small pin,0,full,0.99
+English,Discrete,Incremental,5B,blue pin,0.992,full,0.99
+English,Discrete,Incremental,5B,small blue pin,0.008,full,0.99
+Spanish,Discrete,Incremental,5B,pin,0,full,0.99
+Spanish,Discrete,Incremental,5B,pin small,0.008,full,0.99
+Spanish,Discrete,Incremental,5B,pin blue,0.496,full,0.99
+Spanish,Discrete,Incremental,5B,pin blue small,0.496,full,0.99
+French,Discrete,Incremental,5B,pin,0,full,0.99
+French,Discrete,Incremental,5B,small pin,0.008,full,0.99
+French,Discrete,Incremental,5B,pin blue,0,full,0.99
+French,Discrete,Incremental,5B,small pin blue,0.992,full,0.99
+Vietnamese,Discrete,Incremental,5B,pin,0,full,0.99
+Vietnamese,Discrete,Incremental,5B,pin small,0.004,full,0.99
+Vietnamese,Discrete,Incremental,5B,pin blue,0.496,full,0.99
+Vietnamese,Discrete,Incremental,5B,pin small and blue,0.004,full,0.99
+Vietnamese,Discrete,Incremental,5B,pin blue and small,0.496,full,0.99
