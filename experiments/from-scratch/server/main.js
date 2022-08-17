@@ -35,6 +35,8 @@ Empirica.gameInit((game) => {
   } else if (game.treatment.sceneGenerator == "French1"){
     console.log("generating French scenes")
       return(require("./FRENCH/generateScenesFrench1"))
+  } else if (game.treatment.sceneGenerator == "Vietnamese1"){
+      return(require("./VIETNAMESE/generateScenesVietnamese1"))
   } else {
       return(require("./degenEtal2020/generateScenes"));
     }

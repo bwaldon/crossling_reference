@@ -110,7 +110,7 @@ class ListenerTask extends React.Component {
 
 		const images = this.images.map((image,) => {
 			let path = ""
-			if (game.treatment.sceneGenerator != "French1"){
+			if (game.treatment.sceneGenerator != "French1" && game.treatment.sceneGenerator != "Vietnamese1"){
 				path = "images/" + this.imageType + "/" + image.name + ".jpg";
 			} else{
 				path = "images/pophristic_stimuli/" + image.name + ".jpg";
@@ -125,7 +125,7 @@ class ListenerTask extends React.Component {
 				highlighted = this.state.selected == image.id ? true : false
 				borderColor = "black"
 			}
-			if (game.treatment.sceneGenerator != "French1"){
+			if (game.treatment.sceneGenerator != "French1" && game.treatment.sceneGenerator != "Vietnamese1"){
 				return(<Image image={image} path= {path} onClick = {this.handleChange} borderColor = {borderColor} highlighted = {highlighted} /> )
 			} else {// variable sizes for images
 				return(<Image_var image={image} path= {path} onClick = {this.handleChange} borderColor = {borderColor} highlighted = {highlighted} /> )
@@ -193,7 +193,7 @@ class SpeakerTask extends React.Component {
 		const images = this.images.map((image,) => {
 			let path = ""
 			console.log(image)
-			if (game.treatment.sceneGenerator != "French1"){
+			if (game.treatment.sceneGenerator != "French1" && game.treatment.sceneGenerator != "Vietnamese1"){
 				path = "images/" + this.imageType + "/" + image.name + ".jpg";
 			} else{
 				path = "images/pophristic_stimuli/" + image.name + ".jpg";
@@ -208,7 +208,7 @@ class SpeakerTask extends React.Component {
 				highlighted = target.id === image.id ? true : false
 				borderColor = 'black'
 			}
-			if (game.treatment.sceneGenerator != "French1"){
+			if (game.treatment.sceneGenerator != "French1" && game.treatment.sceneGenerator != "Vietnamese1"){
 				return(<Image image={image} path= {path} onClick = {this.handleChange} borderColor = {borderColor} highlighted = {highlighted} /> )
 			} else {
 				return(<Image_var image={image} path= {path} onClick = {this.handleChange} borderColor = {borderColor} highlighted = {highlighted} /> )
