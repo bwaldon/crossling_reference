@@ -14,19 +14,20 @@ output: pdf_document
 ```{r data import, include=FALSE}
 library(tidyverse)
 theme_set(theme_bw())
-source("../shared/final_analysis.R")
+
+source("./analysisHelper.R")
 
 #data sources for stimuli: colors and objects
-wordListRaw = read.csv("../data/wordList.csv")
+wordListRaw = read.csv("../data_input/wordList.csv")
 wordList <- wordListRaw %>%
   select(Item, Gender) %>% 
   unique()
-colorList = read.csv("../data/colorList.csv")
+colorList = read.csv("../data_input/colorList.csv")
 colorList <- colorList[-c(2)]
 
 #participant data
-df = read.csv("../data/french_noun_norming-merged_2.csv", header = TRUE)
-cf = read.csv("../data/french_color_norming-merged_2.csv", header = TRUE)
+df = read.csv("../data_input/french_noun_norming-merged_2.csv", header = TRUE)
+cf = read.csv("../data_input/french_color_norming-merged_2.csv", header = TRUE)
 
 origdf <- df
 
@@ -275,7 +276,7 @@ above <- resultsNoun %>% filter(percent >= 0.70)
 view(below)
 view(above)
 above <- apply(above,2,as.character)
-write.csv(above, "noun_final.csv")
+write.csv(above, "../data_output/noun_final.csv")
 nrow(below) #21
 nrow(above) #83
 #For French--checking gender of accepted nouns:
