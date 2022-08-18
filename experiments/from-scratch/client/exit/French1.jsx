@@ -43,6 +43,7 @@ export default class ExitSurveyLangSpecific extends React.Component {
 	handleSubmit = (event) => {
 		event.preventDefault();
 		console.log(this.state);
+		console.log(this.props.game)
 		this.props.onSubmit(this.state);
 	};
 
