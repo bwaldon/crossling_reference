@@ -73,6 +73,12 @@ transformDataDegen2020Raw <- function(d) {
   guesserAllMessages <- c()
   nameClickedObj <- c()
   selectionSize <- c()
+  distractorOne <- c()
+  distractorTwo <- c()
+  distractorThree <- c()
+  distractorFour <- c()
+  distractorFive <- c()
+  itemID <- c()
   d <- d %>%
     filter(!(chat == "NULL"))
   for(i in seq(nrow(d))) {
@@ -107,6 +113,7 @@ transformDataDegen2020Raw <- function(d) {
     
     sel <- d[i,]$listenerSelection
     images<- data.frame(d[i,]$images)
+    images$combined_name <- paste(images$size, images$name, sep = "_")
     
     if(is.na(sel) || sel == "NONE") {
       nameClickedObj[i] <- sel 
@@ -119,13 +126,33 @@ transformDataDegen2020Raw <- function(d) {
     } else {
       selectionSize[i] <- (images %>% filter(id == sel))$size
     }
-    
     nameClickedObj[i] <- paste(selectionSize[i],nameClickedObj[i], sep = "_")
     
+    #adding identification code - pairwise for items
+    pair <- ""
+    for (j in seq(nrow(images))){
+      imageFull <- (images %>% filter(id == j))$name
+      imageType <- str_split(imageFull, "_")[[1]][2]
+      if (!grepl(imageType, pair)){
+        pair <- paste(imageType, pair, sep = "_")
+      }
+    }
+    itemID[i] <- substr(pair,0,nchar(pair)-1)
+    
+    # adding distractor items
+    distractorOne[i] <- (images %>% filter(id == 2))$combined_name
+    distractorTwo[i] <- (images %>% filter(id == 3))$combined_name
+    distractorThree[i] <- (images %>% filter(id == 4))$combined_name
+    if (nrow(images) > 4) {
+      distractorFour[i] <- (images %>% filter(id == 5))$combined_name
+      distractorFive[i] <- (images %>% filter(id == 6))$combined_name
+    }
   }
   rm(chat_temp, guesserChat, directorChat, i, sel, images)
-  d <- cbind(d, directorAllMessages, directorFirstMessage, guesserAllMessages, nameClickedObj)
-  rm(directorAllMessages, directorFirstMessage, guesserAllMessages, nameClickedObj)
+  d <- cbind(d, itemID, directorAllMessages, directorFirstMessage, guesserAllMessages, nameClickedObj, 
+             distractorOne, distractorTwo,distractorThree, distractorFour,distractorFive)
+  rm(directorAllMessages, directorFirstMessage, guesserAllMessages, nameClickedObj,distractorOne, 
+     distractorTwo,distractorThree, distractorFour,distractorFive, itemID)
   d <- d %>%
     mutate(correct = ifelse(d$target$id == listenerSelection, 1, 0))
   return(d)
@@ -154,8 +181,8 @@ accuracyExclusions <- function(d, makeGraph = FALSE, xlab = "Speakers") {
       theme(axis.text.x=element_blank()) +
       ylab("Accuracy") +
       xlab(xlab)
-    ggsave(g, file="viz/accuracy.pdf",width=5,height=3)
-    print("Wrote graph to ./viz/accuracy.pdf")
+    ggsave(g, file="../graphs/accuracy.pdf",width=5,height=3)
+    print("Wrote graph to ../graphs/accuracy.pdf")
   }
   excludeAccuracy = toplot %>%
     filter(lowacc==1)
@@ -184,8 +211,8 @@ plotAccuracyByTrialType <- function(d) {
           legend.position = "none") +
     ylab("Accuracy") +
     xlab("Trial type")
-  ggsave(file="viz/accuracy_trialType.pdf",width=6,height=4.5)
-  print("Wrote graph to ./viz/accuracy_trialType.pdf")
+  ggsave(file="../graphs/accuracy_trialType.pdf",width=6,height=4.5)
+  print("Wrote graph to ../graphs/accuracy_trialType.pdf")
 }
 
 # automaticAnnotate: performs automatic annotation of the raw data 
@@ -243,6 +270,7 @@ produceBDAandRegressionData <- function(d, destinationFolder) {
   d$Distractors_RedProp = ifelse(grepl("basic", d$condition, fixed = TRUE), "NA", ifelse(grepl("same_same|diff_same", d$condition), "same", ifelse(grepl("same_diff|diff_diff", d$condition), "diff", "other")))
   d$SceneVariation = d$NumDiffDistractors/d$NumDistractors
   d$TypeMentioned = d$typeMentioned
+  
   # Reduce dataset to target trials for visualization and analysis
   
   # Exclude trials on which target wasn't selected
@@ -304,8 +332,10 @@ produceBDAandRegressionData <- function(d, destinationFolder) {
            listenerMessages = guesserAllMessages) %>%
     mutate(clickedColor = as.character(clickedColor),
            clickedSize = as.character(clickedSize),
-           clickedType = as.character(clickedType)) %>%
-    select(gameid,Trial,TargetItem,UtteranceType,redUtterance,Sufficient_Property,Redundant_Property,NumDistractors,NumSameDistractors,Distractors_Noun,Distractors_RedProp,SceneVariation,speakerMessages,listenerMessages,refExp,minimal,redundant,clickedType,clickedSize,clickedColor,colorMentioned,sizeMentioned,typeMentioned,oneMentioned,theMentioned) #
+           clickedType = as.character(clickedType),
+           TrialType = ifelse(grepl("filler",condition),"control","target")) %>%
+    select(gameid,Trial,condition, TrialType, itemID,TargetItem,UtteranceType,redUtterance,
+           Sufficient_Property,Redundant_Property,NumDistractors,NumSameDistractors,Distractors_Noun,Distractors_RedProp,speakerMessages,listenerMessages,refExp,minimal,redundant,clickedType,clickedSize,clickedColor,colorMentioned,sizeMentioned,typeMentioned,oneMentioned,theMentioned,distractorOne, distractorTwo, distractorThree, distractorFour,distractorFive) #
   nrow(dd)
 
   write_delim(dd, sprintf("%s/data_exp1.tsv", destinationFolder),delim="\t")

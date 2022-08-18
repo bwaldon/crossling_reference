@@ -5,15 +5,15 @@ library(tidyverse)
 library(jsonlite)
 theme_set(theme_bw())
 
-source("../_shared/regressionHelpers.R")
-source("../_shared/preprocessingHelpers_copy.R")
+source("../../../../_shared/regressionHelpers.R")
+source("./preprocessingHelpers_copy.R")
 
 # Step 1: read in raw game data
 
 ## Option (a): read in the rounds and player info info from the Mongo database
 
 ### mongoCreds contains the API key to the Mongo database (ask Brandon for credentials)
-mongoCreds <- readLines("../../api_keys/mongo")
+mongoCreds <- readLines("../../../../../api_keys/mongo")
 
 ### 'Rounds' contains the by-trial info for the games played by the players
 
@@ -22,7 +22,7 @@ d <- getRoundData_byLanguage("English_32",mongoCreds)
   # filter(updatedAt > "2021-12-14 00:00:00")
   #filter(updatedAt > "2022-8-15 13:30:00")
 
-saveRDS(d, file = "../../data/EnglishPilot32/rawData.rds")
+saveRDS(d, file = "../../../../../data/English2022 (ang_manh)/pilot/rawData.rds")
 
 # ## Option (b): Read in the raw data from .rds (rather than querying database)
 # ## For pipelining: read in data from 2-person pilot
@@ -39,7 +39,7 @@ rawD <- d
 
 player_info <- getPlayerDemographicData(unique(d$gameId),mongoCreds)
 
-saveRDS(player_info, file = "../../data/EnglishPilot32/rawPlayerInfo.rds")
+saveRDS(player_info, file = "../../../../../data/English2022 (ang_manh)/pilot/rawPlayerInfo.rds")
 
 # ## Option (b): read in the raw data from .rds (rather than querying the database)
 
@@ -106,11 +106,11 @@ d_preManualTypoCorrection <- automaticAnnotate(d, colorTerms, sizeTerms, nouns, 
 write_delim(data.frame(d_preManualTypoCorrection %>%
                           select(-target, -images, -listenerImages, -speakerImages,
                                 -chat)), 
-             "../../data/EnglishPilot32/preManualTypoCorrection_part2.tsv", delim="\t")
+             "../../../../../data/English2022 (ang_manh)/pilot/preManualTypoCorrection_part2.tsv", delim="\t")
 
 # # Step 9: Read manually corrected dataset for further preprocessing
 # # Make sure file being read in is *post* manual correction ('pre' just for testing)
-d <- read_delim("../../data/EnglishPilot32/preManualTypoCorrection_part2.tsv", delim = "\t") %>%
+d <- read_delim("../../../../../data/English2022 (ang_manh)/pilot/preManualTypoCorrection_part2.tsv", delim = "\t") %>%
 #   rbind(read_delim("../../data/SpanishMain/postManualTypoCorrection_part2.tsv", delim = "\t")) %>%
 filter(grepl("color|size", condition)) %>%
 filter(!(grepl("ENGLISH", words))) %>%
@@ -187,5 +187,5 @@ length(unique(d$gameId)) # 64
 
 # # Step 10: final transformations on data for regression analyses and BDA 
 
-destinationFolder <- "../../data/EnglishPilot32"
+destinationFolder <- "../../../../../data/English2022 (ang_manh)/pilot/"
 produceBDAandRegressionData(d, destinationFolder = destinationFolder)

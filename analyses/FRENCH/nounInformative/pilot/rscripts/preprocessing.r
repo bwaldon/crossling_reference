@@ -8,6 +8,8 @@ theme_set(theme_bw())
 source("../../../../_shared/regressionHelpers.R")
 source("angPreprocessingHelpers.R")
 
+#This file tells us whether to take the director's first or second utterance - this script presupposes their
+#referring expression is found in one of those two options
 whichUtt <- read.csv("../data_input/Pilot_messages.csv")
 
 # Step 1: read in raw game data
@@ -23,12 +25,12 @@ d <- getRoundData_byLanguage("French",mongoCreds) %>%
    filter(createdAt > "2022-08-15 13:00:00")
   #filter(updatedAt > "2022-3-31 00:00:00")
 
-saveRDS(d, file = "../../data/FRENCH/nounInformative/pilot/rawData.rds")
+saveRDS(d, file = "../../../../../data/FRENCH/nounInformative/pilot/rawData.rds")
 
 ## Option (b): Read in the raw data from .rds (rather than querying database)
 ## For pipelining: read in data from 2-person pilot
 
-d <- readRDS("../../data/FRENCH/nounInformative/pilot/rawData.rds")
+d <- readRDS("../../../../../data/FRENCH/nounInformative/pilot/rawData.rds")
 
 ## Cache the raw data before transforming (optional)
 
@@ -40,11 +42,11 @@ rawD <- d
 
 player_info <- getPlayerDemographicData(unique(d$gameId),mongoCreds)
 
-saveRDS(player_info, file = "../../data/FRENCH/nounInformative/pilot/rawPlayerInfo.rds")
+saveRDS(player_info, file = "../../../../../data/FRENCH/nounInformative/pilot/rawPlayerInfo.rds")
 
 ## Option (b): read in the raw data from .rds (rather than querying the database)
 
-player_info <- readRDS("../../data/FRENCH/nounInformative/pilot/rawPlayerInfo.rds")
+player_info <- readRDS("../../../../../data/FRENCH/nounInformative/pilot/rawPlayerInfo.rds")
 
 # Step 3: do (demographic) exclusions
 
@@ -82,12 +84,13 @@ sizeTerms <- "petite|grande|grand|petit|plus grand|plus petit|plus grande|plus p
 
 d <- cbind(d, whichUtt)
 d_preManualTypoCorrection <- automaticAnnotate(d, colorTerms, sizeTerms, nouns, bleachedNouns, articles)
+
 # Step 8: Write this dataset for manual correction of typos
 write_delim(data.frame(d_preManualTypoCorrection %>%
                          select(-target, -images, -listenerImages, -speakerImages,
                                 -chat)), 
-            "../../data/FRENCH/nounInformative/pilot/preManualTypoCorrection_part2.tsv", delim="\t")
-view(d_preManualTypoCorrection[-c(1:12,16:18,20)])
+            "../../../../../data/FRENCH/nounInformative/pilot/preManualTypoCorrection_part2.tsv", delim="\t")
+#view(d_preManualTypoCorrection[-c(1:12,16:18,20)])
 fix_typos <- function(d){
   d$directorFirstMessage<-str_replace_all(d$directorFirstMessage,"cuiellere","cuillere")
   d$directorSecondMessage<-str_replace_all(d$directorSecondMessage,"cuiellere","cuillere")
@@ -168,5 +171,5 @@ produceBDAandRegressionData(d_dummy, destinationFolder = destinationFolder)
 
 # Step 10: final transformations on data for regression analyses and BDA 
 
-destinationFolder <- "../../data/FRENCH/nounInformative/pilot/"
+destinationFolder <- "../../../../../data/FRENCH/nounInformative/pilot/"
 produceBDAandRegressionData(d, destinationFolder = destinationFolder)

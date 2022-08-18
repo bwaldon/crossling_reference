@@ -75,6 +75,11 @@ transformDataDegen2020Raw <- function(d) {
   nameClickedObj <- c()
   selectedSize <- c()
   itemID <- c()
+  distractorOne <- c()
+  distractorTwo <- c()
+  distractorThree <- c()
+  distractorFour <- c()
+  distractorFive <- c()
   d <- d %>%
     filter(!(chat == "NULL"))
   for(i in seq(nrow(d))) {
@@ -110,6 +115,7 @@ transformDataDegen2020Raw <- function(d) {
     
     sel <- d[i,]$listenerSelection
     images<- data.frame(d[i,]$images)
+    images$combined_name <- paste(images$size, images$name, sep = "_")
     
     if(is.na(sel) || sel == "NONE") {
       nameClickedObj[i] <- sel 
@@ -128,11 +134,21 @@ transformDataDegen2020Raw <- function(d) {
       }
     }
     itemID[i] <- substr(pair,0,nchar(pair)-1)
+
+    distractorOne[i] <- (images %>% filter(id == 2))$combined_name
+    distractorTwo[i] <- (images %>% filter(id == 3))$combined_name
+    distractorThree[i] <- (images %>% filter(id == 4))$combined_name
+    if (nrow(images) > 4) {
+      distractorFour[i] <- (images %>% filter(id == 5))$combined_name
+      distractorFive[i] <- (images %>% filter(id == 6))$combined_name
+    }
   }
   
   rm(chat_temp, guesserChat, directorChat, i, sel, images)
-  d <- cbind(d, directorAllMessages, directorFirstMessage, directorSecondMessage, guesserAllMessages, nameClickedObj, itemID)
-  rm(directorAllMessages, directorFirstMessage, directorSecondMessage, guesserAllMessages, nameClickedObj, itemID)
+  d <- cbind(d, directorAllMessages, directorFirstMessage, directorSecondMessage, guesserAllMessages, nameClickedObj, itemID, 
+             distractorOne, distractorTwo, distractorThree, distractorFour, distractorFive)
+  rm(directorAllMessages, directorFirstMessage, directorSecondMessage, guesserAllMessages, nameClickedObj, itemID,
+     distractorOne, distractorTwo, distractorThree, distractorFour, distractorFive)
   d <- d %>%
     mutate(correct = ifelse(d$target$id == listenerSelection, 1, 0))
   return(d)
@@ -259,7 +275,6 @@ automaticAnnotate <- function(d, colorTerms, sizeTerms, nouns, bleachedNouns, ar
     d$Sufficient_Property = as.factor(ifelse(grepl("size_",d$condition), "color", "size"))
     d$Redundant_Property = ifelse(d$Sufficient_Property == 'color',"size redundant","color redundant")
     d$NumSameDistractors = ifelse(grepl("basic", d$condition, fixed = TRUE), 1, ifelse(grepl("same_same", d$condition, fixed = TRUE), 3, ifelse(grepl("diff_same", d$condition, fixed = TRUE), 3, 1)))
-    d$SceneVariation = d$NumDiffDistractors/d$NumDistractors
     d$TypeMentioned = d$typeMentioned
     d$Gender = ifelse(grepl("_m",d$condition),"M","F")
     # Reduce dataset to target trials for visualization and analysis
@@ -315,7 +330,7 @@ automaticAnnotate <- function(d, colorTerms, sizeTerms, nouns, bleachedNouns, ar
     print(sprintf("Wrote BDA-ready data to %s/bda_data.tsv",destinationFolder))
     
     # Write file for regression analysis and visualization
-    view(targets)
+    #view(targets)
     dd = targets %>%
       filter(redUtterance != "other" & WeirdCases == FALSE) %>%
       rename(Trial=roundNumber, TargetItem=nameClickedObj, gameid = gameId,
@@ -325,7 +340,10 @@ automaticAnnotate <- function(d, colorTerms, sizeTerms, nouns, bleachedNouns, ar
              clickedSize = as.character(clickedSize),
              clickedType = as.character(clickedType),
              TrialType = ifelse(grepl("filler",condition),"control","target")) %>%
-      select(gameid,Trial,condition,TrialType,itemID,TargetItem,UtteranceType,redUtterance,Sufficient_Property,Redundant_Property,NumDistractors,Distractors_Noun,Distractors_RedProp,Gender,speakerMessages,listenerMessages,refExp_wrong,minimal,redundant,clickedType,clickedSize,clickedColor,colorMentioned,sizeMentioned,typeMentioned,theMentioned) #
+      select(gameid,Trial,condition,TrialType,itemID,TargetItem,UtteranceType,redUtterance,
+             Sufficient_Property,Redundant_Property,NumDistractors,Distractors_Noun,Distractors_RedProp,Gender,speakerMessages,listenerMessages,
+             refExp_wrong,minimal,redundant,clickedType,clickedSize,clickedColor,colorMentioned,sizeMentioned,typeMentioned,theMentioned, 
+             distractorOne, distractorTwo, distractorThree, distractorFour, distractorFive) #
     nrow(dd)
     
     write_delim(dd, sprintf("%s/data_exp1.tsv", destinationFolder),delim="\t")
