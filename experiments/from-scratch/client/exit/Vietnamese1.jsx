@@ -58,6 +58,7 @@ export default class ExitSurveyLangSpecific extends React.Component {
 			howManyYears,
 			languageMostFrequentHome,
 			languageMostFrequentOutside,
+			region,
 			relationship,
 			relationshipOther,
 			familiarityRate
@@ -109,7 +110,7 @@ export default class ExitSurveyLangSpecific extends React.Component {
 
 		const relationshipOptions = {
 			closeFriends: "Bạn thân",
-			friends: "bạn",
+			friends: "Bạn",
 			spouse: "Vợ/chồng",
 			family: "Gia đình",
 			acquiantance: "Người quen",
@@ -379,7 +380,7 @@ export default class ExitSurveyLangSpecific extends React.Component {
 					<div className="pt-form-group">
 						<div className="pt-form-content">
 							<b>
-								{"Quan hệ của quý vị với đối tác của quý vị là gì:"}
+								{"Quan hệ của quý vị với người chơi chung với quý vị là gì:"}
 							</b>
 							<HTMLSelect
 								name="relationship"
@@ -420,7 +421,7 @@ export default class ExitSurveyLangSpecific extends React.Component {
 						<br></br>
 						<div className="pt-form-content">
 							<b>
-								{"Quý vị nói chuyện với đối tác của mình bao nhiêu lần:"}
+								{"Quý vị nói chuyện với người chơi chung với quý vị bao nhiêu lần:"}
 							</b>
 							<HTMLSelect
 								name="familiarityRate"
