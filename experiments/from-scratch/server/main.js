@@ -54,7 +54,7 @@ Empirica.gameInit((game) => {
   _.times(gameLength, (i) => {
     let scene = scenes.pop();
     let images = []
-    if(game.treatment.sceneGenerator != "French1"){
+    if(game.treatment.sceneGenerator != "French1" && game.treatment.sceneGenerator != "Vietnamese1"){
        images = [
         { name: scene.TargetItem, id: 1 },
         { name: scene.alt1Name, id: 2 },
