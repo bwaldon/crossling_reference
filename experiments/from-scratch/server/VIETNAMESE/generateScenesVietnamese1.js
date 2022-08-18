@@ -2,7 +2,7 @@
 import Empirica from "meteor/empirica:core";
 
 import { scenes } from '../VIETNAMESE/VietnameseSceneTemplate.js';
-import { zeroAll, oneAll } from '../VIETNAMESE/VIETNAMESEItems.js';//
+import { nounsAll } from '../VIETNAMESE/VIETNAMESEItems.js';//
 import {nounToScheme} from '../VIETNAMESE/nounToScheme.js';
 
 const colorPool = [["green", "orange", "purple", "black"],["red", "yellow",  "blue", "white"]]
@@ -35,18 +35,15 @@ function getScheme(noun){
 //assign colors, sizes and types to the objects in the template
 function fillScenes(sceneTemplate) {
   newScenes = []
-  onePool = oneAll
-  zeroPool = zeroAll
+  nounPool = nounsAll
   for (index in sceneTemplate) {
     sceneName = sceneTemplate[index]["Name"]
     // pick values
-    type_1 = sceneName.includes("_zero")? pickNoun(zeroPool) : pickNoun(onePool)
-    zeroPool = zeroPool.filter(x => x != type_1)//no replacement
-    onePool = onePool.filter(x => x != type_1)
+    type_1 = pickNoun(nounPool)
+    nounPool = nounPool.filter(x => x != type_1)//no replacement
     scheme1 = getScheme(type_1)
-    type_2 = sceneName.includes("_zero")? pickNounScheme(zeroPool,scheme1) : pickNounScheme(onePool,scheme1)
-    zeroPool = zeroPool.filter(x => x != type_2)//no replacement
-    onePool = onePool.filter(x =>  x != type_2)
+    type_2 = pickNounScheme(nounPool, scheme1)
+    nounPool = nounPool.filter(x => x != type_2)//no replacement
     // pick color: nouns come in 4 of 8 colors according to the specific color scheme to which they belong
     color_1 = pickColor(scheme1)
     color_2 = pickColorExcept(color_1, scheme1)
