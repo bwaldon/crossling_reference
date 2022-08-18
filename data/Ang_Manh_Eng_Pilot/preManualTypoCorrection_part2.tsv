@@ -1,0 +1,129 @@
+gameId	language	stage	condition	imageType	listenerSelection	roundNumber	directorAllMessages	directorFirstMessage	guesserAllMessages	nameClickedObj	correct	words	sep	colorMentioned	sizeMentioned	typeMentioned	oneMentioned	theMentioned
+hKrHZbavxiMxqk73Z	English_32	feedback	color_diff_same_f	NA	1	1	small green sock	small green sock		small_green_sock	1	"c(""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+hKrHZbavxiMxqk73Z	English_32	feedback	size_basic_target_f	NA	1	2	small yellow magnifying glass	small yellow magnifyingglass		small_yellow_magnifyingglass	1	"c(""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+hKrHZbavxiMxqk73Z	English_32	feedback	color_diff_diff_m	NA	1	3	big white hanger	big white hanger		big_white_coathanger	1	"c(""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+hKrHZbavxiMxqk73Z	English_32	feedback	color_diff_diff_f	NA	1	4	small orange spoon	small orange spoon		small_orange_spoon	1	"c(""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+hKrHZbavxiMxqk73Z	English_32	feedback	size_basic_filler_1_m	NA	1	5	big yellow rug__thanks!	big yellow rug	great job so far :d	big_yellow_rug	1	"c(""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	FALSE
+hKrHZbavxiMxqk73Z	English_32	feedback	color_basic_filler_2_m	NA	1	6	small green drum	small green drum		small_green_drum	1	"c(""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+hKrHZbavxiMxqk73Z	English_32	feedback	size_basic_target_m	NA	1	7	small red balloon	small red balloon		small_red_balloon	1	"c(""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+hKrHZbavxiMxqk73Z	English_32	feedback	color_same_diff_f	NA	1	8	small blue scarf	small blue scarf		small_blue_scarf	1	"c(""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+hKrHZbavxiMxqk73Z	English_32	feedback	size_diff_diff_m	NA	1	9	big orange cake	big orange cake		big_orange_cake	1	"c(""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+hKrHZbavxiMxqk73Z	English_32	feedback	size_basic_filler_3_f	NA	1	10	small red mouse	small red mouse		small_red_mouse	1	"c(""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+hKrHZbavxiMxqk73Z	English_32	feedback	size_basic_filler_3_m	NA	1	11	small purple candy	small purple candy		small_purple_bonbon	1	"c(""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+hKrHZbavxiMxqk73Z	English_32	feedback	color_basic_filler_3_m	NA	1	12	small blue comb	small blue comb		small_blue_comb	1	"c(""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+hKrHZbavxiMxqk73Z	English_32	feedback	size_same_diff_m	NA	1	13	big yellow bike	big yellow bike		big_yellow_bike	1	"c(""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	FALSE
+hKrHZbavxiMxqk73Z	English_32	feedback	color_basic_filler_1_f	NA	1	14	small orange tent	small orange tent		small_orange_tent	1	"c(""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+hKrHZbavxiMxqk73Z	English_32	feedback	color_diff_same_m	NA	1	15	big black robot	big black robot		big_black_robot	1	"c(""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+hKrHZbavxiMxqk73Z	English_32	feedback	color_basic_target_f	NA	1	16	small white chair	small white chair		small_white_chair	1	"c(""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+hKrHZbavxiMxqk73Z	English_32	feedback	color_same_diff_m	NA	1	17	big black die	big black die		big_black_die	1	"c(""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+hKrHZbavxiMxqk73Z	English_32	feedback	size_diff_same_m	NA	1	18	big black screwdriver	big black screwdriver		big_black_screwdriver	1	"c(""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+hKrHZbavxiMxqk73Z	English_32	feedback	size_diff_diff_f	NA	1	19	small yeloow lamp	small yellow lamp		small_yellow_lamp	1	"c(""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+hKrHZbavxiMxqk73Z	English_32	feedback	size_diff_same_f	NA	1	20	small white clock	small white clock		small_white_clock	1	"c(""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+hKrHZbavxiMxqk73Z	English_32	feedback	size_same_same_m	NA	1	21	big yellow pillow	big yellow pillow		big_yellow_cushion	1	"c(""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	FALSE
+hKrHZbavxiMxqk73Z	English_32	feedback	size_basic_filler_2_f	NA	1	22	big blue calculator	big blue calculator		big_blue_calculator	1	"c(""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+hKrHZbavxiMxqk73Z	English_32	feedback	size_basic_filler_1_f	NA	1	23	big yellow stapler	big yellow stapler		big_yellow_stapler	1	"c(""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+hKrHZbavxiMxqk73Z	English_32	feedback	color_same_same_f	NA	1	24	small yellow flower	small yellow flower		small_yellow_flower	1	"c(""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+hKrHZbavxiMxqk73Z	English_32	feedback	size_same_diff_f	NA	1	25	small black shovel	small black shovel		small_black_shovel	1	"c(""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+hKrHZbavxiMxqk73Z	English_32	feedback	color_same_same_m	NA	1	26	big ornge razor	big orange razor		big_orange_razor	1	"c(""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+hKrHZbavxiMxqk73Z	English_32	feedback	size_basic_filler_2_m	NA	1	27	big orange truck	big orange truck		big_orange_truck	1	"c(""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+hKrHZbavxiMxqk73Z	English_32	feedback	size_same_same_f	NA	1	28	small blue ring	small blue ring		small_blue_ring	1	"c(""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+hKrHZbavxiMxqk73Z	English_32	feedback	color_basic_target_m	NA	1	29	small black whistle	small black whistle		small_black_whistle	1	"c(""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+hKrHZbavxiMxqk73Z	English_32	feedback	color_basic_filler_1_m	NA	1	30	small white mask	small white mask		small_white_mask	1	"c(""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+hKrHZbavxiMxqk73Z	English_32	feedback	color_basic_filler_2_f	NA	1	31	small blue dress	small blue dress		small_blue_dress	1	"c(""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+hKrHZbavxiMxqk73Z	English_32	feedback	color_basic_filler_3_f	NA	1	32	you did great! small red ball	small red ball		small_red_billiardball	1	"c(""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+FDM5oyhMKCeSHTfZt	English_32	feedback	color_same_same_f	NA	1	1	it's the smallest white candle.	the smallest white candle		small_white_candle	1	"c(""A"", ""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+FDM5oyhMKCeSHTfZt	English_32	feedback	size_diff_same_m	NA	1	2	it's the blue light switch.	the blue switch		big_blue_switch	1	"c(""A"", ""C"", ""N"")"		TRUE	FALSE	TRUE	TRUE	TRUE
+FDM5oyhMKCeSHTfZt	English_32	feedback	color_same_diff_f	NA	1	3	it's the smaller yellow door.	the smaller yellow door		small_yellow_door	1	"c(""A"", ""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+FDM5oyhMKCeSHTfZt	English_32	feedback	size_diff_diff_f	NA	1	4	it's the small red scarf.	the small red scarf		small_red_scarf	1	"c(""A"", ""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+FDM5oyhMKCeSHTfZt	English_32	feedback	size_diff_diff_m	NA	1	5	it's the blue bucket.	the blue bucket		big_blue_bucket	1	"c(""A"", ""C"", ""N"")"		TRUE	FALSE	TRUE	TRUE	TRUE
+FDM5oyhMKCeSHTfZt	English_32	feedback	size_same_diff_m	NA	1	6	it's the black bag.	the black bag		big_black_lock	1	"c(""A"", ""C"", ""N"")"		TRUE	FALSE	TRUE	TRUE	TRUE
+FDM5oyhMKCeSHTfZt	English_32	feedback	color_basic_target_f	NA	1	7	smaller white mouse	smaller white mouse		small_white_mouse	1	"c(""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+FDM5oyhMKCeSHTfZt	English_32	feedback	color_basic_filler_2_m	NA	1	8	hanger	hanger		small_red_coathanger	1	N		FALSE	FALSE	TRUE	TRUE	TRUE
+FDM5oyhMKCeSHTfZt	English_32	feedback	color_diff_same_f	NA	1	9	smaller orange fork	smaller orange fork		small_orange_fork	1	"c(""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+FDM5oyhMKCeSHTfZt	English_32	feedback	size_same_same_m	NA	1	10	red bike	red bike		big_red_bike	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	TRUE	FALSE
+FDM5oyhMKCeSHTfZt	English_32	feedback	color_basic_filler_3_f	NA	1	11	orange shovel	orange shovel		small_orange_shovel	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	TRUE	TRUE
+FDM5oyhMKCeSHTfZt	English_32	feedback	color_diff_diff_m	NA	1	12	bigger purple cake	bigger purple cake		big_purple_cake	1	"c(""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+FDM5oyhMKCeSHTfZt	English_32	feedback	color_diff_diff_f	NA	1	13	smaller white strap	smaller white strap		small_white_belt	1	"c(""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+FDM5oyhMKCeSHTfZt	English_32	feedback	size_basic_filler_1_f	NA	1	14	bigger red ruler	bigger red ruler		big_red_ruler	1	"c(""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	FALSE
+FDM5oyhMKCeSHTfZt	English_32	feedback	size_basic_target_f	NA	1	15	red key	red key		small_red_key	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	TRUE	FALSE
+FDM5oyhMKCeSHTfZt	English_32	feedback	color_basic_filler_1_f	NA	1	16	small yellow towel	small yellow towel		small_yellow_napkin	1	"c(""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+FDM5oyhMKCeSHTfZt	English_32	feedback	size_basic_filler_3_m	NA	1	17	smaller black calendar	smaller black calendar		small_black_calendar	1	"c(""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+FDM5oyhMKCeSHTfZt	English_32	feedback	size_basic_filler_2_m	NA	1	18	blue fabric	blue fabric		big_blue_rug	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	TRUE	TRUE
+FDM5oyhMKCeSHTfZt	English_32	feedback	color_basic_filler_2_f	NA	1	19	purple tent	purple tent		small_purple_tent	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	TRUE	FALSE
+FDM5oyhMKCeSHTfZt	English_32	feedback	size_basic_filler_1_m	NA	1	20	bigger red comb	bigger red comb		big_red_comb	1	"c(""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	FALSE
+FDM5oyhMKCeSHTfZt	English_32	feedback	size_same_diff_f	NA	1	21	small white lamp	small white lamp		small_white_lamp	1	"c(""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+FDM5oyhMKCeSHTfZt	English_32	feedback	color_same_same_m	NA	1	22	biggest purple candy	biggest purple candy		big_purple_bonbon	1	"c(""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+FDM5oyhMKCeSHTfZt	English_32	feedback	color_basic_filler_3_m	NA	1	23	yellow bed	yellow bed		small_yellow_bed	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	TRUE	FALSE
+FDM5oyhMKCeSHTfZt	English_32	feedback	size_diff_same_f	NA	1	24	red guitar	red guitar		small_red_guitar	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	TRUE	TRUE
+FDM5oyhMKCeSHTfZt	English_32	feedback	size_basic_filler_2_f	NA	1	25	red stapler	red stapler		big_red_stapler	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	TRUE	TRUE
+FDM5oyhMKCeSHTfZt	English_32	feedback	size_same_same_f	NA	1	26	red calculator	red calculator		small_red_calculator	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	TRUE	TRUE
+FDM5oyhMKCeSHTfZt	English_32	feedback	color_same_diff_m	NA	1	27	bigger orange knife	bigger orange knife		big_orange_knife	1	"c(""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+FDM5oyhMKCeSHTfZt	English_32	feedback	color_diff_same_m	NA	1	28	bigger orange vase	bigger orange vase		big_orange_vase	1	"c(""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+FDM5oyhMKCeSHTfZt	English_32	feedback	color_basic_filler_1_m	NA	1	29	smaller green drum	smaller green drum		small_green_drum	1	"c(""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+FDM5oyhMKCeSHTfZt	English_32	feedback	color_basic_target_m	NA	1	30	smaller black die	smaller black die		small_black_die	1	"c(""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+FDM5oyhMKCeSHTfZt	English_32	feedback	size_basic_target_m	NA	1	31	smaller blue frame	smaller blue frame		small_blue_frame	1	"c(""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+FDM5oyhMKCeSHTfZt	English_32	feedback	size_basic_filler_3_f	NA	1	32	smaller orange remote__yayy	smaller orange remote	good work :)	small_orange_remote	1	"c(""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+3Xpzh3ocWAKZmtc7u	English_32	feedback	size_same_same_m	NA	1	1	it is the comb	the comb		big_blue_comb	1	"c(""A"", ""N"")"		FALSE	FALSE	TRUE	TRUE	TRUE
+3Xpzh3ocWAKZmtc7u	English_32	feedback	size_basic_filler_3_f	NA	1	2	it's the smaller white guitar	the smaller white guitar		small_white_guitar	1	"c(""A"", ""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+3Xpzh3ocWAKZmtc7u	English_32	feedback	size_basic_filler_3_m	NA	1	3	it's the smaller green plane	the smaller green plane		small_green_airplane	1	"c(""A"", ""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+3Xpzh3ocWAKZmtc7u	English_32	feedback	color_basic_filler_2_f	NA	1	4	it's the yellow belt	the yellow belt		small_yellow_belt	1	"c(""A"", ""C"", ""N"")"		TRUE	FALSE	TRUE	TRUE	TRUE
+3Xpzh3ocWAKZmtc7u	English_32	feedback	color_basic_filler_1_f	NA	1	5	its the smaller yellow ruler	the smaller yellow ruler		small_yellow_ruler	1	"c(""A"", ""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+3Xpzh3ocWAKZmtc7u	English_32	feedback	size_diff_diff_m	NA	1	6	its the white bed	the white bed		big_white_bed	1	"c(""A"", ""C"", ""N"")"		TRUE	FALSE	TRUE	TRUE	TRUE
+3Xpzh3ocWAKZmtc7u	English_32	feedback	color_same_same_f	NA	1	7	it's the smallest blue mouse	the smallest blue mouse		small_blue_mouse	1	"c(""A"", ""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+3Xpzh3ocWAKZmtc7u	English_32	feedback	size_same_diff_f	NA	1	8	its the white key	the white key	good work so far!	small_white_key	1	"c(""A"", ""C"", ""N"")"		TRUE	FALSE	TRUE	TRUE	TRUE
+3Xpzh3ocWAKZmtc7u	English_32	feedback	color_basic_target_m	NA	1	9	smaller black lock	smaller black lock		small_black_lock	1	"c(""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+3Xpzh3ocWAKZmtc7u	English_32	feedback	size_basic_filler_1_m	NA	1	10	its the larger green cake	the larger green cake		big_green_cake	1	"c(""A"", ""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+3Xpzh3ocWAKZmtc7u	English_32	feedback	size_basic_target_f	NA	1	11	its the yellow calculator	the yellow calculator		small_yellow_calculator	1	"c(""A"", ""C"", ""N"")"		TRUE	FALSE	TRUE	TRUE	TRUE
+3Xpzh3ocWAKZmtc7u	English_32	feedback	size_basic_filler_2_f	NA	1	12	its the white napkin	the white napkin		big_white_napkin	1	"c(""A"", ""C"", ""N"")"		TRUE	FALSE	TRUE	TRUE	TRUE
+3Xpzh3ocWAKZmtc7u	English_32	feedback	size_diff_same_f	NA	1	13	its the white lamp	the white lamp		small_white_lamp	1	"c(""A"", ""C"", ""N"")"		TRUE	FALSE	TRUE	TRUE	TRUE
+3Xpzh3ocWAKZmtc7u	English_32	feedback	color_diff_diff_f	NA	1	14	its the smaller green spoon	the smaller green spoon		small_green_ladle	1	"c(""A"", ""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+3Xpzh3ocWAKZmtc7u	English_32	feedback	size_basic_filler_2_m	NA	1	15	its the purple seashell	the purple seashell		big_purple_shell	1	"c(""A"", ""C"", ""N"")"		TRUE	FALSE	TRUE	TRUE	TRUE
+3Xpzh3ocWAKZmtc7u	English_32	feedback	size_diff_diff_f	NA	1	16	its the silver fork	the silver fork		small_black_fork	1	"c(""A"", ""C"", ""N"")"		TRUE	FALSE	TRUE	TRUE	TRUE
+3Xpzh3ocWAKZmtc7u	English_32	feedback	color_basic_filler_1_m	NA	1	17	its the smaller yellow hanger	the smaller yellow hanger		small_yellow_coathanger	1	"c(""A"", ""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+3Xpzh3ocWAKZmtc7u	English_32	feedback	color_basic_target_f	NA	1	18	its the smaller orange spoon	the smaller orange spoon		small_orange_spoon	1	"c(""A"", ""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+3Xpzh3ocWAKZmtc7u	English_32	feedback	size_basic_filler_1_f	NA	1	19	its the larger yellow ornament	the larger yellow ornament		big_yellow_ornament	1	"c(""A"", ""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+3Xpzh3ocWAKZmtc7u	English_32	feedback	color_same_diff_f	NA	1	20	its the smaller green tent	the smaller green tent		small_green_tent	1	"c(""A"", ""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+3Xpzh3ocWAKZmtc7u	English_32	feedback	color_diff_diff_m	NA	1	21	its the larger green drum	the larger green drum		big_green_drum	1	"c(""A"", ""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+3Xpzh3ocWAKZmtc7u	English_32	feedback	size_same_diff_m	NA	1	22	its the green screwdriver	the green screwdriver		big_green_screwdriver	1	"c(""A"", ""C"", ""N"")"		TRUE	FALSE	TRUE	TRUE	TRUE
+3Xpzh3ocWAKZmtc7u	English_32	feedback	color_diff_same_m	NA	1	23	its the larger orange robot	the larger orange robot		big_orange_robot	1	"c(""A"", ""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+3Xpzh3ocWAKZmtc7u	English_32	feedback	color_basic_filler_3_m	NA	1	24	its the white picture frame	the white frame		small_white_frame	1	"c(""A"", ""C"", ""N"")"		TRUE	FALSE	TRUE	TRUE	TRUE
+3Xpzh3ocWAKZmtc7u	English_32	feedback	size_same_same_f	NA	1	25	its the blue scarf	the blue scarf		small_blue_scarf	1	"c(""A"", ""C"", ""N"")"		TRUE	FALSE	TRUE	TRUE	TRUE
+3Xpzh3ocWAKZmtc7u	English_32	feedback	color_basic_filler_3_f	NA	1	26	its the yellow mug	the yellow mug		small_yellow_mug	1	"c(""A"", ""C"", ""N"")"		TRUE	FALSE	TRUE	TRUE	TRUE
+3Xpzh3ocWAKZmtc7u	English_32	feedback	color_same_same_m	NA	1	27	its the larger black dice	the larger black dice		big_black_die	1	"c(""A"", ""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+3Xpzh3ocWAKZmtc7u	English_32	feedback	color_diff_same_f	NA	1	28	its the smaller white chair	the smaller white chair		small_white_chair	1	"c(""A"", ""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+3Xpzh3ocWAKZmtc7u	English_32	feedback	color_basic_filler_2_m	NA	1	29	its the yellow pencil	the yellow pencil		small_yellow_pencil	1	"c(""A"", ""C"", ""N"")"		TRUE	FALSE	TRUE	TRUE	TRUE
+3Xpzh3ocWAKZmtc7u	English_32	feedback	size_diff_same_m	NA	1	30	its the purple lipstick	the purple lipstick		big_purple_lipstick	1	"c(""A"", ""C"", ""N"")"		TRUE	FALSE	TRUE	TRUE	TRUE
+3Xpzh3ocWAKZmtc7u	English_32	feedback	color_same_diff_m	NA	1	31	its the larger orange whistle	the larger orange whistle		big_orange_whistle	1	"c(""A"", ""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+3Xpzh3ocWAKZmtc7u	English_32	feedback	size_basic_target_m	NA	1	32	great job with the selections__its the yellow telephone	the yellow telephone	thanks bro	small_yellow_phone	1	"c(""A"", ""C"", ""N"")"		TRUE	FALSE	TRUE	TRUE	TRUE
+9zoFmJghjKM5x9P6f	English_32	feedback	color_diff_same_f	NA	1	1	it's the small blue candle	the small blue candle		small_blue_candle	1	"c(""A"", ""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+9zoFmJghjKM5x9P6f	English_32	feedback	color_same_same_m	NA	1	2	it's the large purple dice	the large purple dice		big_purple_die	1	"c(""A"", ""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+9zoFmJghjKM5x9P6f	English_32	feedback	color_same_same_f	NA	1	3	it's the small, yellow christmas ornament	the small yellow ornament		small_yellow_ornament	1	"c(""A"", ""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+9zoFmJghjKM5x9P6f	English_32	feedback	size_basic_filler_1_m	NA	1	4	it's the large green piano	the large green piano		big_green_piano	1	"c(""A"", ""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+9zoFmJghjKM5x9P6f	English_32	feedback	size_basic_filler_3_f	NA	1	5	it's the small blue clock	the small blue clock		small_blue_clock	1	"c(""A"", ""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+9zoFmJghjKM5x9P6f	English_32	feedback	color_basic_filler_3_m	NA	1	6	it's the small red phone	the small red phone		small_red_phone	1	"c(""A"", ""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+9zoFmJghjKM5x9P6f	English_32	feedback	size_same_same_m	NA	1	7	it's the large yellow frame	the large yellow frame		big_yellow_frame	1	"c(""A"", ""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+9zoFmJghjKM5x9P6f	English_32	feedback	color_basic_filler_1_f	NA	1	8	it's the small white door	the small white door		small_white_door	1	"c(""A"", ""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+9zoFmJghjKM5x9P6f	English_32	feedback	color_basic_filler_3_f	NA	1	9	it's the small white ball	the small white ball		small_white_billiardball	1	"c(""A"", ""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+9zoFmJghjKM5x9P6f	English_32	feedback	size_basic_filler_1_f	NA	1	10	it's the large blue ruler	the large blue ruler		big_blue_ruler	1	"c(""A"", ""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+9zoFmJghjKM5x9P6f	English_32	feedback	size_diff_diff_f	NA	1	11	it's the small black spoon	the small black spoon		small_black_ladle	1	"c(""A"", ""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+9zoFmJghjKM5x9P6f	English_32	feedback	size_basic_filler_2_f	NA	1	12	it's the large blue mug	the large blue mug		big_blue_mug	1	"c(""A"", ""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+9zoFmJghjKM5x9P6f	English_32	feedback	color_basic_target_m	NA	1	13	it's the small purple truck	the small purple truck		small_purple_truck	1	"c(""A"", ""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+9zoFmJghjKM5x9P6f	English_32	feedback	color_diff_same_m	NA	1	14	it's the large white comb	the large white comb		big_white_comb	1	"c(""A"", ""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+9zoFmJghjKM5x9P6f	English_32	feedback	color_same_diff_m	NA	1	15	it's the medium sized orange knife__bigger	the medium orange knife	is the medium size orange knife bigger or smaller then the other?	big_orange_knife	1	"c(""A"", ""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+9zoFmJghjKM5x9P6f	English_32	feedback	color_basic_filler_1_m	NA	1	16	it's the small yellow bed	the small yellow bed		small_yellow_bed	1	"c(""A"", ""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+9zoFmJghjKM5x9P6f	English_32	feedback	color_basic_target_f	NA	1	17	it's the small purple spoon	the small purple spoon		small_purple_spoon	1	"c(""A"", ""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+9zoFmJghjKM5x9P6f	English_32	feedback	color_same_diff_f	NA	1	18	it's the small green tie	the small green tie		small_green_tie	1	"c(""A"", ""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+9zoFmJghjKM5x9P6f	English_32	feedback	color_diff_diff_f	NA	1	19	it's the small yellow belt	the small yellow belt		small_yellow_belt	1	"c(""A"", ""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+9zoFmJghjKM5x9P6f	English_32	feedback	color_basic_filler_2_f	NA	1	20	magnifying glass	magnifyingglass		small_white_magnifyingglass	1	N		FALSE	FALSE	TRUE	TRUE	TRUE
+9zoFmJghjKM5x9P6f	English_32	feedback	color_diff_diff_m	NA	1	21	large yellow butterfly	large yellow butterfly		big_yellow_butterfly	1	"c(""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+9zoFmJghjKM5x9P6f	English_32	feedback	size_basic_target_m	NA	1	22	small green drum	small green drum		small_green_drum	1	"c(""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+9zoFmJghjKM5x9P6f	English_32	feedback	size_diff_same_m	NA	1	23	large red chair	large red chair		big_red_armchair	1	"c(""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+9zoFmJghjKM5x9P6f	English_32	feedback	size_basic_filler_2_m	NA	1	24	large purple whistle	large purple whistle		big_purple_whistle	1	"c(""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+9zoFmJghjKM5x9P6f	English_32	feedback	size_basic_target_f	NA	1	25	red crown	red crown		small_red_crown	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	TRUE	FALSE
+9zoFmJghjKM5x9P6f	English_32	feedback	size_same_diff_m	NA	1	26	pruple razor	purple razor		big_purple_razor	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	TRUE	TRUE
+9zoFmJghjKM5x9P6f	English_32	feedback	size_same_diff_f	NA	1	27	red dress	red dress		small_red_dress	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	TRUE	FALSE
+9zoFmJghjKM5x9P6f	English_32	feedback	color_basic_filler_2_m	NA	1	28	purple vase	purple vase		small_purple_vase	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	TRUE	TRUE
+9zoFmJghjKM5x9P6f	English_32	feedback	size_basic_filler_3_m	NA	1	29	small yellow hanger	small yellow hanger		small_yellow_coathanger	1	"c(""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+9zoFmJghjKM5x9P6f	English_32	feedback	size_diff_diff_m	NA	1	30	large white pencil	large white pencil		big_white_pencil	1	"c(""S"", ""C"", ""N"")"		TRUE	TRUE	TRUE	TRUE	TRUE
+9zoFmJghjKM5x9P6f	English_32	feedback	size_same_same_f	NA	1	31	red key	red key		small_red_key	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	TRUE	FALSE
+9zoFmJghjKM5x9P6f	English_32	feedback	size_diff_same_f	NA	1	32	purple tent	purple tent		small_purple_tent	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	TRUE	FALSE

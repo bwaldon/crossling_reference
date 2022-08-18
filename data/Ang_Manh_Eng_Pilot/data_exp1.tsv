@@ -1,0 +1,118 @@
+gameid	Trial	TargetItem	UtteranceType	redUtterance	Sufficient_Property	Redundant_Property	NumDistractors	NumSameDistractors	Distractors_Noun	Distractors_RedProp	SceneVariation	speakerMessages	listenerMessages	refExp	minimal	redundant	clickedType	clickedSize	clickedColor	colorMentioned	sizeMentioned	typeMentioned	oneMentioned	theMentioned
+hKrHZbavxiMxqk73Z	1	small_green_sock	size and color	redundant	size	color	5	3	diff	same	0.4	small green sock	NA	small green sock	0	1	sock	small	green	TRUE	TRUE	TRUE	FALSE	FALSE
+hKrHZbavxiMxqk73Z	2	small_yellow_magnifyingglass	size and color	redundant	color	size	3	1	"NA"	"NA"	0.6666666666666666	small yellow magnifying glass	NA	small yellow magnifyingglass	0	1	magnifyingglass	small	yellow	TRUE	TRUE	TRUE	FALSE	FALSE
+hKrHZbavxiMxqk73Z	3	big_white_coathanger	size and color	redundant	size	color	5	1	diff	diff	0.8	big white hanger	NA	big white hanger	0	1	coathanger	big	white	TRUE	TRUE	TRUE	FALSE	FALSE
+hKrHZbavxiMxqk73Z	4	small_orange_spoon	size and color	redundant	size	color	5	1	diff	diff	0.8	small orange spoon	NA	small orange spoon	0	1	spoon	small	orange	TRUE	TRUE	TRUE	FALSE	FALSE
+hKrHZbavxiMxqk73Z	5	big_yellow_rug	size and color	redundant	color	size	3	1	"NA"	"NA"	0.6666666666666666	big yellow rug__thanks!	great job so far :d	big yellow rug	0	1	rug	big	yellow	TRUE	TRUE	TRUE	FALSE	FALSE
+hKrHZbavxiMxqk73Z	6	small_green_drum	size and color	redundant	size	color	3	1	"NA"	"NA"	0.6666666666666666	small green drum	NA	small green drum	0	1	drum	small	green	TRUE	TRUE	TRUE	FALSE	FALSE
+hKrHZbavxiMxqk73Z	7	small_red_balloon	size and color	redundant	color	size	3	1	"NA"	"NA"	0.6666666666666666	small red balloon	NA	small red balloon	0	1	balloon	small	red	TRUE	TRUE	TRUE	FALSE	FALSE
+hKrHZbavxiMxqk73Z	8	small_blue_scarf	size and color	redundant	size	color	5	1	same	diff	0.8	small blue scarf	NA	small blue scarf	0	1	scarf	small	blue	TRUE	TRUE	TRUE	FALSE	FALSE
+hKrHZbavxiMxqk73Z	9	big_orange_cake	size and color	redundant	color	size	5	1	diff	diff	0.8	big orange cake	NA	big orange cake	0	1	cake	big	orange	TRUE	TRUE	TRUE	FALSE	FALSE
+hKrHZbavxiMxqk73Z	10	small_red_mouse	size and color	redundant	color	size	3	1	"NA"	"NA"	0.6666666666666666	small red mouse	NA	small red mouse	0	1	mouse	small	red	TRUE	TRUE	TRUE	FALSE	FALSE
+hKrHZbavxiMxqk73Z	11	small_purple_bonbon	size and color	redundant	color	size	3	1	"NA"	"NA"	0.6666666666666666	small purple candy	NA	small purple candy	0	1	bonbon	small	purple	TRUE	TRUE	TRUE	FALSE	FALSE
+hKrHZbavxiMxqk73Z	12	small_blue_comb	size and color	redundant	size	color	3	1	"NA"	"NA"	0.6666666666666666	small blue comb	NA	small blue comb	0	1	comb	small	blue	TRUE	TRUE	TRUE	FALSE	FALSE
+hKrHZbavxiMxqk73Z	13	big_yellow_bike	size and color	redundant	color	size	5	1	same	diff	0.8	big yellow bike	NA	big yellow bike	0	1	bike	big	yellow	TRUE	TRUE	TRUE	FALSE	FALSE
+hKrHZbavxiMxqk73Z	14	small_orange_tent	size and color	redundant	size	color	3	1	"NA"	"NA"	0.6666666666666666	small orange tent	NA	small orange tent	0	1	tent	small	orange	TRUE	TRUE	TRUE	FALSE	FALSE
+hKrHZbavxiMxqk73Z	15	big_black_robot	size and color	redundant	size	color	5	3	diff	same	0.4	big black robot	NA	big black robot	0	1	robot	big	black	TRUE	TRUE	TRUE	FALSE	FALSE
+hKrHZbavxiMxqk73Z	16	small_white_chair	size and color	redundant	size	color	3	1	"NA"	"NA"	0.6666666666666666	small white chair	NA	small white chair	0	1	chair	small	white	TRUE	TRUE	TRUE	FALSE	FALSE
+hKrHZbavxiMxqk73Z	17	big_black_die	size and color	redundant	size	color	5	1	same	diff	0.8	big black die	NA	big black die	0	1	die	big	black	TRUE	TRUE	TRUE	FALSE	FALSE
+hKrHZbavxiMxqk73Z	18	big_black_screwdriver	size and color	redundant	color	size	5	3	diff	same	0.4	big black screwdriver	NA	big black screwdriver	0	1	screwdriver	big	black	TRUE	TRUE	TRUE	FALSE	FALSE
+hKrHZbavxiMxqk73Z	19	small_yellow_lamp	size and color	redundant	color	size	5	1	diff	diff	0.8	small yeloow lamp	NA	small yellow lamp	0	1	lamp	small	yellow	TRUE	TRUE	TRUE	FALSE	FALSE
+hKrHZbavxiMxqk73Z	20	small_white_clock	size and color	redundant	color	size	5	3	diff	same	0.4	small white clock	NA	small white clock	0	1	clock	small	white	TRUE	TRUE	TRUE	FALSE	FALSE
+hKrHZbavxiMxqk73Z	21	big_yellow_cushion	size and color	redundant	color	size	5	3	same	same	0.4	big yellow pillow	NA	big yellow pillow	0	1	cushion	big	yellow	TRUE	TRUE	TRUE	FALSE	FALSE
+hKrHZbavxiMxqk73Z	22	big_blue_calculator	size and color	redundant	color	size	3	1	"NA"	"NA"	0.6666666666666666	big blue calculator	NA	big blue calculator	0	1	calculator	big	blue	TRUE	TRUE	TRUE	FALSE	FALSE
+hKrHZbavxiMxqk73Z	23	big_yellow_stapler	size and color	redundant	color	size	3	1	"NA"	"NA"	0.6666666666666666	big yellow stapler	NA	big yellow stapler	0	1	stapler	big	yellow	TRUE	TRUE	TRUE	FALSE	FALSE
+hKrHZbavxiMxqk73Z	24	small_yellow_flower	size and color	redundant	size	color	5	3	same	same	0.4	small yellow flower	NA	small yellow flower	0	1	flower	small	yellow	TRUE	TRUE	TRUE	FALSE	FALSE
+hKrHZbavxiMxqk73Z	25	small_black_shovel	size and color	redundant	color	size	5	1	same	diff	0.8	small black shovel	NA	small black shovel	0	1	shovel	small	black	TRUE	TRUE	TRUE	FALSE	FALSE
+hKrHZbavxiMxqk73Z	26	big_orange_razor	size and color	redundant	size	color	5	3	same	same	0.4	big ornge razor	NA	big orange razor	0	1	razor	big	orange	TRUE	TRUE	TRUE	FALSE	FALSE
+hKrHZbavxiMxqk73Z	27	big_orange_truck	size and color	redundant	color	size	3	1	"NA"	"NA"	0.6666666666666666	big orange truck	NA	big orange truck	0	1	truck	big	orange	TRUE	TRUE	TRUE	FALSE	FALSE
+hKrHZbavxiMxqk73Z	28	small_blue_ring	size and color	redundant	color	size	5	3	same	same	0.4	small blue ring	NA	small blue ring	0	1	ring	small	blue	TRUE	TRUE	TRUE	FALSE	FALSE
+hKrHZbavxiMxqk73Z	29	small_black_whistle	size and color	redundant	size	color	3	1	"NA"	"NA"	0.6666666666666666	small black whistle	NA	small black whistle	0	1	whistle	small	black	TRUE	TRUE	TRUE	FALSE	FALSE
+hKrHZbavxiMxqk73Z	30	small_white_mask	size and color	redundant	size	color	3	1	"NA"	"NA"	0.6666666666666666	small white mask	NA	small white mask	0	1	mask	small	white	TRUE	TRUE	TRUE	FALSE	FALSE
+hKrHZbavxiMxqk73Z	31	small_blue_dress	size and color	redundant	size	color	3	1	"NA"	"NA"	0.6666666666666666	small blue dress	NA	small blue dress	0	1	dress	small	blue	TRUE	TRUE	TRUE	FALSE	FALSE
+hKrHZbavxiMxqk73Z	32	small_red_billiardball	size and color	redundant	size	color	3	1	"NA"	"NA"	0.6666666666666666	you did great! small red ball	NA	small red ball	0	1	billiardball	small	red	TRUE	TRUE	TRUE	FALSE	FALSE
+FDM5oyhMKCeSHTfZt	1	small_white_candle	size and color	redundant	size	color	5	3	same	same	0.4	it's the smallest white candle.	NA	the smallest white candle	0	1	candle	small	white	TRUE	TRUE	TRUE	FALSE	TRUE
+FDM5oyhMKCeSHTfZt	2	big_blue_switch	color	minimal	color	size	5	3	diff	same	0.4	it's the blue light switch.	NA	the blue switch	1	0	switch	big	blue	TRUE	FALSE	TRUE	FALSE	TRUE
+FDM5oyhMKCeSHTfZt	3	small_yellow_door	size and color	redundant	size	color	5	1	same	diff	0.8	it's the smaller yellow door.	NA	the smaller yellow door	0	1	door	small	yellow	TRUE	TRUE	TRUE	FALSE	TRUE
+FDM5oyhMKCeSHTfZt	4	small_red_scarf	size and color	redundant	color	size	5	1	diff	diff	0.8	it's the small red scarf.	NA	the small red scarf	0	1	scarf	small	red	TRUE	TRUE	TRUE	FALSE	TRUE
+FDM5oyhMKCeSHTfZt	5	big_blue_bucket	color	minimal	color	size	5	1	diff	diff	0.8	it's the blue bucket.	NA	the blue bucket	1	0	bucket	big	blue	TRUE	FALSE	TRUE	FALSE	TRUE
+FDM5oyhMKCeSHTfZt	6	big_black_lock	color	minimal	color	size	5	1	same	diff	0.8	it's the black bag.	NA	the black bag	1	0	lock	big	black	TRUE	FALSE	TRUE	FALSE	TRUE
+FDM5oyhMKCeSHTfZt	7	small_white_mouse	size and color	redundant	size	color	3	1	"NA"	"NA"	0.6666666666666666	smaller white mouse	NA	smaller white mouse	0	1	mouse	small	white	TRUE	TRUE	TRUE	FALSE	FALSE
+FDM5oyhMKCeSHTfZt	9	small_orange_fork	size and color	redundant	size	color	5	3	diff	same	0.4	smaller orange fork	NA	smaller orange fork	0	1	fork	small	orange	TRUE	TRUE	TRUE	FALSE	FALSE
+FDM5oyhMKCeSHTfZt	10	big_red_bike	color	minimal	color	size	5	3	same	same	0.4	red bike	NA	red bike	1	0	bike	big	red	TRUE	FALSE	TRUE	FALSE	FALSE
+FDM5oyhMKCeSHTfZt	12	big_purple_cake	size and color	redundant	size	color	5	1	diff	diff	0.8	bigger purple cake	NA	bigger purple cake	0	1	cake	big	purple	TRUE	TRUE	TRUE	FALSE	FALSE
+FDM5oyhMKCeSHTfZt	13	small_white_belt	size and color	redundant	size	color	5	1	diff	diff	0.8	smaller white strap	NA	smaller white strap	0	1	belt	small	white	TRUE	TRUE	TRUE	FALSE	FALSE
+FDM5oyhMKCeSHTfZt	14	big_red_ruler	size and color	redundant	color	size	3	1	"NA"	"NA"	0.6666666666666666	bigger red ruler	NA	bigger red ruler	0	1	ruler	big	red	TRUE	TRUE	TRUE	FALSE	FALSE
+FDM5oyhMKCeSHTfZt	15	small_red_key	color	minimal	color	size	3	1	"NA"	"NA"	0.6666666666666666	red key	NA	red key	1	0	key	small	red	TRUE	FALSE	TRUE	FALSE	FALSE
+FDM5oyhMKCeSHTfZt	16	small_yellow_napkin	size and color	redundant	size	color	3	1	"NA"	"NA"	0.6666666666666666	small yellow towel	NA	small yellow towel	0	1	napkin	small	yellow	TRUE	TRUE	TRUE	FALSE	FALSE
+FDM5oyhMKCeSHTfZt	17	small_black_calendar	size and color	redundant	color	size	3	1	"NA"	"NA"	0.6666666666666666	smaller black calendar	NA	smaller black calendar	0	1	calendar	small	black	TRUE	TRUE	TRUE	FALSE	FALSE
+FDM5oyhMKCeSHTfZt	18	big_blue_rug	color	minimal	color	size	3	1	"NA"	"NA"	0.6666666666666666	blue fabric	NA	blue fabric	1	0	rug	big	blue	TRUE	FALSE	TRUE	FALSE	FALSE
+FDM5oyhMKCeSHTfZt	20	big_red_comb	size and color	redundant	color	size	3	1	"NA"	"NA"	0.6666666666666666	bigger red comb	NA	bigger red comb	0	1	comb	big	red	TRUE	TRUE	TRUE	FALSE	FALSE
+FDM5oyhMKCeSHTfZt	21	small_white_lamp	size and color	redundant	color	size	5	1	same	diff	0.8	small white lamp	NA	small white lamp	0	1	lamp	small	white	TRUE	TRUE	TRUE	FALSE	FALSE
+FDM5oyhMKCeSHTfZt	22	big_purple_bonbon	size and color	redundant	size	color	5	3	same	same	0.4	biggest purple candy	NA	biggest purple candy	0	1	bonbon	big	purple	TRUE	TRUE	TRUE	FALSE	FALSE
+FDM5oyhMKCeSHTfZt	24	small_red_guitar	color	minimal	color	size	5	3	diff	same	0.4	red guitar	NA	red guitar	1	0	guitar	small	red	TRUE	FALSE	TRUE	FALSE	FALSE
+FDM5oyhMKCeSHTfZt	25	big_red_stapler	color	minimal	color	size	3	1	"NA"	"NA"	0.6666666666666666	red stapler	NA	red stapler	1	0	stapler	big	red	TRUE	FALSE	TRUE	FALSE	FALSE
+FDM5oyhMKCeSHTfZt	26	small_red_calculator	color	minimal	color	size	5	3	same	same	0.4	red calculator	NA	red calculator	1	0	calculator	small	red	TRUE	FALSE	TRUE	FALSE	FALSE
+FDM5oyhMKCeSHTfZt	27	big_orange_knife	size and color	redundant	size	color	5	1	same	diff	0.8	bigger orange knife	NA	bigger orange knife	0	1	knife	big	orange	TRUE	TRUE	TRUE	FALSE	FALSE
+FDM5oyhMKCeSHTfZt	28	big_orange_vase	size and color	redundant	size	color	5	3	diff	same	0.4	bigger orange vase	NA	bigger orange vase	0	1	vase	big	orange	TRUE	TRUE	TRUE	FALSE	FALSE
+FDM5oyhMKCeSHTfZt	29	small_green_drum	size and color	redundant	size	color	3	1	"NA"	"NA"	0.6666666666666666	smaller green drum	NA	smaller green drum	0	1	drum	small	green	TRUE	TRUE	TRUE	FALSE	FALSE
+FDM5oyhMKCeSHTfZt	30	small_black_die	size and color	redundant	size	color	3	1	"NA"	"NA"	0.6666666666666666	smaller black die	NA	smaller black die	0	1	die	small	black	TRUE	TRUE	TRUE	FALSE	FALSE
+FDM5oyhMKCeSHTfZt	31	small_blue_frame	size and color	redundant	color	size	3	1	"NA"	"NA"	0.6666666666666666	smaller blue frame	NA	smaller blue frame	0	1	frame	small	blue	TRUE	TRUE	TRUE	FALSE	FALSE
+FDM5oyhMKCeSHTfZt	32	small_orange_remote	size and color	redundant	color	size	3	1	"NA"	"NA"	0.6666666666666666	smaller orange remote__yayy	good work :)	smaller orange remote	0	1	remote	small	orange	TRUE	TRUE	TRUE	FALSE	FALSE
+3Xpzh3ocWAKZmtc7u	2	small_white_guitar	size and color	redundant	color	size	3	1	"NA"	"NA"	0.6666666666666666	it's the smaller white guitar	NA	the smaller white guitar	0	1	guitar	small	white	TRUE	TRUE	TRUE	FALSE	TRUE
+3Xpzh3ocWAKZmtc7u	3	small_green_airplane	size and color	redundant	color	size	3	1	"NA"	"NA"	0.6666666666666666	it's the smaller green plane	NA	the smaller green plane	0	1	airplane	small	green	TRUE	TRUE	TRUE	FALSE	TRUE
+3Xpzh3ocWAKZmtc7u	5	small_yellow_ruler	size and color	redundant	size	color	3	1	"NA"	"NA"	0.6666666666666666	its the smaller yellow ruler	NA	the smaller yellow ruler	0	1	ruler	small	yellow	TRUE	TRUE	TRUE	FALSE	TRUE
+3Xpzh3ocWAKZmtc7u	6	big_white_bed	color	minimal	color	size	5	1	diff	diff	0.8	its the white bed	NA	the white bed	1	0	bed	big	white	TRUE	FALSE	TRUE	FALSE	TRUE
+3Xpzh3ocWAKZmtc7u	7	small_blue_mouse	size and color	redundant	size	color	5	3	same	same	0.4	it's the smallest blue mouse	NA	the smallest blue mouse	0	1	mouse	small	blue	TRUE	TRUE	TRUE	FALSE	TRUE
+3Xpzh3ocWAKZmtc7u	8	small_white_key	color	minimal	color	size	5	1	same	diff	0.8	its the white key	good work so far!	the white key	1	0	key	small	white	TRUE	FALSE	TRUE	FALSE	TRUE
+3Xpzh3ocWAKZmtc7u	9	small_black_lock	size and color	redundant	size	color	3	1	"NA"	"NA"	0.6666666666666666	smaller black lock	NA	smaller black lock	0	1	lock	small	black	TRUE	TRUE	TRUE	FALSE	FALSE
+3Xpzh3ocWAKZmtc7u	10	big_green_cake	size and color	redundant	color	size	3	1	"NA"	"NA"	0.6666666666666666	its the larger green cake	NA	the larger green cake	0	1	cake	big	green	TRUE	TRUE	TRUE	FALSE	TRUE
+3Xpzh3ocWAKZmtc7u	11	small_yellow_calculator	color	minimal	color	size	3	1	"NA"	"NA"	0.6666666666666666	its the yellow calculator	NA	the yellow calculator	1	0	calculator	small	yellow	TRUE	FALSE	TRUE	FALSE	TRUE
+3Xpzh3ocWAKZmtc7u	12	big_white_napkin	color	minimal	color	size	3	1	"NA"	"NA"	0.6666666666666666	its the white napkin	NA	the white napkin	1	0	napkin	big	white	TRUE	FALSE	TRUE	FALSE	TRUE
+3Xpzh3ocWAKZmtc7u	13	small_white_lamp	color	minimal	color	size	5	3	diff	same	0.4	its the white lamp	NA	the white lamp	1	0	lamp	small	white	TRUE	FALSE	TRUE	FALSE	TRUE
+3Xpzh3ocWAKZmtc7u	14	small_green_ladle	size and color	redundant	size	color	5	1	diff	diff	0.8	its the smaller green spoon	NA	the smaller green spoon	0	1	ladle	small	green	TRUE	TRUE	TRUE	FALSE	TRUE
+3Xpzh3ocWAKZmtc7u	15	big_purple_shell	color	minimal	color	size	3	1	"NA"	"NA"	0.6666666666666666	its the purple seashell	NA	the purple seashell	1	0	shell	big	purple	TRUE	FALSE	TRUE	FALSE	TRUE
+3Xpzh3ocWAKZmtc7u	16	small_black_fork	color	minimal	color	size	5	1	diff	diff	0.8	its the silver fork	NA	the silver fork	1	0	fork	small	black	TRUE	FALSE	TRUE	FALSE	TRUE
+3Xpzh3ocWAKZmtc7u	17	small_yellow_coathanger	size and color	redundant	size	color	3	1	"NA"	"NA"	0.6666666666666666	its the smaller yellow hanger	NA	the smaller yellow hanger	0	1	coathanger	small	yellow	TRUE	TRUE	TRUE	FALSE	TRUE
+3Xpzh3ocWAKZmtc7u	18	small_orange_spoon	size and color	redundant	size	color	3	1	"NA"	"NA"	0.6666666666666666	its the smaller orange spoon	NA	the smaller orange spoon	0	1	spoon	small	orange	TRUE	TRUE	TRUE	FALSE	TRUE
+3Xpzh3ocWAKZmtc7u	19	big_yellow_ornament	size and color	redundant	color	size	3	1	"NA"	"NA"	0.6666666666666666	its the larger yellow ornament	NA	the larger yellow ornament	0	1	ornament	big	yellow	TRUE	TRUE	TRUE	FALSE	TRUE
+3Xpzh3ocWAKZmtc7u	20	small_green_tent	size and color	redundant	size	color	5	1	same	diff	0.8	its the smaller green tent	NA	the smaller green tent	0	1	tent	small	green	TRUE	TRUE	TRUE	FALSE	TRUE
+3Xpzh3ocWAKZmtc7u	21	big_green_drum	size and color	redundant	size	color	5	1	diff	diff	0.8	its the larger green drum	NA	the larger green drum	0	1	drum	big	green	TRUE	TRUE	TRUE	FALSE	TRUE
+3Xpzh3ocWAKZmtc7u	22	big_green_screwdriver	color	minimal	color	size	5	1	same	diff	0.8	its the green screwdriver	NA	the green screwdriver	1	0	screwdriver	big	green	TRUE	FALSE	TRUE	FALSE	TRUE
+3Xpzh3ocWAKZmtc7u	23	big_orange_robot	size and color	redundant	size	color	5	3	diff	same	0.4	its the larger orange robot	NA	the larger orange robot	0	1	robot	big	orange	TRUE	TRUE	TRUE	FALSE	TRUE
+3Xpzh3ocWAKZmtc7u	25	small_blue_scarf	color	minimal	color	size	5	3	same	same	0.4	its the blue scarf	NA	the blue scarf	1	0	scarf	small	blue	TRUE	FALSE	TRUE	FALSE	TRUE
+3Xpzh3ocWAKZmtc7u	27	big_black_die	size and color	redundant	size	color	5	3	same	same	0.4	its the larger black dice	NA	the larger black dice	0	1	die	big	black	TRUE	TRUE	TRUE	FALSE	TRUE
+3Xpzh3ocWAKZmtc7u	28	small_white_chair	size and color	redundant	size	color	5	3	diff	same	0.4	its the smaller white chair	NA	the smaller white chair	0	1	chair	small	white	TRUE	TRUE	TRUE	FALSE	TRUE
+3Xpzh3ocWAKZmtc7u	30	big_purple_lipstick	color	minimal	color	size	5	3	diff	same	0.4	its the purple lipstick	NA	the purple lipstick	1	0	lipstick	big	purple	TRUE	FALSE	TRUE	FALSE	TRUE
+3Xpzh3ocWAKZmtc7u	31	big_orange_whistle	size and color	redundant	size	color	5	1	same	diff	0.8	its the larger orange whistle	NA	the larger orange whistle	0	1	whistle	big	orange	TRUE	TRUE	TRUE	FALSE	TRUE
+3Xpzh3ocWAKZmtc7u	32	small_yellow_phone	color	minimal	color	size	3	1	"NA"	"NA"	0.6666666666666666	great job with the selections__its the yellow telephone	thanks bro	the yellow telephone	1	0	phone	small	yellow	TRUE	FALSE	TRUE	FALSE	TRUE
+9zoFmJghjKM5x9P6f	1	small_blue_candle	size and color	redundant	size	color	5	3	diff	same	0.4	it's the small blue candle	NA	the small blue candle	0	1	candle	small	blue	TRUE	TRUE	TRUE	FALSE	TRUE
+9zoFmJghjKM5x9P6f	2	big_purple_die	size and color	redundant	size	color	5	3	same	same	0.4	it's the large purple dice	NA	the large purple dice	0	1	die	big	purple	TRUE	TRUE	TRUE	FALSE	TRUE
+9zoFmJghjKM5x9P6f	3	small_yellow_ornament	size and color	redundant	size	color	5	3	same	same	0.4	it's the small, yellow christmas ornament	NA	the small yellow ornament	0	1	ornament	small	yellow	TRUE	TRUE	TRUE	FALSE	TRUE
+9zoFmJghjKM5x9P6f	4	big_green_piano	size and color	redundant	color	size	3	1	"NA"	"NA"	0.6666666666666666	it's the large green piano	NA	the large green piano	0	1	piano	big	green	TRUE	TRUE	TRUE	FALSE	TRUE
+9zoFmJghjKM5x9P6f	5	small_blue_clock	size and color	redundant	color	size	3	1	"NA"	"NA"	0.6666666666666666	it's the small blue clock	NA	the small blue clock	0	1	clock	small	blue	TRUE	TRUE	TRUE	FALSE	TRUE
+9zoFmJghjKM5x9P6f	6	small_red_phone	size and color	redundant	size	color	3	1	"NA"	"NA"	0.6666666666666666	it's the small red phone	NA	the small red phone	0	1	phone	small	red	TRUE	TRUE	TRUE	FALSE	TRUE
+9zoFmJghjKM5x9P6f	7	big_yellow_frame	size and color	redundant	color	size	5	3	same	same	0.4	it's the large yellow frame	NA	the large yellow frame	0	1	frame	big	yellow	TRUE	TRUE	TRUE	FALSE	TRUE
+9zoFmJghjKM5x9P6f	8	small_white_door	size and color	redundant	size	color	3	1	"NA"	"NA"	0.6666666666666666	it's the small white door	NA	the small white door	0	1	door	small	white	TRUE	TRUE	TRUE	FALSE	TRUE
+9zoFmJghjKM5x9P6f	9	small_white_billiardball	size and color	redundant	size	color	3	1	"NA"	"NA"	0.6666666666666666	it's the small white ball	NA	the small white ball	0	1	billiardball	small	white	TRUE	TRUE	TRUE	FALSE	TRUE
+9zoFmJghjKM5x9P6f	10	big_blue_ruler	size and color	redundant	color	size	3	1	"NA"	"NA"	0.6666666666666666	it's the large blue ruler	NA	the large blue ruler	0	1	ruler	big	blue	TRUE	TRUE	TRUE	FALSE	TRUE
+9zoFmJghjKM5x9P6f	11	small_black_ladle	size and color	redundant	color	size	5	1	diff	diff	0.8	it's the small black spoon	NA	the small black spoon	0	1	ladle	small	black	TRUE	TRUE	TRUE	FALSE	TRUE
+9zoFmJghjKM5x9P6f	12	big_blue_mug	size and color	redundant	color	size	3	1	"NA"	"NA"	0.6666666666666666	it's the large blue mug	NA	the large blue mug	0	1	mug	big	blue	TRUE	TRUE	TRUE	FALSE	TRUE
+9zoFmJghjKM5x9P6f	13	small_purple_truck	size and color	redundant	size	color	3	1	"NA"	"NA"	0.6666666666666666	it's the small purple truck	NA	the small purple truck	0	1	truck	small	purple	TRUE	TRUE	TRUE	FALSE	TRUE
+9zoFmJghjKM5x9P6f	14	big_white_comb	size and color	redundant	size	color	5	3	diff	same	0.4	it's the large white comb	NA	the large white comb	0	1	comb	big	white	TRUE	TRUE	TRUE	FALSE	TRUE
+9zoFmJghjKM5x9P6f	15	big_orange_knife	size and color	redundant	size	color	5	1	same	diff	0.8	it's the medium sized orange knife__bigger	is the medium size orange knife bigger or smaller then the other?	the medium orange knife	0	1	knife	big	orange	TRUE	TRUE	TRUE	FALSE	TRUE
+9zoFmJghjKM5x9P6f	16	small_yellow_bed	size and color	redundant	size	color	3	1	"NA"	"NA"	0.6666666666666666	it's the small yellow bed	NA	the small yellow bed	0	1	bed	small	yellow	TRUE	TRUE	TRUE	FALSE	TRUE
+9zoFmJghjKM5x9P6f	17	small_purple_spoon	size and color	redundant	size	color	3	1	"NA"	"NA"	0.6666666666666666	it's the small purple spoon	NA	the small purple spoon	0	1	spoon	small	purple	TRUE	TRUE	TRUE	FALSE	TRUE
+9zoFmJghjKM5x9P6f	18	small_green_tie	size and color	redundant	size	color	5	1	same	diff	0.8	it's the small green tie	NA	the small green tie	0	1	tie	small	green	TRUE	TRUE	TRUE	FALSE	TRUE
+9zoFmJghjKM5x9P6f	19	small_yellow_belt	size and color	redundant	size	color	5	1	diff	diff	0.8	it's the small yellow belt	NA	the small yellow belt	0	1	belt	small	yellow	TRUE	TRUE	TRUE	FALSE	TRUE
+9zoFmJghjKM5x9P6f	21	big_yellow_butterfly	size and color	redundant	size	color	5	1	diff	diff	0.8	large yellow butterfly	NA	large yellow butterfly	0	1	butterfly	big	yellow	TRUE	TRUE	TRUE	FALSE	FALSE
+9zoFmJghjKM5x9P6f	22	small_green_drum	size and color	redundant	color	size	3	1	"NA"	"NA"	0.6666666666666666	small green drum	NA	small green drum	0	1	drum	small	green	TRUE	TRUE	TRUE	FALSE	FALSE
+9zoFmJghjKM5x9P6f	23	big_red_armchair	size and color	redundant	color	size	5	3	diff	same	0.4	large red chair	NA	large red chair	0	1	armchair	big	red	TRUE	TRUE	TRUE	FALSE	FALSE
+9zoFmJghjKM5x9P6f	24	big_purple_whistle	size and color	redundant	color	size	3	1	"NA"	"NA"	0.6666666666666666	large purple whistle	NA	large purple whistle	0	1	whistle	big	purple	TRUE	TRUE	TRUE	FALSE	FALSE
+9zoFmJghjKM5x9P6f	25	small_red_crown	color	minimal	color	size	3	1	"NA"	"NA"	0.6666666666666666	red crown	NA	red crown	1	0	crown	small	red	TRUE	FALSE	TRUE	FALSE	FALSE
+9zoFmJghjKM5x9P6f	26	big_purple_razor	color	minimal	color	size	5	1	same	diff	0.8	pruple razor	NA	purple razor	1	0	razor	big	purple	TRUE	FALSE	TRUE	FALSE	FALSE
+9zoFmJghjKM5x9P6f	27	small_red_dress	color	minimal	color	size	5	1	same	diff	0.8	red dress	NA	red dress	1	0	dress	small	red	TRUE	FALSE	TRUE	FALSE	FALSE
+9zoFmJghjKM5x9P6f	29	small_yellow_coathanger	size and color	redundant	color	size	3	1	"NA"	"NA"	0.6666666666666666	small yellow hanger	NA	small yellow hanger	0	1	coathanger	small	yellow	TRUE	TRUE	TRUE	FALSE	FALSE
+9zoFmJghjKM5x9P6f	30	big_white_pencil	size and color	redundant	color	size	5	1	diff	diff	0.8	large white pencil	NA	large white pencil	0	1	pencil	big	white	TRUE	TRUE	TRUE	FALSE	FALSE
+9zoFmJghjKM5x9P6f	31	small_red_key	color	minimal	color	size	5	3	same	same	0.4	red key	NA	red key	1	0	key	small	red	TRUE	FALSE	TRUE	FALSE	FALSE
+9zoFmJghjKM5x9P6f	32	small_purple_tent	color	minimal	color	size	5	3	diff	same	0.4	purple tent	NA	purple tent	1	0	tent	small	purple	TRUE	FALSE	TRUE	FALSE	FALSE
