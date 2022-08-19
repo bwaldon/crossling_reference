@@ -78,6 +78,8 @@ transformDataDegen2020Raw <- function(d) {
   distractorThree <- c()
   distractorFour <- c()
   distractorFive <- c()
+  directorViewOrdered <- c()
+  guesserViewOrdered <- c()
   itemID <- c()
   d <- d %>%
     filter(!(chat == "NULL"))
@@ -147,12 +149,37 @@ transformDataDegen2020Raw <- function(d) {
       distractorFour[i] <- (images %>% filter(id == 5))$combined_name
       distractorFive[i] <- (images %>% filter(id == 6))$combined_name
     }
+    
+    speakerScene <- data.frame(d[i,]$speakerImages)
+    speakerScene$combined_name <- paste(speakerScene$size, speakerScene$name, sep = "_")
+    directorViewOrdered[i] <- speakerScene$combined_name[[1]]
+    for (j in 2:4) {
+      directorViewOrdered[i] <- paste(directorViewOrdered[i], speakerScene$combined_name[[j]], sep = ",")
+    }
+    if (nrow(speakerScene) > 4) {
+      for (j in 5:6) {
+        directorViewOrdered[i] <- paste(directorViewOrdered[i], speakerScene$combined_name[[j]], sep = ",")
+      }
+    }
+    
+    listenerScene <- data.frame(d[i,]$listenerImages)
+    listenerScene$combined_name <- paste(listenerScene$size, listenerScene$name, sep = "_")
+    guesserViewOrdered[i] <- listenerScene$combined_name[[1]]
+    for (j in 2:4) {
+      guesserViewOrdered[i] <- paste(guesserViewOrdered[i], listenerScene$combined_name[[j]], sep = ",")
+    }
+    if (nrow(listenerScene) > 4) {
+      for (j in 5:6) {
+        guesserViewOrdered[i] <- paste(guesserViewOrdered[i], listenerScene$combined_name[[j]], sep = ",")
+      }
+    }
+    
   }
   rm(chat_temp, guesserChat, directorChat, i, sel, images)
   d <- cbind(d, itemID, directorAllMessages, directorFirstMessage, guesserAllMessages, nameClickedObj, 
-             distractorOne, distractorTwo,distractorThree, distractorFour,distractorFive)
+             distractorOne, distractorTwo,distractorThree, distractorFour,distractorFive, directorViewOrdered, guesserViewOrdered)
   rm(directorAllMessages, directorFirstMessage, guesserAllMessages, nameClickedObj,distractorOne, 
-     distractorTwo,distractorThree, distractorFour,distractorFive, itemID)
+     distractorTwo,distractorThree, distractorFour,distractorFive, itemID, directorViewOrdered, guesserViewOrdered)
   d <- d %>%
     mutate(correct = ifelse(d$target$id == listenerSelection, 1, 0))
   return(d)
@@ -335,7 +362,7 @@ produceBDAandRegressionData <- function(d, destinationFolder) {
            clickedType = as.character(clickedType),
            TrialType = ifelse(grepl("filler",condition),"control","target")) %>%
     select(gameid,Trial,condition, TrialType, itemID,TargetItem,UtteranceType,redUtterance,
-           Sufficient_Property,Redundant_Property,NumDistractors,NumSameDistractors,Distractors_Noun,Distractors_RedProp,speakerMessages,listenerMessages,refExp,minimal,redundant,clickedType,clickedSize,clickedColor,colorMentioned,sizeMentioned,typeMentioned,oneMentioned,theMentioned,distractorOne, distractorTwo, distractorThree, distractorFour,distractorFive) #
+           Sufficient_Property,Redundant_Property,NumDistractors,NumSameDistractors,Distractors_Noun,Distractors_RedProp,speakerMessages,listenerMessages,refExp,minimal,redundant,clickedType,clickedSize,clickedColor,colorMentioned,sizeMentioned,typeMentioned,oneMentioned,theMentioned,distractorOne, distractorTwo, distractorThree, distractorFour,distractorFive, directorViewOrdered, guesserViewOrdered) #
   nrow(dd)
 
   write_delim(dd, sprintf("%s/data_exp1.tsv", destinationFolder),delim="\t")
