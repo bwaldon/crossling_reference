@@ -74,7 +74,7 @@ transformDataDegen2020Raw <- function(d) {
   guesserAllMessages <- c()
   nameClickedObj <- c()
   selectedSize <- c()
-  itemID <- c()
+  ItemID <- c()
   distractorOne <- c()
   distractorTwo <- c()
   distractorThree <- c()
@@ -133,7 +133,7 @@ transformDataDegen2020Raw <- function(d) {
         pair <- paste(imageType, pair, sep = "_")
       }
     }
-    itemID[i] <- substr(pair,0,nchar(pair)-1)
+    ItemID[i] <- substr(pair,0,nchar(pair)-1)
 
     distractorOne[i] <- (images %>% filter(id == 2))$combined_name
     distractorTwo[i] <- (images %>% filter(id == 3))$combined_name
@@ -145,9 +145,9 @@ transformDataDegen2020Raw <- function(d) {
   }
   
   rm(chat_temp, guesserChat, directorChat, i, sel, images)
-  d <- cbind(d, directorAllMessages, directorFirstMessage, directorSecondMessage, guesserAllMessages, nameClickedObj, itemID, 
+  d <- cbind(d, directorAllMessages, directorFirstMessage, directorSecondMessage, guesserAllMessages, nameClickedObj, ItemID, 
              distractorOne, distractorTwo, distractorThree, distractorFour, distractorFive)
-  rm(directorAllMessages, directorFirstMessage, directorSecondMessage, guesserAllMessages, nameClickedObj, itemID,
+  rm(directorAllMessages, directorFirstMessage, directorSecondMessage, guesserAllMessages, nameClickedObj, ItemID,
      distractorOne, distractorTwo, distractorThree, distractorFour, distractorFive)
   d <- d %>%
     mutate(correct = ifelse(d$target$id == listenerSelection, 1, 0))
@@ -270,13 +270,13 @@ automaticAnnotate <- function(d, colorTerms, sizeTerms, nouns, bleachedNouns, ar
     # Code for each trial: sufficient property, number of total distractors, number of distractors that differ on and that share insufficient dimension value with target
     d$NumDistractors = ifelse(grepl("basic", d$condition, fixed = TRUE), 3, 5)
     d$NumDiffDistractors = ifelse(grepl("basic", d$condition, fixed = TRUE), 1, 1)
-    d$Distractors_Noun = ifelse(grepl("basic", d$condition, fixed = TRUE), "NA", ifelse(grepl("same_same|same_diff", d$condition), "same", ifelse(grepl("diff_same|diff_diff", d$condition), "diff", "other")))
-    d$Distractors_RedProp = ifelse(grepl("basic", d$condition, fixed = TRUE), "NA", ifelse(grepl("same_same|diff_same", d$condition), "same", ifelse(grepl("same_diff|diff_diff", d$condition), "diff", "other")))
-    d$Sufficient_Property = as.factor(ifelse(grepl("size_",d$condition), "color", "size"))
-    d$Redundant_Property = ifelse(d$Sufficient_Property == 'color',"size redundant","color redundant")
+    d$DistractorsNoun = ifelse(grepl("basic", d$condition, fixed = TRUE), "no_extras", ifelse(grepl("same_same|same_diff", d$condition), "same", ifelse(grepl("diff_same|diff_diff", d$condition), "diff", "other")))
+    d$DistractorsRedProp = ifelse(grepl("basic", d$condition, fixed = TRUE), "no_extras", ifelse(grepl("same_same|diff_same", d$condition), "same", ifelse(grepl("same_diff|diff_diff", d$condition), "diff", "other")))
+    d$SufficientProperty = as.factor(ifelse(grepl("size_",d$condition), "color", "size"))
+    d$RedundantProperty = ifelse(d$SufficientProperty == 'color',"size redundant","color redundant")
     d$NumSameDistractors = ifelse(grepl("basic", d$condition, fixed = TRUE), 1, ifelse(grepl("same_same", d$condition, fixed = TRUE), 3, ifelse(grepl("diff_same", d$condition, fixed = TRUE), 3, 1)))
     d$TypeMentioned = d$typeMentioned
-    d$Gender = ifelse(grepl("_m",d$condition),"M","F")
+    d$NounGender = ifelse(grepl("_m",d$condition),"M","F")
     # Reduce dataset to target trials for visualization and analysis
     
     # Exclude trials on which target wasn't selected
@@ -297,13 +297,13 @@ automaticAnnotate <- function(d, colorTerms, sizeTerms, nouns, bleachedNouns, ar
     targets$SizeAndColor = ifelse(targets$UtteranceType == "size and color",1,0)
     targets$Other = ifelse(targets$UtteranceType == "OTHER",1,0)
     targets$Item = sapply(strsplit(as.character(targets$nameClickedObj),"_"), "[", 3)
-    targets$redUtterance = as.factor(ifelse(targets$UtteranceType == "size and color","redundant",ifelse(targets$UtteranceType == "size" & targets$Sufficient_Property == "size", "minimal", ifelse(targets$UtteranceType == "color" & targets$Sufficient_Property == "color", "minimal", "other"))))
+    targets$redUtterance = as.factor(ifelse(targets$UtteranceType == "size and color","redundant",ifelse(targets$UtteranceType == "size" & targets$SufficientProperty == "size", "minimal", ifelse(targets$UtteranceType == "color" & targets$SufficientProperty == "color", "minimal", "other"))))
     targets$RatioOfDiffToSame = targets$NumDiffDistractors/targets$NumSameDistractors
     targets$DiffMinusSame = targets$NumDiffDistractors-targets$NumSameDistractors
     
     # Prepare data for Bayesian Data Analysis by collapsing across specific size and color terms
     targets$redUtterance = as.factor(as.character(targets$redUtterance))
-    targets$CorrectProperty = ifelse(targets$Sufficient_Property == "color" & (targets$Color == 1 | targets$SizeAndColor == 1), 1, ifelse(targets$Sufficient_Property == "size" & (targets$Size == 1 | targets$SizeAndColor == 1), 1, 0)) # 20 cases of incorrect property mention
+    targets$CorrectProperty = ifelse(targets$SufficientProperty == "color" & (targets$Color == 1 | targets$SizeAndColor == 1), 1, ifelse(targets$SufficientProperty == "size" & (targets$Size == 1 | targets$SizeAndColor == 1), 1, 0)) # 20 cases of incorrect property mention
     targets$minimal = ifelse(targets$SizeAndColor == 0 & targets$UtteranceType != "OTHER", 1, 0)
     targets$redundant = ifelse(targets$SizeAndColor == 1, 1, 0)
     targets$BDAUtterance = "size"#as.character(targets$clickedSize)
@@ -339,9 +339,12 @@ automaticAnnotate <- function(d, colorTerms, sizeTerms, nouns, bleachedNouns, ar
       mutate(clickedColor = as.character(clickedColor),
              clickedSize = as.character(clickedSize),
              clickedType = as.character(clickedType),
-             TrialType = ifelse(grepl("filler",condition),"control","target")) %>%
-      select(gameid,Trial,condition,TrialType,itemID,TargetItem,UtteranceType,redUtterance,
-             Sufficient_Property,Redundant_Property,NumDistractors,Distractors_Noun,Distractors_RedProp,Gender,speakerMessages,listenerMessages,
+             TrialType = ifelse(grepl("filler",condition),"control","target"),
+             ControlType = ifelse(grepl("filler_1",condition),"both_necessary",
+                                  ifelse(grepl("filler_2",condition),"noun_sufficient", 
+                                  ifelse(grepl("filler_3",condition),ifelse(grepl("size_",condition),"size_redundant","color_redundant"),"undefined"))))%>%
+      select(gameid,Trial,condition,TrialType,ControlType,ItemID,TargetItem,UtteranceType,redUtterance,
+             SufficientProperty,RedundantProperty,NumDistractors,DistractorsNoun,DistractorsRedProp,NounGender,speakerMessages,listenerMessages,
              refExp_wrong,minimal,redundant,clickedType,clickedSize,clickedColor,colorMentioned,sizeMentioned,typeMentioned,theMentioned, 
              distractorOne, distractorTwo, distractorThree, distractorFour, distractorFive) #
     nrow(dd)

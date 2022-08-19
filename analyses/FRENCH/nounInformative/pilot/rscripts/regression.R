@@ -11,11 +11,11 @@ setwd(this.dir)
 # color-blind-friendly palette
 cbPalette <- c("#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#CC79A7")
 
-source("../../../_shared/regressionHelpers.r")
+source("../../../../_shared/regressionHelpers.r")
 
 # READ DATA
 # # (dummy data for analysis pipeline creation)
-d = read_delim("../../../../data/FRENCH/data_exp1.tsv", delim = "\t")
+d = read_delim("../../../../../data/FRENCH/nounInformative/pilot/data_exp1.tsv", delim = "\t")
 #d_postraw = read_tsv("../../data/SpanishMain/postManualTypoCorrection.tsv") %>% bind_rows(read_tsv("../../data/SpanishMain/postManualTypoCorrection_part2.tsv"))
 
 # get data with linear order annotation
@@ -58,6 +58,7 @@ d = read_delim("../../../../data/FRENCH/data_exp1.tsv", delim = "\t")
 
 # PLOT PROPORTION OF REDUNDANT UTTERANCES BY REDUNDANT PROPERTY
 agr <- d %>%
+  filter(TrialType == "target") %>%
   select(redundant,Redundant_Property,NumDistractors,Distractors_Noun,Distractors_RedProp) %>%
   mutate(Condition = case_when(
     NumDistractors == 3 ~ "base",
@@ -86,9 +87,8 @@ ggsave(file="../graphs/redundant_proportions.pdf",width=6,height=7)
 
 
 # BAYESIAN MIXED EFFECTS LOGISTIC REGRESSION
-## READ IN THE ENGLISH DATA FROM DEGEN ET AL. (2020)
 
-d_french <- read_delim("../../../../data/FRENCH/data_exp1.tsv", delim = "\t")
+d_french <- read_delim("../../../../../data/FRENCH/nounInformative/pilot/data_exp1.tsv", delim = "\t")
 d_french$Language <- "French"
 d_french = d_french %>% 
   mutate(NounMentioned = case_when(typeMentioned == TRUE ~ "noun",
@@ -104,11 +104,12 @@ d <- d %>%
          Distractors_RedProp = factor(Distractors_RedProp),
          gameid = factor(gameid),
          Language = factor(Language),
-         Item = factor(clickedType)) # currently an item is just defined in terms of target object type -- extend to target and competitor combo
+         Item = factor(itemID)) # edited:
 
 # different subset analyses:
 d_extended = d %>% 
-  filter(NumDistractors == 5) %>%  # ultimately also filter by trial type & TrialType == "target")
+  filter(NumDistractors == 5) %>%  
+  filter(TrialType == "target") %>% #edited:
   droplevels()
 
 # first test effects of redundant property and number of distractors on full dataset
