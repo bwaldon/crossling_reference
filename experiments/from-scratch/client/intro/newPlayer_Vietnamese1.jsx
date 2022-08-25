@@ -51,7 +51,7 @@ export default class PlayerId extends Component {
                           <div>
 
                             <br></br> Nếu quý vị là người chơi chung của một người nào đó từ Prolific, vui lòng nhập email (quý vị sẽ không nhận email từ chúng tôi).
-                            <br></br> Chúng tôi sẽ trả tiền $14 (USD) bằng Prolific Bonus Payment cho người nào đó sử dụng Prolific. Người đó sẽ cần phải chia đều số tiền cho hai người ($7 USD cho mỗi người). Người không phải từ Prolific sẽ được trả bằng người kia và không phải từ chúng tôi.
+                            <br></br> Chúng tôi sẽ trả tiền $7.50 (USD) bằng Prolific Bonus Payment cho người nào đó sử dụng Prolific. Người đó sẽ cần phải chia đều số tiền cho hai người ($3.75 USD cho mỗi người). Người không phải từ Prolific sẽ được trả bằng người kia và không phải từ chúng tôi.
                           </div>
                         </p>
 
