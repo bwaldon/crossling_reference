@@ -5,6 +5,8 @@ library(cowplot)
 library(viridis)
 library(jsonlite)
 
+getwd()
+
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 
 # RUN WEBPPL FROM A V8 JS ENGINE (FASTER WHEN YOU NEED TO RUN MANY, MANY CALLS TO WEBPPL)
@@ -244,3 +246,4 @@ runModel('V8', engine, modelAndSemantics,
 runModel('V8', engine, modelAndSemantics, 
          'wordSpeaker(["START","bottle","glass"], "plasticgreen", model, params, semantics)', states_cs, utterances_sp_postnom_cs, incalpha, materialNoiseVal = 1, colorNoiseVal = 1, 
          colorCost = colorCost, materialCost = materialCost, nounCost = 0)
+

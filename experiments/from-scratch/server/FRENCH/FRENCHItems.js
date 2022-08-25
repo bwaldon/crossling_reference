@@ -7,3 +7,4 @@ export const mascAll = ["airplane", "bike", "comb", "armchair",
 "balloon", "bed","bonbon","bucket","butterfly","cake", "calendar","coathanger","cushion"
 ,"die", "drum","fish","frame","hammer","knife","lipstick","lock","mask","microscope","pencil","phone"
 ,"present","piano","whistle", "truck", "vase", "switch", "shell", "robot", "razor", "rug", "screwdriver"]
+
