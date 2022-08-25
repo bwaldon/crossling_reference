@@ -1,4 +1,8 @@
 import React from "react";
+//dynamically prints images with a size of big or small
+//size is encoded in the image info and then used. big images are twice as big as
+//small images
+
 
 export default class Image_var extends React.Component {
 //width=100%

@@ -49,6 +49,7 @@ ggplot(d_noun_uninf, aes(x=Language,y=RedundantProbability,fill=ContextType)) +
   ylim(0,1) +
   ylab("Probability of redundant referring expression") +
   theme(axis.text.x = element_text(angle=15,hjust=1,vjust=1),legend.position="bottom",axis.title.x=element_blank())
+
 ggsave(file="../graphs/noun-uninformative.pdf",width=7,height=5)
 
 # just spanish and english
