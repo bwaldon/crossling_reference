@@ -140,50 +140,85 @@ transformDataDegen2020Raw <- function(d) {
       }
     }
     ItemID[i] <- substr(pair,0,nchar(pair)-1)
-    
+
     # adding distractor items
+    # if (nrow(images) > 4) {
+    #   distractorOne[i] <- (images %>% filter(id == 2))$combined_name
+    #   distractorTwo[i] <- (images %>% filter(id == 3))$combined_name
+    #   distractorThree[i] <- (images %>% filter(id == 4))$combined_name
+    #   distractorFour[i] <- (images %>% filter(id == 5))$combined_name
+    #   distractorFive[i] <- (images %>% filter(id == 6))$combined_name
+    # } else {
+    #   distractorOne[i] <- (images %>% filter(id == 2))$combined_name
+    #   distractorTwo[i] <- (images %>% filter(id == 3))$combined_name
+    #   distractorThree[i] <- (images %>% filter(id == 4))$combined_name
+    # }
+    
     distractorOne[i] <- (images %>% filter(id == 2))$combined_name
     distractorTwo[i] <- (images %>% filter(id == 3))$combined_name
     distractorThree[i] <- (images %>% filter(id == 4))$combined_name
     if (nrow(images) > 4) {
       distractorFour[i] <- (images %>% filter(id == 5))$combined_name
       distractorFive[i] <- (images %>% filter(id == 6))$combined_name
+    } else {
+      distractorFour[i] <- NA
+      distractorFive[i] <- NA
     }
-    
+
     speakerScene <- data.frame(d[i,]$speakerImages)
     speakerScene$combined_name <- paste(speakerScene$size, speakerScene$name, sep = "_")
     directorViewOrdered[i] <- speakerScene$combined_name[[1]]
-    for (j in 2:4) {
+    
+    # if (nrow(speakerScene) > 4) {
+    #   for (j in 2:6) {
+    #     directorViewOrdered[i] <- paste(directorViewOrdered[i], speakerScene$combined_name[[j]], sep = ",")
+    #   }
+    # } else {
+    #   for (j in 2:4) {
+    #     directorViewOrdered[i] <- paste(directorViewOrdered[i], speakerScene$combined_name[[j]], sep = ",")
+    #   }
+    # }
+    
+    # for (j in 2:4) {
+    #   directorViewOrdered[i] <- paste(directorViewOrdered[i], speakerScene$combined_name[[j]], sep = ",")
+    # }
+    # if (nrow(speakerScene) > 4) {
+    #   for (j in 5:6) {
+    #     directorViewOrdered[i] <- paste(directorViewOrdered[i], speakerScene$combined_name[[j]], sep = ",")
+    #   }
+    # }
+    
+    for (j in seq(nrow(speakerScene))) {
       directorViewOrdered[i] <- paste(directorViewOrdered[i], speakerScene$combined_name[[j]], sep = ",")
     }
-    if (nrow(speakerScene) > 4) {
-      for (j in 5:6) {
-        directorViewOrdered[i] <- paste(directorViewOrdered[i], speakerScene$combined_name[[j]], sep = ",")
-      }
-    }
-    
+
     listenerScene <- data.frame(d[i,]$listenerImages)
     listenerScene$combined_name <- paste(listenerScene$size, listenerScene$name, sep = "_")
     guesserViewOrdered[i] <- listenerScene$combined_name[[1]]
-    for (j in 2:4) {
+    # for (j in 2:4) {
+    #   guesserViewOrdered[i] <- paste(guesserViewOrdered[i], listenerScene$combined_name[[j]], sep = ",")
+    # }
+    # if (nrow(listenerScene) > 4) {
+    #   for (j in 5:6) {
+    #     guesserViewOrdered[i] <- paste(guesserViewOrdered[i], listenerScene$combined_name[[j]], sep = ",")
+    #   }
+    # }
+    
+    for (j in seq(nrow(listenerScene))) {
       guesserViewOrdered[i] <- paste(guesserViewOrdered[i], listenerScene$combined_name[[j]], sep = ",")
-    }
-    if (nrow(listenerScene) > 4) {
-      for (j in 5:6) {
-        guesserViewOrdered[i] <- paste(guesserViewOrdered[i], listenerScene$combined_name[[j]], sep = ",")
-      }
     }
     
   }
   rm(chat_temp, guesserChat, directorChat, i, sel, images)
-  d <- cbind(d, ItemID, directorAllMessages, directorFirstMessage, guesserAllMessages, nameClickedObj, 
-             distractorOne, distractorTwo,distractorThree, distractorFour,distractorFive, directorViewOrdered, guesserViewOrdered)
-  rm(directorAllMessages, directorFirstMessage, guesserAllMessages, nameClickedObj,distractorOne, 
-     distractorTwo,distractorThree, distractorFour,distractorFive, ItemID, directorViewOrdered, guesserViewOrdered)
+  d <- cbind(d, ItemID, directorAllMessages, directorFirstMessage, guesserAllMessages, nameClickedObj, distractorOne, distractorTwo,distractorThree, distractorFour,distractorFive, directorViewOrdered, guesserViewOrdered)
+  rm(directorAllMessages, directorFirstMessage, guesserAllMessages, nameClickedObj,distractorOne, distractorTwo,distractorThree, distractorFour,distractorFive, ItemID, directorViewOrdered, guesserViewOrdered)
   d <- d %>%
     mutate(correct = ifelse(d$target$id == listenerSelection, 1, 0))
   return(d)
 }
+
+# 
+# 
 
 # accuracyExclusions: returns data filtered for accuracy inclusion criteron (> .7)
 # (optionally) makes a plot - x axis is individual games, y axis is guesser accuracy in the game
@@ -371,6 +406,6 @@ produceBDAandRegressionData <- function(d, destinationFolder) {
            distractorOne, distractorTwo, distractorThree, distractorFour,distractorFive, directorViewOrdered, guesserViewOrdered) #
   nrow(dd)
 
-  write_delim(dd, sprintf("%s/data_exp1.tsv", destinationFolder),delim="\t")
+  write_delim(dd, sprintf("%s/main_data_exp1.tsv", destinationFolder),delim="\t")
   print(sprintf("Wrote regression-ready data to %s/data_exp1.tsv",destinationFolder))
 }
