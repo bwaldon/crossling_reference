@@ -1,0 +1,628 @@
+gameId	language	name	id	stage	condition	alt1BasicLevel	alt1SuperLevel	alt2BasicLevel	alt2SuperLevel	listenerSelection	imageType	roundNumber	directorAllMessages	directorFirstMessage	guesserAllMessages	nameClickedObj	correct	words	sep	colorMentioned	sizeMentioned	typeMentioned	oneMentioned	theMentioned	target
+Xg4TYATBTCC5Qs2rL	English	purple_ribbon	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	3	purple item not tie	purple item not tie		purple_ribbon	1	"c(""C"", """", """", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	ribbon
+Xg4TYATBTCC5Qs2rL	English	yellow_scarf	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	4	yellow not candle	yellow not candle		yellow_scarf	1	"c(""C"", """", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	scarf
+Xg4TYATBTCC5Qs2rL	English	white_phone	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	8	white item not comb	white item not comb		white_phone	1	"c(""C"", """", """", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	phone
+Xg4TYATBTCC5Qs2rL	English	green_die	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	9	green not robot	green not robot		green_die	1	"c(""C"", """", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	die
+Xg4TYATBTCC5Qs2rL	English	orange_truck	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	13	orange not bowl	orange not bowl		orange_truck	1	"c(""C"", """", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	truck
+Xg4TYATBTCC5Qs2rL	English	green_sock	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	16	green not fish	green not fish		green_sock	1	"c(""C"", """", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	sock
+Xg4TYATBTCC5Qs2rL	English	green_fish	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	17	green not helicopter	green not helicopter		green_fish	1	"c(""C"", """", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	fish
+Xg4TYATBTCC5Qs2rL	English	red_mug	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	18	red not candle	red not candle		red_mug	1	"c(""C"", """", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	mug
+Xg4TYATBTCC5Qs2rL	English	black_drum	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	19	black not shoe	black not shoe		black_drum	1	"c(""C"", """", """")"		TRUE	FALSE	FALSE	FALSE	TRUE	drum
+Xg4TYATBTCC5Qs2rL	English	purple_bowl	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	21	purple not basket	purple not basket		purple_bowl	1	"c(""C"", """", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	bowl
+Xg4TYATBTCC5Qs2rL	English	yellow_butterfly	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	22	yellow not ring	yellow not ring		yellow_butterfly	1	"c(""C"", """", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	butterfly
+Xg4TYATBTCC5Qs2rL	English	green_knife	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	23	green item not truck	green item not truck		green_knife	1	"c(""C"", """", """", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	knife
+Xg4TYATBTCC5Qs2rL	English	white_door	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	24	white item not ring	white item not ring		white_door	1	"c(""C"", """", """", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	door
+Xg4TYATBTCC5Qs2rL	English	black_shell	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	25	black item not die	black item not die		black_shell	1	"c(""C"", """", """", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	shell
+Xg4TYATBTCC5Qs2rL	English	purple_microscope	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	26	purple item not ribbon	purple item not ribbon		purple_microscope	1	"c(""C"", """", """", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	microscope
+Xg4TYATBTCC5Qs2rL	English	green_helicopter	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	27	green not hammer	green not hammer		green_helicopter	1	"c(""C"", """", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	helicopter
+Xg4TYATBTCC5Qs2rL	English	orange_calendar	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	28	orange not shell	orange not shell		orange_calendar	1	"c(""C"", """", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	calendar
+Xg4TYATBTCC5Qs2rL	English	white_balloon	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	30	white not cushion	white not cushion		white_balloon	1	"c(""C"", """", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	balloon
+Xg4TYATBTCC5Qs2rL	English	purple_luggage	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	31	purple not microscope	purple not microscope		purple_luggage	1	"c(""C"", """", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	luggage
+Xg4TYATBTCC5Qs2rL	English	purple_slipper	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	32	purple not glove	purple not glove		purple_slipper	1	"c(""C"", """", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	slipper
+Xg4TYATBTCC5Qs2rL	English	green_robot	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	34	green not calendar	green not calendar		green_robot	1	"c(""C"", """", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	robot
+Xg4TYATBTCC5Qs2rL	English	blue_fence	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	35	blue not dress	blue not dress		blue_fence	1	"c(""C"", """", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	fence
+Xg4TYATBTCC5Qs2rL	English	yellow_calculator	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	38	yellow not pencil	yellow not pencil		yellow_calculator	1	"c(""C"", """", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	calculator
+Xg4TYATBTCC5Qs2rL	English	orange_tie	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	40	orange item not suitcase	orange item not suitcase		orange_tie	1	"c(""C"", """", """", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	tie
+Xg4TYATBTCC5Qs2rL	English	yellow_flower	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	41	yellow not belt	yellow not belt		yellow_flower	1	"c(""C"", """", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	flower
+Xg4TYATBTCC5Qs2rL	English	green_necklace	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	43	green not fork	green not fork		green_necklace	1	"c(""C"", """", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	necklace
+Xg4TYATBTCC5Qs2rL	English	green_screwdriver	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	46	green not drum	green not drum		green_screwdriver	1	"c(""C"", """", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	screwdriver
+Xg4TYATBTCC5Qs2rL	English	orange_binoculars	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	47	orange not necklace	orange not necklace		orange_binoculars	1	"c(""C"", """", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	binoculars
+Xg4TYATBTCC5Qs2rL	English	red_ring	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	48	red not door	red not door		red_ring	1	"c(""C"", """", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	ring
+Xg4TYATBTCC5Qs2rL	English	red_crown	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	49	red not cushion	red not cushion		red_crown	1	"c(""C"", """", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	crown
+Xg4TYATBTCC5Qs2rL	English	white_pencil	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	50	whitw not calculator	whitw not calculator		white_pencil	1	"c("""", """", ""N"")"		FALSE	FALSE	TRUE	FALSE	TRUE	pencil
+Xg4TYATBTCC5Qs2rL	English	orange_fork	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	51	orange not lock	orange not lock		orange_fork	1	"c(""C"", """", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	fork
+Xg4TYATBTCC5Qs2rL	English	black_glove	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	53	black item not screwdriver	black item not screwdriver		black_glove	1	"c(""C"", """", """", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	glove
+Xg4TYATBTCC5Qs2rL	English	orange_hammer	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	56	orange item not sock	orange item not sock		orange_hammer	1	"c(""C"", """", """", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	hammer
+Xg4TYATBTCC5Qs2rL	English	blue_mask	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	57	blue item not pencil	blue item not pencil		blue_mask	1	"c(""C"", """", """", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	mask
+Xg4TYATBTCC5Qs2rL	English	red_bed	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	58	red not calculater	red not calculater		red_bed	1	"c(""C"", """", """")"		TRUE	FALSE	FALSE	FALSE	TRUE	bed
+Xg4TYATBTCC5Qs2rL	English	yellow_wallet	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	59	yellow not scarf	yellow not scarf		yellow_wallet	1	"c(""C"", """", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	wallet
+Xg4TYATBTCC5Qs2rL	English	red_guitar	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	61	red not book	red not book		red_guitar	1	"c(""C"", """", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	guitar
+Xg4TYATBTCC5Qs2rL	English	white_comb	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	62	white not dress	white not dress		white_comb	1	"c(""C"", """", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	comb
+Xg4TYATBTCC5Qs2rL	English	white_candle	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	64	white not scarf	white not scarf		white_candle	1	"c(""C"", """", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	candle
+Xg4TYATBTCC5Qs2rL	English	red_iron	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	65	red not door	red not door		red_iron	1	"c(""C"", """", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	iron
+Xg4TYATBTCC5Qs2rL	English	white_book	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	66	white not belt	white not belt		white_book	1	"c(""C"", """", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	book
+Xg4TYATBTCC5Qs2rL	English	red_dress	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	67	red not comb	red not comb		red_dress	1	"c(""C"", """", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	dress
+Xg4TYATBTCC5Qs2rL	English	blue_chair	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	68	blue not crown	blue not crown		blue_chair	1	"c(""C"", """", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	chair
+Xg4TYATBTCC5Qs2rL	English	purple_lock	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	69	purple not binoculars	purple not binoculars		purple_lock	1	"c(""C"", """", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	lock
+Xg4TYATBTCC5Qs2rL	English	orange_basket	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	70	orange not knnife	orange not knnife		orange_basket	1	"c(""C"", """", """")"		TRUE	FALSE	FALSE	FALSE	TRUE	basket
+Xg4TYATBTCC5Qs2rL	English	yellow_belt	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	71	yellow not book	yellow not book		yellow_belt	1	"c(""C"", """", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	belt
+Xg4TYATBTCC5Qs2rL	English	white_cushion	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	72	white not crown	white not crown		white_cushion	1	"c(""C"", """", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	cushion
+82aQfrqTW7x3Ej6En	English	blue_fence	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	1	fence	fence		blue_fence	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	fence
+82aQfrqTW7x3Ej6En	English	black_shell	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	2	not calendar	not calendar		black_shell	1	"c("""", ""N"")"		FALSE	FALSE	TRUE	FALSE	TRUE	shell
+82aQfrqTW7x3Ej6En	English	orange_calendar	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	3	orange calendar	orange calendar		orange_calendar	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	calendar
+82aQfrqTW7x3Ej6En	English	black_microscope	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	4	not bow	not bow		black_microscope	1	"c("""", ""N"")"		FALSE	FALSE	TRUE	FALSE	FALSE	microscope
+82aQfrqTW7x3Ej6En	English	yellow_belt	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	6	belt	belt		yellow_belt	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	belt
+82aQfrqTW7x3Ej6En	English	red_calculator	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	7	calculator	calculator		red_calculator	1	N		FALSE	FALSE	TRUE	FALSE	TRUE	calculator
+82aQfrqTW7x3Ej6En	English	orange_sock	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	8	sock	sock		orange_sock	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	sock
+82aQfrqTW7x3Ej6En	English	red_guitar	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	9	red guitar	red guitar		red_guitar	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	guitar
+82aQfrqTW7x3Ej6En	English	yellow_cushion	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	10	yellow cushion	yellow cushion		yellow_cushion	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	cushion
+82aQfrqTW7x3Ej6En	English	orange_fork	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	14	fork	fork		orange_fork	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	fork
+82aQfrqTW7x3Ej6En	English	purple_robot	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	15	robot	robot		purple_robot	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	robot
+82aQfrqTW7x3Ej6En	English	purple_fish	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	16	purple fish	purple fish		purple_fish	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	fish
+82aQfrqTW7x3Ej6En	English	black_drum	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	17	drum	drum		black_drum	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	drum
+82aQfrqTW7x3Ej6En	English	yellow_book	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	19	yellow book	yellow book		yellow_book	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	book
+82aQfrqTW7x3Ej6En	English	yellow_scarf	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	20	scarf	scarf		yellow_scarf	1	N		FALSE	FALSE	TRUE	FALSE	TRUE	scarf
+82aQfrqTW7x3Ej6En	English	yellow_ring	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	21	gold ring	gold ring		yellow_ring	1	"c("""", ""N"")"		FALSE	FALSE	TRUE	FALSE	FALSE	ring
+82aQfrqTW7x3Ej6En	English	red_chair	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	23	chair	chair		red_chair	1	N		FALSE	FALSE	TRUE	FALSE	TRUE	chair
+82aQfrqTW7x3Ej6En	English	purple_ribbon	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	24	purple bow	purple bow		purple_ribbon	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	ribbon
+82aQfrqTW7x3Ej6En	English	green_binoculars	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	25	binoculars	binoculars		green_binoculars	1	N		FALSE	FALSE	TRUE	FALSE	TRUE	binoculars
+82aQfrqTW7x3Ej6En	English	purple_screwdriver	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	27	hi__purple screwdriver	hi	hi__:)	purple_screwdriver	1			FALSE	FALSE	FALSE	FALSE	FALSE	screwdriver
+82aQfrqTW7x3Ej6En	English	purple_tie	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	28	tie	tie		purple_tie	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	tie
+82aQfrqTW7x3Ej6En	English	purple_glove	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	29	glove	glove		purple_glove	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	glove
+82aQfrqTW7x3Ej6En	English	green_basket	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	30	green basket	green basket		green_basket	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	basket
+82aQfrqTW7x3Ej6En	English	green_knife	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	33	knife	knife		green_knife	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	knife
+82aQfrqTW7x3Ej6En	English	green_necklace	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	37	green beads	green beads		green_necklace	1	"c(""C"", """")"		TRUE	FALSE	FALSE	FALSE	TRUE	necklace
+82aQfrqTW7x3Ej6En	English	black_die	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	38	black die	black die		black_die	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	die
+82aQfrqTW7x3Ej6En	English	purple_helicopter	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	40	helicopter	helicopter		purple_helicopter	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	helicopter
+82aQfrqTW7x3Ej6En	English	purple_lock	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	41	nearly there__padlock__no - sorry!	nearly there	phew__? gold	purple_lock	1	"c("""", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	lock
+82aQfrqTW7x3Ej6En	English	red_mug	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	42	red cup	red cup		red_mug	1	"c(""C"", """")"		TRUE	FALSE	FALSE	FALSE	FALSE	mug
+82aQfrqTW7x3Ej6En	English	blue_crown	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	44	blue crown	blue crown		blue_crown	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	crown
+82aQfrqTW7x3Ej6En	English	black_bowl	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	45	bowl	bowl		black_bowl	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	bowl
+82aQfrqTW7x3Ej6En	English	orange_slipper	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	49	orange slipper	orange slipper		orange_slipper	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	slipper
+82aQfrqTW7x3Ej6En	English	yellow_flower	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	50	yellow flower	yellow flower		yellow_flower	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	flower
+82aQfrqTW7x3Ej6En	English	blue_candle	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	52	candle	candle		blue_candle	1	N		FALSE	FALSE	TRUE	FALSE	TRUE	candle
+82aQfrqTW7x3Ej6En	English	red_mask	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	53	red  mask	red  mask		red_mask	1	"c(""C"", """", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	mask
+82aQfrqTW7x3Ej6En	English	red_door	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	56	red door	red door		red_door	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	door
+82aQfrqTW7x3Ej6En	English	red_pencil	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	57	pencil	pencil		red_pencil	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	pencil
+82aQfrqTW7x3Ej6En	English	white_wallet	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	59	white wallet	white wallet		white_wallet	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	wallet
+82aQfrqTW7x3Ej6En	English	yellow_butterfly	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	60	butterfly	butterfly		yellow_butterfly	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	butterfly
+82aQfrqTW7x3Ej6En	English	white_bed	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	61	white bed	white bed		white_bed	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	bed
+82aQfrqTW7x3Ej6En	English	white_balloon	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	62	balloon	balloon		white_balloon	1	N		FALSE	FALSE	TRUE	FALSE	TRUE	balloon
+82aQfrqTW7x3Ej6En	English	black_luggage	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	63	black suitcase	black suitcase		black_luggage	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	luggage
+82aQfrqTW7x3Ej6En	English	yellow_dress	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	65	yellow dress	yellow dress		yellow_dress	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	dress
+82aQfrqTW7x3Ej6En	English	white_iron	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	67	iron	iron		white_iron	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	iron
+82aQfrqTW7x3Ej6En	English	blue_phone	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	69	phone	phone		blue_phone	1	N		FALSE	FALSE	TRUE	TRUE	FALSE	phone
+82aQfrqTW7x3Ej6En	English	purple_truck	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	70	purple lorry	purple lorry		purple_truck	1	"c(""C"", """")"		TRUE	FALSE	FALSE	FALSE	FALSE	truck
+82aQfrqTW7x3Ej6En	English	purple_hammer	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	71	purple hammer	purple hammer		purple_hammer	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	hammer
+82aQfrqTW7x3Ej6En	English	yellow_comb	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	72	yellow comb	yellow comb		yellow_comb	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	comb
+5KyXjukBwjkH48zC4	English	orange_bowl	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	1	orange bowl	orange bowl		orange_bowl	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	bowl
+5KyXjukBwjkH48zC4	English	black_luggage	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	2	luggage	luggage		black_luggage	1			FALSE	FALSE	FALSE	FALSE	TRUE	luggage
+5KyXjukBwjkH48zC4	English	blue_wallet	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	5	blue wallet	blue wallet		blue_wallet	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	wallet
+5KyXjukBwjkH48zC4	English	blue_book	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	7	blue book	blue book		blue_book	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	book
+5KyXjukBwjkH48zC4	English	yellow_calculator	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	9	calculator	calculator		yellow_calculator	1	N		FALSE	FALSE	TRUE	FALSE	TRUE	calculator
+5KyXjukBwjkH48zC4	English	yellow_flower	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	10	yellow flower	yellow flower		yellow_flower	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	flower
+5KyXjukBwjkH48zC4	English	orange_knife	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	11	orange knife	orange knife		orange_knife	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	knife
+5KyXjukBwjkH48zC4	English	white_dress	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	12	dress	dress		white_dress	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	dress
+5KyXjukBwjkH48zC4	English	black_drum	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	13	black drum	black drum		black_drum	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	drum
+5KyXjukBwjkH48zC4	English	green_robot	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	14	green robot	green robot		green_robot	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	robot
+5KyXjukBwjkH48zC4	English	black_slipper	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	15	shoe	shoe		black_slipper	1			FALSE	FALSE	FALSE	FALSE	FALSE	slipper
+5KyXjukBwjkH48zC4	English	orange_hammer	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	16	hammer	hammer		orange_hammer	1	N		FALSE	FALSE	TRUE	FALSE	TRUE	hammer
+5KyXjukBwjkH48zC4	English	red_balloon	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	18	balloon	balloon		red_balloon	1	N		FALSE	FALSE	TRUE	FALSE	TRUE	balloon
+5KyXjukBwjkH48zC4	English	yellow_bed	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	19	yellow bed	yellow bed		yellow_bed	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	bed
+5KyXjukBwjkH48zC4	English	white_scarf	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	20	scarf	scarf		white_scarf	1	N		FALSE	FALSE	TRUE	FALSE	TRUE	scarf
+5KyXjukBwjkH48zC4	English	black_lock	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	21	lock	lock		black_lock	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	lock
+5KyXjukBwjkH48zC4	English	black_die	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	23	die	die		black_die	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	die
+5KyXjukBwjkH48zC4	English	red_butterfly	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	24	butterfly	butterfly		red_butterfly	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	butterfly
+5KyXjukBwjkH48zC4	English	yellow_pencil	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	25	yellow pencil	yellow pencil		yellow_pencil	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	pencil
+5KyXjukBwjkH48zC4	English	green_sock	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	28	green sock	green sock		green_sock	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	sock
+5KyXjukBwjkH48zC4	English	black_fish	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	29	fish	fish		black_fish	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	fish
+5KyXjukBwjkH48zC4	English	purple_microscope	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	31	purple microscope	purple microscope		purple_microscope	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	microscope
+5KyXjukBwjkH48zC4	English	purple_glove	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	32	purple glove	purple glove		purple_glove	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	glove
+5KyXjukBwjkH48zC4	English	white_fence	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	34	white fence	white fence		white_fence	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	fence
+5KyXjukBwjkH48zC4	English	white_iron	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	36	not blue iron	not blue iron		white_iron	1	"c("""", ""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	iron
+5KyXjukBwjkH48zC4	English	yellow_candle	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	37	yellow candle	yellow candle		yellow_candle	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	candle
+5KyXjukBwjkH48zC4	English	blue_door	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	39	blue door	blue door		blue_door	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	door
+5KyXjukBwjkH48zC4	English	purple_helicopter	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	44	purple helicopter	purple helicopter		purple_helicopter	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	helicopter
+5KyXjukBwjkH48zC4	English	green_binoculars	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	45	green binoculars	green binoculars		green_binoculars	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	binoculars
+5KyXjukBwjkH48zC4	English	yellow_phone	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	46	phone	phone		yellow_phone	1	N		FALSE	FALSE	TRUE	TRUE	FALSE	phone
+5KyXjukBwjkH48zC4	English	white_cushion	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	47	white pillow	white pillow		white_cushion	1	"c(""C"", """")"		TRUE	FALSE	FALSE	FALSE	FALSE	cushion
+5KyXjukBwjkH48zC4	English	purple_necklace	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	48	necklace	necklace		purple_necklace	1	N		FALSE	FALSE	TRUE	FALSE	TRUE	necklace
+5KyXjukBwjkH48zC4	English	black_shell	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	49	black shell	black shell		black_shell	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	shell
+5KyXjukBwjkH48zC4	English	orange_basket	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	51	basket	basket		orange_basket	1	N		FALSE	FALSE	TRUE	FALSE	TRUE	basket
+5KyXjukBwjkH48zC4	English	orange_tie	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	54	orange tie	orange tie		orange_tie	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	tie
+5KyXjukBwjkH48zC4	English	white_ring	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	55	white ring	white ring		white_ring	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	ring
+5KyXjukBwjkH48zC4	English	orange_ribbon	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	57	tied ribbon	tied ribbon		orange_ribbon	1	"c("""", ""N"")"		FALSE	FALSE	TRUE	FALSE	FALSE	ribbon
+5KyXjukBwjkH48zC4	English	green_fork	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	58	green fork	green fork		green_fork	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	fork
+5KyXjukBwjkH48zC4	English	yellow_mug	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	59	mug	mug		yellow_mug	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	mug
+5KyXjukBwjkH48zC4	English	yellow_mask	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	60	mask	mask		yellow_mask	1	N		FALSE	FALSE	TRUE	FALSE	TRUE	mask
+5KyXjukBwjkH48zC4	English	green_screwdriver	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	61	screwdriver	screwdriver		green_screwdriver	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	screwdriver
+5KyXjukBwjkH48zC4	English	white_chair	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	64	white chair	white chair		white_chair	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	chair
+5KyXjukBwjkH48zC4	English	blue_comb	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	65	blue comb	blue comb		blue_comb	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	comb
+5KyXjukBwjkH48zC4	English	yellow_crown	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	66	crown	crown		yellow_crown	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	crown
+5KyXjukBwjkH48zC4	English	purple_truck	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	67	truck	truck		purple_truck	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	truck
+5KyXjukBwjkH48zC4	English	white_guitar	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	68	guitar	guitar		white_guitar	1	N		FALSE	FALSE	TRUE	FALSE	TRUE	guitar
+5KyXjukBwjkH48zC4	English	black_calendar	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	71	calendar	calendar		black_calendar	1	N		FALSE	FALSE	TRUE	FALSE	TRUE	calendar
+5KyXjukBwjkH48zC4	English	red_belt	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	72	belt	belt		red_belt	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	belt
+Lxj2RY2F8Box9Ca8Y	English	orange_helicopter	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	1	it flies.	it flies.		orange_helicopter	1	"c("""", """")"		FALSE	FALSE	FALSE	FALSE	FALSE	helicopter
+Lxj2RY2F8Box9Ca8Y	English	white_mask	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	2	it is health related and white.	it is health related and white.		white_mask	1	"c("""", """", """", """", """", """")"		TRUE	FALSE	FALSE	FALSE	TRUE	mask
+Lxj2RY2F8Box9Ca8Y	English	red_comb	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	4	used for one's hair.	used for one's hair.		red_comb	1	"c("""", """", """", """")"		FALSE	FALSE	FALSE	TRUE	TRUE	comb
+Lxj2RY2F8Box9Ca8Y	English	purple_drum	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	6	it is an instrument.	it is an instrument.		purple_drum	1	"c("""", """", """", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	drum
+Lxj2RY2F8Box9Ca8Y	English	purple_hammer	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	8	a tool that is not orange.	a tool that is not orange.		purple_hammer	1	"c(""A"", """", """", """", """", """")"		TRUE	FALSE	FALSE	FALSE	TRUE	hammer
+Lxj2RY2F8Box9Ca8Y	English	blue_phone	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	9	for making phone calls__yes	for making phone calls	blue?	blue_phone	1	"c("""", """", ""N"", """")"		FALSE	FALSE	TRUE	TRUE	TRUE	phone
+Lxj2RY2F8Box9Ca8Y	English	green_ribbon	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	10	chrismassy coloured decoration	chrismassy coloured decoration		green_ribbon	1	"c("""", """", """")"		TRUE	FALSE	FALSE	FALSE	TRUE	ribbon
+Lxj2RY2F8Box9Ca8Y	English	yellow_flower	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	12	living thing.	living thing.		yellow_flower	1	"c("""", """")"		FALSE	FALSE	FALSE	FALSE	FALSE	flower
+Lxj2RY2F8Box9Ca8Y	English	purple_shell	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	14	sea related.	sea related.		purple_shell	1	"c("""", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	shell
+Lxj2RY2F8Box9Ca8Y	English	red_door	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	17	more forboding looking entrance.	more forboding looking entrance.		red_door	1	"c("""", """", """", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	door
+Lxj2RY2F8Box9Ca8Y	English	orange_screwdriver	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	19	less diseased looking equipment	less diseased looking equipment		orange_screwdriver	1	"c("""", """", """", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	screwdriver
+Lxj2RY2F8Box9Ca8Y	English	white_chair	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	21	for sitting on.	for sitting on.		white_chair	1	"c("""", """", """")"		FALSE	FALSE	FALSE	FALSE	FALSE	chair
+Lxj2RY2F8Box9Ca8Y	English	purple_necklace	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	22	pearls that are not green.	pearls that are not green.		purple_necklace	1	"c("""", """", """", """", """")"		TRUE	FALSE	FALSE	FALSE	TRUE	necklace
+Lxj2RY2F8Box9Ca8Y	English	orange_sock	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	23	also for wearing.	also for wearing.		orange_sock	1	"c("""", """", """")"		FALSE	FALSE	TRUE	FALSE	TRUE	sock
+Lxj2RY2F8Box9Ca8Y	English	green_die	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	26	number related but not oragne	number related but not oragne		green_die	1	"c("""", """", """", """", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	die
+Lxj2RY2F8Box9Ca8Y	English	yellow_scarf	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	27	more sunny attire.__yes	more sunny attire.	yellow scarf?	yellow_scarf	1	"c("""", """", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	scarf
+Lxj2RY2F8Box9Ca8Y	English	blue_guitar	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	28	ocean coloured music__yes	ocean coloured music	the guitar?	blue_guitar	1	"c("""", """", """")"		TRUE	FALSE	FALSE	FALSE	TRUE	guitar
+Lxj2RY2F8Box9Ca8Y	English	white_iron	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	31	for clothes	for clothes		white_iron	1	"c("""", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	iron
+Lxj2RY2F8Box9Ca8Y	English	blue_ring	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	33	think - engagements	think - engagements		blue_ring	1	"c("""", """", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	ring
+Lxj2RY2F8Box9Ca8Y	English	white_butterfly	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	34	living thing would blend in with snow	living thing would blend in with snow		white_butterfly	1	"c("""", """", """", """", """", """", """")"		FALSE	FALSE	FALSE	FALSE	FALSE	butterfly
+Lxj2RY2F8Box9Ca8Y	English	black_bowl	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	35	it is round.	it is round.		black_bowl	1	"c("""", """", """")"		FALSE	FALSE	FALSE	FALSE	FALSE	bowl
+Lxj2RY2F8Box9Ca8Y	English	purple_robot	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	36	it is not a calendar.	it is not a calendar.		purple_robot	1	"c("""", """", """", ""A"", """")"		FALSE	FALSE	TRUE	FALSE	TRUE	robot
+Lxj2RY2F8Box9Ca8Y	English	green_binoculars	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	38	used for spying.	used for spying.		green_binoculars	1	"c("""", """", """")"		FALSE	FALSE	FALSE	FALSE	FALSE	binoculars
+Lxj2RY2F8Box9Ca8Y	English	yellow_balloon	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	39	a golden party object.	a golden party object.		yellow_balloon	1	"c(""A"", """", """", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	balloon
+Lxj2RY2F8Box9Ca8Y	English	black_truck	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	40	truck traveling somewhere.__yes	truck traveling somewhere.	black?	black_truck	1	"c(""N"", """", """")"		FALSE	FALSE	TRUE	FALSE	TRUE	truck
+Lxj2RY2F8Box9Ca8Y	English	orange_tie	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	41	guys wear it.	guys wear it.		orange_tie	1	"c("""", """", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	tie
+Lxj2RY2F8Box9Ca8Y	English	red_cushion	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	42	for sleeping on.	for sleeping on.		red_cushion	1	"c("""", """", """")"		FALSE	FALSE	FALSE	FALSE	FALSE	cushion
+Lxj2RY2F8Box9Ca8Y	English	blue_dress	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	43	for wearing__yes	for wearing	blue	blue_dress	1	"c("""", """")"		FALSE	FALSE	TRUE	FALSE	TRUE	dress
+Lxj2RY2F8Box9Ca8Y	English	orange_slipper	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	44	less professional looking footwear.	less professional looking footwear.		orange_slipper	1	"c("""", """", """", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	slipper
+Lxj2RY2F8Box9Ca8Y	English	black_glove	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	46	not leave fingerprints	not leave fingerprints		black_glove	1	"c("""", """", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	glove
+Lxj2RY2F8Box9Ca8Y	English	black_microscope	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	47	science related	science related		black_microscope	1	"c("""", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	microscope
+Lxj2RY2F8Box9Ca8Y	English	purple_calendar	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	48	cold looking dates__yes	cold looking dates	okay, purple?...	purple_calendar	1	"c("""", """", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	calendar
+Lxj2RY2F8Box9Ca8Y	English	yellow_belt	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	49	less professional looking waist attire.	less professional looking waist attire.		yellow_belt	1	"c("""", """", """", """", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	belt
+Lxj2RY2F8Box9Ca8Y	English	yellow_wallet	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	50	for valuable stuff.	for valuable stuff.		yellow_wallet	1	"c("""", """", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	wallet
+Lxj2RY2F8Box9Ca8Y	English	blue_mug	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	51	for cold benerage.__haha	for cold benerage.	beverage :)	blue_mug	1	"c("""", """", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	mug
+Lxj2RY2F8Box9Ca8Y	English	blue_candle	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	52	for lighting on fire	for lighting on fire		blue_candle	1	"c("""", """", """", """")"		FALSE	FALSE	FALSE	FALSE	FALSE	candle
+Lxj2RY2F8Box9Ca8Y	English	white_fence	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	53	not for wearing	not for wearing		white_fence	1	"c("""", """", """")"		FALSE	FALSE	TRUE	FALSE	TRUE	fence
+Lxj2RY2F8Box9Ca8Y	English	blue_crown	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	54	it is blue but not a square.	it is blue but not a square.		blue_crown	1	"c("""", """", ""C"", """", """", ""A"", """")"		TRUE	FALSE	FALSE	FALSE	TRUE	crown
+Lxj2RY2F8Box9Ca8Y	English	red_calculator	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	55	it is red and related to numbers.	it is red and related to numbers.		red_calculator	1	"c("""", """", ""C"", """", """", """", """")"		TRUE	FALSE	FALSE	FALSE	TRUE	calculator
+Lxj2RY2F8Box9Ca8Y	English	orange_basket	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	56	used for flowers but not purple.	used for flowers but not purple.		orange_basket	1	"c("""", """", """", """", """", """")"		TRUE	FALSE	TRUE	FALSE	FALSE	basket
+Lxj2RY2F8Box9Ca8Y	English	orange_luggage	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	57	luggage related and not purple.	luggage related and not purple.		orange_luggage	1	"c("""", """", """", """", """")"		TRUE	FALSE	FALSE	FALSE	TRUE	luggage
+Lxj2RY2F8Box9Ca8Y	English	green_fork	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	58	eating utensil.	eating utensil.		green_fork	1	"c("""", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	fork
+Lxj2RY2F8Box9Ca8Y	English	orange_fish	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	61	it is living.__yes	it is living.	orange?	orange_fish	1	"c("""", """", """")"		FALSE	FALSE	FALSE	FALSE	FALSE	fish
+Lxj2RY2F8Box9Ca8Y	English	orange_knife	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	62	a weapon..	a weapon..		orange_knife	1	"c(""A"", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	knife
+Lxj2RY2F8Box9Ca8Y	English	purple_lock	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	63	for safety - not green	for safety - not green		purple_lock	1	"c("""", """", """", """", ""C"")"		TRUE	FALSE	FALSE	FALSE	TRUE	lock
+Lxj2RY2F8Box9Ca8Y	English	blue_bed	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	66	for snoozing	for snoozing		blue_bed	1	"c("""", """")"		FALSE	FALSE	FALSE	FALSE	FALSE	bed
+Lxj2RY2F8Box9Ca8Y	English	yellow_book	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	67	it has words in it.	it has words in it.		yellow_book	1	"c("""", """", """", """", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	book
+Lxj2RY2F8Box9Ca8Y	English	blue_pencil	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	70	for communicating	for communicating		blue_pencil	1	"c("""", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	pencil
+cEXHaGis7QLpYJmnT	English	red_phone	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	1	phone	phone		red_phone	1	N		FALSE	FALSE	TRUE	TRUE	FALSE	phone
+cEXHaGis7QLpYJmnT	English	black_shell	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	2	black thing you find on the ocean	black thing you find on the ocean		black_shell	1	"c(""C"", """", """", """", """", ""A"", """")"		TRUE	FALSE	FALSE	FALSE	TRUE	shell
+cEXHaGis7QLpYJmnT	English	orange_bowl	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	3	orange recepticle to hold a food or a very dense liquid	orange recepticle to hold a food or a very dense liquid		orange_bowl	1	"c(""C"", """", """", """", ""A"", """", """", ""A"", """", """", """")"		TRUE	FALSE	FALSE	FALSE	TRUE	bowl
+cEXHaGis7QLpYJmnT	English	orange_microscope	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	4	orange microscope	orange microscope		orange_microscope	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	microscope
+cEXHaGis7QLpYJmnT	English	orange_knife	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	5	orange knife	orange knife		orange_knife	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	knife
+cEXHaGis7QLpYJmnT	English	purple_robot	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	8	purple robot	purple robot		purple_robot	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	robot
+cEXHaGis7QLpYJmnT	English	purple_drum	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	10	purple drum	purple drum		purple_drum	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	drum
+cEXHaGis7QLpYJmnT	English	yellow_book	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	12	yellow book	yellow book		yellow_book	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	book
+cEXHaGis7QLpYJmnT	English	black_necklace	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	13	necklace	necklace		black_necklace	1	N		FALSE	FALSE	TRUE	FALSE	TRUE	necklace
+cEXHaGis7QLpYJmnT	English	green_binoculars	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	15	green bird watcher	green bird watcher		green_binoculars	1	"c(""C"", """", """")"		TRUE	FALSE	FALSE	FALSE	TRUE	binoculars
+cEXHaGis7QLpYJmnT	English	red_bed	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	17	red bed	red bed		red_bed	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	bed
+cEXHaGis7QLpYJmnT	English	red_fence	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	18	red fence	red fence		red_fence	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	fence
+cEXHaGis7QLpYJmnT	English	black_truck	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	19	lorry	lorry		black_truck	1			FALSE	FALSE	FALSE	FALSE	FALSE	truck
+cEXHaGis7QLpYJmnT	English	black_ribbon	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	20	bow	bow		black_ribbon	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	ribbon
+cEXHaGis7QLpYJmnT	English	green_luggage	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	21	suitcase	suitcase		green_luggage	1	N		FALSE	FALSE	TRUE	FALSE	TRUE	luggage
+cEXHaGis7QLpYJmnT	English	yellow_mask	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	22	nask__mask	nask		yellow_mask	1			FALSE	FALSE	FALSE	FALSE	TRUE	mask
+cEXHaGis7QLpYJmnT	English	purple_fork	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	23	purple fork	purple fork		purple_fork	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	fork
+cEXHaGis7QLpYJmnT	English	black_fish	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	24	fish	fish		black_fish	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	fish
+cEXHaGis7QLpYJmnT	English	blue_iron	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	27	blue iron	blue iron		blue_iron	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	iron
+cEXHaGis7QLpYJmnT	English	white_candle	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	28	vanilla candle	vanilla candle		white_candle	1	"c("""", ""N"")"		FALSE	FALSE	TRUE	FALSE	TRUE	candle
+cEXHaGis7QLpYJmnT	English	red_belt	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	32	red belt	red belt		red_belt	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	belt
+cEXHaGis7QLpYJmnT	English	green_sock	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	33	sock for irish people	sock for irish people		green_sock	1	"c(""N"", """", """", """")"		FALSE	FALSE	TRUE	FALSE	FALSE	sock
+cEXHaGis7QLpYJmnT	English	white_dress	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	34	dress	dress		white_dress	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	dress
+cEXHaGis7QLpYJmnT	English	red_balloon	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	35	balloon	balloon		red_balloon	1	N		FALSE	FALSE	TRUE	FALSE	TRUE	balloon
+cEXHaGis7QLpYJmnT	English	yellow_cushion	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	37	pee pillow	pee pillow		yellow_cushion	1	"c("""", """")"		FALSE	FALSE	FALSE	FALSE	FALSE	cushion
+cEXHaGis7QLpYJmnT	English	orange_helicopter	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	38	orange helicopter	orange helicopter		orange_helicopter	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	helicopter
+cEXHaGis7QLpYJmnT	English	purple_lock	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	40	lock	lock		purple_lock	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	lock
+cEXHaGis7QLpYJmnT	English	white_calculator	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	42	calculator	calculator		white_calculator	1	N		FALSE	FALSE	TRUE	FALSE	TRUE	calculator
+cEXHaGis7QLpYJmnT	English	yellow_flower	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	43	flower__yellow	flower		yellow_flower	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	flower
+cEXHaGis7QLpYJmnT	English	white_door	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	44	entrance	entrance		white_door	1			FALSE	FALSE	FALSE	FALSE	TRUE	door
+cEXHaGis7QLpYJmnT	English	red_pencil	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	45	red pencil	red pencil		red_pencil	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	pencil
+cEXHaGis7QLpYJmnT	English	purple_slipper	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	46	slipper	slipper		purple_slipper	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	slipper
+cEXHaGis7QLpYJmnT	English	red_butterfly	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	47	butterfly	butterfly		red_butterfly	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	butterfly
+cEXHaGis7QLpYJmnT	English	purple_hammer	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	48	hammer	hammer		purple_hammer	1	N		FALSE	FALSE	TRUE	FALSE	TRUE	hammer
+cEXHaGis7QLpYJmnT	English	blue_crown	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	52	blue crown	blue crown		blue_crown	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	crown
+cEXHaGis7QLpYJmnT	English	yellow_ring	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	53	gold ring	gold ring		yellow_ring	1	"c("""", ""N"")"		FALSE	FALSE	TRUE	FALSE	FALSE	ring
+cEXHaGis7QLpYJmnT	English	purple_tie	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	59	purple tie	purple tie		purple_tie	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	tie
+cEXHaGis7QLpYJmnT	English	orange_basket	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	60	basket	basket		orange_basket	1	N		FALSE	FALSE	TRUE	FALSE	TRUE	basket
+cEXHaGis7QLpYJmnT	English	orange_glove	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	62	orange glove	orange glove		orange_glove	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	glove
+cEXHaGis7QLpYJmnT	English	red_comb	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	63	comb for gingers	comb for gingers		red_comb	1	"c(""N"", """", """")"		FALSE	FALSE	TRUE	FALSE	FALSE	comb
+cEXHaGis7QLpYJmnT	English	blue_mug	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	64	cup	cup		blue_mug	1			FALSE	FALSE	FALSE	FALSE	FALSE	mug
+cEXHaGis7QLpYJmnT	English	green_calendar	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	65	calender	calender		green_calendar	1	N		FALSE	FALSE	TRUE	FALSE	TRUE	calendar
+cEXHaGis7QLpYJmnT	English	blue_wallet	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	66	blue wallet	blue wallet		blue_wallet	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	wallet
+cEXHaGis7QLpYJmnT	English	white_guitar	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	67	guitar	guitar		white_guitar	1	N		FALSE	FALSE	TRUE	FALSE	TRUE	guitar
+cEXHaGis7QLpYJmnT	English	green_die	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	69	dice	dice		green_die	1			FALSE	FALSE	FALSE	FALSE	FALSE	die
+cEXHaGis7QLpYJmnT	English	orange_screwdriver	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	70	screwdriver	screwdriver		orange_screwdriver	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	screwdriver
+cEXHaGis7QLpYJmnT	English	yellow_chair	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	71	yellow chair	yellow chair		yellow_chair	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	chair
+cEXHaGis7QLpYJmnT	English	blue_scarf	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	72	scarf	scarf		blue_scarf	1	N		FALSE	FALSE	TRUE	FALSE	TRUE	scarf
+sWyzDtsyyENZYqCoe	English	blue_mask	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	2	covid	covid		blue_mask	1			FALSE	FALSE	FALSE	FALSE	FALSE	mask
+sWyzDtsyyENZYqCoe	English	green_hammer	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	3	eco friendly tool	eco friendly tool		green_hammer	1	"c("""", """", """")"		FALSE	FALSE	FALSE	FALSE	FALSE	hammer
+sWyzDtsyyENZYqCoe	English	orange_fish	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	5	sunburnt water animal	sunburnt water animal		orange_fish	1	"c("""", """", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	fish
+sWyzDtsyyENZYqCoe	English	yellow_crown	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	6	royalty	royalty		yellow_crown	1			FALSE	FALSE	FALSE	FALSE	TRUE	crown
+sWyzDtsyyENZYqCoe	English	black_luggage	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	7	sombre travel	sombre travel		black_luggage	1	"c("""", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	luggage
+sWyzDtsyyENZYqCoe	English	green_robot	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	8	the future	the future		green_robot	1	"c(""A"", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	robot
+sWyzDtsyyENZYqCoe	English	black_tie	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	12	male funeral	male funeral		black_tie	1	"c("""", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	tie
+sWyzDtsyyENZYqCoe	English	red_guitar	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	13	rock and roll	rock and roll		red_guitar	1	"c("""", """", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	guitar
+sWyzDtsyyENZYqCoe	English	yellow_belt	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	14	sunny fashion	sunny fashion		yellow_belt	1	"c("""", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	belt
+sWyzDtsyyENZYqCoe	English	purple_shell	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	16	jealous see	jealous see		purple_shell	1	"c("""", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	shell
+sWyzDtsyyENZYqCoe	English	yellow_butterfly	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	17	sunny flutter	sunny flutter		yellow_butterfly	1	"c("""", """")"		FALSE	FALSE	FALSE	FALSE	FALSE	butterfly
+sWyzDtsyyENZYqCoe	English	green_drum	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	19	noisy	noisy		green_drum	1			FALSE	FALSE	FALSE	FALSE	FALSE	drum
+sWyzDtsyyENZYqCoe	English	black_truck	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	20	dull transport	dull transport		black_truck	1	"c("""", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	truck
+sWyzDtsyyENZYqCoe	English	red_dress	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	21	garment	garment		red_dress	1			FALSE	FALSE	FALSE	FALSE	TRUE	dress
+sWyzDtsyyENZYqCoe	English	black_glove	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	22	dull finger	dull finger		black_glove	1	"c("""", """")"		FALSE	FALSE	FALSE	FALSE	FALSE	glove
+sWyzDtsyyENZYqCoe	English	orange_bowl	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	23	bright eat	bright eat		orange_bowl	1	"c("""", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	bowl
+sWyzDtsyyENZYqCoe	English	white_chair	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	25	neutral furniture	neutral furniture		white_chair	1	"c("""", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	chair
+sWyzDtsyyENZYqCoe	English	blue_wallet	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	26	money	money		blue_wallet	1			FALSE	FALSE	FALSE	TRUE	FALSE	wallet
+sWyzDtsyyENZYqCoe	English	black_ribbon	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	27	pretty	pretty		black_ribbon	1			FALSE	FALSE	FALSE	FALSE	FALSE	ribbon
+sWyzDtsyyENZYqCoe	English	blue_candle	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	29	air burner	air burner		blue_candle	1	"c("""", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	candle
+sWyzDtsyyENZYqCoe	English	green_binoculars	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	31	i can see you	i can see you		green_binoculars	1	"c("""", """", """", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	binoculars
+sWyzDtsyyENZYqCoe	English	yellow_scarf	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	32	sunny neck	sunny neck		yellow_scarf	1	"c("""", """")"		FALSE	FALSE	FALSE	FALSE	FALSE	scarf
+sWyzDtsyyENZYqCoe	English	purple_basket	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	34	red riding hood	red riding hood		purple_basket	1	"c(""C"", """", """")"		TRUE	FALSE	FALSE	FALSE	FALSE	basket
+sWyzDtsyyENZYqCoe	English	orange_microscope	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	38	helps the eye	helps the eye		orange_microscope	1	"c("""", ""A"", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	microscope
+sWyzDtsyyENZYqCoe	English	purple_fork	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	39	jealous food	jealous food		purple_fork	1	"c("""", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	fork
+sWyzDtsyyENZYqCoe	English	blue_phone	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	40	communicator air	communicator air		blue_phone	1	"c("""", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	phone
+sWyzDtsyyENZYqCoe	English	red_mug	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	41	put the kettle on	put the kettle on		red_mug	1	"c("""", ""A"", """", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	mug
+sWyzDtsyyENZYqCoe	English	red_fence	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	42	unusual neighbour	unusual neighbour		red_fence	1	"c("""", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	fence
+sWyzDtsyyENZYqCoe	English	white_comb	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	44	hairy	hairy		white_comb	1			FALSE	FALSE	FALSE	FALSE	TRUE	comb
+sWyzDtsyyENZYqCoe	English	red_ring	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	46	fancy	fancy		red_ring	1			FALSE	FALSE	FALSE	FALSE	TRUE	ring
+sWyzDtsyyENZYqCoe	English	purple_calendar	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	47	leap year jealous	leap year jealous		purple_calendar	1	"c("""", """", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	calendar
+sWyzDtsyyENZYqCoe	English	yellow_iron	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	50	sunny steamer	sunny steamer		yellow_iron	1	"c("""", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	iron
+sWyzDtsyyENZYqCoe	English	blue_balloon	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	52	up in the air	up in the air		blue_balloon	1	"c("""", """", ""A"", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	balloon
+sWyzDtsyyENZYqCoe	English	white_flower	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	53	pure plant	pure plant		white_flower	1	"c("""", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	flower
+sWyzDtsyyENZYqCoe	English	yellow_bed	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	54	sleepy	sleepy		yellow_bed	1			FALSE	FALSE	FALSE	FALSE	FALSE	bed
+sWyzDtsyyENZYqCoe	English	green_lock	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	55	eco safety	eco safety		green_lock	1	"c("""", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	lock
+sWyzDtsyyENZYqCoe	English	black_sock	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	56	sombre foot	sombre foot		black_sock	1	"c("""", """")"		FALSE	FALSE	FALSE	FALSE	FALSE	sock
+sWyzDtsyyENZYqCoe	English	orange_necklace	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	57	adornment	adornment		orange_necklace	1			FALSE	FALSE	FALSE	FALSE	TRUE	necklace
+sWyzDtsyyENZYqCoe	English	blue_cushion	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	58	comfy	comfy		blue_cushion	1			FALSE	FALSE	FALSE	FALSE	FALSE	cushion
+sWyzDtsyyENZYqCoe	English	black_helicopter	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	60	transport	transport		black_helicopter	1			FALSE	FALSE	FALSE	FALSE	TRUE	helicopter
+sWyzDtsyyENZYqCoe	English	red_door	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	61	come in	come in		red_door	1	"c("""", """")"		FALSE	FALSE	FALSE	FALSE	FALSE	door
+sWyzDtsyyENZYqCoe	English	purple_screwdriver	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	63	jealous tool	jealous tool		purple_screwdriver	1	"c("""", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	screwdriver
+sWyzDtsyyENZYqCoe	English	green_die	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	64	game	game		green_die	1			FALSE	FALSE	FALSE	FALSE	TRUE	die
+sWyzDtsyyENZYqCoe	English	blue_calculator	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	3	NA	65	number boy	number boy		yellow_calculator	0	"c("""", """")"		FALSE	FALSE	FALSE	FALSE	FALSE	calculator
+sWyzDtsyyENZYqCoe	English	red_pencil	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	66	writing a love letter	writing a love letter		red_pencil	1	"c("""", ""A"", """", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	pencil
+sWyzDtsyyENZYqCoe	English	orange_knife	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	67	kitchen	kitchen		orange_knife	1			FALSE	FALSE	FALSE	FALSE	FALSE	knife
+sWyzDtsyyENZYqCoe	English	yellow_book	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	68	happy read	happy read		yellow_book	1	"c("""", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	book
+sWyzDtsyyENZYqCoe	English	green_slipper	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	72	comfy	comfy		green_slipper	1			FALSE	FALSE	FALSE	FALSE	FALSE	slipper
+qwcZRqhmaFkduYNpu	English	purple_microscope	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	1	something purple you look through	something purple you look through		purple_microscope	1	"c("""", ""C"", """", """", """")"		TRUE	FALSE	FALSE	FALSE	FALSE	microscope
+qwcZRqhmaFkduYNpu	English	white_butterfly	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	2	there’s two of them but the right one is white	there’s two of them but the right one is white		white_butterfly	1	"c("""", """", """", """", """", ""A"", """", ""B"", """", ""C"")"		TRUE	FALSE	FALSE	TRUE	TRUE	butterfly
+qwcZRqhmaFkduYNpu	English	orange_screwdriver	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	3	get screwed	get screwed		orange_screwdriver	1	"c("""", """")"		FALSE	FALSE	FALSE	FALSE	FALSE	screwdriver
+qwcZRqhmaFkduYNpu	English	blue_phone	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	8	blue dog and bone	blue dog and bone		blue_phone	1	"c(""C"", """", """", """")"		TRUE	FALSE	FALSE	TRUE	TRUE	phone
+qwcZRqhmaFkduYNpu	English	blue_book	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	9	not the white book but the other	not the white book but the other		blue_book	1	"c("""", ""A"", ""C"", ""N"", """", ""A"", """")"		TRUE	FALSE	TRUE	FALSE	TRUE	book
+qwcZRqhmaFkduYNpu	English	white_calculator	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	10	white one of the two	white one of the two		white_calculator	1	"c(""C"", ""B"", """", ""A"", """")"		TRUE	FALSE	FALSE	TRUE	TRUE	calculator
+qwcZRqhmaFkduYNpu	English	green_tie	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	11	green one of the two	green one of the two		green_tie	1	"c(""C"", ""B"", """", ""A"", """")"		TRUE	FALSE	FALSE	TRUE	TRUE	tie
+qwcZRqhmaFkduYNpu	English	red_balloon	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	14	red of the two	red of the two		red_balloon	1	"c(""C"", """", ""A"", """")"		TRUE	FALSE	FALSE	FALSE	TRUE	balloon
+qwcZRqhmaFkduYNpu	English	blue_cushion	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	15	something to rest your head on	something to rest your head on		blue_cushion	1	"c("""", """", """", """", """", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	cushion
+qwcZRqhmaFkduYNpu	English	black_fish	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	16	fish	fish		black_fish	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	fish
+qwcZRqhmaFkduYNpu	English	white_pencil	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	19	white of the two	white of the two		white_pencil	1	"c(""C"", """", ""A"", """")"		TRUE	FALSE	FALSE	FALSE	TRUE	pencil
+qwcZRqhmaFkduYNpu	English	yellow_crown	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	20	odd one out	odd one out		yellow_crown	1	"c("""", ""B"", """")"		FALSE	FALSE	FALSE	TRUE	FALSE	crown
+qwcZRqhmaFkduYNpu	English	black_helicopter	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	21	black of the two	black of the two		black_helicopter	1	"c(""C"", """", ""A"", """")"		TRUE	FALSE	FALSE	FALSE	TRUE	helicopter
+qwcZRqhmaFkduYNpu	English	red_scarf	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	23	red of the two	red of the two		red_scarf	1	"c(""C"", """", ""A"", """")"		TRUE	FALSE	FALSE	FALSE	TRUE	scarf
+qwcZRqhmaFkduYNpu	English	white_wallet	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	27	the odd one	the odd one		white_wallet	1	"c(""A"", """", ""B"")"		FALSE	FALSE	FALSE	TRUE	TRUE	wallet
+qwcZRqhmaFkduYNpu	English	black_calendar	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	28	odd one	odd one		black_calendar	1	"c("""", ""B"")"		FALSE	FALSE	FALSE	TRUE	FALSE	calendar
+qwcZRqhmaFkduYNpu	English	yellow_iron	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	30	yellow of the two	yellow of the two		yellow_iron	1	"c(""C"", """", ""A"", """")"		TRUE	FALSE	FALSE	FALSE	TRUE	iron
+qwcZRqhmaFkduYNpu	English	red_fence	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	32	red one of the two	red one of the two		red_fence	1	"c(""C"", ""B"", """", ""A"", """")"		TRUE	FALSE	FALSE	TRUE	TRUE	fence
+qwcZRqhmaFkduYNpu	English	black_necklace	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	33	odd one	odd one		black_necklace	1	"c("""", ""B"")"		FALSE	FALSE	FALSE	TRUE	FALSE	necklace
+qwcZRqhmaFkduYNpu	English	green_shell	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	34	green of the two	green of the two		green_shell	1	"c(""C"", """", ""A"", """")"		TRUE	FALSE	FALSE	FALSE	TRUE	shell
+qwcZRqhmaFkduYNpu	English	white_guitar	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	35	odd one	odd one		white_guitar	1	"c("""", ""B"")"		FALSE	FALSE	FALSE	TRUE	FALSE	guitar
+qwcZRqhmaFkduYNpu	English	orange_slipper	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	36	odd one	odd one		orange_slipper	1	"c("""", ""B"")"		FALSE	FALSE	FALSE	TRUE	FALSE	slipper
+qwcZRqhmaFkduYNpu	English	black_lock	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	37	locked	locked		black_lock	1			FALSE	FALSE	TRUE	FALSE	FALSE	lock
+qwcZRqhmaFkduYNpu	English	purple_fork	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	39	purple of the two	purple of the two		purple_fork	1	"c(""C"", """", ""A"", """")"		TRUE	FALSE	FALSE	FALSE	TRUE	fork
+qwcZRqhmaFkduYNpu	English	green_luggage	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	40	odd one	odd one		green_luggage	1	"c("""", ""B"")"		FALSE	FALSE	FALSE	TRUE	FALSE	luggage
+qwcZRqhmaFkduYNpu	English	blue_bed	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	42	odd one	odd one		blue_bed	1	"c("""", ""B"")"		FALSE	FALSE	FALSE	TRUE	FALSE	bed
+qwcZRqhmaFkduYNpu	English	yellow_mug	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	44	odd one out__odd one	odd one out		yellow_mug	1	"c("""", ""B"", """")"		FALSE	FALSE	FALSE	TRUE	FALSE	mug
+qwcZRqhmaFkduYNpu	English	green_robot	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	45	green of the two	green of the two		green_robot	1	"c(""C"", """", ""A"", """")"		TRUE	FALSE	FALSE	FALSE	TRUE	robot
+qwcZRqhmaFkduYNpu	English	green_hammer	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	47	hammered	hammered		green_hammer	1			TRUE	FALSE	TRUE	FALSE	TRUE	hammer
+qwcZRqhmaFkduYNpu	English	black_knife	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	48	black of the two	black of the two		black_knife	1	"c(""C"", """", ""A"", """")"		TRUE	FALSE	FALSE	FALSE	TRUE	knife
+qwcZRqhmaFkduYNpu	English	purple_die	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	51	dice	dice		purple_die	1			FALSE	FALSE	FALSE	FALSE	FALSE	die
+qwcZRqhmaFkduYNpu	English	blue_ring	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	54	ring	ring		blue_ring	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	ring
+qwcZRqhmaFkduYNpu	English	yellow_flower	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	55	flower	flower		yellow_flower	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	flower
+qwcZRqhmaFkduYNpu	English	black_sock	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	56	black one of the two	black one of the two		black_sock	1	"c(""C"", ""B"", """", ""A"", """")"		TRUE	FALSE	FALSE	TRUE	TRUE	sock
+qwcZRqhmaFkduYNpu	English	black_basket	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	57	odd one	odd one		black_basket	1	"c("""", ""B"")"		FALSE	FALSE	FALSE	TRUE	FALSE	basket
+qwcZRqhmaFkduYNpu	English	blue_chair	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	58	blue of the two	blue of the two		blue_chair	1	"c(""C"", """", ""A"", """")"		TRUE	FALSE	FALSE	FALSE	TRUE	chair
+qwcZRqhmaFkduYNpu	English	red_belt	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	59	red of the two	red of the two		red_belt	1	"c(""C"", """", ""A"", """")"		TRUE	FALSE	FALSE	FALSE	TRUE	belt
+qwcZRqhmaFkduYNpu	English	black_drum	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	60	black of the two	black of the two		black_drum	1	"c(""C"", """", ""A"", """")"		TRUE	FALSE	FALSE	FALSE	TRUE	drum
+qwcZRqhmaFkduYNpu	English	blue_comb	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	61	odd one	odd one		blue_comb	1	"c("""", ""B"")"		FALSE	FALSE	FALSE	TRUE	FALSE	comb
+qwcZRqhmaFkduYNpu	English	green_glove	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	62	green glove	green glove		green_glove	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	glove
+qwcZRqhmaFkduYNpu	English	orange_ribbon	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	63	odd one	odd one		orange_ribbon	1	"c("""", ""B"")"		FALSE	FALSE	FALSE	TRUE	FALSE	ribbon
+qwcZRqhmaFkduYNpu	English	orange_binoculars	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	64	orange of the two	orange of the two		orange_binoculars	1	"c(""C"", """", ""A"", """")"		TRUE	FALSE	FALSE	FALSE	TRUE	binoculars
+qwcZRqhmaFkduYNpu	English	yellow_dress	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	66	the dress	the dress		yellow_dress	1	"c(""A"", ""N"")"		FALSE	FALSE	TRUE	FALSE	TRUE	dress
+qwcZRqhmaFkduYNpu	English	white_candle	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	67	white of the two	white of the two		white_candle	1	"c(""C"", """", ""A"", """")"		TRUE	FALSE	FALSE	FALSE	TRUE	candle
+qwcZRqhmaFkduYNpu	English	white_door	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	68	the door	the door		white_door	1	"c(""A"", ""N"")"		FALSE	FALSE	TRUE	FALSE	TRUE	door
+qwcZRqhmaFkduYNpu	English	green_truck	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	69	lorry	lorry		green_truck	1			FALSE	FALSE	FALSE	FALSE	FALSE	truck
+qwcZRqhmaFkduYNpu	English	yellow_mask	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	70	covid	covid		yellow_mask	1			FALSE	FALSE	FALSE	FALSE	FALSE	mask
+qwcZRqhmaFkduYNpu	English	black_bowl	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	72	black one of the two	black one of the two		black_bowl	1	"c(""C"", ""B"", """", ""A"", """")"		TRUE	FALSE	FALSE	TRUE	TRUE	bowl
+ujGC2hvH7sJazXkwK	English	white_ring	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	3	it's the ring	it's the ring		white_ring	1	"c("""", ""A"", ""N"")"		FALSE	FALSE	TRUE	FALSE	TRUE	ring
+ujGC2hvH7sJazXkwK	English	purple_lock	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	4	padlock	padlock	ok	purple_lock	1			FALSE	FALSE	TRUE	FALSE	TRUE	lock
+ujGC2hvH7sJazXkwK	English	blue_mask	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	5	blue maskk	blue maskk		blue_mask	1	"c(""C"", """")"		TRUE	FALSE	TRUE	FALSE	TRUE	mask
+ujGC2hvH7sJazXkwK	English	blue_flower	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	6	flower	flower		blue_flower	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	flower
+ujGC2hvH7sJazXkwK	English	green_bowl	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	8	bowl	bowl		green_bowl	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	bowl
+ujGC2hvH7sJazXkwK	English	yellow_chair	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	10	chair	chair		yellow_chair	1	N		FALSE	FALSE	TRUE	FALSE	TRUE	chair
+ujGC2hvH7sJazXkwK	English	red_butterfly	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	11	red butterfly	red butterfly		red_butterfly	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	butterfly
+ujGC2hvH7sJazXkwK	English	purple_slipper	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	12	purple slides	purple slides		purple_slipper	1	"c(""C"", """")"		TRUE	FALSE	FALSE	FALSE	FALSE	slipper
+ujGC2hvH7sJazXkwK	English	black_glove	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	15	glove	glove		black_glove	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	glove
+ujGC2hvH7sJazXkwK	English	yellow_pencil	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	16	pencil	pencil		yellow_pencil	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	pencil
+ujGC2hvH7sJazXkwK	English	purple_binoculars	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	17	purple binoculars	purple binoculars		purple_binoculars	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	binoculars
+ujGC2hvH7sJazXkwK	English	green_fish	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	18	green fish	green fish		green_fish	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	fish
+ujGC2hvH7sJazXkwK	English	black_fork	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	20	fork	fork		black_fork	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	fork
+ujGC2hvH7sJazXkwK	English	red_guitar	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	21	red bass	red bass		red_guitar	1	"c(""C"", """")"		TRUE	FALSE	FALSE	FALSE	TRUE	guitar
+ujGC2hvH7sJazXkwK	English	orange_sock	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	22	sock	sock		orange_sock	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	sock
+ujGC2hvH7sJazXkwK	English	white_door	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	24	white door	white door		white_door	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	door
+ujGC2hvH7sJazXkwK	English	red_fence	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	25	fence	fence		red_fence	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	fence
+ujGC2hvH7sJazXkwK	English	purple_knife	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	26	purple knife	purple knife		purple_knife	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	knife
+ujGC2hvH7sJazXkwK	English	orange_helicopter	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	28	yellow copter	yellow copter		orange_helicopter	1	"c(""C"", """")"		TRUE	FALSE	FALSE	FALSE	FALSE	helicopter
+ujGC2hvH7sJazXkwK	English	yellow_phone	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	30	yellow landline	yellow landline		yellow_phone	1	"c(""C"", """")"		TRUE	FALSE	FALSE	FALSE	TRUE	phone
+ujGC2hvH7sJazXkwK	English	red_scarf	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	31	red scarf	red scarf		red_scarf	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	scarf
+ujGC2hvH7sJazXkwK	English	yellow_comb	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	32	comb	comb		yellow_comb	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	comb
+ujGC2hvH7sJazXkwK	English	white_iron	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	34	iron	iron		white_iron	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	iron
+ujGC2hvH7sJazXkwK	English	red_mug	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	35	red cup__not the candle	red cup		red_mug	1	"c(""C"", """")"		TRUE	FALSE	FALSE	FALSE	FALSE	mug
+ujGC2hvH7sJazXkwK	English	red_bed	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	36	bed	bed		red_bed	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	bed
+ujGC2hvH7sJazXkwK	English	red_wallet	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	37	wallet	wallet		red_wallet	1	N		FALSE	FALSE	TRUE	FALSE	TRUE	wallet
+ujGC2hvH7sJazXkwK	English	green_basket	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	40	green basket	green basket		green_basket	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	basket
+ujGC2hvH7sJazXkwK	English	black_calendar	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	42	calendar	calendar		black_calendar	1	N		FALSE	FALSE	TRUE	FALSE	TRUE	calendar
+ujGC2hvH7sJazXkwK	English	black_drum	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	43	black drum	black drum		black_drum	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	drum
+ujGC2hvH7sJazXkwK	English	green_truck	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	45	truck	truck		green_truck	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	truck
+ujGC2hvH7sJazXkwK	English	white_cushion	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	49	pillow	pillow		white_cushion	1			FALSE	FALSE	FALSE	FALSE	FALSE	cushion
+ujGC2hvH7sJazXkwK	English	green_shell	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	50	green shell	green shell		green_shell	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	shell
+ujGC2hvH7sJazXkwK	English	yellow_belt	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	51	yellow belt	yellow belt		yellow_belt	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	belt
+ujGC2hvH7sJazXkwK	English	red_calculator	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	52	red calculator	red calculator		red_calculator	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	calculator
+ujGC2hvH7sJazXkwK	English	purple_microscope	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	54	purple microscope	purple microscope		purple_microscope	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	microscope
+ujGC2hvH7sJazXkwK	English	yellow_candle	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	55	that yellow cup	that yellow cup		yellow_candle	1	"c("""", ""C"", """")"		TRUE	FALSE	FALSE	FALSE	TRUE	candle
+ujGC2hvH7sJazXkwK	English	green_ribbon	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	57	green ribbon	green ribbon		green_ribbon	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	ribbon
+ujGC2hvH7sJazXkwK	English	black_hammer	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	59	hammer	hammer		black_hammer	1	N		FALSE	FALSE	TRUE	FALSE	TRUE	hammer
+ujGC2hvH7sJazXkwK	English	black_tie	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	61	tie	tie		black_tie	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	tie
+ujGC2hvH7sJazXkwK	English	red_book	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	62	book	book		red_book	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	book
+ujGC2hvH7sJazXkwK	English	orange_luggage	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	63	suitcase	suitcase		orange_luggage	1	N		FALSE	FALSE	TRUE	FALSE	TRUE	luggage
+ujGC2hvH7sJazXkwK	English	white_crown	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	64	white crown	white crown		white_crown	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	crown
+ujGC2hvH7sJazXkwK	English	white_balloon	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	65	white balloon	white balloon		white_balloon	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	balloon
+ujGC2hvH7sJazXkwK	English	yellow_dress	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	66	yellow dress	yellow dress		yellow_dress	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	dress
+ujGC2hvH7sJazXkwK	English	green_robot	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	67	green robot	green robot		green_robot	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	robot
+ujGC2hvH7sJazXkwK	English	black_screwdriver	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	68	screwdriver	screwdriver		black_screwdriver	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	screwdriver
+ujGC2hvH7sJazXkwK	English	black_necklace	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	69	black necklace	black necklace		black_necklace	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	necklace
+ujGC2hvH7sJazXkwK	English	green_die	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	72	green dice	green dice		green_die	1	"c(""C"", """")"		TRUE	FALSE	FALSE	FALSE	FALSE	die
+pSzvpKsgQwP3nHJhc	English	purple_fork	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	1	purple fork	purple fork		purple_fork	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	fork
+pSzvpKsgQwP3nHJhc	English	red_belt	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	2	red belt	red belt		red_belt	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	belt
+pSzvpKsgQwP3nHJhc	English	white_bed	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	3	white bed__all white	white bed		white_bed	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	bed
+pSzvpKsgQwP3nHJhc	English	green_knife	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	4	green knife	green knife		green_knife	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	knife
+pSzvpKsgQwP3nHJhc	English	purple_bowl	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	5	purple bowl	purple bowl		purple_bowl	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	bowl
+pSzvpKsgQwP3nHJhc	English	yellow_fence	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	10	yellow fence	yellow fence		yellow_fence	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	fence
+pSzvpKsgQwP3nHJhc	English	white_candle	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	11	white candle	white candle		white_candle	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	candle
+pSzvpKsgQwP3nHJhc	English	white_guitar	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	12	white guitar	white guitar		white_guitar	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	guitar
+pSzvpKsgQwP3nHJhc	English	black_glove	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	15	black glove	black glove		black_glove	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	glove
+pSzvpKsgQwP3nHJhc	English	purple_microscope	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	16	purple microscope	purple microscope		purple_microscope	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	microscope
+pSzvpKsgQwP3nHJhc	English	black_binoculars	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	19	binoculars__black	binoculars	what colou__r	black_binoculars	1	N		FALSE	FALSE	TRUE	FALSE	TRUE	binoculars
+pSzvpKsgQwP3nHJhc	English	white_balloon	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	22	white balloon	white balloon		white_balloon	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	balloon
+pSzvpKsgQwP3nHJhc	English	orange_luggage	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	25	orange luggage	orange luggage		orange_luggage	1	"c(""C"", """")"		TRUE	FALSE	FALSE	FALSE	TRUE	luggage
+pSzvpKsgQwP3nHJhc	English	black_die	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	27	black dice__dots__black dice white dots	black dice	black dots or other thing__the dots are black	black_die	1	"c(""C"", """")"		TRUE	FALSE	FALSE	FALSE	TRUE	die
+pSzvpKsgQwP3nHJhc	English	yellow_comb	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	28	yellow comb	yellow comb		yellow_comb	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	comb
+pSzvpKsgQwP3nHJhc	English	black_ribbon	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	29	black bow	black bow		black_ribbon	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	ribbon
+pSzvpKsgQwP3nHJhc	English	red_door	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	30	red door	red door		red_door	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	door
+pSzvpKsgQwP3nHJhc	English	blue_flower	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	32	blue flower	blue flower		blue_flower	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	flower
+pSzvpKsgQwP3nHJhc	English	purple_truck	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	33	purple truck	purple truck		purple_truck	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	truck
+pSzvpKsgQwP3nHJhc	English	yellow_scarf	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	34	yellow scarf	yellow scarf	ikea	yellow_scarf	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	scarf
+pSzvpKsgQwP3nHJhc	English	red_book	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	36	red book	red book		red_book	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	book
+pSzvpKsgQwP3nHJhc	English	purple_drum	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	38	purple drum	purple drum		purple_drum	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	drum
+pSzvpKsgQwP3nHJhc	English	black_fish	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	39	black fish	black fish		black_fish	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	fish
+pSzvpKsgQwP3nHJhc	English	red_chair	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	40	red chair	red chair		red_chair	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	chair
+pSzvpKsgQwP3nHJhc	English	white_butterfly	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	42	white butterfly	white butterfly		white_butterfly	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	butterfly
+pSzvpKsgQwP3nHJhc	English	blue_ring	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	43	blue ring	blue ring		blue_ring	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	ring
+pSzvpKsgQwP3nHJhc	English	blue_calculator	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	44	math	math		blue_calculator	1			FALSE	FALSE	FALSE	FALSE	TRUE	calculator
+pSzvpKsgQwP3nHJhc	English	green_shell	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	45	clam	clam		green_shell	1			FALSE	FALSE	FALSE	FALSE	TRUE	shell
+pSzvpKsgQwP3nHJhc	English	white_mask	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	46	white mask	white mask		white_mask	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	mask
+pSzvpKsgQwP3nHJhc	English	green_screwdriver	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	49	handy manny	handy manny		green_screwdriver	1	"c("""", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	screwdriver
+pSzvpKsgQwP3nHJhc	English	black_sock	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	50	sock	sock		black_sock	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	sock
+pSzvpKsgQwP3nHJhc	English	blue_wallet	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	51	living our lives__dancing on__blue wallets	living our lives	both wallets are full	blue_wallet	1	"c("""", """", """")"		FALSE	FALSE	FALSE	FALSE	FALSE	wallet
+pSzvpKsgQwP3nHJhc	English	orange_calendar	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	52	february	february		orange_calendar	1			FALSE	FALSE	FALSE	FALSE	TRUE	calendar
+pSzvpKsgQwP3nHJhc	English	orange_robot	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	53	orange robot	orange robot		orange_robot	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	robot
+pSzvpKsgQwP3nHJhc	English	yellow_iron	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	54	yellow iron	yellow iron		yellow_iron	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	iron
+pSzvpKsgQwP3nHJhc	English	purple_helicopter	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	3	NA	55	purple heliocoptor	purple heliocoptor		orange_helicopter	0	"c(""C"", """")"		TRUE	FALSE	FALSE	FALSE	FALSE	helicopter
+pSzvpKsgQwP3nHJhc	English	purple_basket	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	57	purple basket	purple basket		purple_basket	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	basket
+pSzvpKsgQwP3nHJhc	English	white_dress	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	58	white dress	white dress	high heels red ress__red dress	white_dress	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	dress
+pSzvpKsgQwP3nHJhc	English	red_crown	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	60	red crown	red crown		red_crown	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	crown
+pSzvpKsgQwP3nHJhc	English	blue_cushion	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	61	blue pillow	blue pillow		blue_cushion	1	"c(""C"", """")"		TRUE	FALSE	FALSE	FALSE	FALSE	cushion
+pSzvpKsgQwP3nHJhc	English	green_hammer	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	62	handy manny	handy manny		green_hammer	1	"c("""", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	hammer
+pSzvpKsgQwP3nHJhc	English	orange_tie	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	63	orange tie__ugly	orange tie		orange_tie	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	tie
+pSzvpKsgQwP3nHJhc	English	yellow_mug	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	64	yellow mug	yellow mug		yellow_mug	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	mug
+pSzvpKsgQwP3nHJhc	English	black_slipper	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	66	black slipper	black slipper		black_slipper	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	slipper
+pSzvpKsgQwP3nHJhc	English	orange_lock	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	67	lock	lock		orange_lock	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	lock
+pSzvpKsgQwP3nHJhc	English	yellow_phone	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	68	i never picked up that hpone call	i never picked up that hpone call		yellow_phone	1	"c("""", """", """", """", """", """", """")"		FALSE	FALSE	FALSE	TRUE	TRUE	phone
+pSzvpKsgQwP3nHJhc	English	blue_pencil	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	69	blue pencil	blue pencil		blue_pencil	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	pencil
+pSzvpKsgQwP3nHJhc	English	purple_necklace	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	71	purple harry necklace	purple harry necklace		purple_necklace	1	"c(""C"", """", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	necklace
+FtNZ6Mj28X4Mico87	English	yellow_iron	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	2	they have the same colour__but it presses	they have the same colour	there are many objects with the same colour	yellow_iron	1	"c("""", """", ""A"", """", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	iron
+FtNZ6Mj28X4Mico87	English	orange_truck	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	4	mourinho	mourinho		orange_truck	1			FALSE	FALSE	FALSE	FALSE	FALSE	truck
+FtNZ6Mj28X4Mico87	English	yellow_comb	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	5	same colour coiffez	same colour coiffez		yellow_comb	1	"c("""", """", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	comb
+FtNZ6Mj28X4Mico87	English	green_binoculars	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	6	same colour stalker	same colour stalker	there are different colours	green_binoculars	1	"c("""", """", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	binoculars
+FtNZ6Mj28X4Mico87	English	green_necklace	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	2	NA	7	same colour neck gear	same colour neck gear		green_binoculars	0	"c("""", """", """", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	necklace
+FtNZ6Mj28X4Mico87	English	blue_dress	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	8	the same colour dress	the same colour dress		blue_dress	1	"c(""A"", """", """", ""N"")"		FALSE	FALSE	TRUE	FALSE	TRUE	dress
+FtNZ6Mj28X4Mico87	English	green_luggage	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	11	same colour carrier	same colour carrier		green_luggage	1	"c("""", """", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	luggage
+FtNZ6Mj28X4Mico87	English	green_slipper	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	2	NA	13	same colour slipon	same colour slipon		green_drum	0	"c("""", """", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	slipper
+FtNZ6Mj28X4Mico87	English	orange_shell	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	14	same colour seafood	same colour seafood		orange_shell	1	"c("""", """", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	shell
+FtNZ6Mj28X4Mico87	English	yellow_bed	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	15	same colour sleep in	same colour sleep in		yellow_bed	1	"c("""", """", """", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	bed
+FtNZ6Mj28X4Mico87	English	red_chair	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	16	same colour ass kisser	same colour ass kisser		red_chair	1	"c("""", """", """", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	chair
+FtNZ6Mj28X4Mico87	English	yellow_belt	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	18	same colour belt	same colour belt		yellow_belt	1	"c("""", """", ""N"")"		FALSE	FALSE	TRUE	FALSE	TRUE	belt
+FtNZ6Mj28X4Mico87	English	purple_sock	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	19	same colour feet	same colour feet		purple_sock	1	"c("""", """", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	sock
+FtNZ6Mj28X4Mico87	English	white_mug	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	22	coffe	coffe		white_mug	1			FALSE	FALSE	FALSE	FALSE	FALSE	mug
+FtNZ6Mj28X4Mico87	English	purple_fork	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	23	same colour sex	same colour sex		purple_fork	1	"c("""", """", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	fork
+FtNZ6Mj28X4Mico87	English	red_ring	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	2	NA	24	same colour finger	same colour finger		red_butterfly	0	"c("""", """", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	ring
+FtNZ6Mj28X4Mico87	English	yellow_wallet	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	26	wallet	wallet		yellow_wallet	1	N		FALSE	FALSE	TRUE	FALSE	TRUE	wallet
+FtNZ6Mj28X4Mico87	English	black_knife	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	2	NA	27	same colour murder weapon	same colour murder weapon		black_basket	0	"c("""", """", """", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	knife
+FtNZ6Mj28X4Mico87	English	green_basket	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	28	basket	basket		green_basket	1	N		FALSE	FALSE	TRUE	FALSE	TRUE	basket
+FtNZ6Mj28X4Mico87	English	yellow_flower	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	30	same flower	same flower		yellow_flower	1	"c("""", ""N"")"		FALSE	FALSE	TRUE	FALSE	TRUE	flower
+FtNZ6Mj28X4Mico87	English	white_cushion	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	31	fluffy	fluffy		white_cushion	1			FALSE	FALSE	FALSE	FALSE	FALSE	cushion
+FtNZ6Mj28X4Mico87	English	green_robot	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	32	same colour transformer	same colour transformer		green_robot	1	"c("""", """", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	robot
+FtNZ6Mj28X4Mico87	English	green_glove	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	34	same colour hand	same colour hand		green_glove	1	"c("""", """", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	glove
+FtNZ6Mj28X4Mico87	English	yellow_phone	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	35	same colour alex graham bell	same colour alex graham bell		yellow_phone	1	"c("""", """", """", """", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	phone
+FtNZ6Mj28X4Mico87	English	orange_hammer	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	36	thor	thor		orange_hammer	1			FALSE	FALSE	FALSE	FALSE	FALSE	hammer
+FtNZ6Mj28X4Mico87	English	orange_ribbon	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	38	bow	bow		orange_ribbon	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	ribbon
+FtNZ6Mj28X4Mico87	English	purple_tie	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	40	same colour neckie	same colour neckie		purple_tie	1	"c("""", """", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	tie
+FtNZ6Mj28X4Mico87	English	yellow_fence	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	42	same colour switzerland	same colour switzerland		yellow_fence	1	"c("""", """", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	fence
+FtNZ6Mj28X4Mico87	English	yellow_guitar	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	43	strings	strings		yellow_guitar	1			FALSE	FALSE	TRUE	FALSE	FALSE	guitar
+FtNZ6Mj28X4Mico87	English	green_screwdriver	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	44	driver	driver		green_screwdriver	1			FALSE	FALSE	FALSE	FALSE	FALSE	screwdriver
+FtNZ6Mj28X4Mico87	English	red_scarf	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	45	same colour warmer	same colour warmer		red_scarf	1	"c("""", """", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	scarf
+FtNZ6Mj28X4Mico87	English	purple_microscope	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	2	NA	46	same colour micro	same colour micro		purple_luggage	0	"c("""", """", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	microscope
+FtNZ6Mj28X4Mico87	English	yellow_crown	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	47	elizabeth	elizabeth		yellow_crown	1			FALSE	FALSE	FALSE	FALSE	TRUE	crown
+FtNZ6Mj28X4Mico87	English	red_mask	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	48	covid	covid		red_mask	1			FALSE	FALSE	FALSE	FALSE	FALSE	mask
+FtNZ6Mj28X4Mico87	English	orange_drum	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	49	same colour drumstick	same colour drumstick		orange_drum	1	"c("""", """", """")"		FALSE	FALSE	TRUE	FALSE	TRUE	drum
+FtNZ6Mj28X4Mico87	English	purple_calendar	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	51	date	date		purple_calendar	1			FALSE	FALSE	FALSE	FALSE	TRUE	calendar
+FtNZ6Mj28X4Mico87	English	blue_door	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	52	porte	porte		blue_door	1			FALSE	FALSE	FALSE	FALSE	FALSE	door
+FtNZ6Mj28X4Mico87	English	red_butterfly	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	53	same colour magot	same colour magot		red_butterfly	1	"c("""", """", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	butterfly
+FtNZ6Mj28X4Mico87	English	purple_die	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	57	roll	roll		purple_die	1			FALSE	FALSE	FALSE	FALSE	FALSE	die
+FtNZ6Mj28X4Mico87	English	black_bowl	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	60	same rice	same rice		black_bowl	1	"c("""", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	bowl
+FtNZ6Mj28X4Mico87	English	yellow_balloon	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	61	same birthday	same birthday		yellow_balloon	1	"c("""", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	balloon
+FtNZ6Mj28X4Mico87	English	yellow_calculator	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	62	same maths	same maths		yellow_calculator	1	"c("""", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	calculator
+FtNZ6Mj28X4Mico87	English	yellow_book	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	63	same secrets	same secrets		yellow_book	1	"c("""", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	book
+FtNZ6Mj28X4Mico87	English	blue_pencil	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	65	same scribbles	same scribbles		blue_pencil	1	"c("""", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	pencil
+FtNZ6Mj28X4Mico87	English	blue_candle	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	66	same melt	same melt		blue_candle	1	"c("""", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	candle
+FtNZ6Mj28X4Mico87	English	orange_fish	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	67	h20	h20		orange_fish	1			FALSE	FALSE	FALSE	FALSE	FALSE	fish
+FtNZ6Mj28X4Mico87	English	orange_lock	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	68	key	key		orange_lock	1			FALSE	FALSE	FALSE	FALSE	FALSE	lock
+FtNZ6Mj28X4Mico87	English	black_helicopter	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	70	same fly	same fly		black_helicopter	1	"c("""", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	helicopter
+dgD3PKcSX3M8GTWgi	English	purple_ribbon	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	3	purple bow	purple bow		purple_ribbon	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	ribbon
+dgD3PKcSX3M8GTWgi	English	green_sock	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	4	green sock	green sock		green_sock	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	sock
+dgD3PKcSX3M8GTWgi	English	red_iron	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	5	red iron	red iron		red_iron	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	iron
+dgD3PKcSX3M8GTWgi	English	yellow_flower	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	6	flubleflorgleglooblewobble (yellow flower)	flubleflorgleglooblewobble (yellow flower)		yellow_flower	1	"c("""", """", """")"		TRUE	FALSE	TRUE	FALSE	FALSE	flower
+dgD3PKcSX3M8GTWgi	English	white_book	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	9	lteb a ton ;)	lteb a ton ;)		white_book	1	"c("""", ""A"", """", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	book
+dgD3PKcSX3M8GTWgi	English	purple_fish	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	10	god this is boring.. purple fish	god this is boring.. purple fish	that was tough!	purple_fish	1	"c("""", """", """", """", ""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	fish
+dgD3PKcSX3M8GTWgi	English	orange_shell	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	11	shell	shell		orange_shell	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	shell
+dgD3PKcSX3M8GTWgi	English	purple_calendar	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	13	purple monkey dishwasher (calendar)	purple monkey dishwasher (calendar)		purple_calendar	1	"c(""C"", """", """", """")"		TRUE	FALSE	TRUE	FALSE	TRUE	calendar
+dgD3PKcSX3M8GTWgi	English	purple_hammer	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	16	prince's hammer	prince's hammer		purple_hammer	1	"c("""", ""N"")"		FALSE	FALSE	TRUE	FALSE	TRUE	hammer
+dgD3PKcSX3M8GTWgi	English	purple_fork	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	17	fork this stupid survey! ;)	fork this stupid survey! ;)		purple_fork	1	"c(""N"", """", """", """", """")"		FALSE	FALSE	TRUE	FALSE	FALSE	fork
+dgD3PKcSX3M8GTWgi	English	blue_chair	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	19	not a crown	not a crown		blue_chair	1	"c("""", ""A"", ""N"")"		FALSE	FALSE	TRUE	FALSE	TRUE	chair
+dgD3PKcSX3M8GTWgi	English	red_comb	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	20	dress-coloured comb	dress-coloured comb		red_comb	1	"c("""", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	comb
+dgD3PKcSX3M8GTWgi	English	yellow_scarf	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	21	not a candle	not a candle		yellow_scarf	1	"c("""", ""A"", ""N"")"		FALSE	FALSE	TRUE	FALSE	TRUE	scarf
+dgD3PKcSX3M8GTWgi	English	red_ring	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	22	door-coloured ring	door-coloured ring		red_ring	1	"c("""", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	ring
+dgD3PKcSX3M8GTWgi	English	green_microscope	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	23	not a bow	not a bow		green_microscope	1	"c("""", ""A"", ""N"")"		FALSE	FALSE	TRUE	FALSE	TRUE	microscope
+dgD3PKcSX3M8GTWgi	English	green_lock	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	24	binoculars-coloured lock	binoculars-coloured lock		green_lock	1	"c("""", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	lock
+dgD3PKcSX3M8GTWgi	English	red_bed	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	27	lorem ipsum dolor sit amet, consectetur adipiscing elit. suspendisse id magna nunc. maecenas pretium venenatis est. donec sit amet erat diam. nam fringilla facilisis mattis. ut ut justo augue. quisque interdum nulla metus, ac vulputate augue vestibulum a. nunc venenatis libero est, vel accumsan arcu blandit ac.  sed condimentum turpis non elementum luctus. donec varius eleifend dolor, vitae finibus purus pellentesque a. curabitur vulputate pulvinar urna quis luctus. aenean eget augue mi. aliquam sem metus, congue quis massa nec, eleifend laoreet enim. nulla rutrum erat justo, sed maximus mi ullamcorper sit amet. nullam rhoncus malesuada feugiat. etiam dapibus egestas nibh ut auctor. nam consequat lectus sit amet quam dictum, et suscipit justo semper. aliquam a posuere odio. donec lacinia, ipsum sit amet aliquam posuere, mauris lectus viverra urna, at ultrices libero lorem efficitur purus.  maecenas vestibulum eu lacus quis bibendum. interdum et malesuada fames ac ante ipsum primis in faucibus. nullam ornare commodo diam, commodo tincidunt velit molestie a. lorem ipsum dolor sit amet, consectetur adipiscing elit. mauris viverra aliquet elit a viverra. quisque et ante sed justo pulvinar bibendum non id lorem. nulla facilisi. in malesuada sit amet nulla at venenatis. morbi id eros non libero hendrerit fringilla. vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; curabitur fermentum sapien arcu, at viverra lorem tincidunt eget. sed posuere maximus mi vitae aliquet.  donec ultrices justo vel sem posuere, luctus porttitor ante feugiat. maecenas elit odio, ornare elementum tellus elementum, ultrices accumsan nunc. sed vitae justo ornare, condimentum libero vitae, ornare augue. vivamus ut sem eros. vivamus auctor purus eget facilisis feugiat. morbi suscipit nibh eu lobortis rutrum. vestibulum elit augue, tristique at purus eu, viverra pulvinar turpis. quisque et placerat purus, dapibus sodales leo. nullam auctor neque urna, vitae viverra sapien aliquet volutpat. quisque sit amet sapien euismod, placerat ipsum non, porttitor velit. in leo purus, imperdiet sed efficitur varius, vehicula commodo tortor. duis elementum pharetra ex sit amet auctor. praesent luctus auctor interdum. fusce non consequat leo, eu mattis sem.  duis a sem in erat finibus consequat in eget enim. sed lobortis venenatis lacus, id dignissim dui consequat vitae. etiam neque turpis, consequat vitae tellus nec, laoreet suscipit urna. integer sapien odio, dignissim id nulla ut, euismod volutpat dui. nullam ac nulla hendrerit, fermentum odio in, elementum purus. praesent sem ipsum, interdum vitae sollicitudin nec, sodales sit amet elit. duis ornare aliquam aliquam. aliquam iaculis auctor odio, eu rutrum nisl hendrerit vel. quisque elementum tempor ipsum sed luctus. vestibulum vitae cursus orci. cras vel risus molestie felis condimentum facilisis. mauris convallis consectetur lobortis.__red bed	lorem ipsum dolor sit amet, consectetur adipiscing elit. suspendisse id magna nunc. maecenas pretium venenatis est. donec sit amet erat diam. nam fringilla facilisis mattis. ut ut justo augue. quisque interdum nulla metus, ac vulputate augue vestibulum a. nunc venenatis libero est, vel accumsan arcu blandit ac.  sed condimentum turpis non elementum luctus. donec varius eleifend dolor, vitae finibus purus pellentesque a. curabitur vulputate pulvinar urna quis luctus. aenean eget augue mi. aliquam sem metus, congue quis massa nec, eleifend laoreet enim. nulla rutrum erat justo, sed maximus mi ullamcorper sit amet. nullam rhoncus malesuada feugiat. etiam dapibus egestas nibh ut auctor. nam consequat lectus sit amet quam dictum, et suscipit justo semper. aliquam a posuere odio. donec lacinia, ipsum sit amet aliquam posuere, mauris lectus viverra urna, at ultrices libero lorem efficitur purus.  maecenas vestibulum eu lacus quis bibendum. interdum et malesuada fames ac ante ipsum primis in faucibus. nullam ornare commodo diam, commodo tincidunt velit molestie a. lorem ipsum dolor sit amet, consectetur adipiscing elit. mauris viverra aliquet elit a viverra. quisque et ante sed justo pulvinar bibendum non id lorem. nulla facilisi. in malesuada sit amet nulla at venenatis. morbi id eros non libero hendrerit fringilla. vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; curabitur fermentum sapien arcu, at viverra lorem tincidunt eget. sed posuere maximus mi vitae aliquet.  donec ultrices justo vel sem posuere, luctus porttitor ante feugiat. maecenas elit odio, ornare elementum tellus elementum, ultrices accumsan nunc. sed vitae justo ornare, condimentum libero vitae, ornare augue. vivamus ut sem eros. vivamus auctor purus eget facilisis feugiat. morbi suscipit nibh eu lobortis rutrum. vestibulum elit augue, tristique at purus eu, viverra pulvinar turpis. quisque et placerat purus, dapibus sodales leo. nullam auctor neque urna, vitae viverra sapien aliquet volutpat. quisque sit amet sapien euismod, placerat ipsum non, porttitor velit. in leo purus, imperdiet sed efficitur varius, vehicula commodo tortor. duis elementum pharetra ex sit amet auctor. praesent luctus auctor interdum. fusce non consequat leo, eu mattis sem.  duis a sem in erat finibus consequat in eget enim. sed lobortis venenatis lacus, id dignissim dui consequat vitae. etiam neque turpis, consequat vitae tellus nec, laoreet suscipit urna. integer sapien odio, dignissim id nulla ut, euismod volutpat dui. nullam ac nulla hendrerit, fermentum odio in, elementum purus. praesent sem ipsum, interdum vitae sollicitudin nec, sodales sit amet elit. duis ornare aliquam aliquam. aliquam iaculis auctor odio, eu rutrum nisl hendrerit vel. quisque elementum tempor ipsum sed luctus. vestibulum vitae cursus orci. cras vel risus molestie felis condimentum facilisis. mauris convallis consectetur lobortis.		red_bed	1	"c("""", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", ""A"", """", """", """", """", """", """", """", """", """", 
+"""", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", ""A"", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", 
+"""", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", ""A"", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", 
+"""", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """")"		FALSE	FALSE	TRUE	TRUE	TRUE	bed
+dgD3PKcSX3M8GTWgi	English	purple_die	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	28	robot coloured die	robot coloured die		purple_die	1	"c(""N"", """", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	die
+dgD3PKcSX3M8GTWgi	English	green_truck	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	29	green truck (seriously wtf is this stupid survey? i guess they're checking how we communicate, but come on.. make it a bit less trivial!)	green truck (seriously wtf is this stupid survey? i guess they're checking how we communicate, but come on.. make it a bit less trivial!)		green_truck	1	"c(""C"", ""N"", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", ""A"", """", """", """")"		TRUE	FALSE	TRUE	FALSE	TRUE	truck
+dgD3PKcSX3M8GTWgi	English	yellow_candle	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	31	"whoops meant ""lazy""__yellow candle"	"whoops meant ""lazy"""		yellow_candle	1	"c("""", """", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	candle
+dgD3PKcSX3M8GTWgi	English	blue_calculator	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	32	calculator	calculator		blue_calculator	1	N		FALSE	FALSE	TRUE	FALSE	TRUE	calculator
+dgD3PKcSX3M8GTWgi	English	yellow_fence	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	33	fence	fence	halfway!	yellow_fence	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	fence
+dgD3PKcSX3M8GTWgi	English	purple_knife	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	34	34/72 < 0.5 ;)__knife	34/72 < 0.5 ;)	oh oops i thought we were at 36 ;)	purple_knife	1	"c("""", """", """", """")"		FALSE	FALSE	FALSE	FALSE	FALSE	knife
+dgD3PKcSX3M8GTWgi	English	green_slipper	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	36	green slipper	green slipper		green_slipper	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	slipper
+dgD3PKcSX3M8GTWgi	English	black_helicopter	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	37	helicopter (maybe they're checking if we include the colour even when omitting it is unambiguous??)	helicopter (maybe they're checking if we include the colour even when omitting it is unambiguous??)		black_helicopter	1	"c(""N"", """", """", """", """", """", """", ""A"", """", """", """", """", """", """", """")"		FALSE	TRUE	TRUE	FALSE	TRUE	helicopter
+dgD3PKcSX3M8GTWgi	English	green_glove	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	38	green glove... i sure do hope that adding all this excess text totally thwarts and enrages whatever idiot designed this survey ;)	green glove... i sure do hope that adding all this excess text totally thwarts and enrages whatever idiot designed this survey ;)	hmm, interesting	green_glove	1	"c(""C"", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """", """")"		TRUE	FALSE	TRUE	FALSE	TRUE	glove
+dgD3PKcSX3M8GTWgi	English	yellow_phone	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	39	phone	phone	yeesh!	yellow_phone	1	N		FALSE	FALSE	TRUE	TRUE	FALSE	phone
+dgD3PKcSX3M8GTWgi	English	yellow_dress	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	40	i really thought we were going to swap roles so it was less boring...__y d	i really thought we were going to swap roles so it was less boring...	same	yellow_dress	1	"c("""", """", """", """", """", """", """", """", """", """", """", """", """", """")"		FALSE	FALSE	TRUE	FALSE	TRUE	dress
+dgD3PKcSX3M8GTWgi	English	green_tie	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	41	g t	g t		green_tie	1	"c("""", """")"		FALSE	FALSE	FALSE	FALSE	FALSE	tie
+dgD3PKcSX3M8GTWgi	English	green_drum	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	43	noooo!! ;-; i'm sorry, maybe it only looked orange on my screen__d__snare drum	noooo!! ;-; i'm sorry, maybe it only looked orange on my screen	noooo!__nah it looked orange on mine too, i guess -- i just didn't necessarily think of it as orange ;)	green_drum	1	"c("""", """", """", """", """", """", """", """", ""C"", """", """", """")"		TRUE	FALSE	FALSE	FALSE	TRUE	drum
+dgD3PKcSX3M8GTWgi	English	blue_pencil	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	45	p	p		blue_pencil	1			FALSE	FALSE	FALSE	FALSE	FALSE	pencil
+dgD3PKcSX3M8GTWgi	English	green_screwdriver	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	46	"i was going to say ""g sd"" but it could be green snare-drum, it's the green screwdriver..."	"i was going to say ""g sd"" but it could be green snare-drum, it's the green screwdriver..."		green_screwdriver	1	"c("""", """", """", """", """", """", """", """", """", """", """", ""C"", """", """", ""A"", ""C"", """")"		TRUE	FALSE	TRUE	FALSE	TRUE	screwdriver
+dgD3PKcSX3M8GTWgi	English	yellow_butterfly	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	47	(&$@^%*$@^*$&@^*@$&^@$*^&)@$*^@$*)^&$@!*)%#@!)*%&!#*)%&!#*%%hgiruwhjwrhgowriyt#)*^y$!)*^y$!)*%y$*h__butterfly	(&$@^%*$@^*$&@^*@$&^@$*^&)@$*^@$*)^&$@!*)%#@!)*%&!#*)%&!#*%%hgiruwhjwrhgowriyt#)*^y$!)*^y$!)*%y$*h	ah good thinking	yellow_butterfly	1			FALSE	FALSE	FALSE	FALSE	FALSE	butterfly
+dgD3PKcSX3M8GTWgi	English	yellow_mug	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	48	candle-coloured mug	candle-coloured mug		yellow_mug	1	"c("""", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	mug
+dgD3PKcSX3M8GTWgi	English	blue_belt	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	49	t-l-e-b	t-l-e-b		blue_belt	1			FALSE	FALSE	FALSE	FALSE	FALSE	belt
+dgD3PKcSX3M8GTWgi	English	black_binoculars	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	50	not a necklace	not a necklace		black_binoculars	1	"c("""", ""A"", ""N"")"		FALSE	FALSE	TRUE	FALSE	TRUE	binoculars
+dgD3PKcSX3M8GTWgi	English	yellow_mask	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	52	(good thing we're not colour-blind!)__yellow face thingy	(good thing we're not colour-blind!)	i was just thinking that!	yellow_mask	1	"c("""", """", """", """", """")"		FALSE	FALSE	FALSE	FALSE	FALSE	mask
+dgD3PKcSX3M8GTWgi	English	green_robot	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	55	not a calendar	not a calendar		green_robot	1	"c("""", ""A"", ""N"")"		FALSE	FALSE	TRUE	FALSE	TRUE	robot
+dgD3PKcSX3M8GTWgi	English	red_cushion	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	56	red pillow	red pillow		red_cushion	1	"c(""C"", """")"		TRUE	FALSE	FALSE	FALSE	FALSE	cushion
+dgD3PKcSX3M8GTWgi	English	white_guitar	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	57	liho4yh480qtq34hegqng__iq3hgouigh3\__9q3ghq38ghq3h__ujhn3ju3hq5u3uoh__white guitar	liho4yh480qtq34hegqng		white_guitar	1			FALSE	FALSE	FALSE	FALSE	FALSE	guitar
+dgD3PKcSX3M8GTWgi	English	yellow_door	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	62	yellow door	yellow door		yellow_door	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	door
+dgD3PKcSX3M8GTWgi	English	orange_bowl	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	63	not basket	not basket		orange_bowl	1	"c("""", ""N"")"		FALSE	FALSE	TRUE	FALSE	TRUE	bowl
+dgD3PKcSX3M8GTWgi	English	red_crown	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	64	red crown	red crown		red_crown	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	crown
+dgD3PKcSX3M8GTWgi	English	green_necklace	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	65	green necklace	green necklace		green_necklace	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	necklace
+dgD3PKcSX3M8GTWgi	English	black_luggage	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	66	a__b__c__d__e__f__g__h__i__j__k__l__m__n__o__p__q__w__whoops__(&$@^%*$@^*$&@^*@$&^@$*^&)@$*^@$*)^&$@!*)%#@!)*%&!#*)%&!#*%%hgiruwhjwrhgowriyt#)*^y$!)*^y$!)*%y$*h__black luggage	a		black_luggage	1	A		FALSE	FALSE	FALSE	FALSE	TRUE	luggage
+dgD3PKcSX3M8GTWgi	English	white_balloon	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	69	smite buffoon__;)	smite buffoon	but that had dirt in it!__rhyming slang lol__ok i get it now lol	white_balloon	1	"c("""", """")"		FALSE	FALSE	FALSE	FALSE	FALSE	balloon
+dgD3PKcSX3M8GTWgi	English	black_basket	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	70	jack casket	jack casket		black_basket	1	"c("""", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	basket
+dgD3PKcSX3M8GTWgi	English	white_wallet	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	71	"damn i regret not using rhyming slang the whole way, would have been much funnier in case a human ever reads this!__uh.. ""shite call it"""	damn i regret not using rhyming slang the whole way, would have been much funnier in case a human ever reads this!	too bad we only figured that out with four to go ;)__lol	white_wallet	1	"c("""", """", """", """", """", """", """", ""A"", """", """", """", """", """", """", """", """", """", ""A"", """", """", """", """")"		FALSE	FALSE	FALSE	FALSE	TRUE	wallet
+7nKnhpK6eRT58bKP2	English	yellow_book	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	1	it is the yellow book__hello its working	it is the yellow book	hello	yellow_book	1	"c("""", """", ""A"", ""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	book
+7nKnhpK6eRT58bKP2	English	green_truck	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	2	green lorry__truck yes	green lorry	truck ?	green_truck	1	"c(""C"", """")"		TRUE	FALSE	FALSE	FALSE	FALSE	truck
+7nKnhpK6eRT58bKP2	English	purple_glove	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	3	the purple glove	the purple glove		purple_glove	1	"c(""A"", ""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	glove
+7nKnhpK6eRT58bKP2	English	orange_knife	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	4	orange knife	orange knife		orange_knife	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	knife
+7nKnhpK6eRT58bKP2	English	black_bowl	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	5	black bowl	black bowl	easy peasy	black_bowl	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	bowl
+7nKnhpK6eRT58bKP2	English	blue_ring	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	6	we're pro's__blue circle object	we're pro's		blue_ring	1	"c("""", """")"		FALSE	FALSE	FALSE	FALSE	FALSE	ring
+7nKnhpK6eRT58bKP2	English	green_helicopter	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	7	green helicopter	green helicopter		green_helicopter	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	helicopter
+7nKnhpK6eRT58bKP2	English	red_crown	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	8	red crown	red crown		red_crown	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	crown
+7nKnhpK6eRT58bKP2	English	blue_belt	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	12	blue belt	blue belt		blue_belt	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	belt
+7nKnhpK6eRT58bKP2	English	red_bed	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	13	red bed with pillows	red bed with pillows		red_bed	1	"c(""C"", ""N"", """", """")"		TRUE	FALSE	TRUE	FALSE	FALSE	bed
+7nKnhpK6eRT58bKP2	English	red_fence	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	16	red fence	red fence		red_fence	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	fence
+7nKnhpK6eRT58bKP2	English	white_chair	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	18	white chair	white chair		white_chair	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	chair
+7nKnhpK6eRT58bKP2	English	red_comb	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	19	red hair comb	red hair comb		red_comb	1	"c(""C"", """", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	comb
+7nKnhpK6eRT58bKP2	English	white_wallet	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	20	white money wallet	white money wallet		white_wallet	1	"c(""C"", """", ""N"")"		TRUE	FALSE	TRUE	TRUE	TRUE	wallet
+7nKnhpK6eRT58bKP2	English	orange_screwdriver	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	21	orange screwdriver	orange screwdriver		orange_screwdriver	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	screwdriver
+7nKnhpK6eRT58bKP2	English	purple_microscope	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	23	purple microscope	purple microscope		purple_microscope	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	microscope
+7nKnhpK6eRT58bKP2	English	blue_scarf	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	26	blue scarf	blue scarf		blue_scarf	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	scarf
+7nKnhpK6eRT58bKP2	English	orange_shell	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	27	orange shell	orange shell		orange_shell	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	shell
+7nKnhpK6eRT58bKP2	English	orange_sock	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	28	orange sock	orange sock		orange_sock	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	sock
+7nKnhpK6eRT58bKP2	English	blue_flower	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	29	blue flower	blue flower		blue_flower	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	flower
+7nKnhpK6eRT58bKP2	English	yellow_phone	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	30	yellow phone retro	yellow phone retro		yellow_phone	1	"c(""C"", ""N"", """")"		TRUE	FALSE	TRUE	TRUE	FALSE	phone
+7nKnhpK6eRT58bKP2	English	white_mask	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	33	white covid mask	white covid mask		white_mask	1	"c(""C"", """", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	mask
+7nKnhpK6eRT58bKP2	English	black_calendar	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	34	black february calendar	black february calendar		black_calendar	1	"c(""C"", """", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	calendar
+7nKnhpK6eRT58bKP2	English	red_pencil	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	35	red pencil	red pencil		red_pencil	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	pencil
+7nKnhpK6eRT58bKP2	English	blue_iron	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	37	blue iron	blue iron		blue_iron	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	iron
+7nKnhpK6eRT58bKP2	English	white_dress	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	38	white dress	white dress		white_dress	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	dress
+7nKnhpK6eRT58bKP2	English	orange_luggage	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	39	orange suitcase	orange suitcase		orange_luggage	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	luggage
+7nKnhpK6eRT58bKP2	English	yellow_candle	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	40	yellow candle	yellow candle		yellow_candle	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	candle
+7nKnhpK6eRT58bKP2	English	yellow_door	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	41	yellow door	yellow door		yellow_door	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	door
+7nKnhpK6eRT58bKP2	English	green_slipper	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	42	green slipper	green slipper		green_slipper	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	slipper
+7nKnhpK6eRT58bKP2	English	orange_fork	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	45	orange fork	orange fork		orange_fork	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	fork
+7nKnhpK6eRT58bKP2	English	purple_drum	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	46	purple drum	purple drum		purple_drum	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	drum
+7nKnhpK6eRT58bKP2	English	green_hammer	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	50	green hammer	green hammer		green_hammer	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	hammer
+7nKnhpK6eRT58bKP2	English	black_fish	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	51	black fish	black fish		black_fish	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	fish
+7nKnhpK6eRT58bKP2	English	red_butterfly	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	52	red butterfly	red butterfly		red_butterfly	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	butterfly
+7nKnhpK6eRT58bKP2	English	green_robot	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	54	green robot	green robot		green_robot	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	robot
+7nKnhpK6eRT58bKP2	English	purple_ribbon	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	55	purple bow	purple bow		purple_ribbon	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	ribbon
+7nKnhpK6eRT58bKP2	English	green_necklace	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	57	green necklace	green necklace		green_necklace	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	necklace
+7nKnhpK6eRT58bKP2	English	white_mug	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	58	white coffee mug	white coffee mug		white_mug	1	"c(""C"", """", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	mug
+7nKnhpK6eRT58bKP2	English	blue_cushion	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	59	blue cushion	blue cushion		blue_cushion	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	cushion
+7nKnhpK6eRT58bKP2	English	orange_die	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	60	orange dice	orange dice		orange_die	1	"c(""C"", """")"		TRUE	FALSE	FALSE	FALSE	TRUE	die
+7nKnhpK6eRT58bKP2	English	black_lock	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	62	black lock	black lock		black_lock	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	lock
+7nKnhpK6eRT58bKP2	English	white_calculator	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	63	white calculator	white calculator		white_calculator	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	calculator
+7nKnhpK6eRT58bKP2	English	white_balloon	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	65	white balloon	white balloon		white_balloon	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	balloon
+7nKnhpK6eRT58bKP2	English	red_guitar	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	66	red guitar	red guitar		red_guitar	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	guitar
+7nKnhpK6eRT58bKP2	English	black_binoculars	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	67	black binoculars	black binoculars		black_binoculars	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	binoculars
+7nKnhpK6eRT58bKP2	English	orange_tie	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	68	orange tie	orange tie		orange_tie	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	tie
+7nKnhpK6eRT58bKP2	English	green_basket	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	72	green woven basket	green woven basket		green_basket	1	"c(""C"", """", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	basket
+pYDMnvGGHnpiK56p8	English	yellow_crown	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	1	it is the yellow crown	it is the yellow crown		yellow_crown	1	"c("""", """", ""A"", ""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	crown
+pYDMnvGGHnpiK56p8	English	green_fish	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	3	green fish	green fish		green_fish	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	fish
+pYDMnvGGHnpiK56p8	English	black_robot	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	4	black robot	black robot		black_robot	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	robot
+pYDMnvGGHnpiK56p8	English	white_belt	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	8	belt	belt		white_belt	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	belt
+pYDMnvGGHnpiK56p8	English	yellow_ring	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	9	gold ring	gold ring		yellow_ring	1	"c("""", ""N"")"		FALSE	FALSE	TRUE	FALSE	FALSE	ring
+pYDMnvGGHnpiK56p8	English	black_sock	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	10	sock	sock		black_sock	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	sock
+pYDMnvGGHnpiK56p8	English	green_die	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	12	green dice	green dice		green_die	1	"c(""C"", """")"		TRUE	FALSE	FALSE	FALSE	FALSE	die
+pYDMnvGGHnpiK56p8	English	blue_mug	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	13	blue mug	blue mug		blue_mug	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	mug
+pYDMnvGGHnpiK56p8	English	green_drum	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	15	green drum	green drum		green_drum	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	drum
+pYDMnvGGHnpiK56p8	English	green_screwdriver	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	16	screwdriver	screwdriver		green_screwdriver	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	screwdriver
+pYDMnvGGHnpiK56p8	English	white_door	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	17	white door	white door		white_door	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	door
+pYDMnvGGHnpiK56p8	English	green_necklace	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	18	green beads	green beads		green_necklace	1	"c(""C"", """")"		TRUE	FALSE	FALSE	FALSE	TRUE	necklace
+pYDMnvGGHnpiK56p8	English	red_comb	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	22	red comb	red comb		red_comb	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	comb
+pYDMnvGGHnpiK56p8	English	purple_lock	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	23	lock	lock		purple_lock	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	lock
+pYDMnvGGHnpiK56p8	English	black_bowl	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	24	bowl	bowl		black_bowl	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	bowl
+pYDMnvGGHnpiK56p8	English	yellow_pencil	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	25	pencil	pencil		yellow_pencil	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	pencil
+pYDMnvGGHnpiK56p8	English	yellow_iron	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	26	iron	iron		yellow_iron	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	iron
+pYDMnvGGHnpiK56p8	English	white_calculator	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	28	calculator	calculator		white_calculator	1	N		FALSE	FALSE	TRUE	FALSE	TRUE	calculator
+pYDMnvGGHnpiK56p8	English	orange_knife	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	30	bronze knife	bronze knife		orange_knife	1	"c("""", ""N"")"		FALSE	FALSE	TRUE	FALSE	FALSE	knife
+pYDMnvGGHnpiK56p8	English	black_basket	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	31	black basket	black basket		black_basket	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	basket
+pYDMnvGGHnpiK56p8	English	blue_candle	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	32	candle	candle		blue_candle	1	N		FALSE	FALSE	TRUE	FALSE	TRUE	candle
+pYDMnvGGHnpiK56p8	English	orange_helicopter	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	35	orange copter	orange copter		orange_helicopter	1	"c(""C"", """")"		TRUE	FALSE	FALSE	FALSE	TRUE	helicopter
+pYDMnvGGHnpiK56p8	English	green_glove	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	36	glove	glove		green_glove	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	glove
+pYDMnvGGHnpiK56p8	English	green_ribbon	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	37	green bow	green bow		green_ribbon	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	ribbon
+pYDMnvGGHnpiK56p8	English	black_calendar	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	38	calander	calander		black_calendar	1			FALSE	FALSE	FALSE	FALSE	TRUE	calendar
+pYDMnvGGHnpiK56p8	English	black_tie	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	39	tie	tie		black_tie	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	tie
+pYDMnvGGHnpiK56p8	English	red_wallet	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	40	red wallet	red wallet		red_wallet	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	wallet
+pYDMnvGGHnpiK56p8	English	blue_mask	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	41	blue mask	blue mask		blue_mask	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	mask
+pYDMnvGGHnpiK56p8	English	red_balloon	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	42	balloo__n	balloo		red_balloon	1			FALSE	FALSE	FALSE	FALSE	TRUE	balloon
+pYDMnvGGHnpiK56p8	English	orange_microscope	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	46	orange microscope	orange microscope		orange_microscope	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	microscope
+pYDMnvGGHnpiK56p8	English	green_truck	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	49	truck	truck		green_truck	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	truck
+pYDMnvGGHnpiK56p8	English	yellow_butterfly	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	50	insect	insect		yellow_butterfly	1			FALSE	FALSE	FALSE	FALSE	FALSE	butterfly
+pYDMnvGGHnpiK56p8	English	green_slipper	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	51	green slipper	green slipper		green_slipper	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	slipper
+pYDMnvGGHnpiK56p8	English	green_fork	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	52	fork	fork		green_fork	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	fork
+pYDMnvGGHnpiK56p8	English	yellow_flower	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	53	yellow flower	yellow flower		yellow_flower	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	flower
+pYDMnvGGHnpiK56p8	English	purple_luggage	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	54	case	case		purple_luggage	1			FALSE	FALSE	FALSE	FALSE	TRUE	luggage
+pYDMnvGGHnpiK56p8	English	yellow_cushion	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	55	yellow pillow	yellow pillow		yellow_cushion	1	"c(""C"", """")"		TRUE	FALSE	FALSE	FALSE	FALSE	cushion
+pYDMnvGGHnpiK56p8	English	yellow_bed	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	57	yellow bed	yellow bed		yellow_bed	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	bed
+pYDMnvGGHnpiK56p8	English	blue_chair	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	58	chair	chair		blue_chair	1	N		FALSE	FALSE	TRUE	FALSE	TRUE	chair
+pYDMnvGGHnpiK56p8	English	yellow_scarf	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	59	scarf	scarf		yellow_scarf	1	N		FALSE	FALSE	TRUE	FALSE	TRUE	scarf
+pYDMnvGGHnpiK56p8	English	yellow_guitar	1	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	60	yellow guitar	yellow guitar		yellow_guitar	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	guitar
+pYDMnvGGHnpiK56p8	English	green_hammer	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	62	green hammer	green hammer		green_hammer	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	TRUE	hammer
+pYDMnvGGHnpiK56p8	English	blue_book	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	65	book	book		blue_book	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	book
+pYDMnvGGHnpiK56p8	English	yellow_fence	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	67	fence	fence		yellow_fence	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	fence
+pYDMnvGGHnpiK56p8	English	yellow_phone	1	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	69	phone	phone		yellow_phone	1	N		FALSE	FALSE	TRUE	TRUE	FALSE	phone
+pYDMnvGGHnpiK56p8	English	white_dress	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	70	white dress	white dress		white_dress	1	"c(""C"", ""N"")"		TRUE	FALSE	TRUE	FALSE	FALSE	dress
+pYDMnvGGHnpiK56p8	English	orange_binoculars	1	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	71	bronze looing things__looking__binocular	bronze looing things		orange_binoculars	1	"c("""", """", """")"		FALSE	FALSE	FALSE	FALSE	FALSE	binoculars
+pYDMnvGGHnpiK56p8	English	green_shell	1	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	72	shell	shell		green_shell	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	shell

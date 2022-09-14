@@ -1,0 +1,481 @@
+gameId	language	stage	condition	alt1BasicLevel	alt1SuperLevel	alt2BasicLevel	alt2SuperLevel	listenerSelection	imageType	roundNumber	directorAllMessages	directorFirstMessage	guesserAllMessages	nameClickedObj	correct	words	sep	colorMentioned	sizeMentioned	typeMentioned	oneMentioned	theMentioned	gender
+puWMByDpinqtmv39h	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	2	adsf	adsf		black_luggage	1	O		FALSE	FALSE	FALSE	FALSE	TRUE	NA
+puWMByDpinqtmv39h	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	5	asdf	asdf		purple_lock	1	O		FALSE	FALSE	FALSE	FALSE	TRUE	NA
+puWMByDpinqtmv39h	English	feedback	scene1	NA	NA	NA	NA	4	pophristic_stimuli	7	adsf	adsf		orange_screwdriver	0	O		FALSE	FALSE	FALSE	FALSE	TRUE	NA
+puWMByDpinqtmv39h	English	feedback	scene1	NA	NA	NA	NA	5	pophristic_stimuli	8	adsf	adsf		black_luggage	0	O		FALSE	FALSE	FALSE	FALSE	TRUE	NA
+puWMByDpinqtmv39h	English	feedback	scene4	NA	NA	NA	NA	4	pophristic_stimuli	9	adsf	adsf		blue_belt	0	O		FALSE	FALSE	FALSE	FALSE	TRUE	NA
+puWMByDpinqtmv39h	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	10	adsf	adsf		purple_glove	1	O		FALSE	FALSE	FALSE	FALSE	TRUE	NA
+puWMByDpinqtmv39h	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	11	adsf	adsf		orange_truck	1	O		FALSE	FALSE	FALSE	FALSE	TRUE	NA
+puWMByDpinqtmv39h	English	feedback	scene1	NA	NA	NA	NA	4	pophristic_stimuli	12	asdf	asdf		yellow_belt	0	O		FALSE	FALSE	FALSE	FALSE	TRUE	NA
+puWMByDpinqtmv39h	English	feedback	scene3	NA	NA	NA	NA	3	pophristic_stimuli	13	adsf	adsf		purple_hammer	0	O		FALSE	FALSE	FALSE	FALSE	TRUE	NA
+puWMByDpinqtmv39h	English	feedback	scene2	NA	NA	NA	NA	3	pophristic_stimuli	14	asdf	asdf		red_butterfly	0	O		FALSE	FALSE	FALSE	FALSE	TRUE	NA
+puWMByDpinqtmv39h	English	feedback	scene1	NA	NA	NA	NA	4	pophristic_stimuli	16	adsf\	adsf\		blue_book	0	O		FALSE	FALSE	FALSE	FALSE	TRUE	NA
+puWMByDpinqtmv39h	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	18	asdf	asdf		white_scarf	1	O		FALSE	FALSE	FALSE	FALSE	TRUE	NA
+puWMByDpinqtmv39h	English	feedback	scene2	NA	NA	NA	NA	6	pophristic_stimuli	20	adsf	adsf		red_guitar	0	O		FALSE	FALSE	FALSE	FALSE	TRUE	NA
+puWMByDpinqtmv39h	English	feedback	scene4	NA	NA	NA	NA	2	pophristic_stimuli	22	asdf	asdf		orange_shell	0	O		FALSE	FALSE	FALSE	FALSE	TRUE	NA
+puWMByDpinqtmv39h	English	feedback	scene1	NA	NA	NA	NA	6	pophristic_stimuli	23	asdf	asdf		blue_chair	0	O		FALSE	FALSE	FALSE	FALSE	TRUE	NA
+puWMByDpinqtmv39h	English	feedback	scene2	NA	NA	NA	NA	5	pophristic_stimuli	24	asdf	asdf		blue_calculator	0	O		FALSE	FALSE	FALSE	FALSE	TRUE	NA
+puWMByDpinqtmv39h	English	feedback	scene4	NA	NA	NA	NA	2	pophristic_stimuli	25	asdf	asdf		green_shell	0	O		FALSE	FALSE	FALSE	FALSE	TRUE	NA
+puWMByDpinqtmv39h	English	feedback	scene4	NA	NA	NA	NA	5	pophristic_stimuli	26	adsf	adsf		orange_shell	0	O		FALSE	FALSE	FALSE	FALSE	TRUE	NA
+puWMByDpinqtmv39h	English	feedback	scene4	NA	NA	NA	NA	5	pophristic_stimuli	27	asdf	asdf		green_lock	0	O		FALSE	FALSE	FALSE	FALSE	TRUE	NA
+puWMByDpinqtmv39h	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	28	asdf	asdf		red_phone	1	O		FALSE	FALSE	FALSE	FALSE	TRUE	NA
+puWMByDpinqtmv39h	English	feedback	scene3	NA	NA	NA	NA	3	pophristic_stimuli	29	sdfg	sdfg		white_book	0	O		FALSE	FALSE	FALSE	FALSE	FALSE	NA
+puWMByDpinqtmv39h	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	30	dfg	dfg		orange_microscope	1	O		FALSE	FALSE	FALSE	FALSE	FALSE	NA
+puWMByDpinqtmv39h	English	feedback	scene1	NA	NA	NA	NA	3	pophristic_stimuli	31	fghjkl	fghjkl		orange_necklace	0	O		FALSE	FALSE	FALSE	FALSE	FALSE	NA
+puWMByDpinqtmv39h	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	33	hkjl;l	hkjl;l		blue_fence	1	O		FALSE	FALSE	FALSE	FALSE	FALSE	NA
+puWMByDpinqtmv39h	English	feedback	scene1	NA	NA	NA	NA	5	pophristic_stimuli	35	jkl;	jkl;		yellow_ring	0	O		FALSE	FALSE	FALSE	FALSE	FALSE	NA
+puWMByDpinqtmv39h	English	feedback	scene1	NA	NA	NA	NA	4	pophristic_stimuli	36	jlk	jlk		blue_book	0	O		FALSE	FALSE	FALSE	FALSE	FALSE	NA
+puWMByDpinqtmv39h	English	feedback	scene2	NA	NA	NA	NA	3	pophristic_stimuli	37	k;	k;		yellow_crown	0	O		FALSE	FALSE	FALSE	FALSE	FALSE	NA
+puWMByDpinqtmv39h	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	39	lkkl	lkkl		yellow_cushion	1	O		FALSE	FALSE	FALSE	FALSE	FALSE	NA
+puWMByDpinqtmv39h	English	feedback	scene3	NA	NA	NA	NA	2	pophristic_stimuli	41	jvgbhnjk	jvgbhnjk		red_bed	0	O		FALSE	FALSE	FALSE	FALSE	FALSE	NA
+puWMByDpinqtmv39h	English	feedback	scene3	NA	NA	NA	NA	5	pophristic_stimuli	42	"jonmlk;,"	"jonmlk;,"		black_sock	0	O		FALSE	FALSE	FALSE	FALSE	FALSE	NA
+puWMByDpinqtmv39h	English	feedback	scene3	NA	NA	NA	NA	4	pophristic_stimuli	43	asrgfdsdfgs	asrgfdsdfgs		white_guitar	0	O		FALSE	FALSE	FALSE	FALSE	TRUE	NA
+puWMByDpinqtmv39h	English	feedback	scene2	NA	NA	NA	NA	4	pophristic_stimuli	44	asgdxfb	asgdxfb		red_cushion	0	O		FALSE	FALSE	FALSE	FALSE	TRUE	NA
+puWMByDpinqtmv39h	English	feedback	scene2	NA	NA	NA	NA	6	pophristic_stimuli	45	sdfxvc	sdfxvc		black_screwdriver	0	O		FALSE	FALSE	FALSE	FALSE	FALSE	NA
+puWMByDpinqtmv39h	English	feedback	scene3	NA	NA	NA	NA	6	pophristic_stimuli	46	arsfdx	arsfdx		purple_knife	0	O		FALSE	FALSE	FALSE	FALSE	TRUE	NA
+puWMByDpinqtmv39h	English	feedback	scene3	NA	NA	NA	NA	5	pophristic_stimuli	47	arfsdxc	arfsdxc		green_robot	0	O		FALSE	FALSE	FALSE	FALSE	TRUE	NA
+puWMByDpinqtmv39h	English	feedback	scene4	NA	NA	NA	NA	6	pophristic_stimuli	53	4ertsfgxvc	4ertsfgxvc		red_ring	0	O		FALSE	FALSE	FALSE	FALSE	FALSE	NA
+puWMByDpinqtmv39h	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	55	dcgfvgbhknjlm	dcgfvgbhknjlm		purple_fish	1	O		FALSE	FALSE	FALSE	FALSE	FALSE	NA
+puWMByDpinqtmv39h	English	feedback	scene1	NA	NA	NA	NA	4	pophristic_stimuli	56	fchgvjbhjnlkm	fchgvjbhjnlkm		yellow_bed	0	O		FALSE	FALSE	FALSE	FALSE	FALSE	NA
+puWMByDpinqtmv39h	English	feedback	scene3	NA	NA	NA	NA	6	pophristic_stimuli	60	sdghf	sdghf		yellow_pencil	0	O		FALSE	FALSE	FALSE	FALSE	FALSE	NA
+puWMByDpinqtmv39h	English	feedback	scene4	NA	NA	NA	NA	5	pophristic_stimuli	61	afdsvxc	afdsvxc		red_pencil	0	O		FALSE	FALSE	FALSE	FALSE	TRUE	NA
+puWMByDpinqtmv39h	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	63	dfvc	dfvc		blue_calculator	1	O		FALSE	FALSE	FALSE	FALSE	FALSE	NA
+puWMByDpinqtmv39h	English	feedback	scene4	NA	NA	NA	NA	5	pophristic_stimuli	64	sdfxcv	sdfxcv		black_luggage	0	O		FALSE	FALSE	FALSE	FALSE	FALSE	NA
+puWMByDpinqtmv39h	English	feedback	scene4	NA	NA	NA	NA	4	pophristic_stimuli	65	sdfxvc	sdfxvc		orange_knife	0	O		FALSE	FALSE	FALSE	FALSE	FALSE	NA
+puWMByDpinqtmv39h	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	67	gjbhknjlkm	gjbhknjlkm		blue_dress	1	O		FALSE	FALSE	FALSE	FALSE	FALSE	NA
+puWMByDpinqtmv39h	English	feedback	scene2	NA	NA	NA	NA	6	pophristic_stimuli	68	vcgjhkl	vcgjhkl		green_ribbon	0	O		FALSE	FALSE	FALSE	FALSE	FALSE	NA
+puWMByDpinqtmv39h	English	feedback	scene2	NA	NA	NA	NA	4	pophristic_stimuli	69	fchvgjbhkjnl	fchvgjbhkjnl		black_luggage	0	O		FALSE	FALSE	FALSE	FALSE	FALSE	NA
+puWMByDpinqtmv39h	English	feedback	scene4	NA	NA	NA	NA	4	pophristic_stimuli	70	vghjbhkjnl	vghjbhkjnl		green_glove	0	O		FALSE	FALSE	FALSE	FALSE	FALSE	NA
+puWMByDpinqtmv39h	English	feedback	scene1	NA	NA	NA	NA	5	pophristic_stimuli	71	gvjlkkl;	gvjlkkl;		orange_necklace	0	O		FALSE	FALSE	FALSE	FALSE	FALSE	NA
+hdnGFPbSdMsmueHNY	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	1	it's the black fork	it's the black fork		black_fork	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+hdnGFPbSdMsmueHNY	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	2	it's the knife	it's the knife		black_knife	1	N		FALSE	FALSE	TRUE	FALSE	TRUE	NA
+hdnGFPbSdMsmueHNY	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	4	it's the ribbon / bow	it's the ribbon / bow		orange_ribbon	1	N		FALSE	FALSE	TRUE	FALSE	TRUE	NA
+hdnGFPbSdMsmueHNY	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	6	it's the iron	it's the iron		red_iron	1	N		FALSE	FALSE	TRUE	FALSE	TRUE	NA
+hdnGFPbSdMsmueHNY	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	7	it's the suitcase	it's the suitcase		green_luggage	1	N		FALSE	FALSE	TRUE	FALSE	TRUE	NA
+hdnGFPbSdMsmueHNY	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	8	it's the blue dress	it's the blue dress		blue_dress	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+hdnGFPbSdMsmueHNY	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	9	it's the guitar	it's the guitar		red_guitar	1	N		FALSE	FALSE	TRUE	FALSE	TRUE	NA
+hdnGFPbSdMsmueHNY	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	11	the purple fish	the purple fish		purple_fish	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+hdnGFPbSdMsmueHNY	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	12	the seashell	the seashell		green_shell	1	N		FALSE	FALSE	TRUE	FALSE	TRUE	NA
+hdnGFPbSdMsmueHNY	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	13	the chair	the chair		red_chair	1	N		FALSE	FALSE	TRUE	FALSE	TRUE	NA
+hdnGFPbSdMsmueHNY	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	14	the padlock	the padlock		black_lock	1	N		FALSE	FALSE	TRUE	FALSE	TRUE	NA
+hdnGFPbSdMsmueHNY	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	15	the necklace	the necklace		green_necklace	1	N		FALSE	FALSE	TRUE	FALSE	TRUE	NA
+hdnGFPbSdMsmueHNY	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	16	the yellow balloon	the yellow balloon		yellow_balloon	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+hdnGFPbSdMsmueHNY	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	19	the white crown	the white crown		white_crown	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+hdnGFPbSdMsmueHNY	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	20	the red door	the red door		red_door	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+hdnGFPbSdMsmueHNY	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	21	the yellow bed	the yellow bed		yellow_bed	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+hdnGFPbSdMsmueHNY	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	22	the ring	the ring		red_ring	1	N		FALSE	FALSE	TRUE	FALSE	TRUE	NA
+hdnGFPbSdMsmueHNY	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	24	red fence	red fence		red_fence	1	CN		TRUE	FALSE	TRUE	FALSE	FALSE	NA
+hdnGFPbSdMsmueHNY	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	27	shoe	shoe		black_slipper	1	N		FALSE	FALSE	FALSE	FALSE	FALSE	NA
+hdnGFPbSdMsmueHNY	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	28	purple hammer	purple hammer		purple_hammer	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+hdnGFPbSdMsmueHNY	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	29	comb	comb		white_comb	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	NA
+hdnGFPbSdMsmueHNY	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	30	orange microscope	orange microscope		orange_microscope	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+hdnGFPbSdMsmueHNY	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	31	white bucket thing	white bucket thing		white_candle	1	CN		TRUE	FALSE	FALSE	FALSE	FALSE	NA
+hdnGFPbSdMsmueHNY	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	33	purple basket	purple basket		purple_basket	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+hdnGFPbSdMsmueHNY	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	36	red pillow	red pillow		red_cushion	1	CN		TRUE	FALSE	FALSE	FALSE	FALSE	NA
+hdnGFPbSdMsmueHNY	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	37	yellow butterfly	yellow butterfly		yellow_butterfly	1	CN		TRUE	FALSE	TRUE	FALSE	FALSE	NA
+hdnGFPbSdMsmueHNY	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	40	calculator	calculator		yellow_calculator	1	N		FALSE	FALSE	TRUE	FALSE	TRUE	NA
+hdnGFPbSdMsmueHNY	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	41	orange glove	orange glove		orange_glove	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+hdnGFPbSdMsmueHNY	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	42	screwdriver	screwdriver		green_screwdriver	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	NA
+hdnGFPbSdMsmueHNY	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	46	blue book	blue book		blue_book	1	CN		TRUE	FALSE	TRUE	FALSE	FALSE	NA
+hdnGFPbSdMsmueHNY	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	48	helicopter	helicopter		purple_helicopter	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	NA
+hdnGFPbSdMsmueHNY	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	49	black bowl	black bowl		black_bowl	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+hdnGFPbSdMsmueHNY	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	50	yellow mask	yellow mask		yellow_mask	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+hdnGFPbSdMsmueHNY	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	51	orange binoculars	orange binoculars		orange_binoculars	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+hdnGFPbSdMsmueHNY	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	52	mug	mug		yellow_mug	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	NA
+hdnGFPbSdMsmueHNY	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	53	scarf	scarf		white_scarf	1	N		FALSE	FALSE	TRUE	FALSE	TRUE	NA
+hdnGFPbSdMsmueHNY	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	54	green tie	green tie		green_tie	1	CN		TRUE	FALSE	TRUE	FALSE	FALSE	NA
+hdnGFPbSdMsmueHNY	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	55	white phone	white phone		white_phone	1	CN		TRUE	FALSE	TRUE	TRUE	FALSE	NA
+hdnGFPbSdMsmueHNY	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	56	green drum	green drum		green_drum	1	CN		TRUE	FALSE	TRUE	FALSE	FALSE	NA
+hdnGFPbSdMsmueHNY	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	57	orange calendar	orange calendar		orange_calendar	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+hdnGFPbSdMsmueHNY	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	60	black truck	black truck		black_truck	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+hdnGFPbSdMsmueHNY	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	63	blue pencil	blue pencil		blue_pencil	1	CN		TRUE	FALSE	TRUE	FALSE	FALSE	NA
+hdnGFPbSdMsmueHNY	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	64	yellow belt	yellow belt		yellow_belt	1	CN		TRUE	FALSE	TRUE	FALSE	FALSE	NA
+hdnGFPbSdMsmueHNY	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	65	blue flower	blue flower		blue_flower	1	CN		TRUE	FALSE	TRUE	FALSE	FALSE	NA
+hdnGFPbSdMsmueHNY	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	67	orange sock	orange sock		orange_sock	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+hdnGFPbSdMsmueHNY	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	68	purple dice	purple dice		purple_die	1	CN		TRUE	FALSE	FALSE	FALSE	FALSE	NA
+hdnGFPbSdMsmueHNY	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	70	green robot	green robot		green_robot	1	CN		TRUE	FALSE	TRUE	FALSE	FALSE	NA
+hdnGFPbSdMsmueHNY	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	71	blue wallet	blue wallet		blue_wallet	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+KmvNQjDH8tZPYxpyA	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	1	its yellow	its yellow	i'm ready	yellow_mask	1	C		TRUE	FALSE	FALSE	FALSE	FALSE	NA
+KmvNQjDH8tZPYxpyA	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	3	yellow	yellow		yellow_crown	1	C		TRUE	FALSE	FALSE	FALSE	FALSE	NA
+KmvNQjDH8tZPYxpyA	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	4	white	white		white_phone	1	C		TRUE	FALSE	FALSE	FALSE	FALSE	NA
+KmvNQjDH8tZPYxpyA	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	5	orange	orange		orange_knife	1	C		TRUE	FALSE	FALSE	FALSE	TRUE	NA
+KmvNQjDH8tZPYxpyA	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	6	black	black		black_slipper	1	C		TRUE	FALSE	FALSE	FALSE	TRUE	NA
+KmvNQjDH8tZPYxpyA	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	8	blue	blue		blue_ring	1	C		TRUE	FALSE	FALSE	FALSE	FALSE	NA
+KmvNQjDH8tZPYxpyA	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	10	purple	purple		purple_fork	1	C		TRUE	FALSE	FALSE	FALSE	FALSE	NA
+KmvNQjDH8tZPYxpyA	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	11	orange	orange		orange_hammer	1	C		TRUE	FALSE	FALSE	FALSE	TRUE	NA
+KmvNQjDH8tZPYxpyA	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	12	red	red		red_cushion	1	C		TRUE	FALSE	FALSE	FALSE	FALSE	NA
+KmvNQjDH8tZPYxpyA	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	13	black	black		black_robot	1	C		TRUE	FALSE	FALSE	FALSE	TRUE	NA
+KmvNQjDH8tZPYxpyA	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	14	red	red		red_iron	1	C		TRUE	FALSE	FALSE	FALSE	FALSE	NA
+KmvNQjDH8tZPYxpyA	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	15	purple	purple		purple_lock	1	C		TRUE	FALSE	FALSE	FALSE	FALSE	NA
+KmvNQjDH8tZPYxpyA	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	16	red	red		red_candle	1	C		TRUE	FALSE	FALSE	FALSE	FALSE	NA
+KmvNQjDH8tZPYxpyA	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	17	yelllow	yelllow		yellow_scarf	1	C		FALSE	FALSE	FALSE	FALSE	FALSE	NA
+KmvNQjDH8tZPYxpyA	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	18	green	green		green_truck	1	C		TRUE	FALSE	FALSE	FALSE	FALSE	NA
+KmvNQjDH8tZPYxpyA	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	19	white	white		white_comb	1	C		TRUE	FALSE	FALSE	FALSE	FALSE	NA
+KmvNQjDH8tZPYxpyA	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	20	white]	white]		white_pencil	1	C		TRUE	FALSE	FALSE	FALSE	FALSE	NA
+KmvNQjDH8tZPYxpyA	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	23	yellow	yellow		yellow_belt	1	C		TRUE	FALSE	FALSE	FALSE	FALSE	NA
+KmvNQjDH8tZPYxpyA	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	25	orange	orange		orange_luggage	1	C		TRUE	FALSE	FALSE	FALSE	TRUE	NA
+KmvNQjDH8tZPYxpyA	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	26	orangre	orangre		orange_tie	1	C		FALSE	FALSE	FALSE	FALSE	TRUE	NA
+KmvNQjDH8tZPYxpyA	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	27	purple	purple		purple_basket	1	C		TRUE	FALSE	FALSE	FALSE	FALSE	NA
+KmvNQjDH8tZPYxpyA	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	29	yellow	yellow		yellow_fence	1	C		TRUE	FALSE	FALSE	FALSE	FALSE	NA
+KmvNQjDH8tZPYxpyA	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	31	yellow	yellow		yellow_dress	1	C		TRUE	FALSE	FALSE	FALSE	FALSE	NA
+KmvNQjDH8tZPYxpyA	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	33	yellow	yellow		yellow_butterfly	1	C		TRUE	FALSE	FALSE	FALSE	FALSE	NA
+KmvNQjDH8tZPYxpyA	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	34	black	black		black_glove	1	C		TRUE	FALSE	FALSE	FALSE	TRUE	NA
+KmvNQjDH8tZPYxpyA	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	35	purple	purple		purple_helicopter	1	C		TRUE	FALSE	FALSE	FALSE	FALSE	NA
+KmvNQjDH8tZPYxpyA	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	36	yellow	yellow		yellow_chair	1	C		TRUE	FALSE	FALSE	FALSE	FALSE	NA
+KmvNQjDH8tZPYxpyA	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	37	white	white		white_calculator	1	C		TRUE	FALSE	FALSE	FALSE	FALSE	NA
+KmvNQjDH8tZPYxpyA	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	39	white	white		white_guitar	1	C		TRUE	FALSE	FALSE	FALSE	FALSE	NA
+KmvNQjDH8tZPYxpyA	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	40	green	green		green_fish	1	C		TRUE	FALSE	FALSE	FALSE	FALSE	NA
+KmvNQjDH8tZPYxpyA	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	41	orange	orange		orange_screwdriver	1	C		TRUE	FALSE	FALSE	FALSE	TRUE	NA
+KmvNQjDH8tZPYxpyA	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	42	black	black		black_sock	1	C		TRUE	FALSE	FALSE	FALSE	TRUE	NA
+KmvNQjDH8tZPYxpyA	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	44	black	black		black_necklace	1	C		TRUE	FALSE	FALSE	FALSE	TRUE	NA
+KmvNQjDH8tZPYxpyA	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	45	orange	orange		orange_microscope	1	C		TRUE	FALSE	FALSE	FALSE	TRUE	NA
+KmvNQjDH8tZPYxpyA	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	47	black	black		black_bowl	1	C		TRUE	FALSE	FALSE	FALSE	TRUE	NA
+KmvNQjDH8tZPYxpyA	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	49	black	black		black_calendar	1	C		TRUE	FALSE	FALSE	FALSE	TRUE	NA
+KmvNQjDH8tZPYxpyA	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	50	blue	blue		blue_balloon	1	C		TRUE	FALSE	FALSE	FALSE	FALSE	NA
+KmvNQjDH8tZPYxpyA	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	51	black	black		black_drum	1	C		TRUE	FALSE	FALSE	FALSE	TRUE	NA
+KmvNQjDH8tZPYxpyA	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	54	red	red		red_flower	1	C		TRUE	FALSE	FALSE	FALSE	FALSE	NA
+KmvNQjDH8tZPYxpyA	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	55	green	green		green_die	1	C		TRUE	FALSE	FALSE	FALSE	FALSE	NA
+KmvNQjDH8tZPYxpyA	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	56	red	red		red_bed	1	C		TRUE	FALSE	FALSE	FALSE	FALSE	NA
+KmvNQjDH8tZPYxpyA	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	57	yellow	yellow		yellow_mug	1	C		TRUE	FALSE	FALSE	FALSE	FALSE	NA
+KmvNQjDH8tZPYxpyA	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	58	orange	orange		orange_ribbon	1	C		TRUE	FALSE	FALSE	FALSE	TRUE	NA
+KmvNQjDH8tZPYxpyA	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	61	green	green		green_shell	1	C		TRUE	FALSE	FALSE	FALSE	FALSE	NA
+KmvNQjDH8tZPYxpyA	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	62	yellow	yellow		yellow_door	1	C		TRUE	FALSE	FALSE	FALSE	FALSE	NA
+KmvNQjDH8tZPYxpyA	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	63	purple	purple		purple_binoculars	1	C		TRUE	FALSE	FALSE	FALSE	FALSE	NA
+KmvNQjDH8tZPYxpyA	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	64	white	white		white_book	1	C		TRUE	FALSE	FALSE	FALSE	FALSE	NA
+KmvNQjDH8tZPYxpyA	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	66	red	red		red_wallet	1	C		TRUE	FALSE	FALSE	FALSE	FALSE	NA
+Dr6tQTjSzjt7gg9Hd	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	1	the object is the red bed.	the object is the red bed.		red_bed	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+Dr6tQTjSzjt7gg9Hd	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	2	it is the red belt.	it is the red belt.		red_belt	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+Dr6tQTjSzjt7gg9Hd	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	3	click on the green bowl.	click on the green bowl.		green_bowl	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+Dr6tQTjSzjt7gg9Hd	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	4	it is the black tie.	it is the black tie.		black_tie	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+Dr6tQTjSzjt7gg9Hd	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	5	click the white chair.	click the white chair.		white_chair	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+Dr6tQTjSzjt7gg9Hd	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	6	the object is the black robot.	the object is the black robot.		black_robot	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+Dr6tQTjSzjt7gg9Hd	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	7	click the black ribbon.	click the black ribbon.		black_ribbon	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+Dr6tQTjSzjt7gg9Hd	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	8	it's the blue comb.	it's the blue comb.		blue_comb	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+Dr6tQTjSzjt7gg9Hd	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	10	it is the red dress.	it is the red dress.		red_dress	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+Dr6tQTjSzjt7gg9Hd	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	11	click the red guitar.	click the red guitar.		red_guitar	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+Dr6tQTjSzjt7gg9Hd	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	13	the green binoculars.	the green binoculars.		green_binoculars	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+Dr6tQTjSzjt7gg9Hd	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	14	the black die.	the black die.		black_die	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+Dr6tQTjSzjt7gg9Hd	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	15	the white crown.	the white crown.		white_crown	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+Dr6tQTjSzjt7gg9Hd	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	17	the blue pencil.	the blue pencil.		blue_pencil	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+Dr6tQTjSzjt7gg9Hd	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	19	the yellow scarf.	the yellow scarf.		yellow_scarf	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+Dr6tQTjSzjt7gg9Hd	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	20	the yellow telephone.	the yellow telephone.		yellow_phone	1	CN		TRUE	FALSE	TRUE	TRUE	TRUE	NA
+Dr6tQTjSzjt7gg9Hd	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	21	the red fork.	the red fork.		orange_fork	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+Dr6tQTjSzjt7gg9Hd	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	25	green microscope.	green microscope.		green_microscope	1	CN		TRUE	FALSE	TRUE	FALSE	FALSE	NA
+Dr6tQTjSzjt7gg9Hd	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	26	black glove.	black glove.		black_glove	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+Dr6tQTjSzjt7gg9Hd	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	27	yellow ... dayplanner i think?	yellow ... dayplanner i think?		yellow_wallet	1	CN		TRUE	FALSE	FALSE	FALSE	TRUE	NA
+Dr6tQTjSzjt7gg9Hd	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	28	green padlock.	green padlock.		green_lock	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+Dr6tQTjSzjt7gg9Hd	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	31	green helicopter.	green helicopter.		green_helicopter	1	CN		TRUE	FALSE	TRUE	FALSE	FALSE	NA
+Dr6tQTjSzjt7gg9Hd	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	32	purple sock.	purple sock.		purple_sock	1	CN		TRUE	FALSE	TRUE	FALSE	FALSE	NA
+Dr6tQTjSzjt7gg9Hd	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	34	blue door.	blue door.		blue_door	1	CN		TRUE	FALSE	TRUE	FALSE	FALSE	NA
+Dr6tQTjSzjt7gg9Hd	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	35	white facemask.	white facemask.		white_mask	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+Dr6tQTjSzjt7gg9Hd	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	37	purple fish.	purple fish.		purple_fish	1	CN		TRUE	FALSE	TRUE	FALSE	FALSE	NA
+Dr6tQTjSzjt7gg9Hd	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	39	green drum.	green drum.		green_drum	1	CN		TRUE	FALSE	TRUE	FALSE	FALSE	NA
+Dr6tQTjSzjt7gg9Hd	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	40	blue cup.	blue cup.		blue_mug	1	CN		TRUE	FALSE	FALSE	FALSE	FALSE	NA
+Dr6tQTjSzjt7gg9Hd	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	43	orange knife.	orange knife.		orange_knife	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+Dr6tQTjSzjt7gg9Hd	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	44	purple screwdriver.	purple screwdriver.		purple_screwdriver	1	CN		TRUE	FALSE	TRUE	FALSE	FALSE	NA
+Dr6tQTjSzjt7gg9Hd	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	45	yellow balloon.	yellow balloon.		yellow_balloon	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+Dr6tQTjSzjt7gg9Hd	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	46	yellow butterfly.	yellow butterfly.		yellow_butterfly	1	CN		TRUE	FALSE	TRUE	FALSE	FALSE	NA
+Dr6tQTjSzjt7gg9Hd	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	49	red calculator.	red calculator.		red_calculator	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+Dr6tQTjSzjt7gg9Hd	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	50	yellow pillow.	yellow pillow.		yellow_cushion	1	CN		TRUE	FALSE	FALSE	FALSE	FALSE	NA
+Dr6tQTjSzjt7gg9Hd	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	54	yellow ... candle?	yellow ... candle?		yellow_candle	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+Dr6tQTjSzjt7gg9Hd	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	56	green necklace.	green necklace.		green_necklace	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+Dr6tQTjSzjt7gg9Hd	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	57	green suitcase.	green suitcase.		green_luggage	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+Dr6tQTjSzjt7gg9Hd	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	60	orange clam or oyster.	orange clam or oyster.		orange_shell	1	CN		TRUE	FALSE	FALSE	FALSE	TRUE	NA
+Dr6tQTjSzjt7gg9Hd	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	62	green slipper.	green slipper.		green_slipper	1	CN		TRUE	FALSE	TRUE	FALSE	FALSE	NA
+Dr6tQTjSzjt7gg9Hd	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	63	white iron.	white iron.		white_iron	1	CN		TRUE	FALSE	TRUE	FALSE	FALSE	NA
+Dr6tQTjSzjt7gg9Hd	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	64	blue book or journal.	blue book or journal.		blue_book	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+Dr6tQTjSzjt7gg9Hd	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	65	black hammer.	black hammer.		black_hammer	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+Dr6tQTjSzjt7gg9Hd	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	66	red fence.	red fence.		red_fence	1	CN		TRUE	FALSE	TRUE	FALSE	FALSE	NA
+Dr6tQTjSzjt7gg9Hd	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	67	yellow ring.	yellow ring.		yellow_ring	1	CN		TRUE	FALSE	TRUE	FALSE	FALSE	NA
+Dr6tQTjSzjt7gg9Hd	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	68	green calendar.	green calendar.		green_calendar	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+Dr6tQTjSzjt7gg9Hd	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	69	purple basket.	purple basket.		purple_basket	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+Dr6tQTjSzjt7gg9Hd	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	71	green truck.	green truck.		green_truck	1	CN		TRUE	FALSE	TRUE	FALSE	FALSE	NA
+Dr6tQTjSzjt7gg9Hd	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	72	blue flower.	blue flower.		blue_flower	1	CN		TRUE	FALSE	TRUE	FALSE	FALSE	NA
+5khNqxeoj4wtevi6L	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	2	the black luggage	the black luggage	thanks	black_luggage	1	CN		TRUE	FALSE	FALSE	FALSE	TRUE	NA
+5khNqxeoj4wtevi6L	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	3	the yellow bass guitar	the yellow bass guitar	thanks	yellow_guitar	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+5khNqxeoj4wtevi6L	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	9	the red door	the red door		red_door	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+5khNqxeoj4wtevi6L	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	10	the blue bed	the blue bed	your doing good	blue_bed	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+5khNqxeoj4wtevi6L	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	11	the blue iron	the blue iron		blue_iron	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+5khNqxeoj4wtevi6L	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	12	the blue chair	the blue chair		blue_chair	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+5khNqxeoj4wtevi6L	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	14	the blue butterfly	the blue butterfly		blue_butterfly	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+5khNqxeoj4wtevi6L	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	15	the black padlock	the black padlock		black_lock	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+5khNqxeoj4wtevi6L	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	16	the blue face mask	the blue face mask		blue_mask	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+5khNqxeoj4wtevi6L	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	17	the red crown	the red crown		red_crown	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+5khNqxeoj4wtevi6L	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	23	the orange sock	the orange sock		orange_sock	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+5khNqxeoj4wtevi6L	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	24	the green necklace	the green necklace		green_necklace	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+5khNqxeoj4wtevi6L	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	27	the black truck	the black truck		black_truck	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+5khNqxeoj4wtevi6L	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	29	the red circular thing i have no idea what it is__not the calculator or the lock or the helicopter or the truck__ahhhh yes that makes sense	the red circular thing i have no idea what it is	looks like a candle?	red_candle	1	CO		TRUE	FALSE	FALSE	FALSE	TRUE	NA
+5khNqxeoj4wtevi6L	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	30	the green screwdriver	the green screwdriver		green_screwdriver	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+5khNqxeoj4wtevi6L	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	31	the blue ring	the blue ring		blue_ring	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+5khNqxeoj4wtevi6L	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	32	the green dice	the green dice		green_die	1	CN		TRUE	FALSE	FALSE	FALSE	TRUE	NA
+5khNqxeoj4wtevi6L	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	33	the red comb	the red comb		red_comb	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+5khNqxeoj4wtevi6L	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	34	the red mug	the red mug		red_mug	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+5khNqxeoj4wtevi6L	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	36	the red picket fence	the red picket fence		red_fence	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+5khNqxeoj4wtevi6L	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	37	the black seashell	the black seashell		black_shell	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+5khNqxeoj4wtevi6L	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	38	the red book	the red book		red_book	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+5khNqxeoj4wtevi6L	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	39	the purple glove	the purple glove		purple_glove	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+5khNqxeoj4wtevi6L	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	41	the white pillow	the white pillow		white_cushion	1	CN		TRUE	FALSE	FALSE	FALSE	TRUE	NA
+5khNqxeoj4wtevi6L	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	42	the fish	the fish		orange_fish	1	N		FALSE	FALSE	TRUE	FALSE	TRUE	NA
+5khNqxeoj4wtevi6L	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	46	the binoculars	the binoculars		black_binoculars	1	N		FALSE	FALSE	TRUE	FALSE	TRUE	NA
+5khNqxeoj4wtevi6L	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	48	the black hammer	the black hammer		black_hammer	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+5khNqxeoj4wtevi6L	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	49	the blue balloon	the blue balloon		blue_balloon	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+5khNqxeoj4wtevi6L	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	50	the orange fork	the orange fork		orange_fork	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+5khNqxeoj4wtevi6L	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	51	the green slipper	the green slipper		green_slipper	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+5khNqxeoj4wtevi6L	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	52	the black basket	the black basket		black_basket	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+5khNqxeoj4wtevi6L	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	53	the purple snare drum	the purple snare drum		purple_drum	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+5khNqxeoj4wtevi6L	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	54	the black tie	the black tie		black_tie	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+5khNqxeoj4wtevi6L	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	55	the orange robot	the orange robot		orange_robot	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+5khNqxeoj4wtevi6L	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	56	the yellow flower	the yellow flower		yellow_flower	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+5khNqxeoj4wtevi6L	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	57	the red wallet	the red wallet		red_wallet	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+5khNqxeoj4wtevi6L	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	59	the yellow telephone	the yellow telephone		yellow_phone	1	CN		TRUE	FALSE	TRUE	TRUE	TRUE	NA
+5khNqxeoj4wtevi6L	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	61	the red belt	the red belt		red_belt	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+5khNqxeoj4wtevi6L	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	62	the blue calculator	the blue calculator		blue_calculator	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+5khNqxeoj4wtevi6L	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	63	the orange calendar	the orange calendar		orange_calendar	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+5khNqxeoj4wtevi6L	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	64	the purple microscope	the purple microscope		purple_microscope	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+5khNqxeoj4wtevi6L	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	65	the purple ribbon	the purple ribbon		purple_ribbon	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+5khNqxeoj4wtevi6L	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	66	the orange knife	the orange knife		orange_knife	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+5khNqxeoj4wtevi6L	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	67	the green helicopter	the green helicopter		green_helicopter	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+5khNqxeoj4wtevi6L	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	68	the yellow dress	the yellow dress		yellow_dress	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+5khNqxeoj4wtevi6L	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	69	the red scarf	the red scarf		red_scarf	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+5khNqxeoj4wtevi6L	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	70	the red pencil	the red pencil		red_pencil	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+5khNqxeoj4wtevi6L	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	71	the purple bowl	the purple bowl		purple_bowl	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+ZziXKMds2SaaAR6wk	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	2	i see a credit card	i see a credit card		white_wallet	1	O		TRUE	FALSE	FALSE	FALSE	TRUE	NA
+ZziXKMds2SaaAR6wk	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	3	white iron	white iron		white_iron	1	CN		TRUE	FALSE	TRUE	FALSE	FALSE	NA
+ZziXKMds2SaaAR6wk	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	5	nailed it	nailed it		purple_hammer	1	O		FALSE	FALSE	FALSE	FALSE	TRUE	NA
+ZziXKMds2SaaAR6wk	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	6	full of air	full of air		blue_balloon	1	O		FALSE	FALSE	FALSE	FALSE	TRUE	NA
+ZziXKMds2SaaAR6wk	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	7	adds up to 15	adds up to 15		orange_die	1	O		FALSE	FALSE	FALSE	FALSE	TRUE	NA
+ZziXKMds2SaaAR6wk	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	10	don't slam it	don't slam it		yellow_door	1	O		FALSE	FALSE	FALSE	FALSE	TRUE	NA
+ZziXKMds2SaaAR6wk	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	11	white hair	white hair		white_comb	1	CO		TRUE	FALSE	FALSE	FALSE	TRUE	NA
+ZziXKMds2SaaAR6wk	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	12	black	black		black_sock	1	C		TRUE	FALSE	FALSE	FALSE	TRUE	NA
+ZziXKMds2SaaAR6wk	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	13	white face	white face		white_mask	1	CO		TRUE	FALSE	FALSE	FALSE	TRUE	NA
+ZziXKMds2SaaAR6wk	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	14	sometimes in the road	sometimes in the road		black_fork	1	O		FALSE	FALSE	FALSE	FALSE	TRUE	NA
+ZziXKMds2SaaAR6wk	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	17	leap	leap		green_calendar	1	O		FALSE	FALSE	FALSE	FALSE	TRUE	NA
+ZziXKMds2SaaAR6wk	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	18	see close	see close		purple_microscope	1	O		FALSE	FALSE	FALSE	FALSE	FALSE	NA
+ZziXKMds2SaaAR6wk	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	19	darker toy	darker toy		black_robot	1	O		FALSE	FALSE	FALSE	FALSE	TRUE	NA
+ZziXKMds2SaaAR6wk	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	20	black	black		black_lock	1	C		TRUE	FALSE	FALSE	FALSE	TRUE	NA
+ZziXKMds2SaaAR6wk	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	21	sharp black	sharp black		black_knife	1	OC		TRUE	FALSE	FALSE	FALSE	TRUE	NA
+ZziXKMds2SaaAR6wk	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	22	orangeish	orangeish		orange_ribbon	1	C		TRUE	FALSE	FALSE	FALSE	TRUE	NA
+ZziXKMds2SaaAR6wk	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	23	read red	read red		red_book	1	OC		TRUE	FALSE	FALSE	FALSE	TRUE	NA
+ZziXKMds2SaaAR6wk	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	24	too tight in orange	too tight in orange		orange_tie	1	OC		TRUE	FALSE	FALSE	FALSE	TRUE	NA
+ZziXKMds2SaaAR6wk	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	27	black trip	black trip		black_luggage	1	CO		TRUE	FALSE	FALSE	FALSE	TRUE	NA
+ZziXKMds2SaaAR6wk	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	28	adds white	adds white		white_calculator	1	OC		TRUE	FALSE	FALSE	FALSE	TRUE	NA
+ZziXKMds2SaaAR6wk	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	30	orange foot	orange foot		orange_slipper	1	CO		TRUE	FALSE	FALSE	FALSE	TRUE	NA
+ZziXKMds2SaaAR6wk	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	32	tired	tired		white_bed	1	O		TRUE	FALSE	FALSE	FALSE	FALSE	NA
+ZziXKMds2SaaAR6wk	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	33	olden goldies	olden goldies		yellow_guitar	1	O		FALSE	FALSE	TRUE	FALSE	FALSE	NA
+ZziXKMds2SaaAR6wk	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	34	purple	purple		purple_fish	1	C		TRUE	FALSE	FALSE	FALSE	FALSE	NA
+ZziXKMds2SaaAR6wk	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	35	draw	draw		white_pencil	1	O		FALSE	FALSE	FALSE	FALSE	TRUE	NA
+ZziXKMds2SaaAR6wk	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	37	blue	blue		blue_butterfly	1	C		TRUE	FALSE	FALSE	FALSE	FALSE	NA
+ZziXKMds2SaaAR6wk	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	38	white	white		white_mug	1	C		TRUE	FALSE	FALSE	FALSE	FALSE	NA
+ZziXKMds2SaaAR6wk	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	39	queen	queen		blue_crown	1	O		FALSE	FALSE	FALSE	FALSE	FALSE	NA
+ZziXKMds2SaaAR6wk	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	40	purple	purple		purple_shell	1	C		TRUE	FALSE	FALSE	FALSE	FALSE	NA
+ZziXKMds2SaaAR6wk	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	44	blue	blue		blue_fence	1	C		TRUE	FALSE	FALSE	FALSE	FALSE	NA
+ZziXKMds2SaaAR6wk	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	45	red	red		red_chair	1	C		TRUE	FALSE	FALSE	FALSE	FALSE	NA
+ZziXKMds2SaaAR6wk	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	46	i see you green	i see you green		green_binoculars	1	OC		TRUE	FALSE	FALSE	FALSE	FALSE	NA
+ZziXKMds2SaaAR6wk	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	47	yellow	yellow		yellow_candle	1	C		TRUE	FALSE	FALSE	FALSE	FALSE	NA
+ZziXKMds2SaaAR6wk	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	49	red	red		red_ring	1	C		TRUE	FALSE	FALSE	FALSE	FALSE	NA
+ZziXKMds2SaaAR6wk	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	50	purple	purple		purple_glove	1	C		TRUE	FALSE	FALSE	FALSE	FALSE	NA
+ZziXKMds2SaaAR6wk	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	51	purple cereal	purple cereal		purple_bowl	1	CO		TRUE	FALSE	FALSE	FALSE	TRUE	NA
+ZziXKMds2SaaAR6wk	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	55	wheels	wheels		black_truck	1	O		FALSE	FALSE	FALSE	FALSE	FALSE	NA
+ZziXKMds2SaaAR6wk	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	56	purple	purple		purple_helicopter	1	C		TRUE	FALSE	FALSE	FALSE	FALSE	NA
+ZziXKMds2SaaAR6wk	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	57	white	white		white_belt	1	C		TRUE	FALSE	FALSE	FALSE	FALSE	NA
+ZziXKMds2SaaAR6wk	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	61	tight as a ----	tight as a ----		orange_drum	1	O		FALSE	FALSE	FALSE	FALSE	TRUE	NA
+ZziXKMds2SaaAR6wk	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	64	blue	blue		blue_flower	1	C		TRUE	FALSE	FALSE	FALSE	FALSE	NA
+ZziXKMds2SaaAR6wk	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	66	orange	orange		orange_necklace	1	C		TRUE	FALSE	FALSE	FALSE	TRUE	NA
+ZziXKMds2SaaAR6wk	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	67	blue	blue		blue_cushion	1	C		TRUE	FALSE	FALSE	FALSE	FALSE	NA
+ZziXKMds2SaaAR6wk	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	68	put my eggs in	put my eggs in		orange_basket	1	O		FALSE	FALSE	FALSE	FALSE	FALSE	NA
+ZziXKMds2SaaAR6wk	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	69	green	green		green_screwdriver	1	C		TRUE	FALSE	FALSE	FALSE	FALSE	NA
+ZziXKMds2SaaAR6wk	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	70	yellow fringe	yellow fringe		yellow_scarf	1	CO		TRUE	FALSE	TRUE	FALSE	FALSE	NA
+ZziXKMds2SaaAR6wk	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	71	red	red		red_phone	1	C		TRUE	FALSE	FALSE	FALSE	FALSE	NA
+ZziXKMds2SaaAR6wk	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	72	white	white	good job	white_dress	1	C		TRUE	FALSE	FALSE	FALSE	FALSE	NA
+yxyQdQXCh43jvw7jC	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	1	it is silver__yes	it is silver	silver crown?	white_crown	1	C		FALSE	FALSE	FALSE	FALSE	FALSE	NA
+yxyQdQXCh43jvw7jC	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	2	it is also silver white__yep	it is also silver white	"an iron?__i think you are allowed to say the object, fyi"	white_iron	1	C		TRUE	FALSE	FALSE	FALSE	TRUE	NA
+yxyQdQXCh43jvw7jC	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	3	fork__lol	fork		black_fork	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	NA
+yxyQdQXCh43jvw7jC	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	5	helicopter	helicopter		orange_helicopter	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	NA
+yxyQdQXCh43jvw7jC	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	7	blue door	blue door		blue_door	1	CN		TRUE	FALSE	TRUE	FALSE	FALSE	NA
+yxyQdQXCh43jvw7jC	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	8	yellow mask	yellow mask		yellow_mask	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+yxyQdQXCh43jvw7jC	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	10	pencil	pencil		white_pencil	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	NA
+yxyQdQXCh43jvw7jC	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	12	yellow flower	yellow flower		yellow_flower	1	CN		TRUE	FALSE	TRUE	FALSE	FALSE	NA
+yxyQdQXCh43jvw7jC	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	14	purple lock	purple lock		purple_lock	1	CN		TRUE	FALSE	TRUE	FALSE	FALSE	NA
+yxyQdQXCh43jvw7jC	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	15	white guitar	white guitar		white_guitar	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+yxyQdQXCh43jvw7jC	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	17	knife	knife		green_knife	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	NA
+yxyQdQXCh43jvw7jC	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	18	book	book		blue_book	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	NA
+yxyQdQXCh43jvw7jC	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	20	red scrrewdriver	red scrrewdriver		orange_screwdriver	1	CN		TRUE	FALSE	FALSE	FALSE	FALSE	NA
+yxyQdQXCh43jvw7jC	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	21	red dress	red dress		red_dress	1	CN		TRUE	FALSE	TRUE	FALSE	FALSE	NA
+yxyQdQXCh43jvw7jC	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	22	white	white		white_candle	1	C		TRUE	FALSE	FALSE	FALSE	FALSE	NA
+yxyQdQXCh43jvw7jC	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	25	gold orange fish	gold orange fish		orange_fish	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+yxyQdQXCh43jvw7jC	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	26	yellow card__scarf	yellow card		yellow_scarf	1	CN		TRUE	FALSE	FALSE	FALSE	TRUE	NA
+yxyQdQXCh43jvw7jC	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	27	drum	drum		orange_drum	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	NA
+yxyQdQXCh43jvw7jC	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	29	white balloon	white balloon		white_balloon	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+yxyQdQXCh43jvw7jC	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	31	glove	glove		orange_glove	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	NA
+yxyQdQXCh43jvw7jC	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	33	chair	chair		yellow_chair	1	N		FALSE	FALSE	TRUE	FALSE	TRUE	NA
+yxyQdQXCh43jvw7jC	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	34	red suitcase	red suitcase		orange_luggage	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+yxyQdQXCh43jvw7jC	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	35	blue cup	blue cup		blue_mug	1	CN		TRUE	FALSE	FALSE	FALSE	FALSE	NA
+yxyQdQXCh43jvw7jC	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	36	orange tie	orange tie		orange_tie	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+yxyQdQXCh43jvw7jC	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	37	blue wallet	blue wallet		blue_wallet	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+yxyQdQXCh43jvw7jC	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	38	basket purple	basket purple		purple_basket	1	NC		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+yxyQdQXCh43jvw7jC	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	40	purple hammer	purple hammer		purple_hammer	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+yxyQdQXCh43jvw7jC	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	41	purple bincolulars	purple bincolulars		purple_binoculars	1	CN		TRUE	FALSE	FALSE	FALSE	TRUE	NA
+yxyQdQXCh43jvw7jC	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	42	green die__no joke	green die	i kinda wish this were harder!	green_die	1	CN		TRUE	FALSE	TRUE	FALSE	FALSE	NA
+yxyQdQXCh43jvw7jC	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	43	yellow	yellow		yellow_fence	1	C		TRUE	FALSE	FALSE	FALSE	FALSE	NA
+yxyQdQXCh43jvw7jC	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	45	blue	blue		blue_cushion	1	C		TRUE	FALSE	FALSE	FALSE	FALSE	NA
+yxyQdQXCh43jvw7jC	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	46	purple necklace	purple necklace		purple_necklace	1	cn		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+yxyQdQXCh43jvw7jC	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	47	green	green		green_calendar	1	C		TRUE	FALSE	FALSE	FALSE	FALSE	NA
+yxyQdQXCh43jvw7jC	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	48	shell	shell		orange_shell	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	NA
+yxyQdQXCh43jvw7jC	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	49	blue	blue		blue_calculator	1	C		TRUE	FALSE	FALSE	FALSE	FALSE	NA
+yxyQdQXCh43jvw7jC	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	51	empty square__no__yes white__i guess so	empty square	hrmmm...__i don't have an empty square__black dice__shell__white comb__green fish__yellow pencil__red pensil__white comb?	white_comb	1	o		FALSE	FALSE	FALSE	FALSE	TRUE	NA
+yxyQdQXCh43jvw7jC	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	54	green	green		green_bowl	1	C		TRUE	FALSE	FALSE	FALSE	FALSE	NA
+yxyQdQXCh43jvw7jC	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	55	purple	purple		purple_sock	1	C		TRUE	FALSE	FALSE	FALSE	FALSE	NA
+yxyQdQXCh43jvw7jC	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	56	white belt	white belt		white_belt	1	CN		TRUE	FALSE	TRUE	FALSE	FALSE	NA
+yxyQdQXCh43jvw7jC	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	57	red	red		red_phone	1	C		TRUE	FALSE	FALSE	FALSE	FALSE	NA
+yxyQdQXCh43jvw7jC	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	58	black	black		black_microscope	1	C		TRUE	FALSE	FALSE	FALSE	TRUE	NA
+yxyQdQXCh43jvw7jC	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	61	black t	black t	mmm.. peet's coffee!	black_truck	1	C		TRUE	FALSE	FALSE	FALSE	TRUE	NA
+yxyQdQXCh43jvw7jC	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	62	yellow	yellow		yellow_butterfly	1	C		TRUE	FALSE	FALSE	FALSE	FALSE	NA
+yxyQdQXCh43jvw7jC	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	64	ring	ring		white_ring	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	NA
+yxyQdQXCh43jvw7jC	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	65	blue bed	blue bed		blue_bed	1	CN		TRUE	FALSE	TRUE	FALSE	FALSE	NA
+yxyQdQXCh43jvw7jC	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	66	purple	purple		purple_ribbon	1	C		TRUE	FALSE	FALSE	FALSE	FALSE	NA
+yxyQdQXCh43jvw7jC	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	69	green	green		green_slipper	1	C		TRUE	FALSE	FALSE	FALSE	FALSE	NA
+yxyQdQXCh43jvw7jC	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	72	purple__ty	purple	"last one.. again  - it's been great, thank  you!  ;-)"	purple_robot	1	C		TRUE	FALSE	FALSE	FALSE	FALSE	NA
+8LNj5vuZeZrGqacFZ	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	1	red chair	red chair		red_chair	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+8LNj5vuZeZrGqacFZ	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	2	blue ring	blue ring		blue_ring	1	CN		TRUE	FALSE	TRUE	FALSE	FALSE	NA
+8LNj5vuZeZrGqacFZ	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	4	white dress	white dress		white_dress	1	CN		TRUE	FALSE	TRUE	FALSE	FALSE	NA
+8LNj5vuZeZrGqacFZ	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	5	black necklace	black necklace		black_necklace	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+8LNj5vuZeZrGqacFZ	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	6	calendar	calendar		black_calendar	1	N		FALSE	FALSE	TRUE	FALSE	TRUE	NA
+8LNj5vuZeZrGqacFZ	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	7	dice	dice		black_die	1	N		FALSE	FALSE	FALSE	FALSE	FALSE	NA
+8LNj5vuZeZrGqacFZ	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	8	bowl	bowl		black_bowl	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	NA
+8LNj5vuZeZrGqacFZ	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	9	fish	fish		green_fish	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	NA
+8LNj5vuZeZrGqacFZ	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	10	blue bed	blue bed		blue_bed	1	CN		TRUE	FALSE	TRUE	FALSE	FALSE	NA
+8LNj5vuZeZrGqacFZ	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	11	green fork	green fork		green_fork	1	CN		TRUE	FALSE	TRUE	FALSE	FALSE	NA
+8LNj5vuZeZrGqacFZ	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	12	guitar	guitar		white_guitar	1	N		FALSE	FALSE	TRUE	FALSE	TRUE	NA
+8LNj5vuZeZrGqacFZ	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	13	calculator	calculator		yellow_calculator	1	N		FALSE	FALSE	TRUE	FALSE	TRUE	NA
+8LNj5vuZeZrGqacFZ	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	15	scarf	scarf		white_scarf	1	N		FALSE	FALSE	TRUE	FALSE	TRUE	NA
+8LNj5vuZeZrGqacFZ	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	16	basket	basket		orange_basket	1	N		FALSE	FALSE	TRUE	FALSE	TRUE	NA
+8LNj5vuZeZrGqacFZ	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	17	purple tie	purple tie		purple_tie	1	CN		TRUE	FALSE	TRUE	FALSE	FALSE	NA
+8LNj5vuZeZrGqacFZ	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	22	suitcase	suitcase		green_luggage	1	N		FALSE	FALSE	TRUE	FALSE	TRUE	NA
+8LNj5vuZeZrGqacFZ	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	24	yellow book	yellow book		yellow_book	1	CN		TRUE	FALSE	TRUE	FALSE	FALSE	NA
+8LNj5vuZeZrGqacFZ	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	26	green drum	green drum		green_drum	1	CN		TRUE	FALSE	TRUE	FALSE	FALSE	NA
+8LNj5vuZeZrGqacFZ	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	27	white pillow	white pillow		white_cushion	1	CN		TRUE	FALSE	FALSE	FALSE	FALSE	NA
+8LNj5vuZeZrGqacFZ	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	28	screwdriver	screwdriver		purple_screwdriver	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	NA
+8LNj5vuZeZrGqacFZ	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	30	green sock	green sock		green_sock	1	CN		TRUE	FALSE	TRUE	FALSE	FALSE	NA
+8LNj5vuZeZrGqacFZ	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	31	butterfly	butterfly		white_butterfly	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	NA
+8LNj5vuZeZrGqacFZ	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	32	black glove	black glove		black_glove	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+8LNj5vuZeZrGqacFZ	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	33	yellow cup	yellow cup		yellow_mug	1	CN		TRUE	FALSE	FALSE	FALSE	FALSE	NA
+8LNj5vuZeZrGqacFZ	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	36	green lock	green lock		green_lock	1	CN		TRUE	FALSE	TRUE	FALSE	FALSE	NA
+8LNj5vuZeZrGqacFZ	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	40	red iron	red iron		red_iron	1	CN		TRUE	FALSE	TRUE	FALSE	FALSE	NA
+8LNj5vuZeZrGqacFZ	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	41	purple truck	purple truck		purple_truck	1	CN		TRUE	FALSE	TRUE	FALSE	FALSE	NA
+8LNj5vuZeZrGqacFZ	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	43	bow	bow		green_ribbon	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	NA
+8LNj5vuZeZrGqacFZ	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	44	white pencil	white pencil		white_pencil	1	CN		TRUE	FALSE	TRUE	FALSE	FALSE	NA
+8LNj5vuZeZrGqacFZ	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	45	yellow candle	yellow candle		yellow_candle	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+8LNj5vuZeZrGqacFZ	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	47	yellow comb	yellow comb		yellow_comb	1	CN		TRUE	FALSE	TRUE	FALSE	FALSE	NA
+8LNj5vuZeZrGqacFZ	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	48	red wallet	red wallet		red_wallet	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+8LNj5vuZeZrGqacFZ	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	49	purple microscope	purple microscope		purple_microscope	1	CN		TRUE	FALSE	TRUE	FALSE	FALSE	NA
+8LNj5vuZeZrGqacFZ	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	50	balloon	balloon		white_balloon	1	N		FALSE	FALSE	TRUE	FALSE	TRUE	NA
+8LNj5vuZeZrGqacFZ	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	52	hammer	hammer		orange_hammer	1	N		FALSE	FALSE	TRUE	FALSE	TRUE	NA
+8LNj5vuZeZrGqacFZ	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	54	door	door		yellow_door	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	NA
+8LNj5vuZeZrGqacFZ	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	55	green robot	green robot		green_robot	1	CN		TRUE	FALSE	TRUE	FALSE	FALSE	NA
+8LNj5vuZeZrGqacFZ	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	56	telephone	telephone		yellow_phone	1	N		FALSE	FALSE	TRUE	TRUE	FALSE	NA
+8LNj5vuZeZrGqacFZ	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	57	red flower	red flower		red_flower	1	CN		TRUE	FALSE	TRUE	FALSE	FALSE	NA
+8LNj5vuZeZrGqacFZ	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	59	green shell	green shell		green_shell	1	CN		TRUE	FALSE	TRUE	FALSE	FALSE	NA
+8LNj5vuZeZrGqacFZ	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	60	green knife	green knife		green_knife	1	CN		TRUE	FALSE	TRUE	FALSE	FALSE	NA
+8LNj5vuZeZrGqacFZ	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	61	belt	belt		white_belt	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	NA
+8LNj5vuZeZrGqacFZ	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	62	red mask	red mask		red_mask	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+8LNj5vuZeZrGqacFZ	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	64	purple slipper	purple slipper		purple_slipper	1	CN		TRUE	FALSE	TRUE	FALSE	FALSE	NA
+8LNj5vuZeZrGqacFZ	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	66	crown	crown		yellow_crown	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	NA
+8LNj5vuZeZrGqacFZ	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	68	white fence	white fence		white_fence	1	CN		TRUE	FALSE	TRUE	FALSE	FALSE	NA
+8LNj5vuZeZrGqacFZ	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	71	purple helicopter	purple helicopter		purple_helicopter	1	CN		TRUE	FALSE	TRUE	FALSE	FALSE	NA
+8LNj5vuZeZrGqacFZ	English	feedback	scene1	NA	NA	NA	NA	4	pophristic_stimuli	72	orange binoculars	orange binoculars		yellow_cushion	0	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+PdvEYzmGY5Miotm2r	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	2	purple	purple		purple_shell	1	C		TRUE	FALSE	FALSE	FALSE	FALSE	NA
+PdvEYzmGY5Miotm2r	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	3	white butterfly	white butterfly		white_butterfly	1	CN		TRUE	FALSE	TRUE	FALSE	FALSE	NA
+PdvEYzmGY5Miotm2r	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	5	orange suitcase	orange suitcase		orange_luggage	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+PdvEYzmGY5Miotm2r	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	6	blue	blue		blue_cushion	1	C		TRUE	FALSE	FALSE	FALSE	FALSE	NA
+PdvEYzmGY5Miotm2r	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	8	knife	knife		green_knife	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	NA
+PdvEYzmGY5Miotm2r	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	11	black tie	black tie		black_tie	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+PdvEYzmGY5Miotm2r	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	12	screwdriver	screwdriver		orange_screwdriver	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	NA
+PdvEYzmGY5Miotm2r	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	13	purple necklace thing	purple necklace thing		purple_necklace	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+PdvEYzmGY5Miotm2r	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	15	black fork	black fork		black_fork	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+PdvEYzmGY5Miotm2r	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	16	green calendar	green calendar		green_calendar	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+PdvEYzmGY5Miotm2r	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	17	green hammer	green hammer		green_hammer	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+PdvEYzmGY5Miotm2r	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	19	white dress	white dress		white_dress	1	CN		TRUE	FALSE	TRUE	FALSE	FALSE	NA
+PdvEYzmGY5Miotm2r	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	21	black bowl	black bowl		black_bowl	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+PdvEYzmGY5Miotm2r	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	24	red chair	red chair		red_chair	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+PdvEYzmGY5Miotm2r	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	25	blue flower	blue flower		blue_flower	1	CN		TRUE	FALSE	TRUE	FALSE	FALSE	NA
+PdvEYzmGY5Miotm2r	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	26	purple bow	purple bow		purple_ribbon	1	CN		TRUE	FALSE	TRUE	FALSE	FALSE	NA
+PdvEYzmGY5Miotm2r	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	27	orange glove	orange glove		orange_glove	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+PdvEYzmGY5Miotm2r	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	29	purple drum	purple drum		purple_drum	1	CN		TRUE	FALSE	TRUE	FALSE	FALSE	NA
+PdvEYzmGY5Miotm2r	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	30	robot	robot		orange_robot	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	NA
+PdvEYzmGY5Miotm2r	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	32	black microscope	black microscope		black_microscope	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+PdvEYzmGY5Miotm2r	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	33	blue iron	blue iron		blue_iron	1	CN		TRUE	FALSE	TRUE	FALSE	FALSE	NA
+PdvEYzmGY5Miotm2r	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	34	blue pencil	blue pencil		blue_pencil	1	CN		TRUE	FALSE	TRUE	FALSE	FALSE	NA
+PdvEYzmGY5Miotm2r	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	35	yellow scarf	yellow scarf		yellow_scarf	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+PdvEYzmGY5Miotm2r	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	36	ring	ring		yellow_ring	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	NA
+PdvEYzmGY5Miotm2r	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	37	blue mask	blue mask		blue_mask	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+PdvEYzmGY5Miotm2r	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	41	belt	belt		white_belt	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	NA
+PdvEYzmGY5Miotm2r	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	42	yellow bed	yellow bed		yellow_bed	1	CN		TRUE	FALSE	TRUE	FALSE	FALSE	NA
+PdvEYzmGY5Miotm2r	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	43	slipper	slipper		purple_slipper	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	NA
+PdvEYzmGY5Miotm2r	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	44	guitar	guitar		blue_guitar	1	N		FALSE	FALSE	TRUE	FALSE	TRUE	NA
+PdvEYzmGY5Miotm2r	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	46	yellow comb	yellow comb		yellow_comb	1	CN		TRUE	FALSE	TRUE	FALSE	FALSE	NA
+PdvEYzmGY5Miotm2r	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	47	blue balloon	blue balloon		blue_balloon	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+PdvEYzmGY5Miotm2r	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	48	purple dice	purple dice		purple_die	1	CN		TRUE	FALSE	FALSE	FALSE	FALSE	NA
+PdvEYzmGY5Miotm2r	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	49	orange sock	orange sock		orange_sock	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+PdvEYzmGY5Miotm2r	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	50	blue wallet	blue wallet		blue_wallet	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+PdvEYzmGY5Miotm2r	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	54	helicopter	helicopter		green_helicopter	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	NA
+PdvEYzmGY5Miotm2r	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	55	blue door	blue door		blue_door	1	CN		TRUE	FALSE	TRUE	FALSE	FALSE	NA
+PdvEYzmGY5Miotm2r	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	56	red fence	red fence		red_fence	1	CN		TRUE	FALSE	TRUE	FALSE	FALSE	NA
+PdvEYzmGY5Miotm2r	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	59	black fish	black fish		black_fish	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+PdvEYzmGY5Miotm2r	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	60	red	red		red_candle	1	C		TRUE	FALSE	FALSE	FALSE	FALSE	NA
+PdvEYzmGY5Miotm2r	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	61	mug	mug		white_mug	1	N		FALSE	FALSE	TRUE	FALSE	FALSE	NA
+PdvEYzmGY5Miotm2r	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	63	green truck	green truck		green_truck	1	CN		TRUE	FALSE	TRUE	FALSE	FALSE	NA
+PdvEYzmGY5Miotm2r	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	66	orange basket	orange basket		orange_basket	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+PdvEYzmGY5Miotm2r	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	67	calculator	calculator		blue_calculator	1	N		FALSE	FALSE	TRUE	FALSE	TRUE	NA
+PdvEYzmGY5Miotm2r	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	68	black lock	black lock		black_lock	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+PdvEYzmGY5Miotm2r	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	69	yellow phone	yellow phone		yellow_phone	1	CN		TRUE	FALSE	TRUE	TRUE	FALSE	NA
+PdvEYzmGY5Miotm2r	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	70	purple binoculars	purple binoculars		purple_binoculars	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+PdvEYzmGY5Miotm2r	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	71	white crown	white crown		white_crown	1	CN		TRUE	FALSE	TRUE	FALSE	FALSE	NA
+PdvEYzmGY5Miotm2r	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	72	yellow book	yellow book		yellow_book	1	CN		TRUE	FALSE	TRUE	FALSE	FALSE	NA
+irkwudTNmjCyW9fcm	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	2	it's the wind up robot toy	it's the wind up robot toy	hi	black_robot	1	N		FALSE	FALSE	TRUE	FALSE	TRUE	NA
+irkwudTNmjCyW9fcm	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	4	it is the red door	it is the red door		red_door	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+irkwudTNmjCyW9fcm	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	7	it's the black microscope	it's the black microscope		black_microscope	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+irkwudTNmjCyW9fcm	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	8	it's the purple padlock	it's the purple padlock		purple_lock	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+irkwudTNmjCyW9fcm	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	9	it's the blue telephone	it's the blue telephone		blue_phone	1	CN		TRUE	FALSE	TRUE	TRUE	TRUE	NA
+irkwudTNmjCyW9fcm	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	10	it's the yellow mask	it's the yellow mask		yellow_mask	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+irkwudTNmjCyW9fcm	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	13	it's the yellow dress	it's the yellow dress		yellow_dress	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+irkwudTNmjCyW9fcm	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	14	it's the blue rion__iron__sorry!	it's the blue rion		blue_iron	1	CN		TRUE	FALSE	FALSE	FALSE	TRUE	NA
+irkwudTNmjCyW9fcm	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	15	it's the green bow	it's the green bow		green_ribbon	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+irkwudTNmjCyW9fcm	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	16	it's the purple slipper	it's the purple slipper		purple_slipper	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+irkwudTNmjCyW9fcm	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	17	it's the white balloon	it's the white balloon		white_balloon	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+irkwudTNmjCyW9fcm	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	18	it's the black binoculars	it's the black binoculars		black_binoculars	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+irkwudTNmjCyW9fcm	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	19	it's the purple fork	it's the purple fork		purple_fork	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+irkwudTNmjCyW9fcm	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	20	it's the green fish	it's the green fish		green_fish	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+irkwudTNmjCyW9fcm	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	21	it's the black tie	it's the black tie		black_tie	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+irkwudTNmjCyW9fcm	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	22	it's the black die (dice)	it's the black die (dice)		black_die	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+irkwudTNmjCyW9fcm	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	25	it's the black drum	it's the black drum		black_drum	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+irkwudTNmjCyW9fcm	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	28	it's the yellow scarf	it's the yellow scarf		yellow_scarf	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+irkwudTNmjCyW9fcm	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	32	it's the yellow mug	it's the yellow mug		yellow_mug	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+irkwudTNmjCyW9fcm	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	33	it's the yellow pillow	it's the yellow pillow		yellow_cushion	1	CN		TRUE	FALSE	FALSE	FALSE	TRUE	NA
+irkwudTNmjCyW9fcm	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	34	it's the purple beaded necklace	it's the purple beaded necklace		purple_necklace	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+irkwudTNmjCyW9fcm	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	35	it's the yellow crown	it's the yellow crown		yellow_crown	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+irkwudTNmjCyW9fcm	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	36	it's the white wallet	it's the white wallet		white_wallet	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+irkwudTNmjCyW9fcm	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	37	it's the orange calendar	it's the orange calendar		orange_calendar	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+irkwudTNmjCyW9fcm	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	38	it's the purple hammer	it's the purple hammer		purple_hammer	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+irkwudTNmjCyW9fcm	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	39	it's the white pencil	it's the white pencil		white_pencil	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+irkwudTNmjCyW9fcm	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	41	it's the red comb	it's the red comb		red_comb	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+irkwudTNmjCyW9fcm	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	42	it's the red bed	it's the red bed		red_bed	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+irkwudTNmjCyW9fcm	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	44	it's the green shell	it's the green shell		green_shell	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+irkwudTNmjCyW9fcm	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	46	it's the red chair	it's the red chair		red_chair	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+irkwudTNmjCyW9fcm	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	47	it's the red picket fence	it's the red picket fence		red_fence	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+irkwudTNmjCyW9fcm	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	48	it's the green suitcase	it's the green suitcase		green_luggage	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+irkwudTNmjCyW9fcm	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	49	it's the red guitar	it's the red guitar		red_guitar	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+irkwudTNmjCyW9fcm	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	50	it's the white butterfly	it's the white butterfly		white_butterfly	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+irkwudTNmjCyW9fcm	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	51	it's the blue flower	it's the blue flower		blue_flower	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+irkwudTNmjCyW9fcm	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	52	it's the blue calculator	it's the blue calculator		blue_calculator	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+irkwudTNmjCyW9fcm	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	54	it's the red ring	it's the red ring		red_ring	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+irkwudTNmjCyW9fcm	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	55	it's the purple sock	it's the purple sock		purple_sock	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+irkwudTNmjCyW9fcm	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	57	it's the black truck	it's the black truck		black_truck	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+irkwudTNmjCyW9fcm	English	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	58	it's the purple basket	it's the purple basket		purple_basket	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+irkwudTNmjCyW9fcm	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	59	it's the black helicopter	it's the black helicopter		black_helicopter	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+irkwudTNmjCyW9fcm	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	63	it's the red book	it's the red book		red_book	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+irkwudTNmjCyW9fcm	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	64	it's the orange bowl	it's the orange bowl		orange_bowl	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+irkwudTNmjCyW9fcm	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	65	it's the red candle	it's the red candle		red_candle	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+irkwudTNmjCyW9fcm	English	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	66	it's the purple knife	it's the purple knife		purple_knife	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+irkwudTNmjCyW9fcm	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	68	it's the white belt	it's the white belt		white_belt	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+irkwudTNmjCyW9fcm	English	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	70	it's the green glove	it's the green glove		green_glove	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
+irkwudTNmjCyW9fcm	English	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	72	it's the orange handle screwdriver	it's the orange handle screwdriver		orange_screwdriver	1	CN		TRUE	FALSE	TRUE	FALSE	TRUE	NA
