@@ -1,0 +1,1174 @@
+gameId	language	name	stage	condition	alt1BasicLevel	alt1SuperLevel	alt2BasicLevel	alt2SuperLevel	listenerSelection	imageType	roundNumber	directorAllMessages	directorFirstMessage	guesserAllMessages	nameClickedObj	correct	words	sep	gender
+65RDWXStbxX2jsBQ9	BCS	red_candle	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	1	crvena sveca	crvena sveca		red_candle	1	"c(""C"", ""N"")"		NA
+65RDWXStbxX2jsBQ9	BCS	white_balloon	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	4	balon	balon		white_balloon	1	N		NA
+65RDWXStbxX2jsBQ9	BCS	green_microscope	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	6	zeleni mikroskop	zeleni mikroskop		green_microscope	1	"c(""C"", ""N"")"		NA
+65RDWXStbxX2jsBQ9	BCS	red_comb	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	7	crveni cesalj	crveni cesalj		red_comb	1	"c(""C"", ""N"")"		NA
+65RDWXStbxX2jsBQ9	BCS	red_calculator	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	8	kalkulator	kalkulator		red_calculator	1	N		NA
+65RDWXStbxX2jsBQ9	BCS	white_dress	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	9	haljina	haljina		white_dress	1	N		NA
+65RDWXStbxX2jsBQ9	BCS	red_belt	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	10	opasac	opasac		red_belt	1			NA
+65RDWXStbxX2jsBQ9	BCS	red_pencil	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	11	crvena olovka	crvena olovka		red_pencil	1	"c(""C"", ""N"")"		NA
+65RDWXStbxX2jsBQ9	BCS	red_chair	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	12	crvena stolica	crvena stolica		red_chair	1	"c(""C"", ""N"")"		NA
+65RDWXStbxX2jsBQ9	BCS	white_mask	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	13	maska	maska		white_mask	1	N		NA
+65RDWXStbxX2jsBQ9	BCS	green_basket	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	15	zelena korpa	zelena korpa		green_basket	1	"c(""C"", ""N"")"		NA
+65RDWXStbxX2jsBQ9	BCS	black_luggage	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	16	kofer	kofer		black_luggage	1	N		NA
+65RDWXStbxX2jsBQ9	BCS	green_binoculars	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	17	zeleni dvogled	zeleni dvogled		green_binoculars	1	"c(""C"", ""N"")"		NA
+65RDWXStbxX2jsBQ9	BCS	white_mug	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	19	solja	solja		white_mug	1	N		NA
+65RDWXStbxX2jsBQ9	BCS	purple_truck	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	22	kamion	kamion		purple_truck	1	N		NA
+65RDWXStbxX2jsBQ9	BCS	purple_necklace	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	23	ogrlica	ogrlica		purple_necklace	1	N		NA
+65RDWXStbxX2jsBQ9	BCS	black_ribbon	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	24	ukrasna masna	ukrasna masna		black_ribbon	1	"c("""", ""N"")"		NA
+65RDWXStbxX2jsBQ9	BCS	blue_crown	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	25	kruna	kruna		blue_crown	1	N		NA
+65RDWXStbxX2jsBQ9	BCS	black_shell	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	29	crna skoljka	crna skoljka		black_shell	1	"c(""C"", ""N"")"		NA
+65RDWXStbxX2jsBQ9	BCS	red_flower	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	31	crveni cvet	crveni cvet		red_flower	1	"c(""C"", ""N"")"		NA
+65RDWXStbxX2jsBQ9	BCS	blue_wallet	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	33	plavi novcanik	plavi novcanik		blue_wallet	1	"c(""C"", ""N"")"		NA
+65RDWXStbxX2jsBQ9	BCS	white_fence	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	34	bela taraba	bela taraba		white_fence	1	"c(""C"", """")"		NA
+65RDWXStbxX2jsBQ9	BCS	yellow_cushion	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	35	zuti jastuk	zuti jastuk		yellow_cushion	1	"c(""C"", ""N"")"		NA
+65RDWXStbxX2jsBQ9	BCS	blue_phone	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	36	telefon	telefon		blue_phone	1	N		NA
+65RDWXStbxX2jsBQ9	BCS	blue_door	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	38	vrata	vrata		blue_door	1	N		NA
+65RDWXStbxX2jsBQ9	BCS	orange_bowl	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	42	narandzasta zdela	narandzasta zdela		orange_bowl	1	"c(""C"", ""N"")"		NA
+65RDWXStbxX2jsBQ9	BCS	orange_robot	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	44	narandzasti robot	narandzasti robot		orange_robot	1	"c(""C"", ""N"")"		NA
+65RDWXStbxX2jsBQ9	BCS	white_book	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	46	bela knjiga	bela knjiga		white_book	1	"c(""C"", ""N"")"		NA
+65RDWXStbxX2jsBQ9	BCS	yellow_butterfly	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	47	leptir	leptir		yellow_butterfly	1	N		NA
+65RDWXStbxX2jsBQ9	BCS	yellow_ring	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	48	zuti prsten	zuti prsten		yellow_ring	1	"c(""C"", ""N"")"		NA
+65RDWXStbxX2jsBQ9	BCS	green_knife	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	49	zeleni noz	zeleni noz		green_knife	1	"c(""C"", ""N"")"		NA
+65RDWXStbxX2jsBQ9	BCS	blue_bed	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	50	plavi krevet	plavi krevet		blue_bed	1	"c(""C"", ""N"")"		NA
+65RDWXStbxX2jsBQ9	BCS	black_fish	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	51	riba	riba		black_fish	1	N		NA
+65RDWXStbxX2jsBQ9	BCS	red_guitar	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	54	gitara	gitara		red_guitar	1	N		NA
+65RDWXStbxX2jsBQ9	BCS	black_helicopter	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	55	crni helikopter	crni helikopter		black_helicopter	1	"c(""C"", ""N"")"		NA
+65RDWXStbxX2jsBQ9	BCS	black_calendar	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	56	dzepni kalkulator__da	dzepni kalkulator	kalendar?	black_calendar	1	"c("""", ""N"")"		NA
+65RDWXStbxX2jsBQ9	BCS	black_hammer	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	58	cekic	cekic		black_hammer	1	N		NA
+65RDWXStbxX2jsBQ9	BCS	green_tie	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	59	zelena kravata	zelena kravata		green_tie	1	"c(""C"", ""N"")"		NA
+65RDWXStbxX2jsBQ9	BCS	green_die	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	61	kockica	kockica		green_die	1			NA
+65RDWXStbxX2jsBQ9	BCS	green_drum	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	62	zeleni bubanj	zeleni bubanj		green_drum	1	"c(""C"", ""N"")"		NA
+65RDWXStbxX2jsBQ9	BCS	red_iron	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	63	crvena pegla	crvena pegla		red_iron	1	"c(""C"", ""N"")"		NA
+65RDWXStbxX2jsBQ9	BCS	green_sock	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	65	zelena carapa	zelena carapa		green_sock	1	"c(""C"", ""N"")"		NA
+65RDWXStbxX2jsBQ9	BCS	white_scarf	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	66	sal	sal		white_scarf	1	N		NA
+65RDWXStbxX2jsBQ9	BCS	orange_slipper	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	67	papuca	papuca		orange_slipper	1	N		NA
+65RDWXStbxX2jsBQ9	BCS	green_screwdriver	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	69	srafciger	srafciger		green_screwdriver	1	N		NA
+65RDWXStbxX2jsBQ9	BCS	purple_glove	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	70	ljubicasta rukavica	ljubicasta rukavica		purple_glove	1	"c(""C"", ""N"")"		NA
+DdjWcaT3Pswz98mfX	BCS	red_door	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	4	vrata	vrata		red_door	1	N		NA
+DdjWcaT3Pswz98mfX	BCS	yellow_guitar	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	5	gitara	gitara		yellow_guitar	1	N		NA
+DdjWcaT3Pswz98mfX	BCS	blue_chair	feedback	scene4	"NA"	"NA"	"NA"	"NA"	2	NA	8	balon	balon		blue_balloon	0	N		NA
+DdjWcaT3Pswz98mfX	BCS	yellow_comb	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	9	cesalj	cesalj		yellow_comb	1	N		NA
+DdjWcaT3Pswz98mfX	BCS	green_knife	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	11	noz	noz		green_knife	1	N		NA
+DdjWcaT3Pswz98mfX	BCS	white_phone	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	16	beli telefon	beli telefon		white_phone	1	"c(""C"", ""N"")"		NA
+DdjWcaT3Pswz98mfX	BCS	green_helicopter	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	17	helikopter	helikopter		green_helicopter	1	N		NA
+DdjWcaT3Pswz98mfX	BCS	orange_binoculars	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	18	dvogled	dvogled		orange_binoculars	1	N		NA
+DdjWcaT3Pswz98mfX	BCS	red_ring	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	19	prsten	prsten		red_ring	1	N		NA
+DdjWcaT3Pswz98mfX	BCS	purple_basket	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	21	ljubicasta korpa	ljubicasta korpa		purple_basket	1	"c(""C"", ""N"")"		NA
+DdjWcaT3Pswz98mfX	BCS	red_butterfly	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	23	crveni leptir	crveni leptir		red_butterfly	1	"c(""C"", ""N"")"		NA
+DdjWcaT3Pswz98mfX	BCS	purple_tie	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	24	kravata	kravata		purple_tie	1	N		NA
+DdjWcaT3Pswz98mfX	BCS	red_iron	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	26	crvena pegla	crvena pegla		red_iron	1	"c(""C"", ""N"")"		NA
+DdjWcaT3Pswz98mfX	BCS	red_dress	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	27	haljina	haljina		red_dress	1	N		NA
+DdjWcaT3Pswz98mfX	BCS	white_mug	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	28	solja	solja		white_mug	1	N		NA
+DdjWcaT3Pswz98mfX	BCS	purple_lock	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	29	ljubicasti katanac	ljubicasti katanac		purple_lock	1	"c(""C"", ""N"")"		NA
+DdjWcaT3Pswz98mfX	BCS	black_fork	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	31	viljuska	viljuska		black_fork	1	N		NA
+DdjWcaT3Pswz98mfX	BCS	red_wallet	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	32	novcanik	novcanik		red_wallet	1	N		NA
+DdjWcaT3Pswz98mfX	BCS	green_glove	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	34	rukavica	rukavica		green_glove	1	N		NA
+DdjWcaT3Pswz98mfX	BCS	orange_sock	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	35	carapa	carapa		orange_sock	1	N		NA
+DdjWcaT3Pswz98mfX	BCS	white_crown	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	36	kruna	kruna		white_crown	1	N		NA
+DdjWcaT3Pswz98mfX	BCS	yellow_belt	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	37	zuti kais	zuti kais		yellow_belt	1	"c(""C"", ""N"")"		NA
+DdjWcaT3Pswz98mfX	BCS	black_die	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	38	crna kockica	crna kockica		black_die	1	"c(""C"", """")"		NA
+DdjWcaT3Pswz98mfX	BCS	black_calendar	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	39	crni kalendar	crni kalendar		black_calendar	1	"c(""C"", ""N"")"		NA
+DdjWcaT3Pswz98mfX	BCS	blue_flower	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	41	cvet	cvet		blue_flower	1	N		NA
+DdjWcaT3Pswz98mfX	BCS	orange_drum	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	42	dobos	dobos		orange_drum	1			NA
+DdjWcaT3Pswz98mfX	BCS	green_hammer	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	43	zeleni cekic	zeleni cekic		green_hammer	1	"c(""C"", ""N"")"		NA
+DdjWcaT3Pswz98mfX	BCS	green_fish	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	44	zelena riba	zelena riba		green_fish	1	"c(""C"", ""N"")"		NA
+DdjWcaT3Pswz98mfX	BCS	blue_mask	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	45	maska	maska		blue_mask	1	N		NA
+DdjWcaT3Pswz98mfX	BCS	purple_luggage	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	47	ljubicasti kofer	ljubicasti kofer		purple_luggage	1	"c(""C"", ""N"")"		NA
+DdjWcaT3Pswz98mfX	BCS	white_cushion	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	48	jastuk	jastuk		white_cushion	1	N		NA
+DdjWcaT3Pswz98mfX	BCS	white_bed	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	49	krevet	krevet		white_bed	1	N		NA
+DdjWcaT3Pswz98mfX	BCS	purple_robot	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	52	robot	robot		purple_robot	1	N		NA
+DdjWcaT3Pswz98mfX	BCS	purple_necklace	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	54	ljubicasta ogrlica	ljubicasta ogrlica		purple_necklace	1	"c(""C"", ""N"")"		NA
+DdjWcaT3Pswz98mfX	BCS	orange_slipper	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	55	narandzasta papuca	narandzasta papuca		orange_slipper	1	"c(""C"", ""N"")"		NA
+DdjWcaT3Pswz98mfX	BCS	purple_ribbon	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	56	ljubicasta masna	ljubicasta masna		purple_ribbon	1	"c(""C"", ""N"")"		NA
+DdjWcaT3Pswz98mfX	BCS	green_truck	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	57	zeleni kamion	zeleni kamion		green_truck	1	"c(""C"", ""N"")"		NA
+DdjWcaT3Pswz98mfX	BCS	purple_screwdriver	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	58	ljubicasto srafciger	ljubicasto srafciger		purple_screwdriver	1	"c(""C"", ""N"")"		NA
+DdjWcaT3Pswz98mfX	BCS	yellow_scarf	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	59	zuti sal	zuti sal		yellow_scarf	1	"c(""C"", ""N"")"		NA
+DdjWcaT3Pswz98mfX	BCS	blue_fence	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	60	plava ograda	plava ograda		blue_fence	1	"c(""C"", ""N"")"		NA
+DdjWcaT3Pswz98mfX	BCS	white_calculator	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	62	beli digitron	beli digitron		white_calculator	1	"c(""C"", ""N"")"		NA
+DdjWcaT3Pswz98mfX	BCS	red_candle	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	63	crvena sveca	crvena sveca		red_candle	1	"c(""C"", ""N"")"		NA
+DdjWcaT3Pswz98mfX	BCS	red_book	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	64	crvena knjiga	crvena knjiga		red_book	1	"c(""C"", ""N"")"		NA
+DdjWcaT3Pswz98mfX	BCS	purple_bowl	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	65	cinija	cinija		purple_bowl	1	N		NA
+DdjWcaT3Pswz98mfX	BCS	yellow_pencil	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	67	zuta olovka	zuta olovka		yellow_pencil	1	"c(""C"", ""N"")"		NA
+DdjWcaT3Pswz98mfX	BCS	blue_balloon	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	68	plavi balon	plavi balon		blue_balloon	1	"c(""C"", ""N"")"		NA
+DdjWcaT3Pswz98mfX	BCS	purple_shell	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	70	skoljka	skoljka		purple_shell	1	N		NA
+DdjWcaT3Pswz98mfX	BCS	black_microscope	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	71	mikroskop	mikroskop		black_microscope	1	N		NA
+eXCfmTnZXaHrZEHcY	BCS	orange_binoculars	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	1	izaberi dvogled__narandzasti	izaberi dvogled	ajde vec jednom!__koje boje?	orange_binoculars	1	"c("""", ""N"")"		NA
+eXCfmTnZXaHrZEHcY	BCS	green_tie	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	2	izaberi zelenu kravatu	izaberi zelenu kravatu		green_tie	1	"c("""", ""C"", ""N"")"		NA
+eXCfmTnZXaHrZEHcY	BCS	purple_calendar	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	4	izaberi kalendar	izaberi kalendar		purple_calendar	1	"c("""", ""N"")"		NA
+eXCfmTnZXaHrZEHcY	BCS	green_slipper	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	8	izaberi  papucu	izaberi  papucu		green_slipper	1	"c("""", """", ""N"")"		NA
+eXCfmTnZXaHrZEHcY	BCS	black_bowl	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	9	izaberi crnu ciniju	izaberi crnu ciniju		black_bowl	1	"c("""", ""C"", ""N"")"		NA
+eXCfmTnZXaHrZEHcY	BCS	white_belt	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	10	izaberi beli kais	izaberi beli kais		white_belt	1	"c("""", ""C"", ""N"")"		NA
+eXCfmTnZXaHrZEHcY	BCS	red_phone	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	11	izaberi crveni telefon	izaberi crveni telefon		red_phone	1	"c("""", ""C"", ""N"")"		NA
+eXCfmTnZXaHrZEHcY	BCS	yellow_door	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	12	izaberi zuta vrata	izaberi zuta vrata		yellow_door	1	"c("""", ""C"", ""N"")"		NA
+eXCfmTnZXaHrZEHcY	BCS	blue_bed	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	13	izaberi krevet	izaberi krevet		blue_bed	1	"c("""", ""N"")"		NA
+eXCfmTnZXaHrZEHcY	BCS	purple_basket	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	14	izaberi  korpu	izaberi  korpu		purple_basket	1	"c("""", """", ""N"")"		NA
+eXCfmTnZXaHrZEHcY	BCS	red_book	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	16	izaberi knjigu	izaberi knjigu		red_book	1	"c("""", ""N"")"		NA
+eXCfmTnZXaHrZEHcY	BCS	white_dress	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	17	izaberi belu haljinu	izaberi belu haljinu		white_dress	1	"c("""", ""C"", ""N"")"		NA
+eXCfmTnZXaHrZEHcY	BCS	yellow_butterfly	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	19	izaberi zutog leptira	izaberi zutog leptira		yellow_butterfly	1	"c("""", ""C"", """")"		NA
+eXCfmTnZXaHrZEHcY	BCS	yellow_calculator	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	21	izaberi zuti digitron	izaberi zuti digitron		yellow_calculator	1	"c("""", ""C"", ""N"")"		NA
+eXCfmTnZXaHrZEHcY	BCS	purple_screwdriver	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	22	izaberi srafciger	izaberi srafciger		purple_screwdriver	1	"c("""", ""N"")"		NA
+eXCfmTnZXaHrZEHcY	BCS	black_robot	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	23	izaberi crnog robota	izaberi crnog robota		black_robot	1	"c("""", ""C"", """")"		NA
+eXCfmTnZXaHrZEHcY	BCS	yellow_scarf	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	25	izaberi zuti sal	izaberi zuti sal		yellow_scarf	1	"c("""", ""C"", ""N"")"		NA
+eXCfmTnZXaHrZEHcY	BCS	white_flower	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	28	izaberi cvet	izaberi cvet		white_flower	1	"c("""", ""N"")"		NA
+eXCfmTnZXaHrZEHcY	BCS	yellow_iron	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	30	izaberi  peglu	izaberi  peglu		yellow_iron	1	"c("""", """", ""N"")"		NA
+eXCfmTnZXaHrZEHcY	BCS	yellow_comb	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	32	izaberi  cesalj	izaberi  cesalj		yellow_comb	1	"c("""", """", ""N"")"		NA
+eXCfmTnZXaHrZEHcY	BCS	black_knife	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	34	izaberi crni noz	izaberi crni noz		black_knife	1	"c("""", ""C"", ""N"")"		NA
+eXCfmTnZXaHrZEHcY	BCS	yellow_balloon	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	38	izaberi zuti balon	izaberi zuti balon		yellow_balloon	1	"c("""", ""C"", ""N"")"		NA
+eXCfmTnZXaHrZEHcY	BCS	red_crown	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	39	izaberi crvenu krunu	izaberi crvenu krunu		red_crown	1	"c("""", ""C"", ""N"")"		NA
+eXCfmTnZXaHrZEHcY	BCS	orange_glove	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	42	izaberi narandzastu rukavicu	izaberi narandzastu rukavicu		orange_glove	1	"c("""", ""C"", ""N"")"		NA
+eXCfmTnZXaHrZEHcY	BCS	purple_microscope	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	43	izaberi ljubicasti mikroskop	izaberi ljubicasti mikroskop		purple_microscope	1	"c("""", ""C"", ""N"")"		NA
+eXCfmTnZXaHrZEHcY	BCS	purple_lock	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	44	izaberi katanac	izaberi katanac		purple_lock	1	"c("""", ""N"")"		NA
+eXCfmTnZXaHrZEHcY	BCS	red_mask	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	45	izaberi crvenu masku	izaberi crvenu masku		red_mask	1	"c("""", ""C"", ""N"")"		NA
+eXCfmTnZXaHrZEHcY	BCS	blue_wallet	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	46	izaberi novcanik	izaberi novcanik		blue_wallet	1	"c("""", ""N"")"		NA
+eXCfmTnZXaHrZEHcY	BCS	black_die	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	48	izaberi kocku za igranje	izaberi kocku za igranje		black_die	1	"c("""", ""N"", """", """")"		NA
+eXCfmTnZXaHrZEHcY	BCS	blue_pencil	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	49	izaberi olovku	izaberi olovku		blue_pencil	1	"c("""", ""N"")"		NA
+eXCfmTnZXaHrZEHcY	BCS	purple_helicopter	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	50	izaberi ljubicasti helikopter	izaberi ljubicasti helikopter		purple_helicopter	1	"c("""", ""C"", ""N"")"		NA
+eXCfmTnZXaHrZEHcY	BCS	black_hammer	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	51	izaberi cekic	izaberi cekic		black_hammer	1	"c("""", ""N"")"		NA
+eXCfmTnZXaHrZEHcY	BCS	red_guitar	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	52	izaberi crvenu gitaru	izaberi crvenu gitaru		red_guitar	1	"c("""", ""C"", ""N"")"		NA
+eXCfmTnZXaHrZEHcY	BCS	purple_luggage	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	53	izaberi kofer	izaberi kofer		purple_luggage	1	"c("""", ""N"")"		NA
+eXCfmTnZXaHrZEHcY	BCS	purple_drum	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	54	izaberi ljibicasti dobos	izaberi ljibicasti dobos		purple_drum	1	"c("""", """", """")"		NA
+eXCfmTnZXaHrZEHcY	BCS	green_sock	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	55	izaberi zelenu carapu	izaberi zelenu carapu		green_sock	1	"c("""", ""C"", ""N"")"		NA
+eXCfmTnZXaHrZEHcY	BCS	black_shell	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	56	izaberi crnu skoljku	izaberi crnu skoljku		black_shell	1	"c("""", ""C"", ""N"")"		NA
+eXCfmTnZXaHrZEHcY	BCS	orange_ribbon	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	57	izaberi masnu	izaberi masnu		orange_ribbon	1	"c("""", ""N"")"		NA
+eXCfmTnZXaHrZEHcY	BCS	white_fence	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	58	izaberi ogradu	izaberi ogradu		white_fence	1	"c("""", ""N"")"		NA
+eXCfmTnZXaHrZEHcY	BCS	black_truck	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	59	izaberi kamion	izaberi kamion		black_truck	1	"c("""", ""N"")"		NA
+eXCfmTnZXaHrZEHcY	BCS	blue_ring	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	61	izaberi prsten	izaberi prsten		blue_ring	1	"c("""", ""N"")"		NA
+eXCfmTnZXaHrZEHcY	BCS	white_candle	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	62	izaberi ? svecu (ono sto nije solja)	izaberi ? svecu (ono sto nije solja)	?__nista jos	white_candle	1	"c("""", """", ""N"", """", """", """", """")"		NA
+eXCfmTnZXaHrZEHcY	BCS	black_fork	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	64	izaberi crnu viljusku	izaberi crnu viljusku		black_fork	1	"c("""", ""C"", ""N"")"		NA
+eXCfmTnZXaHrZEHcY	BCS	yellow_cushion	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	66	izaberi jastuce	izaberi jastuce		yellow_cushion	1	"c("""", """")"		NA
+eXCfmTnZXaHrZEHcY	BCS	black_fish	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	68	izaberi ribu	izaberi ribu		black_fish	1	"c("""", ""N"")"		NA
+eXCfmTnZXaHrZEHcY	BCS	red_mug	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	69	izaberi crvenu solju	izaberi crvenu solju		red_mug	1	"c("""", ""C"", ""N"")"		NA
+eXCfmTnZXaHrZEHcY	BCS	red_chair	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	71	izaberi stolicu	izaberi stolicu		red_chair	1	"c("""", ""N"")"		NA
+CuxzNmNDXZvYiRpfx	BCS	yellow_cushion	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	1	jastuk	jastuk		yellow_cushion	1	N		NA
+CuxzNmNDXZvYiRpfx	BCS	white_crown	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	3	kruna	kruna		white_crown	1	N		NA
+CuxzNmNDXZvYiRpfx	BCS	purple_basket	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	4	korpa	korpa		purple_basket	1	N		NA
+CuxzNmNDXZvYiRpfx	BCS	red_scarf	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	5	crveni sal	crveni sal		red_scarf	1	"c(""C"", ""N"")"		NA
+CuxzNmNDXZvYiRpfx	BCS	black_calendar	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	6	kalendar, crni	kalendar, crni		black_calendar	1	"c("""", ""C"")"		NA
+CuxzNmNDXZvYiRpfx	BCS	black_shell	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	10	crna skoljka	crna skoljka		black_shell	1	"c(""C"", ""N"")"		NA
+CuxzNmNDXZvYiRpfx	BCS	purple_truck	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	11	ljubicasti kamion	ljubicasti kamion		purple_truck	1	"c(""C"", ""N"")"		NA
+CuxzNmNDXZvYiRpfx	BCS	blue_butterfly	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	13	plavi leptir	plavi leptir		blue_butterfly	1	"c(""C"", ""N"")"		NA
+CuxzNmNDXZvYiRpfx	BCS	yellow_book	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	14	zuta knjiga	zuta knjiga		yellow_book	1	"c(""C"", ""N"")"		NA
+CuxzNmNDXZvYiRpfx	BCS	purple_glove	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	15	ljubicasta rukavica	ljubicasta rukavica		purple_glove	1	"c(""C"", ""N"")"		NA
+CuxzNmNDXZvYiRpfx	BCS	black_fish	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	17	riba	riba		black_fish	1	N		NA
+CuxzNmNDXZvYiRpfx	BCS	yellow_guitar	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	18	gitara	gitara		yellow_guitar	1	N		NA
+CuxzNmNDXZvYiRpfx	BCS	green_drum	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	21	bubanj	bubanj		green_drum	1	N		NA
+CuxzNmNDXZvYiRpfx	BCS	yellow_balloon	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	23	zuti balon	zuti balon		yellow_balloon	1	"c(""C"", ""N"")"		NA
+CuxzNmNDXZvYiRpfx	BCS	blue_wallet	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	24	novcanik	novcanik		blue_wallet	1	N		NA
+CuxzNmNDXZvYiRpfx	BCS	blue_calculator	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	26	plavi racunar	plavi racunar		blue_calculator	1	"c(""C"", """")"		NA
+CuxzNmNDXZvYiRpfx	BCS	purple_bowl	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	27	ljubicasta posuda	ljubicasta posuda		purple_bowl	1	"c(""C"", """")"		NA
+CuxzNmNDXZvYiRpfx	BCS	purple_binoculars	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	30	dvogled	dvogled		purple_binoculars	1	N		NA
+CuxzNmNDXZvYiRpfx	BCS	blue_door	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	32	vrata	vrata		blue_door	1	N		NA
+CuxzNmNDXZvYiRpfx	BCS	blue_mask	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	33	maska	maska		blue_mask	1	N		NA
+CuxzNmNDXZvYiRpfx	BCS	purple_robot	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	34	robot	robot		purple_robot	1	N		NA
+CuxzNmNDXZvYiRpfx	BCS	white_pencil	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	36	bela olovka	bela olovka		white_pencil	1	"c(""C"", ""N"")"		NA
+CuxzNmNDXZvYiRpfx	BCS	black_knife	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	38	noz	noz		black_knife	1	N		NA
+CuxzNmNDXZvYiRpfx	BCS	black_lock	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	43	crna brava	crna brava		black_lock	1	"c(""C"", """")"		NA
+CuxzNmNDXZvYiRpfx	BCS	yellow_iron	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	44	zuta pegla	zuta pegla		yellow_iron	1	"c(""C"", ""N"")"		NA
+CuxzNmNDXZvYiRpfx	BCS	green_tie	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	45	kravata zelena	kravata zelena		green_tie	1	"c(""N"", ""C"")"		NA
+CuxzNmNDXZvYiRpfx	BCS	green_hammer	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	46	zeleni cekic	zeleni cekic		green_hammer	1	"c(""C"", ""N"")"		NA
+CuxzNmNDXZvYiRpfx	BCS	green_microscope	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	48	mikroskop	mikroskop		green_microscope	1	N		NA
+CuxzNmNDXZvYiRpfx	BCS	green_die	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	51	kocka	kocka		green_die	1	N		NA
+CuxzNmNDXZvYiRpfx	BCS	orange_helicopter	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	52	helikopter	helikopter		orange_helicopter	1	N		NA
+CuxzNmNDXZvYiRpfx	BCS	black_luggage	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	53	crni kofer	crni kofer		black_luggage	1	"c(""C"", ""N"")"		NA
+CuxzNmNDXZvYiRpfx	BCS	yellow_belt	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	54	zuti pojas	zuti pojas	kajs xd	yellow_belt	1	"c(""C"", """")"		NA
+CuxzNmNDXZvYiRpfx	BCS	black_sock	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	55	crna carapa	crna carapa		black_sock	1	"c(""C"", ""N"")"		NA
+CuxzNmNDXZvYiRpfx	BCS	orange_slipper	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	56	papuca	papuca		orange_slipper	1	N		NA
+CuxzNmNDXZvYiRpfx	BCS	black_ribbon	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	57	masna	masna		black_ribbon	1	N		NA
+CuxzNmNDXZvYiRpfx	BCS	white_ring	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	58	prsten	prsten		white_ring	1	N		NA
+CuxzNmNDXZvYiRpfx	BCS	green_necklace	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	59	ogrlica	ogrlica		green_necklace	1	N		NA
+CuxzNmNDXZvYiRpfx	BCS	yellow_comb	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	60	cesalj	cesalj		yellow_comb	1	N		NA
+CuxzNmNDXZvYiRpfx	BCS	yellow_flower	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	61	cvet	cvet		yellow_flower	1	N		NA
+CuxzNmNDXZvYiRpfx	BCS	red_dress	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	64	haljina	haljina		red_dress	1	N		NA
+CuxzNmNDXZvYiRpfx	BCS	black_screwdriver	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	65	crni srafziger	crni srafziger		black_screwdriver	1	"c(""C"", """")"		NA
+CuxzNmNDXZvYiRpfx	BCS	blue_mug	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	66	solja	solja		blue_mug	1	N		NA
+CuxzNmNDXZvYiRpfx	BCS	white_candle	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	67	bela sveca	bela sveca		white_candle	1	"c(""C"", ""N"")"		NA
+CuxzNmNDXZvYiRpfx	BCS	yellow_phone	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	68	zuti telefon	zuti telefon		yellow_phone	1	"c(""C"", ""N"")"		NA
+CuxzNmNDXZvYiRpfx	BCS	white_fence	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	69	bela ograda	bela ograda		white_fence	1	"c(""C"", ""N"")"		NA
+CuxzNmNDXZvYiRpfx	BCS	yellow_bed	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	70	krevet	krevet		yellow_bed	1	N		NA
+CuxzNmNDXZvYiRpfx	BCS	red_chair	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	71	crvena stolica	crvena stolica		red_chair	1	"c(""C"", ""N"")"		NA
+MLdT6iXTmZENCegxb	BCS	black_calendar	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	1	kalendar	kalendar		black_calendar	1	N		NA
+MLdT6iXTmZENCegxb	BCS	blue_flower	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	2	plavi cvet	plavi cvet		blue_flower	1	"c(""C"", ""N"")"		NA
+MLdT6iXTmZENCegxb	BCS	black_luggage	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	4	kofer	kofer		black_luggage	1	N		NA
+MLdT6iXTmZENCegxb	BCS	orange_sock	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	5	narandasta carapa	narandasta carapa		orange_sock	1	"c("""", ""N"")"		NA
+MLdT6iXTmZENCegxb	BCS	white_ring	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	6	beli prsten	beli prsten		white_ring	1	"c(""C"", ""N"")"		NA
+MLdT6iXTmZENCegxb	BCS	white_phone	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	7	telefon	telefon		white_phone	1	N		NA
+MLdT6iXTmZENCegxb	BCS	yellow_scarf	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	8	sal	sal		yellow_scarf	1	N		NA
+MLdT6iXTmZENCegxb	BCS	red_butterfly	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	9	leptir	leptir		red_butterfly	1	N		NA
+MLdT6iXTmZENCegxb	BCS	white_door	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	12	bela vrata	bela vrata		white_door	1	"c(""C"", ""N"")"		NA
+MLdT6iXTmZENCegxb	BCS	yellow_crown	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	13	zuta kruna	zuta kruna		yellow_crown	1	"c(""C"", ""N"")"		NA
+MLdT6iXTmZENCegxb	BCS	green_hammer	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	18	cekic	cekic		green_hammer	1	N		NA
+MLdT6iXTmZENCegxb	BCS	green_robot	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	22	zeleni robot	zeleni robot		green_robot	1	"c(""C"", ""N"")"		NA
+MLdT6iXTmZENCegxb	BCS	orange_truck	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	23	kamion	kamion		orange_truck	1	N		NA
+MLdT6iXTmZENCegxb	BCS	black_glove	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	24	crane rukavica	crane rukavica		black_glove	1	"c("""", ""N"")"		NA
+MLdT6iXTmZENCegxb	BCS	red_balloon	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	25	balon	balon		red_balloon	1	N		NA
+MLdT6iXTmZENCegxb	BCS	blue_chair	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	28	stolica	stolica		blue_chair	1	N		NA
+MLdT6iXTmZENCegxb	BCS	black_helicopter	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	29	crane helikopter	crane helikopter		black_helicopter	1	"c("""", ""N"")"		NA
+MLdT6iXTmZENCegxb	BCS	orange_ribbon	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	30	masna	masna		orange_ribbon	1	N		NA
+MLdT6iXTmZENCegxb	BCS	blue_guitar	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	32	plava gitara	plava gitara		blue_guitar	1	"c(""C"", ""N"")"		NA
+MLdT6iXTmZENCegxb	BCS	purple_fish	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	33	riba	riba		purple_fish	1	N		NA
+MLdT6iXTmZENCegxb	BCS	red_mug	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	35	crvena solja	crvena solja		red_mug	1	"c(""C"", ""N"")"		NA
+MLdT6iXTmZENCegxb	BCS	blue_dress	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	37	plava haljina	plava haljina		blue_dress	1	"c(""C"", ""N"")"		NA
+MLdT6iXTmZENCegxb	BCS	orange_die	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	38	kockica za jamb	kockica za jamb		orange_die	1	"c("""", """", """")"		NA
+MLdT6iXTmZENCegxb	BCS	white_cushion	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	40	beli jastuk	beli jastuk		white_cushion	1	"c(""C"", ""N"")"		NA
+MLdT6iXTmZENCegxb	BCS	yellow_book	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	41	zeta knjiga	zeta knjiga		yellow_book	1	"c("""", ""N"")"		NA
+MLdT6iXTmZENCegxb	BCS	white_fence	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	43	ograda	ograda		white_fence	1	N		NA
+MLdT6iXTmZENCegxb	BCS	white_calculator	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	44	digitron	digitron		white_calculator	1	N		NA
+MLdT6iXTmZENCegxb	BCS	black_microscope	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	45	crni mikroskop	crni mikroskop		black_microscope	1	"c(""C"", ""N"")"		NA
+MLdT6iXTmZENCegxb	BCS	black_shell	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	47	crna skoljka	crna skoljka		black_shell	1	"c(""C"", ""N"")"		NA
+MLdT6iXTmZENCegxb	BCS	blue_mask	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	48	plava maska	plava maska		blue_mask	1	"c(""C"", ""N"")"		NA
+MLdT6iXTmZENCegxb	BCS	blue_belt	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	49	kais	kais		blue_belt	1	N		NA
+MLdT6iXTmZENCegxb	BCS	green_binoculars	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	50	zeleni dvogled	zeleni dvogled		green_binoculars	1	"c(""C"", ""N"")"		NA
+MLdT6iXTmZENCegxb	BCS	yellow_pencil	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	51	olovka	olovka		yellow_pencil	1	N		NA
+MLdT6iXTmZENCegxb	BCS	orange_slipper	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	53	papuca	papuca		orange_slipper	1	N		NA
+MLdT6iXTmZENCegxb	BCS	purple_knife	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	54	ljubicasti noz	ljubicasti noz		purple_knife	1	"c(""C"", ""N"")"		NA
+MLdT6iXTmZENCegxb	BCS	green_bowl	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	57	zelena cinija	zelena cinija		green_bowl	1	"c(""C"", ""N"")"		NA
+MLdT6iXTmZENCegxb	BCS	orange_tie	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	58	narandzasta kravata	narandzasta kravata		orange_tie	1	"c(""C"", ""N"")"		NA
+MLdT6iXTmZENCegxb	BCS	purple_basket	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	59	korpa	korpa		purple_basket	1	N		NA
+MLdT6iXTmZENCegxb	BCS	red_iron	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	60	pegla	pegla		red_iron	1	N		NA
+MLdT6iXTmZENCegxb	BCS	red_comb	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	61	crveni cesalj	crveni cesalj		red_comb	1	"c(""C"", ""N"")"		NA
+MLdT6iXTmZENCegxb	BCS	red_bed	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	62	crveni krevet	crveni krevet		red_bed	1	"c(""C"", ""N"")"		NA
+MLdT6iXTmZENCegxb	BCS	red_wallet	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	63	crvrni novcanik	crvrni novcanik		red_wallet	1	"c("""", ""N"")"		NA
+MLdT6iXTmZENCegxb	BCS	yellow_candle	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	64	sveca	sveca		yellow_candle	1	N		NA
+MLdT6iXTmZENCegxb	BCS	green_drum	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	66	zeleni bubanj	zeleni bubanj		green_drum	1	"c(""C"", ""N"")"		NA
+MLdT6iXTmZENCegxb	BCS	orange_screwdriver	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	69	srafciger	srafciger		orange_screwdriver	1	N		NA
+wstEpmg47KxRmsFoD	BCS	orange_calendar	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	1	kalendar	kalendar		orange_calendar	1	N		NA
+wstEpmg47KxRmsFoD	BCS	white_door	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	3	vrata	vrata		white_door	1	N		NA
+wstEpmg47KxRmsFoD	BCS	yellow_pencil	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	4	zuta olovka	zuta olovka		yellow_pencil	1	"c(""C"", ""N"")"		NA
+wstEpmg47KxRmsFoD	BCS	blue_calculator	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	5	plavi kalkulator	plavi kalkulator		blue_calculator	1	"c(""C"", ""N"")"		NA
+wstEpmg47KxRmsFoD	BCS	white_book	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	6	bela knjiga	bela knjiga		white_book	1	"c(""C"", ""N"")"		NA
+wstEpmg47KxRmsFoD	BCS	purple_luggage	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	7	kofer	kofer		purple_luggage	1	N		NA
+wstEpmg47KxRmsFoD	BCS	red_bed	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	8	crveni krevet	crveni krevet		red_bed	1	"c(""C"", ""N"")"		NA
+wstEpmg47KxRmsFoD	BCS	yellow_cushion	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	11	zuti jastuk	zuti jastuk		yellow_cushion	1	"c(""C"", ""N"")"		NA
+wstEpmg47KxRmsFoD	BCS	white_wallet	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	12	beli novcani__novcanik	beli novcani		white_wallet	1	"c(""C"", """")"		NA
+wstEpmg47KxRmsFoD	BCS	yellow_chair	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	13	zuta stolica	zuta stolica		yellow_chair	1	"c(""C"", ""N"")"		NA
+wstEpmg47KxRmsFoD	BCS	black_sock	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	14	carapa	carapa		black_sock	1	N		NA
+wstEpmg47KxRmsFoD	BCS	yellow_balloon	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	15	balon	balon		yellow_balloon	1	N		NA
+wstEpmg47KxRmsFoD	BCS	green_shell	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	16	skoljka	skoljka		green_shell	1	N		NA
+wstEpmg47KxRmsFoD	BCS	red_candle	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	19	crvena sveca	crvena sveca		red_candle	1	"c(""C"", ""N"")"		NA
+wstEpmg47KxRmsFoD	BCS	orange_glove	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	20	rukavica	rukavica		orange_glove	1	N		NA
+wstEpmg47KxRmsFoD	BCS	blue_dress	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	21	haljina	haljina		blue_dress	1	N		NA
+wstEpmg47KxRmsFoD	BCS	red_mask	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	23	maska	maska		red_mask	1	N		NA
+wstEpmg47KxRmsFoD	BCS	purple_binoculars	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	24	ljubicasti dvogled	ljubicasti dvogled		purple_binoculars	1	"c(""C"", ""N"")"		NA
+wstEpmg47KxRmsFoD	BCS	blue_scarf	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	28	sal	sal		blue_scarf	1	N		NA
+wstEpmg47KxRmsFoD	BCS	orange_screwdriver	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	29	srafciger	srafciger		orange_screwdriver	1	N		NA
+wstEpmg47KxRmsFoD	BCS	black_hammer	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	31	cekic	cekic		black_hammer	1	N		NA
+wstEpmg47KxRmsFoD	BCS	black_knife	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	32	crn noz	crn noz		black_knife	1	"c(""C"", ""N"")"		NA
+wstEpmg47KxRmsFoD	BCS	blue_belt	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	33	kajs	kajs		blue_belt	1	N		NA
+wstEpmg47KxRmsFoD	BCS	yellow_flower	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	34	zuti cvet	zuti cvet		yellow_flower	1	"c(""C"", ""N"")"		NA
+wstEpmg47KxRmsFoD	BCS	orange_die	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	35	narandzasta kocka	narandzasta kocka		orange_die	1	"c(""C"", ""N"")"		NA
+wstEpmg47KxRmsFoD	BCS	yellow_comb	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	37	zuta cteka	zuta cteka		yellow_comb	1	"c(""C"", """")"		NA
+wstEpmg47KxRmsFoD	BCS	red_fence	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	39	crvena kapija	crvena kapija		red_fence	1	"c(""C"", """")"		NA
+wstEpmg47KxRmsFoD	BCS	orange_bowl	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	42	cinija	cinija		orange_bowl	1	N		NA
+wstEpmg47KxRmsFoD	BCS	blue_butterfly	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	43	leptir	leptir		blue_butterfly	1	N		NA
+wstEpmg47KxRmsFoD	BCS	black_fish	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	44	crna riba	crna riba		black_fish	1	"c(""C"", ""N"")"		NA
+wstEpmg47KxRmsFoD	BCS	green_necklace	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	45	zelena ogrlica	zelena ogrlica		green_necklace	1	"c(""C"", ""N"")"		NA
+wstEpmg47KxRmsFoD	BCS	yellow_mug	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	47	solja	solja		yellow_mug	1	N		NA
+wstEpmg47KxRmsFoD	BCS	purple_ribbon	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	48	ljubicasta masna	ljubicasta masna		purple_ribbon	1	"c(""C"", ""N"")"		NA
+wstEpmg47KxRmsFoD	BCS	orange_microscope	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	49	narandzasti mikroskop	narandzasti mikroskop		orange_microscope	1	"c(""C"", ""N"")"		NA
+wstEpmg47KxRmsFoD	BCS	yellow_phone	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	50	telefon	telefon		yellow_phone	1	N		NA
+wstEpmg47KxRmsFoD	BCS	yellow_iron	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	51	zuta pegla	zuta pegla		yellow_iron	1	"c(""C"", ""N"")"		NA
+wstEpmg47KxRmsFoD	BCS	green_lock	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	53	kljuc	kljuc		green_lock	1			NA
+wstEpmg47KxRmsFoD	BCS	black_basket	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	55	crna korpa	crna korpa		black_basket	1	"c(""C"", ""N"")"		NA
+wstEpmg47KxRmsFoD	BCS	purple_helicopter	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	57	ljubicasti helikopter	ljubicasti helikopter		purple_helicopter	1	"c(""C"", ""N"")"		NA
+wstEpmg47KxRmsFoD	BCS	green_drum	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	60	zeleno bubanj__zeleni	zeleno bubanj		green_drum	1	"c(""C"", ""N"")"		NA
+wstEpmg47KxRmsFoD	BCS	white_crown	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	62	kruna	kruna		white_crown	1	N		NA
+wstEpmg47KxRmsFoD	BCS	green_robot	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	64	zeleni robot	zeleni robot		green_robot	1	"c(""C"", ""N"")"		NA
+wstEpmg47KxRmsFoD	BCS	black_tie	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	65	kravata	kravata		black_tie	1	N		NA
+wstEpmg47KxRmsFoD	BCS	red_guitar	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	66	gitara	gitara		red_guitar	1	N		NA
+wstEpmg47KxRmsFoD	BCS	orange_slipper	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	69	narandzasta papuca	narandzasta papuca		orange_slipper	1	"c(""C"", ""N"")"		NA
+wstEpmg47KxRmsFoD	BCS	orange_truck	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	70	kamion	kamion		orange_truck	1	N		NA
+wstEpmg47KxRmsFoD	BCS	white_ring	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	71	beli prsten	beli prsten		white_ring	1	"c(""C"", ""N"")"		NA
+PKNjXSPT4YCXdHyyv	BCS	yellow_comb	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	2	cesalj	cesalj		yellow_comb	1	N		NA
+PKNjXSPT4YCXdHyyv	BCS	purple_fork	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	3	ljubicasta vilica	ljubicasta vilica		purple_fork	1	"c(""C"", ""N"")"		NA
+PKNjXSPT4YCXdHyyv	BCS	white_butterfly	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	4	leptir__bijele	leptir	oje boje	white_butterfly	1	N		NA
+PKNjXSPT4YCXdHyyv	BCS	purple_shell	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	5	ljubicasta skoljka	ljubicasta skoljka		purple_shell	1	"c(""C"", ""N"")"		NA
+PKNjXSPT4YCXdHyyv	BCS	red_cushion	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	6	crveni jastuk	crveni jastuk		red_cushion	1	"c(""C"", ""N"")"		NA
+PKNjXSPT4YCXdHyyv	BCS	red_pencil	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	7	olovka	olovka		red_pencil	1	N		NA
+PKNjXSPT4YCXdHyyv	BCS	red_book	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	9	knjiga	knjiga		red_book	1	N		NA
+PKNjXSPT4YCXdHyyv	BCS	yellow_calculator	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	10	zuti digitron	zuti digitron		yellow_calculator	1	"c(""C"", ""N"")"		NA
+PKNjXSPT4YCXdHyyv	BCS	black_robot	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	11	robot	robot		black_robot	1	N		NA
+PKNjXSPT4YCXdHyyv	BCS	orange_microscope	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	12	mikroskop	mikroskop		orange_microscope	1	N		NA
+PKNjXSPT4YCXdHyyv	BCS	red_candle	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	13	svijeca	svijeca		red_candle	1	N		NA
+PKNjXSPT4YCXdHyyv	BCS	black_slipper	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	14	papuca	papuca		black_slipper	1	N		NA
+PKNjXSPT4YCXdHyyv	BCS	black_sock	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	16	crna carapa	crna carapa		black_sock	1	"c(""C"", ""N"")"		NA
+PKNjXSPT4YCXdHyyv	BCS	green_bowl	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	18	zelena zdjelica	zelena zdjelica		green_bowl	1	"c(""C"", """")"		NA
+PKNjXSPT4YCXdHyyv	BCS	purple_knife	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	19	noz	noz		purple_knife	1	N		NA
+PKNjXSPT4YCXdHyyv	BCS	white_dress	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	20	bijela haljina	bijela haljina		white_dress	1	"c(""C"", ""N"")"		NA
+PKNjXSPT4YCXdHyyv	BCS	red_crown	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	21	crvena kruna	crvena kruna		red_crown	1	"c(""C"", ""N"")"		NA
+PKNjXSPT4YCXdHyyv	BCS	blue_mask	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	22	plava maska	plava maska		blue_mask	1	"c(""C"", ""N"")"		NA
+PKNjXSPT4YCXdHyyv	BCS	blue_phone	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	23	plavi telefon	plavi telefon		blue_phone	1	"c(""C"", ""N"")"		NA
+PKNjXSPT4YCXdHyyv	BCS	orange_screwdriver	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	24	smedji odvijac	smedji odvijac		orange_screwdriver	1	"c("""", ""N"")"		NA
+PKNjXSPT4YCXdHyyv	BCS	yellow_balloon	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	28	zuti balon	zuti balon		yellow_balloon	1	"c(""C"", ""N"")"		NA
+PKNjXSPT4YCXdHyyv	BCS	green_basket	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	30	kosara	kosara		green_basket	1	N		NA
+PKNjXSPT4YCXdHyyv	BCS	white_iron	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	31	pegla	pegla		white_iron	1	N		NA
+PKNjXSPT4YCXdHyyv	BCS	orange_binoculars	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	32	dvogled	dvogled		orange_binoculars	1	N		NA
+PKNjXSPT4YCXdHyyv	BCS	white_bed	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	33	krevet	krevet		white_bed	1	N		NA
+PKNjXSPT4YCXdHyyv	BCS	green_glove	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	34	zelena rukavica	zelena rukavica		green_glove	1	"c(""C"", ""N"")"		NA
+PKNjXSPT4YCXdHyyv	BCS	yellow_chair	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	35	stolica	stolica		yellow_chair	1	N		NA
+PKNjXSPT4YCXdHyyv	BCS	blue_guitar	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	36	plava gitara	plava gitara		blue_guitar	1	"c(""C"", ""N"")"		NA
+PKNjXSPT4YCXdHyyv	BCS	black_luggage	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	38	crni kofer	crni kofer		black_luggage	1	"c(""C"", ""N"")"		NA
+PKNjXSPT4YCXdHyyv	BCS	yellow_flower	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	40	cvijet	cvijet		yellow_flower	1	N		NA
+PKNjXSPT4YCXdHyyv	BCS	purple_fish	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	41	riba	riba		purple_fish	1	N		NA
+PKNjXSPT4YCXdHyyv	BCS	green_die	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	44	kockica	kockica		green_die	1			NA
+PKNjXSPT4YCXdHyyv	BCS	red_belt	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	45	crveni remen	crveni remen		red_belt	1	"c(""C"", """")"		NA
+PKNjXSPT4YCXdHyyv	BCS	black_tie	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	46	crna kravata	crna kravata		black_tie	1	"c(""C"", ""N"")"		NA
+PKNjXSPT4YCXdHyyv	BCS	blue_scarf	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	50	plavi sal	plavi sal		blue_scarf	1	"c(""C"", ""N"")"		NA
+PKNjXSPT4YCXdHyyv	BCS	green_drum	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	51	bubanj	bubanj		green_drum	1	N		NA
+PKNjXSPT4YCXdHyyv	BCS	purple_hammer	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	52	ljubicasti cekic	ljubicasti cekic		purple_hammer	1	"c(""C"", ""N"")"		NA
+PKNjXSPT4YCXdHyyv	BCS	black_necklace	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	55	ogrlica	ogrlica		black_necklace	1	N		NA
+PKNjXSPT4YCXdHyyv	BCS	orange_truck	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	56	narancasti kamion	narancasti kamion		orange_truck	1	"c(""C"", ""N"")"		NA
+PKNjXSPT4YCXdHyyv	BCS	white_wallet	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	59	novcanik	novcanik		white_wallet	1	N		NA
+PKNjXSPT4YCXdHyyv	BCS	red_mug	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	61	crvena salica	crvena salica		red_mug	1	"c(""C"", ""N"")"		NA
+PKNjXSPT4YCXdHyyv	BCS	black_ribbon	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	62	masna	masna		black_ribbon	1	N		NA
+PKNjXSPT4YCXdHyyv	BCS	white_fence	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	64	ograda	ograda		white_fence	1	N		NA
+PKNjXSPT4YCXdHyyv	BCS	yellow_ring	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	65	prsten	prsten		yellow_ring	1	N		NA
+PKNjXSPT4YCXdHyyv	BCS	green_lock	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	67	zeleni lokot	zeleni lokot		green_lock	1	"c(""C"", ""N"")"		NA
+PKNjXSPT4YCXdHyyv	BCS	green_calendar	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	69	zeleni kalendar	zeleni kalendar		green_calendar	1	"c(""C"", ""N"")"		NA
+PKNjXSPT4YCXdHyyv	BCS	blue_door	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	71	plava vrata	plava vrata		blue_door	1	"c(""C"", ""N"")"		NA
+PKNjXSPT4YCXdHyyv	BCS	purple_helicopter	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	72	helikopter	helikopter		purple_helicopter	1	N		NA
+4GCkBx4Rzrm64aHj3	BCS	black_slipper	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	1	izaberi papucu__crne	izaberi papucu	koje boje	black_slipper	1	"c("""", ""N"")"		NA
+4GCkBx4Rzrm64aHj3	BCS	white_dress	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	2	izaberi haljinu	izaberi haljinu		white_dress	1	"c("""", ""N"")"		NA
+4GCkBx4Rzrm64aHj3	BCS	green_robot	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	3	izaberi robota__zelene	izaberi robota	koje boje	green_robot	1	"c("""", """")"		NA
+4GCkBx4Rzrm64aHj3	BCS	blue_bed	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	4	izaberi krevet	izaberi krevet		blue_bed	1	"c("""", ""N"")"		NA
+4GCkBx4Rzrm64aHj3	BCS	white_balloon	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	5	izaberi balon__bele	izaberi balon	koje boje	white_balloon	1	"c("""", ""N"")"		NA
+4GCkBx4Rzrm64aHj3	BCS	orange_fish	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	6	izaberi ribu__narandzaste	izaberi ribu	koje boje	orange_fish	1	"c("""", ""N"")"		NA
+4GCkBx4Rzrm64aHj3	BCS	black_necklace	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	7	izaberi ogrlicu__crnu	izaberi ogrlicu	koje boje	black_necklace	1	"c("""", ""N"")"		NA
+4GCkBx4Rzrm64aHj3	BCS	purple_microscope	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	8	izaberi mikroskop__ljubicast	izaberi mikroskop	koje boje	purple_microscope	1	"c("""", ""N"")"		NA
+4GCkBx4Rzrm64aHj3	BCS	black_hammer	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	9	izaberi cekic	izaberi cekic		black_hammer	1	"c("""", ""N"")"		NA
+4GCkBx4Rzrm64aHj3	BCS	yellow_wallet	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	10	izaberi novcanik	izaberi novcanik		yellow_wallet	1	"c("""", ""N"")"		NA
+4GCkBx4Rzrm64aHj3	BCS	orange_knife	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	11	izaberi noz__narandzaste	izaberi noz	koje boje	orange_knife	1	"c("""", ""N"")"		NA
+4GCkBx4Rzrm64aHj3	BCS	black_die	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	14	izaberi kocku__crnu	izaberi kocku	koje boje	black_die	1	"c("""", ""N"")"		NA
+4GCkBx4Rzrm64aHj3	BCS	red_chair	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	16	izaberi stolicu__crevnu	izaberi stolicu	koje boje	red_chair	1	"c("""", ""N"")"		NA
+4GCkBx4Rzrm64aHj3	BCS	red_ring	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	17	izaberi prsten	izaberi prsten		red_ring	1	"c("""", ""N"")"		NA
+4GCkBx4Rzrm64aHj3	BCS	yellow_mask	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	18	izaberi masku	izaberi masku		yellow_mask	1	"c("""", ""N"")"		NA
+4GCkBx4Rzrm64aHj3	BCS	purple_helicopter	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	19	izaberi helikopter__ljubicast	izaberi helikopter	koje boje	purple_helicopter	1	"c("""", ""N"")"		NA
+4GCkBx4Rzrm64aHj3	BCS	purple_truck	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	20	izaberi kamion	izaberi kamion		purple_truck	1	"c("""", ""N"")"		NA
+4GCkBx4Rzrm64aHj3	BCS	green_fork	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	21	izaberi viljusku	izaberi viljusku		green_fork	1	"c("""", ""N"")"		NA
+4GCkBx4Rzrm64aHj3	BCS	purple_screwdriver	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	24	izaberi srafciger	izaberi srafciger		purple_screwdriver	1	"c("""", ""N"")"		NA
+4GCkBx4Rzrm64aHj3	BCS	green_shell	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	25	izaberi skoljku	izaberi skoljku		green_shell	1	"c("""", ""N"")"		NA
+4GCkBx4Rzrm64aHj3	BCS	red_fence	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	26	izaberi ogradu__crvenu	izaberi ogradu	koje boje	red_fence	1	"c("""", ""N"")"		NA
+4GCkBx4Rzrm64aHj3	BCS	blue_scarf	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	28	izaberi sal__plavi	izaberi sal	koje boje	blue_scarf	1	"c("""", ""N"")"		NA
+4GCkBx4Rzrm64aHj3	BCS	green_tie	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	29	izaberi kravatu	izaberi kravatu		green_tie	1	"c("""", ""N"")"		NA
+4GCkBx4Rzrm64aHj3	BCS	yellow_cushion	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	31	izaberi jastuk	izaberi jastuk		yellow_cushion	1	"c("""", ""N"")"		NA
+4GCkBx4Rzrm64aHj3	BCS	purple_calendar	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	32	izaberi kalendar	izaberi kalendar		purple_calendar	1	"c("""", ""N"")"		NA
+4GCkBx4Rzrm64aHj3	BCS	white_comb	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	34	izaberi cesalj	izaberi cesalj		white_comb	1	"c("""", ""N"")"		NA
+4GCkBx4Rzrm64aHj3	BCS	red_book	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	36	izaberi kljigu__crvenu	izaberi kljigu	koje boje	red_book	1	"c("""", """")"		NA
+4GCkBx4Rzrm64aHj3	BCS	green_luggage	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	37	izaberi kofer	izaberi kofer		green_luggage	1	"c("""", ""N"")"		NA
+4GCkBx4Rzrm64aHj3	BCS	yellow_mug	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	40	izaberi solju	izaberi solju		yellow_mug	1	"c("""", ""N"")"		NA
+4GCkBx4Rzrm64aHj3	BCS	yellow_iron	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	43	izaberi peglu__zutu	izaberi peglu	koje boje	yellow_iron	1	"c("""", ""N"")"		NA
+4GCkBx4Rzrm64aHj3	BCS	red_butterfly	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	45	izaberi letira__crevene	izaberi letira	koje boje	red_butterfly	1	"c("""", """")"		NA
+4GCkBx4Rzrm64aHj3	BCS	blue_candle	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	47	izaberi svecu__plavu	izaberi svecu	koje boje	blue_candle	1	"c("""", ""N"")"		NA
+4GCkBx4Rzrm64aHj3	BCS	black_basket	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	49	izaberi korpu__crnu	izaberi korpu	koje boje	black_basket	1	"c("""", ""N"")"		NA
+4GCkBx4Rzrm64aHj3	BCS	purple_sock	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	50	izaberi carapu	izaberi carapu		purple_sock	1	"c("""", ""N"")"		NA
+4GCkBx4Rzrm64aHj3	BCS	blue_guitar	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	51	izaberi gitaru	izaberi gitaru		blue_guitar	1	"c("""", ""N"")"		NA
+4GCkBx4Rzrm64aHj3	BCS	blue_pencil	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	52	izaberi olovku__plave	izaberi olovku	koje boje	blue_pencil	1	"c("""", ""N"")"		NA
+4GCkBx4Rzrm64aHj3	BCS	white_phone	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	53	izaberi telefon__bele	izaberi telefon	koje boje haha	white_phone	1	"c("""", ""N"")"		NA
+4GCkBx4Rzrm64aHj3	BCS	white_belt	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	55	izaberi kais__beli	izaberi kais	koje boje	white_belt	1	"c("""", ""N"")"		NA
+4GCkBx4Rzrm64aHj3	BCS	red_flower	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	56	izaberi cvet	izaberi cvet		red_flower	1	"c("""", ""N"")"		NA
+4GCkBx4Rzrm64aHj3	BCS	red_door	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	57	izaberi vrata	izaberi vrata		red_door	1	"c("""", ""N"")"		NA
+4GCkBx4Rzrm64aHj3	BCS	green_drum	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	61	izaberi bubanj__zelen	izaberi bubanj	koje boje	green_drum	1	"c("""", ""N"")"		NA
+4GCkBx4Rzrm64aHj3	BCS	green_binoculars	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	62	izaberi dvogled__zelen	izaberi dvogled	koje boje	green_binoculars	1	"c("""", ""N"")"		NA
+4GCkBx4Rzrm64aHj3	BCS	black_bowl	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	64	izaberi posudu	izaberi posudu		black_bowl	1	"c("""", """")"		NA
+4GCkBx4Rzrm64aHj3	BCS	purple_glove	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	65	izaberi rukvicu	izaberi rukvicu		purple_glove	1	"c("""", """")"		NA
+4GCkBx4Rzrm64aHj3	BCS	white_crown	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	66	izaberi krunu	izaberi krunu		white_crown	1	"c("""", ""N"")"		NA
+4GCkBx4Rzrm64aHj3	BCS	green_ribbon	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	68	izaberi masnu__zelene	izaberi masnu	koje boje	green_ribbon	1	"c("""", ""N"")"		NA
+4GCkBx4Rzrm64aHj3	BCS	yellow_calculator	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	70	izaberi digitron__zut	izaberi digitron	koje boje	yellow_calculator	1	"c("""", ""N"")"		NA
+EQJZXa3gpcpEj8RRQ	BCS	blue_butterfly	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	2	ima krila, a boje pegle	ima krila, a boje pegle		blue_butterfly	1	"c("""", """", """", """", """")"		NA
+EQJZXa3gpcpEj8RRQ	BCS	black_drum	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	4	okruglo	okruglo		black_drum	1			NA
+EQJZXa3gpcpEj8RRQ	BCS	red_comb	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	6	za kosu	za kosu		red_comb	1	"c("""", """")"		NA
+EQJZXa3gpcpEj8RRQ	BCS	green_hammer	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	7	za kucanje a boje helikoptera	za kucanje a boje helikoptera		green_hammer	1	"c("""", """", """", """", """")"		NA
+EQJZXa3gpcpEj8RRQ	BCS	purple_sock	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	9	za noge	za noge		purple_sock	1	"c("""", """")"		NA
+EQJZXa3gpcpEj8RRQ	BCS	orange_fish	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	11	pliva, boje helikoptera	pliva, boje helikoptera		orange_fish	1	"c("""", """", """")"		NA
+EQJZXa3gpcpEj8RRQ	BCS	black_helicopter	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	12	helikopter	helikopter		black_helicopter	1	N		NA
+EQJZXa3gpcpEj8RRQ	BCS	blue_phone	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	13	plavi telefon	plavi telefon		blue_phone	1	"c(""C"", ""N"")"		NA
+EQJZXa3gpcpEj8RRQ	BCS	purple_fork	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	14	viljuska	viljuska		purple_fork	1	N		NA
+EQJZXa3gpcpEj8RRQ	BCS	blue_dress	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	15	haljina	haljina		blue_dress	1	N		NA
+EQJZXa3gpcpEj8RRQ	BCS	purple_robot	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	19	robot	robot		purple_robot	1	N		NA
+EQJZXa3gpcpEj8RRQ	BCS	yellow_crown	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	21	za glavu	za glavu		yellow_crown	1	"c("""", """")"		NA
+EQJZXa3gpcpEj8RRQ	BCS	red_book	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	23	cita se, a boje gitare	cita se, a boje gitare		red_book	1	"c("""", """", """", """", """")"		NA
+EQJZXa3gpcpEj8RRQ	BCS	black_glove	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	24	razlicito od ostala dva	razlicito od ostala dva		black_glove	1	"c("""", """", """", """")"		NA
+EQJZXa3gpcpEj8RRQ	BCS	purple_knife	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	26	sece se njime	sece se njime		purple_knife	1	"c("""", """", """")"		NA
+EQJZXa3gpcpEj8RRQ	BCS	red_iron	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	27	tvoja omiljena alatka boje leptira	tvoja omiljena alatka boje leptira		red_iron	1	"c("""", """", """", """", """")"		NA
+EQJZXa3gpcpEj8RRQ	BCS	white_chair	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	29	sedenje, boje balona	sedenje, boje balona		white_chair	1	"c("""", """", """")"		NA
+EQJZXa3gpcpEj8RRQ	BCS	orange_calendar	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	30	narandzasto a nije robot	narandzasto a nije robot		orange_calendar	1	"c(""C"", """", """", ""N"")"		NA
+EQJZXa3gpcpEj8RRQ	BCS	orange_shell	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	33	skoljka	skoljka		orange_shell	1	N		NA
+EQJZXa3gpcpEj8RRQ	BCS	white_wallet	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	37	futrola	futrola		white_wallet	1			NA
+EQJZXa3gpcpEj8RRQ	BCS	white_balloon	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	39	beli balon	beli balon		white_balloon	1	"c(""C"", ""N"")"		NA
+EQJZXa3gpcpEj8RRQ	BCS	blue_candle	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	40	ima fitilj a boje case	ima fitilj a boje case		blue_candle	1	"c("""", """", """", """", """")"		NA
+EQJZXa3gpcpEj8RRQ	BCS	red_ring	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	41	okruglo	okruglo		red_ring	1			NA
+EQJZXa3gpcpEj8RRQ	BCS	purple_luggage	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	42	boje kravate a nije kravata	boje kravate a nije kravata		purple_luggage	1	"c("""", """", """", """", ""N"")"		NA
+EQJZXa3gpcpEj8RRQ	BCS	green_binoculars	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	43	dvogled	dvogled		green_binoculars	1	N		NA
+EQJZXa3gpcpEj8RRQ	BCS	blue_guitar	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	44	gitara	gitara		blue_guitar	1	N		NA
+EQJZXa3gpcpEj8RRQ	BCS	blue_fence	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	45	ograda__plava	ograda	boja?	blue_fence	1	N		NA
+EQJZXa3gpcpEj8RRQ	BCS	green_lock	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	46	zeleni katanac	zeleni katanac		green_lock	1	"c(""C"", ""N"")"		NA
+EQJZXa3gpcpEj8RRQ	BCS	black_basket	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	47	crna korpa	crna korpa		black_basket	1	"c(""C"", ""N"")"		NA
+EQJZXa3gpcpEj8RRQ	BCS	white_bed	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	50	krevet	krevet		white_bed	1	N		NA
+EQJZXa3gpcpEj8RRQ	BCS	white_calculator	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	51	beli digitron	beli digitron		white_calculator	1	"c(""C"", ""N"")"		NA
+EQJZXa3gpcpEj8RRQ	BCS	purple_truck	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	52	lila kamion	lila kamion		purple_truck	1	"c("""", ""N"")"		NA
+EQJZXa3gpcpEj8RRQ	BCS	black_screwdriver	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	53	crni srafciger	crni srafciger		black_screwdriver	1	"c(""C"", ""N"")"		NA
+EQJZXa3gpcpEj8RRQ	BCS	white_door	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	55	vrata	vrata		white_door	1	N		NA
+EQJZXa3gpcpEj8RRQ	BCS	blue_belt	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	56	plavi kais	plavi kais		blue_belt	1	"c(""C"", ""N"")"		NA
+EQJZXa3gpcpEj8RRQ	BCS	yellow_scarf	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	57	zuti sal	zuti sal		yellow_scarf	1	"c(""C"", ""N"")"		NA
+EQJZXa3gpcpEj8RRQ	BCS	purple_die	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	58	lila kocka	lila kocka		purple_die	1	"c("""", ""N"")"		NA
+EQJZXa3gpcpEj8RRQ	BCS	blue_flower	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	59	cvet	cvet		blue_flower	1	N		NA
+EQJZXa3gpcpEj8RRQ	BCS	green_ribbon	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	60	zelena masna	zelena masna		green_ribbon	1	"c(""C"", ""N"")"		NA
+EQJZXa3gpcpEj8RRQ	BCS	white_mug	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	62	kesic	kesic		white_mug	1			NA
+EQJZXa3gpcpEj8RRQ	BCS	yellow_mask	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	63	covid	covid		yellow_mask	1			NA
+EQJZXa3gpcpEj8RRQ	BCS	red_pencil	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	64	pisanje, boje maske	pisanje, boje maske		red_pencil	1	"c("""", """", """")"		NA
+EQJZXa3gpcpEj8RRQ	BCS	orange_slipper	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	65	oranz papuca	oranz papuca		orange_slipper	1	"c("""", ""N"")"		NA
+EQJZXa3gpcpEj8RRQ	BCS	green_microscope	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	67	mikroskop	mikroskop		green_microscope	1	N		NA
+EQJZXa3gpcpEj8RRQ	BCS	red_cushion	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	68	jastuk	jastuk		red_cushion	1	N		NA
+EQJZXa3gpcpEj8RRQ	BCS	purple_necklace	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	69	lila ogrlica	lila ogrlica		purple_necklace	1	"c("""", ""N"")"		NA
+EQJZXa3gpcpEj8RRQ	BCS	orange_tie	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	70	kravata	kravata		orange_tie	1	N		NA
+EQJZXa3gpcpEj8RRQ	BCS	black_bowl	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	71	cinija	cinija		black_bowl	1	N		NA
+b6sw4MdFsDPJtxcQw	BCS	black_hammer	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	2	crni čekić	crni čekić		black_hammer	1	"c(""C"", ""N"")"		NA
+b6sw4MdFsDPJtxcQw	BCS	purple_fish	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	3	riba	riba		purple_fish	1	N		NA
+b6sw4MdFsDPJtxcQw	BCS	orange_knife	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	4	nož	nož		orange_knife	1	N		NA
+b6sw4MdFsDPJtxcQw	BCS	blue_candle	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	6	sveća	sveća		blue_candle	1	N		NA
+b6sw4MdFsDPJtxcQw	BCS	purple_ribbon	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	9	mašna	mašna		purple_ribbon	1	N		NA
+b6sw4MdFsDPJtxcQw	BCS	white_comb	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	12	beli češalj	beli češalj		white_comb	1	"c(""C"", ""N"")"		NA
+b6sw4MdFsDPJtxcQw	BCS	white_flower	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	14	beli cvet	beli cvet		white_flower	1	"c(""C"", ""N"")"		NA
+b6sw4MdFsDPJtxcQw	BCS	orange_basket	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	17	korpa	korpa		orange_basket	1	N		NA
+b6sw4MdFsDPJtxcQw	BCS	white_pencil	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	18	olovka	olovka		white_pencil	1	N		NA
+b6sw4MdFsDPJtxcQw	BCS	red_wallet	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	19	crveni novčanik	crveni novčanik		red_wallet	1	"c(""C"", ""N"")"		NA
+b6sw4MdFsDPJtxcQw	BCS	blue_fence	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	20	ograda	ograda		blue_fence	1	N		NA
+b6sw4MdFsDPJtxcQw	BCS	white_crown	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	21	bela kruna	bela kruna		white_crown	1	"c(""C"", ""N"")"		NA
+b6sw4MdFsDPJtxcQw	BCS	blue_mug	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	22	plava šolja	plava šolja		blue_mug	1	"c(""C"", ""N"")"		NA
+b6sw4MdFsDPJtxcQw	BCS	yellow_calculator	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	23	digitron	digitron		yellow_calculator	1	N		NA
+b6sw4MdFsDPJtxcQw	BCS	black_truck	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	24	crni kamion	crni kamion		black_truck	1	"c(""C"", ""N"")"		NA
+b6sw4MdFsDPJtxcQw	BCS	white_iron	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	25	pegla	pegla		white_iron	1	N		NA
+b6sw4MdFsDPJtxcQw	BCS	red_scarf	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	26	šal	šal		red_scarf	1	N		NA
+b6sw4MdFsDPJtxcQw	BCS	purple_glove	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	27	ljubičasta rukavica	ljubičasta rukavica		purple_glove	1	"c(""C"", ""N"")"		NA
+b6sw4MdFsDPJtxcQw	BCS	yellow_belt	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	28	kaiš	kaiš		yellow_belt	1	N		NA
+b6sw4MdFsDPJtxcQw	BCS	white_balloon	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	29	beli balon	beli balon		white_balloon	1	"c(""C"", ""N"")"		NA
+b6sw4MdFsDPJtxcQw	BCS	white_book	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	30	knjiga	knjiga		white_book	1	N		NA
+b6sw4MdFsDPJtxcQw	BCS	orange_robot	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	31	robot	robot		orange_robot	1	N		NA
+b6sw4MdFsDPJtxcQw	BCS	green_necklace	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	32	ogrlica	ogrlica		green_necklace	1	N		NA
+b6sw4MdFsDPJtxcQw	BCS	green_calendar	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	33	zeleni kalendar	zeleni kalendar		green_calendar	1	"c(""C"", ""N"")"		NA
+b6sw4MdFsDPJtxcQw	BCS	blue_bed	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	34	plavi krevet	plavi krevet		blue_bed	1	"c(""C"", ""N"")"		NA
+b6sw4MdFsDPJtxcQw	BCS	blue_ring	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	35	plavi prsten	plavi prsten		blue_ring	1	"c(""C"", ""N"")"		NA
+b6sw4MdFsDPJtxcQw	BCS	orange_tie	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	36	narandžasta kravata	narandžasta kravata		orange_tie	1	"c("""", ""N"")"		NA
+b6sw4MdFsDPJtxcQw	BCS	white_dress	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	37	bela haljina	bela haljina		white_dress	1	"c(""C"", ""N"")"		NA
+b6sw4MdFsDPJtxcQw	BCS	blue_butterfly	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	38	leptir	leptir		blue_butterfly	1	N		NA
+b6sw4MdFsDPJtxcQw	BCS	purple_helicopter	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	39	helihopter	helihopter		purple_helicopter	1			NA
+b6sw4MdFsDPJtxcQw	BCS	black_shell	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	41	crna školjka	crna školjka		black_shell	1	"c(""C"", ""N"")"		NA
+b6sw4MdFsDPJtxcQw	BCS	orange_binoculars	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	42	dvogled	dvogled		orange_binoculars	1	N		NA
+b6sw4MdFsDPJtxcQw	BCS	green_bowl	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	45	zelena činija	zelena činija		green_bowl	1	"c(""C"", ""N"")"		NA
+b6sw4MdFsDPJtxcQw	BCS	yellow_phone	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	47	telefon	telefon		yellow_phone	1	N		NA
+b6sw4MdFsDPJtxcQw	BCS	black_screwdriver	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	49	crni šrafciger	crni šrafciger		black_screwdriver	1	"c(""C"", ""N"")"		NA
+b6sw4MdFsDPJtxcQw	BCS	green_die	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	50	kockica	kockica		green_die	1			NA
+b6sw4MdFsDPJtxcQw	BCS	black_sock	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	52	crna čarapa	crna čarapa		black_sock	1	"c(""C"", ""N"")"		NA
+b6sw4MdFsDPJtxcQw	BCS	green_microscope	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	53	mikroskop	mikroskop		green_microscope	1	N		NA
+b6sw4MdFsDPJtxcQw	BCS	red_guitar	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	56	crvena gitara	crvena gitara		red_guitar	1	"c(""C"", ""N"")"		NA
+b6sw4MdFsDPJtxcQw	BCS	blue_door	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	57	plava vrata	plava vrata		blue_door	1	"c(""C"", ""N"")"		NA
+b6sw4MdFsDPJtxcQw	BCS	purple_slipper	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	58	papuča	papuča		purple_slipper	1	N		NA
+b6sw4MdFsDPJtxcQw	BCS	purple_luggage	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	59	ljubičasti kofer	ljubičasti kofer		purple_luggage	1	"c(""C"", ""N"")"		NA
+b6sw4MdFsDPJtxcQw	BCS	purple_drum	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	60	bubanj	bubanj		purple_drum	1	N		NA
+b6sw4MdFsDPJtxcQw	BCS	red_chair	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	62	stolica	stolica		red_chair	1	N		NA
+b6sw4MdFsDPJtxcQw	BCS	blue_cushion	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	63	plavi jastuk	plavi jastuk		blue_cushion	1	"c(""C"", ""N"")"		NA
+b6sw4MdFsDPJtxcQw	BCS	blue_mask	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	67	plava maska	plava maska		blue_mask	1	"c(""C"", ""N"")"		NA
+b6sw4MdFsDPJtxcQw	BCS	green_fork	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	68	zelena viljuška	zelena viljuška		green_fork	1	"c(""C"", ""N"")"		NA
+b6sw4MdFsDPJtxcQw	BCS	purple_lock	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	71	ljubičasti katanac	ljubičasti katanac		purple_lock	1	"c(""C"", ""N"")"		NA
+hghWyizrJ7piWqFz3	BCS	blue_crown	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	1	kruna	kruna		blue_crown	1	N		NA
+hghWyizrJ7piWqFz3	BCS	purple_ribbon	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	4	mašna	mašna		purple_ribbon	1	N		NA
+hghWyizrJ7piWqFz3	BCS	white_door	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	5	vrata	vrata		white_door	1	N		NA
+hghWyizrJ7piWqFz3	BCS	orange_slipper	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	7	papuča	papuča		orange_slipper	1	N		NA
+hghWyizrJ7piWqFz3	BCS	white_comb	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	10	češalj	češalj		white_comb	1	N		NA
+hghWyizrJ7piWqFz3	BCS	green_necklace	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	11	ogrlica	ogrlica		green_necklace	1	N		NA
+hghWyizrJ7piWqFz3	BCS	black_fork	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	12	crna viljuška	crna viljuška		black_fork	1	"c(""C"", ""N"")"		NA
+hghWyizrJ7piWqFz3	BCS	black_hammer	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	16	crni čekić	crni čekić		black_hammer	1	"c(""C"", ""N"")"		NA
+hghWyizrJ7piWqFz3	BCS	yellow_phone	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	17	žuti telefon	žuti telefon		yellow_phone	1	"c(""C"", ""N"")"		NA
+hghWyizrJ7piWqFz3	BCS	yellow_mask	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	18	maska	maska		yellow_mask	1	N		NA
+hghWyizrJ7piWqFz3	BCS	blue_mug	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	19	šolja	šolja		blue_mug	1	N		NA
+hghWyizrJ7piWqFz3	BCS	white_guitar	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	20	gitara	gitara		white_guitar	1	N		NA
+hghWyizrJ7piWqFz3	BCS	orange_sock	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	22	narandzaste čarape	narandzaste čarape		orange_sock	1	"c(""C"", """")"		NA
+hghWyizrJ7piWqFz3	BCS	purple_glove	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	23	ljubičasta rukavica	ljubičasta rukavica		purple_glove	1	"c(""C"", ""N"")"		NA
+hghWyizrJ7piWqFz3	BCS	white_wallet	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	25	novčanik	novčanik		white_wallet	1	N		NA
+hghWyizrJ7piWqFz3	BCS	orange_truck	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	26	naradzasti kamion	naradzasti kamion		orange_truck	1	"c("""", ""N"")"		NA
+hghWyizrJ7piWqFz3	BCS	yellow_pencil	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	27	žuta olovka	žuta olovka		yellow_pencil	1	"c(""C"", ""N"")"		NA
+hghWyizrJ7piWqFz3	BCS	green_shell	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	29	zelena školjka	zelena školjka		green_shell	1	"c(""C"", ""N"")"		NA
+hghWyizrJ7piWqFz3	BCS	blue_iron	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	30	plava pegla	plava pegla		blue_iron	1	"c(""C"", ""N"")"		NA
+hghWyizrJ7piWqFz3	BCS	blue_cushion	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	31	jastuk	jastuk		blue_cushion	1	N		NA
+hghWyizrJ7piWqFz3	BCS	orange_tie	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	33	narandzasta kravata	narandzasta kravata		orange_tie	1	"c(""C"", ""N"")"		NA
+hghWyizrJ7piWqFz3	BCS	black_bowl	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	34	crna činija	crna činija		black_bowl	1	"c(""C"", ""N"")"		NA
+hghWyizrJ7piWqFz3	BCS	white_ring	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	35	prsten	prsten		white_ring	1	N		NA
+hghWyizrJ7piWqFz3	BCS	white_bed	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	36	krevet	krevet		white_bed	1	N		NA
+hghWyizrJ7piWqFz3	BCS	green_basket	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	38	korpa	korpa		green_basket	1	N		NA
+hghWyizrJ7piWqFz3	BCS	white_candle	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	39	bela sveća	bela sveća		white_candle	1	"c(""C"", ""N"")"		NA
+hghWyizrJ7piWqFz3	BCS	yellow_butterfly	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	40	žuti leptir	žuti leptir		yellow_butterfly	1	"c(""C"", ""N"")"		NA
+hghWyizrJ7piWqFz3	BCS	green_fish	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	41	riba	riba		green_fish	1	N		NA
+hghWyizrJ7piWqFz3	BCS	green_helicopter	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	42	helikopter	helikopter		green_helicopter	1	N		NA
+hghWyizrJ7piWqFz3	BCS	purple_die	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	43	kockica	kockica		purple_die	1			NA
+hghWyizrJ7piWqFz3	BCS	green_robot	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	44	robot	robot		green_robot	1	N		NA
+hghWyizrJ7piWqFz3	BCS	white_dress	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	45	haljina	haljina		white_dress	1	N		NA
+hghWyizrJ7piWqFz3	BCS	orange_microscope	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	46	mikroskop	mikroskop		orange_microscope	1	N		NA
+hghWyizrJ7piWqFz3	BCS	yellow_calculator	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	47	žuti digitron	žuti digitron		yellow_calculator	1	"c(""C"", ""N"")"		NA
+hghWyizrJ7piWqFz3	BCS	purple_calendar	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	50	ljubičasti kalendar	ljubičasti kalendar		purple_calendar	1	"c(""C"", ""N"")"		NA
+hghWyizrJ7piWqFz3	BCS	red_flower	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	52	cvet	cvet		red_flower	1	N		NA
+hghWyizrJ7piWqFz3	BCS	purple_luggage	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	53	ljubičasti kofer	ljubičasti kofer		purple_luggage	1	"c(""C"", ""N"")"		NA
+hghWyizrJ7piWqFz3	BCS	blue_scarf	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	54	plavi šal	plavi šal		blue_scarf	1	"c(""C"", ""N"")"		NA
+hghWyizrJ7piWqFz3	BCS	green_drum	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	56	bubanj	bubanj		green_drum	1	N		NA
+hghWyizrJ7piWqFz3	BCS	purple_screwdriver	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	57	ljubičasti šrafciger	ljubičasti šrafciger		purple_screwdriver	1	"c(""C"", ""N"")"		NA
+hghWyizrJ7piWqFz3	BCS	purple_binoculars	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	58	dvogled	dvogled		purple_binoculars	1	N		NA
+hghWyizrJ7piWqFz3	BCS	blue_belt	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	59	plavi kaiš	plavi kaiš		blue_belt	1	"c(""C"", ""N"")"		NA
+hghWyizrJ7piWqFz3	BCS	yellow_balloon	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	60	žuti balon	žuti balon		yellow_balloon	1	"c(""C"", ""N"")"		NA
+hghWyizrJ7piWqFz3	BCS	orange_knife	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	61	nož	nož		orange_knife	1	N		NA
+hghWyizrJ7piWqFz3	BCS	white_chair	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	64	bela stolica	bela stolica		white_chair	1	"c(""C"", ""N"")"		NA
+hghWyizrJ7piWqFz3	BCS	yellow_fence	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	66	žuta ograda	žuta ograda		yellow_fence	1	"c(""C"", ""N"")"		NA
+hghWyizrJ7piWqFz3	BCS	white_book	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	69	bela knjiga	bela knjiga		white_book	1	"c(""C"", ""N"")"		NA
+XD2Te98yvEZP9RMfp	BCS	red_fence	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	1	crvena ograda	crvena ograda		red_fence	1	"c(""C"", ""N"")"		NA
+XD2Te98yvEZP9RMfp	BCS	black_truck	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	2	crni kamion	crni kamion		black_truck	1	"c(""C"", ""N"")"		NA
+XD2Te98yvEZP9RMfp	BCS	black_knife	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	3	noz	noz		black_knife	1	N		NA
+XD2Te98yvEZP9RMfp	BCS	red_mask	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	5	maska	maska		red_mask	1	N		NA
+XD2Te98yvEZP9RMfp	BCS	black_hammer	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	9	crni cekic	crni cekic		black_hammer	1	"c(""C"", ""N"")"		NA
+XD2Te98yvEZP9RMfp	BCS	orange_robot	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	12	robot	robot		orange_robot	1	N		NA
+XD2Te98yvEZP9RMfp	BCS	purple_fish	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	13	ljubicasta riba	ljubicasta riba		purple_fish	1	"c(""C"", ""N"")"		NA
+XD2Te98yvEZP9RMfp	BCS	black_bowl	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	15	zdjela	zdjela		black_bowl	1	N		NA
+XD2Te98yvEZP9RMfp	BCS	orange_glove	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	16	rukavica	rukavica		orange_glove	1	N		NA
+XD2Te98yvEZP9RMfp	BCS	yellow_flower	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	18	cvijet	cvijet		yellow_flower	1	N		NA
+XD2Te98yvEZP9RMfp	BCS	white_iron	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	19	bijela pegla	bijela pegla		white_iron	1	"c(""C"", ""N"")"		NA
+XD2Te98yvEZP9RMfp	BCS	white_chair	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	20	bijela stolica	bijela stolica		white_chair	1	"c(""C"", ""N"")"		NA
+XD2Te98yvEZP9RMfp	BCS	orange_slipper	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	21	narancasta papuca	narancasta papuca		orange_slipper	1	"c(""C"", ""N"")"		NA
+XD2Te98yvEZP9RMfp	BCS	green_ribbon	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	22	zelena msna__masna	zelena msna		green_ribbon	1	"c(""C"", """")"		NA
+XD2Te98yvEZP9RMfp	BCS	yellow_ring	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	23	prsten	prsten		yellow_ring	1	N		NA
+XD2Te98yvEZP9RMfp	BCS	blue_phone	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	24	plavi telefon	plavi telefon		blue_phone	1	"c(""C"", ""N"")"		NA
+XD2Te98yvEZP9RMfp	BCS	red_scarf	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	27	crveni sal	crveni sal		red_scarf	1	"c(""C"", ""N"")"		NA
+XD2Te98yvEZP9RMfp	BCS	blue_pencil	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	28	plava olovka	plava olovka		blue_pencil	1	"c(""C"", ""N"")"		NA
+XD2Te98yvEZP9RMfp	BCS	red_guitar	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	29	gitaricaaa	gitaricaaa		red_guitar	1			NA
+XD2Te98yvEZP9RMfp	BCS	purple_fork	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	30	vilica	vilica		purple_fork	1	N		NA
+XD2Te98yvEZP9RMfp	BCS	red_wallet	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	31	novcanik	novcanik		red_wallet	1	N		NA
+XD2Te98yvEZP9RMfp	BCS	blue_balloon	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	34	plavi balon	plavi balon		blue_balloon	1	"c(""C"", ""N"")"		NA
+XD2Te98yvEZP9RMfp	BCS	blue_comb	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	35	cesalj	cesalj		blue_comb	1	N		NA
+XD2Te98yvEZP9RMfp	BCS	black_drum	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	36	bubanj	bubanj		black_drum	1	N		NA
+XD2Te98yvEZP9RMfp	BCS	orange_necklace	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	37	narancasta ogrlica	narancasta ogrlica		orange_necklace	1	"c(""C"", ""N"")"		NA
+XD2Te98yvEZP9RMfp	BCS	purple_lock	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	39	ljubicasti lokot	ljubicasti lokot		purple_lock	1	"c(""C"", ""N"")"		NA
+XD2Te98yvEZP9RMfp	BCS	orange_sock	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	40	carapa	carapa		orange_sock	1	N		NA
+XD2Te98yvEZP9RMfp	BCS	yellow_candle	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	41	zuta svijeca	zuta svijeca		yellow_candle	1	"c(""C"", ""N"")"		NA
+XD2Te98yvEZP9RMfp	BCS	black_shell	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	45	skoljkica	skoljkica		black_shell	1			NA
+XD2Te98yvEZP9RMfp	BCS	green_helicopter	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	46	helic	helic		green_helicopter	1			NA
+XD2Te98yvEZP9RMfp	BCS	red_belt	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	47	crveni remen	crveni remen		red_belt	1	"c(""C"", """")"		NA
+XD2Te98yvEZP9RMfp	BCS	black_binoculars	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	48	dalekozor	dalekozor		black_binoculars	1	N		NA
+XD2Te98yvEZP9RMfp	BCS	white_book	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	49	bjela knjiga	bjela knjiga		white_book	1	"c("""", ""N"")"		NA
+XD2Te98yvEZP9RMfp	BCS	purple_luggage	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	50	ljubicasti kovceg	ljubicasti kovceg		purple_luggage	1	"c(""C"", """")"		NA
+XD2Te98yvEZP9RMfp	BCS	orange_microscope	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	52	mikroskop	mikroskop		orange_microscope	1	N		NA
+XD2Te98yvEZP9RMfp	BCS	red_door	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	53	vrata	vrata		red_door	1	N		NA
+XD2Te98yvEZP9RMfp	BCS	orange_basket	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	54	narancasta kosara	narancasta kosara		orange_basket	1	"c(""C"", ""N"")"		NA
+XD2Te98yvEZP9RMfp	BCS	red_bed	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	55	krevet	krevet		red_bed	1	N		NA
+XD2Te98yvEZP9RMfp	BCS	red_calculator	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	56	crveni kalkurator	crveni kalkurator		red_calculator	1	"c(""C"", """")"		NA
+XD2Te98yvEZP9RMfp	BCS	black_die	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	57	crna kocka	crna kocka		black_die	1	"c(""C"", ""N"")"		NA
+XD2Te98yvEZP9RMfp	BCS	yellow_butterfly	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	58	zuti leptir	zuti leptir		yellow_butterfly	1	"c(""C"", ""N"")"		NA
+XD2Te98yvEZP9RMfp	BCS	yellow_dress	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	62	haljina	haljina		yellow_dress	1	N		NA
+XD2Te98yvEZP9RMfp	BCS	yellow_cushion	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	64	jastuk	jastuk		yellow_cushion	1	N		NA
+XD2Te98yvEZP9RMfp	BCS	red_crown	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	65	kruna	kruna		red_crown	1	N		NA
+XD2Te98yvEZP9RMfp	BCS	green_tie	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	66	kravata	kravata		green_tie	1	N		NA
+XD2Te98yvEZP9RMfp	BCS	purple_screwdriver	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	67	ljubicasti sarafciger	ljubicasti sarafciger		purple_screwdriver	1	"c(""C"", """")"		NA
+XD2Te98yvEZP9RMfp	BCS	yellow_mug	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	70	salica	salica		yellow_mug	1	N		NA
+XD2Te98yvEZP9RMfp	BCS	purple_calendar	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	72	ljubicasti kalendar	ljubicasti kalendar		purple_calendar	1	"c(""C"", ""N"")"		NA
+wmtpy4FMiWrdgopzB	BCS	white_mug	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	1	bela solja	bela solja		white_mug	1	"c(""C"", ""N"")"		NA
+wmtpy4FMiWrdgopzB	BCS	orange_truck	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	2	narandzasti kamion	narandzasti kamion		orange_truck	1	"c(""C"", ""N"")"		NA
+wmtpy4FMiWrdgopzB	BCS	red_chair	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	3	crvena stolica	crvena stolica		red_chair	1	"c(""C"", ""N"")"		NA
+wmtpy4FMiWrdgopzB	BCS	blue_ring	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	4	plavi prsten	plavi prsten		blue_ring	1	"c(""C"", ""N"")"		NA
+wmtpy4FMiWrdgopzB	BCS	black_calendar	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	5	crni kalendar	crni kalendar		black_calendar	1	"c(""C"", ""N"")"		NA
+wmtpy4FMiWrdgopzB	BCS	blue_fence	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	7	plava ograda	plava ograda		blue_fence	1	"c(""C"", ""N"")"		NA
+wmtpy4FMiWrdgopzB	BCS	white_bed	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	8	beli krevet	beli krevet		white_bed	1	"c(""C"", ""N"")"		NA
+wmtpy4FMiWrdgopzB	BCS	red_wallet	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	10	crveni novcanik	crveni novcanik		red_wallet	1	"c(""C"", ""N"")"		NA
+wmtpy4FMiWrdgopzB	BCS	orange_shell	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	11	narandzasta skoljka	narandzasta skoljka		orange_shell	1	"c(""C"", ""N"")"		NA
+wmtpy4FMiWrdgopzB	BCS	black_basket	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	12	crna korpa	crna korpa		black_basket	1	"c(""C"", ""N"")"		NA
+wmtpy4FMiWrdgopzB	BCS	orange_ribbon	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	13	narandzasta masna	narandzasta masna		orange_ribbon	1	"c(""C"", ""N"")"		NA
+wmtpy4FMiWrdgopzB	BCS	white_pencil	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	14	bela olovka	bela olovka		white_pencil	1	"c(""C"", ""N"")"		NA
+wmtpy4FMiWrdgopzB	BCS	green_fish	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	15	zelena riba	zelena riba		green_fish	1	"c(""C"", ""N"")"		NA
+wmtpy4FMiWrdgopzB	BCS	black_hammer	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	16	crni cekic	crni cekic		black_hammer	1	"c(""C"", ""N"")"		NA
+wmtpy4FMiWrdgopzB	BCS	white_book	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	18	bela knjiga	bela knjiga		white_book	1	"c(""C"", ""N"")"		NA
+wmtpy4FMiWrdgopzB	BCS	white_door	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	19	bela vrata	bela vrata		white_door	1	"c(""C"", ""N"")"		NA
+wmtpy4FMiWrdgopzB	BCS	purple_die	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	20	ljubicasta kockica	ljubicasta kockica		purple_die	1	"c(""C"", """")"		NA
+wmtpy4FMiWrdgopzB	BCS	red_comb	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	21	crveni cesalj	crveni cesalj		red_comb	1	"c(""C"", ""N"")"		NA
+wmtpy4FMiWrdgopzB	BCS	blue_crown	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	22	plava kruna	plava kruna		blue_crown	1	"c(""C"", ""N"")"		NA
+wmtpy4FMiWrdgopzB	BCS	black_binoculars	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	24	crni dvogled	crni dvogled		black_binoculars	1	"c(""C"", ""N"")"		NA
+wmtpy4FMiWrdgopzB	BCS	red_calculator	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	25	crveni digitron	crveni digitron		red_calculator	1	"c(""C"", ""N"")"		NA
+wmtpy4FMiWrdgopzB	BCS	white_belt	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	26	beli kais	beli kais		white_belt	1	"c(""C"", ""N"")"		NA
+wmtpy4FMiWrdgopzB	BCS	green_helicopter	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	27	zeleni helikopter	zeleni helikopter		green_helicopter	1	"c(""C"", ""N"")"		NA
+wmtpy4FMiWrdgopzB	BCS	orange_microscope	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	29	narandzasti mikroskop	narandzasti mikroskop		orange_microscope	1	"c(""C"", ""N"")"		NA
+wmtpy4FMiWrdgopzB	BCS	yellow_scarf	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	30	zuti sal	zuti sal		yellow_scarf	1	"c(""C"", ""N"")"		NA
+wmtpy4FMiWrdgopzB	BCS	white_cushion	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	35	beli jastuk	beli jastuk		white_cushion	1	"c(""C"", ""N"")"		NA
+wmtpy4FMiWrdgopzB	BCS	orange_robot	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	37	narandzasti robot	narandzasti robot		orange_robot	1	"c(""C"", ""N"")"		NA
+wmtpy4FMiWrdgopzB	BCS	blue_dress	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	39	plava haljina	plava haljina		blue_dress	1	"c(""C"", ""N"")"		NA
+wmtpy4FMiWrdgopzB	BCS	orange_glove	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	43	narandasta rukavica	narandasta rukavica		orange_glove	1	"c("""", ""N"")"		NA
+wmtpy4FMiWrdgopzB	BCS	white_butterfly	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	45	beli leptir	beli leptir		white_butterfly	1	"c(""C"", ""N"")"		NA
+wmtpy4FMiWrdgopzB	BCS	orange_bowl	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	46	narandzasta cinija	narandzasta cinija		orange_bowl	1	"c(""C"", ""N"")"		NA
+wmtpy4FMiWrdgopzB	BCS	blue_candle	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	48	plava sveca	plava sveca		blue_candle	1	"c(""C"", ""N"")"		NA
+wmtpy4FMiWrdgopzB	BCS	black_knife	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	49	crni noz	crni noz		black_knife	1	"c(""C"", ""N"")"		NA
+wmtpy4FMiWrdgopzB	BCS	green_drum	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	50	zeleni bubanj	zeleni bubanj		green_drum	1	"c(""C"", ""N"")"		NA
+wmtpy4FMiWrdgopzB	BCS	black_luggage	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	51	crni kofer	crni kofer		black_luggage	1	"c(""C"", ""N"")"		NA
+wmtpy4FMiWrdgopzB	BCS	yellow_iron	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	52	zuta pegla	zuta pegla		yellow_iron	1	"c(""C"", ""N"")"		NA
+wmtpy4FMiWrdgopzB	BCS	black_screwdriver	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	53	crni srafciger	crni srafciger		black_screwdriver	1	"c(""C"", ""N"")"		NA
+wmtpy4FMiWrdgopzB	BCS	yellow_flower	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	55	zuti cvet	zuti cvet		yellow_flower	1	"c(""C"", ""N"")"		NA
+wmtpy4FMiWrdgopzB	BCS	orange_tie	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	56	narandzasta kravata	narandzasta kravata		orange_tie	1	"c(""C"", ""N"")"		NA
+wmtpy4FMiWrdgopzB	BCS	black_slipper	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	57	crna papuca	crna papuca		black_slipper	1	"c(""C"", ""N"")"		NA
+wmtpy4FMiWrdgopzB	BCS	red_guitar	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	63	crvena gitara	crvena gitara		red_guitar	1	"c(""C"", ""N"")"		NA
+wmtpy4FMiWrdgopzB	BCS	white_balloon	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	64	balon, beli	balon, beli		white_balloon	1	"c("""", ""C"")"		NA
+wmtpy4FMiWrdgopzB	BCS	blue_mask	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	65	plava maska	plava maska		blue_mask	1	"c(""C"", ""N"")"		NA
+wmtpy4FMiWrdgopzB	BCS	green_necklace	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	68	zelena ogrlica	zelena ogrlica		green_necklace	1	"c(""C"", ""N"")"		NA
+wmtpy4FMiWrdgopzB	BCS	yellow_phone	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	69	zuti telefon	zuti telefon		yellow_phone	1	"c(""C"", ""N"")"		NA
+wmtpy4FMiWrdgopzB	BCS	green_sock	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	70	zelena carapa	zelena carapa		green_sock	1	"c(""C"", ""N"")"		NA
+xffTXXhP6shvnQpbM	BCS	yellow_cushion	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	2	jastuk	jastuk	bržeeeee	yellow_cushion	1	N		NA
+xffTXXhP6shvnQpbM	BCS	green_screwdriver	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	3	odvijac	odvijac		green_screwdriver	1	N		NA
+xffTXXhP6shvnQpbM	BCS	red_crown	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	5	kruna	kruna		red_crown	1	N		NA
+xffTXXhP6shvnQpbM	BCS	white_fence	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	6	ograda__bijela	ograda	koje boje	white_fence	1	N		NA
+xffTXXhP6shvnQpbM	BCS	orange_basket	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	7	korpa narandasta	korpa narandasta		orange_basket	1	"c(""N"", """")"		NA
+xffTXXhP6shvnQpbM	BCS	blue_mug	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	9	solja	solja		blue_mug	1	N		NA
+xffTXXhP6shvnQpbM	BCS	orange_shell	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	12	skoljka	skoljka		orange_shell	1	N		NA
+xffTXXhP6shvnQpbM	BCS	black_tie	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	13	kravata	kravata		black_tie	1	N		NA
+xffTXXhP6shvnQpbM	BCS	black_fork	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	14	vilic	vilic		black_fork	1			NA
+xffTXXhP6shvnQpbM	BCS	green_helicopter	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	18	zeleni helik	zeleni helik		green_helicopter	1	"c(""C"", """")"		NA
+xffTXXhP6shvnQpbM	BCS	white_guitar	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	19	git	git		white_guitar	1			NA
+xffTXXhP6shvnQpbM	BCS	white_mask	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	20	maska	maska		white_mask	1	N		NA
+xffTXXhP6shvnQpbM	BCS	white_dress	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	21	haljina	haljina		white_dress	1	N		NA
+xffTXXhP6shvnQpbM	BCS	white_scarf	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	23	b sal	b sal		white_scarf	1	"c("""", ""N"")"		NA
+xffTXXhP6shvnQpbM	BCS	white_wallet	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	24	novcanik	novcanik		white_wallet	1	N		NA
+xffTXXhP6shvnQpbM	BCS	red_balloon	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	25	c balon	c balon		red_balloon	1	"c("""", ""N"")"		NA
+xffTXXhP6shvnQpbM	BCS	red_chair	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	27	c stolica	c stolica		red_chair	1	"c("""", ""N"")"		NA
+xffTXXhP6shvnQpbM	BCS	blue_comb	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	31	česalj	česalj		blue_comb	1			NA
+xffTXXhP6shvnQpbM	BCS	green_drum	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	32	z bubanj	z bubanj		green_drum	1	"c("""", ""N"")"		NA
+xffTXXhP6shvnQpbM	BCS	blue_flower	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	34	cvijet	cvijet		blue_flower	1	N		NA
+xffTXXhP6shvnQpbM	BCS	white_book	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	36	rokovnik bij	rokovnik bij		white_book	1	"c("""", """")"		NA
+xffTXXhP6shvnQpbM	BCS	orange_fish	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	37	nar.riba	nar.riba		orange_fish	1			NA
+xffTXXhP6shvnQpbM	BCS	orange_sock	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	38	carapa	carapa		orange_sock	1	N		NA
+xffTXXhP6shvnQpbM	BCS	orange_binoculars	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	39	nar dvogled	nar dvogled		orange_binoculars	1	"c("""", ""N"")"		NA
+xffTXXhP6shvnQpbM	BCS	orange_robot	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	42	nar robot	nar robot		orange_robot	1	"c("""", ""N"")"		NA
+xffTXXhP6shvnQpbM	BCS	blue_calculator	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	45	plavi digitron	plavi digitron		blue_calculator	1	"c(""C"", ""N"")"		NA
+xffTXXhP6shvnQpbM	BCS	orange_glove	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	46	rukavica	rukavica		orange_glove	1	N		NA
+xffTXXhP6shvnQpbM	BCS	blue_candle	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	47	svijeca__plava	svijeca	boja	blue_candle	1	N		NA
+xffTXXhP6shvnQpbM	BCS	orange_hammer	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	49	čekić	čekić		orange_hammer	1	N		NA
+xffTXXhP6shvnQpbM	BCS	green_truck	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	51	kamin__kamion	kamin	nemam kamin	green_truck	1			NA
+xffTXXhP6shvnQpbM	BCS	purple_calendar	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	52	kalendar	kalendar		purple_calendar	1	N		NA
+xffTXXhP6shvnQpbM	BCS	green_luggage	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	53	kofer	kofer		green_luggage	1	N		NA
+xffTXXhP6shvnQpbM	BCS	white_pencil	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	54	bijela olovka	bijela olovka		white_pencil	1	"c(""C"", ""N"")"		NA
+xffTXXhP6shvnQpbM	BCS	orange_microscope	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	55	mikroskop nar	mikroskop nar		orange_microscope	1	"c(""N"", """")"		NA
+xffTXXhP6shvnQpbM	BCS	green_ribbon	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	56	z mašna	z mašna		green_ribbon	1	"c("""", ""N"")"		NA
+xffTXXhP6shvnQpbM	BCS	white_iron	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	57	b pegla	b pegla		white_iron	1	"c("""", ""N"")"		NA
+xffTXXhP6shvnQpbM	BCS	orange_necklace	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	59	n ogrlica	n ogrlica		orange_necklace	1	"c("""", ""N"")"		NA
+xffTXXhP6shvnQpbM	BCS	blue_door	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	61	vrata	vrata		blue_door	1	N		NA
+xffTXXhP6shvnQpbM	BCS	yellow_butterfly	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	62	ž leptir	ž leptir		yellow_butterfly	1	"c("""", ""N"")"		NA
+xffTXXhP6shvnQpbM	BCS	white_belt	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	63	b kaiš	b kaiš		white_belt	1	"c("""", ""N"")"		NA
+xffTXXhP6shvnQpbM	BCS	black_knife	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	64	c nož	c nož		black_knife	1	"c("""", ""N"")"		NA
+xffTXXhP6shvnQpbM	BCS	purple_bowl	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	66	zdjela	zdjela		purple_bowl	1	N		NA
+xffTXXhP6shvnQpbM	BCS	purple_slipper	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	67	lj papuca	lj papuca		purple_slipper	1	"c("""", ""N"")"		NA
+xffTXXhP6shvnQpbM	BCS	green_die	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	68	z kocka	z kocka		green_die	1	"c("""", ""N"")"		NA
+xffTXXhP6shvnQpbM	BCS	red_ring	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	69	prsten	prsten		red_ring	1	N		NA
+xffTXXhP6shvnQpbM	BCS	white_phone	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	70	b telefon	b telefon		white_phone	1	"c("""", ""N"")"		NA
+xffTXXhP6shvnQpbM	BCS	blue_bed	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	71	krevet	krevet		blue_bed	1	N		NA
+6uh3xxJqDmNA7ZY4Z	BCS	black_ribbon	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	1	hello__masnaaa :d__da	hello	hi__crna?	black_ribbon	1			NA
+6uh3xxJqDmNA7ZY4Z	BCS	blue_candle	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	2	plava svijeca__wohooo hahahah	plava svijeca	yay	blue_candle	1	"c(""C"", ""N"")"		NA
+6uh3xxJqDmNA7ZY4Z	BCS	black_sock	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	4	crna carapa__brzeee	crna carapa	easy	black_sock	1	"c(""C"", ""N"")"		NA
+6uh3xxJqDmNA7ZY4Z	BCS	green_calendar	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	8	kalendar zeleni	kalendar zeleni		green_calendar	1	"c(""N"", ""C"")"		NA
+6uh3xxJqDmNA7ZY4Z	BCS	blue_book	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	9	plava bilja	plava bilja		blue_book	1	"c(""C"", """")"		NA
+6uh3xxJqDmNA7ZY4Z	BCS	green_truck	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	10	zeleni kamion	zeleni kamion		green_truck	1	"c(""C"", ""N"")"		NA
+6uh3xxJqDmNA7ZY4Z	BCS	black_luggage	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	11	crni kofer	crni kofer		black_luggage	1	"c(""C"", ""N"")"		NA
+6uh3xxJqDmNA7ZY4Z	BCS	red_ring	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	14	prsten	prsten		red_ring	1	N		NA
+6uh3xxJqDmNA7ZY4Z	BCS	yellow_butterfly	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	15	zuti leptir	zuti leptir		yellow_butterfly	1	"c(""C"", ""N"")"		NA
+6uh3xxJqDmNA7ZY4Z	BCS	orange_knife	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	16	naranc noz	naranc noz		orange_knife	1	"c("""", ""N"")"		NA
+6uh3xxJqDmNA7ZY4Z	BCS	blue_calculator	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	17	plavi kalk	plavi kalk		blue_calculator	1	"c(""C"", """")"		NA
+6uh3xxJqDmNA7ZY4Z	BCS	green_helicopter	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	18	helikopter	helikopter		green_helicopter	1	N		NA
+6uh3xxJqDmNA7ZY4Z	BCS	white_bed	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	19	krevet	krevet		white_bed	1	N		NA
+6uh3xxJqDmNA7ZY4Z	BCS	purple_die	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	20	dice	dice		purple_die	1			NA
+6uh3xxJqDmNA7ZY4Z	BCS	white_chair	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	21	bijela stolica	bijela stolica		white_chair	1	"c(""C"", ""N"")"		NA
+6uh3xxJqDmNA7ZY4Z	BCS	black_tie	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	23	crna kravata	crna kravata		black_tie	1	"c(""C"", ""N"")"		NA
+6uh3xxJqDmNA7ZY4Z	BCS	orange_drum	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	24	drummm	drummm		orange_drum	1			NA
+6uh3xxJqDmNA7ZY4Z	BCS	blue_crown	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	25	kruna	kruna		blue_crown	1	N		NA
+6uh3xxJqDmNA7ZY4Z	BCS	red_dress	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	28	haljinica	haljinica		red_dress	1			NA
+6uh3xxJqDmNA7ZY4Z	BCS	blue_wallet	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	29	novcanik	novcanik		blue_wallet	1	N		NA
+6uh3xxJqDmNA7ZY4Z	BCS	green_fish	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	30	riba	riba		green_fish	1	N		NA
+6uh3xxJqDmNA7ZY4Z	BCS	blue_mug	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	31	salica	salica		blue_mug	1	N		NA
+6uh3xxJqDmNA7ZY4Z	BCS	orange_shell	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	32	naranc skoljka	naranc skoljka		orange_shell	1	"c("""", ""N"")"		NA
+6uh3xxJqDmNA7ZY4Z	BCS	blue_guitar	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	34	gitara	gitara		blue_guitar	1	N		NA
+6uh3xxJqDmNA7ZY4Z	BCS	black_bowl	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	37	crni bowl	crni bowl		black_bowl	1	"c(""C"", """")"		NA
+6uh3xxJqDmNA7ZY4Z	BCS	orange_robot	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	39	robot	robot		orange_robot	1	N		NA
+6uh3xxJqDmNA7ZY4Z	BCS	blue_scarf	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	42	plavi sal	plavi sal		blue_scarf	1	"c(""C"", ""N"")"		NA
+6uh3xxJqDmNA7ZY4Z	BCS	purple_necklace	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	43	ogrlica	ogrlica		purple_necklace	1	N		NA
+6uh3xxJqDmNA7ZY4Z	BCS	red_pencil	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	44	olobka crvena	olobka crvena		red_pencil	1	"c("""", ""C"")"		NA
+6uh3xxJqDmNA7ZY4Z	BCS	blue_comb	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	45	cesalj	cesalj		blue_comb	1	N		NA
+6uh3xxJqDmNA7ZY4Z	BCS	blue_fence	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	47	plava ograda	plava ograda		blue_fence	1	"c(""C"", ""N"")"		NA
+6uh3xxJqDmNA7ZY4Z	BCS	black_microscope	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	48	mikroskop	mikroskop		black_microscope	1	N		NA
+6uh3xxJqDmNA7ZY4Z	BCS	purple_binoculars	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	50	dalekozor	dalekozor		purple_binoculars	1	N		NA
+6uh3xxJqDmNA7ZY4Z	BCS	purple_glove	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	51	ljub rukavice	ljub rukavice		purple_glove	1	"c("""", """")"		NA
+6uh3xxJqDmNA7ZY4Z	BCS	purple_hammer	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	52	ljub cekic	ljub cekic		purple_hammer	1	"c("""", ""N"")"		NA
+6uh3xxJqDmNA7ZY4Z	BCS	blue_flower	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	53	cvijet	cvijet		blue_flower	1	N		NA
+6uh3xxJqDmNA7ZY4Z	BCS	yellow_door	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	57	vrata	vrata		yellow_door	1	N		NA
+6uh3xxJqDmNA7ZY4Z	BCS	white_mask	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	58	maska	maska		white_mask	1	N		NA
+6uh3xxJqDmNA7ZY4Z	BCS	yellow_phone	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	60	zuti tel	zuti tel		yellow_phone	1	"c(""C"", """")"		NA
+6uh3xxJqDmNA7ZY4Z	BCS	blue_belt	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	61	plavi kais	plavi kais		blue_belt	1	"c(""C"", ""N"")"		NA
+6uh3xxJqDmNA7ZY4Z	BCS	red_balloon	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	62	crveni balon	crveni balon		red_balloon	1	"c(""C"", ""N"")"		NA
+6uh3xxJqDmNA7ZY4Z	BCS	yellow_iron	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	64	zuta pegla	zuta pegla		yellow_iron	1	"c(""C"", ""N"")"		NA
+6uh3xxJqDmNA7ZY4Z	BCS	purple_lock	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	65	ljub lokot	ljub lokot		purple_lock	1	"c("""", ""N"")"		NA
+6uh3xxJqDmNA7ZY4Z	BCS	black_screwdriver	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	66	crni safarziger	crni safarziger		black_screwdriver	1	"c(""C"", """")"		NA
+6uh3xxJqDmNA7ZY4Z	BCS	blue_cushion	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	67	kusin__jastuk	kusin		blue_cushion	1			NA
+6uh3xxJqDmNA7ZY4Z	BCS	green_basket	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	68	basket	basket		green_basket	1			NA
+6uh3xxJqDmNA7ZY4Z	BCS	orange_slipper	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	70	slapa	slapa		orange_slipper	1			NA
+KKrSEmYcrZe6MEkCe	BCS	green_luggage	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	2	kofer	kofer		green_luggage	1	N		NA
+KKrSEmYcrZe6MEkCe	BCS	purple_robot	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	3	ljubiöasti robot	ljubiöasti robot		purple_robot	1	"c("""", ""N"")"		NA
+KKrSEmYcrZe6MEkCe	BCS	green_drum	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	4	zeleni doboš	zeleni doboš		green_drum	1	"c(""C"", """")"		NA
+KKrSEmYcrZe6MEkCe	BCS	yellow_iron	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	6	pegla	pegla		yellow_iron	1	N		NA
+KKrSEmYcrZe6MEkCe	BCS	blue_butterfly	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	7	plavi leptir	plavi leptir		blue_butterfly	1	"c(""C"", ""N"")"		NA
+KKrSEmYcrZe6MEkCe	BCS	blue_mask	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	8	plava maska	plava maska		blue_mask	1	"c(""C"", ""N"")"		NA
+KKrSEmYcrZe6MEkCe	BCS	white_crown	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	9	bijela kruna	bijela kruna		white_crown	1	"c(""C"", ""N"")"		NA
+KKrSEmYcrZe6MEkCe	BCS	green_slipper	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	10	zelena papuca	zelena papuca		green_slipper	1	"c(""C"", ""N"")"		NA
+KKrSEmYcrZe6MEkCe	BCS	black_glove	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	11	crna rukavica	crna rukavica		black_glove	1	"c(""C"", ""N"")"		NA
+KKrSEmYcrZe6MEkCe	BCS	orange_tie	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	13	narandzasta kravata	narandzasta kravata		orange_tie	1	"c(""C"", ""N"")"		NA
+KKrSEmYcrZe6MEkCe	BCS	black_hammer	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	14	čekić	čekić		black_hammer	1	N		NA
+KKrSEmYcrZe6MEkCe	BCS	green_truck	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	15	kamion	kamion		green_truck	1	N		NA
+KKrSEmYcrZe6MEkCe	BCS	black_ribbon	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	16	mašna	mašna		black_ribbon	1	N		NA
+KKrSEmYcrZe6MEkCe	BCS	purple_die	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	18	kockica	kockica		purple_die	1			NA
+KKrSEmYcrZe6MEkCe	BCS	white_ring	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	19	prsten	prsten		white_ring	1	N		NA
+KKrSEmYcrZe6MEkCe	BCS	purple_knife	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	20	ljubicasti nož	ljubicasti nož		purple_knife	1	"c(""C"", ""N"")"		NA
+KKrSEmYcrZe6MEkCe	BCS	white_cushion	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	23	jastuk	jastuk		white_cushion	1	N		NA
+KKrSEmYcrZe6MEkCe	BCS	blue_dress	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	24	plava haljina	plava haljina		blue_dress	1	"c(""C"", ""N"")"		NA
+KKrSEmYcrZe6MEkCe	BCS	white_belt	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	27	bijeli kais	bijeli kais		white_belt	1	"c(""C"", ""N"")"		NA
+KKrSEmYcrZe6MEkCe	BCS	white_mug	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	28	bijela šolja	bijela šolja		white_mug	1	"c(""C"", ""N"")"		NA
+KKrSEmYcrZe6MEkCe	BCS	purple_binoculars	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	29	ljubičasti dvogled	ljubičasti dvogled		purple_binoculars	1	"c(""C"", ""N"")"		NA
+KKrSEmYcrZe6MEkCe	BCS	red_fence	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	32	ograda	ograda		red_fence	1	N		NA
+KKrSEmYcrZe6MEkCe	BCS	orange_microscope	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	33	narandzasti mikroskop	narandzasti mikroskop		orange_microscope	1	"c(""C"", ""N"")"		NA
+KKrSEmYcrZe6MEkCe	BCS	black_sock	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	34	crna čarapa	crna čarapa		black_sock	1	"c(""C"", ""N"")"		NA
+KKrSEmYcrZe6MEkCe	BCS	red_book	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	37	notes	notes		red_book	1			NA
+KKrSEmYcrZe6MEkCe	BCS	yellow_door	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	38	zuta vrata	zuta vrata		yellow_door	1	"c(""C"", ""N"")"		NA
+KKrSEmYcrZe6MEkCe	BCS	blue_candle	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	39	svijeća	svijeća		blue_candle	1	N		NA
+KKrSEmYcrZe6MEkCe	BCS	white_flower	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	43	cvijet	cvijet		white_flower	1	N		NA
+KKrSEmYcrZe6MEkCe	BCS	yellow_wallet	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	44	novčanik	novčanik		yellow_wallet	1	N		NA
+KKrSEmYcrZe6MEkCe	BCS	green_fork	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	45	zelena viljuška	zelena viljuška		green_fork	1	"c(""C"", ""N"")"		NA
+KKrSEmYcrZe6MEkCe	BCS	blue_bed	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	48	krevet	krevet		blue_bed	1	N		NA
+KKrSEmYcrZe6MEkCe	BCS	blue_guitar	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	50	plava gitara	plava gitara		blue_guitar	1	"c(""C"", ""N"")"		NA
+KKrSEmYcrZe6MEkCe	BCS	yellow_scarf	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	52	žuti sal	žuti sal		yellow_scarf	1	"c(""C"", ""N"")"		NA
+KKrSEmYcrZe6MEkCe	BCS	black_bowl	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	56	crna zdjelica	crna zdjelica		black_bowl	1	"c(""C"", """")"		NA
+KKrSEmYcrZe6MEkCe	BCS	purple_calendar	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	57	kalendar	kalendar		purple_calendar	1	N		NA
+KKrSEmYcrZe6MEkCe	BCS	purple_fish	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	58	riba	riba		purple_fish	1	N		NA
+KKrSEmYcrZe6MEkCe	BCS	purple_helicopter	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	59	ljubicasti helikopter	ljubicasti helikopter		purple_helicopter	1	"c(""C"", ""N"")"		NA
+KKrSEmYcrZe6MEkCe	BCS	blue_chair	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	61	stolica	stolica		blue_chair	1	N		NA
+KKrSEmYcrZe6MEkCe	BCS	black_screwdriver	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	63	šrafciger	šrafciger		black_screwdriver	1	N		NA
+KKrSEmYcrZe6MEkCe	BCS	orange_basket	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	64	korpa	korpa		orange_basket	1	N		NA
+KKrSEmYcrZe6MEkCe	BCS	orange_shell	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	65	narandzasta skoljka	narandzasta skoljka		orange_shell	1	"c(""C"", ""N"")"		NA
+KKrSEmYcrZe6MEkCe	BCS	yellow_phone	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	66	zuti telefon	zuti telefon		yellow_phone	1	"c(""C"", ""N"")"		NA
+KKrSEmYcrZe6MEkCe	BCS	yellow_balloon	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	67	zuti balon	zuti balon		yellow_balloon	1	"c(""C"", ""N"")"		NA
+KKrSEmYcrZe6MEkCe	BCS	blue_calculator	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	68	plavi kalkulator	plavi kalkulator		blue_calculator	1	"c(""C"", ""N"")"		NA
+KKrSEmYcrZe6MEkCe	BCS	white_pencil	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	69	olovka	olovka		white_pencil	1	N		NA
+KKrSEmYcrZe6MEkCe	BCS	white_comb	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	70	cešalj	cešalj		white_comb	1			NA
+KKrSEmYcrZe6MEkCe	BCS	black_lock	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	71	lokot	lokot		black_lock	1	N		NA
+NDpnXKCpJJxDH6r3H	BCS	yellow_cushion	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	1	oznaci jastuk	oznaci jastuk		yellow_cushion	1	"c("""", ""N"")"		NA
+NDpnXKCpJJxDH6r3H	BCS	orange_bowl	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	5	zdjela	zdjela		orange_bowl	1	N		NA
+NDpnXKCpJJxDH6r3H	BCS	black_knife	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	6	crni noz	crni noz		black_knife	1	"c(""C"", ""N"")"		NA
+NDpnXKCpJJxDH6r3H	BCS	purple_basket	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	7	ljubicasta kosara	ljubicasta kosara		purple_basket	1	"c(""C"", ""N"")"		NA
+NDpnXKCpJJxDH6r3H	BCS	purple_necklace	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	8	ljubicasta ogrlica	ljubicasta ogrlica		purple_necklace	1	"c(""C"", ""N"")"		NA
+NDpnXKCpJJxDH6r3H	BCS	purple_die	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	9	ljubicasta kocka	ljubicasta kocka		purple_die	1	"c(""C"", ""N"")"		NA
+NDpnXKCpJJxDH6r3H	BCS	yellow_ring	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	11	prsten	prsten		yellow_ring	1	N		NA
+NDpnXKCpJJxDH6r3H	BCS	blue_pencil	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	12	plava olovka	plava olovka		blue_pencil	1	"c(""C"", ""N"")"		NA
+NDpnXKCpJJxDH6r3H	BCS	yellow_fence	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	14	zuta ograda	zuta ograda		yellow_fence	1	"c(""C"", ""N"")"		NA
+NDpnXKCpJJxDH6r3H	BCS	orange_sock	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	15	narancasta carapa	narancasta carapa		orange_sock	1	"c(""C"", ""N"")"		NA
+NDpnXKCpJJxDH6r3H	BCS	blue_scarf	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	17	plavi sal	plavi sal		blue_scarf	1	"c(""C"", ""N"")"		NA
+NDpnXKCpJJxDH6r3H	BCS	white_mug	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	21	salicaa	salicaa		white_mug	1			NA
+NDpnXKCpJJxDH6r3H	BCS	white_crown	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	22	kruna	kruna		white_crown	1	N		NA
+NDpnXKCpJJxDH6r3H	BCS	green_tie	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	23	kravata	kravata		green_tie	1	N		NA
+NDpnXKCpJJxDH6r3H	BCS	orange_hammer	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	25	cekic	cekic		orange_hammer	1	N		NA
+NDpnXKCpJJxDH6r3H	BCS	red_candle	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	26	crvena ssvijeca	crvena ssvijeca		red_candle	1	"c(""C"", """")"		NA
+NDpnXKCpJJxDH6r3H	BCS	orange_fish	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	27	narancasta riba	narancasta riba		orange_fish	1	"c(""C"", ""N"")"		NA
+NDpnXKCpJJxDH6r3H	BCS	blue_chair	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	31	plava stolica	plava stolica		blue_chair	1	"c(""C"", ""N"")"		NA
+NDpnXKCpJJxDH6r3H	BCS	purple_fork	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	32	vilica	vilica		purple_fork	1	N		NA
+NDpnXKCpJJxDH6r3H	BCS	yellow_balloon	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	33	zuti balon	zuti balon		yellow_balloon	1	"c(""C"", ""N"")"		NA
+NDpnXKCpJJxDH6r3H	BCS	blue_bed	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	36	krevet	krevet		blue_bed	1	N		NA
+NDpnXKCpJJxDH6r3H	BCS	yellow_iron	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	38	zuta pegla	zuta pegla		yellow_iron	1	"c(""C"", ""N"")"		NA
+NDpnXKCpJJxDH6r3H	BCS	black_binoculars	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	39	crni dalekozor	crni dalekozor		black_binoculars	1	"c(""C"", ""N"")"		NA
+NDpnXKCpJJxDH6r3H	BCS	red_dress	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	40	haljina	haljina		red_dress	1	N		NA
+NDpnXKCpJJxDH6r3H	BCS	purple_robot	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	41	ljubicasti robot	ljubicasti robot		purple_robot	1	"c(""C"", ""N"")"		NA
+NDpnXKCpJJxDH6r3H	BCS	purple_glove	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	42	rukavica	rukavica		purple_glove	1	N		NA
+NDpnXKCpJJxDH6r3H	BCS	black_truck	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	44	kamion	kamion		black_truck	1	N		NA
+NDpnXKCpJJxDH6r3H	BCS	white_phone	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	46	bijeli telefon	bijeli telefon		white_phone	1	"c(""C"", ""N"")"		NA
+NDpnXKCpJJxDH6r3H	BCS	black_luggage	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	48	kofer	kofer		black_luggage	1	N		NA
+NDpnXKCpJJxDH6r3H	BCS	purple_screwdriver	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	49	alat	alat		purple_screwdriver	1			NA
+NDpnXKCpJJxDH6r3H	BCS	blue_butterfly	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	50	plavi leptir	plavi leptir		blue_butterfly	1	"c(""C"", ""N"")"		NA
+NDpnXKCpJJxDH6r3H	BCS	black_calendar	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	52	kalendar	kalendar		black_calendar	1	N		NA
+NDpnXKCpJJxDH6r3H	BCS	purple_slipper	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	53	ljubicasta slapa	ljubicasta slapa		purple_slipper	1	"c(""C"", """")"		NA
+NDpnXKCpJJxDH6r3H	BCS	white_guitar	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	54	gitara	gitara		white_guitar	1	N		NA
+NDpnXKCpJJxDH6r3H	BCS	black_ribbon	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	55	masna__crna	masna	koja?	black_ribbon	1	N		NA
+NDpnXKCpJJxDH6r3H	BCS	red_calculator	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	57	crveni kalkulator	crveni kalkulator		red_calculator	1	"c(""C"", ""N"")"		NA
+NDpnXKCpJJxDH6r3H	BCS	orange_drum	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	58	narancasti bubanj	narancasti bubanj		orange_drum	1	"c(""C"", ""N"")"		NA
+NDpnXKCpJJxDH6r3H	BCS	red_wallet	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	60	novcanik	novcanik		red_wallet	1	N		NA
+NDpnXKCpJJxDH6r3H	BCS	red_book	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	61	crvena knjiga	crvena knjiga		red_book	1	"c(""C"", ""N"")"		NA
+NDpnXKCpJJxDH6r3H	BCS	black_helicopter	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	63	crni helikopter	crni helikopter		black_helicopter	1	"c(""C"", ""N"")"		NA
+NDpnXKCpJJxDH6r3H	BCS	blue_flower	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	64	cvijet	cvijet		blue_flower	1	N		NA
+NDpnXKCpJJxDH6r3H	BCS	white_mask	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	65	maska	maska		white_mask	1	N		NA
+NDpnXKCpJJxDH6r3H	BCS	red_belt	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	66	crveni remen	crveni remen		red_belt	1	"c(""C"", """")"		NA
+NDpnXKCpJJxDH6r3H	BCS	red_door	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	67	vrata	vrata		red_door	1	N		NA
+NDpnXKCpJJxDH6r3H	BCS	black_microscope	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	68	crni mikroskop	crni mikroskop		black_microscope	1	"c(""C"", ""N"")"		NA
+NDpnXKCpJJxDH6r3H	BCS	orange_shell	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	70	skoljka	skoljka		orange_shell	1	N		NA
+NDpnXKCpJJxDH6r3H	BCS	blue_comb	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	71	cesalj	cesalj		blue_comb	1	N		NA
+hWw8nBZyLtmidBidJ	BCS	blue_calculator	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	1	plavi digitron	plavi digitron		blue_calculator	1	"c(""C"", ""N"")"		NA
+hWw8nBZyLtmidBidJ	BCS	black_die	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	2	crna kockica	crna kockica		black_die	1	"c(""C"", """")"		NA
+hWw8nBZyLtmidBidJ	BCS	purple_lock	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	3	ljubicasti katanac	ljubicasti katanac		purple_lock	1	"c(""C"", ""N"")"		NA
+hWw8nBZyLtmidBidJ	BCS	purple_drum	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	5	bubanj	bubanj		purple_drum	1	N		NA
+hWw8nBZyLtmidBidJ	BCS	white_comb	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	7	cesalj	cesalj		white_comb	1	N		NA
+hWw8nBZyLtmidBidJ	BCS	white_flower	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	8	cvet	cvet		white_flower	1	N		NA
+hWw8nBZyLtmidBidJ	BCS	blue_cushion	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	9	plavi jastuk	plavi jastuk		blue_cushion	1	"c(""C"", ""N"")"		NA
+hWw8nBZyLtmidBidJ	BCS	green_slipper	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	10	papuca	papuca		green_slipper	1	N		NA
+hWw8nBZyLtmidBidJ	BCS	red_book	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	11	knjiga	knjiga		red_book	1	N		NA
+hWw8nBZyLtmidBidJ	BCS	yellow_crown	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	12	zuta kruna	zuta kruna		yellow_crown	1	"c(""C"", ""N"")"		NA
+hWw8nBZyLtmidBidJ	BCS	blue_mask	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	13	plava maska	plava maska		blue_mask	1	"c(""C"", ""N"")"		NA
+hWw8nBZyLtmidBidJ	BCS	black_microscope	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	14	mikroskop	mikroskop		black_microscope	1	N		NA
+hWw8nBZyLtmidBidJ	BCS	black_helicopter	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	15	helikopter	helikopter		black_helicopter	1	N		NA
+hWw8nBZyLtmidBidJ	BCS	yellow_phone	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	17	zuti telefon	zuti telefon		yellow_phone	1	"c(""C"", ""N"")"		NA
+hWw8nBZyLtmidBidJ	BCS	red_butterfly	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	22	crveni leptir	crveni leptir		red_butterfly	1	"c(""C"", ""N"")"		NA
+hWw8nBZyLtmidBidJ	BCS	black_knife	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	23	noz	noz		black_knife	1	N		NA
+hWw8nBZyLtmidBidJ	BCS	blue_door	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	24	plava vrata	plava vrata		blue_door	1	"c(""C"", ""N"")"		NA
+hWw8nBZyLtmidBidJ	BCS	orange_hammer	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	25	narandzasti cekic	narandzasti cekic		orange_hammer	1	"c(""C"", ""N"")"		NA
+hWw8nBZyLtmidBidJ	BCS	green_truck	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	26	zeleni kamion	zeleni kamion		green_truck	1	"c(""C"", ""N"")"		NA
+hWw8nBZyLtmidBidJ	BCS	white_dress	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	27	bela haljina	bela haljina		white_dress	1	"c(""C"", ""N"")"		NA
+hWw8nBZyLtmidBidJ	BCS	purple_fish	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	28	riba	riba		purple_fish	1	N		NA
+hWw8nBZyLtmidBidJ	BCS	yellow_pencil	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	29	olovka	olovka		yellow_pencil	1	N		NA
+hWw8nBZyLtmidBidJ	BCS	red_fence	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	33	ograda	ograda		red_fence	1	N		NA
+hWw8nBZyLtmidBidJ	BCS	red_mug	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	34	crvena solja	crvena solja		red_mug	1	"c(""C"", ""N"")"		NA
+hWw8nBZyLtmidBidJ	BCS	orange_sock	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	37	narandzasta carapa	narandzasta carapa		orange_sock	1	"c(""C"", ""N"")"		NA
+hWw8nBZyLtmidBidJ	BCS	purple_binoculars	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	38	dvogled	dvogled		purple_binoculars	1	N		NA
+hWw8nBZyLtmidBidJ	BCS	red_chair	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	39	stolica	stolica		red_chair	1	N		NA
+hWw8nBZyLtmidBidJ	BCS	orange_necklace	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	42	ogrlica	ogrlica		orange_necklace	1	N		NA
+hWw8nBZyLtmidBidJ	BCS	yellow_candle	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	44	sveca	sveca		yellow_candle	1	N		NA
+hWw8nBZyLtmidBidJ	BCS	red_iron	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	45	pegla	pegla		red_iron	1	N		NA
+hWw8nBZyLtmidBidJ	BCS	black_ribbon	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	46	masna	masna		black_ribbon	1	N		NA
+hWw8nBZyLtmidBidJ	BCS	white_balloon	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	49	beli balon	beli balon		white_balloon	1	"c(""C"", ""N"")"		NA
+hWw8nBZyLtmidBidJ	BCS	white_wallet	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	50	novcanik	novcanik		white_wallet	1	N		NA
+hWw8nBZyLtmidBidJ	BCS	green_luggage	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	52	zeleni kofer	zeleni kofer		green_luggage	1	"c(""C"", ""N"")"		NA
+hWw8nBZyLtmidBidJ	BCS	black_basket	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	53	ceger	ceger		black_basket	1			NA
+hWw8nBZyLtmidBidJ	BCS	red_bed	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	54	krevet	krevet		red_bed	1	N		NA
+hWw8nBZyLtmidBidJ	BCS	red_ring	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	55	prsten	prsten		red_ring	1	N		NA
+hWw8nBZyLtmidBidJ	BCS	purple_robot	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	57	robot	robot		purple_robot	1	N		NA
+hWw8nBZyLtmidBidJ	BCS	blue_guitar	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	58	plava gitara	plava gitara		blue_guitar	1	"c(""C"", ""N"")"		NA
+hWw8nBZyLtmidBidJ	BCS	black_shell	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	59	crna skoljka	crna skoljka		black_shell	1	"c(""C"", ""N"")"		NA
+hWw8nBZyLtmidBidJ	BCS	white_belt	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	60	beli kais	beli kais		white_belt	1	"c(""C"", ""N"")"		NA
+hWw8nBZyLtmidBidJ	BCS	black_tie	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	61	crna kravata sa tufnicama	crna kravata sa tufnicama		black_tie	1	"c(""C"", ""N"", """", """")"		NA
+hWw8nBZyLtmidBidJ	BCS	purple_bowl	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	62	ljubicasta posuda	ljubicasta posuda		purple_bowl	1	"c(""C"", """")"		NA
+hWw8nBZyLtmidBidJ	BCS	orange_calendar	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	63	narandzasti kalendar	narandzasti kalendar		orange_calendar	1	"c(""C"", ""N"")"		NA
+hWw8nBZyLtmidBidJ	BCS	purple_glove	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	64	ljubicasta rukavica	ljubicasta rukavica		purple_glove	1	"c(""C"", ""N"")"		NA
+hWw8nBZyLtmidBidJ	BCS	yellow_scarf	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	65	zuti sal	zuti sal		yellow_scarf	1	"c(""C"", ""N"")"		NA
+hWw8nBZyLtmidBidJ	BCS	black_screwdriver	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	68	crni srafciger	crni srafciger		black_screwdriver	1	"c(""C"", ""N"")"		NA
+7AxehZsRyooMchexm	BCS	black_sock	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	1	carapa	carapa		black_sock	1	N		NA
+7AxehZsRyooMchexm	BCS	white_crown	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	2	bela kruna	bela kruna		white_crown	1	"c(""C"", ""N"")"		NA
+7AxehZsRyooMchexm	BCS	white_fence	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	3	bela ograda	bela ograda		white_fence	1	"c(""C"", ""N"")"		NA
+7AxehZsRyooMchexm	BCS	green_microscope	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	4	mikroskop	mikroskop		green_microscope	1	N		NA
+7AxehZsRyooMchexm	BCS	green_fork	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	5	viljuska	viljuska		green_fork	1	N		NA
+7AxehZsRyooMchexm	BCS	white_pencil	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	7	olovka	olovka		white_pencil	1	N		NA
+7AxehZsRyooMchexm	BCS	purple_luggage	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	9	ljubicasti kofer	ljubicasti kofer		purple_luggage	1	"c(""C"", ""N"")"		NA
+7AxehZsRyooMchexm	BCS	red_flower	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	10	crveni cvet	crveni cvet		red_flower	1	"c(""C"", ""N"")"		NA
+7AxehZsRyooMchexm	BCS	black_helicopter	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	11	helikopter	helikopter		black_helicopter	1	N		NA
+7AxehZsRyooMchexm	BCS	purple_glove	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	12	rukavica	rukavica		purple_glove	1	N		NA
+7AxehZsRyooMchexm	BCS	white_mug	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	13	bela solja	bela solja		white_mug	1	"c(""C"", ""N"")"		NA
+7AxehZsRyooMchexm	BCS	red_guitar	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	14	crvena gitara	crvena gitara		red_guitar	1	"c(""C"", ""N"")"		NA
+7AxehZsRyooMchexm	BCS	white_mask	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	15	bela maska	bela maska		white_mask	1	"c(""C"", ""N"")"		NA
+7AxehZsRyooMchexm	BCS	yellow_dress	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	18	zuta haljina	zuta haljina		yellow_dress	1	"c(""C"", ""N"")"		NA
+7AxehZsRyooMchexm	BCS	blue_butterfly	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	19	leptir	leptir		blue_butterfly	1	N		NA
+7AxehZsRyooMchexm	BCS	green_slipper	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	20	zelena papuca	zelena papuca		green_slipper	1	"c(""C"", ""N"")"		NA
+7AxehZsRyooMchexm	BCS	yellow_phone	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	24	telefon	telefon		yellow_phone	1	N		NA
+7AxehZsRyooMchexm	BCS	red_ring	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	25	crveni prsten	crveni prsten		red_ring	1	"c(""C"", ""N"")"		NA
+7AxehZsRyooMchexm	BCS	purple_fish	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	26	ljubicasta riba	ljubicasta riba		purple_fish	1	"c(""C"", ""N"")"		NA
+7AxehZsRyooMchexm	BCS	black_tie	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	27	kravata	kravata		black_tie	1	N		NA
+7AxehZsRyooMchexm	BCS	green_basket	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	29	zelena korp	zelena korp		green_basket	1	"c(""C"", """")"		NA
+7AxehZsRyooMchexm	BCS	green_bowl	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	30	cinija	cinija		green_bowl	1	N		NA
+7AxehZsRyooMchexm	BCS	red_wallet	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	32	crveni novcanik	crveni novcanik		red_wallet	1	"c(""C"", ""N"")"		NA
+7AxehZsRyooMchexm	BCS	red_calculator	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	34	digitron	digitron		red_calculator	1	N		NA
+7AxehZsRyooMchexm	BCS	green_screwdriver	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	36	zeleni srafciger	zeleni srafciger		green_screwdriver	1	"c(""C"", ""N"")"		NA
+7AxehZsRyooMchexm	BCS	blue_iron	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	37	pegla	pegla		blue_iron	1	N		NA
+7AxehZsRyooMchexm	BCS	purple_necklace	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	38	ljubicasta ogrlica	ljubicasta ogrlica		purple_necklace	1	"c(""C"", ""N"")"		NA
+7AxehZsRyooMchexm	BCS	green_robot	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	39	robot	robot		green_robot	1	N		NA
+7AxehZsRyooMchexm	BCS	purple_drum	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	40	bubanj	bubanj		purple_drum	1	N		NA
+7AxehZsRyooMchexm	BCS	green_die	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	42	zelena kocka	zelena kocka		green_die	1	"c(""C"", ""N"")"		NA
+7AxehZsRyooMchexm	BCS	black_ribbon	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	45	crna masna	crna masna		black_ribbon	1	"c(""C"", ""N"")"		NA
+7AxehZsRyooMchexm	BCS	red_belt	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	46	kais	kais		red_belt	1	N		NA
+7AxehZsRyooMchexm	BCS	orange_knife	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	48	noz	noz		orange_knife	1	N		NA
+7AxehZsRyooMchexm	BCS	black_calendar	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	49	crni kalendar	crni kalendar		black_calendar	1	"c(""C"", ""N"")"		NA
+7AxehZsRyooMchexm	BCS	blue_bed	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	50	plavi krevet	plavi krevet		blue_bed	1	"c(""C"", ""N"")"		NA
+7AxehZsRyooMchexm	BCS	orange_shell	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	52	skoljka	skoljka		orange_shell	1	N		NA
+7AxehZsRyooMchexm	BCS	purple_binoculars	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	54	dvogled	dvogled		purple_binoculars	1	N		NA
+7AxehZsRyooMchexm	BCS	orange_hammer	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	57	cekic narandzasti	cekic narandzasti		orange_hammer	1	"c(""N"", ""C"")"		NA
+7AxehZsRyooMchexm	BCS	blue_chair	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	58	stolica	stolica		blue_chair	1	N		NA
+7AxehZsRyooMchexm	BCS	white_door	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	59	bela vrata	bela vrata		white_door	1	"c(""C"", ""N"")"		NA
+7AxehZsRyooMchexm	BCS	red_book	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	61	knjiga	knjiga		red_book	1	N		NA
+7AxehZsRyooMchexm	BCS	yellow_candle	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	62	sveca	sveca		yellow_candle	1	N		NA
+7AxehZsRyooMchexm	BCS	yellow_comb	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	63	zuti cesalj	zuti cesalj		yellow_comb	1	"c(""C"", ""N"")"		NA
+7AxehZsRyooMchexm	BCS	purple_lock	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	64	ljubicasti katanac	ljubicasti katanac		purple_lock	1	"c(""C"", ""N"")"		NA
+7AxehZsRyooMchexm	BCS	orange_truck	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	68	narandzasti kamion	narandzasti kamion		orange_truck	1	"c(""C"", ""N"")"		NA
+7AxehZsRyooMchexm	BCS	blue_cushion	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	70	plavi jastuk	plavi jastuk		blue_cushion	1	"c(""C"", ""N"")"		NA
+7AxehZsRyooMchexm	BCS	yellow_balloon	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	71	balon	balon		yellow_balloon	1	N		NA
+7AxehZsRyooMchexm	BCS	red_scarf	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	72	sal	sal		red_scarf	1	N		NA
+ZKNNpgTCwqNxcMWPf	BCS	blue_iron	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	1	pegli	pegli		blue_iron	1			NA
+ZKNNpgTCwqNxcMWPf	BCS	orange_knife	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	4	zuti noz	zuti noz		orange_knife	1	"c(""C"", ""N"")"		NA
+ZKNNpgTCwqNxcMWPf	BCS	yellow_door	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	7	zuta vrata	zuta vrata		yellow_door	1	"c(""C"", ""N"")"		NA
+ZKNNpgTCwqNxcMWPf	BCS	red_wallet	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	8	takujin	takujin		red_wallet	1			NA
+ZKNNpgTCwqNxcMWPf	BCS	yellow_guitar	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	9	zuta gitara	zuta gitara		yellow_guitar	1	"c(""C"", ""N"")"		NA
+ZKNNpgTCwqNxcMWPf	BCS	yellow_scarf	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	10	zuti sal	zuti sal		yellow_scarf	1	"c(""C"", ""N"")"		NA
+ZKNNpgTCwqNxcMWPf	BCS	blue_balloon	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	13	plavi balun	plavi balun		blue_balloon	1	"c(""C"", """")"		NA
+ZKNNpgTCwqNxcMWPf	BCS	blue_phone	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	16	telefon__plavi telefon	telefon		blue_phone	1	N		NA
+ZKNNpgTCwqNxcMWPf	BCS	green_tie	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	17	zelena kravata	zelena kravata		green_tie	1	"c(""C"", ""N"")"		NA
+ZKNNpgTCwqNxcMWPf	BCS	black_die	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	18	kocka	kocka		black_die	1	N		NA
+ZKNNpgTCwqNxcMWPf	BCS	blue_crown	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	19	plava kruna	plava kruna		blue_crown	1	"c(""C"", ""N"")"		NA
+ZKNNpgTCwqNxcMWPf	BCS	orange_slipper	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	20	slapa	slapa		orange_slipper	1			NA
+ZKNNpgTCwqNxcMWPf	BCS	black_ribbon	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	21	mašna	mašna		black_ribbon	1	N		NA
+ZKNNpgTCwqNxcMWPf	BCS	blue_butterfly	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	22	plavi leptir	plavi leptir		blue_butterfly	1	"c(""C"", ""N"")"		NA
+ZKNNpgTCwqNxcMWPf	BCS	white_flower	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	26	cvit	cvit		white_flower	1			NA
+ZKNNpgTCwqNxcMWPf	BCS	purple_luggage	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	27	kufer	kufer		purple_luggage	1			NA
+ZKNNpgTCwqNxcMWPf	BCS	purple_binoculars	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	28	ljubičasti kanoćal	ljubičasti kanoćal		purple_binoculars	1	"c(""C"", """")"		NA
+ZKNNpgTCwqNxcMWPf	BCS	green_helicopter	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	30	zeleni helić	zeleni helić		green_helicopter	1	"c(""C"", """")"		NA
+ZKNNpgTCwqNxcMWPf	BCS	orange_truck	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	31	kamion	kamion		orange_truck	1	N		NA
+ZKNNpgTCwqNxcMWPf	BCS	purple_basket	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	32	košara	košara		purple_basket	1	N		NA
+ZKNNpgTCwqNxcMWPf	BCS	black_bowl	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	35	crna zdjelica	crna zdjelica		black_bowl	1	"c(""C"", """")"		NA
+ZKNNpgTCwqNxcMWPf	BCS	orange_hammer	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	36	čekić	čekić		orange_hammer	1	N		NA
+ZKNNpgTCwqNxcMWPf	BCS	red_dress	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	37	crvena vešta	crvena vešta		red_dress	1	"c(""C"", """")"		NA
+ZKNNpgTCwqNxcMWPf	BCS	red_calculator	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	38	crveni digitron	crveni digitron		red_calculator	1	"c(""C"", ""N"")"		NA
+ZKNNpgTCwqNxcMWPf	BCS	blue_book	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	39	knjiga	knjiga		blue_book	1	N		NA
+ZKNNpgTCwqNxcMWPf	BCS	red_mug	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	41	crvena čaša	crvena čaša		red_mug	1	"c(""C"", ""N"")"		NA
+ZKNNpgTCwqNxcMWPf	BCS	purple_sock	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	42	ljubičasta bičva	ljubičasta bičva		purple_sock	1	"c(""C"", """")"		NA
+ZKNNpgTCwqNxcMWPf	BCS	red_chair	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	43	stolica	stolica		red_chair	1	N		NA
+ZKNNpgTCwqNxcMWPf	BCS	orange_lock	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	44	katanac	katanac		orange_lock	1	N		NA
+ZKNNpgTCwqNxcMWPf	BCS	blue_cushion	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	46	kušin	kušin		blue_cushion	1			NA
+ZKNNpgTCwqNxcMWPf	BCS	red_belt	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	47	crveni kaiš	crveni kaiš		red_belt	1	"c(""C"", ""N"")"		NA
+ZKNNpgTCwqNxcMWPf	BCS	black_calendar	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	48	kalendar	kalendar		black_calendar	1	N		NA
+ZKNNpgTCwqNxcMWPf	BCS	orange_microscope	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	51	zuti mikroskop	zuti mikroskop		orange_microscope	1	"c(""C"", ""N"")"		NA
+ZKNNpgTCwqNxcMWPf	BCS	blue_fence	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	53	ograda	ograda		blue_fence	1	N		NA
+ZKNNpgTCwqNxcMWPf	BCS	red_mask	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	54	crvena maska	crvena maska		red_mask	1	"c(""C"", ""N"")"		NA
+ZKNNpgTCwqNxcMWPf	BCS	blue_candle	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	55	svića	svića		blue_candle	1			NA
+ZKNNpgTCwqNxcMWPf	BCS	green_shell	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	56	zelena školjka	zelena školjka		green_shell	1	"c(""C"", ""N"")"		NA
+ZKNNpgTCwqNxcMWPf	BCS	white_bed	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	57	krevet	krevet		white_bed	1	N		NA
+ZKNNpgTCwqNxcMWPf	BCS	green_drum	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	61	zeleni bubanj	zeleni bubanj		green_drum	1	"c(""C"", ""N"")"		NA
+ZKNNpgTCwqNxcMWPf	BCS	white_comb	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	62	češalj	češalj		white_comb	1	N		NA
+ZKNNpgTCwqNxcMWPf	BCS	black_fish	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	63	riba	riba		black_fish	1	N		NA
+ZKNNpgTCwqNxcMWPf	BCS	white_pencil	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	64	olovka	olovka		white_pencil	1	N		NA
+ZKNNpgTCwqNxcMWPf	BCS	green_robot	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	68	zeleni robot	zeleni robot		green_robot	1	"c(""C"", ""N"")"		NA
+ZKNNpgTCwqNxcMWPf	BCS	red_ring	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	69	prsten	prsten		red_ring	1	N		NA
+akDGgXLu5Pr7RXyeF	BCS	green_fork	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	2	jedes	jedes		green_fork	1			NA
+akDGgXLu5Pr7RXyeF	BCS	green_bowl	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	4	supa	supa		green_bowl	1			NA
+akDGgXLu5Pr7RXyeF	BCS	blue_flower	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	5	cvet	cvet		blue_flower	1	N		NA
+akDGgXLu5Pr7RXyeF	BCS	black_knife	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	6	crni noz	crni noz		black_knife	1	"c(""C"", ""N"")"		NA
+akDGgXLu5Pr7RXyeF	BCS	green_shell	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	7	nije kocka	nije kocka		green_shell	1	"c("""", ""N"")"		NA
+akDGgXLu5Pr7RXyeF	BCS	purple_basket	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	8	ljubicasta korpa	ljubicasta korpa		purple_basket	1	"c(""C"", ""N"")"		NA
+akDGgXLu5Pr7RXyeF	BCS	green_screwdriver	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	9	za odvrtanje	za odvrtanje		green_screwdriver	1	"c("""", """")"		NA
+akDGgXLu5Pr7RXyeF	BCS	red_bed	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	10	nije maska	nije maska		red_bed	1	"c("""", ""N"")"		NA
+akDGgXLu5Pr7RXyeF	BCS	blue_guitar	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	11	plavo, a nije cvet	plavo, a nije cvet		blue_guitar	1	"c("""", """", """", ""N"")"		NA
+akDGgXLu5Pr7RXyeF	BCS	purple_tie	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	12	nije kofer	nije kofer		purple_tie	1	"c("""", ""N"")"		NA
+akDGgXLu5Pr7RXyeF	BCS	white_scarf	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	14	belo, ima rese	belo, ima rese		white_scarf	1	"c("""", """", """")"		NA
+akDGgXLu5Pr7RXyeF	BCS	red_fence	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	15	nije telefon	nije telefon		red_fence	1	"c("""", ""N"")"		NA
+akDGgXLu5Pr7RXyeF	BCS	red_phone	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	16	nije zuti telefon	nije zuti telefon		red_phone	1	"c("""", ""C"", ""N"")"		NA
+akDGgXLu5Pr7RXyeF	BCS	white_crown	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	17	nije zlatna	nije zlatna		white_crown	1	"c("""", """")"		NA
+akDGgXLu5Pr7RXyeF	BCS	yellow_mask	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	18	zuto, nije krevet	zuto, nije krevet		yellow_mask	1	"c("""", """", ""N"")"		NA
+akDGgXLu5Pr7RXyeF	BCS	orange_microscope	feedback	scene1	"NA"	"NA"	"NA"	"NA"	2	NA	20	zuto, nije mikroskop	zuto, nije mikroskop		orange_luggage	0	"c("""", """", ""N"")"		NA
+akDGgXLu5Pr7RXyeF	BCS	white_mug	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	21	solja, nije crvena	solja, nije crvena		white_mug	1	"c("""", """", ""C"")"		NA
+akDGgXLu5Pr7RXyeF	BCS	purple_sock	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	22	nije riba	nije riba		purple_sock	1	"c("""", ""N"")"		NA
+akDGgXLu5Pr7RXyeF	BCS	orange_helicopter	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	23	zuto, nije riba	zuto, nije riba		orange_helicopter	1	"c("""", """", ""N"")"		NA
+akDGgXLu5Pr7RXyeF	BCS	purple_truck	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	28	to ti vozis	to ti vozis		purple_truck	1	"c(""A"", """", """")"		NA
+akDGgXLu5Pr7RXyeF	BCS	white_cushion	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	31	spavas	spavas		white_cushion	1			NA
+akDGgXLu5Pr7RXyeF	BCS	blue_candle	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	32	romantika	romantika		blue_candle	1			NA
+akDGgXLu5Pr7RXyeF	BCS	red_iron	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	34	ono sto ja ne radim	ono sto ja ne radim		red_iron	1	"c(""A"", """", """", """", """")"		NA
+akDGgXLu5Pr7RXyeF	BCS	black_slipper	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	36	crno za noge	crno za noge		black_slipper	1	"c(""C"", """", """")"		NA
+akDGgXLu5Pr7RXyeF	BCS	white_chair	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	37	odmori	odmori		white_chair	1			NA
+akDGgXLu5Pr7RXyeF	BCS	green_hammer	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	39	udri	udri		green_hammer	1			NA
+akDGgXLu5Pr7RXyeF	BCS	purple_glove	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	40	za ruke	za ruke		purple_glove	1	"c("""", """")"		NA
+akDGgXLu5Pr7RXyeF	BCS	red_wallet	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	41	ono sto ti ne treba	ono sto ti ne treba		red_wallet	1	"c(""A"", """", """", """", """")"		NA
+akDGgXLu5Pr7RXyeF	BCS	green_calendar	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	42	dani	dani		green_calendar	1			NA
+akDGgXLu5Pr7RXyeF	BCS	black_ribbon	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	44	crno, za poklon	crno, za poklon		black_ribbon	1	"c("""", """", """")"		NA
+akDGgXLu5Pr7RXyeF	BCS	purple_binoculars	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	48	ljubicasto, nije katanac	ljubicasto, nije katanac		purple_binoculars	1	"c("""", """", ""N"")"		NA
+akDGgXLu5Pr7RXyeF	BCS	black_fish	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	49	crno, nije helikopter	crno, nije helikopter		black_fish	1	"c("""", """", ""N"")"		NA
+akDGgXLu5Pr7RXyeF	BCS	green_lock	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	50	nije viljuska	nije viljuska		green_lock	1	"c("""", ""N"")"		NA
+akDGgXLu5Pr7RXyeF	BCS	white_butterfly	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	52	belo, nije pegla	belo, nije pegla		white_butterfly	1	"c("""", """", ""N"")"		NA
+akDGgXLu5Pr7RXyeF	BCS	blue_comb	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	53	tebi ne treba	tebi ne treba		blue_comb	1	"c("""", """", """")"		NA
+akDGgXLu5Pr7RXyeF	BCS	red_book	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	54	citaj	citaj		red_book	1			NA
+akDGgXLu5Pr7RXyeF	BCS	blue_belt	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	56	plavo, nije cvet	plavo, nije cvet		blue_belt	1	"c("""", """", ""N"")"		NA
+akDGgXLu5Pr7RXyeF	BCS	yellow_calculator	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	58	racunaj zuto	racunaj zuto		yellow_calculator	1	"c("""", ""C"")"		NA
+akDGgXLu5Pr7RXyeF	BCS	green_luggage	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	60	putuj	putuj		green_luggage	1			NA
+akDGgXLu5Pr7RXyeF	BCS	red_ring	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	61	nisi mi kupio	nisi mi kupio		red_ring	1	"c("""", """", """")"		NA
+akDGgXLu5Pr7RXyeF	BCS	black_die	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	64	crno, nije robot	crno, nije robot		black_die	1	"c("""", """", ""N"")"		NA
+akDGgXLu5Pr7RXyeF	BCS	yellow_door	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	65	zuto, nije pegla	zuto, nije pegla		yellow_door	1	"c("""", """", ""N"")"		NA
+akDGgXLu5Pr7RXyeF	BCS	black_robot	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	67	crno, nie kocka	crno, nie kocka		black_robot	1	"c("""", """", ""N"")"		NA
+akDGgXLu5Pr7RXyeF	BCS	red_pencil	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	68	pisi	pisi		red_pencil	1			NA
+akDGgXLu5Pr7RXyeF	BCS	green_drum	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	69	sviraj zeleno	sviraj zeleno		green_drum	1	"c("""", ""C"")"		NA
+akDGgXLu5Pr7RXyeF	BCS	red_dress	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	70	crveno, nije taraba	crveno, nije taraba		red_dress	1	"c("""", """", """")"		NA
+akDGgXLu5Pr7RXyeF	BCS	red_balloon	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	71	nije stolica, a crveno	nije stolica, a crveno		red_balloon	1	"c("""", """", """", ""C"")"		NA
+Fh8xc9N3c4tapRNqH	BCS	red_phone	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	1	telefon	telefon		red_phone	1	N		NA
+Fh8xc9N3c4tapRNqH	BCS	white_flower	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	2	bijeli cvijet	bijeli cvijet		white_flower	1	"c(""C"", ""N"")"		NA
+Fh8xc9N3c4tapRNqH	BCS	black_tie	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	3	kravata	kravata		black_tie	1	N		NA
+Fh8xc9N3c4tapRNqH	BCS	orange_shell	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	5	skoljka	skoljka		orange_shell	1	N		NA
+Fh8xc9N3c4tapRNqH	BCS	yellow_calculator	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	7	kalkulator	kalkulator		yellow_calculator	1	N		NA
+Fh8xc9N3c4tapRNqH	BCS	red_iron	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	8	pegla	pegla		red_iron	1	N		NA
+Fh8xc9N3c4tapRNqH	BCS	purple_knife	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	11	nož	nož		purple_knife	1	N		NA
+Fh8xc9N3c4tapRNqH	BCS	red_bed	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	12	crveni krevet	crveni krevet		red_bed	1	"c(""C"", ""N"")"		NA
+Fh8xc9N3c4tapRNqH	BCS	white_comb	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	13	bijeli češalj	bijeli češalj		white_comb	1	"c(""C"", ""N"")"		NA
+Fh8xc9N3c4tapRNqH	BCS	white_fence	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	14	ograda	ograda		white_fence	1	N		NA
+Fh8xc9N3c4tapRNqH	BCS	orange_slipper	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	15	narančasta šlapa	narančasta šlapa		orange_slipper	1	"c(""C"", """")"		NA
+Fh8xc9N3c4tapRNqH	BCS	red_mask	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	16	crvena maska	crvena maska		red_mask	1	"c(""C"", ""N"")"		NA
+Fh8xc9N3c4tapRNqH	BCS	yellow_balloon	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	18	balon	balon		yellow_balloon	1	N		NA
+Fh8xc9N3c4tapRNqH	BCS	black_robot	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	20	robot	robot		black_robot	1	N		NA
+Fh8xc9N3c4tapRNqH	BCS	blue_ring	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	24	plavi prsten	plavi prsten		blue_ring	1	"c(""C"", ""N"")"		NA
+Fh8xc9N3c4tapRNqH	BCS	black_fish	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	25	crna ribica	crna ribica		black_fish	1	"c(""C"", """")"		NA
+Fh8xc9N3c4tapRNqH	BCS	black_bowl	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	26	zdjelica	zdjelica		black_bowl	1			NA
+Fh8xc9N3c4tapRNqH	BCS	orange_ribbon	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	27	narančasta mašna	narančasta mašna		orange_ribbon	1	"c(""C"", ""N"")"		NA
+Fh8xc9N3c4tapRNqH	BCS	blue_book	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	32	knjiga	knjiga		blue_book	1	N		NA
+Fh8xc9N3c4tapRNqH	BCS	black_luggage	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	34	crni kofer	crni kofer		black_luggage	1	"c(""C"", ""N"")"		NA
+Fh8xc9N3c4tapRNqH	BCS	white_butterfly	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	35	leptir	leptir		white_butterfly	1	N		NA
+Fh8xc9N3c4tapRNqH	BCS	yellow_mug	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	36	žuta šalica	žuta šalica		yellow_mug	1	"c(""C"", ""N"")"		NA
+Fh8xc9N3c4tapRNqH	BCS	red_scarf	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	37	šal	šal		red_scarf	1	N		NA
+Fh8xc9N3c4tapRNqH	BCS	yellow_candle	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	38	svijeća	svijeća		yellow_candle	1	N		NA
+Fh8xc9N3c4tapRNqH	BCS	green_drum	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	41	bubanj	bubanj		green_drum	1	N		NA
+Fh8xc9N3c4tapRNqH	BCS	green_lock	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	42	zeleni lokot	zeleni lokot		green_lock	1	"c(""C"", ""N"")"		NA
+Fh8xc9N3c4tapRNqH	BCS	yellow_guitar	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	43	žuta gitara	žuta gitara		yellow_guitar	1	"c(""C"", ""N"")"		NA
+Fh8xc9N3c4tapRNqH	BCS	yellow_cushion	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	46	žuti jastuk	žuti jastuk		yellow_cushion	1	"c(""C"", ""N"")"		NA
+Fh8xc9N3c4tapRNqH	BCS	green_helicopter	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	47	helikopter	helikopter		green_helicopter	1	N		NA
+Fh8xc9N3c4tapRNqH	BCS	green_sock	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	48	čarapa	čarapa		green_sock	1	N		NA
+Fh8xc9N3c4tapRNqH	BCS	purple_die	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	50	ljubičasta kocka	ljubičasta kocka		purple_die	1	"c(""C"", ""N"")"		NA
+Fh8xc9N3c4tapRNqH	BCS	white_pencil	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	51	olovka	olovka		white_pencil	1	N		NA
+Fh8xc9N3c4tapRNqH	BCS	red_belt	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	52	remen	remen		red_belt	1			NA
+Fh8xc9N3c4tapRNqH	BCS	blue_crown	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	53	plava kruna	plava kruna		blue_crown	1	"c(""C"", ""N"")"		NA
+Fh8xc9N3c4tapRNqH	BCS	blue_dress	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	54	plava haljina	plava haljina		blue_dress	1	"c(""C"", ""N"")"		NA
+Fh8xc9N3c4tapRNqH	BCS	orange_glove	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	57	rukavica	rukavica		orange_glove	1	N		NA
+Fh8xc9N3c4tapRNqH	BCS	orange_truck	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	58	narančasti kamion	narančasti kamion		orange_truck	1	"c(""C"", ""N"")"		NA
+Fh8xc9N3c4tapRNqH	BCS	green_basket	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	59	zelena košara	zelena košara		green_basket	1	"c(""C"", ""N"")"		NA
+Fh8xc9N3c4tapRNqH	BCS	green_screwdriver	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	60	zeleni odvijač	zeleni odvijač		green_screwdriver	1	"c(""C"", ""N"")"		NA
+Fh8xc9N3c4tapRNqH	BCS	green_binoculars	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	61	dalekozor	dalekozor		green_binoculars	1	N		NA
+Fh8xc9N3c4tapRNqH	BCS	white_chair	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	62	stolica	stolica		white_chair	1	N		NA
+Fh8xc9N3c4tapRNqH	BCS	black_microscope	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	63	mikroskop	mikroskop		black_microscope	1	N		NA
+Fh8xc9N3c4tapRNqH	BCS	white_wallet	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	64	novčanik__bijeli	novčanik	koji	white_wallet	1	N		NA
+Fh8xc9N3c4tapRNqH	BCS	white_door	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	66	bijela vrata	bijela vrata		white_door	1	"c(""C"", ""N"")"		NA
+Fh8xc9N3c4tapRNqH	BCS	green_calendar	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	67	zeleni kalendar	zeleni kalendar		green_calendar	1	"c(""C"", ""N"")"		NA
+Fh8xc9N3c4tapRNqH	BCS	green_hammer	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	69	zeleni čekić	zeleni čekić		green_hammer	1	"c(""C"", ""N"")"		NA
+dYzagFqmxpLLfn7Dh	BCS	black_sock	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	2	crna carapa	crna carapa		black_sock	1	"c(""C"", ""N"")"		NA
+dYzagFqmxpLLfn7Dh	BCS	green_slipper	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	4	zelena papuca	zelena papuca		green_slipper	1	"c(""C"", ""N"")"		NA
+dYzagFqmxpLLfn7Dh	BCS	yellow_wallet	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	5	zuti novcanik	zuti novcanik		yellow_wallet	1	"c(""C"", ""N"")"		NA
+dYzagFqmxpLLfn7Dh	BCS	green_truck	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	6	zeleni kamion	zeleni kamion		green_truck	1	"c(""C"", ""N"")"		NA
+dYzagFqmxpLLfn7Dh	BCS	yellow_ring	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	7	zuti prsten	zuti prsten		yellow_ring	1	"c(""C"", ""N"")"		NA
+dYzagFqmxpLLfn7Dh	BCS	yellow_crown	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	8	azijatska kraljica	azijatska kraljica		yellow_crown	1	"c("""", """")"		NA
+dYzagFqmxpLLfn7Dh	BCS	black_screwdriver	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	9	srafciger	srafciger		black_screwdriver	1	N		NA
+dYzagFqmxpLLfn7Dh	BCS	orange_helicopter	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	10	narandzasti helikopter	narandzasti helikopter		orange_helicopter	1	"c(""C"", ""N"")"		NA
+dYzagFqmxpLLfn7Dh	BCS	orange_ribbon	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	11	masna	masna		orange_ribbon	1	N		NA
+dYzagFqmxpLLfn7Dh	BCS	purple_hammer	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	12	cekici__cekic	cekici		purple_hammer	1			NA
+dYzagFqmxpLLfn7Dh	BCS	yellow_scarf	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	15	sal	sal		yellow_scarf	1	N		NA
+dYzagFqmxpLLfn7Dh	BCS	red_chair	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	16	stolica	stolica		red_chair	1	N		NA
+dYzagFqmxpLLfn7Dh	BCS	yellow_belt	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	17	kajs	kajs		yellow_belt	1	N		NA
+dYzagFqmxpLLfn7Dh	BCS	green_shell	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	18	zelena skoljka	zelena skoljka		green_shell	1	"c(""C"", ""N"")"		NA
+dYzagFqmxpLLfn7Dh	BCS	red_calculator	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	19	crveni digitron	crveni digitron		red_calculator	1	"c(""C"", ""N"")"		NA
+dYzagFqmxpLLfn7Dh	BCS	black_tie	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	21	crni 'tie'	crni 'tie'		black_tie	1	"c(""C"", """")"		NA
+dYzagFqmxpLLfn7Dh	BCS	black_basket	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	22	crna korpa	crna korpa		black_basket	1	"c(""C"", ""N"")"		NA
+dYzagFqmxpLLfn7Dh	BCS	yellow_mask	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	23	zuta maska	zuta maska		yellow_mask	1	"c(""C"", ""N"")"		NA
+dYzagFqmxpLLfn7Dh	BCS	red_cushion	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	24	jastuk crveni	jastuk crveni		red_cushion	1	"c(""N"", ""C"")"		NA
+dYzagFqmxpLLfn7Dh	BCS	red_phone	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	25	telefon	telefon		red_phone	1	N		NA
+dYzagFqmxpLLfn7Dh	BCS	black_necklace	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	26	ogrlica	ogrlica		black_necklace	1	N		NA
+dYzagFqmxpLLfn7Dh	BCS	purple_microscope	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	29	ljubicasti mikroskop	ljubicasti mikroskop		purple_microscope	1	"c(""C"", ""N"")"		NA
+dYzagFqmxpLLfn7Dh	BCS	purple_luggage	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	30	kofer	kofer		purple_luggage	1	N		NA
+dYzagFqmxpLLfn7Dh	BCS	orange_robot	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	31	narandzasti robot	narandzasti robot		orange_robot	1	"c(""C"", ""N"")"		NA
+dYzagFqmxpLLfn7Dh	BCS	blue_iron	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	32	pegla	pegla		blue_iron	1	N		NA
+dYzagFqmxpLLfn7Dh	BCS	purple_glove	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	33	ljubicasta rukavica	ljubicasta rukavica		purple_glove	1	"c(""C"", ""N"")"		NA
+dYzagFqmxpLLfn7Dh	BCS	red_flower	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	36	crveni cvet	crveni cvet		red_flower	1	"c(""C"", ""N"")"		NA
+dYzagFqmxpLLfn7Dh	BCS	red_mug	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	37	crvena solja	crvena solja		red_mug	1	"c(""C"", ""N"")"		NA
+dYzagFqmxpLLfn7Dh	BCS	black_binoculars	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	38	crni dvogled	crni dvogled		black_binoculars	1	"c(""C"", ""N"")"		NA
+dYzagFqmxpLLfn7Dh	BCS	orange_drum	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	39	bubanj, boja drveta	bubanj, boja drveta		orange_drum	1	"c("""", """", """")"		NA
+dYzagFqmxpLLfn7Dh	BCS	white_bed	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	40	beli krevet	beli krevet		white_bed	1	"c(""C"", ""N"")"		NA
+dYzagFqmxpLLfn7Dh	BCS	yellow_butterfly	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	41	leptir	leptir		yellow_butterfly	1	N		NA
+dYzagFqmxpLLfn7Dh	BCS	white_candle	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	44	nesto belo, a nije sal	nesto belo, a nije sal		white_candle	1	"c("""", """", """", """", ""N"")"		NA
+dYzagFqmxpLLfn7Dh	BCS	green_die	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	47	kockica	kockica		green_die	1			NA
+dYzagFqmxpLLfn7Dh	BCS	blue_pencil	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	51	obicna olovka	obicna olovka		blue_pencil	1	"c("""", ""N"")"		NA
+dYzagFqmxpLLfn7Dh	BCS	yellow_dress	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	52	zuta haljina	zuta haljina		yellow_dress	1	"c(""C"", ""N"")"		NA
+dYzagFqmxpLLfn7Dh	BCS	green_fish	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	53	zelena riba	zelena riba		green_fish	1	"c(""C"", ""N"")"		NA
+dYzagFqmxpLLfn7Dh	BCS	blue_door	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	54	plava vrata	plava vrata		blue_door	1	"c(""C"", ""N"")"		NA
+dYzagFqmxpLLfn7Dh	BCS	blue_balloon	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	55	plavi balon	plavi balon		blue_balloon	1	"c(""C"", ""N"")"		NA
+dYzagFqmxpLLfn7Dh	BCS	blue_book	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	60	knjiga	knjiga		blue_book	1	N		NA
+dYzagFqmxpLLfn7Dh	BCS	orange_calendar	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	61	kalendar	kalendar		orange_calendar	1	N		NA
+dYzagFqmxpLLfn7Dh	BCS	blue_guitar	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	64	plava gitara	plava gitara		blue_guitar	1	"c(""C"", ""N"")"		NA
+dYzagFqmxpLLfn7Dh	BCS	yellow_comb	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	65	zuti cesalj	zuti cesalj		yellow_comb	1	"c(""C"", ""N"")"		NA
+dYzagFqmxpLLfn7Dh	BCS	red_fence	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	67	ograda	ograda		red_fence	1	N		NA
+dYzagFqmxpLLfn7Dh	BCS	purple_bowl	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	68	ljubicasta cinija	ljubicasta cinija		purple_bowl	1	"c(""C"", ""N"")"		NA
+dYzagFqmxpLLfn7Dh	BCS	green_knife	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	69	zeleni noz	zeleni noz		green_knife	1	"c(""C"", ""N"")"		NA
+vS5vu8bc3NyBefNBQ	BCS	white_cushion	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	3	spavas	spavas		white_cushion	1			NA
+vS5vu8bc3NyBefNBQ	BCS	yellow_flower	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	4	nije kais	nije kais		yellow_flower	1	"c("""", ""N"")"		NA
+vS5vu8bc3NyBefNBQ	BCS	green_robot	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	5	nije kocka ,a.zeleno	nije kocka ,a.zeleno		green_robot	1	"c("""", ""N"", """")"		NA
+vS5vu8bc3NyBefNBQ	BCS	white_fence	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	6	belo ,a nije za obuci	belo ,a nije za obuci		white_fence	1	"c(""C"", """", """", """", """")"		NA
+vS5vu8bc3NyBefNBQ	BCS	red_comb	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	8	za kosu	za kosu		red_comb	1	"c("""", """")"		NA
+vS5vu8bc3NyBefNBQ	BCS	white_ring	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	10	verenicki	verenicki	nisi mi kupio	white_ring	1			NA
+vS5vu8bc3NyBefNBQ	BCS	white_iron	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	11	za dasku, a nije crvena	za dasku, a nije crvena		white_iron	1	"c("""", """", """", """", ""C"")"		NA
+vS5vu8bc3NyBefNBQ	BCS	red_mug	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	13	za caj	za caj		red_mug	1	"c("""", """")"		NA
+vS5vu8bc3NyBefNBQ	BCS	orange_screwdriver	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	15	ja koristio danas	ja koristio danas		orange_screwdriver	1	"c("""", """", """")"		NA
+vS5vu8bc3NyBefNBQ	BCS	orange_microscope	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	16	nije crn,a gledas viruse	nije crn,a gledas viruse		orange_microscope	1	"c("""", """", """", """")"		NA
+vS5vu8bc3NyBefNBQ	BCS	green_truck	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	17	moj posao	moj posao		green_truck	1	"c("""", """")"		NA
+vS5vu8bc3NyBefNBQ	BCS	orange_tie	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	20	oko vrata nije crna	oko vrata nije crna		orange_tie	1	"c("""", ""N"", """", ""C"")"		NA
+vS5vu8bc3NyBefNBQ	BCS	blue_door	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	22	nije prsten	nije prsten		blue_door	1	"c("""", ""N"")"		NA
+vS5vu8bc3NyBefNBQ	BCS	green_basket	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	23	nije noz	nije noz		green_basket	1	"c("""", ""N"")"		NA
+vS5vu8bc3NyBefNBQ	BCS	yellow_book	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	24	zuto nije kais	zuto nije kais		yellow_book	1	"c(""C"", """", ""N"")"		NA
+vS5vu8bc3NyBefNBQ	BCS	yellow_chair	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	25	zuto nike kruna	zuto nike kruna		yellow_chair	1	"c(""C"", """", ""N"")"		NA
+vS5vu8bc3NyBefNBQ	BCS	black_drum	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	27	udaras u njega ,a nije ljubicasti	udaras u njega ,a nije ljubicasti		black_drum	1	"c("""", """", """", """", """", ""C"")"		NA
+vS5vu8bc3NyBefNBQ	BCS	purple_die	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	28	nije robot	nije robot		purple_die	1	"c("""", ""N"")"		NA
+vS5vu8bc3NyBefNBQ	BCS	black_helicopter	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	29	leti , a   nije zelen	leti , a   nije zelen		black_helicopter	1	"c("""", """", """", """", """", """", """")"		NA
+vS5vu8bc3NyBefNBQ	BCS	green_shell	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	30	nije kocka ,a.iste je  boje	nije kocka ,a.iste je  boje		green_shell	1	"c("""", ""N"", """", """", """", """")"		NA
+vS5vu8bc3NyBefNBQ	BCS	purple_lock	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	31	kljuc	kljuc		purple_lock	1			NA
+vS5vu8bc3NyBefNBQ	BCS	yellow_butterfly	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	32	leti a nije plav	leti a nije plav		yellow_butterfly	1	"c("""", """", """", ""C"")"		NA
+vS5vu8bc3NyBefNBQ	BCS	red_dress	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	33	oblacis	oblacis		red_dress	1			NA
+vS5vu8bc3NyBefNBQ	BCS	orange_calendar	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	36	kalendar	kalendar		orange_calendar	1	N		NA
+vS5vu8bc3NyBefNBQ	BCS	orange_luggage	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	37	putujes	putujes		orange_luggage	1			NA
+vS5vu8bc3NyBefNBQ	BCS	green_ribbon	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	38	nije kravata	nije kravata		green_ribbon	1	"c("""", ""N"")"		NA
+vS5vu8bc3NyBefNBQ	BCS	orange_glove	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	40	nosis  a ruke ,a nisu  crne	nosis  a ruke ,a nisu  crne		orange_glove	1	"c("""", """", """", """", """", """", """", ""C"")"		NA
+vS5vu8bc3NyBefNBQ	BCS	red_guitar	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	41	sviras	sviras		red_guitar	1			NA
+vS5vu8bc3NyBefNBQ	BCS	blue_calculator	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	42	racunas plavo	racunas plavo		blue_calculator	1	"c("""", ""C"")"		NA
+vS5vu8bc3NyBefNBQ	BCS	purple_binoculars	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	43	gledasju ljubj asto	gledasju ljubj asto		purple_binoculars	1	"c("""", """", """")"		NA
+vS5vu8bc3NyBefNBQ	BCS	black_knife	feedback	scene4	"NA"	"NA"	"NA"	"NA"	2	NA	46	nije noz	nije noz		black_basket	0	"c("""", ""N"")"		NA
+vS5vu8bc3NyBefNBQ	BCS	white_pencil	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	48	pises a  nije plava	pises a  nije plava		white_pencil	1	"c("""", """", """", """", ""C"")"		NA
+vS5vu8bc3NyBefNBQ	BCS	white_belt	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	49	belo  nije knjiga	belo  nije knjiga		white_belt	1	"c(""C"", """", """", ""N"")"		NA
+vS5vu8bc3NyBefNBQ	BCS	yellow_candle	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	50	gori zuto	gori zuto		yellow_candle	1	"c("""", ""C"")"		NA
+vS5vu8bc3NyBefNBQ	BCS	black_necklace	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	51	nije viljuska	nije viljuska		black_necklace	1	"c("""", ""N"")"		NA
+vS5vu8bc3NyBefNBQ	BCS	orange_slipper	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	52	nosis na nogama	nosis na nogama		orange_slipper	1	"c("""", """", """")"		NA
+vS5vu8bc3NyBefNBQ	BCS	purple_fork	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	53	jedes snjom,a  nije zelena	jedes snjom,a  nije zelena		purple_fork	1	"c("""", """", """", """", ""C"")"		NA
+vS5vu8bc3NyBefNBQ	BCS	red_phone	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	54	vruca li ina__linija	vruca li ina		red_phone	1	"c("""", """", """")"		NA
+vS5vu8bc3NyBefNBQ	BCS	purple_hammer	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	55	udaras eksere	udaras eksere		purple_hammer	1	"c("""", """")"		NA
+vS5vu8bc3NyBefNBQ	BCS	blue_crown	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	57	kraljica	kraljica		blue_crown	1			NA
+vS5vu8bc3NyBefNBQ	BCS	yellow_scarf	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	58	oko vrata se  nosi,nije beo	oko vrata se  nosi,nije beo		yellow_scarf	1	"c("""", ""N"", """", """", """", ""C"")"		NA
+vS5vu8bc3NyBefNBQ	BCS	green_fish	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	60	pliva	pliva		green_fish	1			NA
+vS5vu8bc3NyBefNBQ	BCS	red_balloon	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	61	rodjendan crveni	rodjendan crveni		red_balloon	1	"c("""", ""C"")"		NA
+vS5vu8bc3NyBefNBQ	BCS	purple_sock	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	64	nosis na  nogama, a nije crna	nosis na  nogama, a nije crna		purple_sock	1	"c("""", """", """", """", """", """", ""C"")"		NA
+vS5vu8bc3NyBefNBQ	BCS	blue_mask	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	66	corona	corona		blue_mask	1			NA
+vS5vu8bc3NyBefNBQ	BCS	black_bowl	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	67	jedes iz  nje ,  crne bone	jedes iz  nje ,  crne bone		black_bowl	1	"c("""", """", """", """", """", """", ""C"", """")"		NA
+vS5vu8bc3NyBefNBQ	BCS	white_bed	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	68	pajkis	pajkis		white_bed	1			NA
+vS5vu8bc3NyBefNBQ	BCS	white_wallet	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	70	pare	pare		white_wallet	1			NA
+FhNwPhKTmjhCKxFtZ	BCS	red_guitar	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	2	crvena git	crvena git		red_guitar	1	"c(""C"", """")"		NA
+FhNwPhKTmjhCKxFtZ	BCS	orange_binoculars	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	3	dakekozot__nar	dakekozot		orange_binoculars	1			NA
+FhNwPhKTmjhCKxFtZ	BCS	black_screwdriver	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	5	saraf	saraf		black_screwdriver	1			NA
+FhNwPhKTmjhCKxFtZ	BCS	blue_balloon	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	7	plavi balon	plavi balon		blue_balloon	1	"c(""C"", ""N"")"		NA
+FhNwPhKTmjhCKxFtZ	BCS	yellow_iron	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	10	pegla	pegla		yellow_iron	1	N		NA
+FhNwPhKTmjhCKxFtZ	BCS	red_butterfly	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	12	leptir	leptir		red_butterfly	1	N		NA
+FhNwPhKTmjhCKxFtZ	BCS	black_calendar	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	14	kalenda	kalenda		black_calendar	1			NA
+FhNwPhKTmjhCKxFtZ	BCS	purple_helicopter	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	15	ljub helikopte	ljub helikopte		purple_helicopter	1	"c("""", """")"		NA
+FhNwPhKTmjhCKxFtZ	BCS	red_comb	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	16	crv cesal__cesalj	crv cesal		red_comb	1	"c("""", """")"		NA
+FhNwPhKTmjhCKxFtZ	BCS	black_glove	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	17	crna rukavicca	crna rukavicca		black_glove	1	"c(""C"", """")"		NA
+FhNwPhKTmjhCKxFtZ	BCS	black_robot	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	19	crni robot	crni robot		black_robot	1	"c(""C"", ""N"")"		NA
+FhNwPhKTmjhCKxFtZ	BCS	white_pencil	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	21	olovka	olovka		white_pencil	1	N		NA
+FhNwPhKTmjhCKxFtZ	BCS	white_fence	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	22	ograda	ograda		white_fence	1	N		NA
+FhNwPhKTmjhCKxFtZ	BCS	orange_luggage	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	23	kofer	kofer		orange_luggage	1	N		NA
+FhNwPhKTmjhCKxFtZ	BCS	purple_ribbon	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	25	masna	masna		purple_ribbon	1	N		NA
+FhNwPhKTmjhCKxFtZ	BCS	yellow_calculator	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	26	kalkulator	kalkulator		yellow_calculator	1	N		NA
+FhNwPhKTmjhCKxFtZ	BCS	yellow_belt	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	27	remen	remen		yellow_belt	1			NA
+FhNwPhKTmjhCKxFtZ	BCS	blue_book	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	28	knjiga	knjiga		blue_book	1	N		NA
+FhNwPhKTmjhCKxFtZ	BCS	red_phone	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	29	telefon	telefon		red_phone	1	N		NA
+FhNwPhKTmjhCKxFtZ	BCS	purple_fish	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	32	riba	riba		purple_fish	1	N		NA
+FhNwPhKTmjhCKxFtZ	BCS	green_basket	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	33	kosara	kosara		green_basket	1	N		NA
+FhNwPhKTmjhCKxFtZ	BCS	green_sock	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	36	zelena arapa	zelena arapa		green_sock	1	"c(""C"", """")"		NA
+FhNwPhKTmjhCKxFtZ	BCS	orange_drum	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	37	nar bubanj	nar bubanj		orange_drum	1	"c("""", ""N"")"		NA
+FhNwPhKTmjhCKxFtZ	BCS	blue_mug	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	38	plava salica	plava salica		blue_mug	1	"c(""C"", ""N"")"		NA
+FhNwPhKTmjhCKxFtZ	BCS	white_wallet	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	39	bijeli novcanik	bijeli novcanik		white_wallet	1	"c(""C"", ""N"")"		NA
+FhNwPhKTmjhCKxFtZ	BCS	orange_tie	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	40	nar kravata	nar kravata		orange_tie	1	"c("""", ""N"")"		NA
+FhNwPhKTmjhCKxFtZ	BCS	green_lock	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	42	lokot	lokot		green_lock	1	N		NA
+FhNwPhKTmjhCKxFtZ	BCS	orange_necklace	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	45	ogrlica	ogrlica		orange_necklace	1	N		NA
+FhNwPhKTmjhCKxFtZ	BCS	white_bed	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	48	bijeli krevet	bijeli krevet		white_bed	1	"c(""C"", ""N"")"		NA
+FhNwPhKTmjhCKxFtZ	BCS	blue_door	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	49	plava vrata	plava vrata		blue_door	1	"c(""C"", ""N"")"		NA
+FhNwPhKTmjhCKxFtZ	BCS	orange_shell	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	50	nar skoljka	nar skoljka		orange_shell	1	"c("""", ""N"")"		NA
+FhNwPhKTmjhCKxFtZ	BCS	black_slipper	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	51	slapa	slapa		black_slipper	1			NA
+FhNwPhKTmjhCKxFtZ	BCS	white_mask	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	52	bijela maska	bijela maska		white_mask	1	"c(""C"", ""N"")"		NA
+FhNwPhKTmjhCKxFtZ	BCS	black_truck	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	53	kamion	kamion		black_truck	1	N		NA
+FhNwPhKTmjhCKxFtZ	BCS	white_ring	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	54	srebrni prsten\	srebrni prsten\		white_ring	1	"c("""", """")"		NA
+FhNwPhKTmjhCKxFtZ	BCS	purple_hammer	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	57	cekic	cekic		purple_hammer	1	N		NA
+FhNwPhKTmjhCKxFtZ	BCS	red_dress	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	59	crevena haljina	crevena haljina		red_dress	1	"c("""", ""N"")"		NA
+FhNwPhKTmjhCKxFtZ	BCS	purple_microscope	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	61	ljub mikroskop	ljub mikroskop		purple_microscope	1	"c("""", ""N"")"		NA
+FhNwPhKTmjhCKxFtZ	BCS	purple_knife	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	62	ljub noy	ljub noy		purple_knife	1	"c("""", """")"		NA
+FhNwPhKTmjhCKxFtZ	BCS	blue_chair	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	63	plava stolica	plava stolica		blue_chair	1	"c(""C"", ""N"")"		NA
+FhNwPhKTmjhCKxFtZ	BCS	white_scarf	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	65	sal	sal		white_scarf	1	N		NA
+FhNwPhKTmjhCKxFtZ	BCS	orange_die	feedback	scene2	"NA"	"NA"	"NA"	"NA"	1	NA	66	nar kocka	nar kocka		orange_die	1	"c("""", ""N"")"		NA
+FhNwPhKTmjhCKxFtZ	BCS	red_cushion	feedback	scene1	"NA"	"NA"	"NA"	"NA"	1	NA	67	crvenii jastuk	crvenii jastuk		red_cushion	1	"c("""", ""N"")"		NA
+FhNwPhKTmjhCKxFtZ	BCS	blue_flower	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	68	plavi cvijet	plavi cvijet		blue_flower	1	"c(""C"", ""N"")"		NA
+FhNwPhKTmjhCKxFtZ	BCS	green_bowl	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	69	zelena posuda	zelena posuda		green_bowl	1	"c(""C"", """")"		NA
+FhNwPhKTmjhCKxFtZ	BCS	blue_crown	feedback	scene4	"NA"	"NA"	"NA"	"NA"	1	NA	70	plava kruna	plava kruna		blue_crown	1	"c(""C"", ""N"")"		NA
+FhNwPhKTmjhCKxFtZ	BCS	white_candle	feedback	scene3	"NA"	"NA"	"NA"	"NA"	1	NA	71	svijeca	svijeca		white_candle	1	N		NA

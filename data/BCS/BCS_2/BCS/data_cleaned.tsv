@@ -1,0 +1,903 @@
+gameId	language	stage	condition	alt1BasicLevel	alt1SuperLevel	alt2BasicLevel	alt2SuperLevel	listenerSelection	imageType	roundNumber	directorAllMessages	directorFirstMessage	guesserAllMessages	nameClickedObj	correct	words	sep	gender	target	clickedColor	clickedType	clickedSize	colorMentioned	nounMentioned	otherMethod	noun_mentioned	color_mentioned
+K6HsQtxkc3dnokJJY	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	2	narancasto i nose se stvari u tome	narancasto i nose se stvari u tome	NA	orange_basket	1	CO	NA	2	basket	orange	basket	0	TRUE	FALSE	TRUE	0	1
+K6HsQtxkc3dnokJJY	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	3	crveno i ima brojke	crveno i ima brojke	NA	red_phone	1	CO	NA	2	phone	red	phone	0	TRUE	FALSE	TRUE	0	1
+K6HsQtxkc3dnokJJY	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	5	zeleno	zeleno	NA	green_sock	1	C	NA	5	sock	green	sock	0	TRUE	FALSE	FALSE	0	1
+K6HsQtxkc3dnokJJY	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	6	narancasto__poke	narancasto	NA	orange_fork	1	C	NA	5	fork	orange	fork	0	TRUE	FALSE	FALSE	0	1
+K6HsQtxkc3dnokJJY	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	8	crno i glasno je	crno i glasno je	NA	black_drum	1	CO	NA	1	drum	black	drum	0	TRUE	FALSE	TRUE	0	1
+K6HsQtxkc3dnokJJY	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	9	narancasto i ravno	narancasto i ravno	NA	orange_tie	1	CO	NA	1	tie	orange	tie	0	TRUE	FALSE	TRUE	0	1
+K6HsQtxkc3dnokJJY	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	10	ljubicasta	ljubicasta	NA	purple_screwdriver	1	C	NA	6	screwdriver	purple	screwdriver	0	TRUE	FALSE	FALSE	0	1
+K6HsQtxkc3dnokJJY	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	12	volim sjediti na tom	volim sjediti na tom	NA	white_chair	1	O	NA	0	chair	white	chair	0	FALSE	FALSE	TRUE	0	0
+K6HsQtxkc3dnokJJY	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	13	lijepo mirise	lijepo mirise	NA	red_candle	1	CO	NA	0	candle	red	candle	0	TRUE	FALSE	TRUE	0	1
+K6HsQtxkc3dnokJJY	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	14	crno i ima brojeve opet	crno i ima brojeve opet	NA	black_calendar	1	CO	NA	2	calendar	black	calendar	0	TRUE	FALSE	TRUE	0	1
+K6HsQtxkc3dnokJJY	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	15	lijepo i crveno	lijepo i crveno	NA	red_butterfly	1	OC	NA	2	butterfly	red	butterfly	0	TRUE	FALSE	TRUE	0	1
+K6HsQtxkc3dnokJJY	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	16	moju spijunirat kroz njih	moju spijunirat kroz njih	NA	orange_binoculars	1	O	NA	2	binoculars	orange	binoculars	0	FALSE	FALSE	TRUE	0	0
+K6HsQtxkc3dnokJJY	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	17	nosim ih trenutno i narancasto je	nosim ih trenutno i narancasto je	NA	orange_slipper	1	OC	NA	2	slipper	orange	slipper	0	TRUE	FALSE	TRUE	0	1
+K6HsQtxkc3dnokJJY	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	19	crno i ima tocke	crno i ima tocke	NA	black_die	1	CO	NA	2	die	black	die	0	TRUE	FALSE	TRUE	0	1
+K6HsQtxkc3dnokJJY	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	21	crveno i mekano	crveno i mekano	NA	red_scarf	1	CO	NA	2	scarf	red	scarf	0	TRUE	FALSE	TRUE	0	1
+K6HsQtxkc3dnokJJY	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	22	helikopter helikopeeeeer	helikopter helikopeeeeer	NA	purple_helicopter	1	N	NA	0	helicopter	purple	helicopter	0	FALSE	TRUE	FALSE	1	0
+K6HsQtxkc3dnokJJY	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	23	plavo	plavo	NA	blue_ring	1	C	NA	5	ring	blue	ring	0	TRUE	FALSE	FALSE	0	1
+K6HsQtxkc3dnokJJY	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	26	opeci cu se ako ga dotaknem	opeci cu se ako ga dotaknem	NA	blue_iron	1	O	NA	0	iron	blue	iron	0	FALSE	FALSE	TRUE	0	0
+K6HsQtxkc3dnokJJY	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	27	zeleno i mora da je lijepo	zeleno i mora da je lijepo	NA	green_necklace	1	CO	NA	2	necklace	green	necklace	0	TRUE	FALSE	TRUE	0	1
+K6HsQtxkc3dnokJJY	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	30	a za provijeriti stanice	a za provijeriti stanice	NA	orange_microscope	1	O	NA	2	microscope	orange	microscope	0	FALSE	FALSE	TRUE	0	0
+K6HsQtxkc3dnokJJY	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	31	narancasto i suplje	narancasto i suplje	NA	orange_shell	1	CO	NA	2	shell	orange	shell	0	TRUE	FALSE	TRUE	0	1
+K6HsQtxkc3dnokJJY	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	32	otvara se	otvara se	NA	yellow_door	1	O	NA	0	door	yellow	door	0	FALSE	FALSE	TRUE	0	0
+K6HsQtxkc3dnokJJY	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	35	plavo i__izgleda mi ko siba__mlao	plavo i	i?	blue_belt	1	C	NA	0	belt	blue	belt	0	TRUE	FALSE	FALSE	0	1
+K6HsQtxkc3dnokJJY	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	36	bijelo za crkvu	bijelo za crkvu	NA	white_dress	1	CO	NA	2	dress	white	dress	0	TRUE	FALSE	TRUE	0	1
+K6HsQtxkc3dnokJJY	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	37	lijepo mirise i dosta je plavp	lijepo mirise i dosta je plavp	NA	blue_flower	1	OC	NA	2	flower	blue	flower	0	TRUE	FALSE	TRUE	0	1
+K6HsQtxkc3dnokJJY	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	38	svira__i bijelo	svira	NA	white_guitar	1	O	NA	0	guitar	white	guitar	0	FALSE	FALSE	TRUE	0	0
+K6HsQtxkc3dnokJJY	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	40	zakljucam pare sa njim i zeleno	zakljucam pare sa njim i zeleno	NA	green_lock	1	OC	NA	2	lock	green	lock	0	TRUE	FALSE	TRUE	0	1
+K6HsQtxkc3dnokJJY	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	41	izgleda ko bijeli cesalj	izgleda ko bijeli cesalj	NA	white_comb	1	CN	NA	2	comb	white	comb	0	TRUE	TRUE	FALSE	1	1
+K6HsQtxkc3dnokJJY	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	42	matematika plava	matematika plava	NA	blue_calculator	1	OC	NA	2	calculator	blue	calculator	0	TRUE	FALSE	TRUE	0	1
+K6HsQtxkc3dnokJJY	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	43	tuknem te sa time zelenim	tuknem te sa time zelenim	NA	green_hammer	1	OC	NA	2	hammer	green	hammer	0	TRUE	FALSE	TRUE	0	1
+K6HsQtxkc3dnokJJY	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	44	zelena ruka	zelena ruka	NA	green_glove	1	CO	NA	2	glove	green	glove	0	TRUE	FALSE	TRUE	0	1
+K6HsQtxkc3dnokJJY	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	45	zelena	zelena	NA	green_truck	1	C	NA	6	truck	green	truck	0	TRUE	FALSE	FALSE	0	1
+K6HsQtxkc3dnokJJY	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	46	elizabeth plava	elizabeth plava	NA	blue_crown	1	OC	NA	2	crown	blue	crown	0	TRUE	FALSE	TRUE	0	1
+K6HsQtxkc3dnokJJY	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	47	putovanje zelena	putovanje zelena	NA	green_luggage	1	OC	NA	2	luggage	green	luggage	0	TRUE	FALSE	TRUE	0	1
+K6HsQtxkc3dnokJJY	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	49	r2d2	r2d2	NA	black_robot	1	O	NA	0	robot	black	robot	0	FALSE	FALSE	TRUE	0	0
+K6HsQtxkc3dnokJJY	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	50	di mi je kartica?	di mi je kartica?	NA	white_wallet	1	O	NA	0	wallet	white	wallet	0	FALSE	FALSE	TRUE	0	0
+K6HsQtxkc3dnokJJY	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	52	voda__crna__pa kj nije crna riba	voda	riba?	black_fish	1	O	NA	0	fish	black	fish	0	FALSE	FALSE	TRUE	0	0
+K6HsQtxkc3dnokJJY	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	53	it 2 al zuti	it 2 al zuti	NA	yellow_balloon	1	OC	NA	2	balloon	yellow	balloon	0	TRUE	FALSE	TRUE	0	1
+K6HsQtxkc3dnokJJY	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	54	korona al ne zelena neg plava	korona al ne zelena neg plava	NA	blue_mask	1	OC	NA	2	mask	blue	mask	0	TRUE	FALSE	TRUE	0	1
+K6HsQtxkc3dnokJJY	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	56	spava mi se	spava mi se	NA	yellow_cushion	1	O	NA	0	cushion	yellow	cushion	0	FALSE	FALSE	TRUE	0	0
+K6HsQtxkc3dnokJJY	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	58	crna zdjela	crna zdjela	NA	black_bowl	1	CN	NA	1	bowl	black	bowl	0	TRUE	TRUE	FALSE	1	1
+K6HsQtxkc3dnokJJY	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	59	crveno drvo	crveno drvo	NA	red_fence	1	CN	NA	1	fence	red	fence	0	TRUE	TRUE	FALSE	1	1
+K6HsQtxkc3dnokJJY	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	61	zeleno	zeleno	NA	green_knife	1	C	NA	5	knife	green	knife	0	TRUE	FALSE	FALSE	0	1
+K6HsQtxkc3dnokJJY	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	64	nesto sto ne volim citat	nesto sto ne volim citat	NA	blue_book	1	O	NA	0	book	blue	book	0	FALSE	FALSE	TRUE	0	0
+K6HsQtxkc3dnokJJY	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	65	pije mi se kava__zuta	pije mi se kava	plava ili zuta?	yellow_mug	1	O	NA	0	mug	yellow	mug	0	FALSE	FALSE	TRUE	0	0
+K6HsQtxkc3dnokJJY	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	67	naranca	naranca	NA	orange_ribbon	1	C	NA	1	ribbon	orange	ribbon	0	TRUE	FALSE	FALSE	0	1
+K6HsQtxkc3dnokJJY	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	71	white__bijelo	white	NA	white_pencil	1	C	NA	0	pencil	white	pencil	0	TRUE	FALSE	FALSE	0	1
+K6HsQtxkc3dnokJJY	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	72	plavo	plavo	NA	blue_bed	1	C	NA	5	bed	blue	bed	0	TRUE	FALSE	FALSE	0	1
+FBvH572Wau2JNFPAd	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	1	zlatna kruna	zlatna kruna	NA	yellow_crown	1	CN	NA	1	crown	yellow	crown	0	TRUE	TRUE	FALSE	1	1
+FBvH572Wau2JNFPAd	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	2	helikopter	helikopter	NA	orange_helicopter	1	N	NA	0	helicopter	orange	helicopter	0	FALSE	TRUE	FALSE	1	0
+FBvH572Wau2JNFPAd	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	3	ljubicasti kamion	ljubicasti kamion	NA	purple_truck	1	CN	NA	1	truck	purple	truck	0	TRUE	TRUE	FALSE	1	1
+FBvH572Wau2JNFPAd	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	4	ljubicasta zdjela	ljubicasta zdjela	NA	purple_bowl	1	CN	NA	1	bowl	purple	bowl	0	TRUE	TRUE	FALSE	1	1
+FBvH572Wau2JNFPAd	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	5	crvena knjiga	crvena knjiga	NA	red_book	1	CN	NA	1	book	red	book	0	TRUE	TRUE	FALSE	1	1
+FBvH572Wau2JNFPAd	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	7	plavi kais	plavi kais	NA	blue_belt	1	CN	NA	1	belt	blue	belt	0	TRUE	TRUE	FALSE	1	1
+FBvH572Wau2JNFPAd	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	10	bijeli jastuk	bijeli jastuk	NA	white_cushion	1	CN	NA	1	cushion	white	cushion	0	TRUE	TRUE	FALSE	1	1
+FBvH572Wau2JNFPAd	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	12	noz	noz	NA	black_knife	1	N	NA	0	knife	black	knife	0	FALSE	TRUE	FALSE	1	0
+FBvH572Wau2JNFPAd	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	14	plava haljina	plava haljina	NA	blue_dress	1	CN	NA	1	dress	blue	dress	0	TRUE	TRUE	FALSE	1	1
+FBvH572Wau2JNFPAd	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	16	bijela maska	bijela maska	NA	white_mask	1	CN	NA	1	mask	white	mask	0	TRUE	TRUE	FALSE	1	1
+FBvH572Wau2JNFPAd	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	18	crni lancic	crni lancic	NA	black_necklace	1	CN	NA	1	necklace	black	necklace	0	TRUE	TRUE	FALSE	1	1
+FBvH572Wau2JNFPAd	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	19	ljubicasti dvogled	ljubicasti dvogled	NA	purple_binoculars	1	CN	NA	1	binoculars	purple	binoculars	0	TRUE	TRUE	FALSE	1	1
+FBvH572Wau2JNFPAd	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	20	crni cekic	crni cekic	NA	black_hammer	1	CN	NA	1	hammer	black	hammer	0	TRUE	TRUE	FALSE	1	1
+FBvH572Wau2JNFPAd	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	22	zelena papuca	zelena papuca	NA	green_slipper	1	CN	NA	1	slipper	green	slipper	0	TRUE	TRUE	FALSE	1	1
+FBvH572Wau2JNFPAd	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	23	crna riba	crna riba	NA	black_fish	1	CN	NA	1	fish	black	fish	0	TRUE	TRUE	FALSE	1	1
+FBvH572Wau2JNFPAd	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	25	ljubicasti kalendar	ljubicasti kalendar	NA	purple_calendar	1	CN	NA	1	calendar	purple	calendar	0	TRUE	TRUE	FALSE	1	1
+FBvH572Wau2JNFPAd	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	28	ljubicasta rukavica	ljubicasta rukavica	NA	purple_glove	1	CN	NA	1	glove	purple	glove	0	TRUE	TRUE	FALSE	1	1
+FBvH572Wau2JNFPAd	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	29	crna masna	crna masna	NA	black_ribbon	1	CN	NA	1	ribbon	black	ribbon	0	TRUE	TRUE	FALSE	1	1
+FBvH572Wau2JNFPAd	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	30	kosara__narancasta	kosara	NA	orange_basket	1	N	NA	0	basket	orange	basket	0	FALSE	TRUE	FALSE	1	0
+FBvH572Wau2JNFPAd	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	32	prsten	prsten	NA	white_ring	1	N	NA	0	ring	white	ring	0	FALSE	TRUE	FALSE	1	0
+FBvH572Wau2JNFPAd	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	33	plava vrata	plava vrata	NA	blue_door	1	CN	NA	1	door	blue	door	0	TRUE	TRUE	FALSE	1	1
+FBvH572Wau2JNFPAd	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	34	ljubicasta carapa	ljubicasta carapa	NA	purple_sock	1	CN	NA	1	sock	purple	sock	0	TRUE	TRUE	FALSE	1	1
+FBvH572Wau2JNFPAd	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	35	zuti cesalj	zuti cesalj	NA	yellow_comb	1	CN	NA	1	comb	yellow	comb	0	TRUE	TRUE	FALSE	1	1
+FBvH572Wau2JNFPAd	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	36	crni sarafciger	crni sarafciger	NA	black_screwdriver	1	CN	NA	1	screwdriver	black	screwdriver	0	TRUE	TRUE	FALSE	1	1
+FBvH572Wau2JNFPAd	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	37	zeleni kofer	zeleni kofer	NA	green_luggage	1	CN	NA	1	luggage	green	luggage	0	TRUE	TRUE	FALSE	1	1
+FBvH572Wau2JNFPAd	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	39	bijela gitara	bijela gitara	NA	white_guitar	1	CN	NA	1	guitar	white	guitar	0	TRUE	TRUE	FALSE	1	1
+FBvH572Wau2JNFPAd	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	41	crni banj__bubanj	crni banj	NA	black_drum	1	CN	NA	1	drum	black	drum	0	TRUE	TRUE	FALSE	1	1
+FBvH572Wau2JNFPAd	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	42	zuta solja	zuta solja	NA	yellow_mug	1	CN	NA	1	mug	yellow	mug	0	TRUE	TRUE	FALSE	1	1
+FBvH572Wau2JNFPAd	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	43	zuti leptir	zuti leptir	NA	yellow_butterfly	1	CN	NA	1	butterfly	yellow	butterfly	0	TRUE	TRUE	FALSE	1	1
+FBvH572Wau2JNFPAd	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	44	plavi balon	plavi balon	NA	blue_balloon	1	CN	NA	1	balloon	blue	balloon	0	TRUE	TRUE	FALSE	1	1
+FBvH572Wau2JNFPAd	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	46	plavi cvijet	plavi cvijet	NA	blue_flower	1	CN	NA	1	flower	blue	flower	0	TRUE	TRUE	FALSE	1	1
+FBvH572Wau2JNFPAd	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	48	zeleni mikroskop	zeleni mikroskop	NA	green_microscope	1	CN	NA	1	microscope	green	microscope	0	TRUE	TRUE	FALSE	1	1
+FBvH572Wau2JNFPAd	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	49	crna kravata	crna kravata	NA	black_tie	1	CN	NA	1	tie	black	tie	0	TRUE	TRUE	FALSE	1	1
+FBvH572Wau2JNFPAd	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	51	bijeli kalkulator	bijeli kalkulator	NA	white_calculator	1	CN	NA	1	calculator	white	calculator	0	TRUE	TRUE	FALSE	1	1
+FBvH572Wau2JNFPAd	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	54	crveni sal	crveni sal	NA	red_scarf	1	CN	NA	1	scarf	red	scarf	0	TRUE	TRUE	FALSE	1	1
+FBvH572Wau2JNFPAd	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	55	crvena stolica	crvena stolica	NA	red_chair	1	CN	NA	1	chair	red	chair	0	TRUE	TRUE	FALSE	1	1
+FBvH572Wau2JNFPAd	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	57	crna skoljka	crna skoljka	NA	black_shell	1	CN	NA	1	shell	black	shell	0	TRUE	TRUE	FALSE	1	1
+FBvH572Wau2JNFPAd	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	58	ljubicasti lokot	ljubicasti lokot	NA	purple_lock	1	CN	NA	1	lock	purple	lock	0	TRUE	TRUE	FALSE	1	1
+FBvH572Wau2JNFPAd	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	59	bijeli novcanik	bijeli novcanik	NA	white_wallet	1	CN	NA	1	wallet	white	wallet	0	TRUE	TRUE	FALSE	1	1
+FBvH572Wau2JNFPAd	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	60	plava olovka	plava olovka	NA	blue_pencil	1	CN	NA	1	pencil	blue	pencil	0	TRUE	TRUE	FALSE	1	1
+FBvH572Wau2JNFPAd	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	61	zelena vilica	zelena vilica	NA	green_fork	1	CN	NA	1	fork	green	fork	0	TRUE	TRUE	FALSE	1	1
+FBvH572Wau2JNFPAd	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	63	zuti telefon	zuti telefon	NA	yellow_phone	1	CN	NA	1	phone	yellow	phone	0	TRUE	TRUE	FALSE	1	1
+FBvH572Wau2JNFPAd	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	64	zuta svijeca	zuta svijeca	NA	yellow_candle	1	CN	NA	1	candle	yellow	candle	0	TRUE	TRUE	FALSE	1	1
+FBvH572Wau2JNFPAd	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	67	bijela pegla	bijela pegla	NA	white_iron	1	CN	NA	1	iron	white	iron	0	TRUE	TRUE	FALSE	1	1
+FBvH572Wau2JNFPAd	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	68	narancasti robot	narancasti robot	NA	orange_robot	1	CN	NA	1	robot	orange	robot	0	TRUE	TRUE	FALSE	1	1
+FBvH572Wau2JNFPAd	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	69	zuta ograda	zuta ograda	NA	yellow_fence	1	CN	NA	1	fence	yellow	fence	0	TRUE	TRUE	FALSE	1	1
+FBvH572Wau2JNFPAd	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	71	ljubicasta kockica	ljubicasta kockica	NA	purple_die	1	CN	NA	1	die	purple	die	0	TRUE	TRUE	FALSE	1	1
+FBvH572Wau2JNFPAd	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	72	bijeli krevet	bijeli krevet	NA	white_bed	1	CN	NA	1	bed	white	bed	0	TRUE	TRUE	FALSE	1	1
+SDnSq39xk7syFcq9Z	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	1	cvet	cvet	NA	blue_flower	1	N	NA	0	flower	blue	flower	0	FALSE	TRUE	FALSE	1	0
+SDnSq39xk7syFcq9Z	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	2	krevet	krevet	NA	blue_bed	1	N	NA	0	bed	blue	bed	0	FALSE	TRUE	FALSE	1	0
+SDnSq39xk7syFcq9Z	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	4	kockica	kockica	NA	black_die	1	N	NA	0	die	black	die	0	FALSE	TRUE	FALSE	1	0
+SDnSq39xk7syFcq9Z	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	5	katanac__zeleni	katanac	moje boje	green_lock	1	N	NA	0	lock	green	lock	0	FALSE	TRUE	FALSE	1	0
+SDnSq39xk7syFcq9Z	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	6	kruna	kruna	NA	white_crown	1	N	NA	0	crown	white	crown	0	FALSE	TRUE	FALSE	1	0
+SDnSq39xk7syFcq9Z	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	7	plava ograda	plava ograda	NA	blue_fence	1	CN	NA	1	fence	blue	fence	0	TRUE	TRUE	FALSE	1	1
+SDnSq39xk7syFcq9Z	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	10	kniga	kniga	NA	white_book	1	N	NA	0	book	white	book	0	FALSE	TRUE	FALSE	1	0
+SDnSq39xk7syFcq9Z	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	11	sal	sal	NA	blue_scarf	1	N	NA	0	scarf	blue	scarf	0	FALSE	TRUE	FALSE	1	0
+SDnSq39xk7syFcq9Z	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	14	zeleni robot	zeleni robot	NA	green_robot	1	CN	NA	1	robot	green	robot	0	TRUE	TRUE	FALSE	1	1
+SDnSq39xk7syFcq9Z	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	15	bubanj	bubanj	NA	black_drum	1	N	NA	1	drum	black	drum	0	FALSE	TRUE	FALSE	1	0
+SDnSq39xk7syFcq9Z	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	16	zelena papuca	zelena papuca	NA	green_slipper	1	CN	NA	0	slipper	green	slipper	0	TRUE	TRUE	FALSE	1	1
+SDnSq39xk7syFcq9Z	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	18	vrata	vrata	NA	red_door	1	N	NA	0	door	red	door	0	FALSE	TRUE	FALSE	1	0
+SDnSq39xk7syFcq9Z	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	20	narandzasta skoljka	narandzasta skoljka	NA	orange_shell	1	CN	NA	1	shell	orange	shell	0	TRUE	TRUE	FALSE	1	1
+SDnSq39xk7syFcq9Z	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	21	plavi cesalj	plavi cesalj	NA	blue_comb	1	CN	NA	1	comb	blue	comb	0	TRUE	TRUE	FALSE	1	1
+SDnSq39xk7syFcq9Z	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	24	olovka	olovka	NA	yellow_pencil	1	N	NA	0	pencil	yellow	pencil	0	FALSE	TRUE	FALSE	1	0
+SDnSq39xk7syFcq9Z	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	25	kravata	kravata	NA	green_tie	1	N	NA	0	tie	green	tie	0	FALSE	TRUE	FALSE	1	0
+SDnSq39xk7syFcq9Z	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	26	zuti kais	zuti kais	NA	yellow_belt	1	CN	NA	1	belt	yellow	belt	0	TRUE	TRUE	FALSE	1	1
+SDnSq39xk7syFcq9Z	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	27	crveni jastuk	crveni jastuk	NA	red_cushion	1	CN	NA	1	cushion	red	cushion	0	TRUE	TRUE	FALSE	1	1
+SDnSq39xk7syFcq9Z	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	29	kamion	kamion	NA	purple_truck	1	N	NA	0	truck	purple	truck	0	FALSE	TRUE	FALSE	1	0
+SDnSq39xk7syFcq9Z	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	30	riba	riba	NA	purple_fish	1	N	NA	0	fish	purple	fish	0	FALSE	TRUE	FALSE	1	0
+SDnSq39xk7syFcq9Z	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	31	dvogled	dvogled	NA	green_binoculars	1	N	NA	0	binoculars	green	binoculars	0	FALSE	TRUE	FALSE	1	0
+SDnSq39xk7syFcq9Z	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	32	ljubicasta cinija	ljubicasta cinija	NA	purple_bowl	1	CN	NA	1	bowl	purple	bowl	0	TRUE	TRUE	FALSE	1	1
+SDnSq39xk7syFcq9Z	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	34	kalendar	kalendar	NA	purple_calendar	1	N	NA	0	calendar	purple	calendar	0	FALSE	TRUE	FALSE	1	0
+SDnSq39xk7syFcq9Z	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	35	crvena stolica	crvena stolica	NA	red_chair	1	CN	NA	1	chair	red	chair	0	TRUE	TRUE	FALSE	1	1
+SDnSq39xk7syFcq9Z	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	36	bela haljina	bela haljina	NA	white_dress	1	CN	NA	1	dress	white	dress	0	TRUE	TRUE	FALSE	1	1
+SDnSq39xk7syFcq9Z	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	37	crni kofer	crni kofer	NA	black_luggage	1	CN	NA	1	luggage	black	luggage	0	TRUE	TRUE	FALSE	1	1
+SDnSq39xk7syFcq9Z	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	38	crni helikopter	crni helikopter	NA	black_helicopter	1	CN	NA	1	helicopter	black	helicopter	0	TRUE	TRUE	FALSE	1	1
+SDnSq39xk7syFcq9Z	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	39	cekic	cekic	NA	orange_hammer	1	N	NA	0	hammer	orange	hammer	0	FALSE	TRUE	FALSE	1	0
+SDnSq39xk7syFcq9Z	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	41	telefo	telefo	NA	red_phone	1	N	NA	0	phone	red	phone	0	FALSE	TRUE	FALSE	1	0
+SDnSq39xk7syFcq9Z	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	43	crna carapa	crna carapa	NA	black_sock	1	CN	NA	1	sock	black	sock	0	TRUE	TRUE	FALSE	1	1
+SDnSq39xk7syFcq9Z	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	44	leptir	leptir	NA	white_butterfly	1	N	NA	0	butterfly	white	butterfly	0	FALSE	TRUE	FALSE	1	0
+SDnSq39xk7syFcq9Z	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	45	balon	balon	NA	blue_balloon	1	N	NA	0	balloon	blue	balloon	0	FALSE	TRUE	FALSE	1	0
+SDnSq39xk7syFcq9Z	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	46	plavi prsten	plavi prsten	NA	blue_ring	1	CN	NA	1	ring	blue	ring	0	TRUE	TRUE	FALSE	1	1
+SDnSq39xk7syFcq9Z	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	47	korpa	korpa	NA	black_basket	1	N	NA	0	basket	black	basket	0	FALSE	TRUE	FALSE	1	0
+SDnSq39xk7syFcq9Z	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	50	mikroskop	mikroskop	NA	green_microscope	1	N	NA	0	microscope	green	microscope	0	FALSE	TRUE	FALSE	1	0
+SDnSq39xk7syFcq9Z	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	53	plava maska	plava maska	NA	blue_mask	1	CN	NA	1	mask	blue	mask	0	TRUE	TRUE	FALSE	1	1
+SDnSq39xk7syFcq9Z	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	54	ljubicasti srafciger	ljubicasti srafciger	NA	purple_screwdriver	1	CN	NA	1	screwdriver	purple	screwdriver	0	TRUE	TRUE	FALSE	1	1
+SDnSq39xk7syFcq9Z	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	55	crna masna	crna masna	NA	black_ribbon	1	CN	NA	1	ribbon	black	ribbon	0	TRUE	TRUE	FALSE	1	1
+SDnSq39xk7syFcq9Z	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	58	sveca	sveca	NA	yellow_candle	1	N	NA	0	candle	yellow	candle	0	FALSE	TRUE	FALSE	1	0
+SDnSq39xk7syFcq9Z	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	60	narandzasta ogrlica	narandzasta ogrlica	NA	orange_necklace	1	CN	NA	1	necklace	orange	necklace	0	TRUE	TRUE	FALSE	1	1
+SDnSq39xk7syFcq9Z	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	61	zuti digitron	zuti digitron	NA	yellow_calculator	1	CN	NA	1	calculator	yellow	calculator	0	TRUE	TRUE	FALSE	1	1
+SDnSq39xk7syFcq9Z	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	62	narandzasti noz	narandzasti noz	NA	orange_knife	1	CN	NA	1	knife	orange	knife	0	TRUE	TRUE	FALSE	1	1
+SDnSq39xk7syFcq9Z	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	64	zuta pegla	zuta pegla	NA	yellow_iron	1	CN	NA	1	iron	yellow	iron	0	TRUE	TRUE	FALSE	1	1
+SDnSq39xk7syFcq9Z	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	65	viljuska	viljuska	NA	orange_fork	1	N	NA	0	fork	orange	fork	0	FALSE	TRUE	FALSE	1	0
+SDnSq39xk7syFcq9Z	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	66	novcanik	novcanik	NA	white_wallet	1	N	NA	0	wallet	white	wallet	0	FALSE	TRUE	FALSE	1	0
+SDnSq39xk7syFcq9Z	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	68	rukavica	rukavica	NA	black_glove	1	N	NA	0	glove	black	glove	0	FALSE	TRUE	FALSE	1	0
+SDnSq39xk7syFcq9Z	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	69	plava solja	plava solja	NA	blue_mug	1	CN	NA	1	mug	blue	mug	0	TRUE	TRUE	FALSE	1	1
+SDnSq39xk7syFcq9Z	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	70	plava gitara	plava gitara	NA	blue_guitar	1	CN	NA	1	guitar	blue	guitar	0	TRUE	TRUE	FALSE	1	1
+N7QtB9BQsC9ESxd3t	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	1	kalendar	kalendar	NA	green_calendar	1	N	NA	0	calendar	green	calendar	0	FALSE	TRUE	FALSE	1	0
+N7QtB9BQsC9ESxd3t	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	2	noz__zlatni	noz	kakav	orange_knife	1	N	NA	0	knife	orange	knife	0	FALSE	TRUE	FALSE	1	0
+N7QtB9BQsC9ESxd3t	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	3	zuti telefon	zuti telefon	NA	yellow_phone	1	CN	NA	1	phone	yellow	phone	0	TRUE	TRUE	FALSE	1	1
+N7QtB9BQsC9ESxd3t	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	4	crvena olovka	crvena olovka	NA	red_pencil	1	CN	NA	1	pencil	red	pencil	0	TRUE	TRUE	FALSE	1	1
+N7QtB9BQsC9ESxd3t	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	5	bijela vrata	bijela vrata	NA	white_door	1	CN	NA	1	door	white	door	0	TRUE	TRUE	FALSE	1	1
+N7QtB9BQsC9ESxd3t	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	6	zeleni katanac	zeleni katanac	NA	green_lock	1	CN	NA	1	lock	green	lock	0	TRUE	TRUE	FALSE	1	1
+N7QtB9BQsC9ESxd3t	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	8	kockica	kockica	NA	purple_die	1	N	NA	0	die	purple	die	0	FALSE	TRUE	FALSE	1	0
+N7QtB9BQsC9ESxd3t	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	9	plava gitara	plava gitara	NA	blue_guitar	1	CN	NA	1	guitar	blue	guitar	0	TRUE	TRUE	FALSE	1	1
+N7QtB9BQsC9ESxd3t	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	10	ljubicasta rukavica	ljubicasta rukavica	NA	purple_glove	1	CN	NA	1	glove	purple	glove	0	TRUE	TRUE	FALSE	1	1
+N7QtB9BQsC9ESxd3t	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	14	zelena riba	zelena riba	NA	green_fish	1	CN	NA	1	fish	green	fish	0	TRUE	TRUE	FALSE	1	1
+N7QtB9BQsC9ESxd3t	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	15	plava ograda	plava ograda	NA	blue_fence	1	CN	NA	1	fence	blue	fence	0	TRUE	TRUE	FALSE	1	1
+N7QtB9BQsC9ESxd3t	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	16	crvena stolica	crvena stolica	NA	red_chair	1	CN	NA	1	chair	red	chair	0	TRUE	TRUE	FALSE	1	1
+N7QtB9BQsC9ESxd3t	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	17	crveni kais	crveni kais	NA	red_belt	1	CN	NA	1	belt	red	belt	0	TRUE	TRUE	FALSE	1	1
+N7QtB9BQsC9ESxd3t	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	18	knjiga zutih korica	knjiga zutih korica	NA	yellow_book	1	ONC	NA	1	book	yellow	book	0	TRUE	TRUE	TRUE	1	1
+N7QtB9BQsC9ESxd3t	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	20	plavi jastuk	plavi jastuk	NA	blue_cushion	1	CN	NA	1	cushion	blue	cushion	0	TRUE	TRUE	FALSE	1	1
+N7QtB9BQsC9ESxd3t	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	21	crna zdjela	crna zdjela	NA	black_bowl	1	CN	NA	1	bowl	black	bowl	0	TRUE	TRUE	FALSE	1	1
+N7QtB9BQsC9ESxd3t	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	22	crna carapa	crna carapa	NA	black_sock	1	CN	NA	1	sock	black	sock	0	TRUE	TRUE	FALSE	1	1
+N7QtB9BQsC9ESxd3t	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	23	plavi balon	plavi balon	NA	blue_balloon	1	CN	NA	1	balloon	blue	balloon	0	TRUE	TRUE	FALSE	1	1
+N7QtB9BQsC9ESxd3t	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	25	zelena skoljka	zelena skoljka	NA	green_shell	1	CN	NA	1	shell	green	shell	0	TRUE	TRUE	FALSE	1	1
+N7QtB9BQsC9ESxd3t	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	26	narancasti mikroskop	narancasti mikroskop	NA	orange_microscope	1	CN	NA	1	microscope	orange	microscope	0	TRUE	TRUE	FALSE	1	1
+N7QtB9BQsC9ESxd3t	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	27	narandzasta ogrlica	narandzasta ogrlica	NA	orange_necklace	1	CN	NA	1	necklace	orange	necklace	0	TRUE	TRUE	FALSE	1	1
+N7QtB9BQsC9ESxd3t	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	28	ljubicasta korpa	ljubicasta korpa	NA	purple_basket	1	CN	NA	1	basket	purple	basket	0	TRUE	TRUE	FALSE	1	1
+N7QtB9BQsC9ESxd3t	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	29	crvena kruna	crvena kruna	NA	red_crown	1	CN	NA	1	crown	red	crown	0	TRUE	TRUE	FALSE	1	1
+N7QtB9BQsC9ESxd3t	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	30	narandzasti cekic	narandzasti cekic	NA	orange_hammer	1	CN	NA	1	hammer	orange	hammer	0	TRUE	TRUE	FALSE	1	1
+N7QtB9BQsC9ESxd3t	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	32	crna papuca	crna papuca	NA	black_slipper	1	CN	NA	1	slipper	black	slipper	0	TRUE	TRUE	FALSE	1	1
+N7QtB9BQsC9ESxd3t	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	33	plavi krevet	plavi krevet	NA	blue_bed	1	CN	NA	1	bed	blue	bed	0	TRUE	TRUE	FALSE	1	1
+N7QtB9BQsC9ESxd3t	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	34	ljubicasti robot	ljubicasti robot	NA	purple_robot	1	CN	NA	1	robot	purple	robot	0	TRUE	TRUE	FALSE	1	1
+N7QtB9BQsC9ESxd3t	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	35	bijeli cesalj	bijeli cesalj	NA	white_comb	1	CN	NA	1	comb	white	comb	0	TRUE	TRUE	FALSE	1	1
+N7QtB9BQsC9ESxd3t	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	37	bijeli cvijet	bijeli cvijet	NA	white_flower	1	CN	NA	1	flower	white	flower	0	TRUE	TRUE	FALSE	1	1
+N7QtB9BQsC9ESxd3t	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	38	zuti digitron	zuti digitron	NA	yellow_calculator	1	CN	NA	1	calculator	yellow	calculator	0	TRUE	TRUE	FALSE	1	1
+N7QtB9BQsC9ESxd3t	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	40	crna masna	crna masna	NA	black_ribbon	1	CN	NA	1	ribbon	black	ribbon	0	TRUE	TRUE	FALSE	1	1
+N7QtB9BQsC9ESxd3t	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	41	zuta maska	zuta maska	NA	yellow_mask	1	CN	NA	1	mask	yellow	mask	0	TRUE	TRUE	FALSE	1	1
+N7QtB9BQsC9ESxd3t	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	42	plavi prsten	plavi prsten	NA	blue_ring	1	CN	NA	1	ring	blue	ring	0	TRUE	TRUE	FALSE	1	1
+N7QtB9BQsC9ESxd3t	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	45	ljubicasta kravata	ljubicasta kravata	NA	purple_tie	1	CN	NA	1	tie	purple	tie	0	TRUE	TRUE	FALSE	1	1
+N7QtB9BQsC9ESxd3t	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	48	bubanj__zelene	bubanj	koje boje?	green_drum	1	N	NA	0	drum	green	drum	0	FALSE	TRUE	FALSE	1	0
+N7QtB9BQsC9ESxd3t	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	49	plavi leptir	plavi leptir	NA	blue_butterfly	1	CN	NA	1	butterfly	blue	butterfly	0	TRUE	TRUE	FALSE	1	1
+N7QtB9BQsC9ESxd3t	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	50	bijela haljina	bijela haljina	NA	white_dress	1	CN	NA	1	dress	white	dress	0	TRUE	TRUE	FALSE	1	1
+N7QtB9BQsC9ESxd3t	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	52	plava pegla	plava pegla	NA	blue_iron	1	CN	NA	1	iron	blue	iron	0	TRUE	TRUE	FALSE	1	1
+N7QtB9BQsC9ESxd3t	BCS	feedback	scene1	NA	NA	NA	NA	6	pophristic_stimuli	54	viljuska narandzasta	viljuska narandzasta	NA	orange_fork	0	NC	NA	1	fork	orange	fork	0	TRUE	TRUE	FALSE	1	1
+N7QtB9BQsC9ESxd3t	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	59	narandzasti helikopter	narandzasti helikopter	NA	orange_helicopter	1	CN	NA	1	helicopter	orange	helicopter	0	TRUE	TRUE	FALSE	1	1
+N7QtB9BQsC9ESxd3t	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	60	narandzasti kamion	narandzasti kamion	NA	orange_truck	1	CN	NA	1	truck	orange	truck	0	TRUE	TRUE	FALSE	1	1
+N7QtB9BQsC9ESxd3t	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	61	bijela svijeca	bijela svijeca	NA	white_candle	1	CN	NA	1	candle	white	candle	0	TRUE	TRUE	FALSE	1	1
+N7QtB9BQsC9ESxd3t	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	62	plavi novcanik	plavi novcanik	NA	blue_wallet	1	CN	NA	1	wallet	blue	wallet	0	TRUE	TRUE	FALSE	1	1
+N7QtB9BQsC9ESxd3t	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	64	narandzasti dvogled	narandzasti dvogled	NA	orange_binoculars	1	CN	NA	1	binoculars	orange	binoculars	0	TRUE	TRUE	FALSE	1	1
+N7QtB9BQsC9ESxd3t	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	66	sal	sal	NA	blue_scarf	1	N	NA	0	scarf	blue	scarf	0	FALSE	TRUE	FALSE	1	0
+N7QtB9BQsC9ESxd3t	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	69	kofer	kofer	NA	black_luggage	1	N	NA	0	luggage	black	luggage	0	FALSE	TRUE	FALSE	1	0
+N7QtB9BQsC9ESxd3t	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	71	plava solja	plava solja	NA	blue_mug	1	CN	NA	1	mug	blue	mug	0	TRUE	TRUE	FALSE	1	1
+N7QtB9BQsC9ESxd3t	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	72	sraufciger	sraufciger	NA	black_screwdriver	1	N	NA	0	screwdriver	black	screwdriver	0	FALSE	TRUE	FALSE	1	0
+5bFKYE9pB9xSBeWGK	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	1	drvena korpa__obicna	drvena korpa	aj bre__koja	orange_basket	1	CN	NA	0	basket	orange	basket	0	TRUE	TRUE	FALSE	1	1
+5bFKYE9pB9xSBeWGK	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	2	ljubicasti helikopter	ljubicasti helikopter	NA	purple_helicopter	1	CN	NA	1	helicopter	purple	helicopter	0	TRUE	TRUE	FALSE	1	1
+5bFKYE9pB9xSBeWGK	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	5	prsten	prsten	NA	yellow_ring	1	N	NA	0	ring	yellow	ring	0	FALSE	TRUE	FALSE	1	0
+5bFKYE9pB9xSBeWGK	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	6	zeleni dvogled	zeleni dvogled	NA	green_binoculars	1	CN	NA	1	binoculars	green	binoculars	0	TRUE	TRUE	FALSE	1	1
+5bFKYE9pB9xSBeWGK	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	7	narandzasta kockica	narandzasta kockica	NA	orange_die	1	CN	NA	1	die	orange	die	0	TRUE	TRUE	FALSE	1	1
+5bFKYE9pB9xSBeWGK	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	9	ljubicasta rukavica	ljubicasta rukavica	NA	purple_glove	1	CN	NA	1	glove	purple	glove	0	TRUE	TRUE	FALSE	1	1
+5bFKYE9pB9xSBeWGK	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	11	bela vrata	bela vrata	NA	white_door	1	CN	NA	1	door	white	door	0	TRUE	TRUE	FALSE	1	1
+5bFKYE9pB9xSBeWGK	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	12	srafciger	srafciger	NA	orange_screwdriver	1	N	NA	0	screwdriver	orange	screwdriver	0	FALSE	TRUE	FALSE	1	0
+5bFKYE9pB9xSBeWGK	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	13	koronka	koronka	NA	white_mask	1	N	NA	0	mask	white	mask	0	FALSE	TRUE	FALSE	1	0
+5bFKYE9pB9xSBeWGK	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	15	bela sveca	bela sveca	NA	white_candle	1	CN	NA	1	candle	white	candle	0	TRUE	TRUE	FALSE	1	1
+5bFKYE9pB9xSBeWGK	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	17	robot	robot	NA	black_robot	1	N	NA	0	robot	black	robot	0	FALSE	TRUE	FALSE	1	0
+5bFKYE9pB9xSBeWGK	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	18	masna	masna	NA	green_ribbon	1	N	NA	0	ribbon	green	ribbon	0	FALSE	TRUE	FALSE	1	0
+5bFKYE9pB9xSBeWGK	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	19	bela kruna	bela kruna	NA	white_crown	1	CN	NA	1	crown	white	crown	0	TRUE	TRUE	FALSE	1	1
+5bFKYE9pB9xSBeWGK	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	20	zuti balon	zuti balon	NA	yellow_balloon	1	CN	NA	1	balloon	yellow	balloon	0	TRUE	TRUE	FALSE	1	1
+5bFKYE9pB9xSBeWGK	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	21	ljubicasti cekic	ljubicasti cekic	NA	purple_hammer	1	CN	NA	1	hammer	purple	hammer	0	TRUE	TRUE	FALSE	1	1
+5bFKYE9pB9xSBeWGK	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	23	zeleni kalendar	zeleni kalendar	NA	green_calendar	1	CN	NA	1	calendar	green	calendar	0	TRUE	TRUE	FALSE	1	1
+5bFKYE9pB9xSBeWGK	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	25	kravata__crna	kravata	NA	black_tie	1	N	NA	0	tie	black	tie	0	FALSE	TRUE	FALSE	1	0
+5bFKYE9pB9xSBeWGK	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	26	pegla	pegla	NA	yellow_iron	1	N	NA	0	iron	yellow	iron	0	FALSE	TRUE	FALSE	1	0
+5bFKYE9pB9xSBeWGK	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	27	gitara__elektricna	gitara	NA	red_guitar	1	N	NA	0	guitar	red	guitar	0	FALSE	TRUE	FALSE	1	0
+5bFKYE9pB9xSBeWGK	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	29	crvena ograda	crvena ograda	NA	red_fence	1	CN	NA	1	fence	red	fence	0	TRUE	TRUE	FALSE	1	1
+5bFKYE9pB9xSBeWGK	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	30	crveni telefon	crveni telefon	NA	red_phone	1	CN	NA	1	phone	red	phone	0	TRUE	TRUE	FALSE	1	1
+5bFKYE9pB9xSBeWGK	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	31	viljuska crna	viljuska crna	NA	black_fork	1	NC	NA	1	fork	black	fork	0	TRUE	TRUE	FALSE	1	1
+5bFKYE9pB9xSBeWGK	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	33	cesalj	cesalj	NA	blue_comb	1	N	NA	0	comb	blue	comb	0	FALSE	TRUE	FALSE	1	0
+5bFKYE9pB9xSBeWGK	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	35	jastuk	jastuk	NA	yellow_cushion	1	N	NA	0	cushion	yellow	cushion	0	FALSE	TRUE	FALSE	1	0
+5bFKYE9pB9xSBeWGK	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	36	sal	sal	NA	white_scarf	1	N	NA	0	scarf	white	scarf	0	FALSE	TRUE	FALSE	1	0
+5bFKYE9pB9xSBeWGK	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	37	zuti krevet	zuti krevet	NA	yellow_bed	1	CN	NA	1	bed	yellow	bed	0	TRUE	TRUE	FALSE	1	1
+5bFKYE9pB9xSBeWGK	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	39	haljina__plava	haljina	NA	blue_dress	1	N	NA	0	dress	blue	dress	0	FALSE	TRUE	FALSE	1	0
+5bFKYE9pB9xSBeWGK	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	40	cinija	cinija	NA	purple_bowl	1	N	NA	0	bowl	purple	bowl	0	FALSE	TRUE	FALSE	1	0
+5bFKYE9pB9xSBeWGK	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	42	solja plava	solja plava	NA	blue_mug	1	NC	NA	1	mug	blue	mug	0	TRUE	TRUE	FALSE	1	1
+5bFKYE9pB9xSBeWGK	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	43	beo cvet	beo cvet	NA	white_flower	1	CN	NA	1	flower	white	flower	0	TRUE	TRUE	FALSE	1	1
+5bFKYE9pB9xSBeWGK	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	44	crna riba	crna riba	NA	black_fish	1	CN	NA	1	fish	black	fish	0	TRUE	TRUE	FALSE	1	1
+5bFKYE9pB9xSBeWGK	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	45	olovka crvena	olovka crvena	NA	red_pencil	1	NC	NA	1	pencil	red	pencil	0	TRUE	TRUE	FALSE	1	1
+5bFKYE9pB9xSBeWGK	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	46	ljubicasta papuca	ljubicasta papuca	NA	purple_slipper	1	CN	NA	1	slipper	purple	slipper	0	TRUE	TRUE	FALSE	1	1
+5bFKYE9pB9xSBeWGK	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	47	zeleni kamion	zeleni kamion	NA	green_truck	1	CN	NA	1	truck	green	truck	0	TRUE	TRUE	FALSE	1	1
+5bFKYE9pB9xSBeWGK	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	49	crven kalkulator	crven kalkulator	NA	red_calculator	1	CN	NA	1	calculator	red	calculator	0	TRUE	TRUE	FALSE	1	1
+5bFKYE9pB9xSBeWGK	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	51	kofer	kofer	NA	orange_luggage	1	N	NA	0	luggage	orange	luggage	0	FALSE	TRUE	FALSE	1	0
+5bFKYE9pB9xSBeWGK	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	52	stolica	stolica	NA	yellow_chair	1	N	NA	0	chair	yellow	chair	0	FALSE	TRUE	FALSE	1	0
+5bFKYE9pB9xSBeWGK	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	55	carapa	carapa	NA	orange_sock	1	N	NA	0	sock	orange	sock	0	FALSE	TRUE	FALSE	1	0
+5bFKYE9pB9xSBeWGK	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	56	plava knjiga	plava knjiga	NA	blue_book	1	CN	NA	1	book	blue	book	0	TRUE	TRUE	FALSE	1	1
+5bFKYE9pB9xSBeWGK	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	58	ljubicasti bubanj	ljubicasti bubanj	NA	purple_drum	1	CN	NA	1	drum	purple	drum	0	TRUE	TRUE	FALSE	1	1
+5bFKYE9pB9xSBeWGK	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	60	katanac	katanac	NA	green_lock	1	N	NA	0	lock	green	lock	0	FALSE	TRUE	FALSE	1	0
+5bFKYE9pB9xSBeWGK	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	61	crni mikroskop	crni mikroskop	mikroskop	black_microscope	1	CN	NA	1	microscope	black	microscope	0	TRUE	TRUE	FALSE	1	1
+5bFKYE9pB9xSBeWGK	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	62	orglica__ogrlica	orglica	NA	purple_necklace	1	N	NA	0	necklace	purple	necklace	0	FALSE	TRUE	FALSE	1	0
+5bFKYE9pB9xSBeWGK	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	63	kais	kais	NA	blue_belt	1	N	NA	0	belt	blue	belt	0	FALSE	TRUE	FALSE	1	0
+5bFKYE9pB9xSBeWGK	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	65	kuhinjski noz	kuhinjski noz	NA	black_knife	1	N	NA	0	knife	black	knife	0	FALSE	TRUE	FALSE	1	0
+5bFKYE9pB9xSBeWGK	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	69	crveni novcanik	crveni novcanik	NA	red_wallet	1	CN	NA	1	wallet	red	wallet	0	TRUE	TRUE	FALSE	1	1
+5bFKYE9pB9xSBeWGK	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	70	skoljka	skoljka	NA	black_shell	1	N	NA	0	shell	black	shell	0	FALSE	TRUE	FALSE	1	0
+5bFKYE9pB9xSBeWGK	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	72	zuti leptir	zuti leptir	NA	yellow_butterfly	1	CN	NA	1	butterfly	yellow	butterfly	0	TRUE	TRUE	FALSE	1	1
+d64hQ5TkvvFYSd9uT	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	1	klikni na predmet koji proizvodi muziku__sa narandzastim okvirom	klikni na predmet koji proizvodi muziku	koje boje	orange_drum	1	O	NA	0	drum	orange	drum	0	FALSE	FALSE	TRUE	0	0
+d64hQ5TkvvFYSd9uT	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	2	odevni predmet	odevni predmet	NA	yellow_dress	1	O	NA	0	dress	yellow	dress	0	FALSE	FALSE	TRUE	0	0
+d64hQ5TkvvFYSd9uT	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	3	izaberi svecu__boje sunca	izaberi svecu	koje boje	yellow_candle	1	N	NA	0	candle	yellow	candle	0	FALSE	TRUE	FALSE	1	0
+d64hQ5TkvvFYSd9uT	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	4	izaberi knjigu__da	izaberi knjigu	crvenu?	red_book	1	N	NA	0	book	red	book	0	FALSE	TRUE	FALSE	1	0
+d64hQ5TkvvFYSd9uT	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	5	izaberi narandzasti predmet	izaberi narandzasti predmet	NA	orange_robot	1	CO	NA	2	robot	orange	robot	0	TRUE	FALSE	TRUE	0	1
+d64hQ5TkvvFYSd9uT	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	6	sta nosi kralj	sta nosi kralj	NA	blue_crown	1	O	NA	0	crown	blue	crown	0	FALSE	FALSE	TRUE	0	0
+d64hQ5TkvvFYSd9uT	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	7	modni detalj	modni detalj	NA	yellow_scarf	1	O	NA	0	scarf	yellow	scarf	0	FALSE	FALSE	TRUE	0	0
+d64hQ5TkvvFYSd9uT	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	10	ulazna......	ulazna......	NA	red_door	1	O	NA	0	door	red	door	0	FALSE	FALSE	TRUE	0	0
+d64hQ5TkvvFYSd9uT	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	11	muzika	muzika	NA	blue_guitar	1	O	NA	0	guitar	blue	guitar	0	FALSE	FALSE	TRUE	0	0
+d64hQ5TkvvFYSd9uT	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	13	nakit	nakit	NA	purple_necklace	1	O	NA	0	necklace	purple	necklace	0	FALSE	FALSE	TRUE	0	0
+d64hQ5TkvvFYSd9uT	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	16	alat	alat	NA	green_hammer	1	O	NA	0	hammer	green	hammer	0	FALSE	FALSE	TRUE	0	0
+d64hQ5TkvvFYSd9uT	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	17	za kosu__da	za kosu	beli?	white_comb	1	O	NA	0	comb	white	comb	0	FALSE	FALSE	TRUE	0	0
+d64hQ5TkvvFYSd9uT	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	18	za kafu	za kafu	NA	red_mug	1	O	NA	0	mug	red	mug	0	FALSE	FALSE	TRUE	0	0
+d64hQ5TkvvFYSd9uT	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	19	fiksni	fiksni	NA	red_phone	1	O	NA	0	phone	red	phone	0	FALSE	FALSE	TRUE	0	0
+d64hQ5TkvvFYSd9uT	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	20	za dokumenta__onaj drugi	za dokumenta	zenski?	blue_wallet	1	O	NA	0	wallet	blue	wallet	0	FALSE	FALSE	TRUE	0	0
+d64hQ5TkvvFYSd9uT	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	21	morska__tamnoooo	morska	tamna ili zivopisna?	black_shell	1	O	NA	0	shell	black	shell	0	FALSE	FALSE	TRUE	0	0
+d64hQ5TkvvFYSd9uT	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	25	zivopisne boje__za kusanje	zivopisne boje	NA	green_bowl	1	O	NA	0	bowl	green	bowl	0	FALSE	FALSE	TRUE	0	0
+d64hQ5TkvvFYSd9uT	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	27	za spavanje__telo beje sunca	za spavanje	z glavu ili telo?	yellow_bed	1	O	NA	0	bed	yellow	bed	0	FALSE	FALSE	TRUE	0	0
+d64hQ5TkvvFYSd9uT	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	28	letelica__crna	letelica	koje boje	black_helicopter	1	O	NA	0	helicopter	black	helicopter	0	FALSE	FALSE	TRUE	0	0
+d64hQ5TkvvFYSd9uT	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	31	drvena	drvena	NA	yellow_pencil	1	O	NA	0	pencil	yellow	pencil	0	FALSE	FALSE	TRUE	0	0
+d64hQ5TkvvFYSd9uT	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	32	za putovanje4	za putovanje4	NA	orange_luggage	1	O	NA	0	luggage	orange	luggage	0	FALSE	FALSE	TRUE	0	0
+d64hQ5TkvvFYSd9uT	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	33	da stisnes__vaspitno	da stisnes	vaspitno ili zimsko?	red_belt	1	O	NA	0	belt	red	belt	0	FALSE	FALSE	TRUE	0	0
+d64hQ5TkvvFYSd9uT	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	35	verenickli__sunca	verenickli	koje boje	yellow_ring	1	O	NA	0	ring	yellow	ring	0	FALSE	FALSE	TRUE	0	0
+d64hQ5TkvvFYSd9uT	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	38	crvenkapa	crvenkapa	NA	black_basket	1	CO	NA	0	basket	black	basket	0	TRUE	FALSE	TRUE	0	1
+d64hQ5TkvvFYSd9uT	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	40	sobna	sobna	NA	purple_slipper	1	O	NA	0	slipper	purple	slipper	0	FALSE	FALSE	TRUE	0	0
+d64hQ5TkvvFYSd9uT	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	43	ne ljuti se covece	ne ljuti se covece	NA	black_die	1	O	NA	0	die	black	die	0	FALSE	FALSE	TRUE	0	0
+d64hQ5TkvvFYSd9uT	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	44	meseci i godine	meseci i godine	NA	orange_calendar	1	O	NA	0	calendar	orange	calendar	0	FALSE	FALSE	TRUE	0	0
+d64hQ5TkvvFYSd9uT	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	45	it	it	NA	red_balloon	1	O	NA	0	balloon	red	balloon	0	FALSE	FALSE	TRUE	0	0
+d64hQ5TkvvFYSd9uT	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	47	alat\	alat\	NA	purple_screwdriver	1	O	NA	0	screwdriver	purple	screwdriver	0	FALSE	FALSE	TRUE	0	0
+d64hQ5TkvvFYSd9uT	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	49	cvet__da	cvet	sa belim laticama?	white_flower	1	N	NA	0	flower	white	flower	0	FALSE	TRUE	FALSE	1	0
+d64hQ5TkvvFYSd9uT	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	50	kljuc i.....	kljuc i.....	NA	black_lock	1	O	NA	0	lock	black	lock	0	FALSE	FALSE	TRUE	0	0
+d64hQ5TkvvFYSd9uT	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	52	odelo i....__da__da__ne	odelo i....	kravata?__za sahranu?	green_tie	1	O	NA	0	tie	green	tie	0	FALSE	FALSE	TRUE	0	0
+d64hQ5TkvvFYSd9uT	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	53	na paru__nebo...	na paru	koje boje?	blue_iron	1	O	NA	0	iron	blue	iron	0	FALSE	FALSE	TRUE	0	0
+d64hQ5TkvvFYSd9uT	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	54	kratka__da__bravo	kratka	carapa?__tamna?	black_sock	1	O	NA	0	sock	black	sock	0	FALSE	FALSE	TRUE	0	0
+d64hQ5TkvvFYSd9uT	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	55	reka	reka	NA	green_fish	1	O	NA	0	fish	green	fish	0	FALSE	FALSE	TRUE	0	0
+d64hQ5TkvvFYSd9uT	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	56	prevozno sredstvo	prevozno sredstvo	NA	purple_truck	1	O	NA	0	truck	purple	truck	0	FALSE	FALSE	TRUE	0	0
+d64hQ5TkvvFYSd9uT	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	57	efekat	efekat	NA	red_butterfly	1	O	NA	0	butterfly	red	butterfly	0	FALSE	FALSE	TRUE	0	0
+d64hQ5TkvvFYSd9uT	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	59	zastitna__da	zastitna	rukavica?	orange_glove	1	O	NA	0	glove	orange	glove	0	FALSE	FALSE	TRUE	0	0
+d64hQ5TkvvFYSd9uT	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	60	ukras	ukras	NA	green_ribbon	1	O	NA	0	ribbon	green	ribbon	0	FALSE	FALSE	TRUE	0	0
+d64hQ5TkvvFYSd9uT	BCS	feedback	scene1	NA	NA	NA	NA	2	pophristic_stimuli	61	ptica sa dva krila	ptica sa dva krila	NA	orange_helicopter	0	O	NA	0	binoculars	orange	helicopter	0	FALSE	FALSE	TRUE	0	0
+d64hQ5TkvvFYSd9uT	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	62	dvoriste__boje neba	dvoriste	koje boje	blue_fence	1	O	NA	0	fence	blue	fence	0	FALSE	FALSE	TRUE	0	0
+d64hQ5TkvvFYSd9uT	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	63	matematika	matematika	NA	yellow_calculator	1	O	NA	0	calculator	yellow	calculator	0	FALSE	FALSE	TRUE	0	0
+d64hQ5TkvvFYSd9uT	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	65	pribor za jelo__bohe trave	pribor za jelo	koje boje	green_fork	1	O	NA	0	fork	green	fork	0	FALSE	FALSE	TRUE	0	0
+d64hQ5TkvvFYSd9uT	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	66	jastucnica__da	jastucnica	boje sunca?	yellow_cushion	1	N	NA	0	cushion	yellow	cushion	0	FALSE	TRUE	FALSE	1	0
+d64hQ5TkvvFYSd9uT	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	67	rezanje__boje sljiva	rezanje	koje boje	purple_knife	1	O	NA	0	knife	purple	knife	0	FALSE	FALSE	TRUE	0	0
+d64hQ5TkvvFYSd9uT	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	68	drvena__boje jagode	drvena	crvena ili plava	red_chair	1	O	NA	0	chair	red	chair	0	FALSE	FALSE	TRUE	0	0
+d64hQ5TkvvFYSd9uT	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	70	laboratorija__boje pomarandze	laboratorija	koje boje	orange_microscope	1	O	NA	0	microscope	orange	microscope	0	FALSE	FALSE	TRUE	0	0
+d64hQ5TkvvFYSd9uT	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	72	korona	korona	NA	yellow_mask	1	O	NA	0	mask	yellow	mask	0	FALSE	FALSE	TRUE	0	0
+7GRCFe84BiHNuYsdQ	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	3	kamion	kamion	NA	purple_truck	1	N	NA	0	truck	purple	truck	0	FALSE	TRUE	FALSE	1	0
+7GRCFe84BiHNuYsdQ	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	4	kufer__crni	kufer	NA	black_luggage	1	N	NA	0	luggage	black	luggage	0	FALSE	TRUE	FALSE	1	0
+7GRCFe84BiHNuYsdQ	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	5	telefon	telefon	NA	blue_phone	1	N	NA	0	phone	blue	phone	0	FALSE	TRUE	FALSE	1	0
+7GRCFe84BiHNuYsdQ	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	13	slapa	slapa	NA	purple_slipper	1	N	NA	0	slipper	purple	slipper	0	FALSE	TRUE	FALSE	1	0
+7GRCFe84BiHNuYsdQ	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	14	cvit	cvit	NA	white_flower	1	N	NA	0	flower	white	flower	0	FALSE	TRUE	FALSE	1	0
+7GRCFe84BiHNuYsdQ	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	15	narancasti robot	narancasti robot	NA	orange_robot	1	CN	NA	1	robot	orange	robot	0	TRUE	TRUE	FALSE	1	1
+7GRCFe84BiHNuYsdQ	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	16	kofa	kofa	NA	orange_basket	1	N	NA	0	basket	orange	basket	0	FALSE	TRUE	FALSE	1	0
+7GRCFe84BiHNuYsdQ	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	19	vrata	vrata	NA	yellow_door	1	N	NA	0	door	yellow	door	0	FALSE	TRUE	FALSE	1	0
+7GRCFe84BiHNuYsdQ	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	20	olovka	olovka	NA	yellow_pencil	1	N	NA	0	pencil	yellow	pencil	0	FALSE	TRUE	FALSE	1	0
+7GRCFe84BiHNuYsdQ	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	22	knjiga	knjiga	NA	red_book	1	N	NA	0	book	red	book	0	FALSE	TRUE	FALSE	1	0
+7GRCFe84BiHNuYsdQ	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	23	kalendar	kalendar	NA	green_calendar	1	N	NA	0	calendar	green	calendar	0	FALSE	TRUE	FALSE	1	0
+7GRCFe84BiHNuYsdQ	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	24	crvena stolica	crvena stolica	NA	red_chair	1	CN	NA	1	chair	red	chair	0	TRUE	TRUE	FALSE	1	1
+7GRCFe84BiHNuYsdQ	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	26	takujin	takujin	NA	blue_wallet	1	N	NA	0	wallet	blue	wallet	0	FALSE	TRUE	FALSE	1	0
+7GRCFe84BiHNuYsdQ	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	27	balun	balun	NA	blue_balloon	1	N	NA	0	balloon	blue	balloon	0	FALSE	TRUE	FALSE	1	0
+7GRCFe84BiHNuYsdQ	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	28	bili prsten	bili prsten	NA	white_ring	1	CN	NA	1	ring	white	ring	0	TRUE	TRUE	FALSE	1	1
+7GRCFe84BiHNuYsdQ	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	30	narancasta skoljka	narancasta skoljka	NA	orange_shell	1	CN	NA	1	shell	orange	shell	0	TRUE	TRUE	FALSE	1	1
+7GRCFe84BiHNuYsdQ	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	31	crveni kusin	crveni kusin	NA	red_cushion	1	CN	NA	1	cushion	red	cushion	0	TRUE	TRUE	FALSE	1	1
+7GRCFe84BiHNuYsdQ	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	34	crveni digitron	crveni digitron	NA	red_calculator	1	CN	NA	1	calculator	red	calculator	0	TRUE	TRUE	FALSE	1	1
+7GRCFe84BiHNuYsdQ	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	35	plava ograda	plava ograda	NA	blue_fence	1	CN	NA	1	fence	blue	fence	0	TRUE	TRUE	FALSE	1	1
+7GRCFe84BiHNuYsdQ	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	37	crvena cikara	crvena cikara	NA	red_mug	1	CN	NA	1	mug	red	mug	0	TRUE	TRUE	FALSE	1	1
+7GRCFe84BiHNuYsdQ	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	38	vesta	vesta	NA	white_dress	1	N	NA	0	dress	white	dress	0	FALSE	TRUE	FALSE	1	0
+7GRCFe84BiHNuYsdQ	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	40	mikroskop	mikroskop	NA	orange_microscope	1	N	NA	0	microscope	orange	microscope	0	FALSE	TRUE	FALSE	1	0
+7GRCFe84BiHNuYsdQ	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	41	rukavica	rukavica	NA	black_glove	1	N	NA	0	glove	black	glove	0	FALSE	TRUE	FALSE	1	0
+7GRCFe84BiHNuYsdQ	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	49	kanocal	kanocal	NA	orange_binoculars	1	N	NA	0	binoculars	orange	binoculars	0	FALSE	TRUE	FALSE	1	0
+7GRCFe84BiHNuYsdQ	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	50	kockica	kockica	NA	green_die	1	N	NA	0	die	green	die	0	FALSE	TRUE	FALSE	1	0
+7GRCFe84BiHNuYsdQ	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	52	sal zuti	sal zuti	NA	yellow_scarf	1	NC	NA	1	scarf	yellow	scarf	0	TRUE	TRUE	FALSE	1	1
+7GRCFe84BiHNuYsdQ	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	55	zeleni helic	zeleni helic	NA	green_helicopter	1	CN	NA	1	helicopter	green	helicopter	0	TRUE	TRUE	FALSE	1	1
+7GRCFe84BiHNuYsdQ	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	56	cekic	cekic	NA	orange_hammer	1	N	NA	0	hammer	orange	hammer	0	FALSE	TRUE	FALSE	1	0
+7GRCFe84BiHNuYsdQ	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	58	bili kais	bili kais	NA	white_belt	1	CN	NA	1	belt	white	belt	0	TRUE	TRUE	FALSE	1	1
+7GRCFe84BiHNuYsdQ	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	60	zuta gitara	zuta gitara	NA	yellow_guitar	1	CN	NA	1	guitar	yellow	guitar	0	TRUE	TRUE	FALSE	1	1
+7GRCFe84BiHNuYsdQ	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	62	cesalj__plavi	cesalj	NA	blue_comb	1	N	NA	0	comb	blue	comb	0	FALSE	TRUE	FALSE	1	0
+7GRCFe84BiHNuYsdQ	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	63	crni katanac	crni katanac	NA	black_lock	1	CN	NA	1	lock	black	lock	0	TRUE	TRUE	FALSE	1	1
+7GRCFe84BiHNuYsdQ	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	64	crvena maska	crvena maska	NA	red_mask	1	CN	NA	1	mask	red	mask	0	TRUE	TRUE	FALSE	1	1
+7GRCFe84BiHNuYsdQ	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	65	krevet	krevet	NA	white_bed	1	N	NA	0	bed	white	bed	0	FALSE	TRUE	FALSE	1	0
+7GRCFe84BiHNuYsdQ	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	66	riba	riba	NA	black_fish	1	N	NA	0	fish	black	fish	0	FALSE	TRUE	FALSE	1	0
+7GRCFe84BiHNuYsdQ	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	69	svica	svica	NA	blue_candle	1	N	NA	0	candle	blue	candle	0	FALSE	TRUE	FALSE	1	0
+7GRCFe84BiHNuYsdQ	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	71	zeleni noz	zeleni noz	NA	green_knife	1	CN	NA	1	knife	green	knife	0	TRUE	TRUE	FALSE	1	1
+7GRCFe84BiHNuYsdQ	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	72	kularina	kularina	NA	orange_tie	1	N	NA	0	tie	orange	tie	0	FALSE	TRUE	FALSE	1	0
+aakFgBbgMQCtYb3cM	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	1	crna riba	crna riba	NA	black_fish	1	CN	NA	1	fish	black	fish	0	TRUE	TRUE	FALSE	1	1
+aakFgBbgMQCtYb3cM	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	3	prsten	prsten	NA	white_ring	1	N	NA	0	ring	white	ring	0	FALSE	TRUE	FALSE	1	0
+aakFgBbgMQCtYb3cM	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	4	plavi telefon	plavi telefon	NA	blue_phone	1	CN	NA	1	phone	blue	phone	0	TRUE	TRUE	FALSE	1	1
+aakFgBbgMQCtYb3cM	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	8	pegla	pegla	NA	yellow_iron	1	N	NA	0	iron	yellow	iron	0	FALSE	TRUE	FALSE	1	0
+aakFgBbgMQCtYb3cM	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	9	olovka	olovka	NA	red_pencil	1	N	NA	0	pencil	red	pencil	0	FALSE	TRUE	FALSE	1	0
+aakFgBbgMQCtYb3cM	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	10	pirun	pirun	NA	green_fork	1	N	NA	0	fork	green	fork	0	FALSE	TRUE	FALSE	1	0
+aakFgBbgMQCtYb3cM	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	13	crna kosara	crna kosara	NA	black_basket	1	CN	NA	1	basket	black	basket	0	TRUE	TRUE	FALSE	1	1
+aakFgBbgMQCtYb3cM	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	14	cvijet	cvijet	NA	white_flower	1	N	NA	0	flower	white	flower	0	FALSE	TRUE	FALSE	1	0
+aakFgBbgMQCtYb3cM	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	15	skoljka	skoljka	NA	purple_shell	1	N	NA	0	shell	purple	shell	0	FALSE	TRUE	FALSE	1	0
+aakFgBbgMQCtYb3cM	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	16	cesalj	cesalj	NA	white_comb	1	N	NA	0	comb	white	comb	0	FALSE	TRUE	FALSE	1	0
+aakFgBbgMQCtYb3cM	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	18	ljub masna	ljub masna	NA	purple_ribbon	1	CN	NA	3	ribbon	purple	ribbon	0	TRUE	TRUE	FALSE	1	1
+aakFgBbgMQCtYb3cM	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	19	jastuk	jastuk	NA	white_cushion	1	N	NA	0	cushion	white	cushion	0	FALSE	TRUE	FALSE	1	0
+aakFgBbgMQCtYb3cM	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	20	ljub ogrlica	ljub ogrlica	NA	purple_necklace	1	CN	NA	3	necklace	purple	necklace	0	TRUE	TRUE	FALSE	1	1
+aakFgBbgMQCtYb3cM	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	21	bubanj	bubanj	NA	green_drum	1	N	NA	0	drum	green	drum	0	FALSE	TRUE	FALSE	1	0
+aakFgBbgMQCtYb3cM	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	23	takujin	takujin	NA	blue_wallet	1	N	NA	0	wallet	blue	wallet	0	FALSE	TRUE	FALSE	1	0
+aakFgBbgMQCtYb3cM	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	25	kalkulator plavi	kalkulator plavi	NA	blue_calculator	1	NC	NA	1	calculator	blue	calculator	0	TRUE	TRUE	FALSE	1	1
+aakFgBbgMQCtYb3cM	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	27	helic	helic	NA	orange_helicopter	1	N	NA	0	helicopter	orange	helicopter	0	FALSE	TRUE	FALSE	1	0
+aakFgBbgMQCtYb3cM	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	29	crvena kruna	crvena kruna	NA	red_crown	1	CN	NA	1	crown	red	crown	0	TRUE	TRUE	FALSE	1	1
+aakFgBbgMQCtYb3cM	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	30	zuta salica	zuta salica	NA	yellow_mug	1	CN	NA	1	mug	yellow	mug	0	TRUE	TRUE	FALSE	1	1
+aakFgBbgMQCtYb3cM	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	31	zel kalendar	zel kalendar	NA	green_calendar	1	CN	NA	3	calendar	green	calendar	0	TRUE	TRUE	FALSE	1	1
+aakFgBbgMQCtYb3cM	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	32	binoculars	binoculars	NA	black_binoculars	1	N	NA	0	binoculars	black	binoculars	0	FALSE	TRUE	FALSE	1	0
+aakFgBbgMQCtYb3cM	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	33	robot	robot	NA	orange_robot	1	N	NA	0	robot	orange	robot	0	FALSE	TRUE	FALSE	1	0
+aakFgBbgMQCtYb3cM	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	34	zeleni lijkot	zeleni lijkot	NA	green_lock	1	CN	NA	1	lock	green	lock	0	TRUE	TRUE	FALSE	1	1
+aakFgBbgMQCtYb3cM	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	35	zdjela	zdjela	NA	black_bowl	1	N	NA	0	bowl	black	bowl	0	FALSE	TRUE	FALSE	1	0
+aakFgBbgMQCtYb3cM	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	37	plava gitara	plava gitara	NA	blue_guitar	1	CN	NA	1	guitar	blue	guitar	0	TRUE	TRUE	FALSE	1	1
+aakFgBbgMQCtYb3cM	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	39	stolac	stolac	NA	blue_chair	1	N	NA	0	chair	blue	chair	0	FALSE	TRUE	FALSE	1	0
+aakFgBbgMQCtYb3cM	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	40	kravat	kravat	NA	orange_tie	1	N	NA	0	tie	orange	tie	0	FALSE	TRUE	FALSE	1	0
+aakFgBbgMQCtYb3cM	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	41	kamoion	kamoion	NA	green_truck	1	N	NA	0	truck	green	truck	0	FALSE	TRUE	FALSE	1	0
+aakFgBbgMQCtYb3cM	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	42	noz	noz	NA	green_knife	1	N	NA	0	knife	green	knife	0	FALSE	TRUE	FALSE	1	0
+aakFgBbgMQCtYb3cM	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	43	bicva	bicva	NA	orange_sock	1	N	NA	0	sock	orange	sock	0	FALSE	TRUE	FALSE	1	0
+aakFgBbgMQCtYb3cM	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	44	plavi cinturin	plavi cinturin	NA	blue_belt	1	CN	NA	1	belt	blue	belt	0	TRUE	TRUE	FALSE	1	1
+aakFgBbgMQCtYb3cM	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	45	plavi balon	plavi balon	NA	blue_balloon	1	CN	NA	1	balloon	blue	balloon	0	TRUE	TRUE	FALSE	1	1
+aakFgBbgMQCtYb3cM	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	46	krevet	krevet	NA	red_bed	1	N	NA	0	bed	red	bed	0	FALSE	TRUE	FALSE	1	0
+aakFgBbgMQCtYb3cM	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	49	sarafciger__zeleni	sarafciger	NA	green_screwdriver	1	N	NA	0	screwdriver	green	screwdriver	0	FALSE	TRUE	FALSE	1	0
+aakFgBbgMQCtYb3cM	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	51	zeleni	zeleni	NA	green_luggage	1	C	NA	1	luggage	green	luggage	0	TRUE	FALSE	FALSE	0	1
+aakFgBbgMQCtYb3cM	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	52	zuti	zuti	NA	yellow_butterfly	1	C	NA	1	butterfly	yellow	butterfly	0	TRUE	FALSE	FALSE	0	1
+aakFgBbgMQCtYb3cM	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	53	plava	plava	NA	blue_dress	1	C	NA	1	dress	blue	dress	0	TRUE	FALSE	FALSE	0	1
+aakFgBbgMQCtYb3cM	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	56	mikroskop	mikroskop	NA	orange_microscope	1	N	NA	0	microscope	orange	microscope	0	FALSE	TRUE	FALSE	1	0
+aakFgBbgMQCtYb3cM	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	58	zuto	zuto	NA	yellow_candle	1	C	NA	5	candle	yellow	candle	0	TRUE	FALSE	FALSE	0	1
+aakFgBbgMQCtYb3cM	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	60	ljub	ljub	NA	purple_slipper	1	C	NA	3	slipper	purple	slipper	0	TRUE	FALSE	FALSE	0	1
+aakFgBbgMQCtYb3cM	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	61	bijela	bijela	NA	white_door	1	C	NA	1	door	white	door	0	TRUE	FALSE	FALSE	0	1
+aakFgBbgMQCtYb3cM	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	62	crvena	crvena	NA	red_scarf	1	C	NA	1	scarf	red	scarf	0	TRUE	FALSE	FALSE	0	1
+aakFgBbgMQCtYb3cM	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	63	ljub	ljub	NA	purple_die	1	C	NA	3	die	purple	die	0	TRUE	FALSE	FALSE	0	1
+aakFgBbgMQCtYb3cM	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	65	narancasti	narancasti	NA	orange_hammer	1	C	NA	1	hammer	orange	hammer	0	TRUE	FALSE	FALSE	0	1
+aakFgBbgMQCtYb3cM	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	67	bieja;__bijela	bieja;	NA	white_mask	1	C	NA	1	mask	white	mask	0	TRUE	FALSE	FALSE	0	1
+aakFgBbgMQCtYb3cM	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	70	knjjiga	knjjiga	NA	red_book	1	N	NA	0	book	red	book	0	FALSE	TRUE	FALSE	1	0
+aakFgBbgMQCtYb3cM	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	71	ograda	ograda	NA	blue_fence	1	N	NA	0	fence	blue	fence	0	FALSE	TRUE	FALSE	1	0
+aakFgBbgMQCtYb3cM	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	72	ljub	ljub	NA	purple_glove	1	C	NA	3	glove	purple	glove	0	TRUE	FALSE	FALSE	0	1
+xkxN5arR8z9L8hhEb	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	1	ljubicasti mikroskop	ljubicasti mikroskop	NA	purple_microscope	1	CN	NA	1	microscope	purple	microscope	0	TRUE	TRUE	FALSE	1	1
+xkxN5arR8z9L8hhEb	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	2	zuti digitron	zuti digitron	NA	yellow_calculator	1	CN	NA	1	calculator	yellow	calculator	0	TRUE	TRUE	FALSE	1	1
+xkxN5arR8z9L8hhEb	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	4	beli jastuk	beli jastuk	NA	white_cushion	1	CN	NA	1	cushion	white	cushion	0	TRUE	TRUE	FALSE	1	1
+xkxN5arR8z9L8hhEb	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	7	bela gitara	bela gitara	NA	white_guitar	1	CN	NA	1	guitar	white	guitar	0	TRUE	TRUE	FALSE	1	1
+xkxN5arR8z9L8hhEb	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	8	crvena pegla	crvena pegla	NA	red_iron	1	CN	NA	1	iron	red	iron	0	TRUE	TRUE	FALSE	1	1
+xkxN5arR8z9L8hhEb	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	9	zeleni bubanj	zeleni bubanj	NA	green_drum	1	CN	NA	1	drum	green	drum	0	TRUE	TRUE	FALSE	1	1
+xkxN5arR8z9L8hhEb	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	10	plava haljina	plava haljina	NA	blue_dress	1	CN	NA	1	dress	blue	dress	0	TRUE	TRUE	FALSE	1	1
+xkxN5arR8z9L8hhEb	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	12	crna carapa	crna carapa	NA	black_sock	1	CN	NA	1	sock	black	sock	0	TRUE	TRUE	FALSE	1	1
+xkxN5arR8z9L8hhEb	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	14	bela sveca	bela sveca	NA	white_candle	1	CN	NA	1	candle	white	candle	0	TRUE	TRUE	FALSE	1	1
+xkxN5arR8z9L8hhEb	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	15	krevet	krevet	NA	white_bed	1	N	NA	0	bed	white	bed	0	FALSE	TRUE	FALSE	1	0
+xkxN5arR8z9L8hhEb	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	16	crvena olovka	crvena olovka	NA	red_pencil	1	CN	NA	1	pencil	red	pencil	0	TRUE	TRUE	FALSE	1	1
+xkxN5arR8z9L8hhEb	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	18	cekic ljubicasti	cekic ljubicasti	NA	purple_hammer	1	NC	NA	1	hammer	purple	hammer	0	TRUE	TRUE	FALSE	1	1
+xkxN5arR8z9L8hhEb	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	19	beli sal	beli sal	NA	white_scarf	1	CN	NA	1	scarf	white	scarf	0	TRUE	TRUE	FALSE	1	1
+xkxN5arR8z9L8hhEb	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	23	crvena vrata	crvena vrata	NA	red_door	1	CN	NA	1	door	red	door	0	TRUE	TRUE	FALSE	1	1
+xkxN5arR8z9L8hhEb	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	24	narandzasta rukavica	narandzasta rukavica	NA	orange_glove	1	CN	NA	1	glove	orange	glove	0	TRUE	TRUE	FALSE	1	1
+xkxN5arR8z9L8hhEb	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	25	beli prsten	beli prsten	NA	white_ring	1	CN	NA	1	ring	white	ring	0	TRUE	TRUE	FALSE	1	1
+xkxN5arR8z9L8hhEb	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	26	narandzasti noz	narandzasti noz	NA	orange_knife	1	CN	NA	1	knife	orange	knife	0	TRUE	TRUE	FALSE	1	1
+xkxN5arR8z9L8hhEb	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	28	crveni cesalj	crveni cesalj	NA	red_comb	1	CN	NA	1	comb	red	comb	0	TRUE	TRUE	FALSE	1	1
+xkxN5arR8z9L8hhEb	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	30	bela ograda	bela ograda	NA	white_fence	1	CN	NA	1	fence	white	fence	0	TRUE	TRUE	FALSE	1	1
+xkxN5arR8z9L8hhEb	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	32	zelena masna	zelena masna	NA	green_ribbon	1	CN	NA	1	ribbon	green	ribbon	0	TRUE	TRUE	FALSE	1	1
+xkxN5arR8z9L8hhEb	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	35	plava maska	plava maska	NA	blue_mask	1	CN	NA	1	mask	blue	mask	0	TRUE	TRUE	FALSE	1	1
+xkxN5arR8z9L8hhEb	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	36	zuta stolica	zuta stolica	NA	yellow_chair	1	CN	NA	1	chair	yellow	chair	0	TRUE	TRUE	FALSE	1	1
+xkxN5arR8z9L8hhEb	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	38	cvet	cvet	NA	red_flower	1	N	NA	0	flower	red	flower	0	FALSE	TRUE	FALSE	1	0
+xkxN5arR8z9L8hhEb	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	39	zuti leptir	zuti leptir	NA	yellow_butterfly	1	CN	NA	1	butterfly	yellow	butterfly	0	TRUE	TRUE	FALSE	1	1
+xkxN5arR8z9L8hhEb	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	40	korpa	korpa	NA	orange_basket	1	N	NA	0	basket	orange	basket	0	FALSE	TRUE	FALSE	1	0
+xkxN5arR8z9L8hhEb	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	42	crveni balon	crveni balon	NA	red_balloon	1	CN	NA	1	balloon	red	balloon	0	TRUE	TRUE	FALSE	1	1
+xkxN5arR8z9L8hhEb	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	43	viljuska	viljuska	NA	orange_fork	1	N	NA	0	fork	orange	fork	0	FALSE	TRUE	FALSE	1	0
+xkxN5arR8z9L8hhEb	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	44	zelena kravata	zelena kravata	NA	green_tie	1	CN	NA	1	tie	green	tie	0	TRUE	TRUE	FALSE	1	1
+xkxN5arR8z9L8hhEb	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	46	beli kais	beli kais	NA	white_belt	1	CN	NA	1	belt	white	belt	0	TRUE	TRUE	FALSE	1	1
+xkxN5arR8z9L8hhEb	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	47	kockica	kockica	NA	orange_die	1	N	NA	0	die	orange	die	0	FALSE	TRUE	FALSE	1	0
+xkxN5arR8z9L8hhEb	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	48	telefon beli	telefon beli	NA	white_phone	1	NC	NA	1	phone	white	phone	0	TRUE	TRUE	FALSE	1	1
+xkxN5arR8z9L8hhEb	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	49	ljubicasta cinija	ljubicasta cinija	NA	purple_bowl	1	CN	NA	1	bowl	purple	bowl	0	TRUE	TRUE	FALSE	1	1
+xkxN5arR8z9L8hhEb	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	51	crna orglica	crna orglica	NA	black_necklace	1	CN	NA	1	necklace	black	necklace	0	TRUE	TRUE	FALSE	1	1
+xkxN5arR8z9L8hhEb	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	52	kamion	kamion	NA	orange_truck	1	N	NA	0	truck	orange	truck	0	FALSE	TRUE	FALSE	1	0
+xkxN5arR8z9L8hhEb	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	53	ljubicasta papuca	ljubicasta papuca	NA	purple_slipper	1	CN	NA	1	slipper	purple	slipper	0	TRUE	TRUE	FALSE	1	1
+xkxN5arR8z9L8hhEb	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	54	ljubicasti srafciger	ljubicasti srafciger	NA	purple_screwdriver	1	CN	NA	1	screwdriver	purple	screwdriver	0	TRUE	TRUE	FALSE	1	1
+xkxN5arR8z9L8hhEb	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	58	plava solja	plava solja	NA	blue_mug	1	CN	NA	1	mug	blue	mug	0	TRUE	TRUE	FALSE	1	1
+xkxN5arR8z9L8hhEb	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	59	zelena skoljka	zelena skoljka	NA	green_shell	1	CN	NA	1	shell	green	shell	0	TRUE	TRUE	FALSE	1	1
+xkxN5arR8z9L8hhEb	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	60	crna riba	crna riba	NA	black_fish	1	CN	NA	1	fish	black	fish	0	TRUE	TRUE	FALSE	1	1
+xkxN5arR8z9L8hhEb	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	61	ljubicasti helikopter	ljubicasti helikopter	NA	purple_helicopter	1	CN	NA	1	helicopter	purple	helicopter	0	TRUE	TRUE	FALSE	1	1
+xkxN5arR8z9L8hhEb	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	62	ljubicasti dvogled	ljubicasti dvogled	NA	purple_binoculars	1	CN	NA	1	binoculars	purple	binoculars	0	TRUE	TRUE	FALSE	1	1
+xkxN5arR8z9L8hhEb	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	63	ljubicasti kofer	ljubicasti kofer	NA	purple_luggage	1	CN	NA	1	luggage	purple	luggage	0	TRUE	TRUE	FALSE	1	1
+xkxN5arR8z9L8hhEb	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	65	zeleni kalendar	zeleni kalendar	NA	green_calendar	1	CN	NA	1	calendar	green	calendar	0	TRUE	TRUE	FALSE	1	1
+xkxN5arR8z9L8hhEb	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	67	ljubicasti katanac	ljubicasti katanac	NA	purple_lock	1	CN	NA	1	lock	purple	lock	0	TRUE	TRUE	FALSE	1	1
+xkxN5arR8z9L8hhEb	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	68	crni robot	crni robot	NA	black_robot	1	CN	NA	1	robot	black	robot	0	TRUE	TRUE	FALSE	1	1
+xkxN5arR8z9L8hhEb	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	70	beli novcanik	beli novcanik	NA	white_wallet	1	CN	NA	1	wallet	white	wallet	0	TRUE	TRUE	FALSE	1	1
+xkxN5arR8z9L8hhEb	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	71	plava knjiga	plava knjiga	gladan sam	blue_book	1	CN	NA	1	book	blue	book	0	TRUE	TRUE	FALSE	1	1
+xkxN5arR8z9L8hhEb	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	72	plava kruna	plava kruna	NA	blue_crown	1	CN	NA	1	crown	blue	crown	0	TRUE	TRUE	FALSE	1	1
+athjckHgXSFzsEHMe	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	1	haljina	haljina	NA	white_dress	1	N	NA	0	dress	white	dress	0	FALSE	TRUE	FALSE	1	0
+athjckHgXSFzsEHMe	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	4	plavi cesalj	plavi cesalj	NA	blue_comb	1	CN	NA	1	comb	blue	comb	0	TRUE	TRUE	FALSE	1	1
+athjckHgXSFzsEHMe	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	6	kocka	kocka	NA	orange_die	1	N	NA	0	die	orange	die	0	FALSE	TRUE	FALSE	1	0
+athjckHgXSFzsEHMe	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	8	rukavica	rukavica	NA	orange_glove	1	N	NA	0	glove	orange	glove	0	FALSE	TRUE	FALSE	1	0
+athjckHgXSFzsEHMe	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	9	beli sal	beli sal	NA	white_scarf	1	CN	NA	1	scarf	white	scarf	0	TRUE	TRUE	FALSE	1	1
+athjckHgXSFzsEHMe	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	10	plavi telefon	plavi telefon	NA	blue_phone	1	CN	NA	1	phone	blue	phone	0	TRUE	TRUE	FALSE	1	1
+athjckHgXSFzsEHMe	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	11	plava ograda	plava ograda	NA	blue_fence	1	CN	NA	1	fence	blue	fence	0	TRUE	TRUE	FALSE	1	1
+athjckHgXSFzsEHMe	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	12	beo kalkulator	beo kalkulator	NA	white_calculator	1	CN	NA	1	calculator	white	calculator	0	TRUE	TRUE	FALSE	1	1
+athjckHgXSFzsEHMe	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	15	crvene latice	crvene latice	NA	red_flower	1	CN	NA	1	flower	red	flower	0	TRUE	TRUE	FALSE	1	1
+athjckHgXSFzsEHMe	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	16	mikroskop cini mi se, uglavnom ljubicasti predmet	mikroskop cini mi se, uglavnom ljubicasti predmet	NA	purple_microscope	1	NOC	NA	2	microscope	purple	microscope	0	TRUE	TRUE	TRUE	1	1
+athjckHgXSFzsEHMe	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	17	narandzasta korpica	narandzasta korpica	NA	orange_basket	1	CN	NA	1	basket	orange	basket	0	TRUE	TRUE	FALSE	1	1
+athjckHgXSFzsEHMe	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	18	bela stolica	bela stolica	NA	white_chair	1	CN	NA	1	chair	white	chair	0	TRUE	TRUE	FALSE	1	1
+athjckHgXSFzsEHMe	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	19	leptir	leptir	NA	white_butterfly	1	N	NA	0	butterfly	white	butterfly	0	FALSE	TRUE	FALSE	1	0
+athjckHgXSFzsEHMe	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	20	crni kofer	crni kofer	NA	black_luggage	1	CN	NA	1	luggage	black	luggage	0	TRUE	TRUE	FALSE	1	1
+athjckHgXSFzsEHMe	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	21	crvena kruna	crvena kruna	NA	red_crown	1	CN	NA	1	crown	red	crown	0	TRUE	TRUE	FALSE	1	1
+athjckHgXSFzsEHMe	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	22	ljubicasti kamion	ljubicasti kamion	NA	purple_truck	1	CN	NA	1	truck	purple	truck	0	TRUE	TRUE	FALSE	1	1
+athjckHgXSFzsEHMe	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	24	narandzasti noz, istog oblika kao crni	narandzasti noz, istog oblika kao crni	NA	orange_knife	1	CN	NA	1	knife	orange	knife	0	TRUE	TRUE	FALSE	1	1
+athjckHgXSFzsEHMe	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	25	plava olovka	plava olovka	NA	blue_pencil	1	CN	NA	1	pencil	blue	pencil	0	TRUE	TRUE	FALSE	1	1
+athjckHgXSFzsEHMe	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	27	narandzasta papuca	narandzasta papuca	NA	orange_slipper	1	CN	NA	1	slipper	orange	slipper	0	TRUE	TRUE	FALSE	1	1
+athjckHgXSFzsEHMe	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	29	ljubicasta ogrlica	ljubicasta ogrlica	NA	purple_necklace	1	CN	NA	1	necklace	purple	necklace	0	TRUE	TRUE	FALSE	1	1
+athjckHgXSFzsEHMe	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	30	ljubicasta viljuska	ljubicasta viljuska	NA	purple_fork	1	CN	NA	1	fork	purple	fork	0	TRUE	TRUE	FALSE	1	1
+athjckHgXSFzsEHMe	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	31	plavi jastuk	plavi jastuk	NA	blue_cushion	1	CN	NA	1	cushion	blue	cushion	0	TRUE	TRUE	FALSE	1	1
+athjckHgXSFzsEHMe	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	32	beli kais	beli kais	NA	white_belt	1	CN	NA	1	belt	white	belt	0	TRUE	TRUE	FALSE	1	1
+athjckHgXSFzsEHMe	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	34	plava maska	plava maska	NA	blue_mask	1	CN	NA	1	mask	blue	mask	0	TRUE	TRUE	FALSE	1	1
+athjckHgXSFzsEHMe	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	35	zuti novcanik	zuti novcanik	NA	yellow_wallet	1	CN	NA	1	wallet	yellow	wallet	0	TRUE	TRUE	FALSE	1	1
+athjckHgXSFzsEHMe	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	36	balon	balon	NA	white_balloon	1	N	NA	0	balloon	white	balloon	0	FALSE	TRUE	FALSE	1	0
+athjckHgXSFzsEHMe	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	39	bela pegla, pazi da ne pomesas	bela pegla, pazi da ne pomesas	NA	white_iron	1	CN	NA	1	iron	white	iron	0	TRUE	TRUE	FALSE	1	1
+athjckHgXSFzsEHMe	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	40	cekic	cekic	NA	black_hammer	1	N	NA	0	hammer	black	hammer	0	FALSE	TRUE	FALSE	1	0
+athjckHgXSFzsEHMe	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	43	ljubicasti predmet (bubanj)	ljubicasti predmet (bubanj)	NA	purple_drum	1	CN	NA	1	drum	purple	drum	0	TRUE	TRUE	FALSE	1	1
+athjckHgXSFzsEHMe	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	44	narandzasti robot	narandzasti robot	NA	orange_robot	1	CN	NA	1	robot	orange	robot	0	TRUE	TRUE	FALSE	1	1
+athjckHgXSFzsEHMe	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	45	crna cinija	crna cinija	NA	black_bowl	1	CN	NA	1	bowl	black	bowl	0	TRUE	TRUE	FALSE	1	1
+athjckHgXSFzsEHMe	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	46	ljubicasti dvogled	ljubicasti dvogled	NA	purple_binoculars	1	CN	NA	1	binoculars	purple	binoculars	0	TRUE	TRUE	FALSE	1	1
+athjckHgXSFzsEHMe	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	48	crna masna	crna masna	NA	black_ribbon	1	CN	NA	1	ribbon	black	ribbon	0	TRUE	TRUE	FALSE	1	1
+athjckHgXSFzsEHMe	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	49	zeleni katanac	zeleni katanac	NA	green_lock	1	CN	NA	1	lock	green	lock	0	TRUE	TRUE	FALSE	1	1
+athjckHgXSFzsEHMe	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	50	helikopter helikopter__crni	helikopter helikopter	NA	black_helicopter	1	N	NA	0	helicopter	black	helicopter	0	FALSE	TRUE	FALSE	1	0
+athjckHgXSFzsEHMe	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	51	plava knjiga	plava knjiga	NA	blue_book	1	CN	NA	1	book	blue	book	0	TRUE	TRUE	FALSE	1	1
+athjckHgXSFzsEHMe	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	56	zuti krevet	zuti krevet	NA	yellow_bed	1	CN	NA	1	bed	yellow	bed	0	TRUE	TRUE	FALSE	1	1
+athjckHgXSFzsEHMe	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	57	ljubicasti kalendar	ljubicasti kalendar	NA	purple_calendar	1	CN	NA	1	calendar	purple	calendar	0	TRUE	TRUE	FALSE	1	1
+athjckHgXSFzsEHMe	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	61	plava sveca	plava sveca	NA	blue_candle	1	CN	NA	1	candle	blue	candle	0	TRUE	TRUE	FALSE	1	1
+athjckHgXSFzsEHMe	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	64	bela solja	bela solja	NA	white_mug	1	CN	NA	1	mug	white	mug	0	TRUE	TRUE	FALSE	1	1
+athjckHgXSFzsEHMe	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	65	bela gitara	bela gitara	NA	white_guitar	1	CN	NA	1	guitar	white	guitar	0	TRUE	TRUE	FALSE	1	1
+athjckHgXSFzsEHMe	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	66	kravata	kravata	NA	black_tie	1	N	NA	0	tie	black	tie	0	FALSE	TRUE	FALSE	1	0
+athjckHgXSFzsEHMe	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	67	ljubicasta riba	ljubicasta riba	NA	purple_fish	1	CN	NA	1	fish	purple	fish	0	TRUE	TRUE	FALSE	1	1
+athjckHgXSFzsEHMe	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	68	ljubicasta carapa	ljubicasta carapa	NA	purple_sock	1	CN	NA	1	sock	purple	sock	0	TRUE	TRUE	FALSE	1	1
+athjckHgXSFzsEHMe	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	69	ljubicasti srafciger	ljubicasti srafciger	NA	purple_screwdriver	1	CN	NA	1	screwdriver	purple	screwdriver	0	TRUE	TRUE	FALSE	1	1
+athjckHgXSFzsEHMe	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	70	vrata	vrata	NA	blue_door	1	N	NA	0	door	blue	door	0	FALSE	TRUE	FALSE	1	0
+athjckHgXSFzsEHMe	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	71	zeleni sesir	zeleni sesir	NA	green_shell	1	CN	NA	1	shell	green	shell	0	TRUE	TRUE	FALSE	1	1
+athjckHgXSFzsEHMe	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	72	beli prsten	beli prsten	NA	white_ring	1	CN	NA	1	ring	white	ring	0	TRUE	TRUE	FALSE	1	1
+MsPcgqeeTgfs7QqKe	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	1	krevet__hahah beli	krevet	say the word, beast__ima ih dva lol__crveni ili beli	white_bed	1	N	NA	0	bed	white	bed	0	FALSE	TRUE	FALSE	1	0
+MsPcgqeeTgfs7QqKe	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	2	crveni cvet	crveni cvet	NA	red_flower	1	CN	NA	1	flower	red	flower	0	TRUE	TRUE	FALSE	1	1
+MsPcgqeeTgfs7QqKe	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	3	ljubicasti kofer	ljubicasti kofer	reci da je carapa :d__haha dobro	purple_luggage	1	CN	NA	1	luggage	purple	luggage	0	TRUE	TRUE	FALSE	1	1
+MsPcgqeeTgfs7QqKe	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	4	buljicasta rukavica	buljicasta rukavica	hahaha__nadam se da je ovo namerno	purple_glove	1	CN	NA	1	glove	purple	glove	0	TRUE	TRUE	FALSE	1	1
+MsPcgqeeTgfs7QqKe	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	5	buljicasta kockica__:d	buljicasta kockica	NA	purple_die	1	CN	NA	1	die	purple	die	0	TRUE	TRUE	FALSE	1	1
+MsPcgqeeTgfs7QqKe	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	6	robot__hahaha	robot	opet buljicasti, sta je ovo	purple_robot	1	N	NA	0	robot	purple	robot	0	FALSE	TRUE	FALSE	1	0
+MsPcgqeeTgfs7QqKe	BCS	feedback	scene4	NA	NA	NA	NA	3	pophristic_stimuli	7	nisu se ucitale slike :(__klikni na sta god__xd__moyda korpa__xd	nisu se ucitale slike :(	ako je korpa, obesicu se__bas ako te interesuje, tu je buljicasta korpa, crna i zelena masna, katanac, pegla i kruna__da idem na buljicastu korpu__hahah__safe bet	purple_basket	0	O	NA	0	lock	purple	basket	0	FALSE	FALSE	TRUE	0	0
+MsPcgqeeTgfs7QqKe	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	8	papuca__prc	papuca	bio je katanac	orange_slipper	1	N	NA	0	slipper	orange	slipper	0	FALSE	TRUE	FALSE	1	0
+MsPcgqeeTgfs7QqKe	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	11	carapa sv. patrika	carapa sv. patrika	<3	green_sock	1	NO	NA	0	sock	green	sock	0	FALSE	TRUE	TRUE	1	0
+MsPcgqeeTgfs7QqKe	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	12	stolica	stolica	NA	white_chair	1	N	NA	0	chair	white	chair	0	FALSE	TRUE	FALSE	1	0
+MsPcgqeeTgfs7QqKe	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	13	viljuska sv. patrika	viljuska sv. patrika	prijatelju koji citas ovaj cet, nadam se da se zabavljas	green_fork	1	NO	NA	0	fork	green	fork	0	FALSE	TRUE	TRUE	1	0
+MsPcgqeeTgfs7QqKe	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	14	opet sveti patrik xd	opet sveti patrik xd	samo zeleno	green_tie	1	O	NA	0	tie	green	tie	0	FALSE	FALSE	TRUE	0	0
+MsPcgqeeTgfs7QqKe	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	15	biseriii	biseriii	to je ogrlica	orange_necklace	1	O	NA	0	necklace	orange	necklace	0	FALSE	FALSE	TRUE	0	0
+MsPcgqeeTgfs7QqKe	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	16	it__jeees	it	znaci crveni	red_balloon	1	O	NA	0	balloon	red	balloon	0	FALSE	FALSE	TRUE	0	0
+MsPcgqeeTgfs7QqKe	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	17	bela olovka	bela olovka	touche	white_pencil	1	CN	NA	1	pencil	white	pencil	0	TRUE	TRUE	FALSE	1	1
+MsPcgqeeTgfs7QqKe	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	20	crna korpa	crna korpa	NA	black_basket	1	CN	NA	1	basket	black	basket	0	TRUE	TRUE	FALSE	1	1
+MsPcgqeeTgfs7QqKe	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	21	bubanj sv patrika	bubanj sv patrika	hahahaha__samo sam cekao	green_drum	1	NO	NA	0	drum	green	drum	0	FALSE	TRUE	TRUE	1	0
+MsPcgqeeTgfs7QqKe	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	22	bela haljina	bela haljina	white wedding	white_dress	1	CN	NA	1	dress	white	dress	0	TRUE	TRUE	FALSE	1	1
+MsPcgqeeTgfs7QqKe	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	23	mislim da reci na engleskom nisu dozvoljene xd__crvena sveca	mislim da reci na engleskom nisu dozvoljene xd	boohoo__mogu i na klingonskom	red_candle	1	CN	NA	1	candle	red	candle	0	TRUE	TRUE	FALSE	1	1
+MsPcgqeeTgfs7QqKe	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	24	narandzasti cekic	narandzasti cekic	NA	orange_hammer	1	CN	NA	1	hammer	orange	hammer	0	TRUE	TRUE	FALSE	1	1
+MsPcgqeeTgfs7QqKe	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	26	plava kruna	plava kruna	kralja petra	blue_crown	1	CN	NA	1	crown	blue	crown	0	TRUE	TRUE	FALSE	1	1
+MsPcgqeeTgfs7QqKe	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	28	masna znas vec cija	masna znas vec cija	NA	green_ribbon	1	NO	NA	0	ribbon	green	ribbon	0	FALSE	TRUE	TRUE	1	0
+MsPcgqeeTgfs7QqKe	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	30	kajis	kajis	NA	blue_belt	1	N	NA	0	belt	blue	belt	0	FALSE	TRUE	FALSE	1	0
+MsPcgqeeTgfs7QqKe	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	31	crni kamion__crvene boje	crni kamion	hahaha	black_truck	1	CN	NA	1	truck	black	truck	0	TRUE	TRUE	FALSE	1	1
+MsPcgqeeTgfs7QqKe	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	34	upisani jastuk	upisani jastuk	NA	yellow_cushion	1	ON	NA	0	cushion	yellow	cushion	0	FALSE	TRUE	TRUE	1	0
+MsPcgqeeTgfs7QqKe	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	36	bela sveska	bela sveska	NA	white_book	1	CN	NA	1	book	white	book	0	TRUE	TRUE	FALSE	1	1
+MsPcgqeeTgfs7QqKe	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	37	plava solja	plava solja	NA	blue_mug	1	CN	NA	1	mug	blue	mug	0	TRUE	TRUE	FALSE	1	1
+MsPcgqeeTgfs7QqKe	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	38	ograda	ograda	NA	white_fence	1	N	NA	0	fence	white	fence	0	FALSE	TRUE	FALSE	1	0
+MsPcgqeeTgfs7QqKe	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	39	skoljka	skoljka	NA	purple_shell	1	N	NA	0	shell	purple	shell	0	FALSE	TRUE	FALSE	1	0
+MsPcgqeeTgfs7QqKe	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	42	kelikopter	kelikopter	NA	purple_helicopter	1	N	NA	0	helicopter	purple	helicopter	0	FALSE	TRUE	FALSE	1	0
+MsPcgqeeTgfs7QqKe	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	44	crveni kalendar	crveni kalendar	to je narandzasto	orange_calendar	1	CN	NA	1	calendar	orange	calendar	0	TRUE	TRUE	FALSE	1	1
+MsPcgqeeTgfs7QqKe	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	47	sal	sal	NA	red_scarf	1	N	NA	0	scarf	red	scarf	0	FALSE	TRUE	FALSE	1	0
+MsPcgqeeTgfs7QqKe	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	48	cesalj	cesalj	NA	white_comb	1	N	NA	0	comb	white	comb	0	FALSE	TRUE	FALSE	1	0
+MsPcgqeeTgfs7QqKe	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	50	prsten	prsten	..kupio sam pusku, jedno od ta dva bacicu u reku	blue_ring	1	N	NA	0	ring	blue	ring	0	FALSE	TRUE	FALSE	1	0
+MsPcgqeeTgfs7QqKe	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	53	noz	noz	NA	orange_knife	1	N	NA	0	knife	orange	knife	0	FALSE	TRUE	FALSE	1	0
+MsPcgqeeTgfs7QqKe	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	54	riba__narandzasta	riba	NA	orange_fish	1	N	NA	0	fish	orange	fish	0	FALSE	TRUE	FALSE	1	0
+MsPcgqeeTgfs7QqKe	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	58	beli telefon	beli telefon	NA	white_phone	1	CN	NA	1	phone	white	phone	0	TRUE	TRUE	FALSE	1	1
+MsPcgqeeTgfs7QqKe	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	59	jesi ziv__dvogled sv patrika	jesi ziv	mrdam__da ti tata sine kupi karabin__sa dvogledom	green_binoculars	1	ON	NA	0	binoculars	green	binoculars	0	FALSE	TRUE	TRUE	1	0
+MsPcgqeeTgfs7QqKe	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	61	zuta vrata	zuta vrata	NA	yellow_door	1	CN	NA	1	door	yellow	door	0	TRUE	TRUE	FALSE	1	1
+MsPcgqeeTgfs7QqKe	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	62	cinija	cinija	NA	black_bowl	1	N	NA	0	bowl	black	bowl	0	FALSE	TRUE	FALSE	1	0
+MsPcgqeeTgfs7QqKe	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	64	maska	maska	NA	red_mask	1	N	NA	0	mask	red	mask	0	FALSE	TRUE	FALSE	1	0
+MsPcgqeeTgfs7QqKe	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	65	bas <£__<3	bas <£	haha	blue_guitar	1	N	NA	0	guitar	blue	guitar	0	FALSE	TRUE	FALSE	1	0
+MsPcgqeeTgfs7QqKe	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	66	crveni leptir	crveni leptir	NA	red_butterfly	1	CN	NA	1	butterfly	red	butterfly	0	TRUE	TRUE	FALSE	1	1
+MsPcgqeeTgfs7QqKe	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	67	srafciger	srafciger	NA	black_screwdriver	1	N	NA	0	screwdriver	black	screwdriver	0	FALSE	TRUE	FALSE	1	0
+MsPcgqeeTgfs7QqKe	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	68	plavi novcanik	plavi novcanik	NA	blue_wallet	1	CN	NA	1	wallet	blue	wallet	0	TRUE	TRUE	FALSE	1	1
+MsPcgqeeTgfs7QqKe	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	69	buljicasti mikroskop__hahah	buljicasti mikroskop	NA	purple_microscope	1	CN	NA	1	microscope	purple	microscope	0	TRUE	TRUE	FALSE	1	1
+MsPcgqeeTgfs7QqKe	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	71	pegla	pegla	NA	red_iron	1	N	NA	0	iron	red	iron	0	FALSE	TRUE	FALSE	1	0
+MsPcgqeeTgfs7QqKe	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	72	digitron	digitron	aaand__za kraj__pff__ocekivao sam patrikovu papucu	blue_calculator	1	N	NA	0	calculator	blue	calculator	0	FALSE	TRUE	FALSE	1	0
+bMzfy4C8MY9XEWtR3	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	1	zeleni	zeleni	NA	green_robot	1	C	NA	1	robot	green	robot	0	TRUE	FALSE	FALSE	0	1
+bMzfy4C8MY9XEWtR3	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	2	zuti cvijet	zuti cvijet	NA	yellow_flower	1	CN	NA	1	flower	yellow	flower	0	TRUE	TRUE	FALSE	1	1
+bMzfy4C8MY9XEWtR3	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	3	lokot	lokot	NA	purple_lock	1	N	NA	0	lock	purple	lock	0	FALSE	TRUE	FALSE	1	0
+bMzfy4C8MY9XEWtR3	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	4	korpa	korpa	NA	green_basket	1	N	NA	0	basket	green	basket	0	FALSE	TRUE	FALSE	1	0
+bMzfy4C8MY9XEWtR3	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	5	crveni	crveni	NA	red_calculator	1	C	NA	1	calculator	red	calculator	0	TRUE	FALSE	FALSE	0	1
+bMzfy4C8MY9XEWtR3	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	6	ljubicasti	ljubicasti	NA	purple_drum	1	C	NA	1	drum	purple	drum	0	TRUE	FALSE	FALSE	0	1
+bMzfy4C8MY9XEWtR3	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	7	kravata__crna	kravata	NA	black_tie	1	N	NA	0	tie	black	tie	0	FALSE	TRUE	FALSE	1	0
+bMzfy4C8MY9XEWtR3	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	8	plavi jastuk	plavi jastuk	NA	blue_cushion	1	CN	NA	1	cushion	blue	cushion	0	TRUE	TRUE	FALSE	1	1
+bMzfy4C8MY9XEWtR3	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	11	crna zdjela	crna zdjela	NA	black_bowl	1	CN	NA	1	bowl	black	bowl	0	TRUE	TRUE	FALSE	1	1
+bMzfy4C8MY9XEWtR3	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	12	plava	plava	NA	blue_candle	1	C	NA	1	candle	blue	candle	0	TRUE	FALSE	FALSE	0	1
+bMzfy4C8MY9XEWtR3	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	15	zeleni	zeleni	NA	green_screwdriver	1	C	NA	1	screwdriver	green	screwdriver	0	TRUE	FALSE	FALSE	0	1
+bMzfy4C8MY9XEWtR3	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	16	masna	masna	NA	purple_ribbon	1	N	NA	0	ribbon	purple	ribbon	0	FALSE	TRUE	FALSE	1	0
+bMzfy4C8MY9XEWtR3	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	17	plava__stolca	plava	NA	blue_chair	1	C	NA	1	chair	blue	chair	0	TRUE	FALSE	FALSE	0	1
+bMzfy4C8MY9XEWtR3	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	18	dice	dice	NA	orange_die	1	O	NA	0	die	orange	die	0	FALSE	FALSE	TRUE	0	0
+bMzfy4C8MY9XEWtR3	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	21	ograda plava	ograda plava	NA	blue_fence	1	NC	NA	1	fence	blue	fence	0	TRUE	TRUE	FALSE	1	1
+bMzfy4C8MY9XEWtR3	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	23	noz narancasti	noz narancasti	NA	orange_knife	1	NC	NA	1	knife	orange	knife	0	TRUE	TRUE	FALSE	1	1
+bMzfy4C8MY9XEWtR3	BCS	feedback	scene1	NA	NA	NA	NA	6	pophristic_stimuli	25	krevet	krevet	NA	blue_bed	0	N	NA	0	bed	blue	bed	0	FALSE	TRUE	FALSE	1	0
+bMzfy4C8MY9XEWtR3	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	26	crna viljuska	crna viljuska	NA	black_fork	1	CN	NA	1	fork	black	fork	0	TRUE	TRUE	FALSE	1	1
+bMzfy4C8MY9XEWtR3	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	30	cekic	cekic	NA	green_hammer	1	N	NA	0	hammer	green	hammer	0	FALSE	TRUE	FALSE	1	0
+bMzfy4C8MY9XEWtR3	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	31	zelena	zelena	NA	green_shell	1	C	NA	1	shell	green	shell	0	TRUE	FALSE	FALSE	0	1
+bMzfy4C8MY9XEWtR3	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	33	crvena__knjiga	crvena	NA	red_book	1	C	NA	1	book	red	book	0	TRUE	FALSE	FALSE	0	1
+bMzfy4C8MY9XEWtR3	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	34	crni	crni	NA	black_truck	1	C	NA	1	truck	black	truck	0	TRUE	FALSE	FALSE	0	1
+bMzfy4C8MY9XEWtR3	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	35	prsten bijeli	prsten bijeli	NA	white_ring	1	NC	NA	1	ring	white	ring	0	TRUE	TRUE	FALSE	1	1
+bMzfy4C8MY9XEWtR3	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	36	telefon	telefon	NA	blue_phone	1	N	NA	0	phone	blue	phone	0	FALSE	TRUE	FALSE	1	0
+bMzfy4C8MY9XEWtR3	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	37	zeleni	zeleni	NA	green_calendar	1	C	NA	1	calendar	green	calendar	0	TRUE	FALSE	FALSE	0	1
+bMzfy4C8MY9XEWtR3	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	39	leptir	leptir	NA	blue_butterfly	1	N	NA	0	butterfly	blue	butterfly	0	FALSE	TRUE	FALSE	1	0
+bMzfy4C8MY9XEWtR3	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	40	crveni__cesalj	crveni	NA	red_comb	1	C	NA	1	comb	red	comb	0	TRUE	FALSE	FALSE	0	1
+bMzfy4C8MY9XEWtR3	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	41	riba	riba	NA	black_fish	1	N	NA	0	fish	black	fish	0	FALSE	TRUE	FALSE	1	0
+bMzfy4C8MY9XEWtR3	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	42	plava pegla	plava pegla	NA	blue_iron	1	CN	NA	1	iron	blue	iron	0	TRUE	TRUE	FALSE	1	1
+bMzfy4C8MY9XEWtR3	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	43	zuta	zuta	NA	yellow_pencil	1	C	NA	1	pencil	yellow	pencil	0	TRUE	FALSE	FALSE	0	1
+bMzfy4C8MY9XEWtR3	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	45	sal	sal	NA	white_scarf	1	N	NA	0	scarf	white	scarf	0	FALSE	TRUE	FALSE	1	0
+bMzfy4C8MY9XEWtR3	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	47	balon	balon	NA	white_balloon	1	N	NA	0	balloon	white	balloon	0	FALSE	TRUE	FALSE	1	0
+bMzfy4C8MY9XEWtR3	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	49	zuti kajs	zuti kajs	NA	yellow_belt	1	CN	NA	1	belt	yellow	belt	0	TRUE	TRUE	FALSE	1	1
+bMzfy4C8MY9XEWtR3	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	51	kruna	kruna	NA	yellow_crown	1	N	NA	0	crown	yellow	crown	0	FALSE	TRUE	FALSE	1	0
+bMzfy4C8MY9XEWtR3	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	53	ogrlica	ogrlica	NA	green_necklace	1	N	NA	0	necklace	green	necklace	0	FALSE	TRUE	FALSE	1	0
+bMzfy4C8MY9XEWtR3	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	54	crvena	crvena	NA	red_mug	1	C	NA	1	mug	red	mug	0	TRUE	FALSE	FALSE	0	1
+bMzfy4C8MY9XEWtR3	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	56	ljubicasta	ljubicasta	NA	purple_glove	1	C	NA	1	glove	purple	glove	0	TRUE	FALSE	FALSE	0	1
+bMzfy4C8MY9XEWtR3	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	58	plava__novcarka	plava	NA	blue_wallet	1	C	NA	6	wallet	blue	wallet	0	TRUE	FALSE	FALSE	0	1
+bMzfy4C8MY9XEWtR3	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	59	haljina	haljina	NA	white_dress	1	N	NA	0	dress	white	dress	0	FALSE	TRUE	FALSE	1	0
+bMzfy4C8MY9XEWtR3	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	60	narancasti__dalekozor	narancasti	NA	orange_binoculars	1	C	NA	1	binoculars	orange	binoculars	0	TRUE	FALSE	FALSE	0	1
+bMzfy4C8MY9XEWtR3	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	61	zelena	zelena	NA	green_sock	1	C	NA	1	sock	green	sock	0	TRUE	FALSE	FALSE	0	1
+bMzfy4C8MY9XEWtR3	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	63	zuta	zuta	NA	yellow_mask	1	C	NA	1	mask	yellow	mask	0	TRUE	FALSE	FALSE	0	1
+bMzfy4C8MY9XEWtR3	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	64	helic__orange	helic	NA	orange_helicopter	1	N	NA	0	helicopter	orange	helicopter	0	FALSE	TRUE	FALSE	1	0
+bMzfy4C8MY9XEWtR3	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	65	vrata	vrata	NA	red_door	1	N	NA	1	door	red	door	0	FALSE	TRUE	FALSE	1	0
+bMzfy4C8MY9XEWtR3	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	68	slapa	slapa	NA	orange_slipper	1	N	NA	0	slipper	orange	slipper	0	FALSE	TRUE	FALSE	1	0
+bMzfy4C8MY9XEWtR3	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	69	kofer	kofer	NA	orange_luggage	1	N	NA	0	luggage	orange	luggage	0	FALSE	TRUE	FALSE	1	0
+bMzfy4C8MY9XEWtR3	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	71	crni	crni	NA	black_microscope	1	C	NA	1	microscope	black	microscope	0	TRUE	FALSE	FALSE	0	1
+bMzfy4C8MY9XEWtR3	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	72	gitara	gitara	NA	white_guitar	1	N	NA	1	guitar	white	guitar	0	FALSE	TRUE	FALSE	1	0
+aLvo7pHYahCqwCpt3	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	1	ljudi to ne koriste	ljudi to ne koriste	NA	blue_butterfly	1	O	NA	0	butterfly	blue	butterfly	0	FALSE	FALSE	TRUE	0	0
+aLvo7pHYahCqwCpt3	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	5	vece od digritona__koristi se u kuci__da	vece od digritona	plava boja	blue_phone	1	O	NA	0	phone	blue	phone	0	FALSE	FALSE	TRUE	0	0
+aLvo7pHYahCqwCpt3	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	7	moze da se zapali	moze da se zapali	NA	yellow_candle	1	O	NA	0	candle	yellow	candle	0	FALSE	FALSE	TRUE	0	0
+aLvo7pHYahCqwCpt3	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	10	koristi se za bezbednost__normalne boje	koristi se za bezbednost	boja	black_lock	1	O	NA	0	lock	black	lock	0	FALSE	FALSE	TRUE	0	0
+aLvo7pHYahCqwCpt3	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	14	koristi se u kuci__ali ne i napolju__za hodanje__tamna	koristi se u kuci	za spavanje__boja	black_slipper	1	O	NA	0	slipper	black	slipper	0	FALSE	FALSE	TRUE	0	0
+aLvo7pHYahCqwCpt3	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	15	koriste umetnici	koriste umetnici	NA	blue_pencil	1	O	NA	0	pencil	blue	pencil	0	FALSE	FALSE	TRUE	0	0
+aLvo7pHYahCqwCpt3	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	17	koristi se tokom pandemije__boja neba	koristi se tokom pandemije	NA	blue_mask	1	O	NA	0	mask	blue	mask	0	FALSE	FALSE	TRUE	0	0
+aLvo7pHYahCqwCpt3	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	18	koristi se tokom hladnog vremena__boje snega	koristi se tokom hladnog vremena	NA	white_scarf	1	O	NA	0	scarf	white	scarf	0	FALSE	FALSE	TRUE	0	0
+aLvo7pHYahCqwCpt3	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	19	najvenija stvar sto nosis sa sobom__najvrednija	najvenija stvar sto nosis sa sobom	najvrednija	yellow_wallet	1	O	NA	0	wallet	yellow	wallet	0	FALSE	FALSE	TRUE	0	0
+aLvo7pHYahCqwCpt3	BCS	feedback	scene3	NA	NA	NA	NA	3	pophristic_stimuli	20	ne moze se ici napolju bez te stvari	ne moze se ici napolju bez te stvari	NA	black_slipper	0	O	NA	0	dress	black	slipper	0	FALSE	FALSE	TRUE	0	0
+aLvo7pHYahCqwCpt3	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	21	glasno je__ljubicaste	glasno je	gitara__koje boe__boje	purple_drum	1	O	NA	0	drum	purple	drum	0	FALSE	FALSE	TRUE	0	0
+aLvo7pHYahCqwCpt3	BCS	feedback	scene3	NA	NA	NA	NA	3	pophristic_stimuli	22	napravljeno od drveta	napravljeno od drveta	NA	red_pencil	0	O	NA	0	door	red	pencil	0	FALSE	FALSE	TRUE	0	0
+aLvo7pHYahCqwCpt3	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	23	nakit je u pitanju__tamne boje	nakit je u pitanju	boja	purple_necklace	1	O	NA	0	necklace	purple	necklace	0	FALSE	FALSE	TRUE	0	0
+aLvo7pHYahCqwCpt3	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	26	koristi se za ishranu__nije dosadna boja	koristi se za ishranu	koja boja	red_mug	1	O	NA	0	mug	red	mug	0	FALSE	FALSE	TRUE	0	0
+aLvo7pHYahCqwCpt3	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	29	donosi srecu__koristi se u igrama na srecu	donosi srecu	sta__boja	black_die	1	O	NA	0	die	black	die	0	FALSE	FALSE	TRUE	0	0
+aLvo7pHYahCqwCpt3	BCS	feedback	scene1	NA	NA	NA	NA	6	pophristic_stimuli	30	neki ljudi to ne koriste kada ostare	neki ljudi to ne koriste kada ostare	NA	white_comb	0	O	NA	0	comb	white	comb	0	FALSE	FALSE	TRUE	0	0
+aLvo7pHYahCqwCpt3	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	32	moze da se koristi i u kuci i van__normalne boje	moze da se koristi i u kuci i van	NA	black_screwdriver	1	O	NA	0	screwdriver	black	screwdriver	0	FALSE	FALSE	TRUE	0	0
+aLvo7pHYahCqwCpt3	BCS	feedback	scene1	NA	NA	NA	NA	2	pophristic_stimuli	33	povezuje se za buducnost	povezuje se za buducnost	NA	blue_ring	0	O	NA	0	robot	blue	ring	0	FALSE	FALSE	TRUE	0	0
+aLvo7pHYahCqwCpt3	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	34	ne koriste umetnici__boje prirode	ne koriste umetnici	sta__koje boje	green_knife	1	O	NA	0	knife	green	knife	0	FALSE	FALSE	TRUE	0	0
+aLvo7pHYahCqwCpt3	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	35	koristi se tokom dana__da bi se videlo daleko	koristi se tokom dana	NA	black_binoculars	1	O	NA	0	binoculars	black	binoculars	0	FALSE	FALSE	TRUE	0	0
+aLvo7pHYahCqwCpt3	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	36	koristi se za pravljenje liste	koristi se za pravljenje liste	NA	yellow_book	1	O	NA	0	book	yellow	book	0	FALSE	FALSE	TRUE	0	0
+aLvo7pHYahCqwCpt3	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	38	koristi se u zvecanoj situaciji__svecanoj*	koristi se u zvecanoj situaciji	NA	purple_tie	1	O	NA	0	tie	purple	tie	0	FALSE	FALSE	TRUE	0	0
+aLvo7pHYahCqwCpt3	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	39	koristi se da bi se odvojili od komsije__svetle boje	koristi se da bi se odvojili od komsije	NA	yellow_fence	1	O	NA	0	fence	yellow	fence	0	FALSE	FALSE	TRUE	0	0
+aLvo7pHYahCqwCpt3	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	40	ide sa patikama__tamne boje__boje trave	ide sa patikama	kako tamne	green_sock	1	O	NA	0	sock	green	sock	0	FALSE	FALSE	TRUE	0	0
+aLvo7pHYahCqwCpt3	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	42	zivo stvorenje	zivo stvorenje	NA	purple_fish	1	O	NA	0	fish	purple	fish	0	FALSE	FALSE	TRUE	0	0
+aLvo7pHYahCqwCpt3	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	45	jedina stvar koja nije napravljena od strane coveka	jedina stvar koja nije napravljena od strane coveka	NA	yellow_flower	1	O	NA	0	flower	yellow	flower	0	FALSE	FALSE	TRUE	0	0
+aLvo7pHYahCqwCpt3	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	46	prenosi se__cudne boje	prenosi se	NA	purple_luggage	1	O	NA	0	luggage	purple	luggage	0	FALSE	FALSE	TRUE	0	0
+aLvo7pHYahCqwCpt3	BCS	feedback	scene2	NA	NA	NA	NA	6	pophristic_stimuli	48	moze da se koristi ali i ne__zavisi od tezine coveka	moze da se koristi ali i ne	sta	red_belt	0	O	NA	0	belt	red	belt	0	FALSE	FALSE	TRUE	0	0
+aLvo7pHYahCqwCpt3	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	49	koristi se za umetnost__svetle boje__kao sunce	koristi se za umetnost	kao sunce__ili nebo	yellow_guitar	1	O	NA	0	guitar	yellow	guitar	0	FALSE	FALSE	TRUE	0	0
+aLvo7pHYahCqwCpt3	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	50	koristi se za ishranu__nije zivo__i tamne boje	koristi se za ishranu	NA	black_bowl	1	O	NA	0	bowl	black	bowl	0	FALSE	FALSE	TRUE	0	0
+aLvo7pHYahCqwCpt3	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	52	koristi se nocu	koristi se nocu	NA	blue_bed	1	O	NA	0	bed	blue	bed	0	FALSE	FALSE	TRUE	0	0
+aLvo7pHYahCqwCpt3	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	53	koristi se van kuce__da	koristi se van kuce	sta__kao vozilo ili	orange_truck	1	O	NA	0	truck	orange	truck	0	FALSE	FALSE	TRUE	0	0
+aLvo7pHYahCqwCpt3	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	54	moze da se koristi i napolju i unutra__ljubicaste	moze da se koristi i napolju i unutra	boja	purple_basket	1	O	NA	0	basket	purple	basket	0	FALSE	FALSE	TRUE	0	0
+aLvo7pHYahCqwCpt3	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	55	nalazi se u moru__svetle boje__slicna boji peska	nalazi se u moru	koje boje__sve si mi rekao	orange_shell	1	O	NA	0	shell	orange	shell	0	FALSE	FALSE	TRUE	0	0
+aLvo7pHYahCqwCpt3	BCS	feedback	scene1	NA	NA	NA	NA	3	pophristic_stimuli	56	koristi se u kuci__svetla boja je u pitanju__svetla...	koristi se u kuci	boja__plava	yellow_scarf	0	O	NA	0	cushion	yellow	scarf	0	FALSE	FALSE	TRUE	0	0
+aLvo7pHYahCqwCpt3	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	58	lako moze da se unisti	lako moze da se unisti	NA	yellow_balloon	1	O	NA	0	balloon	yellow	balloon	0	FALSE	FALSE	TRUE	0	0
+aLvo7pHYahCqwCpt3	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	59	koristi se samo jedne godine	koristi se samo jedne godine	NA	purple_calendar	1	O	NA	0	calendar	purple	calendar	0	FALSE	FALSE	TRUE	0	0
+aLvo7pHYahCqwCpt3	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	60	koristi se za ukrasivanje__boje prirode	koristi se za ukrasivanje	koje boje	green_ribbon	1	O	NA	0	ribbon	green	ribbon	0	FALSE	FALSE	TRUE	0	0
+aLvo7pHYahCqwCpt3	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	62	koristi se za ishranu	koristi se za ishranu	NA	purple_fork	1	O	NA	0	fork	purple	fork	0	FALSE	FALSE	TRUE	0	0
+aLvo7pHYahCqwCpt3	BCS	feedback	scene1	NA	NA	NA	NA	2	pophristic_stimuli	63	igraju se deca sa tim	igraju se deca sa tim	NA	green_robot	0	O	NA	0	helicopter	green	robot	0	FALSE	FALSE	TRUE	0	0
+aLvo7pHYahCqwCpt3	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	64	koristi se u matematici__tamne boje__da	koristi se u matematici	tamno plava__ili	blue_calculator	1	O	NA	0	calculator	blue	calculator	0	FALSE	FALSE	TRUE	0	0
+aLvo7pHYahCqwCpt3	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	65	koristilp se u davno doba	koristilp se u davno doba	NA	blue_crown	1	O	NA	0	crown	blue	crown	0	FALSE	FALSE	TRUE	0	0
+aLvo7pHYahCqwCpt3	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	66	korisi se van__tamne boje	korisi se van	NA	purple_hammer	1	O	NA	0	hammer	purple	hammer	0	FALSE	FALSE	TRUE	0	0
+aLvo7pHYahCqwCpt3	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	67	koristi se za zastitu	koristi se za zastitu	NA	orange_glove	1	O	NA	0	glove	orange	glove	0	FALSE	FALSE	TRUE	0	0
+aLvo7pHYahCqwCpt3	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	68	koristi se da se vide male zivotinje	koristi se da se vide male zivotinje	NA	green_microscope	1	O	NA	0	microscope	green	microscope	0	FALSE	FALSE	TRUE	0	0
+aLvo7pHYahCqwCpt3	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	69	koristi se kao obecanje dve osobe__crvene	koristi se kao obecanje dve osobe	boja	red_ring	1	O	NA	0	ring	red	ring	0	FALSE	FALSE	TRUE	0	0
+aLvo7pHYahCqwCpt3	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	71	korisiti se u kuhinji__normalne boje__da sednes	korisiti se u kuhinji	da sednes ili da jedes	white_chair	1	O	NA	0	chair	white	chair	0	FALSE	FALSE	TRUE	0	0
+aLvo7pHYahCqwCpt3	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	72	koristi se sa vesom__cudne boje	koristi se sa vesom	NA	red_iron	1	O	NA	0	iron	red	iron	0	FALSE	FALSE	TRUE	0	0
+KYKqmNfso82mqon84	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	1	kucne papuce	kucne papuce	NA	purple_slipper	1	N	NA	0	slipper	purple	slipper	0	FALSE	TRUE	FALSE	1	0
+KYKqmNfso82mqon84	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	2	sal	sal	NA	yellow_scarf	1	N	NA	0	scarf	yellow	scarf	0	FALSE	TRUE	FALSE	1	0
+KYKqmNfso82mqon84	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	3	helikopter	helikopter	NA	purple_helicopter	1	N	NA	0	helicopter	purple	helicopter	0	FALSE	TRUE	FALSE	1	0
+KYKqmNfso82mqon84	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	4	srafciger	srafciger	NA	green_screwdriver	1	N	NA	0	screwdriver	green	screwdriver	0	FALSE	TRUE	FALSE	1	0
+KYKqmNfso82mqon84	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	5	kocka - crna	kocka - crna	NA	black_die	1	NC	NA	1	die	black	die	0	TRUE	TRUE	FALSE	1	1
+KYKqmNfso82mqon84	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	8	korpa - zelena	korpa - zelena	NA	green_basket	1	NC	NA	1	basket	green	basket	0	TRUE	TRUE	FALSE	1	1
+KYKqmNfso82mqon84	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	9	krevet - plavi	krevet - plavi	NA	blue_bed	1	NC	NA	1	bed	blue	bed	0	TRUE	TRUE	FALSE	1	1
+KYKqmNfso82mqon84	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	11	novcanik - crveni	novcanik - crveni	NA	red_wallet	1	NC	NA	1	wallet	red	wallet	0	TRUE	TRUE	FALSE	1	1
+KYKqmNfso82mqon84	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	14	kamijon - narandzasti	kamijon - narandzasti	NA	orange_truck	1	NC	NA	1	truck	orange	truck	0	TRUE	TRUE	FALSE	1	1
+KYKqmNfso82mqon84	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	17	bubanj - narandzasti	bubanj - narandzasti	NA	orange_drum	1	NC	NA	1	drum	orange	drum	0	TRUE	TRUE	FALSE	1	1
+KYKqmNfso82mqon84	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	18	dvogled - zeleni	dvogled - zeleni	NA	green_binoculars	1	NC	NA	1	binoculars	green	binoculars	0	TRUE	TRUE	FALSE	1	1
+KYKqmNfso82mqon84	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	19	kofer	kofer	NA	orange_luggage	1	N	NA	0	luggage	orange	luggage	0	FALSE	TRUE	FALSE	1	0
+KYKqmNfso82mqon84	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	20	ograda	ograda	NA	blue_fence	1	N	NA	0	fence	blue	fence	0	FALSE	TRUE	FALSE	1	0
+KYKqmNfso82mqon84	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	21	vrata - plava	vrata - plava	NA	blue_door	1	NC	NA	1	door	blue	door	0	TRUE	TRUE	FALSE	1	1
+KYKqmNfso82mqon84	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	22	prsten	prsten	NA	white_ring	1	N	NA	0	ring	white	ring	0	FALSE	TRUE	FALSE	1	0
+KYKqmNfso82mqon84	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	23	balon__crveni balon	balon	koja boja?	red_balloon	1	N	NA	0	balloon	red	balloon	0	FALSE	TRUE	FALSE	1	0
+KYKqmNfso82mqon84	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	24	solja	solja	NA	white_mug	1	N	NA	0	mug	white	mug	0	FALSE	TRUE	FALSE	1	0
+KYKqmNfso82mqon84	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	26	noz	noz	NA	purple_knife	1	N	NA	0	knife	purple	knife	0	FALSE	TRUE	FALSE	1	0
+KYKqmNfso82mqon84	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	27	riba - ljubicasta	riba - ljubicasta	NA	purple_fish	1	NC	NA	1	fish	purple	fish	0	TRUE	TRUE	FALSE	1	1
+KYKqmNfso82mqon84	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	28	telefon - plavi	telefon - plavi	NA	blue_phone	1	NC	NA	1	phone	blue	phone	0	TRUE	TRUE	FALSE	1	1
+KYKqmNfso82mqon84	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	29	cesalj	cesalj	NA	red_comb	1	N	NA	0	comb	red	comb	0	FALSE	TRUE	FALSE	1	0
+KYKqmNfso82mqon84	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	30	haljina - zuta	haljina - zuta	NA	yellow_dress	1	NC	NA	1	dress	yellow	dress	0	TRUE	TRUE	FALSE	1	1
+KYKqmNfso82mqon84	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	31	carapa	carapa	NA	green_sock	1	N	NA	0	sock	green	sock	0	FALSE	TRUE	FALSE	1	0
+KYKqmNfso82mqon84	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	32	cvijet - plavi	cvijet - plavi	NA	blue_flower	1	NC	NA	1	flower	blue	flower	0	TRUE	TRUE	FALSE	1	1
+KYKqmNfso82mqon84	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	35	knjiga - crvena	knjiga - crvena	NA	red_book	1	NC	NA	1	book	red	book	0	TRUE	TRUE	FALSE	1	1
+KYKqmNfso82mqon84	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	36	mikroskop - crni	mikroskop - crni	NA	black_microscope	1	NC	NA	1	microscope	black	microscope	0	TRUE	TRUE	FALSE	1	1
+KYKqmNfso82mqon84	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	37	kajs	kajs	NA	yellow_belt	1	N	NA	0	belt	yellow	belt	0	FALSE	TRUE	FALSE	1	0
+KYKqmNfso82mqon84	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	38	kruna - crvena	kruna - crvena	NA	red_crown	1	NC	NA	1	crown	red	crown	0	TRUE	TRUE	FALSE	1	1
+KYKqmNfso82mqon84	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	39	zeleni__lock ?	zeleni	NA	green_lock	1	C	NA	0	lock	green	lock	0	TRUE	FALSE	FALSE	0	1
+KYKqmNfso82mqon84	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	40	maska	maska	NA	yellow_mask	1	N	NA	0	mask	yellow	mask	0	FALSE	TRUE	FALSE	1	0
+KYKqmNfso82mqon84	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	41	zdjela	zdjela	NA	green_bowl	1	N	NA	0	bowl	green	bowl	0	FALSE	TRUE	FALSE	1	0
+KYKqmNfso82mqon84	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	45	jastuk	jastuk	NA	white_cushion	1	N	NA	0	cushion	white	cushion	0	FALSE	TRUE	FALSE	1	0
+KYKqmNfso82mqon84	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	47	masna	masna	NA	orange_ribbon	1	N	NA	0	ribbon	orange	ribbon	0	FALSE	TRUE	FALSE	1	0
+KYKqmNfso82mqon84	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	49	ogrlica	ogrlica	NA	orange_necklace	1	N	NA	0	necklace	orange	necklace	0	FALSE	TRUE	FALSE	1	0
+KYKqmNfso82mqon84	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	50	kalkulator	kalkulator	NA	blue_calculator	1	N	NA	0	calculator	blue	calculator	0	FALSE	TRUE	FALSE	1	0
+KYKqmNfso82mqon84	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	51	kravata - narandzasta	kravata - narandzasta	NA	orange_tie	1	NC	NA	1	tie	orange	tie	0	TRUE	TRUE	FALSE	1	1
+KYKqmNfso82mqon84	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	52	skoljka	skoljka	NA	purple_shell	1	N	NA	0	shell	purple	shell	0	FALSE	TRUE	FALSE	1	0
+KYKqmNfso82mqon84	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	53	leptir - bijeli	leptir - bijeli	NA	white_butterfly	1	NC	NA	1	butterfly	white	butterfly	0	TRUE	TRUE	FALSE	1	1
+KYKqmNfso82mqon84	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	54	olovka - zuta	olovka - zuta	NA	yellow_pencil	1	NC	NA	1	pencil	yellow	pencil	0	TRUE	TRUE	FALSE	1	1
+KYKqmNfso82mqon84	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	55	kalendar - ljubcasti	kalendar - ljubcasti	NA	purple_calendar	1	NC	NA	1	calendar	purple	calendar	0	TRUE	TRUE	FALSE	1	1
+KYKqmNfso82mqon84	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	56	gitara	gitara	NA	red_guitar	1	N	NA	0	guitar	red	guitar	0	FALSE	TRUE	FALSE	1	0
+KYKqmNfso82mqon84	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	57	stolica	stolica	NA	yellow_chair	1	N	NA	0	chair	yellow	chair	0	FALSE	TRUE	FALSE	1	0
+KYKqmNfso82mqon84	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	58	svijeca - plava	svijeca - plava	NA	blue_candle	1	NC	NA	1	candle	blue	candle	0	TRUE	TRUE	FALSE	1	1
+KYKqmNfso82mqon84	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	60	cekic - crni	cekic - crni	NA	black_hammer	1	NC	NA	1	hammer	black	hammer	0	TRUE	TRUE	FALSE	1	1
+KYKqmNfso82mqon84	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	64	robot	robot	NA	green_robot	1	N	NA	0	robot	green	robot	0	FALSE	TRUE	FALSE	1	0
+KYKqmNfso82mqon84	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	65	viljuska__zelena	viljuska	NA	green_fork	1	N	NA	0	fork	green	fork	0	FALSE	TRUE	FALSE	1	0
+KYKqmNfso82mqon84	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	68	pegla	pegla	NA	blue_iron	1	N	NA	0	iron	blue	iron	0	FALSE	TRUE	FALSE	1	0
+KYKqmNfso82mqon84	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	69	rukavica - narandzasta	rukavica - narandzasta	NA	orange_glove	1	NC	NA	1	glove	orange	glove	0	TRUE	TRUE	FALSE	1	1
+wWQszKuAjWvN8SvPT	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	2	zuta knjiga	zuta knjiga	NA	yellow_book	1	CN	NA	1	book	yellow	book	0	TRUE	TRUE	FALSE	1	1
+wWQszKuAjWvN8SvPT	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	5	crvena stolica	crvena stolica	NA	red_chair	1	CN	NA	1	chair	red	chair	0	TRUE	TRUE	FALSE	1	1
+wWQszKuAjWvN8SvPT	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	7	plavi balon	plavi balon	NA	blue_balloon	1	CN	NA	1	balloon	blue	balloon	0	TRUE	TRUE	FALSE	1	1
+wWQszKuAjWvN8SvPT	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	8	bjela kitara	bjela kitara	NA	white_guitar	1	CN	NA	1	guitar	white	guitar	0	TRUE	TRUE	FALSE	1	1
+wWQszKuAjWvN8SvPT	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	9	kruna	kruna	NA	white_crown	1	N	NA	0	crown	white	crown	0	FALSE	TRUE	FALSE	1	0
+wWQszKuAjWvN8SvPT	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	11	sal	sal	NA	red_scarf	1	N	NA	0	scarf	red	scarf	0	FALSE	TRUE	FALSE	1	0
+wWQszKuAjWvN8SvPT	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	12	korpa	korpa	NA	purple_basket	1	N	NA	0	basket	purple	basket	0	FALSE	TRUE	FALSE	1	0
+wWQszKuAjWvN8SvPT	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	13	ljubicasti mikroskop	ljubicasti mikroskop	NA	purple_microscope	1	CN	NA	1	microscope	purple	microscope	0	TRUE	TRUE	FALSE	1	1
+wWQszKuAjWvN8SvPT	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	14	plavi krevet	plavi krevet	NA	blue_bed	1	CN	NA	1	bed	blue	bed	0	TRUE	TRUE	FALSE	1	1
+wWQszKuAjWvN8SvPT	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	15	vrata	vrata	NA	red_door	1	N	NA	0	door	red	door	0	FALSE	TRUE	FALSE	1	0
+wWQszKuAjWvN8SvPT	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	16	plavi novcanik	plavi novcanik	NA	blue_wallet	1	CN	NA	1	wallet	blue	wallet	0	TRUE	TRUE	FALSE	1	1
+wWQszKuAjWvN8SvPT	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	18	naranđasta skoljka z	naranđasta skoljka z	NA	orange_shell	1	CN	NA	1	shell	orange	shell	0	TRUE	TRUE	FALSE	1	1
+wWQszKuAjWvN8SvPT	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	19	crveni jastuk	crveni jastuk	NA	red_cushion	1	CN	NA	1	cushion	red	cushion	0	TRUE	TRUE	FALSE	1	1
+wWQszKuAjWvN8SvPT	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	21	crni bubanj	crni bubanj	NA	black_drum	1	CN	NA	1	drum	black	drum	0	TRUE	TRUE	FALSE	1	1
+wWQszKuAjWvN8SvPT	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	22	maska	maska	NA	white_mask	1	N	NA	0	mask	white	mask	0	FALSE	TRUE	FALSE	1	0
+wWQszKuAjWvN8SvPT	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	23	telefon	telefon	NA	red_phone	1	N	NA	0	phone	red	phone	0	FALSE	TRUE	FALSE	1	0
+wWQszKuAjWvN8SvPT	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	24	zuta sveca	zuta sveca	NA	yellow_candle	1	CN	NA	1	candle	yellow	candle	0	TRUE	TRUE	FALSE	1	1
+wWQszKuAjWvN8SvPT	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	25	riba	riba	NA	black_fish	1	N	NA	0	fish	black	fish	0	FALSE	TRUE	FALSE	1	0
+wWQszKuAjWvN8SvPT	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	27	kovceg	kovceg	NA	orange_luggage	1	N	NA	0	luggage	orange	luggage	0	FALSE	TRUE	FALSE	1	0
+wWQszKuAjWvN8SvPT	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	29	zuti cesalj	zuti cesalj	NA	yellow_comb	1	CN	NA	1	comb	yellow	comb	0	TRUE	TRUE	FALSE	1	1
+wWQszKuAjWvN8SvPT	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	30	solja	solja	NA	white_mug	1	N	NA	0	mug	white	mug	0	FALSE	TRUE	FALSE	1	0
+wWQszKuAjWvN8SvPT	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	31	haljina	haljina	NA	blue_dress	1	N	NA	0	dress	blue	dress	0	FALSE	TRUE	FALSE	1	0
+wWQszKuAjWvN8SvPT	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	33	ljubicasta kravata	ljubicasta kravata	NA	purple_tie	1	CN	NA	1	tie	purple	tie	0	TRUE	TRUE	FALSE	1	1
+wWQszKuAjWvN8SvPT	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	36	cekic	cekic	NA	black_hammer	1	N	NA	0	hammer	black	hammer	0	FALSE	TRUE	FALSE	1	0
+wWQszKuAjWvN8SvPT	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	37	zeleni noz	zeleni noz	NA	green_knife	1	CN	NA	1	knife	green	knife	0	TRUE	TRUE	FALSE	1	1
+wWQszKuAjWvN8SvPT	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	44	naranđasta zdjela	naranđasta zdjela	NA	orange_bowl	1	CN	NA	1	bowl	orange	bowl	0	TRUE	TRUE	FALSE	1	1
+wWQszKuAjWvN8SvPT	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	45	zuta ograda	zuta ograda	NA	yellow_fence	1	CN	NA	1	fence	yellow	fence	0	TRUE	TRUE	FALSE	1	1
+wWQszKuAjWvN8SvPT	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	47	kocka	kocka	NA	purple_die	1	N	NA	0	die	purple	die	0	FALSE	TRUE	FALSE	1	0
+wWQszKuAjWvN8SvPT	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	48	masna	masna	NA	purple_ribbon	1	N	NA	0	ribbon	purple	ribbon	0	FALSE	TRUE	FALSE	1	0
+wWQszKuAjWvN8SvPT	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	49	kamion	kamion	NA	orange_truck	1	N	NA	0	truck	orange	truck	0	FALSE	TRUE	FALSE	1	0
+wWQszKuAjWvN8SvPT	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	50	leptir	leptir	NA	red_butterfly	1	N	NA	0	butterfly	red	butterfly	0	FALSE	TRUE	FALSE	1	0
+wWQszKuAjWvN8SvPT	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	51	papuca	papuca	NA	purple_slipper	1	N	NA	0	slipper	purple	slipper	0	FALSE	TRUE	FALSE	1	0
+wWQszKuAjWvN8SvPT	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	52	ljubicasti dvogled	ljubicasti dvogled	NA	purple_binoculars	1	CN	NA	1	binoculars	purple	binoculars	0	TRUE	TRUE	FALSE	1	1
+wWQszKuAjWvN8SvPT	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	54	crveni robot	crveni robot	NA	orange_robot	1	CN	NA	1	robot	orange	robot	0	TRUE	TRUE	FALSE	1	1
+wWQszKuAjWvN8SvPT	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	55	kalendar	kalendar	NA	green_calendar	1	N	NA	0	calendar	green	calendar	0	FALSE	TRUE	FALSE	1	0
+wWQszKuAjWvN8SvPT	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	57	plava ruza	plava ruza	NA	blue_flower	1	CN	NA	1	flower	blue	flower	0	TRUE	TRUE	FALSE	1	1
+wWQszKuAjWvN8SvPT	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	58	ogrlica	ogrlica	NA	green_necklace	1	N	NA	0	necklace	green	necklace	0	FALSE	TRUE	FALSE	1	0
+wWQszKuAjWvN8SvPT	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	59	crveni prsten	crveni prsten	NA	red_ring	1	CN	NA	1	ring	red	ring	0	TRUE	TRUE	FALSE	1	1
+wWQszKuAjWvN8SvPT	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	60	crna carapa	crna carapa	NA	black_sock	1	CN	NA	1	sock	black	sock	0	TRUE	TRUE	FALSE	1	1
+wWQszKuAjWvN8SvPT	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	61	naranđasta rukavica	naranđasta rukavica	NA	orange_glove	1	CN	NA	1	glove	orange	glove	0	TRUE	TRUE	FALSE	1	1
+wWQszKuAjWvN8SvPT	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	63	bjeli kaijs	bjeli kaijs	NA	white_belt	1	CN	NA	1	belt	white	belt	0	TRUE	TRUE	FALSE	1	1
+wWQszKuAjWvN8SvPT	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	64	plava pegla	plava pegla	NA	blue_iron	1	CN	NA	1	iron	blue	iron	0	TRUE	TRUE	FALSE	1	1
+wWQszKuAjWvN8SvPT	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	66	katanac	katanac	NA	green_lock	1	N	NA	0	lock	green	lock	0	FALSE	TRUE	FALSE	1	0
+wWQszKuAjWvN8SvPT	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	67	srafciger	srafciger	NA	purple_screwdriver	1	N	NA	0	screwdriver	purple	screwdriver	0	FALSE	TRUE	FALSE	1	0
+wWQszKuAjWvN8SvPT	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	68	plava olovka	plava olovka	NA	blue_pencil	1	CN	NA	1	pencil	blue	pencil	0	TRUE	TRUE	FALSE	1	1
+wWQszKuAjWvN8SvPT	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	69	naranđasti helikopter	naranđasti helikopter	NA	orange_helicopter	1	CN	NA	1	helicopter	orange	helicopter	0	TRUE	TRUE	FALSE	1	1
+wWQszKuAjWvN8SvPT	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	71	digitron	digitron	NA	white_calculator	1	N	NA	0	calculator	white	calculator	0	FALSE	TRUE	FALSE	1	0
+wWQszKuAjWvN8SvPT	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	72	zelena viljuska	zelena viljuska	NA	green_fork	1	CN	NA	1	fork	green	fork	0	TRUE	TRUE	FALSE	1	1
+R7TbP9qtuQ5pwoGwm	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	1	udaraljke	udaraljke	NA	black_drum	1	O	NA	0	drum	black	drum	0	FALSE	FALSE	TRUE	0	0
+R7TbP9qtuQ5pwoGwm	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	2	za sedenje plavo	za sedenje plavo	NA	blue_chair	1	OC	NA	2	chair	blue	chair	0	TRUE	FALSE	TRUE	0	1
+R7TbP9qtuQ5pwoGwm	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	4	zuto	zuto	NA	yellow_scarf	1	C	NA	5	scarf	yellow	scarf	0	TRUE	FALSE	FALSE	0	1
+R7TbP9qtuQ5pwoGwm	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	5	crveno	crveno	NA	red_candle	1	C	NA	5	candle	red	candle	0	TRUE	FALSE	FALSE	0	1
+R7TbP9qtuQ5pwoGwm	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	6	racunaj zuto	racunaj zuto	NA	yellow_calculator	1	OC	NA	2	calculator	yellow	calculator	0	TRUE	FALSE	TRUE	0	1
+R7TbP9qtuQ5pwoGwm	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	8	prazno trenutno	prazno trenutno	NA	red_wallet	1	O	NA	0	wallet	red	wallet	0	FALSE	FALSE	TRUE	0	0
+R7TbP9qtuQ5pwoGwm	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	9	vozis za bristol	vozis za bristol	NA	black_truck	1	O	NA	0	truck	black	truck	0	FALSE	FALSE	TRUE	0	0
+R7TbP9qtuQ5pwoGwm	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	10	zeleno	zeleno	NA	green_sock	1	C	NA	5	sock	green	sock	0	TRUE	FALSE	FALSE	0	1
+R7TbP9qtuQ5pwoGwm	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	11	kockica	kockica	NA	purple_die	1	N	NA	0	die	purple	die	0	FALSE	TRUE	FALSE	1	0
+R7TbP9qtuQ5pwoGwm	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	12	ljubicasti noz	ljubicasti noz	NA	purple_knife	1	CN	NA	1	knife	purple	knife	0	TRUE	TRUE	FALSE	1	1
+R7TbP9qtuQ5pwoGwm	BCS	feedback	scene2	NA	NA	NA	NA	6	pophristic_stimuli	13	narandzasti lokot	narandzasti lokot	NA	purple_lock	0	CN	NA	1	lock	purple	lock	0	TRUE	TRUE	FALSE	1	1
+R7TbP9qtuQ5pwoGwm	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	14	balon	balon	NA	red_balloon	1	N	NA	0	balloon	red	balloon	0	FALSE	TRUE	FALSE	1	0
+R7TbP9qtuQ5pwoGwm	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	17	zuti kais	zuti kais	NA	yellow_belt	1	CN	NA	1	belt	yellow	belt	0	TRUE	TRUE	FALSE	1	1
+R7TbP9qtuQ5pwoGwm	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	18	crveni cesalj	crveni cesalj	NA	red_comb	1	CN	NA	1	comb	red	comb	0	TRUE	TRUE	FALSE	1	1
+R7TbP9qtuQ5pwoGwm	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	19	bela pegla	bela pegla	NA	white_iron	1	CN	NA	1	iron	white	iron	0	TRUE	TRUE	FALSE	1	1
+R7TbP9qtuQ5pwoGwm	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	22	za lezanje, belo	za lezanje, belo	NA	white_cushion	1	OC	NA	2	cushion	white	cushion	0	TRUE	FALSE	TRUE	0	1
+R7TbP9qtuQ5pwoGwm	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	24	kraljica sam ja	kraljica sam ja	NA	red_crown	1	O	NA	0	crown	red	crown	0	FALSE	FALSE	TRUE	0	0
+R7TbP9qtuQ5pwoGwm	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	25	co-op crni	co-op crni	NA	black_robot	1	OC	NA	2	robot	black	robot	0	TRUE	FALSE	TRUE	0	1
+R7TbP9qtuQ5pwoGwm	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	26	crveno	crveno	NA	red_bed	1	C	NA	5	bed	red	bed	0	TRUE	FALSE	FALSE	0	1
+R7TbP9qtuQ5pwoGwm	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	27	srafciger narandzasti	srafciger narandzasti	NA	orange_screwdriver	1	NC	NA	1	screwdriver	orange	screwdriver	0	TRUE	TRUE	FALSE	1	1
+R7TbP9qtuQ5pwoGwm	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	28	pletena korpa	pletena korpa	NA	orange_basket	1	N	NA	0	basket	orange	basket	0	FALSE	TRUE	FALSE	1	0
+R7TbP9qtuQ5pwoGwm	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	29	maska__zuta	maska	NA	yellow_mask	1	N	NA	0	mask	yellow	mask	0	FALSE	TRUE	FALSE	1	0
+R7TbP9qtuQ5pwoGwm	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	30	gitara, nije zuta	gitara, nije zuta	NA	red_guitar	1	NOC	NA	2	guitar	red	guitar	0	TRUE	TRUE	TRUE	1	1
+R7TbP9qtuQ5pwoGwm	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	31	plava vrata	plava vrata	NA	blue_door	1	CN	NA	1	door	blue	door	0	TRUE	TRUE	FALSE	1	1
+R7TbP9qtuQ5pwoGwm	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	32	cvet	cvet	NA	white_flower	1	N	NA	0	flower	white	flower	0	FALSE	TRUE	FALSE	1	0
+R7TbP9qtuQ5pwoGwm	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	33	cekic	cekic	NA	purple_hammer	1	N	NA	0	hammer	purple	hammer	0	FALSE	TRUE	FALSE	1	0
+R7TbP9qtuQ5pwoGwm	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	34	crna skoljka	crna skoljka	NA	black_shell	1	CN	NA	1	shell	black	shell	0	TRUE	TRUE	FALSE	1	1
+R7TbP9qtuQ5pwoGwm	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	35	mikroskop	mikroskop	NA	orange_microscope	1	N	NA	0	microscope	orange	microscope	0	FALSE	TRUE	FALSE	1	0
+R7TbP9qtuQ5pwoGwm	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	38	crna ogrlica	crna ogrlica	NA	black_necklace	1	CN	NA	1	necklace	black	necklace	0	TRUE	TRUE	FALSE	1	1
+R7TbP9qtuQ5pwoGwm	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	39	solja__crvena	solja	NA	red_mug	1	N	NA	0	mug	red	mug	0	FALSE	TRUE	FALSE	1	0
+R7TbP9qtuQ5pwoGwm	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	40	helikopter zuti	helikopter zuti	NA	orange_helicopter	1	CN	NA	1	helicopter	orange	helicopter	0	TRUE	TRUE	FALSE	1	1
+R7TbP9qtuQ5pwoGwm	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	43	za jelo	za jelo	NA	black_fork	1	O	NA	0	fork	black	fork	0	FALSE	FALSE	TRUE	0	0
+R7TbP9qtuQ5pwoGwm	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	45	plavo	plavo	NA	blue_fence	1	C	NA	5	fence	blue	fence	0	TRUE	FALSE	FALSE	0	1
+R7TbP9qtuQ5pwoGwm	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	46	ljubicast	ljubicast	NA	purple_glove	1	C	NA	6	glove	purple	glove	0	TRUE	FALSE	FALSE	0	1
+R7TbP9qtuQ5pwoGwm	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	47	ono sto nosis oko vrata	ono sto nosis oko vrata	NA	black_tie	1	O	NA	0	tie	black	tie	0	FALSE	FALSE	TRUE	0	0
+R7TbP9qtuQ5pwoGwm	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	50	ljubicasta riba	ljubicasta riba	NA	purple_fish	1	CN	NA	1	fish	purple	fish	0	TRUE	TRUE	FALSE	1	1
+R7TbP9qtuQ5pwoGwm	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	53	cinija ljubicasta	cinija ljubicasta	NA	purple_bowl	1	CN	NA	1	bowl	purple	bowl	0	TRUE	TRUE	FALSE	1	1
+R7TbP9qtuQ5pwoGwm	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	54	srebrni prsten	srebrni prsten	NA	white_ring	1	CN	NA	1	ring	white	ring	0	TRUE	TRUE	FALSE	1	1
+R7TbP9qtuQ5pwoGwm	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	55	kalendar	kalendar	NA	black_calendar	1	N	NA	0	calendar	black	calendar	0	FALSE	TRUE	FALSE	1	0
+R7TbP9qtuQ5pwoGwm	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	56	telefon	telefon	NA	yellow_phone	1	N	NA	0	phone	yellow	phone	0	FALSE	TRUE	FALSE	1	0
+R7TbP9qtuQ5pwoGwm	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	57	crni kofer	crni kofer	NA	black_luggage	1	CN	NA	1	luggage	black	luggage	0	TRUE	TRUE	FALSE	1	1
+R7TbP9qtuQ5pwoGwm	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	58	zuto	zuto	NA	yellow_book	1	C	NA	5	book	yellow	book	0	TRUE	FALSE	FALSE	0	1
+R7TbP9qtuQ5pwoGwm	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	61	pises	pises	NA	white_pencil	1	O	NA	0	pencil	white	pencil	0	FALSE	FALSE	TRUE	0	0
+R7TbP9qtuQ5pwoGwm	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	65	ljubicasta papuca	ljubicasta papuca	NA	purple_slipper	1	CN	NA	1	slipper	purple	slipper	0	TRUE	TRUE	FALSE	1	1
+R7TbP9qtuQ5pwoGwm	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	66	plavi leptir	plavi leptir	NA	blue_butterfly	1	CN	NA	1	butterfly	blue	butterfly	0	TRUE	TRUE	FALSE	1	1
+R7TbP9qtuQ5pwoGwm	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	67	dvogled	dvogled	NA	purple_binoculars	1	N	NA	0	binoculars	purple	binoculars	0	FALSE	TRUE	FALSE	1	0
+R7TbP9qtuQ5pwoGwm	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	71	crvena haljina	crvena haljina	NA	red_dress	1	CN	NA	1	dress	red	dress	0	TRUE	TRUE	FALSE	1	1
+R7TbP9qtuQ5pwoGwm	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	72	narandzasta masna	narandzasta masna	NA	orange_ribbon	1	CN	NA	1	ribbon	orange	ribbon	0	TRUE	TRUE	FALSE	1	1
+6QCZmpbj4cHNHfHcT	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	1	crvena knjiga	crvena knjiga	NA	red_book	1	CN	NA	1	book	red	book	0	TRUE	TRUE	FALSE	1	1
+6QCZmpbj4cHNHfHcT	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	2	pegla__bijela	pegla	NA	white_iron	1	N	NA	0	iron	white	iron	0	FALSE	TRUE	FALSE	1	0
+6QCZmpbj4cHNHfHcT	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	3	plav telefon	plav telefon	NA	blue_phone	1	CN	NA	1	phone	blue	phone	0	TRUE	TRUE	FALSE	1	1
+6QCZmpbj4cHNHfHcT	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	4	zelena skoljka	zelena skoljka	sta je sad	green_shell	1	CN	NA	1	shell	green	shell	0	TRUE	TRUE	FALSE	1	1
+6QCZmpbj4cHNHfHcT	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	5	plavi kais	plavi kais	jel cekic__fak	blue_belt	1	CN	NA	1	belt	blue	belt	0	TRUE	TRUE	FALSE	1	1
+6QCZmpbj4cHNHfHcT	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	6	lila dvogled	lila dvogled	NA	purple_binoculars	1	CN	NA	4	binoculars	purple	binoculars	0	TRUE	TRUE	FALSE	1	1
+6QCZmpbj4cHNHfHcT	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	8	crna riba	crna riba	NA	black_fish	1	CN	NA	1	fish	black	fish	0	TRUE	TRUE	FALSE	1	1
+6QCZmpbj4cHNHfHcT	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	9	mikroskop	mikroskop	NA	black_microscope	1	N	NA	0	microscope	black	microscope	0	FALSE	TRUE	FALSE	1	0
+6QCZmpbj4cHNHfHcT	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	10	zuta gitara	zuta gitara	NA	yellow_guitar	1	CN	NA	1	guitar	yellow	guitar	0	TRUE	TRUE	FALSE	1	1
+6QCZmpbj4cHNHfHcT	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	11	haljina	haljina	NA	white_dress	1	N	NA	0	dress	white	dress	0	FALSE	TRUE	FALSE	1	0
+6QCZmpbj4cHNHfHcT	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	15	masna	masna	NA	black_ribbon	1	N	NA	0	ribbon	black	ribbon	0	FALSE	TRUE	FALSE	1	0
+6QCZmpbj4cHNHfHcT	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	16	irobot lila	irobot lila	NA	purple_robot	1	NC	NA	4	robot	purple	robot	0	TRUE	TRUE	FALSE	1	1
+6QCZmpbj4cHNHfHcT	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	19	zelena carapa	zelena carapa	NA	green_sock	1	CN	NA	1	sock	green	sock	0	TRUE	TRUE	FALSE	1	1
+6QCZmpbj4cHNHfHcT	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	20	zuti novcanik	zuti novcanik	NA	yellow_wallet	1	CN	NA	1	wallet	yellow	wallet	0	TRUE	TRUE	FALSE	1	1
+6QCZmpbj4cHNHfHcT	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	25	palvi prsten	palvi prsten	NA	blue_ring	1	CN	NA	1	ring	blue	ring	0	TRUE	TRUE	FALSE	1	1
+6QCZmpbj4cHNHfHcT	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	26	solja	solja	NA	red_mug	1	N	NA	0	mug	red	mug	0	FALSE	TRUE	FALSE	1	0
+6QCZmpbj4cHNHfHcT	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	27	narandzasta viljuska	narandzasta viljuska	NA	orange_fork	1	CN	NA	1	fork	orange	fork	0	TRUE	TRUE	FALSE	1	1
+6QCZmpbj4cHNHfHcT	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	28	zeleni lock	zeleni lock	NA	green_lock	1	CN	NA	1	lock	green	lock	0	TRUE	TRUE	FALSE	1	1
+6QCZmpbj4cHNHfHcT	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	29	narandzasti noz	narandzasti noz	NA	orange_knife	1	CN	NA	1	knife	orange	knife	0	TRUE	TRUE	FALSE	1	1
+6QCZmpbj4cHNHfHcT	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	30	zelene rukavice	zelene rukavice	NA	green_glove	1	CN	NA	1	glove	green	glove	0	TRUE	TRUE	FALSE	1	1
+6QCZmpbj4cHNHfHcT	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	33	digitron	digitron	NA	white_calculator	1	N	NA	1	calculator	white	calculator	0	FALSE	TRUE	FALSE	1	0
+6QCZmpbj4cHNHfHcT	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	35	kocka	kocka	NA	orange_die	1	N	NA	0	die	orange	die	0	FALSE	TRUE	FALSE	1	0
+6QCZmpbj4cHNHfHcT	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	36	vrata	vrata	NA	blue_door	1	N	NA	0	door	blue	door	0	FALSE	TRUE	FALSE	1	0
+6QCZmpbj4cHNHfHcT	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	37	necklace	necklace	NA	orange_necklace	1	O	NA	0	necklace	orange	necklace	0	FALSE	FALSE	TRUE	0	0
+6QCZmpbj4cHNHfHcT	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	38	cvet__crveni	cvet	NA	red_flower	1	N	NA	0	flower	red	flower	0	FALSE	TRUE	FALSE	1	0
+6QCZmpbj4cHNHfHcT	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	40	leptir	leptir	NA	red_butterfly	1	N	NA	0	butterfly	red	butterfly	0	FALSE	TRUE	FALSE	1	0
+6QCZmpbj4cHNHfHcT	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	41	kofer	kofer	NA	purple_luggage	1	N	NA	0	luggage	purple	luggage	0	FALSE	TRUE	FALSE	1	0
+6QCZmpbj4cHNHfHcT	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	43	sarafciger	sarafciger	NA	green_screwdriver	1	N	NA	0	screwdriver	green	screwdriver	0	FALSE	TRUE	FALSE	1	0
+6QCZmpbj4cHNHfHcT	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	44	bijela ograda	bijela ograda	NA	white_fence	1	CN	NA	1	fence	white	fence	0	TRUE	TRUE	FALSE	1	1
+6QCZmpbj4cHNHfHcT	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	46	balon	balon	NA	red_balloon	1	N	NA	0	balloon	red	balloon	0	FALSE	TRUE	FALSE	1	0
+6QCZmpbj4cHNHfHcT	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	48	maska	maska	NA	red_mask	1	N	NA	0	mask	red	mask	0	FALSE	TRUE	FALSE	1	0
+6QCZmpbj4cHNHfHcT	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	49	kamion	kamion	NA	green_truck	1	N	NA	0	truck	green	truck	0	FALSE	TRUE	FALSE	1	0
+6QCZmpbj4cHNHfHcT	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	50	korpa	korpa	NA	black_basket	1	N	NA	0	basket	black	basket	0	FALSE	TRUE	FALSE	1	0
+6QCZmpbj4cHNHfHcT	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	51	helikopter narandzast	helikopter narandzast	NA	orange_helicopter	1	NC	NA	1	helicopter	orange	helicopter	0	TRUE	TRUE	FALSE	1	1
+6QCZmpbj4cHNHfHcT	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	52	kalendar	kalendar	NA	green_calendar	1	N	NA	0	calendar	green	calendar	0	FALSE	TRUE	FALSE	1	0
+6QCZmpbj4cHNHfHcT	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	54	crven jastuk	crven jastuk	NA	red_cushion	1	CN	NA	1	cushion	red	cushion	0	TRUE	TRUE	FALSE	1	1
+6QCZmpbj4cHNHfHcT	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	55	sal	sal	NA	yellow_scarf	1	N	NA	0	scarf	yellow	scarf	0	FALSE	TRUE	FALSE	1	0
+6QCZmpbj4cHNHfHcT	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	56	bela olovka	bela olovka	NA	white_pencil	1	CN	NA	1	pencil	white	pencil	0	TRUE	TRUE	FALSE	1	1
+6QCZmpbj4cHNHfHcT	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	60	bubanj__narandzast	bubanj	NA	orange_drum	1	N	NA	0	drum	orange	drum	0	FALSE	TRUE	FALSE	1	0
+6QCZmpbj4cHNHfHcT	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	61	solja__crna	solja	NA	black_bowl	1	N	NA	0	bowl	black	bowl	0	FALSE	TRUE	FALSE	1	0
+6QCZmpbj4cHNHfHcT	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	63	svijeca__crvena	svijeca	NA	red_candle	1	N	NA	0	candle	red	candle	0	FALSE	TRUE	FALSE	1	0
+6QCZmpbj4cHNHfHcT	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	64	cekic	cekic	NA	orange_hammer	1	N	NA	0	hammer	orange	hammer	0	FALSE	TRUE	FALSE	1	0
+6QCZmpbj4cHNHfHcT	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	65	papa	papa	NA	orange_slipper	1	N	NA	0	slipper	orange	slipper	0	FALSE	TRUE	FALSE	1	0
+6QCZmpbj4cHNHfHcT	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	66	zuta stolica	zuta stolica	upala ti kruta	yellow_chair	1	CN	NA	1	chair	yellow	chair	0	TRUE	TRUE	FALSE	1	1
+6QCZmpbj4cHNHfHcT	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	67	kravata lila	kravata lila	NA	purple_tie	1	NC	NA	4	tie	purple	tie	0	TRUE	TRUE	FALSE	1	1
+6QCZmpbj4cHNHfHcT	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	69	krevet__bijeli	krevet	NA	white_bed	1	N	NA	0	bed	white	bed	0	FALSE	TRUE	FALSE	1	0
+6QCZmpbj4cHNHfHcT	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	70	cesalj zut	cesalj zut	NA	yellow_comb	1	NC	NA	1	comb	yellow	comb	0	TRUE	TRUE	FALSE	1	1
+6QCZmpbj4cHNHfHcT	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	71	kruna	kruna	NA	yellow_crown	1	N	NA	0	crown	yellow	crown	0	FALSE	TRUE	FALSE	1	0
+mDkEKhhaiBJyrSkZG	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	2	narandasti	narandasti	NA	orange_helicopter	1	C	NA	1	helicopter	orange	helicopter	0	TRUE	FALSE	FALSE	0	1
+mDkEKhhaiBJyrSkZG	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	3	ljubi asta	ljubi asta	NA	purple_glove	1	C	NA	1	glove	purple	glove	0	TRUE	FALSE	FALSE	0	1
+mDkEKhhaiBJyrSkZG	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	4	spavas__crveno	spavas	NA	red_cushion	1	O	NA	0	cushion	red	cushion	0	FALSE	FALSE	TRUE	0	0
+mDkEKhhaiBJyrSkZG	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	5	jedes nije narandasto	jedes nije narandasto	NA	black_fork	1	OC	NA	2	fork	black	fork	0	TRUE	FALSE	TRUE	0	1
+mDkEKhhaiBJyrSkZG	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	6	crno	crno	NA	black_sock	1	C	NA	5	sock	black	sock	0	TRUE	FALSE	FALSE	0	1
+mDkEKhhaiBJyrSkZG	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	8	crni	crni	NA	black_drum	1	C	NA	1	drum	black	drum	0	TRUE	FALSE	FALSE	0	1
+mDkEKhhaiBJyrSkZG	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	9	zeleni	zeleni	NA	green_knife	1	C	NA	1	knife	green	knife	0	TRUE	FALSE	FALSE	0	1
+mDkEKhhaiBJyrSkZG	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	10	ljubicasto	ljubicasto	NA	purple_ribbon	1	C	NA	5	ribbon	purple	ribbon	0	TRUE	FALSE	FALSE	0	1
+mDkEKhhaiBJyrSkZG	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	11	leti	leti	NA	red_butterfly	1	O	NA	0	butterfly	red	butterfly	0	FALSE	FALSE	TRUE	0	0
+mDkEKhhaiBJyrSkZG	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	12	crni	crni	NA	black_screwdriver	1	C	NA	1	screwdriver	black	screwdriver	0	TRUE	FALSE	FALSE	0	1
+mDkEKhhaiBJyrSkZG	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	14	belo	belo	NA	white_book	1	C	NA	5	book	white	book	0	TRUE	FALSE	FALSE	0	1
+mDkEKhhaiBJyrSkZG	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	15	28	28	NA	black_calendar	1	O	NA	0	calendar	black	calendar	0	FALSE	FALSE	TRUE	0	0
+mDkEKhhaiBJyrSkZG	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	17	crni	crni	NA	black_binoculars	1	C	NA	1	binoculars	black	binoculars	0	TRUE	FALSE	FALSE	0	1
+mDkEKhhaiBJyrSkZG	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	19	crna	crna	NA	black_shell	1	C	NA	1	shell	black	shell	0	TRUE	FALSE	FALSE	0	1
+mDkEKhhaiBJyrSkZG	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	20	sviras	sviras	NA	yellow_guitar	1	O	NA	0	guitar	yellow	guitar	0	FALSE	FALSE	TRUE	0	0
+mDkEKhhaiBJyrSkZG	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	21	racunas	racunas	NA	red_calculator	1	O	NA	0	calculator	red	calculator	0	FALSE	FALSE	TRUE	0	0
+mDkEKhhaiBJyrSkZG	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	22	putujes	putujes	NA	orange_luggage	1	O	NA	0	luggage	orange	luggage	0	FALSE	FALSE	TRUE	0	0
+mDkEKhhaiBJyrSkZG	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	26	plava	plava	NA	blue_candle	1	C	NA	1	candle	blue	candle	0	TRUE	FALSE	FALSE	0	1
+mDkEKhhaiBJyrSkZG	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	27	mikroskop narandasti	mikroskop narandasti	NA	orange_microscope	1	NC	NA	1	microscope	orange	microscope	0	TRUE	TRUE	FALSE	1	1
+mDkEKhhaiBJyrSkZG	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	29	plava olovka	plava olovka	NA	blue_pencil	1	CN	NA	1	pencil	blue	pencil	0	TRUE	TRUE	FALSE	1	1
+mDkEKhhaiBJyrSkZG	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	30	kamion	kamion	NA	black_truck	1	N	NA	0	truck	black	truck	0	FALSE	TRUE	FALSE	1	0
+mDkEKhhaiBJyrSkZG	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	31	kais	kais	NA	yellow_belt	1	N	NA	0	belt	yellow	belt	0	FALSE	TRUE	FALSE	1	0
+mDkEKhhaiBJyrSkZG	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	32	korpa	korpa	NA	orange_basket	1	N	NA	0	basket	orange	basket	0	FALSE	TRUE	FALSE	1	0
+mDkEKhhaiBJyrSkZG	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	33	solja	solja	NA	white_mug	1	N	NA	0	mug	white	mug	0	FALSE	TRUE	FALSE	1	0
+mDkEKhhaiBJyrSkZG	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	34	plavi novcanik	plavi novcanik	NA	blue_wallet	1	CN	NA	1	wallet	blue	wallet	0	TRUE	TRUE	FALSE	1	1
+mDkEKhhaiBJyrSkZG	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	35	crveni prsten	crveni prsten	NA	red_ring	1	CN	NA	1	ring	red	ring	0	TRUE	TRUE	FALSE	1	1
+mDkEKhhaiBJyrSkZG	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	36	zelena kravata	zelena kravata	NA	green_tie	1	CN	NA	1	tie	green	tie	0	TRUE	TRUE	FALSE	1	1
+mDkEKhhaiBJyrSkZG	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	38	kruna	kruna	NA	white_crown	1	N	NA	0	crown	white	crown	0	FALSE	TRUE	FALSE	1	0
+mDkEKhhaiBJyrSkZG	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	39	ljubicasti robot	ljubicasti robot	NA	purple_robot	1	CN	NA	1	robot	purple	robot	0	TRUE	TRUE	FALSE	1	1
+mDkEKhhaiBJyrSkZG	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	41	riba	riba	NA	orange_fish	1	N	NA	0	fish	orange	fish	0	FALSE	TRUE	FALSE	1	0
+mDkEKhhaiBJyrSkZG	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	43	maska	maska	NA	white_mask	1	N	NA	0	mask	white	mask	0	FALSE	TRUE	FALSE	1	0
+mDkEKhhaiBJyrSkZG	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	46	plavi cesalj	plavi cesalj	NA	blue_comb	1	CN	NA	1	comb	blue	comb	0	TRUE	TRUE	FALSE	1	1
+mDkEKhhaiBJyrSkZG	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	47	haljina	haljina	NA	white_dress	1	N	NA	0	dress	white	dress	0	FALSE	TRUE	FALSE	1	0
+mDkEKhhaiBJyrSkZG	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	49	plavi krevet	plavi krevet	NA	blue_bed	1	CN	NA	1	bed	blue	bed	0	TRUE	TRUE	FALSE	1	1
+mDkEKhhaiBJyrSkZG	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	50	telefon	telefon	NA	blue_phone	1	N	NA	0	phone	blue	phone	0	FALSE	TRUE	FALSE	1	0
+mDkEKhhaiBJyrSkZG	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	54	cekic	cekic	NA	orange_hammer	1	N	NA	0	hammer	orange	hammer	0	FALSE	TRUE	FALSE	1	0
+mDkEKhhaiBJyrSkZG	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	56	balon	balon	NA	red_balloon	1	N	NA	0	balloon	red	balloon	0	FALSE	TRUE	FALSE	1	0
+mDkEKhhaiBJyrSkZG	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	57	plava pegla	plava pegla	NA	blue_iron	1	CN	NA	1	iron	blue	iron	0	TRUE	TRUE	FALSE	1	1
+mDkEKhhaiBJyrSkZG	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	58	ljubicasta cinija	ljubicasta cinija	NA	purple_bowl	1	CN	NA	1	bowl	purple	bowl	0	TRUE	TRUE	FALSE	1	1
+mDkEKhhaiBJyrSkZG	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	59	kocka	kocka	NA	purple_die	1	N	NA	0	die	purple	die	0	FALSE	TRUE	FALSE	1	0
+mDkEKhhaiBJyrSkZG	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	62	bela ograda	bela ograda	NA	white_fence	1	CN	NA	1	fence	white	fence	0	TRUE	TRUE	FALSE	1	1
+mDkEKhhaiBJyrSkZG	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	63	crvena stolica	crvena stolica	NA	red_chair	1	CN	NA	1	chair	red	chair	0	TRUE	TRUE	FALSE	1	1
+mDkEKhhaiBJyrSkZG	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	64	vrata	vrata	NA	yellow_door	1	N	NA	0	door	yellow	door	0	FALSE	TRUE	FALSE	1	0
+mDkEKhhaiBJyrSkZG	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	65	ogrlica	ogrlica	NA	black_necklace	1	N	NA	0	necklace	black	necklace	0	FALSE	TRUE	FALSE	1	0
+mDkEKhhaiBJyrSkZG	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	66	opet__papuca	opet	NA	orange_slipper	1	O	NA	0	slipper	orange	slipper	0	FALSE	FALSE	TRUE	0	0
+mDkEKhhaiBJyrSkZG	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	68	lokot	lokot	NA	orange_lock	1	N	NA	0	lock	orange	lock	0	FALSE	TRUE	FALSE	1	0
+mDkEKhhaiBJyrSkZG	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	70	sal	sal	NA	white_scarf	1	N	NA	0	scarf	white	scarf	0	FALSE	TRUE	FALSE	1	0
+mDkEKhhaiBJyrSkZG	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	71	crveni  vet	crveni  vet	NA	red_flower	1	CN	NA	1	flower	red	flower	0	TRUE	TRUE	FALSE	1	1
+94pEqMYgCpztSspQw	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	1	srafciger	srafciger	NA	orange_screwdriver	1	N	NA	0	screwdriver	orange	screwdriver	0	FALSE	TRUE	FALSE	1	0
+94pEqMYgCpztSspQw	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	2	telefon	telefon	NA	red_phone	1	N	NA	0	phone	red	phone	0	FALSE	TRUE	FALSE	1	0
+94pEqMYgCpztSspQw	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	3	kockica	kockica	NA	green_die	1	NA	NA	0	die	green	die	0	FALSE	FALSE	FALSE	0	0
+94pEqMYgCpztSspQw	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	4	dvogled__naradzasti	dvogled	NA	orange_binoculars	1	N	NA	0	binoculars	orange	binoculars	0	FALSE	TRUE	FALSE	1	0
+94pEqMYgCpztSspQw	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	5	crvena pegla	crvena pegla	NA	red_iron	1	CN	NA	1	iron	red	iron	0	TRUE	TRUE	FALSE	1	1
+94pEqMYgCpztSspQw	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	8	sivi jastuk	sivi jastuk	NA	white_cushion	1	CN	NA	1	cushion	white	cushion	0	TRUE	TRUE	FALSE	1	1
+94pEqMYgCpztSspQw	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	9	lila sock	lila sock	NA	purple_sock	1	CO	NA	4	sock	purple	sock	0	TRUE	FALSE	TRUE	0	1
+94pEqMYgCpztSspQw	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	10	riba	riba	NA	green_fish	1	N	NA	0	fish	green	fish	0	FALSE	TRUE	FALSE	1	0
+94pEqMYgCpztSspQw	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	12	orange helikopter	orange helikopter	NA	orange_helicopter	1	O	NA	0	helicopter	orange	helicopter	0	FALSE	FALSE	TRUE	0	0
+94pEqMYgCpztSspQw	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	13	crvena knjiga	crvena knjiga	NA	red_book	1	CN	NA	1	book	red	book	0	TRUE	TRUE	FALSE	1	1
+94pEqMYgCpztSspQw	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	14	lila ogrlica	lila ogrlica	NA	purple_necklace	1	CN	NA	4	necklace	purple	necklace	0	TRUE	TRUE	FALSE	1	1
+94pEqMYgCpztSspQw	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	16	crvena olovka	crvena olovka	NA	red_pencil	1	CN	NA	1	pencil	red	pencil	0	TRUE	TRUE	FALSE	1	1
+94pEqMYgCpztSspQw	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	17	zelena rukavica	zelena rukavica	NA	green_glove	1	CN	NA	1	glove	green	glove	0	TRUE	TRUE	FALSE	1	1
+94pEqMYgCpztSspQw	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	18	lila viljuska	lila viljuska	NA	purple_fork	1	CN	NA	4	fork	purple	fork	0	TRUE	TRUE	FALSE	1	1
+94pEqMYgCpztSspQw	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	19	kruna	kruna	NA	blue_crown	1	N	NA	0	crown	blue	crown	0	FALSE	TRUE	FALSE	1	0
+94pEqMYgCpztSspQw	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	21	bijeli cvijet	bijeli cvijet	NA	white_flower	1	CN	NA	1	flower	white	flower	0	TRUE	TRUE	FALSE	1	1
+94pEqMYgCpztSspQw	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	22	leptir	leptir	NA	blue_butterfly	1	N	NA	0	butterfly	blue	butterfly	0	FALSE	TRUE	FALSE	1	0
+94pEqMYgCpztSspQw	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	23	novcanik__bijeli	novcanik	NA	white_wallet	1	N	NA	0	wallet	white	wallet	0	FALSE	TRUE	FALSE	1	0
+94pEqMYgCpztSspQw	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	24	blue chair__plava stolica	blue chair	NA	blue_chair	1	O	NA	0	chair	blue	chair	0	FALSE	FALSE	TRUE	0	0
+94pEqMYgCpztSspQw	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	26	kalendar	kalendar	NA	orange_calendar	1	N	NA	0	calendar	orange	calendar	0	FALSE	TRUE	FALSE	1	0
+94pEqMYgCpztSspQw	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	27	naradzasti robot	naradzasti robot	NA	orange_robot	1	CN	NA	1	robot	orange	robot	0	TRUE	TRUE	FALSE	1	1
+94pEqMYgCpztSspQw	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	28	korpa	korpa	NA	purple_basket	1	N	NA	0	basket	purple	basket	0	FALSE	TRUE	FALSE	1	0
+94pEqMYgCpztSspQw	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	31	ljubicasti noz	ljubicasti noz	NA	purple_knife	1	CN	NA	1	knife	purple	knife	0	TRUE	TRUE	FALSE	1	1
+94pEqMYgCpztSspQw	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	32	cekic	cekic	NA	purple_hammer	1	N	NA	0	hammer	purple	hammer	0	FALSE	TRUE	FALSE	1	0
+94pEqMYgCpztSspQw	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	33	gitara	gitara	NA	white_guitar	1	N	NA	0	guitar	white	guitar	0	FALSE	TRUE	FALSE	1	0
+94pEqMYgCpztSspQw	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	35	narazdasti bubanj	narazdasti bubanj	NA	orange_drum	1	CN	NA	1	drum	orange	drum	0	TRUE	TRUE	FALSE	1	1
+94pEqMYgCpztSspQw	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	36	maska	maska	NA	blue_mask	1	N	NA	0	mask	blue	mask	0	FALSE	TRUE	FALSE	1	0
+94pEqMYgCpztSspQw	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	40	bijeli krevet	bijeli krevet	NA	white_bed	1	CN	NA	1	bed	white	bed	0	TRUE	TRUE	FALSE	1	1
+94pEqMYgCpztSspQw	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	41	naradzasta zdjela	naradzasta zdjela	NA	orange_bowl	1	CN	NA	1	bowl	orange	bowl	0	TRUE	TRUE	FALSE	1	1
+94pEqMYgCpztSspQw	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	42	crveni prsten	crveni prsten	NA	red_ring	1	CN	NA	1	ring	red	ring	0	TRUE	TRUE	FALSE	1	1
+94pEqMYgCpztSspQw	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	43	kofer	kofer	NA	green_luggage	1	N	NA	0	luggage	green	luggage	0	FALSE	TRUE	FALSE	1	0
+94pEqMYgCpztSspQw	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	44	digitron	digitron	NA	yellow_calculator	1	N	NA	0	calculator	yellow	calculator	0	FALSE	TRUE	FALSE	1	0
+94pEqMYgCpztSspQw	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	45	mikroskop__lila	mikroskop	NA	purple_microscope	1	N	NA	0	microscope	purple	microscope	0	FALSE	TRUE	FALSE	1	0
+94pEqMYgCpztSspQw	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	47	remen	remen	NA	yellow_belt	1	N	NA	0	belt	yellow	belt	0	FALSE	TRUE	FALSE	1	0
+94pEqMYgCpztSspQw	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	54	vrata	vrata	NA	white_door	1	N	NA	0	door	white	door	0	FALSE	TRUE	FALSE	1	0
+94pEqMYgCpztSspQw	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	56	slapa	slapa	NA	green_slipper	1	N	NA	0	slipper	green	slipper	0	FALSE	TRUE	FALSE	1	0
+94pEqMYgCpztSspQw	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	57	zuta ograda	zuta ograda	NA	yellow_fence	1	CN	NA	1	fence	yellow	fence	0	TRUE	TRUE	FALSE	1	1
+94pEqMYgCpztSspQw	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	58	crvena svjeca	crvena svjeca	NA	red_candle	1	CN	NA	1	candle	red	candle	0	TRUE	TRUE	FALSE	1	1
+94pEqMYgCpztSspQw	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	60	lokot	lokot	NA	purple_lock	1	N	NA	0	lock	purple	lock	0	FALSE	TRUE	FALSE	1	0
+94pEqMYgCpztSspQw	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	61	haljina	haljina	NA	yellow_dress	1	N	NA	0	dress	yellow	dress	0	FALSE	TRUE	FALSE	1	0
+94pEqMYgCpztSspQw	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	62	balon	balon	NA	blue_balloon	1	N	NA	0	balloon	blue	balloon	0	FALSE	TRUE	FALSE	1	0
+94pEqMYgCpztSspQw	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	64	masna	masna	NA	green_ribbon	1	N	NA	0	ribbon	green	ribbon	0	FALSE	TRUE	FALSE	1	0
+94pEqMYgCpztSspQw	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	65	solja	solja	NA	white_mug	1	N	NA	0	mug	white	mug	0	FALSE	TRUE	FALSE	1	0
+94pEqMYgCpztSspQw	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	66	zuti cesalj	zuti cesalj	NA	yellow_comb	1	CN	NA	1	comb	yellow	comb	0	TRUE	TRUE	FALSE	1	1
+94pEqMYgCpztSspQw	BCS	feedback	scene3	NA	NA	NA	NA	1	pophristic_stimuli	67	sal	sal	NA	red_scarf	1	N	NA	0	scarf	red	scarf	0	FALSE	TRUE	FALSE	1	0
+94pEqMYgCpztSspQw	BCS	feedback	scene1	NA	NA	NA	NA	1	pophristic_stimuli	68	zelena kravata	zelena kravata	NA	green_tie	1	CN	NA	1	tie	green	tie	0	TRUE	TRUE	FALSE	1	1
+94pEqMYgCpztSspQw	BCS	feedback	scene2	NA	NA	NA	NA	1	pophristic_stimuli	69	lila skoljka	lila skoljka	NA	purple_shell	1	CN	NA	4	shell	purple	shell	0	TRUE	TRUE	FALSE	1	1
+94pEqMYgCpztSspQw	BCS	feedback	scene4	NA	NA	NA	NA	1	pophristic_stimuli	71	kamion	kamion	NA	green_truck	1	N	NA	0	truck	green	truck	0	FALSE	TRUE	FALSE	1	0
