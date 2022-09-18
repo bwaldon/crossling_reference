@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 var alpha = 5
                       var adj_cost = 0.1
                       var noun_cost = 0.1
@@ -219,3 +220,5 @@ var VietWrapper = cache(function(utt, state, lang) {
 });
 
 VietWrapper("START pin blue and small STOP", "R1", 3)
+=======
+>>>>>>> 486bb55c042e10d02309d1da49c7550bc09c615f

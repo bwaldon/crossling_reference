@@ -24,85 +24,89 @@ modelAndSemantics <- read_file("../models/pins/modelAndSemantics.txt")
 
 # STATES
 
-states_cs = c("bigred", "smallblue", "smallred")
-states_ss = c("bigblue", "bigred", "smallblue")
+states_ss = c("smallbluepin", "bigbluepin", "bigredpin", "smallblueball")
+states_cs = c("smallbluepin", "smallredpin", "bigredpin", "smallblueball")
 
 # UTTERANCES: SIZE SUFFICIENT
 
 utterances_eng_ss <- c("START red pin STOP", "START blue pin STOP", 
                        "START big pin STOP", "START small pin STOP",
+                       "START small ball STOP", "START blue ball STOP",
+                       "START pin STOP", "START ball STOP",
                        "START big blue pin STOP", 
                        "START big red pin STOP",
-                       "START small blue pin STOP") 
+                       "START small blue pin STOP",
+                       "START small blue ball STOP") 
 
-utterances_sp_split_ss <- c("START pin red STOP", "START pin blue STOP", 
-                            "START pin big STOP", "START pin small STOP",
-                            "START big pin blue STOP", 
-                            "START big pin red STOP",
-                            "START small pin blue STOP") 
+utterances_sp_ss <- c("START pin STOP", "START ball STOP",
+                            "START pin red STOP", "START pin blue STOP", "START ball blue STOP", 
+                            "START pin big STOP", "START pin small STOP","START ball small STOP",
+                            "START pin blue small STOP", 
+                            "START pin blue big STOP",
+                            "START pin red big STOP", "START ball blue small STOP") 
 
-utterances_sp_conj_ss <- c("START pin red STOP", "START pin blue STOP", 
-                           "START pin big STOP", "START pin small STOP",
-                           "START pin blue big STOP",
-                           "START pin big blue STOP",
-                           "START pin red big STOP",
-                           "START pin big red STOP",
-                           "START pin blue small STOP", 
-                           "START pin small blue STOP")
+utterances_fr_ss <- c("START pin STOP", "START ball STOP",
+                      "START pin red STOP", "START pin blue STOP","START ball blue STOP", 
+                           "START big pin STOP", "START small pin STOP", "START small ball STOP",
+                           "START big pin blue STOP",
+                           "START small pin blue STOP",
+                           "START big pin red STOP",
+                           "START small ball blue STOP")
 
-utterances_sp_postnom_ss <- c("START pin red STOP", "START pin blue STOP", 
-                              "START pin big STOP", "START pin small STOP",
-                              "START pin blue big STOP",
-                              "START pin red big STOP",
-                              "START pin blue small STOP")
+utterances_vt_ss <- c("START pin STOP", "START ball STOP", "START pin red STOP", "START pin blue STOP", "START ball blue STOP", 
+                              "START pin big STOP", "START pin small STOP","START ball small STOP",
+                              "START pin blue and big STOP",
+                              "START pin big and blue STOP",
+                              "START pin red and big STOP", "START pin big and red STOP",
+                              "START pin blue and small STOP", "START pin small and blue STOP",
+                      "START ball blue and small STOP", "START ball small and blue STOP")
 
 # UTTERANCES: COLOR SUFFICIENT
 
-utterances_eng_cs <- c("START red pin STOP", "START blue pin STOP", 
-                       "START big pin STOP", "START small pin STOP",
+utterances_eng_cs <- c("START pin STOP", "START ball STOP","START red pin STOP", "START blue pin STOP","START blue ball STOP", 
+                       "START big pin STOP", "START small pin STOP","START small ball STOP",
                        "START big red pin STOP",
-                       "START small blue pin STOP",
+                       "START small blue pin STOP","START small blue ball STOP",
                        "START small red pin STOP")
 
-utterances_sp_split_cs <- c("START pin red STOP", "START pin blue STOP", 
-                            "START pin big STOP", "START pin small STOP",
-                            "START big pin red STOP",
-                            "START small pin blue STOP", 
-                            "START small pin red STOP")
+utterances_sp_cs <- c("START pin STOP", "START ball STOP","START pin red STOP", "START pin blue STOP", "START ball blue STOP", 
+                            "START pin big STOP", "START pin small STOP","START ball small STOP",
+                            "START pin red small STOP", "START pin red big STOP",
+                            "START pin blue small STOP", 
+                            "START ball blue small STOP")
 
-utterances_sp_conj_cs <- c("START pin red STOP", "START pin blue STOP", 
-                           "START pin big STOP", "START pin small STOP",
-                           "START pin red big STOP",
-                           "START pin big red STOP",
-                           "START pin blue small STOP", 
-                           "START pin small blue STOP", 
-                           "START pin red small STOP",
-                           "START pin small red STOP")
+utterances_fr_cs <- c("START pin STOP", "START ball STOP","START pin red STOP", "START pin blue STOP", "START ball blue STOP", 
+                           "START big pin STOP", "START small pin STOP", "START small ball STOP",
+                           "START big pin red STOP",
+                           "START small pin red STOP",
+                           "START small pin blue STOP", 
+                           "START small ball blue STOP")
 
-utterances_sp_postnom_cs <- c("START pin red STOP", "START pin blue STOP", 
-                              "START pin big STOP", "START pin small STOP",
-                              "START pin red big STOP",
-                              "START pin blue small STOP", 
-                              "START pin red small STOP")
+utterances_vt_cs <- c("START pin STOP", "START ball STOP","START pin red STOP", "START pin blue STOP","START ball blue STOP", 
+                              "START pin big STOP", "START pin small STOP","START ball small STOP",
+                              "START pin red and big STOP","START pin big and red STOP",
+                      "START pin blue and small STOP", "START pin small and blue STOP", 
+                      "START ball blue and small STOP", "START ball small and blue STOP", 
+                              "START pin red and small STOP", "START pin small and red STOP")
 
 
 # COMMANDS
 
-cmd_eng = 'incrementalUtteranceSpeaker("START small blue pin STOP", "smallblue", model, params, semantics)'
-cmd_sp_split = 'incrementalUtteranceSpeaker("START small pin blue STOP", "smallblue", model, params, semantics)'
-cmd_sp_conj = 'incrementalUtteranceSpeaker("START pin blue small STOP", "smallblue", model, params, semantics) + incrementalUtteranceSpeaker("START pin small blue STOP", "smallblue", model, params, semantics)'
-cmd_sp_postnom = 'incrementalUtteranceSpeaker("START pin blue small STOP", "smallblue", model, params, semantics)'
+cmd_eng = 'incrementalUtteranceSpeaker("START small blue pin STOP", "smallbluepin", model, params, semantics)'
+cmd_sp = 'incrementalUtteranceSpeaker("START pin blue small STOP", "smallbluepin", model, params, semantics)'
+cmd_fr = 'incrementalUtteranceSpeaker("START small pin blue STOP", "smallbluepin", model, params, semantics)'
+cmd_vt = 'incrementalUtteranceSpeaker("START pin blue and small STOP", "smallbluepin", model, params, semantics) + incrementalUtteranceSpeaker("START pin small and blue STOP", "smallbluepin", model, params, semantics)'
 
 # VALDF FOR SCIL PAPER
 
-valDF <- data.frame("colorNoise" = c(0.5,0.6,0.7,0.8,0.9,1), "sizeNoise" = c(0.5,0.6,0.7,0.8,0.9,1), "alpha" = c(1,2.5,15,10,20,30))
+valDF <- data.frame("colorNoise" = c(0.95), "sizeNoise" = c(0.8), "alpha" = c(1,5,10))
 valDF <- valDF %>%
   expand(colorNoise, sizeNoise, alpha) %>%
-  filter(alpha %in% c(5,10,15,20))
+  filter(alpha %in% c(1,5,10))
 
 # VALDF FOR SCIL APP
 
-valDF <- data.frame("colorNoise" = c(0.5,0.6,0.7,0.8,0.9,1), "sizeNoise" = c(0.5,0.6,0.7,0.8,0.9,1), "alpha" = c(1,2.5,5,10,15,20))
+valDF <- data.frame("colorNoise" = c(0.95), "sizeNoise" = c(0.8), "alpha" = c(1,5,10))
 valDF <- valDF %>%
   expand(colorNoise, sizeNoise, alpha)
 
@@ -113,71 +117,82 @@ valDF <- valDF %>%
 english_sizeOvermodification <- valDF %>%
   group_by(colorNoise, sizeNoise, alpha) %>%
   mutate(speakerProb = runModel('V8', engine, modelAndSemantics, cmd_eng, states_cs, utterances_eng_cs, alpha, sizeNoiseVal = sizeNoise, colorNoiseVal = colorNoise, 
-                                colorCost = 0.1, sizeCost = 0.1, nounCost = 0))
+                                colorCost = 0.1, sizeCost = 0.1, nounCost = 0.1))
 
+english_sizeOvermodification = mutate(english_sizeOvermodification, state = cs_states, .before = colorNoise)
+english_sizeOvermodification = mutate(english_sizeOvermodification, nounNoise = 0.99, .before = alpha)
 english_sizeOvermodification$language <- "English"
 
-## Spanish-split
+## Spanish
 
-sp_split_sizeOvermodification <- valDF %>%
+sp_sizeOvermodification <- valDF %>%
   group_by(colorNoise, sizeNoise, alpha) %>%
-  mutate(speakerProb = runModel('V8', engine, modelAndSemantics, cmd_sp_split, states_cs, utterances_sp_split_cs, alpha, sizeNoiseVal = sizeNoise, colorNoiseVal = colorNoise, 
-                                colorCost = 0.1, sizeCost = 0.1, nounCost = 0))
+  mutate(speakerProb = runModel('V8', engine, modelAndSemantics, cmd_sp, states_cs, utterances_sp_cs, alpha, sizeNoiseVal = sizeNoise, colorNoiseVal = colorNoise, 
+                                colorCost = 0.1, sizeCost = 0.1, nounCost = 0.1))
 
-sp_split_sizeOvermodification$language <- "Spanish\n-split"
+sp_sizeOvermodification = mutate(sp_sizeOvermodification, state = cs_states, .before = colorNoise)
+sp_sizeOvermodification = mutate(sp_sizeOvermodification, nounNoise = 0.99, .before = alpha)
+sp_sizeOvermodification$language <- "Spanish"
 
-## Spanish-conj
+## French
 
-sp_conj_sizeOvermodification <- valDF %>%
+fr_sizeOvermodification <- valDF %>%
   group_by(colorNoise, sizeNoise, alpha) %>%
-  mutate(speakerProb = runModel('V8', engine, modelAndSemantics, cmd_sp_conj, states_cs, utterances_sp_conj_cs, alpha, sizeNoiseVal = sizeNoise, colorNoiseVal = colorNoise, 
-                                colorCost = 0.1, sizeCost = 0.1, nounCost = 0))
+  mutate(speakerProb = runModel('V8', engine, modelAndSemantics, cmd_fr, states_cs, utterances_fr_cs, alpha, sizeNoiseVal = sizeNoise, colorNoiseVal = colorNoise, 
+                                colorCost = 0.1, sizeCost = 0.1, nounCost = 0.1))
 
-sp_conj_sizeOvermodification$language <- "Spanish\n-postnom.\n-conj."
+fr_sizeOvermodification = mutate(fr_sizeOvermodification, state = cs_states, .before = colorNoise)
+fr_sizeOvermodification = mutate(fr_sizeOvermodification, nounNoise = 0.99, .before = alpha)
+fr_sizeOvermodification$language <- "French"
 
-## Spanish-postnom.
+## Vietnamese
 
-sp_postnom_sizeOvermodification <- valDF %>%
+vt_sizeOvermodification <- valDF %>%
   group_by(colorNoise, sizeNoise, alpha) %>%
-  mutate(speakerProb = runModel('V8', engine, modelAndSemantics, cmd_sp_postnom, states_cs, utterances_sp_postnom_cs, alpha, sizeNoiseVal = sizeNoise, colorNoiseVal = colorNoise, 
-                                colorCost = 0.1, sizeCost = 0.1, nounCost = 0))
+  mutate(speakerProb = runModel('V8', engine, modelAndSemantics, cmd_vt, states_cs, utterances_vt_cs, alpha, sizeNoiseVal = sizeNoise, colorNoiseVal = colorNoise, 
+                                colorCost = 0.1, sizeCost = 0.1, nounCost = 0.1))
 
-sp_postnom_sizeOvermodification$language <- "Spanish\n-postnom."
+vt_sizeOvermodification = mutate(vt_sizeOvermodification, state = cs_states, .before = colorNoise)
+vt_sizeOvermodification = mutate(vt_sizeOvermodification, nounNoise = 0.99, .before = alpha)
+vt_sizeOvermodification$language <- "Vietnamese"
 
-sizeOvermodification <- rbind(english_sizeOvermodification, rbind(sp_split_sizeOvermodification,rbind(sp_conj_sizeOvermodification,sp_postnom_sizeOvermodification)))
+sizeOvermodification <- rbind(english_sizeOvermodification, rbind(sp_sizeOvermodification,rbind(fr_sizeOvermodification,vt_sizeOvermodification)))
 
-# SIZE-SUFFICIENT SCENARIO 
+# SIZE-SUFFICIENT SCENARIO
 
 ## English
 
 english_colorOvermodification <- valDF %>%
   group_by(colorNoise, sizeNoise, alpha) %>%
-  mutate(speakerProb = runModel('V8', engine, modelAndSemantics, cmd_eng, states_ss, utterances_eng_ss, alpha, sizeNoiseVal = sizeNoise, colorNoiseVal = colorNoise, 
-                                colorCost = 0.1, sizeCost = 0.1, nounCost = 0))
+  mutate(speakerProb = runModel('V8', engine, modelAndSemantics, cmd_eng, states_ss, utterances_eng_ss, alpha, sizeNoiseVal = sizeNoise, colorNoiseVal = colorNoise,
+                                colorCost = 0.1, sizeCost = 0.1, nounCost = 0.1))
 
+english_colorOvermodification = mutate(english_colorOvermodification, nounNoise = 0.99, .before = alpha)
 english_colorOvermodification$language <- "English"
 
-## Spanish-split
+## Spanish
 
-sp_split_colorOvermodification <- valDF %>%
+sp_colorOvermodification <- valDF %>%
   group_by(colorNoise, sizeNoise, alpha) %>%
-  mutate(speakerProb = runModel('V8', engine, modelAndSemantics, cmd_sp_split, states_ss, utterances_sp_split_ss, alpha, sizeNoiseVal = sizeNoise, colorNoiseVal = colorNoise, 
-                                colorCost = 0.1, sizeCost = 0.1, nounCost = 0))
+  mutate(speakerProb = runModel('V8', engine, modelAndSemantics, cmd_sp, states_ss, utterances_sp_ss, alpha, sizeNoiseVal = sizeNoise, colorNoiseVal = colorNoise,
+                                colorCost = 0.1, sizeCost = 0.1, nounCost = 0.1))
 
-sp_split_colorOvermodification$language <- "Spanish\n-split"
+sp_colorOvermodification = mutate(sp_colorOvermodification, nounNoise = 0.99, .before = alpha)
+sp_colorOvermodification$language <- "Spanish"
 
-## Spanish-conj
+## French
 
-sp_conj_colorOvermodification <- valDF %>%
+fr_colorOvermodification <- valDF %>%
   group_by(colorNoise, sizeNoise, alpha) %>%
-  mutate(speakerProb = runModel('V8', engine, modelAndSemantics, cmd_sp_conj, states_ss, utterances_sp_conj_ss, alpha, sizeNoiseVal = sizeNoise, colorNoiseVal = colorNoise, 
-                                colorCost = 0.1, sizeCost = 0.1, nounCost = 0))
+  mutate(speakerProb = runModel('V8', engine, modelAndSemantics, cmd_fr, states_ss, utterances_fr_ss, alpha, sizeNoiseVal = sizeNoise, colorNoiseVal = colorNoise,
+                                colorCost = 0.1, sizeCost = 0.1, nounCost = 0.1))
 
-sp_conj_colorOvermodification$language <- "Spanish\n-postnom.\n-conj."
+fr_colorOvermodification = mutate(fr_colorOvermodification, nounNoise = 0.99, .before = alpha)
+fr_colorOvermodification$language <- "French"
 
-## Spanish-postnom.
+## Vietnamese
 
-sp_postnom_colorOvermodification <- valDF %>%
+vt_colorOvermodification <- valDF %>%
   group_by(colorNoise, sizeNoise, alpha) %>%
   mutate(speakerProb = runModel('V8', engine, modelAndSemantics, cmd_sp_postnom, states_ss, utterances_sp_postnom_ss, alpha, sizeNoiseVal = sizeNoise, colorNoiseVal = colorNoise, 
                                 colorCost = 0.1, sizeCost = 0.1, nounCost = 0))
@@ -401,9 +416,6 @@ runModel('V8', engine, modelAndSemantics,
          'wordSpeaker(["START","pin"], "smallblue", model, params, semantics)', states_cs, utterances_sp_postnom_cs, incalpha, sizeNoiseVal = 1, colorNoiseVal = 1, 
          colorCost = colorCost, sizeCost = sizeCost, nounCost = 0)
 
-runModel('V8', engine, modelAndSemantics, 
-         'wordSpeaker(["START","pin","blue"], "smallblue", model, params, semantics)', states_cs, utterances_sp_postnom_cs, incalpha, sizeNoiseVal = 1, colorNoiseVal = 1, 
-         colorCost = colorCost, sizeCost = sizeCost, nounCost = 0)
 
 runModel('V8', engine, modelAndSemantics, 
          'wordSpeaker(["START","pin","red"], "smallblue", model, params, semantics)', states_cs, utterances_sp_postnom_cs, incalpha, sizeNoiseVal = 1, colorNoiseVal = 1, 

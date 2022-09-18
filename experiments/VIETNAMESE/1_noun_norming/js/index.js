@@ -73,7 +73,7 @@ function getArticleItem(item_id) {
 	},
 
 	button : function() {
-	  if ($("#answer").val().length > 2) {
+	  if ($("#answer").val().length > 1) {
         $(".err").hide();
         this.log_responses();
         _stream.apply(this); //use exp.go() if and only if there is no "present" data.

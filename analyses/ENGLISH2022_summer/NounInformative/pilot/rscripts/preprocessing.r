@@ -17,12 +17,11 @@ mongoCreds <- readLines("../../../../../api_keys/mongo")
 
 ### 'Rounds' contains the by-trial info for the games played by the players
 
-d <- getRoundData_byLanguage("English_32",mongoCreds) 
-#%>%
-  # filter(updatedAt > "2021-12-14 00:00:00")
+d <- getRoundData_byLanguage("English_32",mongoCreds) %>%
+  filter(createdAt > "2022-08-18 13:00:00")
   #filter(updatedAt > "2022-8-15 13:30:00")
 
-saveRDS(d, file = "../../../../../data/English2022_summer/pilot/rawData.rds")
+saveRDS(d, file = "../../../../../data/English2022_summer/pilot/rawData_main.rds")
 
 # ## Option (b): Read in the raw data from .rds (rather than querying database)
 # ## For pipelining: read in data from 2-person pilot
@@ -39,7 +38,7 @@ rawD <- d
 
 player_info <- getPlayerDemographicData(unique(d$gameId),mongoCreds)
 
-saveRDS(player_info, file = "../../../../../data/English2022_summer/pilot/rawPlayerInfo.rds")
+saveRDS(player_info, file = "../../../../../data/English2022_summer/pilot/rawPlayerInfo_main.rds")
 
 # ## Option (b): read in the raw data from .rds (rather than querying the database)
 
@@ -57,6 +56,7 @@ saveRDS(player_info, file = "../../../../../data/English2022_summer/pilot/rawPla
 # ## Option (b): If list of excluded games is saved locally, read in the list (TODO)
 
 # # Step 4: massage the data into something that looks like Degen et al.'s raw format
+
 
 d <- transformDataDegen2020Raw(d)
 
@@ -86,31 +86,34 @@ d$directorFirstMessage = str_replace_all(d$directorFirstMessage, "light ", '')
 d$directorFirstMessage = str_replace_all(d$directorFirstMessage, "picture ", '')
 d$directorFirstMessage = gsub("\\.", '', d$directorFirstMessage)
 
-colorTerms <- paste("red", "yellow", "blue", "white", "black", "green", "purple", "orange", "silver", sep="|")
-nouns <- paste("fork", "key", "remote","belt","candle","calculator","cap","chair","clock","crown", "tie"
-, "tent", "spoon", "sock", "shovel", "scarf", "ruler", "ring", "ornament", "napkin", "mug", "mouse", "lamp", "pan",
-"flower","guitar", "dress", "door", "billiardball", "magnifyingglass", "stapler", "ladle", "airplane", "bike", "comb", "armchair",
-"balloon", "bed","candy","bucket","butterfly","cake", "calendar","coathanger","cushion"
-,"die", "drum","fish","frame","hammer","knife","lipstick","lock","mask","microscope","pencil","phone"
+colorTerms <- paste("red", "yellow", "blue", "white", "black", "green", "purple", "orange", "silver", "brown", 
+                    "gold", "little", "grey", "irange", sep="|")
+nouns <- paste("fork", "key", "remote","belt","candle","calculator","cap","chair","clock","crown", "tie", "square", "padlock", "collar", "hat"
+, "tent", "spoon", "sock", "shovel", "scarf", "ruler", "ring", "ornament", "napkin", "mug", "mouse", "lamp", "pan", "fry", "facemask", "mat",
+"flower","guitar", "dress", "door", "billiardball", "magnifyingglass", "stapler", "ladle", "airplane", "bike", "comb", "armchair", "gift",
+"balloon", "bed","candy","bucket","butterfly","cake", "calendar","coathanger","cushion", "robots", "box", "frying pan", "bug", "tv", "ladle"
+,"die", "drum","fish","frame","hammer","knife","lipstick","lock","mask","microscope","pencil","phone", "magmifying glass", "sweet", "february"
 ,"present","piano","whistle", "truck", "vase", "switch", "shell", "robot", "razor", "rug", "screwdriver", "ball", "hanger", "strap", "towel", "fabric", 
-"pillow", "seashell", "dice", "bag", "plane", "telephone", sep="|")
+"pillow", "seashell", "dice", "bag", "plane", "telephone", "toy", "sweet/candy", "bicycle", "cloth", "butturfly", "bauble", "triangle", 
+"braclet", "scarve", "spade", "scredriver", "lightswitch", "glass", "utensil", "rectangle", "cup", "gun", sep="|")
 bleachedNouns <- ""
 articles <- paste("the", "a", "an", sep="|")
-sizeTerms <- paste("small", "big", "smaller", "smallest", "bigger", "biggest", "larger", "medium", "large", sep="|")
+sizeTerms <- paste("small", "big", "smaller", "smallest", "bigger", "biggest", "larger", "medium", "large", "longer", "largest", "bulb", sep="|")
 
 d_preManualTypoCorrection <- automaticAnnotate(d, colorTerms, sizeTerms, nouns, bleachedNouns, articles)
-
+d_dup <- d_preManualTypoCorrection %>%
+  select(directorFirstMessage, words)
 
 
 # # Step 8: Write this dataset for manual correction of typos
 write_delim(data.frame(d_preManualTypoCorrection %>%
                           select(-target, -images, -listenerImages, -speakerImages,
                                 -chat)), 
-             "../../../../../data/English2022_summer/pilot/preManualTypoCorrection_part2.tsv", delim="\t")
+             "../../../../../data/English2022_summer/pilot/main_preManualTypoCorrection_part2.tsv", delim="\t")
 
 # # Step 9: Read manually corrected dataset for further preprocessing
 # # Make sure file being read in is *post* manual correction ('pre' just for testing)
-d <- read_delim("../../../../../data/English2022_summer/pilot/preManualTypoCorrection_part2.tsv", delim = "\t") %>%
+d <- read_delim("../../../../../data/English2022_summer/pilot/main_preManualTypoCorrection_part2.tsv", delim = "\t") %>%
 #   rbind(read_delim("../../data/SpanishMain/postManualTypoCorrection_part2.tsv", delim = "\t")) %>%
 filter(grepl("color|size", condition)) %>%
 filter(!(grepl("ENGLISH", words))) %>%

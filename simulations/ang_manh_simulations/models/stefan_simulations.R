@@ -110,6 +110,7 @@ write.csv(scenarios_pared,"../series/series1/model_output/exp_final_size.csv")
 
 
 
+
 #Rest is Stefan's code--->
 
 # Incremental versus global models return different outputs. Therefore we must split them up and
