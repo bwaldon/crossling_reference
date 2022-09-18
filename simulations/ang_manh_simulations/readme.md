@@ -3,7 +3,7 @@ This folder contains all the simulations and information regarding Angelique's m
 
 Manh created his own method for running French and Vietnamese RSA Models, so you can contact him for further info.
 
-This Readme is based off of Stefan's BCS work.
+This Readme is based off of Stefan's BCS readme.
 
 RSA: Rational Speech Act models. For the basic logic of RSA models please see link.
 https://www.problang.org/chapters/01-introduction.html
