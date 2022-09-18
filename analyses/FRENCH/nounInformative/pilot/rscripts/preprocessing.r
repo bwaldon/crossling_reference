@@ -22,8 +22,7 @@ mongoCreds <- readLines("../../../../../api_keys/mongo")
 ### 'Rounds' contains the by-trial info for the games played by the players
 
 d <- getRoundData_byLanguage("French",mongoCreds) %>%
-   filter(createdAt > "2022-08-15 13:00:00")
-  #filter(updatedAt > "2022-3-31 00:00:00")
+   #filter(createdAt > "2022-08-15 13:00:00")
 
 saveRDS(d, file = "../../../../../data/FRENCH/nounInformative/pilot/rawData.rds")
 
@@ -44,9 +43,11 @@ player_info <- getPlayerDemographicData(unique(d$gameId),mongoCreds)
 
 saveRDS(player_info, file = "../../../../../data/FRENCH/nounInformative/pilot/rawPlayerInfo.rds")
 
+
 ## Option (b): read in the raw data from .rds (rather than querying the database)
 
 player_info <- readRDS("../../../../../data/FRENCH/nounInformative/pilot/rawPlayerInfo.rds")
+
 
 # Step 3: do (demographic) exclusions
 
