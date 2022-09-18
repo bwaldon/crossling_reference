@@ -20,7 +20,7 @@ https://doi.org/10.48550/arXiv.1903.08237
 https://doi.org/10.48550/arXiv.1810.00367
 
 ## Basic Structure of Waldon and Degen's RSA Models
-This is a simple overview. For a more detailed explanation see XYZ.
+This is a simple overview.
 
 **Semantics()**
 Function 1:
@@ -92,14 +92,14 @@ Continuous versus non-continuous models are run by inputting different semantic 
 
 There are other supporting functions which are not necessary to understand the overall flow of the program.
 
-#Ang_manh_simulations Folder Organization
-This folder is still messy.
+# Ang_manh_simulations Folder Organization
+This folder is still messy, but the following is the current setup. Other folders are left over from Stefan's folder, which we duplicated to create this folder.
 
 - **\\models**: All documents needed to run simulations of the French and Vietnamese RSA Model. For a more comprehensive explanation of what the files in this folder do, see the *Simulation Pipeline* section.
 - **\\Series**: The input and output of simulations, plus some miscellaneous files.
   - **\\series1**
     - **\\model_input**: files that are input into the model
-    - **\\model_output**: graphs and csv file output from running the models (Output from models > stefan_simulations.R)
+    - **\\model_output**: graphs and csv file output from running the models (Output from models > ang_simulations.R)
     - **\\visualizations.r**: Generates graphs of model output files
 - **\\Graphs**: Final visualizations for our experiments
 
@@ -108,8 +108,7 @@ For consistency, here is how I (and this repo) uses the following terminology:
 **simulation**: an iteration of running the RSA models in French, English or Vietnamese
 **state**: RSA lingo for a string that represents an object. This string is the input for the RSA model. For example, in the models in ang_manh_simulations, a state may be "big red cup"
 **scenario**: A made up world defined by the states that it contains. So for example, if we were to show a participant three objects (e.g. a big blue cup, a small blue plate, and a big red cup), the RSA model will calculate speaker utterances over the following set of states: ["big blue cup", "small blue plate", "big red cup"].
-**pattern**: largely unimportant. But a "pattern" refers to how the outputs of a model run for a given scenario pattern. This is terminology used mainly in the keynote slides and was used for helping understand model outputs for different scenarios.
-**series**: a set of scenarios that we chose to explore in order to answer a specific question. I explain this in more detail below.
+**environment**: A set of a scenario and the target
 
 # Simulation Pipeline
 
@@ -117,15 +116,15 @@ For consistency, here is how I (and this repo) uses the following terminology:
 2. Optionally run visualizations.R to generate a graph
 
 ang_simulations.R
-  **Input**: csv file stored in **/series/series1/model_input/** produced with the following columns:
-Name - Objects - Nouns - Adjectives - Size_adjectives - size_noise - color_noise - noun_noise - adj_cost - noun_cost - alpha - global_inc - language
-Name, size_noise, color_noise, noun_noise, adj_cost, noun_cost and alpha should all be self explanatory
+  **Input**: csv file stored in **/series/series1/model_input/** produced with the following columns:\\
+Name - Objects - Nouns - Adjectives - Size_adjectives - size_noise - color_noise - noun_noise - adj_cost - noun_cost - alpha - global_inc - language\\
+Name, size_noise, color_noise, noun_noise, adj_cost, noun_cost and alpha should all be self explanatory\\
 
 Objects is an array of names for objects. It must include the size and the color of the objects in English order:
-  - e.g ['big blue cup', 'small red cup', 'big red train']
-  If you use the wrong type of quote marks, it won't run.
-Nouns, Adjectives, and Size_adjectives are also arrays of strings listing what nouns, and adjectives are used in the environment
-global_inc should be either 'inc' or 'global' (with no quotation marks), depending on whether you want to run the incremental or global model. In this particular model, GLOBAL ONLY RUNS ON ENGLISH.
+  - e.g ['big blue cup', 'small red cup', 'big red train']\\
+  If you use the wrong type of quote marks, it won't run.\\
+Nouns, Adjectives, and Size_adjectives are also arrays of strings listing what nouns, and adjectives are used in the environment\\
+global_inc should be either 'inc' or 'global' (with no quotation marks), depending on whether you want to run the incremental or global model. In this particular model, GLOBAL ONLY RUNS ON ENGLISH.\\
 Language is a number from 0 -3.
   0: English, 1: Spanish, 2: French, 3: Vietnamese
 
@@ -141,7 +140,7 @@ V8wppl.R:
   **Output**: none
   **Dependencies**: none
   Contains a function that takes in string of webppl code and modifies it so that it interfaces properly with Google's JS and WebAssembley engine (and thus runs the code in webppl). It returns the output that is given by the webppl code that it has run online.
-  This code is found the _shared folder in the root of this repo.
+  This code is found the shared folder in the root of this repo.
 
 angSimulationHelpers.R:
   **Input**: none
@@ -162,9 +161,10 @@ createEnv.txt
   A text file of webppl code that will generate the environment given the input columns.
 
 # What we are doing
-We are still working on organizing this folder, but in general the Summer worked looked at noun informative contexts.
+We are still working on organizing this folder, but in general the Summer work looked at noun informative contexts.
 
-#Notes
-Instances in which the noun is redundant (as in French, where the noun can be omitted in a grammatical way), are not accounted for in this code.
-The global model should only be run on English because of a persistent bug.
+# Notes
+Instances in which the noun is redundant (as in French, where the noun can be omitted in a grammatical way), are not accounted for in this code. \\
+The global model should only be run on English because of a persistent bug. \\
+The target is always the first object mentioned, which is always ALWAYS a small blue pin. \\
 For questions, contact Angelique Charles-Davis.
