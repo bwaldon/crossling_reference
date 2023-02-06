@@ -13,7 +13,10 @@ setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 d = read_csv("model_output/w23_scenes_out.csv",skip_empty_rows=TRUE) %>% 
   drop_na()
 summary(d)
-view(d)
+
+dtest = read_csv("model_output/w23_three_pin_test.csv",skip_empty_rows=TRUE) %>% 
+  drop_na()
+#view(d)
 nrow(d)
 
 addLang = function(df){
@@ -26,10 +29,38 @@ addLang = function(df){
   return(df)
 }
 d = addLang(d)
-
+d <- d %>% filter(global_inc == "inc" | (global_inc == "global" & Language == 0))
 dodge = position_dodge(.9)
 # color-blind-friendly palette
 cbPalette <- c("#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#CC79A7")
+
+
+sanityMaker = function(df){
+  d_size_prop = df %>%
+    mutate(Redundancy = case_when(  
+      grepl("color",Name) ~ "Color",
+      grepl("size",Name) ~ "Size",
+      TRUE ~ "other")) %>%
+    mutate(ModelType = case_when(
+      (size_noise!= 1 & global_inc == "global") ~ "Continuous global",
+      (size_noise == 1 & global_inc == "global") ~ "Discrete global",
+      (size_noise!= 1 & global_inc == "inc") ~ "Continuous incremental",
+      (size_noise== 1 & global_inc == "inc") ~ "Discrete incremental",
+    ))
+}
+dtest <- sanityMaker(dtest)
+dtest$ModelType_f = factor(dtest$ModelType, levels=c('Discrete global','Continuous global','Discrete incremental','Continuous incremental'))
+sanityCheck = function(plot) {
+  ggplot(plot, aes(x=Redundancy,y=output, fill = Redundancy))+
+    geom_bar(stat="identity")+
+    scale_fill_manual(values =cbPalette) +
+    facet_wrap(~ModelType_f, nrow = 2) +
+    ylim(0,1) +
+    labs(y= "Probability of redundant referring expression", color = "Redundant Property", title= "Three pins") +
+    theme(axis.text.x = element_text(angle=15,hjust=1,vjust=1),legend.position="bottom",axis.title.x=element_blank())
+  ggsave(filename = "three_pin_test.jpg", path = "../../graphs/w23/tester", device = "jpg")
+}
+sanityCheck(dtest)
 
 byColorProp = function(df){
   d_color_prop = df %>%
@@ -48,11 +79,50 @@ byColorProp = function(df){
     )) %>%
     group_by(Language, global_inc, alpha) %>% 
     ungroup()
+  d_color_prop$Prop <- as.numeric(d_color_prop$Prop)
   return(d_color_prop)
 }
 
-makePlot = function(plotType, filename, filepath){
-  ggplot(d_color_prop, aes(x=Prop,color=factor(Redundancy),y=output)) +
+byNounProp = function(df){
+  d_noun_prop = df %>%
+    mutate(Redundancy = case_when(  
+      grepl("color",Name) ~ "Color",
+      grepl("size",Name) ~ "Size",
+      TRUE ~ "other")) %>%
+    mutate(Prop = case_when(
+      grepl("base",Name) ~ "0.33",
+      grepl("three",Name) ~ "0",
+      grepl("six_(color|size)_same",Name) ~ "0.2",
+      grepl("six_(color|size)_diff",Name) ~ "0.6",
+      TRUE ~ "other"
+    )) %>%
+    group_by(Language, global_inc, alpha) %>% 
+    ungroup()
+  d_noun_prop$Prop <- as.numeric(d_noun_prop$Prop)
+  return(d_noun_prop)
+}
+
+bySizeProp = function(df){
+  d_size_prop = df %>%
+    mutate(Redundancy = case_when(  
+      grepl("color",Name) ~ "Color",
+      grepl("size",Name) ~ "Size",
+      TRUE ~ "other")) %>%
+    mutate(Prop = case_when(
+      grepl("base",Name) ~ "0.66",
+      grepl("three_color",Name) ~ "1",
+      grepl("three_size",Name) ~ "0.5",
+      grepl("six_color",Name) ~ "0.8",
+      grepl("six_size_(same|diff)_diff",Name) ~ "0.8",
+      grepl("six_size_(same|diff)_same",Name) ~ "0.4",
+      TRUE ~ "other"
+    ))
+  d_size_prop$Prop <- as.numeric(d_size_prop$Prop)
+  return(d_size_prop)
+}
+
+makePlot = function(plot,plotType, filename, filepath){
+  ggplot(plot, aes(x=Prop,color=factor(Redundancy),y=output, size = 3)) +
     #set_theme(base=theme_bw())
     geom_point(stat="identity") +
     scale_fill_manual(values =cbPalette) +
@@ -60,8 +130,79 @@ makePlot = function(plotType, filename, filepath){
     ylim(0,1) +
     labs(y= "Probability of redundant referring expression", color = "Redundant Property", title= plotType) +
     theme(axis.text.x = element_text(angle=15,hjust=1,vjust=1),legend.position="bottom",axis.title.x=element_blank())
-  ggsave(filename = filename, path = "../../graphs/w23", device = "pdf")
+  ggsave(filename = filename, path = sprintf("../../graphs/w23/%s",filepath), device = "jpg")
   }
+
+#NOUN UNINFORMATIVE (3 pins):
+d_three <- d %>% filter(grepl("three",Name))
+
+#DISCRETE GLOBAL
+d_global_disc <- d_three %>% filter(global_inc == "global") %>%
+  filter(color_noise == "1") %>% filter(Language == "0")
+#By proportion of color distractors
+d_color_prop <- byColorProp(d_global_disc)
+makePlot(d_color_prop,"Redundancy Rate vs. Color Proportion", "global_disc.jpg","three_pins/color_prop")
+#By proportion of size distractors
+d_size_prop <- bySizeProp(d_global_disc)
+makePlot(d_size_prop,"Redundancy Rate vs. Size Proportion", "global_disc.jpg","three_pins/size_prop")
+
+#CONTINUOUS GLOBAL
+d_global_cont <- d_three %>% filter(global_inc == "global") %>%
+  filter(color_noise == "0.95")
+#Noun noise --> 0.99
+d_global_cont_1 <- d_global_cont %>% filter(noun_noise == "0.99")
+#By proportion of color distractors
+d_color_prop <- byColorProp(d_global_cont_1)
+makePlot(d_color_prop,"Redundancy Rate vs. Color Proportion - Low noun noise", "global_cont_1.jpg","three_pins/color_prop")
+#By proportion of size distractors
+d_size_prop <- bySizeProp(d_global_cont_1)
+makePlot(d_size_prop,"Redundancy Rate vs. Size Proportion - Low noun noise", "global_cont_1.jpg","three_pins/size_prop")
+
+#Noun noise --> 0.9
+d_global_cont_2 <- d_global_cont %>% filter(noun_noise == "0.9")
+#By proportion of color distractors
+d_color_prop <- byColorProp(d_global_cont_2)
+makePlot(d_color_prop,"Redundancy Rate vs. Color Proportion - Noisy noun", "global_cont_2.jpg","three_pins/color_prop")
+#By proportion of size distractors
+d_size_prop <- bySizeProp(d_global_cont_2)
+makePlot(d_size_prop,"Redundancy Rate vs. Size Proportion - Noisy noun", "global_cont_2.jpg","three_pins/size_prop")
+
+
+#DISCRETE INCREMENTAL
+d_inc_disc <- d_three %>% filter(global_inc == "inc") %>%
+  filter(color_noise == "1")
+#By proportion of color distractors
+d_color_prop <- byColorProp(d_inc_disc)
+makePlot(d_color_prop,"Redundancy Rate vs. Color Proportion", "inc_disc.jpg","three_pins/color_prop")
+#By proportion of size distractors
+d_size_prop <- bySizeProp(d_inc_disc)
+makePlot(d_size_prop,"Redundancy Rate vs. Size Proportion", "inc_disc.jpg","three_pins/size_prop")
+
+#CONTINUOUS INCREMENTAL
+#Eliminating global trials
+d_inc_cont <- d_three %>% filter(global_inc == "inc") %>%
+  filter(color_noise == "0.95")
+#Noun noise --> 0.99
+d_inc_cont_1 <- d_inc_cont %>% filter(noun_noise == "0.99")
+#By proportion of color distractors
+d_color_prop <- byColorProp(d_inc_cont_1)
+makePlot(d_color_prop,"Redundancy Rate vs. Color Proportion - Low noun noise", "inc_cont_1.jpg","three_pins/color_prop")
+#By proportion of size distractors
+d_size_prop <- bySizeProp(d_inc_cont_1)
+makePlot(d_size_prop,"Redundancy Rate vs. Size Proportion - Low noun noise", "inc_cont_1.jpg","three_pins/size_prop")
+
+#Noun noise --> 0.9
+d_inc_cont_2 <- d_inc_cont %>% filter(noun_noise == "0.9")
+#By proportion of color distractors
+d_color_prop <- byColorProp(d_inc_cont_2)
+makePlot(d_color_prop,"Redundancy Rate vs. Color Proportion - Noisy noun", "inc_cont_2.jpg","three_pins/color_prop")
+#By proportion of size distractors
+d_size_prop <- bySizeProp(d_inc_cont_2)
+makePlot(d_size_prop,"Redundancy Rate vs. Size Proportion - Noisy noun", "inc_cont_2.jpg","three_pins/size_prop")
+
+
+
+#EXPERIMENTAL SIDE:
 
 #Eliminating filler trials & three pin scenario
 d_exp <- d %>% filter(!grepl("alt", Name))
@@ -72,10 +213,15 @@ d_global_disc <- d_exp %>% filter(global_inc == "global") %>%
   filter(color_noise == "1") %>% filter(Language == "0")
 #By proportion of color distractors
 d_color_prop <- byColorProp(d_global_disc)
-makePlot("Redundancy Rate vs. Color Discrimination", "global_disc.pdf","")
+makePlot(d_color_prop,"Redundancy Rate vs. Color Proportion", "global_disc.jpg","color_prop")
 #By proportion of noun distractors 
-
+d_noun_prop <- byNounProp(d_global_disc)
+makePlot(d_noun_prop,"Redundancy Rate vs. Noun Proportion", "global_disc.jpg","noun_prop")
 #By proportion of size distractors
+d_size_prop <- bySizeProp(d_global_disc)
+d_size_prop['Prop'] = d_size_prop['Prop'].astype(float)
+makePlot(d_size_prop,"Redundancy Rate vs. Size Proportion", "global_disc.jpg","size_prop")
+
 
 #CONTINUOUS GLOBAL
 d_global_cont <- d_exp %>% filter(global_inc == "global") %>%
@@ -84,20 +230,25 @@ d_global_cont <- d_exp %>% filter(global_inc == "global") %>%
 d_global_cont_1 <- d_global_cont %>% filter(noun_noise == "0.99")
 #By proportion of color distractors
 d_color_prop <- byColorProp(d_global_cont_1)
-makePlot("Redundancy Rate vs. Color Discrimination - Low noun noise", "global_cont_1.pdf","")
+makePlot(d_color_prop,"Redundancy Rate vs. Color Proportion - Low noun noise", "global_cont_1.jpg","color_prop")
 #By proportion of noun distractors 
-
+d_noun_prop <- byNounProp(d_global_cont_1)
+makePlot(d_noun_prop,"Redundancy Rate vs. Noun Proportion - Low noun noise", "global_cont_1.jpg","noun_prop")
 #By proportion of size distractors
+d_size_prop <- bySizeProp(d_global_cont_1)
+makePlot(d_size_prop,"Redundancy Rate vs. Size Proportion - Low noun noise", "global_cont_1.jpg","size_prop")
 
 #Noun noise --> 0.9
 d_global_cont_2 <- d_global_cont %>% filter(noun_noise == "0.9")
 #By proportion of color distractors
 d_color_prop <- byColorProp(d_global_cont_2)
-makePlot("Redundancy Rate vs. Color Discrimination - Noisy noun", "global_cont_2.pdf","")
+makePlot(d_color_prop,"Redundancy Rate vs. Color Proportion - Noisy noun", "global_cont_2.jpg","color_prop")
 #By proportion of noun distractors 
-
+d_noun_prop <- byNounProp(d_global_cont_2)
+makePlot(d_noun_prop,"Redundancy Rate vs. Noun Proportion - Noisy noun", "global_cont_2.jpg","noun_prop")
 #By proportion of size distractors
-
+d_size_prop <- bySizeProp(d_global_cont_2)
+makePlot(d_size_prop,"Redundancy Rate vs. Size Proportion - Noisy noun", "global_cont_2.jpg","size_prop")
 
 
 #DISCRETE INCREMENTAL
@@ -105,18 +256,107 @@ d_inc_disc <- d_exp %>% filter(global_inc == "inc") %>%
   filter(color_noise == "1")
 #By proportion of color distractors
 d_color_prop <- byColorProp(d_inc_disc)
-makePlot("Redundancy Rate vs. Color Discrimination", "inc_disc.pdf","")
+makePlot(d_color_prop,"Redundancy Rate vs. Color Proportion", "inc_disc.jpg","color_prop")
 #By proportion of noun distractors 
-
+d_noun_prop <- byNounProp(d_inc_disc)
+makePlot(d_noun_prop,"Redundancy Rate vs. Noun Proportion", "inc_disc.jpg","noun_prop")
 #By proportion of size distractors
-
+d_size_prop <- bySizeProp(d_inc_disc)
+makePlot(d_size_prop,"Redundancy Rate vs. Size Proportion", "inc_disc.jpg","size_prop")
 
 #CONTINUOUS INCREMENTAL
 #Eliminating global trials
 d_inc_cont <- d_exp %>% filter(global_inc == "inc") %>%
   filter(color_noise == "0.95")
+#Noun noise --> 0.99
+d_inc_cont_1 <- d_inc_cont %>% filter(noun_noise == "0.99")
+#By proportion of color distractors
+d_color_prop <- byColorProp(d_inc_cont_1)
+makePlot(d_color_prop,"Redundancy Rate vs. Color Proportion - Low noun noise", "inc_cont_1.jpg","color_prop")
+#By proportion of noun distractors 
+d_noun_prop <- byNounProp(d_inc_cont_1)
+makePlot(d_noun_prop,"Redundancy Rate vs. Noun Proportion - Low noun noise", "inc_cont_1.jpg","noun_prop")
+#By proportion of size distractors
+d_size_prop <- bySizeProp(d_inc_cont_1)
+makePlot(d_size_prop,"Redundancy Rate vs. Size Proportion - Low noun noise", "inc_cont_1.jpg","size_prop")
+
+#Noun noise --> 0.9
+d_inc_cont_2 <- d_inc_cont %>% filter(noun_noise == "0.9")
+#By proportion of color distractors
+d_color_prop <- byColorProp(d_inc_cont_2)
+makePlot(d_color_prop,"Redundancy Rate vs. Color Proportion - Noisy noun", "inc_cont_2.jpg","color_prop")
+#By proportion of noun distractors 
+d_noun_prop <- byNounProp(d_inc_cont_2)
+makePlot(d_noun_prop,"Redundancy Rate vs. Noun Proportion - Noisy noun", "inc_cont_2.jpg","noun_prop")
+#By proportion of size distractors
+d_size_prop <- bySizeProp(d_inc_cont_2)
+makePlot(d_size_prop,"Redundancy Rate vs. Size Proportion - Noisy noun", "inc_cont_2.jpg","size_prop")
 
 
+#FILLER TRIALS
+d_filler <- d %>% filter(grepl("alt", Name) & !grepl("three", Name))
+
+byType = function(df){
+  d_fillers = df %>%
+    mutate(Redundancy = case_when(  
+      grepl("_color",Name) ~ "Color",
+      grepl("_size",Name)~ "Size",
+      TRUE ~ "other")) %>%
+    mutate(Type = case_when(
+      grepl("both",Name) ~ "Noun sufficient",
+      grepl("neither",Name) ~ "Both necessary",
+      grepl("fcolor",Name) ~ "Color redundant",
+      grepl("fsize", Name) ~ "Size redundant",
+      TRUE ~ "other"
+    )) %>%
+    group_by(Language, global_inc, alpha) %>% 
+    ungroup()
+  return(d_fillers)
+}
+d_filler <- byType(d_filler)
+
+TypeOrder <- c("Noun sufficient","Size redundant","Color redundant","Both necessary")
+makePlotFiller = function(plot,plotType, filename, filepath){
+  ggplot(plot, aes(x=factor(Type,TypeOrder),y=output,)) +
+    #set_theme(base=theme_bw())
+    geom_bar(stat="identity") +
+    scale_fill_manual(values =cbPalette) +
+    facet_wrap(~LangAbr, nrow = 1) +
+    ylim(0,1) +
+    labs(y= "Probability of redundant referring expression", title= plotType) +
+    theme(axis.text.x = element_text(angle=15,hjust=1,vjust=1),legend.position="bottom",axis.title.x=element_blank())
+  ggsave(filename = filename, path = sprintf("../../graphs/w23/%s",filepath), device = "jpg")
+}
+
+#Discrete global
+d_global_disc <- d_filler %>% filter(global_inc == "global") %>%
+  filter(color_noise == "1")
+makePlotFiller(d_global_disc,"Probability of redundant referring expression vs. Trial type", "global_disc.jpg","fillers")
+#Continuous global
+d_global_cont <- d_filler %>% filter(global_inc == "global") %>%
+  filter(color_noise == "0.95")
+#Low noun noise
+d_global_cont_1 <- d_global_cont %>% filter(noun_noise == "0.99")
+makePlotFiller(d_global_cont_1,"Probability of redundant referring expression vs. Trial type - low noun noise", "global_cont_1.jpg","fillers")
+#High noun noise
+d_global_cont_2 <- d_global_cont %>% filter(noun_noise == "0.9")
+makePlotFiller(d_global_cont_2,"Probability of redundant referring expression vs. Trial type - noisy noun", "global_cont_2.jpg","fillers")
+
+
+#Discrete incremental
+d_inc_disc <- d_filler %>% filter(global_inc == "inc") %>%
+  filter(color_noise == "1")
+makePlotFiller(d_inc_disc,"Probability of redundant referring expression vs. Trial type", "inc_disc.jpg","fillers")
+
+#Continuous incremental
+d_inc_cont <- d_filler %>% filter(global_inc == "inc") %>%
+  filter(color_noise == "0.95")
+#Low noun noise
+d_inc_cont_1 <- d_inc_cont %>% filter(noun_noise == "0.99")
+makePlotFiller(d_inc_cont_1,"Probability of redundant referring expression vs. Trial type - low noun noise", "inc_cont_1.jpg","fillers")
+#High noun noise
+d_inc_cont_2 <- d_inc_cont %>% filter(noun_noise == "0.9")
+makePlotFiller(d_inc_cont_2,"Probability of redundant referring expression vs. Trial type - noisy noun", "inc_cont_2.jpg","fillers")
 
 #To do: fix proportions to be numbers and not strings
 num_order = c("2/5","1/2","2/3","1")

@@ -1,0 +1,33 @@
+"","Name","Objects","Nouns","Adjectives","Size_adjectives","adj_cost","noun_cost","size_noise","color_noise","noun_noise","alpha","global_inc","Language","listener","output"
+"1","alt_three_color_na_na","['small blue pin','big blue pin','big red pin']","['pin','ball']","['red','blue','small','big']","['small','big']",0.1,0,0.8,0.95,1,30,"global",0,"Marginal:
+    ""R1"" : 0.4907031404020175
+    ""R2"" : 0.27750510874709144
+    ""R3"" : 0.23179175085089118","0.679"
+"2","alt_three_color_na_na","['small blue pin','big blue pin','big red pin']","['pin','ball']","['red','blue','small','big']","['small','big']",0.1,0,1,1,1,30,"global",0,"Marginal:
+    ""R1"" : 0.5761168847658291
+    ""R3"" : 0.21194155761708544
+    ""R2"" : 0.21194155761708544","0.475"
+"3","alt_three_color_na_na","['small blue pin','big blue pin','big red pin']","['pin','ball']","['red','blue','small','big']","['small','big']",0.1,0,0.8,0.95,1,7,"inc",0,"Marginal:
+    ""R1"" : 0.4907031404020175
+    ""R2"" : 0.27750510874709144
+    ""R3"" : 0.23179175085089118","0.581"
+"4","alt_three_color_na_na","['small blue pin','big blue pin','big red pin']","['pin','ball']","['red','blue','small','big']","['small','big']",0.1,0,1,1,1,7,"inc",0,"Marginal:
+    ""R1"" : 0.5761168847658291
+    ""R3"" : 0.21194155761708544
+    ""R2"" : 0.21194155761708544","0.329"
+"5","alt_three_size_na_na","['small blue pin','small red pin','big red pin']","['pin','ball']","['red','blue','small','big']","['small','big']",0.1,0,0.8,0.95,1,30,"global",0,"Marginal:
+    ""R1"" : 0.5104335661312241
+    ""R2"" : 0.24845468983206673
+    ""R3"" : 0.24111174403670915","0.081"
+"6","alt_three_size_na_na","['small blue pin','small red pin','big red pin']","['pin','ball']","['red','blue','small','big']","['small','big']",0.1,0,1,1,1,30,"global",0,"Marginal:
+    ""R1"" : 0.5761168847658291
+    ""R3"" : 0.21194155761708544
+    ""R2"" : 0.21194155761708544","0.475"
+"7","alt_three_size_na_na","['small blue pin','small red pin','big red pin']","['pin','ball']","['red','blue','small','big']","['small','big']",0.1,0,0.8,0.95,1,7,"inc",0,"Marginal:
+    ""R1"" : 0.5104335661312241
+    ""R2"" : 0.24845468983206673
+    ""R3"" : 0.24111174403670915","0.007"
+"8","alt_three_size_na_na","['small blue pin','small red pin','big red pin']","['pin','ball']","['red','blue','small','big']","['small','big']",0.1,0,1,1,1,7,"inc",0,"Marginal:
+    ""R1"" : 0.5761168847658291
+    ""R3"" : 0.21194155761708544
+    ""R2"" : 0.21194155761708544","0.008"

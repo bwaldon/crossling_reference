@@ -214,4 +214,4 @@ var VietWrapper = cache(function(utt, state, lang) {
   return incrementalUtteranceSpeaker(utt, state, lang) + incrementalUtteranceSpeaker(newUtt, state, lang)
 });
 
-incrementalUtteranceSpeaker("START small pin blue STOP", "R1", 2)
+globalLiteralListener("START small blue pin")
