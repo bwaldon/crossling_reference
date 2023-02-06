@@ -95,13 +95,18 @@ There are other supporting functions which are not necessary to understand the o
 # Ang_manh_simulations Folder Organization
 This folder is still messy, but the following is the current setup. Other folders are left over from Stefan's folder, which we duplicated to create this folder.
 
-- **\\models**: All documents needed to run simulations of the French and Vietnamese RSA Model. For a more comprehensive explanation of what the files in this folder do, see the *Simulation Pipeline* section.
+- **\\models**: All documents needed to run simulations of the French and Vietnamese RSA Model. For a more comprehensive explanation of what the files in this folder do, see the *Simulation Pipeline* section. Files beginning in 'ang' are mine, and were built off of Stefan's code.
 - **\\Series**: The input and output of simulations, plus some miscellaneous files.
   - **\\series1**
     - **\\model_input**: files that are input into the model
     - **\\model_output**: graphs and csv file output from running the models (Output from models > ang_simulations.R)
-    - **\\visualizations.r**: Generates graphs of model output files
+    - **\\visualizations.r**: Generates graphs of model output files. For more information, see the *Visualization Pipeline* section.
+  - **\\series2_winter**: The new pipleine created in winter of 23. It automizes a bit more so that input files do not have to contain as much redundant information
+  	- **\\model_input**: files that are input into the model
+    - **\\model_output**: graphs and csv file output from running the models (Output from models > ang_simulations.R)
+     - **\\visualizations_copy.r**: Generates graphs of model output files, in the latest way. For more information, see the *Visualization Pipeline* section.
 - **\\Graphs**: Final visualizations for our experiments
+	- **\\w23**: The winter of 2023 graphs. Just more organized and with a different axis system. This is described in the *Visualization Pipeline* section.
 
 # Some Definitions
 For consistency, here is how I (and this repo) uses the following terminology:
@@ -115,20 +120,36 @@ For consistency, here is how I (and this repo) uses the following terminology:
 1. run ang_simulations with your chosen input file to see the output of those models
 2. Optionally run visualizations.R to generate a graph
 
+Newer version
+ang_simulations.R
+  **Input**: csv file stored in **/series/series2_winter/model_input/** produced with the following columns:\\
+Name - Objects \\
+The objects should be in a bracketed array and listed in English order regardless of the targt language. The name should just be the name of the scene.
+  - e.g ['big blue cup', 'small red cup', 'big red train']\\
+  If you use the wrong type of quotation marks, it won't run.\\
+ In one part of the code, you will see a set of parameter arrays. This is the core of the customizable part of the modelling.
+The values that can be adjusted are: languages to be run, alpha, adj_cost, noun_cost, and semantic values for size, noun and color. The code will expand each value to ceate unique rows. Further filters optimize so that global is only run in one language and alpha values for global do not interact with those for incremental. These can be adjusted as well.
+
+
+Older, less efficient version
 ang_simulations.R
   **Input**: csv file stored in **/series/series1/model_input/** produced with the following columns:\\
 Name - Objects - Nouns - Adjectives - Size_adjectives - size_noise - color_noise - noun_noise - adj_cost - noun_cost - alpha - global_inc - language\\
 Name, size_noise, color_noise, noun_noise, adj_cost, noun_cost and alpha should all be self explanatory\\
-
 Objects is an array of names for objects. It must include the size and the color of the objects in English order:
   - e.g ['big blue cup', 'small red cup', 'big red train']\\
   If you use the wrong type of quote marks, it won't run.\\
 Nouns, Adjectives, and Size_adjectives are also arrays of strings listing what nouns, and adjectives are used in the environment\\
 global_inc should be either 'inc' or 'global' (with no quotation marks), depending on whether you want to run the incremental or global model. In this particular model, GLOBAL ONLY RUNS ON ENGLISH.\\
-Language is a number from 0 -3.
+Language is a number from 0-3.
   0: English, 1: Spanish, 2: French, 3: Vietnamese
 
-  **Output**: The input csv file with one new column: output. This column contains the probability that the person will use both adjectives in their utterance, (which for Vietnamese is the sum of both adjective orderings).
+
+  **Output**: The csv file with one new column: output. This column contains the probability that the person will use both adjectives in their utterance, (which for Vietnamese is the sum of both adjective orderings). This csv is saved in model_output.
+
+  Newer version 
+  A second csv file containing a sanity check of just the 3-pin scenario is also created and saved in model_output. It contains checks with values matching the Degen et al. situations for the four model types.
+
   **Dependencies**:
           V8wppl.R
           angSimulationHelpers.R
@@ -160,11 +181,36 @@ angEngine.txt:
 createEnv.txt
   A text file of webppl code that will generate the environment given the input columns.
 
+# Visualization Pipeline
+
+The new proportion-based visualization method--->
+
+series/series2_winter/visualizations copy.r
+ **Input**: The output csv located in model_output
+ Run the entire file up until the old code. This will automatically create and save the graphs to the relevant folders.
+ **Output**: Graphs of the results. 
+ The Graphs are formatted as follows:
+ X-axis: (Color|size|noun) Proportion, one of these per graph. The proportion for a scene is calculated as: # objects that do not share the property/total other objects
+ Y-axis: Probability of a redundant referring expression
+ Color: Redundancy type of the scene
+ Each facet is a language, and global scenarios are only run in English.
+
+ Graphs are stored in ../graphs/w23 according to the following system:
+ Each proportion type is a folder, and each image is a different model type displaying all experimental contexts. For continuous types, we created duplicate graphs that varied in noun noise because of our experimental focus.
+ Three pin scenario has its own folder, and the sub-folders match those of the experiment, except we did not create a noun proportion graph, as this does not apply in the noun uninformative context.
+
+ There is also a tester graph just for the 3-pin scenario:
+ X-axis:redundancy type
+ Y-axis: Probability of a redundant referring expression
+ Fill: Redundancy type of the scene
+ Each facet is a model type, allowing us to do a sanity check comparing all four model types on the most basic scenario.
+
+
 # What we are doing
 We are still working on organizing this folder, but in general the Summer work looked at noun informative contexts.
 
 # Notes
 Instances in which the noun is redundant (as in French, where the noun can be omitted in a grammatical way), are not accounted for in this code. \\
 The global model should only be run on English because of a persistent bug. \\
-The target is always the first object mentioned, which is always ALWAYS a small blue pin. \\
+In every scene created, target is must ALWAYS be the first object mentioned, which is ALWAYS a small blue pin. You have to adjust any scenes you wish to use in an experiment accordingly for simulation purposes.\\
 For questions, contact Angelique Charles-Davis.
