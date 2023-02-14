@@ -76,6 +76,8 @@ agr <- d %>%
   mutate(Condition = fct_relevel(Condition, "noun_sufficient","size_redundant","color_redundant"),
          RedundantProperty=fct_recode(RedundantProperty,color="color redundant",size="size redundant"))
 
+write.csv(agr,"../../../../../data/FRENCH/nouninformative/main/scene_probabilities.csv")
+
 ggplot(agr, aes(x=Condition,y=Probability,color=RedundantProperty,group=1)) +
   geom_point() +
   geom_errorbar(aes(ymin=YMin,ymax=YMax)) +
