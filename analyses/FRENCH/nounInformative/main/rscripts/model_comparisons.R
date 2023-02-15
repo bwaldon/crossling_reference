@@ -10,7 +10,7 @@ setwd(this.dir)
 
 empirical_fr <- read.csv("../../../../../data/FRENCH/nounInformative/main/scene_probabilities.csv")
 
-#empirical_eng <- read.csv("")
+empirical_eng <- read.csv("../../../../../data/ENGLISH2022_summer/nounInformative/main/scene_probabilities.csv")
 
 modeling <- read.csv("../../../../../simulations/ang_manh_simulations/series/series2_winter/model_output/w23_scenes_out.csv")
 modeling <- modeling %>% filter(!grepl("three",Name))
@@ -19,6 +19,8 @@ modeling_eng <- modeling %>% filter(Language == 0)
 
 #NOUN NOISE = 0.99
 modeling_fr <- modeling_fr %>% filter(noun_noise != 0.90)
+modeling_eng <- modeling_eng %>% filter(noun_noise != 0.90)
+
 getModelType = function(df) {
   d_with_models = df %>%
     mutate(modelType = case_when(  
@@ -30,12 +32,20 @@ getModelType = function(df) {
   return(d_with_models)
 }
 modeling_fr <- getModelType(modeling_fr)
-toGraph <- subset(modeling_fr, select= c(Name,modelType,output))
-toGraph <- toGraph %>% 
+toGraph_fr <- subset(modeling_fr, select= c(Name,modelType,output))
+toGraph_fr <- toGraph_fr %>% 
   rename("Model_output" = "output")
 
-getProbFromCol = function(row){
+modeling_eng <- getModelType(modeling_eng)
+toGraph_eng <- subset(modeling_eng, select= c(Name,modelType,output))
+toGraph_eng <- toGraph_eng %>% 
+  rename("Model_output" = "output")
+
+getProbFromCol_fr = function(row){
   getProbFromName(row["Name"],empirical_fr)
+}
+getProbFromCol_eng = function(row){
+  getProbFromName(row["Name"],empirical_eng)
 }
 
 getProbFromName = function(Name,emp){
@@ -99,13 +109,23 @@ getProbFromName = function(Name,emp){
   return(prob[1,1])
 }
 
-getEmpiricalProb = function(df){
+getEmpiricalProb = function(df,lang){
+  if (lang == 0){
   d_with_probs = df %>%
-    mutate(Probability = apply(df, 1, getProbFromCol)
+    mutate(Probability = apply(df, 1, getProbFromCol_eng)
     )
+  }
+  if (lang == 2){
+    d_with_probs = df %>%
+      mutate(Probability = apply(df, 1, getProbFromCol_fr)
+      )
+  }
+  return(d_with_probs)
 }
 
-toGraph <- getEmpiricalProb(toGraph)
+toGraph_fr <- getEmpiricalProb(toGraph_fr,2)
+toGraph_eng <- getEmpiricalProb(toGraph_eng,0)
+
 typeOrder = c("Discrete global", "Discrete incremental", "Continuous global", "Continuous incremental")
 makePlot = function(plot){
   ggplot(plot, aes(x=Model_output, y=Probability)) +
@@ -119,4 +139,5 @@ makePlot = function(plot){
   #ggsave(filename = filename, path = sprintf("../../graphs/w23/%s",filepath), device = "jpg")
 }
 
-makePlot(toGraph)
+makePlot(toGraph_fr)
+makePlot(toGraph_eng)
