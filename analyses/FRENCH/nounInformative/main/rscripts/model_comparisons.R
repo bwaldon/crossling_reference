@@ -7,6 +7,8 @@ theme_set(theme_bw(18))
 
 this.dir <- dirname(rstudioapi::getSourceEditorContext()$path)
 setwd(this.dir)
+# color-blind-friendly palette
+cbPalette <- c("#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#CC79A7")
 
 empirical_fr <- read.csv("../../../../../data/FRENCH/nounInformative/main/scene_probabilities.csv")
 
@@ -150,7 +152,15 @@ findCor = function(toGraph){
   }
 }
 findCor(toGraph_eng)
+#[1] "Discrete global: 0.368978"
+#[1] "Discrete incremental: -0.106421"
+#[1] "Continuous global: 0.730031"
+#[1] "Continuous incremental: 0.036155"
 findCor(toGraph_fr)
+#[1] "Discrete global: 0.332592"
+#[1] "Discrete incremental: -0.280119"
+#[1] "Continuous global: 0.669367"
+#[1] "Continuous incremental: -0.141453"
 
 #//--- Noun Noise = 0.90
 modeling_fr <- modeling %>% filter(Language == 2 | global_inc == "global")
@@ -178,4 +188,23 @@ makePlot(toGraph_eng, "eng",0.90)
 
 #coefficient analysis
 findCor(toGraph_eng)
+#[1] "Discrete global: 0.368978"
+#[1] "Discrete incremental: -0.106421"
+#[1] "Continuous global: 0.743614"
+#[1] "Continuous incremental: 0.109478"
 findCor(toGraph_fr)
+#[1] "Discrete global: 0.332592"
+#[1] "Discrete incremental: -0.280119"
+#[1] "Continuous global: 0.683555"
+#[1] "Continuous incremental: -0.075595"
+
+# further analysis -- removing outliers
+toGraph_eng_trimmed <- toGraph_eng %>% filter (Name != "alt_fsize_color_na_na" &
+                                                 Name != "alt_both_color_na_na")
+findCor(toGraph_eng_trimmed)
+#[1] "Continuous global: 0.943911"
+
+toGraph_fr_trimmed <- toGraph_fr %>% filter (Name != "alt_fsize_color_na_na" &
+                                               Name != "alt_both_color_na_na")
+findCor(toGraph_fr_trimmed)
+#[1] "Continuous global: 0.923828"
