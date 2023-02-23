@@ -15,7 +15,7 @@ source("../../../../_shared/regressionHelpers.r")
 
 # READ DATA
 # # (dummy data for analysis pipeline creation)
-d = read_delim("../../../../../data/FRENCH/nounInformative/main/data_exp1.tsv", delim = "\t")
+d = read_delim("../../../../../data/ENGLISH2022_summer/main/main_data_exp1.tsv", delim = "\t")
 #d_postraw = read_tsv("../../data/SpanishMain/postManualTypoCorrection.tsv") %>% bind_rows(read_tsv("../../data/SpanishMain/postManualTypoCorrection_part2.tsv"))
 
 # get data with linear order annotation
@@ -61,7 +61,7 @@ agr <- d %>%
   mutate(Condition = case_when(
     TrialType == "target" & DistractorsNoun == "no_extras" ~ "base",
     TrialType == "control" ~ ControlType,
-    TRUE ~ paste(DistractorsNoun,"_",DistractorsRedProp,"",sep=""))) %>% 
+    TRUE ~ paste(DistractorsNoun,"_noun/",DistractorsRedProp,"_redundantvalue",sep=""))) %>% 
   select(redundant,RedundantProperty,Condition,TrialType) %>%
   # mutate(Condition = case_when(
     # NumDistractors == 3 ~ "base",
@@ -76,13 +76,13 @@ agr <- d %>%
   mutate(Condition = fct_relevel(Condition, "noun_sufficient","size_redundant","color_redundant"),
          RedundantProperty=fct_recode(RedundantProperty,color="color redundant",size="size redundant"))
 
-write.csv(agr,"../../../../../data/FRENCH/nouninformative/main/scene_probabilities.csv")
+write.csv(agr,"../../../../../data/ENGLISH2022_summer/main/scene_probabilities.csv")
 
 ggplot(agr, aes(x=Condition,y=Probability,color=RedundantProperty,group=1)) +
   geom_point() +
   geom_errorbar(aes(ymin=YMin,ymax=YMax)) +
   xlab("Condition") +
-  ylab("Proportion of over-modification") +
+  ylab("Proportion of color-and-size mentions") +
   scale_color_manual(name="Redundant\nproperty",values=cbPalette[1:2]) +
   facet_wrap(~TrialType,scales="free") +
   theme(axis.text.x=element_text(angle=45,hjust=1,vjust=1))
