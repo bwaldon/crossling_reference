@@ -16,8 +16,14 @@ summary(d)
 
 dtest = read_csv("model_output/w23_three_pin_test.csv",skip_empty_rows=TRUE) %>% 
   drop_na()
+ 
+d_exp_fr = read_csv("../../../../data/FRENCH/nounInformative/main/scene_probabilities.csv",skip_empty_rows=TRUE)
+d_exp_fr$Language = "2"
+d_exp_eng = read_csv("../../../../data/ENGLISH2022_summer/nounInformative/main/scene_probabilities.csv",skip_empty_rows=TRUE)
+d_exp_eng$Language = "0"
+d_exp_joined = rbind(d_exp_fr,d_exp_eng)
 #view(d)
-nrow(d)
+#nrow(d)
 
 addLang = function(df){
   df = df %>% mutate(LangAbr = case_when (
@@ -29,6 +35,7 @@ addLang = function(df){
   return(df)
 }
 d = addLang(d)
+
 d <- d %>% filter(global_inc == "inc" | (global_inc == "global" & Language == 0))
 dodge = position_dodge(.9)
 # color-blind-friendly palette
@@ -360,6 +367,93 @@ makePlotFiller(d_inc_cont_2,"Probability of redundant referring expression vs. T
 
 #To do: fix proportions to be numbers and not strings
 num_order = c("2/5","1/2","2/3","1")
+
+
+
+
+#EXPERIMENTAL GRAPH
+d_exp_all = addLang(d_exp_joined)
+d_exp_all <- d_exp_all %>% 
+  rename("output" = "Probability")
+d_exp = d_exp_all %>% filter(TrialType != "control")
+d_exp <- d_exp %>% 
+  rename("output" = "Probability")
+byColorPropExp = function(df){
+  d_color_prop = df %>%
+    mutate(Redundancy = case_when(  
+      RedundantProperty == "color" ~ "Color",
+      RedundantProperty == "size" ~ "Size",
+      TRUE ~ "other")) %>%
+    mutate(Prop = case_when(
+      grepl("base",Condition) ~ "0.66",
+      (grepl("color",RedundantProperty) & (grepl("diff_noun/same",Condition)|grepl("same_noun/same",Condition))) ~ "0.4",
+      (grepl("color",RedundantProperty) & (grepl("diff_noun/diff",Condition)|grepl("same_noun/diff",Condition))) ~ "0.8",
+      (grepl("size", RedundantProperty) & !grepl("base",Condition)) ~ "0.8",
+      TRUE ~ "other"
+    ))
+  d_color_prop$Prop <- as.numeric(d_color_prop$Prop)
+  return(d_color_prop)
+}
+
+byNounPropExp = function(df){
+  d_noun_prop = df %>%
+    mutate(Redundancy = case_when(  
+      grepl("color",RedundantProperty) ~ "Color",
+      grepl("size",RedundantProperty) ~ "Size",
+      TRUE ~ "other")) %>%
+    mutate(Prop = case_when(
+      grepl("base",Condition) ~ "0.33",
+      grepl("same_noun",Condition) ~ "0.2",
+      grepl("diff_noun",Condition) ~ "0.6",
+      TRUE ~ "other"
+    )) 
+  d_noun_prop$Prop <- as.numeric(d_noun_prop$Prop)
+  return(d_noun_prop)
+}
+bySizePropExp = function(df){
+  d_size_prop = df %>%
+    mutate(Redundancy = case_when(  
+      grepl("color",RedundantProperty) ~ "Color",
+      grepl("size",RedundantProperty) ~ "Size",
+      TRUE ~ "other")) %>%
+    mutate(Prop = case_when(
+      grepl("base",Condition) ~ "0.66",
+      (grepl("color",RedundantProperty) & !grepl("base",Condition))~ "0.8",
+      grepl("size",RedundantProperty) & grepl("diff_redundantvalue",Condition) ~ "0.8",
+      grepl("size",RedundantProperty) & grepl("same_redundantvalue",Condition) ~ "0.4",
+      TRUE ~ "other"
+    ))
+  d_size_prop$Prop <- as.numeric(d_size_prop$Prop)
+  return(d_size_prop)
+}
+
+d_color_prop <- byColorPropExp(d_exp)
+makePlot(d_color_prop,"Redundancy Rate vs. Color Proportion", "color_exp.jpg","experimental")
+d_size_prop <- bySizePropExp(d_exp)
+makePlot(d_size_prop,"Redundancy Rate vs. Color Proportion", "size_exp.jpg","experimental")
+d_noun_prop <- byNounPropExp(d_exp)
+makePlot(d_noun_prop,"Redundancy Rate vs. Color Proportion", "noun_exp.jpg","experimental")
+
+d_exp_filler <- d_exp_all %>% filter(TrialType != "target")
+byType = function(df){
+  d_fillers = df %>%
+    mutate(Redundancy = case_when(  
+      grepl("color",RedundantProperty) ~ "Color",
+      grepl("size",RedundantProperty)~ "Size",
+      TRUE ~ "other")) %>%
+    mutate(Type = case_when(
+      grepl("both",Condition) ~ "Both necessary",
+      grepl("noun_sufficient",Condition) ~ "Noun sufficient",
+      grepl("color_redundant",Condition) ~ "Color redundant",
+      grepl("size_redundant", Condition) ~ "Size redundant",
+      TRUE ~ "other"
+    ))
+  return(d_fillers)
+}
+dType <- byType(d_exp_filler)
+makePlotFiller(dType,"Probability of redundant referring expression vs. Trial type", "fillers.jpg","experimental")
+
+
 
 
 
