@@ -61,7 +61,7 @@ agr <- d %>%
   mutate(Condition = case_when(
     TrialType == "target" & DistractorsNoun == "no_extras" ~ "base",
     TrialType == "control" ~ ControlType,
-    TRUE ~ paste(DistractorsNoun,"_noun/",DistractorsRedProp,"_redundantvalue",sep=""))) %>% 
+    TRUE ~ paste(DistractorsNoun,"_",DistractorsRedProp,"",sep=""))) %>% 
   select(redundant,RedundantProperty,Condition,TrialType) %>%
   # mutate(Condition = case_when(
     # NumDistractors == 3 ~ "base",
@@ -80,7 +80,7 @@ ggplot(agr, aes(x=Condition,y=Probability,color=RedundantProperty,group=1)) +
   geom_point() +
   geom_errorbar(aes(ymin=YMin,ymax=YMax)) +
   xlab("Condition") +
-  ylab("Proportion of color-and-size mentions") +
+  ylab("Proportion of over-modification") +
   scale_color_manual(name="Redundant\nproperty",values=cbPalette[1:2]) +
   facet_wrap(~TrialType,scales="free") +
   theme(axis.text.x=element_text(angle=45,hjust=1,vjust=1))
