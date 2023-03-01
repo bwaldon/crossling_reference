@@ -34,12 +34,29 @@ getModelType = function(df) {
   return(d_with_models)
 }
 modeling_fr <- getModelType(modeling_fr)
-toGraph_fr <- subset(modeling_fr, select= c(Name,modelType,output))
+modeling_fr <- modeling_fr %>% mutate(Redundancy = case_when (
+  grepl("exp",Name) & grepl("color",Name) ~ "Color",
+  grepl("exp",Name) & grepl("size", Name) ~ "Size",
+  grepl("alt",Name) & grepl("both", Name) ~ "Both",
+  grepl("alt",Name) & grepl("neither", Name) ~ "None",
+  grepl("alt",Name) & grepl("fcolor", Name) ~ "Color",
+  grepl("alt",Name) & grepl("fsize", Name) ~ "Size"
+))
+toGraph_fr <- subset(modeling_fr, select= c(Name,modelType,output, Redundancy))
 toGraph_fr <- toGraph_fr %>% 
   rename("Model_output" = "output")
 
 modeling_eng <- getModelType(modeling_eng)
-toGraph_eng <- subset(modeling_eng, select= c(Name,modelType,output))
+modeling_eng <- modeling_eng %>% mutate(Redundancy = case_when (
+  grepl("exp",Name) & grepl("color",Name) ~ "Color",
+  grepl("exp",Name) & grepl("size", Name) ~ "Size",
+  grepl("alt",Name) & grepl("both", Name) ~ "Both",
+    grepl("alt",Name) & grepl("neither", Name) ~ "None",
+    grepl("alt",Name) & grepl("fcolor", Name) ~ "Color",
+    grepl("alt",Name) & grepl("fsize", Name) ~ "Size"
+))
+
+toGraph_eng <- subset(modeling_eng, select= c(Name,modelType,output, Redundancy))
 toGraph_eng <- toGraph_eng %>% 
   rename("Model_output" = "output")
 
@@ -129,14 +146,15 @@ toGraph_fr <- getEmpiricalProb(toGraph_fr,2)
 toGraph_eng <- getEmpiricalProb(toGraph_eng,0)
 
 typeOrder = c("Discrete global", "Discrete incremental", "Continuous global", "Continuous incremental")
+RedundancyOrder = c("Color", "Both", "Size", "None")
 makePlot = function(plot,lang,xnoun){
-  ggplot(plot, aes(x=Model_output, y=Probability)) +
+  ggplot(plot, aes(x=Model_output, y=Probability, color = factor(Redundancy, RedundancyOrder))) +
     #set_theme(base=theme_bw())
     geom_point(stat="identity") +
-    scale_fill_manual(values =cbPalette) +
+    #scale_fill_manual(values =cbPalette) +
     facet_wrap(~factor(modelType,typeOrder), nrow = 2) +
     ylim(0,1) +
-    labs(y= "Experimental probability", x= sprintf("Model probability (xnoun=%1.2f)",xnoun), title= "Empirical vs. Modeling Probabilities") +
+    labs(y= "Experimental probability", x= sprintf("Model probability (xnoun=%1.2f)",xnoun), color = "Redundancy", title= "Empirical vs. Modeling Probabilities") +
     theme(axis.text.x = element_text(angle=15,hjust=1,vjust=1),legend.position="bottom")
   ggsave(filename = sprintf("model_comp_%s_%1.2f.jpg",lang,xnoun), path = "../../../../../analyses/FRENCH/nounInformative/main/graphs", device = "jpg")
 }
@@ -170,12 +188,28 @@ modeling_fr <- modeling_fr %>% filter(noun_noise != 0.99)
 modeling_eng <- modeling_eng %>% filter(noun_noise != 0.99)
 
 modeling_fr <- getModelType(modeling_fr)
-toGraph_fr <- subset(modeling_fr, select= c(Name,modelType,output))
+modeling_fr <- modeling_fr %>% mutate(Redundancy = case_when (
+  grepl("exp",Name) & grepl("color",Name) ~ "Color",
+  grepl("exp",Name) & grepl("size", Name) ~ "Size",
+  grepl("alt",Name) & grepl("both", Name) ~ "Both",
+  grepl("alt",Name) & grepl("neither", Name) ~ "None",
+  grepl("alt",Name) & grepl("fcolor", Name) ~ "Color",
+  grepl("alt",Name) & grepl("fsize", Name) ~ "Size"
+))
+toGraph_fr <- subset(modeling_fr, select= c(Name,modelType,output,Redundancy))
 toGraph_fr <- toGraph_fr %>% 
   rename("Model_output" = "output")
 
 modeling_eng <- getModelType(modeling_eng)
-toGraph_eng <- subset(modeling_eng, select= c(Name,modelType,output))
+modeling_eng <- modeling_eng %>% mutate(Redundancy = case_when (
+  grepl("exp",Name) & grepl("color",Name) ~ "Color",
+  grepl("exp",Name) & grepl("size", Name) ~ "Size",
+  grepl("alt",Name) & grepl("both", Name) ~ "Both",
+  grepl("alt",Name) & grepl("neither", Name) ~ "None",
+  grepl("alt",Name) & grepl("fcolor", Name) ~ "Color",
+  grepl("alt",Name) & grepl("fsize", Name) ~ "Size"
+))
+toGraph_eng <- subset(modeling_eng, select= c(Name,modelType,output, Redundancy))
 toGraph_eng <- toGraph_eng %>% 
   rename("Model_output" = "output")
 
