@@ -7,6 +7,7 @@ library(cowplot)
 library(viridis)
 library(jsonlite)
 library(sjmisc)
+theme_set(theme_bw(18))
 
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 
@@ -430,9 +431,9 @@ bySizePropExp = function(df){
 d_color_prop <- byColorPropExp(d_exp)
 makePlot(d_color_prop,"Redundancy Rate vs. Color Proportion", "color_exp.jpg","experimental")
 d_size_prop <- bySizePropExp(d_exp)
-makePlot(d_size_prop,"Redundancy Rate vs. Color Proportion", "size_exp.jpg","experimental")
+makePlot(d_size_prop,"Redundancy Rate vs. Size Proportion", "size_exp.jpg","experimental")
 d_noun_prop <- byNounPropExp(d_exp)
-makePlot(d_noun_prop,"Redundancy Rate vs. Color Proportion", "noun_exp.jpg","experimental")
+makePlot(d_noun_prop,"Redundancy Rate vs. Noun Proportion", "noun_exp.jpg","experimental")
 
 d_exp_filler <- d_exp_all %>% filter(TrialType != "target")
 byType = function(df){
