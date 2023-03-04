@@ -1,0 +1,33 @@
+var semantics = function(params) {
+  return function(state) {
+    return {
+      sameColor: ["sameColor_sameSize_sameType","sameColor_diffSize_sameType","sameColor_sameSize_diffType","sameColor_diffSize_diffType"].includes(state) ? params.colorNoiseVal : 1 - params.colorNoiseVal,
+      diffColor: ["diffColor_sameSize_diffType","diffColor_diffSize_diffType","diffColor_sameSize_sameType","diffColor_diffSize_sameType"].includes(state) ? params.colorNoiseVal : 1 - params.colorNoiseVal,
+      sameSize: ["sameColor_sameSize_diffType","diffColor_sameSize_diffType","sameColor_sameSize_sameType","diffColor_sameSize_sameType"].includes(state) ? params.sizeNoiseVal : 1 - params.sizeNoiseVal,
+      diffSize: ["sameColor_diffSize_diffType","diffColor_diffSize_diffType","sameColor_diffSize_sameType","diffColor_diffSize_sameType"].includes(state) ? params.sizeNoiseVal : 1 - params.sizeNoiseVal,
+      sameType: ["sameColor_sameSize_sameType","diffColor_sameSize_sameType","sameColor_diffSize_sameType","diffColor_diffSize_sameType"].includes(state) ? params.typeNoiseVal : 1 - params.typeNoiseVal,
+      diffType: ["sameColor_diffSize_diffType","diffColor_diffSize_diffType","sameColor_sameSize_diffType","diffColor_sameSize_diffType"].includes(state) ? params.typeNoiseVal : 1 - params.typeNoiseVal,
+      STOP : 1,
+      START : 1
+    }
+  }
+}
+
+
+var model = function(params) {
+  return {
+    words : ['sameColor', 'sameSize', 'diffColor', 'diffSize', 'sameType','diffType','STOP', 'START'],
+    wordCost: {
+      "sameColor" : params.colorCost,
+      "diffColor" : params.colorCost,
+      "sameSize" : params.sizeCost,
+      "diffSize" : params.sizeCost,
+      "sameType" : params.nounCost,
+      "diffType" : params.nounCost,
+      'STOP'  : 0,
+      'START'  : 0
+    },
+
+
+  }
+}
