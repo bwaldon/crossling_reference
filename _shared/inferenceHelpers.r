@@ -1,22 +1,22 @@
 makeModel <- function(header) {
-  
-  return(paste(read_file(header), read_file("../../_shared/engine.txt"), sep = "\n"))
+  #attaches semantics of specific context to general engine
+  return(paste(read_file(header), read_file("../../../../../_shared/engine.txt"), sep = "\n"))
   
 }
 
 wrapInference <- function(model, target, inferenceType, samples, lag, burn) {
   
   if(inferenceType == "incrementalContinuous") {
-    inferenceCommand <- read_file("../_shared/inferenceCommands/main/v2/incrementalContinuous.txt")
+    inferenceCommand <- read_file("../../../../../_shared/inferenceCommands/main/v2/incrementalContinuous.txt")
     
   } else if(inferenceType == "incremental") {
-    inferenceCommand <- read_file("../_shared/inferenceCommands/main/v2/incremental.txt")
+    inferenceCommand <- read_file("../../../../_shared/inferenceCommands/main/v2/incremental.txt")
     
   } else if(inferenceType == "continuous") {
-    inferenceCommand <- read_file("../_shared/inferenceCommands/main/v2/continuous.txt")
+    inferenceCommand <- read_file("../../../../_shared/inferenceCommands/main/v2/continuous.txt")
     
   } else if(inferenceType == "vanilla") {
-    inferenceCommand <- read_file("../_shared/inferenceCommands/main/v2/vanilla.txt")
+    inferenceCommand <- read_file("../../../../_shared/inferenceCommands/main/v2/vanilla.txt")
     
   } else if(inferenceType == "continuous_equalcost") {
     inferenceCommand <- read_file("../_shared/inferenceCommands/main/v2/continuous_equalcost.txt")
