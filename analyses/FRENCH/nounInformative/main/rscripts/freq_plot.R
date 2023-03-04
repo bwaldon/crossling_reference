@@ -73,4 +73,6 @@ makePlot = function(plot,lang){
 
 
 makePlot(dfEng,"eng")
+print(cor(dfEng$Probability,dfEng$targetFreq))
 makePlot(dfFren,"fren")
+print(cor(dfFren$Probability,dfFren$targetFreq))
