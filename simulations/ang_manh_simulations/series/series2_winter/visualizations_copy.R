@@ -17,7 +17,10 @@ summary(d)
 
 dtest = read_csv("model_output/w23_three_pin_test.csv",skip_empty_rows=TRUE) %>% 
   drop_na()
- 
+
+dgreedytest = read_csv("model_output/w23_greedy_test.csv",skip_empty_rows=TRUE) %>% 
+  drop_na()
+
 d_exp_fr = read_csv("../../../../data/FRENCH/nounInformative/main/scene_probabilities.csv",skip_empty_rows=TRUE)
 d_exp_fr$Language = "2"
 d_exp_eng = read_csv("../../../../data/ENGLISH2022_summer/nounInformative/main/scene_probabilities.csv",skip_empty_rows=TRUE)
@@ -57,18 +60,25 @@ sanityMaker = function(df){
     ))
 }
 dtest <- sanityMaker(dtest)
+dgreedytest <- sanityMaker(dgreedytest)
+
 dtest$ModelType_f = factor(dtest$ModelType, levels=c('Discrete global','Continuous global','Discrete incremental','Continuous incremental'))
+dgreedytest$ModelType_f = factor(dgreedytest$ModelType, levels=c('Discrete global','Continuous global','Discrete incremental','Continuous incremental'))
+
+
 sanityCheck = function(plot) {
   ggplot(plot, aes(x=Redundancy,y=output, fill = Redundancy))+
     geom_bar(stat="identity")+
     scale_fill_manual(values =cbPalette) +
-    facet_wrap(~ModelType_f, nrow = 2) +
+    facet_wrap(~alpha, nrow = 2) +
     ylim(0,1) +
     labs(y= "Probability of redundant referring expression", color = "Redundant Property", title= "Three pins") +
     theme(axis.text.x = element_text(angle=15,hjust=1,vjust=1),legend.position="bottom",axis.title.x=element_blank())
-  ggsave(filename = "three_pin_test.jpg", path = "../../graphs/w23/tester", device = "jpg")
+ # ggsave(filename = "three_pin_test.jpg", path = "../../graphs/w23/tester", device = "jpg")
 }
 sanityCheck(dtest)
+sanityCheck(dgreedytest %>% filter(color_noise != "1"))
+sanityCheck(dgreedytest %>% filter(color_noise == "1"))
 
 byColorProp = function(df){
   d_color_prop = df %>%

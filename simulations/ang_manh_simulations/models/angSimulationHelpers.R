@@ -45,7 +45,32 @@ runModel_2 <- function(backend, engine, environment,adjCost, nounCost, alpha, mo
         sprintf("globalUtteranceSpeakerWrapper(\"START pin blue and small STOP\", \"R1\", %s) + 
                       globalUtteranceSpeakerWrapper(\"START pin small and blue STOP\", \"R1\", %s)", lang, lang)
   }
+  else if (modelType == "greedy"){ #global is the same for all languages, so if statements aren't necessary
+    if (lang == 0) postamble <- sprintf("incrementalUtteranceSpeakerGreedy(\"START small blue pin STOP\", \"R1\", %s)", lang)
+    else if (lang == 1) postamble <- sprintf("incrementalUtteranceSpeakerGreedy(\"START pin blue small STOP\", \"R1\", %s)", lang)
+    else if (lang == 2) postamble <- sprintf("incrementalUtteranceSpeakerGreedy(\"START small pin blue STOP\", \"R1\", %s)", lang)
+    else if (lang == 3) postamble <- 
+        sprintf("incrementalUtteranceSpeakerGreedy(\"START pin blue and small STOP\", \"R1\", %s) + 
+                      incrementalUtteranceSpeakerGreedy(\"START pin small and blue STOP\", \"R1\", %s)", lang, lang)
+  }
   code <- paste(preamble, engine, postamble, sep = '\n')
   write_file(code, 'temp3.js')
   return (evalWebPPL_V8(code))
+}
+
+test_model <- function(backend, engine, environment,adjCost, nounCost, alpha, modelType,lang, adj, noun){
+  preamble <- sprintf("var alpha = %s
+                      var adj_cost = %s
+                      var noun_cost = %s
+                      var adj = %s
+                      var noun = %s
+                      var states = [%s]
+                      var semantics = [[%s]]
+                      var words = [%s]
+                      var utterances = [[%s]]", alpha, adjCost, nounCost, adj, noun,
+                      environment$states, environment$semantics, environment$words, environment$utterances)
+  postamble <- sprintf("globalLiteralListener(\"START small blue pin\")")
+  code <- paste(preamble, engine, postamble, sep = '\n')
+  write_file(code, 'temp4.js')
+  return(evalWebPPL_V8(code))
 }

@@ -91,6 +91,28 @@ var stringSemantics = function (context, state, lang) {//takes in context + targ
  return safeDivide(trueContinuations, allContinuations.length);
 };
 
+var stringSemanticsGreedy = function (context, state, lang) {
+  var allContinuations = filter(function (x) {
+    return x.startsWith(context);
+  }, utterances);
+  // prunedContinuations: the set of all full-utterance continuations,
+  // But only up to some length (lookahead) beyond the input context.
+  var prunedContinuations = _.uniq(map(function(utt) {
+    var contextLength = context.split(" ").length
+    var uttSplit = utt.split(" ");
+    var prunedUtt = uttSplit.slice(0, contextLength).join(" ")
+    return prunedUtt
+  }, allContinuations))
+  var trueContinuations = reduce(
+    function (x, acc) {
+      return stringMeanings(x, state, semantics) + acc;
+    },
+    0,
+    prunedContinuations
+  );
+  return safeDivide(trueContinuations, prunedContinuations.length);
+};
+
 //________________________________________________________________________________
 //                                   Regular part:-- defaults to English
 // the normal, utterance-level RSA literal listener
@@ -110,8 +132,7 @@ var globalUtteranceSpeaker = cache(function (state, lang) {
      var utterance = uniformDraw(utterances[lang]);//
      var listener = globalLiteralListener(utterance);
      factor(
-       alpha * (listener.score(state) - stringCost(utterance.split(" ")))
-     );
+       alpha * listener.score(state) - stringCost(utterance.split(" ")));
      return utterance;
    },
  });
@@ -140,10 +161,44 @@ var incrementalLiteralListener = function (string, lang) {
  });
 };
 
+var incrementalLiteralListenerGreedy = function (string, lang) {
+ return Infer({
+   model: function () {
+     var state = uniformDraw(states);//picks random state
+     //bc this takes in full utterances? it will just give 0 or 1 bc no continuations?
+     var meaning = Math.log(stringSemanticsGreedy(string, state, lang));
+     factor(meaning);
+     return state;
+   },
+ });
+};
+
 // S1^{WORD} from Cohn Gordon et al. (2019): defined according to equation (5) of that paper
 
 //returns the probability of a word given a context and the target state
 var wordSpeaker = function (context, state, lang) {
+ return Infer({
+   model: function () {
+     var word = wordPrior();// selects a random word
+     var newContext = context.concat([word]);//adds to context
+     // grammar constraint: linear order must be allowed in language
+     condition(licitTransitions(lang).includes(newContext.join(" ")));
+     // note: condition basically goes away
+     var result =
+       stringMeanings(context.join(" "), state) == 0 //context is completely false for referent
+         ? 1 //to avoid negatives?
+         : alpha *
+           (incrementalLiteralListener(newContext.join(" "), lang).score(
+             state
+           ) -
+             stringCost(newContext));
+     factor(result);
+     return word;
+   },
+ });
+};
+
+var wordSpeakerGreedy = function (context, state, lang) {
  return Infer({
    model: function () {
      var word = wordPrior();// selects a random word
@@ -187,6 +242,22 @@ var incrementalUtteranceSpeaker = cache(function (utt, state, lang) {
  var probs = map(function (i) {
    var context = string.slice(0, i);
    return Math.exp(wordSpeaker(context, state, lang).score(string[i]));
+ }, indices);//probs= array of probabilities for EVERY? substring
+ return reduce(
+   function (x, acc) {
+     return x * acc;
+   },
+   1,
+   probs //multiplies up the probabilities
+ ).toFixed(3);
+}, 100000);
+
+var incrementalUtteranceSpeakerGreedy = cache(function (utt, state, lang) {
+ var string = utt.split(" ");
+ var indices = _.range(string.length);
+ var probs = map(function (i) {
+   var context = string.slice(0, i);
+   return Math.exp(wordSpeakerGreedy(context, state, lang).score(string[i]));
  }, indices);//probs= array of probabilities for EVERY? substring
  return reduce(
    function (x, acc) {

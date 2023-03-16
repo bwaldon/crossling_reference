@@ -32,9 +32,16 @@ envCode <-read_file("createEnv.txt")
 scenariosToBuild <- read.csv("../series/series2_winter/model_input/w23_scenes.csv")
 scenariosToBuild <- data.frame(scenariosToBuild)
 
+#ADJUST INPUTS HERE:::::: INPUT ANY NUMBER OF CUSTOM VALUES FOR EACH VALUE
 NounList <- "['pin','ball']"
 AdjectivesList <- "['red','blue','small','big']"
 SizeList <- "['small','big']"
+adj_cost <- c(0.1)
+noun_cost <- c(0)
+alpha <- c(7,30)
+size_noise <- c(0.8,1)
+color_noise <- c(0.95,1)
+noun_noise <- c(0.99,0.9,1)
 
 #Building up unique language and type conditions
 Language <- c(0,2)
@@ -43,19 +50,13 @@ scenariosToBuild <- scenariosToBuild %>% group_by(Objects) %>% expand(Language, 
 scenariosToBuild <- scenariosToBuild %>% group_by(Objects) %>% expand(Language, Name, global_inc)
 
 #Do the same with the desired alpha, cost and semantic values
-adj_cost <- c(0)
-noun_cost <- c(0)
-alpha <- c(7,20)
-size_noise <- c(0.8,1)
-color_noise <- c(0.95,1)
-noun_noise <- c(0.99,0.9,1)
 scenariosToBuild <- scenariosToBuild %>% group_by(Objects) %>% expand(Language, Name, global_inc,
                                                                     adj_cost,noun_cost,alpha, size_noise,
                                                                     color_noise, noun_noise)
 #fill in trivial data for model, reorganize table for viewing
 scenariosToBuild$Nouns <- NounList
 scenariosToBuild$Adjectives <- AdjectivesList
-scenariosToBuild$Size_adjectives <- AdjectivesList
+scenariosToBuild$Size_adjectives <- SizeList
 col_order <- c("Name", "Objects", "Nouns",
                "Adjectives", "Size_adjectives","adj_cost","noun_cost","size_noise","color_noise","noun_noise","alpha","global_inc","Language")
 scenarios <- scenariosToBuild[, col_order]
@@ -63,7 +64,7 @@ scenarios <- scenariosToBuild[, col_order]
 
 #scenariosToRun <- read.csv("../series/series1/model_input/exp_tester_a_b.csv", as.is = TRUE)
 
-scenariosToRun <- unique(scenariosToRun)
+#scenariosToRun <- unique(scenariosToRun)
 
 #translates environment to readable webppl code, lots of building lists and adding brackets
 toParse <- function(all) { 
@@ -94,6 +95,19 @@ toParse <- function(all) {
   return(newEnv)
 }
 
+testModelWrapper <- function(ref, nouns, adj, sizeAdj, sizeNoise, colorNoise, 
+                             nounNoise, adjCost, nounCost, alpha, modelType, lang){
+  all <- createEnv(envCode, ref, nouns, adj, sizeAdj, sizeNoise, colorNoise, nounNoise)
+  newEnv <- toParse(all)
+  return(test_model('V8', angEngine, newEnv, adjCost, nounCost, alpha, modelType, lang, adj, nouns))
+}
+testModelRun <- function(row){
+  row <- as.data.frame(t(row))
+  return(testModelWrapper(row$Objects, row$Nouns, row$Adjectives, 
+                          row$Size_adjectives, row$size_noise,row$color_noise, row$noun_noise, 
+                          row$adj_cost, row$noun_cost, row$alpha, row$global_inc, row$Language))
+}
+
 #Two wrapper functions that allow us to run the model given a row of the csv file
 runModelWrapper2 <-function(ref, nouns, adj, sizeAdj, sizeNoise, colorNoise, 
                             nounNoise, adjCost, nounCost, alpha, modelType, lang){
@@ -112,18 +126,39 @@ runBig <- function(row) {
 # Turn the contents of the csv file into a data frame
 scenarios <- data.frame(scenarios)
 
+#Cleaning up data to avoid unnecessary rows
+
 #paring down scenarios: global only needs to be run once
 scenarios_pared <- scenarios %>% filter(global_inc == "inc" | (global_inc == "global" & Language == 0))
-scenarios_pared <- scenarios %>% filter((size_noise != "1" & color_noise != "1" & noun_noise != "1") | (color_noise == "1" & noun_noise == "1" & size_noise == "1"))
-#alpha of 7 for all incremental, alpha of 20 for global
+#discrete gets discrete and continuous gets continuous
+#scenarios_pared <- scenarios_pared %>% filter(|(color_noise == "1" & noun_noise == "1" & size_noise == "1"))
+#alpha of 7 for all incremental, alpha of 20 or 30 for global
 scenarios_pared <- scenarios_pared %>%
-  filter((global_inc == "global" & alpha == 20) | (global_inc == "inc" & alpha == 7))
+  filter((global_inc == "global" & alpha == 30) | (global_inc == "inc" & alpha == 7))
+
+#testing just English 3 pin scenario
+scenariotest <- scenarios_pared %>% filter(Language == 0 & grepl("three", Name) & ((size_noise== 1 & color_noise == 1) | (size_noise!= 1 & color_noise != 1))
+                                          &  (noun_noise == "1"))
+
+#testing different parts of the model for global only
+#scenariotest <- scenariotest %>% filter(global_inc == "global")
+scenariotest <- scenariotest %>%
+  mutate(listener = apply(scenariotest, 1, testModelRun))
+
+
+scenariotest <- scenariotest %>%
+  mutate(output = apply(scenariotest, 1, runBig))
+write.csv(scenariotest,"../series/series2_winter/model_output/w23_three_pin_test.csv")
+
+
 
 # Run the model on all rows, each representing a single scenario with a specific set
 # of parameters to be ran.
+scenarios_pared <- scenarios_pared %>% filter((size_noise != "1" & color_noise != "1" & noun_noise != "1") | 
+  (size_noise == color_noise & color_noise == noun_noise))
 scenarios_pared <- scenarios_pared %>%
   mutate(output = apply(scenarios_pared, 1, runBig))
-
+write.csv(scenarios_pared,"../series/series2_winter/model_output/w23_scenes_out.csv")
 #If running in Vietnamese:
 #fixing Vietnamese data --> janky but the only thing I could think of
 add_dec <- function(decimalRow){
