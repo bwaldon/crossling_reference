@@ -90,3 +90,4 @@ collapse_dataset <- function(d_uncollapsed) {
     mutate(color = color / total, size = size / total, size_color = size_color / total) %>%
     select(condition, size_color, size, color)
 }
+

@@ -45,7 +45,7 @@ getStates = function(condName) {
 
 # MAKE THE UTTERANCES FOR EACH CONDITION (FROM THE STATE TYPES, WHICH HAVE NAME FORM COLOR_SIZE)
 
-#no noun omission, only works for French
+#no noun omission
 getUtterances = function(states, language) {
   
   utterances = c()
@@ -103,6 +103,7 @@ makeStatesUtterances = function(d_uncollapsed, language) {
 }
 
 collapse_dataset <- function(d_uncollapsed) {
+  resp <- d_uncollapsed$response
   d_uncollapsed %>% 
     group_by(condition, response) %>%
     summarise(n = n()) %>%
@@ -110,6 +111,6 @@ collapse_dataset <- function(d_uncollapsed) {
     replace(is.na(.), 0) %>%
     mutate(total = color + size + size_color) %>%
     mutate(color = color / total, size = size / total, size_color = size_color / total) %>%
-    select(condition, size_color, size, color,response)
+    select(condition, size_color, size, color) 
 }
 

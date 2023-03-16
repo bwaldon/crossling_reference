@@ -5,14 +5,14 @@ var posteriors = Infer({model: function(){
     sizeNoiseVal: 1,
     typeNoiseVal: 1,
     sizeCost: uniformDrift({a: 0, b: 2, w: .5/20}),
-    nounCost: 0,
+    nounCost: uniformDrift({a: 0, b: 2, w: .5/20}),
     colorCost: uniformDrift({a: 0, b: 2, w: .5/20})
   }
 
   mapData({data: df}, function(d){
     var m = extend(model(p), {states : d.states, utterances : d.utterances})
     var altUtilities = _.sum(_.map(function(u) { Math.log(incrementalUtteranceSpeaker(u,"TARGET_REFERENT",m,p,semantics(p))) }, d.utterances))
-    var responseUtility = Math.log(incrementalUtteranceSpeaker("START sameSize sameType sameColor STOP","TARGET_REFERENT",m,p,semantics(p)))
+    var responseUtility = Math.log(incrementalUtteranceSpeaker(d.response,"TARGET_REFERENT",m,p,semantics(p)))
     var score = responseUtility - altUtilities
     factor(score)
   })

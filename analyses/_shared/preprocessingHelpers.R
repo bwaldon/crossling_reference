@@ -70,8 +70,10 @@ transformDataDegen2020Raw <- function(d) {
   # and return the item that the listener selected
   directorFirstMessage <- c()
   directorAllMessages <- c()
+  directorSecondMessage <- c()
   guesserAllMessages <- c()
   nameClickedObj <- c()
+  selectedSize <- c()
   d <- d %>%
     filter(!(chat == "NULL"))
   for(i in seq(nrow(d))) {
@@ -98,10 +100,11 @@ transformDataDegen2020Raw <- function(d) {
     
     if(nrow(directorChat) == 1) {
       directorFirstMessage[i] <- directorAllMessages[i]
+      directorSecondMessage[i] <- "NA"
     } else {
       directorFirstMessage[i] <- strsplit(directorAllMessages[i], split = "__", fixed = TRUE)[[1]][1]
+      directorSecondMessage[i] <- strsplit(directorAllMessages[i], split = "__", fixed = TRUE)[[1]][2]
     }
-    
     # Return the item that the listener selected
     
     sel <- d[i,]$listenerSelection
@@ -109,14 +112,17 @@ transformDataDegen2020Raw <- function(d) {
     
     if(is.na(sel) || sel == "NONE") {
       nameClickedObj[i] <- sel 
+      selectedSize[i] <- sel
     } else {
       nameClickedObj[i] <- (images %>% filter(id == sel))$name
+      selectedSize[i] <- (images %>% filter(id == sel))$size
     }
-    
+    nameClickedObj[i] <- paste(selectedSize[i], nameClickedObj[i], sep="_")
   }
+  
   rm(chat_temp, guesserChat, directorChat, i, sel, images)
-  d <- cbind(d, directorAllMessages, directorFirstMessage, guesserAllMessages, nameClickedObj)
-  rm(directorAllMessages, directorFirstMessage, guesserAllMessages, nameClickedObj)
+  d <- cbind(d, directorAllMessages, directorFirstMessage, directorSecondMessage, guesserAllMessages, nameClickedObj)
+  rm(directorAllMessages, directorFirstMessage, directorSecondMessage, guesserAllMessages, nameClickedObj)
   d <- d %>%
     mutate(correct = ifelse(d$target$id == listenerSelection, 1, 0))
   return(d)
@@ -192,29 +198,39 @@ automaticAnnotate <- function(d, colorTerms, sizeTerms, nouns, bleachedNouns, ar
   articlesList <- strsplit(articles, "|",fixed = TRUE)[[1]]
   
   d <- d %>%
-    mutate(words = strsplit(directorFirstMessage, " ",fixed = TRUE)) %>%
+    mutate(words = strsplit(directorFirstMessage, " |\\'")) %>%
+    mutate(words = map(words, function(word) {
+      str_remove(word, "[.!?]")
+      })) %>%
     mutate(words = paste(map(words, function(word) {
+     word <- tolower(word)
+     ifelse(word %in% colorList,"C",ifelse(word %in% sizeList,"S",ifelse(word %in% nounList,"N",ifelse(word %in% bleachedList,"B",ifelse(word %in% articlesList,"A","")))))
+    })), sep = "")
+  d <- d %>%
+    mutate(words2 = strsplit(directorSecondMessage, " |\\'")) %>%
+    mutate(words2 = map(words2, function(word) {
+      str_remove(word, "[.!?]")
+    })) %>%
+    mutate(words2 = paste(map(words2, function(word) {
       word <- tolower(word)
       ifelse(word %in% colorList,"C",ifelse(word %in% sizeList,"S",ifelse(word %in% nounList,"N",ifelse(word %in% bleachedList,"B",ifelse(word %in% articlesList,"A","")))))
     })), sep = "")
-  
+   
   # LEGACY COLUMNS
   
   # Was a color mentioned?
-  d$colorMentioned = ifelse(grepl(colorTerms, d$directorFirstMessage, ignore.case = TRUE), T, F)
-  
+    d$colorMentioned = ifelse(grepl(colorTerms, ifelse(d$TakeFirst,d$directorFirstMessage,d$directorSecondMessage), ignore.case = TRUE), T, F)
+
   # Was a size mentioned?
-  d$sizeMentioned = ifelse(grepl(sizeTerms, d$directorFirstMessage, ignore.case = TRUE), T, F)
-  
+    d$sizeMentioned = ifelse(grepl(sizeTerms, ifelse(d$TakeFirst,d$directorFirstMessage,d$directorSecondMessage), ignore.case = TRUE), T, F)
   # Was the object's type (noun) mentioned?
-  d$typeMentioned = ifelse(grepl(nouns, d$directorFirstMessage, ignore.case = TRUE), T, F)
-  
+    d$typeMentioned = ifelse(grepl(nouns, ifelse(d$TakeFirst,d$directorFirstMessage,d$directorSecondMessage), ignore.case = TRUE), T, F)
+
   # Was a bleached noun used?
-  d$oneMentioned = ifelse(grepl(bleachedNouns, d$directorFirstMessage, ignore.case = TRUE), T, F)
-  
+    d$oneMentioned = ifelse(grepl(bleachedNouns, ifelse(d$TakeFirst,d$directorFirstMessage,d$directorSecondMessage), ignore.case = TRUE), F, F)
+
   # Was an article used?
-  d$theMentioned = ifelse(grepl(articles, d$directorFirstMessage, ignore.case = TRUE), T, F)
-  
+    d$theMentioned = ifelse(grepl(articles, ifelse(d$TakeFirst,d$directorFirstMessage,d$directorSecondMessage), ignore.case = TRUE), T, F)
   return(d)
 }
 

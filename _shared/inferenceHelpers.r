@@ -7,7 +7,7 @@ makeModel <- function(header) {
 wrapInference <- function(model, target, inferenceType, samples, lag, burn) {
   
   if(inferenceType == "incrementalContinuous") {
-    inferenceCommand <- read_file("../../../../../_shared/inferenceCommands/main/v2/incrementalContinuous.txt")
+    inferenceCommand <- read_file("../../../../_shared/inferenceCommands/main/v2/incrementalContinuous.txt")
     
   } else if(inferenceType == "incremental") {
     inferenceCommand <- read_file("../../../../_shared/inferenceCommands/main/v2/incremental.txt")
@@ -61,11 +61,11 @@ wrapPrediction = function(model, estimates, overmodifyingUtterance, targetRefere
   
   if(inferenceType == "incrementalContinuous" | inferenceType == "incremental" ) {
     
-    predictionCommand <- read_file("../_shared/inferenceCommands/main/getIncrementalPredictions.txt")
+    predictionCommand <- read_file("../../../../_shared/inferenceCommands/main/getIncrementalPredictions.txt")
     
   } else if (inferenceType == "continuous" | inferenceType == "vanilla" ) {
     
-    predictionCommand <- read_file("../_shared/inferenceCommands/main/getGlobalPredictions.txt")
+    predictionCommand <- read_file("../../../../_shared/inferenceCommands/main/getGlobalPredictions.txt")
     
   }
   

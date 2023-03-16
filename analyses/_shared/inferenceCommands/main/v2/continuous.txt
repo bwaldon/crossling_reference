@@ -5,7 +5,7 @@ var posteriors = Infer({model: function(){
     sizeNoiseVal: uniformDrift({a: 0.5, b: 1, w: .5/20}),
     typeNoiseVal: uniformDrift({a: 0.5, b: 1, w: .5/20}),
     sizeCost: uniformDrift({a: 0, b: 2, w: .5/20}),
-    nounCost: 0,
+    nounCost: uniformDrift({a: 0, b: 2, w: .5/20}),
     colorCost: uniformDrift({a: 0, b: 2, w: .5/20})
   }
 
@@ -14,7 +14,7 @@ var posteriors = Infer({model: function(){
     var m = extend(model(p), {states : d.states, utterances : d.utterances})
     var speakerDist = globalUtteranceSpeaker("TARGET_REFERENT",m,p,semantics(p))
     var altUtilities = _.sum(_.map(function(u) { speakerDist.score(u) }, d.utterances))
-    var responseUtility = speakerDist.score("START sameSize sameType sameColor STOP")
+    var responseUtility = speakerDist.score(d.response)
     var score = responseUtility - altUtilities
     factor(score)
 
