@@ -45,7 +45,7 @@ noun_noise <- c(0.99,0.9,1)
 
 #Building up unique language and type conditions
 Language <- c(0,2)
-global_inc <- c("global","inc")
+global_inc <- c("global","inc","greedy")
 scenariosToBuild <- scenariosToBuild %>% group_by(Objects) %>% expand(Language, Name)
 scenariosToBuild <- scenariosToBuild %>% group_by(Objects) %>% expand(Language, Name, global_inc)
 
@@ -126,6 +126,7 @@ runBig <- function(row) {
 # Turn the contents of the csv file into a data frame
 scenarios <- data.frame(scenarios)
 
+scenarios_greedy <- scenarios %>% filter(global_inc == "greedy")
 #Cleaning up data to avoid unnecessary rows
 
 #paring down scenarios: global only needs to be run once
@@ -137,7 +138,10 @@ scenarios_pared <- scenarios_pared %>%
   filter((global_inc == "global" & alpha == 30) | (global_inc == "inc" & alpha == 7))
 
 #testing just English 3 pin scenario
-scenariotest <- scenarios_pared %>% filter(Language == 0 & grepl("three", Name) & ((size_noise== 1 & color_noise == 1) | (size_noise!= 1 & color_noise != 1))
+scenariotestgreedy <- scenarios_greedy %>% filter(grepl("three", Name) & (size_noise!= 1 & color_noise != 1
+                                                  &  noun_noise == 0.90))
+
+scenariotest <- scenarios_pared %>% filter(grepl("three", Name) & ((size_noise== 1 & color_noise == 1) | (size_noise!= 1 & color_noise != 1))
                                           &  (noun_noise == "1"))
 
 #testing different parts of the model for global only
@@ -145,9 +149,18 @@ scenariotest <- scenarios_pared %>% filter(Language == 0 & grepl("three", Name) 
 scenariotest <- scenariotest %>%
   mutate(listener = apply(scenariotest, 1, testModelRun))
 
+scenariotestgreedy <- scenariotestgreedy %>%
+  mutate(listener = apply(scenariotestgreedy, 1, testModelRun))
 
 scenariotest <- scenariotest %>%
   mutate(output = apply(scenariotest, 1, runBig))
+
+scenariotestgreedy <- scenariotestgreedy %>%
+  mutate(output = apply(scenariotestgreedy, 1, runBig))
+
+view(scenariotestgreedy)
+
+write.csv(scenariotestgreedy,"../series/series2_winter/model_output/w23_greedy_test.csv")
 write.csv(scenariotest,"../series/series2_winter/model_output/w23_three_pin_test.csv")
 
 

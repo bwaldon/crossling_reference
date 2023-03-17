@@ -94,7 +94,7 @@ var stringSemantics = function (context, state, lang) {//takes in context + targ
 var stringSemanticsGreedy = function (context, state, lang) {
   var allContinuations = filter(function (x) {
     return x.startsWith(context);
-  }, utterances);
+  }, utterances[lang]);
   // prunedContinuations: the set of all full-utterance continuations,
   // But only up to some length (lookahead) beyond the input context.
   var prunedContinuations = _.uniq(map(function(utt) {
@@ -105,7 +105,7 @@ var stringSemanticsGreedy = function (context, state, lang) {
   }, allContinuations))
   var trueContinuations = reduce(
     function (x, acc) {
-      return stringMeanings(x, state, semantics) + acc;
+      return stringMeanings(x, state) + acc;
     },
     0,
     prunedContinuations
@@ -210,7 +210,7 @@ var wordSpeakerGreedy = function (context, state, lang) {
        stringMeanings(context.join(" "), state) == 0 //context is completely false for referent
          ? 1 //to avoid negatives?
          : alpha *
-           (incrementalLiteralListener(newContext.join(" "), lang).score(
+           (incrementalLiteralListenerGreedy(newContext.join(" "), lang).score(
              state
            ) -
              stringCost(newContext));
