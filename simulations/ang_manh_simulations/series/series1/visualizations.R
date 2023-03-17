@@ -6,6 +6,7 @@ library(gridExtra)
 library(cowplot)
 library(viridis)
 library(jsonlite)
+library(sjmisc)
 
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 
@@ -16,15 +17,25 @@ view(d)
 nrow(d)
 d_global = read_csv("model_output/data_global.csv",skip_empty_rows=TRUE) %>% 
   drop_na() %>% filter(global_inc == "global")
-d_all_new = read_csv("model_output/data_newer.csv")
-d_all_new = d_all_new %>% mutate(LangAbr = case_when (
+d_all_new = read_csv("model_output/exp_final_size.csv")
+d_exp_size = read_csv("model_output/exp_final_size.csv")
+d_exp_color =  read_csv("model_output/trial_manh_1.csv")
+
+addLang = function(df){
+  df = df %>% mutate(LangAbr = case_when (
   Language == "0" ~ "EN",
   Language == "1" ~ "SP",
   Language == "2" ~ "FR",
   Language == "3" ~ "VN",
 ))
+  return(df)
+}
+d_exp_size = addLang(d_exp_size)
+d_exp_color = addLang(d_exp_color)
 
 dodge = position_dodge(.9)
+
+d_exp_all = rbind(d_exp_size,d_exp_color)
 # CONTEXT 1A AND 1B
 # 3 pins varying in color and size, noun uninformative
 # 1A: "color-redundant"
@@ -107,6 +118,7 @@ d_global_all = d_all_new %>%
 type_order = c("Low variation", "Medium variation", "High variation")
 
 ggplot(d_global_all, aes(x=factor(ContextType,level = type_order),y=output)) +
+  set_theme(base=theme_bw())
   geom_bar(stat="identity",position=dodge) +
   scale_fill_manual(values =c("#4287f5AA")) +
   facet_wrap(~sceneName, nrow = 1) +
@@ -119,8 +131,8 @@ d_inc_all = d_all_new %>%
   filter(global_inc=="inc") %>%
   mutate(ContextType = case_when(  
    grepl("low",Name) ~ "Low variation",
-   grepl("medium",Name) ~ "Medium variation",
-   grepl("high",Name) ~ "High variation",
+   grepl("",Name) ~ "Medium variation",
+   grepl("high",Name) ~ "",
     TRUE ~ "other")) %>%
   mutate(sceneName = case_when(  
     grepl("3",Name) ~ "Scene 3",
@@ -135,6 +147,55 @@ ggplot(d_inc_all, aes(x=LangAbr,y=output, fill = factor(ContextType,level = type
   theme(legend.position="bottom")
 
 ggsave(file="test_graph_3_4_inc.pdf",width=7,height=5)
+
+#True experiment section
+d_exp_all = d_exp_all %>%
+  filter(global_inc=="inc") %>%
+  filter(LangAbr != "VN" & LangAbr != "SP") %>%
+  mutate(ContextType = case_when(  
+    grepl("low",Name) ~ "Base scene",
+    grepl("3b",Name) ~ "same/same",
+    grepl("4b",Name) ~ "diff/same",
+    grepl("3a",Name) ~ "same/diff",
+    grepl("4a",Name) ~ "diff/diff",
+    grepl("high",Name) ~ "",
+    TRUE ~ "other")) %>%
+  mutate(Redundant_Property = case_when(  
+      grepl("color",Name) ~ "Color",
+      grepl("size",Name) ~ "Size",
+      TRUE ~ "other"))
+ggplot(d_exp_all, aes(x=ContextType,y=output, fill = Redundant_Property)) +
+  theme_bw() +
+  geom_bar(stat="identity",position=dodge) +
+  scale_fill_manual(values =c("#E69F00", "#56B4E9","red")) +
+  facet_wrap(~LangAbr, nrow = 2) +
+  ylim(0,1) +
+  labs(y = "Probability of redundant referring expression", fill = "Redundant Property", x = "Context Type (noun/redundant property)") +
+  theme(legend.position="bottom")
+#global model
+d_exp_all = d_exp_all %>%
+  filter(global_inc=="global") %>%
+  mutate(ContextType = case_when(  
+    grepl("low",Name) ~ "Base scene",
+    grepl("3b",Name) ~ "same/same",
+    grepl("4b",Name) ~ "diff/same",
+    grepl("3a",Name) ~ "same/diff",
+    grepl("4a",Name) ~ "diff/diff",
+    grepl("high",Name) ~ "",
+    TRUE ~ "other")) %>%
+  mutate(Redundant_Property = case_when(  
+    grepl("color",Name) ~ "Color",
+    grepl("size",Name) ~ "Size",
+    TRUE ~ "other"))
+ggplot(d_exp_all, aes(x=ContextType,y=output, fill = Redundant_Property)) +
+  theme_bw() +
+  geom_bar(stat="identity",position=dodge) +
+  scale_fill_manual(values =c("#E69F00", "#56B4E9","red")) +
+  #facet_wrap(~LangAbr, nrow = 2) +
+  ylim(0,1) +
+  labs(y = "Probability of redundant referring expression", fill = "Redundant Property", x = "Context Type (noun/redundant property)") +
+  theme(legend.position="bottom")
+
 
 ggplot(d_no_cost, aes(x=Language,y=output,fill=Grouping)) +
   geom_bar(stat="identity",position=dodge) +
