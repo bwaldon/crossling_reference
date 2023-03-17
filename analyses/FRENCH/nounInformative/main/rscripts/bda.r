@@ -13,16 +13,26 @@ source("../../../../_shared/BDA_vizhelpers.R")
 
 d_uncollapsed_fr <- read_csv("../../../../../data/FRENCH/nounInformative/main/bda_data.csv") %>%
   rename(response = redBDAUtterance) %>% filter(!grepl("filler",condition))
-#d_uncollapsed_eng <- read_csv("../../../../../data/ENGLISH2022_summer/nounInformative/main/bda_data.csv")
+d_uncollapsed_eng <- read_csv("../../../../../data/ENGLISH2022_summer/nounInformative/main/bda_data.csv") %>%
+  rename(response = redBDAUtterance) %>% filter(!grepl("filler",condition))
 
 
-editResponse = function(df) {
+editResponse = function(df,lang) {
+  if (lang == "french"){
   df <- df %>% mutate(newResponse = case_when(
     response == "size_color" ~ "START sameSize sameType sameColor STOP",
    response == "size" ~ "START sameSize sameType STOP",
   response == "color" ~ "START sameType sameColor STOP",
   TRUE ~ "OTHER"
-  )) %>%
+  )) }
+  if (lang == "english"){
+    df <- df %>% mutate(newResponse = case_when(
+      response == "size_color" ~ "START sameSize sameColor sameType STOP",
+      response == "size" ~ "START sameSize sameType STOP",
+      response == "color" ~ "START sameColor sameType STOP",
+      TRUE ~ "OTHER"
+    )) }
+  df <- df %>%
     rename(oldResponse = response)  %>%
     rename(response = newResponse)
   return(df)
@@ -32,20 +42,25 @@ editResponse = function(df) {
 
 #for the current version, noun omission is not included as a possible utterance for French
 statesUtterances_fr <- makeStatesUtterances(d_uncollapsed_fr, "french")
-#statesUtterances_eng <- makeStatesUtterances(d_uncollapsed_eng, "english")
+statesUtterances_eng <- makeStatesUtterances(d_uncollapsed_eng, "english")
 
 
 # 'COLLAPSE' THE DATASET (GET PROPORTIONS OF COLOR, SIZE, COLORSIZE MENTION BY CONDITION)
 
 d_fr <- collapse_dataset(d_uncollapsed_fr)
-#d_eng <-collapse_dataset(d_uncollapsed_eng)
+d_eng <-collapse_dataset(d_uncollapsed_eng)
 #what would combined dataset look like?
 
 # 'df' IS INPUT TO THE BDA:
 
 fr_input <- merge(d_uncollapsed_fr, statesUtterances_fr, by = "condition")
+eng_input <- merge(d_uncollapsed_eng, statesUtterances_eng, by = "condition")
 
-fr_input <- editResponse(fr_input)
+
+fr_input <- editResponse(fr_input,"french")
+eng_input <- editResponse(eng_input, "english")
+
+combined_input <- rbind(fr_input,eng_input)
 #todo: gender marker = different trial types
 #todo: no noun omission
 
@@ -69,13 +84,20 @@ vanillaInferenceScript <- wrapInference(model, "sameColor_sameSize_sameType",
 #so u can see the code ur making and despair
 write.table(vanillaInferenceScript, file = "vanillalook.txt", sep = "")
 
-vanillaPosteriors <- webppl(vanillaInferenceScript, data = fr_input, data_var = "df")
+vanillaPosteriors_fr <- webppl(vanillaInferenceScript, data = fr_input, data_var = "df")
+vanillaPosteriors_eng <- webppl(vanillaInferenceScript, data = eng_input, data_var = "df")
+vanillaPosteriors_both <- webppl(vanillaInferenceScript, data = combined_input, data_var = "df")
 
-view(vanillaPosteriors)
+#view(vanillaPosteriors)
 
-graphPosteriors(vanillaPosteriors) + ggtitle("Vanilla posteriors")
+graphPosteriors(vanillaPosteriors_fr) + ggtitle("Vanilla posteriors")
+ggsave("../graphs/bda_results/vanillaPosteriors_fr.png")
 
-ggsave("../graphs/bda_results/vanillaPosteriors.png")
+graphPosteriors(vanillaPosteriors_eng) + ggtitle("Vanilla posteriors")
+ggsave("../graphs/bda_results/vanillaPosteriors_eng.png")
+
+graphPosteriors(vanillaPosteriors_both) + ggtitle("Vanilla posteriors")
+ggsave("../graphs/bda_results/vanillaPosteriors_both.png")
 
 # PREDICTIVES
 
@@ -104,11 +126,21 @@ ggsave("results/vanillaPredictives.png", width = 4, height = 3, units = "in")
 continuousInferenceScript <- wrapInference(model, "sameColor_sameSize_sameType", 
                                                                      "continuous", 2500, 0,0)
 
-continuousPosteriors <- webppl(continuousInferenceScript, data = fr_input, data_var = "df")
+continuousPosteriors_fr <- webppl(continuousInferenceScript, data = fr_input, data_var = "df")
+continuousPosteriors_eng <- webppl(continuousInferenceScript, data = eng_input, data_var = "df")
+continuousPosteriors_both <- webppl(continuousInferenceScript, data = combined_input, data_var = "df")
 
-graphPosteriors(continuousPosteriors) + ggtitle("Continuous posteriors")
+graphPosteriors(continuousPosteriors_fr) + ggtitle("Continuous posteriors")
+ggsave("../graphs/bda_results/continuousPosteriors_fr.png")
+#0.366
 
-ggsave("../graphs/bda_results/continuousPosteriors.png")
+graphPosteriors(continuousPosteriors_eng) + ggtitle("Continuous posteriors")
+ggsave("../graphs/bda_results/continuousPosteriors_eng.png")
+#0.34
+
+graphPosteriors(continuousPosteriors_both) + ggtitle("Continuous posteriors")
+ggsave("../graphs/bda_results/continuousPosteriors_both.png")
+#0.345
 
 # PREDICTIVES
 
@@ -131,13 +163,22 @@ ggsave("results/continuousPredictives.png", width = 4, height = 3, units = "in")
 
 incrementalInferenceScript <- wrapInference(model, "sameColor_sameSize_sameType", 
                                                                          "incremental", 2500, 0,0)
-incrementalPosteriors <- webppl(incrementalInferenceScript, data = fr_input, data_var = "df")
+
+incrementalPosteriors_fr <- webppl(incrementalInferenceScript, data = fr_input, data_var = "df")
+incrementalPosteriors_eng <- webppl(incrementalInferenceScript, data = eng_input, data_var = "df")
+incrementalPosteriors_both <- webppl(incrementalInferenceScript, data = combined_input, data_var = "df")
 
 
+graphPosteriors(incrementalPosteriors_fr) + ggtitle("Incremental posteriors")
+ggsave("../graphs/bda_results/incrementalPosteriors_fr.png")
+#0.2212
 
-graphPosteriors(incrementalPosteriors) + ggtitle("Incremental posteriors")
-
-ggsave("../graphs/bda_results/incrementalPosteriors.png")
+graphPosteriors(incrementalPosteriors_eng) + ggtitle("Incremental posteriors")
+ggsave("../graphs/bda_results/incrementalPosteriors_eng.png")
+#0.2136
+graphPosteriors(incrementalPosteriors_both) + ggtitle("Incremental posteriors")
+ggsave("../graphs/bda_results/incrementalPosteriors_both.png")
+#0.2704
 
 # PREDICTIVES
 
@@ -166,11 +207,21 @@ incrementalContinuousInferenceScript <- wrapInference(model,
                                                       "sameColor_sameSize_sameType", 
                                                       "incrementalContinuous", 2500, 0, 0)
 
-incrementalContinuousPosteriors <- webppl(incrementalContinuousInferenceScript, data = fr_input, data_var = "df")
+incrementalContinuousPosteriors_fr <- webppl(incrementalContinuousInferenceScript, data = fr_input, data_var = "df")
+incrementalContinuousPosteriors_eng <- webppl(incrementalContinuousInferenceScript, data = eng_input, data_var = "df")
+incrementalContinuousPosteriors_both <- webppl(incrementalContinuousInferenceScript, data = combined_input, data_var = "df")
 
-graphPosteriors(incrementalContinuousPosteriors) + ggtitle("Incremental-continuous posteriors")
+graphPosteriors(incrementalContinuousPosteriors_fr) + ggtitle("Incremental-continuous posteriors")
+ggsave("../graphs/bda_results/incrementalContinuousPosteriors_fr.png")
+#0.3156
 
-ggsave("../graphs/bda_results/incrementalContinuousPosteriors.png")
+graphPosteriors(incrementalContinuousPosteriors_eng) + ggtitle("Incremental-continuous posteriors")
+ggsave("../graphs/bda_results/incrementalContinuousPosteriors_eng.png")
+#0.380
+
+graphPosteriors(incrementalContinuousPosteriors_both) + ggtitle("Incremental-continuous posteriors")
+ggsave("../graphs/bda_results/incrementalContinuousPosteriors_both.png")
+#0.2624
 
 # PREDICTIVES
 
