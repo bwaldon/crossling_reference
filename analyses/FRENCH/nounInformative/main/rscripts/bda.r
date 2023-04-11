@@ -63,6 +63,7 @@ eng_input <- editResponse(eng_input, "english")
 combined_input <- rbind(fr_input,eng_input)
 #todo: gender marker = different trial types
 #todo: no noun omission
+#todo: lag and burn --> max acceptance ratio
 
 # MAKE THE MODEL 
 
@@ -78,6 +79,7 @@ model <- makeModel("modelAndSemantics.txt")
 #test <- webppl(tester,data = df, data_var = "df")
 #view(test)
 
+#todo lag, burn higher
 
 vanillaInferenceScript <- wrapInference(model, "sameColor_sameSize_sameType", 
                                         "vanilla", 2500, 0,0)
@@ -100,13 +102,23 @@ graphPosteriors(vanillaPosteriors_both) + ggtitle("Vanilla posteriors")
 ggsave("../graphs/bda_results/vanillaPosteriors_both.png")
 
 # PREDICTIVES
+#-max posterior --> MLE
+#-->feed in contexts 
 
-vanillaEstimates <- getEstimates(vanillaPosteriors) 
+
+#after: graph vs. empirical
+#-X AND Y : MODEL VS. EMPIRICAL PROB,
+#probability for all utterances, color-code by context
+#calculate cor
+
+vanillaEstimates <- getEstimates(vanillaPosteriors_fr) 
 
 vanillaPredictionScript <- wrapPrediction(model, vanillaEstimates,
                                           "START sameSize sameType sameColor STOP", 
                                           "sameColor_sameSize_sameType",
                                           "vanilla")
+
+
 write.table(vanillaPredictionScript, file = "predlook.txt", sep = "")
 
 vanillaPredictives <- webppl(vanillaPredictionScript, data = fr_input, data_var = "df")

@@ -161,7 +161,7 @@ var posteriors = Infer({model: function(){
     sizeNoiseVal: 1,
     typeNoiseVal: 1,
     sizeCost: uniformDrift({a: 0, b: 2, w: .5/20}),
-    nounCost: 0,
+    nounCost: uniformDrift({a: 0, b: 2, w: .5/20}),
     colorCost: uniformDrift({a: 0, b: 2, w: .5/20})
   }
 
@@ -174,7 +174,7 @@ var posteriors = Infer({model: function(){
     var speakerDist = globalUtteranceSpeaker(\"sameColor_sameSize_sameType\",m,p,semantics(p))
     // and another
     var altUtilities = _.sum(_.map(function(u) { speakerDist.score(u) }, d[\"utterances\"]))
-    var responseUtility = speakerDist.score(\"START sameSize sameType sameColor STOP\")
+    var responseUtility = speakerDist.score(d.response)
     var score = responseUtility - altUtilities
     factor(score)
 
@@ -182,8 +182,8 @@ var posteriors = Infer({model: function(){
 
   return p
 }, method: \"MCMC\",
-samples: 10,
-lag: 0, burn: 0,
+samples: 2500,
+lag: 10, burn: 12500,
 verbose: true})
 
 posteriors"
