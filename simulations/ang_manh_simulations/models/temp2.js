@@ -1,10 +1,10 @@
-var referents = ['small blue pin', 'big blue ball', 'small red pin', 'big red pin','small red ball', 'small red ball']
+var referents = ['small blue pin','small red pin','big red pin']
     var size_semvalue = 0.8
     var color_semvalue = 0.95
-    var noun_semvalue = 0.99
-    var noun = ['ball','pin']
-    var adj = ['small','big','red','blue']
-    var sizeAdj = ['small', 'big']
+    var noun_semvalue = 0.9
+    var noun = ['pin','ball']
+    var adj = ['red','blue','small','big']
+    var sizeAdj = ['small','big']
 var ENGLISH = 0
 var SPANISH = 1
 var FRENCH = 2

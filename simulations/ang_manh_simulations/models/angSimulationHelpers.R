@@ -45,13 +45,21 @@ runModel_2 <- function(backend, engine, environment,adjCost, nounCost, alpha, mo
         sprintf("globalUtteranceSpeakerWrapper(\"START pin blue and small STOP\", \"R1\", %s) + 
                       globalUtteranceSpeakerWrapper(\"START pin small and blue STOP\", \"R1\", %s)", lang, lang)
   }
-  else if (modelType == "greedy"){ #global is the same for all languages, so if statements aren't necessary
+  else if (modelType == "inc_greedy"){ 
     if (lang == 0) postamble <- sprintf("incrementalUtteranceSpeakerGreedy(\"START small blue pin STOP\", \"R1\", %s)", lang)
     else if (lang == 1) postamble <- sprintf("incrementalUtteranceSpeakerGreedy(\"START pin blue small STOP\", \"R1\", %s)", lang)
     else if (lang == 2) postamble <- sprintf("incrementalUtteranceSpeakerGreedy(\"START small pin blue STOP\", \"R1\", %s)", lang)
     else if (lang == 3) postamble <- 
         sprintf("incrementalUtteranceSpeakerGreedy(\"START pin blue and small STOP\", \"R1\", %s) + 
                       incrementalUtteranceSpeakerGreedy(\"START pin small and blue STOP\", \"R1\", %s)", lang, lang)
+  }
+  else if (modelType == "inc_cost"){
+    if (lang == 0) postamble <- sprintf("incrementalUtteranceSpeakerCost(\"START small blue pin STOP\", \"R1\", %s)", lang)
+    else if (lang == 1) postamble <- sprintf("incrementalUtteranceSpeakerCost(\"START pin blue small STOP\", \"R1\", %s)", lang)
+    else if (lang == 2) postamble <- sprintf("incrementalUtteranceSpeakerCost(\"START small pin blue STOP\", \"R1\", %s)", lang)
+    else if (lang == 3) postamble <- 
+        sprintf("incrementalUtteranceSpeakerCost(\"START pin blue and small STOP\", \"R1\", %s) + 
+                      incrementalUtteranceSpeakerCost(\"START pin small and blue STOP\", \"R1\", %s)", lang, lang)
   }
   code <- paste(preamble, engine, postamble, sep = '\n')
   write_file(code, 'temp3.js')

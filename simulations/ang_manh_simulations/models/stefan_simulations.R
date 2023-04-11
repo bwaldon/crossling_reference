@@ -18,7 +18,7 @@ source("../../../_shared/V8wppl.R")
 # Load all the functions found in stefanSimulationHelpers.R
 #   This contains the runModel function that interacts with the V8 engine
 #   and runs the code in Webppl online
-source("stefanSimulationHelpers.R")
+source("angSimulationHelpers.R")
 
 # Source the engine
 # Engine = basic RSA model in webppl code (all the speaker and listener functions)
@@ -28,10 +28,41 @@ envCode <-read_file("createEnv.txt")
 # load in csv file with that builds the environment and the context, including the states
 #semantics array, words and utterance lists
 
-#Taking in input csv files
-scenariosToRun <- read.csv("../series/series1/model_input/exp_tester_a_b.csv", as.is = TRUE)
-# Due to a bug in the python script, we have duplicates of boolean semantic rows
-# therefore we only want to get the unique rows
+#Taking in input csv file -- only consists of names of scenes and object lists
+scenariosToBuild <- read.csv("../series/series2_winter/model_input/w23_scenes.csv")
+scenariosToBuild <- data.frame(scenariosToBuild)
+
+NounList <- "['pin','ball']"
+AdjectivesList <- "['red','blue','small','big']"
+SizeList <- "['small','big']"
+
+#Building up unique language and type conditions
+Language <- c(0,2)
+global_inc <- c("global","inc")
+scenariosToBuild <- scenariosToBuild %>% group_by(Objects) %>% expand(Language, Name)
+scenariosToBuild <- scenariosToBuild %>% group_by(Objects) %>% expand(Language, Name, global_inc)
+
+#Do the same with the desired alpha, cost and semantic values
+adj_cost <- c(0)
+noun_cost <- c(0)
+alpha <- c(7,20)
+size_noise <- c(0.8,1)
+color_noise <- c(0.95,1)
+noun_noise <- c(0.99,0.9,1)
+scenariosToBuild <- scenariosToBuild %>% group_by(Objects) %>% expand(Language, Name, global_inc,
+                                                                    adj_cost,noun_cost,alpha, size_noise,
+                                                                    color_noise, noun_noise)
+#fill in trivial data for model, reorganize table for viewing
+scenariosToBuild$Nouns <- NounList
+scenariosToBuild$Adjectives <- AdjectivesList
+scenariosToBuild$Size_adjectives <- AdjectivesList
+col_order <- c("Name", "Objects", "Nouns",
+               "Adjectives", "Size_adjectives","adj_cost","noun_cost","size_noise","color_noise","noun_noise","alpha","global_inc","Language")
+scenarios <- scenariosToBuild[, col_order]
+
+
+#scenariosToRun <- read.csv("../series/series1/model_input/exp_tester_a_b.csv", as.is = TRUE)
+
 scenariosToRun <- unique(scenariosToRun)
 
 #translates environment to readable webppl code, lots of building lists and adding brackets
@@ -79,16 +110,21 @@ runBig <- function(row) {
 }
 
 # Turn the contents of the csv file into a data frame
-scenarios <- data.frame(scenariosToRun)
+scenarios <- data.frame(scenarios)
 
 #paring down scenarios: global only needs to be run once
-scenarios_pared <- scenarios %>% filter(global_inc == "inc" | (global_inc == "global" & Language == 1))
+scenarios_pared <- scenarios %>% filter(global_inc == "inc" | (global_inc == "global" & Language == 0))
+scenarios_pared <- scenarios %>% filter((size_noise != "1" & color_noise != "1" & noun_noise != "1") | (color_noise == "1" & noun_noise == "1" & size_noise == "1"))
+#alpha of 7 for all incremental, alpha of 20 for global
+scenarios_pared <- scenarios_pared %>%
+  filter((global_inc == "global" & alpha == 20) | (global_inc == "inc" & alpha == 7))
 
 # Run the model on all rows, each representing a single scenario with a specific set
 # of parameters to be ran.
 scenarios_pared <- scenarios_pared %>%
   mutate(output = apply(scenarios_pared, 1, runBig))
 
+#If running in Vietnamese:
 #fixing Vietnamese data --> janky but the only thing I could think of
 add_dec <- function(decimalRow){
   decimal <- decimalRow[14]
@@ -103,15 +139,22 @@ add_dec <- function(decimalRow){
 scenarios_pared <- scenarios_pared %>% 
   mutate(output = apply(scenarios_pared,1, add_dec))
 
+
 #Final chart
 view(scenarios_pared)
 #outputing to CSV file
-write.csv(scenarios_pared,"../series/series1/model_output/exp_final_size.csv")
+#write.csv(scenarios_pared,"../series/series1/model_output/exp_final_size.csv")
+write.csv(scenarios_pared,"../series/series2_winter/model_output/w23_scenes_out.csv")
 
 
 
 
-#Rest is Stefan's code--->
+
+
+
+
+
+#Rest is Stefan's code. Can ignore but useful for reference--->
 
 # Incremental versus global models return different outputs. Therefore we must split them up and
 #   manipulate them to have them be of the same format

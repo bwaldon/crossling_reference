@@ -160,12 +160,11 @@ var incrementalLiteralListener = function (string, lang, greedy) {
      //bc this takes in full utterances? it will just give 0 or 1 bc no continuations?
      if (greedy){
         var meaning = Math.log(stringSemantics(string, state, lang,0));
-        factor(meaning);
         }
-    else {
+        else {
         var meaning = Math.log(stringSemantics(string, state, lang,20));
-        factor(meaning);
         }
+     factor(meaning);
      return state;
    },
  });
@@ -227,7 +226,7 @@ var wordSpeakerGreedy = function (context, state, lang) {
        stringMeanings(context.join(" "), state) == 0 //context is completely false for referent
          ? 1 //to avoid negatives?
          : alpha *
-           (incrementalLiteralListener(newContext.join(" "), lang, true).score(
+           (incrementalLiteralListenerGreedy(newContext.join(" "), lang, true).score(
              state) -
              stringCost(newContext));
      factor(result);
@@ -248,8 +247,10 @@ var pragmaticWordListener = function (word, context, lang) {
    },
  });
 };
+
 // S1^{UTT-IP} from Cohn Gordon et al. (2019): defined according to equation (7) of that paper
-// returns probability of an utterance given the target state
+
+//returns probability of an utterance given the target state
 var incrementalUtteranceSpeakerSplit = cache(function (utt, state, lang, wordFunc) {
  var string = utt.split(" ");
  var indices = _.range(string.length);
@@ -266,15 +267,14 @@ var incrementalUtteranceSpeakerSplit = cache(function (utt, state, lang, wordFun
  ).toFixed(3);
 }, 100000);
 
-var incrementalUtteranceSpeaker = function (utt, state, lang) {
+var incrementalUtteranceSpeaker = cache(function (utt, state, lang) {
   incrementalUtteranceSpeakerSplit(utt,state,lang,wordSpeaker)
   }
-
-var incrementalUtteranceSpeakerGreedy = function (utt, state, lang) {
+var incrementalUtteranceSpeakerGreedy = cache(function (utt, state, lang) {
   incrementalUtteranceSpeakerSplit(utt,state,lang,wordSpeakerGreedy)
   }
 
-var incrementalUtteranceSpeakerCost = function (utt, state, lang) {
+var incrementalUtteranceSpeakerCost = cache(function (utt, state, lang) {
   incrementalUtteranceSpeakerSplit(utt,state,lang,wordSpeakerCost)
   }
 

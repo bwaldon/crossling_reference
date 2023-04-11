@@ -45,7 +45,7 @@ noun_noise <- c(0.99,0.9,1)
 
 #Building up unique language and type conditions
 Language <- c(0,2)
-global_inc <- c("global","inc","greedy")
+global_inc <- c("global","inc","inc_greedy","inc_cost")
 scenariosToBuild <- scenariosToBuild %>% group_by(Objects) %>% expand(Language, Name)
 scenariosToBuild <- scenariosToBuild %>% group_by(Objects) %>% expand(Language, Name, global_inc)
 
@@ -126,7 +126,12 @@ runBig <- function(row) {
 # Turn the contents of the csv file into a data frame
 scenarios <- data.frame(scenarios)
 
-scenarios_greedy <- scenarios %>% filter(global_inc == "greedy")
+scenarios_greedy <- scenarios %>% filter(global_inc == "inc_greedy")
+scenarios_incCost <- scenarios %>% filter(global_inc =="inc_cost")
+scenarios_incTest <- scenarios %>% filter(global_inc =="inc") %>% filter(grepl("three", Name) & 
+                                                                           (size_noise!= 1 & color_noise != 1
+                                                                                                 &  noun_noise == 0.90))
+
 #Cleaning up data to avoid unnecessary rows
 
 #paring down scenarios: global only needs to be run once
@@ -140,6 +145,9 @@ scenarios_pared <- scenarios_pared %>%
 #testing just English 3 pin scenario
 scenariotestgreedy <- scenarios_greedy %>% filter(grepl("three", Name) & (size_noise!= 1 & color_noise != 1
                                                   &  noun_noise == 0.90))
+
+scenariotestincCost <- scenarios_incCost %>% filter(grepl("three", Name) & (size_noise!= 1 & color_noise != 1
+                                                                          &  noun_noise == 0.90))
 
 scenariotest <- scenarios_pared %>% filter(grepl("three", Name) & ((size_noise== 1 & color_noise == 1) | (size_noise!= 1 & color_noise != 1))
                                           &  (noun_noise == "1"))
@@ -158,7 +166,15 @@ scenariotest <- scenariotest %>%
 scenariotestgreedy <- scenariotestgreedy %>%
   mutate(output = apply(scenariotestgreedy, 1, runBig))
 
+scenariotestincCost <- scenariotestincCost %>%
+  mutate(output = apply(scenariotestincCost, 1, runBig))
+
+scenarios_incTest <- scenarios_incTest %>%
+  mutate(output = apply(scenarios_incTest, 1, runBig))
+
+view(scenariotestincCost)
 view(scenariotestgreedy)
+view(scenarios_incTest)
 
 write.csv(scenariotestgreedy,"../series/series2_winter/model_output/w23_greedy_test.csv")
 write.csv(scenariotest,"../series/series2_winter/model_output/w23_three_pin_test.csv")
