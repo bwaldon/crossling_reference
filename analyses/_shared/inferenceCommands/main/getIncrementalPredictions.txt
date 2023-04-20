@@ -8,8 +8,8 @@ var predictives = map(function(d) {
   var m = extend(model(estimates), {states : d.states, utterances : d.utterances}); 
   return {condition: d.condition, 
   size_color: incrementalUtteranceSpeaker("OVERMODIFYING_UTTERANCE","TARGET_REFERENT",m,estimates,semantics(estimates)),
-  color: incrementalUtteranceSpeaker("START sameType sameColor STOP","TARGET_REFERENT",m,estimates,semantics(estimates)),
-  size: incrementalUtteranceSpeaker("START sameSize sameType STOP","TARGET_REFERENT",m,estimates,semantics(estimates))}; 
+  color: incrementalUtteranceSpeaker("COLOR_UTTERANCE","TARGET_REFERENT",m,estimates,semantics(estimates)),
+  size: incrementalUtteranceSpeaker("SIZE_UTTERANCE","TARGET_REFERENT",m,estimates,semantics(estimates))}; 
   
 }, df)
 

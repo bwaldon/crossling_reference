@@ -7,8 +7,8 @@ var predictives = map(function(d) {
   var m = extend(model(estimates), {states : d.states, utterances : d.utterances}); 
   return {condition: d.condition, 
   size_color: Math.exp(globalUtteranceSpeaker("TARGET_REFERENT",m,estimates,semantics(estimates)).score("OVERMODIFYING_UTTERANCE")),
-  color: Math.exp(globalUtteranceSpeaker("TARGET_REFERENT",m,estimates,semantics(estimates)).score("START sameType sameColor STOP")),
-  size: Math.exp(globalUtteranceSpeaker("TARGET_REFERENT",m,estimates,semantics(estimates)).score("START sameSize sameType STOP"))}; 
+  color: Math.exp(globalUtteranceSpeaker("TARGET_REFERENT",m,estimates,semantics(estimates)).score("COLOR_UTTERANCE")),
+  size: Math.exp(globalUtteranceSpeaker("TARGET_REFERENT",m,estimates,semantics(estimates)).score("SIZE_UTTERANCE"))}; 
   
 }, df)
 

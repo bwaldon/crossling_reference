@@ -157,9 +157,9 @@ var incrementalUtteranceSpeaker = cache(function(utt, state, model, params, sema
 var posteriors = Infer({model: function(){
   var p = {
     alpha: uniformDrift({a: 0, b: 40, w: 0.01}),
-    colorNoiseVal: 1,
-    sizeNoiseVal: 1,
-    typeNoiseVal: 1,
+    colorNoiseVal: uniformDrift({a: 0.5, b: 1, w: .5/20}),
+    sizeNoiseVal: uniformDrift({a: 0.5, b: 1, w: .5/20}),
+    typeNoiseVal: uniformDrift({a: 0.5, b: 1, w: .5/20}),
     sizeCost: uniformDrift({a: 0, b: 2, w: .5/20}),
     nounCost: uniformDrift({a: 0, b: 2, w: .5/20}),
     colorCost: uniformDrift({a: 0, b: 2, w: .5/20})
@@ -167,13 +167,9 @@ var posteriors = Infer({model: function(){
 
   mapData({data: df}, function(d){
     // d: a row of the long-form data that includes d.states, d.utterances, d.response
-    //adding a line to test a theory
-    var m = extend(model(p), {states : d[\"states\"], utterances : d[\"utterances\"]})
-    //viz(m)
-    //adding another line
+    var m = extend(model(p), {states : d.states, utterances : d.utterances})
     var speakerDist = globalUtteranceSpeaker(\"sameColor_sameSize_sameType\",m,p,semantics(p))
-    // and another
-    var altUtilities = _.sum(_.map(function(u) { speakerDist.score(u) }, d[\"utterances\"]))
+    var altUtilities = _.sum(_.map(function(u) { speakerDist.score(u) }, d.utterances))
     var responseUtility = speakerDist.score(d.response)
     var score = responseUtility - altUtilities
     factor(score)

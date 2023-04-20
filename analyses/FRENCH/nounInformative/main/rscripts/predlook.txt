@@ -154,7 +154,8 @@ var incrementalUtteranceSpeaker = cache(function(utt, state, model, params, sema
     },indices)
     return reduce(function(x, acc) { return x * acc; }, 1, probs)
 }, 100000)
-var estimates = [{\"alpha\":29.2043585860834,\"colorNoiseVal\":0.998895018868103,\"sizeNoiseVal\":0.998895018868103,\"typeNoiseVal\":0.998895018868103,\"sizeCost\":0.0394515456594117,\"nounCost\":0.500387249387032,\"colorCost\":0}][0]
+var estimates = [{\"alpha\":3.9930103774837,\"colorNoiseVal\":0.949081162902431,\"sizeNoiseVal\":0.98041108375612,\"typeNoiseVal\":0.778851236702469,\"sizeCost\":0.017931890671778,\"nounCost\":0.00368501828528892,\"colorCost\":0.00502783552547912}][0]
+
 // console.log(estimates)
 // console.log(JSON.parse(estimates))
 // console.log(Object.keys(estimates))
@@ -163,9 +164,9 @@ var predictives = map(function(d) {
 
   var m = extend(model(estimates), {states : d.states, utterances : d.utterances}); 
   return {condition: d.condition, 
-  size_color: Math.exp(globalUtteranceSpeaker(\"sameColor_sameSize_sameType\",m,estimates,semantics(estimates)).score(\"START sameSize sameType sameColor STOP\")),
-  color: Math.exp(globalUtteranceSpeaker(\"sameColor_sameSize_sameType\",m,estimates,semantics(estimates)).score(\"START sameType sameColor STOP\")),
-  size: Math.exp(globalUtteranceSpeaker(\"sameColor_sameSize_sameType\",m,estimates,semantics(estimates)).score(\"START sameSize sameType STOP\"))}; 
+  size_color: incrementalUtteranceSpeaker(\"START sameSize sameColor sameType STOP\",\"sameColor_sameSize_sameType\",m,estimates,semantics(estimates)),
+  color: incrementalUtteranceSpeaker(\"START sameColor sameType STOP\",\"sameColor_sameSize_sameType\",m,estimates,semantics(estimates)),
+  size: incrementalUtteranceSpeaker(\"START sameSize sameType STOP\",\"sameColor_sameSize_sameType\",m,estimates,semantics(estimates))}; 
   
 }, df)
 

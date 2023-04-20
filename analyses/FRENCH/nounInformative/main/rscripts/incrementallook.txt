@@ -166,24 +166,17 @@ var posteriors = Infer({model: function(){
   }
 
   mapData({data: df}, function(d){
-    // d: a row of the long-form data that includes d.states, d.utterances, d.response
-    //adding a line to test a theory
-    var m = extend(model(p), {states : d[\"states\"], utterances : d[\"utterances\"]})
-    //viz(m)
-    //adding another line
-    var speakerDist = globalUtteranceSpeaker(\"sameColor_sameSize_sameType\",m,p,semantics(p))
-    // and another
-    var altUtilities = _.sum(_.map(function(u) { speakerDist.score(u) }, d[\"utterances\"]))
-    var responseUtility = speakerDist.score(d.response)
+    var m = extend(model(p), {states : d.states, utterances : d.utterances})
+    var altUtilities = _.sum(_.map(function(u) { Math.log(incrementalUtteranceSpeaker(u,\"sameColor_sameSize_sameType\",m,p,semantics(p))) }, d.utterances))
+    var responseUtility = Math.log(incrementalUtteranceSpeaker(d.response,\"sameColor_sameSize_sameType\",m,p,semantics(p)))
     var score = responseUtility - altUtilities
     factor(score)
-
   })
 
   return p
 }, method: \"MCMC\",
 samples: 2500,
-lag: 0, burn: 2500,
+lag: 0, burn: 7500,
 verbose: true})
 
 posteriors"
