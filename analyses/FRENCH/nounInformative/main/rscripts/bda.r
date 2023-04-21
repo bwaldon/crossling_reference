@@ -487,3 +487,178 @@ write.table(incrementalContinuousPredictionScript_both_eng, file = "predlook.txt
 incrementalContinuousPredictives_both_eng <- webppl(incrementalContinuousPredictionScript_both_eng, data = statesUtterances_eng, data_var = "df")
 graphPredictives(incrementalContinuousPredictives_both_eng, d_eng)
 ggsave("results/incrementalContinuous/predictives_both_eng.png", width = 4, height = 3, units = "in")
+
+# # # # XPRAG GRAPHING
+
+theme_set(theme_bw(13))
+
+predictions_agr <- rbind(vanillaPredictives_both_eng %>% mutate(model = "vanilla", language = "english"),
+                         vanillaPredictives_both_fr %>% mutate(model = "vanilla", language = "french"),
+                         continuousPredictives_both_eng %>% mutate(model = "continuous", language = "english"),
+                         continuousPredictives_both_fr %>% mutate(model = "continuous", language = "french"),
+                         incrementalPredictives_both_eng %>% mutate(model = "incremental", language = "english"),
+                         incrementalPredictives_both_fr %>% mutate(model = "incremental", language = "french"),
+                         incrementalContinuousPredictives_both_eng %>% mutate(model = "incrementalContinuous", language = "english"),
+                         incrementalContinuousPredictives_both_fr %>% mutate(model = "incrementalContinuous", language = "french")) %>%
+  pivot_longer(cols = c("size_color","color","size"),
+               names_to = "utterance",
+               values_to = "prediction")
+
+df_agr <- rbind(d_eng %>% mutate(language = "english"),
+                d_fr %>% mutate(language = "french")) %>% 
+  pivot_longer(cols = c("size_color","color","size"),
+               names_to = "utterance",
+               values_to = "observation")
+ 
+agr %>% group_by(model) %>%
+  summarise(rsq = cor(prediction,observation)^2)
+
+agr <- predictions_agr %>%
+  left_join(df_agr, by = c("condition","language","utterance")) %>%
+  mutate(bestModel = case_when(model == "continuous" ~ 1,
+                               TRUE ~ 0),
+         model = fct_relevel(model, "continuous", "vanilla", "incrementalContinuous", "incremental"),
+         model = fct_recode(model, "Continuous" = "continuous",
+                            "Vanilla" = "vanilla",
+                            "Continuous-incr." = "incrementalContinuous",
+                            "Incremental" = "incremental"),
+         language = fct_recode(language, "English" = "english",
+                               "French" = "french")) %>%
+  mutate(scene = ifelse(grepl("size", condition, fixed = TRUE), "Size redundant", "Color redundant"))
+  
+ggplot(agr, aes(x = prediction, y = observation, # color = model, alpha = bestModel,
+                shape = language, color = scene)) +
+  facet_wrap(~model) +
+  scale_alpha_continuous(range = c(1, 1)) +
+  geom_point() +
+  # guides(alpha="none") +
+  guides(color=guide_legend(ncol=1, title.position = "top")) +
+  guides(shape=guide_legend(ncol=1, title.position = "top")) +
+  theme(legend.position = "bottom") +
+  scale_color_viridis(discrete = TRUE, end = 0.75, name = "Scene type") +
+  labs(shape = "Language") +
+  xlab("Predicted utterance proportion") +
+  ylab("Observed proportion") 
+  
+ggsave(file="../graphs/model_predictions_xprag.pdf",width=4,height=6)
+ggsave(file="../graphs/model_predictions_xprag.png",width=4,height=4)
+
+posteriors_toplot <- continuousPosteriors_both %>% filter(Parameter %in% c("colorNoiseVal","sizeNoiseVal","typeNoiseVal"))
+posteriors_toplot$Parameter <- relevel(posteriors_toplot$Parameter, ref = "colorNoiseVal")
+labels <- c(colorNoiseVal = "color", sizeNoiseVal = "size", typeNoiseVal = "type")
+scale_value=1
+ggplot(posteriors_toplot, aes(x = value)) +
+         geom_histogram(aes(y=..density..),
+                        data=subset(posteriors_toplot, Parameter == "colorNoiseVal"),
+                        binwidth = .01, colour="black", fill="white") +
+         geom_histogram(aes(y=..density..),
+                        data =subset(posteriors_toplot, Parameter == "sizeNoiseVal" ),
+                        binwidth = .01, colour="black", fill="white") +
+         geom_histogram(aes(y=..density..),
+                        data =subset(posteriors_toplot, Parameter == "typeNoiseVal" ),
+                        binwidth = .01, colour="black", fill="white") +
+         geom_density(aes(y=..density..), alpha=.5,
+                      data=subset(posteriors_toplot, Parameter == "colorNoiseVal"),
+                      adjust = 2, fill="#FF6666") +
+         geom_density(aes(y=..density..), alpha=.5,
+                      data=subset(posteriors_toplot, Parameter == "sizeNoiseVal"),
+                      adjust = 2, fill="#FF6666") + 
+         geom_density(aes(y=..density..), alpha=.5,
+                      data=subset(posteriors_toplot, Parameter == "typeNoiseVal"),
+                      adjust = 2, fill="#FF6666") + 
+         ylab("Density") +
+         xlab("Semantic Value") +
+         xlim(0,1) +
+         facet_grid(Parameter ~. , scales = 'free', labeller=labeller(Parameter = labels)) +
+         theme(panel.border = element_rect(size=.2),
+               plot.margin = unit(x = c(0.05, 0.02, 0.05, 0.05), units = "in"),
+               panel.grid = element_line(size = .4),
+               axis.line        = element_line(colour = "black", size = .2),
+               axis.ticks       = element_line(colour = "black", size = .2),
+               axis.ticks.length = unit(2, "pt"),
+               # axis.text.x        = element_text(size = 10 * scale_value, colour = "black",vjust=2),
+               # axis.text.y        = element_text(size = 10 * scale_value, colour = "black",margin = margin(r = 0.3)),#,hjust=-5),
+               # axis.title.x       = element_text(size = 10 * scale_value, margin = margin(t = .5)),
+               # axis.title.y       = element_text(size = 10 * scale_value, margin = margin(r = .5)),
+               strip.text      = element_text(size = 10 * scale_value,margin=margin(t=4,r=4,b=4,l=4,unit="pt"))) +
+  xlim(0.75,1) # +
+  # ggtitle("Posterior parameter estimates")
+
+ggsave(file="../graphs/model_posteriors_xprag.png",width=4,height=4)
+
+
+# # # 
+
+source("../../../../_shared/regressionHelpers.r")
+library(viridis)
+
+
+d <- bind_rows(read_delim("../../../../../data/FRENCH/nounInformative/main/data_exp1.tsv", delim = "\t") %>% mutate(Language = "French"),
+               read_delim("../../../../../data/ENGLISH2022_summer/nounInformative/main/main_data_exp1.tsv", delim = "\t") %>% mutate(Language = "English"))
+
+condition_info = read_csv("../../../data/condition-information.csv")
+
+d = d %>% 
+  left_join(condition_info,by=c("condition","NumDistractors")) %>%
+  mutate(NounMentioned = case_when(typeMentioned == TRUE ~ "noun",
+                                   TRUE ~ "no noun")) %>% 
+  mutate(RedundantProperty = fct_recode(RedundantProperty, "color"="color redundant","size"="size redundant"))
+
+d$DiffSize = d$NumDistractors - d$SameSize
+d$DiffColor = d$NumDistractors - d$SameColor
+d$DiffNoun = d$NumDistractors - d$SameNoun
+
+# proportion of distractors with different noun (one proxy for redundant property informativeness)
+d$propDiffNoun = round(d$DiffNoun / d$NumDistractors,2)
+# proportion of distractors with different redundant property value (a second proxy for redundant property informativeness)
+d = d %>% 
+  mutate(propDiffRedundant = case_when(RedundantProperty == "color" ~ DiffColor / NumDistractors,
+                                       RedundantProperty == "size" ~ DiffSize / NumDistractors,
+                                       TRUE ~ 555))
+
+# prepare joint dataset for analysis
+# prepare english dataset for analysis
+dm <- d %>% 
+  filter(TrialType == "target") %>% 
+  droplevels() %>% 
+  mutate(RedundantProperty=fct_relevel(RedundantProperty,"size")) %>% 
+  mutate(Language=fct_relevel(as.factor(Language),"French")) %>% 
+  mutate(redUtterance = as.factor(redUtterance), # outcome variable
+         cRedundantProperty = as.numeric(as.factor(RedundantProperty)) - mean(as.numeric(as.factor(RedundantProperty))),
+         cpropDiffNoun = propDiffNoun - mean(propDiffNoun),
+         cpropDiffRedundant = propDiffRedundant - mean(propDiffRedundant),
+         gameid = factor(gameid),
+         cLanguage = as.numeric(as.factor(Language)) - mean(as.numeric(as.factor(Language))),
+         Item = as.factor(ItemID)) # edited:
+
+contrasts(dm$redUtterance) # contrasts set to predict redundancy
+contrasts(as.factor(dm$RedundantProperty)) # ref level: size redundant
+contrasts(as.factor(dm$Language)) # ref level: French
+
+# plot both languages in one figure for xprag
+# PLOT PROPORTION OF REDUNDANT UTTERANCES BY REDUNDANT PROPERTY
+agr <- dm %>%
+  group_by(RedundantProperty,propDiffNoun,propDiffRedundant,Language) %>%
+  summarise(Probability=mean(redundant),ci.low=ci.low(redundant),ci.high=ci.high(redundant)) %>%
+  ungroup() %>%
+  mutate(YMin = Probability - ci.low, YMax = Probability + ci.high)
+
+ggplot(agr, aes(x=propDiffRedundant,y=Probability,color=propDiffNoun)) +
+  # geom_point(position=dodge) +
+  geom_point(size=2) +
+  # geom_text(aes(label=numCondition)) +
+  # geom_errorbar(aes(ymin=YMin,ymax=YMax),width=.03,position=dodge) +
+  geom_errorbar(aes(ymin=YMin,ymax=YMax),width=.03) +
+  # xlab("Proportion of distractors with different redundant property value") +
+  xlab("Informativeness of redundant property") +
+  ylab("Proportion of redundant modifiers") +
+  # scale_color_manual(name="Redundant\nproperty",values=cbPalette[1:2]) +
+  # scale_color_viridis(name="Proportion of distractors with different noun",begin=.8,end=0,breaks = c(.2,.4,.6)) +
+  scale_color_viridis(name="Informativeness of noun",begin=.8,end=0,breaks = c(.2,.4,.6)) +  
+  # scale_shape_manual(name="Proportion of\ndistractors with\ndifferent noun",values=c(0,7,15))
+  # scale_alpha_continuous(range=c(.3,1))
+  facet_grid(Language~RedundantProperty) +
+  theme(legend.position="top",legend.margin=margin(b=-10))
+
+ggsave(file="../graphs/redundant_proportions_xprag.pdf",width=8,height=6)
+ggsave(file="../graphs/redundant_proportions_xprag.png",width=4,height=4)
